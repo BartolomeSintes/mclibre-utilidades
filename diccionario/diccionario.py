@@ -17,7 +17,7 @@ DICT_OTROS = "diccionario_otros.txt"
 DICT_LIST = [
     [DICT_ESPANOL, "español", MINUSCULAS],
     [DICT_INGLES, "inglés", MINUSCULAS],
-    [DICT_OTROS, "otros", MAYUSCULAS],
+    [DICT_OTROS, "otros", MINUSCULAS],
     [DICT_HTML, "html", MINUSCULAS],
     [DICT_CSS, "css", MINUSCULAS],
     [DICT_SVG, "svg", MINUSCULAS],
@@ -28,6 +28,7 @@ DICT_LIST = [
 ]
 
 ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
+# ORIGEN_HTML = "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\htmlcss"
 # ORIGEN_HTML = "C:/tmp/python-diccionario-prueba"
 
 EXTENSIONES = ["html"]
@@ -105,33 +106,50 @@ def ordena_diccionarios():
                     palabras = fichero.read().split()
                 dicts += palabras
                 # print(f"El diccionario contine {len(dicts)}.")
-                dicts.sort(reverse=True)
-                for j in range(len(dicts)-1, -1, -1):
-                    if dicts[j][0].lower() != dicts[j][0]:
-                        busca = dicts[j][0].lower() + dicts[j][1:]
-                        k = j
-                        while k > 0:
-                            # print(f"{k} ", end="")
-                            if dicts[k] == busca:
-                                # print(f"Repetida: {dicts[j]} {dicts[k]}")
-                                del dicts[j]
-                                k = 0
-                            k -= 1
-                # print(f"El diccionario contine {len(dicts)}.")
                 for j in range(len(dicts)):
-                    if len(dicts[j]) > 1 and dicts[j][0].lower() != dicts[j][0] and dicts[j][1].lower() == dicts[j][1]:
-                        dicts[j] = dicts[j][0].lower() + dicts[j][1:]
-                        # print(f"Cambia {dicts[j]}")
-                    if len(dicts[j]) == 1 and dicts[j][0].lower() != dicts[j][0]:
-                        dicts[j] = dicts[j][0].lower()
-                        # print(f"Cambia {dicts[j]}")
+                    dicts[j] = dicts[j].lower()
                 dicts.sort()
+                for j in range(len(dicts) - 1, 0, -1):
+                    k = j - 1
+                    while k >= 0:
+                        if dicts[k] == dicts[j]:
+                            del dicts[j]
+                            k = 0
+                        k -= 1
+
+                # 2018-06-04. Esta parte ponía en minúsculas sólo la primera letra
+                # dicts.sort(reverse=True)
+                # for j in range(len(dicts) - 1, -1, -1):
+                #     if dicts[j][0].lower() != dicts[j][0]:
+                #         busca = dicts[j][0].lower() + dicts[j][1:]
+                #         k = j
+                #         while k > 0:
+                #             # print(f"{k} ", end="")
+                #             if dicts[k] == busca:
+                #                 # print(f"Repetida: {dicts[j]} {dicts[k]}")
+                #                 del dicts[j]
+                #                 k = 0
+                #             k -= 1
+                # # print(f"El diccionario contine {len(dicts)}.")
+                # for j in range(len(dicts)):
+                #     if (
+                #         len(dicts[j]) > 1
+                #         and dicts[j][0].lower() != dicts[j][0]
+                #         and dicts[j][1].lower() == dicts[j][1]
+                #     ):
+                #         dicts[j] = dicts[j][0].lower() + dicts[j][1:]
+                #         # print(f"Cambia {dicts[j]}")
+                #     if len(dicts[j]) == 1 and dicts[j][0].lower() != dicts[j][0]:
+                #         dicts[j] = dicts[j][0].lower()
+                #         # print(f"Cambia {dicts[j]}")
+                # dicts.sort()
                 total_palabras += len(dicts)
                 # print(f"Diccionarios: {dicts}")
             with open(i[0], "w", encoding="utf-8") as fichero_dic:
                 for palabra in dicts:
                     print(f"{palabra} ", file=fichero_dic)
-    print(f"Los diccionarios contiene ahora {total_palabras} términos.")
+    print(f"Los diccionarios contienen ahora {total_palabras} términos.")
+
 
 class MyHTMLParser(html.parser.HTMLParser):
     lista_urls = []
@@ -149,7 +167,7 @@ class MyHTMLParser(html.parser.HTMLParser):
             if tag == i[0]:
                 for j in attrs:
                     if j[0] == i[1]:
-                        self.lista_urls += [f'{i[1]}="{j[1]}"']
+                        self.lista_urls += [f'{i[1]}="{j[1]}"', j[1]]
                         # print(f"encontrado {i[0]}, {i[1]}")
 
 
@@ -188,36 +206,32 @@ def main():
             if seguir_incluyendo:
                 contador += 1
                 print()
-                print(filename)
+                print(f"{contador}: {filename}")
                 urls_para_eliminar = elimina_urls(filename)
                 with open(filename, "r", encoding="utf-8") as fichero:
                     texto = fichero.read()
+
                     # elimina scripts JS
                     x = re.search(r"<script>[^<]+<\/script>", texto)
                     while x:
                         # print(x.group())
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"<script>[^<]+<\/script>", texto)
+
                     # elimina etiquetas
                     x = re.search(r"<[^>]+>", texto)
                     while x:
                         # print(x.group())
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"<[^>]+>", texto)
+
                     # elimina comentarios CSS /*  ... */
                     x = re.search(r"\/\*[^*]+\*\/", texto)
                     while x:
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"\/\*[^*]+\*\/", texto)
-                    # elimina números con unidades
-                    unidades = ["%", "px", "em", "rem", "pt", "in", "pc", "cm", "ex", "ch"]
-                    for i in unidades:
-                        x = re.search(r"-?[\d\.\d]+"+i, texto)
-                        while x:
-                            # print(x.group())
-                            texto = texto.replace(x.group(), " ")
-                            x = re.search(r"-?[\d\.\d]+"+i, texto)
-                    # Tengo que eliminar primero los #RGB de 6 y luego cualquiera
+
+                    # Tengo que eliminar primero los #RGB de 6 y luego los de 3
                     # porque si no eliminaba #000 y #FFF y se quedaban tres caracteres sueltos
                     # elimina códigos de colores #RGB
                     x = re.search(r"#[0-9a-fA-F]{6}", texto)
@@ -225,31 +239,46 @@ def main():
                         # print(x.group())
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"#[0-9a-fA-F]{6}", texto)
-                    # elimina códigos de colores #RGB
-                    x = re.search(r"#[0-9a-fA-F]+", texto)
+                    x = re.search(r"#[0-9a-fA-F]{3}", texto)
                     while x:
                         # print(x.group())
                         texto = texto.replace(x.group(), " ")
-                        x = re.search(r"#[0-9a-fA-F]+", texto)
+                        x = re.search(r"#[0-9a-fA-F]{3}", texto)
+
                     # elimina códigos de colores rgb()
                     x = re.search(r"rgb\([0-9, ]+\)", texto)
                     while x:
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"rgb\([0-9, ]+\)", texto)
+
                     # elimina códigos de colores hsl()
                     x = re.search(r"hsl\([0-9, ]+\)", texto)
                     while x:
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"hsl\([0-9, ]+\)", texto)
+
                     # elimina números sin unidades
-                    x = re.search(r"\s[0-9]+\s", texto)
+                    x = re.search(r"\s-?[0-9]+[\s;]", texto)
                     while x:
                         # print(x.group())
                         texto = texto.replace(x.group(), " ")
-                        x = re.search(r"\s[0-9]+\s", texto)
-                    # elimina urls
-                    for i in urls_para_eliminar:
-                        texto = texto.replace(i, " ")
+                        x = re.search(r"\s-?[0-9]+[\s;]", texto)
+
+                    # elimina números sin unidades con guión detrás
+                    # para los comentarios entre guiones que uso para fechas
+                    x = re.search(r"\s-?[0-9]+-[\s,]", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"\s-?[0-9]+-[\s,]", texto)
+
+                    # elimina fechas en formato AAAA-MM-DD
+                    x = re.search(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", texto)
+
                     # elimina entidades numéricas
                     x = re.search("&amp;[#0-9a-zA-Z]+;", texto)
                     while x:
@@ -259,14 +288,59 @@ def main():
                     while x:
                         texto = texto.replace(x.group(), " ")
                         x = re.search("&[#0-9a-zA-Z]+;", texto)
-                    # elimina caracteres que no son letras
-                    elimina = '<>=""\/().¿?¡!:,;[]()%{}|^'
+
+                    # elimina urls
+                    for i in urls_para_eliminar:
+                        texto = texto.replace(i, " ")
+
+                    # elimina urls CSS
+                    x = re.search(r"url\([^)]+\)", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"url\([^)]+\)", texto)
+
+                    # elimina números con unidades
+                    unidades = [
+                        "%",
+                        "px",
+                        "em",
+                        "rem",
+                        "pt",
+                        "in",
+                        "pc",
+                        "cm",
+                        "mm",
+                        "ex",
+                        "ch",
+                        "q",
+                        "dpi",
+                    ]
+                    for i in unidades:
+                        x = re.search(r"-?[\d\.\d]+" + i + r"[\s.;,)]", texto)
+                        while x:
+                            # print(x.group())
+                            texto = texto.replace(x.group(), " ")
+                            x = re.search(r"-?[\d\.\d]+" + i + r"[\s.;,)]", texto)
+
+                    # # elimina comillas en palabras entrecomilladas
+                    # No sirve tendría que dejar la palabra y qitar sólo las comillas
+                    # x = re.search(r"\'[a-zA-Z]+\'", texto)
+                    # # print(x.group())
+                    # while x:
+                    #     texto = texto.replace(x.group(), " ")
+                    #     x = re.search("'[a-zA-Z]+'", texto)
+
+                    # elimina resto de caracteres que no son letras
+                    elimina = r'<>=""\/().¿?¡!:,[]()%{}|;^'
                     for i in elimina:
                         texto = texto.replace(i, " ")
+
                     # elimina otros caracteres
-                    elimina = [" - ", " -\n", "\n- ", " + "]
+                    elimina = [" - ", " -\n", "\n- ", " + ", " '", "' ", "'."]
                     for i in elimina:
                         texto = texto.replace(i, " ")
+
                     # elimina saltos de línea y espacios
                     texto = texto.replace("\n", " ")
                     texto = texto.replace("\r", " ")
@@ -280,39 +354,54 @@ def main():
                     # print(palabras)
                     for palabra in palabras:
                         palabra_original = palabra
-                        if not palabra in dicts_excepciones:
-                            if len(palabra) > 1 and palabra[0].lower() != palabra[0] and palabra[1].lower() == palabra[1]:
-                                palabra = palabra[0].lower() + palabra[1:]
-                                # print(f"Cambia {dicts[j]}")
-                            if len(palabra) == 1 and palabra[0].lower() != palabra[0]:
-                                palabra = palabra.lower()
+                        palabra = palabra.lower()
+                        # 2019-06-04 Al añadir la instrucción anterior lo siguiente no tiene sentido. Cuadno cree el diccionario de variantes en mayúsculas lo recuperaré
+                        # if not palabra in dicts_excepciones:
+                        #     if (
+                        #         len(palabra) > 1
+                        #         and palabra[0].lower() != palabra[0]
+                        #         and palabra[1].lower() == palabra[1]
+                        #     ):
+                        #         palabra = palabra[0].lower() + palabra[1:]
+                        #         # print(f"Cambia {dicts[j]}")
+                        #     if len(palabra) == 1 and palabra[0].lower() != palabra[0]:
+                        #         palabra = palabra.lower()
 
-                        if not palabra in dicts and not palabra.isnumeric() and seguir_incluyendo:
+                        if (
+                            not palabra in dicts
+                            and not palabra.isnumeric()
+                            and seguir_incluyendo
+                        ):
                             print("0: Saltar - ", end="")
                             for _ in range(len(DICT_LIST)):
                                 print(f"{_+1}: {DICT_LIST[_][1]} - ", end="")
                             print("x: SALIR")
                             print()
-                            print(palabra)
+                            print(palabra_original)
                             print()
-                            incluir = input("Incluir? ")
+                            incluir = input("¿Incluir? ")
                             if incluir == "x":
                                 seguir_incluyendo = False
                             elif DICT_LIST[int(incluir) - 1][0] == DICT_OTROS:
                                 with open(
-                                    DICT_LIST[int(incluir) - 1][0], "a", encoding="utf-8"
+                                    DICT_LIST[int(incluir) - 1][0],
+                                    "a",
+                                    encoding="utf-8",
                                 ) as fichero_dic:
                                     print(f"{palabra_original} ", file=fichero_dic)
                                 dicts += [palabra_original]
                                 dicts_excepciones += [palabra_original]
                             elif 0 < int(incluir) < len(DICT_LIST):
                                 with open(
-                                    DICT_LIST[int(incluir) - 1][0], "a", encoding="utf-8"
+                                    DICT_LIST[int(incluir) - 1][0],
+                                    "a",
+                                    encoding="utf-8",
                                 ) as fichero_dic:
                                     print(f"{palabra} ", file=fichero_dic)
                                 dicts += [palabra]
 
     ordena_diccionarios()
+
 
 if __name__ == "__main__":
     main()
