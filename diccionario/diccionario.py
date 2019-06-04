@@ -95,6 +95,7 @@ def estadisticas():
 
 def ordena_diccionarios():
     # Carga diccionarios
+    total_palabras = 0
     for i in DICT_LIST:
         if i[2] == MINUSCULAS:
             dicts = []
@@ -125,10 +126,12 @@ def ordena_diccionarios():
                         dicts[j] = dicts[j][0].lower()
                         # print(f"Cambia {dicts[j]}")
                 dicts.sort()
+                total_palabras += len(dicts)
                 # print(f"Diccionarios: {dicts}")
             with open(i[0], "w", encoding="utf-8") as fichero_dic:
                 for palabra in dicts:
                     print(f"{palabra} ", file=fichero_dic)
+    print(f"Los diccionarios contiene ahora {total_palabras} términos.")
 
 class MyHTMLParser(html.parser.HTMLParser):
     lista_urls = []
@@ -207,18 +210,43 @@ def main():
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"\/\*[^*]+\*\/", texto)
                     # elimina números con unidades
-                    unidades = ["%", "px", "em", "rem"]
+                    unidades = ["%", "px", "em", "rem", "pt", "in", "pc", "cm", "ex", "ch"]
                     for i in unidades:
-                        x = re.search(r"[\d\.\d]+"+i, texto)
+                        x = re.search(r"-?[\d\.\d]+"+i, texto)
                         while x:
                             # print(x.group())
                             texto = texto.replace(x.group(), " ")
-                            x = re.search(r"[\d\.\d]+"+i, texto)
-                    # elimina códigos de colores
-                    x = re.search(r"#[0-9a-fA-F]{3,6}", texto)
+                            x = re.search(r"-?[\d\.\d]+"+i, texto)
+                    # Tengo que eliminar primero los #RGB de 6 y luego cualquiera
+                    # porque si no eliminaba #000 y #FFF y se quedaban tres caracteres sueltos
+                    # elimina códigos de colores #RGB
+                    x = re.search(r"#[0-9a-fA-F]{6}", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"#[0-9a-fA-F]{6}", texto)
+                    # elimina códigos de colores #RGB
+                    x = re.search(r"#[0-9a-fA-F]+", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"#[0-9a-fA-F]+", texto)
+                    # elimina códigos de colores rgb()
+                    x = re.search(r"rgb\([0-9, ]+\)", texto)
                     while x:
                         texto = texto.replace(x.group(), " ")
-                        x = re.search(r"#[0-9a-fA-F]{3,6}", texto)
+                        x = re.search(r"rgb\([0-9, ]+\)", texto)
+                    # elimina códigos de colores hsl()
+                    x = re.search(r"hsl\([0-9, ]+\)", texto)
+                    while x:
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"hsl\([0-9, ]+\)", texto)
+                    # elimina números sin unidades
+                    x = re.search(r"\s[0-9]+\s", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"\s[0-9]+\s", texto)
                     # elimina urls
                     for i in urls_para_eliminar:
                         texto = texto.replace(i, " ")
@@ -232,7 +260,7 @@ def main():
                         texto = texto.replace(x.group(), " ")
                         x = re.search("&[#0-9a-zA-Z]+;", texto)
                     # elimina caracteres que no son letras
-                    elimina = '<>=""\'/().¿?¡!:,;[]()%{}'
+                    elimina = '<>=""\/().¿?¡!:,;[]()%{}|^'
                     for i in elimina:
                         texto = texto.replace(i, " ")
                     # elimina otros caracteres
@@ -249,6 +277,7 @@ def main():
 
                     # print(texto)
                     palabras = texto.split()
+                    # print(palabras)
                     for palabra in palabras:
                         palabra_original = palabra
                         if not palabra in dicts_excepciones:

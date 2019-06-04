@@ -13,4 +13,5 @@ Esta aplicación genera la lista de palabras que hay en los ficheros de un direc
 * 2019-06-03. Al revisar diccionarios que quite repeticiones.
 * 2019-06-03. No tengo claro que la expresión regular que he puesto para eliminar bloques script no falle si hay un &lt; dentro del bloque.
 
-
+* 2019-06-04. Si hay una palabra entre comillas debería quitar las comillas pero dejar la palabra
+* 2019-06-04. Repasar manualmente los diccionarios para aclarar qué va en cada uno.
