@@ -1,6 +1,3 @@
-DOCTYPE 
-UTF-8 
-XHTML 
 a 
 abbr 
 alt 
@@ -20,6 +17,7 @@ device-width
 device-width, 
 dfn 
 div 
+doctype 
 es 
 favicon 
 footer 
@@ -42,11 +40,12 @@ lang
 li 
 link 
 mark 
-mathML 
+mathml 
 meta 
 name 
 nav 
 object 
+ol 
 p 
 pre 
 q 
@@ -73,3 +72,4 @@ utf-8
 var 
 viewport 
 width 
+xhtml 
