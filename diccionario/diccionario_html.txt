@@ -12,6 +12,7 @@ charset
 cite 
 class 
 code 
+col 
 content 
 css 
 data 

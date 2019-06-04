@@ -1,3 +1,4 @@
+#iefix' 
 b 
 c 
 c-c 
@@ -14,7 +15,10 @@ compl
 corta 
 d 
 data-canonical-src 
+div#intro 
 e 
+estilo_bn 
+estilo_color 
 f 
 filaflex 
 icono-enlace 
@@ -37,6 +41,11 @@ nVerdeDec
 nVerdeH 
 nVerdeHex 
 no-justificado 
+nombre_de_archivo_1 
+nombre_de_archivo_2 
+nombre_del_archivo 
+p1 
+p2 
 rectangulo 
 rectangulo2 
 reducir-clases-combinando 
