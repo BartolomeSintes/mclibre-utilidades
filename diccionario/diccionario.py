@@ -1,30 +1,41 @@
 import pathlib, html.parser, re
 
-MINUSCULAS = True
-MAYUSCULAS = False
-
+DICT_EXCEPCIONES = "diccionario_excepciones.txt"
 DICT_ESPANOL = "diccionario_espanol.txt"
 DICT_INGLES = "diccionario_ingles.txt"
+DICT_FRANCES = "diccionario_frances.txt"
+DICT_LATIN = "diccionario_latin.txt"
+DICT_VALENCIANO = "diccionario_valenciano.txt"
+DICT_ALEMAN = "diccionario_aleman.txt"
+DICT_NONSENSE = "diccionario_nonsense.txt"
+DICT_NOMBRES = "diccionario_nombres.txt"
+DICT_TECNICOS = "diccionario_tecnicos.txt"
 DICT_HTML = "diccionario_html.txt"
 DICT_CSS = "diccionario_css.txt"
-DICT_SVG = "diccionario.txt"
 DICT_MIS_CSS = "diccionario_mis_css.txt"
+DICT_SVG = "diccionario_svg.txt"
 DICT_JAVASCRIPT = "diccionario_javascript.txt"
 DICT_PYTHON = "diccionario_python.txt"
-DICT_PHP = "diccionario.txt"
-DICT_OTROS = "diccionario_otros.txt"
+DICT_PHP = "diccionario_php.txt"
 
 DICT_LIST = [
-    [DICT_ESPANOL, "español", MINUSCULAS],
-    [DICT_INGLES, "inglés", MINUSCULAS],
-    [DICT_OTROS, "otros", MINUSCULAS],
-    [DICT_HTML, "html", MINUSCULAS],
-    [DICT_CSS, "css", MINUSCULAS],
-    [DICT_SVG, "svg", MINUSCULAS],
-    [DICT_MIS_CSS, "mis-css", MINUSCULAS],
-    [DICT_JAVASCRIPT, "js", MINUSCULAS],
-    [DICT_PYTHON, "py", MINUSCULAS],
-    [DICT_PHP, "php", MINUSCULAS],
+    [DICT_EXCEPCIONES, "excepciones", 1, 11],
+    [DICT_ESPANOL, "español", 2, 12],
+    [DICT_INGLES, "inglés", 3, 13],
+    [DICT_NOMBRES, "nombres", 4, 14],
+    [DICT_TECNICOS, "técnicos", 5, 15],
+    [DICT_HTML, "html", 6, 16],
+    [DICT_CSS, "css", 7, 17],
+    [DICT_MIS_CSS, "mis-css", 8, 18],
+    [DICT_SVG, "svg", 21, 22],
+    [DICT_JAVASCRIPT, "js", 23, 24],
+    [DICT_PYTHON, "py", 25, 26],
+    [DICT_PHP, "php", 27, 28],
+    [DICT_FRANCES, "francés", 31, 32],
+    [DICT_LATIN, "latín", 33, 34],
+    [DICT_VALENCIANO, "valenciano", 35, 36],
+    [DICT_ALEMAN, "alemán", 37, 38],
+    [DICT_NONSENSE, "nonsense", 39, 40],
 ]
 
 ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
@@ -95,59 +106,32 @@ def estadisticas():
 
 
 def ordena_diccionarios():
-    # Carga diccionarios
     total_palabras = 0
     for i in DICT_LIST:
-        if i[2] == MINUSCULAS:
-            dicts = []
-            # print(f"Carga {i[1]}")
-            if pathlib.Path(i[0]).exists():
-                with open(i[0], "r", encoding="utf-8") as fichero:
-                    palabras = fichero.read().split()
-                dicts += palabras
-                # print(f"El diccionario contine {len(dicts)}.")
-                for j in range(len(dicts)):
-                    dicts[j] = dicts[j].lower()
-                dicts.sort()
-                for j in range(len(dicts) - 1, 0, -1):
-                    k = j - 1
-                    while k >= 0:
-                        if dicts[k] == dicts[j]:
-                            del dicts[j]
-                            k = 0
-                        k -= 1
-
-                # 2018-06-04. Esta parte ponía en minúsculas sólo la primera letra
-                # dicts.sort(reverse=True)
-                # for j in range(len(dicts) - 1, -1, -1):
-                #     if dicts[j][0].lower() != dicts[j][0]:
-                #         busca = dicts[j][0].lower() + dicts[j][1:]
-                #         k = j
-                #         while k > 0:
-                #             # print(f"{k} ", end="")
-                #             if dicts[k] == busca:
-                #                 # print(f"Repetida: {dicts[j]} {dicts[k]}")
-                #                 del dicts[j]
-                #                 k = 0
-                #             k -= 1
-                # # print(f"El diccionario contine {len(dicts)}.")
-                # for j in range(len(dicts)):
-                #     if (
-                #         len(dicts[j]) > 1
-                #         and dicts[j][0].lower() != dicts[j][0]
-                #         and dicts[j][1].lower() == dicts[j][1]
-                #     ):
-                #         dicts[j] = dicts[j][0].lower() + dicts[j][1:]
-                #         # print(f"Cambia {dicts[j]}")
-                #     if len(dicts[j]) == 1 and dicts[j][0].lower() != dicts[j][0]:
-                #         dicts[j] = dicts[j][0].lower()
-                #         # print(f"Cambia {dicts[j]}")
-                # dicts.sort()
-                total_palabras += len(dicts)
-                # print(f"Diccionarios: {dicts}")
-            with open(i[0], "w", encoding="utf-8") as fichero_dic:
-                for palabra in dicts:
-                    print(f"{palabra} ", file=fichero_dic)
+        dicts = []
+        # Carga diccionario
+        if pathlib.Path(i[0]).exists():
+            with open(i[0], "r", encoding="utf-8") as fichero:
+                palabras = fichero.read().split()
+            dicts += palabras
+            # Ordena diccionario
+            dicts.sort()
+            # Borra valores repetidos
+            for j in range(len(dicts) - 1, 0, -1):
+                k = j - 1
+                while k >= 0:
+                    if dicts[k] == dicts[j]:
+                        del dicts[j]
+                        k = 0
+                    k -= 1
+            total_palabras += len(dicts)
+            # Descuenta las palabras de DICT_EXCEPCIONES
+            if i[0] == DICT_EXCEPCIONES or i[0] == DICT_MIS_CSS:
+                total_palabras -= len(dicts)
+        # Guarda diccionario
+        with open(i[0], "w", encoding="utf-8") as fichero_dic:
+            for palabra in dicts:
+                print(f"{palabra} ", file=fichero_dic)
     print(f"Los diccionarios contienen ahora {total_palabras} términos.")
 
 
@@ -182,21 +166,13 @@ def elimina_urls(filename):
 def main():
     estadisticas()
 
-    # Carga diccionarios
+    # Carga todos los diccionarios
     dicts = []
     for i in DICT_LIST:
         if pathlib.Path(i[0]).exists():
             with open(i[0], "r", encoding="utf-8") as fichero:
                 palabras = fichero.read().split()
             dicts += palabras
-    dicts_excepciones = []
-    for i in DICT_LIST:
-        if i[2] == MAYUSCULAS:
-            if pathlib.Path(i[0]).exists():
-                with open(i[0], "r", encoding="utf-8") as fichero:
-                    palabras = fichero.read().split()
-                dicts_excepciones += palabras
-    # print(f"Diccionarios: {dicts}")
 
     print("Análisis")
     for extension in EXTENSIONES:
@@ -256,13 +232,6 @@ def main():
                     while x:
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"hsl\([0-9, ]+\)", texto)
-
-                    # elimina números sin unidades
-                    x = re.search(r"\s-?[0-9]+[\s;]", texto)
-                    while x:
-                        # print(x.group())
-                        texto = texto.replace(x.group(), " ")
-                        x = re.search(r"\s-?[0-9]+[\s;]", texto)
 
                     # elimina números sin unidades con guión detrás
                     # para los comentarios entre guiones que uso para fechas
@@ -349,56 +318,67 @@ def main():
                         texto = texto.replace(x.group(), " ")
                         x = re.search("  +", texto)
 
+                    # elimina números sin unidades
+                    x = re.search(r"\s-?[0-9]+[\s;]", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"\s-?[0-9]+[\s;]", texto)
+
                     # print(texto)
                     palabras = texto.split()
                     # print(palabras)
                     for palabra in palabras:
                         palabra_original = palabra
                         palabra = palabra.lower()
-                        # 2019-06-04 Al añadir la instrucción anterior lo siguiente no tiene sentido. Cuadno cree el diccionario de variantes en mayúsculas lo recuperaré
-                        # if not palabra in dicts_excepciones:
-                        #     if (
-                        #         len(palabra) > 1
-                        #         and palabra[0].lower() != palabra[0]
-                        #         and palabra[1].lower() == palabra[1]
-                        #     ):
-                        #         palabra = palabra[0].lower() + palabra[1:]
-                        #         # print(f"Cambia {dicts[j]}")
-                        #     if len(palabra) == 1 and palabra[0].lower() != palabra[0]:
-                        #         palabra = palabra.lower()
 
                         if (
                             not palabra in dicts
-                            and not palabra.isnumeric()
+                            and not palabra_original in dicts
+                            # and not palabra.isnumeric()
                             and seguir_incluyendo
                         ):
-                            print("0: Saltar - ", end="")
+                            print()
+                            print(palabra)
+                            print()
+                            print("0: Saltar - x: SALIR")
                             for _ in range(len(DICT_LIST)):
-                                print(f"{_+1}: {DICT_LIST[_][1]} - ", end="")
-                            print("x: SALIR")
+                                print(
+                                    f"{DICT_LIST[_][2]}: {DICT_LIST[_][1]} - ", end=""
+                                )
                             print()
-                            print(palabra_original)
                             print()
+                            if palabra != palabra_original:
+                                print(palabra_original)
+                                print()
+                                print("0: Saltar - x: SALIR")
+                                for _ in range(len(DICT_LIST)):
+                                    print(
+                                        f"{DICT_LIST[_][3]}: {DICT_LIST[_][1]} - ",
+                                        end="",
+                                    )
+                                print()
+                                print()
                             incluir = input("¿Incluir? ")
                             if incluir == "x":
                                 seguir_incluyendo = False
-                            elif DICT_LIST[int(incluir) - 1][0] == DICT_OTROS:
-                                with open(
-                                    DICT_LIST[int(incluir) - 1][0],
-                                    "a",
-                                    encoding="utf-8",
-                                ) as fichero_dic:
-                                    print(f"{palabra_original} ", file=fichero_dic)
-                                dicts += [palabra_original]
-                                dicts_excepciones += [palabra_original]
-                            elif 0 < int(incluir) < len(DICT_LIST):
-                                with open(
-                                    DICT_LIST[int(incluir) - 1][0],
-                                    "a",
-                                    encoding="utf-8",
-                                ) as fichero_dic:
-                                    print(f"{palabra} ", file=fichero_dic)
-                                dicts += [palabra]
+                            elif incluir != 0:
+                                for _ in range(len(DICT_LIST)):
+                                    if int(incluir) == DICT_LIST[_][2]:
+                                        with open(
+                                            DICT_LIST[_][0], "a", encoding="utf-8"
+                                        ) as fichero_dic:
+                                            print(f"{palabra} ", file=fichero_dic)
+                                        dicts += [palabra]
+                                for _ in range(len(DICT_LIST)):
+                                    if int(incluir) == DICT_LIST[_][3]:
+                                        with open(
+                                            DICT_LIST[_][0], "a", encoding="utf-8"
+                                        ) as fichero_dic:
+                                            print(
+                                                f"{palabra_original} ", file=fichero_dic
+                                            )
+                                        dicts += [palabra_original]
 
     ordena_diccionarios()
 
