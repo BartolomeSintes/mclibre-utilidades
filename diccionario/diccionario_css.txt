@@ -9,6 +9,7 @@
 -ms-track 
 -prefix-free 
 -webkit-slider-runnable-track 
+@arroba 
 @charset 
 @counter-style 
 @font-face 
@@ -50,6 +51,7 @@ background
 background-attachment 
 background-clip 
 background-color 
+background-contain 
 background-image 
 background-origin 
 background-position 
