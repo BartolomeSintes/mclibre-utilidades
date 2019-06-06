@@ -17,6 +17,7 @@ DICT_SVG = "diccionario_svg.txt"
 DICT_JAVASCRIPT = "diccionario_javascript.txt"
 DICT_PYTHON = "diccionario_python.txt"
 DICT_PHP = "diccionario_php.txt"
+DICT_UNICODE = "diccionario_unicode.txt"
 
 DICT_LIST = [
     [DICT_EXCEPCIONES, "excepciones", 1, 11],
@@ -36,6 +37,7 @@ DICT_LIST = [
     [DICT_VALENCIANO, "valenciano", 35, 36],
     [DICT_ALEMAN, "alemán", 37, 38],
     [DICT_NONSENSE, "nonsense", 39, 40],
+    [DICT_UNICODE, "Unicode", 41, 42]
 ]
 
 ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
@@ -135,34 +137,6 @@ def ordena_diccionarios():
     print(f"Los diccionarios contienen ahora {total_palabras} términos.")
 
 
-class MyHTMLParser(html.parser.HTMLParser):
-    lista_urls = []
-
-    def handle_starttag(self, tag, attrs):
-        busca = [
-            ["a", "href"],
-            ["img", "src"],
-            ["link", "href"],
-            ["svg", "xmlns"],
-            ["img", "data-canonical-src"],
-            ["object", "data"],
-        ]
-        for i in busca:
-            if tag == i[0]:
-                for j in attrs:
-                    if j[0] == i[1]:
-                        self.lista_urls += [f'{i[1]}="{j[1]}"', j[1]]
-                        # print(f"encontrado {i[0]}, {i[1]}")
-
-
-def elimina_urls(filename):
-    with open(filename, "r", encoding="utf-8") as fichero:
-        texto = fichero.read()
-    parser = MyHTMLParser()
-    parser.feed(texto)
-    return parser.lista_urls
-
-
 def main():
     estadisticas()
 
@@ -183,7 +157,6 @@ def main():
                 contador += 1
                 print()
                 print(f"{contador}: {filename}")
-                urls_para_eliminar = elimina_urls(filename)
                 with open(filename, "r", encoding="utf-8") as fichero:
                     texto = fichero.read()
 
@@ -194,18 +167,63 @@ def main():
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"<script>[^<]+<\/script>", texto)
 
+                    # elimina urls del tipo <a href=url>url</a>
+                    x = re.search(r"<a href=\"([^\"]+)\">\1</a>", texto)
+                    while x:
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"<a href=\"([^\"]+)\">\1</a>", texto)
+
                     # elimina etiquetas
                     x = re.search(r"<[^>]+>", texto)
                     while x:
-                        # print(x.group())
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"<[^>]+>", texto)
+
+                    # elimina etiquetas de los ejemplos de código
+                    x = re.search(r"&lt;[^&]+&gt;", texto)
+                    while x:
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"&lt;[^&]+&gt;", texto)
 
                     # elimina comentarios CSS /*  ... */
                     x = re.search(r"\/\*[^*]+\*\/", texto)
                     while x:
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"\/\*[^*]+\*\/", texto)
+
+                    # elimina urls CSS
+                    x = re.search(r"url\([^)]+\)", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"url\([^)]+\)", texto)
+
+                    # elimina urls
+                    elimina = ["https", "http", "ftp", "email"]
+                    for i in elimina:
+                        x = re.search(r""+i+r"[^\s\"]+", texto)
+                        while x:
+                            # print(x.group())
+                            texto = texto.replace(x.group(), " ")
+                            x = re.search(r""+i+r"[^\s\"]+", texto)
+
+                    # elimina nombres de archivos
+                    # que no suelen llevar acentos
+                    elimina = ["html", "css", "svg", "png", "jpg", "zip"]
+                    for i in elimina:
+                        x = re.search(r"[^ ]+\."+i+r"(#[^\s,\,;)\"]+)?[\s,\.;)\"<]", texto)
+                        while x:
+                            # print(x.group())
+                            texto = texto.replace(x.group(), " ")
+                            x = re.search(r"[^ ]+\."+i+r"(#[^\s,\,;)\"]+)?[\s,\.;)\"<]", texto)
+
+                    # elimina direcciones de correo
+                    # que no llevan acentos
+                    x = re.search(r"[^\s]+@[^\s]+", texto)
+                    while x:
+                        print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"[^\s]+@[^\s]+", texto)
 
                     # Tengo que eliminar primero los #RGB de 6 y luego los de 3
                     # porque si no eliminaba #000 y #FFF y se quedaban tres caracteres sueltos
@@ -258,17 +276,6 @@ def main():
                         texto = texto.replace(x.group(), " ")
                         x = re.search("&[#0-9a-zA-Z]+;", texto)
 
-                    # elimina urls
-                    for i in urls_para_eliminar:
-                        texto = texto.replace(i, " ")
-
-                    # elimina urls CSS
-                    x = re.search(r"url\([^)]+\)", texto)
-                    while x:
-                        # print(x.group())
-                        texto = texto.replace(x.group(), " ")
-                        x = re.search(r"url\([^)]+\)", texto)
-
                     # elimina números con unidades
                     unidades = [
                         "%",
@@ -301,12 +308,12 @@ def main():
                     #     x = re.search("'[a-zA-Z]+'", texto)
 
                     # elimina resto de caracteres que no son letras
-                    elimina = r'<>=""\/().¿?¡!:,[]()%{}|;^'
+                    elimina = r'<>=""\/().¿?¡!:,[]()%{}|;^&#'
                     for i in elimina:
                         texto = texto.replace(i, " ")
 
                     # elimina otros caracteres
-                    elimina = [" - ", " -\n", "\n- ", " + ", " '", "' ", "'."]
+                    elimina = [" - ", " -\n", "\n- ", " + ", " '", "' ", "'.",]
                     for i in elimina:
                         texto = texto.replace(i, " ")
 
