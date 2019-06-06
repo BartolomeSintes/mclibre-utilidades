@@ -1,3 +1,6 @@
+points 
 polygon 
 sandbox 
+stroke-width 
 viewBox 
+viewbox 

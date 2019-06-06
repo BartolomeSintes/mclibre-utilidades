@@ -1,3 +1,5 @@
 document 
 function 
 getelementbyid 
+removeAttribute 
+setAttribute 
