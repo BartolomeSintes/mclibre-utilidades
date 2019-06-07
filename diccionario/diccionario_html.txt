@@ -6,6 +6,7 @@ a
 abbr 
 accept-charset 
 accesskey 
+acronym 
 alert 
 align 
 alt 
@@ -21,6 +22,7 @@ axis
 bdi 
 bdo 
 below 
+big 
 blockquote 
 body 
 br 
@@ -43,6 +45,7 @@ controls
 coords 
 css 
 data 
+data-output 
 datalist 
 date 
 datetime 
@@ -66,6 +69,7 @@ figcaption
 figure 
 footer 
 frame 
+frameset 
 get 
 groups 
 h1 
@@ -101,6 +105,7 @@ legend
 lhs 
 li 
 link 
+longdesc 
 loop 
 low 
 mailto 
@@ -119,6 +124,7 @@ minlength
 month 
 muted 
 name 
+namespace 
 nav 
 noopener 
 noscript 
@@ -155,6 +161,7 @@ picture
 placeholder 
 post 
 poster 
+pragma 
 pre 
 preload 
 q 
@@ -205,6 +212,7 @@ thead
 time 
 title 
 track 
+tt 
 type 
 ul 
 usemap 

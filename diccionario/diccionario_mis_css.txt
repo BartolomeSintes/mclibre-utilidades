@@ -2,7 +2,6 @@
 +tbody 
 +td 
 +tr 
-Recogecolor 
 a1 
 a10 
 apartado-1 
@@ -57,6 +56,14 @@ con-outline
 confondo 
 contrasena 
 corta 
+css-arroba 
+css-feature 
+css-funcion 
+css-numero 
+css-prop 
+css-pseudo 
+css-sele 
+css-unidad 
 css-valor 
 cuenta-apartados 
 cuenta-parrafos 
@@ -101,6 +108,9 @@ groucho
 grupo1 
 grupo2 
 hm 
+html-atri 
+html-atri-valor 
+html-eti 
 icon- 
 icon-android 
 icon-apple 
@@ -161,6 +171,7 @@ posic
 radio1 
 radio2 
 radio3 
+Recogecolor 
 rectangulo 
 rectangulo2 
 reducir-clases-combinando 

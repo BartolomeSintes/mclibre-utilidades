@@ -171,6 +171,7 @@ cornsilk
 counter 
 counter-increment 
 counter-reset 
+counter-style 
 cover 
 crimson 
 crop 
@@ -259,6 +260,7 @@ flow
 flow-root 
 focus 
 font 
+font-face 
 font-family 
 font-feature-settings 
 font-kerning 

@@ -1,7 +1,3 @@
-Canis 
-Felidae 
-Felis 
-Iove 
 adipisci 
 agitat 
 aliquam 
@@ -9,6 +5,7 @@ aliquid
 aspernatur 
 aut 
 bonorum 
+Canis 
 canis 
 catus 
 cognoscere 
@@ -23,6 +20,8 @@ eius
 et 
 exercitationem 
 familiaris 
+Felidae 
+Felis 
 felis 
 felix 
 finibus 
@@ -31,6 +30,7 @@ fugit
 haec 
 illum 
 incidunt 
+Iove 
 ipsam 
 iure 
 iuvabit 
@@ -55,6 +55,7 @@ nostrum
 numquam 
 odit 
 olim 
+opus 
 porro 
 posse 
 possunt 
@@ -73,6 +74,7 @@ silvestris
 suscipit 
 tempora 
 ullam 
+UNUS 
 videntur 
 voluptas 
 voluptatem 
