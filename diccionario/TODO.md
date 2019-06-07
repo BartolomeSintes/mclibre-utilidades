@@ -19,7 +19,7 @@ Esta aplicación genera la lista de palabras que hay en los ficheros de un direc
 
 * 2019-06-04. Si hay una palabra entre comillas debería quitar las comillas pero dejar la palabra
 * 2019-06-04. Repasar manualmente los diccionarios para aclarar qué va en cada uno.
-* 2019-06-04. Aclarar minúsculas / mayúsculas, ahora pongo todo en minúsculas, pero tendría que tener un diccionario de palabras que quiero en mayúsculas (siglas, nombres propios, etc.) y que en se estén las variantes admintidas.
+* 2019-06-07. Que siga pidiendo tecla mientras no sea una de la lista
 
 
 

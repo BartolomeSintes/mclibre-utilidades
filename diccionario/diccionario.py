@@ -1,12 +1,11 @@
-import pathlib, html.parser, re
+import pathlib, re
 
 DICT_EXCEPCIONES = "diccionario_excepciones.txt"
 DICT_ESPANOL = "diccionario_espanol.txt"
 DICT_INGLES = "diccionario_ingles.txt"
-DICT_FRANCES = "diccionario_frances.txt"
+DICT_OTROS_IDIOMAS = "diccionario_otros_idiomas.txt"
 DICT_LATIN = "diccionario_latin.txt"
 DICT_VALENCIANO = "diccionario_valenciano.txt"
-DICT_ALEMAN = "diccionario_aleman.txt"
 DICT_NONSENSE = "diccionario_nonsense.txt"
 DICT_NOMBRES = "diccionario_nombres.txt"
 DICT_TECNICOS = "diccionario_tecnicos.txt"
@@ -18,6 +17,10 @@ DICT_JAVASCRIPT = "diccionario_javascript.txt"
 DICT_PYTHON = "diccionario_python.txt"
 DICT_PHP = "diccionario_php.txt"
 DICT_UNICODE = "diccionario_unicode.txt"
+DICT_SIGLAS = "diccionario_siglas.txt"
+DICT_ABREVIATURAS = "diccionario_abreviaturas.txt"
+DICT_COD_PAISES = "diccionario_codigos_paises.txt"
+DICT_TK = "diccionario_tk.txt"
 
 DICT_LIST = [
     [DICT_EXCEPCIONES, "excepciones", 1, 11],
@@ -32,17 +35,22 @@ DICT_LIST = [
     [DICT_JAVASCRIPT, "js", 23, 24],
     [DICT_PYTHON, "py", 25, 26],
     [DICT_PHP, "php", 27, 28],
-    [DICT_FRANCES, "francés", 31, 32],
+    [DICT_OTROS_IDIOMAS, "Otros idiomas", 31, 32],
     [DICT_LATIN, "latín", 33, 34],
     [DICT_VALENCIANO, "valenciano", 35, 36],
-    [DICT_ALEMAN, "alemán", 37, 38],
     [DICT_NONSENSE, "nonsense", 39, 40],
-    [DICT_UNICODE, "Unicode", 41, 42]
+    [DICT_UNICODE, "Unicode", 41, 42],
+    [DICT_SIGLAS, "Siglas", 43, 44],
+    [DICT_ABREVIATURAS, "Abreviaturas", 45, 46],
+    [DICT_COD_PAISES, "Códigos países", 47, 48],
+    [DICT_TK, "Tk", 49, 50],
 ]
 
 ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
 # ORIGEN_HTML = "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\htmlcss"
-# ORIGEN_HTML = "C:/tmp/python-diccionario-prueba"
+ORIGEN_PYTHON = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\python"
+
+ORIGEN = ORIGEN_PYTHON
 
 EXTENSIONES = ["html"]
 EXTENSIONES_NO_ANALIZADAS = [
@@ -73,7 +81,7 @@ EXTENSIONES_NO_ANALIZADAS = [
 
 def estadisticas():
     total = 0
-    for _ in pathlib.Path(ORIGEN_HTML).glob(f"**/*.*"):
+    for _ in pathlib.Path(ORIGEN).glob(f"**/*.*"):
         total += 1
     print(f"Total: {total} ficheros")
 
@@ -81,7 +89,7 @@ def estadisticas():
     print("Extensiones analizadas: ", end="")
     for extension in EXTENSIONES:
         contador = 0
-        for _ in pathlib.Path(ORIGEN_HTML).glob(f"**/*.{extension}"):
+        for _ in pathlib.Path(ORIGEN).glob(f"**/*.{extension}"):
             contador += 1
         total_analizadas += contador
         if contador:
@@ -93,7 +101,7 @@ def estadisticas():
     total_no_analizadas = 0
     for extension in EXTENSIONES_NO_ANALIZADAS:
         contador = 0
-        for _ in pathlib.Path(ORIGEN_HTML).glob(f"**/*.{extension}"):
+        for _ in pathlib.Path(ORIGEN).glob(f"**/*.{extension}"):
             contador += 1
         total_no_analizadas += contador
         if contador:
@@ -117,7 +125,7 @@ def ordena_diccionarios():
                 palabras = fichero.read().split()
             dicts += palabras
             # Ordena diccionario
-            dicts.sort()
+            dicts.sort(key=str.lower)
             # Borra valores repetidos
             for j in range(len(dicts) - 1, 0, -1):
                 k = j - 1
@@ -128,7 +136,7 @@ def ordena_diccionarios():
                     k -= 1
             total_palabras += len(dicts)
             # Descuenta las palabras de DICT_EXCEPCIONES
-            if i[0] == DICT_EXCEPCIONES or i[0] == DICT_MIS_CSS:
+            if i[0] in [DICT_EXCEPCIONES, DICT_MIS_CSS, DICT_NONSENSE, DICT_TK] :
                 total_palabras -= len(dicts)
         # Guarda diccionario
         with open(i[0], "w", encoding="utf-8") as fichero_dic:
@@ -152,7 +160,7 @@ def main():
     for extension in EXTENSIONES:
         contador = 0
         seguir_incluyendo = True
-        for filename in pathlib.Path(ORIGEN_HTML).rglob(f"**/*.{extension}"):
+        for filename in pathlib.Path(ORIGEN).rglob(f"**/*.{extension}"):
             if seguir_incluyendo:
                 contador += 1
                 print()
@@ -167,11 +175,20 @@ def main():
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"<script>[^<]+<\/script>", texto)
 
-                    # elimina urls del tipo <a href=url>url</a>
-                    x = re.search(r"<a href=\"([^\"]+)\">\1</a>", texto)
-                    while x:
-                        texto = texto.replace(x.group(), " ")
-                        x = re.search(r"<a href=\"([^\"]+)\">\1</a>", texto)
+                    # elimina urls del tipo <a href=>url</a>
+                    # utiliza grupos: https://docs.python.org/3/library/re.html#index-24
+                    elimina = [
+                        r"<a href=\"([^\"]+)\">\1</a>",
+                        r"<a href=\"https://([^\"]+)/\">\1</a>",
+                        r"<a href=\"https://([^\"]+)\">\1</a>",
+                        r"<a href=\"http://([^\"]+)/\">\1</a>",
+                        r"<a href=\"http://([^\"]+)\">\1</a>",
+                    ]
+                    for i in elimina:
+                        x = re.search(i, texto)
+                        while x:
+                            texto = texto.replace(x.group(), " ")
+                            x = re.search(i, texto)
 
                     # elimina etiquetas
                     x = re.search(r"<[^>]+>", texto)
@@ -201,27 +218,30 @@ def main():
                     # elimina urls
                     elimina = ["https", "http", "ftp", "email"]
                     for i in elimina:
-                        x = re.search(r""+i+r"[^\s\"]+", texto)
+                        x = re.search(r"" + i + r"[^\s\"]+", texto)
                         while x:
                             # print(x.group())
                             texto = texto.replace(x.group(), " ")
-                            x = re.search(r""+i+r"[^\s\"]+", texto)
+                            x = re.search(r"" + i + r"[^\s\"]+", texto)
 
                     # elimina nombres de archivos
                     # que no suelen llevar acentos
                     elimina = ["html", "css", "svg", "png", "jpg", "zip"]
                     for i in elimina:
-                        x = re.search(r"[^ ]+\."+i+r"(#[^\s,\,;)\"]+)?[\s,\.;)\"<]", texto)
+                        x = re.search(
+                            r"[^ ]+\." + i + r"(#[^\s,\,;)\"]+)?[\s,\.;)\"<]", texto
+                        )
                         while x:
                             # print(x.group())
                             texto = texto.replace(x.group(), " ")
-                            x = re.search(r"[^ ]+\."+i+r"(#[^\s,\,;)\"]+)?[\s,\.;)\"<]", texto)
+                            x = re.search(
+                                r"[^ ]+\." + i + r"(#[^\s,\,;)\"]+)?[\s,\.;)\"<]", texto
+                            )
 
                     # elimina direcciones de correo
                     # que no llevan acentos
                     x = re.search(r"[^\s]+@[^\s]+", texto)
                     while x:
-                        print(x.group())
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"[^\s]+@[^\s]+", texto)
 
@@ -276,6 +296,12 @@ def main():
                         texto = texto.replace(x.group(), " ")
                         x = re.search("&[#0-9a-zA-Z]+;", texto)
 
+                    # elimina códigos unicode U
+                    x = re.search(r"U\+[0-9a-fA-F]+", texto)
+                    while x:
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"U\+[0-9a-fA-F]+", texto)
+
                     # elimina números con unidades
                     unidades = [
                         "%",
@@ -307,13 +333,40 @@ def main():
                     #     texto = texto.replace(x.group(), " ")
                     #     x = re.search("'[a-zA-Z]+'", texto)
 
+                    # CASOS ESPECIALES
+
+                    # elimina genitivo sajón
+                    elimina = ["'s ", "’s " " d'"]
+                    for i in elimina:
+                        texto = texto.replace(i, " ")
+
+                    # elimina ideograph-números (símbolos Unicode)
+                    x = re.search(r"ideograph-[0-9a-fA-F]{4}", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"ideograph-[0-9a-fA-F]{4}", texto)
+
+                    # elimina juego de caracteres cp1252 (html-ut8.html)
+                    x = re.search(r"cp1252 = '[^\n]+", texto)
+                    while x:
+                        # print(x.group())
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"cp1252 = '[^\n]+", texto)
+
+                    # elimina códigos normas ISO
+                    x = re.search(r"ISO-[0-9]+(-[0-9]+)?", texto)
+                    while x:
+                        texto = texto.replace(x.group(), " ")
+                        x = re.search(r"ISO-[0-9]+(-[0-9]+)?", texto)
+
                     # elimina resto de caracteres que no son letras
-                    elimina = r'<>=""\/().¿?¡!:,[]()%{}|;^&#'
+                    elimina = r'<>=""\/().¿?¡!:,[]()%{}|;^&#±`@«»~€ªº²“‘’$'
                     for i in elimina:
                         texto = texto.replace(i, " ")
 
                     # elimina otros caracteres
-                    elimina = [" - ", " -\n", "\n- ", " + ", " '", "' ", "'.",]
+                    elimina = [" - ", " -\n", "\n- ", " + ", " '", "' ", "'.", "—"]
                     for i in elimina:
                         texto = texto.replace(i, " ")
 
@@ -331,6 +384,24 @@ def main():
                         # print(x.group())
                         texto = texto.replace(x.group(), " ")
                         x = re.search(r"\s-?[0-9]+[\s;]", texto)
+
+                    # elimina intervalos de números (años, básicamente)
+                    elimina = [r"[>\s][0-9]+.[0-9]+"]
+                    for i in elimina:
+                        x = re.search(i, texto)
+                        while x:
+                            # print(x.group())
+                            texto = texto.replace(x.group(), " ")
+                            x = re.search(i, texto)
+
+                    # elimina operaciones con números
+                    elimina = [r"\s[+*-]?([\d]+|[a-z])([+*-]([\d]+|[a-z]))+\s"]
+                    for i in elimina:
+                        x = re.search(i, texto)
+                        while x:
+                            # print(x.group())
+                            texto = texto.replace(x.group(), " ")
+                            x = re.search(i, texto)
 
                     # print(texto)
                     palabras = texto.split()
