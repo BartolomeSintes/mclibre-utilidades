@@ -1,6 +1,8 @@
 bevel 
 butt 
 clip-path 
+Cubic-bezier 
+cubic-bezier 
 cx 
 cy 
 miráis 

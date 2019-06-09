@@ -91,6 +91,7 @@ i
 icon 
 id 
 iframe 
+imagemap 
 img 
 info 
 initial-scale 
