@@ -20,6 +20,8 @@ Esta aplicación genera la lista de palabras que hay en los ficheros de un direc
 * 2019-06-04. Si hay una palabra entre comillas debería quitar las comillas pero dejar la palabra
 * 2019-06-04. Repasar manualmente los diccionarios para aclarar qué va en cada uno.
 * 2019-06-07. Que siga pidiendo tecla mientras no sea una de la lista
+# 2019-06-08. Opción para hacer revisión de diccionarios y que diga qué palabras ha encontrado (porque haya mejorado la eliminación y alguna excepeción ya no sea necesario)
+# 2019-06-08. Opción para hacer test de regexp y que saque sólo las coincidencias
 
 
 

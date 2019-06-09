@@ -49,8 +49,10 @@ DICT_LIST = [
 ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
 # ORIGEN_HTML = "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\htmlcss"
 ORIGEN_PYTHON = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\python"
+ORIGEN_INFORMATICA = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\informatica"
+ORIGEN_WEBAPPS = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\webapps"
 
-ORIGEN = ORIGEN_PYTHON
+ORIGEN = ORIGEN_WEBAPPS
 
 EXTENSIONES = ["html"]
 EXTENSIONES_NO_ANALIZADAS = [
@@ -116,6 +118,8 @@ def estadisticas():
 
 
 def ordena_diccionarios():
+    print()
+    print("Ordenando diccionarios ...")
     total_palabras = 0
     for i in DICT_LIST:
         dicts = []
@@ -317,13 +321,15 @@ def main():
                         "ch",
                         "q",
                         "dpi",
+                        "s",
+                        "m"
                     ]
                     for i in unidades:
-                        x = re.search(r"-?[\d\.\d]+" + i + r"[\s.;,)]", texto)
+                        x = re.search(r"-?[\d\.\d]+" + i + r'[\s.;,")]', texto)
                         while x:
                             # print(x.group())
                             texto = texto.replace(x.group(), " ")
-                            x = re.search(r"-?[\d\.\d]+" + i + r"[\s.;,)]", texto)
+                            x = re.search(r"-?[\d\.\d]+" + i + r'[\s.;,")]', texto)
 
                     # # elimina comillas en palabras entrecomilladas
                     # No sirve tendría que dejar la palabra y qitar sólo las comillas
@@ -366,7 +372,7 @@ def main():
                         texto = texto.replace(i, " ")
 
                     # elimina otros caracteres
-                    elimina = [" - ", " -\n", "\n- ", " + ", " '", "' ", "'.", "—"]
+                    elimina = [r"\s-\s", r"\s+\s", r"\s'", r"'\s", "'.", "';", "—", "''"]
                     for i in elimina:
                         texto = texto.replace(i, " ")
 
@@ -407,13 +413,16 @@ def main():
                     palabras = texto.split()
                     # print(palabras)
                     for palabra in palabras:
+                        # print(palabra)
+                        palabra = palabra.strip("'\"-+*”·█")
                         palabra_original = palabra
                         palabra = palabra.lower()
 
                         if (
-                            not palabra in dicts
+                            palabra
+                            and not palabra in dicts
                             and not palabra_original in dicts
-                            # and not palabra.isnumeric()
+                            and not palabra.isnumeric()
                             and seguir_incluyendo
                         ):
                             print()
