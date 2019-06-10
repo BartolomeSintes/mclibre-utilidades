@@ -1,0 +1,9 @@
+titulo 
+fechaPublicacion 
+nombreCentro 
+decretoTitulo 
+cuentaciclos 
+wdf_XX 
+maxima 
+elem 
+atrib 

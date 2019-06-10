@@ -1,49 +1,51 @@
 import pathlib, re
 
-DICT_EXCEPCIONES = "diccionario_excepciones.txt"
-DICT_ESPANOL = "diccionario_espanol.txt"
-DICT_INGLES = "diccionario_ingles.txt"
-DICT_OTROS_IDIOMAS = "diccionario_otros_idiomas.txt"
-DICT_LATIN = "diccionario_latin.txt"
-DICT_VALENCIANO = "diccionario_valenciano.txt"
-DICT_NONSENSE = "diccionario_nonsense.txt"
-DICT_NOMBRES = "diccionario_nombres.txt"
-DICT_TECNICOS = "diccionario_tecnicos.txt"
-DICT_HTML = "diccionario_html.txt"
-DICT_CSS = "diccionario_css.txt"
-DICT_MIS_CSS = "diccionario_mis_css.txt"
-DICT_SVG = "diccionario_svg.txt"
-DICT_JAVASCRIPT = "diccionario_javascript.txt"
-DICT_PYTHON = "diccionario_python.txt"
-DICT_PHP = "diccionario_php.txt"
-DICT_UNICODE = "diccionario_unicode.txt"
-DICT_SIGLAS = "diccionario_siglas.txt"
-DICT_ABREVIATURAS = "diccionario_abreviaturas.txt"
-DICT_COD_PAISES = "diccionario_codigos_paises.txt"
-DICT_TK = "diccionario_tk.txt"
+DICT_COD_PAISES = "dic_cod_paises.txt"
+DICT_COD_TK = "dic_cod_tk"
+DICT_COD_UNICODE = "dic_cod_unicode.txt"
+DICT_EXCEPCIONES = "dic_excepciones.txt"
+DICT_EXCEPCIONES_XML = "dic_excepciones_xml.txt"
+DICT_GENERAL_ABREVIATURAS = "dic_general_abreviaturas.txt"
+DICT_GENERAL_NOMBRES = "dic_general_nombres.txt"
+DICT_GENERAL_SIGLAS = "dic_general_siglas.txt"
+DICT_IDIOMAS_ESPANOL = "dic_idiomas_espanol.txt"
+DICT_IDIOMAS_INGLES = "dic_idiomas_ingles.txt"
+DICT_IDIOMAS_LATIN = "dic_idiomas_latin.txt"
+DICT_IDIOMAS_NONSENSE = "dic_idiomas_nonsense.txt"
+DICT_IDIOMAS_OTROS = "dic_idiomas_otros.txt"
+DICT_IDIOMAS_VALENCIANO = "dic_idiomas_valenciano.txt"
+DICT_TECNICO = "dic_tecnico.txt"
+DICT_TECNICO_CSS = "dic_tecnico_css.txt"
+DICT_TECNICO_HTML = "dic_tecnico_html.txt"
+DICT_TECNICO_JAVASCRIPT = "dic_tecnico_javascript.txt"
+DICT_TECNICO_MCLIBRE_CSS = "dic_tecnico_mclibre_css.txt"
+DICT_TECNICO_PHP = "dic_tecnico_php.txt"
+DICT_TECNICO_PYTHON = "dic_tecnico_python.txt"
+DICT_TECNICO_SVG = "dic_tecnico_svg.txt"
 
 DICT_LIST = [
     [DICT_EXCEPCIONES, "excepciones", 1, 11],
-    [DICT_ESPANOL, "español", 2, 12],
-    [DICT_INGLES, "inglés", 3, 13],
-    [DICT_NOMBRES, "nombres", 4, 14],
-    [DICT_TECNICOS, "técnicos", 5, 15],
-    [DICT_HTML, "html", 6, 16],
-    [DICT_CSS, "css", 7, 17],
-    [DICT_MIS_CSS, "mis-css", 8, 18],
-    [DICT_SVG, "svg", 21, 22],
-    [DICT_JAVASCRIPT, "js", 23, 24],
-    [DICT_PYTHON, "py", 25, 26],
-    [DICT_PHP, "php", 27, 28],
-    [DICT_OTROS_IDIOMAS, "Otros idiomas", 31, 32],
-    [DICT_LATIN, "latín", 33, 34],
-    [DICT_VALENCIANO, "valenciano", 35, 36],
-    [DICT_NONSENSE, "nonsense", 39, 40],
-    [DICT_UNICODE, "Unicode", 41, 42],
-    [DICT_SIGLAS, "Siglas", 43, 44],
-    [DICT_ABREVIATURAS, "Abreviaturas", 45, 46],
+    [DICT_IDIOMAS_ESPANOL, "español", 2, 12],
+    [DICT_IDIOMAS_INGLES, "inglés", 3, 13],
+    [DICT_GENERAL_NOMBRES, "nombres", 4, 14],
+    [DICT_TECNICO, "técnicos", 5, 15],
+    [DICT_TECNICO_HTML, "html", 6, 16],
+    [DICT_TECNICO_CSS, "css", 7, 17],
+    [DICT_TECNICO_MCLIBRE_CSS, "mis-css", 8, 18],
+    [DICT_TECNICO_SVG, "svg", 21, 22],
+    [DICT_TECNICO_JAVASCRIPT, "js", 23, 24],
+    [DICT_TECNICO_PYTHON, "py", 25, 26],
+    [DICT_TECNICO_PHP, "php", 27, 28],
+    [DICT_IDIOMAS_OTROS, "Otros idiomas", 31, 32],
+    [DICT_IDIOMAS_LATIN, "latín", 33, 34],
+    [DICT_IDIOMAS_VALENCIANO, "valenciano", 35, 36],
+    [DICT_IDIOMAS_NONSENSE, "nonsense", 39, 40],
+    [DICT_COD_UNICODE, "Unicode", 41, 42],
+    [DICT_GENERAL_SIGLAS, "Siglas", 43, 44],
+    [DICT_GENERAL_ABREVIATURAS, "Abreviaturas", 45, 46],
     [DICT_COD_PAISES, "Códigos países", 47, 48],
-    [DICT_TK, "Tk", 49, 50],
+    [DICT_COD_TK, "Tk", 49, 50],
+    [DICT_EXCEPCIONES_XML, "Excep. XML", 51, 52],
 ]
 
 ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
@@ -51,8 +53,9 @@ ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlc
 ORIGEN_PYTHON = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\python"
 ORIGEN_INFORMATICA = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\informatica"
 ORIGEN_WEBAPPS = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\webapps"
+ORIGEN_XML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\xml"
 
-ORIGEN = ORIGEN_WEBAPPS
+ORIGEN = ORIGEN_XML
 
 EXTENSIONES = ["html"]
 EXTENSIONES_NO_ANALIZADAS = [
@@ -118,6 +121,7 @@ def estadisticas():
 
 
 def ordena_diccionarios():
+    no_cuenta = [DICT_EXCEPCIONES, DICT_EXCEPCIONES_XML, DICT_TECNICO_MCLIBRE_CSS, DICT_IDIOMAS_NONSENSE, DICT_COD_TK]
     print()
     print("Ordenando diccionarios ...")
     total_palabras = 0
@@ -140,7 +144,7 @@ def ordena_diccionarios():
                     k -= 1
             total_palabras += len(dicts)
             # Descuenta las palabras de DICT_EXCEPCIONES
-            if i[0] in [DICT_EXCEPCIONES, DICT_MIS_CSS, DICT_NONSENSE, DICT_TK] :
+            if i[0] in no_cuenta:
                 total_palabras -= len(dicts)
         # Guarda diccionario
         with open(i[0], "w", encoding="utf-8") as fichero_dic:
