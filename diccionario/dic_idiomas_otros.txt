@@ -1,7 +1,12 @@
+Arbeitsfront 
 cassettes 
+chien 
 cruzeiro 
+d'emploi 
 dango 
+Deutsche 
 Deutscher 
+di 
 diya 
 Doggen-Club 
 déjà 
@@ -9,6 +14,7 @@ fuji
 fédération 
 féline 
 guillemets 
+Haus 
 hocho 
 hoka 
 hryvnia 
@@ -16,6 +22,7 @@ internationale
 ken 
 kens 
 modernes 
+Musée 
 ninja 
 Numérique 
 ogre 
@@ -26,4 +33,5 @@ shogi
 shuangxi 
 temps 
 Université 
+vie 
 vu 

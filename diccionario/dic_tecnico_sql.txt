@@ -1,0 +1,10 @@
+ASC 
+BOOLEAN 
+DESC 
+INFORMATION_SCHEMA 
+INSERT 
+SCHEMA_NAME 
+SCHEMATA 
+sqlite_master 
+utf8mb4 
+utf8mb4_bin 

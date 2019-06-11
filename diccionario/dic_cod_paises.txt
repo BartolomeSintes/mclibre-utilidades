@@ -80,6 +80,7 @@ BW
 BY 
 BZ 
 CA 
+ca 
 Cabo 
 Caicos 
 Caledonia 
@@ -150,6 +151,7 @@ EG
 Egypt 
 EH 
 Emirates 
+en_GB 
 Equatorial 
 ER 
 Eritrea 
@@ -170,6 +172,7 @@ FK
 FM 
 FO 
 FR 
+fr-FR 
 France 
 French 
 Futuna 
@@ -189,6 +192,7 @@ Ghana
 GI 
 Gibraltar 
 GL 
+gl 
 GM 
 GN 
 GP 

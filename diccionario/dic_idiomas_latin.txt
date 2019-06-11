@@ -3,6 +3,7 @@ agitat
 aliquam 
 aliquid 
 aspernatur 
+aureus 
 aut 
 bonorum 
 Canis 
@@ -52,10 +53,12 @@ nesciunt
 nihil 
 nimium 
 nostrum 
+notatum 
 numquam 
 odit 
 olim 
 opus 
+Penicillium 
 porro 
 posse 
 possunt 
@@ -71,6 +74,7 @@ ratione
 rerum 
 sequi 
 silvestris 
+Staphylococcus 
 suscipit 
 tempora 
 ullam 

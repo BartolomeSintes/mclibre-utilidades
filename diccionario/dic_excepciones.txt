@@ -93,6 +93,7 @@ $saludo
 -yq 
 -z 
 0 
+0E+308 
 0EBF 
 0EBFCD88 
 0x 
@@ -102,8 +103,10 @@ $saludo
 10M 
 10px+10px+10px+ 
 1280x800 
+12h 
 1366x768 
 1680x1050 
+16th 
 16x16 
 19-Sep-82 
 1920x1080 
@@ -119,9 +122,11 @@ $saludo
 2-server-amd64 
 20+20 
 2016- 
+24a 
 24x24 
 256x256 
 2a 
+2M 
 2x+3y 
 2y 
 3 
@@ -140,11 +145,13 @@ $saludo
 5fd924625f6ab16a19cc9807c7c506ae1813490e4ba675f843d5a10e0baacdb8 
 60*i+ 
 60*j+ 
+6b 
 6MB 
 6y 
 7+ 
 818-S 
 89» 
+8M 
 93affc0492 
 9DC8 
 9FC7 
@@ -165,6 +172,7 @@ A-2
 A-3 
 A-4 
 a-5 
+A-Z 
 a1*b2-a2*b1 
 a1*c2-a2*c1 
 A2 
@@ -189,6 +197,7 @@ aaa
 AAAA 
 aaaa 
 AAAA-MM 
+aaaa-mm-dd 
 AAAA-MM-DDTHH-MM 
 AAAA-WSS 
 aAbBcCdDeEfF 
@@ -196,6 +205,8 @@ Ab
 abbbbbbbb 
 abc 
 abcde 
+abcdefg 
+abcdefghij 
 abcdefghijklmnopqrstuvwxyz 
 Abr 
 ABSPATH 
@@ -442,6 +453,7 @@ consultaborratabla
 consultacreatabla 
 contentScriptType 
 contentStyleType 
+copyright-like 
 core_dimensions 
 crea_lista 
 createaccount 
@@ -464,9 +476,12 @@ Ctrl+AvPág
 Ctrl+c 
 Ctrl+clic 
 Ctrl+Espacio 
+Ctrl+F 
+Ctrl+H 
 Ctrl+Intro 
 Ctrl+May+p 
 Ctrl+RePág 
+Ctrl+s 
 Ctrl+Shift+M 
 Ctrl+U 
 Ctrl+z 
@@ -503,6 +518,8 @@ dbtype
 dbuser 
 dca 
 dcb 
+DD-MM-AAAA 
+dd-mm-aaaa 
 DD38 
 DDD 
 DDDD 
@@ -683,6 +700,7 @@ es-es
 es_bisiesto 
 es_es 
 es_x_tu 
+Escape 
 escribe_media 
 especialmente- 
 Esta_división_contiene_un_párrafo_bastante_largo_que_no_cabe_en_el_tamaño_asignado 
@@ -699,7 +717,10 @@ extraLiners
 E~F 
 F1 
 F11 
+F2 
 F5 
+F8 
+F9 
 face-1 
 face-2 
 face-3 
@@ -751,6 +772,7 @@ generate-default-snakeoil
 getElementsByName 
 getElementsByTagName 
 getRadioVal 
+GGG 
 gif*52*139 
 gitdir 
 glyphRef 
@@ -778,6 +800,7 @@ hello-world
 hexColorLength 
 hfeed 
 HH 
+hh 
 HH-MM 
 HHHH 
 high-performance 
@@ -841,6 +864,7 @@ idSelector
 ieHack 
 ifconfig 
 II 
+III 
 ImageMagick 
 imagen_16 
 imagen_32 
@@ -877,6 +901,7 @@ iso_checksum_type
 iso_url 
 istrador 
 IS” 
+IV 
 j 
 jefeatención 
 json-based 
@@ -907,6 +932,7 @@ leeme
 left-shaded 
 lengthAdjust 
 less-than 
+licenseb 
 Light+ 
 limitingConeAngle 
 lIncorrectas 
@@ -982,6 +1008,7 @@ max_wasted_percentage
 maxPercent 
 mayor_1 
 mayor_2 
+Mayúsc 
 Mbits 
 MBytes 
 mclibre-htmlcss 
@@ -1002,6 +1029,7 @@ mini-farce
 minieditor 
 minieditor_1 
 minieditor_2 
+minúsc 
 MMM 
 MMMDCCLXXXXVIIII 
 mod_proxy 
@@ -1027,6 +1055,7 @@ Moz
 moz-column-gap 
 moz-columns 
 mPDO 
+multiagenda 
 MultiUpload 
 mw 
 mybb- 
@@ -1084,7 +1113,9 @@ NombreAlumno
 nombreDeLaCarpetaDelTema 
 nombreDeLista 
 nombredeusuario 
+nombreProfesor 
 NombreUsuario 
+non-source 
 noninteractive 
 nopasos 
 normas_graficas 
@@ -1205,8 +1236,12 @@ pong_2
 pong_3 
 posicionX 
 posicionY 
+post-decremento 
+post-incremento 
 post-instalación 
 post_max_size 
+pre-decremento 
+pre-incremento 
 Pre-installation 
 predet 
 PreRegister 
@@ -1216,6 +1251,7 @@ preventDefault
 primitiveUnits 
 problemmatcher 
 product_id 
+program--to 
 programador_1 
 propertyIgnoredDueToDisplay 
 prosilver 
@@ -1310,6 +1346,7 @@ right-shaded
 right-shadowed 
 rotacionEjeX 
 round-tipped 
+RRR 
 rules-count 
 runTask 
 ruta_css 
@@ -1319,6 +1356,18 @@ ruta_html
 rw-rw-r 
 rwxr-xr-x 
 s 
+S01 
+S02 
+S03 
+S04 
+S05 
+S06 
+S07 
+S08 
+S09 
+S10 
+S11 
+S12 
 S13 
 S14 
 S15 
@@ -1336,6 +1385,7 @@ ScaleMajor
 script-3 
 script-5 
 ScriptAlias 
+SE1 
 seis-siete 
 selector-max 
 selector-max-approaching 
@@ -1559,6 +1609,7 @@ utf8mb4_unicode_ci
 V 
 v 
 v0 
+v2 
 v3 
 val 
 valor_de_atributo 
@@ -1673,6 +1724,7 @@ x_2
 xChannelSelector 
 xhtm+mathml+svg 
 xhtml+mathml 
+XIII 
 XIV 
 XIX 
 xMax 
@@ -1697,6 +1749,7 @@ XXXXXXXX
 XY 
 xyz 
 xz 
+Y-m-d 
 y0 
 y3 
 y_1 
@@ -1712,6 +1765,7 @@ YYY
 yyyy 
 Z 
 z 
+Z_x64 
 zend_extension 
 zend_opcache 
 zero-units 
@@ -1725,7 +1779,11 @@ ZZZ
 Â 
 ç 
 é 
+í 
+ï 
 ñ 
+ó 
+ú 
 – 
 —el 
 —más 
