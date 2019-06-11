@@ -1,6 +1,13 @@
 import pathlib, html.parser, re, codecs
 
-RAICES = ["C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"]
+RAICES = [
+    "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss",
+    "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\python",
+    "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\informatica",
+    "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\webapps",
+    "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\xml",
+    "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\php",
+]
 
 EXTENSIONES = ["html", "css", "svg", "php", "py", "js", "md"]
 

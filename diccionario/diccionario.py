@@ -1,10 +1,21 @@
 import pathlib, re
 
+ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
+# ORIGEN_HTML = "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\htmlcss"
+ORIGEN_PYTHON = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\python"
+ORIGEN_INFORMATICA = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\informatica"
+ORIGEN_WEBAPPS = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\webapps"
+ORIGEN_XML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\xml"
+ORIGEN_PHP = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\php"
+
+ORIGEN = ORIGEN_PHP
+
 DICT_COD_PAISES = "dic_cod_paises.txt"
-DICT_COD_TK = "dic_cod_tk"
+DICT_COD_TK = "dic_cod_tk.txt"
 DICT_COD_UNICODE = "dic_cod_unicode.txt"
 DICT_EXCEPCIONES = "dic_excepciones.txt"
 DICT_EXCEPCIONES_XML = "dic_excepciones_xml.txt"
+DICT_EXCEPCIONES_PHP = "dic_excepciones_php.txt"
 DICT_GENERAL_ABREVIATURAS = "dic_general_abreviaturas.txt"
 DICT_GENERAL_NOMBRES = "dic_general_nombres.txt"
 DICT_GENERAL_SIGLAS = "dic_general_siglas.txt"
@@ -21,7 +32,9 @@ DICT_TECNICO_JAVASCRIPT = "dic_tecnico_javascript.txt"
 DICT_TECNICO_MCLIBRE_CSS = "dic_tecnico_mclibre_css.txt"
 DICT_TECNICO_PHP = "dic_tecnico_php.txt"
 DICT_TECNICO_PYTHON = "dic_tecnico_python.txt"
+DICT_TECNICO_SQL = "dic_tecnico_sql.txt"
 DICT_TECNICO_SVG = "dic_tecnico_svg.txt"
+DICT_TECNICO_XML = "dic_tecnico_xml.txt"
 
 DICT_LIST = [
     [DICT_EXCEPCIONES, "excepciones", 1, 11],
@@ -36,26 +49,20 @@ DICT_LIST = [
     [DICT_TECNICO_JAVASCRIPT, "js", 23, 24],
     [DICT_TECNICO_PYTHON, "py", 25, 26],
     [DICT_TECNICO_PHP, "php", 27, 28],
-    [DICT_IDIOMAS_OTROS, "Otros idiomas", 31, 32],
+    [DICT_TECNICO_XML, "xml", 29, 30],
+    [DICT_TECNICO_SQL, "sql", 31, 32],
     [DICT_IDIOMAS_LATIN, "latín", 33, 34],
     [DICT_IDIOMAS_VALENCIANO, "valenciano", 35, 36],
-    [DICT_IDIOMAS_NONSENSE, "nonsense", 39, 40],
+    [DICT_IDIOMAS_NONSENSE, "nonsense", 37, 38],
+    [DICT_IDIOMAS_OTROS, "Otros idiomas", 39, 40],
     [DICT_COD_UNICODE, "Unicode", 41, 42],
     [DICT_GENERAL_SIGLAS, "Siglas", 43, 44],
     [DICT_GENERAL_ABREVIATURAS, "Abreviaturas", 45, 46],
     [DICT_COD_PAISES, "Códigos países", 47, 48],
     [DICT_COD_TK, "Tk", 49, 50],
     [DICT_EXCEPCIONES_XML, "Excep. XML", 51, 52],
+    [DICT_EXCEPCIONES_PHP, "Excep. PHP", 53, 54 ]
 ]
-
-ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
-# ORIGEN_HTML = "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\htmlcss"
-ORIGEN_PYTHON = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\python"
-ORIGEN_INFORMATICA = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\informatica"
-ORIGEN_WEBAPPS = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\webapps"
-ORIGEN_XML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\xml"
-
-ORIGEN = ORIGEN_XML
 
 EXTENSIONES = ["html"]
 EXTENSIONES_NO_ANALIZADAS = [
@@ -121,7 +128,7 @@ def estadisticas():
 
 
 def ordena_diccionarios():
-    no_cuenta = [DICT_EXCEPCIONES, DICT_EXCEPCIONES_XML, DICT_TECNICO_MCLIBRE_CSS, DICT_IDIOMAS_NONSENSE, DICT_COD_TK]
+    no_cuenta = [DICT_EXCEPCIONES, DICT_EXCEPCIONES_XML, DICT_EXCEPCIONES_PHP, DICT_TECNICO_MCLIBRE_CSS, DICT_IDIOMAS_NONSENSE, DICT_GENERAL_NOMBRES, DICT_GENERAL_SIGLAS, DICT_GENERAL_ABREVIATURAS,  DICT_COD_TK, DICT_COD_UNICODE]
     print()
     print("Ordenando diccionarios ...")
     total_palabras = 0
@@ -329,11 +336,11 @@ def main():
                         "m"
                     ]
                     for i in unidades:
-                        x = re.search(r"-?[\d\.\d]+" + i + r'[\s.;,")]', texto)
+                        x = re.search(r"-?[\d\.\d]+" + i + r'[\s.;,:")]', texto)
                         while x:
                             # print(x.group())
                             texto = texto.replace(x.group(), " ")
-                            x = re.search(r"-?[\d\.\d]+" + i + r'[\s.;,")]', texto)
+                            x = re.search(r"-?[\d\.\d]+" + i + r'[\s.;,:")]', texto)
 
                     # # elimina comillas en palabras entrecomilladas
                     # No sirve tendría que dejar la palabra y qitar sólo las comillas
@@ -371,7 +378,7 @@ def main():
                         x = re.search(r"ISO-[0-9]+(-[0-9]+)?", texto)
 
                     # elimina resto de caracteres que no son letras
-                    elimina = r'<>=""\/().¿?¡!:,[]()%{}|;^&#±`@«»~€ªº²“‘’$'
+                    elimina = r'<>=""\/().¿?¡!:,[]()%{}|;^&#±`@«»~€ªº²“‘’$≤'
                     for i in elimina:
                         texto = texto.replace(i, " ")
 
@@ -418,7 +425,7 @@ def main():
                     # print(palabras)
                     for palabra in palabras:
                         # print(palabra)
-                        palabra = palabra.strip("'\"-+*”·█")
+                        palabra = palabra.strip("'\"-+*”·█_")
                         palabra_original = palabra
                         palabra = palabra.lower()
 
