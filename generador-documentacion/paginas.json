@@ -1,0 +1,18 @@
+{
+    "paginas": [
+        {
+            "nombre": "revistas-wireframe.html",
+            "revista": "Wireframe",
+            "web": "https://wireframe.raspberrypi.org/",
+            "miniaturas": "../img/revistas/wireframe/",
+            "archivos": "revista-wireframe/"
+        },
+        {
+            "nombre": "revistas-hello-world.html",
+            "revista": "Hello World",
+            "web": "https://www.raspberrypi.org/helloworld/",
+            "miniaturas": "../img/revistas/hello-world/",
+            "archivos": "revista-hello-world/"
+        }
+    ]
+}

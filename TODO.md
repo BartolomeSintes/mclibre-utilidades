@@ -7,6 +7,9 @@ Esta aplicación elimina el UTF-8 BOM que no sé por qué de vez en cuando me ap
 ## DICCIONARIO
 Esta aplicación genera la lista de palabras que hay en los ficheros de un directorio. Lo utilizo como corrector ortográfico de los apuntes.
 
+## GENERADOR WEB DOCUMENTACIÓN
+Aplicación para generar mclibre-documentacion. En elaboración
+
 
 # FUTURAS UTILIDADES
 
@@ -18,6 +21,3 @@ Aplicación que analice el html y diga los atributos utilizados y orden de los a
 
 ## ANALIZA CSS
 Aplicación para obtener todas las clases e ids de los apuntes y compararlos con la hoja de estilo. También podría comprobar el orden de los atributos.
-
-## GENERADOR DOCUMENTACIÓN
-Aplicación para generar mclibre-documentacion. A partir del programa que tengo para generar cds de cdlibre no debería ser muy complicado.

@@ -1,0 +1,206 @@
+{
+    "revistas": [
+        {
+            "nombre": "Hello World",
+            "número": 1,
+            "año": 2017,
+            "mes": 1,
+            "formato": "pdf",
+            "portada": "hello-world-01-en-201701.jpg",
+            "fichero": "hello-world-01-en-201701.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Hello World",
+            "número": 2,
+            "año": 2017,
+            "mes": 5,
+            "formato": "pdf",
+            "portada": "hello-world-02-en-201705.jpg",
+            "fichero": "hello-world-02-en-201705.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Hello World",
+            "número": 3,
+            "año": 2017,
+            "mes": 9,
+            "formato": "pdf",
+            "portada": "hello-world-03-en-201709.jpg",
+            "fichero": "hello-world-03-en-201709.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Hello World",
+            "número": 4,
+            "año": 2018,
+            "mes": 1,
+            "formato": "pdf",
+            "portada": "hello-world-04-en-201801.jpg",
+            "fichero": "hello-world-04-en-201801.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Hello World",
+            "número": 5,
+            "año": 2018,
+            "mes": 5,
+            "formato": "pdf",
+            "portada": "hello-world-05-en-201805.jpg",
+            "fichero": "hello-world-05-en-201805.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Hello World",
+            "número": 6,
+            "año": 2018,
+            "mes": 9,
+            "formato": "pdf",
+            "portada": "hello-world-06-en-201809.jpg",
+            "fichero": "hello-world-06-en-201809.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Hello World",
+            "número": 7,
+            "año": 2019,
+            "mes": 1,
+            "formato": "pdf",
+            "portada": "hello-world-07-en-201901.jpg",
+            "fichero": "hello-world-07-en-201901.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Hello World",
+            "número": 8,
+            "año": 2019,
+            "mes": 4,
+            "formato": "pdf",
+            "portada": "hello-world-08-en-201904.jpg",
+            "fichero": "hello-world-08-en-201904.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 2,
+            "año": 2018,
+            "mes": 11,
+            "formato": "pdf",
+            "portada": "wireframe-02-en-201811.jpg",
+            "fichero": "wireframe-02-en-201811.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 1,
+            "año": 2018,
+            "mes": 11,
+            "formato": "pdf",
+            "portada": "wireframe-01-en-201811.jpg",
+            "fichero": "wireframe-01-en-201811.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 3,
+            "año": 2018,
+            "mes": 12,
+            "formato": "pdf",
+            "portada": "wireframe-03-en-201812.jpg",
+            "fichero": "wireframe-03-en-201812.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 4,
+            "año": 2018,
+            "mes": 12,
+            "formato": "pdf",
+            "portada": "wireframe-04-en-201812.jpg",
+            "fichero": "wireframe-04-en-201812.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 5,
+            "año": 2019,
+            "mes": 1,
+            "formato": "pdf",
+            "portada": "wireframe-05-en-201901.jpg",
+            "fichero": "wireframe-05-en-201901.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 6,
+            "año": 2019,
+            "mes": 1,
+            "formato": "pdf",
+            "portada": "wireframe-06-en-201901.jpg",
+            "fichero": "wireframe-06-en-201901.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 7,
+            "año": 2019,
+            "mes": 2,
+            "formato": "pdf",
+            "portada": "wireframe-07-en-201902.jpg",
+            "fichero": "wireframe-07-en-201902.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 8,
+            "año": 2019,
+            "mes": 2,
+            "formato": "pdf",
+            "portada": "wireframe-08-en-201902.jpg",
+            "fichero": "wireframe-08-en-201902.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 9,
+            "año": 2019,
+            "mes": 3,
+            "formato": "pdf",
+            "portada": "wireframe-09-en-201903.jpg",
+            "fichero": "wireframe-09-en-201903.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 10,
+            "año": 2019,
+            "mes": 3,
+            "formato": "pdf",
+            "portada": "wireframe-10-en-201903.jpg",
+            "fichero": "wireframe-10-en-201903.pdf",
+            "idioma": "inglés"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 11,
+            "año": 2019,
+            "mes": 4,
+            "formato": "pdf",
+            "portada": "wireframe-11-en-201904.jpg",
+            "fichero": "wireframe-11-en-201904.pdf",
+            "idioma": "inglés",
+            "incluido": "2019-05-01"
+        },
+        {
+            "nombre": "Wireframe",
+            "número": 12,
+            "año": 2019,
+            "mes": 4,
+            "formato": "pdf",
+            "portada": "wireframe-12-en-201904.jpg",
+            "fichero": "wireframe-12-en-201904.pdf",
+            "idioma": "inglés",
+            "incluido": "2019-05-01"
+        }
+    ]
+}
