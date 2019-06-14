@@ -65,12 +65,28 @@
             "archivos": "revista-ifosslr/"
         },
         {
-            "pagina": "linux-voice.html",
+            "pagina": "revistas-linux-voice.html",
             "nombre": "Linux Voice",
             "nombre-corto": "Linux Voice",
             "web": "https://www.linuxvoice.com/",
             "miniaturas": "../img/revistas/linux-voice/",
             "archivos": "revista-linux-voice/"
+        },
+        {
+            "pagina": "revistas-occam.html",
+            "nombre": "Occam's Razor",
+            "nombre-corto": "Occam's Razor",
+            "web": "http://papermint-designs.com/roor/index.php/",
+            "miniaturas": "../img/revistas/occams-razor/",
+            "archivos": "revista-occams-razor/"
+        },
+        {
+            "pagina": "revistas-odroid.html",
+            "nombre": "ODROID Magazine",
+            "nombre-corto": "ODROID Magazine",
+            "web": "http://magazine.odroid.com/",
+            "miniaturas": "../img/revistas/odroid/",
+            "archivos": "revista-odroid/"
         },
         {
             "pagina": "revistas-pclinuxos.html",

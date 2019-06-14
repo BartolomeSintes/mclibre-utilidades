@@ -2741,10 +2741,10 @@
       "nombre": "(In)secure Magazine",
       "número": 28,
       "año": 2010,
-      "mes": 10,
+      "mes": 11,
       "formato": "pdf",
-      "portada": "insecure-28-en-201010.jpg",
-      "fichero": "insecure-28-en-201010.pdf",
+      "portada": "insecure-28-en-201011.jpg",
+      "fichero": "insecure-28-en-201011.pdf",
       "idioma": "inglés"
     },
     {
@@ -2991,10 +2991,10 @@
       "nombre": "(In)secure Magazine",
       "número": 49,
       "año": 2016,
-      "mes": 1,
+      "mes": 2,
       "formato": "pdf",
-      "portada": "insecure-49-en-201601.jpg",
-      "fichero": "insecure-49-en-201601.pdf",
+      "portada": "insecure-49-en-201602.jpg",
+      "fichero": "insecure-49-en-201602.pdf",
       "idioma": "inglés"
     },
     {
@@ -3164,8 +3164,8 @@
       "año": 2009,
       "mes": 7,
       "formato": "pdf",
-      "portada": "revista-ifosslr-v11_200907.png",
-      "fichero": "revista-ifosslr-v11_200907.pdf",
+      "portada": "ifosslr-v11_200907.png",
+      "fichero": "ifosslr-v11_200907.pdf",
       "idioma": "inglés"
     },
     {
@@ -3174,18 +3174,18 @@
       "año": 2010,
       "mes": 1,
       "formato": "pdf",
-      "portada": "revista-ifosslr-v12_201001.png",
-      "fichero": "revista-ifosslr-v12_201001.pdf",
+      "portada": "ifosslr-v12_201001.png",
+      "fichero": "ifosslr-v12_201001.pdf",
       "idioma": "inglés"
     },
     {
       "nombre": "International Free and Open Source Software Law Review",
       "número": 3,
       "año": 2010,
-      "mes": 7,
+      "mes": 6,
       "formato": "pdf",
-      "portada": "revista-ifosslr-v21_201007.png",
-      "fichero": "revista-ifosslr-v21_201007.pdf",
+      "portada": "ifosslr-v21_201006.png",
+      "fichero": "ifosslr-v21_201006.pdf",
       "idioma": "inglés"
     },
     {
@@ -3194,8 +3194,8 @@
       "año": 2011,
       "mes": 1,
       "formato": "pdf",
-      "portada": "revista-ifosslr-v22_201101.png",
-      "fichero": "revista-ifosslr-v22_201101.pdf",
+      "portada": "ifosslr-v22_201101.png",
+      "fichero": "ifosslr-v22_201101.pdf",
       "idioma": "inglés"
     },
     {
@@ -3204,8 +3204,8 @@
       "año": 2011,
       "mes": 9,
       "formato": "pdf",
-      "portada": "revista-ifosslr-v31_201109.png",
-      "fichero": "revista-ifosslr-v31_201109.pdf",
+      "portada": "ifosslr-v31_201109.png",
+      "fichero": "ifosslr-v31_201109.pdf",
       "idioma": "inglés"
     },
     {
@@ -3214,8 +3214,8 @@
       "año": 2012,
       "mes": 3,
       "formato": "pdf",
-      "portada": "revista-ifosslr-v41_201203.png",
-      "fichero": "revista-ifosslr-v41_201203.pdf",
+      "portada": "ifosslr-v41_201203.png",
+      "fichero": "ifosslr-v41_201203.pdf",
       "idioma": "inglés"
     },
     {
@@ -3224,8 +3224,8 @@
       "año": 2013,
       "mes": 4,
       "formato": "pdf",
-      "portada": "revista-ifosslr-v51_201304.png",
-      "fichero": "revista-ifosslr-v51_201304.pdf",
+      "portada": "ifosslr-v51_201304.png",
+      "fichero": "ifosslr-v51_201304.pdf",
       "idioma": "inglés"
     },
     {
@@ -3234,8 +3234,8 @@
       "año": 2013,
       "mes": 12,
       "formato": "pdf",
-      "portada": "revista-ifosslr-v52_201312.png",
-      "fichero": "revista-ifosslr-v52_201312.pdf",
+      "portada": "ifosslr-v52_201312.png",
+      "fichero": "ifosslr-v52_201312.pdf",
       "idioma": "inglés"
     },
     {
@@ -3245,8 +3245,1328 @@
       "mes": 4,
       "formato": "pdf",
       "portada": "linux-voice-01-201404.jpg",
-      "fichero": "linux-voice-01-201404.jpg",
+      "fichero": "linux-voice-01-201404.pdf",
       "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 2,
+      "año": 2014,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "linux-voice-02-201405.jpg",
+      "fichero": "linux-voice-02-201405.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 3,
+      "año": 2014,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "linux-voice-03-201406.jpg",
+      "fichero": "linux-voice-03-201406.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 4,
+      "año": 2014,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "linux-voice-04-201407.jpg",
+      "fichero": "linux-voice-04-201407.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 5,
+      "año": 2014,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "linux-voice-05-201408.jpg",
+      "fichero": "linux-voice-05-201408.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 6,
+      "año": 2014,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "linux-voice-06-201409.jpg",
+      "fichero": "linux-voice-06-201409.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 7,
+      "año": 2014,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "linux-voice-07-201410.jpg",
+      "fichero": "linux-voice-07-201410.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 8,
+      "año": 2014,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "linux-voice-08-201411.jpg",
+      "fichero": "linux-voice-08-201411.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 9,
+      "año": 2014,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "linux-voice-09-201412.jpg",
+      "fichero": "linux-voice-09-201412.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 10,
+      "año": 2015,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "linux-voice-10-201501.jpg",
+      "fichero": "linux-voice-10-201501.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 11,
+      "año": 2015,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "linux-voice-11-201502.jpg",
+      "fichero": "linux-voice-11-201502.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 12,
+      "año": 2015,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "linux-voice-12-201503.jpg",
+      "fichero": "linux-voice-12-201503.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 13,
+      "año": 2015,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "linux-voice-13-201504.jpg",
+      "fichero": "linux-voice-13-201504.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 14,
+      "año": 2015,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "linux-voice-14-201505.jpg",
+      "fichero": "linux-voice-14-201505.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 15,
+      "año": 2015,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "linux-voice-15-201506.jpg",
+      "fichero": "linux-voice-15-201506.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 16,
+      "año": 2015,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "linux-voice-16-201507.jpg",
+      "fichero": "linux-voice-16-201507.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 17,
+      "año": 2015,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "linux-voice-17-201508.jpg",
+      "fichero": "linux-voice-17-201508.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 18,
+      "año": 2015,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "linux-voice-18-201509.jpg",
+      "fichero": "linux-voice-18-201509.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 19,
+      "año": 2015,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "linux-voice-19-201510.jpg",
+      "fichero": "linux-voice-19-201510.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 20,
+      "año": 2015,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "linux-voice-20-201511.jpg",
+      "fichero": "linux-voice-20-201511.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 21,
+      "año": 2015,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "linux-voice-21-201512.jpg",
+      "fichero": "linux-voice-21-201512.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 22,
+      "año": 2016,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "linux-voice-22-201601.jpg",
+      "fichero": "linux-voice-22-201601.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 23,
+      "año": 2016,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "linux-voice-23-201602.jpg",
+      "fichero": "linux-voice-23-201602.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 24,
+      "año": 2016,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "linux-voice-24-201603.jpg",
+      "fichero": "linux-voice-24-201603.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 25,
+      "año": 2016,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "linux-voice-25-201604.jpg",
+      "fichero": "linux-voice-25-201604.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 26,
+      "año": 2016,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "linux-voice-26-201605.jpg",
+      "fichero": "linux-voice-26-201605.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 27,
+      "año": 2016,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "linux-voice-27-201606.jpg",
+      "fichero": "linux-voice-27-201606.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 28,
+      "año": 2016,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "linux-voice-28-201607.jpg",
+      "fichero": "linux-voice-28-201607.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 29,
+      "año": 2016,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "linux-voice-29-201608.jpg",
+      "fichero": "linux-voice-29-201608.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 30,
+      "año": 2016,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "linux-voice-30-201609.jpg",
+      "fichero": "linux-voice-30-201609.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 31,
+      "año": 2016,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "linux-voice-31-201610.jpg",
+      "fichero": "linux-voice-31-201610.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Linux Voice",
+      "número": 32,
+      "año": 2016,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "linux-voice-32-201611.jpg",
+      "fichero": "linux-voice-32-201611.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Occam's Razor",
+      "número": 1,
+      "año": 2007,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "occams-razor-01-200702.jpg",
+      "fichero": "occams-razor-01-200702.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Occam's Razor",
+      "número": 2,
+      "año": 2007,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "occams-razor-02-200706.jpg",
+      "fichero": "occams-razor-02-200706.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Occam's Razor",
+      "número": 3,
+      "año": 2008,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "occams-razor-03-200801.jpg",
+      "fichero": "occams-razor-03-200801.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Occam's Razor",
+      "número": 4,
+      "año": 2009,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "occams-razor-04-200908.jpg",
+      "fichero": "occams-razor-04-200908.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Occam's Razor",
+      "número": 5,
+      "año": 2011,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "occams-razor-05-201101.jpg",
+      "fichero": "occams-razor-05-201101.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "Occam's Razor",
+      "número": 6,
+      "año": 2011,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "occams-razor-06-201112.jpg",
+      "fichero": "occams-razor-06-201112.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 1,
+      "año": 2014,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "odroid-01-en-201401.jpg",
+      "fichero": "odroid-01-en-201401.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 1,
+      "año": 2014,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "odroid-01-es-201401.jpg",
+      "fichero": "odroid-01-es-201401.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 2,
+      "año": 2014,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "odroid-02-en-201402.jpg",
+      "fichero": "odroid-02-en-201402.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 2,
+      "año": 2014,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "odroid-02-es-201402.jpg",
+      "fichero": "odroid-02-es-201402.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 3,
+      "año": 2014,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "odroid-03-en-201403.jpg",
+      "fichero": "odroid-03-en-201403.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 3,
+      "año": 2014,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "odroid-03-es-201403.jpg",
+      "fichero": "odroid-03-es-201403.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 4,
+      "año": 2014,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "odroid-04-en-201404.jpg",
+      "fichero": "odroid-04-en-201404.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 4,
+      "año": 2014,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "odroid-04-es-201404.jpg",
+      "fichero": "odroid-04-es-201404.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 5,
+      "año": 2014,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "odroid-05-en-201405.jpg",
+      "fichero": "odroid-05-en-201405.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 5,
+      "año": 2014,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "odroid-05-es-201405.jpg",
+      "fichero": "odroid-05-es-201405.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 6,
+      "año": 2014,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "odroid-06-en-201406.jpg",
+      "fichero": "odroid-06-en-201406.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 6,
+      "año": 2014,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "odroid-06-es-201406.jpg",
+      "fichero": "odroid-06-es-201406.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 7,
+      "año": 2014,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "odroid-07-en-201407.jpg",
+      "fichero": "odroid-07-en-201407.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 7,
+      "año": 2014,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "odroid-07-es-201407.jpg",
+      "fichero": "odroid-07-es-201407.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 8,
+      "año": 2014,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "odroid-08-en-201408.jpg",
+      "fichero": "odroid-08-en-201408.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 8,
+      "año": 2014,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "odroid-08-es-201408.jpg",
+      "fichero": "odroid-08-es-201408.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 9,
+      "año": 2014,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "odroid-09-en-201409.jpg",
+      "fichero": "odroid-09-en-201409.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 9,
+      "año": 2014,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "odroid-09-es-201409.jpg",
+      "fichero": "odroid-09-es-201409.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 10,
+      "año": 2014,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "odroid-10-en-201410.jpg",
+      "fichero": "odroid-10-en-201410.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 10,
+      "año": 2014,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "odroid-10-es-201410.jpg",
+      "fichero": "odroid-10-es-201410.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 11,
+      "año": 2014,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "odroid-11-en-201411.jpg",
+      "fichero": "odroid-11-en-201411.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 11,
+      "año": 2014,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "odroid-11-es-201411.jpg",
+      "fichero": "odroid-11-es-201411.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 12,
+      "año": 2014,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "odroid-12-en-201412.jpg",
+      "fichero": "odroid-12-en-201412.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 12,
+      "año": 2014,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "odroid-12-es-201412.jpg",
+      "fichero": "odroid-12-es-201412.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 13,
+      "año": 2015,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "odroid-13-en-201501.jpg",
+      "fichero": "odroid-13-en-201501.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 13,
+      "año": 2015,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "odroid-13-es-201501.jpg",
+      "fichero": "odroid-13-es-201501.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 14,
+      "año": 2015,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "odroid-14-en-201502.jpg",
+      "fichero": "odroid-14-en-201502.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 14,
+      "año": 2015,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "odroid-14-es-201502.jpg",
+      "fichero": "odroid-14-es-201502.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 15,
+      "año": 2015,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "odroid-15-en-201503.jpg",
+      "fichero": "odroid-15-en-201503.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 15,
+      "año": 2015,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "odroid-15-es-201503.jpg",
+      "fichero": "odroid-15-es-201503.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 16,
+      "año": 2015,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "odroid-16-en-201504.jpg",
+      "fichero": "odroid-16-en-201504.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 16,
+      "año": 2015,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "odroid-16-es-201504.jpg",
+      "fichero": "odroid-16-es-201504.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 17,
+      "año": 2015,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "odroid-17-en-201505.jpg",
+      "fichero": "odroid-17-en-201505.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 17,
+      "año": 2015,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "odroid-17-es-201505.jpg",
+      "fichero": "odroid-17-es-201505.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 18,
+      "año": 2015,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "odroid-18-en-201506.jpg",
+      "fichero": "odroid-18-en-201506.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 18,
+      "año": 2015,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "odroid-18-es-201506.jpg",
+      "fichero": "odroid-18-es-201506.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 19,
+      "año": 2015,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "odroid-19-en-201507.jpg",
+      "fichero": "odroid-19-en-201507.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 19,
+      "año": 2015,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "odroid-19-es-201507.jpg",
+      "fichero": "odroid-19-es-201507.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 20,
+      "año": 2015,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "odroid-20-en-201508.jpg",
+      "fichero": "odroid-20-en-201508.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 20,
+      "año": 2015,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "odroid-20-es-201508.jpg",
+      "fichero": "odroid-20-es-201508.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 21,
+      "año": 2015,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "odroid-21-en-201509.jpg",
+      "fichero": "odroid-21-en-201509.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 21,
+      "año": 2015,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "odroid-21-es-201509.jpg",
+      "fichero": "odroid-21-es-201509.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 22,
+      "año": 2015,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "odroid-22-en-201510.jpg",
+      "fichero": "odroid-22-en-201510.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 22,
+      "año": 2015,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "odroid-22-es-201510.jpg",
+      "fichero": "odroid-22-es-201510.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 23,
+      "año": 2015,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "odroid-23-en-201511.jpg",
+      "fichero": "odroid-23-en-201511.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 23,
+      "año": 2015,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "odroid-23-es-201511.jpg",
+      "fichero": "odroid-23-es-201511.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 24,
+      "año": 2015,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "odroid-24-en-201512.jpg",
+      "fichero": "odroid-24-en-201512.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 24,
+      "año": 2015,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "odroid-24-es-201512.jpg",
+      "fichero": "odroid-24-es-201512.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 25,
+      "año": 2016,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "odroid-25-en-201601.jpg",
+      "fichero": "odroid-25-en-201601.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 25,
+      "año": 2016,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "odroid-25-es-201601.jpg",
+      "fichero": "odroid-25-es-201601.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 26,
+      "año": 2016,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "odroid-26-en-201602.jpg",
+      "fichero": "odroid-26-en-201602.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 26,
+      "año": 2016,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "odroid-26-es-201602.jpg",
+      "fichero": "odroid-26-es-201602.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 27,
+      "año": 2016,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "odroid-27-en-201603.jpg",
+      "fichero": "odroid-27-en-201603.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 27,
+      "año": 2016,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "odroid-27-es-201603.jpg",
+      "fichero": "odroid-27-es-201603.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 28,
+      "año": 2016,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "odroid-28-en-201604.jpg",
+      "fichero": "odroid-28-en-201604.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 28,
+      "año": 2016,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "odroid-28-es-201604.jpg",
+      "fichero": "odroid-28-es-201604.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 29,
+      "año": 2016,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "odroid-29-en-201605.jpg",
+      "fichero": "odroid-29-en-201605.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 29,
+      "año": 2016,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "odroid-29-es-201605.jpg",
+      "fichero": "odroid-29-es-201605.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 30,
+      "año": 2016,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "odroid-30-en-201606.jpg",
+      "fichero": "odroid-30-en-201606.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 31,
+      "año": 2016,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "odroid-31-en-201607.jpg",
+      "fichero": "odroid-31-en-201607.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 31,
+      "año": 2016,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "odroid-31-es-201607.jpg",
+      "fichero": "odroid-31-es-201607.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 32,
+      "año": 2016,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "odroid-32-en-201608.jpg",
+      "fichero": "odroid-32-en-201608.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 32,
+      "año": 2016,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "odroid-32-es-201608.jpg",
+      "fichero": "odroid-32-es-201608.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 33,
+      "año": 2016,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "odroid-33-en-201609.jpg",
+      "fichero": "odroid-33-en-201609.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 33,
+      "año": 2016,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "odroid-33-es-201609.jpg",
+      "fichero": "odroid-33-es-201609.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 34,
+      "año": 2016,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "odroid-34-en-201610.jpg",
+      "fichero": "odroid-34-en-201610.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 34,
+      "año": 2016,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "odroid-34-es-201610.jpg",
+      "fichero": "odroid-34-es-201610.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 35,
+      "año": 2016,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "odroid-35-en-201611.jpg",
+      "fichero": "odroid-35-en-201611.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 35,
+      "año": 2016,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "odroid-35-es-201611.jpg",
+      "fichero": "odroid-35-es-201611.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 36,
+      "año": 2016,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "odroid-36-en-201612.jpg",
+      "fichero": "odroid-36-en-201612.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 36,
+      "año": 2016,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "odroid-36-es-201612.jpg",
+      "fichero": "odroid-36-es-201612.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 37,
+      "año": 2017,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "odroid-37-en-201701.jpg",
+      "fichero": "odroid-37-en-201701.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 37,
+      "año": 2017,
+      "mes": 1,
+      "formato": "pdf",
+      "portada": "odroid-37-es-201701.jpg",
+      "fichero": "odroid-37-es-201701.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 38,
+      "año": 2017,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "odroid-38-en-201702.jpg",
+      "fichero": "odroid-38-en-201702.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 38,
+      "año": 2017,
+      "mes": 2,
+      "formato": "pdf",
+      "portada": "odroid-38-es-201702.jpg",
+      "fichero": "odroid-38-es-201702.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 39,
+      "año": 2017,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "odroid-39-en-201703.jpg",
+      "fichero": "odroid-39-en-201703.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 39,
+      "año": 2017,
+      "mes": 3,
+      "formato": "pdf",
+      "portada": "odroid-39-es-201703.jpg",
+      "fichero": "odroid-39-es-201703.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 40,
+      "año": 2017,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "odroid-40-en-201704.jpg",
+      "fichero": "odroid-40-en-201704.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 40,
+      "año": 2017,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "odroid-40-es-201704.jpg",
+      "fichero": "odroid-40-es-201704.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 41,
+      "año": 2017,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "odroid-41-en-201705.jpg",
+      "fichero": "odroid-41-en-201705.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 41,
+      "año": 2017,
+      "mes": 5,
+      "formato": "pdf",
+      "portada": "odroid-41-es-201705.jpg",
+      "fichero": "odroid-41-es-201705.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 42,
+      "año": 2017,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "odroid-42-en-201706.jpg",
+      "fichero": "odroid-42-en-201706.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 42,
+      "año": 2017,
+      "mes": 6,
+      "formato": "pdf",
+      "portada": "odroid-42-es-201706.jpg",
+      "fichero": "odroid-42-es-201706.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 43,
+      "año": 2017,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "odroid-43-en-201707.jpg",
+      "fichero": "odroid-43-en-201707.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 43,
+      "año": 2017,
+      "mes": 7,
+      "formato": "pdf",
+      "portada": "odroid-43-es-201707.jpg",
+      "fichero": "odroid-43-es-201707.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 44,
+      "año": 2017,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "odroid-44-en-201708.jpg",
+      "fichero": "odroid-44-en-201708.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 44,
+      "año": 2017,
+      "mes": 8,
+      "formato": "pdf",
+      "portada": "odroid-44-es-201708.jpg",
+      "fichero": "odroid-44-es-201708.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 45,
+      "año": 2017,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "odroid-45-en-201709.jpg",
+      "fichero": "odroid-45-en-201709.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 45,
+      "año": 2017,
+      "mes": 9,
+      "formato": "pdf",
+      "portada": "odroid-45-es-201709.jpg",
+      "fichero": "odroid-45-es-201709.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 46,
+      "año": 2017,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "odroid-46-en-201710.jpg",
+      "fichero": "odroid-46-en-201710.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 46,
+      "año": 2017,
+      "mes": 10,
+      "formato": "pdf",
+      "portada": "odroid-46-es-201710.jpg",
+      "fichero": "odroid-46-es-201710.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 47,
+      "año": 2017,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "odroid-47-en-201711.jpg",
+      "fichero": "odroid-47-en-201711.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 47,
+      "año": 2017,
+      "mes": 11,
+      "formato": "pdf",
+      "portada": "odroid-47-es-201711.jpg",
+      "fichero": "odroid-47-es-201711.pdf",
+      "idioma": "español"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 48,
+      "año": 2017,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "odroid-48-en-201712.jpg",
+      "fichero": "odroid-48-en-201712.pdf",
+      "idioma": "inglés"
+    },
+    {
+      "nombre": "ODROID Magazine",
+      "número": 48,
+      "año": 2017,
+      "mes": 12,
+      "formato": "pdf",
+      "portada": "odroid-48-es-201712.jpg",
+      "fichero": "odroid-48-es-201712.pdf",
+      "idioma": "español"
     },
     {
       "nombre": "The PCLinuxOS Magazine",
