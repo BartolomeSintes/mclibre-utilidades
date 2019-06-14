@@ -1,18 +1,92 @@
 {
     "paginas": [
         {
-            "nombre": "revistas-wireframe.html",
-            "revista": "Wireframe",
-            "web": "https://wireframe.raspberrypi.org/",
-            "miniaturas": "../img/revistas/wireframe/",
-            "archivos": "revista-wireframe/"
+            "pagina": "revistas-aprender-para-educar.html",
+            "nombre": "Aprender para educar con tecnología",
+            "nombre-corto": "Aprender para educar",
+            "web": "http://e-ducadores.com/aprenderparaeducar/",
+            "miniaturas": "../img/revistas/ape/",
+            "archivos": "revista-ape/"
         },
         {
-            "nombre": "revistas-hello-world.html",
-            "revista": "Hello World",
+            "pagina": "revistas-bits-de-ciencia.html",
+            "nombre": "Bits de Ciencia",
+            "nombre-corto": "Bits de Ciencia",
+            "web": "https://www.dcc.uchile.cl/bits-de-ciencia/",
+            "miniaturas": "../img/revistas/bits-de-ciencia/",
+            "archivos": "revista-bits-de-ciencia/"
+        },
+        {
+            "pagina": "revistas-full-circle.html",
+            "nombre": "Full Circle",
+            "nombre-corto": "Full Circle",
+            "web": "http://fullcirclemagazine.org/",
+            "miniaturas": "../img/revistas/full-circle/",
+            "archivos": "revista-full-circle/"
+        },
+        {
+            "pagina": "revistas-full-circle-recopilaciones.html",
+            "nombre": "Full Circle (recopilaciones)",
+            "nombre-corto": "Full Circle",
+            "web": "http://fullcirclemagazine.org/",
+            "miniaturas": "../img/revistas/full-circle-recopilaciones/",
+            "archivos": "revista-full-circle-especiales/"
+        },
+        {
+            "pagina": "revistas-hackspace.html",
+            "nombre": "HackSpace",
+            "nombre-corto": "HackSpace",
+            "web": "https://hackspace.raspberrypi.org/",
+            "miniaturas": "../img/revistas/hackspace/",
+            "archivos": "revista-hackspace/"
+        },
+        {
+            "pagina": "revistas-hello-world.html",
+            "nombre": "Hello World",
+            "nombre-corto": "Hello World",
             "web": "https://www.raspberrypi.org/helloworld/",
             "miniaturas": "../img/revistas/hello-world/",
             "archivos": "revista-hello-world/"
+        },
+        {
+            "pagina": "revistas-insecure.html",
+            "nombre": "(In)secure Magazine",
+            "nombre-corto": "(In)secure Magazine",
+            "web": "https://www.helpnetsecurity.com/insecuremag-archive/",
+            "miniaturas": "../img/revistas/insecure/",
+            "archivos": "revista-insecure/"
+        },
+        {
+            "pagina": "revistas-ifosslr.html",
+            "nombre": "International Free and Open Source Software Law Review",
+            "nombre-corto": "Int. FOSS Law Review",
+            "web": "https://www.ifosslr.org/ojs/ifosslr",
+            "miniaturas": "../img/revistas/ifosslr/",
+            "archivos": "revista-ifosslr/"
+        },
+        {
+            "pagina": "linux-voice.html",
+            "nombre": "Linux Voice",
+            "nombre-corto": "Linux Voice",
+            "web": "https://www.linuxvoice.com/",
+            "miniaturas": "../img/revistas/linux-voice/",
+            "archivos": "revista-linux-voice/"
+        },
+        {
+            "pagina": "revistas-pclinuxos.html",
+            "nombre": "The PCLinuxOS Magazine",
+            "nombre-corto": "The PCLinuxOS Magazine",
+            "web": "http://pclosmag.com/index.html",
+            "miniaturas": "../img/revistas/pclinuxos/",
+            "archivos": "revista-pclinuxos/"
+        },
+        {
+            "pagina": "revistas-wireframe.html",
+            "nombre": "Wireframe",
+            "nombre-corto": "Wireframe",
+            "web": "https://wireframe.raspberrypi.org/",
+            "miniaturas": "../img/revistas/wireframe/",
+            "archivos": "revista-wireframe/"
         }
     ]
 }
