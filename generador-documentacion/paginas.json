@@ -89,6 +89,38 @@
             "archivos": "revista-odroid/"
         },
         {
+            "pagina": "revistas-oii.html",
+            "nombre": "Olympiads in informatics",
+            "nombre-corto": "OOlympiads in informatics",
+            "web": "http://www.mii.lt/olympiads_in_informatics/",
+            "miniaturas": "../img/revistas/olympiads-in-informatics/",
+            "archivos": "revista-oii/"
+        },
+        {
+            "pagina": "revistas-osy.html",
+            "nombre": "Open Source Yearbook",
+            "nombre-corto": "Open Source Yearbook",
+            "web": "https://opensource.com/",
+            "miniaturas": "../img/revistas/open-source-yearbook/",
+            "archivos": "revista-osy/"
+        },
+        {
+            "pagina": "revistas-the-magpi.html",
+            "nombre": "The MagPi",
+            "nombre-corto": "The MagPi",
+            "web": "https://www.raspberrypi.org/magpi/",
+            "miniaturas": "../img/revistas/the-magpi/",
+            "archivos": "revista-magpi/"
+        },
+        {
+            "pagina": "revistas-the-magpi-essentials.html",
+            "nombre": "The MagPi Essentials",
+            "nombre-corto": "The MagPi Essentials",
+            "web": "https://www.raspberrypi.org/magpi/",
+            "miniaturas": "../img/revistas/the-magpi-essentials/",
+            "archivos": "revista-magpi-essentials/"
+        },
+        {
             "pagina": "revistas-pclinuxos.html",
             "nombre": "The PCLinuxOS Magazine",
             "nombre-corto": "The PCLinuxOS Magazine",

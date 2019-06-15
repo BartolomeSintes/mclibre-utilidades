@@ -14,3 +14,6 @@ Esta aplicación genera el sitio web http://www.mclibre.org/consultar/documentac
 * 2019-06-14. No ordena por idioma (por ejemplo, para que ponga antes la versión en inglés y luego en español).
 * 2019-06-14. Añadir un campo para explicaciones adicionales (p.e. Aprender para Educar tiene números posteriores que no puedo descargar y Occam's Razor ya no saca pdfs).
 * 2019-06-14. Odroid magazine tiene dos páginas web (versión inglesa y española) http://magazine.odroid.com/es/
+* 2019-06-15. En la primera línea de las páginas dice siempre "de la revista" pero cuando son recopilaciones debería decir "recopilaciones de la revista"
+* 2019-06-15. Hay recopilaciones de MagPi que no tiene número
+* 2019-06-15. the-magpi-essentials-C-01-en-201610.pdf tiene la C en mayúsculas

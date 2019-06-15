@@ -199,7 +199,7 @@ def crea_bloque_revista_anyos(plantilla):
             weight = str(round(fichero.stat().st_size / 1024 / 1024, 1)) + " MB"
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
-            if type(i["mes"]) is "<class 'int'>":
+            if isinstance(i["mes"], int):
                 t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}" /></p>'
             else:
                 t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}" /></p>'

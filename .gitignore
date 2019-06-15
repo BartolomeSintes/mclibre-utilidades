@@ -5,3 +5,6 @@
 /node_modules/
 /.htmlhintrc
 /.vscode
+/generador-documentacion/__pycache__/
+/generador-documentacion/sitio/
+/generador-documentacion/tmp/
