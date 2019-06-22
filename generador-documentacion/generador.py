@@ -131,15 +131,10 @@ def crea_bloque_revista_anyos(plantilla):
     # Obtiene ejemplares
     r = nombre_plantilla_a_nombre_revista(plantilla)
     for i in elementos_json["revistas"]:
-        if i["nombre"] == r["nombre-corto"]:
-            print(i)
-    print(r["nombre-corto"])
-    for i in elementos_json["revistas"]:
         if i["nombre"] == r["nombre-corto"] or ("serie" in i and i["serie"] == r["nombre-corto"]):
             ejemplares += [i]
             if i["año"] not in anyos:
                 anyos += [i["año"]]
-    print(ejemplares)
     anyos.sort(reverse=True)
     # Genera html
     t = ""
@@ -185,7 +180,11 @@ def crea_bloque_revista_anyos(plantilla):
     t += f'    <h2>{r["nombre"]}</h2>'
     t += "\n"
     t += "\n"
-    t += f'  <p>Página web: <a href="{r["web"]}">{r["nombre"]}</a></p>'
+    t += f'  <p>Página web: '
+    t += f'<a href="{r["web"][0][0]}">{r["web"][0][1]}</a>'
+    for i in range(len(r["web"]) - 1):
+        t += f' - <a href="{r["web"][i+1][0]}">{r["web"][i+1][1]}</a>'
+    t += f'</p>'
     t += "\n"
     t += "\n"
     for a in anyos:

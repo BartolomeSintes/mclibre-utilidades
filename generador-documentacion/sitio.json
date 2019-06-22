@@ -1,0 +1,11 @@
+{
+  "paginas": [
+    {
+      "pagina": "revistas-aprender-para-educar.html",
+      "plantilla": "revista-actual.html",
+      "revistas": [
+        "Aprender para educar"
+      ]
+    }
+  ]
+}
