@@ -20,6 +20,13 @@ LOCAL_ARCHIVOS = (
 LOCAL_MINIATURAS = (
     "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\documentacion\\img\\"
 )
+# LOCAL_ARCHIVOS = (
+#     "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\__revistas_en_mclibre\\"
+# )
+
+# LOCAL_MINIATURAS = (
+#     "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\documentacion\\img\\"
+# )
 MES = [
     "",
     "enero",
@@ -124,22 +131,27 @@ def crea_bloque_revista_anyos(plantilla):
     # Obtiene ejemplares
     r = nombre_plantilla_a_nombre_revista(plantilla)
     for i in elementos_json["revistas"]:
-        if i["nombre"] == r["nombre"] or ("serie" in i) and i["serie"] == r["nombre"]:
+        if i["nombre"] == r["nombre-corto"]:
+            print(i)
+    print(r["nombre-corto"])
+    for i in elementos_json["revistas"]:
+        if i["nombre"] == r["nombre-corto"] or ("serie" in i and i["serie"] == r["nombre-corto"]):
             ejemplares += [i]
             if i["año"] not in anyos:
                 anyos += [i["año"]]
+    print(ejemplares)
     anyos.sort(reverse=True)
     # Genera html
     t = ""
     t += "<!DOCTYPE html>\n"
     t += '<html lang="es">\n'
     t += "<head>\n"
-    t += '  <meta charset="utf-8" />\n'
+    t += '  <meta charset="utf-8">\n'
     t += f'  <title>Revista {r["nombre"]}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>'
     t += "\n"
-    t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0" />\n'
-    t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre" />\n'
-    t += '  <link rel="icon" href="../varios/favicon.ico" />\n'
+    t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+    t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
+    t += '  <link rel="icon" href="../varios/favicon.ico">\n'
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
@@ -148,8 +160,8 @@ def crea_bloque_revista_anyos(plantilla):
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
-    t += '      <a href="../index.html"><img src="../varios/cc.png" alt="Volver a la página principal" title="Volver a la página principal" height="64" width="64" /></a>\n'
-    t += '      <a href="#"><img src="../varios/iconos/icono_arrow_circle_up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36" /></a>\n'
+    t += '      <a href="../index.html"><img src="../varios/cc.png" alt="Volver a la página principal" title="Volver a la página principal" height="64" width="64"></a>\n'
+    t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
     t += "    </p>\n"
     t += "\n"
     t += f'    <h2>{r["nombre-corto"]}</h2>'
@@ -200,9 +212,9 @@ def crea_bloque_revista_anyos(plantilla):
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
             if isinstance(i["mes"], int):
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}" /></p>'
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
             else:
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}" /></p>'
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
             t += "\n"
             t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>'
             t += "\n"
@@ -213,7 +225,8 @@ def crea_bloque_revista_anyos(plantilla):
         t += "  </section>\n"
         t += "\n"
     t += '  <address id="ultmod">\n'
-    t += "    Autor: Bartolomé Sintes Marco<br /> Última modificación de esta página: 1 de mayo de 2019\n"
+    t += "    Autor: Bartolomé Sintes Marco<br>\n"
+    t += "    Última modificación de esta página: 1 de mayo de 2019\n"
     t += "  </address>\n"
     t += "</body>\n"
     t += "</html>\n"
