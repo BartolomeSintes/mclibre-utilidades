@@ -11,7 +11,7 @@ import json, pathlib, shutil, imagesize, operator
 
 SITIO = "sitio.json"
 REVISTAS = "revistas.json"
-ELEMENTOS = "elementos.json"
+EJEMPLARES = "ejemplares.json"
 ORIGEN = "sitio-plantilla"
 DESTINO = "sitio"
 REMOTO_ARCHIVOS = "http://www.mclibre.org/descargar/docs/"
@@ -122,7 +122,7 @@ def pagina_individual_revista(r):
     ejemplares = []
     anyos = []
     # Obtiene ejemplares
-    for i in elementos_json["ejemplares"]:
+    for i in ejemplares_json["ejemplares"]:
         if i["nombre"] == r or ("serie" in i and i["serie"] == r):
             ejemplares += [i]
             if i["año"] not in anyos:
@@ -242,15 +242,15 @@ if p.exists():
     else:
         shutil.rmtree(p)
 
-# Carga elementos y páginas
+# Carga sitio, revistas y ejemplares
 with open(SITIO, encoding="utf-8") as json_file:
     sitio_json = json.load(json_file)
 
 with open(REVISTAS, encoding="utf-8") as json_file:
     revistas_json = json.load(json_file)
 
-with open(ELEMENTOS, encoding="utf-8") as json_file:
-    elementos_json = json.load(json_file)
+with open(EJEMPLARES, encoding="utf-8") as json_file:
+    ejemplares_json = json.load(json_file)
 
 # Crea directorios de DESTINO
 print("Creando directorios de destino")
