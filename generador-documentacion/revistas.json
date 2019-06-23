@@ -12,7 +12,8 @@
             ],
             "miniaturas": "../img/revistas/ape/",
             "archivos": "revista-ape/",
-            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse en formato pdf."
+            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse en formato pdf.",
+            "abreviatura" : "ape"
         },
         {
             "nombre-corto": "Atix",
@@ -26,7 +27,8 @@
             ],
             "miniaturas": "../img/revistas/atix/",
             "archivos": "revista-atix/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "atix"
         },
         {
             "nombre-corto": "Bits de Ciencia",
@@ -40,7 +42,8 @@
             ],
             "miniaturas": "../img/revistas/bits-de-ciencia/",
             "archivos": "revista-bits-de-ciencia/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "bits"
         },
         {
             "nombre-corto": "Full Circle",
@@ -54,7 +57,8 @@
             ],
             "miniaturas": "../img/revistas/full-circle/",
             "archivos": "revista-full-circle/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "fullcircle"
         },
         {
             "nombre-corto": "Full Circle (rec)",
@@ -68,7 +72,8 @@
             ],
             "miniaturas": "../img/revistas/full-circle-recopilaciones/",
             "archivos": "revista-full-circle-recopilaciones/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "fucllcirclereco"
         },
         {
             "nombre-corto": "HackSpace",
@@ -82,7 +87,8 @@
             ],
             "miniaturas": "../img/revistas/hackspace/",
             "archivos": "revista-hackspace/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "hackspace"
         },
         {
             "nombre-corto": "Hello World",
@@ -96,10 +102,11 @@
             ],
             "miniaturas": "../img/revistas/hello-world/",
             "archivos": "revista-hello-world/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "helloworld"
         },
         {
-            "nombre-corto": "(In)secure Magazine",
+            "nombre-corto": "Insecure Magazine",
             "nombre": "(In)secure Magazine",
             "nombre-largo": "(In)secure Magazine",
             "web": [
@@ -110,7 +117,8 @@
             ],
             "miniaturas": "../img/revistas/insecure/",
             "archivos": "revista-insecure/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "insecure"
         },
         {
             "nombre-corto": "Int. FOSS Law Review",
@@ -124,7 +132,8 @@
             ],
             "miniaturas": "../img/revistas/ifosslr/",
             "archivos": "revista-ifosslr/",
-            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf."
+            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf.",
+            "abreviatura" : "ifosslr"
         },
         {
             "nombre-corto": "Linux Voice",
@@ -138,7 +147,8 @@
             ],
             "miniaturas": "../img/revistas/linux-voice/",
             "archivos": "revista-linux-voice/",
-            "comentario": "Linux Voice fue una revista comercial que publicaba los ejemplares unos seis meses después de su publicación en los quioscos. En noviembre de 2016 anunció su fusión con la revista comercial Linux magazine y el fin de su publicación como revista independiente."
+            "comentario": "Linux Voice fue una revista comercial que publicaba los ejemplares unos seis meses después de su publicación en los quioscos. En noviembre de 2016 anunció su fusión con la revista comercial Linux magazine y el fin de su publicación como revista independiente.",
+            "abreviatura" : "linuxvoice"
         },
         {
             "nombre-corto": "Occam's Razor",
@@ -152,7 +162,8 @@
             ],
             "miniaturas": "../img/revistas/occams-razor/",
             "archivos": "revista-occams-razor/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "occam"
         },
         {
             "nombre-corto": "ODROID Magazine",
@@ -170,7 +181,8 @@
             ],
             "miniaturas": "../img/revistas/odroid/",
             "archivos": "revista-odroid/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "odroid"
         },
         {
             "nombre-corto": "Olympiads in informatics",
@@ -184,7 +196,8 @@
             ],
             "miniaturas": "../img/revistas/olympiads-in-informatics/",
             "archivos": "revista-oii/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "olympiads"
         },
         {
             "nombre-corto": "Open Source Yearbook",
@@ -198,7 +211,8 @@
             ],
             "miniaturas": "../img/revistas/open-source-yearbook/",
             "archivos": "revista-osy/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "osyearbook"
         },
         {
             "nombre-corto": "The MagPi",
@@ -212,7 +226,8 @@
             ],
             "miniaturas": "../img/revistas/the-magpi/",
             "archivos": "revista-magpi/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "magpi"
         },
         {
             "nombre-corto": "The MagPi Essentials",
@@ -226,7 +241,8 @@
             ],
             "miniaturas": "../img/revistas/the-magpi-essentials/",
             "archivos": "revista-magpi-essentials/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "magpiessentials"
         },
         {
             "nombre-corto": "The PCLinuxOS Magazine",
@@ -240,7 +256,8 @@
             ],
             "miniaturas": "../img/revistas/pclinuxos/",
             "archivos": "revista-pclinuxos/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "pclinuxos"
         },
         {
             "nombre-corto": "Wireframe",
@@ -254,7 +271,8 @@
             ],
             "miniaturas": "../img/revistas/wireframe/",
             "archivos": "revista-wireframe/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "wireframe"
         },
         {
             "nombre-corto": "Begins",
@@ -268,7 +286,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/begins/",
             "archivos": "revista-begins/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "begins"
         },
         {
             "nombre-corto": "Essentia Libre",
@@ -286,7 +305,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/essentia-libre/",
             "archivos": "revista-essentia-libre/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "essentia"
         },
         {
             "nombre-corto": "Fent Llinux",
@@ -300,7 +320,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/fent-linux/",
             "archivos": "revista-fent-linux/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "fentlinux"
         },
         {
             "nombre-corto": "GIMP Magazine",
@@ -314,7 +335,8 @@
             ],
             "miniaturas": "../img/revistas/gimp-magazine/",
             "archivos": "revista-gimp-magazine/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "gimpmag"
         },
         {
             "nombre-corto": "HD",
@@ -328,7 +350,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/hd/",
             "archivos": "revista-hd/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "hd"
         },
         {
             "nombre-corto": "Libre Graphics Magazine",
@@ -342,7 +365,8 @@
             ],
             "miniaturas": "../img/revistas/libre-graphics/",
             "archivos": "revista-libre-graphics/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "libregraphics"
         },
         {
             "nombre-corto": "Libresfera",
@@ -356,7 +380,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/libresfera/",
             "archivos": "revista-libresfera/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "libresfera"
         },
         {
             "nombre-corto": "Linvix",
@@ -370,7 +395,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/linvix/",
             "archivos": "revista-linvix/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "linvix"
         },
         {
             "nombre-corto": "MiniMiniM",
@@ -384,7 +410,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/miniminim/",
             "archivos": "revista-miniminim/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "miniminm"
         },
         {
             "nombre-corto": "MyGnet",
@@ -398,7 +425,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/mygnet/",
             "archivos": "revista-mygnet/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "mygnet"
         },
         {
             "nombre-corto": "Papirux",
@@ -412,7 +440,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/papirux/",
             "archivos": "revista-papirux/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "papirux"
         },
         {
             "nombre-corto": "Python entre todos",
@@ -426,7 +455,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/pet/",
             "archivos": "revista-pet/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "pet"
         },
         {
             "nombre-corto": "Planetix",
@@ -440,7 +470,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/planetix/",
             "archivos": "revista-planetix/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "planetix"
         },
         {
             "nombre-corto": "Qlugster magazine",
@@ -458,7 +489,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/qlugster/",
             "archivos": "revista-qlugster/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "qlugster"
         },
         {
             "nombre-corto": "Scripta",
@@ -472,7 +504,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/scripta/",
             "archivos": "revista-scripta/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "scripta"
         },
         {
             "nombre-corto": "Revista SL",
@@ -486,7 +519,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/sl/",
             "archivos": "revista-sl/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "revistasl"
         },
         {
             "nombre-corto": "SofLix",
@@ -500,7 +534,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/soflix/",
             "archivos": "revista-soflix/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "soflix"
         },
         {
             "nombre-corto": "The Original Hacker",
@@ -514,7 +549,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/the-original-hacker/",
             "archivos": "revista-the-original-hacker/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "origianlhacker"
         },
         {
             "nombre-corto": "Tuxinfo",
@@ -528,7 +564,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/tuxinfo/",
             "archivos": "revista-tuxinfo/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "tuxinfo"
         },
         {
             "nombre-corto": "Ubunchu",
@@ -542,7 +579,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/ubunchu/",
             "archivos": "revista-ubunchu/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "ubunchu"
         },
         {
             "nombre-corto": "Uxi",
@@ -556,7 +594,8 @@
             ],
             "miniaturas": "../img/revistas-inactivas/uxi/",
             "archivos": "revista-uxi/",
-            "comentario": ""
+            "comentario": "",
+            "abreviatura" : "uxi"
         }
     ]
 }
