@@ -1,9 +1,9 @@
 {
-    "paginas": [
+    "revistas": [
         {
-            "pagina": "revistas-aprender-para-educar.html",
-            "nombre": "Aprender para educar con tecnología",
             "nombre-corto": "Aprender para educar",
+            "nombre": "Aprender para educar con tecnología",
+            "nombre-largo": "Aprender para educar con tecnología",
             "web": [
                 [
                     "http://e-ducadores.com/aprenderparaeducar/",
@@ -11,12 +11,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/ape/",
-            "archivos": "revista-ape/"
+            "archivos": "revista-ape/",
+            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse en formato pdf."
         },
         {
-            "pagina": "revistas-atix.html",
-            "nombre": "Atix - Revista de software libre",
             "nombre-corto": "Atix",
+            "nombre": "Atix - Revista de software libre",
+            "nombre-largo": "Atix - Revista de software libre",
             "web": [
                 [
                     "http://revista.atixlibre.org/",
@@ -24,12 +25,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/atix/",
-            "archivos": "revista-atix/"
+            "archivos": "revista-atix/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-bits-de-ciencia.html",
-            "nombre": "Bits de Ciencia",
             "nombre-corto": "Bits de Ciencia",
+            "nombre": "Bits de Ciencia",
+            "nombre-largo": "Bits de Ciencia",
             "web": [
                 [
                     "https://www.dcc.uchile.cl/bits-de-ciencia/",
@@ -37,12 +39,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/bits-de-ciencia/",
-            "archivos": "revista-bits-de-ciencia/"
+            "archivos": "revista-bits-de-ciencia/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-full-circle.html",
-            "nombre": "Full Circle",
             "nombre-corto": "Full Circle",
+            "nombre": "Full Circle",
+            "nombre-largo": "Full Circle - The independent magazine for the Ubuntu Linux community",
             "web": [
                 [
                     "http://fullcirclemagazine.org/",
@@ -50,12 +53,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/full-circle/",
-            "archivos": "revista-full-circle/"
+            "archivos": "revista-full-circle/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-full-circle-recopilaciones.html",
-            "nombre": "Full Circle (recopilaciones)",
             "nombre-corto": "Full Circle (rec)",
+            "nombre": "Full Circle (recopilaciones)",
+            "nombre-largo": "Full Circle (recopilaciones)",
             "web": [
                 [
                     "http://fullcirclemagazine.org/",
@@ -63,12 +67,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/full-circle-recopilaciones/",
-            "archivos": "revista-full-circle-recopilaciones/"
+            "archivos": "revista-full-circle-recopilaciones/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-hackspace.html",
-            "nombre": "HackSpace",
             "nombre-corto": "HackSpace",
+            "nombre": "HackSpace",
+            "nombre-largo": "HackSpace - The monthly magazine for the modern maker",
             "web": [
                 [
                     "https://hackspace.raspberrypi.org/",
@@ -76,12 +81,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/hackspace/",
-            "archivos": "revista-hackspace/"
+            "archivos": "revista-hackspace/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-hello-world.html",
-            "nombre": "Hello World",
             "nombre-corto": "Hello World",
+            "nombre": "Hello World",
+            "nombre-largo": "Hello World - The computing and digital making magazine for educators",
             "web": [
                 [
                     "https://www.raspberrypi.org/helloworld/",
@@ -89,12 +95,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/hello-world/",
-            "archivos": "revista-hello-world/"
+            "archivos": "revista-hello-world/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-insecure.html",
-            "nombre": "(In)secure Magazine",
             "nombre-corto": "(In)secure Magazine",
+            "nombre": "(In)secure Magazine",
+            "nombre-largo": "(In)secure Magazine",
             "web": [
                 [
                     "https://www.helpnetsecurity.com/insecuremag-archive/",
@@ -102,12 +109,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/insecure/",
-            "archivos": "revista-insecure/"
+            "archivos": "revista-insecure/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-ifosslr.html",
-            "nombre": "International Free and Open Source Software Law Review",
             "nombre-corto": "Int. FOSS Law Review",
+            "nombre": "International Free and Open Source Software Law Review",
+            "nombre-largo": "International Free and Open Source Software Law Review",
             "web": [
                 [
                     "https://www.ifosslr.org/ojs/ifosslr",
@@ -115,12 +123,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/ifosslr/",
-            "archivos": "revista-ifosslr/"
+            "archivos": "revista-ifosslr/",
+            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf."
         },
         {
-            "pagina": "revistas-linux-voice.html",
-            "nombre": "Linux Voice",
             "nombre-corto": "Linux Voice",
+            "nombre": "Linux Voice",
+            "nombre-largo": "Linux Voice - Free software, free speech. (Reino Unido, 2014-2016)",
             "web": [
                 [
                     "https://www.linuxvoice.com/",
@@ -128,12 +137,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/linux-voice/",
-            "archivos": "revista-linux-voice/"
+            "archivos": "revista-linux-voice/",
+            "comentario": "Linux Voice fue una revista comercial que publicaba los ejemplares unos seis meses después de su publicación en los quioscos. En noviembre de 2016 anunció su fusión con la revista comercial Linux magazine y el fin de su publicación como revista independiente."
         },
         {
-            "pagina": "revistas-occam.html",
-            "nombre": "Occam's Razor",
             "nombre-corto": "Occam's Razor",
+            "nombre": "Occam's Razor",
+            "nombre-largo": "Occam's Razor - porque lo más sencillo es lo más probable ",
             "web": [
                 [
                     "http://papermint-designs.com/roor/index.php/",
@@ -141,12 +151,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/occams-razor/",
-            "archivos": "revista-occams-razor/"
+            "archivos": "revista-occams-razor/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-odroid.html",
-            "nombre": "ODROID Magazine",
             "nombre-corto": "ODROID Magazine",
+            "nombre": "ODROID Magazine",
+            "nombre-largo": "ODROID Magazine - Your Source For All Things ODROIDian",
             "web": [
                 [
                     "http://magazine.odroid.com/",
@@ -158,12 +169,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/odroid/",
-            "archivos": "revista-odroid/"
+            "archivos": "revista-odroid/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-oii.html",
-            "nombre": "Olympiads in informatics",
             "nombre-corto": "Olympiads in informatics",
+            "nombre": "Olympiads in informatics",
+            "nombre-largo": "Olympiads in informatics - An International Journal",
             "web": [
                 [
                     "http://www.mii.lt/olympiads_in_informatics/",
@@ -171,12 +183,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/olympiads-in-informatics/",
-            "archivos": "revista-oii/"
+            "archivos": "revista-oii/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-osy.html",
-            "nombre": "Open Source Yearbook",
             "nombre-corto": "Open Source Yearbook",
+            "nombre": "Open Source Yearbook",
+            "nombre-largo": "Open Source Yearbook",
             "web": [
                 [
                     "https://opensource.com/",
@@ -184,12 +197,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/open-source-yearbook/",
-            "archivos": "revista-osy/"
+            "archivos": "revista-osy/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-the-magpi.html",
-            "nombre": "The MagPi",
             "nombre-corto": "The MagPi",
+            "nombre": "The MagPi",
+            "nombre-largo": "The MagPi - The official Raspberry Pi magazine",
             "web": [
                 [
                     "https://www.raspberrypi.org/magpi/",
@@ -197,12 +211,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/the-magpi/",
-            "archivos": "revista-magpi/"
+            "archivos": "revista-magpi/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-the-magpi-essentials.html",
-            "nombre": "The MagPi Essentials",
             "nombre-corto": "The MagPi Essentials",
+            "nombre": "The MagPi Essentials",
+            "nombre-largo": "The MagPi Essentials",
             "web": [
                 [
                     "https://www.raspberrypi.org/magpi/",
@@ -210,12 +225,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/the-magpi-essentials/",
-            "archivos": "revista-magpi-essentials/"
+            "archivos": "revista-magpi-essentials/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-pclinuxos.html",
-            "nombre": "The PCLinuxOS Magazine",
             "nombre-corto": "The PCLinuxOS Magazine",
+            "nombre": "The PCLinuxOS Magazine",
+            "nombre-largo": "The PCLinuxOS Magazine - Of the community, by the community, for the community",
             "web": [
                 [
                     "http://pclosmag.com/index.html",
@@ -223,12 +239,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/pclinuxos/",
-            "archivos": "revista-pclinuxos/"
+            "archivos": "revista-pclinuxos/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-wireframe.html",
-            "nombre": "Wireframe",
             "nombre-corto": "Wireframe",
+            "nombre": "Wireframe",
+            "nombre-largo": "Wireframe - Lifting the lid on video games",
             "web": [
                 [
                     "https://wireframe.raspberrypi.org/",
@@ -236,12 +253,12 @@
                 ]
             ],
             "miniaturas": "../img/revistas/wireframe/",
-            "archivos": "revista-wireframe/"
+            "archivos": "revista-wireframe/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-begins.html",
-            "nombre": "Begins - La Revista de software libre y código abierto (Chile, 2006-2008)",
             "nombre-corto": "Begins",
+            "nombre": "Begins - La Revista de software libre y código abierto (Chile, 2006-2008)",
             "nombre-largo": "Begins - La Revista de software libre y código abierto (Chile, 2006-2008)",
             "web": [
                 [
@@ -250,12 +267,12 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/begins/",
-            "archivos": "revista-begins/"
+            "archivos": "revista-begins/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-essentia-libre.html",
-            "nombre": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre",
             "nombre-corto": "Essentia Libre",
+            "nombre": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre",
             "nombre-largo": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre (Colombia, 2006-2007)",
             "web": [
                 [
@@ -268,12 +285,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/essentia-libre/",
-            "archivos": "revista-essentia-libre/"
+            "archivos": "revista-essentia-libre/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-fent-linux.html",
-            "nombre": "Fent Llinux",
             "nombre-corto": "Fent Llinux",
+            "nombre": "Fent Llinux",
+            "nombre-largo": "Fent Llinux (España, 2005-2008)",
             "web": [
                 [
                     "http://www.fentlinux.com/web/",
@@ -281,12 +299,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/fent-linux/",
-            "archivos": "revista-fent-linux/"
+            "archivos": "revista-fent-linux/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-gimp-magazine.html",
-            "nombre": "GIMP Magazine",
             "nombre-corto": "GIMP Magazine",
+            "nombre": "GIMP Magazine",
+            "nombre-largo": "GIMP Magazine (2012-2015)",
             "web": [
                 [
                     "http://gimpmagazine.org/",
@@ -294,12 +313,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/gimp-magazine/",
-            "archivos": "revista-gimp-magazine/"
+            "archivos": "revista-gimp-magazine/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-hd.html",
-            "nombre": "HD Hackers and Developers",
             "nombre-corto": "HD",
+            "nombre": "HD Hackers and Developers",
+            "nombre-largo": "HD Hackers and Developers (Argentina, 2012-2013)",
             "web": [
                 [
                     "http://www.hdmagazine.org/",
@@ -307,12 +327,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/hd/",
-            "archivos": "revista-hd/"
+            "archivos": "revista-hd/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-lgm.html",
-            "nombre": "Libre Graphics Magazine",
             "nombre-corto": "Libre Graphics Magazine",
+            "nombre": "Libre Graphics Magazine",
+            "nombre-largo": "Libre Graphics Magazine (2010-2015)",
             "web": [
                 [
                     "http://libregraphicsmag.com/",
@@ -320,12 +341,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas/libre-graphics/",
-            "archivos": "revista-libre-graphics/"
+            "archivos": "revista-libre-graphics/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-libresfera.html",
-            "nombre": "Libresfera",
             "nombre-corto": "Libresfera",
+            "nombre": "Libresfera",
+            "nombre-largo": "Libresfera - (España, 2011-2012)",
             "web": [
                 [
                     "http://www.libresfera.com/",
@@ -333,12 +355,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/libresfera/",
-            "archivos": "revista-libresfera/"
+            "archivos": "revista-libresfera/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-linvix.html",
-            "nombre": "Linvix",
             "nombre-corto": "Linvix",
+            "nombre": "Linvix",
+            "nombre-largo": "Linvix (Cuba, 2009-2011)",
             "web": [
                 [
                     "https://linvix.wordpress.com/",
@@ -346,12 +369,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/linvix/",
-            "archivos": "revista-linvix/"
+            "archivos": "revista-linvix/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-miniminim.html",
-            "nombre": "MiniMiniM - Mini revista gratuita de software gratuito y más",
             "nombre-corto": "MiniMiniM",
+            "nombre": "MiniMiniM - Mini revista gratuita de software gratuito y más",
+            "nombre-largo": "MiniMiniM - Mini revista gratuita de software gratuito y más (Uruguay, 2007)",
             "web": [
                 [
                     "http://proyecto-miniminim.blogspot.com/",
@@ -359,12 +383,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/miniminim/",
-            "archivos": "revista-miniminim/"
+            "archivos": "revista-miniminim/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-mygnet.html",
-            "nombre": "MyGnet",
             "nombre-corto": "MyGnet",
+            "nombre": "MyGnet",
+            "nombre-largo": "MyGnet (2005-2007)",
             "web": [
                 [
                     "http://www.mygnet.net/revista/",
@@ -372,12 +397,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/mygnet/",
-            "archivos": "revista-mygnet/"
+            "archivos": "revista-mygnet/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-papirux.html",
-            "nombre": "Papirux - La revista libre",
             "nombre-corto": "Papirux",
+            "nombre": "Papirux - La revista libre",
+            "nombre-largo": "Papirux - La revista libre (2008-2010)",
             "web": [
                 [
                     "http://www.papirux.org/",
@@ -385,12 +411,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/papirux/",
-            "archivos": "revista-papirux/"
+            "archivos": "revista-papirux/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-pet.html",
-            "nombre": "Python entre todos",
             "nombre-corto": "Python entre todos",
+            "nombre": "Python entre todos",
+            "nombre-largo": "Python entre todos (Argentina, 2010-2012)",
             "web": [
                 [
                     "http://revista.python.org.ar/",
@@ -398,12 +425,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/pet/",
-            "archivos": "revista-pet/"
+            "archivos": "revista-pet/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-planetix.html",
-            "nombre": "Planetix",
             "nombre-corto": "Planetix",
+            "nombre": "Planetix",
+            "nombre-largo": "Planetix (El Perú, 2009-2011)",
             "web": [
                 [
                     "https://planetix.wordpress.com/",
@@ -411,12 +439,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/planetix/",
-            "archivos": "revista-planetix/"
+            "archivos": "revista-planetix/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-qlugster.html",
-            "nombre": "Qlugster magazine",
             "nombre-corto": "Qlugster magazine",
+            "nombre": "Qlugster magazine",
+            "nombre-largo": "Qlugster magazine (Guatemala, 2007)",
             "web": [
                 [
                     "http://www.xelalug.org/content/blogsection/4/27/",
@@ -428,12 +457,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/qlugster/",
-            "archivos": "revista-qlugster/"
+            "archivos": "revista-qlugster/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-scripta.html",
-            "nombre": "Scripta",
             "nombre-corto": "Scripta",
+            "nombre": "Scripta",
+            "nombre-largo": "Scripta (Ecuador, 2008)",
             "web": [
                 [
                     "http://creativecommons.ec/revista-scripta",
@@ -441,12 +471,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/scripta/",
-            "archivos": "revista-scripta/"
+            "archivos": "revista-scripta/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-sl.html",
-            "nombre": "Revista SL - El software libre hecho revista",
             "nombre-corto": "Revista SL",
+            "nombre": "Revista SL - El software libre hecho revista",
+            "nombre-largo": "Revista SL - El software libre hecho revista (México, 2005-2008)",
             "web": [
                 [
                     "http://www.revista-sl.org/",
@@ -454,12 +485,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/sl/",
-            "archivos": "revista-sl/"
+            "archivos": "revista-sl/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-soflix.html",
-            "nombre": "SofLix - La revista libre",
             "nombre-corto": "SofLix",
+            "nombre": "SofLix - La revista libre",
+            "nombre-largo": "SofLix - La revista libre (España, 2007-2008)",
             "web": [
                 [
                     "http://www.soflix.com/",
@@ -467,12 +499,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/soflix/",
-            "archivos": "revista-soflix/"
+            "archivos": "revista-soflix/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-the-original-hacker.html",
-            "nombre": "The Original Hacker",
             "nombre-corto": "The Original Hacker",
+            "nombre": "The Original Hacker",
+            "nombre-largo": "The Original Hacker (Argentina, 2013-2015)",
             "web": [
                 [
                     "http://www.originalhacker.org/",
@@ -480,12 +513,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/the-original-hacker/",
-            "archivos": "revista-the-original-hacker/"
+            "archivos": "revista-the-original-hacker/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-tuxinfo.html",
-            "nombre": "Tuxinfo",
             "nombre-corto": "Tuxinfo",
+            "nombre": "Tuxinfo",
+            "nombre-largo": "Tuxinfo (Argentina, 2007-2014)",
             "web": [
                 [
                     "http://www.infosertec.com.ar/category/tuxinfo/tuxinfo/",
@@ -493,12 +527,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/tuxinfo/",
-            "archivos": "revista-tuxinfo/"
+            "archivos": "revista-tuxinfo/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-ubunchu.html",
-            "nombre": "Ubunchu! - El manga",
             "nombre-corto": "Ubunchu",
+            "nombre": "Ubunchu! - El manga",
+            "nombre-largo": "Ubunchu! - El manga (Japón, 2009-2011)",
             "web": [
                 [
                     "http://divajutta.com/doctormo/ubunchu/",
@@ -506,12 +541,13 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/ubunchu/",
-            "archivos": "revista-ubunchu/"
+            "archivos": "revista-ubunchu/",
+            "comentario": ""
         },
         {
-            "pagina": "revistas-uxi.html",
-            "nombre": "Uxi. Revista de software libre de la UCI",
             "nombre-corto": "Uxi",
+            "nombre": "Uxi - Revista de software libre de la UCI",
+            "nombre-largo": "Uxi - Revista de software libre de la UCI (Cuba, 2007-2009)",
             "web": [
                 [
                     "https://revistauxi.wordpress.com/",
@@ -519,7 +555,8 @@
                 ]
             ],
             "miniaturas": "../img/revistas-inactivas/uxi/",
-            "archivos": "revista-uxi/"
+            "archivos": "revista-uxi/",
+            "comentario": ""
         }
     ]
 }

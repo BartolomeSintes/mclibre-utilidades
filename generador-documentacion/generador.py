@@ -9,7 +9,8 @@
 import json, pathlib, shutil, imagesize, operator
 
 
-PAGINAS = "paginas.json"
+SITIO = "sitio.json"
+REVISTAS = "revistas.json"
 ELEMENTOS = "elementos.json"
 ORIGEN = "sitio-plantilla"
 DESTINO = "sitio"
@@ -42,14 +43,6 @@ MES = [
     "noviembre",
     "diciembre",
 ]
-
-
-def nombre_plantilla_a_nombre_revista(plantilla):
-    for i in paginas_json["paginas"]:
-        # print(f"{plantilla} - {i['nombre']}")
-        if plantilla == i["pagina"]:
-            return i
-    return "ERROR"
 
 
 def ordena(lista, reverse=False):
@@ -125,16 +118,19 @@ def meses(numero):
         return "ERROR"
 
 
-def crea_bloque_revista_anyos(plantilla):
+def pagina_individual_revista(r):
     ejemplares = []
     anyos = []
     # Obtiene ejemplares
-    r = nombre_plantilla_a_nombre_revista(plantilla)
-    for i in elementos_json["revistas"]:
-        if i["nombre"] == r["nombre-corto"] or ("serie" in i and i["serie"] == r["nombre-corto"]):
+    for i in elementos_json["ejemplares"]:
+        if i["nombre"] == r or ("serie" in i and i["serie"] == r):
             ejemplares += [i]
             if i["año"] not in anyos:
                 anyos += [i["año"]]
+    for i in revistas_json["revistas"]:
+        if i["nombre-corto"] == r or ("serie" in i and i["serie"] == r):
+            info_r = i
+
     anyos.sort(reverse=True)
     # Genera html
     t = ""
@@ -142,7 +138,7 @@ def crea_bloque_revista_anyos(plantilla):
     t += '<html lang="es">\n'
     t += "<head>\n"
     t += '  <meta charset="utf-8">\n'
-    t += f'  <title>Revista {r["nombre"]}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>'
+    t += f'  <title>{info_r["nombre"]}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>'
     t += "\n"
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
@@ -150,7 +146,7 @@ def crea_bloque_revista_anyos(plantilla):
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f'  <h1>Revista {r["nombre"]}</h1>'
+    t += f'  <h1>{info_r["nombre"]}</h1>'
     t += "\n"
     t += "\n"
     t += "  <nav>\n"
@@ -159,7 +155,7 @@ def crea_bloque_revista_anyos(plantilla):
     t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
     t += "    </p>\n"
     t += "\n"
-    t += f'    <h2>{r["nombre-corto"]}</h2>'
+    t += f'    <h2>{info_r["nombre-largo"]}</h2>'
     t += "\n"
     t += "\n"
     t += '    <div class="toc">\n'
@@ -171,19 +167,19 @@ def crea_bloque_revista_anyos(plantilla):
     t += "    </div>\n"
     t += "  </nav>\n"
     t += "\n"
-    t += f'  <p>Esta página contiene enlaces a los números publicados de la revista <strong>{r["nombre"]}</strong> en '
+    t += f'  <p>Esta página contiene enlaces a los números publicados de la revista <strong>{info_r["nombre"]}</strong> en '
     for i in range(len(anyos) - 1):
         t += f'<a href="#y{anyos[i]}">{anyos[i]}</a> - '
     t += f'<a href="#y{anyos[-1]}">{anyos[-1]}</a>.</p>'
     t += "\n"
     t += "\n"
-    t += f'    <h2>{r["nombre"]}</h2>'
+    t += f'    <h2>{info_r["nombre-corto"]}</h2>'
     t += "\n"
     t += "\n"
     t += f'  <p>Página web: '
-    t += f'<a href="{r["web"][0][0]}">{r["web"][0][1]}</a>'
-    for i in range(len(r["web"]) - 1):
-        t += f' - <a href="{r["web"][i+1][0]}">{r["web"][i+1][1]}</a>'
+    t += f'<a href="{info_r["web"][0][0]}">{info_r["web"][0][1]}</a>'
+    for i in range(len(info_r["web"]) - 1):
+        t += f' - <a href="{info_r["web"][i+1][0]}">{info_r["web"][i+1][1]}</a>'
     t += f'</p>'
     t += "\n"
     t += "\n"
@@ -204,20 +200,20 @@ def crea_bloque_revista_anyos(plantilla):
         t += '    <div class="miniaturas">\n'
         for i in ejemplares_year:
             width, height = imagesize.get(
-                LOCAL_MINIATURAS + r["miniaturas"] + i["portada"]
+                LOCAL_MINIATURAS + info_r["miniaturas"] + i["portada"]
             )
-            fichero = pathlib.Path(LOCAL_ARCHIVOS + r["archivos"] + i["fichero"])
+            fichero = pathlib.Path(LOCAL_ARCHIVOS + info_r["archivos"] + i["fichero"])
             weight = str(round(fichero.stat().st_size / 1024 / 1024, 1)) + " MB"
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
             if isinstance(i["mes"], int):
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
             else:
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
             t += "\n"
             t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>'
             t += "\n"
-            t += f'        <p><a href="{REMOTO_ARCHIVOS +r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>'
+            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>'
             t += "\n"
             t += "      </div>\n"
         t += "    </div>\n"
@@ -230,7 +226,6 @@ def crea_bloque_revista_anyos(plantilla):
     t += "</body>\n"
     t += "</html>\n"
     return t
-
 
 print("GENERADOR DE SITIO WEB")
 
@@ -248,11 +243,14 @@ if p.exists():
         shutil.rmtree(p)
 
 # Carga elementos y páginas
+with open(SITIO, encoding="utf-8") as json_file:
+    sitio_json = json.load(json_file)
+
+with open(REVISTAS, encoding="utf-8") as json_file:
+    revistas_json = json.load(json_file)
+
 with open(ELEMENTOS, encoding="utf-8") as json_file:
     elementos_json = json.load(json_file)
-
-with open(PAGINAS, encoding="utf-8") as json_file:
-    paginas_json = json.load(json_file)
 
 # Crea directorios de DESTINO
 print("Creando directorios de destino")
@@ -266,21 +264,17 @@ for i in pathlib.Path(ORIGEN).rglob(f"*"):
 print("Directorios creados.")
 print()
 
-paginas = []
-for i in paginas_json["paginas"]:
-    paginas += [i["pagina"]]
+# paginas = []
+# for i in revistas_json["paginas"]:
+#     paginas += [i["pagina"]]
 # print(paginas)
 
 # Crea ficheros
 print("Creando ficheros de destino")
-for i in pathlib.Path(ORIGEN).rglob(f"*/*"):
-    fichero_origen = str(i)
-    if i.name not in paginas:
-        print(
-            f"El fichero no existe en la plantilla del sitio: {fichero_origen} {i.name}"
-        )
-    else:
-        fichero_destino = fichero_origen.replace(ORIGEN, DESTINO)
+for i in sitio_json["paginas"]:
+    if len(i["revistas"] )== 1:
+        fichero_origen = i["plantilla"]
+        fichero_destino = "sitio\\"+i["directorio"]+"\\"+i["pagina"]
         print(fichero_destino)
         with open(fichero_destino, "w", encoding="utf-8") as fichero:
-            fichero.write(crea_bloque_revista_anyos(i.name))
+            fichero.write(pagina_individual_revista(i["revistas"][0]))

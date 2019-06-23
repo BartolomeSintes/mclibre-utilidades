@@ -1,5 +1,5 @@
 {
-  "revistas": [
+  "ejemplares": [
     {
       "nombre": "Aprender para educar",
       "número": 0,
@@ -4021,6 +4021,17 @@
       "fichero": "occams-razor-06-201112.pdf",
       "idioma": "inglés",
       "creado": "2012-01-08"
+    },
+    {
+      "nombre": "Occam's Razor",
+      "número": "2 (2º época)",
+      "año": 2017,
+      "mes": 4,
+      "formato": "pdf",
+      "portada": "occams-razor-2-02-201704.jpg",
+      "fichero": "occams-razor-2-02-201704.pdf",
+      "idioma": "inglés",
+      "creado": "2017-04-12"
     },
     {
       "nombre": "ODROID Magazine",
