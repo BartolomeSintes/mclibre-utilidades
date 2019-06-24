@@ -130,17 +130,20 @@ def meses(numero):
         return "ERROR"
 
 
+def fecha_a_texto(numero):
+    return str(int(numero[8:10])) + " de " + meses(int(numero[5:7])) + " de " + str(numero[0:4])
+
 def pagina_individual_revistas(r):
     ejemplares = []
     anyos = []
-    # Obtiene ejemplares
+    # Obtiene ejemplares y revista
     for i in ejemplares_json["ejemplares"]:
-        if i["nombre"] == r or ("serie" in i and i["serie"] == r):
+        if i["serie"] == r:
             ejemplares += [i]
             if i["año"] not in anyos:
                 anyos += [i["año"]]
     for i in revistas_json["revistas"]:
-        if i["nombre-corto"] == r or ("serie" in i and i["serie"] == r):
+        if i["nombre-corto"] == r:
             info_r = i
 
     anyos.sort(reverse=True)
@@ -167,7 +170,7 @@ def pagina_individual_revistas(r):
     t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
     t += "    </p>\n"
     t += "\n"
-    t += f'    <h2>{info_r["nombre-largo"]}</h2>'
+    t += f'    <h2>{info_r["nombre"]}</h2>'
     t += "\n"
     t += "\n"
     t += '    <div class="toc">\n'
@@ -185,7 +188,7 @@ def pagina_individual_revistas(r):
     t += f'<a href="#y{anyos[-1]}">{anyos[-1]}</a>.</p>'
     t += "\n"
     t += "\n"
-    t += f'    <h2>{info_r["nombre-corto"]}</h2>'
+    t += f'    <h2>{info_r["nombre-largo"]}</h2>'
     t += "\n"
     t += "\n"
     t += f"  <p>Página web: "
@@ -204,10 +207,8 @@ def pagina_individual_revistas(r):
         # ejemplares_year = sorted(ejemplares_year, key=operator.attrgetter('año', 'mes'), reverse=True)
         # no me aclaro con sorted, dice que no hay atributo año
 
-        t += f'  <section id="y{a}">'
-        t += "\n"
-        t += f"    <h2>{a}</h2>"
-        t += "\n"
+        t += f'  <section id="y{a}">\n'
+        t += f"    <h2>{a}</h2>\n"
         t += "\n"
         t += '    <div class="miniaturas">\n'
         for i in ejemplares_year:
@@ -219,21 +220,29 @@ def pagina_individual_revistas(r):
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
             if isinstance(i["mes"], int):
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
             else:
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
-            t += "\n"
-            t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>'
-            t += "\n"
-            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>'
-            t += "\n"
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+            if i["serie"] != i["nombre"]:
+                t += f'        <p>{i["nombre"]}</p>\n'
+            if i["número"] == "":
+                t += f'        <p>{i["año"]} {meses(i["mes"])}</p>\n'
+            elif isinstance(i["número"], int):
+                t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
+            else:
+                t += f'        <p>{i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
+            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>\n'
             t += "      </div>\n"
         t += "    </div>\n"
         t += "  </section>\n"
         t += "\n"
+    ultimo_creado = ""
+    for i in ejemplares:
+        if i["creado"] > ultimo_creado:
+            ultimo_creado = i["creado"]
     t += '  <address id="ultmod">\n'
     t += "    Autor: Bartolomé Sintes Marco<br>\n"
-    t += "    Última modificación de esta página: 1 de mayo de 2019\n"
+    t += f"    Última modificación de esta página: {fecha_a_texto(ultimo_creado)}\n"
     t += "  </address>\n"
     t += "</body>\n"
     t += "</html>\n"
@@ -246,18 +255,16 @@ def paginas_years_revistas(anyo):
         if i["año"] == anyo:
             ejemplares += [i]
 
-    nombres_tmp = []
+    series_tmp = []
     for i in ejemplares:
-        if "serie" not in i and i["nombre"] not in nombres_tmp:
-            nombres_tmp += [i["nombre"]]
-        if "serie" in i and i["serie"] not in nombres_tmp:
-            nombres_tmp += [i["serie"]]
-    nombres_tmp.sort(reverse=False)
-    nombres = []
-    for i in nombres_tmp:
+        if i["serie"] not in series_tmp:
+            series_tmp += [i["serie"]]
+    series_tmp.sort(reverse=False)
+    series = []
+    for i in series_tmp:
         for j in revistas_json["revistas"]:
             if j["nombre-corto"] == i:
-                nombres += [[i, j]]
+                series += [[i, j]]
 
     # Genera html
     t = ""
@@ -286,7 +293,7 @@ def paginas_years_revistas(anyo):
     t += "\n"
     t += '    <div class="toc">\n'
     t += "      <ul>\n"
-    for i in nombres:
+    for i in series:
         t += f'        <li><a href="#{i[1]["abreviatura"]}">{i[0]}</a></li>\n'
     t += "      </ul>\n"
     t += "    </div>\n"
@@ -294,11 +301,11 @@ def paginas_years_revistas(anyo):
     t += "\n"
     t += f'  <p>Esta página contiene enlaces a revistas sobre software libre y distribuciones GNU/Linux publicadas en <strong>{anyo}</strong></p>\n'
     t += "\n"
-    for i in nombres:
+    for i in series:
         info_r = i[1]
         ejemplares_revistas = []
         for j in ejemplares:
-            if j["nombre"] == i[0]:
+            if j["serie"] == i[0]:
                 ejemplares_revistas += [j]
         t += f'  <section id="{i[1]["abreviatura"]}">\n'
         t += f'    <h2>{i[1]["nombre"]}</h2>'
@@ -323,26 +330,33 @@ def paginas_years_revistas(anyo):
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
             if isinstance(i["mes"], int):
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
             else:
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>'
-            t += "\n"
-            t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>'
-            t += "\n"
-            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>'
-            t += "\n"
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+            if i["serie"] != i["nombre"]:
+                t += f'        <p>{i["nombre"]}</p>\n'
+            if i["número"] == "":
+                t += f'        <p>{i["año"]} {meses(i["mes"])}</p>\n'
+            elif isinstance(i["número"], int):
+                t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
+            else:
+                t += f'        <p>{i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
+            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>\n'
             t += "      </div>\n"
             t += "\n"
         t += "    </div>\n"
         t += "  </section>\n"
         t += "\n"
-    #     t += "\n"
-    # t += '  <address id="ultmod">\n'
-    # t += "    Autor: Bartolomé Sintes Marco<br>\n"
-    # t += "    Última modificación de esta página: 1 de mayo de 2019\n"
-    # t += "  </address>\n"
-    # t += "</body>\n"
-    # t += "</html>\n"
+    ultimo_creado = ""
+    for i in ejemplares:
+        if i["creado"] > ultimo_creado:
+            ultimo_creado = i["creado"]
+    t += '  <address id="ultmod">\n'
+    t += "    Autor: Bartolomé Sintes Marco<br>\n"
+    t += f"    Última modificación de esta página: {fecha_a_texto(ultimo_creado)}\n"
+    t += "  </address>\n"
+    t += "</body>\n"
+    t += "</html>\n"
     return t
 
 
@@ -395,7 +409,7 @@ for i in sitio_json["paginas"]:
 # Crea páginas de revistas por año
 print("Creando páginas de revistas por años")
 anyos = []
-# Obtiene ejemplares
+# Obtiene lista de años
 for i in ejemplares_json["ejemplares"]:
     if i["año"] not in anyos:
         anyos += [i["año"]]
