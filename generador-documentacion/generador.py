@@ -360,6 +360,98 @@ def paginas_years_revistas(anyo):
     return t
 
 
+def revistas_por_fecha_inclusion():
+    fechas = []
+    for i in ejemplares_json["ejemplares"]:
+        if i["creado"] not in fechas:
+            fechas += [i["creado"]]
+    fechas.sort(reverse=True)
+
+    # Genera html
+    t = ""
+    t += "<!DOCTYPE html>\n"
+    t += '<html lang="es">\n'
+    t += "<head>\n"
+    t += '  <meta charset="utf-8">\n'
+    t += f'  <title>Revistas de {anyo}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>'
+    t += "\n"
+    t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+    t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
+    t += '  <link rel="icon" href="../varios/favicon.ico">\n'
+    t += "</head>\n"
+    t += "\n"
+    t += "<body>\n"
+    t += f'  <h1>Revistas ordenadas por fecha de inclusión en mclibre</h1>'
+    t += "\n"
+    t += "\n"
+    t += "  <nav>\n"
+    t += "    <p>\n"
+    t += '      <a href="../index.html"><img src="../varios/cc.png" alt="Volver a la página principal" title="Volver a la página principal" height="64" width="64"></a>\n'
+    t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
+    t += "    </p>\n"
+    t += "\n"
+    t += f'    <h2>Revistas</h2>\n'
+    t += "\n"
+    t += '    <div class="toc">\n'
+    t += "      <ul>\n"
+    for i in fechas:
+        t += f'        <li><a href="#{i}">{i}</a></li>\n'
+    t += "      </ul>\n"
+    t += "    </div>\n"
+    t += "  </nav>\n"
+    t += "\n"
+    t += f'  <p>Esta página contiene enlaces a revistas sobre software libre y distribuciones GNU/Linux publicadas en <strong>{anyo}</strong></p>\n'
+    t += "\n"
+    for i in fechas:
+        ejemplares_revistas = []
+        for j in ejemplares_json["ejemplares"]:
+            if j["creado"] == i:
+                ejemplares_revistas += [j]
+        t += f'  <section id="{i}">\n'
+        t += f'    <h2>{i}</h2>\n'
+        t += f'\n'
+        ejemplares_revistas = ordena(ejemplares_revistas, reverse=True)
+
+        t += '    <div class="miniaturas">\n'
+        for i in ejemplares_revistas:
+            for j in revistas_json["revistas"]:
+                if j["nombre-corto"] == i["serie"]:
+                    info_r = j
+            width, height = imagesize.get(
+                LOCAL_MINIATURAS + info_r["miniaturas"] + i["portada"]
+            )
+            fichero = pathlib.Path(LOCAL_ARCHIVOS + info_r["archivos"] + i["fichero"])
+            weight = str(round(fichero.stat().st_size / 1024 / 1024, 1)) + " MB"
+            formato = fichero.suffix[1:].upper()
+            t += "      <div>\n"
+            if isinstance(i["mes"], int):
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+            else:
+                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+            if i["serie"] != i["nombre"]:
+                t += f'        <p>{i["nombre"]}</p>\n'
+            if i["número"] == "":
+                t += f'        <p>{i["año"]} {meses(i["mes"])}</p>\n'
+            elif isinstance(i["número"], int):
+                t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
+            else:
+                t += f'        <p>{i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
+            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>\n'
+            t += "      </div>\n"
+            t += "\n"
+        t += "    </div>\n"
+        t += "  </section>\n"
+        t += "\n"
+    ultimo_creado = fechas[0]
+    t += '  <address id="ultmod">\n'
+    t += "    Autor: Bartolomé Sintes Marco<br>\n"
+    t += f"    Última modificación de esta página: {fecha_a_texto(ultimo_creado)}\n"
+    t += "  </address>\n"
+    t += "</body>\n"
+    t += "</html>\n"
+    return t
+
+
 print("GENERADOR DE SITIO WEB")
 
 # Comprueba que DESTINO no existe y lo borra si existe
@@ -398,25 +490,37 @@ print("Directorios creados.")
 print()
 
 # Crea páginas individuales de revistas
-print("Creando ficheros de destino")
+print("Creando páginas individuales de revistas")
+print()
 for i in sitio_json["paginas"]:
     if len(i["revistas"]) == 1:
         fichero_destino = "sitio\\" + i["directorio"] + "\\" + i["pagina"]
         print(fichero_destino)
         with open(fichero_destino, "w", encoding="utf-8") as fichero:
             fichero.write(pagina_individual_revistas(i["revistas"][0]))
+print()
 
-# Crea páginas de revistas por año
+# Crea páginas de revistas por años
 print("Creando páginas de revistas por años")
+print()
 anyos = []
 # Obtiene lista de años
 for i in ejemplares_json["ejemplares"]:
     if i["año"] not in anyos:
         anyos += [i["año"]]
 anyos.sort(reverse=True)
-
 for anyo in anyos:
     fichero_destino = f"sitio\\revistas-years\\revistas-{anyo}.html"
     print(fichero_destino)
     with open(fichero_destino, "w", encoding="utf-8") as fichero:
         fichero.write(paginas_years_revistas(anyo))
+print()
+
+# Crea página ejemplares por fecha de inclusión
+print("Creando página ejemplares for fecha de inclusión")
+print()
+fichero_destino = "sitio\\ultimos-incluidos.html"
+print(fichero_destino)
+with open(fichero_destino, "w", encoding="utf-8") as fichero:
+    fichero.write(revistas_por_fecha_inclusion())
+print()

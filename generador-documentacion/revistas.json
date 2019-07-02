@@ -493,6 +493,21 @@
             "abreviatura" : "qlugster"
         },
         {
+            "nombre-corto": "Saber Libre",
+            "nombre": "Saber Libre",
+            "nombre-largo": "Saber Libre (Bolivia, 2014)",
+            "web": [
+                [
+                    "https://www.softwarelibre.org.bo/",
+                    "Saber Libre"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/saber-libre/",
+            "archivos": "revista-saber-libre/",
+            "comentario": "",
+            "abreviatura" : "saberlibre"
+        },
+        {
             "nombre-corto": "Scripta",
             "nombre": "Scripta",
             "nombre-largo": "Scripta (Ecuador, 2008)",
