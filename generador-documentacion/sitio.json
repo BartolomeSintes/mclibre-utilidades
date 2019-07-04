@@ -1,9 +1,39 @@
 {
   "paginas": [
     {
+      "pagina": "revistas-inactivas.html",
+      "directorio": "",
+      "estado": "inactiva",
+      "revistas": [
+        "Linux Voice",
+        "Libre Graphics Magazine",
+        "The Original Hacker",
+        "GIMP Magazine",
+        "Tuxinfo",
+        "Saber Libre",
+        "HD",
+        "Python entre todos",
+        "Libresfera",
+        "Planetix",
+        "Ubunchu",
+        "Linvix",
+        "Papirux",
+        "Uxi",
+        "Begins",
+        "SofLix",
+        "Scripta",
+        "Revista SL",
+        "Fent Llinux",
+        "MiniMiniM",
+        "Essentia Libre",
+        "Qlugster magazine",
+        "MyGnet"
+      ]
+    },
+    {
       "pagina": "revistas-aprender-para-educar.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Aprender para educar"
       ]
@@ -11,7 +41,7 @@
     {
       "pagina": "revistas-atix.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Atix"
       ]
@@ -19,7 +49,7 @@
     {
       "pagina": "revistas-bits-de-ciencia.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Bits de Ciencia"
       ]
@@ -27,7 +57,7 @@
     {
       "pagina": "revistas-full-circle.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Full Circle"
       ]
@@ -35,7 +65,7 @@
     {
       "pagina": "revistas-full-circle-recopilaciones.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Full Circle (rec)"
       ]
@@ -43,7 +73,7 @@
     {
       "pagina": "revistas-hackspace.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "HackSpace"
       ]
@@ -51,7 +81,7 @@
     {
       "pagina": "revistas-hello-world.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Hello World"
       ]
@@ -59,7 +89,7 @@
     {
       "pagina": "revistas-insecure.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Insecure Magazine"
       ]
@@ -67,7 +97,7 @@
     {
       "pagina": "revistas-ifosslr.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Int. FOSS Law Review"
       ]
@@ -75,7 +105,7 @@
     {
       "pagina": "revistas-linux-voice.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Linux Voice"
       ]
@@ -83,7 +113,7 @@
     {
       "pagina": "revistas-occam.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Occam's Razor"
       ]
@@ -91,7 +121,7 @@
     {
       "pagina": "revistas-odroid.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "ODROID Magazine"
       ]
@@ -99,7 +129,7 @@
     {
       "pagina": "revistas-oii.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Olympiads in informatics"
       ]
@@ -107,7 +137,7 @@
     {
       "pagina": "revistas-osy.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Open Source Yearbook"
       ]
@@ -115,7 +145,7 @@
     {
       "pagina": "revistas-the-magpi.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "The MagPi"
       ]
@@ -123,7 +153,7 @@
     {
       "pagina": "revistas-the-magpi-essentials.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "The MagPi Essentials"
       ]
@@ -131,7 +161,7 @@
     {
       "pagina": "revistas-pclinuxos.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "The PCLinuxOS Magazine"
       ]
@@ -139,7 +169,7 @@
     {
       "pagina": "revistas-wireframe.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-activa.html",
+      "estado": "activa",
       "revistas": [
         "Wireframe"
       ]
@@ -147,7 +177,7 @@
     {
       "pagina": "revistas-begins.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Begins"
       ]
@@ -155,7 +185,7 @@
     {
       "pagina": "revistas-essentia-libre.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Essentia Libre"
       ]
@@ -163,7 +193,7 @@
     {
       "pagina": "revistas-fent-linux.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Fent Llinux"
       ]
@@ -171,7 +201,7 @@
     {
       "pagina": "revistas-gimp-magazine.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "GIMP Magazine"
       ]
@@ -179,7 +209,7 @@
     {
       "pagina": "revistas-hd.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "HD"
       ]
@@ -187,7 +217,7 @@
     {
       "pagina": "revistas-lgm.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Libre Graphics Magazine"
       ]
@@ -195,7 +225,7 @@
     {
       "pagina": "revistas-libresfera.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Libresfera"
       ]
@@ -203,7 +233,7 @@
     {
       "pagina": "revistas-linvix.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Linvix"
       ]
@@ -211,7 +241,7 @@
     {
       "pagina": "revistas-miniminim.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "MiniMiniM"
       ]
@@ -219,7 +249,7 @@
     {
       "pagina": "revistas-mygnet.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "MyGnet"
       ]
@@ -227,7 +257,7 @@
     {
       "pagina": "revistas-papirux.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Papirux"
       ]
@@ -235,7 +265,7 @@
     {
       "pagina": "revistas-pet.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Python entre todos"
       ]
@@ -243,7 +273,7 @@
     {
       "pagina": "revistas-planetix.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Planetix"
       ]
@@ -251,7 +281,7 @@
     {
       "pagina": "revistas-qlugster.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Qlugster magazine"
       ]
@@ -259,15 +289,23 @@
     {
       "pagina": "revistas-scripta.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Scripta"
       ]
     },
     {
+      "pagina": "revistas-saber-libre.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "Saber Libre"
+      ]
+    },
+    {
       "pagina": "revistas-sl.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Revista SL"
       ]
@@ -275,7 +313,7 @@
     {
       "pagina": "revistas-soflix.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "SofLix"
       ]
@@ -283,7 +321,7 @@
     {
       "pagina": "revistas-the-original-hacker.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "The Original Hacker"
       ]
@@ -291,7 +329,7 @@
     {
       "pagina": "revistas-tuxinfo.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Tuxinfo"
       ]
@@ -299,7 +337,7 @@
     {
       "pagina": "revistas-ubunchu.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Ubunchu"
       ]
@@ -307,7 +345,7 @@
     {
       "pagina": "revistas-uxi.html",
       "directorio": "revistas-titulos",
-      "plantilla": "revista-inactiva.html",
+      "estado": "inactiva",
       "revistas": [
         "Uxi"
       ]
