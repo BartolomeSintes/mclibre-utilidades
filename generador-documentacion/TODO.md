@@ -18,3 +18,4 @@ Esta aplicación genera el sitio web http://www.mclibre.org/consultar/documentac
 * 2019-06-15. Hay recopilaciones de MagPi que no tiene número
 * 2019-06-15. the-magpi-essentials-C-01-en-201610.pdf tiene la C en mayúsculas
 * 2019-07-04. Podría hacer una función para enlazar unos json con otros para sustituir los bucles que hay en varios sitios
+* 2019-07-04 Gimp magazine no sale bien ordenado en revistas-inactivas.html

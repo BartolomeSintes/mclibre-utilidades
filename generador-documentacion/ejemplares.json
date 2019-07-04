@@ -1937,6 +1937,17 @@
       "creado": "2019-06-21"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 146,
+      "año": 2019,
+      "mes": 6,
+      "portada": "full-circle-146-en-201906.jpg",
+      "fichero": "full-circle-146-en-201906.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-04"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -5424,6 +5435,17 @@
       "creado": "2019-06-21"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 66,
+      "año": 2019,
+      "mes": 6,
+      "portada": "odroid-66-es-201906.jpg",
+      "fichero": "odroid-66-es-201906.pdf",
+      "idioma": "español",
+      "creado": "2019-07-04"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -6524,6 +6546,17 @@
       "creado": "2019-06-21"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 83,
+      "año": 2019,
+      "mes": 7,
+      "portada": "the-magpi-83-en-201907.jpg",
+      "fichero": "the-magpi-83-en-201907.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-04"
+    },
+    {
       "serie": "The MagPi Essentials",
       "nombre": "Edición especial",
       "número": 1,
@@ -6680,13 +6713,24 @@
     {
       "serie": "The MagPi Essentials",
       "nombre": "Raspberry Py Beginners Book",
-      "número": "",
+      "número": "1º ed.",
       "año": 2017,
       "mes": 12,
       "portada": "raspberry-py-beginners-book-1-en-201712.jpg",
       "fichero": "raspberry-py-beginners-book-1-en-201712.pdf",
       "idioma": "inglés",
       "creado": "2018-01-02"
+    },
+    {
+      "serie": "The MagPi Essentials",
+      "nombre": "Raspberry Py Beginners Book",
+      "número": "2º ed.",
+      "año": 2019,
+      "mes": 7,
+      "portada": "raspberry-py-beginners-book-2-en-201907.jpg",
+      "fichero": "raspberry-py-beginners-book-2-en-201907.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-04"
     },
     {
       "serie": "The MagPi Essentials",
@@ -8579,6 +8623,17 @@
       "fichero": "wireframe-16-en-201906.pdf",
       "idioma": "inglés",
       "creado": "2019-06-21"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 17,
+      "año": 2019,
+      "mes": 7,
+      "portada": "wireframe-17-en-201907.jpg",
+      "fichero": "wireframe-17-en-201907.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-04"
     },
     {
       "serie": "Atix",
