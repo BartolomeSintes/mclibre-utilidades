@@ -275,6 +275,21 @@
             "abreviatura" : "wireframe"
         },
         {
+            "nombre-corto": "ALT Magazine",
+            "nombre": "ALT Magazine",
+            "nombre-largo": "ALT Magazine",
+            "web": [
+                [
+                    "http://www.altmagazine.net/",
+                    "ALT Magazine"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/alt-magazine/",
+            "archivos": "revista-alt-magazine/",
+            "comentario": "",
+            "abreviatura" : "alt"
+        },
+        {
             "nombre-corto": "Begins",
             "nombre": "Begins - La Revista de software libre y código abierto",
             "nombre-largo": "Begins - La Revista de software libre y código abierto (Chile, 2006-2008)",

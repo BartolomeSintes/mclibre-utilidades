@@ -176,6 +176,14 @@
       ]
     },
     {
+      "pagina": "revistas-alt-magazine.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "ALT Magazine"
+      ]
+    },
+    {
       "pagina": "revistas-begins.html",
       "directorio": "revistas-titulos",
       "estado": "inactiva",
