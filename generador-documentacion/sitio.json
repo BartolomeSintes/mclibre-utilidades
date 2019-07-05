@@ -5,6 +5,7 @@
       "directorio": "",
       "estado": "inactiva",
       "revistas": [
+        "LOM Brasil",
         "Linux Voice",
         "Libre Graphics Magazine",
         "The Original Hacker",
@@ -220,6 +221,14 @@
       "estado": "inactiva",
       "revistas": [
         "Libre Graphics Magazine"
+      ]
+    },
+    {
+      "pagina": "revistas-libreoffice-brasil.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "LOM Brasil"
       ]
     },
     {

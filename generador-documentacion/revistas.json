@@ -369,6 +369,21 @@
             "abreviatura" : "libregraphics"
         },
         {
+            "nombre-corto": "LOM Brasil",
+            "nombre": "LOM Brasil",
+            "nombre-largo": "LibrOffice Magazine Brasil",
+            "web": [
+                [
+                    "https://pt-br.libreoffice.org/projetos/revista/",
+                    "Revista LibrOffice Magazine Brasil"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/lom-brasil/",
+            "archivos": "revista-lom-brasil/",
+            "comentario": "",
+            "abreviatura" : "lombrasil"
+        },
+        {
             "nombre-corto": "Libresfera",
             "nombre": "Libresfera",
             "nombre-largo": "Libresfera - (España, 2011-2012)",

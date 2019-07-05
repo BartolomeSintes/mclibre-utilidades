@@ -159,16 +159,14 @@ def pagina_individual_revistas(r):
     t += '<html lang="es">\n'
     t += "<head>\n"
     t += '  <meta charset="utf-8">\n'
-    t += f'  <title>{info_r["nombre"]}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>'
-    t += "\n"
+    t += f'  <title>{info_r["nombre"]}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>\n'
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
     t += '  <link rel="icon" href="../varios/favicon.ico">\n'
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f'  <h1>{info_r["nombre"]}</h1>'
-    t += "\n"
+    t += f'  <h1>{info_r["nombre"]}</h1>\n'
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
@@ -176,14 +174,12 @@ def pagina_individual_revistas(r):
     t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
     t += "    </p>\n"
     t += "\n"
-    t += f'    <h2>{info_r["nombre"]}</h2>'
-    t += "\n"
+    t += f'    <h2>{info_r["nombre"]}</h2>\n'
     t += "\n"
     t += '    <div class="toc">\n'
     t += "      <ul>\n"
     for i in anyos:
-        t += f'        <li><a href="#y{i}">{i}</a></li>'
-        t += "\n"
+        t += f'        <li><a href="#y{i}">{i}</a></li>\n'
     t += "      </ul>\n"
     t += "    </div>\n"
     t += "  </nav>\n"
@@ -191,18 +187,15 @@ def pagina_individual_revistas(r):
     t += f'  <p>Esta página contiene enlaces a los números publicados de la revista <strong>{info_r["nombre"]}</strong> en '
     for i in range(len(anyos) - 1):
         t += f'<a href="#y{anyos[i]}">{anyos[i]}</a> - '
-    t += f'<a href="#y{anyos[-1]}">{anyos[-1]}</a>.</p>'
+    t += f'<a href="#y{anyos[-1]}">{anyos[-1]}</a>.</p>\n'
     t += "\n"
-    t += "\n"
-    t += f'    <h2>{info_r["nombre-largo"]}</h2>'
-    t += "\n"
+    t += f'    <h2>{info_r["nombre-largo"]}</h2>\n'
     t += "\n"
     t += f"  <p>Página web: "
     t += f'<a href="{info_r["web"][0][0]}">{info_r["web"][0][1]}</a>'
     for i in range(len(info_r["web"]) - 1):
         t += f' - <a href="{info_r["web"][i+1][0]}">{info_r["web"][i+1][1]}</a>'
-    t += f"</p>"
-    t += "\n"
+    t += f"</p>\n"
     t += "\n"
     for a in anyos:
         ejemplares_year = []
@@ -278,16 +271,14 @@ def paginas_years_revistas(anyo):
     t += '<html lang="es">\n'
     t += "<head>\n"
     t += '  <meta charset="utf-8">\n'
-    t += f"  <title>Revistas de {anyo}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>"
-    t += "\n"
+    t += f"  <title>Revistas de {anyo}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
     t += '  <link rel="icon" href="../varios/favicon.ico">\n'
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f"  <h1>Revistas de {anyo}</h1>"
-    t += "\n"
+    t += f"  <h1>Revistas de {anyo}</h1>\n"
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
@@ -314,15 +305,13 @@ def paginas_years_revistas(anyo):
             if j["serie"] == i[0]:
                 ejemplares_revistas += [j]
         t += f'  <section id="{i[1]["abreviatura"]}">\n'
-        t += f'    <h2>{i[1]["nombre"]}</h2>'
-        t += "\n"
+        t += f'    <h2>{i[1]["nombre"]}</h2>\n'
         t += "\n"
         t += f"    <p>Página web: "
         t += f'<a href="{info_r["web"][0][0]}">{info_r["web"][0][1]}</a>'
         for j in range(len(i[1]["web"]) - 1):
             t += f' - <a href="{info_r["web"][j+1][0]}">{info_r["web"][j+1][1]}</a>'
-        t += f"</p>"
-        t += "\n"
+        t += f"</p>\n"
         t += "\n"
         ejemplares_revistas = ordena(ejemplares_revistas, reverse=False)
 
@@ -379,16 +368,14 @@ def revistas_por_fecha_inclusion():
     t += '<html lang="es">\n'
     t += "<head>\n"
     t += '  <meta charset="utf-8">\n'
-    t += f"  <title>Revistas de {anyo}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>"
-    t += "\n"
+    t += f"  <title>Revistas de {anyo}. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
     t += '  <link rel="icon" href="../varios/favicon.ico">\n'
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f"  <h1>Revistas ordenadas por fecha de inclusión en mclibre</h1>"
-    t += "\n"
+    t += f"  <h1>Revistas ordenadas por fecha de inclusión en mclibre</h1>\n"
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
@@ -553,8 +540,7 @@ def pagina_revistas_inactivas(revistas):
         t += f'<a href="{info_r["web"][0][0]}">{info_r["web"][0][1]}</a>'
         for j in range(len(info_r["web"]) - 1):
             t += f' - <a href="{info_r["web"][j+1][0]}">{info_r["web"][j+1][1]}</a>'
-        t += f"</p>"
-        t += "\n"
+        t += f"</p>\n"
         t += "\n"
 
         t += '    <div class="miniaturas">\n'
