@@ -568,6 +568,21 @@
             "abreviatura" : "revistasl"
         },
         {
+            "nombre-corto": "SL para ti",
+            "nombre": "Software Libre para TI",
+            "nombre-largo": "Software Libre para TI",
+            "web": [
+                [
+                    "http://www.softwarelibreparati.com/",
+                    "Revista Software Libre para TI"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/sl-para-ti/",
+            "archivos": "revista-sl-para-ti/",
+            "comentario": "",
+            "abreviatura" : "slparati"
+        },
+        {
             "nombre-corto": "SofLix",
             "nombre": "SofLix - La revista libre",
             "nombre-largo": "SofLix - La revista libre (España, 2007-2008)",

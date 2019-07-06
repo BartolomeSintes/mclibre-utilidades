@@ -19,6 +19,8 @@
         "Ubunchu",
         "Linvix",
         "Papirux",
+        "SL para ti",
+        "ALT Magazine",
         "Uxi",
         "Begins",
         "SofLix",
@@ -325,6 +327,14 @@
       "estado": "inactiva",
       "revistas": [
         "Revista SL"
+      ]
+    },
+    {
+      "pagina": "revistas-sl-para-ti.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "SL para ti"
       ]
     },
     {
