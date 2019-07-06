@@ -27,6 +27,7 @@
         "Scripta",
         "Revista SL",
         "Fent Llinux",
+        "Magazine ZX",
         "MiniMiniM",
         "Essentia Libre",
         "Qlugster magazine",
@@ -255,6 +256,14 @@
       "estado": "inactiva",
       "revistas": [
         "Linvix"
+      ]
+    },
+    {
+      "pagina": "revistas-magazine-zx.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "Magazine ZX"
       ]
     },
     {

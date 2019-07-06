@@ -15,3 +15,4 @@ Esta aplicación genera el sitio web http://www.mclibre.org/consultar/documentac
 * 2019-07-04. Podría hacer una función para enlazar unos json con otros para sustituir los bucles que hay en varios sitios
 * 2019-07-04. No ordena bien los números cuando pasan de unidad (por ejemplo Wirefremae 2019)
 * 2019-07-05. En la versión antigua de las revistas inactivas salía el país. La información está en revistas.json, y la uso en las páginas individuales, pero no en la de páginas inactivas. Tendría que poner el país como campo y si tiene valor, utilizarlo al generar la página. En la página de revistas inactivas genero los años automáticamente, podría hacer lo mismo en las páginas individuales de revistas inactivas.
+* 2019-07-06. Generar index.html. Incluir contadores: en años, revistas y ejemplares, en revistas, ejemplares y años de publicación (desde XXXX para activas o XXXX-YYYY para inactivas).

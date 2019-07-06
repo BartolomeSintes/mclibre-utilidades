@@ -429,6 +429,21 @@
             "abreviatura" : "linvix"
         },
         {
+            "nombre-corto": "Magazine ZX",
+            "nombre": "Magazine ZX",
+            "nombre-largo": "Magazine ZX",
+            "web": [
+                [
+                    "https://magazinezx.speccy.org/",
+                    "Revista Magazine ZX"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/magazine-zx/",
+            "archivos": "revista-magazine-zx/",
+            "comentario": "",
+            "abreviatura" : "magazinezx"
+        },
+        {
             "nombre-corto": "MiniMiniM",
             "nombre": "MiniMiniM - Mini revista gratuita de software gratuito y más",
             "nombre-largo": "MiniMiniM - Mini revista gratuita de software gratuito y más (Uruguay, 2007)",
