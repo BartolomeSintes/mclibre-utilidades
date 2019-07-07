@@ -519,6 +519,21 @@
             "abreviatura" : "planetix"
         },
         {
+            "nombre-corto": "Qespisqa Kawsay",
+            "nombre": "Qespisqa Kawsay",
+            "nombre-largo": "Qespisqa Kawsay",
+            "web": [
+                [
+                    "http://revista.aqpglug.org.pe/",
+                    "Revista Qespisqa Kawsay"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/qespisqa/",
+            "archivos": "revista-qespisqa/",
+            "comentario": "",
+            "abreviatura" : "qespisqa"
+        },
+        {
             "nombre-corto": "Qlugster magazine",
             "nombre": "Qlugster magazine",
             "nombre-largo": "Qlugster magazine (Guatemala, 2007)",
