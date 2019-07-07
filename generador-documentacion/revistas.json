@@ -534,6 +534,21 @@
             "abreviatura" : "papirux"
         },
         {
+            "nombre-corto": "Pixels and code",
+            "nombre": "Pixels and code",
+            "nombre-largo": "Pixels and code",
+            "web": [
+                [
+                    "https://web.archive.org/web/20120504011754/http://pixelscode.com/abril-2012/#",
+                    "Revista Pixels and code (copia en archive.org de abril de 2012)"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/pixels-and-code/",
+            "archivos": "revista-pixels-and-code/",
+            "comentario": "",
+            "abreviatura" : "pac"
+        },
+        {
             "nombre-corto": "Python entre todos",
             "nombre": "Python entre todos",
             "nombre-largo": "Python entre todos (Argentina, 2010-2012)",

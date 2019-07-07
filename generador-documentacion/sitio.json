@@ -14,6 +14,7 @@
         "Saber Libre",
         "HD",
         "Python entre todos",
+        "Pixels and code",
         "Libresfera",
         "Planetix",
         "Ubunchu",
@@ -323,6 +324,14 @@
       "estado": "inactiva",
       "revistas": [
         "Python entre todos"
+      ]
+    },
+    {
+      "pagina": "revistas-pixels-and-code.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "Pixels and code"
       ]
     },
     {
