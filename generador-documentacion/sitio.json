@@ -148,6 +148,14 @@
       ]
     },
     {
+      "pagina": "revistas-solo-linux.html",
+      "directorio": "revistas-titulos",
+      "estado": "activa",
+      "revistas": [
+        "Solo Linux"
+      ]
+    },
+    {
       "pagina": "revistas-the-magpi.html",
       "directorio": "revistas-titulos",
       "estado": "activa",

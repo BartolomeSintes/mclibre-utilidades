@@ -5644,6 +5644,61 @@
       "creado": "2019-02-12"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 1,
+      "año": 2019,
+      "mes": 2,
+      "portada": "solo-linux-01-201902.jpg",
+      "fichero": "solo-linux-01-201902.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-07"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 2,
+      "año": 2019,
+      "mes": 3,
+      "portada": "solo-linux-02-201903.jpg",
+      "fichero": "solo-linux-02-201903.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-07"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 3,
+      "año": 2019,
+      "mes": 4,
+      "portada": "solo-linux-03-201904.jpg",
+      "fichero": "solo-linux-03-201904.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-07"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 4,
+      "año": 2019,
+      "mes": 5,
+      "portada": "solo-linux-04-201905.jpg",
+      "fichero": "solo-linux-04-201905.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-07"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 5,
+      "año": 2019,
+      "mes": 6,
+      "portada": "solo-linux-05-201906.jpg",
+      "fichero": "solo-linux-05-201906.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-07"
+    },
+    {
       "serie": "The MagPi",
       "nombre": "The MagPi",
       "número": 1,

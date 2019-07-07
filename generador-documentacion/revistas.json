@@ -215,6 +215,21 @@
             "abreviatura" : "osyearbook"
         },
         {
+            "nombre-corto": "Solo Linux",
+            "nombre": "Solo Linux",
+            "nombre-largo": "Solo Linux",
+            "web": [
+                [
+                    "https://www.sololinux.es/",
+                    "Revista Solo Linux"
+                ]
+            ],
+            "miniaturas": "../img/revistas/solo-linux/",
+            "archivos": "revista-solo-linux/",
+            "comentario": "",
+            "abreviatura" : "sololinux"
+        },
+        {
             "nombre-corto": "The MagPi",
             "nombre": "The MagPi",
             "nombre-largo": "The MagPi - The official Raspberry Pi magazine",
