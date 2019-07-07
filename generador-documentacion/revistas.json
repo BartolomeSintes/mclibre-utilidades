@@ -354,6 +354,21 @@
             "abreviatura" : "fentlinux"
         },
         {
+            "nombre-corto": "Free Tux",
+            "nombre": "Free Tux",
+            "nombre-largo": "Free Tux",
+            "web": [
+                [
+                    "https://linuxtecamac.wordpress.com/",
+                    "Revista Free Tux"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/free-tux/",
+            "archivos": "revista-free-tux/",
+            "comentario": "",
+            "abreviatura" : "freetux"
+        },
+        {
             "nombre-corto": "GIMP Magazine",
             "nombre": "GIMP Magazine",
             "nombre-largo": "GIMP Magazine (2012-2015)",

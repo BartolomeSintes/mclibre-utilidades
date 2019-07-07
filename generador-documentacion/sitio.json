@@ -29,6 +29,7 @@
         "Fent Llinux",
         "Magazine ZX",
         "MiniMiniM",
+        "Free Tux",
         "Essentia Libre",
         "Qlugster magazine",
         "Qespisqa Kawsay",
@@ -217,6 +218,14 @@
       "estado": "inactiva",
       "revistas": [
         "Fent Llinux"
+      ]
+    },
+    {
+      "pagina": "revistas-free-tux.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "Free Tux"
       ]
     },
     {
