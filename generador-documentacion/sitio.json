@@ -19,6 +19,7 @@
         "Ubunchu",
         "Linvix",
         "Papirux",
+        "Nibbler",
         "SL para ti",
         "ALT Magazine",
         "Uxi",
@@ -298,6 +299,14 @@
       "estado": "inactiva",
       "revistas": [
         "MyGnet"
+      ]
+    },
+    {
+      "pagina": "revistas-nibbler.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "Nibbler"
       ]
     },
     {

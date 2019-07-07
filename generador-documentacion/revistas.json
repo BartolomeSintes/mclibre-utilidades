@@ -504,6 +504,21 @@
             "abreviatura" : "mygnet"
         },
         {
+            "nombre-corto": "Nibbler",
+            "nombre": "Nibbler",
+            "nombre-largo": "Nibbler. La informática del IES Infanta Elena (Galpagar, Madrid)",
+            "web": [
+                [
+                    "hhttps://web.archive.org/web/20120628043651/https://nibbler.es/cms/revista/revista-nibbler",
+                    "Revista Nibble (copia en archive.org de junio de 2012)"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/nibbler/",
+            "archivos": "revista-nibbler/",
+            "comentario": "No he podido averiguar el mes exacto de publicación de cada número. He indicado que se publicaron en diciembre, pero es probable que se editaran antes.",
+            "abreviatura" : "nibbler"
+        },
+        {
             "nombre-corto": "Papirux",
             "nombre": "Papirux - La revista libre",
             "nombre-largo": "Papirux - La revista libre (2008-2010)",
