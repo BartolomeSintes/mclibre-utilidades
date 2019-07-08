@@ -550,6 +550,21 @@
             "abreviatura" : "mygnet"
         },
         {
+            "nombre-corto": "NetBeans magazine",
+            "nombre": "NetBeans magazine",
+            "nombre-largo": "NetBeans magazine",
+            "web": [
+                [
+                    "https://netbeans.org/community/magazine/",
+                    "Revista NetBeans magazine"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/netbeans-magazine/",
+            "archivos": "revista-netbeans-magazine/",
+            "comentario": "",
+            "abreviatura" : "netbeans"
+        },
+        {
             "nombre-corto": "Nibbler",
             "nombre": "Nibbler",
             "nombre-largo": "Nibbler. La informática del IES Infanta Elena (Galpagar, Madrid)",

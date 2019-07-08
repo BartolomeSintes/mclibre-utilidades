@@ -11496,6 +11496,50 @@
       "creado": "2014-02-23"
     },
     {
+      "serie": "NetBeans magazine",
+      "nombre": "NetBeans magazine",
+      "número": 1,
+      "año": 2006,
+      "mes": 5,
+      "portada": "netbeans-magazine-1-en-200605.jpg",
+      "fichero": "netbeans-magazine-1-en-200605.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-08"
+    },
+    {
+      "serie": "NetBeans magazine",
+      "nombre": "NetBeans magazine",
+      "número": 2,
+      "año": 2006,
+      "mes": 11,
+      "portada": "netbeans-magazine-2-en-200611.jpg",
+      "fichero": "netbeans-magazine-2-en-200611.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-08"
+    },
+    {
+      "serie": "NetBeans magazine",
+      "nombre": "NetBeans magazine",
+      "número": 3,
+      "año": 2007,
+      "mes": 5,
+      "portada": "netbeans-magazine-3-en-200705.jpg",
+      "fichero": "netbeans-magazine-3-en-200705.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-08"
+    },
+    {
+      "serie": "NetBeans magazine",
+      "nombre": "NetBeans magazine",
+      "número": 4,
+      "año": 2007,
+      "mes": 12,
+      "portada": "netbeans-magazine-4-en-200712.jpg",
+      "fichero": "netbeans-magazine-4-en-200712.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-08"
+    },
+    {
       "serie": "Nibbler",
       "nombre": "Nibbler",
       "número": 1,

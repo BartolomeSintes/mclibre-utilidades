@@ -31,6 +31,7 @@
         "Revista SL",
         "Fent Llinux",
         "Magazine ZX",
+        "NetBeans magazine",
         "MiniMiniM",
         "Free Tux",
         "Essentia Libre",
@@ -326,6 +327,14 @@
       "estado": "inactiva",
       "revistas": [
         "MyGnet"
+      ]
+    },
+    {
+      "pagina": "revistas-netbeans-magazine.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "NetBeans magazine"
       ]
     },
     {
