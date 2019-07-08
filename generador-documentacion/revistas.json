@@ -306,6 +306,21 @@
             "abreviatura" : "alt"
         },
         {
+            "nombre-corto": ".@vi",
+            "nombre": ".@vi",
+            "nombre-largo": ".@vi. IES Arquitecto Ventura Informática",
+            "web": [
+                [
+                    "https://web.archive.org/web/20130221035747/http://ies.arquitectoventurarodriguez.boadilla.educa.madrid.org//revista.htm",
+                    "Revista .@vi (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/avi/",
+            "archivos": "revista-avi/",
+            "comentario": "",
+            "abreviatura" : "avi"
+        },
+        {
             "nombre-corto": "Begins",
             "nombre": "Begins - La Revista de software libre y código abierto",
             "nombre-largo": "Begins - La Revista de software libre y código abierto (Chile, 2006-2008)",
