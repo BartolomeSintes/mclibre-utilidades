@@ -151,6 +151,14 @@
       ]
     },
     {
+      "pagina": "revistas-programar.html",
+      "directorio": "revistas-titulos",
+      "estado": "activa",
+      "revistas": [
+        "Programar"
+      ]
+    },
+    {
       "pagina": "revistas-solo-linux.html",
       "directorio": "revistas-titulos",
       "estado": "activa",

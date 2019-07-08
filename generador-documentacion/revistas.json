@@ -136,21 +136,6 @@
             "abreviatura" : "ifosslr"
         },
         {
-            "nombre-corto": "Linux Voice",
-            "nombre": "Linux Voice",
-            "nombre-largo": "Linux Voice - Free software, free speech. (Reino Unido, 2014-2016)",
-            "web": [
-                [
-                    "https://www.linuxvoice.com/",
-                    "Revista Linux Voice"
-                ]
-            ],
-            "miniaturas": "../img/revistas/linux-voice/",
-            "archivos": "revista-linux-voice/",
-            "comentario": "Linux Voice fue una revista comercial que publicaba los ejemplares unos seis meses después de su publicación en los quioscos. En noviembre de 2016 anunció su fusión con la revista comercial Linux magazine y el fin de su publicación como revista independiente.",
-            "abreviatura" : "linuxvoice"
-        },
-        {
             "nombre-corto": "Occam's Razor",
             "nombre": "Occam's Razor",
             "nombre-largo": "Occam's Razor - porque lo más sencillo es lo más probable ",
@@ -213,6 +198,22 @@
             "archivos": "revista-osy/",
             "comentario": "",
             "abreviatura" : "osyearbook"
+        },
+        {
+            "nombre-corto": "Programar",
+            "nombre": "Programar",
+            "nombre-largo": "Programar. Revista portuguesa de programac&atilde;o"
+            ,
+            "web": [
+                [
+                    "https://www.revista-programar.info/",
+                    "Programar"
+                ]
+            ],
+            "miniaturas": "../img/revistas/programar/",
+            "archivos": "revista-programar/",
+            "comentario": "",
+            "abreviatura" : "programar"
         },
         {
             "nombre-corto": "Solo Linux",
@@ -442,6 +443,21 @@
             "archivos": "revista-libresfera/",
             "comentario": "",
             "abreviatura" : "libresfera"
+        },
+        {
+            "nombre-corto": "Linux Voice",
+            "nombre": "Linux Voice",
+            "nombre-largo": "Linux Voice - Free software, free speech. (Reino Unido, 2014-2016)",
+            "web": [
+                [
+                    "https://www.linuxvoice.com/",
+                    "Revista Linux Voice"
+                ]
+            ],
+            "miniaturas": "../img/revistas/linux-voice/",
+            "archivos": "revista-linux-voice/",
+            "comentario": "Linux Voice fue una revista comercial que publicaba los ejemplares unos seis meses después de su publicación en los quioscos. En noviembre de 2016 anunció su fusión con la revista comercial Linux magazine y el fin de su publicación como revista independiente.",
+            "abreviatura" : "linuxvoice"
         },
         {
             "nombre-corto": "Linvix",
