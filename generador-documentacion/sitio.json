@@ -14,6 +14,7 @@
         "Saber Libre",
         "HD",
         "Python entre todos",
+        "CODE:FREE",
         "Pixels and code",
         "Libresfera",
         "Planetix",
@@ -229,6 +230,14 @@
       "estado": "inactiva",
       "revistas": [
         "Essentia Libre"
+      ]
+    },
+    {
+      "pagina": "revistas-code-free.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "CODE:FREE"
       ]
     },
     {

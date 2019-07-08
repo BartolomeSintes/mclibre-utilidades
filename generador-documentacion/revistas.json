@@ -336,6 +336,21 @@
             "abreviatura" : "begins"
         },
         {
+            "nombre-corto": "CODE:FREE",
+            "nombre": "CODE:FREE",
+            "nombre-largo": "CODE:FREE. Open Source And Free Software Art Magazine",
+            "web": [
+                [
+                    "https://web.archive.org/web/20140621110250/https://codefreemagazine.wordpress.com/",
+                    "Revista CODE:FREE (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/code-free/",
+            "archivos": "revista-code-free/",
+            "comentario": "",
+            "abreviatura" : "codefree"
+        },
+        {
             "nombre-corto": "Essentia Libre",
             "nombre": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre",
             "nombre-largo": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre (Colombia, 2006-2007)",

@@ -9956,6 +9956,50 @@
       "creado": "2008-10-04"
     },
     {
+      "serie": "CODE:FREE",
+      "nombre": "CODE:FREE",
+      "número": 1,
+      "año": 2008,
+      "mes": 4,
+      "portada": "codefree-1-en-200804.jpg",
+      "fichero": "codefree-1-en-200804.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-08"
+    },
+    {
+      "serie": "CODE:FREE",
+      "nombre": "CODE:FREE",
+      "número": 2,
+      "año": 2008,
+      "mes": 8,
+      "portada": "codefree-2-en-200808.jpg",
+      "fichero": "codefree-2-en-200808.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-08"
+    },
+    {
+      "serie": "CODE:FREE",
+      "nombre": "CODE:FREE",
+      "número": 3,
+      "año": 2009,
+      "mes": 9,
+      "portada": "codefree-3-en-200909.jpg",
+      "fichero": "codefree-3-en-200909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-08"
+    },
+    {
+      "serie": "CODE:FREE",
+      "nombre": "CODE:FREE",
+      "número": 4,
+      "año": 2012,
+      "mes": 3,
+      "portada": "codefree-4-en-201203.jpg",
+      "fichero": "codefree-4-en-201203.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-08"
+    },
+    {
       "serie": "Essentia Libre",
       "nombre": "Essentia Libre",
       "número": 1,
