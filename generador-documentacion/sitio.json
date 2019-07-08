@@ -27,6 +27,7 @@
         "Uxi",
         "Begins",
         "SofLix",
+        "The Python Papers",
         "Scripta",
         "Revista SL",
         "Fent Llinux",
@@ -439,6 +440,14 @@
       "estado": "inactiva",
       "revistas": [
         "The Original Hacker"
+      ]
+    },
+    {
+      "pagina": "revistas-the-python-papers.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "The Python Papers"
       ]
     },
     {

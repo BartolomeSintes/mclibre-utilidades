@@ -761,7 +761,23 @@
             "miniaturas": "../img/revistas-inactivas/the-original-hacker/",
             "archivos": "revista-the-original-hacker/",
             "comentario": "",
-            "abreviatura" : "origianlhacker"
+            "abreviatura" : "originalhacker"
+        },
+        {
+            "nombre-corto": "The Python Papers",
+            "nombre": "The Python Papers",
+            "nombre-largo": "The Python Papers",
+            "web": [
+                [
+                    "http://ojs.pythonpapers.org/",
+                    "The Python Papers"
+                ],
+                ["http://pythonpapers.blogspot.com/", "Blog"]
+            ],
+            "miniaturas": "../img/revistas-inactivas/the-python-papers/",
+            "archivos": "revista-the-python-papers/",
+            "comentario": "",
+            "abreviatura" : "pythonpapers"
         },
         {
             "nombre-corto": "Tuxinfo",
