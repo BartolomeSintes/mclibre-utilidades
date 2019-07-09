@@ -351,6 +351,21 @@
             "abreviatura" : "codefree"
         },
         {
+            "nombre-corto": "Datta Magazine",
+            "nombre": "Dattamagazine.com",
+            "nombre-largo": "Dattamagazine.com",
+            "web": [
+                [
+                    "https://web.archive.org/web/20160618163123/http://www.dattamagazine.com/",
+                    "Revista dattamagazine.com (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/dattamagazine/",
+            "archivos": "revista-dattamagazine/",
+            "comentario": "",
+            "abreviatura" : "dattamagazine"
+        },
+        {
             "nombre-corto": "Essentia Libre",
             "nombre": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre",
             "nombre-largo": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre (Colombia, 2006-2007)",
