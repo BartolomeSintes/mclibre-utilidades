@@ -10825,6 +10825,28 @@
       "creado": "2015-06-09"
     },
     {
+      "serie": "Gubuntu",
+      "nombre": "Gubuntu",
+      "número": 0,
+      "año": 2009,
+      "mes": 5,
+      "portada": "gubuntu-0-es-200905.jpg",
+      "fichero": "gubuntu-0-es-200905.pdf",
+      "idioma": "español",
+      "creado": "2019-07-09"
+    },
+    {
+      "serie": "Gubuntu",
+      "nombre": "Gubuntu",
+      "número": 1,
+      "año": 2009,
+      "mes": 6,
+      "portada": "gubuntu-1-es-200906.jpg",
+      "fichero": "gubuntu-1-es-200906.pdf",
+      "idioma": "español",
+      "creado": "2019-07-09"
+    },
+    {
       "serie": "HD",
       "nombre": "HD Hackers and Developers",
       "número": 0,

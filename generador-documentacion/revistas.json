@@ -430,6 +430,21 @@
             "abreviatura" : "gimpmag"
         },
         {
+            "nombre-corto": "Gubuntu",
+            "nombre": "Gubuntu",
+            "nombre-largo": "Gubuntu",
+            "web": [
+                [
+                    "https://web.archive.org/web/20090817135351/http://www.gubuntu.es/",
+                    "Revista Gubuntu (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/gubuntu/",
+            "archivos": "revista-gubuntu/",
+            "comentario": "",
+            "abreviatura" : "gubuntu"
+        },
+        {
             "nombre-corto": "HD",
             "nombre": "HD Hackers and Developers",
             "nombre-largo": "HD Hackers and Developers (Argentina, 2012-2013)",
