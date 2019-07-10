@@ -10583,6 +10583,83 @@
       "creado": "2007-12-01"
     },
     {
+      "serie": "Fedora LATAM",
+      "nombre": "Fedora LATAM",
+      "número": 1,
+      "año": 2010,
+      "mes": 8,
+      "portada": "fedora-latam-magazine-1-201008.jpg",
+      "fichero": "fedora-latam-magazine-1-201008.pdf",
+      "idioma": "español",
+      "creado": "2019-07-10"
+    },
+    {
+      "serie": "Fedora LATAM",
+      "nombre": "Fedora LATAM",
+      "número": 2,
+      "año": 2010,
+      "mes": 9,
+      "portada": "fedora-latam-magazine-2-201009.jpg",
+      "fichero": "fedora-latam-magazine-2-201009.pdf",
+      "idioma": "español",
+      "creado": "2019-07-10"
+    },
+    {
+      "serie": "Fedora LATAM",
+      "nombre": "Fedora LATAM",
+      "número": 3,
+      "año": 2010,
+      "mes": 10,
+      "portada": "fedora-latam-magazine-3-201010.jpg",
+      "fichero": "fedora-latam-magazine-3-201010.pdf",
+      "idioma": "español",
+      "creado": "2019-07-10"
+    },
+    {
+      "serie": "Fedora LATAM",
+      "nombre": "Fedora LATAM",
+      "número": 4,
+      "año": 2010,
+      "mes": 11,
+      "portada": "fedora-latam-magazine-4-201011.jpg",
+      "fichero": "fedora-latam-magazine-4-201011.pdf",
+      "idioma": "español",
+      "creado": "2019-07-10"
+    },
+    {
+      "serie": "Fedora LATAM",
+      "nombre": "Fedora LATAM",
+      "número": 5,
+      "año": 2011,
+      "mes": 2,
+      "portada": "fedora-latam-magazine-5-201102.jpg",
+      "fichero": "fedora-latam-magazine-5-201102.pdf",
+      "idioma": "español",
+      "creado": "2019-07-10"
+    },
+    {
+      "serie": "Fedora LATAM",
+      "nombre": "Fedora LATAM",
+      "número": 6,
+      "año": 2011,
+      "mes": 3,
+      "portada": "fedora-latam-magazine-6-201103.jpg",
+      "fichero": "fedora-latam-magazine-6-201103.pdf",
+      "idioma": "español",
+      "creado": "2019-07-10"
+    },
+    {
+      "serie": "Fedora LATAM",
+      "nombre": "Fedora LATAM",
+      "número": 7,
+      "año": 2011,
+      "mes": 4,
+      "portada": "fedora-latam-magazine-7-201104.jpg",
+      "fichero": "fedora-latam-magazine-7-201104.pdf",
+      "idioma": "español",
+      "creado": "2019-07-10"
+    },
+    {
       "serie": "Fent Llinux",
       "nombre": "Fent Llinux",
       "número": 1,

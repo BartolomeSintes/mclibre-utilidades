@@ -385,6 +385,21 @@
             "abreviatura" : "essentia"
         },
         {
+            "nombre-corto": "Fedora LATAM",
+            "nombre": "Fedora LATAM magazine",
+            "nombre-largo": "Fedora LATAM magazine",
+            "web": [
+                [
+                    "https://web.archive.org/web/20111202062232/http://proyectofedora.org/revista/",
+                    "Revista Fedora LATAM magazine (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/fedora-latam/",
+            "archivos": "revista-fedora-latam/",
+            "comentario": "",
+            "abreviatura" : "fedoralatam"
+        },
+        {
             "nombre-corto": "Fent Llinux",
             "nombre": "Fent Llinux",
             "nombre-largo": "Fent Llinux (España, 2005-2008)",
