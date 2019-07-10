@@ -460,6 +460,21 @@
             "abreviatura" : "hd"
         },
         {
+            "nombre-corto": "Informática Libre",
+            "nombre": "Informática Libre",
+            "nombre-largo": "Informática Libre",
+            "web": [
+                [
+                    "https://web.archive.org/web/20090414001631/http://informaticalibre.codigosur.net/",
+                    "Revista Informática Libre (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas-inactivas/informatica-libre/",
+            "archivos": "revista-informatica-libre/",
+            "comentario": "",
+            "abreviatura" : "informaticalibre"
+        },
+        {
             "nombre-corto": "Libre Graphics Magazine",
             "nombre": "Libre Graphics Magazine",
             "nombre-largo": "Libre Graphics Magazine (2010-2015)",

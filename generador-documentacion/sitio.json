@@ -26,6 +26,7 @@
         "SL para ti",
         "Gubuntu",
         "ALT Magazine",
+        "Informática Libre",
         "Uxi",
         "Begins",
         "SofLix",
@@ -290,6 +291,14 @@
       "estado": "inactiva",
       "revistas": [
         "HD"
+      ]
+    },
+    {
+      "pagina": "revistas-informatica-libre.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "Informática Libre"
       ]
     },
     {
