@@ -475,6 +475,21 @@
             "abreviatura" : "gubuntu"
         },
         {
+            "nombre-corto": "HackHispano eZine",
+            "nombre": "HackHispano eZine",
+            "nombre-largo": "HackHispano.org Electronic Fanzine",
+            "web": [
+                [
+                    "http://ezine.hackhispano.com/",
+                    "Revista HackHispano eZine"
+                ]
+            ],
+            "miniaturas": "../img/revistas/hack-hispano-ezine/",
+            "archivos": "hack-hispano-ezine/",
+            "comentario": "",
+            "abreviatura" : "hackhispanoezine"
+        },
+        {
             "nombre-corto": "HD",
             "nombre": "HD Hackers and Developers",
             "nombre-largo": "HD Hackers and Developers (Argentina, 2012-2013)",

@@ -22,6 +22,7 @@
         "Ubunchu",
         "Fedora LATAM",
         "Linvix",
+        "HackHispano eZine",
         "Papirux",
         "Nibbler",
         "SL para ti",
@@ -301,6 +302,14 @@
       "estado": "inactiva",
       "revistas": [
         "Gubuntu"
+      ]
+    },
+    {
+      "pagina": "revistas-hack-hispano-ezine.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "HackHispano eZine"
       ]
     },
     {
