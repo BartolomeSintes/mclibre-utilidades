@@ -10,8 +10,8 @@
                     "Revista Aprender para educar con tecnología"
                 ]
             ],
-            "miniaturas": "../img/revistas/ape/",
-            "archivos": "revista-ape/",
+            "miniaturas": "../img/revistas/aprender-para-educar/",
+            "archivos": "aprender-para-educar/",
             "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse en formato pdf.",
             "abreviatura" : "ape"
         },
@@ -26,7 +26,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/atix/",
-            "archivos": "revista-atix/",
+            "archivos": "atix/",
             "comentario": "",
             "abreviatura" : "atix"
         },
@@ -41,7 +41,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/bits-de-ciencia/",
-            "archivos": "revista-bits-de-ciencia/",
+            "archivos": "bits-de-ciencia/",
             "comentario": "",
             "abreviatura" : "bits"
         },
@@ -56,7 +56,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/full-circle/",
-            "archivos": "revista-full-circle/",
+            "archivos": "full-circle/",
             "comentario": "",
             "abreviatura" : "fullcircle"
         },
@@ -71,7 +71,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/full-circle-recopilaciones/",
-            "archivos": "revista-full-circle-recopilaciones/",
+            "archivos": "full-circle-recopilaciones/",
             "comentario": "",
             "abreviatura" : "fucllcirclereco"
         },
@@ -86,7 +86,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/hackspace/",
-            "archivos": "revista-hackspace/",
+            "archivos": "hackspace/",
             "comentario": "",
             "abreviatura" : "hackspace"
         },
@@ -101,7 +101,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/hello-world/",
-            "archivos": "revista-hello-world/",
+            "archivos": "hello-world/",
             "comentario": "",
             "abreviatura" : "helloworld"
         },
@@ -116,7 +116,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/insecure/",
-            "archivos": "revista-insecure/",
+            "archivos": "insecure/",
             "comentario": "",
             "abreviatura" : "insecure"
         },
@@ -131,7 +131,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/ifosslr/",
-            "archivos": "revista-ifosslr/",
+            "archivos": "ifosslr/",
             "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf.",
             "abreviatura" : "ifosslr"
         },
@@ -146,7 +146,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/occams-razor/",
-            "archivos": "revista-occams-razor/",
+            "archivos": "occams-razor/",
             "comentario": "",
             "abreviatura" : "occam"
         },
@@ -165,7 +165,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/odroid/",
-            "archivos": "revista-odroid/",
+            "archivos": "odroid/",
             "comentario": "",
             "abreviatura" : "odroid"
         },
@@ -180,7 +180,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/olympiads-in-informatics/",
-            "archivos": "revista-oii/",
+            "archivos": "olympiads-in-informatics/",
             "comentario": "",
             "abreviatura" : "olympiads"
         },
@@ -195,7 +195,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/open-source-yearbook/",
-            "archivos": "revista-osy/",
+            "archivos": "open-source-yearbook/",
             "comentario": "",
             "abreviatura" : "osyearbook"
         },
@@ -211,7 +211,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/programar/",
-            "archivos": "revista-programar/",
+            "archivos": "programar/",
             "comentario": "",
             "abreviatura" : "programar"
         },
@@ -226,7 +226,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/solo-linux/",
-            "archivos": "revista-solo-linux/",
+            "archivos": "solo-linux/",
             "comentario": "",
             "abreviatura" : "sololinux"
         },
@@ -241,7 +241,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/the-magpi/",
-            "archivos": "revista-magpi/",
+            "archivos": "magpi/",
             "comentario": "",
             "abreviatura" : "magpi"
         },
@@ -256,7 +256,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/the-magpi-essentials/",
-            "archivos": "revista-magpi-essentials/",
+            "archivos": "magpi-essentials/",
             "comentario": "",
             "abreviatura" : "magpiessentials"
         },
@@ -271,7 +271,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/pclinuxos/",
-            "archivos": "revista-pclinuxos/",
+            "archivos": "pclinuxos/",
             "comentario": "",
             "abreviatura" : "pclinuxos"
         },
@@ -286,7 +286,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/wireframe/",
-            "archivos": "revista-wireframe/",
+            "archivos": "wireframe/",
             "comentario": "",
             "abreviatura" : "wireframe"
         },
@@ -300,8 +300,8 @@
                     "ALT Magazine"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/alt-magazine/",
-            "archivos": "revista-alt-magazine/",
+            "miniaturas": "../img/revistas/alt-magazine/",
+            "archivos": "alt-magazine/",
             "comentario": "",
             "abreviatura" : "alt"
         },
@@ -315,8 +315,8 @@
                     "Revista .@vi (copia en archive.org)"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/avi/",
-            "archivos": "revista-avi/",
+            "miniaturas": "../img/revistas/avi/",
+            "archivos": "avi/",
             "comentario": "",
             "abreviatura" : "avi"
         },
@@ -330,8 +330,8 @@
                     "Revista Begins"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/begins/",
-            "archivos": "revista-begins/",
+            "miniaturas": "../img/revistas/begins/",
+            "archivos": "begins/",
             "comentario": "",
             "abreviatura" : "begins"
         },
@@ -345,8 +345,8 @@
                     "Revista CODE:FREE (copia en archive.org)"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/code-free/",
-            "archivos": "revista-code-free/",
+            "miniaturas": "../img/revistas/code-free/",
+            "archivos": "code-free/",
             "comentario": "",
             "abreviatura" : "codefree"
         },
@@ -360,8 +360,8 @@
                     "Revista dattamagazine.com (copia en archive.org)"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/dattamagazine/",
-            "archivos": "revista-dattamagazine/",
+            "miniaturas": "../img/revistas/dattamagazine/",
+            "archivos": "dattamagazine/",
             "comentario": "",
             "abreviatura" : "dattamagazine"
         },
@@ -379,8 +379,8 @@
                     "Revista Essentia libre"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/essentia-libre/",
-            "archivos": "revista-essentia-libre/",
+            "miniaturas": "../img/revistas/essentia-libre/",
+            "archivos": "essentia-libre/",
             "comentario": "",
             "abreviatura" : "essentia"
         },
@@ -394,8 +394,8 @@
                     "Revista Fedora LATAM magazine (copia en archive.org)"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/fedora-latam/",
-            "archivos": "revista-fedora-latam/",
+            "miniaturas": "../img/revistas/fedora-latam/",
+            "archivos": "fedora-latam/",
             "comentario": "",
             "abreviatura" : "fedoralatam"
         },
@@ -409,8 +409,8 @@
                     "Revista Fent Llinux"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/fent-linux/",
-            "archivos": "revista-fent-linux/",
+            "miniaturas": "../img/revistas/fent-linux/",
+            "archivos": "fent-linux/",
             "comentario": "",
             "abreviatura" : "fentlinux"
         },
@@ -424,8 +424,8 @@
                     "Revista Free Tux"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/free-tux/",
-            "archivos": "revista-free-tux/",
+            "miniaturas": "../img/revistas/free-tux/",
+            "archivos": "free-tux/",
             "comentario": "",
             "abreviatura" : "freetux"
         },
@@ -440,7 +440,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/gimp-magazine/",
-            "archivos": "revista-gimp-magazine/",
+            "archivos": "gimp-magazine/",
             "comentario": "",
             "abreviatura" : "gimpmag"
         },
@@ -454,8 +454,8 @@
                     "Revista Gubuntu (copia en archive.org)"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/gubuntu/",
-            "archivos": "revista-gubuntu/",
+            "miniaturas": "../img/revistas/gubuntu/",
+            "archivos": "gubuntu/",
             "comentario": "",
             "abreviatura" : "gubuntu"
         },
@@ -469,8 +469,8 @@
                     "Revista HD Hackers & Developers"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/hd/",
-            "archivos": "revista-hd/",
+            "miniaturas": "../img/revistas/hackers-and-developers/",
+            "archivos": "hackers-and-developers/",
             "comentario": "",
             "abreviatura" : "hd"
         },
@@ -484,8 +484,8 @@
                     "Revista Informática Libre (copia en archive.org)"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/informatica-libre/",
-            "archivos": "revista-informatica-libre/",
+            "miniaturas": "../img/revistas/informatica-libre/",
+            "archivos": "informatica-libre/",
             "comentario": "",
             "abreviatura" : "informaticalibre"
         },
@@ -500,7 +500,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/libre-graphics/",
-            "archivos": "revista-libre-graphics/",
+            "archivos": "libre-graphics/",
             "comentario": "",
             "abreviatura" : "libregraphics"
         },
@@ -514,8 +514,8 @@
                     "Revista LibrOffice Magazine Brasil"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/lom-brasil/",
-            "archivos": "revista-lom-brasil/",
+            "miniaturas": "../img/revistas/libre-office-magazine-brasil/",
+            "archivos": "libre-office-magazine-brasil/",
             "comentario": "",
             "abreviatura" : "lombrasil"
         },
@@ -529,8 +529,8 @@
                     "Revista Libresfera"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/libresfera/",
-            "archivos": "revista-libresfera/",
+            "miniaturas": "../img/revistas/libresfera/",
+            "archivos": "libresfera/",
             "comentario": "",
             "abreviatura" : "libresfera"
         },
@@ -545,7 +545,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/linux-voice/",
-            "archivos": "revista-linux-voice/",
+            "archivos": "linux-voice/",
             "comentario": "Linux Voice fue una revista comercial que publicaba los ejemplares unos seis meses después de su publicación en los quioscos. En noviembre de 2016 anunció su fusión con la revista comercial Linux magazine y el fin de su publicación como revista independiente.",
             "abreviatura" : "linuxvoice"
         },
@@ -559,9 +559,9 @@
                     "Revista Linvix"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/linvix/",
-            "archivos": "revista-linvix/",
-            "comentario": "",
+            "miniaturas": "../img/revistas/linvix/",
+            "archivos": "linvix/",
+            "comentario": "El número 1 de la revista Linvix únicamente se editó en papel y no está dispònible en formato pdf.",
             "abreviatura" : "linvix"
         },
         {
@@ -574,8 +574,8 @@
                     "Revista Magazine ZX"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/magazine-zx/",
-            "archivos": "revista-magazine-zx/",
+            "miniaturas": "../img/revistas/magazine-zx/",
+            "archivos": "magazine-zx/",
             "comentario": "",
             "abreviatura" : "magazinezx"
         },
@@ -589,8 +589,8 @@
                     "Revista MiniMiniM"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/miniminim/",
-            "archivos": "revista-miniminim/",
+            "miniaturas": "../img/revistas/miniminim/",
+            "archivos": "miniminim/",
             "comentario": "",
             "abreviatura" : "miniminm"
         },
@@ -604,8 +604,8 @@
                     "Revista MyGnet"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/mygnet/",
-            "archivos": "revista-mygnet/",
+            "miniaturas": "../img/revistas/mygnet/",
+            "archivos": "mygnet/",
             "comentario": "",
             "abreviatura" : "mygnet"
         },
@@ -619,8 +619,8 @@
                     "Revista NetBeans magazine"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/netbeans-magazine/",
-            "archivos": "revista-netbeans-magazine/",
+            "miniaturas": "../img/revistas/netbeans-magazine/",
+            "archivos": "netbeans-magazine/",
             "comentario": "",
             "abreviatura" : "netbeans"
         },
@@ -634,8 +634,8 @@
                     "Revista Nibble (copia en archive.org de junio de 2012)"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/nibbler/",
-            "archivos": "revista-nibbler/",
+            "miniaturas": "../img/revistas/nibbler/",
+            "archivos": "nibbler/",
             "comentario": "No he podido averiguar el mes exacto de publicación de cada número. He indicado que se publicaron en diciembre, pero es probable que se editaran antes.",
             "abreviatura" : "nibbler"
         },
@@ -649,8 +649,8 @@
                     "Revista Papirux"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/papirux/",
-            "archivos": "revista-papirux/",
+            "miniaturas": "../img/revistas/papirux/",
+            "archivos": "papirux/",
             "comentario": "",
             "abreviatura" : "papirux"
         },
@@ -664,8 +664,8 @@
                     "Revista Pixels and code (copia en archive.org de abril de 2012)"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/pixels-and-code/",
-            "archivos": "revista-pixels-and-code/",
+            "miniaturas": "../img/revistas/pixels-and-code/",
+            "archivos": "pixels-and-code/",
             "comentario": "",
             "abreviatura" : "pac"
         },
@@ -679,8 +679,8 @@
                     "Revista Python entre todos"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/pet/",
-            "archivos": "revista-pet/",
+            "miniaturas": "../img/revistas/python-entre-todos/",
+            "archivos": "python-entre-todos/",
             "comentario": "",
             "abreviatura" : "pet"
         },
@@ -694,8 +694,8 @@
                     "Revista Planetix"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/planetix/",
-            "archivos": "revista-planetix/",
+            "miniaturas": "../img/revistas/planetix/",
+            "archivos": "planetix/",
             "comentario": "",
             "abreviatura" : "planetix"
         },
@@ -709,8 +709,8 @@
                     "Revista Qespisqa Kawsay"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/qespisqa/",
-            "archivos": "revista-qespisqa/",
+            "miniaturas": "../img/revistas/qespisqa-kawsay/",
+            "archivos": "qespisqa-kawsay/",
             "comentario": "",
             "abreviatura" : "qespisqa"
         },
@@ -728,8 +728,8 @@
                     "Xela LUG"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/qlugster/",
-            "archivos": "revista-qlugster/",
+            "miniaturas": "../img/revistas/qlugster/",
+            "archivos": "qlugster/",
             "comentario": "",
             "abreviatura" : "qlugster"
         },
@@ -743,8 +743,8 @@
                     "Saber Libre"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/saber-libre/",
-            "archivos": "revista-saber-libre/",
+            "miniaturas": "../img/revistas/saber-libre/",
+            "archivos": "saber-libre/",
             "comentario": "",
             "abreviatura" : "saberlibre"
         },
@@ -758,8 +758,8 @@
                     "Revista Scripta"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/scripta/",
-            "archivos": "revista-scripta/",
+            "miniaturas": "../img/revistas/scripta/",
+            "archivos": "scripta/",
             "comentario": "",
             "abreviatura" : "scripta"
         },
@@ -773,7 +773,7 @@
                     "Revista SL"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/sl/",
+            "miniaturas": "../img/revistas/revista-sl/",
             "archivos": "revista-sl/",
             "comentario": "",
             "abreviatura" : "revistasl"
@@ -788,8 +788,8 @@
                     "Revista Software Libre para TI"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/sl-para-ti/",
-            "archivos": "revista-sl-para-ti/",
+            "miniaturas": "../img/revistas/software-libre-para-ti/",
+            "archivos": "software-libre-para-ti/",
             "comentario": "",
             "abreviatura" : "slparati"
         },
@@ -803,8 +803,8 @@
                     "Revista SofLix"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/soflix/",
-            "archivos": "revista-soflix/",
+            "miniaturas": "../img/revistas/soflix/",
+            "archivos": "soflix/",
             "comentario": "",
             "abreviatura" : "soflix"
         },
@@ -818,8 +818,8 @@
                     "The Original Hacker"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/the-original-hacker/",
-            "archivos": "revista-the-original-hacker/",
+            "miniaturas": "../img/revistas/the-original-hacker/",
+            "archivos": "the-original-hacker/",
             "comentario": "",
             "abreviatura" : "originalhacker"
         },
@@ -834,8 +834,8 @@
                 ],
                 ["http://pythonpapers.blogspot.com/", "Blog"]
             ],
-            "miniaturas": "../img/revistas-inactivas/the-python-papers/",
-            "archivos": "revista-the-python-papers/",
+            "miniaturas": "../img/revistas/the-python-papers/",
+            "archivos": "the-python-papers/",
             "comentario": "",
             "abreviatura" : "pythonpapers"
         },
@@ -849,8 +849,8 @@
                     "Revista TuxInfo"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/tuxinfo/",
-            "archivos": "revista-tuxinfo/",
+            "miniaturas": "../img/revistas/tuxinfo/",
+            "archivos": "tuxinfo/",
             "comentario": "",
             "abreviatura" : "tuxinfo"
         },
@@ -864,8 +864,8 @@
                     "Revista Ubunchu!"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/ubunchu/",
-            "archivos": "revista-ubunchu/",
+            "miniaturas": "../img/revistas/ubunchu/",
+            "archivos": "ubunchu/",
             "comentario": "",
             "abreviatura" : "ubunchu"
         },
@@ -879,8 +879,8 @@
                     "Revista UXi"
                 ]
             ],
-            "miniaturas": "../img/revistas-inactivas/uxi/",
-            "archivos": "revista-uxi/",
+            "miniaturas": "../img/revistas/uxi/",
+            "archivos": "uxi/",
             "comentario": "",
             "abreviatura" : "uxi"
         }

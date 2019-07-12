@@ -13,7 +13,7 @@ SITIO = "sitio.json"
 REVISTAS = "revistas.json"
 EJEMPLARES = "ejemplares.json"
 DESTINO = "sitio"
-REMOTO_ARCHIVOS = "http://www.mclibre.org/descargar/docs/"
+REMOTO_ARCHIVOS = "http://www.mclibre.org/descargar/docs/revistas/"
 LOCAL_ARCHIVOS = (
     "D:\\Barto\\Documentación software libre\\revistas\\__revistas_en_mclibre\\"
 )
