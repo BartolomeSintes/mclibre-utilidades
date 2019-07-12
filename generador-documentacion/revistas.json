@@ -336,6 +336,21 @@
             "abreviatura" : "begins"
         },
         {
+            "nombre-corto": "BrOffice.orgZine",
+            "nombre": "BrOffice.orgZine",
+            "nombre-largo": "BrOffice.orgZine",
+            "web": [
+                [
+                    "https://web.archive.org/web/20081205080527/http://www.broffice.org/zine",
+                    "Revista Broffice.orgZine (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas/br-office-org-zine/",
+            "archivos": "br-office-org-zine/",
+            "comentario": "",
+            "abreviatura" : "brofficeorgzine"
+        },
+        {
             "nombre-corto": "CODE:FREE",
             "nombre": "CODE:FREE",
             "nombre-largo": "CODE:FREE. Open Source And Free Software Art Magazine",

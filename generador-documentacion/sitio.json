@@ -32,6 +32,7 @@
         "Begins",
         "SofLix",
         "The Python Papers",
+        "BrOffice.orgZine",
         "Scripta",
         "Revista SL",
         "Fent Llinux",
@@ -228,6 +229,14 @@
       "estado": "inactiva",
       "revistas": [
         "Begins"
+      ]
+    },
+    {
+      "pagina": "revistas-brofficeorgzine.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "BrOffice.orgZine"
       ]
     },
     {
