@@ -639,6 +639,28 @@
       "creado": "2019-04-03"
     },
     {
+      "serie": "DING",
+      "nombre": "DING",
+      "número": 1,
+      "año": 2017,
+      "mes": 9,
+      "portada": "ding-1-en-201709.jpg",
+      "fichero": "ding-1-en-201709.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-15"
+    },
+    {
+      "serie": "DING",
+      "nombre": "DING",
+      "número": 2,
+      "año": 2018,
+      "mes": 12,
+      "portada": "ding-2-en-201812.jpg",
+      "fichero": "ding-2-en-201812.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-15"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -12708,7 +12730,7 @@
     {
       "serie": "Saber Libre",
       "nombre": "Saber Libre",
-      "número": 1,
+      "número": 2,
       "año": 2014,
       "mes": 9,
       "portada": "saber-libre-02-es-201409.jpg",
@@ -12719,7 +12741,7 @@
     {
       "serie": "Saber Libre",
       "nombre": "Saber Libre",
-      "número": 1,
+      "número": 3,
       "año": 2014,
       "mes": 10,
       "portada": "saber-libre-03-es-201410.jpg",

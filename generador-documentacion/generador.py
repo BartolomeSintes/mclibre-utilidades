@@ -18,7 +18,7 @@ LOCAL_ARCHIVOS = (
     "D:\\Barto\\Documentación software libre\\revistas\\__revistas_en_mclibre\\"
 )
 LOCAL_MINIATURAS = (
-    "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\documentacion\\img\\"
+    "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\documentacion\\img\\"
 )
 # LOCAL_ARCHIVOS = (
 #     "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\__revistas_en_mclibre\\"

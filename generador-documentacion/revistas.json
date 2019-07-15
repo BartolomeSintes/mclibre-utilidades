@@ -46,6 +46,21 @@
             "abreviatura" : "bits"
         },
         {
+            "nombre-corto": "DING",
+            "nombre": "DING",
+            "nombre-largo": "DING - A magazine about the Internet and Things",
+            "web": [
+                [
+                    "https://dingdingding.org/",
+                    "Revista DING"
+                ]
+            ],
+            "miniaturas": "../img/revistas/ding/",
+            "archivos": "ding/",
+            "comentario": "",
+            "abreviatura" : "Ding"
+        },
+        {
             "nombre-corto": "Full Circle",
             "nombre": "Full Circle",
             "nombre-largo": "Full Circle - The independent magazine for the Ubuntu Linux community",

@@ -73,6 +73,14 @@
       ]
     },
     {
+      "pagina": "revistas-ding.html",
+      "directorio": "revistas-titulos",
+      "estado": "activa",
+      "revistas": [
+        "DING"
+      ]
+    },
+    {
       "pagina": "revistas-full-circle.html",
       "directorio": "revistas-titulos",
       "estado": "activa",
