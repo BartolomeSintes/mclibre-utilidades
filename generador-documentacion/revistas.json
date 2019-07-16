@@ -928,6 +928,21 @@
             "archivos": "uxi/",
             "comentario": "",
             "abreviatura" : "uxi"
+        },
+        {
+            "nombre-corto": "WI:DGET",
+            "nombre": "WI:DGET",
+            "nombre-largo": "WI:DGET",
+            "web": [
+                [
+                    "https://web.archive.org/web/20181226150117/http://ingeniux.co/",
+                    "Revista WI:DGET (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas/widget/",
+            "archivos": "widget/",
+            "comentario": "",
+            "abreviatura" : "widget"
         }
     ]
 }

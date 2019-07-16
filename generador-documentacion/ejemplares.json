@@ -14289,6 +14289,50 @@
       "fichero": "uxi-2-08-es-200901.pdf",
       "idioma": "español",
       "creado": "2010-03-07"
+    },
+    {
+      "serie": "WI:DGET",
+      "nombre": "WI:DGET",
+      "número": 1,
+      "año": 2011,
+      "mes": 5,
+      "portada": "widget-1-es-201105.jpg",
+      "fichero": "widget-1-es-201105.pdf",
+      "idioma": "español",
+      "creado": "2019-07-16"
+    },
+    {
+      "serie": "WI:DGET",
+      "nombre": "WI:DGET",
+      "número": 2,
+      "año": 2011,
+      "mes": 11,
+      "portada": "widget-2-es-201111.jpg",
+      "fichero": "widget-2-es-201111.pdf",
+      "idioma": "español",
+      "creado": "2019-07-16"
+    },
+    {
+      "serie": "WI:DGET",
+      "nombre": "WI:DGET",
+      "número": 3,
+      "año": 2012,
+      "mes": 11,
+      "portada": "widget-3-es-201211.jpg",
+      "fichero": "widget-3-es-201211.pdf",
+      "idioma": "español",
+      "creado": "2019-07-16"
+    },
+    {
+      "serie": "WI:DGET",
+      "nombre": "WI:DGET",
+      "número": 4,
+      "año": 2014,
+      "mes": 5,
+      "portada": "widget-4-es-201405.jpg",
+      "fichero": "widget-4-es-201405.pdf",
+      "idioma": "español",
+      "creado": "2019-07-16"
     }
   ]
 }

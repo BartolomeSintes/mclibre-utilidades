@@ -12,6 +12,7 @@
         "GIMP Magazine",
         "Tuxinfo",
         "Saber Libre",
+        "WI:DGET",
         "HD",
         "Python entre todos",
         "Datta Magazine",
@@ -534,6 +535,14 @@
       "estado": "inactiva",
       "revistas": [
         "Uxi"
+      ]
+    },
+    {
+      "pagina": "revistas-widget.html",
+      "directorio": "revistas-titulos",
+      "estado": "inactiva",
+      "revistas": [
+        "WI:DGET"
       ]
     }
   ]
