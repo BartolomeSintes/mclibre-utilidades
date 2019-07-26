@@ -2971,6 +2971,17 @@
       "creado": "2019-06-21"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 21,
+      "año": 2019,
+      "mes": 8,
+      "portada": "hackspace-21-en-201908.jpg",
+      "fichero": "hackspace-21-en-201908.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-26"
+    },
+    {
       "serie": "Hello World",
       "nombre": "Hello World",
       "número": 1,
@@ -5798,6 +5809,17 @@
       "creado": "2019-07-04"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 67,
+      "año": 2019,
+      "mes": 7,
+      "portada": "odroid-67-en-201907.jpg",
+      "fichero": "odroid-67-en-201907.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-26"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -7622,6 +7644,17 @@
       "fichero": "the-magpi-83-en-201907.pdf",
       "idioma": "inglés",
       "creado": "2019-07-04"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 84,
+      "año": 2019,
+      "mes": 8,
+      "portada": "the-magpi-84-en-201908.jpg",
+      "fichero": "the-magpi-84-en-201908.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-26"
     },
     {
       "serie": "The MagPi Essentials",
@@ -9516,6 +9549,17 @@
       "creado": "2019-06-21"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 150,
+      "año": 2019,
+      "mes": 7,
+      "portada": "pclinuxos-150-en-201907.jpg",
+      "fichero": "pclinuxos-150-en-201907.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-26"
+    },
+    {
       "serie": "Wireframe",
       "nombre": "Wireframe",
       "número": 1,
@@ -9701,6 +9745,17 @@
       "fichero": "wireframe-17-en-201907.pdf",
       "idioma": "inglés",
       "creado": "2019-07-04"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 18,
+      "año": 2019,
+      "mes": 8,
+      "portada": "wireframe-18-en-201907.jpg",
+      "fichero": "wireframe-18-en-201907.pdf",
+      "idioma": "inglés",
+      "creado": "2019-07-26"
     },
     {
       "serie": "ALT Magazine",
@@ -12055,6 +12110,17 @@
       "fichero": "magazine-zx-16-es-200801.pdf",
       "idioma": "español",
       "creado": "2019-07-06"
+    },
+    {
+      "serie": "Magazine ZX",
+      "nombre": "Magazine ZX",
+      "número": 17,
+      "año": 2009,
+      "mes": 3,
+      "portada": "magazine-zx-17-es-200903.jpg",
+      "fichero": "magazine-zx-17-es-200903.pdf",
+      "idioma": "español",
+      "creado": "2019-07-24"
     },
     {
       "serie": "MiniMiniM",
