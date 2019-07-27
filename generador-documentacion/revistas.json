@@ -13,7 +13,8 @@
             "miniaturas": "../img/revistas/aprender-para-educar/",
             "archivos": "aprender-para-educar/",
             "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse en formato pdf.",
-            "abreviatura" : "ape"
+            "abreviatura" : "ape",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Atix",
@@ -28,7 +29,8 @@
             "miniaturas": "../img/revistas/atix/",
             "archivos": "atix/",
             "comentario": "",
-            "abreviatura" : "atix"
+            "abreviatura" : "atix",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Bits de Ciencia",
@@ -43,7 +45,8 @@
             "miniaturas": "../img/revistas/bits-de-ciencia/",
             "archivos": "bits-de-ciencia/",
             "comentario": "",
-            "abreviatura" : "bits"
+            "abreviatura" : "bits",
+            "estado": "activa"
         },
         {
             "nombre-corto": "DING",
@@ -58,7 +61,8 @@
             "miniaturas": "../img/revistas/ding/",
             "archivos": "ding/",
             "comentario": "",
-            "abreviatura" : "Ding"
+            "abreviatura" : "ding",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Full Circle",
@@ -73,7 +77,8 @@
             "miniaturas": "../img/revistas/full-circle/",
             "archivos": "full-circle/",
             "comentario": "",
-            "abreviatura" : "fullcircle"
+            "abreviatura" : "fullcircle",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Full Circle (rec)",
@@ -88,7 +93,8 @@
             "miniaturas": "../img/revistas/full-circle-recopilaciones/",
             "archivos": "full-circle-recopilaciones/",
             "comentario": "",
-            "abreviatura" : "fucllcirclereco"
+            "abreviatura" : "fucllcirclereco",
+            "estado": "activa"
         },
         {
             "nombre-corto": "HackSpace",
@@ -103,7 +109,8 @@
             "miniaturas": "../img/revistas/hackspace/",
             "archivos": "hackspace/",
             "comentario": "",
-            "abreviatura" : "hackspace"
+            "abreviatura" : "hackspace",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Hello World",
@@ -118,7 +125,8 @@
             "miniaturas": "../img/revistas/hello-world/",
             "archivos": "hello-world/",
             "comentario": "",
-            "abreviatura" : "helloworld"
+            "abreviatura" : "helloworld",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Insecure Magazine",
@@ -133,7 +141,8 @@
             "miniaturas": "../img/revistas/insecure/",
             "archivos": "insecure/",
             "comentario": "",
-            "abreviatura" : "insecure"
+            "abreviatura" : "insecure",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Int. FOSS Law Review",
@@ -148,7 +157,8 @@
             "miniaturas": "../img/revistas/ifosslr/",
             "archivos": "ifosslr/",
             "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf.",
-            "abreviatura" : "ifosslr"
+            "abreviatura" : "ifosslr",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Occam's Razor",
@@ -163,7 +173,8 @@
             "miniaturas": "../img/revistas/occams-razor/",
             "archivos": "occams-razor/",
             "comentario": "",
-            "abreviatura" : "occam"
+            "abreviatura" : "occam",
+            "estado": "activa"
         },
         {
             "nombre-corto": "ODROID Magazine",
@@ -182,7 +193,8 @@
             "miniaturas": "../img/revistas/odroid/",
             "archivos": "odroid/",
             "comentario": "",
-            "abreviatura" : "odroid"
+            "abreviatura" : "odroid",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Olympiads in informatics",
@@ -197,7 +209,8 @@
             "miniaturas": "../img/revistas/olympiads-in-informatics/",
             "archivos": "olympiads-in-informatics/",
             "comentario": "",
-            "abreviatura" : "olympiads"
+            "abreviatura" : "olympiads",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Open Source Yearbook",
@@ -212,7 +225,8 @@
             "miniaturas": "../img/revistas/open-source-yearbook/",
             "archivos": "open-source-yearbook/",
             "comentario": "",
-            "abreviatura" : "osyearbook"
+            "abreviatura" : "osyearbook",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Programar",
@@ -228,7 +242,8 @@
             "miniaturas": "../img/revistas/programar/",
             "archivos": "programar/",
             "comentario": "",
-            "abreviatura" : "programar"
+            "abreviatura" : "programar",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Solo Linux",
@@ -243,7 +258,8 @@
             "miniaturas": "../img/revistas/solo-linux/",
             "archivos": "solo-linux/",
             "comentario": "",
-            "abreviatura" : "sololinux"
+            "abreviatura" : "sololinux",
+            "estado": "activa"
         },
         {
             "nombre-corto": "The MagPi",
@@ -258,7 +274,8 @@
             "miniaturas": "../img/revistas/the-magpi/",
             "archivos": "magpi/",
             "comentario": "",
-            "abreviatura" : "magpi"
+            "abreviatura" : "magpi",
+            "estado": "activa"
         },
         {
             "nombre-corto": "The MagPi Essentials",
@@ -273,7 +290,8 @@
             "miniaturas": "../img/revistas/the-magpi-essentials/",
             "archivos": "magpi-essentials/",
             "comentario": "",
-            "abreviatura" : "magpiessentials"
+            "abreviatura" : "magpiessentials",
+            "estado": "activa"
         },
         {
             "nombre-corto": "The PCLinuxOS Magazine",
@@ -288,7 +306,8 @@
             "miniaturas": "../img/revistas/pclinuxos/",
             "archivos": "pclinuxos/",
             "comentario": "",
-            "abreviatura" : "pclinuxos"
+            "abreviatura" : "pclinuxos",
+            "estado": "activa"
         },
         {
             "nombre-corto": "Wireframe",
@@ -303,7 +322,8 @@
             "miniaturas": "../img/revistas/wireframe/",
             "archivos": "wireframe/",
             "comentario": "",
-            "abreviatura" : "wireframe"
+            "abreviatura" : "wireframe",
+            "estado": "activa"
         },
         {
             "nombre-corto": "ALT Magazine",
@@ -318,7 +338,8 @@
             "miniaturas": "../img/revistas/alt-magazine/",
             "archivos": "alt-magazine/",
             "comentario": "",
-            "abreviatura" : "alt"
+            "abreviatura" : "alt",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": ".@vi",
@@ -333,7 +354,8 @@
             "miniaturas": "../img/revistas/avi/",
             "archivos": "avi/",
             "comentario": "",
-            "abreviatura" : "avi"
+            "abreviatura" : "avi",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Begins",
@@ -348,7 +370,8 @@
             "miniaturas": "../img/revistas/begins/",
             "archivos": "begins/",
             "comentario": "",
-            "abreviatura" : "begins"
+            "abreviatura" : "begins",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "BrOffice.orgZine",
@@ -363,7 +386,8 @@
             "miniaturas": "../img/revistas/br-office-org-zine/",
             "archivos": "br-office-org-zine/",
             "comentario": "",
-            "abreviatura" : "brofficeorgzine"
+            "abreviatura" : "brofficeorgzine",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "CODE:FREE",
@@ -378,7 +402,8 @@
             "miniaturas": "../img/revistas/code-free/",
             "archivos": "code-free/",
             "comentario": "",
-            "abreviatura" : "codefree"
+            "abreviatura" : "codefree",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Datta Magazine",
@@ -393,7 +418,8 @@
             "miniaturas": "../img/revistas/dattamagazine/",
             "archivos": "dattamagazine/",
             "comentario": "",
-            "abreviatura" : "dattamagazine"
+            "abreviatura" : "dattamagazine",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Essentia Libre",
@@ -412,7 +438,8 @@
             "miniaturas": "../img/revistas/essentia-libre/",
             "archivos": "essentia-libre/",
             "comentario": "",
-            "abreviatura" : "essentia"
+            "abreviatura" : "essentia",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Fedora LATAM",
@@ -427,7 +454,8 @@
             "miniaturas": "../img/revistas/fedora-latam/",
             "archivos": "fedora-latam/",
             "comentario": "",
-            "abreviatura" : "fedoralatam"
+            "abreviatura" : "fedoralatam",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Fent Llinux",
@@ -442,7 +470,8 @@
             "miniaturas": "../img/revistas/fent-linux/",
             "archivos": "fent-linux/",
             "comentario": "",
-            "abreviatura" : "fentlinux"
+            "abreviatura" : "fentlinux",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Free Tux",
@@ -457,7 +486,8 @@
             "miniaturas": "../img/revistas/free-tux/",
             "archivos": "free-tux/",
             "comentario": "",
-            "abreviatura" : "freetux"
+            "abreviatura" : "freetux",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "GIMP Magazine",
@@ -472,7 +502,8 @@
             "miniaturas": "../img/revistas/gimp-magazine/",
             "archivos": "gimp-magazine/",
             "comentario": "",
-            "abreviatura" : "gimpmag"
+            "abreviatura" : "gimpmag",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Gubuntu",
@@ -487,7 +518,8 @@
             "miniaturas": "../img/revistas/gubuntu/",
             "archivos": "gubuntu/",
             "comentario": "",
-            "abreviatura" : "gubuntu"
+            "abreviatura" : "gubuntu",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "HackHispano eZine",
@@ -502,7 +534,8 @@
             "miniaturas": "../img/revistas/hack-hispano-ezine/",
             "archivos": "hack-hispano-ezine/",
             "comentario": "",
-            "abreviatura" : "hackhispanoezine"
+            "abreviatura" : "hackhispanoezine",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "HD",
@@ -517,7 +550,8 @@
             "miniaturas": "../img/revistas/hackers-and-developers/",
             "archivos": "hackers-and-developers/",
             "comentario": "",
-            "abreviatura" : "hd"
+            "abreviatura" : "hd",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Informática Libre",
@@ -532,7 +566,8 @@
             "miniaturas": "../img/revistas/informatica-libre/",
             "archivos": "informatica-libre/",
             "comentario": "",
-            "abreviatura" : "informaticalibre"
+            "abreviatura" : "informaticalibre",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Libre Graphics Magazine",
@@ -547,7 +582,8 @@
             "miniaturas": "../img/revistas/libre-graphics/",
             "archivos": "libre-graphics/",
             "comentario": "",
-            "abreviatura" : "libregraphics"
+            "abreviatura" : "libregraphics",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "LOM Brasil",
@@ -562,7 +598,8 @@
             "miniaturas": "../img/revistas/libre-office-magazine-brasil/",
             "archivos": "libre-office-magazine-brasil/",
             "comentario": "",
-            "abreviatura" : "lombrasil"
+            "abreviatura" : "lombrasil",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Libresfera",
@@ -577,7 +614,8 @@
             "miniaturas": "../img/revistas/libresfera/",
             "archivos": "libresfera/",
             "comentario": "",
-            "abreviatura" : "libresfera"
+            "abreviatura" : "libresfera",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Linux Voice",
@@ -592,7 +630,8 @@
             "miniaturas": "../img/revistas/linux-voice/",
             "archivos": "linux-voice/",
             "comentario": "Linux Voice fue una revista comercial que publicaba los ejemplares unos seis meses después de su publicación en los quioscos. En noviembre de 2016 anunció su fusión con la revista comercial Linux magazine y el fin de su publicación como revista independiente.",
-            "abreviatura" : "linuxvoice"
+            "abreviatura" : "linuxvoice",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Linvix",
@@ -607,7 +646,8 @@
             "miniaturas": "../img/revistas/linvix/",
             "archivos": "linvix/",
             "comentario": "El número 1 de la revista Linvix únicamente se editó en papel y no está dispònible en formato pdf.",
-            "abreviatura" : "linvix"
+            "abreviatura" : "linvix",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Magazine ZX",
@@ -622,7 +662,8 @@
             "miniaturas": "../img/revistas/magazine-zx/",
             "archivos": "magazine-zx/",
             "comentario": "",
-            "abreviatura" : "magazinezx"
+            "abreviatura" : "magazinezx",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "MiniMiniM",
@@ -637,7 +678,8 @@
             "miniaturas": "../img/revistas/miniminim/",
             "archivos": "miniminim/",
             "comentario": "",
-            "abreviatura" : "miniminm"
+            "abreviatura" : "miniminm",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "MyGnet",
@@ -652,7 +694,8 @@
             "miniaturas": "../img/revistas/mygnet/",
             "archivos": "mygnet/",
             "comentario": "",
-            "abreviatura" : "mygnet"
+            "abreviatura" : "mygnet",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "NetBeans magazine",
@@ -667,7 +710,8 @@
             "miniaturas": "../img/revistas/netbeans-magazine/",
             "archivos": "netbeans-magazine/",
             "comentario": "",
-            "abreviatura" : "netbeans"
+            "abreviatura" : "netbeans",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Nibbler",
@@ -682,7 +726,8 @@
             "miniaturas": "../img/revistas/nibbler/",
             "archivos": "nibbler/",
             "comentario": "No he podido averiguar el mes exacto de publicación de cada número. He indicado que se publicaron en diciembre, pero es probable que se editaran antes.",
-            "abreviatura" : "nibbler"
+            "abreviatura" : "nibbler",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Papirux",
@@ -697,7 +742,8 @@
             "miniaturas": "../img/revistas/papirux/",
             "archivos": "papirux/",
             "comentario": "",
-            "abreviatura" : "papirux"
+            "abreviatura" : "papirux",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Pixels and code",
@@ -712,7 +758,8 @@
             "miniaturas": "../img/revistas/pixels-and-code/",
             "archivos": "pixels-and-code/",
             "comentario": "",
-            "abreviatura" : "pac"
+            "abreviatura" : "pac",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Python entre todos",
@@ -727,7 +774,8 @@
             "miniaturas": "../img/revistas/python-entre-todos/",
             "archivos": "python-entre-todos/",
             "comentario": "",
-            "abreviatura" : "pet"
+            "abreviatura" : "pet",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Planetix",
@@ -742,7 +790,8 @@
             "miniaturas": "../img/revistas/planetix/",
             "archivos": "planetix/",
             "comentario": "",
-            "abreviatura" : "planetix"
+            "abreviatura" : "planetix",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Qespisqa Kawsay",
@@ -757,7 +806,8 @@
             "miniaturas": "../img/revistas/qespisqa-kawsay/",
             "archivos": "qespisqa-kawsay/",
             "comentario": "",
-            "abreviatura" : "qespisqa"
+            "abreviatura" : "qespisqa",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Qlugster magazine",
@@ -776,7 +826,8 @@
             "miniaturas": "../img/revistas/qlugster/",
             "archivos": "qlugster/",
             "comentario": "",
-            "abreviatura" : "qlugster"
+            "abreviatura" : "qlugster",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Saber Libre",
@@ -791,7 +842,8 @@
             "miniaturas": "../img/revistas/saber-libre/",
             "archivos": "saber-libre/",
             "comentario": "",
-            "abreviatura" : "saberlibre"
+            "abreviatura" : "saberlibre",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Scripta",
@@ -806,7 +858,8 @@
             "miniaturas": "../img/revistas/scripta/",
             "archivos": "scripta/",
             "comentario": "",
-            "abreviatura" : "scripta"
+            "abreviatura" : "scripta",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Revista SL",
@@ -821,7 +874,8 @@
             "miniaturas": "../img/revistas/revista-sl/",
             "archivos": "revista-sl/",
             "comentario": "",
-            "abreviatura" : "revistasl"
+            "abreviatura" : "revistasl",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "SL para ti",
@@ -836,7 +890,8 @@
             "miniaturas": "../img/revistas/software-libre-para-ti/",
             "archivos": "software-libre-para-ti/",
             "comentario": "",
-            "abreviatura" : "slparati"
+            "abreviatura" : "slparati",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "SofLix",
@@ -851,7 +906,8 @@
             "miniaturas": "../img/revistas/soflix/",
             "archivos": "soflix/",
             "comentario": "",
-            "abreviatura" : "soflix"
+            "abreviatura" : "soflix",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "The Original Hacker",
@@ -866,7 +922,8 @@
             "miniaturas": "../img/revistas/the-original-hacker/",
             "archivos": "the-original-hacker/",
             "comentario": "",
-            "abreviatura" : "originalhacker"
+            "abreviatura" : "originalhacker",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "The Python Papers",
@@ -882,7 +939,8 @@
             "miniaturas": "../img/revistas/the-python-papers/",
             "archivos": "the-python-papers/",
             "comentario": "",
-            "abreviatura" : "pythonpapers"
+            "abreviatura" : "pythonpapers",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Tuxinfo",
@@ -897,7 +955,8 @@
             "miniaturas": "../img/revistas/tuxinfo/",
             "archivos": "tuxinfo/",
             "comentario": "",
-            "abreviatura" : "tuxinfo"
+            "abreviatura" : "tuxinfo",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Ubunchu",
@@ -912,7 +971,8 @@
             "miniaturas": "../img/revistas/ubunchu/",
             "archivos": "ubunchu/",
             "comentario": "",
-            "abreviatura" : "ubunchu"
+            "abreviatura" : "ubunchu",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Uxi",
@@ -927,7 +987,8 @@
             "miniaturas": "../img/revistas/uxi/",
             "archivos": "uxi/",
             "comentario": "",
-            "abreviatura" : "uxi"
+            "abreviatura" : "uxi",
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "WI:DGET",
@@ -942,7 +1003,8 @@
             "miniaturas": "../img/revistas/widget/",
             "archivos": "widget/",
             "comentario": "",
-            "abreviatura" : "widget"
+            "abreviatura" : "widget",
+            "estado": "inactiva"
         }
     ]
 }

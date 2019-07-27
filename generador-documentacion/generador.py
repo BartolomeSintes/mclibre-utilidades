@@ -6,7 +6,7 @@
 
 # COSAS POR HACER
 
-import json, pathlib, shutil, imagesize, operator
+import json, pathlib, shutil, imagesize, operator, time
 
 
 SITIO = "sitio.json"
@@ -232,6 +232,7 @@ def pagina_individual_revistas(r):
                 t += f'        <p>{i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
             t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>\n'
             t += "      </div>\n"
+            t += "\n"
         t += "    </div>\n"
         t += "  </section>\n"
         t += "\n"
@@ -446,7 +447,6 @@ def revistas_por_fecha_inclusion():
 
 
 def pagina_revistas_inactivas(revistas):
-
     abreviaturas = []
     for tmp in revistas:
         abreviaturas += [
@@ -581,6 +581,218 @@ def pagina_revistas_inactivas(revistas):
     t += "</html>\n"
     return t
 
+def pagina_index():
+    # Genera html
+    t = ""
+    t += "<!DOCTYPE html>\n"
+    t += '<html lang="es">\n'
+    t += "<head>\n"
+    t += '  <meta charset="utf-8">\n'
+    t += f"  <title>Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
+    t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+    t += '  <link rel="stylesheet" type="text/css" href="varios/documentos.css" title="mclibre">\n'
+    t += '  <link rel="icon" href="varios/favicon.ico">\n'
+    t += "</head>\n"
+    t += "\n"
+    t += "<body>\n"
+    t += f"   <h1>Documentación sobre software libre y contenidos libres</h1>\n"
+    t += "\n"
+    t += "  <nav>\n"
+    t += "    <p>\n"
+    t += '      <a href="http://www.mclibre.org"><img src="varios/iconos/icono-logo-mclibre.svg" alt="Logotipo www.mclibre.org" title="Material Curricular Libre - www.mclibre.org" width="145" height="76"></a>\n'
+    t += "    </p>\n"
+    t += "\n"
+    t += '    <div class="toc">\n'
+    t += "      <ul>\n"
+    t += '        <li><a href="#ultimas">Últimas revistas</a></li>\n'
+    t += '        <li><a href="#years">Por años</a></li>\n'
+    t += '        <li><a href="#activo">En activo</a></li>\n'
+    t += '        <li><a href="#inactivas">Inactivas</a></li>\n'
+    t += '        <li><a href="#otros">Otros</a></li>\n'
+    t += "      </ul>\n"
+    t += "    </div>\n"
+    t += "  </nav>\n"
+    t += "\n"
+    t += "  <p>Estas páginas contienen enlaces a revistas, libros y manuales dedicados al software libre, a las distribuciones GNU/Linux y a los contenidos libres:</p>\n"
+    t += "\n"
+    t += '  <p><strong>Nota</strong>: Si conoce algún libro, manual o revista que pueda añadirse a esta página, puede enviarme un <a href="mailto:bartolome.sintes+mclibre@gmail.com">correo</a>. Gracias por adelantado.</p>\n'
+    t += "\n"
+
+    # Revistas últimas
+    t += '  <section id="ultimas">\n'
+    t += "    <h2>Últimos ejemplares publicados</h2>\n"
+    t += "\n"
+    t += '    <div class="miniaturas">\n'
+    t += "    </div>\n"
+    t += "  </section>\n"
+    t += "\n"
+
+    # Revistas por años
+    t += '  <section id="years">\n'
+    t += "    <h2>Revistas por años</h2>\n"
+    t += "\n"
+    t += '    <div class="miniaturas years">\n'
+    # Obtiene lista de años
+    anyos = []
+    for i in ejemplares_json["ejemplares"]:
+        if i["año"] not in anyos:
+            anyos += [i["año"]]
+    anyos.sort(reverse=True)
+    for i in anyos:
+        t += "      <div>\n"
+        t += f'        <p><a href="revistas-years/revistas-{i}.html">{i}</a></p>\n'
+        t += "      </div>\n"
+        t += "\n"
+    t += "    </div>\n"
+    t += "  </section>\n"
+    t += "\n"
+
+    # Revistas en activo
+    t += '  <section id="activo">\n'
+    t += "    <h2>Revistas en activo</h2>\n"
+    t += "\n"
+    t += '    <div class="miniaturas">\n'
+    # Obtiene revistas en activo
+    revistas_activas = [
+        element
+        for element in revistas_json["revistas"]
+        if element["estado"] == "activa"
+    ]
+    revistas = []
+    for i in revistas_activas:
+        ejemplares_revista = []
+        ejemplares_revista += [
+            element
+            for element in ejemplares_json["ejemplares"]
+            if element["serie"] == i["nombre-corto"]
+        ]
+        ejemplares_revista = ordena(ejemplares_revista, reverse=True)
+        revistas += [[i, ejemplares_revista[0], len(ejemplares_revista)]]
+
+    for j in revistas:
+        i = j[1]
+        info_r = j[0]
+        width, height = imagesize.get(
+            LOCAL_MINIATURAS + info_r["miniaturas"] + i["portada"]
+        )
+        # Obtiene anyos
+        anyos = [
+            element["año"]
+            for element in ejemplares_json["ejemplares"]
+            if element["serie"] == i["serie"]
+        ]
+        # Obtiene página de la revista
+        for element in sitio_json["paginas"]:
+            if len(element["revistas"]) == 1 and element["revistas"][0] == i["serie"]:
+                camino = f'{element["directorio"]}/{element["pagina"]}'
+        t += "      <div>\n"
+        if isinstance(i["mes"], int):
+            t += f'        <p><a href="{camino}"><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></a></p>\n'
+        else:
+            t += f'        <p><a href="{camino}"><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></a></p>\n'
+        t += f'        <p><a href="{camino}">{info_r["nombre-corto"]}</a></p>\n'
+        if min(anyos) == max(anyos):
+            t += f'        <p>{min(anyos)}</p>\n'
+        else:
+            t += f'        <p>{min(anyos)} - {max(anyos)}</p>\n'
+        t += f'        <p>{j[2]} ejemplares</p>\n'
+        t += "      </div>\n"
+        t += "\n"
+    t += "    </div>\n"
+    t += "  </section>\n"
+    t += "\n"
+
+    # Revistas inactivas
+    t += '  <section id="inactivas">\n'
+    t += "    <h2>Revistas inactivas</h2>\n"
+    t += "\n"
+    t += '    <div class="miniaturas">\n'
+    # Obtiene revistas en activo
+    revistas_inactivas = [
+        element
+        for element in revistas_json["revistas"]
+        if element["estado"] == "inactiva"
+    ]
+    revistas = []
+    for i in revistas_inactivas:
+        ejemplares_revista = []
+        ejemplares_revista += [
+            element
+            for element in ejemplares_json["ejemplares"]
+            if element["serie"] == i["nombre-corto"]
+        ]
+        ejemplares_revista = ordena(ejemplares_revista, reverse=True)
+        revistas += [[i, ejemplares_revista[0], len(ejemplares_revista)]]
+
+    for j in revistas:
+        i = j[1]
+        info_r = j[0]
+        width, height = imagesize.get(
+            LOCAL_MINIATURAS + info_r["miniaturas"] + i["portada"]
+        )
+        # Obtiene anyos
+        anyos = [
+            element["año"]
+            for element in ejemplares_json["ejemplares"]
+            if element["serie"] == i["serie"]
+        ]
+        # Obtiene página de la revista
+        for element in sitio_json["paginas"]:
+            if len(element["revistas"]) == 1 and element["revistas"][0] == i["serie"]:
+                camino = f'{element["directorio"]}/{element["pagina"]}'
+        t += "      <div>\n"
+        if isinstance(i["mes"], int):
+            t += f'        <p><a href="{camino}"><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></a></p>\n'
+        else:
+            t += f'        <p><a href="{camino}"><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></a></p>\n'
+        t += f'        <p><a href="{camino}">{info_r["nombre-corto"]}</a></p>\n'
+        if min(anyos) == max(anyos):
+            t += f'        <p>{min(anyos)}</p>\n'
+        else:
+            t += f'        <p>{min(anyos)} - {max(anyos)}</p>\n'
+        if j[2] == 1:
+            t += f'        <p>1 ejemplar</p>\n'
+        else:
+            t += f'        <p>{j[2]} ejemplares</p>\n'
+        t += "      </div>\n"
+        t += "\n"
+    t += "    </div>\n"
+    t += "  </section>\n"
+    t += "\n"
+
+    t += '  <section id="otros">\n'
+    t += "    <h2>Otros</h2>\n"
+    t += "\n"
+    t += "    <ul>\n"
+    t += "      <li>Revistas\n"
+    t += "        <ul>\n"
+    t += "          <li>\n"
+    t += '            <a href="listados/revistas-desaparecidas.html">Revistas inactivas</a> -\n'
+    t += '            <a href="listados/revistas-pendientes.html">Revistas pendientes de incluir</a>\n'
+    t += "          </li>\n"
+    t += "        </ul>\n"
+    t += "      </li>\n"
+    t += "      <li>Documentación\n"
+    t += "        <ul>\n"
+    t += "          <li>\n"
+    t += '            <a href="listados/manuales.html">Manuales</a> -\n'
+    t += '            <a href="listados/manuales-antiguos.html">Manuales antiguos</a>\n'
+    t += "          </li>\n"
+    t += '          <li><a href="listados/libros.html">Libros e informes</a></li>\n'
+    t += '          <li><a href="listados/thepracticaldev.html">The Practical Dev</a></li>\n'
+    t += "        </ul>\n"
+    t += "      </li>\n"
+    t += "    </ul>\n"
+    t += "  </section>\n"
+    t += "\n"
+    t += '  <address id="ultmod">\n'
+    t += "    Autor: Bartolomé Sintes Marco<br>\n"
+    hoy = time.strftime("%Y-%m-%d")
+    t += f"    Última modificación de esta página: {fecha_a_texto(hoy)}\n"
+    t += "  </address>\n"
+    t += "</body>\n"
+    t += "</html>\n"
+    return t
 
 print("GENERADOR DE SITIO WEB")
 
@@ -692,3 +904,12 @@ with open(fichero_destino, "w", encoding="utf-8") as fichero:
     fichero.write(revistas_por_fecha_inclusion())
 print()
 
+# Crea página index
+print()
+print("Creando página index")
+print()
+fichero_destino = "sitio\\index2.html"
+print(f"  " + fichero_destino)
+with open(fichero_destino, "w", encoding="utf-8") as fichero:
+    fichero.write(pagina_index())
+print()
