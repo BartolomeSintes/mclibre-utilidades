@@ -14,6 +14,7 @@
         "Saber Libre",
         "WI:DGET",
         "HD",
+        "Cotejo",
         "Python entre todos",
         "Datta Magazine",
         "CODE:FREE",
@@ -222,6 +223,13 @@
       "directorio": "revistas-titulos",
       "revistas": [
         "BrOffice.orgZine"
+      ]
+    },
+    {
+      "pagina": "revistas-cotejo.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "Cotejo"
       ]
     },
     {

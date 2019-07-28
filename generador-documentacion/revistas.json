@@ -406,6 +406,22 @@
             "estado": "inactiva"
         },
         {
+            "nombre-corto": "Cotejo",
+            "nombre": "Cotejo",
+            "nombre-largo": "Cotejo",
+            "web": [
+                [
+                    "https://web.archive.org/web/20111001014717/https://www.vaslibre.org.ve/",
+                    "Revista Cotejo (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas/cotejo/",
+            "archivos": "cotejo/",
+            "comentario": "",
+            "abreviatura" : "cotejo",
+            "estado": "inactiva"
+        },
+        {
             "nombre-corto": "Datta Magazine",
             "nombre": "Dattamagazine.com",
             "nombre-largo": "Dattamagazine.com",
