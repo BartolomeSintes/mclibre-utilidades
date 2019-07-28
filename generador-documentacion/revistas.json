@@ -422,6 +422,22 @@
             "estado": "inactiva"
         },
         {
+            "nombre-corto": "Espírito Livre",
+            "nombre": "Espírito Livre",
+            "nombre-largo": "Espírito Livre",
+            "web": [
+                [
+                    "https://web.archive.org/web/20180515184747/http://www.revista.espiritolivre.org/",
+                    "Espírito Livre (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas/espirito-livre/",
+            "archivos": "espirito-livre/",
+            "comentario": "",
+            "abreviatura" : "espirito",
+            "estado": "inactiva"
+        },
+        {
             "nombre-corto": "Essentia Libre",
             "nombre": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre",
             "nombre-largo": "Essentia libre - La revista colombiana de las tecnologías y el conocimiento libre (Colombia, 2006-2007)",

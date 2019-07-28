@@ -230,7 +230,7 @@ def pagina_individual_revistas(r):
                 t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
             else:
                 t += f'        <p>{i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
-            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>\n'
+            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight}, {i["idioma"]})</p>\n'
             t += "      </div>\n"
             t += "\n"
         t += "    </div>\n"
@@ -337,7 +337,7 @@ def paginas_years_revistas(anyo):
                 t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
             else:
                 t += f'        <p>{i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
-            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>\n'
+            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight}, {i["idioma"]})</p>\n'
             t += "      </div>\n"
             t += "\n"
         t += "    </div>\n"
@@ -419,9 +419,13 @@ def revistas_por_fecha_inclusion():
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
             if isinstance(i["mes"], int):
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+                t += "        <p>\n"
+                t += f'          <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+                t += "</p>\n"
             else:
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+                t += "        <p>\n"
+                t += f'          <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+                t += "        </p>\n"
             if i["serie"] != i["nombre"]:
                 t += f'        <p>{i["nombre"]}</p>\n'
             if i["número"] == "":
@@ -430,7 +434,7 @@ def revistas_por_fecha_inclusion():
                 t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
             else:
                 t += f'        <p>{i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
-            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>\n'
+            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight}, {i["idioma"]})</p>\n'
             t += "      </div>\n"
             t += "\n"
         t += "    </div>\n"
@@ -564,7 +568,7 @@ def pagina_revistas_inactivas(revistas):
                 t += f'        <p>Número {i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
             else:
                 t += f'        <p>{i["número"]} - {i["año"]} {meses(i["mes"])}</p>\n'
-            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight} {i["idioma"]})</p>\n'
+            t += f'        <p><a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">Descarga</a> ({formato} {weight}, {i["idioma"]})</p>\n'
             t += "      </div>\n"
             t += "\n"
         t += "    </div>\n"
@@ -687,9 +691,17 @@ def pagina_index():
                 camino = f'{element["directorio"]}/{element["pagina"]}'
         t += "      <div>\n"
         if isinstance(i["mes"], int):
-            t += f'        <p><a href="{camino}"><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></a></p>\n'
+            t += "        <p>\n"
+            t += f'          <a href="{camino}">\n'
+            t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+            t += "          </a>\n"
+            t += "        </p>\n"
         else:
-            t += f'        <p><a href="{camino}"><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></a></p>\n'
+            t += "        <p>\n"
+            t += f'          <a href="{camino}">\n'
+            t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+            t += "          </a>\n"
+            t += "        </p>\n"
         t += f'        <p><a href="{camino}">{info_r["nombre-corto"]}</a></p>\n'
         if min(anyos) == max(anyos):
             t += f'        <p>{min(anyos)}</p>\n'
@@ -742,9 +754,17 @@ def pagina_index():
                 camino = f'{element["directorio"]}/{element["pagina"]}'
         t += "      <div>\n"
         if isinstance(i["mes"], int):
-            t += f'        <p><a href="{camino}"><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></a></p>\n'
+            t += "        <p>\n"
+            t += f'          <a href="{camino}">\n'
+            t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+            t += "          </a>\n"
+            t += "        </p>\n"
         else:
-            t += f'        <p><a href="{camino}"><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}"></a></p>\n'
+            t += "        <p>\n"
+            t += f'          <a href="{camino}">\n'
+            t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+            t += "          </a>\n"
+            t += "        </p>\n"
         t += f'        <p><a href="{camino}">{info_r["nombre-corto"]}</a></p>\n'
         if min(anyos) == max(anyos):
             t += f'        <p>{min(anyos)}</p>\n'

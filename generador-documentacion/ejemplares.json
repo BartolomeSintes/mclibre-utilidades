@@ -122,6 +122,17 @@
       "creado": "2015-01-09"
     },
     {
+      "serie": "Aprender para educar",
+      "nombre": "Aprender para educar",
+      "número": 11,
+      "año": 2015,
+      "mes": 5,
+      "portada": "aprender-para-educar-11-es-201505.jpg",
+      "fichero": "aprender-para-educar-11-es-201505.pdf",
+      "idioma": "español",
+      "creado": "2019-07-27"
+    },
+    {
       "serie": "Atix",
       "nombre": "Atix",
       "número": 1,
@@ -4298,7 +4309,7 @@
       "mes": 2,
       "portada": "occams-razor-1-1-es-200702.jpg",
       "fichero": "occams-razor-1-1-es-200702.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2008-02-03"
     },
     {
@@ -4309,7 +4320,7 @@
       "mes": 6,
       "portada": "occams-razor-1-2-es-200706.jpg",
       "fichero": "occams-razor-1-2-es-200706.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2008-02-03"
     },
     {
@@ -4320,7 +4331,7 @@
       "mes": 1,
       "portada": "occams-razor-1-3-es-200801.jpg",
       "fichero": "occams-razor-1-3-es-200801.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2008-02-03"
     },
     {
@@ -4331,7 +4342,7 @@
       "mes": 8,
       "portada": "occams-razor-1-4-es-200908.jpg",
       "fichero": "occams-razor-1-4-es-200908.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2009-09-12"
     },
     {
@@ -4342,7 +4353,7 @@
       "mes": 1,
       "portada": "occams-razor-1-5-es-201101.jpg",
       "fichero": "occams-razor-1-5-es-201101.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2011-01-28"
     },
     {
@@ -4353,7 +4364,7 @@
       "mes": 12,
       "portada": "occams-razor-1-6-es-201112.jpg",
       "fichero": "occams-razor-1-6-es-201112.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2012-01-08"
     },
     {
@@ -4364,7 +4375,7 @@
       "mes": 4,
       "portada": "occams-razor-2-2-es-201704.jpg",
       "fichero": "occams-razor-2-2-es-201704.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2017-04-12"
     },
     {
@@ -10636,6 +10647,666 @@
       "fichero": "dattamagazine-43-es-201204.pdf",
       "idioma": "español",
       "creado": "2019-07-09"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 1,
+      "año": 2009,
+      "mes": 4,
+      "portada": "espirito-livre-01-pt-200904.jpg",
+      "fichero": "espirito-livre-01-pt-200904.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 2,
+      "año": 2009,
+      "mes": 5,
+      "portada": "espirito-livre-02-pt-200905.jpg",
+      "fichero": "espirito-livre-02-pt-200905.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 3,
+      "año": 2009,
+      "mes": 6,
+      "portada": "espirito-livre-03-pt-200906.jpg",
+      "fichero": "espirito-livre-03-pt-200906.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 4,
+      "año": 2009,
+      "mes": 7,
+      "portada": "espirito-livre-04-pt-200907.jpg",
+      "fichero": "espirito-livre-04-pt-200907.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 5,
+      "año": 2009,
+      "mes": 8,
+      "portada": "espirito-livre-05-pt-200908.jpg",
+      "fichero": "espirito-livre-05-pt-200908.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 6,
+      "año": 2009,
+      "mes": 9,
+      "portada": "espirito-livre-06-pt-200909.jpg",
+      "fichero": "espirito-livre-06-pt-200909.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 7,
+      "año": 2009,
+      "mes": 10,
+      "portada": "espirito-livre-07-pt-200910.jpg",
+      "fichero": "espirito-livre-07-pt-200910.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 8,
+      "año": 2009,
+      "mes": 11,
+      "portada": "espirito-livre-08-pt-200911.jpg",
+      "fichero": "espirito-livre-08-pt-200911.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 9,
+      "año": 2009,
+      "mes": 12,
+      "portada": "espirito-livre-09-pt-200912.jpg",
+      "fichero": "espirito-livre-09-pt-200912.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 10,
+      "año": 2010,
+      "mes": 1,
+      "portada": "espirito-livre-10-pt-201001.jpg",
+      "fichero": "espirito-livre-10-pt-201001.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 11,
+      "año": 2010,
+      "mes": 2,
+      "portada": "espirito-livre-11-pt-201002.jpg",
+      "fichero": "espirito-livre-11-pt-201002.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 12,
+      "año": 2010,
+      "mes": 3,
+      "portada": "espirito-livre-12-pt-201003.jpg",
+      "fichero": "espirito-livre-12-pt-201003.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 13,
+      "año": 2010,
+      "mes": 4,
+      "portada": "espirito-livre-13-pt-201004.jpg",
+      "fichero": "espirito-livre-13-pt-201004.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 14,
+      "año": 2010,
+      "mes": 5,
+      "portada": "espirito-livre-14-pt-201005.jpg",
+      "fichero": "espirito-livre-14-pt-201005.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 15,
+      "año": 2010,
+      "mes": 6,
+      "portada": "espirito-livre-15-pt-201006.jpg",
+      "fichero": "espirito-livre-15-pt-201006.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 16,
+      "año": 2010,
+      "mes": 7,
+      "portada": "espirito-livre-16-pt-201007.jpg",
+      "fichero": "espirito-livre-16-pt-201007.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 17,
+      "año": 2010,
+      "mes": 8,
+      "portada": "espirito-livre-17-pt-201008.jpg",
+      "fichero": "espirito-livre-17-pt-201008.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 18,
+      "año": 2010,
+      "mes": 9,
+      "portada": "espirito-livre-18-pt-201009.jpg",
+      "fichero": "espirito-livre-18-pt-201009.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 19,
+      "año": 2010,
+      "mes": 10,
+      "portada": "espirito-livre-19-pt-201010.jpg",
+      "fichero": "espirito-livre-19-pt-201010.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 20,
+      "año": 2010,
+      "mes": 11,
+      "portada": "espirito-livre-20-pt-201011.jpg",
+      "fichero": "espirito-livre-20-pt-201011.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 21,
+      "año": 2010,
+      "mes": 12,
+      "portada": "espirito-livre-21-pt-201012.jpg",
+      "fichero": "espirito-livre-21-pt-201012.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 22,
+      "año": 2011,
+      "mes": 1,
+      "portada": "espirito-livre-22-pt-201101.jpg",
+      "fichero": "espirito-livre-22-pt-201101.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 23,
+      "año": 2011,
+      "mes": 2,
+      "portada": "espirito-livre-23-pt-201102.jpg",
+      "fichero": "espirito-livre-23-pt-201102.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 24,
+      "año": 2011,
+      "mes": 3,
+      "portada": "espirito-livre-24-pt-201103.jpg",
+      "fichero": "espirito-livre-24-pt-201103.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 25,
+      "año": 2011,
+      "mes": 4,
+      "portada": "espirito-livre-25-pt-201104.jpg",
+      "fichero": "espirito-livre-25-pt-201104.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 26,
+      "año": 2011,
+      "mes": 5,
+      "portada": "espirito-livre-26-pt-201105.jpg",
+      "fichero": "espirito-livre-26-pt-201105.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 27,
+      "año": 2011,
+      "mes": 6,
+      "portada": "espirito-livre-27-pt-201106.jpg",
+      "fichero": "espirito-livre-27-pt-201106.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 28,
+      "año": 2011,
+      "mes": 7,
+      "portada": "espirito-livre-28-pt-201107.jpg",
+      "fichero": "espirito-livre-28-pt-201107.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 29,
+      "año": 2011,
+      "mes": 8,
+      "portada": "espirito-livre-29-pt-201108.jpg",
+      "fichero": "espirito-livre-29-pt-201108.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 30,
+      "año": 2011,
+      "mes": 9,
+      "portada": "espirito-livre-30-pt-201109.jpg",
+      "fichero": "espirito-livre-30-pt-201109.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 31,
+      "año": 2011,
+      "mes": 10,
+      "portada": "espirito-livre-31-pt-201110.jpg",
+      "fichero": "espirito-livre-31-pt-201110.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 32,
+      "año": 2011,
+      "mes": 11,
+      "portada": "espirito-livre-32-pt-201111.jpg",
+      "fichero": "espirito-livre-32-pt-201111.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 33,
+      "año": 2011,
+      "mes": 12,
+      "portada": "espirito-livre-33-pt-201112.jpg",
+      "fichero": "espirito-livre-33-pt-201112.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 34,
+      "año": 2012,
+      "mes": 1,
+      "portada": "espirito-livre-34-pt-201201.jpg",
+      "fichero": "espirito-livre-34-pt-201201.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 35,
+      "año": 2012,
+      "mes": 2,
+      "portada": "espirito-livre-35-pt-201202.jpg",
+      "fichero": "espirito-livre-35-pt-201202.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 36,
+      "año": 2012,
+      "mes": 3,
+      "portada": "espirito-livre-36-pt-201203.jpg",
+      "fichero": "espirito-livre-36-pt-201203.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 37,
+      "año": 2012,
+      "mes": 4,
+      "portada": "espirito-livre-37-pt-201204.jpg",
+      "fichero": "espirito-livre-37-pt-201204.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 38,
+      "año": 2012,
+      "mes": 5,
+      "portada": "espirito-livre-38-pt-201205.jpg",
+      "fichero": "espirito-livre-38-pt-201205.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 39,
+      "año": 2012,
+      "mes": 6,
+      "portada": "espirito-livre-39-pt-201206.jpg",
+      "fichero": "espirito-livre-39-pt-201206.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 40,
+      "año": 2012,
+      "mes": 7,
+      "portada": "espirito-livre-40-pt-201207.jpg",
+      "fichero": "espirito-livre-40-pt-201207.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 41,
+      "año": 2012,
+      "mes": 8,
+      "portada": "espirito-livre-41-pt-201208.jpg",
+      "fichero": "espirito-livre-41-pt-201208.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 42,
+      "año": 2012,
+      "mes": 9,
+      "portada": "espirito-livre-42-pt-201209.jpg",
+      "fichero": "espirito-livre-42-pt-201209.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 43,
+      "año": 2012,
+      "mes": 10,
+      "portada": "espirito-livre-43-pt-201210.jpg",
+      "fichero": "espirito-livre-43-pt-201210.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 44,
+      "año": 2012,
+      "mes": 11,
+      "portada": "espirito-livre-44-pt-201211.jpg",
+      "fichero": "espirito-livre-44-pt-201211.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 50,
+      "año": 2013,
+      "mes": 5,
+      "portada": "espirito-livre-50-pt-201305.jpg",
+      "fichero": "espirito-livre-50-pt-201305.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 52,
+      "año": 2013,
+      "mes": 7,
+      "portada": "espirito-livre-52-pt-201307.jpg",
+      "fichero": "espirito-livre-52-pt-201307.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 55,
+      "año": 2013,
+      "mes": 10,
+      "portada": "espirito-livre-55-pt-201310.jpg",
+      "fichero": "espirito-livre-55-pt-201310.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 57,
+      "año": 2013,
+      "mes": 12,
+      "portada": "espirito-livre-57-pt-201312.jpg",
+      "fichero": "espirito-livre-57-pt-201312.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 60,
+      "año": 2014,
+      "mes": 3,
+      "portada": "espirito-livre-60-pt-201403.jpg",
+      "fichero": "espirito-livre-60-pt-201403.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 61,
+      "año": 2014,
+      "mes": 4,
+      "portada": "espirito-livre-61-pt-201404.jpg",
+      "fichero": "espirito-livre-61-pt-201404.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 62,
+      "año": 2014,
+      "mes": 5,
+      "portada": "espirito-livre-62-pt-201405.jpg",
+      "fichero": "espirito-livre-62-pt-201405.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 64,
+      "año": 2014,
+      "mes": 7,
+      "portada": "espirito-livre-64-pt-201407.jpg",
+      "fichero": "espirito-livre-64-pt-201407.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 67,
+      "año": 2014,
+      "mes": 10,
+      "portada": "espirito-livre-67-pt-201410.jpg",
+      "fichero": "espirito-livre-67-pt-201410.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 69,
+      "año": 2014,
+      "mes": 12,
+      "portada": "espirito-livre-69-pt-201412.jpg",
+      "fichero": "espirito-livre-69-pt-201412.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 70,
+      "año": 2015,
+      "mes": 1,
+      "portada": "espirito-livre-70-pt-201501.jpg",
+      "fichero": "espirito-livre-70-pt-201501.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 71,
+      "año": 2015,
+      "mes": 2,
+      "portada": "espirito-livre-71-pt-201502.jpg",
+      "fichero": "espirito-livre-71-pt-201502.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 72,
+      "año": 2015,
+      "mes": 3,
+      "portada": "espirito-livre-72-pt-201503.jpg",
+      "fichero": "espirito-livre-72-pt-201503.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 75,
+      "año": 2015,
+      "mes": 6,
+      "portada": "espirito-livre-75-pt-201506.jpg",
+      "fichero": "espirito-livre-75-pt-201506.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 76,
+      "año": 2015,
+      "mes": 7,
+      "portada": "espirito-livre-76-pt-201507.jpg",
+      "fichero": "espirito-livre-76-pt-201507.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
+    },
+    {
+      "serie": "Espírito Livre",
+      "nombre": "Espírito Livre",
+      "número": 80,
+      "año": 2015,
+      "mes": 11,
+      "portada": "espirito-livre-80-pt-201511.jpg",
+      "fichero": "espirito-livre-80-pt-201511.pdf",
+      "idioma": "portugués",
+      "creado": "2019-07-28"
     },
     {
       "serie": "Essentia Libre",

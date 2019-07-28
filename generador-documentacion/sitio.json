@@ -7,6 +7,7 @@
         "LOM Brasil",
         "Linux Voice",
         "Libre Graphics Magazine",
+        "Espírito Livre",
         "The Original Hacker",
         "GIMP Magazine",
         "Tuxinfo",
@@ -228,6 +229,13 @@
       "directorio": "revistas-titulos",
       "revistas": [
         "Datta Magazine"
+      ]
+    },
+    {
+      "pagina": "revistas-espirito-libre.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "Espírito Livre"
       ]
     },
     {
