@@ -2311,6 +2311,17 @@
       "creado": "2019-07-04"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 147,
+      "año": 2019,
+      "mes": 7,
+      "portada": "full-circle-147-en-201907.jpg",
+      "fichero": "full-circle-147-en-201907.pdf",
+      "idioma": "inglés",
+      "creado": "2019-08-06"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -2991,6 +3002,17 @@
       "fichero": "hackspace-21-en-201908.pdf",
       "idioma": "inglés",
       "creado": "2019-07-26"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 22,
+      "año": 2019,
+      "mes": 9,
+      "portada": "hackspace-22-en-201909.jpg",
+      "fichero": "hackspace-22-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-08-27"
     },
     {
       "serie": "Hello World",
@@ -5831,6 +5853,39 @@
       "creado": "2019-07-26"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 67,
+      "año": 2019,
+      "mes": 7,
+      "portada": "odroid-67-es-201907.jpg",
+      "fichero": "odroid-67-es-201907.pdf",
+      "idioma": "español",
+      "creado": "2019-08-06"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 68,
+      "año": 2019,
+      "mes": 8,
+      "portada": "odroid-68-en-201908.jpg",
+      "fichero": "odroid-68-en-201908.pdf",
+      "idioma": "inglés",
+      "creado": "2019-08-27"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 68,
+      "año": 2019,
+      "mes": 8,
+      "portada": "odroid-68-es-201908.jpg",
+      "fichero": "odroid-68-es-201908.pdf",
+      "idioma": "español",
+      "creado": "2019-08-27"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -6742,6 +6797,17 @@
       "fichero": "solo-linux-05-es-201906.pdf",
       "idioma": "inglés",
       "creado": "2019-07-07"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 6,
+      "año": 2019,
+      "mes": 7,
+      "portada": "solo-linux-06-es-201907.jpg",
+      "fichero": "solo-linux-06-es-201907.pdf",
+      "idioma": "inglés",
+      "creado": "2019-08-06"
     },
     {
       "serie": "The MagPi",
@@ -9571,6 +9637,17 @@
       "creado": "2019-07-26"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 151,
+      "año": 2019,
+      "mes": 8,
+      "portada": "pclinuxos-151-en-201908.jpg",
+      "fichero": "pclinuxos-151-en-201908.pdf",
+      "idioma": "inglés",
+      "creado": "2019-08-06"
+    },
+    {
       "serie": "Wireframe",
       "nombre": "Wireframe",
       "número": 1,
@@ -9762,11 +9839,33 @@
       "nombre": "Wireframe",
       "número": 18,
       "año": 2019,
-      "mes": 8,
+      "mes": 7,
       "portada": "wireframe-18-en-201907.jpg",
       "fichero": "wireframe-18-en-201907.pdf",
       "idioma": "inglés",
       "creado": "2019-07-26"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 19,
+      "año": 2019,
+      "mes": 8,
+      "portada": "wireframe-19-en-201908.jpg",
+      "fichero": "wireframe-19-en-201908.pdf",
+      "idioma": "inglés",
+      "creado": "2019-08-06"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 20,
+      "año": 2019,
+      "mes": 8,
+      "portada": "wireframe-20-en-201908.jpg",
+      "fichero": "wireframe-20-en-201908.pdf",
+      "idioma": "inglés",
+      "creado": "2019-08-27"
     },
     {
       "serie": "ALT Magazine",
