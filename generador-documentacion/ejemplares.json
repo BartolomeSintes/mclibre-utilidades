@@ -2322,6 +2322,17 @@
       "creado": "2019-08-06"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 148,
+      "año": 2019,
+      "mes": 8,
+      "portada": "full-circle-148-en-201908.jpg",
+      "fichero": "full-circle-148-en-201908.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-08"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -6810,6 +6821,17 @@
       "creado": "2019-08-06"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 7,
+      "año": 2019,
+      "mes": 8,
+      "portada": "solo-linux-07-es-201908.jpg",
+      "fichero": "solo-linux-07-es-201908.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-08"
+    },
+    {
       "serie": "The MagPi",
       "nombre": "The MagPi",
       "número": 1,
@@ -7732,6 +7754,17 @@
       "fichero": "the-magpi-84-en-201908.pdf",
       "idioma": "inglés",
       "creado": "2019-07-26"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 85,
+      "año": 2019,
+      "mes": 9,
+      "portada": "the-magpi-85-en-201909.jpg",
+      "fichero": "the-magpi-85-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-08"
     },
     {
       "serie": "The MagPi Essentials",
@@ -9648,6 +9681,17 @@
       "creado": "2019-08-06"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 152,
+      "año": 2019,
+      "mes": 9,
+      "portada": "pclinuxos-152-en-201909.jpg",
+      "fichero": "pclinuxos-152-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-08"
+    },
+    {
       "serie": "Wireframe",
       "nombre": "Wireframe",
       "número": 1,
@@ -9866,6 +9910,17 @@
       "fichero": "wireframe-20-en-201908.pdf",
       "idioma": "inglés",
       "creado": "2019-08-27"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 21,
+      "año": 2019,
+      "mes": 9,
+      "portada": "wireframe-21-en-201909.jpg",
+      "fichero": "wireframe-21-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-08"
     },
     {
       "serie": "ALT Magazine",
