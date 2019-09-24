@@ -421,7 +421,7 @@ def revistas_por_fecha_inclusion():
             if isinstance(i["mes"], int):
                 t += "        <p>\n"
                 t += f'          <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
-                t += "</p>\n"
+                t += "        </p>\n"
             else:
                 t += "        <p>\n"
                 t += f'          <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
@@ -599,7 +599,7 @@ def pagina_index():
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f"   <h1>Documentación sobre software libre y contenidos libres</h1>\n"
+    t += f"  <h1>Documentación sobre software libre y contenidos libres</h1>\n"
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"

@@ -3019,11 +3019,22 @@
       "nombre": "HackSpace",
       "número": 22,
       "año": 2019,
-      "mes": 9,
-      "portada": "hackspace-22-en-201909.jpg",
-      "fichero": "hackspace-22-en-201909.pdf",
+      "mes": 8,
+      "portada": "hackspace-22-en-201908.jpg",
+      "fichero": "hackspace-22-en-201908.pdf",
       "idioma": "inglés",
       "creado": "2019-08-27"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 23,
+      "año": 2019,
+      "mes": 9,
+      "portada": "hackspace-23-en-201909.jpg",
+      "fichero": "hackspace-23-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-24"
     },
     {
       "serie": "Hello World",
@@ -3893,6 +3904,17 @@
       "fichero": "insecure-62-en-201906.pdf",
       "idioma": "inglés",
       "creado": "2019-06-21"
+    },
+    {
+      "serie": "Insecure Magazine",
+      "nombre": "(In)secure Magazine",
+      "número": 63,
+      "año": 2019,
+      "mes": 9,
+      "portada": "insecure-63-en-201909.jpg",
+      "fichero": "insecure-63-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-24"
     },
     {
       "serie": "Int. FOSS Law Review",
@@ -5895,6 +5917,17 @@
       "fichero": "odroid-68-es-201908.pdf",
       "idioma": "español",
       "creado": "2019-08-27"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 69,
+      "año": 2019,
+      "mes": 9,
+      "portada": "odroid-69-en-201909.jpg",
+      "fichero": "odroid-69-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-24"
     },
     {
       "serie": "Olympiads in informatics",
@@ -9932,6 +9965,17 @@
       "fichero": "wireframe-21-en-201909.pdf",
       "idioma": "inglés",
       "creado": "2019-09-08"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 22,
+      "año": 2019,
+      "mes": 9,
+      "portada": "wireframe-22-en-201909.jpg",
+      "fichero": "wireframe-22-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-09-24"
     },
     {
       "serie": "ALT Magazine",
