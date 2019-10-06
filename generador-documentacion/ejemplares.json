@@ -2333,6 +2333,17 @@
       "creado": "2019-09-08"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 149,
+      "año": 2019,
+      "mes": 9,
+      "portada": "full-circle-149-en-201909.jpg",
+      "fichero": "full-circle-149-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-06"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -5930,6 +5941,17 @@
       "creado": "2019-09-24"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 69,
+      "año": 2019,
+      "mes": 9,
+      "portada": "odroid-69-es-201909.jpg",
+      "fichero": "odroid-69-es-201909.pdf",
+      "idioma": "español",
+      "creado": "2019-10-06"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -6806,7 +6828,7 @@
       "mes": 2,
       "portada": "solo-linux-01-es-201902.jpg",
       "fichero": "solo-linux-01-es-201902.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2019-07-07"
     },
     {
@@ -6817,7 +6839,7 @@
       "mes": 3,
       "portada": "solo-linux-02-es-201903.jpg",
       "fichero": "solo-linux-02-es-201903.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2019-07-07"
     },
     {
@@ -6828,7 +6850,7 @@
       "mes": 4,
       "portada": "solo-linux-03-es-201904.jpg",
       "fichero": "solo-linux-03-es-201904.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2019-07-07"
     },
     {
@@ -6839,7 +6861,7 @@
       "mes": 5,
       "portada": "solo-linux-04-es-201905.jpg",
       "fichero": "solo-linux-04-es-201905.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2019-07-07"
     },
     {
@@ -6850,7 +6872,7 @@
       "mes": 6,
       "portada": "solo-linux-05-es-201906.jpg",
       "fichero": "solo-linux-05-es-201906.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2019-07-07"
     },
     {
@@ -6861,7 +6883,7 @@
       "mes": 7,
       "portada": "solo-linux-06-es-201907.jpg",
       "fichero": "solo-linux-06-es-201907.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2019-08-06"
     },
     {
@@ -6872,8 +6894,19 @@
       "mes": 8,
       "portada": "solo-linux-07-es-201908.jpg",
       "fichero": "solo-linux-07-es-201908.pdf",
-      "idioma": "inglés",
+      "idioma": "español",
       "creado": "2019-09-08"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 8,
+      "año": 2019,
+      "mes": 9,
+      "portada": "solo-linux-08-es-201909.jpg",
+      "fichero": "solo-linux-08-es-201909.pdf",
+      "idioma": "español",
+      "creado": "2019-10-06"
     },
     {
       "serie": "The MagPi",
@@ -7809,6 +7842,17 @@
       "fichero": "the-magpi-85-en-201909.pdf",
       "idioma": "inglés",
       "creado": "2019-09-08"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 86,
+      "año": 2019,
+      "mes": 10,
+      "portada": "the-magpi-86-en-201910.jpg",
+      "fichero": "the-magpi-86-en-201910.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-06"
     },
     {
       "serie": "The MagPi Essentials",
@@ -9736,6 +9780,17 @@
       "creado": "2019-09-08"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 153,
+      "año": 2019,
+      "mes": 10,
+      "portada": "pclinuxos-153-en-201910.jpg",
+      "fichero": "pclinuxos-153-en-201910.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-06"
+    },
+    {
       "serie": "Wireframe",
       "nombre": "Wireframe",
       "número": 1,
@@ -9976,6 +10031,17 @@
       "fichero": "wireframe-22-en-201909.pdf",
       "idioma": "inglés",
       "creado": "2019-09-24"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 23,
+      "año": 2019,
+      "mes": 10,
+      "portada": "wireframe-23-en-201910.jpg",
+      "fichero": "wireframe-23-en-201910.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-06"
     },
     {
       "serie": "ALT Magazine",
