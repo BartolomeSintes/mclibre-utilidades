@@ -18,3 +18,4 @@ Esta aplicación genera el sitio web http://www.mclibre.org/consultar/documentac
 * 2019-07-10. Repasar los enlaces a las páginas web y sustituir los enlaces rotos por enlaces a archive.org. Podría añadir rel="nofollow" y sacar del enlace el paréntesi que dice que es un enlace a la copia de archive.org.
 * 2019-07-27. En la portada, al decir el número de ejemplares si hay versión en español cuenta el doble. Pasa en Odroid, por ejemplo.
 * 2019-07-28. En la portada, las imágenes de las revistas inactivas podrían sacarse al azar, para que no fueran siempre las mismas.
+* 2019-10-11. En la portada, las revistas ineactivas podrían estar ordenadas por la antigüedad del último número.

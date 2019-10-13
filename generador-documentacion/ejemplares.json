@@ -3147,6 +3147,17 @@
       "creado": "2019-06-21"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 10,
+      "año": 2019,
+      "mes": 9,
+      "portada": "hello-world-10-en-201909.jpg",
+      "fichero": "hello-world-10-en-201909.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-13"
+    },
+    {
       "serie": "Insecure Magazine",
       "nombre": "(In)secure Magazine",
       "número": 1,
@@ -5950,6 +5961,17 @@
       "fichero": "odroid-69-es-201909.pdf",
       "idioma": "español",
       "creado": "2019-10-06"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 70,
+      "año": 2019,
+      "mes": 10,
+      "portada": "odroid-70-en-201910.jpg",
+      "fichero": "odroid-70-en-201910.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-13"
     },
     {
       "serie": "Olympiads in informatics",
@@ -10015,9 +10037,9 @@
       "nombre": "Wireframe",
       "número": 21,
       "año": 2019,
-      "mes": 9,
-      "portada": "wireframe-21-en-201909.jpg",
-      "fichero": "wireframe-21-en-201909.pdf",
+      "mes": 8,
+      "portada": "wireframe-21-en-201908.jpg",
+      "fichero": "wireframe-21-en-201908.pdf",
       "idioma": "inglés",
       "creado": "2019-09-08"
     },
@@ -10037,11 +10059,22 @@
       "nombre": "Wireframe",
       "número": 23,
       "año": 2019,
-      "mes": 10,
-      "portada": "wireframe-23-en-201910.jpg",
-      "fichero": "wireframe-23-en-201910.pdf",
+      "mes": 9,
+      "portada": "wireframe-23-en-201909.jpg",
+      "fichero": "wireframe-23-en-201909.pdf",
       "idioma": "inglés",
       "creado": "2019-10-06"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 24,
+      "año": 2019,
+      "mes": 10,
+      "portada": "wireframe-24-en-201910.jpg",
+      "fichero": "wireframe-24-en-201910.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-13"
     },
     {
       "serie": "ALT Magazine",
