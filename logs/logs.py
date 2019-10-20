@@ -1,4 +1,4 @@
-import pathlib, re
+import json, pathlib, re
 
 # para ejecutar esta aplicación,
 # escriba en MCL_0 la raíz de los ficheros a analizar
@@ -376,19 +376,21 @@ def cuenta_revistas():
         print(f"{BUSCA_REVISTAS[i]}: {contadores[i]}")
 
 
+APUNTES = [
+    "charlas",
+    "docs",
+    "htmlcss",
+    "informatica",
+    "php",
+    "primaria",
+    "python",
+    "webapps",
+    "xml",
+]
+
+
 def cuenta_paginas():
     print("Cuenta páginas")
-    APUNTES = [
-        "charlas",
-        "docs",
-        "htmlcss",
-        "informatica",
-        "php",
-        "primaria",
-        "python",
-        "webapps",
-        "xml",
-    ]
     contadores = []
     for i in range(len(APUNTES)):
         contadores += [0]
@@ -406,11 +408,87 @@ def cuenta_paginas():
         print(f"{APUNTES[i]}: {contadores[i]:,}")
 
 
+def cuenta_paginas_meses():
+    print("Cuenta páginas por meses")
+    from collections import defaultdict
+
+    visitas = defaultdict(lambda: 0)
+    visitas_file = "visitas.json"
+    year = 2019
+    for i in APUNTES:
+        visitas[i] = {}
+        visitas[i][str(year)] = {}
+        for j in range(1, 13):
+            visitas[i][str(year)][str(j)] = 0
+
+    for i in APUNTES:
+        for source_file in pathlib.Path(MCL_2 + "/" + i).rglob(f"**/*.*"):
+            print(source_file)
+            with open(source_file, "r", encoding="utf-8") as file:
+                texto = file.readline()
+                if "Jan/" + str(year) in texto:
+                    visitas[i][str(year)]["1"] += 1
+                elif "Feb/" + str(year) in texto:
+                    visitas[i][str(year)]["2"] += 1
+                elif "Mar/" + str(year) in texto:
+                    visitas[i][str(year)]["3"] += 1
+                elif "Apr/" + str(year) in texto:
+                    visitas[i][str(year)]["4"] += 1
+                elif "May/" + str(year) in texto:
+                    visitas[i][str(year)]["5"] += 1
+                elif "Jun/" + str(year) in texto:
+                    visitas[i][str(year)]["6"] += 1
+                elif "Jul/" + str(year) in texto:
+                    visitas[i][str(year)]["7"] += 1
+                elif "Aug/" + str(year) in texto:
+                    visitas[i][str(year)]["8"] += 1
+                elif "Sep/" + str(year) in texto:
+                    visitas[i][str(year)]["9"] += 1
+                elif "Oct/" + str(year) in texto:
+                    visitas[i][str(year)]["10"] += 1
+                elif "Nov/" + str(year) in texto:
+                    visitas[i][str(year)]["11"] += 1
+                elif "Dec/" + str(year) in texto:
+                    visitas[i][str(year)]["12"] += 1
+                while texto:
+                    texto = file.readline()
+                    if "Jan/" + str(year) in texto:
+                        visitas[i][str(year)]["1"] += 1
+                    elif "Feb/" + str(year) in texto:
+                        visitas[i][str(year)]["2"] += 1
+                    elif "Mar/" + str(year) in texto:
+                        visitas[i][str(year)]["3"] += 1
+                    elif "Apr/" + str(year) in texto:
+                        visitas[i][str(year)]["4"] += 1
+                    elif "May/" + str(year) in texto:
+                        visitas[i][str(year)]["5"] += 1
+                    elif "Jun/" + str(year) in texto:
+                        visitas[i][str(year)]["6"] += 1
+                    elif "Jul/" + str(year) in texto:
+                        visitas[i][str(year)]["7"] += 1
+                    elif "Aug/" + str(year) in texto:
+                        visitas[i][str(year)]["8"] += 1
+                    elif "Sep/" + str(year) in texto:
+                        visitas[i][str(year)]["9"] += 1
+                    elif "Oct/" + str(year) in texto:
+                        visitas[i][str(year)]["10"] += 1
+                    elif "Nov/" + str(year) in texto:
+                        visitas[i][str(year)]["11"] += 1
+                    elif "Dec/" + str(year) in texto:
+                        visitas[i][str(year)]["12"] += 1
+    print(visitas)
+
+    with open(visitas_file, "w", encoding="utf-8") as json_file:
+        json.dump(visitas, json_file)
+
+
 def main():
+    print("Estadísticas mclibre")
     # mclibre_limpia_logs()
     # mclibre_divide_logs_apuntes()
     # cuenta_revistas()
-    cuenta_paginas()
+    # cuenta_paginas()
+    cuenta_paginas_meses()
 
 
 if __name__ == "__main__":
