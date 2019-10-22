@@ -137,6 +137,7 @@ cookieTemporal
 correo2 
 correo2Ok 
 correoOk 
+CS-Fixer 
 cuadradosCopia 
 dado1 
 dado1a 
@@ -258,6 +259,7 @@ gnu_y
 height1 
 height2 
 height3 
+iaw-nombre-alumno 
 id_autor 
 id_cita 
 id_comprador 
@@ -530,6 +532,7 @@ width2
 width3 
 workspace-nombre-php 
 ws 
+xampp-control 
 xampp-control-panel 
 xampp-linux-1 
 xvfz 

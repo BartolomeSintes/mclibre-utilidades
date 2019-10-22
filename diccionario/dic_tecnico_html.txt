@@ -80,6 +80,7 @@ head
 header 
 headers 
 height 
+hgroup 
 high 
 hr 
 href 

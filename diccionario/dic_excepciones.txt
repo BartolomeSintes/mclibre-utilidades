@@ -101,6 +101,7 @@ $saludo
 10k 
 10kb 
 10M 
+10px+10px+10px 
 10px+10px+10px+ 
 1280x800 
 12h 
@@ -1052,9 +1053,19 @@ modulo
 Mos 
 mover_ia 
 Moz 
+moz 
+moz-border-bottom-colors 
+moz-border-left-colors 
+moz-border-right-colors 
+moz-border-top-colors 
+moz-border-xxx-colors 
 moz-column-gap 
 moz-columns 
+moz-range-track 
+Mpc 
 mPDO 
+ms-interpolation-mode 
+ms-track 
 multiagenda 
 MultiUpload 
 mw 
@@ -1244,6 +1255,7 @@ pre-decremento
 pre-incremento 
 Pre-installation 
 predet 
+prefix-free 
 PreRegister 
 preserveAlpha 
 preserveAspectRatio 
@@ -1334,6 +1346,7 @@ RemArc
 renderWhitespace 
 repeatCount 
 repeatDur 
+Reposit 
 require_once 
 requiredExtensions 
 requiredFeatures 
@@ -1669,8 +1682,10 @@ wait_for_connection
 Web's 
 webapps-favicon 
 webapps-logo 
+webkit 
 webkit-column-gap 
 webkit-columns 
+webkit-slider-runnable-track 
 webserver_require 
 wedge-tailed 
 wgAllowTitlesInSVG 
@@ -1788,3 +1803,4 @@ ZZZ
 —el 
 —más 
 —que 
+﻿ 

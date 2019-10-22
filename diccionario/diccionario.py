@@ -1,12 +1,16 @@
 import pathlib, re
 
-ORIGEN_HTML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\htmlcss"
-# ORIGEN_HTML = "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\htmlcss"
-ORIGEN_PYTHON = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\python"
-ORIGEN_INFORMATICA = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\informatica"
-ORIGEN_WEBAPPS = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\webapps"
-ORIGEN_XML = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\xml"
-ORIGEN_PHP = "C:\\Users\\BLJ\\Documents\\_MCLibre.org\\Actual\\consultar\\php"
+# para ejecutar esta aplicación,
+# escriba en ORIGEN la raíz de los ficheros a analizar
+# y ejecute la orden py diccionario.py
+
+ORIGEN_HTML = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\htmlcss"
+ORIGEN_PYTHON = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\python"
+ORIGEN_INFORMATICA = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\informatica"
+ORIGEN_WEBAPPS = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\webapps"
+ORIGEN_XML = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\xml"
+ORIGEN_PHP = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\php"
+ORIGEN_SEMANAS = "D:\\_Carpetas_frecuentes\\Documentos\\Clase\\19-20 Abastos\\19-20 Semanas\\1920"
 
 ORIGEN = ORIGEN_PHP
 
@@ -35,6 +39,7 @@ DICT_TECNICO_PYTHON = "dic_tecnico_python.txt"
 DICT_TECNICO_SQL = "dic_tecnico_sql.txt"
 DICT_TECNICO_SVG = "dic_tecnico_svg.txt"
 DICT_TECNICO_XML = "dic_tecnico_xml.txt"
+DICT_TECNICO_VSCODE = "dic_tecnico_vscode.txt"
 
 DICT_LIST = [
     [DICT_EXCEPCIONES, "excepciones", 1, 11],
@@ -61,7 +66,8 @@ DICT_LIST = [
     [DICT_COD_PAISES, "Códigos países", 47, 48],
     [DICT_COD_TK, "Tk", 49, 50],
     [DICT_EXCEPCIONES_XML, "Excep. XML", 51, 52],
-    [DICT_EXCEPCIONES_PHP, "Excep. PHP", 53, 54 ]
+    [DICT_EXCEPCIONES_PHP, "Excep. PHP", 53, 54 ],
+    [DICT_TECNICO_VSCODE, "Excep. VSC", 55, 56 ]
 ]
 
 EXTENSIONES = ["html"]
@@ -330,10 +336,14 @@ def main():
                         "mm",
                         "ex",
                         "ch",
-                        "q",
+                        "Q",
                         "dpi",
                         "s",
-                        "m"
+                        "m",
+                        "vw",
+                        "vh",
+                        "vmin",
+                        "vmax",
                     ]
                     for i in unidades:
                         x = re.search(r"-?[\d\.\d]+" + i + r'[\s.;,:")]', texto)

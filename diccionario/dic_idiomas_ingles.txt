@@ -105,6 +105,7 @@ alternative
 alternatives 
 am 
 ambulance 
+amend 
 America 
 american 
 Americas 
@@ -310,6 +311,7 @@ beetle
 beginner 
 beginners 
 behalf 
+behavior 
 behavioural 
 behind 
 being 
@@ -527,6 +529,7 @@ characters
 charge 
 chart 
 charter 
+charters 
 charts 
 chat 
 cheat 
@@ -698,6 +701,7 @@ console
 consortium 
 conspicuously 
 constant 
+constants 
 constitutes 
 constraint 
 constraints 
@@ -1151,6 +1155,7 @@ exceptions
 exchange 
 exchanges 
 exclamation 
+exclude 
 excluded 
 excluding 
 exclusions 
@@ -1595,6 +1600,7 @@ implementation
 implemented 
 implicitly 
 implied 
+imply 
 importing 
 impose 
 imposed 
@@ -2272,6 +2278,7 @@ overlap
 overlay 
 overqualified 
 overqualified-elements 
+override 
 overview 
 owl 
 own 
@@ -2309,6 +2316,7 @@ paragraph
 paragraphs 
 parallel 
 parameters 
+parent 
 parentheses 
 parenthesis 
 parity 
@@ -2930,6 +2938,7 @@ session
 sessions 
 set 
 sets 
+settigns 
 setting 
 settings 
 setup 
@@ -3027,6 +3036,7 @@ skunk
 slash 
 sled 
 sleep 
+sleeper 
 sleeping 
 sleepy 
 sleuth 
@@ -3074,6 +3084,7 @@ sound
 source 
 south 
 sovereignty 
+spacing 
 spade 
 spaghetti 
 spam 

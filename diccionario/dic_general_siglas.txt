@@ -1,6 +1,8 @@
 2D 
+6P 
 7L 
 7M 
+7P 
 ACB 
 ACM 
 ACP 
@@ -17,8 +19,10 @@ APIs
 APL 
 APNG 
 ARIA 
+ASGBD 
 ASI 
 asm 
+ASO 
 ATAG 
 AWS 
 BBC 
@@ -26,6 +30,7 @@ BC
 BDOF 
 BLJ 
 BMP 
+BOE 
 BOM 
 BPG 
 BSD 
@@ -47,6 +52,7 @@ CDs
 CE 
 CEO 
 CERN 
+CFGS 
 CGM 
 CMS 
 CPU 
@@ -73,6 +79,7 @@ DNI
 dni 
 DNS 
 DNT 
+DOCV 
 DOM 
 DOM4 
 DPI 
@@ -90,6 +97,7 @@ ECMAScript
 EDSAC 
 EF 
 EFF 
+EIE 
 ELO 
 EMMA 
 EmotionML 
@@ -101,9 +109,12 @@ ESR
 EUPV 
 EXI 
 FAQ 
+FCT 
+FHW 
 FIF 
 FIFe 
 FNMT 
+FOL 
 FP 
 fpi 
 FPS 
@@ -112,6 +123,7 @@ fsSL
 FTP 
 FTPS 
 FUD 
+GBD 
 GBE 
 GBR 
 GDI 
@@ -130,6 +142,7 @@ GRUB
 GUI 
 GZIP 
 hcl 
+HDI 
 HLC 
 HSLA 
 HTML+RDFa 
@@ -280,7 +293,6 @@ QT
 QUIC 
 R2RML 
 RAR 
-RCF 
 RDB 
 RDB2RDF 
 RDF 
@@ -326,6 +338,7 @@ SMP
 SMR 
 SMTP 
 smtp 
+SP 
 SP1 
 SP2 
 SP3 
@@ -334,6 +347,7 @@ SPDY
 SR1 
 SR2 
 SRGS 
+SRI 
 SSH 
 ssh 
 SSL 

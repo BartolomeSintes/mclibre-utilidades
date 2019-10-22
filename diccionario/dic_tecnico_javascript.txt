@@ -1,6 +1,7 @@
 abs 
 addEventListener 
 bind 
+caracter 
 charCodeAt 
 concat 
 document 

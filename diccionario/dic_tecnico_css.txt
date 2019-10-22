@@ -33,6 +33,13 @@ all-scroll
 all-small-caps 
 alternate 
 always 
+animation-delay 
+animation-direction 
+animation-duration 
+animation-iteration-count 
+animation-name 
+animation-play-state 
+animation-timing-function 
 antiquewhite 
 any-hover 
 any-pointer 
@@ -55,6 +62,8 @@ background-contain
 background-image 
 background-origin 
 background-position 
+background-position-x 
+background-position-y 
 background-repeat 
 background-size 
 baseline 
@@ -469,6 +478,7 @@ orphans
 outline 
 outline-2 
 outline-color 
+outline-offset 
 outline-style 
 outline-width 
 outset 
@@ -477,7 +487,10 @@ over
 overflow 
 overflow-block 
 overflow-inline 
+overflow-x 
+overflow-y 
 overline 
+Overscroll 
 padding 
 padding-bottom 
 padding-box 
@@ -510,6 +523,7 @@ progress
 projection 
 proportional-nums 
 proportional-width 
+pseudo-enlaces 
 pt 
 purple 
 px 
@@ -542,6 +556,7 @@ s-resize
 saddlebrown 
 salmon 
 sandybrown 
+sans 
 sans-serif 
 scan 
 scroll 
@@ -607,6 +622,7 @@ tabular-nums
 tbody 
 teal 
 text-align 
+text-align-last 
 text-bottom 
 text-combine-upright 
 text-decoration 
@@ -619,7 +635,9 @@ text-emphasis-color
 text-emphasis-position 
 text-emphasis-style 
 text-indent 
+text-justify 
 text-orientation 
+text-outline 
 text-shadow 
 text-top 
 text-transform 
@@ -637,6 +655,12 @@ tomato
 top 
 tr 
 traditional 
+transform-origin 
+transition 
+transition-delay 
+transition-duration 
+transition-property 
+transition-timing-function 
 transparent 
 triangle 
 truetype 
@@ -669,6 +693,7 @@ vw
 w-resize 
 wait 
 wavy 
+webkit-flex 
 weight 
 wheat 
 white 

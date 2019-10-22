@@ -3,12 +3,16 @@ _server
 _SESSION 
 acos 
 allow_url_include 
+array_count_values 
 array_key_exists 
 array_keys 
+array_merge 
 array_push 
 array_rand 
 array_search 
+array_unique 
 array_values 
+array_walk_recursive 
 arsort 
 asort 
 bcdiv 
@@ -32,11 +36,13 @@ ctype_punct
 ctype_space 
 ctype_upper 
 ctype_xdigit 
+customUrlToOpen 
 date_default_timezone_set 
 default_latitude 
 default_longitude 
 display_errors 
 docblocks 
+documentRootFolder 
 e_all 
 e_compile_error 
 e_compile_warning 
@@ -77,6 +83,7 @@ file_get_contents
 file_gets_content 
 fileinfo_mime 
 filter_validate_boolean 
+FILTER_VALIDATE_DOMAIN 
 filter_validate_email 
 filter_validate_float 
 filter_validate_int 
@@ -152,6 +159,7 @@ ob_end_flush
 ob_start 
 odbc_exec 
 odbc_fetch_array 
+open-php-html-js-in-browser 
 output_buffering 
 pcre 
 pdo 
@@ -159,6 +167,8 @@ pdo_mysql
 pdo_sqlite 
 pdoexception 
 pdostatement 
+phar 
+php-cs-fixer 
 php-gettext 
 php_int_max 
 php_int_size 
@@ -172,11 +182,13 @@ preg_offset_capture
 print_r 
 printf 
 protected 
+PSR 
 punct 
 rand 
 random_int 
 rsort 
 save_handler 
+selectedBrowser 
 sendmail_from 
 sendmail_ini 
 session_destroy 
@@ -217,6 +229,7 @@ trait
 trim 
 unlink 
 upload_tmp_dir 
+urlToOpen 
 use_trans_sid 
 wordwrap 
 xdigit 

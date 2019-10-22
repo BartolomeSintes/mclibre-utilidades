@@ -43,6 +43,7 @@ Albufera
 Aldine 
 Aldrin 
 Aldus 
+Aleixandre 
 Alejandro 
 Alemania 
 Alex 
@@ -56,9 +57,11 @@ Algol
 Alicante 
 Alicia 
 Alistair 
+Allan 
 Allen 
 Allman 
 Almeida 
+Alonso 
 AltCSS 
 Altermusique 
 Altheim 
@@ -90,6 +93,7 @@ Andressen
 Andrew 
 Android 
 Andropov 
+Andréi 
 Andy 
 AngularJS 
 Anish 
@@ -149,6 +153,7 @@ Atanagildo
 atanagildo 
 Atari 
 Atkinson 
+Atlántico 
 ATP 
 ATypI 
 Aubrey 
@@ -177,9 +182,11 @@ Barberá
 Barcelona 
 Bardanov 
 Bardi 
+Barents 
 Bargello 
 Barnes 
 Barnett 
+Baroja 
 Baron 
 Barracas 
 Barrie 
@@ -273,6 +280,7 @@ Bogdan
 Boilerplate 
 Boley 
 Bolonia 
+Bonner 
 Booktype 
 Bootstrap 
 Borgoña 
@@ -344,6 +352,7 @@ Caldwell
 California 
 Calisto 
 Callisto 
+CalTech 
 Calvin 
 Camden 
 Camilo 
@@ -718,6 +727,7 @@ Fiore
 Firebird 
 Firebug 
 FireMath 
+Fixer 
 Flanagan 
 Flandes 
 FlatIcon 
@@ -798,6 +808,7 @@ Genestoux
 Geneva 
 George 
 Georgia 
+Georgievna 
 Gerad 
 Gerhard 
 Geórgicas 
@@ -841,6 +852,7 @@ Google
 google 
 Gopher 
 Gorbachev 
+Gorbachov 
 Gordon 
 Gorki 
 Goscinny 
@@ -916,6 +928,7 @@ Henderson
 Heninger 
 Henri 
 Henry 
+Henry-Louis 
 Hering 
 Herman 
 Hernández 
@@ -959,6 +972,7 @@ htmlhint
 HTTrack 
 Hua 
 Hubbert 
+Hubble 
 Huddersfield 
 Hudson 
 Hugh 
@@ -1128,6 +1142,7 @@ Juliet
 Julius 
 Julyan 
 Jumper 
+junstyle 
 Jupyter 
 Jutta 
 Júpiter 
@@ -1206,8 +1221,10 @@ Käbisch
 l7ssha 
 Lafon 
 Lame 
+Laminas 
 Landon 
 Lanthaler 
+Laravel 
 Larrea 
 Larry 
 Larsen 
@@ -1480,12 +1497,14 @@ Mégane
 México 
 Mónaco 
 Múnich 
+Nacho 
 Nadella 
 Nakache 
 Namco 
 nano 
 Nantes 
 Narayanan 
+Navarro 
 Neil 
 Nelson 
 Neon 
@@ -1511,6 +1530,7 @@ Nilo
 Nishikado 
 NIST 
 Nobel 
+Nobile 
 NodeBB 
 Nolan 
 nopCommerce 
@@ -1598,6 +1618,7 @@ packagist
 Packer 
 packer 
 Paco 
+Pacífico 
 PagePipe 
 Paice 
 Paisley 
@@ -1647,6 +1668,7 @@ pepito
 pepé 
 Perec 
 PerfectPixel 
+Perforce 
 Perkins 
 Perl 
 Perú 
@@ -1718,6 +1740,7 @@ precise
 Premiere 
 Presler-Marshall 
 PrestaShop 
+PrimaFuture 
 Princeton 
 Priscilla 
 Prism 
@@ -1753,6 +1776,8 @@ pytest
 Python 
 Python-future 
 Pythonista 
+Pérez 
+Pío 
 Quejana 
 Quesada 
 Quest 
@@ -1797,6 +1822,7 @@ Reschke
 ResourceSpace 
 resourcespace 
 responsinator 
+Rex 
 Reynolds 
 RGB 
 RGBA 
@@ -1833,6 +1859,7 @@ Rodríguez
 Roel 
 Roger 
 Rogers 
+Rogue 
 RogueWave 
 Roland 
 Roldán 
@@ -1865,6 +1892,7 @@ Salgado
 Salon 
 Sam 
 Sanchis 
+Sandage 
 Sanderson 
 Sandro 
 Sanger 
@@ -1955,6 +1983,7 @@ Soria
 SourceForge 
 Souripriya 
 Southern 
+Soviética 
 SparkleShare 
 Speedy 
 Sperberg-McQueen 
@@ -2025,10 +2054,12 @@ Swift
 Switzerland 
 Symbola 
 Symfony 
+symfony 
 Syncany 
 systemd 
 SystemRescue 
 SystemRescueCD 
+Sájarov 
 Sánchez 
 Séneca 
 Tahoma 
@@ -2072,6 +2103,7 @@ Tobin
 Todd 
 TogetherJS 
 Tokyo 
+tokyo 
 Toledo 
 Tolga 
 Tolkien 
@@ -2128,6 +2160,7 @@ Ulises
 Ullah 
 Ulloa 
 Ulrich 
+Umbertto 
 Unamuno 
 Underhill 
 Unicode 
@@ -2289,11 +2322,13 @@ xampp
 Xdebug 
 xenial 
 XFCE 
+Ximo 
 xkcd 
 XML 
 XMLCopy 
 Yahoo 
 yaml 
+Yelena 
 Yi-Min 
 Yocto 
 Yogi 
