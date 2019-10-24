@@ -1,4 +1,7 @@
-import json, pathlib, re
+import json, math, pathlib, re
+from collections import defaultdict
+from datetime import date
+from calendar import monthrange
 
 # para ejecutar esta aplicación,
 # escriba en MCL_0 la raíz de los ficheros a analizar
@@ -8,6 +11,9 @@ MCL_0 = "D:\\Barto\\logs\\logs.mclibre.org\\paso-0"
 MCL_1 = "D:\\Barto\\logs\\logs.mclibre.org\\paso-1"
 MCL_2 = "D:\\Barto\\logs\\logs.mclibre.org\\paso-2"
 # usar \\ en vez de / porque pathlib usa \ y no funciona replace
+
+FICHERO_ESTADISTICAS = "estadisticas.html"
+FICHERO_VISITAS_TODAS = "visitas-todas.json"
 
 PROFES = [
     "amaliaalbero",
@@ -57,7 +63,31 @@ APUNTES = [
     "consultar/webapps",
     "consultar/xml",
 ]
+MES = [
+    "",
+    "enero",
+    "febrero",
+    "marzo",
+    "abril",
+    "mayo",
+    "junio",
+    "julio",
+    "agosto",
+    "septiembre",
+    "octubre",
+    "noviembre",
+    "diciembre",
+]
 
+
+def fecha_a_texto(numero):
+    return (
+        str(int(numero[8:10]))
+        + " de "
+        + MES[int(numero[5:7])]
+        + " de "
+        + str(numero[0:4])
+    )
 
 def mclibre_limpia_logs():
     print("Limpia logs")
@@ -174,8 +204,8 @@ def mclibre_divide_logs_apuntes():
         )
         file_htmlcss = str(source_file).replace(MCL_0, MCL_2 + "\\htmlcss") + ".htmlcss"
         file_iaig = (
-            str(source_file).replace(MCL_0, MCL_2 + "\\iaig_pendientes")
-            + ".iaig_pendientes"
+            str(source_file).replace(MCL_0, MCL_2 + "\\iaig-pendientes")
+            + ".iaig-pendientes"
         )
         file_informatica = (
             str(source_file).replace(MCL_0, MCL_2 + "\\informatica") + ".informatica"
@@ -190,7 +220,8 @@ def mclibre_divide_logs_apuntes():
         file_linux = str(source_file).replace(MCL_0, MCL_2 + "\\linux") + ".linux"
         file_musica = str(source_file).replace(MCL_0, MCL_2 + "\\musica") + ".musica"
         file_pau = str(source_file).replace(MCL_0, MCL_2 + "\\pau") + ".pau"
-        file_php = str(source_file).replace(MCL_0, MCL_2 + "\\php") + ".php"
+        file_php = str(source_file).replace(MCL_0, MCL_2 + "\\php-html") + ".php-html"
+        file_php2 = str(source_file).replace(MCL_0, MCL_2 + "\\php-php") + ".php-php"
         file_primaria = (
             str(source_file).replace(MCL_0, MCL_2 + "\\primaria") + ".primaria"
         )
@@ -221,6 +252,7 @@ def mclibre_divide_logs_apuntes():
         musica = open(file_musica, "w", encoding="utf-8")
         pau = open(file_pau, "w", encoding="utf-8")
         php = open(file_php, "w", encoding="utf-8")
+        php2 = open(file_php2, "w", encoding="utf-8")
         primaria = open(file_primaria, "w", encoding="utf-8")
         python = open(file_python, "w", encoding="utf-8")
         sqlite = open(file_sqlite, "w", encoding="utf-8")
@@ -271,10 +303,7 @@ def mclibre_divide_logs_apuntes():
                     print(texto, end="", file=google)
                 elif "consultar/htmlcss" in texto or "consultar//htmlcss" in texto:
                     print(texto, end="", file=htmlcss)
-                elif (
-                    "consultar/iaig_pendientes" in texto
-                    or "consultar//iaig_pendientes" in texto
-                ):
+                elif "consultar/iaig" in texto or "consultar//iaig" in texto:
                     print(texto, end="", file=iaig)
                 elif (
                     "consultar/informatica" in texto
@@ -292,7 +321,10 @@ def mclibre_divide_logs_apuntes():
                 elif "/pau" in texto:
                     print(texto, end="", file=pau)
                 elif "consultar/php" in texto or "consultar//php" in texto:
-                    print(texto, end="", file=php)
+                    if ".php" in texto:
+                        print(texto, end="", file=php2)
+                    else:
+                        print(texto, end="", file=php)
                 elif "consultar/primaria" in texto or "consultar//primaria" in texto:
                     print(texto, end="", file=primaria)
                 elif "consultar/python" in texto or "consultar//python" in texto:
@@ -337,6 +369,7 @@ def mclibre_divide_logs_apuntes():
         musica.close()
         pau.close()
         php.close()
+        php2.close()
         primaria.close()
         python.close()
         sqlite.close()
@@ -381,21 +414,34 @@ APUNTES = [
     "docs",
     "htmlcss",
     "informatica",
-    "php",
+    "php-html",
+    "php-php",
     "primaria",
     "python",
     "webapps",
     "xml",
+]
+APUNTES_ESTADISTICAS = [
+    ["htmlcss", "Páginas web HTML y hojas de estilo CSS"],
+    ["python", "Introducción a la programación con Python"],
+    ["php-html", "Programación web en PHP"],
+    ["webapps", "Aplicaciones web"],
+    ["informatica", "Temas de Informática"],
+    ["xml", "XML: Lenguaje de Marcas Extensible"],
+    # ["php-php", "Programación web en PHP [páginas PHP]"],
+    ["primaria", "Ejercicios de Primaria y Secundaria"],
+    ["docs", "Documentación de software libre"],
+    ["charlas", "Charlas"],
 ]
 
 
 def cuenta_paginas():
     print("Cuenta páginas")
     contadores = []
-    for i in range(len(APUNTES)):
+    for i in APUNTES:
         contadores += [0]
 
-        for source_file in pathlib.Path(MCL_2 + "/" + APUNTES[i]).rglob(f"**/*.*"):
+        for source_file in pathlib.Path(MCL_2 + "/" + i).rglob(f"**/*.*"):
             print(source_file)
             with open(source_file, "r", encoding="utf-8") as file:
                 texto = file.readline()
@@ -404,17 +450,15 @@ def cuenta_paginas():
                     texto = file.readline()
                     contadores[i] += 1
 
-    for i in range(len(APUNTES)):
-        print(f"{APUNTES[i]}: {contadores[i]:,}")
+    for i in APUNTES:
+        print(f"{i}: {contadores[i]:,}")
 
 
-def cuenta_paginas_meses():
+def cuenta_paginas_meses(year):
     print("Cuenta páginas por meses")
-    from collections import defaultdict
 
     visitas = defaultdict(lambda: 0)
     visitas_file = "visitas.json"
-    year = 2019
     for i in APUNTES:
         visitas[i] = {}
         visitas[i][str(year)] = {}
@@ -482,13 +526,131 @@ def cuenta_paginas_meses():
         json.dump(visitas, json_file)
 
 
+def genera_estadisticas():
+    with open(FICHERO_VISITAS_TODAS, encoding="utf-8") as json_file:
+        estadisticas_json = json.load(json_file)
+    # print(estadisticas_json)
+    estadisticas = defaultdict(lambda: 0)
+
+    # Genera html
+    t = ""
+    t += "<!DOCTYPE html>\n"
+    t += '<html lang="es">\n'
+    t += "<head>\n"
+    t += '  <meta charset="utf-8">\n'
+    t += f"  <title>Estadísticas. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
+    t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+    t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
+    t += '  <link rel="icon" href="../varios/favicon.ico">\n'
+    t += "</head>\n"
+    t += "\n"
+    t += "<body>\n"
+    t += f"  <h1>Estadísticas mclibre</h1>\n"
+    t += "\n"
+    t += "  <nav>\n"
+    t += "    <p>\n"
+    t += '      <a href="../index.html"><img src="../varios/cc.png" alt="Volver a la página principal" title="Volver a la página principal" height="64" width="64"></a>\n'
+    t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
+    t += "    </p>\n"
+    t += "  </nav>\n"
+    t += "\n"
+
+    for i in range(len(APUNTES_ESTADISTICAS)):
+        t += f"  <h2>{APUNTES_ESTADISTICAS[i][1]}</h2>\n"
+        t += "\n"
+        t += "  <p>\n"
+
+        ind = APUNTES_ESTADISTICAS[i][0]
+        pasito = 40
+        tamX = 24 * pasito
+        tamY = 300
+        px = 0
+
+        t += '    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"\n'
+        t += f'      width="1000" height="{tamY + 60}" viewBox="0 {-30} 1000 {tamY+60}" font-family="sans-serif" font-size="18">\n'
+        t += f'      <line x1="{pasito}" y1="{tamY}" x2="{tamX}" y2="{tamY}" \n'
+        t += '        stroke-width="3" stroke="black"  />\n'
+        t += f'      <line x1="{pasito}" y1="{tamY}" x2="{pasito}" y2="0" \n'
+        t += '        stroke-width="3" stroke="black"  />\n'
+
+        # divide el número de páginas por los días del mes
+        for j in ["2018", "2019"]:
+            for k in range(1, 13):
+                estadisticas_json[ind][j][str(k)] = round(estadisticas_json[ind][j][str(k)] / monthrange(int(j), k)[1])
+
+        estadisticas[ind] = {}
+        min = estadisticas_json[ind]["2018"]["1"]
+        max = estadisticas_json[ind]["2018"]["1"]
+        print(min, max)
+        for j in ["2018", "2019"]:
+            for k in range(1, 13):
+                if estadisticas_json[ind][j][str(k)] < min:
+                    min = estadisticas_json[ind][j][str(k)]
+                if estadisticas_json[ind][j][str(k)] > max:
+                    max = estadisticas_json[ind][j][str(k)]
+                # print(estadisticas_json[ind][j][str(k)])
+        estadisticas[ind]["min"] = min
+        estadisticas[ind]["max"] = max
+        uniY = 10 ** math.floor(math.log(estadisticas[ind]["max"], 10))
+        pYMax = round(math.ceil(estadisticas[ind]["max"] / uniY * 10) / 10 * uniY)
+
+        for i in range(1, math.ceil(pYMax/uniY)):
+            uniYpos = round(tamY - uniY*i / pYMax * tamY)
+            t += f'      <line x1="{pasito}" y1="{uniYpos}" x2="{tamX}" y2="{uniYpos}" \n'
+            t += '        stroke-width="1" stroke="black" stroke-dasharray="5 5" />\n'
+            t += f'     <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{i}</text>\n'
+            t += f'     <text x="0" y="-10" text-anchor="start">x{"{:,}".format(uniY).replace(",",".")} al día</text>\n'
+
+        t += '      <polyline fill="none" stroke-width="3" stroke="RoyalBlue"\n'
+        t += '        points="'
+
+        for j in ["2018", "2019"]:
+            for k in range(1, 13):
+                py = round(tamY - estadisticas_json[ind][j][str(k)] / pYMax * tamY)
+                px += pasito
+                t += f"{px},{py} "
+
+        t += '"\n'
+        t += "      />\n"
+        t += "    </svg>\n"
+        t += "  </p>\n"
+        t += "\n"
+
+    t += "\n"
+    t += '  <address id="ultmod">\n'
+    t += "    Autor: Bartolomé Sintes Marco<br>\n"
+    t += f"    Última modificación de esta página: {fecha_a_texto(str(date.today()))}\n"
+    t += "  </address>\n"
+    t += "</body>\n"
+    t += "</html>\n"
+
+    with open(FICHERO_ESTADISTICAS, "w", encoding="utf-8") as fichero:
+        fichero.write(t)
+
+
 def main():
     print("Estadísticas mclibre")
+    # en paso-0 hay que poner los logs originales de un año entero
+    # en paso-1 se guardarán los ficheros separando clean, img, etc.
     # mclibre_limpia_logs()
+
+    # en paso-0 hay que poner los logs clean obtenidos con mclibre_limpia_logs()
+    # en paso-2 se guardarán los ficheros separando grupos de apuntes
     # mclibre_divide_logs_apuntes()
+
     # cuenta_revistas()
+
+    # en paso-2 tienen que estar los fiheros de cada grupo de apuntes
+    # muestra por pantalla las páginas totales que hay en cada grupo (cuenta el intro final de más)
     # cuenta_paginas()
-    cuenta_paginas_meses()
+
+    # en paso-2 tienen que estar los fiheros de cada grupo de apuntes
+    # crea visitas.json con las páginas que hay en cada grupo
+    # como argumento se pone el año que corresponde
+    # cuenta_paginas_meses(2019)
+
+    # a partir de visitas-todas.json crea página de estadísticas
+    genera_estadisticas()
 
 
 if __name__ == "__main__":
