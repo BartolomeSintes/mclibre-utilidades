@@ -89,6 +89,7 @@ def fecha_a_texto(numero):
         + str(numero[0:4])
     )
 
+
 def mclibre_limpia_logs():
     print("Limpia logs")
     # Se queda con las líneas 200 GET que contienen las cadenas que hay en LIMPIA[]
@@ -410,6 +411,7 @@ def cuenta_revistas():
 
 
 APUNTES = [
+    # "prueba",
     "charlas",
     "docs",
     "htmlcss",
@@ -422,6 +424,7 @@ APUNTES = [
     "xml",
 ]
 APUNTES_ESTADISTICAS = [
+    # ["prueba", "Datos inventados"],
     ["htmlcss", "Páginas web HTML y hojas de estilo CSS"],
     ["python", "Introducción a la programación con Python"],
     ["php-html", "Programación web en PHP"],
@@ -433,6 +436,9 @@ APUNTES_ESTADISTICAS = [
     ["docs", "Documentación de software libre"],
     ["charlas", "Charlas"],
 ]
+
+YEARS = ["2017", "2018", "2019"]
+MONTHS = "EFMAMJJASOND"
 
 
 def cuenta_paginas():
@@ -555,35 +561,38 @@ def genera_estadisticas():
     t += "  </nav>\n"
     t += "\n"
 
+    # Dibuja la gráfica de cada grupo de apuntes
     for i in range(len(APUNTES_ESTADISTICAS)):
         t += f"  <h2>{APUNTES_ESTADISTICAS[i][1]}</h2>\n"
         t += "\n"
         t += "  <p>\n"
 
         ind = APUNTES_ESTADISTICAS[i][0]
-        pasito = 40
-        tamX = 24 * pasito
+        pasito = 30
+        tamX = pasito * 12 * len(YEARS)
         tamY = 300
-        px = 0
+        px = pasito / 2
 
         t += '    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"\n'
-        t += f'      width="1000" height="{tamY + 60}" viewBox="0 {-30} 1000 {tamY+60}" font-family="sans-serif" font-size="18">\n'
-        t += f'      <line x1="{pasito}" y1="{tamY}" x2="{tamX}" y2="{tamY}" \n'
-        t += '        stroke-width="3" stroke="black"  />\n'
-        t += f'      <line x1="{pasito}" y1="{tamY}" x2="{pasito}" y2="0" \n'
-        t += '        stroke-width="3" stroke="black"  />\n'
+        t += f'      width="{pasito * (12 * len(YEARS) + 4)}" height="{tamY + 110}" viewBox="0 {-2 * pasito} {pasito * (12 * len(YEARS) + 4)} {tamY + 110}" font-family="sans-serif" font-size="18">\n'
+
+        # dibuja los ejes principales
+        t += f'      <polyline points="{pasito},{-pasito / 2} {pasito},{tamY} {tamX + pasito * 1.5},{tamY}" \n'
+        t += '        stroke-width="3" stroke="black" fill="none" />\n'
 
         # divide el número de páginas por los días del mes
-        for j in ["2018", "2019"]:
-            for k in range(1, 13):
-                estadisticas_json[ind][j][str(k)] = round(estadisticas_json[ind][j][str(k)] / monthrange(int(j), k)[1])
+        for j in YEARS:
+            for k in range(1, len(estadisticas_json[ind][j]) + 1):
+                estadisticas_json[ind][j][str(k)] = round(
+                    estadisticas_json[ind][j][str(k)] / monthrange(int(j), k)[1]
+                )
 
         estadisticas[ind] = {}
-        min = estadisticas_json[ind]["2018"]["1"]
-        max = estadisticas_json[ind]["2018"]["1"]
+        min = estadisticas_json[ind][YEARS[0]]["1"]
+        max = estadisticas_json[ind][YEARS[0]]["1"]
         print(min, max)
-        for j in ["2018", "2019"]:
-            for k in range(1, 13):
+        for j in YEARS:
+            for k in range(1, len(estadisticas_json[ind][j]) + 1):
                 if estadisticas_json[ind][j][str(k)] < min:
                     min = estadisticas_json[ind][j][str(k)]
                 if estadisticas_json[ind][j][str(k)] > max:
@@ -592,26 +601,42 @@ def genera_estadisticas():
         estadisticas[ind]["min"] = min
         estadisticas[ind]["max"] = max
         uniY = 10 ** math.floor(math.log(estadisticas[ind]["max"], 10))
-        pYMax = round(math.ceil(estadisticas[ind]["max"] / uniY * 10) / 10 * uniY)
+        pYMax = round(math.ceil(estadisticas[ind]["max"] / uniY) * uniY)
 
-        for i in range(1, math.ceil(pYMax/uniY)):
-            uniYpos = round(tamY - uniY*i / pYMax * tamY)
-            t += f'      <line x1="{pasito}" y1="{uniYpos}" x2="{tamX}" y2="{uniYpos}" \n'
+        # leyenda eje Y
+        t += f'      <text x="0" y="{-pasito}" text-anchor="start">x{"{:,}".format(uniY).replace(",",".")} al día</text>\n'
+
+        # dibjua las líneas horizontales
+        for i in range(1, math.ceil(pYMax / uniY) + 1):
+            uniYpos = round(tamY - uniY * i / pYMax * tamY)
+            t += f'      <line x1="{pasito}" y1="{uniYpos}" x2="{tamX + pasito + pasito / 2}" y2="{uniYpos}" \n'
             t += '        stroke-width="1" stroke="black" stroke-dasharray="5 5" />\n'
-            t += f'     <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{i}</text>\n'
-            t += f'     <text x="0" y="-10" text-anchor="start">x{"{:,}".format(uniY).replace(",",".")} al día</text>\n'
+            t += f'      <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{i}</text>\n'
 
+        # dibjua las líneas verticales de los meses
+        for j in range(len(YEARS)):
+            for k in range(12):
+                t += f'      <line x1="{(12 * j + k + 2) * pasito}" y1="{-pasito / 2}" x2="{(12 * j + k + 2) * pasito}" y2="{tamY}" \n'
+                t += '        stroke-width="1" stroke="red" stroke-dasharray="5 5" />\n'
+                t += f'      <text x="{(12 * j + k + 1.5) * pasito}" y="{tamY + 20}" text-anchor="middle">{MONTHS[k]}</text>\n'
+
+        # dibjua las líneas verticales de los años
+        for j in range(len(YEARS)):
+            t += f'      <line x1="{(12 * j + 13) * pasito}" y1="{-pasito / 2}" x2="{(12 * j + 13) * pasito}" y2="{tamY + 40}" \n'
+            t += '        stroke-width="2" stroke="black" stroke-dasharray="5 5" />\n'
+            t += f'      <text x="{(12 * j + 6.5) * pasito}" y="{tamY + 50}" text-anchor="middle">{YEARS[j]}</text>\n'
+
+        # dibuja la gráfica
         t += '      <polyline fill="none" stroke-width="3" stroke="RoyalBlue"\n'
         t += '        points="'
-
-        for j in ["2018", "2019"]:
-            for k in range(1, 13):
+        for j in YEARS:
+            for k in range(1, len(estadisticas_json[ind][j]) + 1):
                 py = round(tamY - estadisticas_json[ind][j][str(k)] / pYMax * tamY)
                 px += pasito
                 t += f"{px},{py} "
-
         t += '"\n'
         t += "      />\n"
+
         t += "    </svg>\n"
         t += "  </p>\n"
         t += "\n"
@@ -647,7 +672,7 @@ def main():
     # en paso-2 tienen que estar los fiheros de cada grupo de apuntes
     # crea visitas.json con las páginas que hay en cada grupo
     # como argumento se pone el año que corresponde
-    # cuenta_paginas_meses(2019)
+    # cuenta_paginas_meses(2017)
 
     # a partir de visitas-todas.json crea página de estadísticas
     genera_estadisticas()
