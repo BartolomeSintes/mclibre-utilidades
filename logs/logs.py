@@ -1,6 +1,6 @@
 import json, math, pathlib, re
 from collections import defaultdict
-from datetime import date
+from datetime import date, datetime
 from calendar import monthrange
 
 # para ejecutar esta aplicación,
@@ -13,7 +13,8 @@ MCL_2 = "D:\\Barto\\logs\\logs.mclibre.org\\paso-2"
 # usar \\ en vez de / porque pathlib usa \ y no funciona replace
 
 FICHERO_ESTADISTICAS = "estadisticas.html"
-FICHERO_VISITAS_TODAS = "visitas-todas.json"
+FICHERO_VISITAS = "json/visitas.json"
+FICHERO_VISITAS_TODAS = "json/visitas-todas.json"
 
 PROFES = [
     "amaliaalbero",
@@ -42,6 +43,7 @@ LIMPIA = [
     ".mp4",
     ".exe",
     ".zip",
+    ".rar",
     ".7z",
     ".gz",
     ".tgz",
@@ -145,11 +147,6 @@ def mclibre_limpia_logs():
                             print(texto, end="", file=ejemplos)
                             guardado = True
                 if not (guardado):
-                    for i in LIMPIA:
-                        if i in texto and " 200 " in texto and "GET" in texto:
-                            print(texto, end="", file=clean)
-                            guardado = True
-                if not (guardado):
                     for i in IMG:
                         if i in texto and " 200 " in texto and "GET" in texto:
                             print(texto, end="", file=img)
@@ -158,6 +155,11 @@ def mclibre_limpia_logs():
                     for i in OTROS:
                         if i in texto and " 200 " in texto and "GET" in texto:
                             print(texto, end="", file=otros)
+                            guardado = True
+                if not (guardado):
+                    for i in LIMPIA:
+                        if i in texto and " 200 " in texto and "GET" in texto:
+                            print(texto, end="", file=clean)
                             guardado = True
                 if not (guardado):
                     if " 200 " in texto and "GET" in texto:
@@ -221,7 +223,7 @@ def mclibre_divide_logs_apuntes():
         file_linux = str(source_file).replace(MCL_0, MCL_2 + "\\linux") + ".linux"
         file_musica = str(source_file).replace(MCL_0, MCL_2 + "\\musica") + ".musica"
         file_pau = str(source_file).replace(MCL_0, MCL_2 + "\\pau") + ".pau"
-        file_php = str(source_file).replace(MCL_0, MCL_2 + "\\php-html") + ".php-html"
+        file_php = str(source_file).replace(MCL_0, MCL_2 + "\\php") + ".php"
         file_php2 = str(source_file).replace(MCL_0, MCL_2 + "\\php-php") + ".php-php"
         file_primaria = (
             str(source_file).replace(MCL_0, MCL_2 + "\\primaria") + ".primaria"
@@ -416,7 +418,7 @@ APUNTES = [
     "docs",
     "htmlcss",
     "informatica",
-    "php-html",
+    "php",
     "php-php",
     "primaria",
     "python",
@@ -427,7 +429,7 @@ APUNTES_ESTADISTICAS = [
     # ["prueba", "Datos inventados"],
     ["htmlcss", "Páginas web HTML y hojas de estilo CSS"],
     ["python", "Introducción a la programación con Python"],
-    ["php-html", "Programación web en PHP"],
+    ["php", "Programación web en PHP"],
     ["webapps", "Aplicaciones web"],
     ["informatica", "Temas de Informática"],
     ["xml", "XML: Lenguaje de Marcas Extensible"],
@@ -436,8 +438,20 @@ APUNTES_ESTADISTICAS = [
     ["docs", "Documentación de software libre"],
     ["charlas", "Charlas"],
 ]
-
-YEARS = ["2017", "2018", "2019"]
+ACUMULADAS = [
+    # ["prueba", "Datos inventados"],
+    ["informatica", "Temas de Informática"],
+    ["htmlcss", "Páginas web HTML y hojas de estilo CSS"],
+    ["python", "Introducción a la programación con Python"],
+    ["xml", "XML: Lenguaje de Marcas Extensible"],
+    ["php", "Programación web en PHP"],
+    ["webapps", "Aplicaciones web"],
+    # ["php-php", "Programación web en PHP [páginas PHP]"],
+    # ["primaria", "Ejercicios de Primaria y Secundaria"],
+    # ["docs", "Documentación de software libre"],
+    # ["charlas", "Charlas"],
+]
+YEARS = ["2015", "2016", "2017", "2018", "2019"]
 MONTHS = "EFMAMJJASOND"
 
 
@@ -459,12 +473,29 @@ def cuenta_paginas():
     for i in APUNTES:
         print(f"{i}: {contadores[i]:,}")
 
+def une_visitas_json():
+    print("Une los json visitas de cada año en uno solo")
+    current_year = datetime.now().year
+    current_month = datetime.now().month
+    visitas = defaultdict(lambda: 0)
+    with open("visitas-vacio.json", encoding="utf-8") as json_file:
+        visitas = json.load(json_file)
+    for i in YEARS:
+        with open("visitas-"+str(i)+".json", encoding="utf-8") as json_file:
+            visitas_json = json.load(json_file)
+            for j in APUNTES:
+                for key in list(visitas_json[j][i].keys()):
+                    if i == str(current_year) and int(key) >= current_month:
+                        del(visitas_json[j][i][key])
+                visitas[j].update(visitas_json[j])
+    with open(FICHERO_VISITAS_TODAS, "w", encoding="utf-8") as json_file:
+        json.dump(visitas, json_file)
+
 
 def cuenta_paginas_meses(year):
     print("Cuenta páginas por meses")
 
     visitas = defaultdict(lambda: 0)
-    visitas_file = "visitas.json"
     for i in APUNTES:
         visitas[i] = {}
         visitas[i][str(year)] = {}
@@ -528,13 +559,15 @@ def cuenta_paginas_meses(year):
                         visitas[i][str(year)]["12"] += 1
     print(visitas)
 
-    with open(visitas_file, "w", encoding="utf-8") as json_file:
+    with open(FICHERO_VISITAS, "w", encoding="utf-8") as json_file:
         json.dump(visitas, json_file)
 
 
 def genera_estadisticas():
     with open(FICHERO_VISITAS_TODAS, encoding="utf-8") as json_file:
         estadisticas_json = json.load(json_file)
+    with open(FICHERO_VISITAS_TODAS, encoding="utf-8") as json_file:
+        acumuladas_json = json.load(json_file)
     # print(estadisticas_json)
     estadisticas = defaultdict(lambda: 0)
 
@@ -546,8 +579,8 @@ def genera_estadisticas():
     t += '  <meta charset="utf-8">\n'
     t += f"  <title>Estadísticas. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
-    t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
-    t += '  <link rel="icon" href="../varios/favicon.ico">\n'
+    # t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
+    # t += '  <link rel="icon" href="../varios/favicon.ico">\n'
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
@@ -555,11 +588,115 @@ def genera_estadisticas():
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
-    t += '      <a href="../index.html"><img src="../varios/cc.png" alt="Volver a la página principal" title="Volver a la página principal" height="64" width="64"></a>\n'
-    t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
+    t += '      <a href="http://www.mclibre.org/"><img src="../varios/cc.png" alt="Volver a la página principal" title="Volver a la página principal" height="64" width="64"></a>\n'
+    # t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
     t += "    </p>\n"
     t += "  </nav>\n"
     t += "\n"
+
+    t += "<p>En estas estadísticas sólo se contabilizan las páginas webs. No se contabilizan "
+    t += "las páginas de ejemplos o de ejercicios incluidas en otras páginas.</p>\n"
+    t += "  <p>\n"
+    t += "<p>la gráfica de estadísticas acumuladas sólo contabiliza las páginas de apuntes "
+    t += "de ASIR.</p>\n"
+    t += "  <p>\n"
+
+    # Dibuja la gráfica acumulada
+    t += f"  <h2>Todos los apuntes acumulados</h2>\n"
+    t += "\n"
+    t += "  <p>\n"
+
+    # print(acumuladas_json)
+    for i in range(1, len(ACUMULADAS)):
+        for j in YEARS:
+            for k in range(1, len(acumuladas_json[ACUMULADAS[i][0]][j]) + 1):
+                # print(acumuladas_json[ACUMULADAS[i][0]][j][str(k)], acumuladas_json[ACUMULADAS[i - 1][0]
+                # ][j][str(k)], end=" ")
+                acumuladas_json[ACUMULADAS[i][0]][j][str(k)] += acumuladas_json[
+                    ACUMULADAS[i - 1][0]
+                ][j][str(k)]
+                # print(acumuladas_json[ACUMULADAS[i][0]][j][str(k)])
+    # print(acumuladas_json)
+
+    ind = ACUMULADAS[-1][0]
+    pasito = 30
+    tamX = pasito * 12 * len(YEARS)
+    tamY = 300
+    px = pasito / 2
+
+    t += '    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"\n'
+    t += f'      width="{pasito * (12 * len(YEARS) + 4)}" height="{tamY + 110}" viewBox="0 {-2 * pasito} {pasito * (12 * len(YEARS) + 4)} {tamY + 110}" font-family="sans-serif" font-size="18">\n'
+
+    # dibuja los ejes principales
+    t += f'      <polyline points="{pasito},{-pasito / 2} {pasito},{tamY} {tamX + pasito * 1.5},{tamY}" \n'
+    t += '        stroke-width="3" stroke="black" fill="none" />\n'
+
+    # divide el número de páginas por los días del mes
+    for i in range(len(ACUMULADAS)):
+        for j in YEARS:
+            for k in range(1, len(acumuladas_json[ACUMULADAS[i][0]][j]) + 1):
+                acumuladas_json[ACUMULADAS[i][0]][j][str(k)] = round(
+                    acumuladas_json[ACUMULADAS[i][0]][j][str(k)] / monthrange(int(j), k)[1]
+                )
+
+    estadisticas[ind] = {}
+    min = acumuladas_json[ind][YEARS[0]]["1"]
+    max = acumuladas_json[ind][YEARS[0]]["1"]
+    for j in YEARS:
+        for k in range(1, len(acumuladas_json[ind][j]) + 1):
+            if acumuladas_json[ind][j][str(k)] < min:
+                min = acumuladas_json[ind][j][str(k)]
+            if acumuladas_json[ind][j][str(k)] > max:
+                max = acumuladas_json[ind][j][str(k)]
+    estadisticas[ind]["min"] = min
+    estadisticas[ind]["max"] = max
+    uniY = 10 ** math.floor(math.log(estadisticas[ind]["max"], 10))
+    pYMax = round(math.ceil(estadisticas[ind]["max"] / uniY) * uniY)
+
+    # leyenda eje Y
+    t += f'      <text x="0" y="{-pasito}" text-anchor="start">x{"{:,}".format(uniY).replace(",",".")} al día</text>\n'
+
+    # dibuja las líneas horizontales
+    for i in range(1, math.ceil(pYMax / uniY) + 1):
+        uniYpos = round(tamY - uniY * i / pYMax * tamY)
+        t += f'      <line x1="{pasito}" y1="{uniYpos}" x2="{tamX + pasito + pasito / 2}" y2="{uniYpos}" \n'
+        t += '        stroke-width="1" stroke="black" stroke-dasharray="5 5" />\n'
+        t += f'      <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{i}</text>\n'
+
+    # dibuja las líneas verticales de los meses
+    for j in range(len(YEARS)):
+        for k in range(12):
+            t += f'      <line x1="{(12 * j + k + 2) * pasito}" y1="{-pasito / 2}" x2="{(12 * j + k + 2) * pasito}" y2="{tamY}" \n'
+            t += '        stroke-width="1" stroke="red" stroke-dasharray="5 5" />\n'
+            t += f'      <text x="{(12 * j + k + 1.5) * pasito}" y="{tamY + 20}" text-anchor="middle">{MONTHS[k]}</text>\n'
+
+    # dibuja las líneas verticales de los años
+    for j in range(len(YEARS)):
+        t += f'      <line x1="{(12 * j + 13) * pasito}" y1="{-pasito / 2}" x2="{(12 * j + 13) * pasito}" y2="{tamY + 40}" \n'
+        t += '        stroke-width="2" stroke="black" stroke-dasharray="5 5" />\n'
+        t += f'      <text x="{(12 * j + 6.5) * pasito}" y="{tamY + 50}" text-anchor="middle">{YEARS[j]}</text>\n'
+
+    # dibuja las gráficas
+    for i in range(len(ACUMULADAS)):
+        px = pasito / 2
+        ind = ACUMULADAS[i][0]
+        t += '      <polyline fill="none" stroke-width="2" stroke="RoyalBlue"\n'
+        t += '        points="'
+        for j in YEARS:
+            for k in range(1, len(acumuladas_json[ind][j])+1):
+                py = round(tamY - acumuladas_json[ind][j][str(k)] / pYMax * tamY)
+                px += pasito
+                t += f"{px},{py} "
+        t += '"\n'
+        t += "      />\n"
+        t += f'      <text x="{px + 10}" y="{py + 5}" text-anchor="start">{ACUMULADAS[i][0]}</text>\n'
+        # t += f'      <text x="{px + 10}" y="{py + 5}" text-anchor="start" style="stroke:white; stroke-width:0.6em">{ACUMULADAS[i][0]}</text>\n'
+        # t += f'      <text x="{px + 10}" y="{py + 5}" text-anchor="start" style="fill:black">{ACUMULADAS[i][0]}</text>\n'
+
+    t += "    </svg>\n"
+    t += "  </p>\n"
+    t += "\n"
+    # FIN gráfica acumulada
 
     # Dibuja la gráfica de cada grupo de apuntes
     for i in range(len(APUNTES_ESTADISTICAS)):
@@ -590,7 +727,6 @@ def genera_estadisticas():
         estadisticas[ind] = {}
         min = estadisticas_json[ind][YEARS[0]]["1"]
         max = estadisticas_json[ind][YEARS[0]]["1"]
-        print(min, max)
         for j in YEARS:
             for k in range(1, len(estadisticas_json[ind][j]) + 1):
                 if estadisticas_json[ind][j][str(k)] < min:
@@ -606,21 +742,21 @@ def genera_estadisticas():
         # leyenda eje Y
         t += f'      <text x="0" y="{-pasito}" text-anchor="start">x{"{:,}".format(uniY).replace(",",".")} al día</text>\n'
 
-        # dibjua las líneas horizontales
+        # dibuja las líneas horizontales
         for i in range(1, math.ceil(pYMax / uniY) + 1):
             uniYpos = round(tamY - uniY * i / pYMax * tamY)
             t += f'      <line x1="{pasito}" y1="{uniYpos}" x2="{tamX + pasito + pasito / 2}" y2="{uniYpos}" \n'
             t += '        stroke-width="1" stroke="black" stroke-dasharray="5 5" />\n'
             t += f'      <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{i}</text>\n'
 
-        # dibjua las líneas verticales de los meses
+        # dibuja las líneas verticales de los meses
         for j in range(len(YEARS)):
             for k in range(12):
                 t += f'      <line x1="{(12 * j + k + 2) * pasito}" y1="{-pasito / 2}" x2="{(12 * j + k + 2) * pasito}" y2="{tamY}" \n'
                 t += '        stroke-width="1" stroke="red" stroke-dasharray="5 5" />\n'
                 t += f'      <text x="{(12 * j + k + 1.5) * pasito}" y="{tamY + 20}" text-anchor="middle">{MONTHS[k]}</text>\n'
 
-        # dibjua las líneas verticales de los años
+        # dibuja las líneas verticales de los años
         for j in range(len(YEARS)):
             t += f'      <line x1="{(12 * j + 13) * pasito}" y1="{-pasito / 2}" x2="{(12 * j + 13) * pasito}" y2="{tamY + 40}" \n'
             t += '        stroke-width="2" stroke="black" stroke-dasharray="5 5" />\n'
@@ -665,14 +801,17 @@ def main():
 
     # cuenta_revistas()
 
-    # en paso-2 tienen que estar los fiheros de cada grupo de apuntes
+    # en paso-2 tienen que estar los ficheros de cada grupo de apuntes
     # muestra por pantalla las páginas totales que hay en cada grupo (cuenta el intro final de más)
     # cuenta_paginas()
 
-    # en paso-2 tienen que estar los fiheros de cada grupo de apuntes
+    # en paso-2 tienen que estar los ficheros de cada grupo de apuntes
     # crea visitas.json con las páginas que hay en cada grupo
     # como argumento se pone el año que corresponde
-    # cuenta_paginas_meses(2017)
+    # cuenta_paginas_meses(2019)
+
+    # une todos los ficheros visitas-YYYY.json en un único fichero
+    # une_visitas_json()
 
     # a partir de visitas-todas.json crea página de estadísticas
     genera_estadisticas()
