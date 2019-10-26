@@ -3048,6 +3048,17 @@
       "creado": "2019-09-24"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 24,
+      "año": 2019,
+      "mes": 10,
+      "portada": "hackspace-24-en-201910.jpg",
+      "fichero": "hackspace-24-en-201910.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-26"
+    },
+    {
       "serie": "Hello World",
       "nombre": "Hello World",
       "número": 1,
@@ -5972,6 +5983,17 @@
       "fichero": "odroid-70-en-201910.pdf",
       "idioma": "inglés",
       "creado": "2019-10-13"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 70,
+      "año": 2019,
+      "mes": 10,
+      "portada": "odroid-70-es-201910.jpg",
+      "fichero": "odroid-70-es-201910.pdf",
+      "idioma": "español",
+      "creado": "2019-10-26"
     },
     {
       "serie": "Olympiads in informatics",
@@ -10075,6 +10097,17 @@
       "fichero": "wireframe-24-en-201910.pdf",
       "idioma": "inglés",
       "creado": "2019-10-13"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 25,
+      "año": 2019,
+      "mes": 10,
+      "portada": "wireframe-25-en-201910.jpg",
+      "fichero": "wireframe-25-en-201910.pdf",
+      "idioma": "inglés",
+      "creado": "2019-10-26"
     },
     {
       "serie": "ALT Magazine",

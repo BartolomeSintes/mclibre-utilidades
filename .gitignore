@@ -3,8 +3,11 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
-/.htmlhintrc
 /.vscode
+/.gitignore
 /generador-documentacion/__pycache__/
 /generador-documentacion/sitio/
 /generador-documentacion/tmp/
+/logs/visitas/
+/logs/estadisticas.html
+/logs/tmp.py
