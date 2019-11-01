@@ -2344,6 +2344,17 @@
       "creado": "2019-10-06"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 150,
+      "año": 2019,
+      "mes": 10,
+      "portada": "full-circle-150-en-201910.jpg",
+      "fichero": "full-circle-150-en-201910.pdf",
+      "idioma": "inglés",
+      "creado": "2019-11-01"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -6953,6 +6964,17 @@
       "creado": "2019-10-06"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 9,
+      "año": 2019,
+      "mes": 10,
+      "portada": "solo-linux-09-es-201910.jpg",
+      "fichero": "solo-linux-09-es-201910.pdf",
+      "idioma": "español",
+      "creado": "2019-11-01"
+    },
+    {
       "serie": "The MagPi",
       "nombre": "The MagPi",
       "número": 1,
@@ -7897,6 +7919,17 @@
       "fichero": "the-magpi-86-en-201910.pdf",
       "idioma": "inglés",
       "creado": "2019-10-06"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 87,
+      "año": 2019,
+      "mes": 11,
+      "portada": "the-magpi-87-en-201911.jpg",
+      "fichero": "the-magpi-87-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-11-01"
     },
     {
       "serie": "The MagPi Essentials",
