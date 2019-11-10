@@ -6007,6 +6007,17 @@
       "creado": "2019-10-26"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 71,
+      "año": 2019,
+      "mes": 11,
+      "portada": "odroid-71-en-201911.jpg",
+      "fichero": "odroid-71-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-11-10"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -9868,6 +9879,17 @@
       "creado": "2019-10-06"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 154,
+      "año": 2019,
+      "mes": 11,
+      "portada": "pclinuxos-154-en-201911.jpg",
+      "fichero": "pclinuxos-154-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-11-10"
+    },
+    {
       "serie": "Wireframe",
       "nombre": "Wireframe",
       "número": 1,
@@ -10141,6 +10163,17 @@
       "fichero": "wireframe-25-en-201910.pdf",
       "idioma": "inglés",
       "creado": "2019-10-26"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 26,
+      "año": 2019,
+      "mes": 11,
+      "portada": "wireframe-26-en-201911.jpg",
+      "fichero": "wireframe-26-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-11-10"
     },
     {
       "serie": "ALT Magazine",
