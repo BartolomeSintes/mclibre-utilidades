@@ -1,0 +1,28 @@
+{
+    "files": {
+        "html": [
+            "prueba-1.html",
+            "prueba-2.html"
+        ],
+        "css": [
+            "prueba-1.css"
+        ],
+        "img": [],
+        "font": []
+    },
+    "steps": {
+        "1": [
+            {
+                "remove-tag": "h1"
+            },
+            {
+                "remove-tag": "p"
+            }
+        ],
+        "2": [
+            {
+                "remove-tag": "h2"
+            }
+        ]
+    }
+}
