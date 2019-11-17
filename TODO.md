@@ -13,7 +13,7 @@ Esta aplicación genera la lista de palabras que hay en los ficheros de un direc
 ### GENERADOR WEB DOCUMENTACIÓN
 Esta aplicación genera las páginas de mclibre-documentacion.
 
-### ANALIZA LOGS CDLIBRE
+### ANALIZA LOGS MCLIBRE
 Esta aplicación analiza los logs de mclibre y genera una gráfica de páginas vistas por día.
 
 ### GENERADOR EJERCICIOS HTML/CSS
