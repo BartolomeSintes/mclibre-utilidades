@@ -2,7 +2,8 @@ import json, pathlib, re, shutil
 
 PLANTILLA_JSON = "ejercicios-1.json"
 DIR_FILES = "files"
-
+OBL = "1"
+OBL_OPT = "2"
 
 def carga_ficheros(plantilla):
     ficheros_html = {}
@@ -58,7 +59,11 @@ def quita_propiedad(textos, propiedades):
         print(f"Quito propiedades: ", end="")
         for propiedad in propiedades:
             print(propiedad, end=" ")
-            textos[i] = re.sub(f"{propiedad}[^;]*;", "", textos[i])
+            # la línea que contenía una propiedad la dejo con un par de espacios
+            # para que se distinga de las líneas en blacno que separan reglas
+            # al buscar la propiedad le incluyo los espacios iniciales para que no
+            # borre @font-face al borrar font
+            textos[i] = re.sub(f"[ ]*{propiedad}[ .#:][^;]*;", "  ", textos[i])
         print()
     return textos
 
@@ -104,20 +109,24 @@ def quita_sangrado(textos):
 
 def aplica_reglas(ficheros, paso):
     # print(paso)
-    for accion in paso[0].keys():
-        argumento = paso[0][accion]
+    for accion in paso.keys():
+        argumento = paso[accion]
         # print(accion, argumento)
-        if accion == "remove-tag":
+        if accion == "tag":
             ficheros["html"] = quita_etiqueta(ficheros["html"], argumento)
-        elif accion == "remove-property":
+        elif accion == "property":
             ficheros["css"] = quita_propiedad(ficheros["css"], argumento)
-        elif accion == "remove-atrule":
+        elif accion == "atrule":
             ficheros["css"] = quita_regla_arroba(ficheros["css"], argumento)
-    ficheros["html"] = quita_entidades_numericas(ficheros["html"])
     ficheros["html"] = quita_lineas_vacias(ficheros["html"])
-    ficheros["html"] = quita_sangrado(ficheros["html"])
     ficheros["css"] = quita_lineas_vacias(ficheros["css"])
     ficheros["css"] = quita_reglas_vacias(ficheros["css"])
+    return ficheros
+
+
+def limpia(ficheros):
+    ficheros["html"] = quita_entidades_numericas(ficheros["html"])
+    ficheros["html"] = quita_sangrado(ficheros["html"])
     return ficheros
 
 
@@ -126,14 +135,33 @@ def main():
     with open(PLANTILLA_JSON, encoding="utf-8") as json_file:
         plantilla = json.load(json_file)
 
-    # print(plantilla)
-    # print()
+    print("Elija una opción:")
+    print("(a) sólo elementos obligatorios:")
+    print("(b) elementos obligatorios y optativos")
+    nivel = input()
+    while nivel != OBL and nivel != OBL_OPT:
+        nivel = input()
+
     ficheros = carga_ficheros(plantilla)
     for i in range(len(plantilla["steps"]), 0, -1):
         print(f"Hago paso {i}")
-        ficheros = aplica_reglas(ficheros, plantilla["steps"][str(i)])
+        ficheros = aplica_reglas(ficheros, plantilla["steps"][str(i)]["compulsory"])
+        if "optional" in plantilla["steps"][str(i)]:
+            ficheros = aplica_reglas(ficheros, plantilla["steps"][str(i)]["optional"])
+        limpia(ficheros)
         graba_ficheros(ficheros, str(i))
         print()
+
+    ficheros = carga_ficheros(plantilla)
+    final = len(plantilla["steps"]) + 1
+    print(f"Hago paso {final}")
+    if nivel == OBL:
+        print("HOLA")
+        for i in range(len(plantilla["steps"]), 0, -1):
+            if "optional" in plantilla["steps"][str(i)]:
+                ficheros = aplica_reglas(ficheros, plantilla["steps"][str(i)]["optional"])
+    graba_ficheros(ficheros, str(final))
+    print()
 
 
 if __name__ == "__main__":
