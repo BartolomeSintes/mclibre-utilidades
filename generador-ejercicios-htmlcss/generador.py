@@ -1,18 +1,21 @@
 import json, pathlib, re, shutil
 
-PLANTILLA_JSON = "ejercicios-1.json"
+JSON_STEPS = "ejercicios-1.json"
+JSON_FILES = "ejercicios-2.json"
 DIR_FILES = "files"
 OBL = "1"
 OBL_OPT = "2"
 
-def carga_ficheros(plantilla):
+
+def carga_ficheros(ficheros):
     ficheros_html = {}
-    for i in plantilla["files"]["html"]:
-        with open(f"{DIR_FILES}/{i}", "r", encoding="utf-8") as fichero:
+    dir = f'{DIR_FILES}/{ficheros["directory"]}'
+    for i in ficheros["files"]["html"]:
+        with open(f"{dir}/{i}", "r", encoding="utf-8") as fichero:
             ficheros_html[i] = fichero.read()
     ficheros_css = {}
-    for i in plantilla["files"]["css"]:
-        with open(f"{DIR_FILES}/{i}", "r", encoding="utf-8") as fichero:
+    for i in ficheros["files"]["css"]:
+        with open(f"{dir}/{i}", "r", encoding="utf-8") as fichero:
             ficheros_css[i] = fichero.read()
             # Añade salto de línea al final de CSS por si no lo hay
             ficheros_css[i] = re.sub(r"\Z", "\n", ficheros_css[i])
@@ -24,63 +27,68 @@ def graba_ficheros(ficheros, n):
     if p.exists():
         shutil.rmtree(p)
     p.mkdir(parents=True, exist_ok=True)
+    print("Guardo html: ", end="")
     for i in ficheros["html"]:
-        print(f"Guardo {i}")
+        print(i, end=" ")
         with open(f"{DIR_FILES}/{n}/{i}", "w", encoding="utf-8") as fichero:
             fichero.write(ficheros["html"][i])
+    print()
+    print("Guardo css: ", end="")
     for i in ficheros["css"]:
-        print(f"Guardo {i}")
+        print(i, end=" ")
         with open(f"{DIR_FILES}/{n}/{i}", "w", encoding="utf-8") as fichero:
             fichero.write(ficheros["css"][i])
+    print()
 
 
 def quita_etiqueta(textos, etiquetas):
-    for i in textos.keys():
-        print("Quito etiquetas: ", end="")
-        for etiqueta in etiquetas:
-            print(etiqueta, end=" ")
+    print("Quito etiquetas: ", end="")
+    for etiqueta in etiquetas:
+        print(etiqueta, end=" ")
+        for i in textos.keys():
             textos[i] = re.sub(f"<{etiqueta}>", "", textos[i])
             textos[i] = re.sub(f"<{etiqueta} [^>]*>", "", textos[i])
             textos[i] = re.sub(f"</{etiqueta}>", "", textos[i])
-        print()
+    print()
     return textos
 
 
 def quita_entidades_numericas(textos):
     for i in textos.keys():
-        print("Quito entidades numéricas")
+        # print("Quito entidades numéricas")
         textos[i] = re.sub("&#[0-9a-f]+;", "", textos[i])
-        print()
     return textos
 
 
 def quita_propiedad(textos, propiedades):
-    for i in textos.keys():
-        print(f"Quito propiedades: ", end="")
-        for propiedad in propiedades:
-            print(propiedad, end=" ")
-            # la línea que contenía una propiedad la dejo con un par de espacios
-            # para que se distinga de las líneas en blacno que separan reglas
-            # al buscar la propiedad le incluyo los espacios iniciales para que no
-            # borre @font-face al borrar font
-            textos[i] = re.sub(f"[ ]*{propiedad}[ .#:][^;]*;", "  ", textos[i])
-        print()
+    print("Quito propiedades: ", end="")
+    for propiedad in propiedades:
+        print(propiedad, end=" ")
+        for i in textos.keys():
+            # Busca la propiedad desde el principio de la línea para que no
+            # borre @font-face al borrar font o el right de border-right al borrar right
+            # Necesita el flag=re.MULTILINE para hacer caso del ^ inicial
+            # La línea que contenía una propiedad la dejo con un par de espacios
+            # para que se distinga de las líneas en blanco que separan reglas
+            cadena = f"^[ ]*{propiedad}[ .#:][^;]*;"
+            textos[i] = re.sub(cadena, "  ", textos[i], flags=re.MULTILINE)
+    print()
     return textos
 
 
 def quita_regla_arroba(textos, reglas):
-    for i in textos.keys():
-        print(f"Quito reglas arroba: ", end="")
-        for regla in reglas:
+    print("Quito reglas arroba: ", end="")
+    for regla in reglas:
+        for i in textos.keys():
             print(regla, end=" ")
             textos[i] = re.sub(f"@{regla}[^}}]*}}", "", textos[i])
-        print()
+    print()
     return textos
 
 
 def quita_lineas_vacias(textos):
     for i in textos.keys():
-        print(f"Quito líneas vacías")
+        # print("Quito líneas vacías")
         textos[i] = re.sub("[ ]+\n", "", textos[i])
         # Deja una línea en blanco a lo largo del fichero
         textos[i], cambios = re.subn("\n\n\n", "\n\n", textos[i])
@@ -95,23 +103,21 @@ def quita_lineas_vacias(textos):
 
 def quita_reglas_vacias(textos):
     for i in textos.keys():
-        print(f"Quito reglas vacías")
+        # print("Quito reglas vacías")
         textos[i] = re.sub("\n[^(\n{)]+{[\n ]*}\n", "", textos[i])
     return textos
 
 
 def quita_sangrado(textos):
     for i in textos.keys():
-        print(f"Quito sangrado")
+        # print("Quito sangrado")
         textos[i] = re.sub("\n  [ ]+", "\n  ", textos[i])
     return textos
 
 
 def aplica_reglas(ficheros, paso):
-    # print(paso)
     for accion in paso.keys():
         argumento = paso[accion]
-        # print(accion, argumento)
         if accion == "tag":
             ficheros["html"] = quita_etiqueta(ficheros["html"], argumento)
         elif accion == "property":
@@ -131,35 +137,51 @@ def limpia(ficheros):
 
 
 def main():
-    # Carga sitio, revistas y ejemplares
-    with open(PLANTILLA_JSON, encoding="utf-8") as json_file:
-        plantilla = json.load(json_file)
+    # Carga json pasos
+    with open(JSON_STEPS, encoding="utf-8") as json_file:
+        json_steps = json.load(json_file)
+    steps = json_steps["steps"]
 
+    # Usuario elige Elementos obligatorios / Elementos obligatorios y opcionales
     print("Elija una opción:")
-    print("(a) sólo elementos obligatorios:")
-    print("(b) elementos obligatorios y optativos")
+    print("(1) sólo elementos obligatorios:")
+    print("(2) elementos obligatorios y optativos")
     nivel = input()
     while nivel != OBL and nivel != OBL_OPT:
         nivel = input()
 
-    ficheros = carga_ficheros(plantilla)
-    for i in range(len(plantilla["steps"]), 0, -1):
+    # Carga json ficheros
+    with open(JSON_FILES, encoding="utf-8") as json_file:
+        json_files = json.load(json_file)
+    ejercicios = json_files["pages"]
+
+    # Usuario elige Ejercicio a procesar
+    print("Elija un ejercicio:")
+    for i in ejercicios:
+        print(f'({i}) {ejercicios[i]["name"]}')
+    ejercicio = input()
+    while ejercicio not in ejercicios:
+        ejercicio = input()
+
+    # Genera pasos intermedios
+    ficheros = carga_ficheros(ejercicios[ejercicio])
+    for i in range(len(steps), 0, -1):
         print(f"Hago paso {i}")
-        ficheros = aplica_reglas(ficheros, plantilla["steps"][str(i)]["compulsory"])
-        if "optional" in plantilla["steps"][str(i)]:
-            ficheros = aplica_reglas(ficheros, plantilla["steps"][str(i)]["optional"])
+        ficheros = aplica_reglas(ficheros, steps[str(i)]["compulsory"])
+        if "optional" in steps[str(i)]:
+            ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
         limpia(ficheros)
         graba_ficheros(ficheros, str(i))
         print()
 
-    ficheros = carga_ficheros(plantilla)
-    final = len(plantilla["steps"]) + 1
-    print(f"Hago paso {final}")
+    # Genera paso final (igual que original, pero quitando optativos en su caso)
+    ficheros = carga_ficheros(ejercicios[ejercicio])
+    final = len(steps) + 1
+    print(f"Hago paso {final} (final)")
     if nivel == OBL:
-        print("HOLA")
-        for i in range(len(plantilla["steps"]), 0, -1):
-            if "optional" in plantilla["steps"][str(i)]:
-                ficheros = aplica_reglas(ficheros, plantilla["steps"][str(i)]["optional"])
+        for i in range(len(steps), 0, -1):
+            if "optional" in steps[str(i)]:
+                ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
     graba_ficheros(ficheros, str(final))
     print()
 

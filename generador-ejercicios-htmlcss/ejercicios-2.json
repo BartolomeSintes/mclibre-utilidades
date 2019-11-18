@@ -1,0 +1,39 @@
+{
+    "comments": {
+        "author": "Bartolomé Sintes Marco",
+        "date": "2019-11-18",
+        "description": "School year 2019/20 ASIR LMSGI"
+    },
+    "pages" : {
+        "1": {
+            "name": "Shakespeare quotes",
+            "type": "exam",
+            "directory": "shakespeare-quotes",
+            "files" : {
+                "html": [
+                    "shakespeare-quotes.html"
+                ],
+                "css": [
+                    "shakespeare-quotes.css"
+                ],
+                "img": [],
+                "font": []
+            }
+        },
+        "2": {
+            "name": "Lorem ipsum",
+            "type": "exam",
+            "directory": "lorem-ipsum",
+            "files" : {
+                "html": [
+                    "lorem-ipsum.html"
+                ],
+                "css": [
+                    "lorem-ipsum.css"
+                ],
+                "img": [],
+                "font": []
+            }
+        }
+    }
+}

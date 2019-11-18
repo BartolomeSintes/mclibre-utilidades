@@ -21,3 +21,7 @@ Esta aplicación genera ejercicios de html/css
     -   que no sobran o faltan etiquetas o propiedades (tendría que tener listado completo)
 
 -   2019-11-17. width y height es un caso especial. Puede ir ligado a position o no. Pensar cómo tratar ese caso.
+
+-   2019-11-18. Falta gestionar las imágenes y las fuentes, es decir, que las copie en las carpetas si se utilizan en la página.
+
+-   2019-11-18. Podría hacer un segundo json que contuviera los ficheros de cada ejercicio y que el programa preguntara qué página se quiere reescribir. La salida del programa se podría guardar en una carpeta con el nombre del ejercicio y así dar la opción de procesar todos los ejercicios.

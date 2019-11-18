@@ -1,18 +1,8 @@
 {
     "comments": {
         "author": "Bartolomé Sintes Marco",
-        "date": "2019-11-16",
+        "date": "2019-11-18",
         "description": "School year 2019/20 ASIR LMSGI"
-    },
-    "files": {
-        "html": [
-            "shakespeare-quotes.html"
-        ],
-        "css": [
-            "shakespeare-quotes.css"
-        ],
-        "img": [],
-        "font": []
     },
     "steps": {
         "1": {
@@ -36,7 +26,10 @@
             "compulsory":
             {
                 "tag": ["details", "summary"],
-                "property": ["box-sizing", "border", "border-top", "border-right", "border-bottom", "border-left", "border-radius", "border-top-right-radius", "border-bottom-right-radius", "border-bottom-left-radius", "border-top-left-radius", "border-color", "border-width", "border-style", "border-top-color", "border-top-width", "border-top-style", "border-right-color", "border-right-width", "border-right-style", "border-bottom-color", "border-bottom-width", "border-bottom-style", "border-left-color", "border-left-width", "border-left-style", "margin", "margin-top", "margin-right", "margin-bottom", "margin-left", "padding", "padding-top", "padding-right", "padding-bottom", "padding-left"]
+                "property": ["border", "border-top", "border-right", "border-bottom", "border-left", "border-radius", "border-top-right-radius", "border-bottom-right-radius", "border-bottom-left-radius", "border-top-left-radius", "border-color", "border-width", "border-style", "border-top-color", "border-top-width", "border-top-style", "border-right-color", "border-right-width", "border-right-style", "border-bottom-color", "border-bottom-width", "border-bottom-style", "border-left-color", "border-left-width", "border-left-style", "margin", "margin-top", "margin-right", "margin-bottom", "margin-left", "padding", "padding-top", "padding-right", "padding-bottom", "padding-left"]
+            },
+            "optional": {
+                "property": ["box-sizing"]
             }
         },
         "4": {
