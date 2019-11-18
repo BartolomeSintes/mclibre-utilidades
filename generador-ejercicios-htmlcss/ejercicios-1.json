@@ -4,12 +4,15 @@
         "date": "2019-11-18",
         "description": "School year 2019/20 ASIR LMSGI"
     },
+    "unused": {
+        "tag": [ "bdi", "bdo", "code", "data", "rp", "rt", "ruby", "u", "var", "wbr"]
+    },
     "steps": {
         "1": {
             "compulsory":
             {
                 "tag": ["link", "meta name=\"viewport\"", "address", "blockquote", "br", "div", "h1", "h2", "h3", "h4", "h5", "h6", "hr", "p", "pre"],
-                "property": ["background-color", "color", "font-family", "font-size", "font-style", "font-weight", "text-align", "text-decoration", "text-indent", "text-transform", "text-shadow"]
+                "property": ["background-color", "color", "font-family", "font-size", "font-style", "font-weight", "text-align", "text-decoration", "text-indent", "text-transform", "text-shadow", "width", "height"]
             },
             "optional": {
                 "property": ["font", "font-variant", "vertical-align", "letter-spacing", "word-spacing", "white-space", "direction", "unicode-bidi"]
@@ -20,6 +23,10 @@
             {
                 "tag": ["em", "span", "strong"],
                 "property": ["line-height"]
+            },
+            "optional": {
+                "tag": ["abbr", "b", "cite", "del", "dfn", "i", "ins", "kbd", "mark", "q", "s", "small", "sub", "sup", "time"],
+                "property": []
             }
         },
         "3": {
@@ -50,7 +57,7 @@
         "6": {
             "compulsory":
             {
-                "property": ["position", "top", "right", "bottom", "left", "z-index", "min-width", "min-height", "max-width", "max-height"],
+                "property": ["position", "top", "right", "bottom", "left", "z-index", "min-width", "min-height", "max-width", "max-height", "overflow"],
                 "related-properties" : [
                     { "property": "width", "related": "position"},
                     { "property": "width", "related": "float"},

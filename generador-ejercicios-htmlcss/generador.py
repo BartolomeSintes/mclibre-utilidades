@@ -2,19 +2,20 @@ import json, pathlib, re, shutil
 
 JSON_STEPS = "ejercicios-1.json"
 JSON_FILES = "ejercicios-2.json"
-DIR_FILES = "files"
+DIR_FILES_SOURCE = "files/source"
+DIR_FILES_FINAL = "files/final"
 OBL = "1"
 OBL_OPT = "2"
 
 
-def carga_ficheros(ficheros):
+def carga_ficheros(ejercicio):
     ficheros_html = {}
-    directorio = f'{DIR_FILES}/{ficheros["directory"]}'
-    for i in ficheros["files"]["html"]:
+    directorio = f'{DIR_FILES_SOURCE}/{ejercicio["directory"]}'
+    for i in ejercicio["files"]["html"]:
         with open(f"{directorio}/{i}", "r", encoding="utf-8") as fichero:
             ficheros_html[i] = fichero.read()
     ficheros_css = {}
-    for i in ficheros["files"]["css"]:
+    for i in ejercicio["files"]["css"]:
         with open(f"{directorio}/{i}", "r", encoding="utf-8") as fichero:
             ficheros_css[i] = fichero.read()
             # Añade salto de línea al final de CSS por si no lo hay
@@ -22,21 +23,27 @@ def carga_ficheros(ficheros):
     return {"html": ficheros_html, "css": ficheros_css}
 
 
-def graba_ficheros(ficheros, n):
-    p = pathlib.Path(f"{DIR_FILES}/{n}")
+def borra_directorio_final(ejercicio):
+    directorio = f'{DIR_FILES_FINAL}/{ejercicio["directory"]}'
+    p = pathlib.Path(directorio)
     if p.exists():
-        shutil.rmtree(p)
+        shutil.rmtree(p, ignore_errors=True)
+
+
+def graba_ficheros(ejercicio, ficheros, n):
+    directorio = f'{DIR_FILES_FINAL}/{ejercicio["directory"]}'
+    p = pathlib.Path(f"{directorio}/{n}")
     p.mkdir(parents=True, exist_ok=True)
     print("Guardo html: ", end="")
     for i in ficheros["html"]:
         print(i, end=" ")
-        with open(f"{DIR_FILES}/{n}/{i}", "w", encoding="utf-8") as fichero:
+        with open(f"{directorio}/{n}/{i}", "w", encoding="utf-8") as fichero:
             fichero.write(ficheros["html"][i])
     print()
     print("Guardo css: ", end="")
     for i in ficheros["css"]:
         print(i, end=" ")
-        with open(f"{DIR_FILES}/{n}/{i}", "w", encoding="utf-8") as fichero:
+        with open(f"{directorio}/{n}/{i}", "w", encoding="utf-8") as fichero:
             fichero.write(ficheros["css"][i])
     print()
 
@@ -92,10 +99,16 @@ def quita_propiedades_relacionadas(textos, propiedades):
         for i in textos.keys():
             reglas_encontradas = re.findall(patron_regla, textos[i], flags=re.MULTILINE)
             for j in reglas_encontradas:
-                if re.search(propiedad_eliminar, j, flags=re.MULTILINE) and re.search(propiedad_relacionada, j, flags=re.MULTILINE):
-                    regla_cambiada = re.sub(propiedad_eliminar, "  ", j, flags=re.MULTILINE)
+                if re.search(propiedad_eliminar, j, flags=re.MULTILINE) and re.search(
+                    propiedad_relacionada, j, flags=re.MULTILINE
+                ):
+                    regla_cambiada = re.sub(
+                        propiedad_eliminar, "  ", j, flags=re.MULTILINE
+                    )
                     # IMPORTANTE: Hay que escapar j porque puede incluir % (y no se haría la susitutción)
-                    textos[i] = re.sub(re.escape(j), regla_cambiada, textos[i], flags=re.MULTILINE)
+                    textos[i] = re.sub(
+                        re.escape(j), regla_cambiada, textos[i], flags=re.MULTILINE
+                    )
     print()
     return textos
 
@@ -156,8 +169,9 @@ def aplica_reglas(ficheros, paso):
     return ficheros
 
 
-def limpia(ficheros):
-    ficheros["html"] = quita_entidades_numericas(ficheros["html"])
+def limpia(ficheros, step):
+    if step == 1 or step == 2:
+        ficheros["html"] = quita_entidades_numericas(ficheros["html"])
     ficheros["html"] = quita_sangrado(ficheros["html"])
     return ficheros
 
@@ -182,40 +196,50 @@ def main():
     ejercicios = json_files["pages"]
 
     # Usuario elige Ejercicio a procesar
+
     print("Elija un ejercicio:")
+    print("(0) Todos los ejercicios")
     for i in ejercicios:
         print(f'({i}) {ejercicios[i]["name"]}')
     ejercicio = input()
-    while ejercicio not in ejercicios:
+    print(ejercicio)
+    while ejercicio not in ["0"] + list(ejercicios.keys()):
         ejercicio = input()
 
-    # Genera pasos intermedios
-    ficheros = carga_ficheros(ejercicios[ejercicio])
-    # Si sólo queremos elementos obligatorios, primero elimina los optativos
-    if nivel == OBL:
-        for i in range(len(steps), 0, -1):
-            if "optional" in steps[str(i)]:
-                ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
-    for i in range(len(steps), 0, -1):
-        print(f"Hago paso {i}")
-        ficheros = aplica_reglas(ficheros, steps[str(i)]["compulsory"])
-        if "optional" in steps[str(i)]:
-            ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
-        limpia(ficheros)
-        graba_ficheros(ficheros, str(i))
-        print()
+    if ejercicio == "0":
+        rango = list(ejercicios.keys())
+    else:
+        rango = [ejercicio]
 
-    # Genera paso final (igual que original, pero quitando optativos en su caso)
-    ficheros = carga_ficheros(ejercicios[ejercicio])
-    # Si sólo queremos elementos obligatorios, primero elimina los optativos
-    if nivel == OBL:
+    # Genera pasos intermedios
+    for n in rango:
+        ficheros = carga_ficheros(ejercicios[n])
+        borra_directorio_final(ejercicios[n])
+        # Si sólo queremos elementos obligatorios, primero elimina los optativos
+        if nivel == OBL:
+            for i in range(len(steps), 0, -1):
+                if "optional" in steps[str(i)]:
+                    ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
         for i in range(len(steps), 0, -1):
+            print(f"Hago paso {i}")
+            ficheros = aplica_reglas(ficheros, steps[str(i)]["compulsory"])
             if "optional" in steps[str(i)]:
                 ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
-    final = len(steps) + 1
-    print(f"Hago paso {final} (final)")
-    graba_ficheros(ficheros, str(final))
-    print()
+            limpia(ficheros, i)
+            graba_ficheros(ejercicios[n], ficheros, str(i))
+            print()
+
+        # Genera paso final (igual que original, pero quitando optativos en su caso)
+        ficheros = carga_ficheros(ejercicios[n])
+        # Si sólo queremos elementos obligatorios, primero elimina los optativos
+        if nivel == OBL:
+            for i in range(len(steps), 0, -1):
+                if "optional" in steps[str(i)]:
+                    ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
+        final = len(steps) + 1
+        print(f"Hago paso {final} (final)")
+        graba_ficheros(ejercicios[n], ficheros, str(final))
+        print()
 
 
 if __name__ == "__main__":
