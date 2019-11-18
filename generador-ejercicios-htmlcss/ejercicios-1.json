@@ -50,7 +50,13 @@
         "6": {
             "compulsory":
             {
-                "property": ["position", "top", "right", "bottom", "left", "z-index", "min-width", "min-height", "max-width", "max-height"]
+                "property": ["position", "top", "right", "bottom", "left", "z-index", "min-width", "min-height", "max-width", "max-height"],
+                "related-properties" : [
+                    { "property": "width", "related": "position"},
+                    { "property": "width", "related": "float"},
+                    { "property": "height", "related": "position"},
+                    { "property": "height", "related": "float"}
+                ]
             }
         }
     }

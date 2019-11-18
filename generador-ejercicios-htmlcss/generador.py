@@ -9,13 +9,13 @@ OBL_OPT = "2"
 
 def carga_ficheros(ficheros):
     ficheros_html = {}
-    dir = f'{DIR_FILES}/{ficheros["directory"]}'
+    directorio = f'{DIR_FILES}/{ficheros["directory"]}'
     for i in ficheros["files"]["html"]:
-        with open(f"{dir}/{i}", "r", encoding="utf-8") as fichero:
+        with open(f"{directorio}/{i}", "r", encoding="utf-8") as fichero:
             ficheros_html[i] = fichero.read()
     ficheros_css = {}
     for i in ficheros["files"]["css"]:
-        with open(f"{dir}/{i}", "r", encoding="utf-8") as fichero:
+        with open(f"{directorio}/{i}", "r", encoding="utf-8") as fichero:
             ficheros_css[i] = fichero.read()
             # Añade salto de línea al final de CSS por si no lo hay
             ficheros_css[i] = re.sub(r"\Z", "\n", ficheros_css[i])
@@ -72,6 +72,30 @@ def quita_propiedad(textos, propiedades):
             # para que se distinga de las líneas en blanco que separan reglas
             cadena = f"^[ ]*{propiedad}[ .#:][^;]*;"
             textos[i] = re.sub(cadena, "  ", textos[i], flags=re.MULTILINE)
+            # No sé si se debe hacer como en quita_propiedades_relacionadas, escapando la j
+            # o como es una sola línea se hace la sustitución
+            # propiedades_encontradas = re.findall(cadena, textos[i], flags=re.MULTILINE)
+            # for j in propiedades_encontradas:
+            #     print (f"Cadena: {j}")
+            #     textos[i] = re.sub(re.escape(j), "  ", textos[i], flags=re.MULTILINE)
+    print()
+    return textos
+
+
+def quita_propiedades_relacionadas(textos, propiedades):
+    print("Quito propiedades relacionadas: ", end="")
+    for propiedad in propiedades:
+        print(f'{propiedad["property"]}/{propiedad["related"]}', end=" ")
+        patron_regla = f"^[^{{]*{{[^}}]*}}"
+        propiedad_eliminar = f'^[ ]*{propiedad["property"]}[ .#:][^;]*;'
+        propiedad_relacionada = f'^[ ]*{propiedad["related"]}[ .#:][^;]*;'
+        for i in textos.keys():
+            reglas_encontradas = re.findall(patron_regla, textos[i], flags=re.MULTILINE)
+            for j in reglas_encontradas:
+                if re.search(propiedad_eliminar, j, flags=re.MULTILINE) and re.search(propiedad_relacionada, j, flags=re.MULTILINE):
+                    regla_cambiada = re.sub(propiedad_eliminar, "  ", j, flags=re.MULTILINE)
+                    # IMPORTANTE: Hay que escapar j porque puede incluir % (y no se haría la susitutción)
+                    textos[i] = re.sub(re.escape(j), regla_cambiada, textos[i], flags=re.MULTILINE)
     print()
     return textos
 
@@ -124,6 +148,8 @@ def aplica_reglas(ficheros, paso):
             ficheros["css"] = quita_propiedad(ficheros["css"], argumento)
         elif accion == "atrule":
             ficheros["css"] = quita_regla_arroba(ficheros["css"], argumento)
+        elif accion == "related-properties":
+            ficheros["css"] = quita_propiedades_relacionadas(ficheros["css"], argumento)
     ficheros["html"] = quita_lineas_vacias(ficheros["html"])
     ficheros["css"] = quita_lineas_vacias(ficheros["css"])
     ficheros["css"] = quita_reglas_vacias(ficheros["css"])
@@ -143,7 +169,7 @@ def main():
     steps = json_steps["steps"]
 
     # Usuario elige Elementos obligatorios / Elementos obligatorios y opcionales
-    print("Elija una opción:")
+    print("Elija una opción. El resultado final contiene:")
     print("(1) sólo elementos obligatorios:")
     print("(2) elementos obligatorios y optativos")
     nivel = input()
@@ -165,6 +191,11 @@ def main():
 
     # Genera pasos intermedios
     ficheros = carga_ficheros(ejercicios[ejercicio])
+    # Si sólo queremos elementos obligatorios, primero elimina los optativos
+    if nivel == OBL:
+        for i in range(len(steps), 0, -1):
+            if "optional" in steps[str(i)]:
+                ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
     for i in range(len(steps), 0, -1):
         print(f"Hago paso {i}")
         ficheros = aplica_reglas(ficheros, steps[str(i)]["compulsory"])
@@ -176,12 +207,13 @@ def main():
 
     # Genera paso final (igual que original, pero quitando optativos en su caso)
     ficheros = carga_ficheros(ejercicios[ejercicio])
-    final = len(steps) + 1
-    print(f"Hago paso {final} (final)")
+    # Si sólo queremos elementos obligatorios, primero elimina los optativos
     if nivel == OBL:
         for i in range(len(steps), 0, -1):
             if "optional" in steps[str(i)]:
                 ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
+    final = len(steps) + 1
+    print(f"Hago paso {final} (final)")
     graba_ficheros(ficheros, str(final))
     print()
 
