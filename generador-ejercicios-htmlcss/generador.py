@@ -57,14 +57,22 @@ def quita_etiqueta(textos, etiquetas):
             textos[i] = re.sub(f"<{etiqueta} [^>]*>", "", textos[i])
             textos[i] = re.sub(f"</{etiqueta}>", "", textos[i])
     print()
-    return textos
 
 
 def quita_entidades_numericas(textos):
     for i in textos.keys():
         # print("Quito entidades numéricas")
         textos[i] = re.sub("&#[0-9a-f]+;", "", textos[i])
-    return textos
+
+
+def sustituye_entidades_caracter(textos, step):
+    if step == 1:
+        for i in textos.keys():
+            print(textos[i])
+            # print("Sustituyo entidades de carácter")
+            textos[i] = re.sub("&lt;", "<", textos[i])
+            textos[i] = re.sub("&gt;", ">", textos[i])
+            textos[i] = re.sub("&amp;", "&", textos[i])
 
 
 def quita_propiedad(textos, propiedades):
@@ -86,7 +94,6 @@ def quita_propiedad(textos, propiedades):
             #     print (f"Cadena: {j}")
             #     textos[i] = re.sub(re.escape(j), "  ", textos[i], flags=re.MULTILINE)
     print()
-    return textos
 
 
 def quita_propiedades_relacionadas(textos, propiedades):
@@ -110,7 +117,6 @@ def quita_propiedades_relacionadas(textos, propiedades):
                         re.escape(j), regla_cambiada, textos[i], flags=re.MULTILINE
                     )
     print()
-    return textos
 
 
 def quita_regla_arroba(textos, reglas):
@@ -120,7 +126,6 @@ def quita_regla_arroba(textos, reglas):
             print(regla, end=" ")
             textos[i] = re.sub(f"@{regla}[^}}]*}}", "", textos[i])
     print()
-    return textos
 
 
 def quita_lineas_vacias(textos):
@@ -135,45 +140,40 @@ def quita_lineas_vacias(textos):
         textos[i], cambios = re.subn(r"\n\n\Z", "\n", textos[i])
         while cambios:
             textos[i], cambios = re.subn(r"\n\n\Z", "\n", textos[i])
-    return textos
 
 
 def quita_reglas_vacias(textos):
     for i in textos.keys():
         # print("Quito reglas vacías")
         textos[i] = re.sub("\n[^(\n{)]+{[\n ]*}\n", "", textos[i])
-    return textos
 
 
 def quita_sangrado(textos):
     for i in textos.keys():
         # print("Quito sangrado")
         textos[i] = re.sub("\n  [ ]+", "\n  ", textos[i])
-    return textos
 
 
 def aplica_reglas(ficheros, paso):
     for accion in paso.keys():
         argumento = paso[accion]
         if accion == "tag":
-            ficheros["html"] = quita_etiqueta(ficheros["html"], argumento)
+            quita_etiqueta(ficheros["html"], argumento)
         elif accion == "property":
-            ficheros["css"] = quita_propiedad(ficheros["css"], argumento)
+            quita_propiedad(ficheros["css"], argumento)
         elif accion == "atrule":
-            ficheros["css"] = quita_regla_arroba(ficheros["css"], argumento)
+            quita_regla_arroba(ficheros["css"], argumento)
         elif accion == "related-properties":
-            ficheros["css"] = quita_propiedades_relacionadas(ficheros["css"], argumento)
-    ficheros["html"] = quita_lineas_vacias(ficheros["html"])
-    ficheros["css"] = quita_lineas_vacias(ficheros["css"])
-    ficheros["css"] = quita_reglas_vacias(ficheros["css"])
-    return ficheros
+            quita_propiedades_relacionadas(ficheros["css"], argumento)
+    quita_lineas_vacias(ficheros["html"])
+    quita_lineas_vacias(ficheros["css"])
+    quita_reglas_vacias(ficheros["css"])
 
 
 def limpia(ficheros, step):
     if step == 1 or step == 2:
-        ficheros["html"] = quita_entidades_numericas(ficheros["html"])
-    ficheros["html"] = quita_sangrado(ficheros["html"])
-    return ficheros
+        quita_entidades_numericas(ficheros["html"])
+    quita_sangrado(ficheros["html"])
 
 
 def main():
@@ -219,13 +219,14 @@ def main():
         if nivel == OBL:
             for i in range(len(steps), 0, -1):
                 if "optional" in steps[str(i)]:
-                    ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
+                    aplica_reglas(ficheros, steps[str(i)]["optional"])
         for i in range(len(steps), 0, -1):
             print(f"Hago paso {i}")
-            ficheros = aplica_reglas(ficheros, steps[str(i)]["compulsory"])
+            aplica_reglas(ficheros, steps[str(i)]["compulsory"])
             if "optional" in steps[str(i)]:
-                ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
+                aplica_reglas(ficheros, steps[str(i)]["optional"])
             limpia(ficheros, i)
+            sustituye_entidades_caracter(ficheros["html"], i)
             graba_ficheros(ejercicios[n], ficheros, str(i))
             print()
 
@@ -235,7 +236,7 @@ def main():
         if nivel == OBL:
             for i in range(len(steps), 0, -1):
                 if "optional" in steps[str(i)]:
-                    ficheros = aplica_reglas(ficheros, steps[str(i)]["optional"])
+                    aplica_reglas(ficheros, steps[str(i)]["optional"])
         final = len(steps) + 1
         print(f"Hago paso {final} (final)")
         graba_ficheros(ejercicios[n], ficheros, str(final))

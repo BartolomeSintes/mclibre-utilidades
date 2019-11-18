@@ -9,6 +9,7 @@
     },
     "steps": {
         "1": {
+            "planning": "empty",
             "compulsory":
             {
                 "tag": ["link", "meta name=\"viewport\"", "address", "blockquote", "br", "div", "h1", "h2", "h3", "h4", "h5", "h6", "hr", "p", "pre"],
@@ -19,6 +20,7 @@
             }
         },
         "2": {
+            "planning": "Q02",
             "compulsory":
             {
                 "tag": ["em", "span", "strong"],
@@ -30,6 +32,7 @@
             }
         },
         "3": {
+            "planning": "Q03",
             "compulsory":
             {
                 "tag": ["details", "summary"],
@@ -40,6 +43,7 @@
             }
         },
         "4": {
+            "planning": "Q04",
             "compulsory":
             {
                 "tag": ["img"],
@@ -48,6 +52,7 @@
             }
         },
         "5": {
+            "planning": "Q05",
             "compulsory":
             {
                 "tag": ["a", "article", "aside", "footer", "header", "main", "nav", "section"],
@@ -55,6 +60,7 @@
             }
         },
         "6": {
+            "planning": "Q06",
             "compulsory":
             {
                 "property": ["position", "top", "right", "bottom", "left", "z-index", "min-width", "min-height", "max-width", "max-height", "overflow"],
