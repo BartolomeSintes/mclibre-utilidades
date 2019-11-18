@@ -1,13 +1,7 @@
 # Barto 25 de febrero de 2018
-# Este programa convierte las tablas exportadas de Access en bonitas páginas Web
-
-# Nota: Al poner la fecha de modificaciones y novedades hay que poner el día siguiente
-# de la última recopilación, para que no salga un programa incluido el último día.
-
-# COSAS POR HACER
+# Este programa genera bonitas páginas Web
 
 import json, pathlib, shutil, imagesize, operator, time
-
 
 SITIO = "sitio.json"
 REVISTAS = "revistas.json"

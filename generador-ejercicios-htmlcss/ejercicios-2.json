@@ -6,7 +6,7 @@
     },
     "pages" : {
         "1": {
-            "name": "Shakespeare quotes",
+            "name": "Shakespeare quotes (examen 18/19 Semi E1 15/01/2019)",
             "type": "exam",
             "directory": "shakespeare-quotes",
             "files" : {
@@ -21,7 +21,7 @@
             }
         },
         "2": {
-            "name": "Lorem ipsum",
+            "name": "Lorem ipsum (examen 18/19 Semi E1 15/01/2019)",
             "type": "exam",
             "directory": "lorem-ipsum",
             "files" : {
