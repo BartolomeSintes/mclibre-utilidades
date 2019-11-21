@@ -1,11 +1,39 @@
 import json, pathlib, re, shutil
+from datetime import date, datetime
+
 
 JSON_STEPS = "ejercicios-1.json"
-JSON_FILES = "ejercicios-2.json"
+JSON_SYLLABUS = "ejercicios-2.json"
 DIR_FILES_SOURCE = "files/source"
 DIR_FILES_FINAL = "files/final"
 OBL = "1"
 OBL_OPT = "2"
+INDEX = "index.html"
+MES = [
+    "",
+    "enero",
+    "febrero",
+    "marzo",
+    "abril",
+    "mayo",
+    "junio",
+    "julio",
+    "agosto",
+    "septiembre",
+    "octubre",
+    "noviembre",
+    "diciembre",
+]
+
+
+def fecha_a_texto(numero):
+    return (
+        str(int(numero[8:10]))
+        + " de "
+        + MES[int(numero[5:7])]
+        + " de "
+        + str(numero[0:4])
+    )
 
 
 def carga_ficheros(ejercicio):
@@ -48,6 +76,25 @@ def graba_ficheros(ejercicio, ficheros, n):
     print()
 
 
+def copia_ficheros(ejercicio, n):
+    directorio_origen = f'{DIR_FILES_SOURCE}/{ejercicio["directory"]}'
+    directorio_destino = f'{DIR_FILES_FINAL}/{ejercicio["directory"]}'
+    # Copia imágenes y webfonts
+    for tipo in ["img", "font"]:
+        for i in ejercicio["files"][tipo]:
+            if i["directory"] == "":
+                p = pathlib.Path(f"{directorio_destino}/{n}")
+            else:
+                p = pathlib.Path(f'{directorio_destino}/{n}/{i["directory"]}')
+                p.mkdir(parents=True, exist_ok=True)
+            print("Guardo html: ", end="")
+            for j in i["files"]:
+                shutil.copy2(
+                    f'{directorio_origen}/{i["directory"]}/{j}',
+                    f'{directorio_destino}/{n}/{i["directory"]}/{j}',
+                )
+
+
 def quita_etiqueta(textos, etiquetas):
     print("Quito etiquetas: ", end="")
     for etiqueta in etiquetas:
@@ -62,13 +109,12 @@ def quita_etiqueta(textos, etiquetas):
 def quita_entidades_numericas(textos):
     for i in textos.keys():
         # print("Quito entidades numéricas")
-        textos[i] = re.sub("&#[0-9a-f]+;", "", textos[i])
+        textos[i] = re.sub("&#[x0-9a-f]+;", "", textos[i])
 
 
 def sustituye_entidades_caracter(textos, step):
     if step == 1:
         for i in textos.keys():
-            print(textos[i])
             # print("Sustituyo entidades de carácter")
             textos[i] = re.sub("&lt;", "<", textos[i])
             textos[i] = re.sub("&gt;", ">", textos[i])
@@ -190,10 +236,11 @@ def main():
     while nivel != OBL and nivel != OBL_OPT:
         nivel = input()
 
-    # Carga json ficheros
-    with open(JSON_FILES, encoding="utf-8") as json_file:
-        json_files = json.load(json_file)
-    ejercicios = json_files["pages"]
+    # Carga json temario
+    with open(JSON_SYLLABUS, encoding="utf-8") as json_file:
+        json_syllabus = json.load(json_file)
+    ejercicios = json_syllabus["pages"]
+    curriculum = json_syllabus["curriculum"]
 
     # Usuario elige Ejercicio a procesar
 
@@ -211,36 +258,97 @@ def main():
     else:
         rango = [ejercicio]
 
-    # Genera pasos intermedios
+    # Genera pasos intermedios y plantilla de cada ejercicio seleccionado
     for n in rango:
         ficheros = carga_ficheros(ejercicios[n])
         borra_directorio_final(ejercicios[n])
         # Si sólo queremos elementos obligatorios, primero elimina los optativos
         if nivel == OBL:
-            for i in range(len(steps), 0, -1):
-                if "optional" in steps[str(i)]:
-                    aplica_reglas(ficheros, steps[str(i)]["optional"])
-        for i in range(len(steps), 0, -1):
-            print(f"Hago paso {i}")
-            aplica_reglas(ficheros, steps[str(i)]["compulsory"])
-            if "optional" in steps[str(i)]:
-                aplica_reglas(ficheros, steps[str(i)]["optional"])
-            limpia(ficheros, i)
-            sustituye_entidades_caracter(ficheros["html"], i)
-            graba_ficheros(ejercicios[n], ficheros, str(i))
+            for i in range(len(curriculum) - 1, -1, -1):
+                for j in curriculum[i]:
+                    if "optional" in steps[j]:
+                        aplica_reglas(ficheros, steps[j]["optional"])
+        dir_name = []
+        for i in range(len(curriculum)):
+            dir_name_tmp = f"{i:02d}"
+            for j in curriculum[i]:
+                dir_name_tmp += f"-{j}"
+            dir_name += [dir_name_tmp]
+        dir_name[0] = f'{ejercicios[n]["directory"]}-plantilla'
+
+        for i in range(len(curriculum) - 1, 0, -1):
+            for j in curriculum[i]:
+                print(f"Hago paso {i}")
+                if "compulsory" in steps[j]:
+                    aplica_reglas(ficheros, steps[j]["compulsory"])
+                if "optional" in steps[j]:
+                    aplica_reglas(ficheros, steps[j]["optional"])
+                limpia(ficheros, i)
+                sustituye_entidades_caracter(ficheros["html"], i)
+            graba_ficheros(ejercicios[n], ficheros, dir_name[i - 1])
             print()
+            # Copia imágenes y webfonts
+            copia_ficheros(ejercicios[n], dir_name[i - 1])
 
         # Genera paso final (igual que original, pero quitando optativos en su caso)
         ficheros = carga_ficheros(ejercicios[n])
         # Si sólo queremos elementos obligatorios, primero elimina los optativos
         if nivel == OBL:
-            for i in range(len(steps), 0, -1):
-                if "optional" in steps[str(i)]:
-                    aplica_reglas(ficheros, steps[str(i)]["optional"])
-        final = len(steps) + 1
-        print(f"Hago paso {final} (final)")
-        graba_ficheros(ejercicios[n], ficheros, str(final))
+            for i in range(len(curriculum) - 1, 0, -1):
+                for j in curriculum[i]:
+                    if "optional" in steps[j]:
+                        aplica_reglas(ficheros, steps[j]["optional"])
+        print(f"Hago paso final")
+        graba_ficheros(ejercicios[n], ficheros, dir_name[-1])
+        # Copia imágenes y webfonts
+        copia_ficheros(ejercicios[n], dir_name[-1])
         print()
+
+        # Comprime plantilla
+        directorio_zip = f'{DIR_FILES_FINAL}/{ejercicios[n]["directory"]}/{dir_name[0]}'
+        shutil.make_archive(f"{directorio_zip}", 'zip', directorio_zip)
+
+    # Genera índice
+    t = ""
+    t += "<!DOCTYPE html>\n"
+    t += '<html lang="es">\n'
+    t += "<head>\n"
+    t += '  <meta charset="utf-8">\n'
+    t += f"  <title>Generador ejercicios HTML/CSS. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
+    t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+    t += "  <style>html { font-family: sans-serif; font-size: 150%; } li { margin-bottom: 20px; }</style>\n"
+    t += "</head>\n"
+    t += "\n"
+    t += "<body>\n"
+    t += f"  <h1>Ejercicios progresivos</h1>\n"
+
+    t += "  <ul>\n"
+
+    for n in rango:
+        dir_name = []
+        for i in range(len(curriculum)):
+            dir_name_tmp = f"{i:02d}"
+            for j in curriculum[i]:
+                dir_name_tmp += f"-{j}"
+            dir_name += [dir_name_tmp]
+        dir_name[0] = f'{ejercicios[n]["directory"]}-plantilla'
+
+        t += "    <li>\n"
+        t += f'      {ejercicios[n]["name"]}<br>\n'
+        t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[0]}.zip">Plantilla</a> - \n'
+        for i in range(1, len(curriculum)):
+            t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[i]}/{ejercicios[n]["files"]["html"][0]}">T{i}</a> - \n'
+        t += "    </li>\n"
+    t += "  </ul>\n"
+    t += "\n"
+    t += '  <address id="ultmod">\n'
+    t += "    Autor: Bartolomé Sintes Marco<br>\n"
+    t += f"    Última modificación de esta página: {fecha_a_texto(str(date.today()))}\n"
+    t += "  </address>\n"
+    t += "</body>\n"
+    t += "</html>\n"
+    with open(f"{DIR_FILES_FINAL}/{INDEX}", "w", encoding="utf-8") as fichero:
+        fichero.write(t)
 
 
 if __name__ == "__main__":

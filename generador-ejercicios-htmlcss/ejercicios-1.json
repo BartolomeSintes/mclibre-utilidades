@@ -1,15 +1,16 @@
 {
     "comments": {
         "author": "Bartolomé Sintes Marco",
-        "date": "2019-11-18",
+        "date": "2019-11-21",
         "description": "School year 2019/20 ASIR LMSGI"
     },
     "unused": {
         "tag": [ "bdi", "bdo", "code", "data", "rp", "rt", "ruby", "u", "var", "wbr"]
     },
     "steps": {
-        "1": {
-            "planning": "empty",
+        "plantilla": {
+        },
+        "basic-blocks": {
             "compulsory":
             {
                 "tag": ["link", "meta name=\"viewport\"", "address", "blockquote", "br", "div", "h1", "h2", "h3", "h4", "h5", "h6", "hr", "p", "pre"],
@@ -19,8 +20,7 @@
                 "property": ["font", "font-variant", "vertical-align", "letter-spacing", "word-spacing", "white-space", "direction", "unicode-bidi"]
             }
         },
-        "2": {
-            "planning": "Q02",
+        "inline-text": {
             "compulsory":
             {
                 "tag": ["em", "span", "strong"],
@@ -31,8 +31,9 @@
                 "property": []
             }
         },
-        "3": {
-            "planning": "Q03",
+        "classes": {
+        },
+        "box-model": {
             "compulsory":
             {
                 "tag": ["details", "summary"],
@@ -42,34 +43,53 @@
                 "property": ["box-sizing"]
             }
         },
-        "4": {
-            "planning": "Q04",
+        "webfonts": {
             "compulsory":
             {
-                "tag": ["img"],
-                "property": ["float", "clear"],
                 "atrule": ["font-face", "import"]
             }
         },
-        "5": {
-            "planning": "Q05",
+        "images": {
             "compulsory":
             {
-                "tag": ["a", "article", "aside", "footer", "header", "main", "nav", "section"],
+                "tag": ["img"],
+                "property": ["float", "clear"]
+            }
+        },
+        "links": {
+            "compulsory":
+            {
+                "tag": ["a"]
+            }
+        },
+        "sections": {
+            "compulsory":
+            {
+                "tag": ["a", "article", "aside", "footer", "header", "main", "nav", "section"]
+            }
+        },
+        "backgrounds": {
+            "compulsory":
+            {
                 "property": ["background", "background-attachment", "background-clip", "background-image", "background-origin", "background-position", "background-repeat", "background-size"]
             }
         },
-        "6": {
-            "planning": "Q06",
+        "size": {
             "compulsory":
             {
-                "property": ["position", "top", "right", "bottom", "left", "z-index", "min-width", "min-height", "max-width", "max-height", "overflow"],
+                "property": ["min-width", "min-height", "max-width", "max-height", "overflow"],
                 "related-properties" : [
                     { "property": "width", "related": "position"},
                     { "property": "width", "related": "float"},
                     { "property": "height", "related": "position"},
                     { "property": "height", "related": "float"}
                 ]
+            }
+        },
+        "position": {
+            "compulsory":
+            {
+                "property": ["position", "top", "right", "bottom", "left", "z-index"]
             }
         }
     }

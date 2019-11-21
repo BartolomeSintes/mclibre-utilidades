@@ -1,62 +1,75 @@
 {
     "comments": {
         "author": "Bartolomé Sintes Marco",
-        "date": "2019-11-18",
+        "date": "2019-11-21",
         "description": "School year 2019/20 ASIR LMSGI"
     },
+    "curriculum" : [
+        ["plantilla"],
+        ["basic-blocks"],
+        ["inline-text"],
+        ["classes"],
+        ["box-model"],
+        ["webfonts"],
+        ["images"],
+        ["links"],
+        ["sections"],
+        ["backgrounds"],
+        ["size", "position"]
+    ],
     "pages" : {
         "1": {
-            "name": "El software libre (examen 16/17 Presencial E1 25/11/2016)",
-            "type": "exam",
-            "directory": "software-libre",
-            "files": {
-                "html": ["software-libre-formateado.html"],
-                "css": ["software-libre.css"],
-                "img": [],
-                "font": []
-            }
-        },
-        "2": {
-            "name": "El Peak Oil (examen 16/17 Semi E1 16/01/2017)",
-            "type": "exam",
-            "directory": "peakoil",
-            "files": {
-                "html": ["peakoil-formateado.html"],
-                "css": ["peakoil.css"],
-                "img": [],
-                "font": []
-            }
-        },
-        "3": {
             "name": "Copyright y dominio público (examen 18/19 Semi E1 17/01/2018)",
             "type": "exam",
             "directory": "copyright-dominio-publico",
             "files": {
-                "html": ["dominio-publico-formateado.html"],
+                "html": ["dominio-publico.html"],
                 "css": ["dominio-publico.css"],
+                "img": [{"directory" : "img", "files": ["copyright.svg", "lawrence-lessig.jpg", "public-domain.svg", "sonny-bono.jpg"]}],
+                "font":  []
+            }
+        },
+        "2": {
+            "name": "Dominio público en España (examen 18/19 Presencial E1 23/11/2018)",
+            "type": "exam",
+            "directory": "dominio-publico-espana",
+            "files": {
+                "html": ["dominio-publico.html"],
+                "css": ["dominio-publico.css"],
+                "img": [{"directory" : "img", "files": ["edith-wharton.jpg", "h-p-lovecraft.jpg", "public-domain.svg", "robert-howard.jpg"]}],
+                "font":  [{"directory" : "", "files": ["righteous.woff2"]}]
+            }
+        },
+        "3": {
+            "name": "Licencias de software libre permisivas (examen 18/19 Presencial E1 23/11/2018)",
+            "type": "exam",
+            "directory": "licencias-permisivas",
+            "files": {
+                "html": ["licencias-permisivas.html"],
+                "css": ["licencias-permisivas.css"],
                 "img": [],
                 "font": []
             }
         },
         "4": {
-            "name": "Dominio público en España (examen 18/19 Presencial E1 23/11/2018)",
+            "name": "Lorem ipsum (examen 18/19 Semi E1 15/01/2019)",
             "type": "exam",
-            "directory": "dominio-publico-espana",
+            "directory": "lorem-ipsum",
             "files": {
-                "html": ["dominio-publico-formateado.html"],
-                "css": ["dominio-publico.css"],
-                "img": [],
+                "html": ["lorem-ipsum.html"],
+                "css": ["lorem-ipsum.css"],
+                "img": [{"directory" : "", "files": ["imprenta.png", "129428-fox-face.svg"]}],
                 "font": []
             }
         },
         "5": {
-            "name": "Licencias de software libre permisivas (examen 18/19 Presencial E1 23/11/2018)",
+            "name": "El Peak Oil (examen 16/17 Semi E1 16/01/2017)",
             "type": "exam",
-            "directory": "licencias-permisivas",
+            "directory": "peakoil",
             "files": {
-                "html": ["licencias-permisivas-formateado.html"],
-                "css": ["licencias-permisivas.css"],
-                "img": [],
+                "html": ["peakoil.html"],
+                "css": ["peakoil.css"],
+                "img": [{"directory" : "", "files": ["hubbert-curve-usa.png", "hubbert-curve-usa-mini.png", "seneca-cliff.png"]}],
                 "font": []
             }
         },
@@ -65,20 +78,20 @@
             "type": "exam",
             "directory": "shakespeare-quotes",
             "files": {
-                "html": ["shakespeare-quotes-formateado.html"],
+                "html": ["shakespeare-quotes.html"],
                 "css": ["shakespeare-quotes.css"],
-                "img": [],
-                "font": []
+                "img": [{"directory" : "", "files": ["fondo.jpg"]}],
+                "font": [{"directory" : "", "files": ["italianno-v7-latin-regular.woff2"]}]
             }
         },
         "7": {
-            "name": "Lorem ipsum (examen 18/19 Semi E1 15/01/2019)",
+            "name": "El software libre (examen 16/17 Presencial E1 25/11/2016)",
             "type": "exam",
-            "directory": "lorem-ipsum",
+            "directory": "software-libre",
             "files": {
-                "html": ["lorem-ipsum-formateado.html"],
-                "css": ["lorem-ipsum.css"],
-                "img": [],
+                "html": ["software-libre.html"],
+                "css": ["software-libre.css"],
+                "img": [{"directory" : "", "files": ["logo-gnu.svg"]}],
                 "font": []
             }
         }
