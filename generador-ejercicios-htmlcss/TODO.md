@@ -32,9 +32,15 @@ Esta aplicación genera ejercicios de html/css
 
 -   2019-11-18. Hacer zip de las plantillas de las páginas intermedias obtenidas. Haría falta formatear las páginas correctamente (sangrado)
 
-## Cosas por hacer
+## Otras cosas por hacer
 
 -   2019-11-19. No se trata sólo de quitar cosas, en algunos casos hay que hacer transformaciones. Podría definir unas clases para indicar los elementos que se deben transformar y los que se deben eliminar.
 
     -   convertir las etiquetas de secciones en div con clase porque se pierden los bordes y fondos.
     -   bloques de enlaces
+
+-   2019-11-19. Hacer un índice que enlace a todas las páginas generadas.
+
+-   2019-11-19. La versión 1 no tendría que llamarse -formateado.html ni tendría que tener css, porque es la versión que debería comprimirse para generar la plantilla.
+
+-   2019-11-19. Cuando quite los br ¿debería añadir un espacio en blanco?

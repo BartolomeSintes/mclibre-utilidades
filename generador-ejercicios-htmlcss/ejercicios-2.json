@@ -6,7 +6,7 @@
     },
     "curriculum" : [
         ["plantilla"],
-        ["basic-blocks"],
+        ["basic-blocks", "entities"],
         ["inline-text"],
         ["classes"],
         ["box-model"],

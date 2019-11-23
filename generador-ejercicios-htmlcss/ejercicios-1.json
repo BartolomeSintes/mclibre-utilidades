@@ -20,6 +20,11 @@
                 "property": ["font", "font-variant", "vertical-align", "letter-spacing", "word-spacing", "white-space", "direction", "unicode-bidi"]
             }
         },
+        "entities": {
+            "compulsory": {
+                "other" : ["numeric-entity", "character-entity"]
+            }
+        },
         "inline-text": {
             "compulsory":
             {

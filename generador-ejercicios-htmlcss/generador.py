@@ -109,7 +109,7 @@ def quita_etiqueta(textos, etiquetas):
 def quita_entidades_numericas(textos):
     for i in textos.keys():
         # print("Quito entidades numéricas")
-        textos[i] = re.sub("&#[x0-9a-f]+;", "", textos[i])
+        textos[i] = re.sub("&#[x0-9a-fA-F]+;", "", textos[i])
 
 
 def sustituye_entidades_caracter(textos, step):
@@ -205,6 +205,12 @@ def aplica_reglas(ficheros, paso):
         argumento = paso[accion]
         if accion == "tag":
             quita_etiqueta(ficheros["html"], argumento)
+        elif accion == "other":
+            for i in paso["other"]:
+                if i == "numeric-entity":
+                    quita_entidades_numericas(ficheros["html"])
+                elif i == "character-entity":
+                    sustituye_entidades_caracter(ficheros["html"], i)
         elif accion == "property":
             quita_propiedad(ficheros["css"], argumento)
         elif accion == "atrule":
@@ -217,8 +223,6 @@ def aplica_reglas(ficheros, paso):
 
 
 def limpia(ficheros, step):
-    if step == 1 or step == 2:
-        quita_entidades_numericas(ficheros["html"])
     quita_sangrado(ficheros["html"])
 
 
@@ -284,7 +288,6 @@ def main():
                 if "optional" in steps[j]:
                     aplica_reglas(ficheros, steps[j]["optional"])
                 limpia(ficheros, i)
-                sustituye_entidades_caracter(ficheros["html"], i)
             graba_ficheros(ejercicios[n], ficheros, dir_name[i - 1])
             print()
             # Copia imágenes y webfonts
@@ -306,7 +309,7 @@ def main():
 
         # Comprime plantilla
         directorio_zip = f'{DIR_FILES_FINAL}/{ejercicios[n]["directory"]}/{dir_name[0]}'
-        shutil.make_archive(f"{directorio_zip}", 'zip', directorio_zip)
+        shutil.make_archive(f"{directorio_zip}", "zip", directorio_zip)
 
     # Genera índice
     t = ""
@@ -335,9 +338,11 @@ def main():
 
         t += "    <li>\n"
         t += f'      {ejercicios[n]["name"]}<br>\n'
-        t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[0]}.zip">Plantilla</a> - \n'
+        t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[0]}.zip">Plantilla</a>\n'
+        t += f'      (<a href="{ejercicios[n]["directory"]}/{dir_name[0]}/{ejercicios[n]["files"]["html"][0]}">html</a> -\n'
+        t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[0]}/{ejercicios[n]["files"]["css"][0]}">css</a>) -\n'
         for i in range(1, len(curriculum)):
-            t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[i]}/{ejercicios[n]["files"]["html"][0]}">T{i}</a> - \n'
+            t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[i]}/{ejercicios[n]["files"]["html"][0]}">T{i}</a> -\n'
         t += "    </li>\n"
     t += "  </ul>\n"
     t += "\n"
