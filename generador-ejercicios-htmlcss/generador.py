@@ -1,13 +1,13 @@
 import json, pathlib, re, shutil
-from datetime import date, datetime
+from datetime import date
 
 
 JSON_STEPS = "ejercicios-1.json"
 JSON_SYLLABUS = "ejercicios-2.json"
 DIR_FILES_SOURCE = "files/source"
 DIR_FILES_FINAL = "files/final"
-OBL = "1"
-OBL_OPT = "2"
+OBL = "compulsory"
+OBL_OPT = "optional"
 INDEX = "index.html"
 MES = [
     "",
@@ -35,6 +35,11 @@ def fecha_a_texto(numero):
         + str(numero[0:4])
     )
 
+def elemento_con_clave__valor(lista, clave, valor):
+    for i in lista:
+        if i[clave] == valor:
+            return i
+    return None
 
 def carga_ficheros(ejercicio):
     ficheros_html = {}
@@ -232,83 +237,75 @@ def main():
         json_steps = json.load(json_file)
     steps = json_steps["steps"]
 
-    # Usuario elige Elementos obligatorios / Elementos obligatorios y opcionales
-    print("Elija una opción. El resultado final contiene:")
-    print("(1) sólo elementos obligatorios:")
-    print("(2) elementos obligatorios y optativos")
-    nivel = input()
-    while nivel != OBL and nivel != OBL_OPT:
-        nivel = input()
-
     # Carga json temario
     with open(JSON_SYLLABUS, encoding="utf-8") as json_file:
         json_syllabus = json.load(json_file)
     ejercicios = json_syllabus["pages"]
-    curriculum = json_syllabus["curriculum"]
+    ejercicios_grupos = json_syllabus["sets"]
+    ejercicios_pasos = json_syllabus["steps-sets"]
 
-    # Usuario elige Ejercicio a procesar
+    # Usuario elige Grupo de ejercicios a procesar
+    print("Elija un grupo de ejercicios:")
+    for i, ejercicio in enumerate(ejercicios_grupos):
+        print(f'({i+1}) {ejercicio["name"]}')
+    set_seleccionado = int(input()) - 1
+    while set_seleccionado not in range(0, len(ejercicios_grupos)):
+        set_seleccionado = int(input()) -1
 
-    print("Elija un ejercicio:")
-    print("(0) Todos los ejercicios")
-    for i in ejercicios:
-        print(f'({i}) {ejercicios[i]["name"]}')
-    ejercicio = input()
-    print(ejercicio)
-    while ejercicio not in ["0"] + list(ejercicios.keys()):
-        ejercicio = input()
-
-    if ejercicio == "0":
-        rango = list(ejercicios.keys())
-    else:
-        rango = [ejercicio]
+    print()
 
     # Genera pasos intermedios y plantilla de cada ejercicio seleccionado
-    for n in rango:
-        ficheros = carga_ficheros(ejercicios[n])
-        borra_directorio_final(ejercicios[n])
+    for n in ejercicios_grupos[set_seleccionado]["pages"]:
+        ejercicio_detalles = elemento_con_clave__valor(ejercicios, "directory", n["name"])
+        ejercicio_pasos = elemento_con_clave__valor(ejercicios_pasos, "name", n["steps"])
+        print(n)
+        print(ejercicio_detalles)
+        print(ejercicio_pasos)
+        ficheros = carga_ficheros(ejercicio_detalles)
+        borra_directorio_final(ejercicio_detalles)
         # Si sólo queremos elementos obligatorios, primero elimina los optativos
-        if nivel == OBL:
-            for i in range(len(curriculum) - 1, -1, -1):
-                for j in curriculum[i]:
+        if n["level"] == OBL:
+            for i in range(len(ejercicio_pasos["steps"]) - 1, -1, -1):
+                for j in ejercicio_pasos["steps"][i]:
                     if "optional" in steps[j]:
                         aplica_reglas(ficheros, steps[j]["optional"])
         dir_name = []
-        for i in range(len(curriculum)):
+        for i in range(len(ejercicio_pasos["steps"])):
             dir_name_tmp = f"{i:02d}"
-            for j in curriculum[i]:
+            for j in ejercicio_pasos["steps"][i]:
                 dir_name_tmp += f"-{j}"
             dir_name += [dir_name_tmp]
-        dir_name[0] = f'{ejercicios[n]["directory"]}-plantilla'
+        dir_name[0] = f'{n["name"]}-plantilla'
 
-        for i in range(len(curriculum) - 1, 0, -1):
-            for j in curriculum[i]:
+        for i in range(len(ejercicio_pasos["steps"]) - 1, 0, -1):
+            for j in ejercicio_pasos["steps"][i]:
                 print(f"Hago paso {i}")
                 if "compulsory" in steps[j]:
                     aplica_reglas(ficheros, steps[j]["compulsory"])
                 if "optional" in steps[j]:
                     aplica_reglas(ficheros, steps[j]["optional"])
                 limpia(ficheros, i)
-            graba_ficheros(ejercicios[n], ficheros, dir_name[i - 1])
+            graba_ficheros(ejercicio_detalles, ficheros, dir_name[i - 1])
             print()
             # Copia imágenes y webfonts
-            copia_ficheros(ejercicios[n], dir_name[i - 1])
+            copia_ficheros(ejercicio_detalles, dir_name[i - 1])
 
         # Genera paso final (igual que original, pero quitando optativos en su caso)
-        ficheros = carga_ficheros(ejercicios[n])
+        ficheros = carga_ficheros(ejercicio_detalles)
         # Si sólo queremos elementos obligatorios, primero elimina los optativos
-        if nivel == OBL:
-            for i in range(len(curriculum) - 1, 0, -1):
-                for j in curriculum[i]:
+        if n["level"] == OBL:
+            for i in range(len(ejercicio_pasos["steps"]) - 1, 0, -1):
+                for j in ejercicio_pasos["steps"][i]:
                     if "optional" in steps[j]:
                         aplica_reglas(ficheros, steps[j]["optional"])
         print(f"Hago paso final")
-        graba_ficheros(ejercicios[n], ficheros, dir_name[-1])
+        graba_ficheros(ejercicio_detalles, ficheros, dir_name[-1])
         # Copia imágenes y webfonts
-        copia_ficheros(ejercicios[n], dir_name[-1])
+        copia_ficheros(ejercicio_detalles, dir_name[-1])
         print()
 
         # Comprime plantilla
-        directorio_zip = f'{DIR_FILES_FINAL}/{ejercicios[n]["directory"]}/{dir_name[0]}'
+        directorio_zip = f'{DIR_FILES_FINAL}/{ejercicio_detalles["directory"]}/{dir_name[0]}'
         shutil.make_archive(f"{directorio_zip}", "zip", directorio_zip)
 
     # Genera índice
@@ -327,22 +324,22 @@ def main():
 
     t += "  <ul>\n"
 
-    for n in rango:
+    for n in ejercicios_grupos[set_seleccionado]["pages"]:
         dir_name = []
-        for i in range(len(curriculum)):
+        for i in range(len(ejercicio_pasos["steps"])):
             dir_name_tmp = f"{i:02d}"
-            for j in curriculum[i]:
+            for j in ejercicio_pasos["steps"][i]:
                 dir_name_tmp += f"-{j}"
             dir_name += [dir_name_tmp]
-        dir_name[0] = f'{ejercicios[n]["directory"]}-plantilla'
+        dir_name[0] = f'{ejercicio_detalles["directory"]}-plantilla'
 
         t += "    <li>\n"
-        t += f'      {ejercicios[n]["name"]}<br>\n'
-        t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[0]}.zip">Plantilla</a>\n'
-        t += f'      (<a href="{ejercicios[n]["directory"]}/{dir_name[0]}/{ejercicios[n]["files"]["html"][0]}">html</a> -\n'
-        t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[0]}/{ejercicios[n]["files"]["css"][0]}">css</a>) -\n'
-        for i in range(1, len(curriculum)):
-            t += f'      <a href="{ejercicios[n]["directory"]}/{dir_name[i]}/{ejercicios[n]["files"]["html"][0]}">T{i}</a> -\n'
+        t += f'      {ejercicio_detalles["name"]}<br>\n'
+        t += f'      <a href="{ejercicio_detalles["directory"]}/{dir_name[0]}.zip">Plantilla</a>\n'
+        t += f'      (<a href="{ejercicio_detalles["directory"]}/{dir_name[0]}/{ejercicio_detalles["files"]["html"][0]}">html</a> -\n'
+        t += f'      <a href="{ejercicio_detalles["directory"]}/{dir_name[0]}/{ejercicio_detalles["files"]["css"][0]}">css</a>) -\n'
+        for i in range(1, len(ejercicio_pasos["steps"])):
+            t += f'      <a href="{ejercicio_detalles["directory"]}/{dir_name[i]}/{ejercicio_detalles["files"]["html"][0]}">T{i}</a> -\n'
         t += "    </li>\n"
     t += "  </ul>\n"
     t += "\n"
