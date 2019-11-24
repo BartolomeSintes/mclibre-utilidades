@@ -1,0 +1,240 @@
+{
+    "comments": {
+        "author": "Bartolomé Sintes Marco",
+        "date": "2019-11-23",
+        "description": "A partir de una página web final genera páginas web intermedias en las que se van añadiendo elementos y propiedades CSS"
+    },
+    "step-sets" : [
+        {
+            "name": "all",
+            "steps": [
+                ["plantilla"],
+                ["basic-blocks", "entities"],
+                ["inline-text"],
+                ["classes"],
+                ["box-model"],
+                ["webfonts"],
+                ["images"],
+                ["links"],
+                ["sections"],
+                ["backgrounds"],
+                ["size", "position"]
+            ]
+        }
+    ],
+    "steps": {
+        "plantilla": {
+        },
+        "basic-blocks": {
+            "compulsory":
+            {
+                "tag": ["link", "meta name=\"viewport\"", "address", "blockquote", "br", "div", "h1", "h2", "h3", "h4", "h5", "h6", "hr", "p", "pre"],
+                "property": ["background-color", "color", "font-family", "font-size", "font-style", "font-weight", "text-align", "text-decoration", "text-indent", "text-transform", "text-shadow", "width", "height"]
+            },
+            "optional": {
+                "property": ["font", "font-variant", "vertical-align", "letter-spacing", "word-spacing", "white-space", "direction", "unicode-bidi"]
+            }
+        },
+        "entities": {
+            "compulsory": {
+                "other" : ["numeric-entity", "character-entity"]
+            }
+        },
+        "inline-text": {
+            "compulsory":
+            {
+                "tag": ["em", "span", "strong"],
+                "property": ["line-height"]
+            },
+            "optional": {
+                "tag": ["abbr", "b", "cite", "del", "dfn", "i", "ins", "kbd", "mark", "q", "s", "small", "sub", "sup", "time"],
+                "property": []
+            },
+            "unused": {
+                "tag": [ "bdi", "bdo", "code", "data", "rp", "rt", "ruby", "u", "var", "wbr"]
+            }
+        },
+        "classes": {
+        },
+        "box-model": {
+            "compulsory":
+            {
+                "tag": ["details", "summary"],
+                "property": ["border", "border-top", "border-right", "border-bottom", "border-left", "border-radius", "border-top-right-radius", "border-bottom-right-radius", "border-bottom-left-radius", "border-top-left-radius", "border-color", "border-width", "border-style", "border-top-color", "border-top-width", "border-top-style", "border-right-color", "border-right-width", "border-right-style", "border-bottom-color", "border-bottom-width", "border-bottom-style", "border-left-color", "border-left-width", "border-left-style", "margin", "margin-top", "margin-right", "margin-bottom", "margin-left", "padding", "padding-top", "padding-right", "padding-bottom", "padding-left"]
+            },
+            "optional": {
+                "property": ["box-sizing"]
+            }
+        },
+        "webfonts": {
+            "compulsory":
+            {
+                "atrule": ["font-face", "import"]
+            }
+        },
+        "images": {
+            "compulsory":
+            {
+                "tag": ["img"],
+                "property": ["float", "clear"]
+            }
+        },
+        "links": {
+            "compulsory":
+            {
+                "tag": ["a"]
+            }
+        },
+        "sections": {
+            "compulsory":
+            {
+                "tag": ["a", "article", "aside", "footer", "header", "main", "nav", "section"]
+            }
+        },
+        "backgrounds": {
+            "compulsory":
+            {
+                "property": ["background", "background-attachment", "background-clip", "background-image", "background-origin", "background-position", "background-repeat", "background-size"]
+            }
+        },
+        "size": {
+            "compulsory":
+            {
+                "property": ["min-width", "min-height", "max-width", "max-height", "overflow"],
+                "related-properties" : [
+                    { "property": "width", "related": "position"},
+                    { "property": "width", "related": "float"},
+                    { "property": "height", "related": "position"},
+                    { "property": "height", "related": "float"}
+                ]
+            }
+        },
+        "position": {
+            "compulsory":
+            {
+                "property": ["position", "top", "right", "bottom", "left", "z-index"]
+            }
+        }
+    },
+    "exercise-sets" : [
+        {
+            "name": "School year 2019/20 ASIR LMSGI",
+            "pages": [
+                {
+                    "name": "copyright-dominio-publico",
+                    "level": "compulsory",
+                    "steps": "all"
+                },
+                {
+                    "name": "dominio-publico-espana",
+                    "level": "compulsory",
+                    "steps": "all"
+                },
+                {
+                    "name": "licencias-permisivas",
+                    "level": "compulsory",
+                    "steps": "all"
+                },
+                {
+                    "name": "lorem-ipsum",
+                    "level": "compulsory",
+                    "steps": "all"
+                },
+                {
+                    "name": "peakoil",
+                    "level": "compulsory",
+                    "steps": "all"
+                },
+                {
+                    "name": "shakespeare-quotes",
+                    "level": "compulsory",
+                    "steps": "all"
+                },
+                {
+                    "name": "software-libre",
+                    "level": "compulsory",
+                    "steps": "all"
+                }
+            ]
+        }
+    ],
+    "exercises" : [
+        {
+            "name": "Copyright y dominio público (examen 18/19 Semi E1 17/01/2018)",
+            "type": "exam",
+            "directory": "copyright-dominio-publico",
+            "files": {
+                "html": ["dominio-publico.html"],
+                "css": ["dominio-publico.css"],
+                "img": [{"directory" : "img", "files": ["copyright.svg", "lawrence-lessig.jpg", "public-domain.svg", "sonny-bono.jpg"]}],
+                "font":  []
+            }
+        },
+        {
+            "name": "Dominio público en España (examen 18/19 Presencial E1 23/11/2018)",
+            "type": "exam",
+            "directory": "dominio-publico-espana",
+            "files": {
+                "html": ["dominio-publico.html"],
+                "css": ["dominio-publico.css"],
+                "img": [{"directory" : "img", "files": ["edith-wharton.jpg", "h-p-lovecraft.jpg", "public-domain.svg", "robert-howard.jpg"]}],
+                "font":  [{"directory" : "", "files": ["righteous.woff2"]}]
+            }
+        },
+        {
+            "name": "Licencias de software libre permisivas (examen 18/19 Presencial E1 23/11/2018)",
+            "type": "exam",
+            "directory": "licencias-permisivas",
+            "files": {
+                "html": ["licencias-permisivas.html"],
+                "css": ["licencias-permisivas.css"],
+                "img": [],
+                "font": []
+            }
+        },
+        {
+            "name": "Lorem ipsum (examen 18/19 Semi E1 15/01/2019)",
+            "type": "exam",
+            "directory": "lorem-ipsum",
+            "files": {
+                "html": ["lorem-ipsum.html"],
+                "css": ["lorem-ipsum.css"],
+                "img": [{"directory" : "", "files": ["imprenta.png", "129428-fox-face.svg"]}],
+                "font": []
+            }
+        },
+        {
+            "name": "El Peak Oil (examen 16/17 Semi E1 16/01/2017)",
+            "type": "exam",
+            "directory": "peakoil",
+            "files": {
+                "html": ["peakoil.html"],
+                "css": ["peakoil.css"],
+                "img": [{"directory" : "", "files": ["hubbert-curve-usa.png", "hubbert-curve-usa-mini.png", "seneca-cliff.png"]}],
+                "font": []
+            }
+        },
+        {
+            "name": "Shakespeare quotes (examen 18/19 Semi E1 15/01/2019)",
+            "type": "exam",
+            "directory": "shakespeare-quotes",
+            "files": {
+                "html": ["shakespeare-quotes.html"],
+                "css": ["shakespeare-quotes.css"],
+                "img": [{"directory" : "", "files": ["fondo.jpg"]}],
+                "font": [{"directory" : "", "files": ["italianno-v7-latin-regular.woff2"]}]
+            }
+        },
+        {
+            "name": "El software libre (examen 16/17 Presencial E1 25/11/2016)",
+            "type": "exam",
+            "directory": "software-libre",
+            "files": {
+                "html": ["software-libre.html"],
+                "css": ["software-libre.css"],
+                "img": [{"directory" : "", "files": ["logo-gnu.svg"]}],
+                "font": []
+            }
+        }
+    ]
+}

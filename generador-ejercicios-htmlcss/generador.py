@@ -2,13 +2,12 @@ import json, pathlib, re, shutil
 from datetime import date
 
 
-JSON_STEPS = "ejercicios-1.json"
-JSON_SYLLABUS = "ejercicios-2.json"
+JSON_FILE = "ejercicios.json"
 DIR_FILES_SOURCE = "files/source"
 DIR_FILES_FINAL = "files/final"
 OBL = "compulsory"
 OBL_OPT = "optional"
-INDEX = "index.html"
+INDEX_FILE = "index.html"
 MES = [
     "",
     "enero",
@@ -35,11 +34,13 @@ def fecha_a_texto(numero):
         + str(numero[0:4])
     )
 
+
 def elemento_con_clave__valor(lista, clave, valor):
     for i in lista:
         if i[clave] == valor:
             return i
     return None
+
 
 def carga_ficheros(ejercicio):
     ficheros_html = {}
@@ -232,80 +233,76 @@ def limpia(ficheros, step):
 
 
 def main():
-    # Carga json pasos
-    with open(JSON_STEPS, encoding="utf-8") as json_file:
-        json_steps = json.load(json_file)
-    steps = json_steps["steps"]
-
-    # Carga json temario
-    with open(JSON_SYLLABUS, encoding="utf-8") as json_file:
-        json_syllabus = json.load(json_file)
-    ejercicios = json_syllabus["pages"]
-    ejercicios_grupos = json_syllabus["sets"]
-    ejercicios_pasos = json_syllabus["steps-sets"]
+    # Carga json
+    with open(JSON_FILE, encoding="utf-8") as file:
+        json_file = json.load(file)
+    steps = json_file["steps"]
+    step_sets = json_file["step-sets"]
+    exercises = json_file["exercises"]
+    exercise_sets = json_file["exercise-sets"]
 
     # Usuario elige Grupo de ejercicios a procesar
     print("Elija un grupo de ejercicios:")
-    for i, ejercicio in enumerate(ejercicios_grupos):
-        print(f'({i+1}) {ejercicio["name"]}')
-    set_seleccionado = int(input()) - 1
-    while set_seleccionado not in range(0, len(ejercicios_grupos)):
-        set_seleccionado = int(input()) -1
-
+    for i, exercise_set in enumerate(exercise_sets):
+        print(f'({i+1}) {exercise_set["name"]}')
+    selected_set = int(input()) - 1
+    while selected_set not in range(0, len(exercise_sets)):
+        selected_set = int(input()) - 1
     print()
 
     # Genera pasos intermedios y plantilla de cada ejercicio seleccionado
-    for n in ejercicios_grupos[set_seleccionado]["pages"]:
-        ejercicio_detalles = elemento_con_clave__valor(ejercicios, "directory", n["name"])
-        ejercicio_pasos = elemento_con_clave__valor(ejercicios_pasos, "name", n["steps"])
-        print(n)
-        print(ejercicio_detalles)
-        print(ejercicio_pasos)
-        ficheros = carga_ficheros(ejercicio_detalles)
-        borra_directorio_final(ejercicio_detalles)
+    for exercise in exercise_sets[selected_set]["pages"]:
+        exercise_details = elemento_con_clave__valor(
+            exercises, "directory", exercise["name"]
+        )
+        exercise_steps = elemento_con_clave__valor(step_sets, "name", exercise["steps"])
+        ficheros = carga_ficheros(exercise_details)
+        borra_directorio_final(exercise_details)
         # Si sólo queremos elementos obligatorios, primero elimina los optativos
-        if n["level"] == OBL:
-            for i in range(len(ejercicio_pasos["steps"]) - 1, -1, -1):
-                for j in ejercicio_pasos["steps"][i]:
+        if exercise["level"] == OBL:
+            for i in range(len(exercise_steps["steps"]) - 1, -1, -1):
+                for j in exercise_steps["steps"][i]:
                     if "optional" in steps[j]:
                         aplica_reglas(ficheros, steps[j]["optional"])
         dir_name = []
-        for i in range(len(ejercicio_pasos["steps"])):
+        for i in range(len(exercise_steps["steps"])):
             dir_name_tmp = f"{i:02d}"
-            for j in ejercicio_pasos["steps"][i]:
+            for j in exercise_steps["steps"][i]:
                 dir_name_tmp += f"-{j}"
             dir_name += [dir_name_tmp]
-        dir_name[0] = f'{n["name"]}-plantilla'
+        dir_name[0] = f'{exercise["name"]}-plantilla'
 
-        for i in range(len(ejercicio_pasos["steps"]) - 1, 0, -1):
-            for j in ejercicio_pasos["steps"][i]:
+        for i in range(len(exercise_steps["steps"]) - 1, 0, -1):
+            for j in exercise_steps["steps"][i]:
                 print(f"Hago paso {i}")
                 if "compulsory" in steps[j]:
                     aplica_reglas(ficheros, steps[j]["compulsory"])
                 if "optional" in steps[j]:
                     aplica_reglas(ficheros, steps[j]["optional"])
                 limpia(ficheros, i)
-            graba_ficheros(ejercicio_detalles, ficheros, dir_name[i - 1])
+            graba_ficheros(exercise_details, ficheros, dir_name[i - 1])
             print()
             # Copia imágenes y webfonts
-            copia_ficheros(ejercicio_detalles, dir_name[i - 1])
+            copia_ficheros(exercise_details, dir_name[i - 1])
 
         # Genera paso final (igual que original, pero quitando optativos en su caso)
-        ficheros = carga_ficheros(ejercicio_detalles)
+        ficheros = carga_ficheros(exercise_details)
         # Si sólo queremos elementos obligatorios, primero elimina los optativos
-        if n["level"] == OBL:
-            for i in range(len(ejercicio_pasos["steps"]) - 1, 0, -1):
-                for j in ejercicio_pasos["steps"][i]:
+        if exercise["level"] == OBL:
+            for i in range(len(exercise_steps["steps"]) - 1, 0, -1):
+                for j in exercise_steps["steps"][i]:
                     if "optional" in steps[j]:
                         aplica_reglas(ficheros, steps[j]["optional"])
         print(f"Hago paso final")
-        graba_ficheros(ejercicio_detalles, ficheros, dir_name[-1])
+        graba_ficheros(exercise_details, ficheros, dir_name[-1])
         # Copia imágenes y webfonts
-        copia_ficheros(ejercicio_detalles, dir_name[-1])
+        copia_ficheros(exercise_details, dir_name[-1])
         print()
 
         # Comprime plantilla
-        directorio_zip = f'{DIR_FILES_FINAL}/{ejercicio_detalles["directory"]}/{dir_name[0]}'
+        directorio_zip = (
+            f'{DIR_FILES_FINAL}/{exercise_details["directory"]}/{dir_name[0]}'
+        )
         shutil.make_archive(f"{directorio_zip}", "zip", directorio_zip)
 
     # Genera índice
@@ -324,22 +321,22 @@ def main():
 
     t += "  <ul>\n"
 
-    for n in ejercicios_grupos[set_seleccionado]["pages"]:
+    for n in exercise_sets[selected_set]["pages"]:
         dir_name = []
-        for i in range(len(ejercicio_pasos["steps"])):
+        for i in range(len(exercise_steps["steps"])):
             dir_name_tmp = f"{i:02d}"
-            for j in ejercicio_pasos["steps"][i]:
+            for j in exercise_steps["steps"][i]:
                 dir_name_tmp += f"-{j}"
             dir_name += [dir_name_tmp]
-        dir_name[0] = f'{ejercicio_detalles["directory"]}-plantilla'
+        dir_name[0] = f'{exercise_details["directory"]}-plantilla'
 
         t += "    <li>\n"
-        t += f'      {ejercicio_detalles["name"]}<br>\n'
-        t += f'      <a href="{ejercicio_detalles["directory"]}/{dir_name[0]}.zip">Plantilla</a>\n'
-        t += f'      (<a href="{ejercicio_detalles["directory"]}/{dir_name[0]}/{ejercicio_detalles["files"]["html"][0]}">html</a> -\n'
-        t += f'      <a href="{ejercicio_detalles["directory"]}/{dir_name[0]}/{ejercicio_detalles["files"]["css"][0]}">css</a>) -\n'
-        for i in range(1, len(ejercicio_pasos["steps"])):
-            t += f'      <a href="{ejercicio_detalles["directory"]}/{dir_name[i]}/{ejercicio_detalles["files"]["html"][0]}">T{i}</a> -\n'
+        t += f'      {exercise_details["name"]}<br>\n'
+        t += f'      <a href="{exercise_details["directory"]}/{dir_name[0]}.zip">Plantilla</a>\n'
+        t += f'      (<a href="{exercise_details["directory"]}/{dir_name[0]}/{exercise_details["files"]["html"][0]}">html</a> -\n'
+        t += f'      <a href="{exercise_details["directory"]}/{dir_name[0]}/{exercise_details["files"]["css"][0]}">css</a>) -\n'
+        for i in range(1, len(exercise_steps["steps"])):
+            t += f'      <a href="{exercise_details["directory"]}/{dir_name[i]}/{exercise_details["files"]["html"][0]}">T{i}</a> -\n'
         t += "    </li>\n"
     t += "  </ul>\n"
     t += "\n"
@@ -349,7 +346,7 @@ def main():
     t += "  </address>\n"
     t += "</body>\n"
     t += "</html>\n"
-    with open(f"{DIR_FILES_FINAL}/{INDEX}", "w", encoding="utf-8") as fichero:
+    with open(f"{DIR_FILES_FINAL}/{INDEX_FILE}", "w", encoding="utf-8") as fichero:
         fichero.write(t)
 
 
