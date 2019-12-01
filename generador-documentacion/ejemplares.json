@@ -2355,6 +2355,17 @@
       "creado": "2019-11-01"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 151,
+      "año": 2019,
+      "mes": 11,
+      "portada": "full-circle-151-en-201911.jpg",
+      "fichero": "full-circle-151-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-01"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -7019,6 +7030,17 @@
       "creado": "2019-11-01"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 10,
+      "año": 2019,
+      "mes": 11,
+      "portada": "solo-linux-10-es-201911.jpg",
+      "fichero": "solo-linux-10-es-201911.pdf",
+      "idioma": "español",
+      "creado": "2019-12-01"
+    },
+    {
       "serie": "The MagPi",
       "nombre": "The MagPi",
       "número": 1,
@@ -7976,6 +7998,17 @@
       "creado": "2019-11-01"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 88,
+      "año": 2019,
+      "mes": 12,
+      "portada": "the-magpi-88-en-201912.jpg",
+      "fichero": "the-magpi-88-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-01"
+    },
+    {
       "serie": "The MagPi Essentials",
       "nombre": "Edición especial",
       "número": 1,
@@ -8238,6 +8271,39 @@
       "fichero": "hackspace-wearable-tech-projects-01-en-201904.pdf",
       "idioma": "inglés",
       "creado": "2019-05-17"
+    },
+    {
+      "serie": "The MagPi Essentials",
+      "nombre": "Raspberry Pi Beginner’s Guide 3º ed.",
+      "número": 3,
+      "año": 2019,
+      "mes": 11,
+      "portada": "raspberry-py-beginners-book-3-en-201911.jpg",
+      "fichero": "raspberry-py-beginners-book-3-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-01"
+    },
+    {
+      "serie": "The MagPi Essentials",
+      "nombre": "Get Started with Raspberry Pi",
+      "número": 1,
+      "año": 2019,
+      "mes": 11,
+      "portada": "raspberry-py-get-started-with-01-en-201911.jpg",
+      "fichero": "raspberry-py-get-started-with-01-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-01"
+    },
+    {
+      "serie": "The MagPi Essentials",
+      "nombre": "Retro Gaming with Raspberry Pi",
+      "número": 1,
+      "año": 2019,
+      "mes": 11,
+      "portada": "raspberry-py-retro-gaming-01-en-201911.jpg",
+      "fichero": "raspberry-py-retro-gaming-01-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-01"
     },
     {
       "serie": "The PCLinuxOS Magazine",
