@@ -170,6 +170,13 @@
       ]
     },
     {
+      "pagina": "revistas-solo-wordpress.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "Solo WordPress"
+      ]
+    },
+    {
       "pagina": "revistas-the-magpi.html",
       "directorio": "revistas-titulos",
       "revistas": [

@@ -266,6 +266,22 @@
             "estado": "activa"
         },
         {
+            "nombre-corto": "Solo WordPress",
+            "nombre": "Solo WordPress",
+            "nombre-largo": "Solo WordPress",
+            "web": [
+                [
+                    "https://www.solowordpress.es/",
+                    "Revista Solo WordPress"
+                ]
+            ],
+            "miniaturas": "../img/revistas/solo-wordpress/",
+            "archivos": "solo-wordpress/",
+            "comentario": "",
+            "abreviatura" : "solowordpress",
+            "estado": "activa"
+        },
+        {
             "nombre-corto": "The MagPi",
             "nombre": "The MagPi",
             "nombre-largo": "The MagPi - The official Raspberry Pi magazine",

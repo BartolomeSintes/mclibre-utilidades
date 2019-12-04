@@ -701,7 +701,10 @@ def pagina_index():
             t += f'        <p>{min(anyos)}</p>\n'
         else:
             t += f'        <p>{min(anyos)} - {max(anyos)}</p>\n'
-        t += f'        <p>{j[2]} ejemplares</p>\n'
+        if j[2] == 1:
+            t += f'        <p>1 ejemplar</p>\n'
+        else:
+            t += f'        <p>{j[2]} ejemplares</p>\n'
         t += "      </div>\n"
         t += "\n"
     t += "    </div>\n"
