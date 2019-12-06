@@ -403,7 +403,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2015/06/25/69/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2015/06/25/69/vci"
                         },
                         {
                             "formato": "rtf",
@@ -456,7 +456,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1997/09/02/234/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/vci"
                         },
                         {
                             "formato": "rtf",
@@ -487,7 +487,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1997/09/02/234/con/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/con/vci"
                         }
                     ]
                 }
@@ -728,7 +728,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2009/07/29/(17)/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/07/29/(17)/vci"
                         },
                         {
                             "formato": "rtf",
@@ -780,7 +780,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2012/06/22/36/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/06/22/36/vci"
                         },
                         {
                             "formato": "rtf",
@@ -832,7 +832,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2012/09/05/58/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/05/58/vci"
                         },
                         {
                             "formato": "rtf",
@@ -884,7 +884,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2012/09/25/60/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/25/60/vci"
                         },
                         {
                             "formato": "rtf",
@@ -936,7 +936,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2019/04/30/20/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2019/04/30/20/vci"
                         },
                         {
                             "formato": "rtf",
@@ -1405,7 +1405,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2015/06/05/87/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/06/05/87/vci"
                         },
                         {
                             "formato": "rtf",
@@ -1432,6 +1432,11 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/06/05/87/con"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/06/05/87/con/vci"
                         }
                     ]
                 }
@@ -1473,7 +1478,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2015/09/04/136/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/09/04/136/vci"
                         },
                         {
                             "formato": "rtf",
@@ -1525,7 +1530,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2018/04/27/51/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2018/04/27/51/vci"
                         },
                         {
                             "formato": "rtf",
@@ -1649,7 +1654,7 @@
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2019-09-05-R-inicio-curso-secundaria-1920-va.rtf"
+                            "url": "dogv/DOGV-2019-09-08-R-inicio-curso-fp-1920-va.rtf"
                         }
                     ]
                 }
