@@ -46,3 +46,5 @@ docentes que impartan enseñanzas de segundo ciclo de Educación Infantil, Prees
 General Básica, Educación Especial, Secundaria Obligatoria, Bachillerato y Formación Profesional,
 sostenidos con fondos públicos y dependientes de la Conselleria de Cultura, Educación y Ciencia de
 la Generalitat Valenciana. (En vigor parcialmente)
+
+-   http://www.informatica-juridica.com/legislacion/espana/

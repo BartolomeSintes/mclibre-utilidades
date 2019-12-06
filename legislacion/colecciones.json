@@ -95,7 +95,6 @@
                                 ]
                             }
                         }
-
                     ]
                 },
                 {
@@ -220,7 +219,11 @@
                             "apartado": {
                                 "titulo": "Protección de datos",
                                 "referencias": [
+                                    "boe-1999-15-lo",
+                                    "boe-2007-1720-rd",
+                                    "boe-2007-25-l",
                                     "celex-2016-679-reg",
+                                    "celex-2016-680-dir",
                                     "boe-2018-16673-lo"
                                 ]
                             }
@@ -229,10 +232,40 @@
                             "apartado": {
                                 "titulo": "Protección de los consumidores",
                                 "referencias": [
+                                    "celex-2000-31-dir",
                                     "boe-2202-34-l"
                                 ]
                             }
-
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Seguridad informática",
+                                "referencias": [
+                                    "celex-2016-1148-dir",
+                                    "boe-2018-12-rdl",
+                                    "boe-2019-14-rdl"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Otras",
+                                "referencias": [
+                                    "boe-2005-1542-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Legislación derogada",
+                                "referencias": [
+                                    "boe-1992-5-lo",
+                                    "celex-1995-46-dir",
+                                    "boe-2000-03-21-o",
+                                    "boe-2003-662-o",
+                                    "celex-2006-24-dir"
+                                ]
+                            }
                         }
                     ]
                 }

@@ -91,7 +91,7 @@ def seccion(legislacion, id, titulo):
         for version in elemento["versiones"]:
             tmp += '        <p class="fichero">\n'
             if len(elemento["versiones"]) != 1:
-                tmp += f'        {version["versión"].capitalize()}: '
+                tmp += f'        {version["versión"][:1].upper() + version["versión"][1:]}: '
             for i in range(len(version["enlaces"])):
                 if version["enlaces"][i]["formato"] != "web":
                     file = pathlib.Path(
@@ -149,9 +149,10 @@ def muestra_referencia(elemento, profundidad):
         if len(elemento["versiones"]) == 1:
             tmp += f'          {elemento["origen"]} {elemento["fecha"]}:\n'
         elif version["versión"] == "original" or version["versión"] == "anexo":
-            tmp += f'        {version["versión"].capitalize()}: {elemento["origen"]} {elemento["fecha"]}:\n'
+            tmp += f'        {version["versión"][:1].upper() + version["versión"][1:]}: {elemento["origen"]} {elemento["fecha"]}:\n'
         else:
-            tmp += f'        {version["versión"].capitalize()} ({version["fecha"]}):\n'
+            tmp += f'        {version["versión"][:1].upper() + version["versión"][1:]} ({version["fecha"]}):\n'
+
         for i in range(len(version["enlaces"])):
             if version["enlaces"][i]["formato"] != "web":
                 file = pathlib.Path(
@@ -251,7 +252,7 @@ def guarda_index(nombre):
     t += "    <li>en su caso, en otros formatos editables (RTF, etc.)</li>\n"
     t += "  </ul>\n"
     t += "\n"
-    t += "  <p>En algunos casos se ofrece también la versión consolidada de la norma.</p>\n"
+    t += "  <p>En algunos casos se ofrecen también las versiones consolidadas de las normas, que no tienen valor jurídico.</p>\n"
     t += "\n"
 
     t += pie()

@@ -561,7 +561,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "eur-lex/EURLEX-2018-05-22-R-competencias-clave-es.pdf"
+                            "url": "eur-lex/EURLEX-2018-05-22-REC-competencias-clave.pdf"
                         },
                         {
                             "formato": "web",
@@ -1256,12 +1256,28 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "eur-lex/EURLEX-2016-679-R-proteccion-datos-es.pdf"
+                            "url": "eur-lex/EURLEX-2016-679-REG-proteccion-datos.pdf"
                         },
                         {
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex:32016R0679"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-05-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2016-679-REG-proteccion-datos-consolidado-2018-05-23.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:02016R0679-20160504"
                         }
                     ]
                 }
@@ -1281,7 +1297,7 @@
             "origen": "BOE",
             "fecha": "2002-07-12",
             "vigencia": "vigente",
-            "descripción": "Sociedad de la información",
+            "descripción": "Sociedad de la información y comercio electrónico",
             "titulo": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico.",
             "versiones": [
                 {
@@ -1320,7 +1336,7 @@
             "claves": [
                 "españa",
                 "ley",
-                "Sociedad de la información",
+                "sociedad de la información",
                 "comercio electrónico"
             ]
         },
@@ -2553,6 +2569,608 @@
                 "alumnos",
                 "profesores",
                 "jornada lectiva"
+            ]
+        },
+        {
+            "id": "boe-1992-5-lo",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1992-10-31",
+            "vigencia": "derogado",
+            "descripción": "LORTAD",
+            "titulo": "Ley Orgánica 5/1992, de 29 de octubre, de regulación del tratamiento automatizado de los datos de carácter personal.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-10-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-5-LO-LOPD.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/1992/10/29/5"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "boe-1999-15-lo",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1999-12-14",
+            "vigencia": "vigente",
+            "descripción": "LOPD",
+            "titulo": "Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-12-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1999-15-LO-LOPD.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/1999/12/13/15"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1999-15-LO-LOPD-consolidado-2018-12-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/1999/12/13/15/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "celex-1995-46-dir",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1995-11-23",
+            "vigencia": "derogado",
+            "descripción": "Directiva Tratamiento de datos personales",
+            "titulo": "Directiva 95/46/CE del Parlamento Europeo y del Consejo, de 24 de octubre de 1995, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-11-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1995-46-D-datos-personales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:31995L0046"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2003-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1995-46-D-datos-personales-consolidado-2003-11-20.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:01995L0046-20031120"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "protección de datos",
+                "derechos digitales",
+                "libre circulación"
+            ]
+        },
+        {
+            "id": "celex-2016-680-dir",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2016-05-04",
+            "vigencia": "vigente",
+            "descripción": "Tratamiento de datos personales penales",
+            "titulo": "Directiva (UE) 2016/680 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales por parte de las autoridades competentes para fines de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales, y a la libre circulación de dichos datos y por la que se deroga la Decisión Marco 2008/977/JAI del Consejo",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-05-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2016-680-D-datos-personales-penales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:32016L0680"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-05-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2016-680-D-datos-personales-penales-consolidado-2018-05-23.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:02016L0680-20160504"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "protección de datos",
+                "derechos digitales",
+                "libre circulación"
+            ]
+        },
+        {
+            "id": "celex-2000-31-dir",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2000-07-17",
+            "vigencia": "vigente",
+            "descripción": "Directiva Comercio electrónico",
+            "titulo": "Directiva 2000/31/CE del Parlamento Europeo y del Consejo, de 8 de junio de 2000, relativa a determinados aspectos jurídicos de los servicios de la sociedad de la información, en particular el comercio electrónico en el mercado interior (Directiva sobre el comercio electrónico)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-07-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2000-31-D-comercio-electronico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32000L0031"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "sociedad de la información",
+                "comercio electrónico"
+            ]
+        },
+        {
+            "id": "boe-2007-1720-rd",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2008-01-19",
+            "vigencia": "vigente",
+            "descripción": "Reglamento LPOD",
+            "titulo": "Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-01-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1720-RD-LOPD.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/12/21/1720"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1720-RD-LOPD-consolidado-2012-03-08.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/12/21/1720/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "reglamento",
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "boe-2018-12-rdl",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-09-08",
+            "vigencia": "vigente",
+            "descripción": "Seguridad de las redes y sistemas de información",
+            "titulo": "Real Decreto-Ley 12/2018, de 7 de septiembre, de seguridad de las redes y sistemas de información.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-09-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-12-RDL-seguridad-redes.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2018/09/07/12"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-11-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-12-RDL-seguridad-redes-consolidado-2019-11-05.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2018/09/07/12/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "ley",
+                "seguridad"
+            ]
+        },
+        {
+            "id": "celex-2016-1148-dir",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2016-07-19",
+            "vigencia": "vigente",
+            "descripción": "Directiva Seguridad de las redes y sistema de información",
+            "titulo": "Directiva (UE) 2016/1148 del Parlamento Europeo y del Consejo, de 6 de julio de 2016, relativa a las medidas destinadas a garantizar un elevado nivel común de seguridad de las redes y sistemas de información en la Unión",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-07-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2016-1148-D-seguridad-redes.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016L1148"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "seguridad"
+            ]
+        },
+        {
+            "id": "boe-2019-14-rdl",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2019-11-05",
+            "vigencia": "vigente",
+            "descripción": "Seguridad pública administración digital",
+            "titulo": "Real Decreto-ley 14/2019, de 31 de octubre, por el que se adoptan medidas urgentes por razones de seguridad pública en materia de administración digital, contratación del sector público y telecomunicaciones.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-11-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2019-14-RDL-medidas-urgente-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2019/10/31/14"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "ley",
+                "seguridad"
+            ]
+        },
+        {
+            "id": "boe-2007-25-l",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-10-19",
+            "vigencia": "vigente",
+            "descripción": "Conservación datos comunicaciones electrónicas",
+            "titulo": "Ley 25/2007, de 18 de octubre, de conservación de datos relativos a las comunicaciones electrónicas y a las redes públicas de comunicaciones.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-10-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-25-L-conservacion-comunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2007/10/18/25"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2014-05-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-25-L-conservacion-comunicaciones-consolidado-2014-05-10.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2007/10/18/25/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "protección de datos",
+                "conservación de datos"
+            ]
+        },
+        {
+            "id": "celex-2006-24-dir",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2006-04-13",
+            "vigencia": "derogado",
+            "descripción": "Directiva Conservación datos comunicaciones electrónicas",
+            "titulo": "Directiva 2006/24/CE del Parlamento Europeo y del Consejo, de 15 de marzo de 2006 , sobre la conservación de datos generados o tratados en relación con la prestación de servicios de comunicaciones electrónicas de acceso público o de redes públicas de comunicaciones y por la que se modifica la Directiva 2002/58/CE",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-04-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2006-24-D-conservacion-comunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2006/24/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "derogado por sentencia TJUE",
+                    "fecha": "2014-04-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2006-24-D-conservacion-comunicaciones-sentencia-2014-238.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:62012CJ0293"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "seguridad"
+            ]
+        },
+        {
+            "id": "boe-2000-03-21-o",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2000-03-30",
+            "vigencia": "derogado",
+            "descripción": "Nombres de dominio .es",
+            "titulo": "Orden de 21 de marzo de 2000 por la que se regula el sistema de asignación de nombres de dominio de Internet bajo el código de país correspondiente a España (.es).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-03-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2000-03-21-O-dominios-es.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2000/03/21/(3)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "sociedad de la información",
+                "nombres de dominios"
+            ]
+        },
+        {
+            "id": "boe-2003-662-o",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-03-26",
+            "vigencia": "derogado",
+            "descripción": "Nombres de dominio .es",
+            "titulo": "Orden CTE/662/2003, de 18 de marzo, por la que se aprueba el Plan Nacional de nombres de dominio de Internet bajo el código de país correspondiente a España (.es).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-03-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-662-O-dominios-es.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2003/03/18/cte662"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "sociedad de la información",
+                "nombres de dominios"
+            ]
+        },
+        {
+            "id": "boe-2005-1542-o",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-05-31",
+            "vigencia": "vigente",
+            "descripción": "Nombres de dominio .es",
+            "titulo": "Orden ITC/1542/2005, de 19 de mayo, que aprueba el Plan Nacional de nombres de dominio de Internet bajo el código de país correspondiente a España (.es).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-05-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-1542-O-dominios-es.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2005/05/19/itc1542"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "sociedad de la información",
+                "nombres de dominios"
             ]
         }
     ]
