@@ -26,7 +26,7 @@ Estas son las utilidades que me gustaría tener
 Aplicación que cree una página con todos los enlaces para chequearlos (o con Xenu o que sea la propia aplicación).
 
 ### ANALIZA HTML
-Aplicación que analice el html y diga los atributos utilizados y orden de los atributos. Por ejemplo, podría decir si falta atributo alt en imágenes. También podría encontrar ficheros huérfanos.
+Aplicación que analice el html y diga los atributos utilizados y orden de los atributos. Por ejemplo, podría decir si falta atributo alt en imágenes. También podría encontrar ficheros huérfanos. O cuando el tamaño de las imágenes no es proporcional a su tamaño real y pueden estar deformadas.
 
 ### ANALIZA CSS
 Aplicación para obtener todas las clases e ids de los apuntes y compararlos con la hoja de estilo. También podría comprobar el orden de los atributos.

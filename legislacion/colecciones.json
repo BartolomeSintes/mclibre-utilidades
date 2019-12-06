@@ -1,0 +1,230 @@
+{
+    "colecciones": [
+        {
+            "nombre": "mclibre",
+            "paginas": [
+                {
+                    "nombre": "listados/educativa-eu.html",
+                    "titulo": "Legislación educativa - Unión Europea",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Competencias clave",
+                                "referencias": [
+                                    "celex-2018-05-22-rec"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "listados/educativa-es.html",
+                    "titulo": "Legislación educativa - España",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Leyes de Educación",
+                                "referencias": [
+                                    "boe-2006-2-lo",
+                                    "boe-2013-8-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Cualificaciones Profesionales de Informática",
+                                "referencias": [
+                                    "boe-2002-5-lo",
+                                    "boe-2003-1128-rd",
+                                    "boe-2004-295-rd",
+                                    "boe-2005-1087-rd",
+                                    "boe-2007-1201-rd",
+                                    "boe-2007-1701-rd",
+                                    "boe-2011-776-rd",
+                                    "boe-2014-817-rd",
+                                    "boe-2015-1636-o",
+                                    "boe-2019-479-o-pci"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Currículos de Formación Profesional",
+                                "referencias": [
+                                    "boe-2008-1691-rd",
+                                    "boe-2009-1629-rd",
+                                    "boe-2010-450-rd",
+                                    "boe-2010-686-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Certificados de Profesionalidad",
+                                "referencias": [
+                                    "boe-2008-01-18-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Currículos de Secundaria y Bachillerato",
+                                "referencias": [
+                                    "boe-2014-1105-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ordenación FP",
+                                "referencias": [
+                                    "boe-1998-777-rd",
+                                    "boe-2011-1147-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Otras",
+                                "referencias": [
+                                    "boe-2008-944-o",
+                                    "boe-2015-665-rd"
+                                ]
+                            }
+                        }
+
+                    ]
+                },
+                {
+                    "nombre": "listados/educativa-es-vc.html",
+                    "titulo": "Legislación educativa - Comunidad Valenciana",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2019/20",
+                                "referencias": [
+                                    "dogv-2019-07-15-res",
+                                    "dogv-2019-07-05-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Currículos de Formación Profesional",
+                                "referencias": [
+                                    "docv-2009-07-29-o",
+                                    "docv-2012-36-o",
+                                    "docv-2012-58-o",
+                                    "docv-2012-60-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Currículos de Secundaria y Bachillerato",
+                                "referencias": [
+                                    "docv-2015-87-d",
+                                    "docv-2015-136-d",
+                                    "dogv-2018-51-d"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Otras",
+                                "referencias": [
+                                    "dogv-1997-234-d",
+                                    "docv-2015-69-o",
+                                    "dogv-2019-20-o"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "listados/educativa-derogada.html",
+                    "titulo": "Legislación educativa - Derogada",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Leyes de Educación",
+                                "referencias": [
+                                    "boe-1990-1-lo",
+                                    "boe-1995-9-lo",
+                                    "boe-2002-10-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Cualificaciones Profesionales de Informática",
+                                "referencias": [
+                                    "boe-2007-900-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Currículos de Formación Profesional",
+                                "referencias": [
+                                    "boe-1993-676-rd",
+                                    "boe-1994-1660-rd",
+                                    "boe-1994-1661-rd",
+                                    "boe-2003-939-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Certificados de Profesionalidad",
+                                "referencias": [
+                                    "boe-1995-797-rd",
+                                    "boe-2003-1506-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Otras",
+                                "referencias": [
+                                    "boe-1994-07-07-o",
+                                    "boe-2004-362-rd",
+                                    "boe-2006-1538-rd"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "listados/otras.html",
+                    "titulo": "Legislación informática - Otras normas",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Protección de datos",
+                                "referencias": [
+                                    "celex-2016-679-reg",
+                                    "boe-2018-16673-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Protección de los consumidores",
+                                "referencias": [
+                                    "boe-2202-34-l"
+                                ]
+                            }
+
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
