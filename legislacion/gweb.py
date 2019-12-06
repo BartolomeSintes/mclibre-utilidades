@@ -46,19 +46,6 @@ def cabecera(titulo, profundidad):
         tmp += "      <a href=\"http://www.mclibre.org/\"><img src=\"varios/iconos/icono-logo-mclibre.svg\" alt=\"Logotipo www.mclibre.org\" title=\"Material Curricular Libre - www.mclibre.org\" width=\"144\" height=\"76\"></a>\n"
         tmp += "    </p>\n"
         tmp += "\n"
-        tmp += '    <div class="toc">\n'
-        tmp += '      <h2><a href="index.html">Legislación</a></h2>\n'
-        tmp += "\n"
-        tmp += "      <ul>\n"
-        tmp += "        <li>Educativa\n"
-        tmp += "          <ul>\n"
-        tmp += '            <li><a href="listados/educativa-eu.html">Unión Europea</a></li>\n'
-        tmp += '            <li><a href="listados/educativa-es.html">España</a></li>\n'
-        tmp += '            <li><a href="listados/educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
-        tmp += '            <li><a href="listados/educativa-derogada.html">Derogada</a></li>\n'
-        tmp += "          </ul>\n"
-        tmp += "        </li>\n"
-        tmp += '        <li><a href="listados/otras.html">Otras</a></li>\n'
     else:
         tmp += "  <nav>\n"
         tmp += "    <p>\n"
@@ -79,8 +66,8 @@ def cabecera(titulo, profundidad):
         tmp += "          </ul>\n"
         tmp += "        </li>\n"
         tmp += '        <li><a href="otras.html">Otras</a></li>\n'
-    tmp += "      </ul>\n"
-    tmp += "    </div>\n"
+        tmp += "      </ul>\n"
+        tmp += "    </div>\n"
     tmp += "  </nav>\n"
     tmp += "\n"
 
@@ -234,13 +221,24 @@ def guarda_fichas():
 def guarda_index(nombre):
 
     t = ""
-    t += cabecera("Legislación de interés para profesores de informática", 0)
+    t += cabecera("Legislación Informática", 0)
 
-    t += "  <p>Este sitio web contiene una colección legislativa de interés para profesores de Informática. Se trata en su mayor parte de legislación educativa, pero también contiene legislación relacionada con otros temas (protección de datos, etc.).</p>\n"
+    t += "  <p>Este sitio web contiene una colección legislativa relacionada con la Informática. Se trata en su mayor parte de legislación educativa, pero también contiene legislación relacionada con otros temas (protección de datos, etc.).</p>\n"
     t += "\n"
-    t += "  <p>Contiene legislación de la Unión Europea, de España y de las Comunidades Autónomas.</p>\n"
+    t += '  <p>La legislación se encuentra distribuida en varias páginas:</p>\n'
+    t += "  <ul>\n"
+    t += "    <li>Legislación educativa\n"
+    t += "      <ul>\n"
+    t += '        <li><a href="listados/educativa-eu.html">Unión Europea</a></li>\n'
+    t += '        <li><a href="listados/educativa-es.html">España</a></li>\n'
+    t += '        <li><a href="listados/educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
+    t += '        <li><a href="listados/educativa-derogada.html">Derogada</a></li>\n'
+    t += "      </ul>\n"
+    t += "    </li>\n"
+    t += '    <li><a href="listados/otras.html">Otra legislación</a></li>\n'
+    t += "  </ul>\n"
     t += "\n"
-    t += "  <p>Los textos legales se ofrecen en varios formatos:</p>\n"
+    t += "  <p>Para facilitar su consulta, los textos legales se ofrecen en varios formatos:</p>\n"
     t += "  <ul>\n"
     t += "    <li>enlace web a la página de la publicación original (EUR-LEX, BOE, DOGV, etc.)</li>\n"
     t += "    <li>en formato PDF</li>\n"
