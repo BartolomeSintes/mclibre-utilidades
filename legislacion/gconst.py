@@ -7,7 +7,7 @@ DIR_SITE = "docs"
 DIR_FILES = "files"
 DIR_IMAGES = "img"
 FILE_INDEX = "index.html"
-FILE_FICHAS = "fichas.html"
+FILE_FICHAS = "listados/cronologico.html"
 FILE_CSS = "varios/legislacion.css"
 MES = [
     "",

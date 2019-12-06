@@ -28,6 +28,8 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2019-11-30. El texto consolidado de DOCV Decreto 87/2015 tiene varios anexos en pdf que en el original estaban incluidos en el pdf de la norma.
 
+-   2009-12-06. En las fichas podría poner un emoji para identificar la categoría (legislación, seguridad, protección de datos, etc.), al lado de la banderita.
+
 ## Otros
 
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.
@@ -47,4 +49,4 @@ General Básica, Educación Especial, Secundaria Obligatoria, Bachillerato y For
 sostenidos con fondos públicos y dependientes de la Conselleria de Cultura, Educación y Ciencia de
 la Generalitat Valenciana. (En vigor parcialmente)
 
--   http://www.informatica-juridica.com/legislacion/espana/
+-   <http://www.informatica-juridica.com/legislacion/espana/>

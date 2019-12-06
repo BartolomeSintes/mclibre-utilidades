@@ -1,10 +1,10 @@
 import json
 
 
-def ordena(json, criterio):
+def ordena(json, criterio, orden):
     final = dict(json)
     final["legislacion"] = sorted(
-        final["legislacion"], key=lambda x: x[criterio], reverse=False
+        final["legislacion"], key=lambda x: x[criterio], reverse=orden
     )
     return final
 

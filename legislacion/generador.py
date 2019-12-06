@@ -7,8 +7,8 @@ def main():
     gweb.guarda_index("mclibre")
     gweb.guarda_colecciones("mclibre")
 
-    # Actualmente no incluyo la vista de las fichas
-    # gweb.guarda_fichas()
+    # Listado cornológico
+    gweb.guarda_fichas()
 
 
 if __name__ == "__main__":
