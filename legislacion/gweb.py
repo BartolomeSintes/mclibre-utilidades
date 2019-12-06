@@ -145,7 +145,11 @@ def pie():
     return tmp
 
 
-def muestra_referencia(elemento):
+def muestra_referencia(elemento, profundidad):
+    if profundidad == 0:
+        camino = ""
+    else:
+        camino = "../"
     tmp = ""
     tmp += f'    <li class="disposicion" id="{elemento["id"]}">\n'
     tmp += f'      <strong class="descripcion">{elemento["descripción"]}</strong><br>\n'
@@ -169,9 +173,9 @@ def muestra_referencia(elemento):
                 weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
                 formato = file.suffix[1:].upper()
                 if version["enlaces"][i]["idioma"] == "es":
-                    tmp += f'          <a href="{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">{formato}</a>'
+                    tmp += f'          <a href="{camino}{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">{formato}</a>'
                 else:
-                    tmp += f'          <a href="{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">{formato}({version["enlaces"][i]["idioma"].upper()})</a>'
+                    tmp += f'          <a href="{camino}{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">{formato}({version["enlaces"][i]["idioma"].upper()})</a>'
             else:
                 if version["enlaces"][i]["idioma"] == "es":
                     tmp += f'          <a href="{version["enlaces"][i]["url"]}">web</a>'
@@ -294,7 +298,7 @@ def guarda_colecciones(nombre):
             t += "\n"
             t += "  <ul>\n"
             for id in apartado["apartado"]["referencias"]:
-                t += muestra_referencia(gjson.selecciona_en_json(legislacion, "id", id))
+                t += muestra_referencia(gjson.selecciona_en_json(legislacion, "id", id), pagina["profundidad"])
                 ids.remove(id)
             t += "  </ul>\n"
             t += "\n"
@@ -304,7 +308,7 @@ def guarda_colecciones(nombre):
             # t += "\n"
             t += "  <ul>\n"
             for id in ids:
-                t += muestra_referencia(gjson.selecciona_en_json(legislacion, "id", id))
+                t += muestra_referencia(gjson.selecciona_en_json(legislacion, "id", id), pagina["profundidad"])
             t += "  </ul>\n"
             t += "\n"
         print(f"Quedan por ordenar {len(ids)} referencias")
