@@ -33,3 +33,16 @@ Este repositorio contiene una colección legislativa de interés para profesores
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.
 
 -   2009-12-01. Comunidad Valenciana. El diario oficial se llamó DOCV entre 2007 y 2016 [ref](https://valenciaplaza.com/el-docv-recupera-la-denominacion-de-generalitat-valenciana-desde-manana). Hay que tener cuidado con los nombres de los ficheros.
+
+## Por incluir
+
+-   DOGV Decreto 108/2012, de 29 de junio, del Consell, por el que se regula la recolocación y
+redistribución del personal docente con destino definitivo en los centros docentes públicos no
+universitarios.
+
+-   Orden de 29 de junio de 1992, de la Conselleria de Cultura, Educación y Ciencia, por la que
+se aprueban las instrucciones que regulan la organización y el funcionamiento de los centros
+docentes que impartan enseñanzas de segundo ciclo de Educación Infantil, Preescolar, Primaria,
+General Básica, Educación Especial, Secundaria Obligatoria, Bachillerato y Formación Profesional,
+sostenidos con fondos públicos y dependientes de la Conselleria de Cultura, Educación y Ciencia de
+la Generalitat Valenciana. (En vigor parcialmente)

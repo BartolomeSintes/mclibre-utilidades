@@ -219,13 +219,19 @@ def guarda_fichas():
 
 
 def guarda_index(nombre):
+    # Carga json legislación
+    with open(gconst.JSON_FILE_REFERENCES, encoding="utf-8") as file:
+        tmp = json.load(file)
+    legislacion = gjson.ordena(tmp, "fecha")["legislacion"]
+
+    ids = [d["id"] for d in legislacion]
 
     t = ""
     t += cabecera("Legislación Informática", 0)
 
     t += "  <p>Este sitio web contiene una colección legislativa relacionada con la Informática. Se trata en su mayor parte de legislación educativa, pero también contiene legislación relacionada con otros temas (protección de datos, etc.).</p>\n"
     t += "\n"
-    t += '  <p>La legislación se encuentra distribuida en varias páginas:</p>\n'
+    t += f'  <p>Este sitio web contiene {len(ids)} referencias, distribuidas en varias páginas:</p>\n'
     t += "  <ul>\n"
     t += "    <li>Legislación educativa\n"
     t += "      <ul>\n"
@@ -246,16 +252,6 @@ def guarda_index(nombre):
     t += "  </ul>\n"
     t += "\n"
     t += "  <p>En algunos casos se ofrece también la versión consolidada de la norma.</p>\n"
-    t += "\n"
-
-    # Carga json legislación
-    with open(gconst.JSON_FILE_REFERENCES, encoding="utf-8") as file:
-        tmp = json.load(file)
-    legislacion = gjson.ordena(tmp, "fecha")["legislacion"]
-
-    ids = [d["id"] for d in legislacion]
-
-    t += f"  <p>Actualmente, este sitio web contiene {len(ids)} referencias.</p>\n"
     t += "\n"
 
     t += pie()

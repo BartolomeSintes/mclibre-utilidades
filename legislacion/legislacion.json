@@ -2254,10 +2254,305 @@
             ],
             "claves": [
                 "españa",
-                "real decreto",
+                "ley",
                 "educación",
                 "formación profesional",
                 "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-1985-8-lo",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1985-07-04",
+            "vigencia": "vigente",
+            "descripción": "LODE",
+            "titulo": "Ley Orgánica 8/1985, de 3 de julio, reguladora del Derecho a la Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1985-8-LO-LODE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/1985/07/03/8/"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1985-8-LO-LODE-consolidado-2018-12-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/1985/07/03/8/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "educación",
+                "ley",
+                "primaria",
+                "secundaria",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "docv-2010-15-l",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2010-12-10",
+            "vigencia": "vigente",
+            "descripción": "Autoridad del profesorado",
+            "titulo": "Ley 15/2010, de 3 de diciembre, de la Generalitat, de Autoridad del Profesorado.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-12-10-L-autoridad-profesorado.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/l/2010/12/03/15/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/l/2010/12/03/15/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-12-10-L-autoridad-profesorado-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-12-10-L-autoridad-profesorado-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "ley",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "convivencia"
+            ]
+        },
+        {
+            "id": "docv-2008-39-d",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-04-09",
+            "vigencia": "vigente",
+            "descripción": "Convicencia en los centros",
+            "titulo": "Decreto 39/2008, de 4 de abril, del Consell, sobre la convivencia en los centros docentes no universitarios sostenidos con fondos públicos y sobre los derechos y deberes del alumnado, padres, madres, tutores o tutoras, profesorado y personal de administración y servicios.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-04-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-39-D-convivencia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2008/04/04/39/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2008/04/04/39/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-39-D-convivencia-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-39-D-convivencia-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "convivencia"
+            ]
+        },
+        {
+            "id": "docv-2016-59-d",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2016-05-17",
+            "vigencia": "vigente",
+            "descripción": "Número máximo de alumnos y jornada lectiva profesores",
+            "titulo": "Decreto 59/2016, de 13 de mayo, del Consell, por el que se fija el número máximo de alumnado y la jornada lectiva del personal docente en los niveles no universitarios regulados por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, en los centros docentes no universitarios de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-05-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-59-D-maximo-alumnos-jornada-lectiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2016/05/13/59/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2016/05/13/59/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-59-D-maximo-alumnos-jornada-lectiva-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-59-D-maximo-alumnos-jornada-lectiva-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2017-07-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-59-D-maximo-alumnos-jornada-lectiva-consolidado-2017-07-14.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2016/05/13/59/con/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2016/05/13/59/con/vci"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "alumnos",
+                "profesores",
+                "jornada lectiva"
+            ]
+        },
+        {
+            "id": "dogv-2017-89-d",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-07-14",
+            "vigencia": "vigente",
+            "descripción": "Número máximo de alumnos y jornada lectiva profesores",
+            "titulo": "Decreto 89/2017, de 7 de julio, del Consell, por el que se modifican las disposiciones transitorias del Decreto 59/2016, de 13 de mayo, del Consell, por el que se fija el número máximo de alumnado y la jornada lectiva del personal docente en los niveles no universitarios regulados por la Ley orgánica 2/2006, de 3 de mayo, de educación, en los centros docentes no universitarios de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-07-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-89-D-maximo-alumnos-jornada-lectiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/07/07/89/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/07/07/89/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-89-D-maximo-alumnos-jornada-lectiva-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-89-D-maximo-alumnos-jornada-lectiva-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "alumnos",
+                "profesores",
+                "jornada lectiva"
             ]
         }
     ]
