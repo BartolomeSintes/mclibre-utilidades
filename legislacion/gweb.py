@@ -61,6 +61,7 @@ def cabecera(titulo, profundidad):
         tmp += "          <ul>\n"
         tmp += '            <li><a href="educativa-eu.html">Unión Europea</a></li>\n'
         tmp += '            <li><a href="educativa-es.html">España</a></li>\n'
+        tmp += '            <li><a href="educativa-es-min.html">Ministerio de Educación</a></li>\n'
         tmp += '            <li><a href="educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
         tmp += '            <li><a href="educativa-derogada.html">Derogada</a></li>\n'
         tmp += "          </ul>\n"
@@ -285,6 +286,7 @@ def guarda_index(nombre):
     t += "      <ul>\n"
     t += '        <li><a href="listados/educativa-eu.html">Unión Europea</a></li>\n'
     t += '        <li><a href="listados/educativa-es.html">España</a></li>\n'
+    t += '        <li><a href="listados/educativa-es-min.html">Ministerio de Educación</a></li>\n'
     t += '        <li><a href="listados/educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
     t += '        <li><a href="listados/educativa-derogada.html">Derogada</a></li>\n'
     t += "      </ul>\n"

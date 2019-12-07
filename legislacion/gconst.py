@@ -27,6 +27,7 @@ MES = [
 CODIGOS_ISO_3166 = {
     "Unión Europea": "eu",
     "España": "es",
+    "Ministerio de Educación": "es-min",
     "Andalucía": "es-an",
     "Aragón": "es-ar",
     "Principado de Asturias": "es-as",
