@@ -1246,7 +1246,7 @@
             "origen": "DOCE",
             "fecha": "2016-05-04",
             "vigencia": "vigente",
-            "descripción": "Reglamento de Protección de Datos",
+            "descripción": "Reglamento General de Protección de Datos",
             "titulo": "Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos)",
             "versiones": [
                 {
@@ -2175,7 +2175,7 @@
             "origen": "BOE",
             "fecha": "2003-08-12",
             "vigencia": "derogado",
-            "descripción": "Decreto del Título de ESI",
+            "descripción": "Currículo de ESI (MEC)",
             "titulo": "Real Decreto 939/2003, de 18 de julio, por el que se establece el currículo del ciclo formativo de grado medio correspondiente al título de Técnico en Explotación de Sistemas Informáticos.",
             "versiones": [
                 {
@@ -2185,7 +2185,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-2003-939-RD-FP-ESI-titulo.pdf"
+                            "url": "boe/BOE-2003-939-RD-FP-ESI-curriculo.pdf"
                         },
                         {
                             "formato": "web",
@@ -3171,6 +3171,748 @@
                 "orden",
                 "sociedad de la información",
                 "nombres de dominios"
+            ]
+        },
+        {
+            "id": "boe-1994-1675-rd",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-10-06",
+            "vigencia": "derogado",
+            "descripción": "Currículo de ASI",
+            "titulo": "Real Decreto 1675/1994, de 22 de julio, por el que se establece el currículo del ciclo formativo de grado superior correspondiente al título de Técnico superior en Administración de Sistemas Informáticos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-10-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-1675-RD-FP-ASI-curriculo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1994/07/22/1675"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "boe-1994-1676-rd",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-10-06",
+            "vigencia": "derogado",
+            "descripción": "Currículo de DAI",
+            "titulo": "Real Decreto 1676/1994, de 22 de julio, por el que se establece el currículo del ciclo formativo de grado superior correspondiente al título de Técnico superior en Desarrollo de Aplicaciones Informáticas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-10-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-1676-RD-FP-DAI-curriculo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1994/07/22/1676"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "boe-2003-497-rd",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-05-24",
+            "vigencia": "derogado",
+            "descripción": "Decreto del Título de ESI",
+            "titulo": "Real Decreto 497/2003, de 2 de mayo, por el que se establece el título de técnico en Explotación de Sistemas Informáticos y las correspondientes enseñanzas comunes.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-05-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-497-RD-FP-ESI-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/05/02/497"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado medio"
+            ]
+        },
+        {
+            "id": "boe-2005-1416-rd",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-12-03",
+            "vigencia": "vigente",
+            "descripción": "Catálogo de Cualificaciones Profesionales",
+            "titulo": "Real Decreto 1416/2005, de 25 de noviembre, por el que se modifica el Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de las Cualificaciones Profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-12-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-1416-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/11/25/1416"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2018-1112-rd",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-09-19",
+            "vigencia": "vigente",
+            "descripción": "Accesibilidad sitios web sector público",
+            "titulo": "Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-09-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-1112-accesibilidad-web-sector-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2018/09/07/1112"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-08-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-1112-accesibilidad-web-sector-publico-consolidado-2019-08-12.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "accesibilidad",
+                "sector público"
+            ]
+        },
+        {
+            "id": "celex-2016-2102-dir",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2016-12-06",
+            "vigencia": "vigente",
+            "descripción": "Directiva Accesibilidad sitios web sector público",
+            "titulo": "Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo, de 26 de octubre de 2016, sobre la accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2016-2102-accesibilidad-web-sector-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2016/2102/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "accesibilidad",
+                "sector público"
+            ]
+        },
+        {
+            "id": "boe-2007-1494-rd",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-11-21",
+            "vigencia": "vigente",
+            "descripción": "Accesibilidad Sociedad de la información",
+            "titulo": "Real Decreto 1494/2007, de 12 de noviembre, por el que se aprueba el Reglamento sobre las condiciones básicas para el acceso de las personas con discapacidad a las tecnologías, productos y servicios relacionados con la sociedad de la información y medios de comunicación social.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-11-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1494-discapacidad-sociedad-informacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/11/12/1494"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-09-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1494-discapacidad-sociedad-informacion-consolidado-2019-09-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "accesibilidad",
+                "sector público",
+                "sociedad de la información"
+            ]
+        },
+        {
+            "id": "boe-2009-2187-o",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2009-08-10",
+            "vigencia": "vigente",
+            "descripción": "Currículo de SMR (MEC)",
+            "titulo": "Orden EDU/2187/2009, de 3 de julio, por la que se establece el currículo del ciclo formativo de Grado Medio correspondiente al título de Técnico en Sistemas Microinformáticos y Redes.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-08-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-2187-O-FP-curriculo-SMR-mec.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2009/07/03/edu2187"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "ministerio de educación",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado medio"
+            ]
+        },
+        {
+            "id": "boe-2010-392-o",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2010-02-25",
+            "vigencia": "vigente",
+            "descripción": "Currículo de ASIR (MEC)",
+            "titulo": "Orden EDU/392/2010, de 20 de enero, por la que se establece el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos en Red.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-02-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-392-O-FP-ASIR-curriculo-mec.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2010/01/20/edu392"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "ministerio de educación",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "boe-2010-2000-o",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2010-07-26",
+            "vigencia": "vigente",
+            "descripción": "Currículo de DAM (MEC)",
+            "titulo": "Orden EDU/2000/2010, de 13 de julio, por la que se establece el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-2000-O-FP-DAM-curriculo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2010/07/13/edu2000"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "ministerio de educación",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "boe-2010-2887-o",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2010-11-11",
+            "vigencia": "vigente",
+            "descripción": "Currículo de DAW (MEC)",
+            "titulo": "Orden EDU/2887/2010, de 2 de noviembre, por la que se establece el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Web.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-11-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-2887-O-FP-DAW-curriculo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2010/11/02/edu2887"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "ministerio de educación",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "celex-2013-40-dir",
+            "incluido": "2019-12-08",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2013-08-14",
+            "vigencia": "vigente",
+            "descripción": "Directiva Ataques contra los sistemas de información",
+            "titulo": "Directiva 2013/40/UE del Parlamento Europeo y del Consejo, de 12 de agosto de 2013 , relativa a los ataques contra los sistemas de información y por la que se sustituye la Decisión marco 2005/222/JAI del Consejo",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-08-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2013-40-ciberataques-penal.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2013/40/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "seguridad",
+                "código penal"
+            ]
+        },
+        {
+            "id": "boe-2015-1-lo",
+            "incluido": "2019-12-08",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-03-31",
+            "vigencia": "vigente",
+            "descripción": "Código Penal Ataques contra los sistemas de información",
+            "titulo": "Ley Orgánica 1/2015, de 30 de marzo, por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-03-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-1-LO-codigo-penal.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2015/03/30/1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "seguridad",
+                "código penal"
+            ]
+        },
+        {
+            "id": "boe-2008-229-rd",
+            "incluido": "2019-12-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2008-02-25",
+            "vigencia": "vigente",
+            "descripción": "Centros de Referencia Nacional Formación Profesional",
+            "titulo": "Real Decreto 229/2008, de 15 de febrero, por el que se regulan los Centros de Referencia Nacional en el ámbito de la formación profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-02-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-229-RD-centros-referencia-nacional-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2008/02/15/229"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2017-07-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-229-RD-centros-referencia-nacional-fp-consolidado-2017-07-05.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2008/02/15/229/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "formación profesional",
+                "centros de referencia nacional"
+            ]
+        },
+        {
+            "id": "boe-2015-874-rd",
+            "incluido": "2019-12-08",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-10-17",
+            "vigencia": "vigente",
+            "descripción": "Centro de Referencia Nacional - Sistemas y Telemática",
+            "titulo": "Real Decreto 874/2015, de 2 de octubre, por el que se crea como Centro de Referencia Nacional el Centro Nacional de Formación en Nuevas Tecnologías de La Rioja, en el área profesional Sistemas y Telemática de la familia profesional Informática y Comunicaciones, en el ámbito de la formación profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-10-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-874-RD-CRN-sistemas-telematica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2015/10/02/874"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "formación profesional",
+                "centros de referencia nacional"
+            ]
+        },
+        {
+            "id": "boe-2015-870-rd",
+            "incluido": "2019-12-08",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-10-17",
+            "vigencia": "vigente",
+            "descripción": "Centro de Referencia Nacional - Desarrollo y Comunicaciones",
+            "titulo": "Real Decreto 870/2015, de 2 de octubre, por el que se califican como Centros de Referencia Nacional cuatro Centros Nacionales de Formación Profesional Ocupacional y se crea como Centro de Referencia Nacional el Centro de Formación en Administración, Seguros y Finanzas de Fuencarral, todos ellos de la Comunidad de Madrid, en el ámbito de la formación profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-10-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-870-RD-CRN-desarrollo-comunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2015/10/02/870"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "formación profesional",
+                "centros de referencia nacional"
+            ]
+        },
+        {
+            "id": "boe-2008-1834-rd",
+            "incluido": "2019-12-08",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2008-11-28",
+            "vigencia": "vigente",
+            "descripción": "Especialidades de Secundaria",
+            "titulo": "Real Decreto 1834/2008, de 8 de noviembre, por el que se definen las condiciones de formación para el ejercicio de la docencia en la educación secundaria obligatoria, el bachillerato, la formación profesional y las enseñanzas de régimen especial y se establecen las especialidades de los cuerpos docentes de enseñanza secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-11-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-1834-especialidades-secundaria.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2008/11/08/1834"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2015-07-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-1834-especialidades-secundaria-consolidado-2015-07-18.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2008/11/08/1834/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "profesorado",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "especialidades docentes",
+                "formación inicial"
+            ]
+        },
+        {
+            "id": "boe-2012-1529-rd",
+            "incluido": "2019-12-08",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2012-11-09",
+            "vigencia": "vigente",
+            "descripción": "FP dual",
+            "titulo": "Real Decreto 1529/2012, de 8 de noviembre, por el que se desarrolla el contrato para la formación y el aprendizaje y se establecen las bases de la formación profesional dual.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2012-1529-RD-fp-dual.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2012/11/08/1529/"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2014-03-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2012-1529-RD-fp-dual-consolidado-2014-03-11.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2012/11/08/1529/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "profesorado",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "especialidades docentes",
+                "formación inicial"
             ]
         }
     ]

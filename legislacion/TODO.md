@@ -28,7 +28,9 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2019-11-30. El texto consolidado de DOCV Decreto 87/2015 tiene varios anexos en pdf que en el original estaban incluidos en el pdf de la norma.
 
--   2009-12-06. En las fichas podría poner un emoji para identificar la categoría (legislación, seguridad, protección de datos, etc.), al lado de la banderita.
+-   2019-12-06. En las fichas podría poner un emoji para identificar la categoría (legislación, seguridad, protección de datos, etc.), al lado de la banderita.
+
+-   2019-12-06. Hacer un formulario para que me puedan enviar nuevas referencias
 
 ## Otros
 

@@ -41,6 +41,7 @@
                                     "boe-2003-1128-rd",
                                     "boe-2004-295-rd",
                                     "boe-2005-1087-rd",
+                                    "boe-2005-1416-rd",
                                     "boe-2007-1201-rd",
                                     "boe-2007-1701-rd",
                                     "boe-2011-776-rd",
@@ -88,10 +89,37 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "FP dual",
+                                "referencias": [
+                                    "boe-2012-1529-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
                                     "boe-2008-944-o",
+                                    "boe-2008-1834-rd",
                                     "boe-2015-665-rd"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "listados/educativa-es-min.html",
+                    "titulo": "Legislación educativa - Ministerio de Educación",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Currículos de Formación Profesional",
+                                "referencias": [
+                                    "boe-2009-2187-o",
+                                    "boe-2010-392-o",
+                                    "boe-2010-2000-o",
+                                    "boe-2010-2887-o"
                                 ]
                             }
                         }
@@ -184,7 +212,10 @@
                                 "referencias": [
                                     "boe-1993-676-rd",
                                     "boe-1994-1660-rd",
+                                    "boe-1994-1675-rd",
                                     "boe-1994-1661-rd",
+                                    "boe-1994-1676-rd",
+                                    "boe-2003-497-rd",
                                     "boe-2003-939-rd"
                                 ]
                             }
@@ -241,9 +272,31 @@
                             "apartado": {
                                 "titulo": "Seguridad informática",
                                 "referencias": [
+                                    "celex-2013-40-dir",
+                                    "boe-2015-1-lo",
                                     "celex-2016-1148-dir",
                                     "boe-2018-12-rdl",
                                     "boe-2019-14-rdl"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Accesibilidad",
+                                "referencias": [
+                                    "boe-2007-1494-rd",
+                                    "celex-2016-2102-dir",
+                                    "boe-2018-1112-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Centros de Referencia Nacional Formación Profesional",
+                                "referencias": [
+                                    "boe-2008-229-rd",
+                                    "boe-2015-870-rd",
+                                    "boe-2015-874-rd"
                                 ]
                             }
                         },
