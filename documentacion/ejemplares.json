@@ -8317,6 +8317,17 @@
       "creado": "2019-12-01"
     },
     {
+      "serie": "The MagPi Essentials",
+      "nombre": "Rapsberry Pi Projects Book",
+      "número": 5,
+      "año": 2019,
+      "mes": 11,
+      "portada": "the-magpi-essentials-projects-05-en-201911.jpg",
+      "fichero": "the-magpi-essentials-projects-05-en-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-08"
+    },
+    {
       "serie": "The PCLinuxOS Magazine",
       "nombre": "The PCLinuxOS Magazine",
       "número": 1,
@@ -10000,6 +10011,17 @@
       "creado": "2019-11-10"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 155,
+      "año": 2019,
+      "mes": 12,
+      "portada": "pclinuxos-155-en-201912.jpg",
+      "fichero": "pclinuxos-155-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-08"
+    },
+    {
       "serie": "Wireframe",
       "nombre": "Wireframe",
       "número": 1,
@@ -10295,6 +10317,17 @@
       "fichero": "wireframe-27-en-201911.pdf",
       "idioma": "inglés",
       "creado": "2019-11-24"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 28,
+      "año": 2019,
+      "mes": 12,
+      "portada": "wireframe-28-en-201912.jpg",
+      "fichero": "wireframe-28-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-08"
     },
     {
       "serie": "ALT Magazine",
