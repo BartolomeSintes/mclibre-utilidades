@@ -61,8 +61,12 @@ def cabecera(titulo, profundidad):
         tmp += "          <ul>\n"
         tmp += '            <li><a href="educativa-eu.html">Unión Europea</a></li>\n'
         tmp += '            <li><a href="educativa-es.html">España</a></li>\n'
-        tmp += '            <li><a href="educativa-es-min.html">Ministerio de Educación</a></li>\n'
-        tmp += '            <li><a href="educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
+        tmp += "            <li>Comunidades Autónomas:\n"
+        tmp += "              <ul>\n"
+        tmp += '                <li><a href="educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
+        tmp += '                <li><a href="educativa-es-min.html">Territorio MEC</a></li>\n'
+        tmp += "              </ul>\n"
+        tmp += "            </li>\n"
         tmp += '            <li><a href="educativa-derogada.html">Derogada</a></li>\n'
         tmp += "          </ul>\n"
         tmp += "        </li>\n"
@@ -138,8 +142,13 @@ def cronologico(legislacion):
         tmp += "      </p>\n"
         for version in elemento["versiones"]:
             tmp += '      <p class="fichero">\n'
+            if version["versión"] == "borrador":
+                tmp += f'        <img src="../{gconst.DIR_IMAGES}/en-construccion.svg" alt="Borrador" title="Borrador" width="25">'
+                tmp += '<span class="derogado">borrador</span>'
             if len(elemento["versiones"]) != 1:
-                tmp += f'      {version["versión"][:1].upper() + version["versión"][1:]}: '
+                tmp += (
+                    f'      {version["versión"][:1].upper() + version["versión"][1:]}: '
+                )
             for i in range(len(version["enlaces"])):
                 if version["enlaces"][i]["formato"] != "web":
                     file = pathlib.Path(
@@ -153,7 +162,9 @@ def cronologico(legislacion):
                         tmp += f'        <a href="../{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">{formato}({version["enlaces"][i]["idioma"].upper()})</a>'
                 else:
                     if version["enlaces"][i]["idioma"] == "es":
-                        tmp += f'        <a href="{version["enlaces"][i]["url"]}">web</a>'
+                        tmp += (
+                            f'        <a href="{version["enlaces"][i]["url"]}">web</a>'
+                        )
                     else:
                         tmp += f'        <a href="{version["enlaces"][i]["url"]}">web({version["enlaces"][i]["idioma"].upper()})</a>'
                 if i < len(version["enlaces"]) - 1:
@@ -172,7 +183,7 @@ def cronologico(legislacion):
 def pie():
     tmp = "\n"
     tmp += "  <footer>\n"
-    tmp += f"      <p>Última modificación de esta página: {fecha_a_texto(str(date.today()))}</p>\n"
+    tmp += f"    <p>Última modificación de esta página: {fecha_a_texto(str(date.today()))}</p>\n"
     tmp += "  </footer>\n"
     tmp += "</body>\n"
     tmp += "</html>\n"
@@ -286,8 +297,12 @@ def guarda_index(nombre):
     t += "      <ul>\n"
     t += '        <li><a href="listados/educativa-eu.html">Unión Europea</a></li>\n'
     t += '        <li><a href="listados/educativa-es.html">España</a></li>\n'
-    t += '        <li><a href="listados/educativa-es-min.html">Ministerio de Educación</a></li>\n'
-    t += '        <li><a href="listados/educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
+    t += "        <li>Comunidades Autónomas:\n"
+    t += "          <ul>\n"
+    t += '            <li><a href="listados/educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
+    t += '            <li><a href="listados/educativa-es-min.html">Territorio MEC</a></li>\n'
+    t += "          </ul>\n"
+    t += "        </li>\n"
     t += '        <li><a href="listados/educativa-derogada.html">Derogada</a></li>\n'
     t += "      </ul>\n"
     t += "    </li>\n"
@@ -333,10 +348,11 @@ def guarda_colecciones(nombre):
         # t += '  <p><a href="fichas.html">Versión en forma de fichas</a></p>\n'
         # t += "\n"
         cuenta = gjson.cuenta_referencias_en_coleccion(pagina)
+        t_intro = pagina["introducción"]
         if cuenta == 1:
-            t += f"  <p>Esta página contiene {cuenta} referencia legislativa.</p>\n"
+            t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencia legislativa relacionada")
         else:
-            t += f"  <p>Esta página contiene {cuenta} referencias legislativas.</p>\n"
+            t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencias legislativas relacionadas")
         t += "\n"
         for apartado in pagina["contenido"]:
             t += f'  <h2>{apartado["apartado"]["titulo"]}</h2>\n'

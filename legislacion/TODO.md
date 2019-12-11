@@ -32,6 +32,14 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2019-12-06. Hacer un formulario para que me puedan enviar nuevas referencias
 
+-   2019-12-08. Hacer que colecciones.json pueda definir subapartados.
+
+-   2019-12-08. Hacer seguimiento de otras páginas para enterarme de novedades.
+
+-   2019-12-08. Añadir enlace de descarga del repositorio completo. En algún momento podría preparar zips temáticos que estuvieran en mclibre (o publicarlas en github).
+
+-   2019-12-10. Como en las revistas, la fecha del pie de página tendría que ser la fecha más tardía de las normas de la página.
+
 ## Otros
 
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.

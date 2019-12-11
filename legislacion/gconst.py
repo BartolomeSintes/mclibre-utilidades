@@ -49,5 +49,6 @@ CODIGOS_ISO_3166 = {
 DOCUMENTOS_TIPOS = {
     "original": "Original: ",
     "consolidado": "Consolidado: ",
-    "anexo": "Anexo: "
+    "anexo": "Anexo: ",
+    "borrador": "Borrador: "
 }

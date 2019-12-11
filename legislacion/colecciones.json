@@ -6,6 +6,7 @@
                 {
                     "nombre": "listados/educativa-eu.html",
                     "titulo": "Legislación educativa - Unión Europea",
+                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la educación publicadas en el Diario Oficial de las Comunidades Europeas.",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -21,8 +22,17 @@
                 {
                     "nombre": "listados/educativa-es.html",
                     "titulo": "Legislación educativa - España",
+                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la educación publicadas en el Boletín Oficial del Estado de España.",
                     "profundidad": 1,
                     "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Borradores",
+                                "referencias": [
+                                    "boe-borrador-2019-1-rd"
+                                ]
+                            }
+                        },
                         {
                             "apartado": {
                                 "titulo": "Leyes de Educación",
@@ -109,7 +119,8 @@
                 },
                 {
                     "nombre": "listados/educativa-es-min.html",
-                    "titulo": "Legislación educativa - Ministerio de Educación",
+                    "titulo": "Legislación educativa - Territorio MEC",
+                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la educación publicadas en el Boletín Oficial del Estado de España y con vigor en aquellos territorios sin competencias autonómicas en Educación (el llamado <i>territorio MEC</i>).",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -128,6 +139,7 @@
                 {
                     "nombre": "listados/educativa-es-vc.html",
                     "titulo": "Legislación educativa - Comunidad Valenciana",
+                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la educación publicadas en el Diario Oficial de la Generalitat Valenciana.",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -173,11 +185,11 @@
                             "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
-                                    "dogv-1997-234-d",
                                     "docv-2015-69-o",
                                     "docv-2016-59-d",
                                     "dogv-2017-89-d",
-                                    "dogv-2019-20-o"
+                                    "dogv-2019-20-o",
+                                    "dogv-2019-252-d"
                                 ]
                             }
                         }
@@ -186,6 +198,7 @@
                 {
                     "nombre": "listados/educativa-derogada.html",
                     "titulo": "Legislación educativa - Derogada",
+                    "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la educación y publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -238,12 +251,21 @@
                                     "boe-2006-1538-rd"
                                 ]
                             }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Comunidad Valenciana",
+                                "referencias": [
+                                    "dogv-1997-234-d"
+                                ]
+                            }
                         }
                     ]
                 },
                 {
                     "nombre": "listados/otras.html",
                     "titulo": "Legislación informática - Otras normas",
+                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la informática publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
                     "profundidad": 1,
                     "contenido": [
                         {

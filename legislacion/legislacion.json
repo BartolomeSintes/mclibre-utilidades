@@ -431,11 +431,11 @@
         {
             "id": "dogv-1997-234-d",
             "incluido": "2019-11-27",
-            "modificado": "",
+            "modificado": "2019-12-09",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "1997-09-08",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "ROF de Centros de Secundaria",
             "titulo": "Decreto 234/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se aprueba el Reglamento orgánico y funcional de los institutos de educación secundaria.",
             "versiones": [
@@ -3913,6 +3913,87 @@
                 "formación profesional",
                 "especialidades docentes",
                 "formación inicial"
+            ]
+        },
+        {
+            "id": "boe-borrador-2019-1-rd",
+            "incluido": "2019-12-08",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2019-07-02",
+            "vigencia": "borrador",
+            "descripción": "Decreto del Título de Ciberseguridad",
+            "titulo": "Proyecto de Real Decreto EFP/XXX/2019, de XX de XXXXX por el que se establece el Curso de Especialización en Ciberseguridad en entornos de las tecnologías de la información y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2019-07-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-ciberseguridad-borrador-2019-07-02.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2019/ce-ciberseguridad-tic.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "dogv-2019-252-d",
+            "incluido": "2019-12-09",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-12-09",
+            "vigencia": "vigente",
+            "descripción": "ROF de Centros de Secundaria",
+            "titulo": "DECRETO 252/2019, de 29 de noviembre, del Consell, de regulación de la organización y el funcionamiento de los centros públicos que imparten enseñanzas de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-12-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-252-D-ROF-centros-secundaria.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/11616&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-252-D-ROF-centros-secundaria-es.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "centros",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional"
             ]
         }
     ]
