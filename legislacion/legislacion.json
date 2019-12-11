@@ -3389,7 +3389,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "eur-lex/EURLEX-2016-2102-accesibilidad-web-sector-publico.pdf"
+                            "url": "eur-lex/EURLEX-2016-2102-D-accesibilidad-web-sector-publico.pdf"
                         },
                         {
                             "formato": "web",
@@ -3979,6 +3979,11 @@
                             "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/11616&L=1"
                         },
                         {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/11616&L=1"
+                        },
+                        {
                             "formato": "rtf",
                             "idioma": "es",
                             "url": "dogv/DOGV-2019-252-D-ROF-centros-secundaria-es.rtf"
@@ -3994,6 +3999,219 @@
                 "ESO",
                 "bachillerato",
                 "formación profesional"
+            ]
+        },
+        {
+            "id": "celex-1985-368-dec",
+            "incluido": "2019-12-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1985-07-31",
+            "vigencia": "derogado",
+            "descripción": "Correspondencia calificaciones FP",
+            "titulo": "Decisión del Consejo, de 16 de julio de 1985, relativa a la correspondencia de las calificaciones de formación profesional entre los Estados miembros de las Comunidades Europeas",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1985-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1985-368-DEC-correspondencia-calificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dec/1985/368/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "decisión",
+                "educación",
+                "formación profesional",
+                "correspondencia de calificaciones"
+            ]
+        },
+        {
+            "id": "celex-1992-12-03-res",
+            "incluido": "2019-12-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1992-02-19",
+            "vigencia": "vigente",
+            "descripción": "Transparencia de las cualificaciones prefesionales",
+            "titulo": "Resolución del Consejo, de 3 de diciembre de 1992, sobre la transparencia de las cualificaciones profesionales",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-02-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1992-12-03-RES-transparencia-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?qid=1576091288404&uri=CELEX:31993Y0219(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "celex-1992-51-d",
+            "incluido": "2019-12-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1992-07-24",
+            "vigencia": "derogado",
+            "descripción": "Segundo sistema general de reconocimiento de formaciones profesionales",
+            "titulo": "Directiva 92/51/CEE del Consejo, de 18 de junio de 1992, relativa a un segundo sistema general de reconocimiento de formaciones profesionales, que completa la Directiva 89/48/CEE",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-07-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1992-51-D-segundo-sistema-reconocimiento-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1992/51/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "educación",
+                "formación profesional",
+                "cualificaciones profesionales",
+                "reconocimiento de cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "celex-1989-48-d",
+            "incluido": "2019-12-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1989-01-24",
+            "vigencia": "derogado",
+            "descripción": "Reconocimientos de título enseñanza superior duración mínima de 3 años",
+            "titulo": "Directiva 89/48/CEE del Consejo de 21 de diciembre de 1988 relativa a un sistema general de reconocimiento de los títulos de enseñanza superior que sancionan formaciones profesionales de una duración mínima de tres años",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1989-01-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1989-48-D-reconocimiento-titulos-ensenanza-superior-minimo-tres-anos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1989/48/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2001-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1989-48-D-reconocimiento-titulos-ensenanza-superior-minimo-tres-anos-consolidado-2001-07-31.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1989/48/2001-07-31"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "educación",
+                "enseñanza superior",
+                "reconocimiento de títulos"
+            ]
+        },
+        {
+            "id": "celex-2005-36-48-d",
+            "incluido": "2019-12-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2005-09-30",
+            "vigencia": "vigente",
+            "descripción": "Reconocimiento de cualificaciones profesionales",
+            "titulo": "Directiva 2005/36/CE del Parlamento Europeo y del Consejo, de 7 de septiembre de 2005, relativa al reconocimiento de cualificaciones profesionales",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-09-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2005-36-D-reconocimiento-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2005/36/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-04-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2005-36-D-reconocimiento-cualificaciones-profesionales-consolidado-2019-04-15.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2005/36/2019-04-15"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "educación",
+                "cualificaciones profesionales",
+                "reconocimiento de cualificaciones profesionales"
             ]
         }
     ]

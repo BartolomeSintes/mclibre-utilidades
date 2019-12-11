@@ -16,6 +16,23 @@
                                     "celex-2018-05-22-rec"
                                 ]
                             }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Reconocimiento de Cualificaciones Profesionales",
+                                "referencias": [
+                                    "celex-2005-36-48-d"
+                                ]
+                            }
+                        },
+
+                        {
+                            "apartado": {
+                                "titulo": "Resoluciones del Consejo",
+                                "referencias": [
+                                    "celex-1992-12-03-res"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -246,6 +263,9 @@
                             "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
+                                    "celex-1985-368-dec",
+                                    "celex-1989-48-d",
+                                    "celex-1992-51-d",
                                     "boe-1994-07-07-o",
                                     "boe-2004-362-rd",
                                     "boe-2006-1538-rd"
