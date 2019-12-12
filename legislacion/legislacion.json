@@ -708,7 +708,7 @@
             "origen": "DOCV",
             "fecha": "2009-09-03",
             "vigencia": "vigente",
-            "descripción": "Curículo SMR (CV)",
+            "descripción": "Currículo SMR (CV)",
             "titulo": "Orden de 29 de julio 2009, de la Conselleria de Educación, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Medio correspondiente al título de Técnico en Sistemas Microinformáticos y Redes.",
             "versiones": [
                 {
@@ -760,7 +760,7 @@
             "origen": "DOCV",
             "fecha": "2012-07-06",
             "vigencia": "vigente",
-            "descripción": "Curículo ASIR (CV)",
+            "descripción": "Currículo ASIR (CV)",
             "titulo": "Orden 36/2012, de 22 de junio, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos en Red.",
             "versiones": [
                 {
@@ -812,7 +812,7 @@
             "origen": "DOCV",
             "fecha": "2012-09-24",
             "vigencia": "vigente",
-            "descripción": "Curículo DAM (CV)",
+            "descripción": "Currículo DAM (CV)",
             "titulo": "Orden 58/2012, de 5 de septiembre, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma.",
             "versiones": [
                 {
@@ -864,7 +864,7 @@
             "origen": "DOCV",
             "fecha": "2012-10-08",
             "vigencia": "vigente",
-            "descripción": "Curículo DAW (CV)",
+            "descripción": "Currículo DAW (CV)",
             "titulo": "Orden 60/2012, de 25 de septiembre, de la Conselleria de Educación, Formación y Empleo por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Web.",
             "versiones": [
                 {
@@ -1613,7 +1613,7 @@
                     ]
                 },
                 {
-                    "versión": "correción",
+                    "versión": "corrección",
                     "fecha": "2019-07-19",
                     "enlaces": [
                         {
@@ -2392,7 +2392,7 @@
             "origen": "DOCV",
             "fecha": "2008-04-09",
             "vigencia": "vigente",
-            "descripción": "Convicencia en los centros",
+            "descripción": "Convivencia en los centros (CV)",
             "titulo": "Decreto 39/2008, de 4 de abril, del Consell, sobre la convivencia en los centros docentes no universitarios sostenidos con fondos públicos y sobre los derechos y deberes del alumnado, padres, madres, tutores o tutoras, profesorado y personal de administración y servicios.",
             "versiones": [
                 {
@@ -3923,7 +3923,7 @@
             "origen": "MEC",
             "fecha": "2019-07-02",
             "vigencia": "borrador",
-            "descripción": "Decreto del Título de Ciberseguridad",
+            "descripción": "Borrador Decreto del Título de Ciberseguridad",
             "titulo": "Proyecto de Real Decreto EFP/XXX/2019, de XX de XXXXX por el que se establece el Curso de Especialización en Ciberseguridad en entornos de las tecnologías de la información y se fijan los aspectos básicos del currículo.",
             "versiones": [
                 {
@@ -3962,7 +3962,7 @@
             "fecha": "2019-12-09",
             "vigencia": "vigente",
             "descripción": "ROF de Centros de Secundaria",
-            "titulo": "DECRETO 252/2019, de 29 de noviembre, del Consell, de regulación de la organización y el funcionamiento de los centros públicos que imparten enseñanzas de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional. ",
+            "titulo": "Decreto 252/2019, de 29 de noviembre, del Consell, de regulación de la organización y el funcionamiento de los centros públicos que imparten enseñanzas de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional. ",
             "versiones": [
                 {
                     "versión": "original",
@@ -4045,7 +4045,7 @@
             "origen": "DOCE",
             "fecha": "1992-02-19",
             "vigencia": "vigente",
-            "descripción": "Transparencia de las cualificaciones prefesionales",
+            "descripción": "Transparencia de las cualificaciones profesionales",
             "titulo": "Resolución del Consejo, de 3 de diciembre de 1992, sobre la transparencia de las cualificaciones profesionales",
             "versiones": [
                 {
@@ -4118,7 +4118,7 @@
             "origen": "DOCE",
             "fecha": "1989-01-24",
             "vigencia": "derogado",
-            "descripción": "Reconocimientos de título enseñanza superior duración mínima de 3 años",
+            "descripción": "Reconocimientos de títulos enseñanza superior duración mínima de 3 años",
             "titulo": "Directiva 89/48/CEE del Consejo de 21 de diciembre de 1988 relativa a un sistema general de reconocimiento de los títulos de enseñanza superior que sancionan formaciones profesionales de una duración mínima de tres años",
             "versiones": [
                 {
@@ -4212,6 +4212,278 @@
                 "educación",
                 "cualificaciones profesionales",
                 "reconocimiento de cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "docv-2008-115-d",
+            "incluido": "2019-12-12",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-08-05",
+            "vigencia": "vigente",
+            "descripción": "Centros Integrados de Formación Profesional (CV)",
+            "titulo": "Decreto 115 /2008, 1 de agosto, del Consell, por el que se regulan los centros integrados de formación profesional en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-115-D-CIFP-CV.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2008/08/01/115/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2008/08/01/115/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-115-D-CIFP-CV-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-115-D-CIFP-CV-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "formación profesional",
+                "centros integrados de formación profesional"
+            ]
+        },
+        {
+            "id": "boe-2005-1558-rd",
+            "incluido": "2019-12-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-12-30",
+            "vigencia": "vigente",
+            "descripción": "Centros Integrados de Formación Profesional",
+            "titulo": "Real Decreto 1558/2005, de 23 de diciembre, por el que se regulan los requisitos básicos de los Centros integrados de formación profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-12-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-1558-RD-CIFP.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/12/23/1558"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "secundaria",
+                "formación profesional",
+                "centros integrados de formación profesional"
+            ]
+        },
+        {
+            "id": "boe-2010-564-rd",
+            "incluido": "2019-12-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-05-25",
+            "vigencia": "vigente",
+            "descripción": "Centros Integrados de Formación Profesional",
+            "titulo": "Real Decreto 564/2010, de 7 de mayo, por el que se modifica el Real Decreto 1558/2005, de 23 de diciembre, por el que se regulan los requisitos básicos de los Centros integrados de formación profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-05-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-564-RD-CIFP.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/05/07/564"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "secundaria",
+                "formación profesional",
+                "centros integrados de formación profesional"
+            ]
+        },
+        {
+            "id": "boe-2015-30-l",
+            "incluido": "2019-12-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-09-10",
+            "vigencia": "vigente",
+            "descripción": "Sistema de Formación Profesional para el Empleo",
+            "titulo": "Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el empleo en el ámbito laboral.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-09-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-30-L-SFPE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2015/09/09/30"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "boe-2017-694-rd",
+            "incluido": "2019-12-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2017-07-05",
+            "vigencia": "vigente",
+            "descripción": "Sistema de Formación Profesional para el Empleo",
+            "titulo": "Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-09-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2017-694-RD-SFPE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2017/07/03/694"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "boe-2019-283-o",
+            "incluido": "2019-12-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2019-03-14",
+            "vigencia": "vigente",
+            "descripción": "Sistema de Formación Profesional para el Empleo",
+            "titulo": "Orden TMS/283/2019, de 12 de marzo, por la que se regula el Catálogo de Especialidades Formativas en el marco del sistema de formación profesional para el empleo en el ámbito laboral.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-03-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2019-283-O-catalogo-especialidades-formativas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2019/03/12/tms283"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "catálogo de especialidades"
+            ]
+        },
+        {
+            "id": "boe-2018-2518-o",
+            "incluido": "2019-12-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-01-11",
+            "vigencia": "vigente",
+            "descripción": "Aspectos formativos del Contrato para la formación y el aprendizaje",
+            "titulo": "Orden ESS/2518/2013, de 26 de diciembre, por la que se regulan los aspectos formativos del contrato para la formación y el aprendizaje, en desarrollo del Real Decreto 1529/2012, de 8 de noviembre, por el que se desarrolla el contrato para la formación y el aprendizaje y se establecen las bases de la formación profesional dual.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-01-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2013-2518-O-contrato-formacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2013/12/26/ess2518"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "contrato para la formación"
             ]
         }
     ]

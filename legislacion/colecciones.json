@@ -118,7 +118,26 @@
                             "apartado": {
                                 "titulo": "FP dual",
                                 "referencias": [
-                                    "boe-2012-1529-rd"
+                                    "boe-2012-1529-rd",
+                                    "boe-2018-2518-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Centros Integrados de Formación Profesional",
+                                "referencias": [
+                                    "boe-2005-1558-rd",
+                                    "boe-2010-564-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Sistema de Formación Profesional para el Empleo",
+                                "referencias": [
+                                    "boe-2015-30-l",
+                                    "boe-2017-694-rd"
                                 ]
                             }
                         },
@@ -195,6 +214,14 @@
                                 "referencias": [
                                     "docv-2008-39-d",
                                     "docv-2010-15-l"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Centros integrados de Formación Profesional",
+                                "referencias": [
+                                    "docv-2008-115-d"
                                 ]
                             }
                         },
