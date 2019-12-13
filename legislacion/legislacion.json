@@ -3906,13 +3906,8 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "profesorado",
-                "secundaria",
-                "ESO",
-                "bachillerato",
                 "formación profesional",
-                "especialidades docentes",
-                "formación inicial"
+                "fp dual"
             ]
         },
         {
@@ -4484,6 +4479,441 @@
                 "formación profesional",
                 "formación profesional para el empleo",
                 "contrato para la formación"
+            ]
+        },
+        {
+            "id": "boe-2009-1224-rd",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2009-08-25",
+            "vigencia": "vigente",
+            "descripción": "Reconocimiento de competencias por experiencia laboral",
+            "titulo": "Real Decreto 1224/2009, de 17 de julio, de reconocimiento de las competencias profesionales adquiridas por experiencia laboral.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-08-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-1224-reconocimento-competencias-experiencia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2009/07/17/1224"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "reconocimiento de competencias"
+            ]
+        },
+        {
+            "id": "celex-2017-05-22-rec",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2017-06-15",
+            "vigencia": "vigente",
+            "descripción": "Marco Europeo de Cualificaciones",
+            "titulo": "Recomendación del Consejo, de 22 de mayo de 2017, relativa al Marco Europeo de Cualificaciones para el aprendizaje permanente y por la que se deroga la Recomendación del Parlamento Europeo y del Consejo de 23 de abril de 2008 relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-06-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2017-05-22-REC-marco-europeo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32017H0615%2801%29"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "marco europeo de cualificaciones",
+                "aprendizaje permanente"
+            ]
+        },
+        {
+            "id": "celex-2008-04-23-rec",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2008-05-06",
+            "vigencia": "derogado",
+            "descripción": "Marco Europeo de Cualificaciones",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 23 de abril de 2008 , relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente (Texto pertinente a efectos del EEE)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-05-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2004-04-23-REC-marco-europeo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32008H0506%2801%29"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "marco europeo de cualificaciones",
+                "aprendizaje permanente"
+            ]
+        },
+        {
+            "id": "celex-2018-03-15-rec",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-05-02",
+            "vigencia": "vigente",
+            "descripción": "Marco Europeo para una formación de aprendices",
+            "titulo": "Recomendación del Consejo, de 15 de marzo de 2018, relativa al Marco Europeo para una formación de Aprendices de Calidad y Eficaz",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-05-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-03-15-REC-marco-europeo-aprendices.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32018H0502%2801%29"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "marco europeo para formación de aprendices"
+            ]
+        },
+        {
+            "id": "celex-2016-12-19-rec",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2016-12-24",
+            "vigencia": "vigente",
+            "descripción": "Itinerarios de mejora de las capacidades",
+            "titulo": "Recomendación del Consejo, de 19 de diciembre de 2016, relativa a Itinerarios de mejora de las capacidades: Nuevas oportunidades para adultos",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-12-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2016-12-19-REC-itinerarios-mejora-capacidades.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=OJ%3AJOC_2016_484_R_0001"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "itinerarios de mejora de las capacidades"
+            ]
+        },
+        {
+            "id": "dogv-2014-02-o",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2014-01-17",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional Dual",
+            "titulo": "Orden 2/2014, de 13 de enero, de la Consellería de Educación, Cultura y Deporte, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional dual del sistema educativo en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-01-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-01-O-ordenacion-fp-dual.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2014/01/13/2/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2014/01/13/2/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-01-O-ordenacion-fp-dual-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-01-O-ordenacion-fp-dual-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "fp dual"
+            ]
+        },
+        {
+            "id": "dogv-2013-74-d",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2013-06-18",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional Dual",
+            "titulo": "Decreto 74/2013, de 14 de junio, del Consell, por el que se regula la Formación Profesional Dual del sistema educativo en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-06-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-74-D-fp dual.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2013/06/14/74/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2014/01/13/2/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-74-D-fp dual-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-74-D-fp dual-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "fp dual"
+            ]
+        },
+        {
+            "id": "dogv-2019-10-15-r",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-10-23",
+            "vigencia": "vigente",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 19/20",
+            "titulo": "Resolución de 15 de octubre de 2019, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-06-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-10-15-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/9962&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/9962&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-10-15-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-10-15-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos"
+            ]
+        },
+        {
+            "id": "dogv-2016-18-o",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2016-06-03",
+            "vigencia": "vigente",
+            "descripción": "Acceso, admisión y matrícula Formación Profesional (CV)",
+            "titulo": "Orden 18/2016, de 1 de junio, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el acceso, la admisión y matrícula a enseñanzas de grado medio y de grado superior de Formación Profesional en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-18-O-acceso-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2016/06/01/18/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/2016/06/01/18/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-18-O-acceso-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-18-O-acceso-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2016-40-d",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2016-04-18",
+            "vigencia": "vigente",
+            "descripción": "Admisión Infantil, Primaria, Secundaria Obligatoria y Bachillerato (CV)",
+            "titulo": "Decreto 40/2016, de 15 de abril, del Consell, por el que se regula la admisión en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-04-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-40-D-admision-secundaria-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2016/04/15/40/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/eli?param=es-vc/d/2016/04/15/40/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-40-D-admision-secundaria-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-40-D-admision-secundaria-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión"
             ]
         }
     ]

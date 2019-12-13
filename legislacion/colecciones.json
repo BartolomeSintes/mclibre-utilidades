@@ -19,6 +19,15 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Marcos Europeos",
+                                "referencias": [
+                                    "celex-2017-05-22-rec",
+                                    "celex-2018-03-15-rec"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Reconocimiento de Cualificaciones Profesionales",
                                 "referencias": [
                                     "celex-2005-36-48-d"
@@ -30,7 +39,8 @@
                             "apartado": {
                                 "titulo": "Resoluciones del Consejo",
                                 "referencias": [
-                                    "celex-1992-12-03-res"
+                                    "celex-1992-12-03-res",
+                                    "celex-2016-12-19-rec"
                                 ]
                             }
                         }
@@ -91,14 +101,6 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Certificados de Profesionalidad",
-                                "referencias": [
-                                    "boe-2008-01-18-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
                                 "titulo": "Currículos de Secundaria y Bachillerato",
                                 "referencias": [
                                     "boe-2014-1105-rd"
@@ -136,6 +138,8 @@
                             "apartado": {
                                 "titulo": "Sistema de Formación Profesional para el Empleo",
                                 "referencias": [
+                                    "boe-2008-01-18-rd",
+                                    "boe-2009-1224-rd",
                                     "boe-2015-30-l",
                                     "boe-2017-694-rd"
                                 ]
@@ -183,7 +187,8 @@
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
                                     "dogv-2019-07-15-res",
-                                    "dogv-2019-07-05-res"
+                                    "dogv-2019-07-05-res",
+                                    "dogv-2019-10-15-r"
                                 ]
                             }
                         },
@@ -227,10 +232,21 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Formación Profesional Dual",
+                                "referencias": [
+                                    "dogv-2013-74-d",
+                                    "dogv-2014-02-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
                                     "docv-2015-69-o",
+                                    "dogv-2016-40-d",
                                     "docv-2016-59-d",
+                                    "dogv-2016-18-o",
                                     "dogv-2017-89-d",
                                     "dogv-2019-20-o",
                                     "dogv-2019-252-d"
@@ -293,6 +309,7 @@
                                     "celex-1985-368-dec",
                                     "celex-1989-48-d",
                                     "celex-1992-51-d",
+                                    "celex-2008-04-23-rec",
                                     "boe-1994-07-07-o",
                                     "boe-2004-362-rd",
                                     "boe-2006-1538-rd"
