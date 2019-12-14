@@ -110,7 +110,7 @@
       "pagina": "revistas-insecure.html",
       "directorio": "revistas-titulos",
       "revistas": [
-        "Insecure Magazine"
+        "(In)secure Magazine"
       ]
     },
     {
@@ -202,6 +202,13 @@
       "directorio": "revistas-titulos",
       "revistas": [
         "Wireframe"
+      ]
+    },
+    {
+      "pagina": "revistas-wireframe-books.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "Wireframe Books"
       ]
     },
     {

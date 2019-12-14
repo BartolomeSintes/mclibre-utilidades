@@ -129,7 +129,7 @@
             "estado": "activa"
         },
         {
-            "nombre-corto": "Insecure Magazine",
+            "nombre-corto": "(In)secure Magazine",
             "nombre": "(In)secure Magazine",
             "nombre-largo": "(In)secure Magazine",
             "web": [
@@ -343,6 +343,22 @@
             "archivos": "wireframe/",
             "comentario": "",
             "abreviatura" : "wireframe",
+            "estado": "activa"
+        },
+        {
+            "nombre-corto": "Wireframe Books",
+            "nombre": "Wireframe Books",
+            "nombre-largo": "Wireframe Books",
+            "web": [
+                [
+                    "https://wireframe.raspberrypi.org/books",
+                    "Libros Wireframe"
+                ]
+            ],
+            "miniaturas": "../img/revistas/wireframe-books/",
+            "archivos": "wireframe-books/",
+            "comentario": "",
+            "abreviatura" : "wireframe-books",
             "estado": "activa"
         },
         {
