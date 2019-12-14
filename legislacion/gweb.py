@@ -43,7 +43,7 @@ def cabecera(titulo, profundidad):
     if profundidad == 0:
         tmp += '  <nav class="portada">\n'
         tmp += "    <p>\n"
-        tmp += '      <a href="http://www.mclibre.org/"><img src="varios/iconos/icono-logo-mclibre.svg" alt="Logotipo www.mclibre.org" title="Material Curricular Libre - www.mclibre.org" width="144" height="76"></a>\n'
+        tmp += '      <a href="https://www.mclibre.org/"><img src="varios/iconos/icono-logo-mclibre.svg" alt="Logotipo www.mclibre.org" title="Material Curricular Libre - www.mclibre.org" width="144" height="76"></a>\n'
         tmp += "    </p>\n"
         tmp += "\n"
     else:
@@ -350,9 +350,15 @@ def guarda_colecciones(nombre):
         cuenta = gjson.cuenta_referencias_en_coleccion(pagina)
         t_intro = pagina["introducción"]
         if cuenta == 1:
-            t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencia legislativa relacionada")
+            if "NNN referencias legislativas relacionadas" in t_intro:
+                t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencia legislativa relacionada")
+            elif "NNN referencias legislativas derogadas relacionadas" in t_intro:
+                t += t_intro.replace("NNN referencias legislativas derogadas relacionadas", f"{cuenta} referencia legislativa derogada relacionada")
         else:
-            t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencias legislativas relacionadas")
+            if "NNN referencias legislativas relacionadas" in t_intro:
+                t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencias legislativas relacionadas")
+            elif "NNN referencias legislativas derogadas relacionadas" in t_intro:
+                t += t_intro.replace("NNN referencias legislativas derogadas relacionadas", f"{cuenta} referencias legislativas derogadas relacionadas")
         t += "\n"
         for apartado in pagina["contenido"]:
             t += f'  <h2>{apartado["apartado"]["titulo"]}</h2>\n'
