@@ -408,17 +408,27 @@ def revistas_por_fecha_inclusion():
             width, height = imagesize.get(
                 LOCAL_MINIATURAS + info_r["miniaturas"] + i["portada"]
             )
+            # Obtiene página de la revista
+            for element in sitio_json["paginas"]:
+                if len(element["revistas"]) == 1 and element["revistas"][0] == i["serie"]:
+                    camino = f'{element["directorio"]}/{element["pagina"]}'
+
             fichero = pathlib.Path(LOCAL_ARCHIVOS + info_r["archivos"] + i["fichero"])
             weight = str(round(fichero.stat().st_size / 1024 / 1024, 1)) + " MB"
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
+            t += f'        <p><a href="{camino}">{i["serie"]}</a></p>\n'
             if isinstance(i["mes"], int):
                 t += "        <p>\n"
-                t += f'          <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+                t += f'          <a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">\n'
+                t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+                t += "          </a>\n"
                 t += "        </p>\n"
             else:
                 t += "        <p>\n"
-                t += f'          <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+                t += f'          <a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">\n'
+                t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+                t += "          </a>\n"
                 t += "        </p>\n"
             if i["serie"] != i["nombre"]:
                 t += f'        <p>{i["nombre"]}</p>\n'
