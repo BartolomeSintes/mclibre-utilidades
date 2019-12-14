@@ -4763,7 +4763,7 @@
             ]
         },
         {
-            "id": "dogv-2019-10-15-r",
+            "id": "dogv-2019-10-15-res",
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -4914,6 +4914,689 @@
                 "secundaria",
                 "bachillerato",
                 "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2014-54-o",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2014-07-03",
+            "vigencia": "vigente",
+            "descripción": "Acreditación actividades de formación permanente no universitaria",
+            "titulo": "Orden 54/2014, de 1 de julio, de la Consellería de Educación, Cultura y Deporte, por la que se regula la acreditación y valoración de las actividades de formación permanente y otras actividades para la mejora de la calidad de la enseñanza que realicen los funcionarios docentes que imparten enseñanzas no universitarias de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-07-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2104-54-O-acreditacion-formacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2014/07/01/54/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/2014/07/01/54/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2104-54-O-acreditacion-formacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2104-54-O-acreditacion-formacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "formación profesional",
+                "formación permanente"
+            ]
+        },
+        {
+            "id": "dogv-2018-05-30-res",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-06-05",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar 2018/19",
+            "titulo": "Resolución de 30 de mayo de 2018, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2018-2019.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-06-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-05-30-calendario-escolar-1819.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2018/5369&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/5369&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-05-30-calendario-escolar-1819-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-05-30-calendario-escolar-1819-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2018/19"
+            ]
+        },
+        {
+            "id": "dogv-2019-06-10-res",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-06-19",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar 2019/20",
+            "titulo": "Resolución de 10 de junio de 2019, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2019-2020.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-06-19-calendario-escolar-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/6051&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/6051&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-06-19-calendario-escolar-1920-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-06-19-calendario-escolar-1920-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2019/20"
+            ]
+        },
+        {
+            "id": "dogv-2013-86-o",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2013-09-24",
+            "vigencia": "vigente",
+            "descripción": "Ordenación Formación Profesional (CV)",
+            "titulo": "Orden 86/2013, de 20 de septiembre, de la Consellería de Educación, Cultura y Deporte, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional del sistema educativo en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-09-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-86-O-ordenacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2013/09/20/86/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/5369&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-86-O-ordenacion-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-86-O-ordenacion-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "celex-2006-12-18-rec",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2006-12-30",
+            "vigencia": "vigente",
+            "descripción": "Competencias clave",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 18 de diciembre de 2006 , sobre las competencias clave para el aprendizaje permanente",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-12-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2006-12-18-REC-competencias-clave.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reco/2006/962/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "competencias clave",
+                "aprendizaje permanente"
+            ]
+        },
+        {
+            "id": "boe-2015-65-o",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-01-29",
+            "vigencia": "vigente",
+            "descripción": "Competencias clave, contenidos y criterios de evaluación Secundaria y Bachillerato",
+            "titulo": "Orden ECD/65/2015, de 21 de enero, por la que se describen las relaciones entre las competencias, los contenidos y los criterios de evaluación de la educación primaria, la educación secundaria obligatoria y el bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-01-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-65-O-competencias-contenidos-evaluación.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2015/01/21/ecd65"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "educación secundaria",
+                "bachillerato",
+                "competencias clave"
+            ]
+        },
+        {
+            "id": "celex-2002-06-27-res",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2002-07-09",
+            "vigencia": "vigente",
+            "descripción": "Educación permanente",
+            "titulo": "Resolución del Consejo de 27 de junio de 2002 sobre la educación permanente",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-07-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2002-06-27-RES-educacion-permanente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=celex:32002G0709(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "educación permanente",
+                "aprendizaje permanente"
+            ]
+        },
+        {
+            "id": "dogv-2008-06-27-o",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2008-07-06",
+            "vigencia": "vigente",
+            "descripción": "Oferta parcial Formación Profesional (CV)",
+            "titulo": "Orden de 27 de junio de 2008, de la Conselleria de Educación, por la que se regula la oferta parcial de las enseñanzas de los ciclos formativos de Formación Profesional en la Comunitat Valenciana y se establece el procedimiento de admisión en los centros docentes públicos, privados y privados concertados.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-06-27-O-oferta-parcial-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2008/06/27/(3)/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/5369&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-06-27-O-oferta-parcial-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-06-27-O-oferta-parcial-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "oferta parcial"
+            ]
+        },
+        {
+            "id": "dogv-2010-79-o",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2010-09-06",
+            "vigencia": "vigente",
+            "descripción": "Evaluación en Formación Profesional (CV)",
+            "titulo": "Orden 79/2010, de 27 de agosto, de la Conselleria de Educación, por la que se regula la evaluación del alumnado de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-09-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-79-O-evaluacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/08/27/79/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/08/27/79/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-79-O-evaluacion-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-79-O-evaluacion-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "dogv-2011-33-o",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2011-05-25",
+            "vigencia": "derogado",
+            "descripción": "Admisión y matrícula en Formación Profesional (CV)",
+            "titulo": "Orden 33/2011, de 18 de mayo, de la Conselleria de Educación, por la que se regula el acceso, la admisión y matrícula para el alumnado que curse enseñanzas de grado medio y de grado superior de formación profesional en régimen presencial en modalidad completa o parcial en centros docentes públicos y privados con enseñanzas concertadas y semipresencial o a distancia en modalidad completa o parcial, en centros docentes públicos de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-05-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-33-O-admision-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/05/18/33/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/05/18/33/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-33-O-admision-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-33-O-admision-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "admisión y matrícula"
+            ]
+        },
+        {
+            "id": "dogv-2014-135-d",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2014-08-11",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional Básica (CV)",
+            "titulo": "Decreto 135/2014, de 8 de agosto, del Consell, por el que se regulan los ciclos formativos de Formación Profesional Básica en el ámbito de la Comunitat Valenciana",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-08-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-135-D-fp-basica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2014/08/08/135/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2014/08/08/135/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-135-D-fp-basica-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-135-D-fp-basica-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "fp básica"
+            ]
+        },
+        {
+            "id": "dogv-2010-78-o",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2010-09-03",
+            "vigencia": "vigente",
+            "descripción": "Ordenación Formación Profesional (CV)",
+            "titulo": "Orden 78/2010, de 27 de agosto, de la Conselleria de Educación, por la que se regulan determinados aspectos de la ordenación y organización académica de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-09-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-78-O-ordenacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/08/27/78/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/08/27/78/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-78-O-ordenacion-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-78-O-ordenacion-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "dogv-2010-09-15-res",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2010-10-07",
+            "vigencia": "derogado",
+            "descripción": "Presencialidad en Formación Profesional semipresencial (CV)",
+            "titulo": "Resolución de 15 de septiembre de 2010, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional, por la que se establece el límite máximo de presencialidad exigible para el alumnado matriculado en determinados módulos de títulos de Formación Profesional en semipresencial o a distancia en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-10-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-09-15-R-presencialidad-semipresencial-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2010/09/15/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2010/09/15/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-09-15-R-presencialidad-semipresencial-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-09-15-R-presencialidad-semipresencial-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "formación profesional semipresencial",
+                "presencialidad"
+            ]
+        },
+        {
+            "id": "dogv-2018-05-22-res",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-05-31",
+            "vigencia": "vigente",
+            "descripción": "Presencialidad en Formación Profesional semipresencial (CV)",
+            "titulo": "Resolución de 22 de mayo de 2018, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se establece el límite máximo de presencialidad exigible para el alumnado matriculado en determinados módulos profesionales de títulos de Formación Profesional en modalidad semipresencial o a distancia en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-05-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-05-22-presencialidad-semipresencial-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2018/05/22/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2018/05/22/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-05-22-presencialidad-semipresencial-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-05-22-presencialidad-semipresencial-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "formación profesional semipresencial",
+                "presencialidad"
             ]
         }
     ]

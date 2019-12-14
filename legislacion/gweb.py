@@ -386,5 +386,7 @@ def guarda_colecciones(nombre):
             f'{gconst.DIR_SITE}/{pagina["nombre"]}', "w", encoding="utf-8"
         ) as fichero:
             fichero.write(t)
+    if ids:
+        print(ids)
 
     return coleccion
