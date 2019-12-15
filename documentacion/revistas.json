@@ -70,7 +70,7 @@
             "nombre-largo": "Full Circle - The independent magazine for the Ubuntu Linux community",
             "web": [
                 [
-                    "http://fullcirclemagazine.org/",
+                    "https://fullcirclemagazine.org/",
                     "Revista Full Circle"
                 ]
             ],
@@ -86,7 +86,7 @@
             "nombre-largo": "Full Circle (recopilaciones)",
             "web": [
                 [
-                    "http://fullcirclemagazine.org/",
+                    "https://fullcirclemagazine.org/",
                     "Revista Full Circle"
                 ]
             ],
@@ -118,7 +118,7 @@
             "nombre-largo": "Hello World - The computing and digital making magazine for educators",
             "web": [
                 [
-                    "https://www.raspberrypi.org/helloworld/",
+                    "https://helloworld.raspberrypi.org/",
                     "Revista Hello World"
                 ]
             ],
@@ -150,7 +150,7 @@
             "nombre-largo": "International Free and Open Source Software Law Review",
             "web": [
                 [
-                    "https://www.ifosslr.org/ojs/ifosslr",
+                    "https://jolts.world/index.php/jolts",
                     "Revista International Free and Open Source Software Law Review"
                 ]
             ],
@@ -182,11 +182,11 @@
             "nombre-largo": "ODROID Magazine - Your Source For All Things ODROIDian",
             "web": [
                 [
-                    "http://magazine.odroid.com/",
+                    "https://magazine.odroid.com/",
                     "Revista ODROID Magazine (en inglés)"
                 ],
                 [
-                    "http://magazine.odroid.com/es/",
+                    "https://magazine.odroid.com/es/",
                     "Revista ODROID Magazine (en español)"
                 ]
             ],
@@ -206,7 +206,7 @@
                     "Revista Olympiads in informatics"
                 ],
                 [
-                    "http://www.mii.lt/olympiads_in_informatics/",
+                    "https://www.mii.lt/olympiads_in_informatics/",
                     "Revista Olympiads in informatics"
                 ]
             ],
@@ -271,7 +271,7 @@
             "nombre-largo": "Solo WordPress",
             "web": [
                 [
-                    "https://www.solowordpress.es/",
+                    "https://solowordpress.es/",
                     "Revista Solo WordPress"
                 ]
             ],
@@ -287,7 +287,7 @@
             "nombre-largo": "The MagPi - The official Raspberry Pi magazine",
             "web": [
                 [
-                    "https://www.raspberrypi.org/magpi/",
+                    "https://magpi.raspberrypi.org/",
                     "Revista The MagPi"
                 ]
             ],
@@ -303,7 +303,7 @@
             "nombre-largo": "The MagPi Essentials",
             "web": [
                 [
-                    "https://www.raspberrypi.org/magpi/",
+                    "https://magpi.raspberrypi.org/",
                     "Revista The MagPi"
                 ]
             ],
@@ -479,7 +479,7 @@
             "nombre-largo": "Espírito Livre",
             "web": [
                 [
-                    "https://web.archive.org/web/20180515184747/http://www.revista.espiritolivre.org/",
+                    "https://web.archive.org/web/20180515184747/http://revista.espiritolivre.org/",
                     "Espírito Livre (copia en archive.org)"
                 ]
             ],
@@ -563,7 +563,7 @@
             "nombre-largo": "GIMP Magazine (2012-2015)",
             "web": [
                 [
-                    "http://gimpmagazine.org/",
+                    "https://gimpmagazine.org/",
                     "Revista Gimp magazine"
                 ]
             ],
@@ -787,7 +787,7 @@
             "nombre-largo": "Nibbler. La informática del IES Infanta Elena (Galpagar, Madrid)",
             "web": [
                 [
-                    "hhttps://web.archive.org/web/20120628043651/https://nibbler.es/cms/revista/revista-nibbler",
+                    "https://web.archive.org/web/20120628043651/https://nibbler.es/cms/revista/revista-nibbler",
                     "Revista Nibble (copia en archive.org de junio de 2012)"
                 ]
             ],
@@ -999,7 +999,7 @@
             "nombre-largo": "The Python Papers",
             "web": [
                 [
-                    "http://ojs.pythonpapers.org/",
+                    "https://ojs.pythonpapers.org/",
                     "The Python Papers"
                 ],
                 ["http://pythonpapers.blogspot.com/", "Blog"]
@@ -1016,7 +1016,7 @@
             "nombre-largo": "Tuxinfo (Argentina, 2007-2014)",
             "web": [
                 [
-                    "http://www.infosertec.com.ar/category/tuxinfo/tuxinfo/",
+                    "https://infosertec.com.ar/category/tuxinfo/tuxinfo/",
                     "Revista TuxInfo"
                 ]
             ],

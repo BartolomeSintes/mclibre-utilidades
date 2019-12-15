@@ -1,6 +1,6 @@
 # GENERADOR DOCUMENTACIÓN
 
-Esta aplicación genera el sitio web http://www.mclibre.org/consultar/documentacion/
+Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documentacion/
 
 ## Cosas para hacer
 

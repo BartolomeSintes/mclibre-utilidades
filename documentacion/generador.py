@@ -7,7 +7,7 @@ SITIO = "sitio.json"
 REVISTAS = "revistas.json"
 EJEMPLARES = "ejemplares.json"
 DESTINO = "sitio"
-REMOTO_ARCHIVOS = "http://www.mclibre.org/descargar/docs/revistas/"
+REMOTO_ARCHIVOS = "https://www.mclibre.org/descargar/docs/revistas/"
 LOCAL_ARCHIVOS = (
     "D:\\Barto\\Documentación software libre\\revistas\\__revistas_en_mclibre\\"
 )
@@ -607,7 +607,7 @@ def pagina_index():
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
-    t += '      <a href="http://www.mclibre.org"><img src="varios/iconos/icono-logo-mclibre.svg" alt="Logotipo www.mclibre.org" title="Material Curricular Libre - www.mclibre.org" width="145" height="76"></a>\n'
+    t += '      <a href="https://www.mclibre.org/"><img src="varios/iconos/icono-logo-mclibre.svg" alt="Logotipo www.mclibre.org" title="Material Curricular Libre - www.mclibre.org" width="145" height="76"></a>\n'
     t += "    </p>\n"
     t += "\n"
     t += '    <div class="toc">\n'
