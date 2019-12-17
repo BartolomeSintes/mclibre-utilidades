@@ -247,7 +247,7 @@ def guarda_fichas():
     # Genera índice
     t = ""
     t += "\n"
-    t += cabecera("Legislación informática", 1)
+    t += cabecera("Legislación informática - Orden cronológico", 1)
 
     t += f"  <p>Esta página muestra las {len(legislacion)} referencias legislativas de este repositorio en orden cronológico inverso.</p>\n"
     t += "\n"

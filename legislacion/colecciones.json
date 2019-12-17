@@ -260,6 +260,15 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Inclusión",
+                                "referencias": [
+                                    "dogv-2018-104-d",
+                                    "dogv-2019-20-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
                                     "dogv-2014-54-o",
@@ -267,7 +276,7 @@
                                     "dogv-2016-40-d",
                                     "docv-2016-59-d",
                                     "dogv-2017-89-d",
-                                    "dogv-2019-20-o",
+                                    "dogv-2018-06-28-res",
                                     "dogv-2019-252-d"
                                 ]
                             }
@@ -331,7 +340,8 @@
                                     "celex-2008-04-23-rec",
                                     "boe-1994-07-07-o",
                                     "boe-2004-362-rd",
-                                    "boe-2006-1538-rd"
+                                    "boe-2006-1538-rd",
+                                    "boe-2018-5-rdl"
                                 ]
                             }
                         },

@@ -59,4 +59,23 @@ General Básica, Educación Especial, Secundaria Obligatoria, Bachillerato y For
 sostenidos con fondos públicos y dependientes de la Conselleria de Cultura, Educación y Ciencia de
 la Generalitat Valenciana. (En vigor parcialmente)
 
+-   DECRETO 39/1998, de 31 de marzo, del Gobierno Valenciano, de ordenación de la educación para la atención del alumnado con necesidades educativas especiales <https://www.dogv.gva.es/es/eli/es-vc/d/1998/03/31/39/> y todo lo que lo modifica
+
+-   ORDEN 26/2016, de 13 de junio, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el programa de reutilización, reposición y renovación de libros de texto y material curricular, ... <https://www.dogv.gva.es/es/eli/es-vc/o/2016/06/13/26/>
+
+-   <http://participacio.gva.es/es/web/delegacion-de-proteccion-de-datos-gva/criteris-i-recomanacions> Aunque no esté publicado en el DOGV, sería interesante incluir estas guías.
+
+## Dónde mirar referencias
+
+-   <http://bibliotecacefirevalencia.blogspot.com/search/label/Legislaci%C3%B3n>
+
+-   <http://www.ceice.gva.es/es/web/centros-docentes/legislacion>
+
+-   DOGV: [por materias](http://www.dogv.gva.es/es/legislacio-per-materies): -
+    [Educación](http://www.dogv.gva.es/resultats-temes?&&L=1&tipo_search=legislacion&num_tipo=4&materia=Educaci%C3%B3n&tit_materia=Educaci%C3%B3n) -
+    [Accesibilidad](http://www.dogv.gva.es/resultats-temes?&&L=1&tipo_search=legislacion&num_tipo=4&materia=Accesibilidad&tit_materia=Accesibilidad) -
+    [Empleo y Formación Profesional](http://www.dogv.gva.es/resultats-temes?&&L=1&tipo_search=legislacion&num_tipo=4&materia=Empleo%20y%20Formaci%C3%B3n%20profesional&tit_materia=Empleo%20y%20Formaci%C3%B3n%20profesional) -
+    [Protección de datos](http://www.dogv.gva.es/resultats-temes?&&L=1&tipo_search=legislacion&num_tipo=4&materia=Protecci%C3%B3n%20de%20datos&tit_materia=Protecci%C3%B3n%20de%20datos) -
+    [Telecomunicaciones y nuevas tecnologías](http://www.dogv.gva.es/resultats-temes?&&L=1&tipo_search=legislacion&num_tipo=4&materia=Telecomunicaciones%20y%20nuevas%20tecnolog%C3%ADas&tit_materia=Telecomunicaciones%20y%20nuevas%20tecnolog%C3%ADas) -
+
 -   <http://www.informatica-juridica.com/legislacion/espana/>

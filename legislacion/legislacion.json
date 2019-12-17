@@ -383,7 +383,7 @@
             "origen": "DOCV",
             "fecha": "2015-06-30",
             "vigencia": "vigente",
-            "descripción": "Plantillas de Secundaria",
+            "descripción": "Plantillas de Secundaria (CV)",
             "titulo": "Orden 69/2015, de 25 de junio, de la Consellería de Educación, Cultura y Deporte, por la que se establecen criterios para la dotación de plantillas y para la determinación de condiciones de trabajo del profesorado de los centros docentes públicos que imparten ESO, Bachillerato y Formación Profesional, dependientes de la consellería competente en materia de educación.",
             "versiones": [
                 {
@@ -436,7 +436,7 @@
             "origen": "DOGV",
             "fecha": "1997-09-08",
             "vigencia": "derogado",
-            "descripción": "ROF de Centros de Secundaria",
+            "descripción": "ROF de Centros de Secundaria (CV)",
             "titulo": "Decreto 234/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se aprueba el Reglamento orgánico y funcional de los institutos de educación secundaria.",
             "versiones": [
                 {
@@ -1401,7 +1401,7 @@
             "origen": "DOCV",
             "fecha": "2015-06-10",
             "vigencia": "vigente",
-            "descripción": "Currículo de ESO y Bachillerato",
+            "descripción": "Currículo de ESO y Bachillerato (CV)",
             "titulo": "Decreto 87/2015, de 5 de junio, del Consell, por el que establece el currículo y desarrolla la ordenación general de la Educación Secundaria Obligatoria y del Bachillerato en la Comunitat Valenciana.",
             "versiones": [
                 {
@@ -1474,7 +1474,7 @@
             "origen": "DOCV",
             "fecha": "2015-09-09",
             "vigencia": "vigente",
-            "descripción": "Currículo de ESO y Bachillerato",
+            "descripción": "Currículo de ESO y Bachillerato (CV)",
             "titulo": "Decreto 136/2015, de 4 de septiembre, del Consell, por el que se modifican el Decreto 108/2014, de 4 de julio, del Consell, por el que se establece el currículo y desarrolla la ordenación general de la Educación Primaria en la Comunitat Valenciana, y el Decreto 87/2015, de 5 de junio, del Consell, por el que se establece el currículo y se desarrolla la ordenación general de la Educación Secundaria Obligatoria y del Bachillerato en la Comunitat Valenciana",
             "versiones": [
                 {
@@ -1578,8 +1578,8 @@
             "origen": "DOGV",
             "fecha": "2019-07-18",
             "vigencia": "vigente",
-            "descripción": "Inicio de curso Secundaria 19/20",
-            "titulo": "RESOLUCIÓN de 5 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2019-2020",
+            "descripción": "Inicio de curso Secundaria 19/20 (CV)",
+            "titulo": "Resolución de 5 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2019-2020",
             "versiones": [
                 {
                     "versión": "original",
@@ -1640,8 +1640,8 @@
             "origen": "DOGV",
             "fecha": "2019-07-15",
             "vigencia": "vigente",
-            "descripción": "Inicio de curso FP 19/20",
-            "titulo": "RESOLUCIÓN de 8 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2019-2020 impartan ciclos de Formación Profesional Básica, de grado medio y de grado superior.",
+            "descripción": "Inicio de curso FP 19/20 (CV)",
+            "titulo": "Resolución de 8 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2019-2020 impartan ciclos de Formación Profesional Básica, de grado medio y de grado superior.",
             "versiones": [
                 {
                     "versión": "original",
@@ -2338,7 +2338,7 @@
             "origen": "DOCV",
             "fecha": "2010-12-10",
             "vigencia": "vigente",
-            "descripción": "Autoridad del profesorado",
+            "descripción": "Autoridad del profesorado (CV)",
             "titulo": "Ley 15/2010, de 3 de diciembre, de la Generalitat, de Autoridad del Profesorado.",
             "versiones": [
                 {
@@ -2446,7 +2446,7 @@
             "origen": "DOCV",
             "fecha": "2016-05-17",
             "vigencia": "vigente",
-            "descripción": "Número máximo de alumnos y jornada lectiva profesores",
+            "descripción": "Número máximo de alumnos y jornada lectiva profesores (CV)",
             "titulo": "Decreto 59/2016, de 13 de mayo, del Consell, por el que se fija el número máximo de alumnado y la jornada lectiva del personal docente en los niveles no universitarios regulados por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, en los centros docentes no universitarios de la Comunitat Valenciana.",
             "versiones": [
                 {
@@ -2523,7 +2523,7 @@
             "origen": "DOGV",
             "fecha": "2017-07-14",
             "vigencia": "vigente",
-            "descripción": "Número máximo de alumnos y jornada lectiva profesores",
+            "descripción": "Número máximo de alumnos y jornada lectiva profesores (CV)",
             "titulo": "Decreto 89/2017, de 7 de julio, del Consell, por el que se modifican las disposiciones transitorias del Decreto 59/2016, de 13 de mayo, del Consell, por el que se fija el número máximo de alumnado y la jornada lectiva del personal docente en los niveles no universitarios regulados por la Ley orgánica 2/2006, de 3 de mayo, de educación, en los centros docentes no universitarios de la Comunitat Valenciana.",
             "versiones": [
                 {
@@ -2842,6 +2842,7 @@
             ],
             "claves": [
                 "españa",
+                "real decreto",
                 "reglamento",
                 "protección de datos",
                 "derechos digitales"
@@ -3956,7 +3957,7 @@
             "origen": "DOGV",
             "fecha": "2019-12-09",
             "vigencia": "vigente",
-            "descripción": "ROF de Centros de Secundaria",
+            "descripción": "ROF de Centros de Secundaria (CV)",
             "titulo": "Decreto 252/2019, de 29 de noviembre, del Consell, de regulación de la organización y el funcionamiento de los centros públicos que imparten enseñanzas de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional. ",
             "versiones": [
                 {
@@ -4668,7 +4669,7 @@
             "origen": "DOGV",
             "fecha": "2014-01-17",
             "vigencia": "vigente",
-            "descripción": "Formación Profesional Dual",
+            "descripción": "Formación Profesional Dual (CV)",
             "titulo": "Orden 2/2014, de 13 de enero, de la Consellería de Educación, Cultura y Deporte, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional dual del sistema educativo en la Comunitat Valenciana.",
             "versiones": [
                 {
@@ -4719,7 +4720,7 @@
             "origen": "DOGV",
             "fecha": "2013-06-18",
             "vigencia": "vigente",
-            "descripción": "Formación Profesional Dual",
+            "descripción": "Formación Profesional Dual (CV)",
             "titulo": "Decreto 74/2013, de 14 de junio, del Consell, por el que se regula la Formación Profesional Dual del sistema educativo en la Comunitat Valenciana.",
             "versiones": [
                 {
@@ -4770,7 +4771,7 @@
             "origen": "DOGV",
             "fecha": "2019-10-23",
             "vigencia": "vigente",
-            "descripción": "Pruebas para la obtención de títulos Formación Profesional 19/20",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 19/20 (CV)",
             "titulo": "Resolución de 15 de octubre de 2019, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
             "versiones": [
                 {
@@ -4924,7 +4925,7 @@
             "origen": "DOGV",
             "fecha": "2014-07-03",
             "vigencia": "vigente",
-            "descripción": "Acreditación actividades de formación permanente no universitaria",
+            "descripción": "Acreditación actividades de formación permanente no universitaria (CV)",
             "titulo": "Orden 54/2014, de 1 de julio, de la Consellería de Educación, Cultura y Deporte, por la que se regula la acreditación y valoración de las actividades de formación permanente y otras actividades para la mejora de la calidad de la enseñanza que realicen los funcionarios docentes que imparten enseñanzas no universitarias de la Comunitat Valenciana.",
             "versiones": [
                 {
@@ -4976,7 +4977,7 @@
             "origen": "DOGV",
             "fecha": "2018-06-05",
             "vigencia": "vigente",
-            "descripción": "Calendario escolar 2018/19",
+            "descripción": "Calendario escolar 2018/19 (CV)",
             "titulo": "Resolución de 30 de mayo de 2018, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2018-2019.",
             "versiones": [
                 {
@@ -5030,7 +5031,7 @@
             "origen": "DOGV",
             "fecha": "2019-06-19",
             "vigencia": "vigente",
-            "descripción": "Calendario escolar 2019/20",
+            "descripción": "Calendario escolar 2019/20 (CV)",
             "titulo": "Resolución de 10 de junio de 2019, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2019-2020.",
             "versiones": [
                 {
@@ -5597,6 +5598,164 @@
                 "formación profesional",
                 "formación profesional semipresencial",
                 "presencialidad"
+            ]
+        },
+        {
+            "id": "dogv-2018-06-28-res",
+            "incluido": "2019-12-17",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-12-03",
+            "vigencia": "vigente",
+            "descripción": "Protección de datos en centros educativos públicos (CV)",
+            "titulo": "Resolución de 28 de junio de 2018, de la Subsecretaría de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se dictan instrucciones para el cumplimiento de la normativa de protección de datos en los centros educativos públicos de titularidad de la Generalitat.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-12-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-06-28-R-proteccion-datos-centros-educativos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2018/11040&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/11040&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-06-28-R-proteccion-datos-centros-educativos-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-06-28-R-proteccion-datos-centros-educativos-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "primaria",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "protección de datos"
+            ]
+        },
+        {
+            "id": "boe-2018-5-rdl",
+            "incluido": "2019-12-17",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-07-30",
+            "vigencia": "derogado",
+            "descripción": "Adaptación a normativa UE protección de datos",
+            "titulo": "Real Decreto-ley 5/2018, de 27 de julio, de medidas urgentes para la adaptación del Derecho español a la normativa de la Unión Europea en materia de protección de datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-5-RDL-adaptacion-ue-proteccion-datos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2018/07/27/5"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-5-RDL-adaptacion-ue-proteccion-datos-consolidado-2018-12-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2018/07/27/5/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto ley",
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "dogv-2018-104-d",
+            "incluido": "2019-12-17",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-08-07",
+            "vigencia": "vigente",
+            "descripción": "Equidad e inclusión (CV)",
+            "titulo": "Decreto 104/2018, de 27 de julio, del Consell, por el que se desarrollan los principios de equidad y de inclusión en el sistema educativo valenciano.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-08-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-104-D-equidad-inclusion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2018/07/27/104/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2018/07/27/104/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-104-D-equidad-inclusion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-104-D-equidad-inclusion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "inclusión",
+                "primaria",
+                "secundaria",
+                "bachillerato",
+                "formación profesional"
             ]
         }
     ]
