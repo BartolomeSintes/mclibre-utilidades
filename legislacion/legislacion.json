@@ -3958,7 +3958,7 @@
             "fecha": "2019-12-09",
             "vigencia": "vigente",
             "descripción": "ROF de Centros de Secundaria (CV)",
-            "titulo": "Decreto 252/2019, de 29 de noviembre, del Consell, de regulación de la organización y el funcionamiento de los centros públicos que imparten enseñanzas de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional. ",
+            "titulo": "Decreto 252/2019, de 29 de noviembre, del Consell, de regulación de la organización y el funcionamiento de los centros públicos que imparten enseñanzas de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional.",
             "versiones": [
                 {
                     "versión": "original",
@@ -4662,7 +4662,7 @@
             ]
         },
         {
-            "id": "dogv-2014-02-o",
+            "id": "docv-2014-02-o",
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -4713,7 +4713,7 @@
             ]
         },
         {
-            "id": "dogv-2013-74-d",
+            "id": "docv-2013-74-d",
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -4781,7 +4781,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2019-10-15-pruebas-titulos-fp.pdf"
+                            "url": "dogv/DOGV-2019-10-15-R-pruebas-titulos-fp.pdf"
                         },
                         {
                             "formato": "web",
@@ -4796,12 +4796,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2019-10-15-pruebas-titulos-fp-es.rtf"
+                            "url": "dogv/DOGV-2019-10-15-R-pruebas-titulos-fp-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2019-10-15-pruebas-titulos-fp-va.rtf"
+                            "url": "dogv/DOGV-2019-10-15-R-pruebas-titulos-fp-va.rtf"
                         }
                     ]
                 }
@@ -4815,7 +4815,7 @@
             ]
         },
         {
-            "id": "dogv-2016-18-o",
+            "id": "docv-2016-18-o",
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -4866,7 +4866,7 @@
             ]
         },
         {
-            "id": "dogv-2016-40-d",
+            "id": "docv-2016-40-d",
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -4918,7 +4918,7 @@
             ]
         },
         {
-            "id": "dogv-2014-54-o",
+            "id": "docv-2014-54-o",
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -4987,7 +4987,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2018-05-30-calendario-escolar-1819.pdf"
+                            "url": "dogv/DOGV-2018-05-30-R-calendario-escolar-1819.pdf"
                         },
                         {
                             "formato": "web",
@@ -5002,12 +5002,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2018-05-30-calendario-escolar-1819-es.rtf"
+                            "url": "dogv/DOGV-2018-05-30-R-calendario-escolar-1819-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2018-05-30-calendario-escolar-1819-va.rtf"
+                            "url": "dogv/DOGV-2018-05-30-R-calendario-escolar-1819-va.rtf"
                         }
                     ]
                 }
@@ -5041,7 +5041,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2019-06-19-calendario-escolar-1920.pdf"
+                            "url": "dogv/DOGV-2019-06-19-R-calendario-escolar-1920.pdf"
                         },
                         {
                             "formato": "web",
@@ -5056,12 +5056,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2019-06-19-calendario-escolar-1920-es.rtf"
+                            "url": "dogv/DOGV-2019-06-19-R-calendario-escolar-1920-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2019-06-19-calendario-escolar-1920-va.rtf"
+                            "url": "dogv/DOGV-2019-06-19-R-calendario-escolar-1920-va.rtf"
                         }
                     ]
                 }
@@ -5078,7 +5078,7 @@
             ]
         },
         {
-            "id": "dogv-2013-86-o",
+            "id": "docv-2013-86-o",
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -5238,7 +5238,7 @@
             ]
         },
         {
-            "id": "dogv-2008-06-27-o",
+            "id": "docv-2008-06-27-o",
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -5290,7 +5290,7 @@
             ]
         },
         {
-            "id": "dogv-2010-79-o",
+            "id": "docv-2010-79-o",
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -5342,7 +5342,7 @@
             ]
         },
         {
-            "id": "dogv-2011-33-o",
+            "id": "docv-2011-33-o",
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -5394,7 +5394,7 @@
             ]
         },
         {
-            "id": "dogv-2014-135-d",
+            "id": "docv-2014-135-d",
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -5446,7 +5446,7 @@
             ]
         },
         {
-            "id": "dogv-2010-78-o",
+            "id": "docv-2010-78-o",
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -5497,7 +5497,7 @@
             ]
         },
         {
-            "id": "dogv-2010-09-15-res",
+            "id": "docv-2010-09-15-res",
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -5566,7 +5566,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2018-05-22-presencialidad-semipresencial-fp.pdf"
+                            "url": "dogv/DOGV-2018-05-22-R-presencialidad-semipresencial-fp.pdf"
                         },
                         {
                             "formato": "web",
@@ -5581,12 +5581,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2018-05-22-presencialidad-semipresencial-fp-es.rtf"
+                            "url": "dogv/DOGV-2018-05-22-R-presencialidad-semipresencial-fp-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2018-05-22-presencialidad-semipresencial-fp-va.rtf"
+                            "url": "dogv/DOGV-2018-05-22-R-presencialidad-semipresencial-fp-va.rtf"
                         }
                     ]
                 }
@@ -5756,6 +5756,616 @@
                 "secundaria",
                 "bachillerato",
                 "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-2001-12-20-o",
+            "incluido": "2019-12-21",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2002-01-09",
+            "vigencia": "vigente",
+            "descripción": "Convalidaciones ciclos formativos LOGSE",
+            "titulo": "Orden de 20 de diciembre de 2001 por la que se determinan convalidaciones de estudios de formación profesional específica derivada de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-01-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2001-12-20-O-convalidaciones-ciclos-logse.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2001/12/20/(3)"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2014-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2001-12-20-O-convalidaciones-ciclos-logse-consolidado-2014-11-20.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2001/12/20/(3)/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "convalidaciones"
+            ]
+        },
+        {
+            "id": "boe-2002-1842-o",
+            "incluido": "2019-12-21",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2002-07-19",
+            "vigencia": "vigente",
+            "descripción": "Convalidaciones ciclos formativos LOGSE",
+            "titulo": "Orden ECD/1842/2002, de 9 de julio, por la que se rectifican errores advertidos en la Orden de 20 de diciembre de 2001 por la que se determinan convalidaciones de estudios de formación profesional específica derivada de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-07-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2002-1842-O-convalidaciones-ciclos-logse-correccion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2002/07/09/ecd1842"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "convalidaciones"
+            ]
+        },
+        {
+            "id": "boe-2014-2159-o",
+            "incluido": "2019-12-21",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-11-20",
+            "vigencia": "vigente",
+            "descripción": "Convalidaciones ciclos formativos LOE",
+            "titulo": "Orden ECD/2159/2014, de 7 de noviembre, por la que se establecen convalidaciones entre módulos profesionales de formación profesional del Sistema Educativo Español y medidas para su aplicación y se modifica la Orden de 20 de diciembre de 2001, por la que se determinan convalidaciones de estudios de formación profesional específica derivada de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-2159-O-convalidaciones-ciclos-loe.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2014/11/07/ecd2159"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2017-11-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-2159-O-convalidaciones-ciclos-loe-consolidado-2017-11-02.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2014/11/07/ecd2159/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "convalidaciones"
+            ]
+        },
+        {
+            "id": "boe-2017-1055-o",
+            "incluido": "2019-12-21",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2017-11-02",
+            "vigencia": "vigente",
+            "descripción": "Convalidaciones ciclos formativos LOE",
+            "titulo": "Orden ECD/1055/2017, de 26 de octubre, por la que se modifica la Orden ECD/2159/2014, de 7 de noviembre, por la que se establecen convalidaciones entre módulos profesionales de formación profesional del Sistema Educativo Español y medidas para su aplicación y se modifica la Orden de 20 de diciembre de 2001, por la que se determinan convalidaciones de estudios de formación profesional específica derivada de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-11-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2017-1055-O-convalidaciones-ciclos-loe.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2017/10/26/ecd1055"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "convalidaciones"
+            ]
+        },
+        {
+            "id": "boe-2014-127-rd",
+            "incluido": "2019-12-21",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-03-05",
+            "vigencia": "vigente",
+            "descripción": "Decreto título FP Básica Informática y Comunicaciones",
+            "titulo": "Real Decreto 127/2014, de 28 de febrero, por el que se regulan aspectos específicos de la Formación Profesional Básica de las enseñanzas de formación profesional del sistema educativo, se aprueban catorce títulos profesionales básicos, se fijan sus currículos básicos y se modifica el Real Decreto 1850/2009, de 4 de diciembre, sobre expedición de títulos académicos y profesionales correspondientes a las enseñanzas establecidas en la Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-03-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-127-RD-fp-basica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/02/28/127"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "formación profesional básica"
+            ]
+        },
+        {
+            "id": "boe-2014-356-rd",
+            "incluido": "2019-12-21",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-05-29",
+            "vigencia": "vigente",
+            "descripción": "Decreto título FP Básica Informática de Oficina",
+            "titulo": "Real Decreto 356/2014, de 16 de mayo, por el que se establecen siete títulos de Formación Profesional Básica del catálogo de títulos de las enseñanzas de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-05-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-356-RD-fp-basica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/05/16/356"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "formación profesional básica"
+            ]
+        },
+        {
+            "id": "docv-2011-32-o",
+            "incluido": "2019-12-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2011-12-28",
+            "vigencia": "vigente",
+            "descripción": "Reclamación de calificaciones (CV)",
+            "titulo": "Orden 32/2011, de 20 de diciembre, de la Conselleria de Educación, Formación y Empleo, por la que se regula el derecho del alumnado a la objetividad en la evaluación, y se establece el procedimiento de reclamación de calificaciones obtenidas y de las decisiones de promoción, de certificación o de obtención del título académico que corresponda.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-12-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-32-O-reclamacion-calificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/12/20/32/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/12/20/32/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-32-O-reclamacion-calificaciones-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-32-O-reclamacion-calificaciones-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "reclamación de cailificaciones"
+            ]
+        },
+        {
+            "id": "docv-2007-09-12-o",
+            "incluido": "2019-12-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2007-09-28",
+            "vigencia": "vigente",
+            "descripción": "Notificación incidencias convivencia (CV)",
+            "titulo": "Orden de 12 de septiembre de 2007, de la Conselleria de Educación, por la que se regula la notificación de las incidencias que alteren la convivencia escolar, enmarcada dentro del Plan de Prevención de la Violencia y Promoción de la Convivencia en los centros escolares de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-09-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-09-12-O-notificacion-incidencias-convivencia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2007/09/12/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2007/09/12/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-09-12-O-notificacion-incidencias-convivencia-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-09-12-O-notificacion-incidencias-convivencia-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "convivencia"
+            ]
+        },
+        {
+            "id": "dogv-2000-07-26-res",
+            "incluido": "2019-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2000-09-01",
+            "vigencia": "vigente",
+            "descripción": "Programaciones didácticas ESO (CV)",
+            "titulo": "Resolución de 26 de julio de 2000, de la Dirección General de Ordenación e Innovación Educativa y Política Lingüística, sobre las Programaciones Didácticas en la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-09-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-07-27-R-programaciones-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2000/07/26/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2000/07/26/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-07-27-R-programaciones-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2000-07-27-R-programaciones-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "ESO",
+                "programaciones didácticas"
+            ]
+        },
+        {
+            "id": "dogv-2017-38-o",
+            "incluido": "2019-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-10-10",
+            "vigencia": "vigente",
+            "descripción": "Evaluación en ESO, Bachillerato y FPA (CV)",
+            "titulo": "Orden 38/2017, de 4 de octubre, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula la evaluación en Educación Secundaria Obligatoria, en Bachillerato y en las enseñanzas de la Educación de las Personas Adultas en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-10-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-38-O-evaluacion-eso-bac-fpa.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2017/10/04/38/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2017/10/04/38/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-38-O-evaluacion-eso-bac-fpa-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-38-O-evaluacion-eso-bac-fpa-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "evaluación",
+                "ESO",
+                "bachillerato",
+                "FPA"
+            ]
+        },
+        {
+            "id": "docv-2010-77-o",
+            "incluido": "2019-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2010-09-03",
+            "vigencia": "vigente",
+            "descripción": "Regulación módulo FCT (CV)",
+            "titulo": "Orden 77/2010 de 27 de agosto, de la Conselleria de Educación, por la que se regula el módulo profesional de Formación en Centros de Trabajo",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-09-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-77-O-fct.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/08/27/77/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/08/27/77/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-77-O-fct-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-77-O-fct-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "fct"
+            ]
+        },
+        {
+            "id": "docv-2012-46-o",
+            "incluido": "2019-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2012-07-25",
+            "vigencia": "vigente",
+            "descripción": "Ordenación Formación Profesional (CV)",
+            "titulo": "Orden 46/2012, de 12 de julio, de la Conselleria de Educación, Formación y Empleo, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional del sistema educativo en la Comunitat Valenciana. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-07-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-46-O-ordenacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/07/12/46/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/07/12/46/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-46-O-ordenacion-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-46-O-ordenacion-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "ordenación"
+            ]
+        },
+
+        {
+            "id": "docv-2010-09-01-res",
+            "incluido": "2019-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2010-09-08",
+            "vigencia": "vigente",
+            "descripción": "Documentos módulo FCT (CV)",
+            "titulo": "RESOLUCIÓN de 1 de septiembre de 2010, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional de la Conselleria de Educación, por la que se publican los documentos y modelos de gestión del módulo profesional de Formación en Centros de Trabajo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-09-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-09-01-R-documentos-fct.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2010/09/01/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2010/09/01/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-09-01-R-documentos-fct-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-09-01-R-documentos-fct-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "fct"
             ]
         }
     ]

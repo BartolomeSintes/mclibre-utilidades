@@ -36,7 +36,6 @@
                                 ]
                             }
                         },
-
                         {
                             "apartado": {
                                 "titulo": "Resoluciones del Consejo",
@@ -103,6 +102,17 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Convalidaciones de Formación Profesional",
+                                "referencias": [
+                                    "boe-2001-12-20-o",
+                                    "boe-2002-1842-o",
+                                    "boe-2014-2159-o",
+                                    "boe-2017-1055-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Currículos de Secundaria y Bachillerato",
                                 "referencias": [
                                     "boe-2014-1105-rd"
@@ -124,6 +134,15 @@
                                 "referencias": [
                                     "boe-2012-1529-rd",
                                     "boe-2018-2518-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "FP básica",
+                                "referencias": [
+                                    "boe-2014-127-rd",
+                                    "boe-2014-356-rd"
                                 ]
                             }
                         },
@@ -222,6 +241,7 @@
                             "apartado": {
                                 "titulo": "Convivencia",
                                 "referencias": [
+                                    "docv-2007-09-12-o",
                                     "docv-2008-39-d",
                                     "docv-2010-15-l"
                                 ]
@@ -239,12 +259,15 @@
                             "apartado": {
                                 "titulo": "Formación Profesional",
                                 "referencias": [
-                                    "dogv-2008-06-27-o",
-                                    "dogv-2010-78-o",
-                                    "dogv-2010-79-o",
-                                    "dogv-2013-86-o",
-                                    "dogv-2014-135-d",
-                                    "dogv-2016-18-o",
+                                    "docv-2008-06-27-o",
+                                    "docv-2010-77-o",
+                                    "docv-2010-78-o",
+                                    "docv-2010-79-o",
+                                    "docv-2010-09-01-res",
+                                    "docv-2012-46-o",
+                                    "docv-2013-86-o",
+                                    "docv-2014-135-d",
+                                    "docv-2016-18-o",
                                     "dogv-2018-05-22-res"
                                 ]
                             }
@@ -253,8 +276,8 @@
                             "apartado": {
                                 "titulo": "Formación Profesional Dual",
                                 "referencias": [
-                                    "dogv-2013-74-d",
-                                    "dogv-2014-02-o"
+                                    "docv-2013-74-d",
+                                    "docv-2014-02-o"
                                 ]
                             }
                         },
@@ -271,11 +294,14 @@
                             "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
-                                    "dogv-2014-54-o",
+                                    "dogv-2000-07-26-res",
+                                    "docv-2011-32-o",
+                                    "docv-2014-54-o",
                                     "docv-2015-69-o",
-                                    "dogv-2016-40-d",
+                                    "docv-2016-40-d",
                                     "docv-2016-59-d",
                                     "dogv-2017-89-d",
+                                    "dogv-2017-38-o",
                                     "dogv-2018-06-28-res",
                                     "dogv-2019-252-d"
                                 ]
@@ -350,8 +376,8 @@
                                 "titulo": "Comunidad Valenciana",
                                 "referencias": [
                                     "dogv-1997-234-d",
-                                    "dogv-2010-09-15-res",
-                                    "dogv-2011-33-o",
+                                    "docv-2010-09-15-res",
+                                    "docv-2011-33-o",
                                     "dogv-2018-05-30-res"
                                 ]
                             }
