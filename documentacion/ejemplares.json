@@ -3103,6 +3103,17 @@
       "creado": "2019-11-24"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 26,
+      "año": 2020,
+      "mes": 1,
+      "portada": "hackspace-26-en-202001.jpg",
+      "fichero": "hackspace-26-en-202001.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-25"
+    },
+    {
       "serie": "Hello World",
       "nombre": "Hello World",
       "número": 1,
@@ -8053,6 +8064,17 @@
       "creado": "2019-12-01"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 89,
+      "año": 2020,
+      "mes": 1,
+      "portada": "the-magpi-89-en-202001.jpg",
+      "fichero": "the-magpi-89-en-202001.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-25"
+    },
+    {
       "serie": "The MagPi Essentials",
       "nombre": "Edición especial",
       "número": 1,
@@ -10361,6 +10383,17 @@
       "fichero": "wireframe-28-en-201912.pdf",
       "idioma": "inglés",
       "creado": "2019-12-08"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 29,
+      "año": 2020,
+      "mes": 1,
+      "portada": "wireframe-29-en-201912.jpg",
+      "fichero": "wireframe-29-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-25"
     },
     {
       "serie": "Wireframe Books",
