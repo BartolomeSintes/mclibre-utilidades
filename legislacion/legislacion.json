@@ -6800,6 +6800,367 @@
                 "educación",
                 "acceso universidad"
             ]
+        },
+        {
+            "id": "docv-2009-07-17-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2009-07-30",
+            "vigencia": "vigente",
+            "descripción": "Cursos preparatorios Pruebas de acceso Ciclos formativos (CV)",
+            "titulo": "Orden de 17 de julio, de 2009 de la Conselleria de Educación, por la que se regulan los cursos preparatorios de las pruebas de acceso a la formación profesional en centros docentes de la Comunitat Valenciana que impartan enseñanzas de Ciclos Formativos y se establece el procedimiento de admisión para cursar estas enseñanzas financiadas con fondos públicos en centros docentes.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-07-17-O-cursos-preparatorios-pruebas-acceso-cf.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/07/17/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/07/17/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-07-17-O-cursos-preparatorios-pruebas-acceso-cf-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-07-17-O-cursos-preparatorios-pruebas-acceso-cf-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "pruebas de acceso cf"
+            ]
+        },
+        {
+            "id": "docv-2009-03-31-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2009-04-17",
+            "vigencia": "derogado",
+            "descripción": "Pruebas de acceso Ciclos formativos (CV)",
+            "titulo": "Orden de 31 de marzo de 2009, de la Conselleria de Educación, por la que se regulan las pruebas de acceso a ciclos formativos correspondientes a la Formación Profesional Inicial del Sistema Educativo en el ámbito de gestión de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-04-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-03-31-O-pruebas-acceso-cf.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/03/31/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/03/31/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-03-31-O-pruebas-acceso-cf-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-03-31-O-pruebas-acceso-cf-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "pruebas de acceso cf"
+            ]
+        },
+        {
+            "id": "docv-2016-16-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2016-05-24",
+            "vigencia": "vigente",
+            "descripción": "Pruebas de acceso Ciclos formativos (CV)",
+            "titulo": "Orden 16/2016, de 20 de mayo, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regulan las pruebas de acceso a ciclos formativos de grado medio y grado superior correspondientes a la Formación Profesional del sistema educativo en el ámbito de gestión de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-05-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-16-O-pruebas-acceso-cf.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2016/05/20/16/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2016/05/20/16/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-16-O-pruebas-acceso-cf-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-16-O-pruebas-acceso-cf-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "pruebas de acceso cf"
+            ]
+        },
+        {
+            "id": "docv-2009-08-17-res",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2009-09-08",
+            "vigencia": "derogado",
+            "descripción": "Currículo materias Pruebas de acceso Ciclos formativos (CV)",
+            "titulo": "Resolución de 17 de agosto de 2009, de la Dirección general de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional, por la que se establece el currículo de las materias que forman parte de las pruebas de acceso a ciclos formativos de grado medio y de grado superior de Formación Profesional y de los cursos preparatorios de las mismas en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-09-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-08-17-R-curriculo-materias-pruebas-acceso-cf.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2009/08/17/(2)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2009/08/17/(2)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-08-17-R-curriculo-materias-pruebas-acceso-cf-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-08-17-R-curriculo-materias-pruebas-acceso-cf-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "currículo",
+                "pruebas de acceso cf"
+            ]
+        },
+        {
+            "id": "docv-2015-11-02-res",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2015-11-18",
+            "vigencia": "vigente",
+            "descripción": "Currículo materias Pruebas de acceso Ciclos formativos (CV)",
+            "titulo": "Resolución de 2 de noviembre de 2015, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se modifica el currículo de las materias que forman parte de las pruebas de acceso a ciclos formativos de grado medio y de grado superior de Formación Profesional y de los cursos preparatorios de las mismas en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-11-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-11-02-R-curriculo-materias-pruebas-acceso-cf.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2015/11/02/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2015/11/02/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-11-02-R-curriculo-materias-pruebas-acceso-cf-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-11-02-R-curriculo-materias-pruebas-acceso-cf-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "currículo",
+                "pruebas de acceso cf"
+            ]
+        },
+        {
+            "id": "docv-2009-08-17-2-res",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2009-09-07",
+            "vigencia": "vencido",
+            "descripción": "Ciclos formativos asociados a parte específica Pruebas de acceso Ciclos formativos (CV)",
+            "titulo": "Resolución de 17 de agosto, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional, por la que se establece los ciclos a los que permite el acceso las opciones de la parte específica de la prueba de acceso a ciclos formativos de grado superior de las distintas familias profesionales de Formación Profesional para el curso 2010-2011.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-09-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-08-17-R-ciclos-parte-especifica-pruebas-acceso-cf.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2009/08/17/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2009/08/17/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-08-17-R-ciclos-parte-especifica-pruebas-acceso-cf-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-08-17-R-ciclos-parte-especifica-pruebas-acceso-cf-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "currículo",
+                "pruebas de acceso cf"
+            ]
+        },
+        {
+            "id": "docv-2011-06-10-res",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2009-09-07",
+            "vigencia": "vigente",
+            "descripción": "Ciclos formativos asociados a parte específica Pruebas de acceso Ciclos formativos (CV)",
+            "titulo": "Resolución de 10 de junio de 2011, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional, por la que se establece los ciclos a los que permite el acceso las opciones de la parte específica de la prueba de acceso a ciclos formativos de grado superior de las distintas familias profesionales de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-09-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-06-10-R-ciclos-parte-especifica-pruebas-acceso-cf.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2011/06/10/(2)/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2011/06/10/(2)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-06-10-R-ciclos-parte-especifica-pruebas-acceso-cf-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-06-10-R-ciclos-parte-especifica-pruebas-acceso-cf-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "currículo",
+                "pruebas de acceso cf"
+            ]
         }
     ]
 }
