@@ -330,6 +330,22 @@
             "estado": "activa"
         },
         {
+            "nombre-corto": "The R Journal",
+            "nombre": "The R Journal",
+            "nombre-largo": "The R Journal",
+            "web": [
+                [
+                    "https://journal.r-project.org/",
+                    "Revista The R Journal"
+                ]
+            ],
+            "miniaturas": "../img/revistas/the-r-journal/",
+            "archivos": "the-r-journal/",
+            "comentario": "",
+            "abreviatura" : "rjournal",
+            "estado": "activa"
+        },
+        {
             "nombre-corto": "Wireframe",
             "nombre": "Wireframe",
             "nombre-largo": "Wireframe - Lifting the lid on video games",

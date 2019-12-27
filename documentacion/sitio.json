@@ -191,6 +191,13 @@
       ]
     },
     {
+      "pagina": "revistas-the-r-journal.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "The R Journal"
+      ]
+    },
+    {
       "pagina": "revistas-pclinuxos.html",
       "directorio": "revistas-titulos",
       "revistas": [
