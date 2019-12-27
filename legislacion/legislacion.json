@@ -1389,7 +1389,7 @@
                 "real decreto",
                 "currículo",
                 "secundaria",
-                "eso",
+                "ESO",
                 "bachillerato"
             ]
         },
@@ -1462,7 +1462,7 @@
                 "decreto",
                 "currículo",
                 "secundaria",
-                "eso",
+                "ESO",
                 "bachillerato"
             ]
         },
@@ -1514,7 +1514,7 @@
                 "decreto",
                 "currículo",
                 "secundaria",
-                "eso",
+                "ESO",
                 "bachillerato"
             ]
         },
@@ -1566,7 +1566,7 @@
                 "decreto",
                 "currículo",
                 "secundaria",
-                "eso",
+                "ESO",
                 "bachillerato"
             ]
         },
@@ -4976,7 +4976,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2018-06-05",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario escolar 2018/19 (CV)",
             "titulo": "Resolución de 30 de mayo de 2018, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2018-2019.",
             "versiones": [
@@ -6316,7 +6316,6 @@
                 "ordenación"
             ]
         },
-
         {
             "id": "docv-2010-09-01-res",
             "incluido": "2019-12-24",
@@ -6366,6 +6365,440 @@
                 "educación",
                 "formación profesional",
                 "fct"
+            ]
+        },
+        {
+            "id": "boe-2011-4-lo",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-03-12",
+            "vigencia": "vigente",
+            "descripción": "Complementaria de la Ley de Economía Sostenible",
+            "titulo": "Ley Orgánica 4/2011, de 11 de marzo, complementaria de la Ley de Economía Sostenible,  por  la  que  se  modifican  las  Leyes  Orgánicas  5/2002,  de  19  de junio,  de  las  Cualificaciones  y  de  la  Formación  Profesional,  2/2006,  de  3  de mayo, de Educación, y 6/1985, de 1 de julio, del Poder Judicial.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-03-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-4-LO-complementaria-economia-sostenible.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2011/03/11/4"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "educación",
+                "ley",
+                "primaria",
+                "secundaria",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2016-310-rd",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2016-07-30",
+            "vigencia": "vigente",
+            "descripción": "Evaluaciones finales ESO y Bachillerato",
+            "titulo": "Real Decreto 310/2016, de 29 de julio, por el que se regulan las evaluaciones finales de Educación Secundaria Obligatoria y de Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2016-310-RD-evaluaciones-finales-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2016/07/29/310"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2016-310-RD-evaluaciones-finales-eso-bachillerato-consolidado-2019-11-20.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2016/07/29/310/con/20191120"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "evaluaciones finales",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "boe-2016-5-rdl",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2016-12-10",
+            "vigencia": "vigente",
+            "descripción": "Evaluaciones finales ESO y Bachillerato",
+            "titulo": "Real Decreto-ley 5/2016, de 9 de diciembre, de medidas urgentes para la ampliación del calendario de implantación de la Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2016-5-RDL-calendario-evaluaciones-finales-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2016/12/09/5"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto ley",
+                "educación",
+                "evaluaciones finales",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "boe-2017-393-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2017-05-06",
+            "vigencia": "vencido",
+            "descripción": "Regulación pruebas evaluación final ESO 2016/17",
+            "titulo": "Orden ECD/393/2017, de 4 de mayo, por la que se regulan las pruebas de la evaluación final de Educación Secundaria Obligatoria, para el curso 2016/2017.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-05-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2017-393-O-pruebas-evaluacion-final-eso-2016-17.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2017/05/04/ecd393"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2016/17",
+                "ESO",
+                "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2018-65-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-01-30",
+            "vigencia": "vencido",
+            "descripción": "Regulación pruebas evaluación final ESO 2017/18",
+            "titulo": "Orden ECD/65/2018, de 29 de enero, por la que se regulan las pruebas de la evaluación final de Educación Secundaria Obligatoria, para el curso 2017/2018.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-01-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-65-O-pruebas-evaluacion-final-eso-2017-18.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2018/01/29/ecd65"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2017/18",
+                "ESO",
+                "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2019-196-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2019-02-28",
+            "vigencia": "vigente",
+            "descripción": "Regulación pruebas evaluación final ESO 2018/19",
+            "titulo": "Orden EFP/196/2019, de 26 de febrero, por la que se regulan las pruebas de la evaluación final de Educación Secundaria Obligatoria, para el curso 2018/2019.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-02-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2019-196-O-pruebas-evaluacion-final-eso-2018-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2019/02/26/efp196"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2018/19",
+                "ESO",
+                "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2016-1941-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2016-12-23",
+            "vigencia": "vencido",
+            "descripción": "Regulación pruebas evaluación final Bachillerato acceso Universidad 2016/17",
+            "titulo": "Orden ECD/1941/2016, de 22 de diciembre, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas, para el curso 2016/2017.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-12-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2016-1941-O-evaluacion-bachillerato-acceso-universidad-2016-17.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2016/12/22/ecd1941"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2016/17",
+                "Bachillerato",
+                "acceso universidad",
+                "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2018-42-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-01-26",
+            "vigencia": "vencido",
+            "descripción": "Regulación pruebas evaluación final Bachillerato acceso Universidad 2017/18",
+            "titulo": "Orden ECD/42/2018, de 25 de enero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas, para el curso 2017/2018.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-01-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-42-O-evaluacion-bachillerato-acceso-universidad-2017-18.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2018/01/25/ecd42"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2017/18",
+                "Bachillerato",
+                "acceso universidad",
+                "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2019-12-o",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2019-01-15",
+            "vigencia": "vigente",
+            "descripción": "Regulación pruebas evaluación final Bachillerato acceso Universidad 2018/19",
+            "titulo": "Orden PCI/12/2019, de 14 de enero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas en el curso 2018-2019.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-01-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2019-12-O-evaluacion-bachillerato-acceso-universidad-2018-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2019/01/14/pci12"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2018/19",
+                "Bachillerato",
+                "acceso universidad",
+                "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2014-412-rd",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-06-07",
+            "vigencia": "vigente",
+            "descripción": "Admisión a las enseñanzas universitarias de Grado",
+            "titulo": "Real Decreto 412/2014, de 6 de junio, por el que se establece la normativa básica de los procedimientos de aacceso a universidad",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-06-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-412-RD-admision-universidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/06/06/412"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "acceso universidad"
+            ]
+        },
+        {
+            "id": "boe-2008-1892-rd",
+            "incluido": "2019-12-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2008-11-24",
+            "vigencia": "derogado",
+            "descripción": "Admisión a las enseñanzas universitarias de Grado",
+            "titulo": "Real Decreto 1892/2008, de 14 de noviembre, por el que se regulan las condiciones para el acceso a las enseñanzas universitarias oficiales de grado y los procedimientos de admisión a las universidades públicas españolas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-11-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-1892-RD-admision-universidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2008/11/14/1892"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2014-06-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-1892-RD-admision-universidad-consolidado-2014-06-07.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2008/11/14/1892/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "acceso universidad"
             ]
         }
     ]

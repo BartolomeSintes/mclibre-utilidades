@@ -93,6 +93,8 @@ def seccion(legislacion, id, titulo):
         tmp += f'          {elemento["origen"]} {elemento["fecha"]}\n'
         if elemento["vigencia"] == gconst.DEROGADO:
             tmp += f'          <span class="derogado">derogado</span>\n'
+        elif elemento["vigencia"] == gconst.VENCIDO:
+            tmp += f'          <span class="derogado">vencido</span>\n'
         tmp += "        </p>\n"
         for version in elemento["versiones"]:
             tmp += '        <p class="fichero">\n'
@@ -139,6 +141,8 @@ def cronologico(legislacion):
         tmp += f'        {elemento["origen"]} {elemento["fecha"]}\n'
         if elemento["vigencia"] == gconst.DEROGADO:
             tmp += f'        <span class="derogado">derogado</span>\n'
+        elif elemento["vigencia"] == gconst.VENCIDO:
+            tmp += f'          <span class="derogado">vencido</span>\n'
         tmp += "      </p>\n"
         for version in elemento["versiones"]:
             tmp += '      <p class="fichero">\n'
@@ -201,6 +205,8 @@ def muestra_referencia(elemento, profundidad):
     tmp += f'      <span class="titulo">{elemento["titulo"]}</span><br>\n'
     if elemento["vigencia"] == gconst.DEROGADO:
         tmp += f'      <span class="derogado">derogado</span><br>\n'
+    elif elemento["vigencia"] == gconst.VENCIDO:
+        tmp += f'          <span class="derogado">vencido</span><br>\n'
     tmp += f'      <span class="publicacion">\n'
     for version in elemento["versiones"]:
         tmp += '        <span class="fichero">\n'

@@ -63,9 +63,19 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Curso 2018/19",
+                                "referencias": [
+                                    "boe-2019-12-o",
+                                    "boe-2019-196-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Leyes de Educación",
                                 "referencias": [
                                     "boe-1985-8-lo",
+                                    "boe-2011-4-lo",
                                     "boe-2006-2-lo",
                                     "boe-2013-8-lo"
                                 ]
@@ -116,6 +126,15 @@
                                 "titulo": "Currículos de Secundaria y Bachillerato",
                                 "referencias": [
                                     "boe-2014-1105-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Calendario de implantación Evaluaciones finales de Secundaria y Bachillerato",
+                                "referencias": [
+                                    "boe-2016-310-rd",
+                                    "boe-2016-5-rdl"
                                 ]
                             }
                         },
@@ -173,6 +192,7 @@
                                 "referencias": [
                                     "boe-2008-944-o",
                                     "boe-2008-1834-rd",
+                                    "boe-2014-412-rd",
                                     "boe-2015-65-o",
                                     "boe-2015-665-rd"
                                 ]
@@ -367,7 +387,26 @@
                                     "boe-1994-07-07-o",
                                     "boe-2004-362-rd",
                                     "boe-2006-1538-rd",
+                                    "boe-2008-1892-rd",
                                     "boe-2018-5-rdl"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2017/18",
+                                "referencias": [
+                                    "boe-2018-42-o",
+                                    "boe-2018-65-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2016/17",
+                                "referencias": [
+                                    "boe-2016-1941-o",
+                                    "boe-2017-393-o"
                                 ]
                             }
                         },

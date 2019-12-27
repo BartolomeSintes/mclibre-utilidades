@@ -2,7 +2,9 @@
 
 JSON_FILE_REFERENCES = "legislacion.json"
 JSON_FILE_COLLECTIONS = "colecciones.json"
+VIGENTE = "vigente"
 DEROGADO = "derogado"
+VENCIDO = "vencido"
 DIR_SITE = "docs"
 DIR_FILES = "files"
 DIR_IMAGES = "img"
