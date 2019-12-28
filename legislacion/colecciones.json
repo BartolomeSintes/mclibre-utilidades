@@ -75,8 +75,9 @@
                                 "titulo": "Leyes de Educación",
                                 "referencias": [
                                     "boe-1985-8-lo",
-                                    "boe-2011-4-lo",
                                     "boe-2006-2-lo",
+                                    "boe-2006-806-rd",
+                                    "boe-2011-4-lo",
                                     "boe-2013-8-lo"
                                 ]
                             }
@@ -350,9 +351,7 @@
                             "apartado": {
                                 "titulo": "Leyes de Educación",
                                 "referencias": [
-                                    "boe-1990-1-lo",
-                                    "boe-1995-9-lo",
-                                    "boe-2002-10-lo"
+                                    "boe-1995-9-lo"
                                 ]
                             }
                         },
@@ -384,6 +383,46 @@
                                 "referencias": [
                                     "boe-1995-797-rd",
                                     "boe-2003-1506-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Educación (LOE, 2006)",
+                                "referencias": [
+                                    "boe-2006-1631-rd",
+                                    "boe-2007-1467-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Calidad de la Educación (LOCE, 2002)",
+                                "referencias": [
+                                    "boe-2002-10-lo",
+                                    "boe-2003-827-rd",
+                                    "boe-2003-831-rd",
+                                    "boe-2003-832-rd",
+                                    "boe-2004-1318-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Ordenación General del Sistema Educativo (LOGSE, 1990)",
+                                "referencias": [
+                                    "boe-1990-1-lo",
+                                    "boe-1991-1007-rd",
+                                    "boe-1991-1345-rd",
+                                    "boe-1991-1700-rd",
+                                    "boe-1992-1178-rd",
+                                    "boe-1992-1179-rd",
+                                    "boe-1995-894-rd",
+                                    "boe-1995-1390-rd",
+                                    "boe-2000-3473-rd",
+                                    "boe-2000-3474-rd",
+                                    "boe-2001-937-rd",
+                                    "boe-2001-938-rd"
                                 ]
                             }
                         },

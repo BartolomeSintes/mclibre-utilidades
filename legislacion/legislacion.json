@@ -7161,6 +7161,764 @@
                 "currículo",
                 "pruebas de acceso cf"
             ]
+        },
+        {
+            "id": "boe-2006-806-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2006-07-14",
+            "vigencia": "vigente",
+            "descripción": "Calendario aplicación LOE",
+            "titulo": "Real Decreto 806/2006, de 30 de junio, por el que se establece el calendario de aplicación de la nueva ordenación del sistema educativo, establecida por la Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-07-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-806-RD-calendario-loe.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2006/06/30/806"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2007-11-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-806-RD-calendario-loe-consolidado-2007-11-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2006/06/30/806/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "calendario de aplicación"
+            ]
+        },
+        {
+            "id": "boe-2007-1467-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-11-06",
+            "vigencia": "derogado",
+            "descripción": "Estructura y enseñanzas mínimas Bachillerato (LOE)",
+            "titulo": "Real Decreto 1467/2007, de 2 de noviembre, por el que se establece la estructura del bachillerato y se fijan sus enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-11-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1467-RD-ensenanzas-minimas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/11/02/1467"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2007-11-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1467-RD-ensenanzas-minimas-bachillerato-consolidado-2017-06-03.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/11/02/1467/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2006-1631-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-01-05",
+            "vigencia": "derogado",
+            "descripción": "Estructura y enseñanzas mínimas ESO (LOE)",
+            "titulo": "Real Decreto 1631/2006, de 29 de diciembre, por el que se establecen las enseñanzas mínimas correspondientes a la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-01-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-1631-RD-ensenanzas-minimas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2006/12/29/1631"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2007-11-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-1631-RD-ensenanzas-minimas-eso-consolidado-2017-06-03.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2006/12/29/1631/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2003-831-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-07-03",
+            "vigencia": "derogado",
+            "descripción": "Ordenación y enseñanzas comunes ESO (LOCE)",
+            "titulo": "Real Decreto 831/2003, de 27 de junio, por el que se establece la ordenación general y las enseñanzas comunes de la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-07-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-831-RD-ensenanzas-minimas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/06/27/831"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2003-832-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-07-04",
+            "vigencia": "derogado",
+            "descripción": "Ordenación y enseñanzas comunes Bachillerato (LOCE)",
+            "titulo": "Real Decreto 832/2003, de 27 de junio, por el que se establece la ordenación general y las enseñanzas comunes del Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-07-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-832-RD-ensenanzas-minimas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/06/27/832"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2003-827-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-06-28",
+            "vigencia": "derogado",
+            "descripción": "Calendario aplicación LOCE",
+            "titulo": "Real Decreto 827/2003, de 27 de junio, por el que se establece el calendario de aplicación de la nueva ordenación del sistema educativo, establecida por la Ley Orgánica 10/2002, de 23 de diciembre, de Calidad de la Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-06-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-827-RD-calendario-loce.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/06/27/827"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "calendario de aplicación"
+            ]
+        },
+        {
+            "id": "boe-2004-1318-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2004-05-29",
+            "vigencia": "derogado",
+            "descripción": "Calendario aplicación LOCE",
+            "titulo": "Real Decreto 1318/2004, de 28 de mayo, por el que se modifica el Real Decreto 827/2003, de 27 de junio, por el que se establece el calendario de aplicación de la nueva ordenación del sistema educativo, establecida por la Ley Orgánica 10/2002, de 23 de diciembre, de Calidad de la Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-05-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-1318-RD-calendario-loce.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/05/28/1318"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "calendario de aplicación"
+            ]
+        },
+        {
+            "id": "boe-1992-1178-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1992-10-21",
+            "vigencia": "derogado",
+            "descripción": "Enseñanzas mínimas Bachillerato (LOGSE)",
+            "titulo": "Real Decreto 1178/1992, de 2 de octubre, por el que se establecen las enseñanzas mínimas del Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-10-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-1178-RD-ensenanzas-minimas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1992/10/02/1178"
+                        }
+                    ]
+                },
+                {
+                    "versión": "anexo",
+                    "fecha": "1992-10-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-1178-RD-ensenanzas-minimas-bachillerato-anexo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1992/10/02/1178"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1992-1179-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1992-10-21",
+            "vigencia": "derogado",
+            "descripción": "Currículo Bachillerato (LOGSE)",
+            "titulo": "Real Decreto 1179/1992, de 2 de octubre, por el que se establece el currículo del Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-10-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-1179-RD-curriculo-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1992/10/02/1179"
+                        }
+                    ]
+                },
+                {
+                    "versión": "anexo",
+                    "fecha": "1992-10-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-1179-RD-curriculo-bachillerato-anexo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1992/10/02/1179"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1991-1700-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1991-12-02",
+            "vigencia": "derogado",
+            "descripción": "Estructura Bachillerato (LOGSE)",
+            "titulo": "Real Decreto 1700/1991, de 29 de noviembre, por el que se establece la estructura del Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1991-12-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-1700-RD-estructura-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1991/11/29/1700"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "boe-2000-3474-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2001-01-16",
+            "vigencia": "derogado",
+            "descripción": "Estructura y enseñanzas mínimas Bachillerato (LOGSE)",
+            "titulo": "Real Decreto 3474/2000, de 29 de diciembre, por el que se modifican el Real Decreto 1700/1991, de 29 de noviembre, por el que se establece la estructura del bachillerato, y el Real Decreto 1178/1992, de 2 de octubre, por el que se establecen las enseñanzas mínimas del bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-01-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2000-3474-RD-estructura-ensenanzas-minimas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2000/12/29/3474"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "ordenación",
+                "enseñanzas mínimas"
+            ]
+        },
+        {
+            "id": "boe-2001-938-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2001-09-07",
+            "vigencia": "derogado",
+            "descripción": "Currículo Bachillerato (LOGSE)",
+            "titulo": "Real Decreto 938/2001, de 3 de agosto, por el que se modifica el Real Decreto 1179/1992, de 2 de octubre, por el que se establece el currículo del Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-09-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2001-938-RD-curriculo-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2001/08/03/938"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1991-1007-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1991-06-26",
+            "vigencia": "derogado",
+            "descripción": "Enseñanzas mínimas ESO (LOGSE)",
+            "titulo": "Real Decreto 1007/1991, de 14 de junio, por el que se establecen las enseñanzas mínimas correspondientes a la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1991-06-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-1007-RD-ensenanzas-minimas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1991/06/14/1007"
+                        }
+                    ]
+                },
+                {
+                    "versión": "anexo",
+                    "fecha": "1991-06-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-1007-RD-ensenanzas-minimas-eso-anexo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1991/06/14/1007"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2000-3473-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2001-01-16",
+            "vigencia": "derogado",
+            "descripción": "Enseñanzas mínimas ESO (LOGSE)",
+            "titulo": "Real Decreto 3473/2000, de 29 de diciembre, por el que se modifica el Real Decreto 1007/1991, de 14 de junio, por el que se establecen las enseñanzas mínimas correspondientes a la educación secundaria obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-01-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2000-3473-RD-ensenanzas-minimas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2000/12/29/3473"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "eso",
+                "enseñanzas mínimas"
+            ]
+        },
+        {
+            "id": "boe-1995-894-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1995-06-24",
+            "vigencia": "derogado",
+            "descripción": "Enseñanzas mínimas ESO (LOGSE)",
+            "titulo": "Real Decreto 894/1995, de 2 de junio, por el que se modifica y amplía el artículo 3 del Real Decreto 1007/1991, de 14 de junio, por el que se establecen las enseñanzas mínimas correspondientes a la Educación Secundaria obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-06-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-894-RD-ensenanzas-minimas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1995/06/02/894"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1991-1345-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1991-09-13",
+            "vigencia": "derogado",
+            "descripción": "Currículo ESO (LOGSE)",
+            "titulo": "Real Decreto 1345/1991, de 6 de septiembre, por el que se establece el currículo de la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1991-09-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-1345-RD-curriculo-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1995/06/02/894"
+                        }
+                    ]
+                },
+                {
+                    "versión": "anexo",
+                    "fecha": "1991-09-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-1345-RD-curriculo-eso-anexo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1995/06/02/894"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2001-937-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1991-09-07",
+            "vigencia": "derogado",
+            "descripción": "Currículo ESO (LOGSE)",
+            "titulo": "Real Decreto 937/2001, de 3 de agosto, por el que se modifica el Real Decreto 1345/1991, de 6 de septiembre, modificado por el Real Decreto 1390/1995, de 4 de agosto, por el que se establece el currículo de la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1991-09-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2001-937-RD-curriculo-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2001/08/03/937"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1995-1390-rd",
+            "incluido": "2019-12-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1995-09-19",
+            "vigencia": "derogado",
+            "descripción": "Currículo ESO (LOGSE)",
+            "titulo": "Real Decreto 1390/1995, de 4 de agosto, por el que se modifica y amplía el Real Decreto 1345/1991, de 6 de septiembre, por el que se establece el currículo de la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-09-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-1390-RD-curriculo-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2001/08/03/937"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "currículo"
+            ]
         }
     ]
 }
