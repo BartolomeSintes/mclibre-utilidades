@@ -6491,9 +6491,9 @@
                 "españa",
                 "real decreto ley",
                 "educación",
-                "evaluaciones finales",
                 "ESO",
-                "bachillerato"
+                "bachillerato",
+                "calendario de aplicación"
             ]
         },
         {
@@ -7918,6 +7918,975 @@
                 "educación",
                 "ESO",
                 "currículo"
+            ]
+        },
+        {
+            "id": "boe-2017-562-rd",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2017-06-03",
+            "vigencia": "vigente",
+            "descripción": "Obtención títulos ESO y Bachiller",
+            "titulo": "Real Decreto 562/2017, de 2 de junio, por el que se regulan las condiciones para la obtención de los títulos de Graduado en Educación Secundaria Obligatoria y de Bachiller, de acuerdo con lo dispuesto en el Real Decreto-ley 5/2016, de 9 de diciembre, de medidas urgentes para la ampliación del calendario de implantación de la Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2017-562-RD-obtencion-titulos-eso-bachiller.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2017/06/02/562"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "bachillerato",
+                "títulos"
+            ]
+        },
+        {
+            "id": "boe-2009-1850-rd",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2009-12-22",
+            "vigencia": "vigente",
+            "descripción": "Expedición de títulos",
+            "titulo": "Real Decreto 1850/2009, de 4 de diciembre, sobre expedición de títulos académicos y profesionales correspondientes a las enseñanzas establecidas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-12-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-1850-RD-expedicion-titulos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2009/12/04/1850"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2017-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-1850-RD-expedicion-titulos-consolidado-2017-06-03.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2009/12/04/1850/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "títulos"
+            ]
+        },
+        {
+            "id": "boe-2015-197-rd",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-04-13",
+            "vigencia": "vigente",
+            "descripción": "Expedición de títulos",
+            "titulo": "Real Decreto 197/2015, de 23 de marzo, por el que se modifica el Real Decreto 1850/2009, de 4 de diciembre, sobre expedición de títulos académicos y profesionales correspondientes a las enseñanzas establecidas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-04-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-197-RD-expedicion-titulos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2015/03/23/197"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "títulos"
+            ]
+        },
+        {
+            "id": "boe-1980-5-lo",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1980-06-27",
+            "vigencia": "derogado",
+            "descripción": "Estatuto de centros escolares",
+            "titulo": "Ley Orgánica 5/1980, de 19 de junio, por la que se regula el Estatuto de Centros Escolares.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1980-06-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1980-5-LO-estatuto-centros-escolares.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/1980/06/19/5"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "educación",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "centros"
+            ]
+        },
+        {
+            "id": "boe-1970-14-lo",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-08-06",
+            "vigencia": "derogado",
+            "descripción": "Ley General de Educación (LGE)",
+            "titulo": "Ley 14/1970, de 4 de agosto, General de Educación y Financiamiento de la Reforma Educativa.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1970-08-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-14-L-lge.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-852"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "educación",
+                "ESO",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-1974-30-l",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1974-07-26",
+            "vigencia": "derogado",
+            "descripción": "Pruebas de acceso a la Universidad",
+            "titulo": "Ley 30/1974, de 24 de julio, sobre pruebas de aptitud para acceso a las Facultades, Escuelas Técnicas Superiores, Colegios Universitarios y Escuelas Universitarias.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1974-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1974-30-L-pruebas-acceso-universidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1974-1191"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "educación",
+                "pruebas de acceso universidad"
+            ]
+        },
+        {
+            "id": "boe-1970-11-16-o",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-11-25",
+            "vigencia": "derogado",
+            "descripción": "Evaluación (LGE)",
+            "titulo": "Orden de 16 de noviembre de 1970 sobre evaluación continua del rendimiento educativo de los alumnos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1974-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-11-16-O-evaluacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-1272"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-1974-07-02-o",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1974-07-03",
+            "vigencia": "derogado",
+            "descripción": "Evaluación (LGE)",
+            "titulo": "Orden de 2 de julio de 1974 por la que se complementa la de 16 de noviembre de 1970 sobre evaluación continua del rendimiento educativo de los alumnos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1974-07-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1974-07-02-O-evaluacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1974-1046"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-1970-2618-d",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-09-19",
+            "vigencia": "derogado",
+            "descripción": "Evaluación (LGE)",
+            "titulo": "Decreto 2618/1970, de 22 de agosto, sobre sustitución de las actuales pruebas del grado de Bachiller Elemental y establecimiento de la evaluación continua del rendimiento educativo de los alumnos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1970-09-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-2618-D-evaluacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-1015"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-1971-09-01-o",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1971-10-21",
+            "vigencia": "derogado",
+            "descripción": "Evaluación (LGE)",
+            "titulo": "Orden de 1 de septiembre de 1971 por la que se desarrolla el apartado 3 del artículo cuarto del Decreto 2618/1970, de 22 de agosto, sobre alumnos evaluados negativamente.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1971-10-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1971-09-01-O-evaluacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1971-1320"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-1970-11-17-res",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-11-25",
+            "vigencia": "derogado",
+            "descripción": "Evaluación (LGE)",
+            "titulo": "Resolución de 17 de noviembre de 1970 de la Dirección General de Enseñanza Media y Profesional por la que se dan instrucciones para la aplicación de la evaluación continua del rendimiento educativo en los Centros de Enseñanza Media.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1970-11-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-11-17-R-evaluacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-1273"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-1970-2459-d",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-09-05",
+            "vigencia": "derogado",
+            "descripción": "Calendario aplicación LGE",
+            "titulo": "Decreto 2459/1970, de 22 de agosto, sobre calendario para aplicación de la reforma educativa.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1970-09-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-2459-D-calendario-lge.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-969"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario de aplicación"
+            ]
+        },
+        {
+            "id": "boe-1971-09-28-o",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1971-10-09",
+            "vigencia": "derogado",
+            "descripción": "Calendario aplicación LGE",
+            "titulo": "Orden de 28 de septiembre de 1971 por la que se dictan normas sobre el horario del Profesorado de Centros de Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1971-10-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1971-09-28-O-horario-profesorado.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1971-1278"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "horario profesorado"
+            ]
+        },
+        {
+            "id": "boe-1975-160-d",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1975-02-13",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios del Bachillerato (LGE)",
+            "titulo": "Decreto 160/1975 por el que se aprueba el Plan de Estudios del Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1975-02-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1975-160-D-plan-estudios-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1975-3139"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1976-2214-rd",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1976-09-22",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios del Bachillerato (LGE)",
+            "titulo": "Real Decreto 2214/1976, de 10 de septiembre, por el que se modifican determinados artículos del Decreto 160/1975, de 23 de enero, por el que se aprueba el Plan de estudios de Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1976-09-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1976-2214-RD-plan-estudios-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1976-18096"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1975-03-22-o",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1975-04-18",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios del Bachillerato (LGE)",
+            "titulo": "Orden de 22 de marzo de 1975 por la que se desarrolla el Decreto 160/1975, de 23 de enero, que aprueba el Plan de Estudios del Bachillerato, y se regula el Curso de Orientación Universitaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1976-09-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1975-03-22-O-plan-estudios-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1975-8175"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1985-04-19-o",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1985-04-27",
+            "vigencia": "derogado",
+            "descripción": "Creación especialidad Informática y sus aplicaciones (LGE)",
+            "titulo": "Orden de 19 de abril de 1985 por la que se complementa la de 22 de marzo de 1975, en relación con el establecimiento de nuevas especialidades de Enseñanzas y Actividades Técnico-Profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1985-04-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1985-04-19-O-fp-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1985/04/19/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "formación profesional",
+                "informática"
+            ]
+        },
+        {
+            "id": "boe-1988-05-27-res",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1988-05-22",
+            "vigencia": "derogado",
+            "descripción": "EATP en Bachillerato (LGE)",
+            "titulo": "Resolución de 27 de mayo de 1988, de la Secretaría General de Educación, por la que se desarrollan las Ordenes de 22 de marzo de 1975, de 19 de abril de 1985 y 19 de mayo de 1988, en lo relativo a las Enseñanzas y Actividades Técnico-Profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1988-05-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1988-05-27-R-eatp-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/1988/05/27/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "educación",
+                "bachillerato",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "boe-1976-707-d",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1976-04-12",
+            "vigencia": "derogado",
+            "descripción": "Ordenación de la Formación Profesional (LGE)",
+            "titulo": "Decreto 707/1976, de 5 de marzo, sobre Ordenación de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1975-02-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1976-707-D-ordenacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1976-7763"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "boe-1969-554-d",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1969-04-14",
+            "vigencia": "derogado",
+            "descripción": "Creación del Instituto de Informática",
+            "titulo": "Decreto 554/1969, de 29 de marzo, por el que se crea un Instituto de Informática, dependiente del Ministerio de Educación y Ciencia, con sede en Madrid, y se regulan las enseñanzas de la misma.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1975-02-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1969-554-D-instituto-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1969-435"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación"
+            ]
+        },
+        {
+            "id": "boe-1976-327-d",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1976-03-01",
+            "vigencia": "derogado",
+            "descripción": "Estudios de Informática (LGE)",
+            "titulo": "Decreto 327/1976, de 26 de febrero, sobre estudios de Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1976-03-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1976-327-D-estudios-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1976-4706"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "informática"
+            ]
+        },
+        {
+            "id": "boe-1974-995-d",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1974-04-18",
+            "vigencia": "derogado",
+            "descripción": "Ordenación de la Formación Profesional (LGE)",
+            "titulo": "Decreto 995/1974, de 14 de marzo, sobre Ordenación de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1974-04-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1974-995-D-ordenacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1974-639"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "boe-1977-3193-rd",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1977-12-17",
+            "vigencia": "derogado",
+            "descripción": "Estudios de Informática FP (LGE)",
+            "titulo": "Real Decreto 3193/1977, de 28 de octubres, por el que se determina que las enseñanzas de informática de Formación Profesional de segundo grado sean impartidas por régimen de enseñanzas especializadas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1977-12-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1977-3193-RD-fp-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-30436"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "informática"
+            ]
+        },
+        {
+            "id": "boe-1978-02-15-o",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1978-02-28",
+            "vigencia": "derogado",
+            "descripción": "Currículo de Informática FP (LGE)",
+            "titulo": "Orden de 15 de febrero de 1978 por la que se aprueban los cuestionarios correspondientes a los estudios de Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1978-02-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1978-02-15-O-curriculo-fp-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-5913"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "formación profesional",
+                "currículo",
+                "informática"
+            ]
+        },
+        {
+            "id": "boe-1970-2481-d",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-09-07",
+            "vigencia": "derogado",
+            "descripción": "Centros experimentales y experimentación en Centros ordinarios (LGE)",
+            "titulo": "Decreto 2481/1970, de 22 de agosto, sobre Centros experimentales y autorización para la experimentación en Centros ordinarios.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1970-09-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-2481-D-centros-experimentales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-976"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "centros"
+            ]
+        },
+        {
+            "id": "boe-1970-09-30-o",
+            "incluido": "2019-12-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-09-07",
+            "vigencia": "derogado",
+            "descripción": "Centros experimentales y experimentación en Centros ordinarios (LGE)",
+            "titulo": "Orden de 30 de septiembre de 1970 por la que se desarrollan las normas sobre Centros experimentales y autorización para la experimentación en Centros ordinarios del Decreto 2481/1970.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1970-10-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-09-30-O-centros-experimentales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-1144"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "centros"
             ]
         }
     ]

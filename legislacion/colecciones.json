@@ -141,6 +141,16 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Títulos",
+                                "referencias": [
+                                    "boe-2009-1850-rd",
+                                    "boe-2015-197-rd",
+                                    "boe-2017-562-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Ordenación FP",
                                 "referencias": [
                                     "boe-1998-777-rd",
@@ -349,14 +359,6 @@
                     "contenido": [
                         {
                             "apartado": {
-                                "titulo": "Leyes de Educación",
-                                "referencias": [
-                                    "boe-1995-9-lo"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
                                 "titulo": "Cualificaciones Profesionales de Informática",
                                 "referencias": [
                                     "boe-2007-900-rd"
@@ -409,6 +411,14 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Ley Orgánica de la participación, la evaluación y el gobierno de los centros docentes (LOPEG, 1995)",
+                                "referencias": [
+                                    "boe-1995-9-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Ley Orgánica de Ordenación General del Sistema Educativo (LOGSE, 1990)",
                                 "referencias": [
                                     "boe-1990-1-lo",
@@ -423,6 +433,43 @@
                                     "boe-2000-3474-rd",
                                     "boe-2001-937-rd",
                                     "boe-2001-938-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley General de Educación (LGE, 1970)",
+                                "referencias": [
+                                    "boe-1970-14-lo",
+                                    "boe-1970-2459-d",
+                                    "boe-1970-2481-d",
+                                    "boe-1970-2618-d",
+                                    "boe-1970-09-30-o",
+                                    "boe-1970-11-16-o",
+                                    "boe-1970-11-17-res",
+                                    "boe-1971-09-01-o",
+                                    "boe-1971-09-28-o",
+                                    "boe-1974-995-d",
+                                    "boe-1974-07-02-o",
+                                    "boe-1974-30-l",
+                                    "boe-1975-160-d",
+                                    "boe-1975-03-22-o",
+                                    "boe-1976-327-d",
+                                    "boe-1976-707-d",
+                                    "boe-1976-2214-rd",
+                                    "boe-1977-3193-rd",
+                                    "boe-1978-02-15-o",
+                                    "boe-1980-5-lo",
+                                    "boe-1985-04-19-o",
+                                    "boe-1988-05-27-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Instituto de Informática (1969)",
+                                "referencias": [
+                                    "boe-1969-554-d"
                                 ]
                             }
                         },
