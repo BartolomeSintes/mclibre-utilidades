@@ -1290,7 +1290,7 @@
             ]
         },
         {
-            "id": "boe-2202-34-l",
+            "id": "boe-2002-34-l",
             "incluido": "2019-11-29",
             "modificado": "",
             "ámbito": "España",
@@ -1526,7 +1526,7 @@
             "origen": "DOGV",
             "fecha": "2018-04-30",
             "vigencia": "vigente",
-            "descripción": "Currículo de ESO y Bachillerato",
+            "descripción": "Currículo de ESO y Bachillerato (CV)",
             "titulo": "Decreto 51/2018, de 27 de abril, del Consell, por el que se modifica el Decreto 87/2015, por el que establece el currículo y desarrolla la ordenación general de la educación secundaria obligatoria y del bachillerato en la Comunitat Valenciana.",
             "versiones": [
                 {
@@ -6274,7 +6274,7 @@
             "fecha": "2012-07-25",
             "vigencia": "vigente",
             "descripción": "Ordenación Formación Profesional (CV)",
-            "titulo": "Orden 46/2012, de 12 de julio, de la Conselleria de Educación, Formación y Empleo, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional del sistema educativo en la Comunitat Valenciana. ",
+            "titulo": "Orden 46/2012, de 12 de julio, de la Conselleria de Educación, Formación y Empleo, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional del sistema educativo en la Comunitat Valenciana.",
             "versiones": [
                 {
                     "versión": "original",
@@ -8887,6 +8887,872 @@
                 "orden",
                 "educación",
                 "centros"
+            ]
+        },
+        {
+            "id": "docv-2014-185-d",
+            "incluido": "2019-11-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2014-11-04",
+            "vigencia": "vigente",
+            "descripción": "Currículos FP Básica Informática y comunicaciones, Informática de oficina (CV)",
+            "titulo": "Decreto 185/2014, de 31 de octubre, del Consell, por el que se establecen veinte currículos correspondientes a los ciclos formativos de Formación Profesional Básica en el ámbito de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-11-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-185-D-curriculos-fp-basica-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-185-D-curriculos-fp-basica-informatica-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-185-D-curriculos-fp-basica-informatica-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2017-04-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-185-D-curriculos-fp-basica-informatica-consolidado-2017-04-04.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/con/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/con/vci"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "formación profesional",
+                "fp básica",
+                "currículo"
+            ]
+        },
+        {
+            "id": "docv-2007-112-d",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2007-07-24",
+            "vigencia": "derogado",
+            "descripción": "Currículo de ESO (CV)",
+            "titulo": "Decreto 112/2007, de 20 de julio, del Consell, por el que se establece el currículo de la Educación Secundaria Obligatoria en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-07-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-112-D-curriculo-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/07/20/112/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/07/20/112/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-112-D-curriculo-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-112-D-curriculo-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "currículo",
+                "secundaria",
+                "ESO"
+            ]
+        },
+        {
+            "id": "docv-2008-102-d",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-07-15",
+            "vigencia": "derogado",
+            "descripción": "Currículo de Bachillerato (CV)",
+            "titulo": "Decreto 102/2008, de 11 de julio, del Consell, por el que se establece el currículo del Bachillerato en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-07-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-102-D-curriculo-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2008/07/11/102/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2008/07/11/102/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-102-D-curriculo-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-102-D-curriculo-bachillerato-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2015-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-102-D-curriculo-bachillerato-consolidado-2015-06-10.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2008/07/11/102/con/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2008/07/11/102/con/vci"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "currículo",
+                "secundaria",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2012-115-d",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-07-16",
+            "vigencia": "derogado",
+            "descripción": "Currículo de Bachillerato (CV)",
+            "titulo": "Decreto 115/2012, de 13 de julio, del Consell, de modificación del Decreto 102/2008, de 11 de julio, por el que se establece el currículo del Bachillerato en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-07-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-115-D-curriculo-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2012/07/13/115/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2012/07/13/115/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-115-D-curriculo-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-115-D-curriculo-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "currículo",
+                "secundaria",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-1995-05-10-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "1995-06-19",
+            "vigencia": "derogado",
+            "descripción": "Currículo de optativas de Bachillerato (CV)",
+            "titulo": "Orden de 10 de mayo de 1995, de la Conselleria de Educación y Ciencia por la que se establecen las materias optativas de Bachillerato y se regula su currículo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-06-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-05-10-O-curriculo-optativas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1995/05/10/(4)/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1995/05/10/(4)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-05-10-O-curriculo-optativas-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1995-05-10-O-curriculo-optativas-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "currículo",
+                "secundaria",
+                "bachillerato",
+                "optativas"
+            ]
+        },
+        {
+            "id": "docv-2009-06-17-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2009-07-07",
+            "vigencia": "vigente",
+            "descripción": "Currículo de optativas de Bachillerato (CV)",
+            "titulo": "Orden de 17 de junio de 2009, de la Conselleria de Educación, por la que regula las materias optativas en el Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-07-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-06-17-O-curriculo-optativas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/06/17/(3)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/06/17/(3)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-06-17-O-curriculo-optativas-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-06-17-O-curriculo-optativas-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "currículo",
+                "secundaria",
+                "bachillerato",
+                "optativas"
+            ]
+        },
+        {
+            "id": "docv-2010-80-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2010-09-21",
+            "vigencia": "vigente",
+            "descripción": "Atribucion de optativas de Bachillerato a departamentos didácticos (CV)",
+            "titulo": "Orden 80/2010, de 14 de septiembre, de la Conselleria de Educación, por la que se modifica parcialmente la Orden de 17 de junio de 2009, de la Conselleria de Educación, por la que regula las materias optativas en el Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-09-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-80-O-atribucion-optativas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/09/14/80/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/09/14/80/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-80-O-atribucion-optativas-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-80-O-atribucion-optativas-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "secundaria",
+                "bachillerato",
+                "optativas",
+                "atribuciones"
+            ]
+        },
+        {
+            "id": "docv-2011-18-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2011-04-14",
+            "vigencia": "vigente",
+            "descripción": "Distribución de optativas de Bachillerato (CV)",
+            "titulo": "Orden 18/2011, de 1 de abril, de la Conselleria de Educación, por la que se modifica parcialmente la Orden de 17 de junio de 2009, de la Conselleria de Educación, por la que regula las materias optativas en el Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-04-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-18-O-distribucion-optativas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/04/01/18/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/04/01/18/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-18-O-distribucion-optativas-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-18-O-distribucion-optativas-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "secundaria",
+                "bachillerato",
+                "optativas"
+            ]
+        },
+        {
+            "id": "docv-2008-05-27-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-06-12",
+            "vigencia": "vigente",
+            "descripción": "Currículo de optativas de ESO (CV)",
+            "titulo": "Orden de 27 de mayo de 2008, de la Conselleria de Educación, por la que se regulan las materias optativas en la educación secundaria obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-06-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-05-27-O-curriculo-optativas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2008/05/27/(2)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2008/05/27/(2)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-05-27-O-curriculo-optativas-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-05-27-O-curriculo-optativas-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "secundaria",
+                "ESO",
+                "optativas",
+                "currículo"
+            ]
+        },
+        {
+            "id": "docv-2010-64-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2010-06-29",
+            "vigencia": "vigente",
+            "descripción": "Currículo de optativas de ESO (CV)",
+            "titulo": "Orden 64/2010, de 16 de junio, de la Conselleria de Educación, por la que se modifica parcialmente la Orden de 27 de mayo de 2008, de la Conselleria de Educación, por la que se regulan las materias optativas en la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-06-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-64-O-curriculo-optativas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/06/16/64/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2010/06/16/64/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-64-O-curriculo-optativas-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-64-O-curriculo-optativas-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "secundaria",
+                "ESO",
+                "optativas",
+                "currículo"
+            ]
+        },
+        {
+            "id": "docv-1995-05-09-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "1995-07-05",
+            "vigencia": "derogado",
+            "descripción": "Currículo de optativas de ESO (CV)",
+            "titulo": "Orden de 9 de mayo de 1995, de la Conselleria de Educación y Ciencia, por la que se regulan las materias optativas en la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-07-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-05-09-O-curriculo-optativas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1995/05/09/(2)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1995/05/09/(2)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-05-09-O-curriculo-optativas-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1995-05-09-O-curriculo-optativas-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "secundaria",
+                "ESO",
+                "optativas",
+                "currículo"
+            ]
+        },
+        {
+            "id": "dogv-2000-06-29-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2000-07-10",
+            "vigencia": "derogado",
+            "descripción": "Currículo de optativas de ESO (CV)",
+            "titulo": "Orden de 29 de junio de 2000, de la Conselleria de Cultura y Educación, por la que se modifica parcialmente la Orden de 9 de mayo de 1995, de la Conselleria de Educación y Ciencia, por la cual se regulan las materias optativas en la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-07-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-06-29-O-curriculo-optativas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2000/06/29/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2000/06/29/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-06-29-O-curriculo-optativas-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2000-06-29-O-curriculo-optativas-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "secundaria",
+                "ESO",
+                "optativas",
+                "currículo"
+            ]
+        },
+        {
+            "id": "dogv-2004-05-31-o",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2004-06-23",
+            "vigencia": "derogado",
+            "descripción": "Currículo de optativas de ESO (CV)",
+            "titulo": "Orden de 31 de mayo de 2004, de la Conselleria de Cultura, Educación y Deporte, que amplía la Orden de 9 de mayo de 1995, de la Conselleria de Educación y Ciencia, por la que se regulan las materias optativas en la Educación secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-06-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-05-31-O-curriculo-optativas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2004/05/31/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2004/05/31/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-05-31-O-curriculo-optativas-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2004-05-31-O-curriculo-optativas-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "secundaria",
+                "ESO",
+                "optativas",
+                "currículo"
+            ]
+        },
+        {
+            "id": "docv-1992-47-d",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "1992-04-06",
+            "vigencia": "derogado",
+            "descripción": "Currículo de ESO (CV)",
+            "titulo": "Decreto 47/1992, de 30 de marzo, del Gobierno Valenciano, por el que establece el currículo de la Educación Secundaria Obligatoria en la Comunidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-04-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1992-47-D-curriculo-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1992/03/30/47/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/07/20/112/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1992-47-D-curriculo-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1992-47-D-curriculo-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "currículo",
+                "secundaria",
+                "ESO"
+            ]
+        },
+        {
+            "id": "boe-2007-56-l",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-12-29",
+            "vigencia": "vigente",
+            "descripción": "Medidas de Impulso de la Sociedad de la Información",
+            "titulo": "Ley 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-12-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-56-L-sociedad-informacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2007/12/28/56"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2014-05-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-56-L-sociedad-informacion-consolidado-2013-12-28.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2007/12/28/56/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "sociedad de la información",
+                "comercio electrónico"
+            ]
+        },
+        {
+            "id": "boe-2007-37-l",
+            "incluido": "2019-12-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-11-17",
+            "vigencia": "vigente",
+            "descripción": "Medidas de Impulso de la Sociedad de la Información",
+            "titulo": "Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-12-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-37-L-reutilizacion-informacion-sector-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2007/11/16/37"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2017-11-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-37-L-reutilizacion-informacion-sector-publico-consolidado-2017-11-09.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2007/11/16/37/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "sector público",
+                "reutilización información"
             ]
         }
     ]
