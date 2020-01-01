@@ -84,6 +84,18 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Marco Español de Cualificaciones para la Educación Superior",
+                                "referencias": [
+                                    "boe-2011-1027-rd",
+                                    "boe-2014-96-rd",
+                                    "boe-2014-967-rd",
+                                    "boe-2015-22-rd",
+                                    "boe-2015-05-04-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Cualificaciones Profesionales de Informática",
                                 "referencias": [
                                     "boe-2002-5-lo",
@@ -341,6 +353,7 @@
                                 "titulo": "Otras",
                                 "referencias": [
                                     "dogv-2000-07-26-res",
+                                    "docv-2009-06-04-o",
                                     "docv-2010-80-o",
                                     "docv-2011-18-o",
                                     "docv-2011-32-o",
@@ -365,7 +378,7 @@
                     "contenido": [
                         {
                             "apartado": {
-                                "titulo": "Cualificaciones Profesionales de Informática",
+                                "titulo": "Marco Español de Cualificaciones para la Educación Superior",
                                 "referencias": [
                                     "boe-2007-900-rd"
                                 ]
@@ -485,6 +498,7 @@
                                 "referencias": [
                                     "celex-1985-368-dec",
                                     "celex-1989-48-d",
+                                    "boe-1991-1701-rd",
                                     "celex-1992-51-d",
                                     "celex-2008-04-23-rec",
                                     "boe-1994-07-07-o",

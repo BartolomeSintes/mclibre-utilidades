@@ -4166,7 +4166,7 @@
             "origen": "DOCE",
             "fecha": "2005-09-30",
             "vigencia": "vigente",
-            "descripción": "Reconocimiento de cualificaciones profesionales",
+            "descripción": "Reconocimiento de cualificaciones profesionales (profesiones reguladas)",
             "titulo": "Directiva 2005/36/CE del Parlamento Europeo y del Consejo, de 7 de septiembre de 2005, relativa al reconocimiento de cualificaciones profesionales",
             "versiones": [
                 {
@@ -6724,7 +6724,7 @@
             "fecha": "2014-06-07",
             "vigencia": "vigente",
             "descripción": "Admisión a las enseñanzas universitarias de Grado",
-            "titulo": "Real Decreto 412/2014, de 6 de junio, por el que se establece la normativa básica de los procedimientos de aacceso a universidad",
+            "titulo": "Real Decreto 412/2014, de 6 de junio, por el que se establece la normativa básica de los procedimientos de acceso a universidad",
             "versiones": [
                 {
                     "versión": "original",
@@ -8578,7 +8578,7 @@
             "fecha": "1988-05-22",
             "vigencia": "derogado",
             "descripción": "EATP en Bachillerato (LGE)",
-            "titulo": "Resolución de 27 de mayo de 1988, de la Secretaría General de Educación, por la que se desarrollan las Ordenes de 22 de marzo de 1975, de 19 de abril de 1985 y 19 de mayo de 1988, en lo relativo a las Enseñanzas y Actividades Técnico-Profesionales.",
+            "titulo": "Resolución de 27 de mayo de 1988, de la Secretaría General de Educación, por la que se desarrollan las Órdenes de 22 de marzo de 1975, de 19 de abril de 1985 y 19 de mayo de 1988, en lo relativo a las Enseñanzas y Actividades Técnico-Profesionales.",
             "versiones": [
                 {
                     "versión": "original",
@@ -8755,7 +8755,7 @@
             "fecha": "1977-12-17",
             "vigencia": "derogado",
             "descripción": "Estudios de Informática FP (LGE)",
-            "titulo": "Real Decreto 3193/1977, de 28 de octubres, por el que se determina que las enseñanzas de informática de Formación Profesional de segundo grado sean impartidas por régimen de enseñanzas especializadas.",
+            "titulo": "Real Decreto 3193/1977, de 28 de octubre, por el que se determina que las enseñanzas de informática de Formación Profesional de segundo grado sean impartidas por régimen de enseñanzas especializadas.",
             "versiones": [
                 {
                     "versión": "original",
@@ -9247,7 +9247,7 @@
             "origen": "DOCV",
             "fecha": "2010-09-21",
             "vigencia": "vigente",
-            "descripción": "Atribucion de optativas de Bachillerato a departamentos didácticos (CV)",
+            "descripción": "Atribución de optativas de Bachillerato a departamentos didácticos (CV)",
             "titulo": "Orden 80/2010, de 14 de septiembre, de la Conselleria de Educación, por la que se modifica parcialmente la Orden de 17 de junio de 2009, de la Conselleria de Educación, por la que regula las materias optativas en el Bachillerato.",
             "versiones": [
                 {
@@ -9753,6 +9753,299 @@
                 "ley",
                 "sector público",
                 "reutilización información"
+            ]
+        },
+        {
+            "id": "boe-1991-1701-rd",
+            "incluido": "2020-01-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1991-12-02",
+            "vigencia": "derogado",
+            "descripción": "Especialidades de Secundaria",
+            "titulo": "Real Decreto 1701/1991, de 29 de noviembre, por el que se establecen especialidades del Cuerpo de Profesores de Enseñanza Secundaria, se adscriben a ellas los Profesores correspondientes de dicho Cuerpo y se determinan las áreas y materias que deberá impartir el profesorado respectivo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1991-12-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-1701-especialidades-secundaria.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1991/11/29/1701"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "profesorado",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "especialidades docentes"
+            ]
+        },
+        {
+            "id": "boe-2011-1027-rd",
+            "incluido": "2020-01-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-08-03",
+            "vigencia": "vigente",
+            "descripción": "Marco Español de Cualificaciones para la Educación Superior",
+            "titulo": "Real Decreto 1027/2011, de 15 de julio, por el que se establece el Marco Español de Cualificaciones para la Educación Superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-08-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-1027-meces.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/07/15/1027"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2015-02-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-1027-meces-consolidado-2015-02-07.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/07/15/1027/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones",
+                "MECES"
+            ]
+        },
+        {
+            "id": "boe-2014-96-rd",
+            "incluido": "2020-01-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-03-05",
+            "vigencia": "vigente",
+            "descripción": "Marco Español de Cualificaciones para la Educación Superior",
+            "titulo": "Real Decreto 96/2014, de 14 de febrero, por el que se modifican los Reales Decretos 1027/2011, de 15 de julio, por el que se establece el Marco Español de Cualificaciones para la Educación Superior (MECES), y 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-03-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-96-meces.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/02/14/96"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones",
+                "MECES"
+            ]
+        },
+        {
+            "id": "boe-2015-05-04-res",
+            "incluido": "2020-01-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-05-11",
+            "vigencia": "vigente",
+            "descripción": "Correspondencia MECES Título Ingeniero en Informática",
+            "titulo": "Resolución de 4 de mayo de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 24 de abril de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero en Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-05-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-05-04-meces-titulo-ingeniero-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2015/05/04/(3)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones",
+                "MECES"
+            ]
+        },
+        {
+            "id": "boe-2014-967-rd",
+            "incluido": "2020-01-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-11-22",
+            "vigencia": "vigente",
+            "descripción": "Correspondencia MECES Títulos universitarios",
+            "titulo": "Real Decreto 967/2014, de 21 de noviembre, por el que se establecen los requisitos y el procedimiento para la homologación y declaración de equivalencia a titulación y a nivel académico universitario oficial y para la convalidación de estudios extranjeros de educación superior, y el procedimiento para determinar la correspondencia a los niveles del marco español de cualificaciones para la educación superior de los títulos oficiales de Arquitecto, Ingeniero, Licenciado, Arquitecto Técnico, Ingeniero Técnico y Diplomado.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-11-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-967-meces-correspondencia-titulos-universitarios.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/11/21/967"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones",
+                "MECES"
+            ]
+        },
+        {
+            "id": "boe-2015-22-rd",
+            "incluido": "2020-01-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-02-07",
+            "vigencia": "vigente",
+            "descripción": "Correspondencia MECES Títulos universitarios",
+            "titulo": "Real Decreto 22/2015, de 23 de enero, por el que se establecen los requisitos de expedición del Suplemento Europeo a los títulos regulados en el Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales y se modifica el Real Decreto 1027/2011, de 15 de julio, por el que se establece el Marco Español de Cualificaciones para la Educación Superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-02-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-22-meces.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2015/01/23/22"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones",
+                "MECES"
+            ]
+        },
+        {
+            "id": "docv-2009-06-04-o",
+            "incluido": "2020-01-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2009-07-15",
+            "vigencia": "vigente",
+            "descripción": "Creación del Departamento de Informática en Institutos de Secundaria (CV)",
+            "titulo": "Orden de 4 de junio de 2009, de la Conselleria de Educación, por la que se crea el departamento didáctico de informática en todos los institutos de Educación Secundaria de la Comunitat Valenciana de titularidad de la Generalitat.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-07-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-06-04-O-departamento-informatica-ies.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/06/04/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/06/04/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-06-04-O-departamento-informatica-ies-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-06-04-O-departamento-informatica-ies-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "departamento de informática"
             ]
         }
     ]
