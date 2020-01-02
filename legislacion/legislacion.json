@@ -6223,7 +6223,7 @@
             "fecha": "2010-09-03",
             "vigencia": "vigente",
             "descripción": "Regulación módulo FCT (CV)",
-            "titulo": "Orden 77/2010 de 27 de agosto, de la Conselleria de Educación, por la que se regula el módulo profesional de Formación en Centros de Trabajo",
+            "titulo": "77/2010 de 27 de agosto, de la Conselleria de Educación, por la que se regula el módulo profesional de Formación en Centros de Trabajo (FCT) de los ciclos formativos de Formación Profesional, de las Enseñanzas de Artes Plásticas y Diseño y de los Programas de Cualificación Profesional Inicial en el ámbito territorial de la Comunitat Valenciana",
             "versiones": [
                 {
                     "versión": "original",
@@ -10046,6 +10046,343 @@
                 "ESO",
                 "bachillerato",
                 "departamento de informática"
+            ]
+        },
+        {
+            "id": "boe-2003-1125-rd",
+            "incluido": "2020-01-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-09-18",
+            "vigencia": "vigente",
+            "descripción": "Sistema de créditos",
+            "titulo": "Real Decreto 1125/2003, de 5 de septiembre, por el que se establece el sistema europeo de créditos y el sistema de calificaciones en las titulaciones universitarias de carácter oficial y validez en todo el territorio nacional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-09-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-1125-sistema-creditos-universidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/09/05/1125/"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "universidad",
+                "créditos"
+            ]
+        },
+        {
+            "id": "boe-2007-08-03-res",
+            "incluido": "2020-01-02",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2007-08-23",
+            "vigencia": "vigente",
+            "descripción": "Optativas en ESO",
+            "titulo": "Resolución de 3 de agosto de 2007, de la Secretaría General de Educación, por la que se organiza la oferta de materias optativas en la educación secundaria obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-08-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-08-03-optativas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2007/08/03/(2)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "ministerio de educación",
+                "educación",
+                "secundaria",
+                "ESO",
+                "optativas"
+            ]
+        },
+        {
+            "id": "boe-2007-2572-res",
+            "incluido": "2020-01-02",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2007-09-06",
+            "vigencia": "vigente",
+            "descripción": "Optativas en ESO",
+            "titulo": "Orden ECI/2572/2007, de 4 de septiembre, sobre evaluación en Educación secundaria obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-09-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-2572-evaluacion-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2007/09/04/eci2572"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2015-09-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-2572-evaluacion-eso-consolidado-2015-09-07.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2007/09/04/eci2572/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "ministerio de educación",
+                "educación",
+                "secundaria",
+                "ESO",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-2011-1146-rd",
+            "incluido": "2020-01-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-07-30",
+            "vigencia": "vigente",
+            "descripción": "Enseñanzas mínimas ESO (LOE)",
+            "titulo": "Real Decreto 1146/2011, de 29 de julio, por el que se modifica el Real Decreto 1631/2006, de 29 de diciembre, por el que se establecen las enseñanzas mínimas correspondientes a la Educación Secundaria Obligatoria, así como los Reales Decretos 1834/2008, de 8 de noviembre, y 860/2010, de 2 de julio, afectados por estas modificaciones.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-1146-RD-ensenanzas-minimas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/07/29/1146"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2007-11-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-1146-RD-ensenanzas-minimas-eso-consolidado-2014-07-30.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/07/29/1146/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ESO",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2011-2-l",
+            "incluido": "2020-01-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-03-05",
+            "vigencia": "vigente",
+            "descripción": "Ley de Economía Sostenible",
+            "titulo": "Ley 2/2011, de 4 de marzo, de Economía Sostenible.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-03-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-2-L-economia-sostenible.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2011/03/04/2"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-03-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-2-L-economia-sostenible-consolidado-2018-03-07.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2011/03/04/2/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "educación",
+                "ley",
+                "primaria",
+                "secundaria",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "dogv-2006-03-20-o",
+            "incluido": "2020-01-02",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2006-04-26",
+            "vigencia": "derogado",
+            "descripción": "Imnplantación Formación Profesional semipresencial (CV)",
+            "titulo": "Orden de 20 de marzo de 2006, de la Conselleria de Cultura, Educación y Deporte, por la que se regula la implantación y organización de la Formación Profesional Específica en la modalidad semipresencial o a distancia en la Comunidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-04-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2006-03-20-O-implantacion-fp-semipresencial.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2006/03/20/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2006/03/20/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2006-03-20-O-implantacion-fp-semipresencial-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2006-03-20-O-implantacion-fp-semipresencial-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "formación profesional semipresencial"
+            ]
+        },
+        {
+            "id": "docv-2008-07-04-o",
+            "incluido": "2020-01-02",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2008-07-31",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional semipresencial (CV)",
+            "titulo": "Orden de 4 de julio 2008, de la Conselleria de Educación, por la que se regula la organización de las enseñanzas de los ciclos formativos de Formación Profesional en la modalidad semipresencial o a distancia en centros públicos de la Comunitat Valenciana. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-04-07-O-fp-semipresencial.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2008/07/04/(1)/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2008/07/04/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-04-07-O-fp-semipresencial-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-04-07-O-fp-semipresencial-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "formación profesional semipresencial"
             ]
         }
     ]

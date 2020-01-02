@@ -77,6 +77,7 @@
                                     "boe-1985-8-lo",
                                     "boe-2006-2-lo",
                                     "boe-2006-806-rd",
+                                    "boe-2011-2-l",
                                     "boe-2011-4-lo",
                                     "boe-2013-8-lo"
                                 ]
@@ -138,6 +139,7 @@
                             "apartado": {
                                 "titulo": "Currículos de Secundaria y Bachillerato",
                                 "referencias": [
+                                    "boe-2011-1146-rd",
                                     "boe-2014-1105-rd"
                                 ]
                             }
@@ -211,6 +213,14 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Universidad",
+                                "referencias": [
+                                    "boe-2003-1125-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
                                     "boe-2008-944-o",
@@ -237,6 +247,15 @@
                                     "boe-2010-392-o",
                                     "boe-2010-2000-o",
                                     "boe-2010-2887-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Otros",
+                                "referencias": [
+                                    "boe-2007-08-03-res",
+                                    "boe-2007-2572-res"
                                 ]
                             }
                         }
@@ -307,6 +326,7 @@
                                 "titulo": "Formación Profesional",
                                 "referencias": [
                                     "docv-2008-06-27-o",
+                                    "docv-2008-07-04-o",
                                     "docv-2010-77-o",
                                     "docv-2010-78-o",
                                     "docv-2010-79-o",
@@ -537,6 +557,7 @@
                                     "dogv-1997-234-d",
                                     "dogv-2000-06-29-o",
                                     "dogv-2004-05-31-o",
+                                    "dogv-2006-03-20-o",
                                     "docv-2007-112-d",
                                     "docv-2008-102-d",
                                     "docv-2009-03-31-o",
