@@ -7854,14 +7854,14 @@
             "modificado": "",
             "ámbito": "España",
             "origen": "BOE",
-            "fecha": "1991-09-07",
+            "fecha": "2001-09-07",
             "vigencia": "derogado",
             "descripción": "Currículo ESO (LOGSE)",
             "titulo": "Real Decreto 937/2001, de 3 de agosto, por el que se modifica el Real Decreto 1345/1991, de 6 de septiembre, modificado por el Real Decreto 1390/1995, de 4 de agosto, por el que se establece el currículo de la Educación Secundaria Obligatoria.",
             "versiones": [
                 {
                     "versión": "original",
-                    "fecha": "1991-09-13",
+                    "fecha": "2001-09-13",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -10291,7 +10291,7 @@
             "origen": "DOGV",
             "fecha": "2006-04-26",
             "vigencia": "derogado",
-            "descripción": "Imnplantación Formación Profesional semipresencial (CV)",
+            "descripción": "Implantación Formación Profesional semipresencial (CV)",
             "titulo": "Orden de 20 de marzo de 2006, de la Conselleria de Cultura, Educación y Deporte, por la que se regula la implantación y organización de la Formación Profesional Específica en la modalidad semipresencial o a distancia en la Comunidad Valenciana.",
             "versiones": [
                 {
@@ -10343,7 +10343,7 @@
             "fecha": "2008-07-31",
             "vigencia": "vigente",
             "descripción": "Formación Profesional semipresencial (CV)",
-            "titulo": "Orden de 4 de julio 2008, de la Conselleria de Educación, por la que se regula la organización de las enseñanzas de los ciclos formativos de Formación Profesional en la modalidad semipresencial o a distancia en centros públicos de la Comunitat Valenciana. ",
+            "titulo": "Orden de 4 de julio de 2008, de la Conselleria de Educación, por la que se regula la organización de las enseñanzas de los ciclos formativos de Formación Profesional en la modalidad semipresencial o a distancia en centros públicos de la Comunitat Valenciana. ",
             "versiones": [
                 {
                     "versión": "original",
@@ -10383,6 +10383,1067 @@
                 "educación",
                 "formación profesional",
                 "formación profesional semipresencial"
+            ]
+        },
+        {
+            "id": "dogv-2004-09-07-o",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2004-10-08",
+            "vigencia": "derogado",
+            "descripción": "Formación Profesional a distancia (CV)",
+            "titulo": "Orden de 7 de septiembre de 2004, de la Conselleria de Cultura, Educación y Deporte, por la que se establece la implantación y organización de la formación profesional específica en la modalidad a distancia en la Comunidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-10-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-09-07-O-fp-a-distancia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2004/09/07/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2004/09/07/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-09-07-O-fp-a-distancia-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2004-09-07-O-fp-a-distancia-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "formación profesional a distancia"
+            ]
+        },
+        {
+            "id": "dogv-2001-105-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-06-15",
+            "vigencia": "derogado",
+            "descripción": "Instituto Valenciano para el Desarrollo de la Educación a Distancia (CV)",
+            "titulo": "Decreto 105/2001, de 12 de junio, del Gobierno Valenciano, por el que se crea el Instituto Valenciano para el Desarrollo de la Educación a Distancia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-06-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-105-D-instituto-valenciano-educacion-distancia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2001/06/12/105/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2001/06/12/105/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-105-D-instituto-valenciano-educacion-distancia-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-105-D-instituto-valenciano-educacion-distancia-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "formación profesional a distancia"
+            ]
+        },
+        {
+            "id": "dogv-2002-09-12-o",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2002-09-20",
+            "vigencia": "derogado",
+            "descripción": "Instituto Valenciano para el Desarrollo de la Educación a Distancia (CV)",
+            "titulo": "Orden de 12 de septiembre de 2002, de la Conselleria de Cultura y Educación, por la que se establece la organización y el funcionamiento del Instituto Valenciano para el Desarrollo de la Educación a Distancia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-09-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-09-12-O-instituto-valenciano-educacion-distancia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2002/09/12/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2002/09/12/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-09-12-O-instituto-valenciano-educacion-distancia-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-09-12-O-instituto-valenciano-educacion-distancia-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "formación profesional a distancia"
+            ]
+        },
+        {
+            "id": "docv-2011-98-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2011-08-30",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 98/2011, de 26 de agosto, del Consell, por el que se aprueba el Reglamento Orgánico y Funcional de la Conselleria de Educación, Formación y Empleo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-08-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-98-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2011/08/26/98/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2011/08/26/98/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-98-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-98-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "docv-2012-103-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2012-06-25",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 103/2012, de 22 de junio, del Consell, por el que se modifica el Decreto 98/2011, de 26 de agosto, del Consell, por el que se aprobó el Reglamento Orgánico y Funcional de la Conselleria de Educación, Formación y Empleo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-06-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-103-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2012/06/22/103/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2012/06/22/103/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-103-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-103-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "docv-2007-118-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2007-07-30",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 118/2007, de 27 de julio, del Consell, por el que se aprueba el Reglamento Orgánico y Funcional de la Conselleria de Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-118-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/07/27/118/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/07/27/118/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-118-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-118-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-1993-114-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1993-08-02",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 114/1993, de 26 de julio, del Gobierno Valenciano, por el que se establece el Reglamento Orgánico y Funcional de la Conselleria de Educación y Ciencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1993-08-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1993-114-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1993/07/26/114/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1993/07/26/114/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1993-114-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1993-114-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-2017-186-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-12-18",
+            "vigencia": "vigente",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 186/2017, de 24 de noviembre, del Consell, por el que aprueba el Reglamento orgánico y funcional de la Conselleria de Educación, Investigación, Cultura y Deporte.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-12-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-186-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/11/24/186/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/11/24/186/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-186-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-186-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "docv-2015-155-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2015-09-22",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 155/2015, de 18 de septiembre, del Consell, por el que aprueba el Reglamento orgánico y funcional de la Consellería de Educación, Investigación, Cultura y Deporte.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-09-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-155-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/09/18/155/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/09/18/155/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-155-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-155-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2017-12-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-155-D-rof-conselleria-educacion-consolidado-2017-12-18.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/09/18/155/con/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/09/18/155/con/vci"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "docv-2016-173-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2016-06-16",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 173/2016, de 10 de junio, del Consell, por el que se modifica el Decreto 155/2015, de 18 de septiembre, del Consell, por el que aprueba el Reglamento orgánico y funcional de la Conselleria de Educación, Investigación, Cultura y Deporte.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-06-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-173-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2016/06/10/73/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2016/06/10/73/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-173-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-173-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "docv-2014-140-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2014-09-08",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 140/2014, de 5 de septiembre, del Consell, por el que aprueba el Reglamento Orgánico y Funcional de la Consellería de Educación, Cultura y Deporte.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-09-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-140-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2014/09/05/140/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2014/09/05/140/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-140-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-140-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "docv-2012-190-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2012-12-24",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 190/2012, de 21 de diciembre, del Consell, por el que aprueba el Reglamento Orgánico y Funcional de la Conselleria de Educación, Cultura y Deportes.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-12-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-190-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2012/12/21/190/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2012/12/21/190/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-190-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-190-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-1995-261-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1995-08-30",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 261/1995, de 29 de agosto, del Gobierno valenciano, por el que se establece el Reglamento Orgánico y Funcional de la Conselleria de Cultura, Educación y Ciencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-08-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-261-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1995/08/29/261/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1995/08/29/261/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-261-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1995-261-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-1992-115-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1992-07-24",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 115/1992, de 20 de julio, del Gobierno Valenciano, por el que se establece el Reglamento Orgánico y Funcional de la Conselleria de Cultura, Educación y Ciencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-07-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1992-115-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1992/07/20/115/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1992/07/20/115/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1992-115-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1992-115-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-1997-32-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1997-03-01",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 32/1997, de 26 de febrero, del Gobierno Valenciano, por el que se establece el Reglamento Orgánico y Funcional de la Conselleria de Cultura, Educación y Ciencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-03-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-32-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/02/26/32/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/02/26/32/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-32-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1997-32-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-2003-115-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2003-03-15",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 115/2003, de 11 de julio, del Consell de la Generalitat, por el que se aprueba el Reglamento Orgánico y Funcional de la Conselleria de Cultura, Educación y Deporte.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-03-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-115-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2003/07/11/115/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2003/07/11/115/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-115-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2003-115-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-2000-111-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2000-07-21",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 111/2000, de 18 de julio, del Gobierno Valenciano, por el que se aprueba el Reglamento Orgánico y Funcional de la Conselleria de Cultura y Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-07-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-111-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2003/07/11/115/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2000/07/18/111/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-111-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2000-111-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-1999-86-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1999-08-02",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 86/1999, de 30 de julio, del Gobierno Valenciano, por el que se aprueba el Reglamento Orgánico y Funcional de la Conselleria de Cultura, Educación y Ciencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-08-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1999-86-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1999/08/02/86/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1999/08/02/86/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1999-86-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1999-86-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-1987-95-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1987-08-27",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 95/1987, de 17 de agosto, del Consell de la Generalitat Valenciana, por el que se aprueba el Reglamento Orgánico y Funcional de la Conselleria de Cultura, Educación y Ciencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1987-08-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1987-95-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1987/08/17/95/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1987/08/17/95/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1987-95-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1987-95-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-1984-38-d",
+            "incluido": "2020-01-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1984-05-17",
+            "vigencia": "derogado",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 38/1984, de 2 de abril, del Consell de la Generalitat Valenciana, por el que se aprueba el Reglamento Orgánico y Funcional de la Conselleria de Cultura, Educación y Ciencia de la Generalidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1984-05-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1984-38-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1984/04/02/38/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1984/04/02/38/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1984-38-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1984-38-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "docv-1991-246-d",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "1992-01-03",
+            "vigencia": "vigente",
+            "descripción": "Convivencia en los centros (CV)",
+            "titulo": "Decreto 246/1991, de 23 de diciembre, del Consell de la Generalitat Valenciana, sobre derechos y deberes de los alumnos de los centros docentes de niveles no universitarios de la Comunidad Valenciana..",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-01-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-1991-246-D-derechos-deberes-alumnos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1991/12/23/246/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1991/12/23/246/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-1991-246-D-derechos-deberes-alumnos-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-1991-246-D-derechos-deberes-alumnos-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "convivencia"
             ]
         }
     ]
