@@ -2377,6 +2377,17 @@
       "creado": "2019-12-01"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 152,
+      "año": 2019,
+      "mes": 12,
+      "portada": "full-circle-152-en-201912.jpg",
+      "fichero": "full-circle-152-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2020-01-05"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -7085,6 +7096,17 @@
       "creado": "2019-12-01"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 11,
+      "año": 2020,
+      "mes": 1,
+      "portada": "solo-linux-11-es-201912.jpg",
+      "fichero": "solo-linux-11-es-201912.pdf",
+      "idioma": "español",
+      "creado": "2020-01-05"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -10064,6 +10086,28 @@
       "fichero": "pclinuxos-154-en-201911.pdf",
       "idioma": "inglés",
       "creado": "2019-11-10"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 155,
+      "año": 2019,
+      "mes": 12,
+      "portada": "pclinuxos-155-en-201912.jpg",
+      "fichero": "pclinuxos-155-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2019-12-08"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 156,
+      "año": 2020,
+      "mes": 1,
+      "portada": "pclinuxos-156-en-202001.jpg",
+      "fichero": "pclinuxos-156-en-202001.pdf",
+      "idioma": "inglés",
+      "creado": "2020-01-05"
     },
     {
       "serie": "The R Journal",
