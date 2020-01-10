@@ -6223,7 +6223,7 @@
             "fecha": "2010-09-03",
             "vigencia": "vigente",
             "descripción": "Regulación módulo FCT (CV)",
-            "titulo": "77/2010 de 27 de agosto, de la Conselleria de Educación, por la que se regula el módulo profesional de Formación en Centros de Trabajo (FCT) de los ciclos formativos de Formación Profesional, de las Enseñanzas de Artes Plásticas y Diseño y de los Programas de Cualificación Profesional Inicial en el ámbito territorial de la Comunitat Valenciana",
+            "titulo": "Orden 77/2010 de 27 de agosto, de la Conselleria de Educación, por la que se regula el módulo profesional de Formación en Centros de Trabajo (FCT) de los ciclos formativos de Formación Profesional, de las Enseñanzas de Artes Plásticas y Diseño y de los Programas de Cualificación Profesional Inicial en el ámbito territorial de la Comunitat Valenciana",
             "versiones": [
                 {
                     "versión": "original",
@@ -11401,7 +11401,7 @@
             "fecha": "1992-01-03",
             "vigencia": "vigente",
             "descripción": "Convivencia en los centros (CV)",
-            "titulo": "Decreto 246/1991, de 23 de diciembre, del Consell de la Generalitat Valenciana, sobre derechos y deberes de los alumnos de los centros docentes de niveles no universitarios de la Comunidad Valenciana..",
+            "titulo": "Decreto 246/1991, de 23 de diciembre, del Consell de la Generalitat Valenciana, sobre derechos y deberes de los alumnos de los centros docentes de niveles no universitarios de la Comunidad Valenciana.",
             "versiones": [
                 {
                     "versión": "original",
@@ -11444,6 +11444,542 @@
                 "bachillerato",
                 "formación profesional",
                 "convivencia"
+            ]
+        },
+        {
+            "id": "docv-2016-7-o",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2016-04-21",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Orden 7/2016, de 19 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-04-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-7-O-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2016/04/19/7/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2016/04/19/7/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-7-O-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-7-O-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-2017-9-d",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-02-06",
+            "vigencia": "derogado",
+            "descripción": "Modelo lingüístico valenciano (CV)",
+            "titulo": "Decreto 9/2017, de 27 de enero, del Consell, por el que se establece el modelo lingüístico educativo valenciano y se regula su aplicación en las enseñanzas no universitarias de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-02-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-9-D-modelo-linguistico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/01/27/9/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/01/27/9/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-9-D-modelo-linguistico-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-9-D-modelo-linguistico-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo"
+            ]
+        },
+        {
+            "id": "dogv-2017-219-d",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-12-30",
+            "vigencia": "derogado",
+            "descripción": "Modelo lingüístico valenciano (CV)",
+            "titulo": "Decreto 219/2017, de 29 de diciembre, del Consell, por el que se deroga el Decreto 9/2017, de 27 de enero, del Consell, por el que se establece el modelo lingüístico educativo valenciano y se regula su aplicación en las enseñanzas no universitarias de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-12-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-219-D-modelo-linguistico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/12/29/219/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/12/29/219/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-219-D-modelo-linguistico-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-219-D-modelo-linguistico-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo"
+            ]
+        },
+        {
+            "id": "dogv-2018-4-l",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-02-22",
+            "vigencia": "vigente",
+            "descripción": "Plurilingüismo (CV)",
+            "titulo": "Ley 4/2018, de 21 de febrero, de la Generalitat, por la que se regula y promueve el plurilingüismo en el sistema educativo valenciano.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-02-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-4-L-plurilinguismo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/l/2018/02/21/4/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/l/2018/02/21/4/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-4-L-plurilinguismo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-4-L-plurilinguismo-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "ley",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo"
+            ]
+        },
+        {
+            "id": "dogv-2017-3-dl",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-09-05",
+            "vigencia": "derogado",
+            "descripción": "Proyectos lingüísticos de centro 17/18 (CV)",
+            "titulo": "Decreto Ley 3/2017, de 1 de septiembre, del Consell, por el que se adoptan medidas urgentes para la aplicación, durante el curso 2017-2018, de los proyectos lingüísticos de centro",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-09-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-3-DL-proyectos-linguisiticos-centro-1718.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/dl/2017/09/01/3/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/dl/2017/09/01/3/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-3-DL-proyectos-linguisiticos-centro-1718-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-3-DL-proyectos-linguisiticos-centro-1718-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto-ley",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo"
+            ]
+        },
+        {
+            "id": "docv-2012-127-d",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2012-08-06",
+            "vigencia": "derogado",
+            "descripción": "Pluriligüismo (CV)",
+            "titulo": "Decreto 127/2012, de 3 de agosto, del Consell, por el que se regula el plurilingüismo en la enseñanza no universitaria en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-08-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2012-127-D-plurilinguismo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2012/08/03/127/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2012/08/03/127/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2012-127-D-plurilinguismo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2012-127-D-plurilinguismo-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo"
+            ]
+        },
+        {
+            "id": "docv-2009-05-19-o",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2009-06-12",
+            "vigencia": "derogado",
+            "descripción": "Programa experimental plurilingüe (CV)",
+            "titulo": "Orden de 19 de mayo de 2009, de la Conselleria de Educación, por la que se establece la organización, estructura y funcionamiento de un programa experimental plurilingüe en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-06-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-05-19-O-programa-experimental-plurilingue.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/05/19/(3)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/05/19/(3)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-05-19-O-programa-experimental-plurilingue-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-05-19-O-programa-experimental-plurilingue-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo"
+            ]
+        },
+        {
+            "id": "docv-2014-88-o",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2014-12-11",
+            "vigencia": "derogado",
+            "descripción": "Programa experimental plurilingüe (CV)",
+            "titulo": "Orden 88/2014, de 9 de diciembre, de la Consellería de Educación, Cultura y Deporte, por la que se desarrolla el procedimiento de autorización del proyecto lingüístico de centro establecido en el Decreto 127/2012, de 3 de agosto, del Consell, por el que se regula el plurilingüismo en la enseñanza no universitaria en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-12-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-88-O-autorizacion-proyecto-linguistico-centro.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2014/12/09/88/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2014/12/09/88/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-88-O-autorizacion-proyecto-linguistico-centro-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-88-O-autorizacion-proyecto-linguistico-centro-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo"
+            ]
+        },
+        {
+            "id": "docv-2011-19-o",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2011-04-15",
+            "vigencia": "derogado",
+            "descripción": "Programa experimental plurilingüe (CV)",
+            "titulo": "Orden 19/2011, de 5 de abril, de la Conselleria de Educación, por la que se establece la Red de Centros Docentes Plurilingües en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-04-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-19-O-red-centros-plurilingues.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/04/05/19/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/04/05/19/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-19-O-red-centros-plurilingues-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-19-O-red-centros-plurilingues-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo"
+            ]
+        },
+        {
+            "id": "dogv-2019-03-26-res",
+            "incluido": "2020-01-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2019-03-18",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Resolución de 26 de marzo de 2019, del director general de Centros y Personal Docente, por la que se establecen determinados procedimientos y se modifican los anexos de la Orden 7/2016, de 19 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-03-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-03-26-R-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2019/03/26/(2)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/2019/03/26/(2)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-03-26-R-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-03-26-R-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
             ]
         }
     ]
