@@ -11,8 +11,9 @@ ORIGEN_WEBAPPS = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\co
 ORIGEN_XML = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\xml"
 ORIGEN_PHP = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\php"
 ORIGEN_SEMANAS = "D:\\_Carpetas_frecuentes\\Documentos\\Clase\\19-20 Abastos\\19-20 Semanas\\1920"
+ORIGEN_LEGISLACION = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\legislacion"
 
-ORIGEN = ORIGEN_PHP
+ORIGEN = ORIGEN_HTML
 
 DICT_COD_PAISES = "dic_cod_paises.txt"
 DICT_COD_TK = "dic_cod_tk.txt"

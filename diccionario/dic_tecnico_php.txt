@@ -22,6 +22,7 @@ bindtextdomain
 checkdate 
 cntrl 
 const 
+cookie_lifetime 
 count 
 count_recursive 
 ctype 
@@ -119,10 +120,12 @@ insteadof
 is_array 
 is_bool 
 is_callable 
+is_countable 
 is_double 
 is_float 
 is_int 
 is_integer 
+is_iterable 
 is_long 
 is_null 
 is_numeric 
@@ -193,6 +196,7 @@ sendmail_from
 sendmail_ini 
 session_destroy 
 session_name 
+session_set_cookie_params 
 session_start 
 session_unset 
 set-cookie 

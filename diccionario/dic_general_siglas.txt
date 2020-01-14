@@ -50,6 +50,7 @@ cdr
 cdrom 
 CDs 
 CE 
+CEE 
 CEO 
 CERN 
 CFGS 
@@ -61,9 +62,11 @@ cpus
 CRLF 
 css3 
 CSV 
+CTE 
 CUR 
 CV 
 CVS 
+DAI 
 dam 
 DAW 
 DB 
@@ -80,6 +83,7 @@ dni
 DNS 
 DNT 
 DOCV 
+DOGV 
 DOM 
 DOM4 
 DPI 
@@ -91,12 +95,18 @@ DTDs
 DTP 
 DVDs 
 E4X 
+EATP 
+ECD 
+ECI 
 ECMA 
 ECMA-357 
 ECMAScript 
 EDSAC 
+EDU 
+EEE 
 EF 
 EFF 
+EFP 
 EIE 
 ELO 
 EMMA 
@@ -105,7 +115,9 @@ ENIAC
 EOL 
 EPS 
 eps 
+ESI 
 ESR 
+ESS 
 EUPV 
 EXI 
 FAQ 
@@ -116,6 +128,7 @@ FIFe
 FNMT 
 FOL 
 FP 
+FPA 
 fpi 
 FPS 
 FPWD 
@@ -189,7 +202,8 @@ iso
 ISO-8859-1 
 iso-8859-1 
 ISWC 
-JEPG 
+ITC 
+JAI 
 JF2 
 JFIF 
 JPEG 
@@ -207,8 +221,19 @@ lampp
 LC 
 LCWD 
 LF 
+LGE 
 LGPL 
 LHR 
+LOCE 
+LODE 
+LOE 
+LOGSE 
+LOMCE 
+LOPD 
+LOPEG 
+LORTAD 
+LPF 
+LPOD 
 LSP 
 LTS 
 LVM 
@@ -216,6 +241,8 @@ LZW
 MAC 
 md5 
 MDB2 
+MEC 
+MECES 
 MIME 
 MNG 
 MOOC 
@@ -235,6 +262,7 @@ NAT
 nat 
 NCSA 
 NIF 
+NNN 
 npm 
 NPTEL 
 NS 
@@ -260,6 +288,7 @@ P2P
 P3P 
 P3P1 
 PCDATA 
+PCI 
 PCIe 
 PCs 
 PDAs 
@@ -306,6 +335,7 @@ RFC
 RHEL 
 RIF 
 RL 
+ROF 
 ROM 
 RPC 
 rpc 
@@ -314,6 +344,7 @@ rsa
 rsa4096 
 rsa4096R 
 RSS 
+RTF 
 RTFM 
 Sass 
 SAWDL 
@@ -364,8 +395,10 @@ tcp
 TED 
 THF 
 TIFF 
+TJUE 
 Tk 
 TLS 
+TMS 
 tpl 
 TriG 
 TSV 
@@ -407,6 +440,7 @@ WebRTC
 WebVTT 
 WFD 
 WG 
+WHATG 
 WHATWG 
 WIPO 
 WP 

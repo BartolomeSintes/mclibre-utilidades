@@ -30,8 +30,10 @@ AgenDAV
 Aguirre 
 Akamai 
 Akaunting 
+Akhawe 
 Akkiraju 
 Alabama 
+Alabbas 
 Alan 
 Alarte 
 Alba 
@@ -54,6 +56,7 @@ Alfredo
 Algeciras 
 ALGOL 
 Algol 
+Ali 
 Alicante 
 Alicia 
 Alistair 
@@ -88,7 +91,9 @@ Ana
 Anders 
 Andersson 
 Andi 
+Andreas 
 Andreessen 
+Andrei 
 Andressen 
 Andrew 
 Android 
@@ -104,6 +109,7 @@ Anne
 Annunzio 
 Ansible 
 ansible 
+Anssi 
 Anteo 
 Anthony 
 Antoine 
@@ -152,6 +158,7 @@ Astérix
 Atanagildo 
 atanagildo 
 Atari 
+Atkins 
 Atkinson 
 Atlántico 
 ATP 
@@ -245,6 +252,7 @@ Beverloo
 Bezaire 
 BGMaker 
 BGPatterns 
+Bidasoa 
 Bierce 
 Bigelow 
 Bijan 
@@ -330,6 +338,7 @@ Burj
 Burke 
 Burkhardt 
 Burnett 
+Burns 
 Burroughs 
 Bush 
 Bushnell 
@@ -345,6 +354,7 @@ Bévère
 Bézier 
 Böhl 
 C-Cube 
+Cabanier 
 Cabin 
 Caesar 
 Cajal 
@@ -387,6 +397,7 @@ CERVANTES
 Cervantes 
 cervantesvirtual 
 Chacon 
+Chadwick 
 Chamberlin 
 Charles 
 Chee 
@@ -543,6 +554,7 @@ DeRose
 DesAutels 
 DesignScience 
 Detexify 
+Devdatta 
 DevEgde 
 Devout 
 Di 
@@ -619,6 +631,7 @@ edX
 EEUU 
 Egipto 
 Ehma 
+Ehrenberg 
 Ehrenstein 
 Eich 
 Eiffel 
@@ -656,6 +669,8 @@ Ertl
 Ervin 
 Eróstrato 
 Escocia 
+Esculapio 
+esculapio 
 Esteaua 
 Estocolmo 
 Estuardo 
@@ -716,6 +731,7 @@ ffmpeg
 Fibonacci 
 FIBONACCI 
 Fielding 
+Fiers 
 FIFA 
 Filadelfia 
 Filemón 
@@ -950,6 +966,7 @@ Holanda
 Holger 
 Holland 
 Holley 
+Hollier 
 Holly 
 Holstege 
 Homer 
@@ -1041,8 +1058,10 @@ iPad
 iPhone 
 iPod 
 IRA 
+Irina 
 Isaac 
 Isabel 
+Ishii 
 Ishikawa 
 Issuu 
 Istambul 
@@ -1062,6 +1081,7 @@ Jacob
 Jacobs 
 Jade 
 Jaimito 
+Jain 
 Jakob 
 Jamendo 
 James 
@@ -1071,6 +1091,7 @@ Jank
 Japón 
 Jaromil 
 Jaroslav 
+Jatinder 
 Java 
 java 
 JavaDoc 
@@ -1195,6 +1216,7 @@ Kliche
 Klyne 
 Knibbe 
 Knublauch 
+Koji 
 Koller 
 Konrad 
 Konstantin 
@@ -1203,6 +1225,7 @@ Kontokostas
 Koopmanschap 
 Koot 
 Kosek 
+Kostiainen 
 Kotlin 
 Kotok 
 Kraken 
@@ -1219,6 +1242,7 @@ Kundera
 Károly 
 Käbisch 
 l7ssha 
+Lachlan 
 Lafon 
 Lame 
 Laminas 
@@ -1233,6 +1257,7 @@ Lassila
 LaTeX 
 Laulhé 
 Lauren 
+Laurent 
 Laurie 
 Lausen 
 Lawrence 
@@ -1336,6 +1361,7 @@ Manchester
 mangleme 
 Manjaro 
 manjaro 
+Mann 
 Mannheim 
 Manola 
 Manolescu 
@@ -1400,6 +1426,7 @@ ME
 MediaWiki 
 mediawiki 
 Megaupload 
+Mehta 
 Mel 
 Melinda 
 Mellon 
@@ -1417,6 +1444,7 @@ Mersenne
 Messenger 
 Metcalfe 
 Metrópolis 
+Meur 
 Meyer 
 Micah 
 Micalet 
@@ -1445,6 +1473,7 @@ MIT
 Mitchell 
 Mitra 
 Mockapetris 
+Modula 
 Modula-2 
 Modula-3 
 Mohandas 
@@ -1519,6 +1548,7 @@ NextGen
 Nginx 
 Nguyen 
 Niccolò 
+Nicholas 
 Nick 
 Nicolás 
 Nielsen 
@@ -1526,6 +1556,8 @@ Nies
 Nieskens 
 Nigerio 
 Nikita 
+Niklaus 
+Nikunj 
 Nilo 
 Nishikado 
 NIST 
@@ -1553,6 +1585,7 @@ O'Neill
 O'Reilly 
 O'Toole 
 Oatmeal 
+Oberon 
 Objective 
 Obélix 
 Octocat 
@@ -1724,6 +1757,7 @@ Polleres
 Pollock 
 Polonia 
 Pong 
+Popescu 
 Porter 
 pos 
 PostCSS 
@@ -1837,8 +1871,10 @@ Richards
 Ridley 
 Ridruejo 
 Righteous 
+Rik 
 Ringmark 
 Rinzo 
+Rioja 
 Rip 
 Risk 
 Ritchie 
@@ -1868,6 +1904,7 @@ Romeo
 Roncesvalles 
 Roo 
 Ross 
+Rossberg 
 Rossi 
 Rossini 
 Rossum 
@@ -1882,6 +1919,7 @@ Rusty
 Ruth 
 Ruy 
 Ryan 
+Ródano 
 Sabata 
 Safari 
 Sai 
@@ -1907,7 +1945,9 @@ Sarven
 Sattler 
 Satya 
 Saudí 
+Scheib 
 Scheme 
+Schepers 
 Scheppe 
 Scheuhammer 
 Schiller 
@@ -2243,6 +2283,7 @@ Warner
 Washington 
 Watchmen 
 Waterloo 
+Watson 
 Watt 
 Wavatar 
 WEB2DAY 
@@ -2291,6 +2332,7 @@ Wikipeda
 Wikipedia 
 wikipedia 
 WikiWikiWeb 
+Wilco 
 Wilde 
 Wilder 
 Wilkes 
@@ -2298,6 +2340,7 @@ William
 Williams 
 Wilson 
 WinSCP 
+Wirth 
 Witt 
 Wium 
 WOFF 
@@ -2352,6 +2395,7 @@ Zend
 Zephyr 
 ZetCode 
 Zhi 
+Zhiheng 
 Zimmer 
 Zimmermann 
 Zipernowsky 

@@ -169,6 +169,7 @@ columns
 common-ligatures 
 compact 
 condensed 
+Constantia 
 contain 
 content-box 
 contents 
@@ -289,6 +290,7 @@ font-weight
 forestgreen 
 fr 
 fragmentation 
+from-font 
 ft 
 fuchsia 
 full-width 
@@ -301,6 +303,7 @@ goldenrod
 grab 
 grabbing 
 grad 
+grammar-error 
 gray 
 graytext 
 green 
@@ -345,6 +348,7 @@ integer
 invert 
 issue 
 italic 
+IU 
 ivory 
 jis04 
 jis78 
@@ -439,6 +443,7 @@ monospace
 move 
 ms 
 n-resize 
+narrow 
 navajowhite 
 navy 
 ne-resize 
@@ -525,6 +530,7 @@ proportional-nums
 proportional-width 
 pseudo-enlaces 
 pt 
+punctuation 
 purple 
 px 
 quotes 
@@ -580,6 +586,7 @@ sienna
 silver 
 simplified 
 size 
+skip 
 skyblue 
 slashed-zeros 
 slateblue 
@@ -596,6 +603,7 @@ space-around
 space-between 
 spaces 
 speech 
+spelling-error 
 springgreen 
 square 
 src 
@@ -629,10 +637,13 @@ text-decoration
 text-decoration-color 
 text-decoration-line 
 text-decoration-skip 
+text-decoration-skip-ink 
 text-decoration-style 
+text-decoration-thickness 
 text-emphasis 
 text-emphasis-color 
 text-emphasis-position 
+text-emphasis-skip 
 text-emphasis-style 
 text-indent 
 text-justify 
@@ -641,6 +652,7 @@ text-outline
 text-shadow 
 text-top 
 text-transform 
+text-underline-offset 
 text-underline-position 
 thick 
 thin 

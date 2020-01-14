@@ -1,5 +1,6 @@
 admin 
 AGPL 
+alf 
 amd64 
 arccos 
 arcsin 
@@ -27,6 +28,8 @@ DSig
 Ei 
 ej 
 eol 
+erg 
+EUR-LEX 
 exbi 
 eXist-db 
 F6 
@@ -37,6 +40,7 @@ GiB
 gibi 
 GIL 
 hab 
+hg 
 IAIG 
 Inc 
 inc 
@@ -57,6 +61,7 @@ LM
 MB 
 mebi 
 MiB 
+misc 
 ml 
 mo 
 nm 
@@ -65,6 +70,7 @@ passwd
 pdfs 
 pebi 
 PICSRules 
+pict 
 pMA 
 po 
 prefs 
@@ -103,6 +109,7 @@ sqrt
 Sr 
 Sra 
 Suc 
+supl 
 TB 
 tebi 
 tera 
