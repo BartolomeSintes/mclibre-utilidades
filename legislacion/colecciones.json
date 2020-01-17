@@ -394,6 +394,8 @@
                                     "docv-2010-80-o",
                                     "docv-2011-18-o",
                                     "docv-2011-32-o",
+                                    "docv-2011-45-o",
+                                    "docv-2012-108-d",
                                     "docv-2014-54-o",
                                     "docv-2015-69-o",
                                     "docv-2016-40-d",
@@ -524,9 +526,12 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Instituto de Informática (1969)",
+                                "titulo": "Estudios universitarios informática",
                                 "referencias": [
-                                    "boe-1969-554-d"
+                                    "boe-1969-554-d",
+                                    "boe-1976-10-01-o",
+                                    "boe-1984-05-07-o",
+                                    "boe-1985-04-09-o"
                                 ]
                             }
                         },
@@ -536,8 +541,12 @@
                                 "referencias": [
                                     "celex-1985-368-dec",
                                     "celex-1989-48-d",
+                                    "boe-1990-1618-rd",
                                     "boe-1991-1701-rd",
                                     "celex-1992-51-d",
+                                    "boe-1993-631-rd",
+                                    "boe-2003-1046-rd",
+                                    "boe-2007-395-rd",
                                     "celex-2008-04-23-rec",
                                     "boe-1994-07-07-o",
                                     "boe-2004-362-rd",
@@ -589,6 +598,8 @@
                                     "dogv-2004-05-31-o",
                                     "dogv-2004-09-07-o",
                                     "dogv-2006-03-20-o",
+                                    "docv-2007-33-d",
+                                    "docv-2007-04-27-o",
                                     "docv-2007-112-d",
                                     "docv-2007-118-d",
                                     "docv-2008-102-d",
@@ -604,6 +615,8 @@
                                     "docv-2012-115-d",
                                     "docv-2012-127-d",
                                     "docv-2012-190-d",
+                                    "docv-2013-14-o",
+                                    "docv-2013-42-d",
                                     "docv-2014-88-o",
                                     "docv-2014-140-d",
                                     "docv-2015-155-d",

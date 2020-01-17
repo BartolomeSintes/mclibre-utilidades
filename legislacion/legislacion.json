@@ -2270,7 +2270,7 @@
             ],
             "claves": [
                 "españa",
-                "ley",
+                "real decreto",
                 "educación",
                 "formación profesional",
                 "cualificaciones"
@@ -4219,7 +4219,7 @@
             "fecha": "2008-08-05",
             "vigencia": "vigente",
             "descripción": "Centros Integrados de Formación Profesional (CV)",
-            "titulo": "Decreto 115 /2008, 1 de agosto, del Consell, por el que se regulan los centros integrados de formación profesional en la Comunitat Valenciana.",
+            "titulo": "Decreto 115/2008, 1 de agosto, del Consell, por el que se regulan los centros integrados de formación profesional en la Comunitat Valenciana.",
             "versiones": [
                 {
                     "versión": "original",
@@ -4402,7 +4402,7 @@
             ],
             "claves": [
                 "españa",
-                "ley",
+                "real decreto",
                 "trabajo",
                 "formación profesional",
                 "formación profesional para el empleo"
@@ -4438,7 +4438,7 @@
             ],
             "claves": [
                 "españa",
-                "ley",
+                "orden",
                 "trabajo",
                 "formación profesional",
                 "formación profesional para el empleo",
@@ -4475,7 +4475,7 @@
             ],
             "claves": [
                 "españa",
-                "ley",
+                "orden",
                 "trabajo",
                 "formación profesional",
                 "formación profesional para el empleo",
@@ -4512,7 +4512,7 @@
             ],
             "claves": [
                 "españa",
-                "ley",
+                "real decreto",
                 "trabajo",
                 "formación profesional",
                 "formación profesional para el empleo",
@@ -4666,7 +4666,7 @@
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2014-01-17",
             "vigencia": "vigente",
             "descripción": "Formación Profesional Dual (CV)",
@@ -4717,7 +4717,7 @@
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2013-06-18",
             "vigencia": "vigente",
             "descripción": "Formación Profesional Dual (CV)",
@@ -4819,7 +4819,7 @@
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2016-06-03",
             "vigencia": "vigente",
             "descripción": "Acceso, admisión y matrícula Formación Profesional (CV)",
@@ -4870,7 +4870,7 @@
             "incluido": "2019-12-13",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2016-04-18",
             "vigencia": "vigente",
             "descripción": "Admisión Infantil, Primaria, Secundaria Obligatoria y Bachillerato (CV)",
@@ -4922,7 +4922,7 @@
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2014-07-03",
             "vigencia": "vigente",
             "descripción": "Acreditación actividades de formación permanente no universitaria (CV)",
@@ -5082,7 +5082,7 @@
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2013-09-24",
             "vigencia": "vigente",
             "descripción": "Ordenación Formación Profesional (CV)",
@@ -5242,7 +5242,7 @@
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2008-07-06",
             "vigencia": "vigente",
             "descripción": "Oferta parcial Formación Profesional (CV)",
@@ -5294,7 +5294,7 @@
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2010-09-06",
             "vigencia": "vigente",
             "descripción": "Evaluación en Formación Profesional (CV)",
@@ -5346,7 +5346,7 @@
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2011-05-25",
             "vigencia": "derogado",
             "descripción": "Admisión y matrícula en Formación Profesional (CV)",
@@ -5398,7 +5398,7 @@
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2014-08-11",
             "vigencia": "vigente",
             "descripción": "Formación Profesional Básica (CV)",
@@ -5450,7 +5450,7 @@
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2010-09-03",
             "vigencia": "vigente",
             "descripción": "Ordenación Formación Profesional (CV)",
@@ -5501,7 +5501,7 @@
             "incluido": "2019-12-14",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2010-10-07",
             "vigencia": "derogado",
             "descripción": "Presencialidad en Formación Profesional semipresencial (CV)",
@@ -6009,7 +6009,7 @@
             "incluido": "2019-12-21",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2011-12-28",
             "vigencia": "vigente",
             "descripción": "Reclamación de calificaciones (CV)",
@@ -6062,7 +6062,7 @@
             "incluido": "2019-12-21",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2007-09-28",
             "vigencia": "vigente",
             "descripción": "Notificación incidencias convivencia (CV)",
@@ -6219,7 +6219,7 @@
             "incluido": "2019-12-24",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2010-09-03",
             "vigencia": "vigente",
             "descripción": "Regulación módulo FCT (CV)",
@@ -6270,7 +6270,7 @@
             "incluido": "2019-12-24",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2012-07-25",
             "vigencia": "vigente",
             "descripción": "Ordenación Formación Profesional (CV)",
@@ -6321,7 +6321,7 @@
             "incluido": "2019-12-24",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2010-09-08",
             "vigencia": "vigente",
             "descripción": "Documentos módulo FCT (CV)",
@@ -6636,7 +6636,7 @@
                 "españa",
                 "orden",
                 "curso 2016/17",
-                "Bachillerato",
+                "bachillerato",
                 "acceso universidad",
                 "evaluaciones finales"
             ]
@@ -6673,7 +6673,7 @@
                 "españa",
                 "orden",
                 "curso 2017/18",
-                "Bachillerato",
+                "bachillerato",
                 "acceso universidad",
                 "evaluaciones finales"
             ]
@@ -6710,7 +6710,7 @@
                 "españa",
                 "orden",
                 "curso 2018/19",
-                "Bachillerato",
+                "bachillerato",
                 "acceso universidad",
                 "evaluaciones finales"
             ]
@@ -6806,7 +6806,7 @@
             "incluido": "2019-12-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2009-07-30",
             "vigencia": "vigente",
             "descripción": "Cursos preparatorios Pruebas de acceso Ciclos formativos (CV)",
@@ -6857,7 +6857,7 @@
             "incluido": "2019-12-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2009-04-17",
             "vigencia": "derogado",
             "descripción": "Pruebas de acceso Ciclos formativos (CV)",
@@ -6908,7 +6908,7 @@
             "incluido": "2019-12-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2016-05-24",
             "vigencia": "vigente",
             "descripción": "Pruebas de acceso Ciclos formativos (CV)",
@@ -6959,7 +6959,7 @@
             "incluido": "2019-12-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2009-09-08",
             "vigencia": "derogado",
             "descripción": "Currículo materias Pruebas de acceso Ciclos formativos (CV)",
@@ -7011,7 +7011,7 @@
             "incluido": "2019-12-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2015-11-18",
             "vigencia": "vigente",
             "descripción": "Currículo materias Pruebas de acceso Ciclos formativos (CV)",
@@ -7063,7 +7063,7 @@
             "incluido": "2019-12-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2009-09-07",
             "vigencia": "vencido",
             "descripción": "Ciclos formativos asociados a parte específica Pruebas de acceso Ciclos formativos (CV)",
@@ -7115,7 +7115,7 @@
             "incluido": "2019-12-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2009-09-07",
             "vigencia": "vigente",
             "descripción": "Ciclos formativos asociados a parte específica Pruebas de acceso Ciclos formativos (CV)",
@@ -8654,7 +8654,7 @@
             "versiones": [
                 {
                     "versión": "original",
-                    "fecha": "1975-02-13",
+                    "fecha": "1969-04-14",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -8894,7 +8894,7 @@
             "incluido": "2019-11-30",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2014-11-04",
             "vigencia": "vigente",
             "descripción": "Currículos FP Básica Informática y comunicaciones, Informática de oficina (CV)",
@@ -10339,7 +10339,7 @@
             "incluido": "2020-01-02",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2008-07-31",
             "vigencia": "vigente",
             "descripción": "Formación Profesional semipresencial (CV)",
@@ -10543,7 +10543,7 @@
             "incluido": "2020-01-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2011-08-30",
             "vigencia": "derogado",
             "descripción": "ROF de Conselleria de Educación (CV)",
@@ -10592,7 +10592,7 @@
             "incluido": "2020-01-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2012-06-25",
             "vigencia": "derogado",
             "descripción": "ROF de Conselleria de Educación (CV)",
@@ -10641,7 +10641,7 @@
             "incluido": "2020-01-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2007-07-30",
             "vigencia": "derogado",
             "descripción": "ROF de Conselleria de Educación (CV)",
@@ -10788,7 +10788,7 @@
             "incluido": "2020-01-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2015-09-22",
             "vigencia": "derogado",
             "descripción": "ROF de Conselleria de Educación (CV)",
@@ -10858,7 +10858,7 @@
             "incluido": "2020-01-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2016-06-16",
             "vigencia": "derogado",
             "descripción": "ROF de Conselleria de Educación (CV)",
@@ -10907,7 +10907,7 @@
             "incluido": "2020-01-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2014-09-08",
             "vigencia": "derogado",
             "descripción": "ROF de Conselleria de Educación (CV)",
@@ -10956,7 +10956,7 @@
             "incluido": "2020-01-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2012-12-24",
             "vigencia": "derogado",
             "descripción": "ROF de Conselleria de Educación (CV)",
@@ -11455,7 +11455,7 @@
             "fecha": "2016-04-21",
             "vigencia": "vigente",
             "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
-            "titulo": "Orden 7/2016, de 19 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato",
+            "titulo": "Orden 7/2016, de 19 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
             "versiones": [
                 {
                     "versión": "original",
@@ -11719,7 +11719,7 @@
             "incluido": "2020-01-10",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2012-08-06",
             "vigencia": "derogado",
             "descripción": "Pluriligüismo (CV)",
@@ -11732,7 +11732,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2012-127-D-plurilinguismo.pdf"
+                            "url": "dogv/DOCV-2012-127-D-plurilinguismo.pdf"
                         },
                         {
                             "formato": "web",
@@ -11747,12 +11747,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2012-127-D-plurilinguismo-es.rtf"
+                            "url": "dogv/DOCV-2012-127-D-plurilinguismo-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2012-127-D-plurilinguismo-va.rtf"
+                            "url": "dogv/DOCV-2012-127-D-plurilinguismo-va.rtf"
                         }
                     ]
                 }
@@ -11773,7 +11773,7 @@
             "incluido": "2020-01-10",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2009-06-12",
             "vigencia": "derogado",
             "descripción": "Programa experimental plurilingüe (CV)",
@@ -11827,7 +11827,7 @@
             "incluido": "2020-01-10",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2014-12-11",
             "vigencia": "derogado",
             "descripción": "Programa experimental plurilingüe (CV)",
@@ -11881,7 +11881,7 @@
             "incluido": "2020-01-10",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2011-04-15",
             "vigencia": "derogado",
             "descripción": "Programa experimental plurilingüe (CV)",
@@ -11980,6 +11980,598 @@
                 "admisión",
                 "ESO",
                 "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2013-14-o",
+            "incluido": "2020-01-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2013-04-11",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Orden 14/2013, de 4 de abril, de la Conselleria de Educación, Cultura y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-04-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-14-O-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2013/04/04/14/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2013/04/04/14/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-14-O-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-14-O-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2013-42-d",
+            "incluido": "2020-01-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2013-03-26",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Decreto 42/2013, de 22 de marzo, del Consell, de modificación del Decreto 33/2007, de 30 de marzo, por el que se regula el acceso a los centros docentes públicos y privados concertados que imparten enseñanzas de régimen general.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-03-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-42-D-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2013/03/22/42/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2013/03/22/42/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-42-D-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-42-D-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2007-33-d",
+            "incluido": "2020-01-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2007-04-03",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Decreto 33/2007, de 30 de marzo, del Consell, por el que se regula el acceso a los centros docentes públicos y privados concertados que imparten enseñanzas de régimen general.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-04-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-33-D-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-33-D-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-33-D-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2016-04-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-33-D-admision-infantil-primaria-eso-bachillerato-consolidado-2016-04-18.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/con/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/con/vci"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2007-04-27-o",
+            "incluido": "2020-01-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2007-05-02",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Orden de 27 de abril de 2007, de la Conselleria de Cultura, Educación y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria y Educación Secundaria de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-05-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-04-27-O-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2007/04/27/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2007/04/27/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-04-27-O-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-04-27-O-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2012-108-d",
+            "incluido": "2020-01-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-07-02",
+            "vigencia": "vigente",
+            "descripción": "Recolocación y redistribución personal docente (CV)",
+            "titulo": "Decreto 108/2012, de 29 de junio, del Consell, por el que se regula la recolocación y redistribución del personal docente con destino definitivo en los centros docentes públicos no universitarios dependientes de la conselleria competente en materia de educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-07-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-108-D-recolocacion-personal-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-108-D-recolocacion-personal-docente-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-108-D-recolocacion-personal-docente-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "recolocación personal docente"
+            ]
+        },
+        {
+            "id": "docv-2011-45-o",
+            "incluido": "2020-01-17",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2011-06-16",
+            "vigencia": "vigente",
+            "descripción": "Programaciones didácticas ESO (CV)",
+            "titulo": "Orden 45/2011, de 8 de junio, de la Conselleria de Educación, por la que se regula la estructura de las programaciones didácticas en la enseñanza básica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-06-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-45-O-programaciones-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/06/08/45/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/06/08/45/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-45-O-programaciones-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-45-O-programaciones-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "oden",
+                "programaciones",
+                "secundaria",
+                "ESO"
+            ]
+        },
+        {
+            "id": "boe-2007-395-rd",
+            "incluido": "2020-01-17",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-04-11",
+            "vigencia": "derogado",
+            "descripción": "Sistema de Formación Profesional para el Empleo",
+            "titulo": "Real Decreto 395/2007, de 23 de marzo, por el que se regula el subsistema de formación profesional para el empleo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-04-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-395-RD-SFPE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/03/23/395"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2007-07-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-395-RD-SFPE-consolidado-2017-07-05.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/03/23/395/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "boe-2003-1046-rd",
+            "incluido": "2020-01-17",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-09-12",
+            "vigencia": "derogado",
+            "descripción": "Subsistema de Formación Profesional Continua",
+            "titulo": "Real Decreto 1046/2003, de 1 de agosto, por el que se regula el subsistema de formación profesional continua.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-09-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-1046-RD-FP-continua.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/08/01/1046"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "boe-1993-631-rd",
+            "incluido": "2020-01-17",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1993-05-04",
+            "vigencia": "derogado",
+            "descripción": "Plan Nacional de Formación e Inserción Profesional",
+            "titulo": "Real Decreto 631/1993, de 3 de mayo, por el que se regula el Plan Nacional de Formación e Inserción Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1993-05-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1993-631-RD-plan-nacional-formacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1993/05/03/631"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "boe-1990-1618-rd",
+            "incluido": "2020-01-17",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1990-12-19",
+            "vigencia": "derogado",
+            "descripción": "Plan Nacional de Formación e Inserción Profesional",
+            "titulo": "Real Decreto 1618/1990, de 14 de diciembre, por el que se regula el Plan Nacional de Formación e Inserción Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1990-12-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1990-1618-RD-plan-nacional-formacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1990/12/14/1618"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "boe-1976-10-01-o",
+            "incluido": "2020-01-17",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1977-06-15",
+            "vigencia": "derogado",
+            "descripción": "Creación de especialidad Electrónica en Facultad de Ciencias (Seccción de Físicas) Universidad de Valencia",
+            "titulo": "Orden de 1 de octubre de 1976 por la que se aprueba el plan de estudios del segundo ciclo de la Facultad de Ciencias de Valencia y Alicante de la Universidad de Valencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1977-06-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1976-10-01-O-especialidad-electronica-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-13941"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad"
+            ]
+        },
+        {
+            "id": "boe-1984-05-07-o",
+            "incluido": "2020-01-17",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1984-08-17",
+            "vigencia": "derogado",
+            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias (Seccción de Físicas) Universidad de Valencia",
+            "titulo": "Orden de 7 de mayo de 1984 por la que se aprueba la modificación del Plan de Estudios del segundo ciclo de las especialidades de «Física fundamental» y la de «Electricidad, Electrónica e Informática» de la Facultad de Ciencias Físicas de dicha Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1984-08-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1984-05-07-O-especialidad-informatica-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1984-18212"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad"
+            ]
+        },
+        {
+            "id": "boe-1985-04-09-o",
+            "incluido": "2020-01-17",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1985-06-28",
+            "vigencia": "derogado",
+            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias (Seccción de Físicas) Universidad de Valencia",
+            "titulo": "Orden de 9 de abril de 1985 por la que se corrigen errores de omisión observados en la Orden de 7 de mayo de 1984 («Boletín Oficial del Estado» de 17 de agosto) que modificaba el plan de estudios del segundo ciclo de las especialidades de Física Fundamental y de Electricidad, Electrónica e Informática, de la Facultad de Física de la Universidad de Valencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1985-06-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1985-04-09-O-especialidad-informatica-uv-correcion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1984-18212"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad"
             ]
         }
     ]
