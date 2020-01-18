@@ -6117,6 +6117,28 @@
       "creado": "2019-12-14"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 72,
+      "año": 2019,
+      "mes": 12,
+      "portada": "odroid-72-es-201912.jpg",
+      "fichero": "odroid-72-es-201912.pdf",
+      "idioma": "español",
+      "creado": "2020-01-18"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 73,
+      "año": 2020,
+      "mes": 1,
+      "portada": "odroid-73-en-202001.jpg",
+      "fichero": "odroid-73-en-202001.pdf",
+      "idioma": "inglés",
+      "creado": "2020-01-18"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -10652,12 +10674,23 @@
       "serie": "Wireframe",
       "nombre": "Wireframe",
       "número": 29,
-      "año": 2020,
-      "mes": 1,
+      "año": 2019,
+      "mes": 12,
       "portada": "wireframe-29-en-201912.jpg",
       "fichero": "wireframe-29-en-201912.pdf",
       "idioma": "inglés",
       "creado": "2019-12-25"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 30,
+      "año": 2020,
+      "mes": 1,
+      "portada": "wireframe-30-en-202001.jpg",
+      "fichero": "wireframe-30-en-202001.pdf",
+      "idioma": "inglés",
+      "creado": "2020-01-18"
     },
     {
       "serie": "Wireframe Books",
