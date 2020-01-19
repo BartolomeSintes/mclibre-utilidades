@@ -215,7 +215,8 @@
                             "apartado": {
                                 "titulo": "Universidad",
                                 "referencias": [
-                                    "boe-2003-1125-rd"
+                                    "boe-2003-1125-rd",
+                                    "boe-2007-1393-rd"
                                 ]
                             }
                         },
@@ -529,9 +530,23 @@
                                 "titulo": "Estudios universitarios informática",
                                 "referencias": [
                                     "boe-1969-554-d",
+                                    "boe-1970-07-29-o",
+                                    "boe-1971-06-24-o",
+                                    "boe-1976-327-rd",
                                     "boe-1976-10-01-o",
+                                    "boe-1982-1620-rd",
                                     "boe-1984-05-07-o",
-                                    "boe-1985-04-09-o"
+                                    "boe-1984-07-19-o",
+                                    "boe-1985-04-09-o",
+                                    "boe-1987-03-16-o",
+                                    "boe-1987-1497-rd",
+                                    "boe-1994-07-08-1-res",
+                                    "boe-1994-07-08-2-res",
+                                    "boe-1996-06-07-o",
+                                    "boe-2001-09-27-1-res",
+                                    "boe-2001-09-27-2-res",
+                                    "boe-2005-55-rd",
+                                    "boe-2005-56-rd"
                                 ]
                             }
                         },
@@ -604,7 +619,7 @@
                                     "docv-2007-118-d",
                                     "docv-2008-102-d",
                                     "docv-2009-03-31-o",
-                                    "docv-2009-08-17-res",
+                                    "docv-2009-08-17-1-res",
                                     "docv-2009-05-19-o",
                                     "docv-2009-08-17-2-res",
                                     "docv-2010-09-15-res",

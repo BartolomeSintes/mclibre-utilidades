@@ -6955,7 +6955,7 @@
             ]
         },
         {
-            "id": "docv-2009-08-17-res",
+            "id": "docv-2009-08-17-1-res",
             "incluido": "2019-12-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -8329,7 +8329,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-1970-11-17-R-evaluacion.pdf"
+                            "url": "boe/BOE-1970-11-17-RES-evaluacion.pdf"
                         },
                         {
                             "formato": "web",
@@ -8587,7 +8587,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-1988-05-27-R-eatp-bachillerato.pdf"
+                            "url": "boe/BOE-1988-05-27-RES-eatp-bachillerato.pdf"
                         },
                         {
                             "formato": "web",
@@ -9903,7 +9903,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-2015-05-04-meces-titulo-ingeniero-informatica.pdf"
+                            "url": "boe/BOE-2015-05-04-RES-meces-titulo-ingeniero-informatica.pdf"
                         },
                         {
                             "formato": "web",
@@ -10102,7 +10102,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-2007-08-03-optativas-eso.pdf"
+                            "url": "boe/BOE-2007-08-03-RES-optativas-eso.pdf"
                         },
                         {
                             "formato": "web",
@@ -12480,7 +12480,7 @@
             "origen": "BOE",
             "fecha": "1977-06-15",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica en Facultad de Ciencias (Seccción de Físicas) Universidad de Valencia",
+            "descripción": "Creación de especialidad Electrónica en Facultad de Ciencias Seccción de Físicas ( Universidad de Valencia)",
             "titulo": "Orden de 1 de octubre de 1976 por la que se aprueba el plan de estudios del segundo ciclo de la Facultad de Ciencias de Valencia y Alicante de la Universidad de Valencia.",
             "versiones": [
                 {
@@ -12514,7 +12514,7 @@
             "origen": "BOE",
             "fecha": "1984-08-17",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias (Seccción de Físicas) Universidad de Valencia",
+            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Seccción de Físicas ( Universidad de Valencia)",
             "titulo": "Orden de 7 de mayo de 1984 por la que se aprueba la modificación del Plan de Estudios del segundo ciclo de las especialidades de «Física fundamental» y la de «Electricidad, Electrónica e Informática» de la Facultad de Ciencias Físicas de dicha Universidad.",
             "versiones": [
                 {
@@ -12548,7 +12548,7 @@
             "origen": "BOE",
             "fecha": "1985-06-28",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias (Seccción de Físicas) Universidad de Valencia",
+            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Seccción de Físicas ( Universidad de Valencia)",
             "titulo": "Orden de 9 de abril de 1985 por la que se corrigen errores de omisión observados en la Orden de 7 de mayo de 1984 («Boletín Oficial del Estado» de 17 de agosto) que modificaba el plan de estudios del segundo ciclo de las especialidades de Física Fundamental y de Electricidad, Electrónica e Informática, de la Facultad de Física de la Universidad de Valencia.",
             "versiones": [
                 {
@@ -12572,6 +12572,552 @@
                 "españa",
                 "orden",
                 "universidad"
+            ]
+        },
+        {
+            "id": "boe-1982-1620-rd",
+            "incluido": "2020-01-18",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1982-07-23",
+            "vigencia": "derogado",
+            "descripción": "Creación Escuela Universitaria Informática (Universidad Politécnica de Valencia)",
+            "titulo": "Real Decreto 1620/1982, de 18 de junio, por el que se crea en Valencia una Escuela Universitaria de Informática, integrada en la Universidad Politécnica de Valencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1982-07-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1982-1620-RD-escuela-universitaria-informatica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1982/06/18/1620"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad"
+            ]
+        },
+        {
+            "id": "boe-1984-07-19-o",
+            "incluido": "2020-01-18",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1984-09-05",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Escuela Universitaria Informática (Universidad Politécnica de Valencia)",
+            "titulo": "Orden de 19 de julio de 1984 por la que se aprueba el plan de estudios de la Escuela Universitaria de Informática de Valencia, dependiente de la Universidad Politécnica de Valencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1984-09-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1984-07-19-O-plan-estudios-escuela-universitaria-informatica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1984-19886"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad"
+            ]
+        },
+        {
+            "id": "boe-1976-327-rd",
+            "incluido": "2020-01-18",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1976-03-01",
+            "vigencia": "derogado",
+            "descripción": "Creación estudios universitarios de Informática",
+            "titulo": "Decreto 327/1976, de 26 de febrero, sobre estudios de Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1976-03-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1976-327-RD-estudios-universitarios-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1976-4706"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad"
+            ]
+        },
+        {
+            "id": "boe-1994-07-08-1-res",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-08-02",
+            "vigencia": "derogado",
+            "descripción": "Plan de estudios Ingeniero Técnico en Informática de Gestión (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 8 de julio de 1994, de la Universidad Politécnica de Valencia, por la que se ordena la publicación del plan de estudios de Ingeniero Técnico en Informática de Gestión de la Escuela Universitaria de Informática de dicha Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-08-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-07-08-RES-plan-estudios-it-informatica-gestion-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-18113"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad politécnica de valencia",
+                "plan de estudios",
+                "ingeniero técnico en informática de gestión"
+            ]
+        },
+        {
+            "id": "boe-2001-09-27-1-res",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2001-10-17",
+            "vigencia": "derogado",
+            "descripción": "Modificación Plan de estudios Ingeniero Técnico en Informática de Gestión (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 27 de septiembre de 2001, de la Universidad Politécnica de Valencia, por la que se ordena la publicación de la modificación del plan de estudios de Ingeniero Técnico en Informática de Gestión de la Escuela Universitaria de Informática de esta Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-10-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2001-09-27-RES-plan-estudios-it-informatica-gestion-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2001-19418"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad politécnica de valencia",
+                "plan de estudios",
+                "ingeniero técnico en informática de gestión"
+            ]
+        },
+        {
+            "id": "boe-1994-07-08-2-res",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-08-02",
+            "vigencia": "derogado",
+            "descripción": "Plan de estudios Ingeniero Técnico en Informática de Sistemas (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 8 de julio de 1994, de la Universidad Politécnica de Valencia, por la que se ordena la publicación del plan de estudios de Ingeniero Técnico en Informática de Sistemas de la Escuela Universitaria de Informática de dicha Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-08-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-07-08-RES-plan-estudios-it-informatica-sistemas-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-18112"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad politécnica de valencia",
+                "plan de estudios",
+                "ingeniero técnico en informática de sistemas"
+            ]
+        },
+        {
+            "id": "boe-2001-09-27-2-res",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2001-10-17",
+            "vigencia": "derogado",
+            "descripción": "Modificación Plan de estudios Ingeniero Técnico en Informática de Sistemas (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 27 de septiembre de 2001, de la Universidad Politécnica de Valencia, por la que se ordena la publicación de la modificación del plan de estudios de Ingeniero Técnico en Informática de Gestión de la Escuela Universitaria de Informática de esta Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-10-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2001-09-27-RES-plan-estudios-it-informatica-sistemas-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2001-19417"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad politécnica de valencia",
+                "plan de estudios",
+                "ingeniero técnico en informática de sistemas"
+            ]
+        },
+        {
+            "id": "boe-1987-03-16-o",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1987-04-07",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Facultad de Informática (Universidad Politécnica de Valencia)",
+            "titulo": "Orden de 16 de marzo de 1987 por la que se aprueba con carácter provisional el Plan de Estudios de la Facultad de Informática, dependiente de la Universidad Politécnica de Valencia.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1987-04-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1987-03-16-O-plan-estudios-facultad-informatica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1987-8606"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad",
+                "universidad politécnica de valencia"
+            ]
+        },
+        {
+            "id": "boe-1996-06-07-o",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1996-07-05",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Ingeniero en Informática (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 7 de junio de 1996, de la Universidad Politécnica de Valencia, por la que se ordena la publicación del plan de estudios de Ingeniero en Informática de la Facultad de Informática de dicha Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1996-07-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1996-06-07-O-plan-estudios-ingeniero-informatica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-15501"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad",
+                "universidad politécnica de valencia"
+            ]
+        },
+        {
+            "id": "boe-1987-1497-rd",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1987-12-14",
+            "vigencia": "derogado",
+            "descripción": "Directrices planes de estudio títulos universitarios",
+            "titulo": "Real Decreto 1497/1987, de 27 de noviembre, por el que se establecen directrices generales comunes de los planes de estudio de los títulos universitarios de carácter oficial y validez en todo el territorio nacional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1987-12-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1987-1497-RD-directrices-planes-estudios-universitarios.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1987/11/27/1497"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "planes de estudio"
+            ]
+        },
+        {
+            "id": "boe-1970-07-29-o",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-08-04",
+            "vigencia": "derogado",
+            "descripción": "Plan de estudios Programador de Aplicaciones, Programador de Sistemas, Analista de Aplciaciones",
+            "titulo": "Orden de 29 de julio de 1970 por la que se aprueba el Plan de Estudios del curso de «Programador de Aplicaciones», «Programador de Sistemas» y «Analista de Aplicaciones».",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1970-08-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-07-29-O-planes-estudios-programador-analista.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-10513"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad",
+                "planes de estudio"
+            ]
+        },
+        {
+            "id": "boe-1971-06-24-o",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1971-07-03",
+            "vigencia": "derogado",
+            "descripción": "Planes de estudios Programador de Aplicaciones, Programador de Sistemas, Analista de Aplciaciones, Analista de Sistemas y Técnico de Sistemas",
+            "titulo": "Orden de 24 de junio de 1971 por la que se aprueba el Plan de Estudios del curso de Programador de Aplicaciones, Programador de Sistemas, Analista de Aplicaciones, Analista de Sistemas y Técnico de Sistemas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1971-07-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1971-06-24-O-planes-estudios-programador-analista-tecnico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1970-10513"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad",
+                "planes de estudio"
+            ]
+        },
+        {
+            "id": "boe-2005-55-rd",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-01-25",
+            "vigencia": "derogado",
+            "descripción": "Estructura estudios universitarios de Grado",
+            "titulo": "Real Decreto 55/2005, de 21 de enero, por el que se establece la estructura de las enseñanzas universitarias y se regulan los estudios universitarios oficiales de Grado.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-01-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-55-RD-estructura-estudios-universitarios-grado.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/01/21/55"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "planes de estudio"
+            ]
+        },
+        {
+            "id": "boe-2005-56-rd",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-01-25",
+            "vigencia": "derogado",
+            "descripción": "Estructura estudios universitarios de Posrado",
+            "titulo": "Real Decreto 56/2005, de 21 de enero, por el que se regulan los estudios universitarios oficiales de Posgrado.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-01-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-56-RD-estructura-estudios-universitarios-posgrado.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/01/21/56"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "planes de estudio"
+            ]
+        },
+        {
+            "id": "boe-2007-1393-rd",
+            "incluido": "2020-01-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-10-30",
+            "vigencia": "vigente",
+            "descripción": "Ordenación enseñanzas universitarias",
+            "titulo": "Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-10-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1393-RD-ordenacion-ensenanzas-universitarias.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/10/29/1393"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-03-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1393-RD-ordenacion-ensenanzas-universitarias-consolidado-2019-03-15.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/10/29/1393/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "ordenacion"
             ]
         }
     ]
