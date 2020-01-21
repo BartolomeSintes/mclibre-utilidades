@@ -1620,6 +1620,26 @@
                             "formato": "pdf",
                             "idioma": "es",
                             "url": "dogv/DOGV-2019-09-05-R-CO-inicio-curso-secundaria-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/7430&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/7430&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-09-05-R-CO-inicio-curso-secundaria-1920-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-09-05-R-CO-inicio-curso-secundaria-1920-va.rtf"
                         }
                     ]
                 }
@@ -13118,6 +13138,414 @@
                 "real decreto",
                 "universidad",
                 "ordenacion"
+            ]
+        },
+        {
+            "id": "dogv-1998-06-11-o",
+            "incluido": "2020-01-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-06-18",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar (CV)",
+            "titulo": "Orden de 11 de junio de 1998, de la Conselleria de Cultura, Educación y Ciencia, por la que se establecen los criterios generales por los que se ha de regir el calendario escolar para todos los centros docentes de la Comunidad Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria, Formación Profesional, Bachillerato, Enseñanzas Artísticas y Enseñanzas de Idiomas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-06-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-06-11-O-calendario-escolar.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1998/06/11/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1998/06/11/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-06-11-O-calendario-escolar-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-06-11-O-calendario-escolar-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar"
+            ]
+        },
+        {
+            "id": "dogv-2017-07-25-res",
+            "incluido": "2020-01-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-06-07",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2017/18 (CV)",
+            "titulo": "Resolución de 25 de julio de 2017, de la Secretaría Autonómica de Educación e Investigación, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de formación de personas adultas sostenidos con fondos públicos para el curso 2017-2018.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-06-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-25-R-calendario-escolar-1718.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/5027&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/5027&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-25-R-calendario-escolar-1718-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-07-25-R-calendario-escolar-1718-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2017/18"
+            ]
+        },
+        {
+            "id": "dogv-2016-06-07-res",
+            "incluido": "2020-01-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2016-06-13",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2016/17 (CV)",
+            "titulo": "Resolución de 7 de junio de 2016, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2016-2017.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-06-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2016-06-07-R-calendario-escolar-1617.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/disposicio?sig=004148/2016"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/disposicio?sig=004148/2016"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2016-06-07-R-calendario-escolar-1617-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2016-06-07-R-calendario-escolar-1617-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2016-07-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2016-06-07-R-CO-calendario-escolar-1617.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/disposicio?sig=005461/2016"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/disposicio?sig=004148/2016"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2016-06-07-R-CO-calendario-escolar-1617-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2016-06-07-R-CO-calendario-escolar-1617-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2016/17"
+            ]
+        },
+        {
+            "id": "docv-2015-06-15-res",
+            "incluido": "2020-01-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2015-06-18",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2015/16 (CV)",
+            "titulo": "Resolución de 15 de junio de 2015, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2015-2016.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-06-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-06-15-R-calendario-escolar-1516.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2015/5770"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2015/5770"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-06-15-R-calendario-escolar-1516-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-06-15-R-calendario-escolar-1516-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2015/16"
+            ]
+        },
+        {
+            "id": "docv-2014-05-20-res",
+            "incluido": "2020-01-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2014-05-23",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2014/15 (CV)",
+            "titulo": "Resolución de 20 de mayo de 2014, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2014-2015.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-05-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-05-20-R-calendario-escolar-1415.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2014/4602"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2014/4602"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-05-20-R-calendario-escolar-1415-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-05-20-R-calendario-escolar-1415-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2014/15"
+            ]
+        },
+        {
+            "id": "docv-2013-06-20-res",
+            "incluido": "2020-01-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2013-06-25",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2013/14 (CV)",
+            "titulo": "Resolución de 20 de junio de 2013, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2013-2014.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-06-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-06-20-R-calendario-escolar-1314.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2013/6678"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2013/6678"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-06-20-R-calendario-escolar-1314-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-06-20-R-calendario-escolar-1314-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2013/14"
+            ]
+        },
+        {
+            "id": "docv-2012-06-15-res",
+            "incluido": "2020-01-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-06-21",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2012/12 (CV)",
+            "titulo": "Resolución de 15 de junio de 2012, de la Dirección General de Ordenación y Centros Docentes, por la que se fija el calendario escolar del curso académico 2012-2013.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-06-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-06-15-R-calendario-escolar-1213.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "hhttp://www.dogv.gva.es/es/resultat-dogv?signatura=2012/6146"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2012/6146"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-06-15-R-calendario-escolar-1213-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-06-15-R-calendario-escolar-1213-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2012/13"
             ]
         }
     ]
