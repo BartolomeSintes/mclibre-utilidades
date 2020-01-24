@@ -1578,8 +1578,8 @@
             "origen": "DOGV",
             "fecha": "2019-07-18",
             "vigencia": "vigente",
-            "descripción": "Inicio de curso Secundaria 19/20 (CV)",
-            "titulo": "Resolución de 5 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2019-2020",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 19/20 (CV)",
+            "titulo": "Resolución de 5 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2019-2020.",
             "versiones": [
                 {
                     "versión": "original",
@@ -1649,7 +1649,9 @@
                 "resolución",
                 "educación",
                 "secundaria",
-                "inicio de curso"
+                "bachillerato",
+                "inicio de curso",
+                "curso 2019/20"
             ]
         },
         {
@@ -1660,7 +1662,7 @@
             "origen": "DOGV",
             "fecha": "2019-07-15",
             "vigencia": "vigente",
-            "descripción": "Inicio de curso FP 19/20 (CV)",
+            "descripción": "Instrucciones inicio de curso FP 19/20 (CV)",
             "titulo": "Resolución de 8 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2019-2020 impartan ciclos de Formación Profesional Básica, de grado medio y de grado superior.",
             "versiones": [
                 {
@@ -4955,7 +4957,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOCV-2104-54-O-acreditacion-formacion.pdf"
+                            "url": "dogv/DOCV-2014-54-O-acreditacion-formacion.pdf"
                         },
                         {
                             "formato": "web",
@@ -4970,12 +4972,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOCV-2104-54-O-acreditacion-formacion-es.rtf"
+                            "url": "dogv/DOCV-2014-54-O-acreditacion-formacion-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOCV-2104-54-O-acreditacion-formacion-va.rtf"
+                            "url": "dogv/DOCV-2014-54-O-acreditacion-formacion-va.rtf"
                         }
                     ]
                 }
@@ -13248,11 +13250,11 @@
             ]
         },
         {
-            "id": "dogv-2016-06-07-res",
+            "id": "docv-2016-06-07-res",
             "incluido": "2020-01-21",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2016-06-13",
             "vigencia": "vencido",
             "descripción": "Calendario escolar 2016/17 (CV)",
@@ -13265,7 +13267,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2016-06-07-R-calendario-escolar-1617.pdf"
+                            "url": "dogv/DOCV-2016-06-07-R-calendario-escolar-1617.pdf"
                         },
                         {
                             "formato": "web",
@@ -13280,12 +13282,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2016-06-07-R-calendario-escolar-1617-es.rtf"
+                            "url": "dogv/DOCV-2016-06-07-R-calendario-escolar-1617-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2016-06-07-R-calendario-escolar-1617-va.rtf"
+                            "url": "dogv/DOCV-2016-06-07-R-calendario-escolar-1617-va.rtf"
                         }
                     ]
                 },
@@ -13296,7 +13298,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2016-06-07-R-CO-calendario-escolar-1617.pdf"
+                            "url": "dogv/DOCV-2016-06-07-R-CO-calendario-escolar-1617.pdf"
                         },
                         {
                             "formato": "web",
@@ -13311,12 +13313,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2016-06-07-R-CO-calendario-escolar-1617-es.rtf"
+                            "url": "dogv/DOCV-2016-06-07-R-CO-calendario-escolar-1617-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2016-06-07-R-CO-calendario-escolar-1617-va.rtf"
+                            "url": "dogv/DOCV-2016-06-07-R-CO-calendario-escolar-1617-va.rtf"
                         }
                     ]
                 }
@@ -14085,6 +14087,1115 @@
                 "bachillerato",
                 "formación profesional",
                 "calendario escolar",
+                "curso 2003/04"
+            ]
+        },
+        {
+            "id": "dogv-2018-06-27-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-07-06",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 18/19 (CV)",
+            "titulo": "Resolución de 27 de junio de 2018, del secretario autonómico de Educación e Investigación, por la cual se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2018-2019.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-06-27-R-inicio-curso-secundaria-1819.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2018/6552&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/6552&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-06-27-R-inicio-curso-secundaria-1819-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-06-27-R-inicio-curso-secundaria-1819-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2018/19"
+            ]
+        },
+        {
+            "id": "dogv-2017-07-20-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-07-25",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 17/18 (CV)",
+            "titulo": "Resolución de 20 de julio de 2017, de la Secretaría Autonómica de Educación e Investigación, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2017-2018.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-07-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-20-R-inicio-curso-secundaria-1718.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/6849&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/6849&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-20-R-inicio-curso-secundaria-1718-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-07-20-R-inicio-curso-secundaria-1718-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2017/18"
+            ]
+        },
+        {
+            "id": "docv-2016-07-01-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2016-07-12",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 16/17 (CV)",
+            "titulo": "Resolución de 1 de julio de 2016, de las direcciones generales de Política Educativa y de Centros y Personal Docente, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros que impartan Educación Secundaria Obligatoria y Bachillerato durante el curso 2016-2017.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-07-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-07-01-R-inicio-curso-secundaria-1617.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2016/5291&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2016/5291&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-07-01-R-inicio-curso-secundaria-1617-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-07-01-R-inicio-curso-secundaria-1617-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2016/17"
+            ]
+        },
+        {
+            "id": "docv-2015-07-07-res",
+            "incluido": "2020-01-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2015-07-08",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2015/16 (CV)",
+            "titulo": "Resolución de 7 de julio de 2015, del secretario autonómico de Educación e Investigación, por la que modifica parcialmente la Resolución de 15 de junio de 2015, de la Dirección General de Centros y Personal Docente, por la que se fija el calendario escolar del curso académico 2015/2016 y la Resolución 15 de junio de 2015, de las direcciones generales de Centros y Personal Docente, y de Innovación, Ordenación y Política Lingüística, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros que impartan Educación Secundaria Obligatoria y Bachillerato durante el curso 2015/2016.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-07-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-07-07-R-calendario-escolar-1516.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2015/6385&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2015/6385&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-07-07-R-calendario-escolar-1516-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-07-07-R-calendario-escolar-1516-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2015/16"
+            ]
+        },
+        {
+            "id": "docv-2015-06-15-2-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2015-06-19",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 15/16 (CV)",
+            "titulo": "Resolución de 15 de junio de 2015, de las direcciones generales de Centros y Personal Docente, y de Innovación, Ordenación y Política Lingüística, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros que impartan Educación Secundaria Obligatoria y Bachillerato durante el curso 2015-2016.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-06-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-06-15-R-inicio-curso-secundaria-1516.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2015/5736&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2015/5736&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-06-15-R-inicio-curso-secundaria-1516-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-06-15-R-inicio-curso-secundaria-1516-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2015/16"
+            ]
+        },
+        {
+            "id": "docv-2014-07-14-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2014-07-23",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 14/15 (CV)",
+            "titulo": "Resolución de 14 de julio de 2014, de las direcciones generales de Centros y Personal Docente, y de Innovación, Ordenación y Política Lingüística, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros que impartan Educación Secundaria Obligatoria y Bachillerato durante el curso 2014-2015.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-07-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-07-14-R-inicio-curso-secundaria-1415.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2014/6922&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2014/6922&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-07-14-R-inicio-curso-secundaria-1415-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-07-14-R-inicio-curso-secundaria-1415-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2014/15"
+            ]
+        },
+        {
+            "id": "docv-2013-07-10-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2013-07-15",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 13/14 (CV)",
+            "titulo": "Resolución de 10 de julio de 2013, de las direcciones generales de Centros y Personal Docente, y de Innovación, Ordenación y Política Lingüística por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros que impartan Educación Secundaria Obligatoria y Bachillerato durante el curso 2013-2014.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-07-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-07-10-R-inicio-curso-secundaria-1314.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2013/7361&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2013/7361&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-07-10-R-inicio-curso-secundaria-1314-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-07-10-R-inicio-curso-secundaria-1314-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2013/14"
+            ]
+        },
+        {
+            "id": "docv-2012-08-05-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-08-17",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 12/13 (CV)",
+            "titulo": "Resolución de 5 de agosto de 2012, de la Subsecretaría y de las direcciones generales de Innovación, Ordenación y Calidad Educativa y de Centros Docentes, de la Conselleria de Educación, Formación y Empleo, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros que impartan Educación Secundaria Obligatoria y Bachillerato para el curso 2012-2013.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-08-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-08-05-R-inicio-curso-secundaria-1213.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2012/7973&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2012/7973&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-08-05-R-inicio-curso-secundaria-1213-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-08-05-R-inicio-curso-secundaria-1213-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2013-02-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-08-05-R-CO-1-inicio-curso-secundaria-1213.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2013/1992&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2013/1992&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-08-05-R-CO-1-inicio-curso-secundaria-1213-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-08-05-R-CO-1-inicio-curso-secundaria-1213-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2013-07-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-08-05-R-CO-2-inicio-curso-secundaria-1213.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2013/7549&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2013/7549&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-08-05-R-CO-2-inicio-curso-secundaria-1213-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-08-05-R-CO-2-inicio-curso-secundaria-1213-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2012/13"
+            ]
+        },
+        {
+            "id": "docv-2011-06-28-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2011-07-06",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 11/12 (CV)",
+            "titulo": "Resolución de 28 de junio de 2011, de la Subsecretaría y de las direcciones generales de Ordenación y Centres Docentes, y de Educación y Calidad Educativa, de la Conselleria de Educación, Formación y Empleo, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros que impartan Educación Secundaria Obligatoria y Bachillerato para el curso 2011-2012.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-06-28-R-inicio-curso-secundaria-1112.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2011/7678&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2011/7678&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-06-28-R-inicio-curso-secundaria-1112-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-06-28-R-inicio-curso-secundaria-1112-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2011/12"
+            ]
+        },
+        {
+            "id": "docv-2010-06-30-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2010-07-09",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 10/11 (CV)",
+            "titulo": "Resolución de 30 de junio de 2010, de las direcciones generales de Ordenación y Centros Docentes, de Evaluación, Innovación y Calidad Educativa y Formación Profesional y de Personal, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros que impartan Educación Secundaria Obligatoria y Bachillerato para el curso 2010-2011.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-07-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-06-30-R-inicio-curso-secundaria-1011.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2010/7802&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2010/7802&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-06-30-R-inicio-curso-secundaria-1011-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-06-30-R-inicio-curso-secundaria-1011-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2010-08-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-06-30-R-CO-inicio-curso-secundaria-1011.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2010/8960&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2010/8960&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-06-30-R-CO-inicio-curso-secundaria-1011-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-06-30-R-CO-inicio-curso-secundaria-1011-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2010/11"
+            ]
+        },
+        {
+            "id": "docv-2009-07-17-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2009-07-30",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 09/10 (CV)",
+            "titulo": "Resolución de 17 de julio de 2009, de las direcciones generales de Ordenación y Centros Docentes, de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional y de Personal, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros que impartan enseñanzas de Educación Secundaria Obligatoria y Bachillerato para el curso 2009-2010.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-07-17-R-inicio-curso-secundaria-0910.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2009/8829&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2009/8829&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-07-17-R-inicio-curso-secundaria-0910-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-07-17-R-inicio-curso-secundaria-0910-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2009-10-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-07-17-R-CO-inicio-curso-secundaria-0910.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2009/11433&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2009/11433&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-07-17-R-CO-inicio-curso-secundaria-0910-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-07-17-R-CO-inicio-curso-secundaria-0910-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2009/10"
+            ]
+        },
+        {
+            "id": "docv-2008-07-08-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-07-22",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 08/09 (CV)",
+            "titulo": "Resolución de 8 de julio de 2008 de las Direcciones Generales de Ordenación y Centros Docentes, de Evaluación, Innovación y Calidad Educativa y de la Formación de Personal y de Personal por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros de Educación Secundaria para el curso 2008-2009.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-07-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-07-08-R-inicio-curso-secundaria-0809.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2008/9045&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2008/9045&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-07-08-R-inicio-curso-secundaria-0809-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-07-08-R-inicio-curso-secundaria-0809-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2008/09"
+            ]
+        },
+        {
+            "id": "docv-2008-07-15-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-07-23",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Bachillerato 08/09 (CV)",
+            "titulo": "Resolución de 15 de julio de 2008 de la Dirección General de Ordenación y Centros Docentes de Conselleria de Educación, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros autorizados para implantar durante el curso 2008-2009, las enseñanzas del primer curso del Bachillerato establecido por la Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-07-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-07-15-R-inicio-curso-bachillerato-0809.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2008/9146&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2008/9146&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-07-15-R-inicio-curso-bachillerato-0809-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-07-15-R-inicio-curso-bachillerato-0809-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2008-07-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-07-15-R-CO-inicio-curso-bachillerato-0809.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2008/9286&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2008/9286&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-07-15-R-CO-inicio-curso-bachillerato-0809-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-07-15-R-CO-inicio-curso-bachillerato-0809-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2008/09"
+            ]
+        },
+        {
+            "id": "docv-2007-07-25-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2007-07-31",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 07/08 (CV)",
+            "titulo": "Resolución de 25 de julio de 2007, de las direcciones generales de Ordenación y Centros Docentes y de Personal, por la que se prorroga y completa a partir del curso 2007-2008 la Resolución de 15 de junio de 2001, completada por las resoluciones de 26 de junio de 2002, de 9 de julio de 2003, de 30 de junio de 2004, de 28 de julio de 2005 y de 15 de junio de 2006, por las que se dictaban instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de Educación Secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-07-25-R-inicio-curso-secundaria-0708.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2007/10004&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2007/10004&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-07-25-R-inicio-curso-secundaria-0708-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-07-25-R-inicio-curso-secundaria-0708-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2007/08"
+            ]
+        },
+        {
+            "id": "dogv-2006-06-15-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2006-06-29",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 06/07 (CV)",
+            "titulo": "Resolución de 15 de junio de 2006, de las Direcciones Generales de Enseñanza y de Personal Docente, por la que se prorroga y completa para el curso 2006-2007 la Resolución de 15 de junio de 2001, completada por las Resoluciones de 26 de junio de 2002, de 9 de julio de 2003, de 30 de junio de 2004 y de 28 de julio de 2005, por las que se dictaban instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de Educación Secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-06-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2006-06-15-R-inicio-curso-secundaria-0607.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2006/7515&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2006/7515&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2006-06-15-R-inicio-curso-secundaria-0607-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2006-06-15-R-inicio-curso-secundaria-0607-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2006/07"
+            ]
+        },
+        {
+            "id": "dogv-2005-07-28-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2005-09-02",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 05/06 (CV)",
+            "titulo": "Resolución de 28 de julio de 2005, de la Dirección General de Enseñanza y de la Dirección General de Personal Docente, por la que se prorroga y completa para el curso 2005-2006 la Resolución de 15 de junio de 2001, completada por las Resoluciones de 26 de junio de 2002, de 9 de julio de 2003 y de 30 de junio de 2004, por las que se dictaban instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de Educación Secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-09-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2005-07-28-R-inicio-curso-secundaria-0506.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2005/9602&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2005/9602&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2005-07-28-R-inicio-curso-secundaria-0506-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2005-07-28-R-inicio-curso-secundaria-0506-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2005/06"
+            ]
+        },
+        {
+            "id": "dogv-2004-06-30-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2004-07-21",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 05/06 (CV)",
+            "titulo": "Resolución de 30 de junio de 2004, de la Dirección General de Enseñanza y de la Dirección General de Personal Docente, por la que se prorroga y completa para el curso 2004-2005 la Resolución de 15 de junio de 2001, completada por las resoluciones de 26 de junio de 2002 y de 9 de julio de 2003, por las que se dictaban instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de Educación Secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-07-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-06-30-R-inicio-curso-secundaria-0405.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2004/7172&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2004/7172&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-06-30-R-inicio-curso-secundaria-0405-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2004-06-30-R-inicio-curso-secundaria-0405-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2004/05"
+            ]
+        },
+        {
+            "id": "dogv-2003-07-09-res",
+            "incluido": "2020-01-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2003-07-18",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 05/06 (CV)",
+            "titulo": "Resolución de 9 de julio de 2003, de la Secretaría Autonómica de Educación, por la que se prorroga y completa para el curso 2003-2004 la Resolución de 15 de junio de 2001, completada por la Resolución de 26 de junio de 2002, por las que se dictaban instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de Educación Secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-07-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-07-09-R-inicio-curso-secundaria-0304.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2003/8503&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2003/8503&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-07-09-R-inicio-curso-secundaria-0304-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2003-07-09-R-inicio-curso-secundaria-0304-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
                 "curso 2003/04"
             ]
         }
