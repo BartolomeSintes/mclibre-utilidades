@@ -3125,6 +3125,17 @@
       "creado": "2019-12-25"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 27,
+      "año": 2020,
+      "mes": 2,
+      "portada": "hackspace-27-en-202002.jpg",
+      "fichero": "hackspace-27-en-202002.pdf",
+      "idioma": "inglés",
+      "creado": "2020-01-26"
+    },
+    {
       "serie": "Hello World",
       "nombre": "Hello World",
       "número": 1,
@@ -6137,6 +6148,17 @@
       "fichero": "odroid-73-en-202001.pdf",
       "idioma": "inglés",
       "creado": "2020-01-18"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 73,
+      "año": 2020,
+      "mes": 1,
+      "portada": "odroid-73-es-202001.jpg",
+      "fichero": "odroid-73-es-202001.pdf",
+      "idioma": "español",
+      "creado": "2020-01-26"
     },
     {
       "serie": "Olympiads in informatics",
