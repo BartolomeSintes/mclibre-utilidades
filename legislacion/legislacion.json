@@ -1697,7 +1697,14 @@
                     ]
                 }
             ],
-            "claves": []
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2019/20"
+            ]
         },
         {
             "id": "boe-2004-362-rd",
@@ -14806,7 +14813,7 @@
             "origen": "DOCV",
             "fecha": "2008-07-22",
             "vigencia": "vencido",
-            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 08/09 (CV)",
+            "descripción": "Instrucciones inicio de curso Secundaria, Bachillerato y FP 08/09 (CV)",
             "titulo": "Resolución de 8 de julio de 2008 de las Direcciones Generales de Ordenación y Centros Docentes, de Evaluación, Innovación y Calidad Educativa y de la Formación de Personal y de Personal por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros de Educación Secundaria para el curso 2008-2009.",
             "versiones": [
                 {
@@ -15195,6 +15202,900 @@
                 "educación",
                 "secundaria",
                 "bachillerato",
+                "inicio de curso",
+                "curso 2003/04"
+            ]
+        },
+        {
+            "id": "dogv-2018-06-29-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-07-06",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 18/19 (CV)",
+            "titulo": "Resolución de 29 de junio de 2018, del secretario autonómico de Educación e Investigación, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2018-2019 impartan ciclos de Formación Profesional básica, de grado medio y de grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-06-29-R-inicio-curso-fp-1819.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2018/6662&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/6662&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-06-29-R-inicio-curso-fp-1819-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-06-29-R-inicio-curso-fp-1819-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2018/19"
+            ]
+        },
+        {
+            "id": "dogv-2017-07-19-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-07-25",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 17/18 (CV)",
+            "titulo": "Resolución de 19 de julio de 2017, de la Secretaria Autonómica de Educación e Investigación, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2017-2018 impartan ciclos de Formación Profesional básica, de grado medio y de grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-07-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-19-R-inicio-curso-fp-1718.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/6802&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/6802&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-19-R-inicio-curso-fp-1718-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-07-19-R-inicio-curso-fp-1718-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2017-08-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-19-R-CO-inicio-curso-fp-1718.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/7195&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/7195&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-19-R-CO-inicio-curso-fp-1718-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-07-19-R-CO-inicio-curso-fp-1718-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2017/18"
+            ]
+        },
+        {
+            "id": "docv-2016-07-07-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2016-07-12",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 16/17 (CV)",
+            "titulo": "Resolución de 7 de julio de 2016, de la Dirección General de Política Educativa, de la Dirección General de Centros y Personal Docente y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2016-2017 impartan ciclos formativos de Formación Profesional Básica, de Grado Medio y de Grado Superior .",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-07-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-07-07-R-inicio-curso-fp-1617.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2016/5421&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2016/5421&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-07-07-R-inicio-curso-fp-1617-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-07-07-R-inicio-curso-fp-1617-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2016/17"
+            ]
+        },
+        {
+            "id": "docv-2015-06-26-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2015-07-09",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 15/16 (CV)",
+            "titulo": "Resolución de 26 de junio de 2015, de la Dirección General de Centros y Personal Docente, Dirección General de Innovación, Ordenación y Política Lingüística y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2015-2016 impartan ciclos formativos de Formación Profesional Básica, de grado medio y de grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-07-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-06-26-R-inicio-curso-fp-1516.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2015/6315&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2015/6315&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-06-26-R-inicio-curso-fp-1516-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-06-26-R-inicio-curso-fp-1516-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2015/16"
+            ]
+        },
+        {
+            "id": "docv-2014-07-24-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2014-07-28",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP Básica y PCPI 14/15 (CV)",
+            "titulo": "Resolución de 24 de julio de 2014, de la Dirección General de Centros y Personal Docente, de la Dirección General de Innovación, Ordenación y Política Lingüística y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2014-2015 impartan ciclos formativos de Formación Profesional Básica y los segundos cursos de los programas de cualificación profesional inicial.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-07-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-07-24-R-inicio-curso-fp-basica-1415.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2014/7129&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2014/7129&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-07-24-R-inicio-curso-fp-basica-1415-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-07-24-R-inicio-curso-fp-basica-1415-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2014/15"
+            ]
+        },
+        {
+            "id": "docv-2014-07-14-2-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2014-07-21",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 14/15 (CV)",
+            "titulo": "Resolución de 14 de julio de 2014, de la Dirección General de Centros y Personal Docente, de la Dirección General de Innovación, Ordenación y Política Lingüística y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2014-2015 impartan ciclos formativos de Formación Profesional de grado medio y de grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-07-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-07-14-R-inicio-curso-fp-1415.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2014/6878&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2014/6878&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-07-14-R-inicio-curso-fp-1415-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-07-14-R-inicio-curso-fp-1415-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2014/15"
+            ]
+        },
+        {
+            "id": "docv-2013-07-11-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2013-07-19",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 13/14 (CV)",
+            "titulo": "Resolución de 11 de julio de 2013, de la Dirección General de Centros y Personal Docente, Dirección General de Innovación, Ordenación y Política Lingüística y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2013-2014 impartan ciclos formativos de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-07-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-07-11-R-inicio-curso-fp-1314.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2013/7583&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2013/7583&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-07-11-R-inicio-curso-fp-1314-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-07-11-R-inicio-curso-fp-1314-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2013-07-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-07-11-R-CO-inicio-curso-fp-1314.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2014/2000&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2014/2000&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-07-11-R-CO-inicio-curso-fp-1314-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-07-11-R-CO-inicio-curso-fp-1314-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2013/14"
+            ]
+        },
+        {
+            "id": "docv-2012-07-20-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-07-26",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 12/13 (CV)",
+            "titulo": "Resolución de 20 de julio de 2012, de la Subsecretaría, de la Dirección General de Centros Docentes, de la Dirección General de Innovación, Ordenación y Calidad Educativa y de la Dirección General de Formación y Cualificación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2012-2013 impartan ciclos formativos de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-07-20-R-inicio-curso-fp-1213.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2012/7455&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2012/7455&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-07-20-R-inicio-curso-fp-1213-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-07-20-R-inicio-curso-fp-1213-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2012/13"
+            ]
+        },
+        {
+            "id": "docv-2011-06-09-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2011-06-09",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 11/12 (CV)",
+            "titulo": "Resolución de 9 de junio de 2011, de la Dirección General de Ordenación y Centros Docentes, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional y de la Dirección General de Personal, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2011-2012 impartan ciclos formativos de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-06-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-06-09-R-inicio-curso-fp-1112.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2011/6971&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2011/6971&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-06-09-R-inicio-curso-fp-1112-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-06-09-R-inicio-curso-fp-1112-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2011/12"
+            ]
+        },
+        {
+            "id": "docv-2010-07-29-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2010-08-10",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 10/11 (CV)",
+            "titulo": "Resolución de 29 de julio de 2010, de la Dirección General de Ordenación y Centros Docentes, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional y de la Dirección General de Personal, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2010-2011 impartan ciclos formativos de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-08-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-07-29-R-inicio-curso-fp-1011.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2010/9074&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2010/9074&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-07-29-R-inicio-curso-fp-1011-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-07-29-R-inicio-curso-fp-1011-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2010/11"
+            ]
+        },
+        {
+            "id": "docv-2009-06-22-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2009-07-24",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 09/10 (CV)",
+            "titulo": "Resolución de 22 de junio de 2009, de la Dirección General de Ordenación y Centros Docentes, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional y de la Dirección General de Personal, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2009-2010 impartan ciclos formativos de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-07-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-06-22-R-inicio-curso-fp-0910.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2009/8751&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2009/8751&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-06-22-R-inicio-curso-fp-0910-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-06-22-R-inicio-curso-fp-0910-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2009/10"
+            ]
+        },
+        {
+            "id": "docv-2007-07-12-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2007-07-20",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 07/08 (CV)",
+            "titulo": "Resolución de 12 de julio de 2007, de la dirección general de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2007-2008 impartan ciclos formativos de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-07-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-07-12-R-inicio-curso-fp-0708.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2007/9588&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2007/9588&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-07-12-R-inicio-curso-fp-0708-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-07-12-R-inicio-curso-fp-0708-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2007/08"
+            ]
+        },
+        {
+            "id": "docv-2006-06-26-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2006-07-13",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 06/07 (CV)",
+            "titulo": "Resolución de 26 de junio de 2006, de la Dirección General de Enseñanza, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunidad Valenciana que durante el curso 2006-2007 impartan ciclos formativos de Formación Profesional Específica (FPE).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-07-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2006-06-26-R-inicio-curso-fp-0607.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2006/8077&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2006/8077&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2006-06-26-R-inicio-curso-fp-0607-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2006-06-26-R-inicio-curso-fp-0607-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2006/07"
+            ]
+        },
+        {
+            "id": "docv-2005-07-06-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2005-07-14",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 05/06 (CV)",
+            "titulo": "Resolución de 6 de julio de 2005, de la Dirección General de Enseñanza, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunidad Valenciana que durante el curso 2005-2006 impartan ciclos formativos de Formación Profesional Específica (FPE).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-07-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2005-07-06-R-inicio-curso-fp-0506.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2005/8127&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2005/8127&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2005-07-06-R-inicio-curso-fp-0506-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2005-07-06-R-inicio-curso-fp-0506-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2005/06"
+            ]
+        },
+        {
+            "id": "docv-2004-06-23-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2004-07-12",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 04/05 (CV)",
+            "titulo": "Resolución de 23 de junio de 2004, de la Dirección General de Enseñanza, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunidad Valenciana que durante el curso 2004-2005 impartan ciclos formativos de Formación Profesional Específica (FPE).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-07-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-06-23-R-inicio-curso-fp-0405.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2004/7174&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2004/7174&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-06-23-R-inicio-curso-fp-0405-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2004-06-23-R-inicio-curso-fp-0405-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2004/05"
+            ]
+        },
+        {
+            "id": "docv-2003-06-17-res",
+            "incluido": "2020-01-31",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2003-06-25",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 03/04 (CV)",
+            "titulo": "Resolución de 17 de junio de 2003, de la Dirección General de Ordenación e Innovación Educativa y Política Lingüística, sobre ordenación académica y organización de la actividad docente de los centros de la Comunidad Valenciana que durante el curso 2003-2004 impartan ciclos formativos de Formación Profesional Específica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-06-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-06-17-R-inicio-curso-fp-0304.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2003/7494&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2003/7494&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-06-17-R-inicio-curso-fp-0304-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2003-06-17-R-inicio-curso-fp-0304-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
                 "inicio de curso",
                 "curso 2003/04"
             ]
