@@ -2388,6 +2388,17 @@
       "creado": "2020-01-05"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 153,
+      "año": 2020,
+      "mes": 1,
+      "portada": "full-circle-153-en-202001.jpg",
+      "fichero": "full-circle-153-en-202001.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-02"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -6370,6 +6381,17 @@
       "creado": "2019-02-12"
     },
     {
+      "serie": "Open Source Yearbook",
+      "nombre": "Open Source Yearbook",
+      "número": "Año 2019",
+      "año": 2020,
+      "mes": 1,
+      "portada": "open-source-yearbook-en-2019.jpg",
+      "fichero": "open-source-yearbook-en-2019.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-02"
+    },
+    {
       "serie": "Programar",
       "nombre": "Programar",
       "número": 1,
@@ -7143,12 +7165,23 @@
       "serie": "Solo Linux",
       "nombre": "Solo Linux",
       "número": 11,
-      "año": 2020,
-      "mes": 1,
+      "año": 2019,
+      "mes": 12,
       "portada": "solo-linux-11-es-201912.jpg",
       "fichero": "solo-linux-11-es-201912.pdf",
       "idioma": "español",
       "creado": "2020-01-05"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 12,
+      "año": 2020,
+      "mes": 1,
+      "portada": "solo-linux-12-es-202001.jpg",
+      "fichero": "solo-linux-12-es-202001.pdf",
+      "idioma": "español",
+      "creado": "2020-02-02"
     },
     {
       "serie": "Solo WordPress",
@@ -8139,6 +8172,17 @@
       "fichero": "the-magpi-89-en-202001.pdf",
       "idioma": "inglés",
       "creado": "2019-12-25"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 90,
+      "año": 2020,
+      "mes": 2,
+      "portada": "the-magpi-90-en-202002.jpg",
+      "fichero": "the-magpi-90-en-202002.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-02"
     },
     {
       "serie": "The MagPi Essentials",
@@ -10713,6 +10757,17 @@
       "fichero": "wireframe-30-en-202001.pdf",
       "idioma": "inglés",
       "creado": "2020-01-18"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 31,
+      "año": 2020,
+      "mes": 1,
+      "portada": "wireframe-31-en-202001.jpg",
+      "fichero": "wireframe-31-en-202001.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-02"
     },
     {
       "serie": "Wireframe Books",
