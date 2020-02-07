@@ -4800,12 +4800,12 @@
             "origen": "DOGV",
             "fecha": "2019-10-23",
             "vigencia": "vigente",
-            "descripción": "Pruebas para la obtención de títulos Formación Profesional 19/20 (CV)",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2019 (CV)",
             "titulo": "Resolución de 15 de octubre de 2019, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
             "versiones": [
                 {
                     "versión": "original",
-                    "fecha": "2013-06-18",
+                    "fecha": "2019-10-23",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -4833,6 +4833,37 @@
                             "url": "dogv/DOGV-2019-10-15-R-pruebas-titulos-fp-va.rtf"
                         }
                     ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2019-11-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-10-15-R-CO-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/10747&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/10747&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-10-15-R-CO-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-10-15-R-CO-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
                 }
             ],
             "claves": [
@@ -4840,7 +4871,8 @@
                 "resolución",
                 "educación",
                 "formación profesional",
-                "pruebas para la obtención de los títulos"
+                "pruebas para la obtención de los títulos",
+                "curso 2019/20"
             ]
         },
         {
@@ -11751,7 +11783,7 @@
             "origen": "DOCV",
             "fecha": "2012-08-06",
             "vigencia": "derogado",
-            "descripción": "Pluriligüismo (CV)",
+            "descripción": "Plurilingüismo (CV)",
             "titulo": "Decreto 127/2012, de 3 de agosto, del Consell, por el que se regula el plurilingüismo en la enseñanza no universitaria en la Comunitat Valenciana.",
             "versiones": [
                 {
@@ -12509,7 +12541,7 @@
             "origen": "BOE",
             "fecha": "1977-06-15",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica en Facultad de Ciencias Seccción de Físicas ( Universidad de Valencia)",
+            "descripción": "Creación de especialidad Electrónica en Facultad de Ciencias Sección de Físicas ( Universidad de Valencia)",
             "titulo": "Orden de 1 de octubre de 1976 por la que se aprueba el plan de estudios del segundo ciclo de la Facultad de Ciencias de Valencia y Alicante de la Universidad de Valencia.",
             "versiones": [
                 {
@@ -12543,7 +12575,7 @@
             "origen": "BOE",
             "fecha": "1984-08-17",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Seccción de Físicas ( Universidad de Valencia)",
+            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Sección de Físicas ( Universidad de Valencia)",
             "titulo": "Orden de 7 de mayo de 1984 por la que se aprueba la modificación del Plan de Estudios del segundo ciclo de las especialidades de «Física fundamental» y la de «Electricidad, Electrónica e Informática» de la Facultad de Ciencias Físicas de dicha Universidad.",
             "versiones": [
                 {
@@ -12577,7 +12609,7 @@
             "origen": "BOE",
             "fecha": "1985-06-28",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Seccción de Físicas ( Universidad de Valencia)",
+            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Sección de Físicas ( Universidad de Valencia)",
             "titulo": "Orden de 9 de abril de 1985 por la que se corrigen errores de omisión observados en la Orden de 7 de mayo de 1984 («Boletín Oficial del Estado» de 17 de agosto) que modificaba el plan de estudios del segundo ciclo de las especialidades de Física Fundamental y de Electricidad, Electrónica e Informática, de la Facultad de Física de la Universidad de Valencia.",
             "versiones": [
                 {
@@ -12966,7 +12998,7 @@
             "origen": "BOE",
             "fecha": "1970-08-04",
             "vigencia": "derogado",
-            "descripción": "Plan de estudios Programador de Aplicaciones, Programador de Sistemas, Analista de Aplciaciones",
+            "descripción": "Plan de estudios Programador de Aplicaciones, Programador de Sistemas, Analista de Aplicaciones",
             "titulo": "Orden de 29 de julio de 1970 por la que se aprueba el Plan de Estudios del curso de «Programador de Aplicaciones», «Programador de Sistemas» y «Analista de Aplicaciones».",
             "versiones": [
                 {
@@ -13001,7 +13033,7 @@
             "origen": "BOE",
             "fecha": "1971-07-03",
             "vigencia": "derogado",
-            "descripción": "Planes de estudios Programador de Aplicaciones, Programador de Sistemas, Analista de Aplciaciones, Analista de Sistemas y Técnico de Sistemas",
+            "descripción": "Planes de estudios Programador de Aplicaciones, Programador de Sistemas, Analista de Aplicaciones, Analista de Sistemas y Técnico de Sistemas",
             "titulo": "Orden de 24 de junio de 1971 por la que se aprueba el Plan de Estudios del curso de Programador de Aplicaciones, Programador de Sistemas, Analista de Aplicaciones, Analista de Sistemas y Técnico de Sistemas.",
             "versiones": [
                 {
@@ -13071,7 +13103,7 @@
             "origen": "BOE",
             "fecha": "2005-01-25",
             "vigencia": "derogado",
-            "descripción": "Estructura estudios universitarios de Posrado",
+            "descripción": "Estructura estudios universitarios de Posgrado",
             "titulo": "Real Decreto 56/2005, de 21 de enero, por el que se regulan los estudios universitarios oficiales de Posgrado.",
             "versiones": [
                 {
@@ -16098,6 +16130,432 @@
                 "formación profesional",
                 "inicio de curso",
                 "curso 2003/04"
+            ]
+        },
+        {
+            "id": "dogv-2018-09-28-res",
+            "incluido": "2020-02-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-10-10",
+            "vigencia": "vencido",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2019 (CV)",
+            "titulo": "Resolución de 28 de septiembre de 2018, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico o técnica de Formación Profesional y de técnico o técnica superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-10-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-09-28-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2018/9136&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/9136&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-09-28-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-09-28-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2018/19"
+            ]
+        },
+        {
+            "id": "dogv-2017-10-02-res",
+            "incluido": "2020-02-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-10-06",
+            "vigencia": "vencido",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2018 (CV)",
+            "titulo": "Resolución de 2 de octubre de 2017, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de Técnico/a y de Técnico/a Superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-10-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-10-02-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/8733&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/8733&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-10-02-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-10-02-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2017-10-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-10-02-R-CO-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/9684&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/9684&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-10-02-R-CO-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-10-02-R-CO-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2017/18"
+            ]
+        },
+        {
+            "id": "dogv-2016-12-22-res",
+            "incluido": "2020-02-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2016-12-30",
+            "vigencia": "vencido",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2017 (CV)",
+            "titulo": "Resolución de 22 de diciembre de 2016, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-12-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2016-12-22-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2016/10517&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2016/10517&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2016-12-22-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2016-12-22-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2016/17"
+            ]
+        },
+        {
+            "id": "dogv-2015-12-21-res",
+            "incluido": "2020-02-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2016-01-05",
+            "vigencia": "vencido",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2016 (CV)",
+            "titulo": "Resolución de 21 de diciembre de 2015, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de Técnico y de Técnico Superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-01-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2015-12-21-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2016/10517&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2016/10517&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2015-12-21-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2015-12-21-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2015/16"
+            ]
+        },
+        {
+            "id": "dogv-2015-03-05-res",
+            "incluido": "2020-02-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2015-03-18",
+            "vigencia": "vencido",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2015 (CV)",
+            "titulo": "Resolución de 5 de marzo de 2015, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de Técnico y de Técnico Superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-03-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-03-05-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2015/2278&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2015/2278&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-03-05-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-03-05-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2015-03-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-03-05-R-CO-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2015/2574&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2015/2574&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-03-05-R-CO-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-03-05-R-CO-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2014/15"
+            ]
+        },
+        {
+            "id": "dogv-2014-03-17-res",
+            "incluido": "2020-02-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2014-03-25",
+            "vigencia": "vencido",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2014 (CV)",
+            "titulo": "Resolución de 17 de marzo de 2014, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de Técnico y de Técnico Superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-03-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-03-17-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2014/2474&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2014/2474&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-03-17-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-03-17-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2013/14"
+            ]
+        },
+        {
+            "id": "dogv-2013-04-09-res",
+            "incluido": "2020-02-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2013-04-22",
+            "vigencia": "vencido",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2013 (CV)",
+            "titulo": "Resolución de 9 de abril de 2013, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de Técnico y de Técnico Superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-04-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-04-09-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2013/3642&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2013/3642&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-04-09-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-04-09-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2012/13"
             ]
         }
     ]
