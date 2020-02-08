@@ -40,6 +40,8 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2019-12-10. Como en las revistas, la fecha del pie de página tendría que ser la fecha más tardía de las normas de la página.
 
+-   2020-02-08. Chequear que id/origenurl coincide en docv o dogv, boe, etc.
+
 ## Otros
 
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.

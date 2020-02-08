@@ -326,6 +326,7 @@
                             "apartado": {
                                 "titulo": "Formación Profesional",
                                 "referencias": [
+                                    "docv-2008-01-29-o",
                                     "docv-2008-06-27-o",
                                     "docv-2008-07-04-o",
                                     "docv-2010-77-o",
@@ -466,6 +467,7 @@
                                     "boe-2003-827-rd",
                                     "boe-2003-831-rd",
                                     "boe-2003-832-rd",
+                                    "boe-2003-942-rd",
                                     "boe-2004-1318-rd"
                                 ]
                             }
@@ -596,8 +598,8 @@
                                 "referencias": [
                                     "dogv-1984-38-d",
                                     "dogv-1987-95-d",
-                                    "docv-1991-246-d",
-                                    "docv-1992-47-d",
+                                    "dogv-1991-246-d",
+                                    "dogv-1992-47-d",
                                     "dogv-1992-115-d",
                                     "dogv-1993-114-d",
                                     "docv-1995-05-09-o",
@@ -611,8 +613,10 @@
                                     "dogv-2001-105-d",
                                     "dogv-2002-09-12-o",
                                     "dogv-2003-115-d",
+                                    "dogv-2004-03-10-o",
                                     "dogv-2004-05-31-o",
                                     "dogv-2004-09-07-o",
+                                    "dogv-2005-01-27-o",
                                     "dogv-2006-03-20-o",
                                     "docv-2007-33-d",
                                     "docv-2007-04-27-o",
@@ -693,7 +697,7 @@
                                     "docv-2015-06-15-2-res",
                                     "docv-2015-06-26-res",
                                     "docv-2015-07-07-res",
-                                    "dogv-2015-12-21-res"
+                                    "docv-2015-12-21-res"
                                 ]
                             }
                         },
@@ -705,7 +709,7 @@
                                     "docv-2014-07-14-res",
                                     "docv-2014-07-14-2-res",
                                     "docv-2014-07-24-res",
-                                    "dogv-2015-03-05-res"
+                                    "docv-2015-03-05-res"
                                 ]
                             }
                         },
@@ -716,7 +720,7 @@
                                     "docv-2013-06-20-res",
                                     "docv-2013-07-10-res",
                                     "docv-2013-07-11-res",
-                                    "dogv-2014-03-17-res"
+                                    "docv-2014-03-17-res"
                                 ]
                             }
                         },
@@ -727,7 +731,7 @@
                                     "docv-2012-06-15-res",
                                     "docv-2012-07-20-res",
                                     "docv-2012-08-05-res",
-                                    "dogv-2013-04-09-res"
+                                    "docv-2013-04-09-res"
                                 ]
                             }
                         },
@@ -737,7 +741,8 @@
                                 "referencias": [
                                     "docv-2011-04-26-res",
                                     "docv-2011-06-09-res",
-                                    "docv-2011-06-28-res"
+                                    "docv-2011-06-28-res",
+                                    "docv-2012-03-28-res"
                                 ]
                             }
                         },
@@ -747,7 +752,8 @@
                                 "referencias": [
                                     "docv-2010-04-22-res",
                                     "docv-2010-06-30-res",
-                                    "docv-2010-07-29-res"
+                                    "docv-2010-07-29-res",
+                                    "docv-2011-03-17-res"
                                 ]
                             }
                         },
@@ -757,7 +763,8 @@
                                 "referencias": [
                                     "docv-2009-05-28-res",
                                     "docv-2009-06-22-res",
-                                    "docv-2009-07-17-res"
+                                    "docv-2009-07-17-res",
+                                    "docv-2010-03-10-res"
                                 ]
                             }
                         },
@@ -767,7 +774,8 @@
                                 "referencias": [
                                     "docv-2008-04-29-res",
                                     "docv-2008-07-08-res",
-                                    "docv-2008-07-15-res"
+                                    "docv-2008-07-15-res",
+                                    "docv-2009-04-29-res"
                                 ]
                             }
                         },
@@ -777,7 +785,8 @@
                                 "referencias": [
                                     "docv-2007-06-08-res",
                                     "docv-2007-07-12-res",
-                                    "docv-2007-07-25-res"
+                                    "docv-2007-07-25-res",
+                                    "docv-2008-04-18-res"
                                 ]
                             }
                         },
@@ -787,7 +796,8 @@
                                 "referencias": [
                                     "dogv-2006-03-30-res",
                                     "dogv-2006-06-15-res",
-                                    "docv-2006-06-26-res"
+                                    "dogv-2006-06-26-res",
+                                    "docv-2007-03-20-res"
                                 ]
                             }
                         },
@@ -796,8 +806,9 @@
                                 "titulo": "Curso 2005/06",
                                 "referencias": [
                                     "dogv-2005-05-26-res",
-                                    "docv-2005-07-06-res",
-                                    "dogv-2005-07-28-res"
+                                    "dogv-2005-07-06-res",
+                                    "dogv-2005-07-28-res",
+                                    "dogv-2006-03-20-res"
                                 ]
                             }
                         },
@@ -806,8 +817,9 @@
                                 "titulo": "Curso 2004/05",
                                 "referencias": [
                                     "dogv-2004-06-17-res",
-                                    "docv-2004-06-23-res",
-                                    "dogv-2004-06-30-res"
+                                    "dogv-2004-06-23-res",
+                                    "dogv-2004-06-30-res",
+                                    "dogv-2005-03-31-res"
                                 ]
                             }
                         },
@@ -816,8 +828,9 @@
                                 "titulo": "Curso 2003/04",
                                 "referencias": [
                                     "dogv-2003-05-29-res",
-                                    "docv-2003-06-17-res",
-                                    "dogv-2003-07-09-res"
+                                    "dogv-2003-06-17-res",
+                                    "dogv-2003-07-09-res",
+                                    "dogv-2004-04-28-res"
                                 ]
                             }
                         }
