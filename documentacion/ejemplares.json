@@ -7188,11 +7188,22 @@
       "nombre": "Solo WordPress",
       "número": 1,
       "año": 2019,
-      "mes": 10,
+      "mes": 12,
       "portada": "solo-wordpress-01-es-201912.jpg",
       "fichero": "solo-wordpress-01-es-201912.pdf",
       "idioma": "español",
       "creado": "2019-12-04"
+    },
+    {
+      "serie": "Solo WordPress",
+      "nombre": "Solo WordPress",
+      "número": 2,
+      "año": 2020,
+      "mes": 2,
+      "portada": "solo-wordpress-02-es-202002.jpg",
+      "fichero": "solo-wordpress-02-es-202002.pdf",
+      "idioma": "español",
+      "creado": "2020-02-08"
     },
     {
       "serie": "The MagPi",
@@ -10196,6 +10207,17 @@
       "fichero": "pclinuxos-156-en-202001.pdf",
       "idioma": "inglés",
       "creado": "2020-01-05"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 157,
+      "año": 2020,
+      "mes": 2,
+      "portada": "pclinuxos-157-en-202002.jpg",
+      "fichero": "pclinuxos-157-en-202002.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-08"
     },
     {
       "serie": "The R Journal",
