@@ -44,6 +44,15 @@
                                     "celex-2016-12-19-rec"
                                 ]
                             }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Eurpass",
+                                "referencias": [
+                                    "celex-2002-03-11-rec",
+                                    "celex-2018-646-dec"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -203,11 +212,25 @@
                             "apartado": {
                                 "titulo": "Sistema de Formación Profesional para el Empleo",
                                 "referencias": [
-                                    "boe-2008-01-18-rd",
+                                    "boe-2008-34-rd",
                                     "boe-2009-1224-rd",
+                                    "boe-2010-675-rd",
+                                    "boe-2013-189-rd",
                                     "boe-2015-30-l",
                                     "boe-2017-694-rd",
                                     "boe-2019-283-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Certificados de Profesionalidad",
+                                "referencias": [
+                                    "boe-2009-1218-rd",
+                                    "boe-2011-686-rd",
+                                    "boe-2011-1531-rd",
+                                    "boe-2013-628-rd",
+                                    "boe-2014-548-rd"
                                 ]
                             }
                         },
@@ -446,6 +469,8 @@
                                 "titulo": "Certificados de Profesionalidad",
                                 "referencias": [
                                     "boe-1995-797-rd",
+                                    "boe-1997-1597-rd",
+                                    "boe-1997-1598-rd",
                                     "boe-2003-1506-rd"
                                 ]
                             }
@@ -563,12 +588,14 @@
                                     "boe-1991-1701-rd",
                                     "celex-1992-51-d",
                                     "boe-1993-631-rd",
-                                    "boe-2003-1046-rd",
-                                    "boe-2007-395-rd",
-                                    "celex-2008-04-23-rec",
                                     "boe-1994-07-07-o",
+                                    "celex-1998-12-21-dec",
+                                    "boe-2003-1046-rd",
+                                    "celex-2004-2241-dec",
                                     "boe-2004-362-rd",
                                     "boe-2006-1538-rd",
+                                    "boe-2007-395-rd",
+                                    "celex-2008-04-23-rec",
                                     "boe-2008-1892-rd",
                                     "boe-2018-5-rdl"
                                 ]
@@ -861,6 +888,7 @@
                                 "referencias": [
                                     "celex-2000-31-dir",
                                     "boe-2002-34-l",
+                                    "boe-2005-1163-rd",
                                     "boe-2007-56-l"
                                 ]
                             }
@@ -921,6 +949,7 @@
                                     "celex-1995-46-dir",
                                     "boe-2000-03-21-o",
                                     "boe-2003-662-o",
+                                    "boe-2004-292-rd",
                                     "celex-2006-24-dir"
                                 ]
                             }

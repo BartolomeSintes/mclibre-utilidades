@@ -1923,7 +1923,7 @@
                 "real decreto",
                 "trabajo",
                 "formación professional",
-                "certificados profesionalidad"
+                "certificados de profesionalidad"
             ]
         },
         {
@@ -1959,11 +1959,11 @@
                 "real decreto",
                 "trabajo",
                 "formación professional",
-                "certificados profesionalidad"
+                "certificados de profesionalidad"
             ]
         },
         {
-            "id": "boe-2008-01-18-rd",
+            "id": "boe-2008-34-rd",
             "incluido": "2019-12-03",
             "modificado": "",
             "ámbito": "España",
@@ -2011,7 +2011,7 @@
                 "real decreto",
                 "educación",
                 "formación professional",
-                "certificados profesionalidad"
+                "certificados de profesionalidad"
             ]
         },
         {
@@ -3057,7 +3057,7 @@
             "fecha": "2006-04-13",
             "vigencia": "derogado",
             "descripción": "Directiva Conservación datos comunicaciones electrónicas",
-            "titulo": "Directiva 2006/24/CE del Parlamento Europeo y del Consejo, de 15 de marzo de 2006 , sobre la conservación de datos generados o tratados en relación con la prestación de servicios de comunicaciones electrónicas de acceso público o de redes públicas de comunicaciones y por la que se modifica la Directiva 2002/58/CE",
+            "titulo": "Directiva 2006/24/CE del Parlamento Europeo y del Consejo, de 15 de marzo de 2006, sobre la conservación de datos generados o tratados en relación con la prestación de servicios de comunicaciones electrónicas de acceso público o de redes públicas de comunicaciones y por la que se modifica la Directiva 2002/58/CE",
             "versiones": [
                 {
                     "versión": "original",
@@ -3649,7 +3649,7 @@
             "fecha": "2013-08-14",
             "vigencia": "vigente",
             "descripción": "Directiva Ataques contra los sistemas de información",
-            "titulo": "Directiva 2013/40/UE del Parlamento Europeo y del Consejo, de 12 de agosto de 2013 , relativa a los ataques contra los sistemas de información y por la que se sustituye la Decisión marco 2005/222/JAI del Consejo",
+            "titulo": "Directiva 2013/40/UE del Parlamento Europeo y del Consejo, de 12 de agosto de 2013, relativa a los ataques contra los sistemas de información y por la que se sustituye la Decisión marco 2005/222/JAI del Consejo",
             "versiones": [
                 {
                     "versión": "original",
@@ -4593,7 +4593,7 @@
             "fecha": "2008-05-06",
             "vigencia": "derogado",
             "descripción": "Marco Europeo de Cualificaciones",
-            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 23 de abril de 2008 , relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente (Texto pertinente a efectos del EEE)",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 23 de abril de 2008, relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente (Texto pertinente a efectos del EEE)",
             "versiones": [
                 {
                     "versión": "original",
@@ -5198,7 +5198,7 @@
             "fecha": "2006-12-30",
             "vigencia": "vigente",
             "descripción": "Competencias clave",
-            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 18 de diciembre de 2006 , sobre las competencias clave para el aprendizaje permanente",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 18 de diciembre de 2006, sobre las competencias clave para el aprendizaje permanente",
             "versiones": [
                 {
                     "versión": "original",
@@ -17461,6 +17461,585 @@
                 "educación",
                 "formación profesional",
                 "pruebas para la obtención de los títulos"
+            ]
+        },
+        {
+            "id": "boe-1997-1598-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1997-10-31",
+            "vigencia": "derogado",
+            "descripción": "Certificado de profesionalidad Técnico de sistemas microinformáticos",
+            "titulo": "Real Decreto 1598/1997, de 17 de octubre, por el que se establece el certificado de profesionalidad de la ocupación de técnico de sistemas microinformáticos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-10-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1997-1598-RD-cp-tecnico-sistemas-microinformaticos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1997/10/17/1598"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "certificado de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-2010-675-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-12-31",
+            "vigencia": "vigente",
+            "descripción": "Certificados de Profesionalidad",
+            "titulo": "Real Decreto 1675/2010, de 10 de diciembre, por el que se modifica el Real Decreto 34/2008, de 18 de enero, por el que se regulan los certificados de profesionalidad y los reales decretos por los que se establecen certificados de profesionalidad dictados en su aplicación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-12-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-675-RD-certificados-profesionalidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/12/10/1675"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2011-01-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-675-RD-CO-certificados-profesionalidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/12/10/1675/corrigendum/20110108"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "certificados de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-2011-686-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-06-10",
+            "vigencia": "vigente",
+            "descripción": "Certificado de profesionalidad Familia Informática y comunicaciones (6)",
+            "titulo": "Real Decreto 686/2011, de 13 de mayo, por el que se establecen seis certificados de profesionalidad de la familia profesional Informática y comunicaciones que se incluyen en el Repertorio Nacional de certificados de profesionalidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-686-RD-cp-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/05/13/686"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "certificado de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-1997-1597-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1997-11-05",
+            "vigencia": "derogado",
+            "descripción": "Certificado de profesionalidad Programador de aplicaciones informáticas",
+            "titulo": "Real Decreto 1597/1997, de 17 de octubre, por el que se establece el certificado de profesionalidad de la ocupación de programador de aplicaciones informáticas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-11-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1997-1597-RD-cp-programador-aplicaciones-informaticas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1997/10/17/1597"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "certificado de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-2013-189-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2013-03-21",
+            "vigencia": "vigente",
+            "descripción": "Certificados de Profesionalidad",
+            "titulo": "Real Decreto 189/2013, de 15 de marzo, por el que se modifica el Real Decreto 34/2008, de 18 de enero, por el que se regulan los certificados de profesionalidad y los reales decretos por los que se establecen certificados de profesionalidad dictados en su aplicación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-03-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2013-189-RD-certificados-profesionalidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2013/03/15/189"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "certificados de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-2009-1218-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2009-08-05",
+            "vigencia": "vigente",
+            "descripción": "Certificado de profesionalidad Familia Informática y comunicaciones (1)",
+            "titulo": "Real Decreto 1218/2009, de 17 de julio, por el que se establece un certificado de profesionalidad de la familia profesional informática y comunicaciones que se incluye en el Repertorio Nacional de certificados de profesionalidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-1218-RD-cp-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2009/07/17/1218"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "certificado de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-2013-628-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2013-09-19",
+            "vigencia": "vigente",
+            "descripción": "Certificado de profesionalidad Familia Informática y comunicaciones (4)",
+            "titulo": "Real Decreto 628/2013, de 2 de agosto, por el que se establecen cuatro certificados de profesionalidad de la familia profesional Informática y comunicaciones que se incluyen en el Repertorio Nacional de certificados de profesionalidad y se actualizan los certificados de profesionalidad establecidos como anexos I, II, III, IV, V, VI, VII, VIII, IX, X, XI y XII del Real Decreto 1531/2011, de 31 de octubre y como anexos I, II, III, IV, V y VI del Real Decreto 686/2011, de 13 de mayo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-09-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2013-628-RD-cp-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2013/08/02/628"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "certificado de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-2014-548-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-07-19",
+            "vigencia": "vigente",
+            "descripción": "Certificado de profesionalidad Familia Informática y comunicaciones (2)",
+            "titulo": "Real Decreto 548/2014, de 27 de junio, por el que se establecen cinco certificados de profesionalidad de la familia profesional Seguridad y medio ambiente que se incluyen en el Repertorio Nacional de certificados de profesionalidad, y se actualizan dos certificados de profesionalidad de la familia profesional Informática y comunicaciones establecidos en el Real Decreto 1531/2011, de 31 de octubre y en el Real Decreto 686/2011, de 13 de mayo, modificados por el Real Decreto 628/2013, de 2 de agosto.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-07-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-548-RD-cp-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/06/27/548"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "certificado de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-2011-1531-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-12-14",
+            "vigencia": "vigente",
+            "descripción": "Certificado de profesionalidad Familia Informática y comunicaciones (12)",
+            "titulo": "Real Decreto 1531/2011, de 31 de octubre, por el que se establecen doce certificados de profesionalidad de la familia profesional Informática y comunicaciones que se incluyen en el Repertorio Nacional de certificados de profesionalidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-12-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-1531-RD-cp-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/10/31/1531"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "certificado de profesionalidad"
+            ]
+        },
+        {
+            "id": "boe-2005-1163-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-10-08",
+            "vigencia": "vigente",
+            "descripción": "Distintivo público de confianza",
+            "titulo": "Real Decreto 1163/2005, de 30 de septiembre, por el que se regula el distintivo público de confianza en los servicios de la sociedad de la información y de comercio electrónico, así como los requisitos y el procedimiento de concesión.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-10-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-163-RD-distintivo-publico-confianza.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/09/30/1163"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2008-02-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-163-RD-distintivo-publico-confianza-consolidado-2014-05-10.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/09/30/1163/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "sociedad de la información",
+                "comercio electrónico",
+                "distintivo público de confianza"
+            ]
+        },
+        {
+            "id": "boe-2004-292-rd",
+            "incluido": "2020-02-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2004-02-27",
+            "vigencia": "derogado",
+            "descripción": "Distintivo público de confianza",
+            "titulo": "Real Decreto 292/2004, de 20 de febrero, por el que se crea el distintivo público de confianza en los servicios de la sociedad de la información y de comercio electrónico y se regulan los requisitos y procedimiento de concesión.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-02-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-292-RD-distintivo-publico-confianza.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/02/20/292"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "sociedad de la información",
+                "comercio electrónico",
+                "distintivo público de confianza"
+            ]
+        },
+        {
+            "id": "celex-2004-2241-dec",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2004-12-31",
+            "vigencia": "derogado",
+            "descripción": "Europass",
+            "titulo": "Decisión n° 2241/2004/CE del Parlamento Europeo y del Consejo, de 15 de diciembre de 2004, relativa a un marco comunitario único para la transparencia de las cualificaciones y competencias (Europass)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-12-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2004-2241-DEC-eurpass.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dec/2004/2241/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "decisión",
+                "educación",
+                "cualificaciones",
+                "competencias",
+                "europass"
+            ]
+        },
+        {
+            "id": "celex-2018-646-dec",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-05-02",
+            "vigencia": "vigente",
+            "descripción": "Europass",
+            "titulo": "Decisión (UE) 2018/646 del Parlamento Europeo y del Consejo, de 18 de abril de 2018, relativa a un marco común para prestar mejores servicios en materia de capacidades y cualificaciones (Europass) y por la que se deroga la Decisión n.° 2241/2004/CE.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-05-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-646-DEC-eurpass.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dec/2018/646/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "decisión",
+                "educación",
+                "cualificaciones",
+                "competencias",
+                "europass"
+            ]
+        },
+        {
+            "id": "celex-2002-03-11-rec",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2002-03-22",
+            "vigencia": "vigente",
+            "descripción": "Modelo europeo Currículum Vitae",
+            "titulo": "Recomendación de la Comisión, de 11 de marzo de 2002, relativa a un modelo europeo común de currículum vitae",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-03-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2002-03-11-REC-curriculum-vitae.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reco/2002/236/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "currículum vitae"
+            ]
+        },
+        {
+            "id": "celex-1998-12-21-dec",
+            "incluido": "2019-12-14",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1999-01-22",
+            "vigencia": "derogado",
+            "descripción": "Itinerarios europeos de formación en alternancia",
+            "titulo": "Decisión del Consejo de 21 de diciembre de 1998 relativa a la promoción de itinerarios europeos de formación en alternancia incluido el aprendizaje",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-01-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1998-12-21-DEC-itinerarios-europeos-formacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dec/1999/51(1)/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "decisión",
+                "educación",
+                "itinerarios de formación"
             ]
         }
     ]
