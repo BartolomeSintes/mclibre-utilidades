@@ -4060,6 +4060,17 @@
       "creado": "2019-12-14"
     },
     {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
+      "número": 65,
+      "año": 2020,
+      "mes": 2,
+      "portada": "insecure-65-en-202002.jpg",
+      "fichero": "insecure-65-en-202002.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-15"
+    },
+    {
       "serie": "Int. FOSS Law Review",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 1 nº 1",
@@ -6170,6 +6181,17 @@
       "fichero": "odroid-73-es-202001.pdf",
       "idioma": "español",
       "creado": "2020-01-26"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 74,
+      "año": 2020,
+      "mes": 2,
+      "portada": "odroid-74-en-202002.jpg",
+      "fichero": "odroid-74-en-202002.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-15"
     },
     {
       "serie": "Olympiads in informatics",
@@ -10790,6 +10812,17 @@
       "fichero": "wireframe-31-en-202001.pdf",
       "idioma": "inglés",
       "creado": "2020-02-02"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 32,
+      "año": 2020,
+      "mes": 2,
+      "portada": "wireframe-32-en-202002.jpg",
+      "fichero": "wireframe-32-en-202002.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-15"
     },
     {
       "serie": "Wireframe Books",
