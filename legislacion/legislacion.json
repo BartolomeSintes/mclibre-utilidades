@@ -1655,7 +1655,7 @@
             ]
         },
         {
-            "id": "dogv-2019-07-15-res",
+            "id": "dogv-2019-07-08-1-res",
             "incluido": "2019-12-02",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -15239,7 +15239,7 @@
             ]
         },
         {
-            "id": "dogv-2018-06-29-res",
+            "id": "dogv-2018-06-29-1-res",
             "incluido": "2020-01-31",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -15291,7 +15291,7 @@
             ]
         },
         {
-            "id": "dogv-2017-07-19-res",
+            "id": "dogv-2017-07-19-1-res",
             "incluido": "2020-01-31",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -15374,7 +15374,7 @@
             ]
         },
         {
-            "id": "docv-2016-07-07-res",
+            "id": "docv-2016-07-07-1-res",
             "incluido": "2020-01-31",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -15426,7 +15426,7 @@
             ]
         },
         {
-            "id": "docv-2015-06-26-res",
+            "id": "docv-2015-06-26-1-res",
             "incluido": "2020-01-31",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -15478,7 +15478,7 @@
             ]
         },
         {
-            "id": "docv-2014-07-24-res",
+            "id": "docv-2014-07-24-1-res",
             "incluido": "2020-01-31",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -17916,7 +17916,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "eur-lex/EURLEX-2004-2241-DEC-eurpass.pdf"
+                            "url": "eur-lex/EURLEX-2004-2241-DEC-europass.pdf"
                         },
                         {
                             "formato": "web",
@@ -17953,7 +17953,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "eur-lex/EURLEX-2018-646-DEC-eurpass.pdf"
+                            "url": "eur-lex/EURLEX-2018-646-DEC-europass.pdf"
                         },
                         {
                             "formato": "web",
@@ -18040,6 +18040,1035 @@
                 "decisión",
                 "educación",
                 "itinerarios de formación"
+            ]
+        },
+        {
+            "id": "boe-2003-59-l",
+            "incluido": "2020-02-15",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-12-20",
+            "vigencia": "vigente",
+            "descripción": "Firma electrónica",
+            "titulo": "Ley 59/2003, de 19 de diciembre, de firma electrónica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-12-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-59-L-firma-electronica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2003/12/19/59"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-11-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-59-L-firma-electronica-consolidado-2019-11-05.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "firma electrónica"
+            ]
+        },
+        {
+            "id": "boe-1999-14-rdl",
+            "incluido": "2020-02-15",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1999-09-18",
+            "vigencia": "vigente",
+            "descripción": "Firma electrónica",
+            "titulo": "Real Decreto-ley 14/1999, de 17 de septiembre, sobre firma electrónica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-09-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1999-14-RDL-firma-electronica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/1999/09/17/14"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto ley",
+                "firma electrónica"
+            ]
+        },
+        {
+            "id": "celex-1999-93-dir",
+            "incluido": "2020-02-15",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2000-01-19",
+            "vigencia": "derogado",
+            "descripción": "Directiva Firma electrónica",
+            "titulo": "Directiva 1999/93/CE del Parlamento Europeo y del Consejo, de 13 de diciembre de 1999, por la que se establece un marco comunitario para la firma electrónica",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-01-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1999-93-D-firma-electronica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1999/93/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2008-12-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1999-93-D-firma-electronica-consolidado-2008-12-11.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1999/93/2008-12-11"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "firma electrónica"
+            ]
+        },
+        {
+            "id": "celex-2014-910-reg",
+            "incluido": "2020-02-15",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2014-08-28",
+            "vigencia": "vigente",
+            "descripción": "Reglamento identificación electrónica",
+            "titulo": "Reglamento (UE) n ° 910/2014 del Parlamento Europeo y del Consejo, de 23 de julio de 2014 , relativo a la identificación electrónica y los servicios de confianza para las transacciones electrónicas en el mercado interior y por la que se deroga la Directiva 1999/93/CE",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-08-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2014-910-REG-identificacion-electronica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2014/910/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2014-09-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2014-910-REG-identificacion-electronica-consolidado-2014-09-17.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2014/910/2014-09-17"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "firma electrónica"
+            ]
+        },
+        {
+            "id": "boe-1997-488-rdl",
+            "incluido": "2020-02-15",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1997-04-23",
+            "vigencia": "vigente",
+            "descripción": "Seguridad y salud trabajo con pantallas",
+            "titulo": "Real Decreto 488/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-04-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1997-488-RD-seguridad-pantallas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1997/04/14/488"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "seguridad y salud"
+            ]
+        },
+        {
+            "id": "celex-1990-270-dir",
+            "incluido": "2020-02-15",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1990-06-21",
+            "vigencia": "derogado",
+            "descripción": "Directiva Seguridad y salud trabajo con pantallas",
+            "titulo": "Directiva 90/270/CEE del Consejo, de 29 de mayo de 1990, referente a las disposiciones mínimas de seguridad y de salud relativas al trabajo con equipos que incluyen pantallas de visualización (quinta Directiva específica con arreglo al apartado 1 del artículo 16 de la Directiva 89/391/CEE)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1990-06-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1990-270-D-seguridad-pantallas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1990/270/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1990-270-D-seguridad-pantallas-consolidado-2019-07-26.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1990/270/2019-07-26"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "seguridad y salud"
+            ]
+        },
+        {
+            "id": "boe-2015-4-rdl",
+            "incluido": "2020-02-19",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-03-23",
+            "vigencia": "vigente",
+            "descripción": "Sistema de Formación Profesional para el Empleo",
+            "titulo": "Real Decreto-ley 4/2015, de 22 de marzo, para la reforma urgente del Sistema de Formación Profesional para el Empleo en el ámbito laboral.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-03-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-4-RDL-SFPE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2015/03/22/4"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "dogv-2017-04-04-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-04-20",
+            "vigencia": "vigente",
+            "descripción": "Acceso, admisión y matrícula Formación Profesional (CV)",
+            "titulo": "Resolución de 4 de abril de 2017, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se adaptan los anexos de la Orden 18/2016, de 1 de junio, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el acceso, la admisión y matrícula a enseñanzas de grado medio y de grado superior de Formación Profesional en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-04-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-04-04-R-acceso-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/3306&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/3306&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-04-04-R-acceso-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-04-04-R-acceso-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2018-05-15-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-05-25",
+            "vigencia": "vigente",
+            "descripción": "Acceso, admisión y matrícula Formación Profesional (CV)",
+            "titulo": "Resolución de 15 de mayo de 2018, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se adaptan los anexos de la Orden 18/2016, de 1 de junio, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el acceso, la admisión y matrícula a enseñanzas de grado medio y de grado superior de Formación Profesional en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-05-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-05-15-R-acceso-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2018/5103&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/5103&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-05-15-R-acceso-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-05-15-R-acceso-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2019-07-24-1-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-07-30",
+            "vigencia": "vigente",
+            "descripción": "Atención educativa alumnado hospitalizado o convaleciente (CV)",
+            "titulo": "Resolución de 24 de julio de 2019, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la aplicación de los procedimientos de solicitud y desarrollo de la atención educativa al alumnado hospitalizado o convaleciente en su domicilio por enfermedad, previstos en la Orden 20/2019, de 30 de abril, de la Conselleria d'Educació, Investigació, Cultura i Esport, por la que se regula la organización de la respuesta educativa para la inclusión del alumnado en los centros docentes sostenidos con fondos públicos del sistema educativo valenciano.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-07-24-R-atencion-alumnado-hospitalizado.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/7691&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/7691&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-07-24-R-atencion-alumnado-hospitalizado-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-07-24-R-atencion-alumnado-hospitalizado-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "inclusión",
+                "primaria",
+                "secundaria",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2019-07-24-2-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-07-30",
+            "vigencia": "vigente",
+            "descripción": "Procedimientos organización inclusión (CV)",
+            "titulo": "Resolución de 24 de julio de 2019, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la aplicación de algunos de los principales procedimientos previstos en la Orden 20/2019, de 30 de abril, de la Consellería de Educación, Investigación, Cultura y Deporte, por la que se regula la organización de la respuesta educativa para la inclusión del alumnado en los centros docentes sostenidos con fondos públicos del sistema educativo valenciano, y se publican los formularios referidos a la evaluación sociopsicopedagógica, el informe sociospsicopedagógico, el plan de actuación personalizado (PAP) y el dictamen para la escolarización.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-07-24-R-procedimientos-organizacion-inclusion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/7689&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/7689&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-07-24-R-procedimientos-organizacion-inclusion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-07-24-R-procedimientos-organizacion-inclusion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "inclusión",
+                "primaria",
+                "secundaria",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2019-07-08-2-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-07-16",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones programas cualificación básica 19/20 (CV)",
+            "titulo": "Resolución de 8 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2019-2020.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-07-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-07-08-R-programas-cualificacion-basica-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/7129&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/7129&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-07-08-R-programas-cualificacion-basica-1920-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-07-08-R-programas-cualificacion-basica-1920-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2019/20"
+            ]
+        },
+        {
+            "id": "dogv-2018-06-29-2-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-07-06",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones programas cualificación básica 18/19 (CV)",
+            "titulo": "Resolución de 29 de junio de 2018, del secretario autonómico de Educación e Investigación, por la que se dictan instrucciones para la organización y funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2018-2019.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-06-29-R-programas-cualificacion-basica-1819.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2018/6662&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/6662&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-06-29-R-programas-cualificacion-basica-1819-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-06-29-R-programas-cualificacion-basica-1819-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2018/19"
+            ]
+        },
+        {
+            "id": "dogv-2017-07-19-2-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-07-25",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones programas cualificación básica 17/18 (CV)",
+            "titulo": "Resolución de 19 de julio de 2017, de la Secretaria Autonómica de Educación e Investigación, por la que se dictan instrucciones para la organización y funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2017-2018.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-07-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-25-R-programas-cualificacion-basica-1718.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/6794&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/6794&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-07-25-R-programas-cualificacion-basica-1718-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-07-25-R-programas-cualificacion-basica-1718-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2017/18"
+            ]
+        },
+        {
+            "id": "docv-2016-07-07-2-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2016-07-13",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones programas cualificación básica 16/17 (CV)",
+            "titulo": "Resolución de 7 de julio de 2016, de la Dirección General de Política Educativa, de la Dirección General de Centros y Personal Docente y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones para la organización y funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2016-2017.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-07-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-07-07-R-programas-cualificacion-basica-1617.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2016/5455&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2016/5455&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-07-07-R-programas-cualificacion-basica-1617-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-07-07-R-programas-cualificacion-basica-1617-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2016/17"
+            ]
+        },
+        {
+            "id": "docv-2015-06-26-2-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2016-07-13",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones programas cualificación básica 15/16 (CV)",
+            "titulo": "Resolución de 26 de junio de 2015, de la Dirección General de Centros y Personal Docente y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones para la organización y funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2015-2016.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-07-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-06-26-R-programas-cualificacion-basica-1516.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2015/6325&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2015/6325&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-06-26-R-programas-cualificacion-basica-1516-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-06-26-R-programas-cualificacion-basica-1516-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2015/16"
+            ]
+        },
+        {
+            "id": "docv-2014-07-24-2-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2014-07-24",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones programas cualificación básica 15/16 (CV)",
+            "titulo": "Resolución de 24 de julio de 2014, de la Dirección General de Centros y Personal Docente y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones para la organización y funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2014-2015.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-07-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-07-24-R-programas-cualificacion-basica-1415.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2014/7140&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2014/7140&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-07-24-R-programas-cualificacion-basica-1415-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2014-07-24-R-programas-cualificacion-basica-1415-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2014/15"
+            ]
+        },
+        {
+            "id": "dogv-2019-74-d",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-06-18",
+            "vigencia": "vigente",
+            "descripción": "Requisitos y procedimiento de aprobación oferta intergrada FP en IES (CV)",
+            "titulo": "Decreto 74/2019, de 24 de mayo, del Consell, de determinación de los requisitos y el procedimiento de aprobación de la oferta integrada de formación profesional en institutos de educación secundaria autorizados.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-74-D-aprobacion-oferta-integrada-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2014/7140&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2014/7140&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-74-D-aprobacion-oferta-integrada-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-74-D-aprobacion-oferta-integrada-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "oferta integrada"
+            ]
+        },
+        {
+            "id": "dogv-2019-04-02-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-04-04",
+            "vigencia": "vigente",
+            "descripción": "Calendario admisión y matrícula FP 19/20 (CV)",
+            "titulo": "Resolución de 2 de abril de 2019, de la Secretaría Autonómica de Educación e Investigación, por la que se establece el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados con ciclos formativos sostenidos con fondos públicos no universitarios; en los programas formativos de Cualificación Básica financiados con fondos públicos y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidos a personas beneficiarias del Plan de empleo juvenil para el curso 2019-2020.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-04-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-04-02-R-admision-matricula-fp-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2019/3344&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2019/3344&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-04-02-R-admision-matricula-fp-1920-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-04-02-R-admision-matricula-fp-1920-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2019/20"
+            ]
+        },
+        {
+            "id": "dogv-2018-03-29-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-04-09",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 18/19 (CV)",
+            "titulo": "Resolución de 29 de marzo de 2018, de la Secretaría Autonómica de Educación e Investigación, por la que se establece el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados con ciclos formativos sostenidos con fondos públicos no universitarios; en los programas formativos de cualificación básica financiados con fondos públicos y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidas a beneficiarios del Plan de empleo juvenil para el curso 2018-2019.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-04-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-03-29-R-admision-matricula-fp-1819.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2018/3470&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2018/3470&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-03-29-R-admision-matricula-fp-1819-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-03-29-R-admision-matricula-fp-1819-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2018/19"
+            ]
+        },
+        {
+            "id": "dogv-2017-03-31-res",
+            "incluido": "2020-02-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-04-05",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 17/18 (CV)",
+            "titulo": "Resolución de 31 de marzo de 2017, de la Secretaría Autonómica de Educación e Investigación, por la que se establece el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados con ciclos formativos sostenidos con fondos públicos no universitarios; en los programas formativos de cualificación básica financiados con fondos públicos, y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidas a beneficiarios del Plan de empleo juvenil para el curso 2017-2018.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-04-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-03-31-R-admision-matricula-fp-1718.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2017/2837&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2017/2837&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-03-31-R-admision-matricula-fp-1718-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-03-31-R-admision-matricula-fp-1718-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2017/18"
             ]
         }
     ]

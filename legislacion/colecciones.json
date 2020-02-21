@@ -47,7 +47,7 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Eurpass",
+                                "titulo": "Europass",
                                 "referencias": [
                                     "celex-2002-03-11-rec",
                                     "celex-2018-646-dec"
@@ -216,6 +216,7 @@
                                     "boe-2009-1224-rd",
                                     "boe-2010-675-rd",
                                     "boe-2013-189-rd",
+                                    "boe-2015-4-rdl",
                                     "boe-2015-30-l",
                                     "boe-2017-694-rd",
                                     "boe-2019-283-o"
@@ -295,8 +296,10 @@
                             "apartado": {
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
+                                    "dogv-2019-04-02-res",
                                     "dogv-2019-06-10-res",
-                                    "dogv-2019-07-15-res",
+                                    "dogv-2019-07-08-1-res",
+                                    "dogv-2019-07-08-2-res",
                                     "dogv-2019-07-05-res",
                                     "dogv-2019-10-15-res"
                                 ]
@@ -341,7 +344,8 @@
                             "apartado": {
                                 "titulo": "Centros integrados de Formación Profesional",
                                 "referencias": [
-                                    "docv-2008-115-d"
+                                    "docv-2008-115-d",
+                                    "dogv-2019-74-d"
                                 ]
                             }
                         },
@@ -360,6 +364,8 @@
                                     "docv-2013-86-o",
                                     "docv-2014-135-d",
                                     "docv-2016-18-o",
+                                    "dogv-2017-04-04-res",
+                                    "dogv-2018-05-15-res",
                                     "dogv-2018-05-22-res"
                                 ]
                             }
@@ -389,7 +395,9 @@
                                 "titulo": "Inclusión",
                                 "referencias": [
                                     "dogv-2018-104-d",
-                                    "dogv-2019-20-o"
+                                    "dogv-2019-20-o",
+                                    "dogv-2019-07-24-1-res",
+                                    "dogv-2019-07-24-2-res"
                                 ]
                             }
                         },
@@ -686,9 +694,11 @@
                             "apartado": {
                                 "titulo": "Curso 2018/19",
                                 "referencias": [
+                                    "dogv-2018-03-29-res",
                                     "dogv-2018-05-30-res",
                                     "dogv-2018-06-27-res",
-                                    "dogv-2018-06-29-res",
+                                    "dogv-2018-06-29-1-res",
+                                    "dogv-2018-06-29-2-res",
                                     "dogv-2018-09-28-res"
                                 ]
                             }
@@ -697,8 +707,10 @@
                             "apartado": {
                                 "titulo": "Curso 2017/18",
                                 "referencias": [
+                                    "dogv-2017-03-31-res",
                                     "dogv-2017-06-01-res",
-                                    "dogv-2017-07-19-res",
+                                    "dogv-2017-07-19-1-res",
+                                    "dogv-2017-07-19-2-res",
                                     "dogv-2017-07-20-res",
                                     "dogv-2017-07-25-res",
                                     "dogv-2017-10-02-res"
@@ -711,7 +723,8 @@
                                 "referencias": [
                                     "docv-2016-06-07-res",
                                     "docv-2016-07-01-res",
-                                    "docv-2016-07-07-res",
+                                    "docv-2016-07-07-1-res",
+                                    "docv-2016-07-07-2-res",
                                     "dogv-2016-12-22-res"
                                 ]
                             }
@@ -722,7 +735,8 @@
                                 "referencias": [
                                     "docv-2015-06-15-res",
                                     "docv-2015-06-15-2-res",
-                                    "docv-2015-06-26-res",
+                                    "docv-2015-06-26-1-res",
+                                    "docv-2015-06-26-2-res",
                                     "docv-2015-07-07-res",
                                     "docv-2015-12-21-res"
                                 ]
@@ -735,7 +749,8 @@
                                     "docv-2014-05-20-res",
                                     "docv-2014-07-14-res",
                                     "docv-2014-07-14-2-res",
-                                    "docv-2014-07-24-res",
+                                    "docv-2014-07-24-1-res",
+                                    "docv-2014-07-24-2-res",
                                     "docv-2015-03-05-res"
                                 ]
                             }
@@ -866,7 +881,7 @@
                 {
                     "nombre": "listados/otras.html",
                     "titulo": "Legislación informática - Otras normas",
-                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la informática publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
+                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la informática (pero no con la enseñanza de la informática) publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -935,8 +950,20 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Firma electrónica",
+                                "referencias": [
+                                    "boe-1999-14-rdl",
+                                    "boe-2003-59-l",
+                                    "celex-2014-910-reg"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
+                                    "celex-1990-270-dir",
+                                    "boe-1997-488-rdl",
                                     "boe-2005-1542-o"
                                 ]
                             }
@@ -947,6 +974,7 @@
                                 "referencias": [
                                     "boe-1992-5-lo",
                                     "celex-1995-46-dir",
+                                    "celex-1999-93-dir",
                                     "boe-2000-03-21-o",
                                     "boe-2003-662-o",
                                     "boe-2004-292-rd",
