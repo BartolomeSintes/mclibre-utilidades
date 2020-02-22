@@ -3147,6 +3147,61 @@
       "creado": "2020-01-26"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 28,
+      "año": 2020,
+      "mes": 3,
+      "portada": "hackspace-28-en-202003.jpg",
+      "fichero": "hackspace-28-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-22"
+    },
+    {
+      "serie": "HackSpace Books",
+      "nombre": "Wearable Tech Projects",
+      "número": 1,
+      "año": 2019,
+      "mes": 4,
+      "portada": "hackspace-wearable-tech-projects-01-en-201904.jpg",
+      "fichero": "hackspace-wearable-tech-projects-01-en-201904.pdf",
+      "idioma": "inglés",
+      "creado": "2019-05-17"
+    },
+    {
+      "serie": "HackSpace Books",
+      "nombre": "Book of Making",
+      "número": 1,
+      "año": 2018,
+      "mes": 10,
+      "portada": "hackspace-book-of-making-01-en-201810.jpg",
+      "fichero": "hackspace-book-of-making-01-en-201810.pdf",
+      "idioma": "inglés",
+      "creado": "2019-05-17"
+    },
+    {
+      "serie": "HackSpace Books",
+      "nombre": "Get Started with Arduino",
+      "número": 1,
+      "año": 2019,
+      "mes": 11,
+      "portada": "hackspace-get-started-with-arduino-01-201911.jpg",
+      "fichero": "hackspace-get-started-with-arduino-01-201911.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-22"
+    },
+    {
+      "serie": "HackSpace Books",
+      "nombre": "Book of Making",
+      "número": 2,
+      "año": 2019,
+      "mes": 12,
+      "portada": "hackspace-book-of-making-02-en-201912.jpg",
+      "fichero": "hackspace-book-of-making-02-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-22"
+    },
+    {
       "serie": "Hello World",
       "nombre": "Hello World",
       "número": 1,
@@ -8218,7 +8273,7 @@
       "creado": "2020-02-02"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
       "año": 2014,
@@ -8229,7 +8284,7 @@
       "creado": "2015-01-03"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Conquer the command line",
       "número": 1,
       "año": 2015,
@@ -8240,7 +8295,7 @@
       "creado": "2016-07-10"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Make games with Python",
       "número": "",
       "año": 2015,
@@ -8251,7 +8306,7 @@
       "creado": "2016-07-10"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Raspberry Pi Projects Book",
       "número": 1,
       "año": 2015,
@@ -8262,7 +8317,7 @@
       "creado": "2016-07-10"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Experiment with the Sense Hat",
       "número": "",
       "año": 2016,
@@ -8273,7 +8328,7 @@
       "creado": "2016-07-10"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Code music with Somic Pi",
       "número": "",
       "año": 2016,
@@ -8284,7 +8339,7 @@
       "creado": "2016-07-10"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Learn to code with Scratch",
       "número": "",
       "año": 2016,
@@ -8295,7 +8350,7 @@
       "creado": "2016-07-10"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Hacking and making in Minecraft",
       "número": "",
       "año": 2016,
@@ -8306,7 +8361,7 @@
       "creado": "2016-09-08"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Simple electronics with GPIO Zero",
       "número": "",
       "año": 2016,
@@ -8317,7 +8372,7 @@
       "creado": "2016-09-08"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Learn to code with C",
       "número": "",
       "año": 2016,
@@ -8328,7 +8383,7 @@
       "creado": "2016-11-06"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Rapsberry Pi Projects Book",
       "número": 2,
       "año": 2016,
@@ -8339,7 +8394,7 @@
       "creado": "2016-12-26"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "The Camera Module Guide",
       "número": "",
       "año": 2017,
@@ -8350,7 +8405,7 @@
       "creado": "2017-08-26"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Rapsberry Pi Projects Book",
       "número": 3,
       "año": 2017,
@@ -8361,7 +8416,7 @@
       "creado": "2017-11-24"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Create a voice kit",
       "número": "",
       "año": 2017,
@@ -8372,7 +8427,7 @@
       "creado": "2017-11-24"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Raspberry Py Beginners Book",
       "número": "1º ed.",
       "año": 2017,
@@ -8383,7 +8438,7 @@
       "creado": "2018-01-02"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Raspberry Py Beginners Book",
       "número": "2º ed.",
       "año": 2019,
@@ -8394,7 +8449,7 @@
       "creado": "2019-07-04"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Raspberry Py Annual 2018",
       "número": "",
       "año": 2018,
@@ -8405,18 +8460,7 @@
       "creado": "2018-01-02"
     },
     {
-      "serie": "The MagPi Essentials",
-      "nombre": "Book of Making",
-      "número": 1,
-      "año": 2018,
-      "mes": 10,
-      "portada": "hackspace-book-of-making-01-en-201810.jpg",
-      "fichero": "hackspace-book-of-making-01-en-201810.pdf",
-      "idioma": "inglés",
-      "creado": "2019-05-17"
-    },
-    {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Rapsberry Pi Projects Book",
       "número": 4,
       "año": 2018,
@@ -8427,7 +8471,7 @@
       "creado": "2018-11-05"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "The Official Raspberry Pi Beginner's Guide",
       "número": "",
       "año": 2018,
@@ -8438,7 +8482,7 @@
       "creado": "2018-12-08"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Code Club Book of Scratch",
       "número": 1,
       "año": 2018,
@@ -8449,7 +8493,7 @@
       "creado": "2018-12-08"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Conquer the command line",
       "número": 2,
       "año": 2019,
@@ -8460,7 +8504,7 @@
       "creado": "2019-03-02"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "C and GUI Programming",
       "número": "",
       "año": 2019,
@@ -8471,18 +8515,7 @@
       "creado": "2019-05-01"
     },
     {
-      "serie": "The MagPi Essentials",
-      "nombre": "Wearable Tech Projects",
-      "número": 1,
-      "año": 2019,
-      "mes": 4,
-      "portada": "hackspace-wearable-tech-projects-01-en-201904.jpg",
-      "fichero": "hackspace-wearable-tech-projects-01-en-201904.pdf",
-      "idioma": "inglés",
-      "creado": "2019-05-17"
-    },
-    {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Raspberry Pi Beginner’s Guide 3º ed.",
       "número": 3,
       "año": 2019,
@@ -8493,7 +8526,7 @@
       "creado": "2019-12-01"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Get Started with Raspberry Pi",
       "número": 1,
       "año": 2019,
@@ -8504,7 +8537,7 @@
       "creado": "2019-12-01"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Retro Gaming with Raspberry Pi",
       "número": 1,
       "año": 2019,
@@ -8515,7 +8548,7 @@
       "creado": "2019-12-01"
     },
     {
-      "serie": "The MagPi Essentials",
+      "serie": "The MagPi Books",
       "nombre": "Rapsberry Pi Projects Book",
       "número": 5,
       "año": 2019,
@@ -10834,6 +10867,17 @@
       "fichero": "wireframe-books-code-the-classics-en-201912.pdf",
       "idioma": "inglés",
       "creado": "2019-12-14"
+    },
+    {
+      "serie": "Wireframe Books",
+      "nombre": "Wireframe Books",
+      "número": 2,
+      "año": 2020,
+      "mes": 1,
+      "portada": "wireframe-books-build-your-own-first-person-shooter-en-202001.jpg",
+      "fichero": "wireframe-books-build-your-own-first-person-shooter-en-202001.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-15"
     },
     {
       "serie": "ALT Magazine",

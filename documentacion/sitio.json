@@ -100,6 +100,13 @@
       ]
     },
     {
+      "pagina": "revistas-hackspace-books.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "HackSpace Books"
+      ]
+    },
+    {
       "pagina": "revistas-hello-world.html",
       "directorio": "revistas-titulos",
       "revistas": [
@@ -184,10 +191,10 @@
       ]
     },
     {
-      "pagina": "revistas-the-magpi-essentials.html",
+      "pagina": "revistas-the-magpi-books.html",
       "directorio": "revistas-titulos",
       "revistas": [
-        "The MagPi Essentials"
+        "The MagPi Books"
       ]
     },
     {

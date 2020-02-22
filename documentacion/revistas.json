@@ -113,6 +113,22 @@
             "estado": "activa"
         },
         {
+            "nombre-corto": "HackSpace Books",
+            "nombre": "HackSpace Books",
+            "nombre-largo": "Revista HackSpace Books",
+            "web": [
+                [
+                    "https://hackspace.raspberrypi.org/books",
+                    "Libros Revista HackSpace"
+                ]
+            ],
+            "miniaturas": "../img/revistas/hackspace-books/",
+            "archivos": "hackspace-books/",
+            "comentario": "",
+            "abreviatura" : "hackspacebooks",
+            "estado": "activa"
+        },
+        {
             "nombre-corto": "Hello World",
             "nombre": "Hello World",
             "nombre-largo": "Hello World - The computing and digital making magazine for educators",
@@ -298,19 +314,19 @@
             "estado": "activa"
         },
         {
-            "nombre-corto": "The MagPi Essentials",
-            "nombre": "The MagPi Essentials",
-            "nombre-largo": "The MagPi Essentials",
+            "nombre-corto": "The MagPi Books",
+            "nombre": "The MagPi Books",
+            "nombre-largo": "The MagPi Books",
             "web": [
                 [
-                    "https://magpi.raspberrypi.org/",
-                    "Revista The MagPi"
+                    "https://magpi.raspberrypi.org/books",
+                    "Libros Revista The MagPi"
                 ]
             ],
-            "miniaturas": "../img/revistas/the-magpi-essentials/",
-            "archivos": "magpi-essentials/",
+            "miniaturas": "../img/revistas/the-magpi-books/",
+            "archivos": "magpi-books/",
             "comentario": "",
-            "abreviatura" : "magpiessentials",
+            "abreviatura" : "magpibooks",
             "estado": "activa"
         },
         {
@@ -368,7 +384,7 @@
             "web": [
                 [
                     "https://wireframe.raspberrypi.org/books",
-                    "Libros Wireframe"
+                    "Libros Revista Wireframe"
                 ]
             ],
             "miniaturas": "../img/revistas/wireframe-books/",
