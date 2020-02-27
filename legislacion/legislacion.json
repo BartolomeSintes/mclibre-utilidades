@@ -11548,7 +11548,38 @@
                             "url": "dogv/DOCV-2016-7-O-admision-infantil-primaria-eso-bachillerato-va.rtf"
                         }
                     ]
-                }
+                },
+                {
+                "versión": "corrección",
+                "fecha": "2016-06-02",
+                "enlaces": [
+                    {
+                        "formato": "pdf",
+                        "idioma": "es",
+                        "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato.pdf"
+                    },
+                    {
+                        "formato": "web",
+                        "idioma": "es",
+                        "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2016/04/19/7/corrigendum/20160602/"
+                    },
+                    {
+                        "formato": "web",
+                        "idioma": "va",
+                        "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/2016/04/19/7/corrigendum/20160602/"
+                    },
+                    {
+                        "formato": "rtf",
+                        "idioma": "es",
+                        "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                    },
+                    {
+                        "formato": "rtf",
+                        "idioma": "va",
+                        "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                    }
+                ]
+            }
             ],
             "claves": [
                 "comunidad valenciana",
@@ -12249,6 +12280,37 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2007/04/27/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-04-27-O-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-04-27-O-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2007-05-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-04-27-O-CO-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2007/04/27/(1)/corrigendum/20070531/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/2007/04/27/(1)/corrigendum/20070531/"
                         },
                         {
                             "formato": "rtf",
@@ -18820,7 +18882,7 @@
             "origen": "DOCV",
             "fecha": "2014-07-24",
             "vigencia": "vencido",
-            "descripción": "Instrucciones programas cualificación básica 15/16 (CV)",
+            "descripción": "Instrucciones programas cualificación básica 14/15 (CV)",
             "titulo": "Resolución de 24 de julio de 2014, de la Dirección General de Centros y Personal Docente y de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones para la organización y funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2014-2015.",
             "versiones": [
                 {
@@ -19069,6 +19131,500 @@
                 "formación profesional",
                 "admisión y matrícula",
                 "curso 2017/18"
+            ]
+        },
+        {
+            "id": "dogv-1992-06-29-o",
+            "incluido": "2020-02-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1992-07-15",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso Secundaria, Bachillerato y FP 92/93 (CV)",
+            "titulo": "Orden de 29 de junio de 1992, de la Conselleria de Cultura, Educación y Ciencia, por la que se aprueban las instrucciones que regulan la organización y el funcionamiento de los centros docentes que impartan enseñanzas de segundo ciclo de Educación Infantil, Preescolar, Primaria, General Básica, Educación Especial, Secundaria Obligatoria, Bachillerato y Formación Profesional, sostenidos con fondos públicos y dependientes de la Conselleria de Cultura, Educación y Ciencia de la Generalitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-07-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1992-06-29-O-inicio-curso-secundaria-fp-9293.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/portal/ficha_disposicion_pc.jsp?sig=1782/1992&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/portal/ficha_disposicion_pc.jsp?sig=1782/1992&L=0"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1992/93"
+            ]
+        },
+        {
+            "id": "docv-2009-05-04-o",
+            "incluido": "2020-02-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-07-31",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional semipresencial centros privados (CV)",
+            "titulo": "Orden de 4 de mayo de 2009, de la Conselleria de Educación, por la que se regula la autorización y la organización de las enseñanzas de Ciclos Formativos de Formación Profesional Inicial en la modalidad semipresencial o a distancia en centros privados de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "incluido": "2020-02-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-05-04-O-fp-semipresencial-privados.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/05/04/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/2009/05/04/(1)/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-05-04-O-fp-semipresencial-privados-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-05-04-O-fp-semipresencial-privados-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "formación profesional semipresencial"
+            ]
+        },
+        {
+            "id": "celex-2016-06-10-com",
+            "incluido": "2020-02-27",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2016-06-10",
+            "vigencia": "vigente",
+            "descripción": "Nueva Agenda de Capacidades para Europa",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Una Nueva Agenda de Capacidades para Europa: trabajar juntos para reforzar el capital humano, la empleabilidad y la competitividad",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2016-06-10-COM-nueva-agenda-capacidades.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52016DC0381"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nueva agenda de capacidades"
+            ]
+        },
+        {
+            "id": "dogv-1998-27-d",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-03-26",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Decreto 27/1998, de 10 de marzo, del Gobierno Valenciano, por el que se regula la admisión del alumnado en los centros docentes no universitarios de la Comunidad Valenciana sostenidos con fondos públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-03-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-27-D-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-27-D-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-27-D-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-1998-04-03-o",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-04-08",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Orden de 3 de abril de 1998, de la Conselleria de Cultura, Educación y Ciencia, por la que se regula el procedimiento de admisión del alumnado en los centros de Educación Infantil, Educación Primaria y Educación Secundaria de la Comunidad Valenciana, sostenidos con fondos públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-04-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-04-03-O-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1998/04/03/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/1998/04/03/(1)/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-04-03-O-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-04-03-O-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-2001-87-d",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-04-30",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Decreto 87/2001, de 24 de abril, del Gobierno Valenciano, por el que se modifica parcialmente el Decreto 27/1998, de 10 de marzo, que regula la admisión del alumnado en los centros docentes no universitarios de la Comunidad Valenciana sostenidos con fondos públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-04-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-87-D-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2001/04/24/87/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2001/04/24/87/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-87-D-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-87-D-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-2001-05-02-o",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-05-08",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Orden de 2 de mayo de 2001, de la Conselleria de Cultura y Educación, por la que se modifica parcialmente la Orden de 3 de abril de 1998, de la Conselleria de Cultura, Educación y Ciencia, que regula el procedimiento de admisión del alumnado en los centros de Educación Infantil, Educación Primaria y Educación Secundaria de la Comunidad Valenciana, sostenidos con fondos públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-05-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-05-02-O-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1998/04/03/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/1998/04/03/(1)/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-05-02-O-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-05-02-O-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-1994-186-d",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1994-09-27",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO, Bachillerato y FP (CV)",
+            "titulo": "Decreto 186/1994, de 13 de septiembre, del Gobierno Valenciano, por el que se regula la admisión del alumnado en los centros docentes no universitarios de la Comunidad Valenciana sostenidos con fondos públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-09-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1994-186-D-admision-infantil-primaria-eso-bachillerato-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1994/09/13/186/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1994/09/13/186/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1994-186-D-admision-infantil-primaria-eso-bachillerato-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1994-186-D-admision-infantil-primaria-eso-bachillerato-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-1995-02-07-o",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1995-03-01",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Orden de 7 de febrero de 1995, de la Conselleria de Educación y Ciencia, por la que se regula el procedimiento de admisión del alumnado en los centros de Educación Infantil, Educación Primaria y Educación Secundaria de la Comunidad Valenciana, sostenidos con fondos públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-03-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-02-07-O-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1995/02/07/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/1995/02/07/(1)/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-02-07-O-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1995-02-07-O-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-1998-05-20-res",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-06-05",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión FP superior (CV)",
+            "titulo": "Resolución de 20 de mayo de 1998, de la Dirección General de Ordenación e Innovación Educativa i Política Lingüística, por la que se regula el procedimiento de admisión del alumnado en los centros sostenidos con fondos públicos para cursar enseñanzas de Formación Profesional Específica de grado superior y se establecen las normas para la realización de las pruebas de acceso a los ciclos formativos de Formación Profesional Específica de grado medio y grado superior, para el curso 1998-99.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-06-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-05-20-R-admision-fp-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/res/1998/05/20/(2)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/res/1998/05/20/(2)/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-05-20-R-admision-fp-superior.pdf-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-05-20-R-admision-fp-superior.pdf-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "formación profesional"
             ]
         }
     ]

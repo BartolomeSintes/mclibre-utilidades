@@ -38,19 +38,20 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Resoluciones del Consejo",
+                                "titulo": "Europass",
                                 "referencias": [
-                                    "celex-1992-12-03-res",
-                                    "celex-2016-12-19-rec"
+                                    "celex-2002-03-11-rec",
+                                    "celex-2018-646-dec"
                                 ]
                             }
                         },
                         {
                             "apartado": {
-                                "titulo": "Europass",
+                                "titulo": "Otros",
                                 "referencias": [
-                                    "celex-2002-03-11-rec",
-                                    "celex-2018-646-dec"
+                                    "celex-1992-12-03-res",
+                                    "celex-2016-06-10-com",
+                                    "celex-2016-12-19-rec"
                                 ]
                             }
                         }
@@ -356,6 +357,7 @@
                                     "docv-2008-01-29-o",
                                     "docv-2008-06-27-o",
                                     "docv-2008-07-04-o",
+                                    "docv-2009-05-04-o",
                                     "docv-2010-77-o",
                                     "docv-2010-78-o",
                                     "docv-2010-79-o",
@@ -422,6 +424,7 @@
                             "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
+                                    "dogv-1992-06-29-o",
                                     "dogv-1998-06-11-o",
                                     "dogv-2000-07-26-res",
                                     "docv-2009-06-04-o",
@@ -637,14 +640,21 @@
                                     "dogv-1992-47-d",
                                     "dogv-1992-115-d",
                                     "dogv-1993-114-d",
+                                    "dogv-1994-186-d",
+                                    "dogv-1995-02-07-o",
                                     "docv-1995-05-09-o",
                                     "dogv-1995-05-10-o",
                                     "dogv-1995-261-d",
                                     "dogv-1997-32-d",
                                     "dogv-1997-234-d",
+                                    "dogv-1998-27-d",
+                                    "dogv-1998-04-03-o",
+                                    "dogv-1998-05-20-res",
                                     "dogv-1999-86-d",
                                     "dogv-2000-06-29-o",
                                     "dogv-2000-111-d",
+                                    "dogv-2001-87-d",
+                                    "dogv-2001-05-02-o",
                                     "dogv-2001-105-d",
                                     "dogv-2002-09-12-o",
                                     "dogv-2003-115-d",
