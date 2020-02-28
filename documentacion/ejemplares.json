@@ -6249,6 +6249,17 @@
       "creado": "2020-02-15"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 74,
+      "año": 2020,
+      "mes": 2,
+      "portada": "odroid-74-es-202002.jpg",
+      "fichero": "odroid-74-es-202002.pdf",
+      "idioma": "español",
+      "creado": "2020-02-28"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -8271,6 +8282,17 @@
       "fichero": "the-magpi-90-en-202002.pdf",
       "idioma": "inglés",
       "creado": "2020-02-02"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 91,
+      "año": 2020,
+      "mes": 3,
+      "portada": "the-magpi-91-en-202003.jpg",
+      "fichero": "the-magpi-91-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-28"
     },
     {
       "serie": "The MagPi Books",
@@ -10856,6 +10878,17 @@
       "fichero": "wireframe-32-en-202002.pdf",
       "idioma": "inglés",
       "creado": "2020-02-15"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 33,
+      "año": 2020,
+      "mes": 2,
+      "portada": "wireframe-33-en-202002.jpg",
+      "fichero": "wireframe-33-en-202002.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-28"
     },
     {
       "serie": "Wireframe Books",
