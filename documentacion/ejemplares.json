@@ -4126,7 +4126,7 @@
       "creado": "2020-02-15"
     },
     {
-      "serie": "Int. FOSS Law Review",
+      "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 1 nº 1",
       "año": 2009,
@@ -4137,7 +4137,7 @@
       "creado": "2010-10-11"
     },
     {
-      "serie": "Int. FOSS Law Review",
+      "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 1 nº 2",
       "año": 2010,
@@ -4148,7 +4148,7 @@
       "creado": "2010-10-11"
     },
     {
-      "serie": "Int. FOSS Law Review",
+      "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 2 nº 1",
       "año": 2010,
@@ -4159,7 +4159,7 @@
       "creado": "2010-10-11"
     },
     {
-      "serie": "Int. FOSS Law Review",
+      "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 2 nº 2",
       "año": 2011,
@@ -4170,7 +4170,7 @@
       "creado": "2011-02-24"
     },
     {
-      "serie": "Int. FOSS Law Review",
+      "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 3 nº 1",
       "año": 2011,
@@ -4181,7 +4181,7 @@
       "creado": "2012-04-14"
     },
     {
-      "serie": "Int. FOSS Law Review",
+      "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 4 nº 1",
       "año": 2012,
@@ -4192,7 +4192,7 @@
       "creado": "2012-08-07"
     },
     {
-      "serie": "Int. FOSS Law Review",
+      "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 5 nº 1",
       "año": 2013,
@@ -4203,7 +4203,7 @@
       "creado": "2014-01-07"
     },
     {
-      "serie": "Int. FOSS Law Review",
+      "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 5 nº 2",
       "año": 2013,
@@ -4212,6 +4212,72 @@
       "fichero": "ifosslr-5-2-en-201312.pdf",
       "idioma": "inglés",
       "creado": "2014-01-07"
+    },
+    {
+      "serie": "JOLTS",
+      "nombre": "Int. FOSS Law Review",
+      "número": "vol 6 nº 1",
+      "año": 2014,
+      "mes": 12,
+      "portada": "ifosslr-6-1-en-201412.jpg",
+      "fichero": "ifosslr-6-1-en-201412.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-28"
+    },
+    {
+      "serie": "JOLTS",
+      "nombre": "Int. FOSS Law Review",
+      "número": "vol 7 nº 1",
+      "año": 2015,
+      "mes": 12,
+      "portada": "ifosslr-7-1-en-201512.jpg",
+      "fichero": "ifosslr-7-1-en-201512.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-28"
+    },
+    {
+      "serie": "JOLTS",
+      "nombre": "Int. FOSS Law Review",
+      "número": "vol 8 nº 1",
+      "año": 2016,
+      "mes": 12,
+      "portada": "ifosslr-8-1-en-201612.jpg",
+      "fichero": "ifosslr-8-1-en-201612.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-28"
+    },
+    {
+      "serie": "JOLTS",
+      "nombre": "Int. FOSS Law Review",
+      "número": "vol 9 nº 1",
+      "año": 2017,
+      "mes": 12,
+      "portada": "ifosslr-9-1-en-201712.jpg",
+      "fichero": "ifosslr-9-1-en-201712.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-28"
+    },
+    {
+      "serie": "JOLTS",
+      "nombre": "Int. FOSS Law Review",
+      "número": "vol 10 nº 1",
+      "año": 2018,
+      "mes": 12,
+      "portada": "ifosslr-10-1-en-201812.jpg",
+      "fichero": "ifosslr-10-1-en-201812.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-28"
+    },
+    {
+      "serie": "JOLTS",
+      "nombre": "The Journal of Open Law, Technology & Society",
+      "número": "vol 11 nº 1",
+      "año": 2019,
+      "mes": 12,
+      "portada": "jolts-11-1-en-201912.jpg",
+      "fichero": "jolts-11-1-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2020-02-28"
     },
     {
       "serie": "Linux Voice",

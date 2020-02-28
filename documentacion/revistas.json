@@ -161,18 +161,18 @@
             "estado": "activa"
         },
         {
-            "nombre-corto": "Int. FOSS Law Review",
-            "nombre": "International Free and Open Source Software Law Review",
-            "nombre-largo": "International Free and Open Source Software Law Review",
+            "nombre-corto": "JOLTS",
+            "nombre": "The Journal of Open Law, Technology & Society",
+            "nombre-largo": "The Journal of Open Law, Technology & Society",
             "web": [
                 [
                     "https://jolts.world/index.php/jolts",
-                    "Revista International Free and Open Source Software Law Review"
+                    "Revista The Journal of Open Law, Technology & Society"
                 ]
             ],
             "miniaturas": "../img/revistas/ifosslr/",
             "archivos": "ifosslr/",
-            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf.",
+            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf. Antes de 2019 esta revista se llamaba <strong>International Free and Open Source Software Law Review</strong>.",
             "abreviatura" : "ifosslr",
             "estado": "activa"
         },
