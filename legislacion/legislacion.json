@@ -19286,12 +19286,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/spa"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1998/03/10/27/spa"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/vci"
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1998/03/10/27/spa/"
                         },
                         {
                             "formato": "rtf",
@@ -19584,7 +19584,7 @@
             "origen": "DOGV",
             "fecha": "1998-06-05",
             "vigencia": "derogado",
-            "descripción": "Procedimiento de admisión FP superior (CV)",
+            "descripción": "Procedimiento de admisión FP superior y pruebas de acceso (CV)",
             "titulo": "Resolución de 20 de mayo de 1998, de la Dirección General de Ordenación e Innovación Educativa i Política Lingüística, por la que se regula el procedimiento de admisión del alumnado en los centros sostenidos con fondos públicos para cursar enseñanzas de Formación Profesional Específica de grado superior y se establecen las normas para la realización de las pruebas de acceso a los ciclos formativos de Formación Profesional Específica de grado medio y grado superior, para el curso 1998-99.",
             "versiones": [
                 {
@@ -19624,7 +19624,919 @@
                 "orden",
                 "educación",
                 "admisión",
+                "pruebas de acceso",
                 "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2000-03-24-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2000-04-04",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión FP superior y pruebas de acceso (CV)",
+            "titulo": "Orden de 24 de marzo de 2000, de la Conselleria de Cultura, Educación y Ciencia, por la que se regula el procedimiento de admisión del alumnado en los centros sostenidos con fondos públicos para cursar enseñanzas de Formación Profesional Específica de Grado Superior y se establecen las normas para la realización de las pruebas de acceso a los ciclos formativos de Formación Profesional Específica de grado medio y grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-04-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-03-24-O-admision-fp-pruebas-acceso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2000/03/24/(2)/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2000/03/24/(2)/spa/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-03-24-O-admision-fp-pruebas-acceso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2000-03-24-O-admision-fp-pruebas-acceso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "pruebas de acceso",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2001-04-20-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-05-02",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión FP superior (CV)",
+            "titulo": "Orden de 20 de abril de 2001, de la Conselleria de Cultura y Educación, por la que se regula la admisión del alumnado en los centros sostenidos con fondos públicos para cursar enseñanzas de Formación Profesional Específica de Grado Superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-05-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-04-20-O-admision-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2001/04/20/(2)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2001/04/20/(2)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-04-20-O-admision-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-04-20-O-admision-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2002-04-12-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2002-04-23",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión FP superior (CV)",
+            "titulo": "Orden de 12 de abril de 2002, de la Conselleria de Cultura y Educación, por la que se regula la admisión del alumnado en los centros de la Comunidad Valenciana, sostenidos con fondos públicos, para cursar enseñanzas de Formación Profesional Específica de Grado Superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-04-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-04-12-O-admision-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2002/04/12/(1)/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2002/04/12/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-04-12-O-admision-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-04-12-O-admision-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-1998-8-d",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-02-12",
+            "vigencia": "derogado",
+            "descripción": "Ordenación general FP (CV)",
+            "titulo": "Decreto 8/1998, de 3 de febrero, del Gobierno Valenciano, por el que se establece la ordenación general de las enseñanzas de Formación Profesional Específica y las directrices sobre sus títulos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-02-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-8-D-ordenacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1998/02/03/8/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1998/02/03/8/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-8-D-ordenacion-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-8-D-ordenacion-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "ordenación",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2003-03-26-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2003-04-28",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión FP superior (CV)",
+            "titulo": "Orden de 26 de marzo de 2003, de la Conselleria de Cultura y Educación, por la que se regula la admisión del alumnado en los centros de la Comunidad Valenciana, sostenidos con fondos públicos, para cursar enseñanzas de Formación Profesional Específica de Grado Superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-04-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-03-26-O-admision-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2003/03/26/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2003/03/26/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-03-26-O-admision-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2003-03-26-O-admision-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2001-03-14-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-04-02",
+            "vigencia": "derogado",
+            "descripción": "Pruebas de acceso a Ciclos Formativos FP (CV)",
+            "titulo": "Orden de 14 de marzo de 2001, de la Conselleria de Cultura y Educación, por la que se regulan las pruebas de acceso a los ciclos formativos de la Formación Profesional Específica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-04-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-03-14-O-pruebas-acceso-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2001/03/14/(3)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2001/03/14/(3)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-03-14-O-pruebas-acceso-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-03-14-O-pruebas-acceso-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "pruebas de acceso",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-1986-11-d",
+            "incluido": "2020-20-27",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1986-03-17",
+            "vigencia": "derogado",
+            "descripción": "Admisión de alumnos (CV)",
+            "titulo": "Decreto 11/1986, de 10 de febrero, del Consell de la Generalitat Valenciana, por el que se regulan los criterios de admisión de alumnos en los centros docentes no universitarios sostenidos con fondos públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1986-03-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1986-11-D-admision-alumnos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1986/02/10/11/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1986/02/10/11/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1986-11-D-admision-alumnos-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1986-11-D-admision-alumnos-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-1988-03-15-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1988-04-15",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento de admisión de alumnos (CV)",
+            "titulo": "Orden de 15 de marzo de 1988, de la Conselleria de Cultura, Educación y Ciencia, por la que se regula el procedimiento de admisión de alumnos en los centros docentes sostenidos con fondos públicos a partir del curso 1988/89.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1988-04-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1988-03-15-O-admision-alumnos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1988/03/15/(2)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/1988/03/15/(2)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1988-03-15-O-admision-alumnos-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1988-03-15-O-admision-alumnos-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-1995-01-17-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1995-03-01",
+            "vigencia": "derogado",
+            "descripción": "Evaluación en Bachillerato (CV)",
+            "titulo": "Orden de 17 de enero de 1995, de la Conselleria de Educación y Ciencia, sobre evaluación en Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-03-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-01-17-O-evaluacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1995/01/17/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/1995/01/17/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1995-01-17-O-evaluacion-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1995-01-17-O-evaluacion-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "evaluación",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-1998-10-07-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-10-27",
+            "vigencia": "derogado",
+            "descripción": "Evaluación en Bachillerato (CV)",
+            "titulo": "Orden de 7 de octubre de 1998, del conseller de Cultura, Educación y Ciencia, por la que se modifica el anexo n.º III de la Orden de 17 de enero de 1995, de la Conselleria de Educación y Ciencia, sobre evaluación en Bachillerato, y el anexo nº III de la Orden de 10 de mayo de 1995, de la Conselleria de Educación y Ciencia, por la que se establecen las materias optativas de Bachillerato y se regula su currículo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-10-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-10-07-O-evaluacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1998/10/07/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/1998/10/07/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-10-07-O-evaluacion-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-10-07-O-evaluacion-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "evaluación",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-2002-06-18-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2002-07-22",
+            "vigencia": "derogado",
+            "descripción": "Bachillerato (CV)",
+            "titulo": "Orden de 18 de junio de 2002 de la Conselleria de Cultura y Educación, por la cual se modifican parcialmente las Ordenes de 17 de enero de 1995 (DOGV de 1 de marzo); la de 10 de mayo de 1995 (DOGV de 19 de junio); la de 7 de octubre de 1998 (DOGV de 29 de octubre); la de 14 de julio de 1999 (DOGV de 5 de agosto de 1999); la de 9 de julio de 1999 (DOGV de 6 de agosto); la de 3 de mayo de 2000 (DOGV de 19 de mayo); y la de 21 de julio de 2000 (DOGV de 5 de septiembre).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-07-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-18-O-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2002/06/18/(3)/spa/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2002/06/18/(3)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-18-O-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-06-18-O-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2008-11-24-o",
+            "incluido": "2020-20-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-12-15",
+            "vigencia": "derogado",
+            "descripción": "Evaluación Bachillerato (CV)",
+            "titulo": "Orden de 24 de noviembre de 2008, de la Conselleria de Educación, sobre evaluación en bachillerato en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-12-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-11-24-O-evaluacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2008/11/24/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2008/11/24/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-11-24-O-evaluacion-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-11-24-O-evaluacion-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "evaluación",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-1994-174-d",
+            "incluido": "2020-20-29",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1994-09-29",
+            "vigencia": "derogado",
+            "descripción": "Currículo del Bachillerato (CV)",
+            "titulo": "Decreto 174/1994, de 19 de agosto, del Gobierno Valenciano, por el que se establece el currículo del Bachillerato en la Comunidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-09-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1994-174-D-curriculo-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1994/08/19/174/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1994/08/19/174/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1994-174-D-curriculo-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1994-174-D-curriculo-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "currículo",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2011-27-o",
+            "incluido": "2020-20-29",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2011-05-13",
+            "vigencia": "derogado",
+            "descripción": "Organización Bachillerato (CV)",
+            "titulo": "Orden 27/2011, de 5 de mayo, de la Conselleria de Educación, por la que se modifica parcialmente la Orden de 19 de junio de 2009, de la Conselleria de Educación, por la que se regula la organización y el funcionamiento del Bachillerato diurno, nocturno y a distancia en la Comunitat Valenciana, y la Orden 71/2010, de 15 de julio, de la Conselleria de Educación, por la que se regula el procedimiento para solicitar la convalidación y exención de materias en la Educación Secundaria Obligatoria y el Bachillerato por parte del alumnado que cursa simultáneamente enseñanzas profesionales de Música y de Danza o bien que acredita la condición de deportista de alto nivel, de alto rendimiento o de élite en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-05-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-27-O-organizacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2011/05/05/27/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2011/05/05/27/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-27-O-organizacion-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-27-O-organizacion-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2012-50-o",
+            "incluido": "2020-20-29",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-08-03",
+            "vigencia": "derogado",
+            "descripción": "Evaluación Bachillerato (CV)",
+            "titulo": "Orden 50/2012, de 26 de julio, de la Conselleria de Educación, Formación y Empleo, por la que se modifica la Orden de 19 de junio de 2009, de la Conselleria de Educación, por la que se regula la organización y el funcionamiento del Bachillerato diurno, nocturno y a distancia en la Comunitat Valenciana, y la Orden de 24 de noviembre de 2008, de la Conselleria de Educación, sobre evaluación en Bachillerato en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-08-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-50-O-evaluacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/07/26/50/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2012/07/26/50/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-50-O-evaluacion-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-50-O-evaluacion-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "docv-2009-06-19-o",
+            "incluido": "2020-20-29",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2009-06-30",
+            "vigencia": "derogado",
+            "descripción": "Organización Bachillerato adultos (CV)",
+            "titulo": "Orden de 19 de junio de 2009, de la Conselleria de Educación, por la que se regula la organización y el funcionamiento del Bachillerato diurno, nocturno y a distancia en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-06-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-06-19-O-bachillerato-adultos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/06/19/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2009/06/19/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-06-19-O-bachillerato-adultos-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-06-19-O-bachillerato-adultos-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-2000-07-21-o",
+            "incluido": "2020-20-29",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2000-09-05",
+            "vigencia": "derogado",
+            "descripción": "Ordenación Bachillerato (CV)",
+            "titulo": "Orden de 21 de julio de 2000, de la Conselleria de Cultura y Educación, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros autorizados para implantar enseñanzas de Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-09-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-07-21-O-ordenacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2000/07/21/(1)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2000/07/21/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-07-21-O-ordenacion-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2000-07-21-O-ordenacion-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-1999-07-14-o",
+            "incluido": "2020-20-29",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1999-08-05",
+            "vigencia": "derogado",
+            "descripción": "Escolarización superdotados (CV)",
+            "titulo": "Orden de 14 de julio de 1999, de la Conselleria de Cultura, Educación y Ciencia, por la que se regulan las condiciones y el procedimiento para flexibilizar, excepcionalmente, la duración del período de escolarización obligatoria de los alumnos y alumnas que tienen necesidades educativas especiales derivadas de condiciones personales de sobredotación intelectual.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1999-07-14-O-escolarizacion-superdotados.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/1999/07/14/(2)/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/1999/07/14/(2)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1999-07-14-O-escolarizacion-superdotados-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1999-07-14-O-escolarizacion-superdotados-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "superdotados"
             ]
         }
     ]
