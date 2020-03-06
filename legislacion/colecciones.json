@@ -684,9 +684,10 @@
                                     "docv-2008-102-d",
                                     "docv-2008-11-24-o",
                                     "docv-2009-03-31-o",
+                                    "docv-2009-05-19-2-o",
                                     "docv-2009-06-19-o",
                                     "docv-2009-08-17-1-res",
-                                    "docv-2009-05-19-o",
+                                    "docv-2009-05-19-1-o",
                                     "docv-2009-08-17-2-res",
                                     "docv-2010-09-15-res",
                                     "docv-2011-19-o",
@@ -749,7 +750,9 @@
                             "apartado": {
                                 "titulo": "Curso 2016/17",
                                 "referencias": [
+                                    "docv-2016-06-01-res",
                                     "docv-2016-06-07-res",
+                                    "docv-2016-06-27-res",
                                     "docv-2016-07-01-res",
                                     "docv-2016-07-07-1-res",
                                     "docv-2016-07-07-2-res",
@@ -787,6 +790,7 @@
                             "apartado": {
                                 "titulo": "Curso 2013/14",
                                 "referencias": [
+                                    "docv-2013-05-31-res",
                                     "docv-2013-06-20-res",
                                     "docv-2013-07-10-res",
                                     "docv-2013-07-11-res",
@@ -799,6 +803,7 @@
                                 "titulo": "Curso 2012/13",
                                 "referencias": [
                                     "docv-2012-06-15-res",
+                                    "docv-2012-06-18-res",
                                     "docv-2012-07-20-res",
                                     "docv-2012-08-05-res",
                                     "docv-2013-04-09-res"
@@ -821,6 +826,7 @@
                                 "titulo": "Curso 2010/11",
                                 "referencias": [
                                     "docv-2010-04-22-res",
+                                    "docv-2010-05-18-res",
                                     "docv-2010-06-30-res",
                                     "docv-2010-07-29-res",
                                     "docv-2011-03-17-res"

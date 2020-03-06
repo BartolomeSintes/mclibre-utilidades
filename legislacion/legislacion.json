@@ -11861,7 +11861,7 @@
             ]
         },
         {
-            "id": "docv-2009-05-19-o",
+            "id": "docv-2009-05-19-1-o",
             "incluido": "2020-01-10",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -20537,6 +20537,379 @@
                 "orden",
                 "educación",
                 "superdotados"
+            ]
+        },
+        {
+            "id": "docv-2016-06-01-res",
+            "incluido": "2020-03-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2016-06-03",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 16/17 (CV)",
+            "titulo": "Resolución de 1 de junio de 2016, de la Secretaría Autonómica de Educación e Investigación, por la que se establece el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados concertados no universitarios; en los programas formativos de Cualificación Básica financiados con fondos públicos, y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidas a beneficiarios del Plan de empleo juvenil para el curso 2016-2017.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-06-01-R-admision-matricula-fp-1617.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2016/4058&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2016/4058&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-06-01-R-admision-matricula-fp-1617-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-06-01-R-admision-matricula-fp-1617-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2016/17"
+            ]
+        },
+        {
+            "id": "docv-2016-06-27-res",
+            "incluido": "2020-03-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2016-07-04",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 16/17 (CV)",
+            "titulo": "Resolución de 27 de junio de 2016, del secretario autonómico de Educación e Investigación, por la que se modifica parcialmente la Resolución de 1 de junio de 2016, de la Secretaría Autonómica de Educación e Investigación por la que se establece el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados concertados no universitarios, en los programas formativos de cualificación básica financiados con fondos públicos y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana dirigidas a beneficiarios del Plan de Empleo Juvenil para el curso 2016-2017.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-07-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-06-27-R-admision-matricula-fp-1617.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2016/5092&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2016/5092&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-06-27-R-admision-matricula-fp-1617-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-06-27-R-admision-matricula-fp-1617-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2016/17"
+            ]
+        },
+        {
+            "id": "docv-2013-05-31-res",
+            "incluido": "2020-03-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2013-06-13",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 13/14 (CV)",
+            "titulo": "Resolución de 31 de mayo de 2013, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se desarrollan los procedimientos de acceso, admisión y matrícula para el alumnado que curse enseñanzas de Formación Profesional del sistema educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-06-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-05-31-R-admision-matricula-fp-1314.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2013/6161&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2013/6161&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2015-05-31-R-admision-matricula-fp-1314-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2015-05-31-R-admision-matricula-fp-1314-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2013/14"
+            ]
+        },
+        {
+            "id": "docv-2012-06-18-res",
+            "incluido": "2020-03-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-06-21",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 12/13 (CV)",
+            "titulo": "Resolución de 18 de junio de 2012, de la Dirección General de Formación y Cualificación Profesional, por la que se desarrollan los procedimientos de acceso, admisión y matrícula para el alumnado que curse enseñanzas de formación profesional del sistema educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-06-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-06-18-R-admision-matricula-fp-1213.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2012/6105&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2012/6105&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-06-18-R-admision-matricula-fp-1213-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-06-18-R-admision-matricula-fp-1213-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2012-09-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-06-18-R-CO-admision-matricula-fp-1213.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2012/8254&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2012/8254&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-06-18-R-CO-admision-matricula-fp-1213-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-06-18-R-CO-admision-matricula-fp-1213-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2012/13"
+            ]
+        },
+        {
+            "id": "docv-2010-05-18-res",
+            "incluido": "2020-03-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2010-05-25",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 10/11 (CV)",
+            "titulo": "Resolución de 18 de mayo de 2010, de las Direcciones Generales de Ordenación y Centros Docentes y de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional, por la que se adaptan los anexos I y II de la Orden de 19 de mayo de 2009, de la Conselleria de Educación, por la que se regula la admisión del alumnado para cursar enseñanzas de Formación Profesional de Grado Superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-05-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-05-18-R-admision-matricula-fp-1011.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2010/5942&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2010/5942&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2010-05-18-R-admision-matricula-fp-1011-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2010-05-18-R-admision-matricula-fp-1011-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2010/11"
+            ]
+        },
+        {
+            "id": "docv-2009-05-19-2-o",
+            "incluido": "2020-03-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2009-06-01",
+            "vigencia": "vencido",
+            "descripción": "Admisión Formación Profesional de Grado Superior (CV)",
+            "titulo": "Orden de 19 de mayo de 2009, de la Conselleria de Educación, por la que se regula la admisión del alumnado en los centros docentes de la Comunitat Valenciana, públicos y privados con enseñanzas concertadas, para cursar enseñanzas de Formación Profesional de Grado Superior. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-06-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-05-19-O-admision-fp-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2009/6186&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2009/6186&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-05-19-O-admision-fp-superior-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-05-19-O-admision-fp-superior-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2009-06-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-05-19-O-CO-admision-fp-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2009/6407&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2009/6407&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2009-05-19-O-CO-admision-fp-superior-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2009-05-19-O-CO-admision-fp-superior-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión"
             ]
         }
     ]
