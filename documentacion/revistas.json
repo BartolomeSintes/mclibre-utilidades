@@ -65,6 +65,22 @@
             "estado": "activa"
         },
         {
+            "nombre-corto": "Edutec",
+            "nombre": "Edutec",
+            "nombre-largo": "Edutec - Revista Electrónica de Tecnología Educativa",
+            "web": [
+                [
+                    "https://www.edutec.es/revista/index.php/edutec-e",
+                    "Revista Edutec"
+                ]
+            ],
+            "miniaturas": "../img/revistas/edutec/",
+            "archivos": "edutec/",
+            "comentario": "",
+            "abreviatura" : "edutec",
+            "estado": "activa"
+        },
+        {
             "nombre-corto": "Full Circle",
             "nombre": "Full Circle",
             "nombre-largo": "Full Circle - The independent magazine for the Ubuntu Linux community",

@@ -79,6 +79,13 @@
       ]
     },
     {
+      "pagina": "revistas-edutec.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "Edutec"
+      ]
+    },
+    {
       "pagina": "revistas-full-circle.html",
       "directorio": "revistas-titulos",
       "revistas": [
