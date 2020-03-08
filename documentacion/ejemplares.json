@@ -6425,6 +6425,17 @@
       "creado": "2020-02-28"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 75,
+      "año": 2020,
+      "mes": 3,
+      "portada": "odroid-75-en-202003.jpg",
+      "fichero": "odroid-75-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-08"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -10471,6 +10482,17 @@
       "fichero": "pclinuxos-157-en-202002.pdf",
       "idioma": "inglés",
       "creado": "2020-02-08"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 158,
+      "año": 2020,
+      "mes": 3,
+      "portada": "pclinuxos-158-en-202003.jpg",
+      "fichero": "pclinuxos-158-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-08"
     },
     {
       "serie": "The R Journal",
