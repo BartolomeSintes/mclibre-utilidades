@@ -9508,11 +9508,11 @@
             ]
         },
         {
-            "id": "docv-1995-05-09-o",
+            "id": "dogv-1995-05-09-o",
             "incluido": "2019-12-30",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOCV",
+            "origen": "DOGV",
             "fecha": "1995-07-05",
             "vigencia": "derogado",
             "descripción": "Currículo de optativas de ESO (CV)",
@@ -15202,7 +15202,7 @@
             "origen": "DOGV",
             "fecha": "2004-07-21",
             "vigencia": "vencido",
-            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 05/06 (CV)",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 04/05 (CV)",
             "titulo": "Resolución de 30 de junio de 2004, de la Dirección General de Enseñanza y de la Dirección General de Personal Docente, por la que se prorroga y completa para el curso 2004-2005 la Resolución de 15 de junio de 2001, completada por las resoluciones de 26 de junio de 2002 y de 9 de julio de 2003, por las que se dictaban instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de Educación Secundaria.",
             "versiones": [
                 {
@@ -15255,7 +15255,7 @@
             "origen": "DOGV",
             "fecha": "2003-07-18",
             "vigencia": "vencido",
-            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 05/06 (CV)",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 03/04 (CV)",
             "titulo": "Resolución de 9 de julio de 2003, de la Secretaría Autonómica de Educación, por la que se prorroga y completa para el curso 2003-2004 la Resolución de 15 de junio de 2001, completada por la Resolución de 26 de junio de 2002, por las que se dictaban instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de Educación Secundaria.",
             "versiones": [
                 {
@@ -20240,7 +20240,7 @@
         },
         {
             "id": "dogv-1994-174-d",
-            "incluido": "2020-20-29",
+            "incluido": "2020-02-29",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
@@ -20291,7 +20291,7 @@
         },
         {
             "id": "docv-2011-27-o",
-            "incluido": "2020-20-29",
+            "incluido": "2020-02-29",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
@@ -20341,7 +20341,7 @@
         },
         {
             "id": "docv-2012-50-o",
-            "incluido": "2020-20-29",
+            "incluido": "2020-02-29",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
@@ -20391,7 +20391,7 @@
         },
         {
             "id": "docv-2009-06-19-o",
-            "incluido": "2020-20-29",
+            "incluido": "2020-02-29",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
@@ -20441,7 +20441,7 @@
         },
         {
             "id": "dogv-2000-07-21-o",
-            "incluido": "2020-20-29",
+            "incluido": "2020-02-29",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
@@ -20491,7 +20491,7 @@
         },
         {
             "id": "dogv-1999-07-14-o",
-            "incluido": "2020-20-29",
+            "incluido": "2020-02-29",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
@@ -20839,7 +20839,7 @@
             "fecha": "2009-06-01",
             "vigencia": "vencido",
             "descripción": "Admisión Formación Profesional de Grado Superior (CV)",
-            "titulo": "Orden de 19 de mayo de 2009, de la Conselleria de Educación, por la que se regula la admisión del alumnado en los centros docentes de la Comunitat Valenciana, públicos y privados con enseñanzas concertadas, para cursar enseñanzas de Formación Profesional de Grado Superior. ",
+            "titulo": "Orden de 19 de mayo de 2009, de la Conselleria de Educación, por la que se regula la admisión del alumnado en los centros docentes de la Comunitat Valenciana, públicos y privados con enseñanzas concertadas, para cursar enseñanzas de Formación Profesional de Grado Superior.",
             "versiones": [
                 {
                     "versión": "original",
@@ -20906,10 +20906,951 @@
             ],
             "claves": [
                 "comunidad valenciana",
-                "resolución",
+                "orden",
                 "educación",
                 "formación profesional",
                 "admisión"
+            ]
+        },
+        {
+            "id": "docv-2007-05-14-o",
+            "incluido": "2020-03-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2007-05-29",
+            "vigencia": "vencido",
+            "descripción": "Admisión Formación Profesional de Grado Superior (CV)",
+            "titulo": "Orden de 14 de mayo de 2007, de la Conselleria de Cultura, Educación y Deporte, por la que se regula la admisión del alumnado en los centros docentes de la Comunitat Valenciana, sostenidos con fondos públicos, para cursar enseñanzas de Formación Profesional de grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-05-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-05-14-O-admision-fp-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2007/6940"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2007/6940"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-05-14-O-admision-fp-superior-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-05-14-O-admision-fp-superior-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2007-05-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-05-14-O-CO-1-admision-fp-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2007/7075&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2007/7075&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-05-14-O-CO-1-admision-fp-superior-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-05-14-O-CO-1-admision-fp-superior-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2007-06-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-05-14-O-CO-2-admision-fp-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2007/7746&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2007/7746&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2007-05-14-O-CO-2-admision-fp-superior-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2007-05-14-O-CO-2-admision-fp-superior-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2004-04-26-o",
+            "incluido": "2020-03-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2004-05-05",
+            "vigencia": "vencido",
+            "descripción": "Admisión Formación Profesional de Grado Superior (CV)",
+            "titulo": "Orden de 26 de abril de 2004, de la Conselleria de Cultura, Educación y Deporte, por la que se regula la admisión del alumnado en los centros docentes de la Comunidad Valenciana, sostenidos con fondos públicos, para cursar enseñanzas de Formación Profesional Específica de Grado Superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-05-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-04-26-O-admision-fp-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2004/4384"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2004/4384"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-04-26-O-admision-fp-superior-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2004-04-26-O-admision-fp-superior-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2004-04-29-res",
+            "incluido": "2020-03-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2004-05-11",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 04/05 (CV)",
+            "titulo": "Resolución de 29 de abril de 2004, de la Dirección General de Enseñanza, por la que se establece el calendario y el procedimiento para la inscripción, admisión y matriculación del alumnado en los ciclos formativos de grado superior, para el curso 2004/2005.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-05-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-04-29-R-admision-matricula-fp-superior-0405.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2004/4769"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2004/4769"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2004-04-29-R-admision-matricula-fp-superior-0405-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2004-04-29-R-admision-matricula-fp-superior-0405-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2004/05"
+            ]
+        },
+        {
+            "id": "dogv-2005-04-28-res",
+            "incluido": "2020-03-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2005-05-06",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP 05/06 (CV)",
+            "titulo": "Resolución de 28 de abril de 2005, de la Dirección General de Enseñanza, por la que se establece el calendario y el procedimiento para la inscripción, admisión y matriculación del alumnado en los ciclos formativos de grado superior, para el curso 2005/2006.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-05-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2005-04-28-R-admision-matricula-fp-superior-0506.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2005/4861"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2005/4861"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2005-04-28-R-admision-matricula-fp-superior-0506-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2005-04-28-R-admision-matricula-fp-superior-0506-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2005/06"
+            ]
+        },
+        {
+            "id": "dogv-2003-03-27-res",
+            "incluido": "2020-03-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2003-05-07",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP superior 03/04 (CV)",
+            "titulo": "Resolución de 27 de marzo de 2003, de las direcciones generales de Centros Docentes y de Ordenación e Innovación Educativa y Política Lingüística, por la que se establece el calendario y el procedimiento para la inscripción, admisión y matriculación del alumnado en los ciclos formativos de grado superior, para el curso 2003/2004.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-05-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-03-27-R-admision-matricula-fp-superior-0304.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2003/4978"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2003/4978"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2003-03-27-R-admision-matricula-fp-superior-0304-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2003-03-27-R-admision-matricula-fp-superior-0304-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2003/04"
+            ]
+        },
+        {
+            "id": "dogv-2002-04-16-res",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2002-04-26",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP superior 02/03 (CV)",
+            "titulo": "Resolución de 16 de abril de 2002, de las Direcciones Generales de Centros Docentes y de Ordenación e Innovación Educativa y Política Lingüística por la que se establece el calendario y el procedimiento para la inscripción, admisión y matriculación del alumnado en los ciclos formativos de grado superior, para el curso 2002/2003.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-04-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-04-16-R-admision-matricula-fp-superior-0203.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2002/4338"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2002/4338"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-04-16-R-admision-matricula-fp-superior-0203-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-04-16-R-admision-matricula-fp-superior-0203-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2002/03"
+            ]
+        },
+        {
+            "id": "dogv-2001-04-24-res",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-05-04",
+            "vigencia": "vencido",
+            "descripción": "Calendario admisión y matrícula FP superior 01/02 (CV)",
+            "titulo": "Resolución de 24 de abril de 2001, de las Direcciones Generales de Centros Docentes y de Ordenación e Innovación Educativa y Política Lingüística por la que se establece el calendario y el procedimiento para la inscripción, admisión y matriculación del alumnado en los ciclos formativos de grado superior, para el curso 2001/2002.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-05-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-04-24-R-admision-matricula-fp-superior-0102.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2001/4122"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2001/4122"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-04-24-R-admision-matricula-fp-superior-0102-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-04-24-R-admision-matricula-fp-superior-0102-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "admisión y matrícula",
+                "curso 2001/02"
+            ]
+        },
+        {
+            "id": "dogv-2002-04-23-res",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2002-05-10",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2002/03 (CV)",
+            "titulo": "Resolución de 23 de abril de 2002, de la Dirección General de Centros Docentes, por la que se fija el calendario escolar del curso académico 2002/2003.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-05-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-04-23-R-calendario-escolar-0203.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2002/4775"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2002/4775"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-04-23-R-calendario-escolar-0203-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-04-23-R-calendario-escolar-0203-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2002/03"
+            ]
+        },
+        {
+            "id": "dogv-2002-06-26-1-res",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2002-07-10",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 02/03 (CV)",
+            "titulo": "Resolución de 26 de junio de 2002, de la Dirección General de Ordenación, Innovación Educativa y Política Lingüística, por la que se prorroga y completa para el curso 2002-2003 la Resolución de 14 de junio de 2001 por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros de la Comunidad Valenciana que impartan ciclos formativos de Formación Profesional Específica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-07-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-26-R-inicio-curso-fp-0203.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2002/7437"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2002/7437"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-26-R-inicio-curso-fp-0203-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-06-26-R-inicio-curso-fp-0203-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2002/03"
+            ]
+        },
+        {
+            "id": "dogv-2001-06-14-res",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-06-29",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 01/02 (CV)",
+            "titulo": "Resolución de 14 de junio de 2001, de la Dirección General de Ordenación e Innovación Educativa y Política Lingüística, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros de la Comunidad Valenciana que durante el curso 2001-2002 impartan ciclos formativos de Formación Profesional Específica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-06-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-06-14-R-inicio-curso-fp-0102.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2001/6305"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2001/6305"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-06-14-R-inicio-curso-fp-0102-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-06-14-R-inicio-curso-fp-0102-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2002/03"
+            ]
+        },
+        {
+            "id": "dogv-2001-05-04-res",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-05-10",
+            "vigencia": "vencido",
+            "descripción": "Calendario escolar 2001/02 (CV)",
+            "titulo": "Resolución de 4 de mayo de 2001, de la Dirección General de Centros Docentes, por la que se fija el calendario escolar del curso académico 2001/2002.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-05-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-05-04-R-calendario-escolar-0102.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2001/4298"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2001/4298"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-05-04-R-calendario-escolar-0102-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-05-04-R-calendario-escolar-0102-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2001/02"
+            ]
+        },
+        {
+            "id": "dogv-2002-06-26-2-res",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2002-07-09",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 02/03 (CV)",
+            "titulo": "Resolución de 26 de junio de 2002, de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística, y de Personal, por la que se prorroga y completa para el curso 2002-2003 la Resolución de 15 de junio de 2001, por la que se dictaban instrucciones en materia de ordenación académica y de organización de la actividad docente en los centros de Educación Secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-07-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-26-R-inicio-curso-secundaria-0203.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2002/7474"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2002/7474"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-26-R-inicio-curso-secundaria-0203-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-06-26-R-inicio-curso-secundaria-0203-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2002-07-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-26-R-CO-inicio-curso-secundaria-0203.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2002/7647"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2002/7647"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-26-R-CO-inicio-curso-secundaria-0203-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-06-26-R-CO-inicio-curso-secundaria-0203-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2002/03"
+            ]
+        },
+        {
+            "id": "dogv-2001-06-15-res",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-06-29",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 01/02 (CV)",
+            "titulo": "Resolución de 15 de junio de 2001, de las Direcciones Generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros de Educación Secundaria para el curso 2001-2002.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-06-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-06-15-R-inicio-curso-secundaria-0102.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2001/6303"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2001/6303"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-06-15-R-inicio-curso-secundaria-0102-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-06-15-R-inicio-curso-secundaria-0102-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2002-07-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-26-R-CO-inicio-curso-secundaria-0203.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2002/7647"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2002/7647"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2002-06-26-R-CO-inicio-curso-secundaria-0203-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2002-06-26-R-CO-inicio-curso-secundaria-0203-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2001/02"
+            ]
+        },
+        {
+            "id": "boe-1988-5-l",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-03-07",
+            "vigencia": "vigente",
+            "descripción": "Protección jurídica de las bases de datos",
+            "titulo": "Ley 5/1998, de 6 de marzo, de incorporación al Derecho español de la Directiva 96/9/CE, del Parlamento Europeo y del Consejo, de 11 de marzo de 1996, sobre la protección jurídica de las bases de datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-03-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-5-L-proteccion-bases-datos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/1998/03/06/5"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "bases de datos"
+            ]
+        },
+        {
+            "id": "celex-1996-9-dir",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1996-03-27",
+            "vigencia": "vigente",
+            "descripción": "Directiva Protección jurídica de las bases de datos",
+            "titulo": "Directiva 96/9/CE del Parlamento Europeo y del Consejo, de 11 de marzo de 1996, sobre la protección jurídica de las bases de datos",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1996-03-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1996-9-D-proteccion-bases-datos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1996/9/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-06-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1996-9-D-proteccion-bases-datos-consolidado-2019-06-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:01996L0009-20190606"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "bases de datos"
+            ]
+        },
+        {
+            "id": "docv-2013-183-d",
+            "incluido": "2020-03-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2013-12-09",
+            "vigencia": "vigente",
+            "descripción": "Fin evaluaciones de septiembre (CV)",
+            "titulo": "Decreto 183/2013, de 5 diciembre, del Consell, por el que se procede a la adecuación normativa en el ámbito educativo en lo referente a la realización de pruebas extraordinarias de evaluación y sesiones de evaluación extraordinarias.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-12-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-183-D-fin-septiembre.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2013/12/05/183/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2013/12/05/183/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2013-183-D-fin-septiembre-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2013-183-D-fin-septiembre-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "bchillerato",
+                "formación profesional",
+                "pruebas extraordinarias"
             ]
         }
     ]
