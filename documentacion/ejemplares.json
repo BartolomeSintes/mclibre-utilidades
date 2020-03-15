@@ -4225,6 +4225,17 @@
       "creado": "2020-02-15"
     },
     {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
+      "número": "especial",
+      "año": 2020,
+      "mes": 3,
+      "portada": "insecure-rsa2020-en-202003.jpg",
+      "fichero": "insecure-rsa2020-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-15"
+    },
+    {
       "serie": "JOLTS",
       "nombre": "Int. FOSS Law Review",
       "número": "vol 1 nº 1",
@@ -11087,6 +11098,17 @@
       "fichero": "wireframe-33-en-202002.pdf",
       "idioma": "inglés",
       "creado": "2020-02-28"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 34,
+      "año": 2020,
+      "mes": 3,
+      "portada": "wireframe-34-en-202003.jpg",
+      "fichero": "wireframe-34-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-15"
     },
     {
       "serie": "Wireframe Books",
