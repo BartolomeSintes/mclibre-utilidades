@@ -2498,6 +2498,17 @@
       "creado": "2020-03-01"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 155,
+      "año": 2020,
+      "mes": 3,
+      "portada": "full-circle-155-en-202003.jpg",
+      "fichero": "full-circle-155-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-28"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -3257,6 +3268,17 @@
       "creado": "2020-02-22"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 29,
+      "año": 2020,
+      "mes": 4,
+      "portada": "hackspace-29-en-202004.jpg",
+      "fichero": "hackspace-29-en-202004.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-22"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -3420,6 +3442,17 @@
       "fichero": "hello-world-11-en-201912.pdf",
       "idioma": "inglés",
       "creado": "2019-11-24"
+    },
+    {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 12,
+      "año": 2020,
+      "mes": 4,
+      "portada": "hello-world-12-en-202004.jpg",
+      "fichero": "hello-world-12-en-202004.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-28"
     },
     {
       "serie": "(In)secure Magazine",
@@ -8493,6 +8526,17 @@
       "creado": "2020-02-28"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 92,
+      "año": 2020,
+      "mes": 4,
+      "portada": "the-magpi-92-en-202004.jpg",
+      "fichero": "the-magpi-92-en-202004.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-28"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -11109,6 +11153,17 @@
       "fichero": "wireframe-34-en-202003.pdf",
       "idioma": "inglés",
       "creado": "2020-03-15"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 35,
+      "año": 2020,
+      "mes": 3,
+      "portada": "wireframe-35-en-202003.jpg",
+      "fichero": "wireframe-35-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-28"
     },
     {
       "serie": "Wireframe Books",
