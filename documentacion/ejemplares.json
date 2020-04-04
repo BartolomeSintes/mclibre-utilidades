@@ -6612,6 +6612,17 @@
       "creado": "2020-03-08"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 75,
+      "año": 2020,
+      "mes": 3,
+      "portada": "odroid-75-es-202003.jpg",
+      "fichero": "odroid-75-es-202003.pdf",
+      "idioma": "español",
+      "creado": "2020-04-04"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -7635,6 +7646,17 @@
       "creado": "2020-03-01"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 14,
+      "año": 2020,
+      "mes": 3,
+      "portada": "solo-linux-14-es-202003.jpg",
+      "fichero": "solo-linux-14-es-202003.pdf",
+      "idioma": "español",
+      "creado": "2020-04-04"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -7655,6 +7677,17 @@
       "fichero": "solo-wordpress-02-es-202002.pdf",
       "idioma": "español",
       "creado": "2020-02-08"
+    },
+    {
+      "serie": "Solo WordPress",
+      "nombre": "Solo WordPress",
+      "número": 3,
+      "año": 2020,
+      "mes": 4,
+      "portada": "solo-wordpress-03-es-202004.jpg",
+      "fichero": "solo-wordpress-03-es-202004.pdf",
+      "idioma": "español",
+      "creado": "2020-04-04"
     },
     {
       "serie": "The MagPi",
