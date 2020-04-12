@@ -6623,6 +6623,17 @@
       "creado": "2020-04-04"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 76,
+      "año": 2020,
+      "mes": 4,
+      "portada": "odroid-76-en-202004.jpg",
+      "fichero": "odroid-76-en-202004.pdf",
+      "idioma": "inglés",
+      "creado": "2020-04-12"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -10715,6 +10726,17 @@
       "creado": "2020-03-08"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 159,
+      "año": 2020,
+      "mes": 4,
+      "portada": "pclinuxos-159-en-202004.jpg",
+      "fichero": "pclinuxos-159-en-202004.pdf",
+      "idioma": "inglés",
+      "creado": "2020-04-12"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -11329,6 +11351,17 @@
       "fichero": "wireframe-35-en-202003.pdf",
       "idioma": "inglés",
       "creado": "2020-03-28"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 36,
+      "año": 2020,
+      "mes": 4,
+      "portada": "wireframe-36-en-202004.jpg",
+      "fichero": "wireframe-36-en-202004.pdf",
+      "idioma": "inglés",
+      "creado": "2020-04-12"
     },
     {
       "serie": "Wireframe Books",
