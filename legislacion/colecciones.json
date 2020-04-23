@@ -74,6 +74,23 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Covid-19",
+                                "referencias": [
+                                    "boe-2020-361-o",
+                                    "boe-2020-362-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2019/20",
+                                "referencias": [
+                                    "boe-2020-139-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2018/19",
                                 "referencias": [
                                     "boe-2019-12-o",
@@ -306,6 +323,15 @@
                     "contenido": [
                         {
                             "apartado": {
+                                "titulo": "Covid-19",
+                                "referencias": [
+                                    "dogv-2020-04-01-res",
+                                    "dogv-2020-2-dl"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
                                     "dogv-2019-04-02-res",
@@ -379,7 +405,8 @@
                                     "docv-2016-18-o",
                                     "dogv-2017-04-04-res",
                                     "dogv-2018-05-15-res",
-                                    "dogv-2018-05-22-res"
+                                    "dogv-2018-05-22-res",
+                                    "dogv-2020-36-d"
                                 ]
                             }
                         },
@@ -453,7 +480,8 @@
                                     "dogv-2017-38-o",
                                     "dogv-2017-186-d",
                                     "dogv-2018-06-28-res",
-                                    "dogv-2019-252-d"
+                                    "dogv-2019-252-d",
+                                    "dogv-2020-35-d"
                                 ]
                             }
                         }

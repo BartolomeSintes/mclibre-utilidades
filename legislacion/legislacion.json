@@ -21852,6 +21852,365 @@
                 "formación profesional",
                 "pruebas extraordinarias"
             ]
+        },
+        {
+            "id": "boe-borrador-2020-1-rd",
+            "incluido": "2020-03-20",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2020-03-18",
+            "vigencia": "borrador",
+            "descripción": "Borrador Decreto del Título de Desarrollo de videojuegos y realidad virtual",
+            "titulo": "Proyecto de real decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Desarrollo de videojuegos y realidad virtual y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2020-03-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-videojuegos-borrador-2020-03-18.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2020/prd-gsuperior-videojuegos.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "dogv-2020-35-d",
+            "incluido": "2020-03-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-03-30",
+            "vigencia": "vigente",
+            "descripción": "Admisión Infantil, Primaria, Secundaria Obligatoria y Bachillerato (CV)",
+            "titulo": "Decreto 35/2020, de 13 de marzo, del Consell, de modificación del Decreto 40/2016, de 15 de abril, por el cual se regula la admisión en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-03-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-40-D-admision-secundaria-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/2728&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/2728&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-40-D-admision-secundaria-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-40-D-admision-secundaria-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2020-36-d",
+            "incluido": "2020-03-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-03-30",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional Básica (CV)",
+            "titulo": "Decreto 36/2020, de 13 de marzo, del Consell, de modificación del Decreto 135/2014, de 8 de agosto, por el que se regula la admisión en los ciclos formativos de Formación Profesional Básica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-03-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-36-D-fp-basica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/2729&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/2729&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-36-D-fp-basica-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-36-D-fp-basica-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "fp básica"
+            ]
+        },
+        {
+            "id": "dogv-2020-2-dl",
+            "incluido": "2020-04-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-04-06",
+            "vigencia": "vigente",
+            "descripción": "Medidas urgentes Coronavirus Covid-19 (CV)",
+            "titulo": "Decreto Ley 2/2020, de 3 de abril, de medidas urgentes, en el ámbito de la educación, de la cultura y del deporte, para paliar los efectos de la emergencia sanitaria provocada por la Covid-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-04-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-2-DL-covid.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/2818&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/2818&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-2-DL-covid-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-2-DL-covid-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto ley",
+                "educación",
+                "secundaria",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-04-01-res",
+            "incluido": "2020-04-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-04-03",
+            "vigencia": "vigente",
+            "descripción": "Formación profesional para el empleo Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución de 1 de abril de 2020, del director general de LABORA Servicio Valenciano de Empleo y Formación, por la que se establecen instrucciones con relación a la impartición de formación profesional para el empleo tras la suspensión de las acciones formativas a consecuencia de la crisis sanitaria provocadas por el COVID-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-04-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-04-01-R-covid.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/2795&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/2795&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-04-01-R-covid-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-04-01-R-covid-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-361-o",
+            "incluido": "2020-04-23",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-04-23",
+            "vigencia": "vigente",
+            "descripción": "Flexibilización FP Coronavirus Covid-19",
+            "titulo": "Orden EFP/361/2020, de 21 de abril, por la que se adoptan medidas excepcionales en materia de flexibilización de las enseñanzas de Formación Profesional del Sistema Educativo y de las enseñanzas de Régimen Especial.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-04-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-361-O-covid-flexibilizacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2020/04/21/efp361"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-139-o",
+            "incluido": "2020-04-23",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-02-19",
+            "vigencia": "vigente",
+            "descripción": "Acceso a la Universidad 2019/20",
+            "titulo": "Orden PCM/139/2020, de 17 de febrero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas en el curso 2019-2020.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-02-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-139-O-acceso-universidad-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2020/02/17/pcm139"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2019/20",
+                "educación",
+                "bachillerato",
+                "acceso universidad",
+                "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2020-362-o",
+            "incluido": "2020-04-23",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-04-23",
+            "vigencia": "vigente",
+            "descripción": "Acceso a la Universidad 2019/20 Coronavirus Covid-19",
+            "titulo": "Orden PCM/362/2020, de 22 de abril, por la que se modifica la Orden PCM/139/2020, de 17 de febrero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas en el curso 2019-2020.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-04-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-139-O-covid-acceso-universidad-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2020/04/22/pcm362"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2019/20",
+                "educación",
+                "bachillerato",
+                "acceso universidad",
+                "evaluaciones finales",
+                "covid-19"
+            ]
         }
     ]
 }
