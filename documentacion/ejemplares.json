@@ -2641,6 +2641,17 @@
       "creado": "2020-03-28"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 156,
+      "año": 2020,
+      "mes": 4,
+      "portada": "full-circle-156-en-202004.jpg",
+      "fichero": "full-circle-156-en-202004.pdf",
+      "idioma": "inglés",
+      "creado": "2020-04-25"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -3409,6 +3420,17 @@
       "fichero": "hackspace-29-en-202004.pdf",
       "idioma": "inglés",
       "creado": "2020-03-22"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 30,
+      "año": 2020,
+      "mes": 5,
+      "portada": "hackspace-30-en-202005.jpg",
+      "fichero": "hackspace-30-en-202005.pdf",
+      "idioma": "inglés",
+      "creado": "2020-04-25"
     },
     {
       "serie": "HackSpace Books",
@@ -6632,6 +6654,17 @@
       "fichero": "odroid-76-en-202004.pdf",
       "idioma": "inglés",
       "creado": "2020-04-12"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 76,
+      "año": 2020,
+      "mes": 4,
+      "portada": "odroid-76-es-202004.jpg",
+      "fichero": "odroid-76-es-202004.pdf",
+      "idioma": "español",
+      "creado": "2020-04-25"
     },
     {
       "serie": "Olympiads in informatics",
@@ -11362,6 +11395,17 @@
       "fichero": "wireframe-36-en-202004.pdf",
       "idioma": "inglés",
       "creado": "2020-04-12"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 37,
+      "año": 2020,
+      "mes": 4,
+      "portada": "wireframe-37-en-202004.jpg",
+      "fichero": "wireframe-37-en-202004.pdf",
+      "idioma": "inglés",
+      "creado": "2020-04-25"
     },
     {
       "serie": "Wireframe Books",
