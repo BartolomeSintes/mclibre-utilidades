@@ -7701,6 +7701,17 @@
       "creado": "2020-04-04"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 15,
+      "año": 2020,
+      "mes": 4,
+      "portada": "solo-linux-15-es-202004.jpg",
+      "fichero": "solo-linux-15-es-202004.pdf",
+      "idioma": "español",
+      "creado": "2020-05-02"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -8746,6 +8757,17 @@
       "creado": "2020-03-28"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 93,
+      "año": 2020,
+      "mes": 5,
+      "portada": "the-magpi-93-en-202005.jpg",
+      "fichero": "the-magpi-93-en-202005.pdf",
+      "idioma": "inglés",
+      "creado": "2020-05-02"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -9030,6 +9052,17 @@
       "fichero": "the-magpi-essentials-projects-05-en-201911.pdf",
       "idioma": "inglés",
       "creado": "2019-12-08"
+    },
+    {
+      "serie": "The MagPi Books",
+      "nombre": "The Official Rapsberry Pi Camera Guide",
+      "número": 1,
+      "año": 2020,
+      "mes": 4,
+      "portada": "raspberry-py-camera-guide-en-2020-04.jpg",
+      "fichero": "raspberry-py-camera-guide-en-2020-04.pdf",
+      "idioma": "inglés",
+      "creado": "2020-05-02"
     },
     {
       "serie": "The PCLinuxOS Magazine",
@@ -10768,6 +10801,17 @@
       "fichero": "pclinuxos-159-en-202004.pdf",
       "idioma": "inglés",
       "creado": "2020-04-12"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 160,
+      "año": 2020,
+      "mes": 5,
+      "portada": "pclinuxos-160-en-202005.jpg",
+      "fichero": "pclinuxos-160-en-202005.pdf",
+      "idioma": "inglés",
+      "creado": "2020-05-02"
     },
     {
       "serie": "The R Journal",
