@@ -67,17 +67,18 @@
                             "apartado": {
                                 "titulo": "Borradores",
                                 "referencias": [
-                                    "boe-borrador-2019-1-rd",
                                     "boe-borrador-2020-1-rd"
                                 ]
                             }
                         },
                         {
                             "apartado": {
-                                "titulo": "Covid-19",
+                                "titulo": "Coronavirus Covid-19",
                                 "referencias": [
                                     "boe-2020-361-o",
-                                    "boe-2020-362-o"
+                                    "boe-2020-362-o",
+                                    "boe-2020-365-o",
+                                    "boe-2020-399-o"
                                 ]
                             }
                         },
@@ -148,7 +149,8 @@
                                     "boe-2008-1691-rd",
                                     "boe-2009-1629-rd",
                                     "boe-2010-450-rd",
-                                    "boe-2010-686-rd"
+                                    "boe-2010-686-rd",
+                                    "boe-2020-479-rd"
                                 ]
                             }
                         },
@@ -277,8 +279,11 @@
                             "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
+                                    "boe-1998-02-23-o",
+                                    "boe-2007-276-rd",
                                     "boe-2008-944-o",
                                     "boe-2008-1834-rd",
+                                    "boe-2010-132-rd",
                                     "boe-2014-412-rd",
                                     "boe-2015-65-o",
                                     "boe-2015-665-rd"
@@ -323,10 +328,21 @@
                     "contenido": [
                         {
                             "apartado": {
-                                "titulo": "Covid-19",
+                                "titulo": "Coronavirus Covid-19",
                                 "referencias": [
+                                    "dogv-2020-03-12-res",
                                     "dogv-2020-04-01-res",
-                                    "dogv-2020-2-dl"
+                                    "dogv-2020-2-dl",
+                                    "dogv-2020-04-05-res",
+                                    "dogv-2020-05-11-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2020/21",
+                                "referencias": [
+                                    "dogv-2020-04-29-res"
                                 ]
                             }
                         },
@@ -463,6 +479,7 @@
                                 "titulo": "Otras",
                                 "referencias": [
                                     "dogv-1992-06-29-o",
+                                    "dogv-1997-296-d",
                                     "dogv-1998-06-11-o",
                                     "dogv-2000-07-26-res",
                                     "docv-2009-06-04-o",
@@ -478,6 +495,7 @@
                                     "docv-2016-59-d",
                                     "dogv-2017-89-d",
                                     "dogv-2017-38-o",
+                                    "dogv-2017-164-d",
                                     "dogv-2017-186-d",
                                     "dogv-2018-06-28-res",
                                     "dogv-2019-252-d",
@@ -544,6 +562,8 @@
                                     "boe-2003-831-rd",
                                     "boe-2003-832-rd",
                                     "boe-2003-942-rd",
+                                    "boe-2004-118-rd",
+                                    "boe-2004-334-rd",
                                     "boe-2004-1318-rd"
                                 ]
                             }
@@ -561,13 +581,16 @@
                                 "titulo": "Ley Orgánica de Ordenación General del Sistema Educativo (LOGSE, 1990)",
                                 "referencias": [
                                     "boe-1990-1-lo",
+                                    "boe-1991-1004-rd",
                                     "boe-1991-1007-rd",
                                     "boe-1991-1345-rd",
                                     "boe-1991-1700-rd",
                                     "boe-1992-1178-rd",
                                     "boe-1992-1179-rd",
+                                    "boe-1993-850-rd",
                                     "boe-1995-894-rd",
                                     "boe-1995-1390-rd",
+                                    "boe-1995-1692-rd",
                                     "boe-2000-3473-rd",
                                     "boe-2000-3474-rd",
                                     "boe-2001-937-rd",

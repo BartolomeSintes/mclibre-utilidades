@@ -21876,7 +21876,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2020/prd-gsuperior-videojuegos.html"
+                            "url": "http://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2020/prd-gsuperior-videojuegos.html"
                         }
                     ]
                 }
@@ -22191,7 +22191,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-2020-139-O-covid-acceso-universidad-1920.pdf"
+                            "url": "boe/BOE-2020-3629-O-covid-acceso-universidad-1920.pdf"
                         },
                         {
                             "formato": "web",
@@ -22210,6 +22210,709 @@
                 "acceso universidad",
                 "evaluaciones finales",
                 "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-365-o",
+            "incluido": "2020-04-24",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-04-24",
+            "vigencia": "vigente",
+            "descripción": "Tercer trimestre 2019/20 Coronavirus Covid-19",
+            "titulo": "Orden EFP/365/2020, de 22 de abril, por la que se establecen el marco y las directrices de actuación para el tercer trimestre del curso 2019-2020 y el inicio del curso 2020-2021, ante la situación de crisis ocasionada por el COVID-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-04-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-365-O-covid-tercer-trimestre-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2020/04/22/efp365"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-04-29-res",
+            "incluido": "2019-12-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-05",
+            "vigencia": "vigente",
+            "descripción": "Pruebas de acceso ciclos formativos Formación Profesional 2020 (CV)",
+            "titulo": "Resolución de 29 de abril de 2020, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-04-29-R-pruebas-acceso-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3179&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3179&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-04-29-R-pruebas-acceso-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-04-29-R-pruebas-acceso-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas de acceso",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "dogv-2020-04-05-res",
+            "incluido": "2020-05-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-08",
+            "vigencia": "vigente",
+            "descripción": "Tercer trimestre 2019/20 Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución de 4 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establecen el marco y las directrices de actuación que hay que desarrollar durante el tercer trimestre del curso 2019/2020 y el inicio del curso 2020/2021, ante la situación de crisis ocasionada por la Covid-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-04-covid-tercer-trimestre-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3268&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3268&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-04-covid-tercer-trimestre-1920-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-04-covid-tercer-trimestre-1920-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-03-12-res",
+            "incluido": "2020-05-12",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-03-13",
+            "vigencia": "vigente",
+            "descripción": "Cierre centros educativos Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución de 12 de marzo de 2020, de la consellera de Sanidad Universal y Salud Pública, por la que se acuerda suspender temporalmente la actividad educativa y formativa presencial en todos los centros y etapas, ciclos, grados, cursos y niveles de enseñanza en la Comunutat Valenciana, como consecuencia de la situación y evolución del coronavirus (Covid-19).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-03-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-03-12-covid-cierre-centros.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-399-o",
+            "incluido": "2020-05-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-05-09",
+            "vigencia": "vigente",
+            "descripción": "Flexibilización restricciones fase 1 Coronavirus Covid-19",
+            "titulo": "Orden SND/399/2020, de 9 de mayo, para la flexibilización de determinadas restricciones de ámbito nacional, establecidas tras la declaración del estado de alarma en aplicación de la fase 1 del Plan para la transición hacia una nueva normalidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-399-O-covid-flexibilizacion fase-1.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2020/05/09/snd399"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-05-11-res",
+            "incluido": "2020-05-12",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-12",
+            "vigencia": "vigente",
+            "descripción": "Apertura centros educativos tareas administrativas Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución de 11 de mayo de 2020, de la Consellera de Sanidad Universal y Salud Pública, por la que se autoriza la apertura de los centros eductivos de la Comunitat Valenciana, para la realización de determinadas funciones administrativas y de coordinación.",
+          "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-11-covid-apertura-centros-tareas-administrativas.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-479-rd",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-05-13",
+            "vigencia": "vigente",
+            "descripción": "Decreto del Título de Ciberseguridad",
+            "titulo": "Real Decreto 479/2020, de 7 de abril, por el que se establece el Curso de especialización en ciberseguridad en entornos de las tecnologías de la información y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-479-RD-FP-ciberseguridad-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-4963"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior",
+                "curso especialización"
+            ]
+        },
+        {
+            "id": "dogv-1997-296-d",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1997-12-17",
+            "vigencia": "vigente",
+            "descripción": "Contratación de profesores especialistas (CV)",
+            "titulo": "Decreto 296/1997, de 2 de diciembre, del Gobierno Valenciano, por el que se regula el régimen de contratación de profesores especialistas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-12-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-12-17-contratacion-profesores-especialistas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/12/02/296/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/12/02/296/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-12-17-contratacion-profesores-especialistas-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1997-12-17-contratacion-profesores-especialistas-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "profesores especialistas"
+            ]
+        },
+        {
+            "id": "boe-1993-850-rd",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1993-06-30",
+            "vigencia": "derogado",
+            "descripción": "Ingreso en cuerpo docentes (LOGSE)",
+            "titulo": "Real Decreto 850/1993, de 4 de junio, por el que se regula el ingreso y la adquisición de especialidades en los Cuerpos de Funcionarios Docentes a que se refiere la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1993-06-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1993-850-RD-ingreso-funcionarios-docentes.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1993/06/04/850"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ingreso cuerpo docentes"
+            ]
+        },
+        {
+            "id": "boe-2004-334-rd",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2004-02-28",
+            "vigencia": "derogado",
+            "descripción": "Ingreso en cuerpo docentes (LOCE)",
+            "titulo": "Real Decreto 334/2004, de 27 de febrero, por el que se aprueba el Reglamento de ingreso, accesos y adquisición de nuevas especialidades en los cuerpos docentes que imparten las enseñanzas escolares del sistema educativo y en el Cuerpo de Inspectores de Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-02-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-334-RD-ingreso-funcionarios-docentes.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/02/27/334"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ingreso cuerpo docentes"
+            ]
+        },
+        {
+            "id": "boe-2007-276-rd",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-03-02",
+            "vigencia": "vigente",
+            "descripción": "Ingreso en cuerpo docentes (LOE)",
+            "titulo": "Real Decreto 276/2007, de 23 de febrero, por el que se aprueba el Reglamento de ingreso, accesos y adquisición de nuevas especialidades en los cuerpos docentes a que se refiere la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y se regula el régimen transitorio de ingreso a que se refiere la disposición transitoria decimoséptima de la citada ley.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-03-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-276-RD-ingreso-funcionarios-docentes.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/02/23/276"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-02-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-276-RD-ingreso-funcionarios-docentes-consolidado-2018-02-24.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/02/23/276/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "ingreso cuerpo docentes"
+            ]
+        },
+        {
+            "id": "boe-1995-1692-rd",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1995-11-09",
+            "vigencia": "derogado",
+            "descripción": "Título de especialización didáctica (LOGSE)",
+            "titulo": "Real Decreto 1692/1995, de 20 de octubre, por el que se regula el título profesional de especialización didáctica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-11-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-1692-RD-titulo-especializacion-didactica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1995/10/20/1692"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "título especialización didáctica"
+            ]
+        },
+        {
+            "id": "boe-2004-118-rd",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2004-02-04",
+            "vigencia": "derogado",
+            "descripción": "Título de especialización didáctica (LOCE)",
+            "titulo": "Real Decreto 118/2004, de 23 de enero, por el que se regula el título de Especialización Didáctica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-02-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-118-RD-titulo-especializacion-didactica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/01/23/118"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "título especialización didáctica"
+            ]
+        },
+        {
+            "id": "boe-1998-02-23-o",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-02-27",
+            "vigencia": "vigente",
+            "descripción": "Titulaciones mínimas profesores FP",
+            "titulo": "Orden de 23 de febrero de 1998 por la que se regulan las titulaciones mínimas y condiciones que deben poseer los Profesores para impartir formación profesional específica en los centros privados y en determinados centros educativos de titularidad pública.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-02-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-02-23-O-titulaciones-minimas-profesores-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1998/02/23/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "profesorado"
+            ]
+        },
+        {
+            "id": "boe-1991-1004-rd",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1991-07-26",
+            "vigencia": "derogado",
+            "descripción": "Requisitos mínimos Centros no universitarios (LOGSE)",
+            "titulo": "Real Decreto 1004/1991, de 14 de junio, por el que se establecen los requisitos mínimos de los Centros que impartan enseñanzas de régimen general no universitarias.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1991-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-1004-RD-requisitos-minimos-centros.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1991/06/14/1004"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "centros"
+            ]
+        },
+        {
+            "id": "boe-2010-132-rd",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-03-12",
+            "vigencia": "vigente",
+            "descripción": "Requisitos mínimos Centros no universitarios",
+            "titulo": "Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-03-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-132-RD-requisitos-minimos-centros.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/02/12/132"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2012-04-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-132-RD-requisitos-minimos-centros-consolidado-2012-04-21.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/02/12/132/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "centros"
+            ]
+        },
+        {
+            "id": "dogv-2017-164-d",
+            "incluido": "2020-05-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2017-11-06",
+            "vigencia": "vigente",
+            "descripción": "Sexenios formación permanente (CV)",
+            "titulo": "Decreto 164/2017, de 27 de octubre, del Consell, por el que se regula el componente retributivo relacionado con la formación permanente del funcionariado docente y la realización de las actividades para la mejora de la calidad de la enseñanza.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-11-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-164-sexenio.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2017/10/27/164/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2017/10/27/164/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2017-164-sexenio-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2017-164-sexenio-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "sexenios"
             ]
         }
     ]
