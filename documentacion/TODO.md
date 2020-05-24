@@ -19,5 +19,16 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   2019-07-27. En la portada, al decir el número de ejemplares si hay versión en español cuenta el doble. Pasa en Odroid, por ejemplo.
 -   2019-07-28. En la portada, las imágenes de las revistas inactivas podrían sacarse al azar, para que no fueran siempre las mismas.
 -   2019-10-11. En la portada, las revistas inactivas podrían estar ordenadas por la antigüedad del último número.
--   2009-12-04. Hay revistas bimensuales (como Solo WordPress), pero el programa sólo escribe un mes.
--   2009-12-04. En los cuadros no pone el nombre de la revista. Debería ponerlo, porque no se puede buscar en la página escribiendo el nombre.
+-   2019-12-04. Hay revistas bimensuales (como Solo WordPress), pero el programa sólo escribe un mes.
+-   2019-12-04. En los cuadros no pone el nombre de la revista. Debería ponerlo, porque no se puede buscar en la página escribiendo el nombre.
+-   2020-05-24. Podría poner flechas para pasar de un año al siguiente y al anterior, o de una revista a la siguiente o a la anterior
+
+## Revistas para incluir
+
+- Buscador de revistas: http://agora.edu.es/
+- Revista CTS: http://www.revistacts.net/
+- Barbecho: http://www.barbecho.uma.es/ (Revista antigua)
+- Aula de innovación educativa: https://www.grao.com/es/productos/revistas
+- Comunicar: https://www.revistacomunicar.com/index.php?idioma=es
+- Red Seguridad: https://www.redseguridad.com/kiosko-pro/
+
