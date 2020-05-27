@@ -1593,12 +1593,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=1&sig=006772%2F2019"
+                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=1&sig=006772/2019"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=0&sig=006773%2F2019"
+                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=0&sig=006773/2019"
                         },
                         {
                             "formato": "rtf",
@@ -1677,12 +1677,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=1&sig=006602%2F2019"
+                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=1&sig=006602/2019"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=0&sig=006602%2F2019"
+                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=0&sig=006602/2019"
                         },
                         {
                             "formato": "rtf",
@@ -12603,7 +12603,7 @@
             "origen": "BOE",
             "fecha": "1977-06-15",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica en Facultad de Ciencias Sección de Físicas ( Universidad de Valencia)",
+            "descripción": "Creación de especialidad Electrónica en Facultad de Ciencias Sección de Físicas (Universidad de Valencia)",
             "titulo": "Orden de 1 de octubre de 1976 por la que se aprueba el plan de estudios del segundo ciclo de la Facultad de Ciencias de Valencia y Alicante de la Universidad de Valencia.",
             "versiones": [
                 {
@@ -12637,7 +12637,7 @@
             "origen": "BOE",
             "fecha": "1984-08-17",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Sección de Físicas ( Universidad de Valencia)",
+            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Sección de Físicas (Universidad de Valencia)",
             "titulo": "Orden de 7 de mayo de 1984 por la que se aprueba la modificación del Plan de Estudios del segundo ciclo de las especialidades de «Física fundamental» y la de «Electricidad, Electrónica e Informática» de la Facultad de Ciencias Físicas de dicha Universidad.",
             "versiones": [
                 {
@@ -12671,7 +12671,7 @@
             "origen": "BOE",
             "fecha": "1985-06-28",
             "vigencia": "derogado",
-            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Sección de Físicas ( Universidad de Valencia)",
+            "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Sección de Físicas (Universidad de Valencia)",
             "titulo": "Orden de 9 de abril de 1985 por la que se corrigen errores de omisión observados en la Orden de 7 de mayo de 1984 («Boletín Oficial del Estado» de 17 de agosto) que modificaba el plan de estudios del segundo ciclo de las especialidades de Física Fundamental y de Electricidad, Electrónica e Informática, de la Facultad de Física de la Universidad de Valencia.",
             "versiones": [
                 {
@@ -22321,7 +22321,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2020-05-04-covid-tercer-trimestre-1920.pdf"
+                            "url": "dogv/DOGV-2020-05-04-R-covid-tercer-trimestre-1920.pdf"
                         },
                         {
                             "formato": "web",
@@ -22336,12 +22336,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2020-05-04-covid-tercer-trimestre-1920-es.rtf"
+                            "url": "dogv/DOGV-2020-05-04-R-covid-tercer-trimestre-1920-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2020-05-04-covid-tercer-trimestre-1920-va.rtf"
+                            "url": "dogv/DOGV-2020-05-04-R-covid-tercer-trimestre-1920-va.rtf"
                         }
                     ]
                 }
@@ -22375,7 +22375,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2020-03-12-covid-cierre-centros.pdf"
+                            "url": "dogv/DOGV-2020-03-12-R-covid-cierre-centros.pdf"
                         }
                     ]
                 }
@@ -22448,7 +22448,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2020-05-11-covid-apertura-centros-tareas-administrativas.pdf"
+                            "url": "dogv/DOGV-2020-05-11-R-covid-apertura-centros-tareas-administrativas.pdf"
                         }
                     ]
                 }
@@ -22520,7 +22520,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-1997-12-17-contratacion-profesores-especialistas.pdf"
+                            "url": "dogv/DOGV-1997-12-17-D-contratacion-profesores-especialistas.pdf"
                         },
                         {
                             "formato": "web",
@@ -22535,12 +22535,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-1997-12-17-contratacion-profesores-especialistas-es.rtf"
+                            "url": "dogv/DOGV-1997-12-17-D-contratacion-profesores-especialistas-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-1997-12-17-contratacion-profesores-especialistas-va.rtf"
+                            "url": "dogv/DOGV-1997-12-17-D-contratacion-profesores-especialistas-va.rtf"
                         }
                     ]
                 }
@@ -22883,7 +22883,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2017-164-sexenio.pdf"
+                            "url": "dogv/DOGV-2017-164-D-sexenio.pdf"
                         },
                         {
                             "formato": "web",
@@ -22898,12 +22898,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2017-164-sexenio-es.rtf"
+                            "url": "dogv/DOGV-2017-164-D-sexenio-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2017-164-sexenio-va.rtf"
+                            "url": "dogv/DOGV-2017-164-D-sexenio-va.rtf"
                         }
                     ]
                 }
@@ -22913,6 +22913,1098 @@
                 "decreto",
                 "educación",
                 "sexenios"
+            ]
+        },
+        {
+            "id": "dogv-2020-05-13-res",
+            "incluido": "2020-05-15",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-15",
+            "vigencia": "vigente",
+            "descripción": "Reapertura parcial centros educativos Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución de 13 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la prestación de servicios administrativos y de coordinación en los centros educativos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-13-R-covid-reapertura-parcial-centros.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3454&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3454&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-13-R-covid-reapertura-parcial-centros-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-13-R-covid-reapertura-parcial-centros-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-05-15-res",
+            "incluido": "2020-05-19",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-19",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones Procedimiento de admisión 20/21 (CV)",
+            "titulo": "Resolución de 15 de mayo de 2020, del conseller de Educación, Cultura y Deporte, por la que se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato para el curso 2020-2021.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-15-R-admision-secundaria-bachillerato-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3500&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3500&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-15-R-admision-secundaria-bachillerato-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-15-R-admision-secundaria-bachillerato-2021-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2020-05-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-15-R-CO-admision-secundaria-bachillerato-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3561&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3561&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-15-R-CO-admision-secundaria-bachillerato-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-15-R-CO-admision-secundaria-bachillerato-2021-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "dogv-2020-5-o",
+            "incluido": "2020-05-19",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-04-01",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Orden 5/2020, de 31 de marzo, de la Conselleria de Educación, Cultura y Deporte, de modificación de la Orden 7/2016, de 19 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la cual se regula el procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-04-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-5-O-admision-secundaria-bachillerato.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "celex-2008-114-dir",
+            "incluido": "2020-05-20",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2008-12-23",
+            "vigencia": "vigente",
+            "descripción": "Directiva Infraestructuras críticas europeas",
+            "titulo": "Directiva 2008/114/CE del Consejo, de 8 de diciembre de 2008 , sobre la identificación y designación de infraestructuras críticas europeas y la evaluación de la necesidad de mejorar su protección",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-12-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2008-114-infraestructuras-criticas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2008/114/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "seguridad",
+                "infraestructuras críticas"
+            ]
+        },
+        {
+            "id": "boe-2011-8-l",
+            "incluido": "2020-05-20",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-04-29",
+            "vigencia": "vigente",
+            "descripción": "Protección de las infraestructuras críticas",
+            "titulo": "Ley 8/2011, de 28 de abril, por la que se establecen medidas para la protección de las infraestructuras críticas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-04-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-8-L-infraestructuras-criticas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2011/04/28/8"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "seguridad",
+                "infraestructuras críticas"
+            ]
+        },
+        {
+            "id": "boe-2011-704-rd",
+            "incluido": "2020-05-20",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-05-21",
+            "vigencia": "vigente",
+            "descripción": "Reglamento de protección de las infraestructuras críticas",
+            "titulo": "Real Decreto 704/2011, de 20 de mayo, por el que se aprueba el Reglamento de protección de las infraestructuras críticas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-05-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-704-RD-proteccion-infraestructuras-criticas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/05/20/704"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "seguridad",
+                "infraestructuras críticas"
+            ]
+        },
+        {
+            "id": "boe-2011-11-15-res",
+            "incluido": "2020-05-20",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-11-23",
+            "vigencia": "derogado",
+            "descripción": "Contenidos mínimos planes de seguridad de las infraestructuras críticas",
+            "titulo": "Resolución de 15 de noviembre de 2011, de la Secretaría de Estado de Seguridad, por la que se establecen los contenidos mínimos de los planes de seguridad del operador y planes de protección específicos conforme a lo dispuesto en el Real Decreto 704/2011, de 20 de mayo, por el que se aprueba el Reglamento de protección de infraestructuras críticas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-11-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-11-15-RES-contenidos-minimos-planes-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2011/11/15/(2)"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2011-12-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-11-15-RES-CO-contenidos-minimos-planes-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2011/11/29/(2)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "seguridad",
+                "infraestructuras críticas"
+            ]
+        },
+        {
+            "id": "boe-2015-09-08-res",
+            "incluido": "2020-05-20",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-09-18",
+            "vigencia": "vigente",
+            "descripción": "Contenidos mínimos planes de seguridad de las infraestructuras críticas",
+            "titulo": "Resolución de 8 de septiembre de 2015, de la Secretaría de Estado de Seguridad, por la que se aprueban los nuevos contenidos mínimos de los Planes de Seguridad del Operador y de los Planes de Protección Específicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-09-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-09-08-RES-contenidos-minimos-planes-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2015/09/08/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "seguridad",
+                "infraestructuras críticas"
+            ]
+        },
+        {
+            "id": "celex-2002-58-dir",
+            "incluido": "2020-05-26",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2002-07-31",
+            "vigencia": "vigente",
+            "descripción": "Directiva sobre la privacidad y las comunicaciones electrónicas",
+            "titulo": "Directiva 2002/58/CE del Parlamento Europeo y del Consejo, de 12 de julio de 2002, relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas (Directiva sobre la privacidad y las comunicaciones electrónicas)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2002-58-D-privacidad-comunicaciones-electronicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj?locale=es"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2009-12-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2002-58-D-privacidad-comunicaciones-electronicas-consolidado-2009-12-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2002/58/2009-12-19"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "privacidad",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "celex-2009-136-dir",
+            "incluido": "2020-05-26",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2009-12-18",
+            "vigencia": "vigente",
+            "descripción": "Directiva sobre la privacidad y las comunicaciones electrónicas",
+            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009 , por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) n o 2006/2004 sobre la cooperación en materia de protección de los consumidores (Texto pertinente a efectos del EEE)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-12-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2009-136-D-privacidad-comunicaciones-electronicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2009/136/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "privacidad",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-2005-424-rd",
+            "incluido": "2020-05-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-04-29",
+            "vigencia": "vigente",
+            "descripción": "Reglamento de protección de usuarios de comunicaciones electrónicas",
+            "titulo": "Real Decreto 424/2005, de 15 de abril, por el que se aprueba el Reglamento sobre las condiciones para la prestación de servicios de comunicaciones electrónicas, el servicio universal y la protección de los usuarios.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-04-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-424-RD-proteccion-usuarios-comunciaciones-electronicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/04/15/424"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-12-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-424-RD-proteccion-usuarios-comunciaciones-electronicas-consolidado-2018-12-29.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/04/15/424/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de usuarios",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "celex-1997-66-dir",
+            "incluido": "2020-05-26",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1998-01-30",
+            "vigencia": "derogado",
+            "descripción": "Directiva protección intimidad en telecomunicaciones",
+            "titulo": "Directiva 97/66/CE del Parlamento Europeo y del Consejo de 15 de diciembre de 1997 relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las telecomunicaciones",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-01-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1997-66-D-proteccion-intimidad-telecomunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/1997/66/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "privacidad",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-1998-1736-rd",
+            "incluido": "2020-05-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-09-05",
+            "vigencia": "derogado",
+            "descripción": "Reglamento título III Ley General de Telecomunicaciones",
+            "titulo": "Real Decreto 1736/1998, de 31 de julio, por el que se aprueba el Reglamento por el que se desarrolla el Título III de la Ley General de Telecomunicaciones en lo relativo al servicio universal de telecomunicaciones, a las demás obligaciones de servicio público y a las obligaciones de carácter público en la prestación de los servicios y en la explotación de las redes de telecomunicaciones.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-09-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-1736-RD-reglamento-titulo-iii-ley-general-telecomunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1998/07/31/1736"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de usuarios",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-1998-11-l",
+            "incluido": "2020-05-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-04-25",
+            "vigencia": "derogado",
+            "descripción": "Ley General de Telecomunicaciones",
+            "titulo": "Ley 11/1998, de 24 de abril, General de Telecomunicaciones.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-04-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-11-L-ley-general-telecomunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/1998/04/24/11"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de usuarios",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "dogv-2020-05-21-res",
+            "incluido": "2020-05-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-25",
+            "vigencia": "vigente",
+            "descripción": "Calendario de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Resolución de 21 de mayo de 2020, del director general de Centros Docentes, por la que se establece el calendario de admisión del alumnado en los centros públicos y privados concertados de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato para el curso 2020-2021.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-21-R-calendario-admision-secundaria-bachillerato-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3650&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3650&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-21-R-calendario-admision-secundaria-bachillerato-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-21-R-calendario-admision-secundaria-bachillerato-2021-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2020-05-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-21-R-CO-calendario-admision-secundaria-bachillerato-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3715&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3715&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-21-R-CO-calendario-admision-secundaria-bachillerato-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-21-R-CO-calendario-admision-secundaria-bachillerato-2021-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "boe-2020-400-o",
+            "incluido": "2020-05-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-05-23",
+            "vigencia": "vigente",
+            "descripción": "Flexibilización restricciones fase 2 Coronavirus Covid-19",
+            "titulo": "Orden SND/440/2020, de 23 de mayo, por la que se modifican diversas órdenes para una mejor gestión de la crisis sanitaria ocasionada por el COVID-19 en aplicación del Plan para la transición hacia una nueva normalidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-400-O-covid-flexibilizacion fase-2.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2020/05/23/snd440"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "celex-2001-07-10-rec",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2001-08-09",
+            "vigencia": "derogado",
+            "descripción": "Movilidad en Europa de estudiantes y profesores",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 10 de julio de 2001, relativa a la movilidad en la Comunidad de los estudiantes, las personas en formación, los voluntarios, los profesores y los formadores",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-08-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2001-08-09-REC-movilidad-estudiantes-profesores.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reco/2001/613/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "movilidad"
+            ]
+        },
+        {
+            "id": "celex-2013-1288-reg",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2013-12-20",
+            "vigencia": "vigente",
+            "descripción": "Reglamento creación Erasmus+",
+            "titulo": "Reglamento (UE) n°1288/2013 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2013, por el que se crea el programa «Erasmus+», de educación, formación, juventud y deporte de la Unión y por el que se derogan las Decisiones n°1719/2006/CE, 1720/2006/CE y 1298/2008/CE Texto pertinente a efectos del EEE",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-12-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2013-1288-REG-erasmus+.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2013/1288/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-10-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2013-1288-REG-erasmus+-consolidado-2018-10-05.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2013/1288/2018-10-05"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "erasmus+"
+            ]
+        },
+        {
+            "id": "boe-2011-03-23-res",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-04-16",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Graduado en Ingeniería Informática (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 23 de marzo de 2011, de la Universidad Politécnica de Valencia, por la que se publica el plan de estudios de Graduado en Ingeniería Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-04-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-03-23-O-plan-estudios-graduado-ingenieria-informatica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1984-19886"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2001-09-21-res",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2001-10-17",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Ingeniero en Informática (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 21 de septiembre de 2001, de la Universidad Politécnica de Valencia, por la que se ordena la publicación del plan de estudios de Ingeniero en Informática de la Facultad de Informática de esta Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-10-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2001-09-21-RES-plan-estudios-ingenieria-informatica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2001-19416"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2003-03-13-res",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-04-01",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Ingeniero en Informática (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 13 de marzo de 2003, de la Universidad Politécnica de Valencia, por la que se modifica el plan de estudios de Ingeniero en Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-04-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-03-13-RES-plan-estudios-ingenieria-informatica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-6585"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-1993-10-29-res",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1993-11-24",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Ingeniero en Informática (Universidad de Valencia)",
+            "titulo": "Resolución de 29 de octubre de 1993, de la Universidad de Valencia (Estudio General), por la que se publica el Plan de Estudios de Ingeniero en Informática de esta Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1993-11-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1993-10-29-RES-plan-estudios-ingenieria-informatica-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1993-28067"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-1995-06-20-res",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1995-07-14",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Ingeniero en Informática (Universidad de Valencia)",
+            "titulo": "Resolución de 20 de junio de 1995, de la Universidad de Valencia (Estudio General), por la que se subsana el error en la publicación de la Resolución de 24 de noviembre de 1993, por la que se publica el Plan de Estudios de Ingeniero en Informática de esta Universidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-07-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-07-14-RES-plan-estudios-ingenieria-informatica-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1995-17202"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2000-09-20-res",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2000-10-13",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Ingeniero en Informática (Universidad de Valencia)",
+            "titulo": "Resolución de 20 de septiembre de 2000, de la Universidad de Valencia, por la que se ordena publicar el plan de estudios de Ingeniero en Informática, adaptado al Real Decreto 779/1998, de 30 de abril, y elaborado al amparo del Real Decreto de Directrices Generales Propias, 1459/1990, de 26 de octubre.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-10-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2000-09-20-RES-plan-estudios-ingenieria-informatica-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2000-18463"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2004-09-01-res",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2004-09-28",
+            "vigencia": "derogado",
+            "descripción": "Plan de Estudios Ingeniero en Informática (Universidad de Valencia)",
+            "titulo": "Resolución de 1 de septiembre de 2004, de la Universidad de Valencia, por la que se publica la modificación del plan de estudios conducente a la obtención del título oficial de Ingeniero en Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-09-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-09-01-RES-plan-estudios-ingenieria-informatica-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-16702"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2011-07-18-res",
+            "incluido": "2020-05-27",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-08-11",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Graduado en Ingeniería Informática (Universidad de Valencia)",
+            "titulo": "Resolución de 18 de julio de 2011, de la Universidad de Valencia, por la que se publica el plan de estudios de Graduado en Ingeniería Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-08-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-07-18-RES-plan-estudios-graduado-ingenieria-informatica-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-13754"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
             ]
         }
     ]

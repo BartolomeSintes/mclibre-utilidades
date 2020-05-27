@@ -2,6 +2,10 @@
 
 Este repositorio contiene una colección legislativa de interés para profesores y alumnos de Informática.
 
+## Errores
+
+-   2020-05-20. Al final de Otros temas pone el borrador de ciberseguridad que no está en ningún apartado.
+
 ## Cosas para hacer
 
 -   2019-11-26. Incluir toda la legislación de interés para profesores de informática ;-)

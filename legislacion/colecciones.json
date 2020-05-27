@@ -50,6 +50,7 @@
                                 "titulo": "Otros",
                                 "referencias": [
                                     "celex-1992-12-03-res",
+                                    "celex-2013-1288-reg",
                                     "celex-2016-06-10-com",
                                     "celex-2016-12-19-rec"
                                 ]
@@ -78,7 +79,8 @@
                                     "boe-2020-361-o",
                                     "boe-2020-362-o",
                                     "boe-2020-365-o",
-                                    "boe-2020-399-o"
+                                    "boe-2020-399-o",
+                                    "boe-2020-400-o"
                                 ]
                             }
                         },
@@ -232,7 +234,7 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Centros integrados de Formación Profesional",
+                                "titulo": "Centros Integrados de Formación Profesional",
                                 "referencias": [
                                     "boe-2005-1558-rd",
                                     "boe-2010-564-rd"
@@ -272,6 +274,15 @@
                                 "referencias": [
                                     "boe-2003-1125-rd",
                                     "boe-2007-1393-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Estudios universitarios informática",
+                                "referencias": [
+                                    "boe-2011-03-23-res",
+                                    "boe-2011-07-18-res"
                                 ]
                             }
                         },
@@ -334,7 +345,8 @@
                                     "dogv-2020-04-01-res",
                                     "dogv-2020-2-dl",
                                     "dogv-2020-04-05-res",
-                                    "dogv-2020-05-11-res"
+                                    "dogv-2020-05-11-res",
+                                    "dogv-2020-05-13-res"
                                 ]
                             }
                         },
@@ -342,7 +354,9 @@
                             "apartado": {
                                 "titulo": "Curso 2020/21",
                                 "referencias": [
-                                    "dogv-2020-04-29-res"
+                                    "dogv-2020-04-29-res",
+                                    "dogv-2020-05-15-res",
+                                    "dogv-2020-05-21-res"
                                 ]
                             }
                         },
@@ -461,8 +475,11 @@
                             "apartado": {
                                 "titulo": "Admisión",
                                 "referencias": [
+                                    "docv-2016-40-d",
                                     "docv-2016-7-o",
-                                    "dogv-2019-03-26-res"
+                                    "dogv-2019-03-26-res",
+                                    "dogv-2020-35-d",
+                                    "dogv-2020-5-o"
                                 ]
                             }
                         },
@@ -491,15 +508,13 @@
                                     "docv-2013-183-d",
                                     "docv-2014-54-o",
                                     "docv-2015-69-o",
-                                    "docv-2016-40-d",
                                     "docv-2016-59-d",
                                     "dogv-2017-89-d",
                                     "dogv-2017-38-o",
                                     "dogv-2017-164-d",
                                     "dogv-2017-186-d",
                                     "dogv-2018-06-28-res",
-                                    "dogv-2019-252-d",
-                                    "dogv-2020-35-d"
+                                    "dogv-2019-252-d"
                                 ]
                             }
                         }
@@ -635,20 +650,40 @@
                                     "boe-1970-07-29-o",
                                     "boe-1971-06-24-o",
                                     "boe-1976-327-rd",
-                                    "boe-1976-10-01-o",
-                                    "boe-1982-1620-rd",
-                                    "boe-1984-05-07-o",
-                                    "boe-1984-07-19-o",
-                                    "boe-1985-04-09-o",
-                                    "boe-1987-03-16-o",
                                     "boe-1987-1497-rd",
+                                    "boe-2005-55-rd",
+                                    "boe-2005-56-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Estudios universitarios informática Universidad de Valencia",
+                                "referencias": [
+                                    "boe-1976-10-01-o",
+                                    "boe-1984-05-07-o",
+                                    "boe-1985-04-09-o",
+                                    "boe-1993-10-29-res",
+                                    "boe-1995-06-20-res",
+                                    "boe-2000-09-20-res",
+                                    "boe-2004-09-01-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Estudios universitarios informática Universidad Politécnica de Valencia",
+                                "referencias": [
+                                    "boe-1982-1620-rd",
+                                    "boe-1984-07-19-o",
+                                    "boe-1987-03-16-o",
                                     "boe-1994-07-08-1-res",
                                     "boe-1994-07-08-2-res",
                                     "boe-1996-06-07-o",
+                                    "boe-2001-09-21-res",
                                     "boe-2001-09-27-1-res",
                                     "boe-2001-09-27-2-res",
-                                    "boe-2005-55-rd",
-                                    "boe-2005-56-rd"
+                                    "boe-2003-03-13-res"
                                 ]
                             }
                         },
@@ -664,6 +699,7 @@
                                     "boe-1993-631-rd",
                                     "boe-1994-07-07-o",
                                     "celex-1998-12-21-dec",
+                                    "celex-2001-07-10-rec",
                                     "boe-2003-1046-rd",
                                     "celex-2004-2241-dec",
                                     "boe-2004-362-rd",
@@ -1046,6 +1082,27 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Infraestructuras críticas",
+                                "referencias": [
+                                    "celex-2008-114-dir",
+                                    "boe-2011-8-l",
+                                    "boe-2011-704-rd",
+                                    "boe-2015-09-08-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Comunicaciones electrónicas",
+                                "referencias": [
+                                    "celex-2002-58-dir",
+                                    "boe-2005-424-rd",
+                                    "celex-2009-136-dir"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Accesibilidad",
                                 "referencias": [
                                     "boe-2007-1494-rd",
@@ -1097,11 +1154,15 @@
                                 "referencias": [
                                     "boe-1992-5-lo",
                                     "celex-1995-46-dir",
+                                    "celex-1997-66-dir",
+                                    "boe-1998-11-l",
+                                    "boe-1998-1736-rd",
                                     "celex-1999-93-dir",
                                     "boe-2000-03-21-o",
                                     "boe-2003-662-o",
                                     "boe-2004-292-rd",
-                                    "celex-2006-24-dir"
+                                    "celex-2006-24-dir",
+                                    "boe-2011-11-15-res"
                                 ]
                             }
                         }
