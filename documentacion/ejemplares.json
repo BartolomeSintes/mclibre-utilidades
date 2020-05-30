@@ -3224,6 +3224,17 @@
       "creado": "2020-04-25"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 157,
+      "año": 2020,
+      "mes": 5,
+      "portada": "full-circle-157-en-202005.jpg",
+      "fichero": "full-circle-157-en-202005.pdf",
+      "idioma": "inglés",
+      "creado": "2020-05-30"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -7261,6 +7272,17 @@
       "creado": "2020-05-09"
     },
     {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 77,
+      "año": 2020,
+      "mes": 5,
+      "portada": "odroid-77-es-202005.jpg",
+      "fichero": "odroid-77-es-202005.pdf",
+      "idioma": "español",
+      "creado": "2020-05-30"
+    },
+    {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
       "número": 1,
@@ -9360,6 +9382,17 @@
       "fichero": "the-magpi-93-en-202005.pdf",
       "idioma": "inglés",
       "creado": "2020-05-02"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 94,
+      "año": 2020,
+      "mes": 6,
+      "portada": "the-magpi-94-en-202006.jpg",
+      "fichero": "the-magpi-94-en-202006.pdf",
+      "idioma": "inglés",
+      "creado": "2020-05-30"
     },
     {
       "serie": "The MagPi Books",
