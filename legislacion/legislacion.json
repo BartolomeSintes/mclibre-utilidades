@@ -22365,7 +22365,7 @@
             "origen": "DOGV",
             "fecha": "2020-03-13",
             "vigencia": "vigente",
-            "descripción": "Cierre centros educativos Coronavirus Covid-19 (CV)",
+            "descripción": "Suspensión actividad educativa presencial Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 12 de marzo de 2020, de la consellera de Sanidad Universal y Salud Pública, por la que se acuerda suspender temporalmente la actividad educativa y formativa presencial en todos los centros y etapas, ciclos, grados, cursos y niveles de enseñanza en la Comunutat Valenciana, como consecuencia de la situación y evolución del coronavirus (Covid-19).",
             "versiones": [
                 {
@@ -22375,7 +22375,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2020-03-12-R-covid-cierre-centros.pdf"
+                            "url": "dogv/DOGV-2020-03-12-R-covid-suspension-actividad-educativa-presencial.pdf"
                         }
                     ]
                 }
@@ -24005,6 +24005,540 @@
                 "resolución",
                 "universidad",
                 "plan de estudios"
+            ]
+        },
+        {
+            "id": "dogv-2020-05-26-res",
+            "incluido": "2020-05-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-28",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones fase 2 Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución de 26 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la fase 2 del Plan para la transición hacia una nueva normalidad",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-26-R-covid-instrucciones-fase-2.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3763&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3763&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-26-R-covid-instrucciones-fase-2-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-26-R-covid-instrucciones-fase-2-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-463-rd",
+            "incluido": "2020-06-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-03-14",
+            "vigencia": "vigente",
+            "descripción": "Declaración estado de alarma Coronavirus Covid-19",
+            "titulo": "Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-03-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-463-RD-estado-alarma-declaracion-covid-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2020/03/14/463"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2020-05-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-463-RD-estado-alarma-declaracion-covid-19-consolidado-2020-03-25.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2020/03/14/463/con/20200523"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "estado de alarma",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-537-rd",
+            "incluido": "2020-06-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-05-23",
+            "vigencia": "vigente",
+            "descripción": "Quinta prórroga estado de alarma Coronavirus Covid-19",
+            "titulo": "Real Decreto 537/2020, de 22 de mayo, por el que se prorroga el estado de alarma declarado por el Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-537-RD-estado-alarma-prorroga-5-covid-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2020/05/22/537"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "estado de alarma",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-03-23-res",
+            "incluido": "2020-06-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-03-24",
+            "vigencia": "vigente",
+            "descripción": "Cierre centros educativos Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución de la consellera de Sanidad Universal y Salud Pública, de 23 de marzo de 2020, por la que se acuerda el cierre de todos los centros educativos de la Comunitat Valenciana, como consecuencia de la situación de crisis sanitaria ocasionada por el COVID-19. (CV).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-03-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-03-23-R-covid-cierre-centros.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-465-rd",
+            "incluido": "2020-06-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-03-18",
+            "vigencia": "vigente",
+            "descripción": "Declaración estado de alarma Coronavirus Covid-19",
+            "titulo": "Real Decreto 465/2020, de 17 de marzo, por el que se modifica el Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-03-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-465-RD-estado-alarma-declaracion-covid-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2020/03/17/465"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "estado de alarma",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2019-05-29-1-res",
+            "incluido": "2020-06-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-06-03",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar 2020/21 (CV)",
+            "titulo": "Resolución de 29 de mayo de 2020, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2020/2021.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-29-R-calendario-escolar-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/3919&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/3919&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-29-R-calendario-escolar-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-29-R-calendario-escolar-2021-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "dogv-2019-05-29-2-res",
+            "incluido": "2020-06-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-06-03",
+            "vigencia": "vigente",
+            "descripción": "Directrices organización curricular 1º ESO 2020/21 (CV)",
+            "titulo": "Resolución de 29 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establecen las directrices generales para la organización curricular del primer curso de Educación Secundaria Obligatoria para el curso 2020-2021.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-29-R-organziacion-curricular-eso-1-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/4035&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/4035&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-29-R-organziacion-curricular-eso-1-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-29-R-organziacion-curricular-eso-1-2021-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "dogv-2020-06-01-res",
+            "incluido": "2020-06-03",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-06-03",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones proceso admisión FP (CV)",
+            "titulo": "Resolución de 1 de junio de 2020, de la Conselleria de Educación, Cultura y Deporte por la que se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, Formación Profesional Básica dirigida a personas beneficiarias del Plan de empleo juvenil y programas formativos de cualificación básica financiados con fondos públicos para el curso 2020-2021.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-01-R-admision-fp-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/4037&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/4037&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-01-R-admision-fp-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-06-01-R-admision-fp-2021-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "boe-2007-11-l",
+            "incluido": "2020-06-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-06-23",
+            "vigencia": "derogado",
+            "descripción": "Acceso electrónico a los Servicios Públicos",
+            "titulo": "Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los Servicios Públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-06-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-11-L-acceso-electronico-serivicios-publicos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2007/06/22/11"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-08-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-11-L-acceso-electronico-serivicios-publicos-2019-08-04.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2007/06/22/11/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "acceso electrónico"
+            ]
+        },
+        {
+            "id": "boe-2015-39-l",
+            "incluido": "2020-06-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-10-02",
+            "vigencia": "vigente",
+            "descripción": "Acceso electrónico a los Servicios Públicos",
+            "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-10-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-39-L-procedimiento-administrativo-comun.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2015/10/01/39"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2019-11-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-39-L-procedimiento-administrativo-comun-2019-11-05.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2015/10/01/39/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "acceso electrónico"
+            ]
+        },
+        {
+            "id": "boe-2010-3-rd",
+            "incluido": "2020-06-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-01-29",
+            "vigencia": "vigente",
+            "descripción": "Esquema Nacional de Seguridad",
+            "titulo": "Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-01-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-3-RD-esquema-nacional-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/01/08/3"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2010-03-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-3-RD-CO-esquema-nacional-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/01/08/3/corrigendum/20100311"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2015-11-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-3-RD-esquema-nacional-seguridad-2015-11-04.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/01/08/3/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "esquema nacional",
+                "esquema nacional de seguridad"
             ]
         }
     ]

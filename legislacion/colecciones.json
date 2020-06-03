@@ -76,10 +76,13 @@
                             "apartado": {
                                 "titulo": "Coronavirus Covid-19",
                                 "referencias": [
+                                    "boe-2020-463-rd",
+                                    "boe-2020-465-rd",
                                     "boe-2020-361-o",
                                     "boe-2020-362-o",
                                     "boe-2020-365-o",
                                     "boe-2020-399-o",
+                                    "boe-2020-537-rd",
                                     "boe-2020-400-o"
                                 ]
                             }
@@ -342,11 +345,13 @@
                                 "titulo": "Coronavirus Covid-19",
                                 "referencias": [
                                     "dogv-2020-03-12-res",
+                                    "dogv-2020-03-23-res",
                                     "dogv-2020-04-01-res",
                                     "dogv-2020-2-dl",
                                     "dogv-2020-04-05-res",
                                     "dogv-2020-05-11-res",
-                                    "dogv-2020-05-13-res"
+                                    "dogv-2020-05-13-res",
+                                    "dogv-2020-05-26-res"
                                 ]
                             }
                         },
@@ -356,7 +361,10 @@
                                 "referencias": [
                                     "dogv-2020-04-29-res",
                                     "dogv-2020-05-15-res",
-                                    "dogv-2020-05-21-res"
+                                    "dogv-2020-05-21-res",
+                                    "dogv-2019-05-29-1-res",
+                                    "dogv-2019-05-29-2-res",
+                                    "dogv-2020-06-01-res"
                                 ]
                             }
                         },
@@ -1082,6 +1090,15 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Esquemas nacionales",
+                                "referencias": [
+                                    "boe-2010-3-rd",
+                                    "boe-2015-39-l"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Infraestructuras críticas",
                                 "referencias": [
                                     "celex-2008-114-dir",
@@ -1162,6 +1179,7 @@
                                     "boe-2003-662-o",
                                     "boe-2004-292-rd",
                                     "celex-2006-24-dir",
+                                    "boe-2007-11-l",
                                     "boe-2011-11-15-res"
                                 ]
                             }
