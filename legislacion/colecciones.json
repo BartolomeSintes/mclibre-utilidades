@@ -364,7 +364,8 @@
                                     "dogv-2020-05-21-res",
                                     "dogv-2019-05-29-1-res",
                                     "dogv-2019-05-29-2-res",
-                                    "dogv-2020-06-01-res"
+                                    "dogv-2020-06-01-1-res",
+                                    "dogv-2020-06-01-2-res"
                                 ]
                             }
                         },
@@ -372,7 +373,6 @@
                             "apartado": {
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
-                                    "dogv-2019-04-02-res",
                                     "dogv-2019-06-10-res",
                                     "dogv-2019-07-08-1-res",
                                     "dogv-2019-07-08-2-res",
@@ -652,15 +652,27 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Estudios universitarios",
+                                "referencias": [
+                                    "boe-1987-1497-rd",
+                                    "boe-1994-1267-rd",
+                                    "boe-1996-2347-rd",
+                                    "boe-1997-614-rd",
+                                    "boe-1998-779-rd",
+                                    "boe-2005-55-rd",
+                                    "boe-2005-56-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Estudios universitarios informática",
                                 "referencias": [
                                     "boe-1969-554-d",
                                     "boe-1970-07-29-o",
                                     "boe-1971-06-24-o",
                                     "boe-1976-327-rd",
-                                    "boe-1987-1497-rd",
-                                    "boe-2005-55-rd",
-                                    "boe-2005-56-rd"
+                                    "boe-1990-1459-rd"
                                 ]
                             }
                         },
@@ -828,6 +840,14 @@
                     "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la organización de cada curso académico y publicadas anualmente en el Diario Oficial de la Generalitat Valenciana.",
                     "profundidad": 1,
                     "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2019/20",
+                                "referencias": [
+                                    "dogv-2019-04-02-res"
+                                ]
+                            }
+                        },
                         {
                             "apartado": {
                                 "titulo": "Curso 2018/19",
@@ -1056,12 +1076,26 @@
                             "apartado": {
                                 "titulo": "Protección de datos",
                                 "referencias": [
+                                    "boe-1995-02-02-res",
+                                    "boe-1998-07-31-res",
                                     "boe-1999-15-lo",
                                     "boe-2007-1720-rd",
                                     "boe-2007-25-l",
                                     "celex-2016-679-reg",
                                     "celex-2016-680-dir",
                                     "boe-2018-16673-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Agencia Española de Protección de datos",
+                                "referencias": [
+                                    "boe-1998-1-ins",
+                                    "boe-2006-07-12-res",
+                                    "boe-2006-09-01-res",
+                                    "boe-2010-03-18-res",
+                                    "boe-2010-05-24-res"
                                 ]
                             }
                         },
@@ -1090,10 +1124,34 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Esquemas nacionales",
+                                "titulo": "Esquema Nacional de Seguridad",
                                 "referencias": [
                                     "boe-2010-3-rd",
-                                    "boe-2015-39-l"
+                                    "boe-2015-39-l",
+                                    "boe-2015-951-rd",
+                                    "boe-2016-10-07-res",
+                                    "boe-2016-10-13-res",
+                                    "boe-2018-03-27-res",
+                                    "boe-2018-04-13-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Esquema Nacional de Interoperabilidad",
+                                "referencias": [
+                                    "boe-2010-4-rd",
+                                    "boe-2011-07-19-1-res",
+                                    "boe-2011-07-19-2-res",
+                                    "boe-2011-07-19-4-res",
+                                    "boe-2011-07-19-5-res",
+                                    "boe-2011-07-19-6-res",
+                                    "boe-2012-06-28-1-res",
+                                    "boe-2012-06-28-2-res",
+                                    "boe-2012-06-28-3-res",
+                                    "boe-2012-10-03-res",
+                                    "boe-2013-02-20-res",
+                                    "boe-2016-10-27-res"
                                 ]
                             }
                         },
@@ -1141,7 +1199,8 @@
                             "apartado": {
                                 "titulo": "Reutilización información sector público",
                                 "referencias": [
-                                    "boe-2007-37-l"
+                                    "boe-2007-37-l",
+                                    "boe-2011-1495-rd"
                                 ]
                             }
                         },
@@ -1170,17 +1229,24 @@
                                 "titulo": "Legislación derogada",
                                 "referencias": [
                                     "boe-1992-5-lo",
+                                    "boe-1994-1332-rd",
+                                    "boe-1994-06-22-res",
                                     "celex-1995-46-dir",
                                     "celex-1997-66-dir",
                                     "boe-1998-11-l",
                                     "boe-1998-1736-rd",
+                                    "boe-1999-994-rd",
                                     "celex-1999-93-dir",
+                                    "boe-2000-195-rd",
                                     "boe-2000-03-21-o",
+                                    "boe-2000-05-30-res",
                                     "boe-2003-662-o",
                                     "boe-2004-292-rd",
                                     "celex-2006-24-dir",
                                     "boe-2007-11-l",
-                                    "boe-2011-11-15-res"
+                                    "boe-2011-07-19-3-res",
+                                    "boe-2011-11-15-res",
+                                    "boe-2018-5-rdl"
                                 ]
                             }
                         }

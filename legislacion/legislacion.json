@@ -9773,7 +9773,7 @@
             "origen": "BOE",
             "fecha": "2007-11-17",
             "vigencia": "vigente",
-            "descripción": "Medidas de Impulso de la Sociedad de la Información",
+            "descripción": "Ley Reutilización de la información del sector público",
             "titulo": "Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público.",
             "versiones": [
                 {
@@ -11550,36 +11550,36 @@
                     ]
                 },
                 {
-                "versión": "corrección",
-                "fecha": "2016-06-02",
-                "enlaces": [
-                    {
-                        "formato": "pdf",
-                        "idioma": "es",
-                        "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato.pdf"
-                    },
-                    {
-                        "formato": "web",
-                        "idioma": "es",
-                        "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2016/04/19/7/corrigendum/20160602/"
-                    },
-                    {
-                        "formato": "web",
-                        "idioma": "va",
-                        "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/2016/04/19/7/corrigendum/20160602/"
-                    },
-                    {
-                        "formato": "rtf",
-                        "idioma": "es",
-                        "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato-es.rtf"
-                    },
-                    {
-                        "formato": "rtf",
-                        "idioma": "va",
-                        "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato-va.rtf"
-                    }
-                ]
-            }
+                    "versión": "corrección",
+                    "fecha": "2016-06-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2016/04/19/7/corrigendum/20160602/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/eli?param=es-vc/o/2016/04/19/7/corrigendum/20160602/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2016-7-O-CO-admision-infantil-primaria-eso-bachillerato-va.rtf"
+                        }
+                    ]
+                }
             ],
             "claves": [
                 "comunidad valenciana",
@@ -18984,7 +18984,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2019-04-04",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario admisión y matrícula FP 19/20 (CV)",
             "titulo": "Resolución de 2 de abril de 2019, de la Secretaría Autonómica de Educación e Investigación, por la que se establece el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados con ciclos formativos sostenidos con fondos públicos no universitarios; en los programas formativos de Cualificación Básica financiados con fondos públicos y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidos a personas beneficiarias del Plan de empleo juvenil para el curso 2019-2020.",
             "versiones": [
@@ -22440,7 +22440,7 @@
             "vigencia": "vigente",
             "descripción": "Apertura centros educativos tareas administrativas Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 11 de mayo de 2020, de la Consellera de Sanidad Universal y Salud Pública, por la que se autoriza la apertura de los centros eductivos de la Comunitat Valenciana, para la realización de determinadas funciones administrativas y de coordinación.",
-          "versiones": [
+            "versiones": [
                 {
                     "versión": "original",
                     "fecha": "2020-05-12",
@@ -24322,7 +24322,7 @@
             ]
         },
         {
-            "id": "dogv-2020-06-01-res",
+            "id": "dogv-2020-06-01-1-res",
             "incluido": "2020-06-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -24524,7 +24524,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-2010-3-RD-esquema-nacional-seguridad-2015-11-04.pdf"
+                            "url": "boe/BOE-2010-3-RD-esquema-nacional-seguridad-consolidado-2015-11-04.pdf"
                         },
                         {
                             "formato": "web",
@@ -24539,6 +24539,1428 @@
                 "real decreto",
                 "esquema nacional",
                 "esquema nacional de seguridad"
+            ]
+        },
+        {
+            "id": "boe-2018-04-13-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-04-19",
+            "vigencia": "vigente",
+            "descripción": "Instrucción Técnica de Seguridad: Notificación de Incidentes de Seguridad",
+            "titulo": "Resolución de 13 de abril de 2018, de la Secretaría de Estado de Función Pública, por la que se aprueba la Instrucción Técnica de Seguridad de Notificación de Incidentes de Seguridad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-04-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-04-13-RES-its-notificacion-incidentes-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2018/04/13/(2)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de seguridad",
+                "instrucción técnica de seguridad"
+            ]
+        },
+        {
+            "id": "boe-2018-03-27-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-04-03",
+            "vigencia": "vigente",
+            "descripción": "Instrucción Técnica de Seguridad: Auditoría de la Seguridad de los Sistemas de Información",
+            "titulo": "Resolución de 27 de marzo de 2018, de la Secretaría de Estado de Función Pública, por la que se aprueba la Instrucción Técnica de Seguridad de Auditoría de la Seguridad de los Sistemas de Información.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-04-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-03-27-RES-its-auditoria-seguridad-sistemas-informacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2018/03/27/(2)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de seguridad",
+                "instrucción técnica de seguridad"
+            ]
+        },
+        {
+            "id": "boe-2016-10-07-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2016-11-02",
+            "vigencia": "vigente",
+            "descripción": "Instrucción Técnica de Seguridad: Informe del Estado de la Seguridad",
+            "titulo": "Resolución de 7 de octubre de 2016, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Instrucción Técnica de Seguridad de Informe del Estado de la Seguridad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-11-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2016-10-07-RES-its-informe-estado-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2016/10/07/(5)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de seguridad",
+                "instrucción técnica de seguridad"
+            ]
+        },
+        {
+            "id": "boe-2016-10-13-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2016-11-02",
+            "vigencia": "vigente",
+            "descripción": "Instrucción Técnica de Seguridad: Conformidad con el Esquema Nacional de Seguridad.",
+            "titulo": "Resolución de 13 de octubre de 2016, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Instrucción Técnica de Seguridad de conformidad con el Esquema Nacional de Seguridad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-11-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2016-10-13-RES-its-conformidad-esquema-nacional-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2016/10/13/(4)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de seguridad",
+                "instrucción técnica de seguridad"
+            ]
+        },
+        {
+            "id": "boe-2015-951-rd",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-11-04",
+            "vigencia": "vigente",
+            "descripción": "Esquema Nacional de Seguridad en la Administración electrónica",
+            "titulo": "Real Decreto 951/2015, de 23 de octubre, de modificación del Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-11-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-951-RD-esquema-nacional-seguridad-administracion-electronica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2015/10/23/951"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "esquema nacional",
+                "esquema nacional de seguridad",
+                "administración electrónica"
+            ]
+        },
+        {
+            "id": "boe-2010-4-rd",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-01-29",
+            "vigencia": "vigente",
+            "descripción": "Esquema Nacional de Interoperabilidad en la Administración electrónica",
+            "titulo": "Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-01-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-4-RD-esquema-nacional-interoperabilidad-administracion-electronica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/01/08/4"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2011-11-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-4-RD-CO-esquema-nacional-interoperabilidad-administracion-electronica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/01/08/4/corrigendum/20100311"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2011-11-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-4-RD-esquema-nacional-interoperabilidad-administracion-electronica-consolidado-2011-11-08.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/01/08/4/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "administración electrónica"
+            ]
+        },
+        {
+            "id": "boe-2011-1495-rd",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-11-08",
+            "vigencia": "vigente",
+            "descripción": "Reutilización de la información del sector público estatal",
+            "titulo": "Real Decreto 1495/2011, de 24 de octubre, por el que se desarrolla la Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público, para el ámbito del sector público estatal.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-11-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-1495-RD-reutilizacion-informacion-sector-publico-estatal.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "sector público",
+                "reutilización información"
+            ]
+        },
+        {
+            "id": "boe-2013-02-20-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2013-03-04",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Reutilización de recursos de la información",
+            "titulo": "Resolución de 19 de febrero de 2013, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Reutilización de recursos de la información.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-03-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2013-02-19-RES-nti-reutilizacion-recursos-informacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2013/02/19/(4)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2012-10-03-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2012-10-31",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Catálogo de estándares",
+            "titulo": "Resolución de 3 de octubre de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-10-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2012-10-03-RES-nti-catalogo-estandares.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2012/10/03/(3)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2012-06-28-1-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2012-07-26",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Relación de modelos de datos",
+            "titulo": "Resolución de 28 de junio de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Relación de modelos de datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2012-06-28-RES-nti-relacion-modelo-datos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2012/06/28/(5)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2012-06-28-2-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2012-07-26",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Protocolos de intermediación de datos",
+            "titulo": "Resolución de 28 de junio de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Protocolos de intermediación de datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2012-06-28-RES-nti-protocolos-intermediacion-datos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2012/06/28/(4)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2012-06-28-3-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2012-07-26",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Política de gestión de documentos electrónicos",
+            "titulo": "Resolución de 28 de junio de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Política de gestión de documentos electrónicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2012-06-28-RES-nti-politica-gestion-documentos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2012/06/28/(3)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2011-07-19-1-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-07-30",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Requisitos de conexión a la red de las administraciones",
+            "titulo": "Resolución de 19 de julio de 2011, de la Secretaría de Estado para la Función Pública, por la que se aprueba la Norma Técnica de Interoperabilidad de requisitos de conexión a la red de comunicaciones de las Administraciones Públicas españolas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-07-19-RES-nti-requisitos-conexion-red-administracion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2011/07/19/(7)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2011-07-19-2-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-07-30",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Procedimientos de copiado y conversión de documentos",
+            "titulo": "Resolución de 19 de julio de 2011, de la Secretaría de Estado para la Función Pública, por la que se aprueba la Norma Técnica de Interoperabilidad de Procedimientos de copiado auténtico y conversión entre documentos electrónicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-07-19-RES-nti-copiado-conversion-documentos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2011/07/19/(6)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2011-07-19-3-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-07-30",
+            "vigencia": "derogado",
+            "descripción": "Norma Técnica de Interoperabilidad: Política de firma electrónica y certificados de la administración",
+            "titulo": "Resolución de 19 de julio de 2011, de la Secretaría de Estado para la Función Pública, por la que se aprueba la Norma Técnica de Interoperabilidad de Política de Firma Electrónica y de certificados de la Administración.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-07-19-RES-nti-politica-firma-electronica-certificados-administracion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2011/07/19/(5)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2016-10-27-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2016-11-03",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Política de firma y sello electrónicos y certificados de la administración",
+            "titulo": "Resolución de 27 de octubre de 2016, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Política de Firma y Sello Electrónicos y de Certificados de la Administración.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-11-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2016-10-27-RES-nti-politica-firma-electronica-certificados-administracion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2016/10/27/(2)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2011-07-19-4-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-07-30",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Expediente Electrónico",
+            "titulo": "Resolución de 19 de julio de 2011, de la Secretaría de Estado para la Función Pública, por la que se aprueba la Norma Técnica de Interoperabilidad de Expediente Electrónico.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-07-19-RES-nti-expediente-electronico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2011/07/19/(4)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2011-07-19-5-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-07-30",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Documento Electrónico",
+            "titulo": "Resolución de 19 de julio de 2011, de la Secretaría de Estado para la Función Pública, por la que se aprueba la Norma Técnica de Interoperabilidad de Documento Electrónico.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-07-19-RES-nti-documento-electronico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2011/07/19/(3)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "boe-2011-07-19-6-res",
+            "incluido": "2020-06-04",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-07-30",
+            "vigencia": "vigente",
+            "descripción": "Norma Técnica de Interoperabilidad: Digitalización de documentos",
+            "titulo": "Resolución de 19 de julio de 2011, de la Secretaría de Estado para la Función Pública, por la que se aprueba la Norma Técnica de Interoperabilidad de Digitalización de Documentos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-07-19-RES-nti-digitalizacion-documentos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2011/07/19/(2)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "esquema nacional",
+                "esquema nacional de interoperabilidad",
+                "norma técnica de interoperabilidad"
+            ]
+        },
+        {
+            "id": "dogv-2020-06-01-2-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-06-05",
+            "vigencia": "vigente",
+            "descripción": "Calendario de admisión FP (CV)",
+            "titulo": "Resolución de 1 de junio de 2020, de la Secretaria Autonómica de Educación y Formación Profesional, por la que se establecen el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados con ciclos formativos sostenidos con fondos públicos no universitarios; en los programas formativos de cualificación básica financiados con fondos públicos y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidos a personas beneficiarias del Plan de empleo juvenil para el curso 2020/2021.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-01-R-calendario-admision-fp-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/4073&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/4073&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-01-R-calendario-admision-fp-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-06-01-R-calendario-admision-fp-2021-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "fp",
+                "admisión",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "boe-1999-994-rd",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1999-06-25",
+            "vigencia": "derogado",
+            "descripción": "Reglamento medidas de seguridad ficheros de datos de carácter personal",
+            "titulo": "Real Decreto 994/1999, de 11 de junio, por el que se aprueba el Reglamento de medidas de seguridad de los ficheros automatizados que contengan datos de carácter personal.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-06-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1999-994-RD-seguridad-ficheros-datos-personales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1999/06/11/994"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "boe-2000-195-rd",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2000-02-26",
+            "vigencia": "derogado",
+            "descripción": "Plazo implantación medidas de seguridad ficheros de datos de carácter personal",
+            "titulo": "Real Decreto 195/2000, de 11 de febrero, por el que se establece el plazo para implantar las medidas de seguridad de los ficheros automatizados previstas por el Reglamento aprobado por el Real Decreto 994/1999, de 11 de junio.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-02-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2000-195-RD-plazo-implantacion-seguridad-ficheros-datos-personales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2000/02/11/195"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "boe-1994-1332-rd",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-06-21",
+            "vigencia": "derogado",
+            "descripción": "Desarrollo LORTAD",
+            "titulo": "Real Decreto 1332/1994, de 20 de junio, por el que se desarrolla determinados aspectos de la Ley Orgánica 5/1992, de 29 de octubre, de regulación del tratamiento automatizado de los datos de carácter personal.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-06-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-1332-RD-desarrollo-lortad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1994/06/20/1332"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "boe-1994-06-22-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-06-23",
+            "vigencia": "derogado",
+            "descripción": "Modelos inscripciones Registro General de Protección de Datos",
+            "titulo": "Resolución de 22 de junio de 1994, de la Agencia de Protección de Datos, por la que se aprueban los modelos, normalizados en soporte papel y magnético a través de los que deben efectuarse las correspondientes inscripciones en el Registro General de Protección de Datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-06-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-06-22-RES-modelos-inscripciones-rgpd.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/1994/06/22/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-1998-1-ins",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-01-29",
+            "vigencia": "vigente",
+            "descripción": "Ejercicio de los derechos de acceso, rectificación y cancelación",
+            "titulo": "Instrucción 1/1998, de 19 de enero, de la Agencia de Protección de Datos, relativa al ejercicio de los derechos de acceso, rectificación y cancelación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-01-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-1-INS-derechos-acceso-rectificacion-cancelacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/ins/1998/01/19/1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "instrucción",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-2000-05-30-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2000-06-27",
+            "vigencia": "derogado",
+            "descripción": "Modelos inscripciones Registro General de Protección de Datos",
+            "titulo": "Resolución de 30 de mayo de 2000, de la Agencia de Protección de Datos, por la que se aprueban los modelos normalizados en soporte papel, magnético y telemático a través de los que deberán efectuarse las solicitudes de inscripción en el Registro General de Protección de Datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-06-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2000-05-30-RES-modelos-inscripciones-rgpd.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2000/05/30/(3)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-2006-07-12-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2006-07-31",
+            "vigencia": "vigente",
+            "descripción": "Formularios inscripciones Registro General de Protección de Datos",
+            "titulo": "Resolución de 12 de julio de 2006, de la Agencia Española de Protección de Datos, por la que se aprueban los formularios electrónicos a través de los que deberán efectuarse las solicitudes de inscripción de ficheros en el Registro General de Protección de Datos, así como los formatos y requerimientos a los que deben ajustarse las notificaciones remitidas en soporte informático o telemático.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-06-05-RES-formularios-inscripciones-rgpd.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-13849"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-1995-02-02-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1995-02-10",
+            "vigencia": "vigente",
+            "descripción": "Primera lista países con protección de datos equiparable a España",
+            "titulo": "Orden de 2 de febrero de 1995 por la que se aprueba la primera relación de países con protección de datos de carácter personal equiparable a la española, a efectos de transferencia internacional de datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-02-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-02-02-paises-proteccion-datos-equiparable-espana.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1995/02/02/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-1998-07-31-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-08-21",
+            "vigencia": "vigente",
+            "descripción": "Ampliación lista países con protección de datos equiparable a España",
+            "titulo": "Orden de 31 de julio de 1998 por la que se amplía la relación de países con protección de datos de carácter personal equiparable a la española, a efectos de transferencia internacional de datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-08-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-08-21-paises-proteccion-datos-equiparable-espana.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1998/07/31/(6)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-2018-5-rdl",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-07-30",
+            "vigencia": "derogado",
+            "descripción": "Medidas urgentes adaptación a normativa europea protección de datos",
+            "titulo": "Real Decreto-ley 5/2018, de 27 de julio, de medidas urgentes para la adaptación del Derecho español a la normativa de la Unión Europea en materia de protección de datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-5-RDL-adaptacion-temporal-proteccion-datos-europea.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2018/07/27/5"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "boe-2010-03-18-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-03-24",
+            "vigencia": "vigente",
+            "descripción": "Creación Sede Electrónica de la Agencia Española de Protección de Datos",
+            "titulo": "Resolución de 18 de marzo de 2010, de la Agencia Española de Protección de Datos, por la que se crea la Sede Electrónica de la Agencia Española de Protección de Datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-03-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-03-18-creacion-sede-electronica-aepd.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2010/03/18/(2)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-2006-09-01-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2006-09-23",
+            "vigencia": "vigente",
+            "descripción": "Catálogo de ficheros del Registro General de Protección de Datos",
+            "titulo": "Resolución de 1 de septiembre de 2006, de la Agencia Española de Protección de Datos, por la que se determina la información que contiene el Catálogo de ficheros inscritos en el Registro General de Protección de Datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-09-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-09-01-catalogo-ficheros-rgpd.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2006/09/01/(4)"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2008-11-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-09-01-catalogo-ficheros-rgpd-consolidado-2008-11-13.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2006/09/01/(4)/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-2010-05-24-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-06-03",
+            "vigencia": "vigente",
+            "descripción": "Registro Electrónico de la Agencia Española de Protección de Datos",
+            "titulo": "Resolución de 24 de mayo de 2010, de la Agencia Española de Protección de Datos, por la que se regula el Registro Electrónico de la Agencia Española de Protección de Datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-05-24-registro-electronico-aepd.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2010/05/24/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "protección de datos",
+                "derechos digitales",
+                "agencia de protección de datos"
+            ]
+        },
+        {
+            "id": "boe-1994-1267-rd",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-06-11",
+            "vigencia": "derogado",
+            "descripción": "Directrices planes de estudios títulos universitarios",
+            "titulo": "Real Decreto 1267/1994, de 10 de junio, por el que se modifica el Real Decreto 1497/1987, de 27 de noviembre, por el que se establecen las directrices generales comunes de los planes de estudios de los títulos universitarios de carácter oficial y diversos Reales Decretos que aprueban las directrices generales propias de los mismos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-06-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-1267-RD-directrices-planes-estudios-universitarios.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1994/06/10/1267"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-1996-2347-rd",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1996-11-23",
+            "vigencia": "derogado",
+            "descripción": "Directrices planes de estudios títulos universitarios",
+            "titulo": "Real Decreto 2347/1996, de 8 de noviembre, por el que se modifica el Real Decreto 1497/1987, de 27 de noviembre, por el que se establecen las directrices generales comunes de los planes de estudio de los títulos universitarios de carácter oficial y validez en todo el territorio nacional, así como el Real Decreto 1267/1994, de 10 de junio, que modificó el anterior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1996-11-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1996-2347-RD-directrices-planes-estudios-universitarios.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1996/11/08/2347"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-1997-614-rd",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1997-05-16",
+            "vigencia": "derogado",
+            "descripción": "Directrices planes de estudios títulos universitarios",
+            "titulo": "Real Decreto 614/1997, de 25 de abril, por el que se modifica parcialmente el Real Decreto 1497/1987, de 27 de noviembre, por el que se establecen las directrices generales comunes de los planes de estudios de los títulos universitarios de carácter oficial y validez en todo el territorio nacional, modificado parcialmente por los Reales Decretos 1267/1994, de 10 de junio, y 2347/1996, de 8 de noviembre.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-05-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1997-614-RD-directrices-planes-estudios-universitarios.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1996/11/08/2347"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-1998-779-rd",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-05-01",
+            "vigencia": "derogado",
+            "descripción": "Directrices planes de estudios títulos universitarios",
+            "titulo": "Real Decreto 779/1998, de 30 de abril, por el que se modifica parcialmente el Real Decreto 1497/1987, de 27 de noviembre, por el que se establecen las directrices generales comunes de los planes de estudio de los títulos universitarios de carácter oficial validez en todo el territorio nacional, modificado parcialmente por los Reales Decretos 1267/1994, de 10 de junio; 2347/1996, de 8 de noviembre, y 614/1997, de 25 de abril.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-05-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-779-RD-directrices-planes-estudios-universitarios.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1998/04/30/779"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-1990-1459-rd",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1990-11-20",
+            "vigencia": "derogado",
+            "descripción": "Título universitario de Ingeniero en Informática",
+            "titulo": "Real Decreto 1459/1990, de 26 de octubre, por el que se establece el título universitario oficial de Ingeniero en Informática y las directrices generales propias de los planes de estudios conducentes a la obtención de aquél.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1990-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1990-1459-RD-titulo-ingeniero-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1990/10/26/1459"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "plan de estudios"
             ]
         }
     ]
