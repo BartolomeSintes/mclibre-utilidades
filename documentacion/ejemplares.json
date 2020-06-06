@@ -8328,6 +8328,17 @@
       "creado": "2020-05-02"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 16,
+      "año": 2020,
+      "mes": 5,
+      "portada": "solo-linux-16-es-202005.jpg",
+      "fichero": "solo-linux-16-es-202005.pdf",
+      "idioma": "español",
+      "creado": "2020-06-06"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -11441,6 +11452,17 @@
       "creado": "2020-05-02"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 161,
+      "año": 2020,
+      "mes": 6,
+      "portada": "pclinuxos-161-en-202006.jpg",
+      "fichero": "pclinuxos-161-en-202006.pdf",
+      "idioma": "inglés",
+      "creado": "2020-06-06"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -11670,6 +11692,17 @@
       "fichero": "the-r-journal-21-en-201906.pdf",
       "idioma": "inglés",
       "creado": "2019-12-27"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 11 nº 2",
+      "año": 2019,
+      "mes": 12,
+      "portada": "the-r-journal-22-en-201912.jpg",
+      "fichero": "the-r-journal-22-en-201912.pdf",
+      "idioma": "inglés",
+      "creado": "2020-06-06"
     },
     {
       "serie": "Wireframe",
@@ -12088,6 +12121,17 @@
       "fichero": "wireframe-38-en-202005.pdf",
       "idioma": "inglés",
       "creado": "2020-05-09"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 39,
+      "año": 2020,
+      "mes": 6,
+      "portada": "wireframe-39-en-202006.jpg",
+      "fichero": "wireframe-39-en-202006.pdf",
+      "idioma": "inglés",
+      "creado": "2020-06-06"
     },
     {
       "serie": "Wireframe Books",
