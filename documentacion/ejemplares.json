@@ -4203,6 +4203,17 @@
       "creado": "2020-03-28"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 13,
+      "año": 2020,
+      "mes": 6,
+      "portada": "hello-world-13-en-202006.jpg",
+      "fichero": "hello-world-13-en-202006.pdf",
+      "idioma": "inglés",
+      "creado": "2020-06-13"
+    },
+    {
       "serie": "(In)secure Magazine",
       "nombre": "(In)secure Magazine",
       "número": 1,
@@ -7281,6 +7292,17 @@
       "fichero": "odroid-77-es-202005.pdf",
       "idioma": "español",
       "creado": "2020-05-30"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 78,
+      "año": 2020,
+      "mes": 6,
+      "portada": "odroid-78-en-202006.jpg",
+      "fichero": "odroid-78-en-202006.pdf",
+      "idioma": "inglés",
+      "creado": "2020-06-13"
     },
     {
       "serie": "Olympiads in informatics",
