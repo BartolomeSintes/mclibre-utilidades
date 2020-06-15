@@ -34,6 +34,7 @@ LIMPIA = [
     ".xsl",
     ".py",
     ".txt",
+    ".rtf",
     ".odt",
     ".odp",
     ".ods",
@@ -48,7 +49,7 @@ LIMPIA = [
     ".gz",
     ".tgz",
     ".iso",
-    "ova",
+    ".ova",
 ]
 IMG = [".jpg", ".png", ".svg", ".gif", ".webp", ".ico", ".cur"]
 OTROS = [".css", ".js", ".woff", ".otf", ".ttf", ".po", ".eot"]
@@ -58,6 +59,7 @@ APUNTES = [
     "consultar/google",
     "consultar/htmlcss",
     "consultar/informatica",
+    "consultar/legislacion",
     "consultar/linux",
     "consultar/php",
     "consultar/primaria",
@@ -220,6 +222,9 @@ def mclibre_divide_logs_apuntes():
         file_internet = (
             str(source_file).replace(MCL_0, MCL_2 + "\\internet") + ".internet"
         )
+        file_legislacion = (
+            str(source_file).replace(MCL_0, MCL_2 + "\\legislacion") + ".legislacion"
+        )
         file_linux = str(source_file).replace(MCL_0, MCL_2 + "\\linux") + ".linux"
         file_musica = str(source_file).replace(MCL_0, MCL_2 + "\\musica") + ".musica"
         file_pau = str(source_file).replace(MCL_0, MCL_2 + "\\pau") + ".pau"
@@ -251,6 +256,7 @@ def mclibre_divide_logs_apuntes():
         informatica = open(file_informatica, "w", encoding="utf-8")
         internet = open(file_internet, "w", encoding="utf-8")
         instalar = open(file_instalar, "w", encoding="utf-8")
+        legislacion = open(file_legislacion, "w", encoding="utf-8")
         linux = open(file_linux, "w", encoding="utf-8")
         musica = open(file_musica, "w", encoding="utf-8")
         pau = open(file_pau, "w", encoding="utf-8")
@@ -317,6 +323,11 @@ def mclibre_divide_logs_apuntes():
                     print(texto, end="", file=instalar)
                 elif "consultar/internet" in texto or "consultar//internet" in texto:
                     print(texto, end="", file=internet)
+                elif (
+                    "consultar/legislacion" in texto
+                    or "consultar//legislacion" in texto
+                ):
+                    print(texto, end="", file=legislacion)
                 elif "consultar/linux" in texto or "consultar//linux" in texto:
                     print(texto, end="", file=linux)
                 elif "consultar/musica" in texto or "consultar//musica" in texto:
@@ -368,6 +379,7 @@ def mclibre_divide_logs_apuntes():
         informatica.close()
         instalar.close()
         internet.close()
+        legislacion.close()
         linux.close()
         musica.close()
         pau.close()
@@ -418,6 +430,7 @@ APUNTES = [
     "docs",
     "htmlcss",
     "informatica",
+    "legislacion",
     "php",
     "php-php",
     "primaria",
@@ -436,6 +449,7 @@ APUNTES_ESTADISTICAS = [
     # ["php-php", "Programación web en PHP [páginas PHP]"],
     ["primaria", "Ejercicios de Primaria y Secundaria"],
     ["docs", "Documentación de software libre"],
+    ["legislacion", "Legislación informática"],
     ["charlas", "Charlas"],
 ]
 ACUMULADAS = [
@@ -451,7 +465,7 @@ ACUMULADAS = [
     # ["docs", "Documentación de software libre"],
     # ["charlas", "Charlas"],
 ]
-YEARS = ["2015", "2016", "2017", "2018", "2019"]
+YEARS = ["2015", "2016", "2017", "2018", "2019", "2020"]
 MONTHS = "EFMAMJJASOND"
 
 
@@ -473,20 +487,21 @@ def cuenta_paginas():
     for i in APUNTES:
         print(f"{i}: {contadores[i]:,}")
 
+
 def une_visitas_json():
     print("Une los json visitas de cada año en uno solo")
     current_year = datetime.now().year
     current_month = datetime.now().month
     visitas = defaultdict(lambda: 0)
-    with open("visitas-vacio.json", encoding="utf-8") as json_file:
+    with open("json/visitas-vacio.json", encoding="utf-8") as json_file:
         visitas = json.load(json_file)
     for i in YEARS:
-        with open("visitas-"+str(i)+".json", encoding="utf-8") as json_file:
+        with open("json/visitas-" + str(i) + ".json", encoding="utf-8") as json_file:
             visitas_json = json.load(json_file)
             for j in APUNTES:
                 for key in list(visitas_json[j][i].keys()):
                     if i == str(current_year) and int(key) >= current_month:
-                        del(visitas_json[j][i][key])
+                        del visitas_json[j][i][key]
                 visitas[j].update(visitas_json[j])
     with open(FICHERO_VISITAS_TODAS, "w", encoding="utf-8") as json_file:
         json.dump(visitas, json_file)
@@ -596,10 +611,10 @@ def genera_estadisticas():
 
     t += "<p>En estas estadísticas sólo se contabilizan las páginas webs. No se contabilizan "
     t += "las páginas de ejemplos o de ejercicios incluidas en otras páginas.</p>\n"
-    t += "  <p>\n"
-    t += "<p>la gráfica de estadísticas acumuladas sólo contabiliza las páginas de apuntes "
+    t += " \n"
+    t += "<p>La gráfica de estadísticas acumuladas sólo contabiliza las páginas de apuntes "
     t += "de ASIR.</p>\n"
-    t += "  <p>\n"
+    t += " \n"
 
     # Dibuja la gráfica acumulada
     t += f"  <h2>Todos los apuntes acumulados</h2>\n"
@@ -619,13 +634,13 @@ def genera_estadisticas():
     # print(acumuladas_json)
 
     ind = ACUMULADAS[-1][0]
-    pasito = 30
+    pasito = 24
     tamX = pasito * 12 * len(YEARS)
     tamY = 300
     px = pasito / 2
 
     t += '    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"\n'
-    t += f'      width="{pasito * (12 * len(YEARS) + 4)}" height="{tamY + 110}" viewBox="0 {-2 * pasito} {pasito * (12 * len(YEARS) + 4)} {tamY + 110}" font-family="sans-serif" font-size="18">\n'
+    t += f'      width="{pasito * (12 * len(YEARS) + 4)}" height="{tamY + 110}" viewBox="-30 {-2 * pasito} {pasito * (12 * len(YEARS) + 4)} {tamY + 110}" font-family="sans-serif" font-size="18">\n'
 
     # dibuja los ejes principales
     t += f'      <polyline points="{pasito},{-pasito / 2} {pasito},{tamY} {tamX + pasito * 1.5},{tamY}" \n'
@@ -636,32 +651,53 @@ def genera_estadisticas():
         for j in YEARS:
             for k in range(1, len(acumuladas_json[ACUMULADAS[i][0]][j]) + 1):
                 acumuladas_json[ACUMULADAS[i][0]][j][str(k)] = round(
-                    acumuladas_json[ACUMULADAS[i][0]][j][str(k)] / monthrange(int(j), k)[1]
+                    acumuladas_json[ACUMULADAS[i][0]][j][str(k)]
+                    / monthrange(int(j), k)[1]
                 )
 
     estadisticas[ind] = {}
-    min = acumuladas_json[ind][YEARS[0]]["1"]
-    max = acumuladas_json[ind][YEARS[0]]["1"]
+    minimo = acumuladas_json[ind][YEARS[0]]["1"]
+    maximo = acumuladas_json[ind][YEARS[0]]["1"]
     for j in YEARS:
         for k in range(1, len(acumuladas_json[ind][j]) + 1):
-            if acumuladas_json[ind][j][str(k)] < min:
-                min = acumuladas_json[ind][j][str(k)]
-            if acumuladas_json[ind][j][str(k)] > max:
-                max = acumuladas_json[ind][j][str(k)]
-    estadisticas[ind]["min"] = min
-    estadisticas[ind]["max"] = max
-    uniY = 10 ** math.floor(math.log(estadisticas[ind]["max"], 10))
-    pYMax = round(math.ceil(estadisticas[ind]["max"] / uniY) * uniY)
+            if acumuladas_json[ind][j][str(k)] < minimo:
+                minimo = acumuladas_json[ind][j][str(k)]
+            if acumuladas_json[ind][j][str(k)] > maximo:
+                maximo = acumuladas_json[ind][j][str(k)]
+    estadisticas[ind]["minimo"] = minimo
+    estadisticas[ind]["maximo"] = maximo
+
+    uniY = 10 ** (math.floor(math.log(estadisticas[ind]["maximo"], 10)) - 1)
+    pYmaximo = round(math.ceil(estadisticas[ind]["maximo"] / uniY) * uniY)
+    # Este if es para que el número de rayas horizontales no sea mayor que 10
+    if pYmaximo / uniY <= 10:
+        factor = 1
+    elif pYmaximo / uniY <= 20:
+        factor = 2
+    elif pYmaximo / uniY <= 50:
+        factor = 5
+    else:
+        uniY = uniY * 10
+        factor = 1
+    # Este if es para que si la escala del eje Y es 10 o 100 los números no superen el 10 (para que sea fácil interpretar los números)
+    if uniY == 10 and math.floor(pYmaximo / uniY / factor) * factor > 10:
+        uniY = 1
+        factor = factor * 10
+    elif uniY == 100 and math.floor(pYmaximo / uniY / factor) * factor > 10:
+        uniY = 1
+        factor = factor * 100
+
+    # print(f'{estadisticas[ind]["maximo"]} {pYmaximo} => {pYmaximo/uniY} {uniY} => {math.floor(pYmaximo / uniY / factor)} {factor}\n')
 
     # leyenda eje Y
     t += f'      <text x="0" y="{-pasito}" text-anchor="start">x{"{:,}".format(uniY).replace(",",".")} al día</text>\n'
 
     # dibuja las líneas horizontales
-    for i in range(1, math.ceil(pYMax / uniY) + 1):
-        uniYpos = round(tamY - uniY * i / pYMax * tamY)
+    for i in range(1, math.floor(pYmaximo / uniY / factor) + 1):
+        uniYpos = round(tamY - uniY * factor * i / pYmaximo * tamY)
         t += f'      <line x1="{pasito}" y1="{uniYpos}" x2="{tamX + pasito + pasito / 2}" y2="{uniYpos}" \n'
         t += '        stroke-width="1" stroke="black" stroke-dasharray="5 5" />\n'
-        t += f'      <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{i}</text>\n'
+        t += f'      <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{"{:,}".format(i * factor).replace(",",".")}</text>\n'
 
     # dibuja las líneas verticales de los meses
     for j in range(len(YEARS)):
@@ -683,8 +719,8 @@ def genera_estadisticas():
         t += '      <polyline fill="none" stroke-width="2" stroke="RoyalBlue"\n'
         t += '        points="'
         for j in YEARS:
-            for k in range(1, len(acumuladas_json[ind][j])+1):
-                py = round(tamY - acumuladas_json[ind][j][str(k)] / pYMax * tamY)
+            for k in range(1, len(acumuladas_json[ind][j]) + 1):
+                py = round(tamY - acumuladas_json[ind][j][str(k)] / pYmaximo * tamY)
                 px += pasito
                 t += f"{px},{py} "
         t += '"\n'
@@ -705,13 +741,13 @@ def genera_estadisticas():
         t += "  <p>\n"
 
         ind = APUNTES_ESTADISTICAS[i][0]
-        pasito = 30
+        pasito = 24
         tamX = pasito * 12 * len(YEARS)
         tamY = 300
         px = pasito / 2
 
         t += '    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"\n'
-        t += f'      width="{pasito * (12 * len(YEARS) + 4)}" height="{tamY + 110}" viewBox="0 {-2 * pasito} {pasito * (12 * len(YEARS) + 4)} {tamY + 110}" font-family="sans-serif" font-size="18">\n'
+        t += f'      width="{pasito * (12 * len(YEARS) + 4)}" height="{tamY + 110}" viewBox="-30 {-2 * pasito} {pasito * (12 * len(YEARS) + 4)} {tamY + 110}" font-family="sans-serif" font-size="18">\n'
 
         # dibuja los ejes principales
         t += f'      <polyline points="{pasito},{-pasito / 2} {pasito},{tamY} {tamX + pasito * 1.5},{tamY}" \n'
@@ -725,29 +761,49 @@ def genera_estadisticas():
                 )
 
         estadisticas[ind] = {}
-        min = estadisticas_json[ind][YEARS[0]]["1"]
-        max = estadisticas_json[ind][YEARS[0]]["1"]
+        minimo = estadisticas_json[ind][YEARS[0]]["1"]
+        maximo = estadisticas_json[ind][YEARS[0]]["1"]
         for j in YEARS:
             for k in range(1, len(estadisticas_json[ind][j]) + 1):
-                if estadisticas_json[ind][j][str(k)] < min:
-                    min = estadisticas_json[ind][j][str(k)]
-                if estadisticas_json[ind][j][str(k)] > max:
-                    max = estadisticas_json[ind][j][str(k)]
+                if estadisticas_json[ind][j][str(k)] < minimo:
+                    minimo = estadisticas_json[ind][j][str(k)]
+                if estadisticas_json[ind][j][str(k)] > maximo:
+                    maximo = estadisticas_json[ind][j][str(k)]
                 # print(estadisticas_json[ind][j][str(k)])
-        estadisticas[ind]["min"] = min
-        estadisticas[ind]["max"] = max
-        uniY = 10 ** math.floor(math.log(estadisticas[ind]["max"], 10))
-        pYMax = round(math.ceil(estadisticas[ind]["max"] / uniY) * uniY)
+        estadisticas[ind]["minimo"] = minimo
+        estadisticas[ind]["maximo"] = maximo
+
+        uniY = 10 ** (math.floor(math.log(estadisticas[ind]["maximo"], 10)) - 1)
+        pYmaximo = round(math.ceil(estadisticas[ind]["maximo"] / uniY) * uniY)
+        # Este if es para que el número de rayas horizontales no sea mayor que 10
+        if pYmaximo / uniY <= 10:
+            factor = 1
+        elif pYmaximo / uniY <= 20:
+            factor = 2
+        elif pYmaximo / uniY <= 50:
+            factor = 5
+        else:
+            uniY = uniY * 10
+            factor = 1
+        # Este if es para que si la escala del eje Y es 10 o 100 los números no superen el 10 (para que sea fácil interpretar los números)
+        if uniY == 10 and math.floor(pYmaximo / uniY / factor) * factor > 10:
+            uniY = 1
+            factor = factor * 10
+        elif uniY == 100 and math.floor(pYmaximo / uniY / factor) * factor > 10:
+            uniY = 1
+            factor = factor * 100
+
+        # print(f'{estadisticas[ind]["maximo"]} {pYmaximo} => {pYmaximo/uniY} {uniY} => {math.floor(pYmaximo / uniY / factor)} {factor}\n')
 
         # leyenda eje Y
         t += f'      <text x="0" y="{-pasito}" text-anchor="start">x{"{:,}".format(uniY).replace(",",".")} al día</text>\n'
 
         # dibuja las líneas horizontales
-        for i in range(1, math.ceil(pYMax / uniY) + 1):
-            uniYpos = round(tamY - uniY * i / pYMax * tamY)
+        for i in range(1, math.floor(pYmaximo / uniY / factor) + 1):
+            uniYpos = round(tamY - uniY * factor * i / pYmaximo * tamY)
             t += f'      <line x1="{pasito}" y1="{uniYpos}" x2="{tamX + pasito + pasito / 2}" y2="{uniYpos}" \n'
             t += '        stroke-width="1" stroke="black" stroke-dasharray="5 5" />\n'
-            t += f'      <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{i}</text>\n'
+            t += f'      <text x="{pasito - 10}" y="{uniYpos + 5}" text-anchor="end">{"{:,}".format(i * factor).replace(",",".")}</text>\n'
 
         # dibuja las líneas verticales de los meses
         for j in range(len(YEARS)):
@@ -767,7 +823,7 @@ def genera_estadisticas():
         t += '        points="'
         for j in YEARS:
             for k in range(1, len(estadisticas_json[ind][j]) + 1):
-                py = round(tamY - estadisticas_json[ind][j][str(k)] / pYMax * tamY)
+                py = round(tamY - estadisticas_json[ind][j][str(k)] / pYmaximo * tamY)
                 px += pasito
                 t += f"{px},{py} "
         t += '"\n'
@@ -791,10 +847,14 @@ def genera_estadisticas():
 
 def main():
     print("Estadísticas mclibre")
-    # en paso-0 hay que poner los logs originales de un año entero
+    # Descomentar las líneas del paso que se quiera realizar
+
+    # Primero
+    # en paso-0 hay que poner los logs originales de las semanas que se quieran analizar
     # en paso-1 se guardarán los ficheros separando clean, img, etc.
     # mclibre_limpia_logs()
 
+    # Segundo
     # en paso-0 hay que poner los logs clean obtenidos con mclibre_limpia_logs()
     # en paso-2 se guardarán los ficheros separando grupos de apuntes
     # mclibre_divide_logs_apuntes()
@@ -805,14 +865,17 @@ def main():
     # muestra por pantalla las páginas totales que hay en cada grupo (cuenta el intro final de más)
     # cuenta_paginas()
 
+    # Tercero
     # en paso-2 tienen que estar los ficheros de cada grupo de apuntes
     # crea visitas.json con las páginas que hay en cada grupo
     # como argumento se pone el año que corresponde
-    # cuenta_paginas_meses(2019)
+    # cuenta_paginas_meses(2020)
 
+    # Cuarto
     # une todos los ficheros visitas-YYYY.json en un único fichero
     # une_visitas_json()
 
+    # Quinto
     # a partir de visitas-todas.json crea página de estadísticas
     genera_estadisticas()
 
