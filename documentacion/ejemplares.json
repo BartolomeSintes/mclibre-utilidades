@@ -1475,6 +1475,17 @@
       "creado": "2020-05-23"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 72,
+      "año": 2020,
+      "mes": 6,
+      "portada": "edutec-72-es-202006.jpg",
+      "fichero": "edutec-72-es-202006.pdf",
+      "idioma": "español",
+      "creado": "2020-06-20"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -4027,6 +4038,17 @@
       "creado": "2020-05-23"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 32,
+      "año": 2020,
+      "mes": 7,
+      "portada": "hackspace-32-en-202007.jpg",
+      "fichero": "hackspace-32-en-202007.pdf",
+      "idioma": "inglés",
+      "creado": "2020-06-20"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -5015,6 +5037,17 @@
       "fichero": "insecure-65-en-202002.pdf",
       "idioma": "inglés",
       "creado": "2020-02-15"
+    },
+    {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
+      "número": 66,
+      "año": 2020,
+      "mes": 6,
+      "portada": "insecure-66-en-202006.jpg",
+      "fichero": "insecure-66-en-202006.pdf",
+      "idioma": "inglés",
+      "creado": "2020-06-20"
     },
     {
       "serie": "(In)secure Magazine",
@@ -8392,6 +8425,17 @@
       "fichero": "solo-wordpress-03-es-202004.pdf",
       "idioma": "español",
       "creado": "2020-04-04"
+    },
+    {
+      "serie": "Solo WordPress",
+      "nombre": "Solo WordPress",
+      "número": 4,
+      "año": 2020,
+      "mes": 6,
+      "portada": "solo-wordpress-04-es-202006.jpg",
+      "fichero": "solo-wordpress-04-es-202006.pdf",
+      "idioma": "español",
+      "creado": "2020-06-20"
     },
     {
       "serie": "The MagPi",
