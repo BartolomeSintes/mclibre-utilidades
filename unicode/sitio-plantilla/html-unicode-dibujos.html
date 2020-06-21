@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Emojis. Dibujos en Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
+  <link rel="icon" href="../varios/favicon.ico">
+  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+  <style>
+    @font-face {
+        font-family: "Symbola";
+        src: url("unicode/Symbola.otf");
+    }
+
+    @font-face {
+        font-family: "Twemoji";
+        src: url("unicode/TwitterColorEmoji-SVGinOT.ttf");
+    }
+
+    div.u-l {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    div.u {
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 210px;
+        margin: 5px;
+        border: black 1px solid;
+        text-align: center;
+    }
+
+    div.u2 {
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 280px;
+        margin: 5px;
+        border: black 1px solid;
+        text-align: center;
+    }
+
+    div.u p:nth-child(odd), div.u2 p:nth-child(odd)  {
+        background-color: #eee;
+    }
+
+    div.u p, div.u2 p  {
+        margin: 0;
+        padding: 5px 10px;
+    }
+
+    div.u p.uc, div.u2 p.uc {
+        font-weight: bold;
+    }
+
+    div.u p.si, div.u2 p.si {
+        font-family: sans-serif;
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center;
+    }
+
+    div.u span.ss, div.u2 span.ss {
+        font-family: sans-serif;
+        padding-right: 20px;
+    }
+
+    p.si span:not(:last-child)  { border-right: 2px solid black;}
+
+    div.u span.sy, div.u2 span.sy {
+        font-family: "Symbola";
+    }
+
+    div.u span.te, div.u2 span.te {
+        font-family: "Twemoji";
+        font-size: 90px;
+    }
+
+    div.u .twe, div.u2 .twe {
+        height: 90px;
+        vertical-align: text-bottom;
+    }
+
+    div.u p.en, div.u2 p.en {}
+
+    div.u p.no, div.u2 p.no {
+        flex: 1 0 auto;
+        text-transform: uppercase;
+    }
+
+    div.u a, div.u2 a {
+        border: none;
+        text-decoration: none;
+        color: black;
+    }
+
+    table.u {
+        border-spacing: 20px 0;
+        border-collapse: collapse;
+    }
+
+    table.u colgroup {
+        border-right: black 1px solid;
+        border-left: black 1px solid;
+    }
+
+    table.u tr.fila-estrecha {
+        height: auto;
+        border-bottom: black 1px solid;
+    }
+
+    table.u tr { height: 90px; }
+
+    table.u .ss {
+        font-family: sans-serif;
+        font-size: 80px;
+    }
+
+    table.u .te {
+        font-family: "Twemoji";
+        font-size: 80px;
+    }
+
+    table.u .twe {
+        font-size: 80px;
+    }
+
+    table.u a {
+        border: none;
+        text-decoration: none;
+        color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Dibujos en Unicode: emojis</h1>
+
+  <nav>
+    <p>
+      <a href="../index.html"><img src="../varios/iconos/icono-html5.svg" alt="Índice de HTML/CSS" title="Índice de HTML/CSS" width="42" height="48"></a>
+      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>
+    </p>
+
+    <div class="toc">
+      <h2>Dibujos Unicode</h2>
+
+      <ul>
+        <li><a href="#info">Información ofrecida</a></li>
+        <ul>
+          <li><a href="#controles-sup">Supl. controles y Latin-1</a></li>
+          <li><a href="#puntuacion">Puntuación</a></li>
+          <li><a href="#simbolos-letras">Con letras</a></li>
+          <li><a href="#flechas">Flechas</a></li>
+          <li><a href="#tecnicos-misc">Técnicos misceláneos</a></li>
+          <li><a href="#alfanum-circulo">Alf. con círculo alrededor</a></li>
+          <li><a href="#formas-geometricas">Formas geométricas</a></li>
+          <li><a href="#simbolos-misc">Misceláneos</a></li>
+          <li><a href="#dingbats">Dingbats</a></li>
+          <li><a href="#flechas-suplementarias">Flechas suplementarias B</a></li>
+          <li><a href="#simbolos-flechas">Símbolos y flechas misc.</a></li>
+          <li><a href="#cjk">Símbolos y puntuación CJK</a></li>
+          <li><a href="#cjk-circulo">CJK con círculo alrededor</a></li>
+          <li><a href="#fichas-mahjong">Mahjong</a></li>
+          <li><a href="#cartas">Cartas</a></li>
+          <li><a href="#alfanum-circulo-sup">Supl. alf. con círculo</a></li>
+          <li><a href="#ideografico-circulo-sup">Supl. ideográfico con círculo</a></li>
+          <li><a href="#geometricas-extendidas">Formas geométricas extend.</a></li>
+          <li><a href="#simbolos-pict-misc">Símbolos y pict. misc.</a></li>
+          <li><a href="#emoticonos">Emoticonos</a></li>
+          <li><a href="#transporte">Transporte y mapas</a></li>
+          <li><a href="#simbolos-misc-supl">Símbolos y pict. misc. supl.</a></li>
+          <li><a href="#simbolos-ext-a">Símbolos y pict. extend. A</a></li>
+        </ul>
+      </ul>
+    </div>
+  </nav>
+
+  <p>Esta página contiene muestras de los dibujos (emojis) incluidos en Unicode.</p>
+
+  <p>Para entender esta página se recomienda leer las lecciones:</p>
+  <ul>
+    <li><a href="html-utf8.html">El juego de caracteres UTF-8</a>, que explica qué es un juego de caracteres informático y, concretamente, qué es el juego de caracteres UTF-8.</li>
+    <li><a href="html-entidades-caracter.html">Entidades de carácter y entidades numéricas</a>, que explica cómo incluir caracteres Unicode en una página web</li>
+    <li><a href="html-unicode-secuencias.html">Secuencias</a>, que muestra cómo se definen las secuencias de caracteres Unicode que corresponden a dibujos (banderas, emojis, etc.)</li>
+  </ul>
+
+  <p>Esta página es la segunda de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
+  <ul>
+    <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
+    <li><a href="html-unicode-dibujos.html">Dibujos</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
+    <li><a href="html-unicode-secuencias-banderas.html">Banderas</a>, que muestra las secuencias Unicode que corresponden a banderas</li>
+    <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
+    <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
+    <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
+    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no admiten actualmente</li>
+  </ul>
+
+  <section id="info">
+    <h2>Información contenida en las fichas</h2>
+
+    <p>Las fichas siguientes muestran los dibujos (emoticonos, emojis y otros) de Unicode. Para cada carácter se muestra:</p>
+
+    <ul>
+      <li>el código Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal). En los casos de los emojis con representación predeterminada en modo texto, se necesita añadir el <a href="html-unicode-secuencias.html#selectores-variacion">selector de variación 16</a> (carácter U+FE0F).</li>
+      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra el código Unicode en un cuadrado de borde negro)
+        <ul>
+          <li>la fuente <span class="css-valor">sans-serif</span> (la fuente aplicada depende del sistema operativo, del navegador e incluso del carácter)</li>
+          <li>la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a>, que utiliza Firefox en Windows 7. Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
+        </ul>
+      </li>
+      <li>la entidad numérica de ese carácter (en formato hexadecimal y decimal)</li>
+      <li>el nombre del carácter (en inglés)</li>
+    </ul>
+  </section>
+
+${contenido}  <script>
+    var twemojis = document.getElementsByClassName('twe');
+    var i;
+    for (i = 0; i < twemojis.length; i++) {
+      twemoji.parse(twemojis[i], {
+        className: "twe",
+        folder: "svg",
+        ext: ".svg"
+      });
+    }
+  </script>
+
+  <footer>
+    <p class="ultmod">Última modificación de esta página: 13 de junio de 2020</p>
+
+    <p class="licencia">
+      <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"><img src="../varios/iconos/icono-cc-by-sa.svg" alt="Licencia Creative Commons" title="Licencia Creative Commons BY-SA" width="120" height="42"></a><br>
+      Esta página forma parte del curso <strong><a href="https://www.mclibre.org/consultar/htmlcss/">Páginas web HTML y hojas de estilo CSS</a></strong> por <a href="https://www.mclibre.org/" rel="author">Bartolomé Sintes Marco</a><br>
+      que se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES">Licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a>.
+    </p>
+  </footer>
+</body>
+</html>
