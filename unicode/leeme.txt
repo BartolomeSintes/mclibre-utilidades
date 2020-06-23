@@ -1,0 +1,10 @@
+
+Warnings del W3C Validator en la página de símbolos están relacionados con esto
+
+carácter problemático: &#x1D15E;
+Text run is not in Unicode Normalization Form C.
+https://stackoverflow.com/questions/5465170/text-run-is-not-in-unicode-normalization-form-c
+
+carácter problemático: &#x1D165;
+Text run starts with a composing character.
+https://www.w3.org/Bugs/Public/show_bug.cgi?id=13502

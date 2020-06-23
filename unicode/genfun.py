@@ -37,35 +37,36 @@ RUTAS_SVG = "https://github.com/twitter/twemoji/blob/master/assets/svg"
 # }
 
 
-def genera_enlace_tgh(c):
+def genera_enlace_tgh(c, quita_fe0f):
     resp = '<a href="' + RUTAS_SVG + "/"
     for valor in c:
-        resp += f"{int(valor, 16):x}-"
+        if not(quita_fe0f) or valor != "FE0F":
+            resp += f"{int(valor, 16):x}-"
     resp = resp[:-1]    # Quita el ultimo guion
     resp += '.svg">'
     return resp
 
 
-def genera_caracter(c, fuente):
+def genera_caracter(c, fuente, quita_fe0f):
     # fuente puede ser vacío, SS, TCF, TGH, SYM,
     resp = ""
     span = enlace = False
     if fuente == "SS":
-        resp = '\n          <span class="ss">'
+        resp = '          <span class="ss">'
         span = True
     elif fuente == "SYM":
-        resp = '\n          <span class="sy">'
+        resp = '          <span class="sy">'
         span = True
     elif fuente == "TGH":
-        resp = '\n          <span class="twe">'
+        resp = '          <span class="twe">'
         if c[gendef.TWE] != "":
-            resp += genera_enlace_tgh(c[gendef.UCO])
+            resp += genera_enlace_tgh(c[gendef.UCO], quita_fe0f)
             enlace = True
         span = True
     elif fuente == "TCF":
-        resp = '\n          <span class="te">'
+        resp = '          <span class="te">'
         if c[gendef.TWE] != "":
-            resp += genera_enlace_tgh(c[gendef.UCO])
+            resp += genera_enlace_tgh(c[gendef.UCO], quita_fe0f)
             enlace = True
         span = True
     # else:
@@ -76,14 +77,16 @@ def genera_caracter(c, fuente):
     if enlace:
         resp += "</a>"
     if span:
-        resp += "</span>\n"
+        resp += "</span>"
+    resp += "\n"
     return resp
 
 
-def genera_ficha(simbolos):
+def genera_ficha(simbolos, quita_fe0f):
     # simbolos es una matriz de parejas [c, fuente]
     # c ya incluye gendef.VS o Fitzpatrick
     # fuente puede ser SS, TCF, TGH, SYM,
+    # print("genera_ficha:", end="")
     t = ""
     if len(simbolos) == 1:
         t += '      <div class="u">\n'
@@ -95,25 +98,28 @@ def genera_ficha(simbolos):
         t += f"U+{int(tmp, 16):X} "
     t += "</p>\n"
     # Dibujo(s)
-    t += '        <p class="si">'
+    t += '        <p class="si">\n'
     # Este if era para que si sólo hay un símbolo no ponga class="SS", pero me da igual que lo ponga
     # if len(simbolos) == 1 and simbolos[0][1] == "SS":
     #     simbolos[0][1] = ""
     for simbolo in simbolos:
         c = simbolo[0]
         f = simbolo[1]
-        t += genera_caracter(c, f)
+        # print(c, f)
+        t += genera_caracter(c, f, quita_fe0f)
     t += "        </p>\n"
     # Entidad numérica hexadecimal
-    t += '        <p class="en">Hex: <strong>'
+    t += '        <p class="en">\n'
+    t += '          Hex: <strong>'
     for tmp in simbolos[0][0][gendef.UCO]:
         t += f"&amp;#x{int(tmp, 16):x};"
-    t += "</strong></p>\n"
+    t += "</strong><br>\n"
     # Entidad numérica adecimal
-    t += '        <p class="en">Dec: <strong>'
+    t += '          Dec: <strong>'
     for tmp in simbolos[0][0][gendef.UCO]:
         t += f"&amp;#{int(tmp, 16)};"
-    t += "</strong></p>\n"
+    t += "</strong>\n"
+    t += "        </p>\n"
     # Descripción
     t += f'        <p class="no">{c[gendef.DESC]}</p>\n'
     t += "      </div>\n"
@@ -121,12 +127,13 @@ def genera_ficha(simbolos):
     return t
 
 
-def prepara_ficha(c, fuentes, pagina):
+def prepara_ficha(c, fuentes, pagina, quita_fe0f):
     # simbolos es una matriz de [c, gendef.VS, fp, fuente]
     # c es el código Unicode con toda la información
     # gendef.VSte es qué se hace con gendef.VS: Vacío / gendef.VSE / gendef.VST
     # fp es qué hace con FP: Vacío / pone uno en concreto o pone todos
     # fuente puede ser SS, SYM, TGH, TCF o mixto SS-TCF-TGH-SYM, SS-TGH, SS-SYM, SS-TGH-
+    # print("prepara_ficha: ", c, fuentes, pagina)
     datos = []
     for fuente in fuentes:
         tmp = []
@@ -171,7 +178,10 @@ def prepara_ficha(c, fuentes, pagina):
                 datos += [tmp]
             elif fuente == "TCF-TGH" and c[gendef.TWE] != "":
                 datos += [tmp]
-    return genera_ficha(datos)
+        else:
+            if tmp != []:
+                datos += [tmp]
+    return genera_ficha(datos, quita_fe0f)
     # if segundo == "TGH" or c[gendef.WIN] == "" andc[gendef.TWO] == "TGH" andc[gendef.VS] != "gendef.VST":
     #     print genera_caracter(c[gendef.UCO], "TGH")
     # elif segundo == "TCF" or segundo = "" andc[gendef.WIN] == "" andc[gendef.TWO] == "TCF" andc[gendef.VS] != "gendef.VST":
@@ -198,8 +208,28 @@ def genera_grupo(
             t += "\n"
 
         t += '    <div class="u-l">\n'
-        for c in matriz:
-            t += prepara_ficha(c, fuentes, pagina)
+        if pagina == gendef.PAG_FITZPATRICK:
+            for c in matriz:
+                for piel in gendef.fitzpatrick:
+                    # en las secuencias el código Fitzpatrick va el segundo
+                    c2 = copy.deepcopy(c)
+                    c2[gendef.UCO][1:1] += [piel[0]]
+                    c2[gendef.DESC] += piel[1]
+                    if c[gendef.VS] == "VST":
+                        fuentes2 = copy.deepcopy(fuentes)
+                        fuentes2.remove("TCF-TGH")
+                        t += prepara_ficha(c2, fuentes2, pagina, False)
+                    else:
+                        t += prepara_ficha(c2, fuentes, pagina, True)
+                    # en los caracteres con modo emoji, el código Fitzpatrick va el tecero
+                    if c[gendef.VS] == "VST":
+                        c2 = copy.deepcopy(c)
+                        c2[gendef.UCO][1:1] += ["FE0F", piel[0]]
+                        c2[gendef.DESC] += piel[1]
+                        t += prepara_ficha(c2, fuentes, pagina, True)
+        else:
+            for c in matriz:
+                t += prepara_ficha(c, fuentes, pagina, False)
         t += "    </div>\n"
         t += "  </section>\n"
         t += "\n"
@@ -235,11 +265,15 @@ def genera_grupos(pagina, fuentes):
 
 def genera_pagina(pagina):
     if pagina == gendef.PAG_SIMBOLOS:
-        # HAY QUE CAMBIAR VARIABLE MUESTRA EN LINEA 6 A SIMBOLOS O EMOJIS
         return genera_grupos(gendef.PAG_SIMBOLOS, ["SS-VST", "SYM"])
     elif pagina == gendef.PAG_EMOJIS:
-        # HAY QUE CAMBIAR VARIABLE MUESTRA EN LINEA 6 A SIMBOLOS O EMOJIS
         return genera_grupos(gendef.PAG_EMOJIS, ["SS-VSE", "TCF-TGH"])
+    elif pagina == gendef.PAG_BANDERAS:
+        return genera_grupos(gendef.PAG_BANDERAS, ["SS", "TCF-TGH"])
+    elif pagina == gendef.PAG_GENEROS:
+        return genera_grupos(gendef.PAG_GENEROS, ["SS", "TCF-TGH"])
+    elif pagina == gendef.PAG_FITZPATRICK:
+        return genera_grupos(gendef.PAG_FITZPATRICK, ["SS", "TCF-TGH"])
 
     # genera_variantes(variacion, "Secuencias de variación", "variacion")
 

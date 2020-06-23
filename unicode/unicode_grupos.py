@@ -570,12 +570,12 @@ grupos = {
         [unicode_combinaciones.variacion, "Secuencias de variación", "variacion", "", 1, "00000", "1FAFF"],
     ],
     # Banderas
-    "Secuencias_1": [
+    gendef.PAG_BANDERAS: [
         [unicode_combinaciones.cu_banderas, "Banderas", "banderas", "", 0, "", ""],
         [unicode_combinaciones.cu_banderas_sub, "Banderas (subdivisiones)", "banderas-2", "", 0, "", ""],
     ],
     # Géneros que funcionan en Windows y en Twemoji
-    "Secuencias_2": [
+    gendef.PAG_GENEROS: [
         [unicode_combinaciones.genero_1, "Género (1)", "genero-1", "", 0, "", "", ["ss", "te"]],
         [unicode_combinaciones.genero_2, "Género (2)", "genero-2", "", 0, "", "", ["ss", "te"]],
         # CUIDADO problematicas_piel_1 están separados de genero_3 porque al poner colores de piel no salen bien en Windows
@@ -596,7 +596,7 @@ grupos = {
         #  ["Otros",                                               "otros",           "", 4, "0002A", "1F4FF"],
     ],
     # Colores de piel que funcionan en Windows y en Twemoji
-    "Secuencias_3": [
+    gendef.PAG_FITZPATRICK: [
         [unicode_combinaciones.piel_1, "Colores de piel (1)", "colores-piel-1", "", 0, "", "", ["ss", "te"]],
         [
             unicode_combinaciones.genero_1,

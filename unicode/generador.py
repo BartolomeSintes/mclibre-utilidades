@@ -39,7 +39,10 @@ def main():
 
     paginas = [
         [gendef.PAG_SIMBOLOS, gendef.FICHERO_SIMBOLOS],
-        [gendef.PAG_EMOJIS, gendef.FICHERO_EMOJIS]
+        [gendef.PAG_EMOJIS, gendef.FICHERO_EMOJIS],
+        [gendef.PAG_BANDERAS, gendef.FICHERO_BANDERAS],
+        [gendef.PAG_GENEROS, gendef.FICHERO_GENEROS],
+        [gendef.PAG_FITZPATRICK, gendef.FICHERO_FITZPATRICK],
     ]
 
     for pagina in paginas:

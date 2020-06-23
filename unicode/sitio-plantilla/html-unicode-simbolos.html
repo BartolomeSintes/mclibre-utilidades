@@ -8,129 +8,99 @@
   <link rel="icon" href="../varios/favicon.ico">
   <style>
     @font-face {
-        font-family: "Symbola";
-        src: url("unicode/Symbola.otf");
+      font-family: "Symbola";
+      src: url("unicode/Symbola.otf");
     }
 
     @font-face {
-        font-family: "Twemoji";
-        src: url("unicode/TwitterColorEmoji-SVGinOT.ttf");
+      font-family: "Twemoji";
+      src: url("unicode/TwitterColorEmoji-SVGinOT.ttf");
     }
 
     div.u-l {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
     }
 
-    div.u {
-        display: flex;
-        flex-direction: column;
-        flex: 0 1 210px;
-        margin: 5px;
-        border: black 1px solid;
-        text-align: center;
+    div.u,
+    div.u2 {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 210px;
+      margin: 5px;
+      border: black 1px solid;
+      text-align: center;
     }
 
     div.u2 {
-        display: flex;
-        flex-direction: column;
-        flex: 0 1 280px;
-        margin: 5px;
-        border: black 1px solid;
-        text-align: center;
+      flex: 0 1 280px;
     }
 
-    div.u p:nth-child(odd), div.u2 p:nth-child(odd)  {
-        background-color: #eee;
+    div.u p:nth-child(odd),
+    div.u2 p:nth-child(odd) {
+      background-color: #eee;
     }
 
-    div.u p, div.u2 p  {
-        margin: 0;
-        padding: 5px 10px;
+    div.u p,
+    div.u2 p {
+      margin: 0;
+      padding: 5px 10px;
     }
 
-    div.u p.uc, div.u2 p.uc {
-        font-weight: bold;
+    div.u p.uc,
+    div.u2 p.uc {
+      font-weight: bold;
     }
 
-    div.u p.si, div.u2 p.si {
-        font-family: sans-serif;
-        font-size: 80px;
-        line-height: 100px;
-        text-align: center;
+    div.u p.si,
+    div.u2 p.si {
+      font-family: sans-serif;
+      font-size: 80px;
+      line-height: 100px;
+      text-align: center;
     }
 
-    div.u span.ss, div.u2 span.ss {
-        font-family: sans-serif;
-        padding-right: 20px;
+    div.u span.ss,
+    div.u2 span.ss {
+      font-family: sans-serif;
+      padding-right: 20px;
     }
 
-    p.si span:not(:last-child)  { border-right: 2px solid black;}
-
-    div.u span.sy, div.u2 span.sy {
-        font-family: "Symbola";
+    p.si span:not(:last-child) {
+      border-right: 2px solid black;
     }
 
-    div.u span.te, div.u2 span.te {
-        font-family: "Twemoji";
-        font-size: 90px;
+    div.u span.sy,
+    div.u2 span.sy {
+      font-family: "Symbola";
     }
 
-    div.u .twe, div.u2 .twe {
-        height: 90px;
-        vertical-align: text-bottom;
+    div.u span.te,
+    div.u2 span.te {
+      font-family: "Twemoji";
+      font-size: 90px;
     }
 
-    div.u p.en, div.u2 p.en {}
-
-    div.u p.no, div.u2 p.no {
-        flex: 1 0 auto;
-        text-transform: uppercase;
+    div.u .twe,
+    div.u2 .twe {
+      height: 90px;
+      vertical-align: text-bottom;
     }
 
-    div.u a, div.u2 a {
-        border: none;
-        text-decoration: none;
-        color: black;
+    div.u p.no,
+    div.u2 p.no {
+      flex: 1 0 auto;
+      text-transform: uppercase;
     }
 
-    table.u {
-        border-spacing: 20px 0;
-        border-collapse: collapse;
+    div.u a,
+    div.u2 a {
+      border: none;
+      text-decoration: none;
+      color: black;
     }
 
-    table.u colgroup {
-        border-right: black 1px solid;
-        border-left: black 1px solid;
-    }
-
-    table.u tr.fila-estrecha {
-        height: auto;
-        border-bottom: black 1px solid;
-    }
-
-    table.u tr { height: 90px; }
-
-    table.u .ss {
-        font-family: sans-serif;
-        font-size: 80px;
-    }
-
-    table.u .te {
-        font-family: "Twemoji";
-        font-size: 80px;
-    }
-
-    table.u .twe {
-        font-size: 80px;
-    }
-
-    table.u a {
-        border: none;
-        text-decoration: none;
-        color: black;
-    }
   </style>
 </head>
 
