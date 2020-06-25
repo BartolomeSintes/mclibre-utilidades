@@ -11,7 +11,7 @@ DESTINO = pathlib.Path("sitio")
 
 
 def main():
-    print("GENERADOR DE PÁGINAS SIMBOLOS UNICODE PARA APUTNES HTMLS/CSS")
+    print("GENERADOR DE PÁGINAS SIMBOLOS UNICODE PARA APUNTES HTMLS/CSS")
 
     # Comprueba que DESTINO no existe y lo borra si existe
     p = pathlib.Path(DESTINO)
@@ -43,6 +43,8 @@ def main():
         [gendef.PAG_BANDERAS, gendef.FICHERO_BANDERAS],
         [gendef.PAG_GENEROS, gendef.FICHERO_GENEROS],
         [gendef.PAG_FITZPATRICK, gendef.FICHERO_FITZPATRICK],
+        [gendef.PAG_PAREJAS, gendef.FICHERO_PAREJAS],
+        [gendef.PAG_PROBLEMAS, gendef.FICHERO_PROBLEMAS],
     ]
 
     for pagina in paginas:

@@ -53,7 +53,6 @@
 # https://www.unicode.org/Public/13.0.0/ucd/emoji/emoji-variation-sequences.txt
 # https://www.unicode.org/Public/emoji/13.0/emoji-sequences.txt
 # https://www.unicode.org/Public/emoji/13.0/emoji-zwj-sequences.txt
-# https://www.unicode.org/Public/emoji/13.0/emoji-zwj-sequences.txt
 # https://unicode.org/emoji/charts/full-emoji-list.html
 # https://unicode.org/emoji/charts/full-emoji-modifiers.html
 

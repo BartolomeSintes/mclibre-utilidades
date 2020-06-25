@@ -18,3 +18,6 @@
 /logs/json/
 /logs/estadisticas.html
 /logs/tmp.py
+/unicode/__pycache__
+/unicode/tmp
+/unicode/version-php-200613

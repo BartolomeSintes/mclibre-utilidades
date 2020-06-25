@@ -39,10 +39,10 @@ RUTAS_SVG = "https://github.com/twitter/twemoji/blob/master/assets/svg"
 
 def genera_enlace_tgh(c, quita_fe0f):
     resp = '<a href="' + RUTAS_SVG + "/"
-    for valor in c:
-        if not(quita_fe0f) or valor != "FE0F":
-            resp += f"{int(valor, 16):x}-"
-    resp = resp[:-1]    # Quita el ultimo guion
+    for i in range(len(c)):
+        if quita_fe0f == gendef.QUITA_FE0F_NO or i != 1 or c[i] != "0FE0F":
+            resp += f"{int(c[i], 16):x}-"
+    resp = resp[:-1]  # Quita el ultimo guion
     resp += '.svg">'
     return resp
 
@@ -110,12 +110,12 @@ def genera_ficha(simbolos, quita_fe0f):
     t += "        </p>\n"
     # Entidad numérica hexadecimal
     t += '        <p class="en">\n'
-    t += '          Hex: <strong>'
+    t += "          Hex: <strong>"
     for tmp in simbolos[0][0][gendef.UCO]:
         t += f"&amp;#x{int(tmp, 16):x};"
     t += "</strong><br>\n"
     # Entidad numérica adecimal
-    t += '          Dec: <strong>'
+    t += "          Dec: <strong>"
     for tmp in simbolos[0][0][gendef.UCO]:
         t += f"&amp;#{int(tmp, 16)};"
     t += "</strong>\n"
@@ -189,7 +189,16 @@ def prepara_ficha(c, fuentes, pagina, quita_fe0f):
 
 
 def genera_grupo(
-    matriz, grupo, identificador, pdf, cuenta, inicial, final, fuentes, pagina
+    matriz,
+    grupo,
+    identificador,
+    pdf,
+    cuenta,
+    inicial,
+    final,
+    fitzpatrick,
+    fuentes,
+    pagina,
 ):
     if cuenta:
         contador = len(matriz)
@@ -208,28 +217,52 @@ def genera_grupo(
             t += "\n"
 
         t += '    <div class="u-l">\n'
-        if pagina == gendef.PAG_FITZPATRICK:
+        if fitzpatrick != gendef.FITZPATRICK_NO:
             for c in matriz:
                 for piel in gendef.fitzpatrick:
                     # en las secuencias el código Fitzpatrick va el segundo
                     c2 = copy.deepcopy(c)
                     c2[gendef.UCO][1:1] += [piel[0]]
                     c2[gendef.DESC] += piel[1]
-                    if c[gendef.VS] == "VST":
+                    if (
+                        c[gendef.VS] == "VST"
+                        and fitzpatrick == gendef.FITZPATRICK_YES_TEXTO
+                    ):
                         fuentes2 = copy.deepcopy(fuentes)
                         fuentes2.remove("TCF-TGH")
-                        t += prepara_ficha(c2, fuentes2, pagina, False)
-                    else:
-                        t += prepara_ficha(c2, fuentes, pagina, True)
-                    # en los caracteres con modo emoji, el código Fitzpatrick va el tecero
-                    if c[gendef.VS] == "VST":
+                        t += prepara_ficha(c2, fuentes2, pagina, gendef.QUITA_FE0F_NO)
+                    elif (
+                        c[gendef.VS] == "VST"
+                        and fitzpatrick == gendef.FITZPATRICK_YES_EMOJI
+                    ):
                         c2 = copy.deepcopy(c)
-                        c2[gendef.UCO][1:1] += ["FE0F", piel[0]]
+                        c2[gendef.UCO][1:1] += ["0FE0F", piel[0]]
                         c2[gendef.DESC] += piel[1]
-                        t += prepara_ficha(c2, fuentes, pagina, True)
+                        t += prepara_ficha(c2, fuentes, pagina, gendef.QUITA_FE0F_YES)
+                    elif (
+                        c[gendef.VS] == "VST"
+                        and fitzpatrick == gendef.FITZPATRICK_YES_EMOJI_3
+                    ):
+                        c2 = copy.deepcopy(c)
+                        c2[gendef.UCO][2:2] += [piel[0]]
+                        c2[gendef.DESC] += piel[1]
+                        t += prepara_ficha(c2, fuentes, pagina, gendef.QUITA_FE0F_YES)
+                    elif fitzpatrick == gendef.FITZPATRICK_YES_EMOJI:
+                        c2 = copy.deepcopy(c)
+                        c2[gendef.UCO][1:1] += [piel[0]]
+                        c2[gendef.DESC] += piel[1]
+                        t += prepara_ficha(c2, fuentes, pagina, gendef.QUITA_FE0F_YES)
+                    else:
+                        t += prepara_ficha(c2, fuentes, pagina, gendef.QUITA_FE0F_YES)
+                    # en los caracteres con modo emoji, el código Fitzpatrick va el tecero
         else:
             for c in matriz:
-                t += prepara_ficha(c, fuentes, pagina, False)
+                # El criterio para quitar los FE0F en enlace a githuba es que sean fitzpatrick
+                # pero el eye in speech bubble es una excepción así que lo he puesto aquí
+                if c[0] == ["1F441", "FE0F", "0200D", "1F5E8", "FE0F"]:
+                    t += prepara_ficha(c, fuentes, pagina, gendef.QUITA_FE0F_YES)
+                else:
+                    t += prepara_ficha(c, fuentes, pagina, gendef.QUITA_FE0F_NO)
         t += "    </div>\n"
         t += "  </section>\n"
         t += "\n"
@@ -239,7 +272,7 @@ def genera_grupo(
 def genera_grupos(pagina, fuentes):
     t = ""
 
-    # Como están ya incluidos en la plantilla, no gebnero el índice
+    # Como están ya incluidos en la plantilla, no genero el índice
     # aunque estaría bien generarlos y quitarlos de la plantilla
     # t += "  <ul>\n"
     # for g in unicode_grupos.grupos[pagina]:
@@ -248,7 +281,11 @@ def genera_grupos(pagina, fuentes):
     # t += "\n"
 
     for g in unicode_grupos.grupos[pagina]:
-        t += genera_grupo(g[0], g[1], g[2], g[3], g[4], g[5], g[6], fuentes, pagina)
+        # ELIMINA LOS SHOW_NO
+        g[0] = [valor for valor in g[0] if valor[gendef.SHO] == "SHOW-YES"]
+        t += genera_grupo(
+            g[0], g[1], g[2], g[3], g[4], g[5], g[6], g[7], fuentes, pagina
+        )
 
     return t
 
@@ -274,6 +311,10 @@ def genera_pagina(pagina):
         return genera_grupos(gendef.PAG_GENEROS, ["SS", "TCF-TGH"])
     elif pagina == gendef.PAG_FITZPATRICK:
         return genera_grupos(gendef.PAG_FITZPATRICK, ["SS", "TCF-TGH"])
+    elif pagina == gendef.PAG_PAREJAS:
+        return genera_grupos(gendef.PAG_PAREJAS, ["SS", "TCF-TGH"])
+    elif pagina == gendef.PAG_PROBLEMAS:
+        return genera_grupos(gendef.PAG_PROBLEMAS, ["SS", "TCF-TGH"])
 
     # genera_variantes(variacion, "Secuencias de variación", "variacion")
 
