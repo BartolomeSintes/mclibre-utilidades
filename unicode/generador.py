@@ -2,6 +2,7 @@ import pathlib
 from string import Template
 import shutil
 import sys
+import datetime
 import webbrowser
 import gendef
 import genfun
@@ -54,7 +55,10 @@ def main():
         with open(fichero_origen, "r", encoding="utf-8") as fichero:
             texto = Template(fichero.read())
 
-        resultado = texto.safe_substitute(contenido=genfun.genera_pagina(pagina[0]))
+        meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+        fecha = f"{datetime.date.today().strftime('%e')} de {meses[int(datetime.date.today().strftime('%m')) - 1]} de {datetime.date.today().strftime('%Y')}"
+
+        resultado = texto.safe_substitute(contenido=genfun.genera_pagina(pagina[0]), fecha=fecha)
 
         with open(fichero_destino, "w", encoding="utf-8", newline="\n") as fichero:
             fichero.write(resultado)

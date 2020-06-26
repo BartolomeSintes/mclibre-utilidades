@@ -25,6 +25,20 @@ def filtra_grupo(caracteres, inicial, final, pagina):
 
 
 grupos = {
+    # Secuencias de Variación
+    "Variación": [
+        [
+            unicode_combinaciones.variacion,
+            "Secuencias de variación",
+            "variacion",
+            "",
+            1,
+            "00000",
+            "1FAFF",
+            gendef.FITZPATRICK_NO,
+            "",
+        ],
+    ],
     gendef.PAG_SIMBOLOS: [
         [
             filtra_grupo(
@@ -37,6 +51,7 @@ grupos = {
             "0000",
             "007F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -49,6 +64,7 @@ grupos = {
             "0080",
             "00FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -61,6 +77,7 @@ grupos = {
             "2000",
             "206F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -73,6 +90,7 @@ grupos = {
             "20A0",
             "20BF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -85,6 +103,7 @@ grupos = {
             "2100",
             "214F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -97,6 +116,7 @@ grupos = {
             "2190",
             "21FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -109,6 +129,7 @@ grupos = {
             "2300",
             "23FE",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -121,6 +142,7 @@ grupos = {
             "2460",
             "24FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -133,6 +155,7 @@ grupos = {
             "2500",
             "257F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -145,6 +168,7 @@ grupos = {
             "25A0",
             "25FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -157,6 +181,7 @@ grupos = {
             "2600",
             "26FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -169,6 +194,7 @@ grupos = {
             "2700",
             "27BF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -181,6 +207,7 @@ grupos = {
             "2900",
             "297F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -193,6 +220,7 @@ grupos = {
             "2B00",
             "2BFF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -205,6 +233,7 @@ grupos = {
             "3000",
             "303F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -217,6 +246,7 @@ grupos = {
             "3200",
             "32FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -232,6 +262,7 @@ grupos = {
             "1D100",
             "1D1E8",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -247,6 +278,7 @@ grupos = {
             "1F000",
             "1F02B",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -262,6 +294,7 @@ grupos = {
             "1F030",
             "1F093",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -277,6 +310,7 @@ grupos = {
             "1F0A0",
             "1F0F5",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -292,6 +326,7 @@ grupos = {
             "1F100",
             "1F1FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -307,6 +342,7 @@ grupos = {
             "1F200",
             "1F2FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -322,6 +358,7 @@ grupos = {
             "1F650",
             "1F67F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -337,6 +374,7 @@ grupos = {
             "1F700",
             "1F773",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -352,6 +390,7 @@ grupos = {
             "1F780",
             "1F7EB",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -367,6 +406,7 @@ grupos = {
             "1F300",
             "1F5FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -382,6 +422,7 @@ grupos = {
             "1F600",
             "1F64F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -397,6 +438,7 @@ grupos = {
             "1F680",
             "1F6FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -412,6 +454,7 @@ grupos = {
             "1F900",
             "1F9FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -427,6 +470,7 @@ grupos = {
             "1FA70",
             "1FAFF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
     ],
     gendef.PAG_EMOJIS: [
@@ -441,6 +485,7 @@ grupos = {
             "0000",
             "007F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -453,6 +498,7 @@ grupos = {
             "0080",
             "00FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -465,6 +511,7 @@ grupos = {
             "2000",
             "206F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -477,6 +524,7 @@ grupos = {
             "20A0",
             "20BF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -489,6 +537,7 @@ grupos = {
             "2100",
             "214F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -501,6 +550,7 @@ grupos = {
             "2190",
             "21FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -513,6 +563,7 @@ grupos = {
             "2300",
             "23FE",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -525,6 +576,7 @@ grupos = {
             "2460",
             "24FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -537,6 +589,7 @@ grupos = {
             "2500",
             "257F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -549,6 +602,7 @@ grupos = {
             "25A0",
             "25FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -561,6 +615,7 @@ grupos = {
             "2600",
             "26FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -573,6 +628,7 @@ grupos = {
             "2700",
             "27BF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -585,6 +641,7 @@ grupos = {
             "2900",
             "297F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -597,6 +654,7 @@ grupos = {
             "2B00",
             "2BFF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -609,6 +667,7 @@ grupos = {
             "3000",
             "303F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -621,6 +680,7 @@ grupos = {
             "3200",
             "32FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -633,6 +693,7 @@ grupos = {
             "1D100",
             "1D1E8",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -645,6 +706,7 @@ grupos = {
             "1F000",
             "1F02B",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -657,6 +719,7 @@ grupos = {
             "1F030",
             "1F093",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -669,6 +732,7 @@ grupos = {
             "1F0A0",
             "1F0F5",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -681,6 +745,7 @@ grupos = {
             "1F100",
             "1F1FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -693,6 +758,7 @@ grupos = {
             "1F200",
             "1F2FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -705,6 +771,7 @@ grupos = {
             "1F650",
             "1F67F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -717,6 +784,7 @@ grupos = {
             "1F700",
             "1F773",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -729,6 +797,7 @@ grupos = {
             "1F780",
             "1F7EB",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -741,6 +810,7 @@ grupos = {
             "1F300",
             "1F5FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -753,6 +823,7 @@ grupos = {
             "1F600",
             "1F64F",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -765,6 +836,7 @@ grupos = {
             "1F680",
             "1F6FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -777,6 +849,7 @@ grupos = {
             "1F900",
             "1F9FF",
             gendef.FITZPATRICK_NO,
+            "",
         ],
         [
             filtra_grupo(
@@ -789,19 +862,7 @@ grupos = {
             "1FA70",
             "1FAFF",
             gendef.FITZPATRICK_NO,
-        ],
-    ],
-    # Secuencias de Variación
-    "Variación": [
-        [
-            unicode_combinaciones.variacion,
-            "Secuencias de variación",
-            "variacion",
             "",
-            1,
-            "00000",
-            "1FAFF",
-            gendef.FITZPATRICK_NO,
         ],
     ],
     # Banderas
@@ -815,6 +876,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            "    <p>En este apartado se muestran las secuencias Unicode que no pertenecen a ninguna de las otras categorías.</p>\n\n",
         ],
         [
             unicode_combinaciones.cu_banderas_sub,
@@ -825,6 +887,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas regionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas-subdivisiones">apartado Banderas (secuencias) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_banderas,
@@ -835,6 +898,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas nacionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas">apartado Banderas de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
     ],
     # Géneros que funcionan en Windows y en Twemoji
@@ -848,6 +912,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinado el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_2,
@@ -858,6 +923,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinado el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         # CUIDADO problematicas_piel_1 están también como genero_3_b porque al poner colores de piel no salen bien en Windows
         # Lo que me faltaría es ordenar los elementos, porque ahora se añaden al final
@@ -871,6 +937,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinado un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_4,
@@ -881,6 +948,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinado un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         #  ["Colores de piel",                                     "colores-piel",    "", 0, "0261D", "1F9FF"],
         #  ["Otros",                                               "otros",           "", 4, "0002A", "1F4FF"],
@@ -896,6 +964,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_TEXTO,
+            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick de caracteres cuya representación predeterminada es en modo texto. Estas secuencias se forman con dos caracteres, combinado un caracter que prepresenta un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.piel_1,
@@ -906,6 +975,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
+            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con dos o tres caracteres, combinado un caracter (o dos si se trata de un caracter cuya representación predeterminada es en modo texto) que prepresenta un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_1,
@@ -916,6 +986,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cuatro caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de tres caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_2,
@@ -926,6 +997,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cuatro caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_3,
@@ -936,6 +1008,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cuatro caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.piel_5,
@@ -946,6 +1019,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI_3,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con seis caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cinco caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
     ],
     # Parejas y familias
@@ -959,6 +1033,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias formadas por uno o dos padres y uno o dos hijos. Estas secuencias se forman con tres, cinco o siete caracteres, combinado los caracteres de hombre, mujer, niña o niño, como se comenta en el <a href="html-unicode-secuencias.html#familias">apartado Familias de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_parejas_1,
@@ -969,6 +1044,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de enamorados. Estas secuencias se forman con seis caracteres, combinado los caracteres de hombre, mujer y corazón, como se comenta en el <a href="html-unicode-secuencias.html#enamorados">apartado Parejas de enamorados de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_parejas_2,
@@ -979,6 +1055,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de enamorados. Estas secuencias se forman con ocho caracteres, combinado los caracteres de hombre, mujer, corazón y beso, como se comenta en el <a href="html-unicode-secuencias.html#enamorados-besandose">apartado Parejas de enamorados besándose de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_parejas_piel_1,
@@ -989,6 +1066,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (es decir, sin identificar claramente si son hombres o mujeres), con modificadores Fitzpatrick. Estas secuencias se forman con cinco o siete caracteres, combinado los caracteres de adultos y apretón de manos, además de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#parejas-neutras-colores-piel">apartado Parejas neutras (y colores de piel) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_parejas_piel_2,
@@ -999,19 +1077,21 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas con género (es decir, identificando si cada miembro de la pareja es hombre o mujer), con modificadores Fitzpatrick. Estas secuencias se forman con dos o siete caracteres, a partir de los caracteres de parejas o combinado los caracteres de hombre y mujer y apretón de manos, además de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#parejas-genero-colores-piel">apartado Parejas con género (y colores de piel) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
     ],
     # Secuencias que no van bien en Windows o en Twemoji
     gendef.PAG_PROBLEMAS: [
         [
             unicode_combinaciones.problematicas_otros,
-            "Varios",
-            "varios-problemas",
+            "Otras secuencias",
+            "otras-problemas",
             "",
             0,
             "",
             "",
             gendef.FITZPATRICK_NO,
+            "    <p>En este apartado se muestran las secuencias Unicode que no pertenecen a ninguna de las otras categorías. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n",
         ],
         # Géneros que NO funcionan en Windows o en Twemoji
         [
@@ -1023,6 +1103,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinado el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_genero_2,
@@ -1033,6 +1114,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinado el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_genero_3,
@@ -1043,6 +1125,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinado un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_genero_4,
@@ -1053,8 +1136,20 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinado un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         # Colores de piel que NO funcionan en Windows o en Twemoji
+        [
+            unicode_combinaciones.problematicas_piel_1_texto,
+            "Colores de piel modo texto",
+            "colores-piel-texto-problemas",
+            "",
+            0,
+            "",
+            "",
+            gendef.FITZPATRICK_YES_TEXTO,
+            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick de caracteres cuya representación predeterminada es en modo texto. Estas secuencias se forman con dos caracteres, combinado un caracter que prepresenta un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+        ],
         [
             unicode_combinaciones.problematicas_piel_1,
             "Colores de piel (1)",
@@ -1064,6 +1159,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
+            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con dos, combinado un caracter que prepresenta un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_piel_2,
@@ -1074,16 +1170,18 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cuatro o cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de caracteres que representa un personaje femenino, masculino o neutro, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_piel_3,
             "Colores de piel (3)",
-            "colores-piel-3-problemas",
+            "colores-piel-3-problemas", # como colores-piel-5
             "",
             0,
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI_3,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con seis caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cinco caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_piel_4,
@@ -1094,6 +1192,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que actualmente (junio de 2020) no están definidas en Unicode aunque Windows 10 sí que las muestra. No se recomienda su uso.</p>\n\n',
         ],
     ],
 }

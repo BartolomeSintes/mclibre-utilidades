@@ -197,6 +197,7 @@ def genera_grupo(
     inicial,
     final,
     fitzpatrick,
+    comentario,
     fuentes,
     pagina,
 ):
@@ -215,6 +216,9 @@ def genera_grupo(
                 t += f"    <p>Se muestran aquí {contador} caracteres "
             t += f'Unicode del grupo que se extiende desde el carácter U+{inicial} hasta el carácter U+{final}. Puede descargar la <a href="unicode/{pdf}">tabla de códigos de caracteres Unicode 13.0</a> en formato PDF.</p>\n'
             t += "\n"
+
+        if comentario:
+            t += comentario
 
         t += '    <div class="u-l">\n'
         if fitzpatrick != gendef.FITZPATRICK_NO:
@@ -284,21 +288,10 @@ def genera_grupos(pagina, fuentes):
         # ELIMINA LOS SHOW_NO
         g[0] = [valor for valor in g[0] if valor[gendef.SHO] == "SHOW-YES"]
         t += genera_grupo(
-            g[0], g[1], g[2], g[3], g[4], g[5], g[6], g[7], fuentes, pagina
+            g[0], g[1], g[2], g[3], g[4], g[5], g[6], g[7], g[8], fuentes, pagina
         )
 
     return t
-
-
-# foreach (caracteres_unicode as c:
-#     # foreach (caracteres_unicode_seleccion as c:
-#         print "<div class=\"u-l\">\n"
-#         prepara_ficha(c, ["SS-VST"])
-#         prepara_ficha(c, ["SS-VSE"])
-#         prepara_ficha(c, ["TGH"])
-#         print "</div>\n"
-#     }
-
 
 def genera_pagina(pagina):
     if pagina == gendef.PAG_SIMBOLOS:
@@ -316,21 +309,6 @@ def genera_pagina(pagina):
     elif pagina == gendef.PAG_PROBLEMAS:
         return genera_grupos(gendef.PAG_PROBLEMAS, ["SS", "TCF-TGH"])
 
-    # genera_variantes(variacion, "Secuencias de variación", "variacion")
-
-
-# HAY CAMBIAR VARIABLE MUESTRA EN LINEA 6 A EMOJIS
-# genera_grupos(grupos_secuencias_1, ["ss", "te"])      # Banderas
-# genera_grupos(grupos_secuencias_2, ["ss", "te"])      # Géneros OK
-# genera_tablas(grupos_secuencias_3, ["ss", "te"])      # Colores de piel: OK
-# genera_grupos(grupos_secuencias_4, ["ss", "te"])      # Familias y parejas
-# genera_grupos(grupos_secuencias_problematicas_1, ["ss", "te"])     # Animales y otros: No Windows
-# genera_grupos(grupos_secuencias_problematicas_2, ["ss", "te"])     # Géneros: No Windows o No gendef.TWEmoji
-# genera_tablas(grupos_secuencias_problematicas_3, ["ss", "te"])     # Colores de piel: No Windows o No gendef.TWEmoji
-
-# aVer(filtra_grupo(caracteres_unicode, "0000", "007F", gendef.PAG_SIMBOLOS))
-# genera_pagina(gendef.PAG_SIMBOLOS)
-# genera_pagina(gendef.PAG_EMOJIS)
 
 # Puñetitas varias
 # * No he tenido en cuenta si hay un carácter simple que no se ve en Windows pero sí está en gendef.TWEmoji
@@ -341,6 +319,7 @@ def genera_pagina(pagina):
 # * El carácter  25FC no se ve igual si está en párrafo clase .si (sin span), que si tiene un span clase .ss. No lo entiendo.
 # * El carácter 25FD y 25 FE son gendef.VST, pero para que enlace al respositorio tengo que poner gendef.VSE Creo que es un error de Twitter
 
+# genera_variantes(variacion, "Secuencias de variación", "variacion")
 
 # def genera_variantes(matriz, grupo, id)
 # {
@@ -394,174 +373,5 @@ def genera_pagina(pagina):
 #         }
 #         print "  </section>\n"
 #         print "\n"
-#     }
-# }
-
-# def genera_tabla_colores_piel(matriz, grupo, id, pdf, cuenta, inicial, final, fuentes)
-# {
-#     global rutaSVG
-
-#     print "  <section id=\"id\">\n"
-#     print "    <h2>grupo</h2>\n"
-#     print "\n"
-
-#     if cuenta:
-#         contador = 0
-#         foreach (matriz as c:
-#             contador++
-#         }
-#         if contador == 1:
-#             print "    <p>Se muestra aquí contador carácter "
-#         else:
-#             print "    <p>Se muestran aquí contador caracteres "
-#         }
-#         print "Unicode que al secuenciarse con los cinco modificadores Fitzpatrick (U+1F3FB a U+1F3FF) dan lugar cada uno a cinco nuevos emojis con distintos colores de piel.</p>\n"
-#         print "\n"
-#         print "    <p>Los caracteres se muestran únicamente con la fuente gendef.TWEmoji y el resultado depende del sistema operativo y del navegador empleado.</p>\n"
-#         print "\n"
-#     }
-
-#     print "    <table class=\"u\">\n"
-#     print "      <col>\n"
-#     print "      <colgroup span=\"2\" class=\"borde-lateral\"></colgroup>\n"
-#     print "      <colgroup span=\"2\" class=\"borde-lateral\"></colgroup>\n"
-#     print "      <colgroup span=\"2\" class=\"borde-lateral\"></colgroup>\n"
-#     print "      <colgroup span=\"2\" class=\"borde-lateral\"></colgroup>\n"
-#     print "      <colgroup span=\"2\" class=\"borde-lateral\"></colgroup>\n"
-#     print "      <colgroup span=\"2\" class=\"borde-lateral\"></colgroup>\n"
-#     print "      <col>\n"
-#     print "      <tr class=\"fila-estrecha\">\n"
-#     print "        <th rowspan=\"2\">Códigos</th>\n"
-#     print "        <th colspan=\"2\" rowspan=\"2\">Sin color de piel</th>\n"
-#     print "        <th colspan=\"10\">Con color de piel</th>\n"
-#     print "        <th rowspan=\"2\">Nombres</th>\n"
-#     print "      </tr>\n"
-#     print "      <tr class=\"fila-estrecha\">\n"
-#     print "        <th colspan=\"2\">&amp;#x1F3FB</th>\n"
-#     print "        <th colspan=\"2\">&amp;#x1F3FC</th>\n"
-#     print "        <th colspan=\"2\">&amp;#x1F3FD</th>\n"
-#     print "        <th colspan=\"2\">&amp;#x1F3FE</th>\n"
-#     print "        <th colspan=\"2\">&amp;#x1F3FF</th>\n"
-#     print "      </tr>\n"
-#     foreach (matriz as c:
-#         print "      <tr>\n"
-#         print "        <th>"
-#         cad1 = cad2 = cad3 = ""
-#         foreach (c[0] as c2:
-#             tmp = strtolower(c2)
-#             while (tmp[0] == "0":
-#                 tmp = substr(tmp, 1)
-#             }
-#             cad1 .= "U+" . c2 . " "
-#             cad2 .= tmp . "-"
-#             cad3 .=  "&#x" . strtoupper(dechex(hexdec(c2))) . ";"
-#             print "&amp;#x" . strtoupper(dechex(hexdec(c2))) . "<wbr>"
-#         }
-#         print "</th>\n"
-#         cad2 = substr(cad2, 0, strlen(cad2) - 1) # quito el guion final que sobra
-#         print "        <td class=\"ss\">cad3</td>\n"
-#         if c[6] == "TW":
-#             print "        <td class=\"gendef.TWE\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#         else:
-#             print "        <td class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#         }
-#         # CUIDADO: Hay varios casos especiales en los que el Fitzpatrick sustituye al segundo carácter de la secuencia
-#         cad2 = str_replace("26f9-fe0f-", "26f9-", cad2)
-#         cad2 = str_replace("1f3cb-fe0f-", "1f3cb-", cad2)
-#         cad2 = str_replace("1f3cc-fe0f-", "1f3cc-", cad2)
-#         cad2 = str_replace("1f46e-fe0f-", "1f46e-", cad2)
-#         cad2 = str_replace("1f574-fe0f-", "1f574-", cad2)
-#         cad2 = str_replace("1f575-fe0f-", "1f575-", cad2)
-#         pos = strpos(cad2, "-", 2)
-#         if pos == 0:
-#             cad2 .= "-1f3fb"
-#         else:
-#             cad2 = substr_replace(cad2, "1f3fb-", pos + 1, 0)
-#         }
-#         pos = strpos(cad3, "", 4)
-#         cad3 = substr_replace(cad3, "&#x1F3FB", pos + 1, 0)
-#         print "        <td class=\"ss\">cad3</td>\n"
-#         if in_array("te", fuentes):
-#             if c[6] == "TW":
-#                 print "        <td class=\"gendef.TWE\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             else:
-#                 print "        <td class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             }
-#         }
-#         cad2 = str_replace("1f3fb", "1f3fc", cad2)
-#         cad3 = str_replace("&#x1F3FB", "&#x1F3FC", cad3)
-#         print "        <td class=\"ss\">cad3</td>\n"
-#         if in_array("te", fuentes):
-#             if c[6] == "TW":
-#                 print "        <td class=\"gendef.TWE\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             else:
-#                 print "        <td class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             }
-#         }
-#         cad2 = str_replace("1f3fc", "1f3fd", cad2)
-#         cad3 = str_replace("&#x1F3FC", "&#x1F3FD", cad3)
-#         print "        <td class=\"ss\">cad3</td>\n"
-#         if in_array("te", fuentes):
-#             if c[6] == "TW":
-#                 print "        <td class=\"gendef.TWE\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             else:
-#                 print "        <td class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             }
-#         }
-#         cad2 = str_replace("1f3fd", "1f3fe", cad2)
-#         cad3 = str_replace("&#x1F3FD", "&#x1F3FE", cad3)
-#         print "        <td class=\"ss\">cad3</td>\n"
-#         if in_array("te", fuentes):
-#             if c[6] == "TW":
-#                 print "        <td class=\"gendef.TWE\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             else:
-#                 print "        <td class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             }
-#         }
-#         cad2 = str_replace("1f3fe", "1f3ff", cad2)
-#         cad3 = str_replace("&#x1F3FE", "&#x1F3FF", cad3)
-#         print "        <td class=\"ss\">cad3</td>\n"
-#         if in_array("te", fuentes):
-#             if c[6] == "TW":
-#                 print "        <td class=\"gendef.TWE\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             else:
-#                 print "        <td class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></td>\n"
-#             }
-#         }
-#         print "        <td class=\"no\">c[7]</td>\n"
-
-#         # print "        <td><span class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></span></td>\n"
-#         # cad2 = str_replace("1f3fb", "1f3fc", cad2)
-#         # cad3 = str_replace("&#x1F3FB", "&#x1F3FC", cad3)
-#         # print "        <td><span class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></span></td>\n"
-#         # cad2 = str_replace("1f3fc", "1f3fd", cad2)
-#         # cad3 = str_replace("&#x1F3FC", "&#x1F3FD", cad3)
-#         # print "        <td><span class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></span></td>\n"
-#         # cad2 = str_replace("1f3fd", "1f3fe", cad2)
-#         # cad3 = str_replace("&#x1F3FD", "&#x1F3FE", cad3)
-#         # print "        <td><span class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></span></td>\n"
-#         # cad2 = str_replace("1f3fe", "1f3ff", cad2)
-#         # cad3 = str_replace("&#x1F3FE", "&#x1F3FF", cad3)
-#         # print "        <td><span class=\"te\"><a href=\"rutaSVG/cad2.svg\">cad3</a></span></td>\n"
-#         # print "        <td>" . strtoupper(c[7]) . " </td>\n"
-
-#         print "      </tr>\n"
-#     }
-#     print "    </table>\n"
-#     print "  </section>\n"
-#     print "\n"
-# }
-
-# def genera_tablas(grupos)
-# {
-#     print "  <ul>\n"
-#     foreach (grupos as g:
-#         print "    <li><a href=\"#g[2]\">g[1]</a></li>\n"
-#     }
-#     print "  </ul>\n"
-#     print "\n"
-
-#     foreach (grupos as g:
-#         genera_tabla_colores_piel(g[0], g[1], g[2], g[3], g[4], g[5], g[7], g[7])
 #     }
 # }

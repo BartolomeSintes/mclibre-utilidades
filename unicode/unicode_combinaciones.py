@@ -662,18 +662,17 @@ cu_banderas = [
 
 cu_banderas_sub = [
   # Combinaciones: Banderas (subdivisiones)
-
-  [["1F3F3", "0FE0F", "0200D", "1F308"], "", "", "WC", "", "SHOW-YES", "TWE", "T", "TCF", "rainbow flag"],
-  [["1F3F3", "0FE0F", "0200D", "026A7", "0FE0F"], "", "", "WC", "", "SHOW-YES", "TWE", "T", "TGH", "transgender flag"],
-  # [["1F3F3", "1F308"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "rainbow flag"],
-  # 2018-08-28 En emojione rainbow flag eran dos caracteres, pero con twemoji son cuatro
-  [["1F3F4", "0200D", "02620", "0FE0F"], "11", "", "WC", "", "SHOW-YES", "TWE", "T", "TCF", "pirate flag"],
   [["1F3F4", "E0067", "E0062", "E0065", "E006E", "E0067", "E007F"], "10", "", "", "", "SHOW-YES", "TWE", "T", "TGH", "England"],
   [["1F3F4", "E0067", "E0062", "E0073", "E0063", "E0074", "E007F"], "10", "", "", "", "SHOW-YES", "TWE", "T", "TGH", "Scotland"],
   [["1F3F4", "E0067", "E0062", "E0077", "E006C", "E0073", "E007F"], "10", "", "", "", "SHOW-YES", "TWE", "T", "TGH", "Wales"],
 ]
 
 cu_otros = [
+  [["1F3F3", "0FE0F", "0200D", "1F308"], "", "", "WC", "", "SHOW-YES", "TWE", "T", "TCF", "rainbow flag"],
+  [["1F3F3", "0FE0F", "0200D", "026A7", "0FE0F"], "", "", "WC", "", "SHOW-YES", "TWE", "T", "TGH", "transgender flag"],
+  # [["1F3F3", "1F308"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "rainbow flag"],
+  # 2018-08-28 En emojione rainbow flag eran dos caracteres, pero con twemoji son cuatro
+  [["1F3F4", "0200D", "02620", "0FE0F"], "11", "", "WC", "", "SHOW-YES", "TWE", "T", "TCF", "pirate flag"],
   [["1F415", "0200D", "1F9BA"], "12", "", "", "", "SHOW-YES", "TWE",  "T", "TCF", "service dog"],
   [["1F441", "FE0F", "0200D", "1F5E8", "FE0F"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "eye in speech bubble"],
 ]
@@ -1047,13 +1046,8 @@ piel_1_texto = [
   # Combinaciones: Color de piel
   # Código Fitzpatrick se inserta en segunda posición (al final)
   [["0261D"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "white up  pointing index", ""],
-  [["026F9"], "5.2", "VST", "", "", "SHOW-YES", "TWE", "T", "TCF", "person with ball"],
   [["0270C"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "victory hand", ""],
   [["0270D"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "writing hand", ""],
-  [["1F3CB"], "7", "VST", "W10", "", "SHOW-YES", "TWE", "T", "TCF", "weight lifter"],
-  [["1F3CC"], "7", "VST", "W10", "", "SHOW-YES", "TWE", "T", "TCF", "golfer"],
-  [["1F574"], "7", "VST", "W10", "", "SHOW-YES", "TWE", "T", "TCF", "man in bussiness suit levitating"],
-  [["1F575"], "7", "VST", "W10", "", "SHOW-YES", "TWE", "T", "TCF", "sleuth or spy"],
   [["1F590"], "7", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "raised hand with fingers splayed", ""],
 ]
 
@@ -1186,7 +1180,6 @@ piel_5 = [
 ]
 
 
-
 problematicas_genero_1 = [
   # 1F468/1F69/1F9D1 + 200D + XYZ
   # No disponibles en Windows 10
@@ -1241,30 +1234,19 @@ problematicas_genero_4 = [
   [["1F574", "0FE0F", "0200D", "02642", "0FE0F"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "man in bussiness suit levitating"],
 ]
 
-problematicas_piel_4 = [
+problematicas_piel_1_texto = [
   # NO ESTÁN EN WINDOWS
-  [["026F9"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "person with ball"],
-  [["1F3CB"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "weight lifter"],
-  [["1F3CC"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "golfer"],
-  [["1F574"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "man in bussiness suit levitating"],
-  [["1F575"], "", "", "", "", "SHOW-YES", "TWE", "T", "TCF", "sleuth or spy"],
-  [["1F90C"], "13", "", "", "", "SHOW-YES", "TWE", "T", "TGH", "pinched fingers"],
-  [["1F977"], "", "SC", "WC", "", "SHOW-YES", "TWE", "T", "TGH", "ninja"],
+  [["026F9"], "", "VST", "", "", "SHOW-YES", "TWE", "", "TCF", "person with ball"],
+  [["1F3CB"], "", "VST", "", "", "SHOW-YES", "TWE", "", "TCF", "weight lifter"],
+  [["1F3CC"], "", "VST", "", "", "SHOW-YES", "TWE", "", "TCF", "golfer"],
+  [["1F574"], "", "VST", "", "", "SHOW-YES", "TWE", "", "TCF", "man in bussiness suit levitating"],
+  [["1F575"], "", "VST", "", "", "SHOW-YES", "TWE", "", "TCF", "sleuth or spy"],
 ]
 
 problematicas_piel_1 = [
-  # XYZ + 200D + 2640/2642 + FE0F
-  # No funcionan en Twemoji pero sí funcionan en Windows
-  # CUIDADO Estos códigos funcionan como en twemoji como género, pero no funcionan como color de piel
-  # Por eso al dibujar el género, los añado a genero_3, pero están separados cuando se pintan variantes de piel
-  # Lo que me faltaría es ordenarlos cuando los añado a genero_3
-  # Cuando se vean en Windows los tengo que pasar a genero_3
-  [["1F93C", "0200D", "02640", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "women wrestling"],
-  [["1F93C", "0200D", "02642", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "men wrestling"],
-  [["1F46F", "0200D", "02640", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "women with bunny ears"],
-  [["1F46F", "0200D", "02642", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "men with bunny ears"],
-  [["1F9DF", "0200D", "02640", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "woman zombie"],
-  [["1F9DF", "0200D", "02642", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "man zombie"],
+  # NO ESTÁN EN WINDOWS
+  [["1F90C"], "13", "", "", "", "SHOW-YES", "TWE", "", "TGH", "pinched fingers"],
+  [["1F977"], "", "", "WC", "", "SHOW-YES", "TWE", "", "TGH", "ninja"],
 ]
 
 problematicas_piel_2 = [
@@ -1311,6 +1293,20 @@ problematicas_piel_3 = [
   [["1F574", "0FE0F", "0200D", "02642", "0FE0F"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "T", "TCF", "man in bussiness suit levitating"],
 ]
 
+problematicas_piel_4 = [
+  # XYZ + 200D + 2640/2642 + FE0F
+  # No existen en Unicode pero sí funcionan en Windows
+  # CUIDADO Estos códigos funcionan como en twemoji como género, pero no funcionan como color de piel
+  # Por eso al dibujar el género, los añado a genero_3, pero están separados cuando se pintan variantes de piel
+  # Lo que me faltaría es ordenarlos cuando los añado a genero_3
+  # Cuando se vean en Windows los tengo que pasar a genero_3
+  [["1F93C", "0200D", "02640", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "women wrestling"],
+  [["1F93C", "0200D", "02642", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "men wrestling"],
+  [["1F46F", "0200D", "02640", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "women with bunny ears"],
+  [["1F46F", "0200D", "02642", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "men with bunny ears"],
+  [["1F9DF", "0200D", "02640", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "woman zombie"],
+  [["1F9DF", "0200D", "02642", "0FE0F"], "", "SC", "WC", "", "SHOW-YES", "", "", "", "man zombie"],
+]
 
 # problematicas_otros_VIEJO = [
 #   [["00023", "020E3"], "", "VST", "W10", "", "SHOW-YES", "TWE", "", "TCF", "keycap number sign"],
