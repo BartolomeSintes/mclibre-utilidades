@@ -1,7 +1,13 @@
 # Barto 25 de febrero de 2018
 # Este programa genera bonitas páginas Web
 
-import json, pathlib, shutil, imagesize, operator, time
+import json
+import operator
+import pathlib
+import shutil
+import time
+
+import imagesize
 
 SITIO = "sitio.json"
 REVISTAS = "revistas.json"
@@ -11,9 +17,7 @@ REMOTO_ARCHIVOS = "https://www.mclibre.org/descargar/docs/revistas/"
 LOCAL_ARCHIVOS = (
     "D:\\Barto\\Documentación software libre\\revistas\\__revistas_en_mclibre\\"
 )
-LOCAL_MINIATURAS = (
-    "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\documentacion\\img\\"
-)
+LOCAL_MINIATURAS = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\documentacion\\img\\"
 # LOCAL_ARCHIVOS = (
 #     "C:\\Users\\ASIR 7L\\Documents\\IAW\\apuntes\\__revistas_en_mclibre\\"
 # )
@@ -410,7 +414,10 @@ def revistas_por_fecha_inclusion():
             )
             # Obtiene página de la revista
             for element in sitio_json["paginas"]:
-                if len(element["revistas"]) == 1 and element["revistas"][0] == i["serie"]:
+                if (
+                    len(element["revistas"]) == 1
+                    and element["revistas"][0] == i["serie"]
+                ):
                     camino = f'{element["directorio"]}/{element["pagina"]}'
 
             fichero = pathlib.Path(LOCAL_ARCHIVOS + info_r["archivos"] + i["fichero"])
@@ -589,6 +596,7 @@ def pagina_revistas_inactivas(revistas):
     t += "</html>\n"
     return t
 
+
 def pagina_index():
     # Genera html
     t = ""
@@ -708,13 +716,13 @@ def pagina_index():
             t += "        </p>\n"
         t += f'        <p><a href="{camino}">{info_r["nombre-corto"]}</a></p>\n'
         if min(anyos) == max(anyos):
-            t += f'        <p>{min(anyos)}</p>\n'
+            t += f"        <p>{min(anyos)}</p>\n"
         else:
-            t += f'        <p>{min(anyos)} - {max(anyos)}</p>\n'
+            t += f"        <p>{min(anyos)} - {max(anyos)}</p>\n"
         if j[2] == 1:
-            t += f'        <p>1 ejemplar</p>\n'
+            t += f"        <p>1 ejemplar</p>\n"
         else:
-            t += f'        <p>{j[2]} ejemplares</p>\n'
+            t += f"        <p>{j[2]} ejemplares</p>\n"
         t += "      </div>\n"
         t += "\n"
     t += "    </div>\n"
@@ -774,13 +782,13 @@ def pagina_index():
             t += "        </p>\n"
         t += f'        <p><a href="{camino}">{info_r["nombre-corto"]}</a></p>\n'
         if min(anyos) == max(anyos):
-            t += f'        <p>{min(anyos)}</p>\n'
+            t += f"        <p>{min(anyos)}</p>\n"
         else:
-            t += f'        <p>{min(anyos)} - {max(anyos)}</p>\n'
+            t += f"        <p>{min(anyos)} - {max(anyos)}</p>\n"
         if j[2] == 1:
-            t += f'        <p>1 ejemplar</p>\n'
+            t += f"        <p>1 ejemplar</p>\n"
         else:
-            t += f'        <p>{j[2]} ejemplares</p>\n'
+            t += f"        <p>{j[2]} ejemplares</p>\n"
         t += "      </div>\n"
         t += "\n"
     t += "    </div>\n"
@@ -820,6 +828,7 @@ def pagina_index():
     t += "</body>\n"
     t += "</html>\n"
     return t
+
 
 print("GENERADOR DE SITIO WEB")
 
