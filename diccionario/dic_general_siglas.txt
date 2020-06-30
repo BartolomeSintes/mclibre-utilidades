@@ -9,6 +9,7 @@ ACP
 AES 
 AFAICT 
 AFAIK 
+AGPLv3 
 AGPLv3+ 
 ai 
 AIM 
@@ -43,6 +44,7 @@ CAM
 CBM 
 CC 
 CCITT 
+CCPA 
 CCXML 
 CD 
 CDG 
@@ -56,6 +58,7 @@ CERN
 CFGS 
 CGM 
 CMS 
+CNCF 
 CPU 
 CPUs 
 cpus 
@@ -118,6 +121,7 @@ eps
 ESI 
 ESR 
 ESS 
+ESXi 
 EUPV 
 EXI 
 FAQ 
@@ -129,6 +133,7 @@ FNMT
 FOL 
 FP 
 FPA 
+FPE 
 fpi 
 FPS 
 FPWD 
@@ -140,6 +145,7 @@ GBD
 GBE 
 GBR 
 GDI 
+GDPR 
 GG 
 GIF 
 GIF87a 
@@ -155,6 +161,7 @@ GRUB
 GUI 
 GZIP 
 hcl 
+HCL2 
 HDI 
 HLC 
 HSLA 
@@ -190,6 +197,7 @@ IMHO
 IMNSHO 
 IMSC 
 IMSC1 
+INE 
 Informix 
 IOI 
 IP 
@@ -216,6 +224,7 @@ KB
 kb 
 KDE 
 KHTML 
+KVM 
 L20N 
 lampp 
 LC 
@@ -237,8 +246,10 @@ LPOD
 LSP 
 LTS 
 LVM 
+lvm 
 LZW 
 MAC 
+MBR 
 md5 
 MDB2 
 MEC 
@@ -268,6 +279,8 @@ NPTEL
 NS 
 NSC 
 NT 
+NTP 
+ntp 
 OASIS 
 OC 
 ODBC 
@@ -278,6 +291,7 @@ OOCSS
 OPML 
 ORM 
 ORS 
+OSM 
 OSR1 
 OSR2 
 OSX 
@@ -290,6 +304,7 @@ P3P1
 PCDATA 
 PCI 
 PCIe 
+PCPI 
 PCs 
 PDAs 
 PDF 
@@ -332,6 +347,7 @@ RDSI
 react 
 REC 
 RFC 
+RGPD 
 RHEL 
 RIF 
 RL 
@@ -417,8 +433,10 @@ URIs
 URLs 
 USB 
 UTC 
+utc 
 UTF 
 utf-16 
+V8 
 VCDs 
 VCS 
 vdi 
@@ -428,6 +446,7 @@ VoiceXML
 VSC 
 vsd 
 VSFTP 
+VT-x 
 WA 
 WAI-ARIA 
 WAIS 
@@ -443,6 +462,7 @@ WG
 WHATG 
 WHATWG 
 WIPO 
+WoT 
 WP 
 WSDL 
 WYSIWYG 

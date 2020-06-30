@@ -15,6 +15,7 @@ getElementsByClassName
 highlightElement 
 innerHTML 
 len 
+ProgressEvent 
 removeAttribute 
 setAttribute 
 toString 

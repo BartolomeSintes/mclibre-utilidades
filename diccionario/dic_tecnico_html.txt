@@ -68,6 +68,7 @@ fieldset
 figcaption 
 figure 
 footer 
+formaction 
 frame 
 frameset 
 get 
@@ -207,6 +208,7 @@ target
 td 
 tel 
 text 
+text-anchor 
 textarea 
 tfoot 
 th 

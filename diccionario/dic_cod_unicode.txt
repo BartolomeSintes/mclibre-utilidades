@@ -68,6 +68,12 @@ frac34
 frasl 
 Gamma 
 gamma 
+GB-ENG 
+GB-SCT 
+GB-WAL 
+gbeng 
+gbsct 
+gbwls 
 ge 
 grave 
 gt 
@@ -214,6 +220,8 @@ upsilon
 Uuml 
 uuml 
 weierp 
+x1f3f4 
+x2642 
 Xi 
 xi 
 Yacute 

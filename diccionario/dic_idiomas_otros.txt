@@ -3,6 +3,7 @@ aktieselkab
 aquafortis 
 Arbeitsfront 
 arpeggiato 
+Ars 
 atem 
 bassa 
 brevis 
@@ -98,6 +99,7 @@ stratum
 stratum-2 
 subito 
 subpunctis 
+Technica 
 temps 
 tempus 
 tenuto 

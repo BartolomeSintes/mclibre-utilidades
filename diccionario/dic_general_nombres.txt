@@ -21,6 +21,7 @@ AdNauseam
 Adobe 
 Adolfo 
 Adrian 
+Adwords 
 Adán 
 Aemstelredamme 
 Affero 
@@ -78,6 +79,7 @@ amazon
 Amazonas 
 Ambrose 
 AmbulantPlayer 
+AMD-V 
 Amdhal 
 Amelia 
 Amer-Yahia 
@@ -115,6 +117,7 @@ Anthony
 Antoine 
 Antonio 
 Antonis 
+Antúnez 
 Apache 
 apache 
 apache2 
@@ -152,12 +155,14 @@ Asia
 Asier 
 Asimov 
 ASIR 
+AskUbuntu 
 Astra 
 Asturias 
 Astérix 
 Atanagildo 
 atanagildo 
 Atari 
+Athlon 
 Atkins 
 Atkinson 
 Atlántico 
@@ -211,6 +216,7 @@ Battenberg
 Battenger 
 Bazán 
 BBPress 
+bbPress 
 Beaconsfield 
 BeansBooks 
 Beatriz 
@@ -258,6 +264,7 @@ Bigelow
 Bijan 
 Billy 
 bionic 
+Birbeck 
 Birminghan 
 Biron 
 Birte 
@@ -281,6 +288,7 @@ Blower
 BMW 
 Boag 
 Bob 
+Bochs 
 Bodell 
 Bodnar 
 Boehning 
@@ -418,6 +426,7 @@ Christoph
 Christopher 
 Chrome 
 chrome 
+Chromebook 
 Chromium 
 Cicerón 
 Cid 
@@ -468,6 +477,7 @@ Cong
 Connare 
 Connolly 
 Constantinopla 
+containerd 
 Coolors 
 Cooper 
 Copenhague 
@@ -526,8 +536,10 @@ Daniel
 Danland 
 Daphne 
 darcs 
+Darmstadt 
 Das 
 Datalog 
+Datatron 
 Dave 
 David 
 Davis 
@@ -636,6 +648,7 @@ Ehrenstein
 Eich 
 Eiffel 
 Eitch 
+ElectroData 
 Elena 
 Elgg 
 elgg 
@@ -705,8 +718,10 @@ Farias
 Farinós 
 Farley 
 Farrell 
+Faulkner 
 FCKEditor 
 Febo 
+Fecth 
 Federer 
 Federico 
 Fedora 
@@ -854,6 +869,7 @@ Gloria
 Glover 
 GlowScript 
 gmail 
+GmbH 
 GNU 
 Go 
 Goddard 
@@ -906,6 +922,7 @@ Guy
 Gylling 
 Gómez 
 Góngora 
+Güel 
 Haas 
 Habsburgo 
 Hack 
@@ -930,6 +947,7 @@ Harry
 Harvard 
 Harvey 
 Hashemi 
+HashiCorp 
 Haskell 
 Hausenblas 
 Hawke 
@@ -1023,6 +1041,7 @@ IE
 IE11 
 IE6 
 IE7 
+Igalia 
 Ignasi 
 Illinois 
 Illustrator 
@@ -1042,6 +1061,7 @@ Ingmar
 Ingres 
 InkML 
 Inky 
+Innotek 
 Installatron 
 intel 
 Intellisense 
@@ -1149,6 +1169,7 @@ jpg
 js 
 jscript 
 JSFiddle 
+JSLinux 
 JSONLint 
 jsonrpc 
 Jssor 
@@ -1169,6 +1190,7 @@ Jutta
 Júpiter 
 Kabul 
 Kadenze 
+Kaebisch 
 Kai 
 Kalverstraat 
 Kamiya 
@@ -1183,6 +1205,7 @@ Karlitschek
 Karmarkar 
 Kasparov 
 Kass 
+Kata 
 Kaufman 
 Kay 
 Kehrig 
@@ -1228,6 +1251,7 @@ Kosek
 Kostiainen 
 Kotlin 
 Kotok 
+Kovatsch 
 Kraken 
 Kramnik 
 Kraska 
@@ -1338,6 +1362,7 @@ Luna
 Luther 
 Luxemburgo 
 lwn 
+LXC 
 Lyon 
 Lys 
 López 
@@ -1390,6 +1415,7 @@ MarkDown
 Markus 
 Marrow 
 Mars 
+MarsCat 
 Marsh 
 Marte 
 Martin 
@@ -1406,8 +1432,10 @@ Mateo
 Mathias 
 MathJax 
 MathPlayer 
+Mathzilla 
 Matt 
 Matthew 
+Matthias 
 Matute 
 Maurice 
 Max 
@@ -1442,6 +1470,7 @@ Merlin
 Merrick 
 Mersenne 
 Messenger 
+MetaSlider 
 Metcalfe 
 Metrópolis 
 Meur 
@@ -1467,6 +1496,7 @@ Milán
 Miner 
 Mint 
 mint 
+Mirantis 
 MiríadaX 
 Missier 
 MIT 
@@ -1589,6 +1619,7 @@ Oberon
 Objective 
 Obélix 
 Octocat 
+Octoverse 
 Odyssey 
 Ogbuji 
 Ohm 
@@ -1599,6 +1630,8 @@ Oliveira
 Olivier 
 Ollie 
 onetone 
+OnlyOffice 
+ONLYOFFICE 
 OPcache 
 Opel 
 OpenCart 
@@ -1624,6 +1657,7 @@ OrangeHRM
 Orbitron 
 Orchard 
 Oriente 
+Oriol 
 Orion 
 Oscar 
 Osclass 
@@ -1694,6 +1728,7 @@ Peintner
 Pelé 
 Pemberton 
 Pensilvania 
+Pentium 
 Peon 
 Pepe 
 pepe 
@@ -1709,6 +1744,7 @@ Pessoa
 Peter 
 Peterson 
 Peugeot 
+Pexels 
 Phabricator 
 PhantomOpenEmoji 
 Phil 
@@ -1737,8 +1773,10 @@ Pidal
 Pidgin 
 Pierre-Anthony 
 Pieter 
+Pieters 
 Pike 
 Pinky 
+Piotr 
 Piqué 
 Pirandello 
 Pitágoras 
@@ -1804,6 +1842,7 @@ Pydio
 pygame 
 Pyle 
 PyPI 
+PYPL 
 Pyrus 
 pyschool 
 pytest 
@@ -1812,6 +1851,7 @@ Python-future
 Pythonista 
 Pérez 
 Pío 
+QEMU 
 Quejana 
 Quesada 
 Quest 
@@ -1919,6 +1959,7 @@ Rusty
 Ruth 
 Ruy 
 Ryan 
+ryuta46 
 Ródano 
 Sabata 
 Safari 
@@ -1966,6 +2007,7 @@ Seafile
 Seagate 
 SeaMonkey 
 Sears 
+Seattle 
 Sebastian 
 Seca 
 Segoe 
@@ -1976,6 +2018,7 @@ Serna
 Servo 
 Severance 
 Sevilla 
+Sevillano 
 Seymour 
 Shakespeare 
 Shakira 
@@ -2029,6 +2072,8 @@ Speedy
 Sperberg-McQueen 
 Sperry 
 Spiegel 
+SPIP 
+spip 
 Spitz 
 Spock 
 Sporny 
@@ -2040,6 +2085,7 @@ sqlite3
 squeeze 
 Squirrel 
 Squoosh 
+Sroczkowski 
 stackoverflow 
 Stacksmith 
 Stalin 
@@ -2063,6 +2109,7 @@ Steyskal
 STI 
 Stirk 
 STIX 
+Stoik 
 Straub 
 Striped 
 stripemania 
@@ -2113,6 +2160,7 @@ Tandy
 Tantek 
 Tcl 
 TechChange 
+Ted 
 Tele-Pong 
 Telenor 
 Telex 
@@ -2139,6 +2187,7 @@ Timothy
 Tinyjpg 
 tinypng 
 Tiobe 
+TIOBE 
 Tobin 
 Todd 
 TogetherJS 
@@ -2218,6 +2267,7 @@ Valle-Inclán
 vanRossum 
 Vargas 
 Vasari 
+VBox 
 vBulletin 
 Vecteezy 
 Vectr 
@@ -2249,6 +2299,8 @@ Vim
 Vincent 
 Virgilio 
 Virginia 
+virt 
+virtio 
 VirtualBox 
 VirtueMart 
 VisualBasic 
@@ -2258,6 +2310,7 @@ Viñoly
 Vladimir 
 VLC 
 VMware 
+VMWare 
 Volkswagen 
 Vollmer 
 Voltios 
@@ -2281,6 +2334,7 @@ Wang
 Ward 
 Warner 
 Washington 
+WASM 
 Watchmen 
 Waterloo 
 Watson 
@@ -2305,12 +2359,14 @@ WebSub
 WebTrees 
 webtrees 
 Webydo 
+Weck 
 Wei 
 Weierstrass 
 Wekan 
 Welch 
 Welty 
 Wendy 
+WEP 
 Western 
 Westfalia 
 Westminster 
@@ -2357,12 +2413,15 @@ wordpress
 Worldpanel 
 WPKube 
 WriteFreely 
+Wugofski 
 www 
 wwwhat 
 Wybe 
 X11 
 xampp 
+Xbox 
 Xdebug 
+Xen 
 xenial 
 XFCE 
 Ximo 
@@ -2377,6 +2436,7 @@ Yocto
 Yogi 
 Yogismos 
 Yolanda 
+Yongsheng 
 York 
 yorkie 
 Yorkshire 
@@ -2396,6 +2456,7 @@ Zephyr
 ZetCode 
 Zhi 
 Zhiheng 
+Zhu 
 Zimmer 
 Zimmermann 
 Zipernowsky 

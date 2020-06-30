@@ -64,8 +64,10 @@ MiB
 misc 
 ml 
 mo 
+MSC 
 nm 
 oct 
+ods 
 passwd 
 pdfs 
 pebi 
@@ -113,9 +115,11 @@ supl
 TB 
 tebi 
 tera 
+Tue 
 UK 
 vocab 
 Vol 
+Wasm 
 Wed 
 X01 
 x86 
