@@ -4012,6 +4012,11 @@
                             "formato": "rtf",
                             "idioma": "es",
                             "url": "dogv/DOGV-2019-252-D-ROF-centros-secundaria-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-252-D-ROF-centros-secundaria-va.rtf"
                         }
                     ]
                 }
@@ -4099,7 +4104,7 @@
             ]
         },
         {
-            "id": "celex-1992-51-d",
+            "id": "celex-1992-51-dir",
             "incluido": "2019-12-11",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -4136,7 +4141,7 @@
             ]
         },
         {
-            "id": "celex-1989-48-d",
+            "id": "celex-1989-48-dir",
             "incluido": "2019-12-11",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -4188,7 +4193,7 @@
             ]
         },
         {
-            "id": "celex-2005-36-48-d",
+            "id": "celex-2005-36-48-dir",
             "incluido": "2019-12-11",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -18006,7 +18011,7 @@
             "fecha": "2018-05-02",
             "vigencia": "vigente",
             "descripción": "Europass",
-            "titulo": "Decisión (UE) 2018/646 del Parlamento Europeo y del Consejo, de 18 de abril de 2018, relativa a un marco común para prestar mejores servicios en materia de capacidades y cualificaciones (Europass) y por la que se deroga la Decisión n.° 2241/2004/CE.",
+            "titulo": "Decisión (UE) 2018/646 del Parlamento Europeo y del Consejo, de 18 de abril de 2018, relativa a un marco común para prestar mejores servicios en materia de capacidades y cualificaciones (Europass) y por la que se deroga la Decisión n° 2241/2004/CE.",
             "versiones": [
                 {
                     "versión": "original",
@@ -18247,7 +18252,7 @@
             "fecha": "2014-08-28",
             "vigencia": "vigente",
             "descripción": "Reglamento identificación electrónica",
-            "titulo": "Reglamento (UE) n ° 910/2014 del Parlamento Europeo y del Consejo, de 23 de julio de 2014 , relativo a la identificación electrónica y los servicios de confianza para las transacciones electrónicas en el mercado interior y por la que se deroga la Directiva 1999/93/CE",
+            "titulo": "Reglamento (UE) n° 910/2014 del Parlamento Europeo y del Consejo, de 23 de julio de 2014, relativo a la identificación electrónica y los servicios de confianza para las transacciones electrónicas en el mercado interior y por la que se deroga la Directiva 1999/93/CE",
             "versiones": [
                 {
                     "versión": "original",
@@ -18329,7 +18334,7 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "1990-06-21",
-            "vigencia": "derogado",
+            "vigencia": "vigente",
             "descripción": "Directiva Seguridad y salud trabajo con pantallas",
             "titulo": "Directiva 90/270/CEE del Consejo, de 29 de mayo de 1990, referente a las disposiciones mínimas de seguridad y de salud relativas al trabajo con equipos que incluyen pantallas de visualización (quinta Directiva específica con arreglo al apartado 1 del artículo 16 de la Directiva 89/391/CEE)",
             "versiones": [
@@ -18934,7 +18939,7 @@
             "origen": "DOGV",
             "fecha": "2019-06-18",
             "vigencia": "vigente",
-            "descripción": "Requisitos y procedimiento de aprobación oferta intergrada FP en IES (CV)",
+            "descripción": "Requisitos y procedimiento de aprobación oferta integrada FP en IES (CV)",
             "titulo": "Decreto 74/2019, de 24 de mayo, del Consell, de determinación de los requisitos y el procedimiento de aprobación de la oferta integrada de formación profesional en institutos de educación secundaria autorizados.",
             "versiones": [
                 {
@@ -20146,7 +20151,7 @@
             "fecha": "2002-07-22",
             "vigencia": "derogado",
             "descripción": "Bachillerato (CV)",
-            "titulo": "Orden de 18 de junio de 2002 de la Conselleria de Cultura y Educación, por la cual se modifican parcialmente las Ordenes de 17 de enero de 1995 (DOGV de 1 de marzo); la de 10 de mayo de 1995 (DOGV de 19 de junio); la de 7 de octubre de 1998 (DOGV de 29 de octubre); la de 14 de julio de 1999 (DOGV de 5 de agosto de 1999); la de 9 de julio de 1999 (DOGV de 6 de agosto); la de 3 de mayo de 2000 (DOGV de 19 de mayo); y la de 21 de julio de 2000 (DOGV de 5 de septiembre).",
+            "titulo": "Orden de 18 de junio de 2002 de la Conselleria de Cultura y Educación, por la cual se modifican parcialmente las Órdenes de 17 de enero de 1995 (DOGV de 1 de marzo); la de 10 de mayo de 1995 (DOGV de 19 de junio); la de 7 de octubre de 1998 (DOGV de 29 de octubre); la de 14 de julio de 1999 (DOGV de 5 de agosto de 1999); la de 9 de julio de 1999 (DOGV de 6 de agosto); la de 3 de mayo de 2000 (DOGV de 19 de mayo); y la de 21 de julio de 2000 (DOGV de 5 de septiembre).",
             "versiones": [
                 {
                     "versión": "original",
@@ -22366,7 +22371,7 @@
             "fecha": "2020-03-13",
             "vigencia": "vigente",
             "descripción": "Suspensión actividad educativa presencial Coronavirus Covid-19 (CV)",
-            "titulo": "Resolución de 12 de marzo de 2020, de la consellera de Sanidad Universal y Salud Pública, por la que se acuerda suspender temporalmente la actividad educativa y formativa presencial en todos los centros y etapas, ciclos, grados, cursos y niveles de enseñanza en la Comunutat Valenciana, como consecuencia de la situación y evolución del coronavirus (Covid-19).",
+            "titulo": "Resolución de 12 de marzo de 2020, de la consellera de Sanidad Universal y Salud Pública, por la que se acuerda suspender temporalmente la actividad educativa y formativa presencial en todos los centros y etapas, ciclos, grados, cursos y niveles de enseñanza en la Comunitat Valenciana, como consecuencia de la situación y evolución del coronavirus (Covid-19).",
             "versiones": [
                 {
                     "versión": "original",
@@ -22439,7 +22444,7 @@
             "fecha": "2020-05-12",
             "vigencia": "vigente",
             "descripción": "Apertura centros educativos tareas administrativas Coronavirus Covid-19 (CV)",
-            "titulo": "Resolución de 11 de mayo de 2020, de la Consellera de Sanidad Universal y Salud Pública, por la que se autoriza la apertura de los centros eductivos de la Comunitat Valenciana, para la realización de determinadas funciones administrativas y de coordinación.",
+            "titulo": "Resolución de 11 de mayo de 2020, de la Consellera de Sanidad Universal y Salud Pública, por la que se autoriza la apertura de los centros educativos de la Comunitat Valenciana, para la realización de determinadas funciones administrativas y de coordinación.",
             "versiones": [
                 {
                     "versión": "original",
@@ -23095,7 +23100,7 @@
             "fecha": "2008-12-23",
             "vigencia": "vigente",
             "descripción": "Directiva Infraestructuras críticas europeas",
-            "titulo": "Directiva 2008/114/CE del Consejo, de 8 de diciembre de 2008 , sobre la identificación y designación de infraestructuras críticas europeas y la evaluación de la necesidad de mejorar su protección",
+            "titulo": "Directiva 2008/114/CE del Consejo, de 8 de diciembre de 2008, sobre la identificación y designación de infraestructuras críticas europeas y la evaluación de la necesidad de mejorar su protección",
             "versiones": [
                 {
                     "versión": "original",
@@ -23337,7 +23342,7 @@
             "fecha": "2009-12-18",
             "vigencia": "vigente",
             "descripción": "Directiva sobre la privacidad y las comunicaciones electrónicas",
-            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009 , por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) n o 2006/2004 sobre la cooperación en materia de protección de los consumidores (Texto pertinente a efectos del EEE)",
+            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009, por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) n o 2006/2004 sobre la cooperación en materia de protección de los consumidores (Texto pertinente a efectos del EEE)",
             "versiones": [
                 {
                     "versión": "original",
@@ -23686,7 +23691,7 @@
             "fecha": "2013-12-20",
             "vigencia": "vigente",
             "descripción": "Reglamento creación Erasmus+",
-            "titulo": "Reglamento (UE) n°1288/2013 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2013, por el que se crea el programa «Erasmus+», de educación, formación, juventud y deporte de la Unión y por el que se derogan las Decisiones n°1719/2006/CE, 1720/2006/CE y 1298/2008/CE Texto pertinente a efectos del EEE",
+            "titulo": "Reglamento (UE) n° 1288/2013 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2013, por el que se crea el programa «Erasmus+», de educación, formación, juventud y deporte de la Unión y por el que se derogan las Decisiones n° 1719/2006/CE, 1720/2006/CE y 1298/2008/CE Texto pertinente a efectos del EEE",
             "versiones": [
                 {
                     "versión": "original",
@@ -23750,7 +23755,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1984-19886"
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-6906"
                         }
                     ]
                 }
@@ -24015,7 +24020,7 @@
             "origen": "DOGV",
             "fecha": "2020-05-28",
             "vigencia": "vigente",
-            "descripción": "Instrucciones fase 2 Coronavirus Covid-19 (CV)",
+            "descripción": "Regulación fase 2 Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 26 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la fase 2 del Plan para la transición hacia una nueva normalidad",
             "versiones": [
                 {
@@ -25961,6 +25966,981 @@
                 "real decreto",
                 "universidad",
                 "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-1991-09-11-o",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1991-09-26",
+            "vigencia": "derogado",
+            "descripción": "Acceso a enseñanzas de Ingeniero en Informática",
+            "titulo": "Orden de 11 de septiembre de 1991 por la que se determinan las titulaciones y los estudios de primer ciclo y los complementos de formación para el acceso a las enseñanzas conducentes a la obtención del título oficial de Ingeniero en Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1991-09-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-11-09-O-acceso-ingeniero-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1991/09/11/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad",
+                "ingeniero en informática"
+            ]
+        },
+        {
+            "id": "boe-2018-03-05-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-03-28",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Máster en Tecnologías Web, Computación en la Nube y Aplicaciones Móviles (Universidad de Valencia)",
+            "titulo": "Resolución de 5 de marzo de 2018, de la Universitat de València, por la que se publica el plan de estudios de Máster en Tecnologías Web, Computación en la Nube y Aplicaciones Móviles.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-03-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-03-35-RES-plan-estudios-master-tecnologias-web-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-4387"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad de valencia",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2014-07-15-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-07-28",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Máster en Ingeniería de Servicios y Aplicaciones Web (Universidad de Valencia)",
+            "titulo": "Resolución de 15 de julio de 2014, de la Universitat de València, por la que se publica el plan de estudios de Máster en Ingeniería de Servicios y Aplicaciones Web.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-07-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-07-15-RES-plan-estudios-master-servicios-aplicaciones-web-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2014-8054"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad de valencia",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2015-05-20-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-06-16",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Máster en Ingeniería Informática (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 20 de mayo de 2015, de la Universitat Politècnica de València, por la que se publica el plan de estudios de Máster en Ingeniería Informática.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-06-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-05-20-RES-plan-estudios-master-ingenieria-informatica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2014-8054"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad politécnica de valencia",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2009-06-08-res",
+            "incluido": "2020-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2009-08-04",
+            "vigencia": "vigente",
+            "descripción": "Recomendaciones títulos oficiales Ingeniería Informática",
+            "titulo": "Resolución de 8 de junio de 2009, de la Secretaría General de Universidades, por la que se da publicidad al Acuerdo del Consejo de Universidades, por el que se establecen recomendaciones para la propuesta por las universidades de memorias de solicitud de títulos oficiales en los ámbitos de la Ingeniería Informática, Ingeniería Técnica Informática e Ingeniería Química.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-08-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-06-08-RES-recomendaciones-titulos-ingenieria-informatica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2009/06/08/(3)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2020-555-rd",
+            "incluido": "2020-06-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-06-06",
+            "vigencia": "vigente",
+            "descripción": "Sexta prórroga estado de alarma Coronavirus Covid-19",
+            "titulo": "Real Decreto 555/2020, de 5 de junio, por el que se prorroga el estado de alarma declarado por el Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-555-RD-estado-alarma-prorroga-6-covid-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2020/06/05/555"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "estado de alarma",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-21-rdl",
+            "incluido": "2020-06-10",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-06-10",
+            "vigencia": "vigente",
+            "descripción": "Nueva normalidad Coronavirus Covid-19",
+            "titulo": "Real Decreto-ley 21/2020, de 9 de junio, de medidas urgentes de prevención, contención y coordinación para hacer frente a la crisis sanitaria ocasionada por el COVID-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-21-RDL-nueva-normalidad-covid-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-5895"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "estado de alarma",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-8-d",
+            "incluido": "2020-06-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-06-13",
+            "vigencia": "vigente",
+            "descripción": "Regulación fase 3 Coronavirus Covid-19 (CV)",
+            "titulo": "Decreto 8/2020, de 13 de junio, del president de la Generalitat, de regulación y flexibilización de determinadas restricciones, en el ámbito de la Comunitat Valenciana, establecidas durante la declaración del estado de alarma, en aplicación de la fase 3 del Plan para la transición hacia una nueva normalidad. (CV).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-08-D-covid-regulacion-fase-3.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/4499&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/4499&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-08-D-covid-regulacion-fase-3-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-08-D-covid-regulacion-fase-3-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "curso 2019/20",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-06-01-res",
+            "incluido": "2020-04-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-06-02",
+            "vigencia": "vigente",
+            "descripción": "Formación profesional para el empleo Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución  de 1 de junio de 2020, de la Dirección General de LABORA Servicio Valenciano de Empleo y Formación, por la que se adoptan medidas para la recuperación de la actividad formativa presencial en la formación profesional para el empleo en el ámbito laboral, en el marco de la implementación del Plan para la transición hacia una nueva normalidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-01-R-covid-fp-empleo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020%2F3943"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020%2F3943"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-01-R-covid-fp-empleo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-06-01-R-covid-fp-empleo-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-06-19-acu",
+            "incluido": "2020-06-20",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-06-20",
+            "vigencia": "vigente",
+            "descripción": "Regulación nueva normalidad Coronavirus Covid-19 (CV)",
+            "titulo": "Acuerdo de 19 de junio, del Consell, sobre medidas de prevención frente a la Covid-19",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-19-A-covid-instrucciones-nueva-normalidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/4770&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/4770&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-19-A-covid-instrucciones-nueva-normalidad-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-06-19-A-covid-instrucciones-nueva-normalidad-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "acuerdo",
+                "curso 2019/20",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-2020-561-o",
+            "incluido": "2020-06-25",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-06-24",
+            "vigencia": "vigente",
+            "descripción": "Acuerdos para el curso 20/21 Coronavirus Covid-19",
+            "titulo": "Orden EFP/561/2020, de 20 de junio, por la que se publican Acuerdos de la Conferencia  Sectorial  de  Educación,  para  el  inicio  y  el  desarrollo  del  curso 2020-2021.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-561-O-covid-acuerdos-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2020/06/20/efp561"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "boe-borrador-2020-2-rd",
+            "incluido": "2020-06-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2020-06-19",
+            "vigencia": "borrador",
+            "descripción": "Borrador Decreto del Título de Inteligencia Artificial y Big Data",
+            "titulo": "Proyecto de real decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Inteligencia Artificial y Big Data y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2020-06-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-bigdata-borrador-2020-06-19.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2020/prd-curso-bigdata.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "boe-2019-4-l",
+            "incluido": "2020-07-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2019-03-08",
+            "vigencia": "vigente",
+            "descripción": "Derogación Recortes 2012 jornada lectiva y otros",
+            "titulo": "Ley 4/2019, de 7 de marzo, de mejora de las condiciones para el desempeño de la docencia y la enseñanza en el ámbito de la educación no universitaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-03-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2019-4-L-mejora-condiciones-docencia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2019/03/07/4"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "profesorado"
+            ]
+        },
+        {
+            "id": "boe-2012-14-rdl",
+            "incluido": "2020-07-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2012-04-21",
+            "vigencia": "derogado",
+            "descripción": "Recortes 2012 jornada lectiva y otros",
+            "titulo": "Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-04-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2012-14-RDL-racionalizacion-gasto-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rdl/2012/04/20/14"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "profesorado"
+            ]
+        },
+        {
+            "id": "celex-2018-1523-deceje",
+            "incluido": "2020-07-02",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-10-12",
+            "vigencia": "vigente",
+            "descripción": "Modelo de declaración de accesibilidad",
+            "titulo": "Decisión de Ejecución (UE) 2018/1523 de la Comisión, de 11 de octubre de 2018, por la que se establece un modelo de declaración de accesibilidad de conformidad con la Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo sobre la accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-10-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-1523-DECEJE-modelo-declaracion-accesibilidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dec_impl/2018/1523/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "decisión de ejecución",
+                "accesibilidad",
+                "sector público"
+            ]
+        },
+        {
+            "id": "celex-2019-882-dir",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-06-07",
+            "vigencia": "vigente",
+            "descripción": "Directiva Requisitos de accesibilidad de los productos y servicios",
+            "titulo": "Directiva (UE) 2019/882 del Parlamento Europeo y del Consejo, de 17 de abril de 2019, sobre los requisitos de accesibilidad de los productos y servicios",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-882-D-accesibilidad-productos-servicios.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "accesibilidad"
+            ]
+        },
+        {
+            "id": "celex-2018-2048-deceje",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-12-21",
+            "vigencia": "vigente",
+            "descripción": "Norma armonizada requisitos Directiva 2016/2102: EN 301 549 Requisitos de accesibilidad",
+            "titulo": "Decisión de Ejecución (UE) 2018/2048 de la Comisión, de 20 de diciembre de 2018, sobre la norma armonizada aplicable a los sitios web y a las aplicaciones para dispositivos móviles redactada en apoyo de la Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-12-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-2048-DECEJE-norma-armonizada-directiva-2016-2012.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dec_impl/2018/1523/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "decisión de ejecución",
+                "accesibilidad",
+                "sector público"
+            ]
+        },
+        {
+            "id": "cen-301549-3-1-1-en",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "CEN",
+            "fecha": "2019-11-15",
+            "vigencia": "vigente",
+            "descripción": "Norma EN 301 549 (v3.1.1) Accessibility requirements for ICT products and services",
+            "titulo": "EN 301 549 V3.1.1 (2019-11): Accessibility requirements for ICT products and services",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-11-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "cen/EN-301549-v3-1-1.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "norma",
+                "accesibilidad"
+            ]
+        },
+        {
+            "id": "boe-2015-18-l",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-07-10",
+            "vigencia": "vigente",
+            "descripción": "Ley Reutilización de la información del sector público",
+            "titulo": "Ley 18/2015, de 9 de julio, por la que se modifica la Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-07-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-18-L-reutilizacion-informacion-sector-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2015/07/09/18"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "sector público",
+                "reutilización información"
+            ]
+        },
+        {
+            "id": "celex-2013-37-dir",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2013-06-27",
+            "vigencia": "vigente",
+            "descripción": "Directiva Reutilización de la información del sector público",
+            "titulo": "Directiva 2013/37/UE del Parlamento Europeo y del Consejo, de 26 de junio de 2013, por la que se modifica la Directiva 2003/98/CE relativa a la reutilización de la información del sector público",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-06-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2013-37-D-reutilizacion-informacion-sector-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2013/37/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "sector público",
+                "reutilización información"
+            ]
+        },
+        {
+            "id": "celex-2003-98-dir",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2003-12-31",
+            "vigencia": "vigente",
+            "descripción": "Directiva Reutilización de la información del sector público",
+            "titulo": "Directiva 2003/98/CE del Parlamento Europeo y del Consejo, de 17 de noviembre de 2003, relativa a la reutilización de la información del sector público",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-12-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2003-98-D-reutilizacion-informacion-sector-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2003/98/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2013-07-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2003-98-D-reutilizacion-informacion-sector-publico-consolidado-2013-07-17.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2003/98/2013-07-17"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "sector público",
+                "reutilización información"
+            ]
+        },
+        {
+            "id": "boe-2017-581-rd",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2017-06-10",
+            "vigencia": "vigente",
+            "descripción": "Reconocimiento de cualificaciones profesionales",
+            "titulo": "Real Decreto 581/2017, de 9 de junio, por el que se incorpora al ordenamiento jurídico español la Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) n.º 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior (Reglamento IMI).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2017-581-RD-reconocimiento-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2017/06/09/581"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2020-02-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2017-581-RD-reconocimiento-cualificaciones-profesionales-consolidado-2020-02-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2017/06/09/581/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "formación profesional",
+                "cualificaciones",
+                "reconocimiento cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "celex-2013-55-dir",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2013-12-28",
+            "vigencia": "vigente",
+            "descripción": "Directiva Reconocimiento de cualificaciones profesionales",
+            "titulo": "Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) n° 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior (Reglamento IMI)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-12-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2013-55-D-reconocimiento-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2013/55/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "formación profesional",
+                "cualificaciones",
+                "reconocimiento cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "boe-2008-1837-rd",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2008-11-20",
+            "vigencia": "vigente",
+            "descripción": "Reconocimiento de cualificaciones profesionales (profesiones reguladas)",
+            "titulo": "Real Decreto 1837/2008, de 8 de noviembre, por el que se incorporan al ordenamiento jurídico español la Directiva 2005/36/CE, del Parlamento Europeo y del Consejo, de 7 de septiembre de 2005, y la Directiva 2006/100/CE, del Consejo, de 20 de noviembre de 2006, relativas al reconocimiento de cualificaciones profesionales, así como a determinados aspectos del ejercicio de la profesión de abogado.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-1837-RD-reconocimiento-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2008/11/08/1837"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2017-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-1837-RD-reconocimiento-cualificaciones-profesionales-consolidado-2017-06-10.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2008/11/08/1837/con/"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "formación profesional",
+                "cualificaciones",
+                "reconocimiento cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "boe-1992-12-29-res",
+            "incluido": "2020-07-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1993-01-29",
+            "vigencia": "derogado",
+            "descripción": "Currículo de optativas de Bachillerato (LOGSE)",
+            "titulo": "Resolución de 29 de diciembre de 1992, de la Dirección General de Renovación Pedagógica, por la que se regula el currículo de las materias optativas de Bachillerato establecidas en la Orden de 12 de noviembre de 1992 de implantación anticipada del Bachillerato definido por la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1993-01-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-12-29-RES-curriculo-optativas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/1992/12/29/(9)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "currículo",
+                "bachillerato",
+                "optativas"
             ]
         }
     ]

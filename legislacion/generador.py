@@ -1,13 +1,11 @@
-import json, pathlib
-from datetime import date
-import gconst, gweb, gjson
+import gweb
 
 
 def main():
-    gweb.guarda_index("mclibre")
+    gweb.guarda_index()
     gweb.guarda_colecciones("mclibre")
 
-    # Listado cornológico
+    # Listado cronológico
     gweb.guarda_fichas()
 
 

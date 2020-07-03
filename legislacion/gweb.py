@@ -1,6 +1,8 @@
-import json, pathlib
+import json
+import pathlib
 from datetime import date
-import gconst, gjson
+import gconst
+import gjson
 
 
 def fecha_a_texto(numero):
@@ -81,8 +83,8 @@ def cabecera(titulo, profundidad):
     return tmp
 
 
-def seccion(legislacion, id, titulo):
-    tmp = f'  <section id="{id}">\n'
+def seccion(legislacion, identificador, titulo):
+    tmp = f'  <section id="{identificador}">\n'
     tmp += f"    <h2>{titulo}</h2>\n"
     tmp += "\n"
     tmp += f'    <div class="disposiciones">\n'
@@ -284,7 +286,7 @@ def guarda_fichas():
         fichero.write(t)
 
 
-def guarda_index(nombre):
+def guarda_index():
     # Carga json legislación
     with open(gconst.JSON_FILE_REFERENCES, encoding="utf-8") as file:
         tmp = json.load(file)
@@ -372,12 +374,12 @@ def guarda_colecciones(nombre):
             t += f'  <h2>{apartado["apartado"]["titulo"]}</h2>\n'
             t += "\n"
             t += "  <ul>\n"
-            for id in apartado["apartado"]["referencias"]:
+            for identificador in apartado["apartado"]["referencias"]:
                 t += muestra_referencia(
-                    gjson.selecciona_en_json(legislacion, "id", id),
+                    gjson.selecciona_en_json(legislacion, "id", identificador),
                     pagina["profundidad"],
                 )
-                ids.remove(id)
+                ids.remove(identificador)
             t += "  </ul>\n"
             t += "\n"
 
@@ -385,9 +387,9 @@ def guarda_colecciones(nombre):
             # t += f"  <h2>Otros</h2>\n"
             # t += "\n"
             t += "  <ul>\n"
-            for id in ids:
+            for identificador in ids:
                 t += muestra_referencia(
-                    gjson.selecciona_en_json(legislacion, "id", id),
+                    gjson.selecciona_en_json(legislacion, "id", identificador),
                     pagina["profundidad"],
                 )
             t += "  </ul>\n"

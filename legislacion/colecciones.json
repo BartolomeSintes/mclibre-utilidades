@@ -32,7 +32,8 @@
                             "apartado": {
                                 "titulo": "Reconocimiento de Cualificaciones Profesionales",
                                 "referencias": [
-                                    "celex-2005-36-48-d"
+                                    "celex-2005-36-48-dir",
+                                    "celex-2013-55-dir"
                                 ]
                             }
                         },
@@ -68,7 +69,8 @@
                             "apartado": {
                                 "titulo": "Borradores",
                                 "referencias": [
-                                    "boe-borrador-2020-1-rd"
+                                    "boe-borrador-2020-1-rd",
+                                    "boe-borrador-2020-2-rd"
                                 ]
                             }
                         },
@@ -83,7 +85,10 @@
                                     "boe-2020-365-o",
                                     "boe-2020-399-o",
                                     "boe-2020-537-rd",
-                                    "boe-2020-400-o"
+                                    "boe-2020-400-o",
+                                    "boe-2020-555-rd",
+                                    "boe-2020-21-rdl",
+                                    "boe-2020-561-o"
                                 ]
                             }
                         },
@@ -167,6 +172,15 @@
                                     "boe-2002-1842-o",
                                     "boe-2014-2159-o",
                                     "boe-2017-1055-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Reconocimiento de Cualificaciones Profesionales",
+                                "referencias": [
+                                    "boe-2008-1837-rd",
+                                    "boe-2017-581-rd"
                                 ]
                             }
                         },
@@ -284,8 +298,12 @@
                             "apartado": {
                                 "titulo": "Estudios universitarios informática",
                                 "referencias": [
+                                    "boe-2009-06-08-res",
                                     "boe-2011-03-23-res",
-                                    "boe-2011-07-18-res"
+                                    "boe-2011-07-18-res",
+                                    "boe-2014-07-15-res",
+                                    "boe-2015-05-20-res",
+                                    "boe-2018-03-05-res"
                                 ]
                             }
                         },
@@ -300,7 +318,8 @@
                                     "boe-2010-132-rd",
                                     "boe-2014-412-rd",
                                     "boe-2015-65-o",
-                                    "boe-2015-665-rd"
+                                    "boe-2015-665-rd",
+                                    "boe-2019-4-l"
                                 ]
                             }
                         }
@@ -351,7 +370,10 @@
                                     "dogv-2020-04-05-res",
                                     "dogv-2020-05-11-res",
                                     "dogv-2020-05-13-res",
-                                    "dogv-2020-05-26-res"
+                                    "dogv-2020-05-26-res",
+                                    "dogv-2020-06-01-res",
+                                    "dogv-2020-8-d",
+                                    "dogv-2020-06-19-acu"
                                 ]
                             }
                         },
@@ -610,6 +632,7 @@
                                     "boe-1991-1700-rd",
                                     "boe-1992-1178-rd",
                                     "boe-1992-1179-rd",
+                                    "boe-1992-12-29-res",
                                     "boe-1993-850-rd",
                                     "boe-1995-894-rd",
                                     "boe-1995-1390-rd",
@@ -672,7 +695,8 @@
                                     "boe-1970-07-29-o",
                                     "boe-1971-06-24-o",
                                     "boe-1976-327-rd",
-                                    "boe-1990-1459-rd"
+                                    "boe-1990-1459-rd",
+                                    "boe-1991-09-11-o"
                                 ]
                             }
                         },
@@ -712,10 +736,10 @@
                                 "titulo": "Otras",
                                 "referencias": [
                                     "celex-1985-368-dec",
-                                    "celex-1989-48-d",
+                                    "celex-1989-48-dir",
                                     "boe-1990-1618-rd",
                                     "boe-1991-1701-rd",
-                                    "celex-1992-51-d",
+                                    "celex-1992-51-dir",
                                     "boe-1993-631-rd",
                                     "boe-1994-07-07-o",
                                     "celex-1998-12-21-dec",
@@ -727,6 +751,7 @@
                                     "boe-2007-395-rd",
                                     "celex-2008-04-23-rec",
                                     "boe-2008-1892-rd",
+                                    "boe-2012-14-rdl",
                                     "boe-2018-5-rdl"
                                 ]
                             }
@@ -1182,7 +1207,11 @@
                                 "referencias": [
                                     "boe-2007-1494-rd",
                                     "celex-2016-2102-dir",
-                                    "boe-2018-1112-rd"
+                                    "boe-2018-1112-rd",
+                                    "celex-2018-1523-deceje",
+                                    "celex-2018-2048-deceje",
+                                    "celex-2019-882-dir",
+                                    "cen-301549-3-1-1-en"
                                 ]
                             }
                         },
@@ -1197,10 +1226,13 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Reutilización información sector público",
+                                "titulo": "Reutilización de la información del sector público",
                                 "referencias": [
+                                    "celex-2003-98-dir",
                                     "boe-2007-37-l",
-                                    "boe-2011-1495-rd"
+                                    "boe-2011-1495-rd",
+                                    "celex-2013-37-dir",
+                                    "boe-2015-18-l"
                                 ]
                             }
                         },
