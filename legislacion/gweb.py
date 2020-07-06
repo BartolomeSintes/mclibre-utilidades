@@ -71,6 +71,7 @@ def cabecera(titulo, profundidad):
         tmp += "            </li>\n"
         tmp += '            <li><a href="educativa-derogada.html">Derogada</a></li>\n'
         tmp += '            <li><a href="educativa-derogada-anual-es-cv.html">Derogada Comun. Valenc.</a></li>\n'
+        tmp += '            <li><a href="educativa-derogada-es-min.html">Derogada Territorio MEC</a></li>\n'
         tmp += "          </ul>\n"
         tmp += "        </li>\n"
         tmp += '        <li><a href="otras.html">Otros temas</a></li>\n'
@@ -314,6 +315,7 @@ def guarda_index():
     t += "        </li>\n"
     t += '        <li><a href="listados/educativa-derogada.html">Derogada</a></li>\n'
     t += '        <li><a href="listados/educativa-derogada-anual-es-cv.html">Derogada Comunidad Valenciana (organización de cursos académicos)</a></li>\n'
+    t += '        <li><a href="listados/educativa-derogada-es-min.html">Derogada Territorio MEC</a></li>\n'
     t += "      </ul>\n"
     t += "    </li>\n"
     t += '    <li><a href="listados/otras.html">Otros temas</a></li>\n'

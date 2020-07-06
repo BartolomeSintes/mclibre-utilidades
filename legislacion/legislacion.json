@@ -1856,7 +1856,7 @@
             "id": "boe-2008-944-o",
             "incluido": "2019-12-03",
             "modificado": "",
-            "ámbito": "España",
+            "ámbito": "Ministerio de Educación",
             "origen": "BOE",
             "fecha": "2008-04-08",
             "vigencia": "vigente",
@@ -3517,9 +3517,8 @@
                 }
             ],
             "claves": [
-                "españa",
-                "real decreto",
                 "ministerio de educación",
+                "real decreto",
                 "educación",
                 "currículo",
                 "formación profesional",
@@ -3555,9 +3554,8 @@
                 }
             ],
             "claves": [
-                "españa",
-                "real decreto",
                 "ministerio de educación",
+                "real decreto",
                 "educación",
                 "currículo",
                 "formación profesional",
@@ -3593,9 +3591,8 @@
                 }
             ],
             "claves": [
-                "españa",
-                "real decreto",
                 "ministerio de educación",
+                "real decreto",
                 "educación",
                 "currículo",
                 "formación profesional",
@@ -3631,9 +3628,8 @@
                 }
             ],
             "claves": [
-                "españa",
-                "real decreto",
                 "ministerio de educación",
+                "real decreto",
                 "educación",
                 "currículo",
                 "formación profesional",
@@ -6876,7 +6872,7 @@
             "fecha": "2009-07-30",
             "vigencia": "vigente",
             "descripción": "Cursos preparatorios Pruebas de acceso Ciclos formativos (CV)",
-            "titulo": "Orden de 17 de julio, de 2009 de la Conselleria de Educación, por la que se regulan los cursos preparatorios de las pruebas de acceso a la formación profesional en centros docentes de la Comunitat Valenciana que impartan enseñanzas de Ciclos Formativos y se establece el procedimiento de admisión para cursar estas enseñanzas financiadas con fondos públicos en centros docentes.",
+            "titulo": "Orden de 17 de julio de 2009 de la Conselleria de Educación, por la que se regulan los cursos preparatorios de las pruebas de acceso a la formación profesional en centros docentes de la Comunitat Valenciana que impartan enseñanzas de Ciclos Formativos y se establece el procedimiento de admisión para cursar estas enseñanzas financiadas con fondos públicos en centros docentes.",
             "versiones": [
                 {
                     "versión": "original",
@@ -7581,11 +7577,11 @@
             "id": "boe-1992-1179-rd",
             "incluido": "2019-12-28",
             "modificado": "",
-            "ámbito": "España",
+            "ámbito": "Ministerio de Educación",
             "origen": "BOE",
             "fecha": "1992-10-21",
             "vigencia": "derogado",
-            "descripción": "Currículo Bachillerato (LOGSE)",
+            "descripción": "Currículo Bachillerato (MEC, LOGSE)",
             "titulo": "Real Decreto 1179/1992, de 2 de octubre, por el que se establece el currículo del Bachillerato.",
             "versiones": [
                 {
@@ -7622,7 +7618,7 @@
                 }
             ],
             "claves": [
-                "españa",
+                "ministerio de educación",
                 "real decreto",
                 "educación",
                 "bachillerato",
@@ -7706,11 +7702,11 @@
             "id": "boe-2001-938-rd",
             "incluido": "2019-12-28",
             "modificado": "",
-            "ámbito": "España",
+            "ámbito": "Ministerio de Educación",
             "origen": "BOE",
             "fecha": "2001-09-07",
             "vigencia": "derogado",
-            "descripción": "Currículo Bachillerato (LOGSE)",
+            "descripción": "Currículo Bachillerato (MEC, LOGSE)",
             "titulo": "Real Decreto 938/2001, de 3 de agosto, por el que se modifica el Real Decreto 1179/1992, de 2 de octubre, por el que se establece el currículo del Bachillerato.",
             "versiones": [
                 {
@@ -7731,7 +7727,7 @@
                 }
             ],
             "claves": [
-                "españa",
+                "ministerio de educación",
                 "real decreto",
                 "educación",
                 "bachillerato",
@@ -10158,7 +10154,7 @@
             "origen": "BOE",
             "fecha": "2007-08-23",
             "vigencia": "vigente",
-            "descripción": "Optativas en ESO",
+            "descripción": "Optativas en ESO (MEC)",
             "titulo": "Resolución de 3 de agosto de 2007, de la Secretaría General de Educación, por la que se organiza la oferta de materias optativas en la educación secundaria obligatoria.",
             "versiones": [
                 {
@@ -10179,9 +10175,8 @@
                 }
             ],
             "claves": [
-                "españa",
-                "resolución",
                 "ministerio de educación",
+                "resolución",
                 "educación",
                 "secundaria",
                 "ESO",
@@ -10189,14 +10184,14 @@
             ]
         },
         {
-            "id": "boe-2007-2572-res",
+            "id": "boe-2007-2572-o",
             "incluido": "2020-01-02",
             "modificado": "",
             "ámbito": "Ministerio de Educación",
             "origen": "BOE",
             "fecha": "2007-09-06",
             "vigencia": "vigente",
-            "descripción": "Optativas en ESO",
+            "descripción": "Evaluación en ESO (MEC)",
             "titulo": "Orden ECI/2572/2007, de 4 de septiembre, sobre evaluación en Educación secundaria obligatoria.",
             "versiones": [
                 {
@@ -10233,9 +10228,8 @@
                 }
             ],
             "claves": [
-                "españa",
-                "orden",
                 "ministerio de educación",
+                "orden",
                 "educación",
                 "secundaria",
                 "ESO",
@@ -11465,7 +11459,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "1992-01-03",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Convivencia en los centros (CV)",
             "titulo": "Decreto 246/1991, de 23 de diciembre, del Consell de la Generalitat Valenciana, sobre derechos y deberes de los alumnos de los centros docentes de niveles no universitarios de la Comunidad Valenciana.",
             "versiones": [
@@ -25635,41 +25629,6 @@
             ]
         },
         {
-            "id": "boe-2018-5-rdl",
-            "incluido": "2020-06-05",
-            "modificado": "",
-            "ámbito": "España",
-            "origen": "BOE",
-            "fecha": "2018-07-30",
-            "vigencia": "derogado",
-            "descripción": "Medidas urgentes adaptación a normativa europea protección de datos",
-            "titulo": "Real Decreto-ley 5/2018, de 27 de julio, de medidas urgentes para la adaptación del Derecho español a la normativa de la Unión Europea en materia de protección de datos.",
-            "versiones": [
-                {
-                    "versión": "original",
-                    "fecha": "2018-07-30",
-                    "enlaces": [
-                        {
-                            "formato": "pdf",
-                            "idioma": "es",
-                            "url": "boe/BOE-2018-5-RDL-adaptacion-temporal-proteccion-datos-europea.pdf"
-                        },
-                        {
-                            "formato": "web",
-                            "idioma": "es",
-                            "url": "https://www.boe.es/eli/es/rdl/2018/07/27/5"
-                        }
-                    ]
-                }
-            ],
-            "claves": [
-                "españa",
-                "real decreto",
-                "protección de datos",
-                "derechos digitales"
-            ]
-        },
-        {
             "id": "boe-2010-03-18-res",
             "incluido": "2020-06-05",
             "modificado": "",
@@ -26911,11 +26870,11 @@
             "id": "boe-1992-12-29-res",
             "incluido": "2020-07-03",
             "modificado": "",
-            "ámbito": "España",
+            "ámbito": "Ministerio de Educación",
             "origen": "BOE",
             "fecha": "1993-01-29",
             "vigencia": "derogado",
-            "descripción": "Currículo de optativas de Bachillerato (LOGSE)",
+            "descripción": "Currículo de optativas de Bachillerato (MEC, LOGSE)",
             "titulo": "Resolución de 29 de diciembre de 1992, de la Dirección General de Renovación Pedagógica, por la que se regula el currículo de las materias optativas de Bachillerato establecidas en la Orden de 12 de noviembre de 1992 de implantación anticipada del Bachillerato definido por la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.",
             "versiones": [
                 {
@@ -26936,11 +26895,1116 @@
                 }
             ],
             "claves": [
-                "españa",
+                "ministerio de educación",
                 "resolución",
                 "currículo",
                 "bachillerato",
                 "optativas"
+            ]
+        },
+        {
+            "id": "boe-2007-2220-o",
+            "incluido": "2020-07-05",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2007-07-21",
+            "vigencia": "vigente",
+            "descripción": "Currículo de ESO (MEC)",
+            "titulo": "Orden ECI/2220/2007, de 12 de julio, por la que se establece el currículo y se regula la ordenación de la Educación secundaria obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-07-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-2220-O-mec-curriculo-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2007/07/12/eci2220"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2015-09-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-2220-O-mec-curriculo-eso-consolidado-2015-07-09.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2007/07/12/eci2220/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "secundaria",
+                "ESO",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2015-1361-o",
+            "incluido": "2020-07-05",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2015-07-09",
+            "vigencia": "vigente",
+            "descripción": "Currículo de ESO y Bachillerato (MEC)",
+            "titulo": "Orden ECD/1361/2015, de 3 de julio, por la que se establece el currículo de Educación Secundaria Obligatoria y Bachillerato para el ámbito de gestión del Ministerio de Educación, Cultura y Deporte, y se regula su implantación, así como la evaluación continua y determinados aspectos organizativos de las etapas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-07-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-1361-O-mec-curriculo-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2015/07/03/ecd1361"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2016-07-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-1361-O-mec-curriculo-eso-bachillerato-2016-07-03.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2015/07/03/ecd1361/con"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2015-07-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-1361-O-mec-curriculo-eso-bachillerato-correccion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2015/07/03/ecd1361/corrigendum/20150721"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "dogv-2020-06-29-res",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-07-06",
+            "vigencia": "vigente",
+            "descripción": "Calendario de las pruebas para la obtención de títulos Formación Profesional 2019 (CV)",
+            "titulo": "Resolución de 29 de junio de 2020, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la cual se establece el calendario de realización de las pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-29-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/es/resultat-dogv?signatura=2020/5202&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/va/resultat-dogv?signatura=2020/5202&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-29-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-06-29-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2019/20"
+            ]
+        },
+        {
+            "id": "boe-2008-3725-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2008-12-22",
+            "vigencia": "derogado",
+            "descripción": "Evaluación en Bachillerato (MEC, LOE)",
+            "titulo": "Orden ESD/3725/2008, de 12 de diciembre, sobre evaluación en Bachillerato en el ámbito de gestión del Ministerio de Educación, Política Social y Deporte.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-12-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-3725-O-mec-evaluacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2008/12/12/esd3725"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-2012-334-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2012-02-25",
+            "vigencia": "derogado",
+            "descripción": "Evaluación en Bachillerato (MEC, LOE)",
+            "titulo": "Orden ECD/334/2012, de 15 de febrero, por la que se modifica la Orden ESD/3725/2008, de 12 de diciembre, sobre evaluación en Bachillerato en el ámbito de gestión del Departamento y se establece la distinción \"Matrícula de Honor\" en el segundo curso de bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-02-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2012-334-O-mec-evaluacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2012/02/15/ecd334"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-1992-11-12-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "1992-11-20",
+            "vigencia": "derogado",
+            "descripción": "Evaluación en Bachillerato (MEC, LOGSE)",
+            "titulo": "Orden de 12 de noviembre de 1992 por la que se regula la evaluación y la calificación de los alumnos que cursan el Bachillerato establecido en la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-11-12-O-mec-evaluacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1992/11/12/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-1988-1543-rd",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1988-12-26",
+            "vigencia": "derogado",
+            "descripción": "Derechos y deberes de los alumnos (LODE)",
+            "titulo": "Real Decreto 1543/1988, de 28 de octubre, sobre derechos y deberes de los alumnos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1988-12-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-1543-RD-derechos-deberes-alumnos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1988/10/28/1543"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "convivencia"
+            ]
+        },
+        {
+            "id": "boe-1995-732-rd",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1995-06-02",
+            "vigencia": "derogado",
+            "descripción": "Derechos y deberes de los alumnos (LOGSE)",
+            "titulo": "Real Decreto 732/1995, de 5 de mayo, por el que se establecen los derechos y deberes de los alumnos y las normas de convivencia en los centros.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-06-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-732-RD-derechos-deberes-alumnos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1995/05/05/732"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "convivencia"
+            ]
+        },
+        {
+            "id": "boe-1995-08-28-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "1995-09-20",
+            "vigencia": "derogado",
+            "descripción": "Derecho a evaluación objetiva (MEC, LOGSE)",
+            "titulo": "Orden de 28 de agosto de 1995 por la que se regula el procedimiento para garantizar el derecho de los alumnos de Educación Secundaria Obligatoria y de Bachillerato a que su rendimiento escolar sea evaluado conforme a criterios objetivos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-09-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-08-28-O-derecho-evaluacion-objetiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1995/08/28/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "real decreto",
+                "educación",
+                "convivencia"
+            ]
+        },
+        {
+            "id": "boe-2003-1688-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "1992-11-20",
+            "vigencia": "derogado",
+            "descripción": "Evaluación en Bachillerato (MEC, LOGSE)",
+            "titulo": "Orden ECD/1688/2003, de 19 de junio, por la que se modifica el cuadro de claves indicativas de las materias contenido en el anexo II de la Orden de 12 de noviembre de 1992, por la que se regula la evaluación y la calificación de los alumnos que cursan el Bachillerato establecido en la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, y se asignan nuevas claves indicativas a las materias de Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-1688-O-mec-evaluacion-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2003/06/19/ecd1688"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-2008-1729-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2008-06-18",
+            "vigencia": "derogado",
+            "descripción": "Currículo Bachillerato (MEC, LOE)",
+            "titulo": "Orden ESD/1729/2008, de 11 de junio, por la que se regula la ordenación y se establece el currículo del bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-06-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-1729-O-mec-curriculo-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2008/06/11/esd1729"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2008-12-10-res",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2008-12-27",
+            "vigencia": "derogado",
+            "descripción": "Materias optativas de Bachillerato (MEC, LOE)",
+            "titulo": "Resolución de 10 de diciembre de 2008, de la Secretaría de Estado de Educación y Formación, por la que se publica el anexo V de la de 25 de agosto de 2008, por la que se organiza la oferta de materias optativas en el Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-12-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-12-10-RES-mec-optativas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2008/12/10/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "bachillerato",
+                "optativas"
+            ]
+        },
+        {
+            "id": "boe-2008-08-25-res",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2008-09-11",
+            "vigencia": "derogado",
+            "descripción": "Materias optativas de Bachillerato (MEC, LOE)",
+            "titulo": "Resolución de 25 de agosto de 2008, de la Secretaría de Estado de Educación y Formación, por la que se organiza la oferta de materias optativas en el Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-09-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2008-08-25-RES-mec-optativas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2008/08/25/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "bachillerato",
+                "optativas"
+            ]
+        },
+        {
+            "id": "boe-1991-986-rd",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1991-06-25",
+            "vigencia": "derogado",
+            "descripción": "Calendario implantación LOGSE",
+            "titulo": "Real Decreto 986/1991, de 14 de junio, por el que se aprueba el calendario de aplicación de la nueva ordenación del sistema educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1991-06-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-986-RD-calendario-aplicacion-logse.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1991/06/14/986"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2003-06-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1991-986-RD-calendario-aplicacion-logse-consolidado-2003-06-28.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1991/06/14/986/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "calendario aplicación",
+                "logse"
+            ]
+        },
+        {
+            "id": "boe-1992-10-30-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1992-11-11",
+            "vigencia": "derogado",
+            "descripción": "Informes de evaluación (LOGSE)",
+            "titulo": "Orden de 30 de octubre de 1992 por la que se establecen los elementos básicos de los informes de evaluación de las enseñanzas de Régimen General reguladas por la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, así como los requisitos formales derivados del proceso de evaluación, que son precisos para garantizar la movilidad de los alumnos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-11-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-10-30-O-informes-evaluacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1992/10/30/(3)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "evaluación",
+                "logse"
+            ]
+        },
+        {
+            "id": "boe-2003-1923-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-07-11",
+            "vigencia": "derogado",
+            "descripción": "Informes de evaluación (LOCE)",
+            "titulo": "Orden ECD/1923/2003, de 8 de julio, por la que se establecen los elementos básicos de los documentos de evaluación, de las enseñanzas escolares de régimen general reguladas por la Ley Orgánica 10/2002, de 23 de diciembre, de Calidad de la Educación, así como los requisitos formales derivados del proceso de evaluación que son precisos para garantizar la movilidad de los alumnos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-07-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-1923-O-documentos-evaluacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2003/07/08/ecd1923"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2003-08-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-1923-O-documentos-evaluacion-correccion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2003/07/08/ecd1923/corrigendum/20030808"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "evaluación",
+                "loce"
+            ]
+        },
+        {
+            "id": "boe-2007-1845-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-06-22",
+            "vigencia": "vigente",
+            "descripción": "Informes de evaluación (LOCE)",
+            "titulo": "Orden ECI/1845/2007, de 19 de junio, por la que se establecen los elementos de los documentos básicos de evaluación de la educación básica regulada por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, así como los requisitos formales derivados del proceso de evaluación que son precisos para garantizar la movilidad del alumnado.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-06-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1845-O-documentos-evaluacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2007/06/19/eci1845"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2012-09-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1845-O-documentos-evaluacion-consolidado-2012-09-24.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2007/06/19/eci1845/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "evaluación",
+                "loce"
+            ]
+        },
+        {
+            "id": "boe-1993-929-rd",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "1993-07-13",
+            "vigencia": "derogado",
+            "descripción": "Reglamento orgánico Institutos de Secundaria (MEC, LOGSE)",
+            "titulo": "Real Decreto 929/1993, de 18 de junio, por el que se aprueba el Reglamento orgánico de los institutos de educación secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1993-07-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1993-929-RD-reglamento-organico-ies.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1993/06/18/929"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "real decreto",
+                "educación",
+                "reglamento orgánico ies",
+                "logse"
+            ]
+        },
+        {
+            "id": "boe-1996-83-rd",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "1996-02-21",
+            "vigencia": "vigente",
+            "descripción": "Reglamento orgánico Institutos de Secundaria (MEC, LOPEG)",
+            "titulo": "Real Decreto 83/1996, de 26 de enero, por el que se aprueba el Reglamento orgánico de los institutos de educación secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1996-02-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1996-83-RD-reglamento-organico-ies.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1996/01/26/83"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "real decreto",
+                "educación",
+                "reglamento orgánico ies",
+                "lopeg"
+            ]
+        },
+        {
+            "id": "boe-1994-06-29-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "1994-07-05",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones funcionamiento Institutos de Secundaria (MEC, LOGSE)",
+            "titulo": "Orden de 29 de junio de 1994 por la que se aprueban las instrucciones que regulan la organización y funcionamiento de los institutos de Educación Secundaria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-07-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-06-29-O-instrucciones-funcionamiento-ies.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1994/06/29/(1)"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2003-12-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-06-29-O-instrucciones-funcionamiento-ies-consolidado-2003-12-05.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1994/06/29/(1)/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "instrucciones funcionamiento ies",
+                "logse"
+            ]
+        },
+        {
+            "id": "boe-2004-117-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2004-02-18",
+            "vigencia": "derogado",
+            "descripción": "Currículo Bachillerato (MEC, LOCE)",
+            "titulo": "Real Decreto 117/2004, de 23 de enero, por el que se desarrolla la ordenación y se establece el currículo del Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-02-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-117-O-mec-curriculo-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/01/23/117"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2002-2026-o",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2002-08-09",
+            "vigencia": "derogado",
+            "descripción": "Instrucciones para la aplicación del Currículo Bachillerato (MEC, LOE)",
+            "titulo": "Orden ECD/2026/2002, de 1 de agosto, por la que se dictan instrucciones para la aplicación, en el ámbito de gestión directa del Ministerio de Educación, Cultura y Deporte, del Real Decreto 1179/1992, de 2 de octubre, por el que se establece el currículo del Bachillerato, modificado por el Real Decreto 938/2001, de 3 de agosto.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-08-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2002-2026-O-mec-instrucciones-curriculo-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2002/08/01/ecd2026"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "educación",
+                "bachillerato",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1992-06-10-res",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "1992-06-19",
+            "vigencia": "derogado",
+            "descripción": "Optativas ESO (MEC, LOGSE)",
+            "titulo": "Resolución de 10 de junio de 1992, de la Dirección General de Renovación Pedagógica, por la que se aprueban materias optativas para su Impartición en la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1992-06-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-06-10-RES-mec-optativas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/1992/06/10/(1)"
+                        }
+                    ]
+                },
+                {
+                    "versión": "suplemento",
+                    "fecha": "1992-06-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1992-06-10-RES-mec-optativas-eso-suplemento.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/1992/06/10/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "resolución",
+                "educación",
+                "eso",
+                "optativas",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-1993-535-rd",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1993-05-04",
+            "vigencia": "derogado",
+            "descripción": "Calendario implantación LOGSE",
+            "titulo": "Real Decreto 535/1993, de 12 de abril, por el que se modifica y completa el Real Decreto 986/1991, de 14 de junio, por el que se aprueba el calendario de aplicación de la nueva Ordenación del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1993-05-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1993-535-RD-calendario-aplicacion-logse.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1993/04/12/535"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "calendario aplicación",
+                "logse"
+            ]
+        },
+        {
+            "id": "boe-1994-1487-rd",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-07-28",
+            "vigencia": "derogado",
+            "descripción": "Calendario implantación LOGSE",
+            "titulo": "Real Decreto 1487/1994, de 1 de julio, por el que se modifica y completa el Real Decreto 986/1991, de 14 de junio, por el que se aprueba el calendario de aplicación de la nueva ordenación del sistema educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-07-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-1487-RD-calendario-aplicacion-logse.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1994/07/01/1487"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "calendario aplicación",
+                "logse"
+            ]
+        },
+        {
+            "id": "boe-2003-209-rd",
+            "incluido": "2020-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-02-28",
+            "vigencia": "vigente",
+            "descripción": "Registros y notificaciones telemáticas",
+            "titulo": "Real Decreto 209/2003, de 21 de febrero, por el que se regulan los registros y las notificaciones telemáticas, así como la utilización de medios telemáticos para la sustitución de la aportación de certificados por los ciudadanos. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-02-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-2099-RD-registros-notificaciones-telematicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/02/21/209"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2005-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-2099-RD-registros-notificaciones-telematicas-consolidado-2005-05-28.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/02/21/209/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "administración electrónica"
             ]
         }
     ]

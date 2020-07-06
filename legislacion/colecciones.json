@@ -115,7 +115,6 @@
                                 "referencias": [
                                     "boe-1985-8-lo",
                                     "boe-2006-2-lo",
-                                    "boe-2006-806-rd",
                                     "boe-2011-2-l",
                                     "boe-2011-4-lo",
                                     "boe-2013-8-lo"
@@ -312,8 +311,9 @@
                                 "titulo": "Otras",
                                 "referencias": [
                                     "boe-1998-02-23-o",
+                                    "boe-2006-806-rd",
                                     "boe-2007-276-rd",
-                                    "boe-2008-944-o",
+                                    "boe-2007-1845-o",
                                     "boe-2008-1834-rd",
                                     "boe-2010-132-rd",
                                     "boe-2014-412-rd",
@@ -346,8 +346,13 @@
                             "apartado": {
                                 "titulo": "Otros",
                                 "referencias": [
+                                    "boe-1994-06-29-o",
+                                    "boe-1996-83-rd",
+                                    "boe-2007-2220-o",
                                     "boe-2007-08-03-res",
-                                    "boe-2007-2572-res"
+                                    "boe-2007-2572-o",
+                                    "boe-2008-944-o",
+                                    "boe-2015-1361-o"
                                 ]
                             }
                         }
@@ -399,7 +404,8 @@
                                     "dogv-2019-07-08-1-res",
                                     "dogv-2019-07-08-2-res",
                                     "dogv-2019-07-05-res",
-                                    "dogv-2019-10-15-res"
+                                    "dogv-2019-10-15-res",
+                                    "dogv-2020-06-29-res"
                                 ]
                             }
                         },
@@ -606,6 +612,7 @@
                                     "boe-2003-827-rd",
                                     "boe-2003-831-rd",
                                     "boe-2003-832-rd",
+                                    "boe-2003-1923-o",
                                     "boe-2003-942-rd",
                                     "boe-2004-118-rd",
                                     "boe-2004-334-rd",
@@ -626,21 +633,31 @@
                                 "titulo": "Ley Orgánica de Ordenación General del Sistema Educativo (LOGSE, 1990)",
                                 "referencias": [
                                     "boe-1990-1-lo",
+                                    "boe-1991-986-rd",
                                     "boe-1991-1004-rd",
                                     "boe-1991-1007-rd",
                                     "boe-1991-1345-rd",
                                     "boe-1991-1700-rd",
                                     "boe-1992-1178-rd",
-                                    "boe-1992-1179-rd",
-                                    "boe-1992-12-29-res",
+                                    "boe-1992-10-30-o",
+                                    "boe-1993-535-rd",
                                     "boe-1993-850-rd",
+                                    "boe-1994-1487-rd",
+                                    "boe-1995-732-rd",
                                     "boe-1995-894-rd",
                                     "boe-1995-1390-rd",
                                     "boe-1995-1692-rd",
                                     "boe-2000-3473-rd",
                                     "boe-2000-3474-rd",
-                                    "boe-2001-937-rd",
-                                    "boe-2001-938-rd"
+                                    "boe-2001-937-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica reguladora del Derecho a la Educación (LODE, 1985)",
+                                "referencias": [
+                                    "boe-1988-1543-rd"
                                 ]
                             }
                         },
@@ -751,8 +768,7 @@
                                     "boe-2007-395-rd",
                                     "celex-2008-04-23-rec",
                                     "boe-2008-1892-rd",
-                                    "boe-2012-14-rdl",
-                                    "boe-2018-5-rdl"
+                                    "boe-2012-14-rdl"
                                 ]
                             }
                         },
@@ -1092,6 +1108,50 @@
                     ]
                 },
                 {
+                    "nombre": "listados/educativa-derogada-es-min.html",
+                    "titulo": "Legislación educativa - Territorio MEC - Derogada",
+                    "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la educación y publicadas en el Boletín Oficial del Estado de España y con vigor en aquellos territorios sin competencias autonómicas en Educación (el llamado <i>territorio MEC</i>).",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Educación (LOE, 2006)",
+                                "referencias": [
+                                    "boe-2008-1729-o",
+                                    "boe-2008-08-25-res",
+                                    "boe-2008-12-10-res",
+                                    "boe-2008-3725-o",
+                                    "boe-2012-334-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Calidad de la Educación (LOCE, 2002)",
+                                "referencias": [
+                                    "boe-2004-117-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Ordenación General del Sistema Educativo (LOGSE, 1990)",
+                                "referencias": [
+                                    "boe-1992-06-10-res",
+                                    "boe-1992-1179-rd",
+                                    "boe-1992-11-12-o",
+                                    "boe-1992-12-29-res",
+                                    "boe-1993-929-rd",
+                                    "boe-1995-08-28-o",
+                                    "boe-2001-938-rd",
+                                    "boe-2002-2026-o",
+                                    "boe-2003-1688-o"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
                     "nombre": "listados/otras.html",
                     "titulo": "Legislación informática - Otras normas",
                     "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la informática (pero no con la enseñanza de la informática) publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
@@ -1243,6 +1303,14 @@
                                     "boe-1999-14-rdl",
                                     "boe-2003-59-l",
                                     "celex-2014-910-reg"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Administración electrónica",
+                                "referencias": [
+                                    "boe-2003-209-rd"
                                 ]
                             }
                         },
