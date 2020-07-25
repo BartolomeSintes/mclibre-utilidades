@@ -4071,6 +4071,17 @@
       "creado": "2020-06-20"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 33,
+      "año": 2020,
+      "mes": 8,
+      "portada": "hackspace-33-en-202008.jpg",
+      "fichero": "hackspace-33-en-202008.pdf",
+      "idioma": "inglés",
+      "creado": "2020-07-25"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -7358,6 +7369,17 @@
       "fichero": "odroid-78-en-202006.pdf",
       "idioma": "inglés",
       "creado": "2020-06-13"
+    },
+    {
+      "serie": "ODROID Magazine",
+      "nombre": "ODROID Magazine",
+      "número": 79,
+      "año": 2020,
+      "mes": 7,
+      "portada": "odroid-79-en-202007.jpg",
+      "fichero": "odroid-79-en-202007.pdf",
+      "idioma": "inglés",
+      "creado": "2020-07-25"
     },
     {
       "serie": "Olympiads in informatics",
