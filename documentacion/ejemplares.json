@@ -3268,6 +3268,17 @@
       "creado": "2020-06-27"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 159,
+      "año": 2020,
+      "mes": 7,
+      "portada": "full-circle-159-en-202007.jpg",
+      "fichero": "full-circle-159-en-202007.pdf",
+      "idioma": "inglés",
+      "creado": "2020-08-02"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -8449,6 +8460,17 @@
       "creado": "2020-07-04"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 18,
+      "año": 2020,
+      "mes": 7,
+      "portada": "solo-linux-18-es-202007.jpg",
+      "fichero": "solo-linux-18-es-202007.pdf",
+      "idioma": "español",
+      "creado": "2020-08-02"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -9536,6 +9558,17 @@
       "fichero": "the-magpi-95-en-202007.pdf",
       "idioma": "inglés",
       "creado": "2020-06-27"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 96,
+      "año": 2020,
+      "mes": 8,
+      "portada": "the-magpi-96-en-202008.jpg",
+      "fichero": "the-magpi-96-en-202008.pdf",
+      "idioma": "inglés",
+      "creado": "2020-08-02"
     },
     {
       "serie": "The MagPi Books",
