@@ -7558,6 +7558,17 @@
       "creado": "2019-09-08"
     },
     {
+      "serie": "Olympiads in informatics",
+      "nombre": "Olympiads in informatics",
+      "número": 14,
+      "año": 2020,
+      "mes": 8,
+      "portada": "olympiads-in-informatics-14-en-202008.jpg",
+      "fichero": "olympiads-in-informatics-14-en-202008.pdf",
+      "idioma": "inglés",
+      "creado": "2020-08-08"
+    },
+    {
       "serie": "Open Source Yearbook",
       "nombre": "Open Source Yearbook",
       "número": "Año 2015",
@@ -11639,6 +11650,17 @@
       "creado": "2020-07-04"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 163,
+      "año": 2020,
+      "mes": 8,
+      "portada": "pclinuxos-163-en-202008.jpg",
+      "fichero": "pclinuxos-163-en-202008.pdf",
+      "idioma": "inglés",
+      "creado": "2020-08-08"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -12319,6 +12341,17 @@
       "fichero": "wireframe-40-en-202007.pdf",
       "idioma": "inglés",
       "creado": "2020-07-04"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 41,
+      "año": 2020,
+      "mes": 8,
+      "portada": "wireframe-41-en-202008.jpg",
+      "fichero": "wireframe-41-en-202008.pdf",
+      "idioma": "inglés",
+      "creado": "2020-08-08"
     },
     {
       "serie": "Wireframe Books",
