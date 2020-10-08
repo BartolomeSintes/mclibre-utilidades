@@ -4335,6 +4335,17 @@
       "creado": "2020-06-13"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 14,
+      "año": 2020,
+      "mes": 9,
+      "portada": "hello-world-14-en-202009.jpg",
+      "fichero": "hello-world-14-en-202009.pdf",
+      "idioma": "inglés",
+      "creado": "2020-10-08"
+    },
+    {
       "serie": "(In)secure Magazine",
       "nombre": "(In)secure Magazine",
       "número": 1,
@@ -8548,6 +8559,17 @@
       "creado": "2020-09-18"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 20,
+      "año": 2020,
+      "mes": 9,
+      "portada": "solo-linux-20-es-202009.jpg",
+      "fichero": "solo-linux-20-es-202009.pdf",
+      "idioma": "español",
+      "creado": "2020-10-08"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -11760,6 +11782,17 @@
       "creado": "2020-09-18"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 165,
+      "año": 2020,
+      "mes": 10,
+      "portada": "pclinuxos-165-en-202010.jpg",
+      "fichero": "pclinuxos-165-en-202010.pdf",
+      "idioma": "inglés",
+      "creado": "2020-10-08"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -12000,6 +12033,17 @@
       "fichero": "the-r-journal-22-en-201912.pdf",
       "idioma": "inglés",
       "creado": "2020-06-06"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 12 nº 1",
+      "año": 2020,
+      "mes": 6,
+      "portada": "the-r-journal-23-en-202006.jpg",
+      "fichero": "the-r-journal-23-en-202006.pdf",
+      "idioma": "inglés",
+      "creado": "2020-10-08"
     },
     {
       "serie": "Wireframe",
@@ -12462,6 +12506,17 @@
       "fichero": "wireframe-42-en-202009.pdf",
       "idioma": "inglés",
       "creado": "2020-09-18"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 43,
+      "año": 2020,
+      "mes": 10,
+      "portada": "wireframe-43-en-202010.jpg",
+      "fichero": "wireframe-43-en-202010.pdf",
+      "idioma": "inglés",
+      "creado": "2020-10-08"
     },
     {
       "serie": "Wireframe Books",
