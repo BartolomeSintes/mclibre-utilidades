@@ -3312,6 +3312,17 @@
       "creado": "2020-09-26"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 162,
+      "año": 2020,
+      "mes": 10,
+      "portada": "full-circle-162-en-202010.jpg",
+      "fichero": "full-circle-162-en-202010.pdf",
+      "idioma": "inglés",
+      "creado": "2020-10-31"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -9703,6 +9714,17 @@
       "creado": "2020-09-26"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 99,
+      "año": 2020,
+      "mes": 11,
+      "portada": "the-magpi-99-en-202011.jpg",
+      "fichero": "the-magpi-99-en-202011.pdf",
+      "idioma": "inglés",
+      "creado": "2020-10-31"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -9998,6 +10020,17 @@
       "fichero": "raspberry-py-camera-guide-en-2020-04.pdf",
       "idioma": "inglés",
       "creado": "2020-05-02"
+    },
+    {
+      "serie": "The MagPi Books",
+      "nombre": "Create Graphical User Interfaces with Python",
+      "número": 1,
+      "año": 2020,
+      "mes": 10,
+      "portada": "create-graphical-user-interfaces-with-python-en-202010.jpg",
+      "fichero": "create-graphical-user-interfaces-with-python-en-202010.pdf",
+      "idioma": "inglés",
+      "creado": "2020-10-31"
     },
     {
       "serie": "The PCLinuxOS Magazine",
