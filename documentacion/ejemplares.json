@@ -5184,6 +5184,17 @@
     {
       "serie": "(In)secure Magazine",
       "nombre": "(In)secure Magazine",
+      "número": 67,
+      "año": 2020,
+      "mes": 11,
+      "portada": "insecure-67-en-202011.jpg",
+      "fichero": "insecure-67-en-202011.pdf",
+      "idioma": "inglés",
+      "creado": "2020-11-14"
+    },
+    {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
       "número": "especial",
       "año": 2020,
       "mes": 3,
