@@ -3323,6 +3323,17 @@
       "creado": "2020-10-31"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 163,
+      "año": 2020,
+      "mes": 11,
+      "portada": "full-circle-163-en-202011.jpg",
+      "fichero": "full-circle-163-en-202011.pdf",
+      "idioma": "inglés",
+      "creado": "2020-11-28"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -9758,6 +9769,17 @@
       "creado": "2020-10-31"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 100,
+      "año": 2020,
+      "mes": 12,
+      "portada": "the-magpi-100-en-202012.jpg",
+      "fichero": "the-magpi-100-en-202012.pdf",
+      "idioma": "inglés",
+      "creado": "2020-11-28"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -9913,34 +9935,34 @@
     },
     {
       "serie": "The MagPi Books",
-      "nombre": "Raspberry Py Beginners Book",
+      "nombre": "Raspberry Pi Beginners Book",
       "número": "1º ed.",
       "año": 2017,
       "mes": 12,
-      "portada": "raspberry-py-beginners-book-1-en-201712.jpg",
-      "fichero": "raspberry-py-beginners-book-1-en-201712.pdf",
+      "portada": "raspberry-pi-beginners-book-1-en-201712.jpg",
+      "fichero": "raspberry-pi-beginners-book-1-en-201712.pdf",
       "idioma": "inglés",
       "creado": "2018-01-02"
     },
     {
       "serie": "The MagPi Books",
-      "nombre": "Raspberry Py Beginners Book",
+      "nombre": "Raspberry Pi Beginners Book",
       "número": "2º ed.",
       "año": 2019,
       "mes": 7,
-      "portada": "raspberry-py-beginners-book-2-en-201907.jpg",
-      "fichero": "raspberry-py-beginners-book-2-en-201907.pdf",
+      "portada": "raspberry-pi-beginners-book-2-en-201907.jpg",
+      "fichero": "raspberry-pi-beginners-book-2-en-201907.pdf",
       "idioma": "inglés",
       "creado": "2019-07-04"
     },
     {
       "serie": "The MagPi Books",
-      "nombre": "Raspberry Py Annual 2018",
+      "nombre": "Raspberry Pi Annual 2018",
       "número": "",
       "año": 2018,
       "mes": 1,
-      "portada": "raspberry-py-annual-2018-en-201801.jpg",
-      "fichero": "raspberry-py-annual-2018-en-201801.pdf",
+      "portada": "raspberry-pi-annual-2018-en-201801.jpg",
+      "fichero": "raspberry-pi-annual-2018-en-201801.pdf",
       "idioma": "inglés",
       "creado": "2018-01-02"
     },
@@ -9961,8 +9983,8 @@
       "número": "",
       "año": 2018,
       "mes": 12,
-      "portada": "raspberry-py-beginners-guide-1-en-201812.jpg",
-      "fichero": "raspberry-py-beginners-guide-1-en-201812.pdf",
+      "portada": "raspberry-pi-beginners-guide-1-en-201812.jpg",
+      "fichero": "raspberry-pi-beginners-guide-1-en-201812.pdf",
       "idioma": "inglés",
       "creado": "2018-12-08"
     },
@@ -9994,8 +10016,8 @@
       "número": "",
       "año": 2019,
       "mes": 4,
-      "portada": "raspberry-py-c-gui-programming-en-201904.jpg",
-      "fichero": "raspberry-py-c-gui-programming-en-201904.pdf",
+      "portada": "raspberry-pi-c-gui-programming-en-201904.jpg",
+      "fichero": "raspberry-pi-c-gui-programming-en-201904.pdf",
       "idioma": "inglés",
       "creado": "2019-05-01"
     },
@@ -10005,8 +10027,8 @@
       "número": 3,
       "año": 2019,
       "mes": 11,
-      "portada": "raspberry-py-beginners-book-3-en-201911.jpg",
-      "fichero": "raspberry-py-beginners-book-3-en-201911.pdf",
+      "portada": "raspberry-pi-beginners-book-3-en-201911.jpg",
+      "fichero": "raspberry-pi-beginners-book-3-en-201911.pdf",
       "idioma": "inglés",
       "creado": "2019-12-01"
     },
@@ -10016,8 +10038,8 @@
       "número": 1,
       "año": 2019,
       "mes": 11,
-      "portada": "raspberry-py-get-started-with-01-en-201911.jpg",
-      "fichero": "raspberry-py-get-started-with-01-en-201911.pdf",
+      "portada": "raspberry-pi-get-started-with-01-en-201911.jpg",
+      "fichero": "raspberry-pi-get-started-with-01-en-201911.pdf",
       "idioma": "inglés",
       "creado": "2019-12-01"
     },
@@ -10027,8 +10049,8 @@
       "número": 1,
       "año": 2019,
       "mes": 11,
-      "portada": "raspberry-py-retro-gaming-01-en-201911.jpg",
-      "fichero": "raspberry-py-retro-gaming-01-en-201911.pdf",
+      "portada": "raspberry-pi-retro-gaming-01-en-201911.jpg",
+      "fichero": "raspberry-pi-retro-gaming-01-en-201911.pdf",
       "idioma": "inglés",
       "creado": "2019-12-01"
     },
@@ -10049,8 +10071,8 @@
       "número": 1,
       "año": 2020,
       "mes": 4,
-      "portada": "raspberry-py-camera-guide-en-2020-04.jpg",
-      "fichero": "raspberry-py-camera-guide-en-2020-04.pdf",
+      "portada": "raspberry-pi-camera-guide-en-2020-04.jpg",
+      "fichero": "raspberry-pi-camera-guide-en-2020-04.pdf",
       "idioma": "inglés",
       "creado": "2020-05-02"
     },
@@ -10071,10 +10093,21 @@
       "número": 4,
       "año": 2020,
       "mes": 11,
-      "portada": "raspberry-py-beginners-book-4-en-202011.jpg",
-      "fichero": "raspberry-py-beginners-book-4-en-202011.pdf",
+      "portada": "raspberry-pi-beginners-book-4-en-202011.jpg",
+      "fichero": "raspberry-pi-beginners-book-4-en-202011.pdf",
       "idioma": "inglés",
       "creado": "2020-11-06"
+    },
+    {
+      "serie": "The MagPi Books",
+      "nombre": "Raspberry Pi Handbook 2021",
+      "número": 1,
+      "año": 2020,
+      "mes": 11,
+      "portada": "raspberry-pi-handbook-2021-202011.jpg",
+      "fichero": "raspberry-pi-handbook-2021-202011.pdf",
+      "idioma": "inglés",
+      "creado": "2020-11-28"
     },
     {
       "serie": "The PCLinuxOS Magazine",
