@@ -672,6 +672,17 @@
       "creado": "2020-07-10"
     },
     {
+      "serie": "Bits de Ciencia",
+      "nombre": "Bits de Ciencia",
+      "número": 20,
+      "año": 2020,
+      "mes": "S2",
+      "portada": "bits-de-ciencia-20-es-2020s2.jpg",
+      "fichero": "bits-de-ciencia-20-es-2020s2.pdf",
+      "idioma": "español",
+      "creado": "2020-12-05"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -8636,6 +8647,17 @@
       "creado": "2020-11-06"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 22,
+      "año": 2020,
+      "mes": 11,
+      "portada": "solo-linux-22-es-202011.jpg",
+      "fichero": "solo-linux-22-es-202011.pdf",
+      "idioma": "español",
+      "creado": "2020-12-05"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -11925,6 +11947,17 @@
       "creado": "2020-11-06"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 167,
+      "año": 2020,
+      "mes": 12,
+      "portada": "pclinuxos-167-en-202012.jpg",
+      "fichero": "pclinuxos-167-en-202012.pdf",
+      "idioma": "inglés",
+      "creado": "2020-12-05"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -12660,6 +12693,17 @@
       "fichero": "wireframe-44-en-202011.pdf",
       "idioma": "inglés",
       "creado": "2020-11-06"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 45,
+      "año": 2020,
+      "mes": 12,
+      "portada": "wireframe-45-en-202012.jpg",
+      "fichero": "wireframe-45-en-202012.pdf",
+      "idioma": "inglés",
+      "creado": "2020-12-05"
     },
     {
       "serie": "Wireframe Books",
