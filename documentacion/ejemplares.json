@@ -4203,6 +4203,17 @@
       "creado": "2020-11-21"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 38,
+      "año": 2021,
+      "mes": 1,
+      "portada": "hackspace-38-en-202101.jpg",
+      "fichero": "hackspace-38-en-202101.pdf",
+      "idioma": "inglés",
+      "creado": "2020-12-12"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -12707,7 +12718,7 @@
     },
     {
       "serie": "Wireframe Books",
-      "nombre": "Wireframe Books",
+      "nombre": "Code the Classics – Volume 1 ",
       "número": 1,
       "año": 2019,
       "mes": 12,
@@ -12718,14 +12729,25 @@
     },
     {
       "serie": "Wireframe Books",
-      "nombre": "Wireframe Books",
-      "número": 2,
+      "nombre": "Build Your Own First-Person Shooter in Unity",
+      "número": 1,
       "año": 2020,
       "mes": 1,
       "portada": "wireframe-books-build-your-own-first-person-shooter-en-202001.jpg",
       "fichero": "wireframe-books-build-your-own-first-person-shooter-en-202001.pdf",
       "idioma": "inglés",
       "creado": "2020-02-15"
+    },
+    {
+      "serie": "Wireframe Books",
+      "nombre": "Help! My Computer is Broken",
+      "número": 1,
+      "año": 2020,
+      "mes": 12,
+      "portada": "wireframe-books-help-my-computer-is-broken-en-202012.jpg",
+      "fichero": "wireframe-books-help-my-computer-is-broken-en-202012.pdf",
+      "idioma": "inglés",
+      "creado": "2020-12-12"
     },
     {
       "serie": "ALT Magazine",
