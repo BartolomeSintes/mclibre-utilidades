@@ -705,6 +705,17 @@
       "creado": "2019-07-15"
     },
     {
+      "serie": "DING",
+      "nombre": "DING",
+      "número": 3,
+      "año": 2020,
+      "mes": 12,
+      "portada": "ding-3-en-202012.jpg",
+      "fichero": "ding-3-en-202012.pdf",
+      "idioma": "inglés",
+      "creado": "2020-12-19"
+    },
+    {
       "serie": "Edutec",
       "nombre": "Edutec",
       "número": 0,
@@ -9811,6 +9822,17 @@
       "fichero": "the-magpi-100-en-202012.pdf",
       "idioma": "inglés",
       "creado": "2020-11-28"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 101,
+      "año": 2021,
+      "mes": 1,
+      "portada": "the-magpi-101-en-202101.jpg",
+      "fichero": "the-magpi-101-en-202101.pdf",
+      "idioma": "inglés",
+      "creado": "2020-12-19"
     },
     {
       "serie": "The MagPi Books",
