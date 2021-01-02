@@ -8702,6 +8702,17 @@
       "creado": "2020-12-05"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 23,
+      "año": 2020,
+      "mes": 12,
+      "portada": "solo-linux-23-es-202012.jpg",
+      "fichero": "solo-linux-23-es-202012.pdf",
+      "idioma": "español",
+      "creado": "2021-01-02"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
