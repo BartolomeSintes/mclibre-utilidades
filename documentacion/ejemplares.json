@@ -5435,6 +5435,17 @@
       "creado": "2020-02-28"
     },
     {
+      "serie": "JOLTS",
+      "nombre": "The Journal of Open Law, Technology & Society",
+      "número": "vol 12 nº 1",
+      "año": 2021,
+      "mes": 1,
+      "portada": "jolts-12-1-en-202101.jpg",
+      "fichero": "jolts-12-1-en-202101.pdf",
+      "idioma": "inglés",
+      "creado": "2021-01-10"
+    },
+    {
       "serie": "Linux Voice",
       "nombre": "Linux Voice",
       "número": 1,
@@ -12024,6 +12035,17 @@
       "creado": "2020-12-05"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 168,
+      "año": 2021,
+      "mes": 1,
+      "portada": "pclinuxos-168-en-202101.jpg",
+      "fichero": "pclinuxos-168-en-202101.pdf",
+      "idioma": "inglés",
+      "creado": "2021-01-10"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -12770,6 +12792,17 @@
       "fichero": "wireframe-45-en-202012.pdf",
       "idioma": "inglés",
       "creado": "2020-12-05"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 46,
+      "año": 2021,
+      "mes": 1,
+      "portada": "wireframe-46-en-202101.jpg",
+      "fichero": "wireframe-46-en-202101.pdf",
+      "idioma": "inglés",
+      "creado": "2021-01-10"
     },
     {
       "serie": "Wireframe Books",
