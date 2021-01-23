@@ -4247,6 +4247,17 @@
       "creado": "2020-12-12"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 39,
+      "año": 2021,
+      "mes": 2,
+      "portada": "hackspace-39-en-202102.jpg",
+      "fichero": "hackspace-39-en-202102.pdf",
+      "idioma": "inglés",
+      "creado": "2021-01-22"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -4289,6 +4300,17 @@
       "fichero": "hackspace-book-of-making-02-en-201912.pdf",
       "idioma": "inglés",
       "creado": "2020-02-22"
+    },
+    {
+      "serie": "HackSpace Books",
+      "nombre": "Get Started with MicroPython on Raspberry Pi Pico",
+      "número": 1,
+      "año": 2021,
+      "mes": 1,
+      "portada": "hackspace-get-started-with-micropython-on-pico-01-202101.jpg",
+      "fichero": "hackspace-get-started-with-micropython-on-pico-01-202101.pdf",
+      "idioma": "inglés",
+      "creado": "2021-01-22"
     },
     {
       "serie": "Hello World",
