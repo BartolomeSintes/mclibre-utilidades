@@ -5908,6 +5908,17 @@
       "creado": "2017-04-12"
     },
     {
+      "serie": "Occam's Razor",
+      "nombre": "Occam's Razor",
+      "número": "2ª época nº 4",
+      "año": 2019,
+      "mes": 2,
+      "portada": "occams-razor-2-4-es-201902.jpg",
+      "fichero": "occams-razor-2-4-es-201902.pdf",
+      "idioma": "español",
+      "creado": "2021-02-06"
+    },
+    {
       "serie": "ODROID Magazine",
       "nombre": "ODROID Magazine",
       "número": 1,
@@ -8755,6 +8766,17 @@
       "fichero": "solo-linux-23-es-202012.pdf",
       "idioma": "español",
       "creado": "2021-01-02"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 24,
+      "año": 2021,
+      "mes": 1,
+      "portada": "solo-linux-24-es-202101.jpg",
+      "fichero": "solo-linux-24-es-202101.pdf",
+      "idioma": "español",
+      "creado": "2021-02-06"
     },
     {
       "serie": "Solo WordPress",
@@ -12090,6 +12112,17 @@
       "creado": "2021-01-10"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 169,
+      "año": 2021,
+      "mes": 2,
+      "portada": "pclinuxos-169-en-202102.jpg",
+      "fichero": "pclinuxos-169-en-202102.pdf",
+      "idioma": "inglés",
+      "creado": "2021-02-06"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -12847,6 +12880,17 @@
       "fichero": "wireframe-46-en-202101.pdf",
       "idioma": "inglés",
       "creado": "2021-01-10"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 47,
+      "año": 2021,
+      "mes": 2,
+      "portada": "wireframe-47-en-202102.jpg",
+      "fichero": "wireframe-47-en-202102.pdf",
+      "idioma": "inglés",
+      "creado": "2021-02-06"
     },
     {
       "serie": "Wireframe Books",
