@@ -3389,6 +3389,17 @@
       "creado": "2021-01-30"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 166,
+      "año": 2021,
+      "mes": 2,
+      "portada": "full-circle-166-en-202102.jpg",
+      "fichero": "full-circle-166-en-202102.pdf",
+      "idioma": "inglés",
+      "creado": "2021-03-01"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -4487,6 +4498,17 @@
       "fichero": "hello-world-14-en-202009.pdf",
       "idioma": "inglés",
       "creado": "2020-10-08"
+    },
+    {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 15,
+      "año": 2021,
+      "mes": 2,
+      "portada": "hello-world-15-en-202102.jpg",
+      "fichero": "hello-world-15-en-202102.pdf",
+      "idioma": "inglés",
+      "creado": "2021-03-01"
     },
     {
       "serie": "(In)secure Magazine",
@@ -8790,6 +8812,17 @@
       "creado": "2021-02-06"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 25,
+      "año": 2021,
+      "mes": 2,
+      "portada": "solo-linux-25-es-202102.jpg",
+      "fichero": "solo-linux-25-es-202102.pdf",
+      "idioma": "español",
+      "creado": "2021-03-01"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -9954,6 +9987,17 @@
       "fichero": "the-magpi-102-en-202102.pdf",
       "idioma": "inglés",
       "creado": "2021-01-30"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 103,
+      "año": 2021,
+      "mes": 3,
+      "portada": "the-magpi-103-en-202103.jpg",
+      "fichero": "the-magpi-103-en-202103.pdf",
+      "idioma": "inglés",
+      "creado": "2021-03-01"
     },
     {
       "serie": "The MagPi Books",
