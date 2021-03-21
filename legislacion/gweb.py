@@ -248,11 +248,20 @@ def muestra_referencia(elemento, profundidad):
     return tmp
 
 
-def guarda_fichas():
+def guarda_fichas(eliminar):
     # Carga json
     with open(gconst.JSON_FILE_REFERENCES, encoding="utf-8") as file:
         tmp = json.load(file)
     legislacion = gjson.ordena(tmp, "fecha", True)["legislacion"]
+
+    print(f"Hay {len(legislacion)} referencias.")
+
+    for ref in eliminar:
+        for i in range(len(legislacion)-1,-1,-1):
+            if legislacion[i]["id"] == ref:
+                del legislacion[i]
+
+    print(f"Quedan {len(legislacion)} referencias.")
 
     # Genera índice
     t = ""
@@ -407,4 +416,4 @@ def guarda_colecciones(nombre):
     if ids:
         print(ids)
 
-    return coleccion
+    return coleccion, ids
