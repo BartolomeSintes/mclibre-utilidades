@@ -261,7 +261,7 @@ def guarda_fichas(eliminar):
             if legislacion[i]["id"] == ref:
                 del legislacion[i]
 
-    print(f"Quedan {len(legislacion)} referencias.")
+    print(f"Se muestran en las páginas {len(legislacion)} referencias.")
 
     # Genera índice
     t = ""
@@ -296,7 +296,7 @@ def guarda_fichas(eliminar):
         fichero.write(t)
 
 
-def guarda_index():
+def guarda_index(restos):
     # Carga json legislación
     with open(gconst.JSON_FILE_REFERENCES, encoding="utf-8") as file:
         tmp = json.load(file)
@@ -310,7 +310,7 @@ def guarda_index():
     t += "  <p>Este sitio web recopila legislación relacionada con la Informática. Se trata en su mayor parte de legislación "
     t += "educativa, pero también contiene legislación relacionada con otros temas (protección de datos, seguridad, etc.).</p>\n"
     t += "\n"
-    t += f"  <p>Este sitio web contiene {len(ids)} referencias, distribuidas en varias páginas:</p>\n"
+    t += f"  <p>Este sitio web contiene {len(ids) - len(restos)} referencias, distribuidas en varias páginas:</p>\n"
     t += "  <ul>\n"
     t += "    <li>Legislación educativa\n"
     t += "      <ul>\n"
@@ -394,17 +394,20 @@ def guarda_colecciones(nombre):
             t += "  </ul>\n"
             t += "\n"
 
-        if pagina["nombre"] == "listados/otras.html":
-            # t += f"  <h2>Otros</h2>\n"
-            # t += "\n"
-            t += "  <ul>\n"
-            for identificador in ids:
-                t += muestra_referencia(
-                    gjson.selecciona_en_json(legislacion, "id", identificador),
-                    pagina["profundidad"],
-                )
-            t += "  </ul>\n"
-            t += "\n"
+        # 2021-03-22. He comentado estas líneas que lo que hacían era añadir las referencias no incluidas en colecciones.json
+        # Pero como hay referencias de legislacion.json que me interesa que no salgan (los borradores, por ejemplo), lo he quitado.
+        #
+        # if pagina["nombre"] == "listados/otras.html":
+        #     # t += f"  <h2>Otros</h2>\n"
+        #     # t += "\n"
+        #     t += "  <ul>\n"
+        #     for identificador in ids:
+        #         t += muestra_referencia(
+        #             gjson.selecciona_en_json(legislacion, "id", identificador),
+        #             pagina["profundidad"],
+        #         )
+        #     t += "  </ul>\n"
+        #     t += "\n"
         print(f"Quedan por ordenar {len(ids)} referencias")
 
         t += pie()
