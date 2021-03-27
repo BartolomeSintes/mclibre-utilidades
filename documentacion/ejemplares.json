@@ -1541,6 +1541,17 @@
       "creado": "2020-12-26"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 75,
+      "año": 2021,
+      "mes": 3,
+      "portada": "edutec-75-es-202103.jpg",
+      "fichero": "edutec-75-es-202103.pdf",
+      "idioma": "español",
+      "creado": "2021-03-27"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -3398,6 +3409,17 @@
       "fichero": "full-circle-166-en-202102.pdf",
       "idioma": "inglés",
       "creado": "2021-03-01"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 167,
+      "año": 2021,
+      "mes": 3,
+      "portada": "full-circle-167-en-202103.jpg",
+      "fichero": "full-circle-167-en-202103.pdf",
+      "idioma": "inglés",
+      "creado": "2021-03-27"
     },
     {
       "serie": "Full Circle (rec)",
@@ -5345,6 +5367,17 @@
       "fichero": "insecure-67-en-202011.pdf",
       "idioma": "inglés",
       "creado": "2020-11-14"
+    },
+    {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
+      "número": 68,
+      "año": 2021,
+      "mes": 3,
+      "portada": "insecure-68-en-202103.jpg",
+      "fichero": "insecure-68-en-202103.pdf",
+      "idioma": "inglés",
+      "creado": "2021-03-27"
     },
     {
       "serie": "(In)secure Magazine",
@@ -10009,6 +10042,17 @@
       "fichero": "the-magpi-103-en-202103.pdf",
       "idioma": "inglés",
       "creado": "2021-03-01"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 104,
+      "año": 2021,
+      "mes": 4,
+      "portada": "the-magpi-104-en-202104.jpg",
+      "fichero": "the-magpi-104-en-202104.pdf",
+      "idioma": "inglés",
+      "creado": "2021-03-27"
     },
     {
       "serie": "The MagPi Books",
