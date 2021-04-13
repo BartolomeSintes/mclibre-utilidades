@@ -12255,6 +12255,17 @@
       "creado": "2021-03-07"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 171,
+      "año": 2021,
+      "mes": 4,
+      "portada": "pclinuxos-171-en-202104.jpg",
+      "fichero": "pclinuxos-171-en-202104.pdf",
+      "idioma": "inglés",
+      "creado": "2021-04-13"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
