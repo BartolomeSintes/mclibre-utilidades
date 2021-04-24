@@ -4324,6 +4324,17 @@
       "creado": "2021-03-20"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 42,
+      "año": 2021,
+      "mes": 5,
+      "portada": "hackspace-42-en-202105.jpg",
+      "fichero": "hackspace-42-en-202105.pdf",
+      "idioma": "inglés",
+      "creado": "2021-04-24"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
