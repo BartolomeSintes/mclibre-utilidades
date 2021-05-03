@@ -46,6 +46,10 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2020-02-08. Chequear que id/origenurl coincide en docv o dogv, boe, etc.
 
+-   2021-03-22. Las referencias de legislacion.json que no estaban incluidas en colecciones.json se añadían al final de otras.html, sin más explicaciones. Lo que he hecho es comentar las líneas de guarda_colecciones() que hacían eso. Ahora mismo, las únicas referencias en esa situación son los borradores de leyes ya aprobadas (boe-borrador-2019-1-rd). Y cuando genero el sitio, me muestra en pantalla qué referencias son. Si en el futuro la lista se hace muy larga, igual tendría que hacer un apartado de borradores, o una página que no estuviera enlazada con esas referencias para poderla mirar cuando hiciera falta.
+
+- 2021-3-22. Me enviaron ayer un correo automático para decirme que había salido una nueva versión de EN 301 549. Hay una página que [informa de la versión](https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=59546).
+
 ## Otros
 
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.
@@ -53,6 +57,22 @@ Este repositorio contiene una colección legislativa de interés para profesores
 -   2009-12-01. Comunidad Valenciana. El diario oficial se llamó DOCV entre 2007 y 2016 [ref](https://valenciaplaza.com/el-docv-recupera-la-denominacion-de-generalitat-valenciana-desde-manana). Hay que tener cuidado con los nombres de los ficheros.
 
 ## Por incluir
+
+-    ORDEN de 18 de junio de 1999, de la Conselleria de Cultura, Educación y Ciencia, por la que se regula la atención a la diversidad en la Educación Secundaria Obligatoria. <http://www.dogv.gva.es/datos/1999/06/29/pdf/1999_6082.pdf>
+
+-   DECRETO 231/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se regula la creación, estructura y funcionamiento de los Centros de Formación, Innovación y Recursos Educativos de la Comunidad Valenciana <http://www.dogv.gva.es/datos/1997/09/08/pdf/1997_10023.pdf>
+
+-   LEY 12/1997, de 23 de diciembre, de Tasas de la Generalitat Valenciana. <http://www.dogv.gva.es/datos/1997/12/29/pdf/1997_4172.pdf>
+
+-   ORDEN de 23 de julio de 1998, de la Conselleria de Cultura, Educación y Ciencia, por la que se fijan, implantan y cesan determinadas enseñanzas en los institutos y secciones de Educación Secundaria de la Comunidad Valenciana. <http://www.dogv.gva.es/datos/1998/09/09/pdf/1998_Q7241.pdf>
+
+-   ORDEN de 3 de abril de 1998, de la Conselleria de Cultura, Educación y Ciencia, por la que se regula el procedimiento de admisión del alumnado en los centros de Educación Infantil, Educación Primaria y Educación Secundaria de la Comunidad Valenciana, sostenidos con fondos públicos <http://www.dogv.gva.es/datos/1998/04/08/pdf/1998_2708.pdf>
+
+-   RESOLUCIÓN de 21 de mayo de 1998, de la Dirección General de Ordenación e Innovación Educativa y Política Lingüística, por la que se establecen normas para el cálculo de la nota media en el expediente académico del alumnado que solicita el acceso a enseñanzas universitarias de la Comunidad Valenciana desde la Formación Profesional. <http://www.dogv.gva.es/datos/1998/06/12/pdf/1998_4783.pdf>
+
+-   ORDEN de 8 de julio de 1998 de la Conselleria de Cultura, Educación y Ciencia por la que se establece el proceso de implantacion de las enseñanzas de regimen general reguladas por la Ley Organica 1/1990 de Ordenacion General del Sistema Educativo y la progresiva extincion de las enseñanzas medias reguladas por la Ley General de Educación de 1970 en la Comunidad Valenciana. <
+
+-   ORDEN de 8 de julio de 1998 de la Conselleria de Cultura, Educación y Ciencia por la que se establece el proceso de implantacion de las enseñanzas de regimen general reguladas por la Ley Organica 1/1990 de Ordenacion General del Sistema Educativo y la progresiva extincion de las enseñanzas medias reguladas por la Ley General de Educación de 1970 en la Comunidad Valenciana.>
 
 -   DOGV Decreto 108/2012, de 29 de junio, del Consell, por el que se regula la recolocación y
 redistribución del personal docente con destino definitivo en los centros docentes públicos no
@@ -71,6 +91,8 @@ la Generalitat Valenciana. (En vigor parcialmente)
 
 -   <http://participacio.gva.es/es/web/delegacion-de-proteccion-de-datos-gva/criteris-i-recomanacions> Aunque no esté publicado en el DOGV, sería interesante incluir estas guías.
 
+-   [Guías de aplicación de las Normas Técnicas de Interoperabilidad (NTI)](https://www.anabad.org/guias-de-aplicacion-de-las-normas-tecnicas-de-interoperabilidad-nti-en-la-coleccion-administracion-electronica/)
+
 ## Dónde mirar referencias
 
 -   <http://bibliotecacefirevalencia.blogspot.com/search/label/Legislaci%C3%B3n>
@@ -85,3 +107,5 @@ la Generalitat Valenciana. (En vigor parcialmente)
     [Telecomunicaciones y nuevas tecnologías](http://www.dogv.gva.es/resultats-temes?&&L=1&tipo_search=legislacion&num_tipo=4&materia=Telecomunicaciones%20y%20nuevas%20tecnolog%C3%ADas&tit_materia=Telecomunicaciones%20y%20nuevas%20tecnolog%C3%ADas) -
 
 -   <http://www.informatica-juridica.com/legislacion/espana/>
+
+-   A veces el buscador no muestra el DOGV completo, pero esta dirección parece que sí: <http://www.dogv.gva.es/datos/1999/11/30/PortalSDLCAS.html>

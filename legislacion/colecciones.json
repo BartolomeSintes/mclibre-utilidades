@@ -70,7 +70,8 @@
                                 "titulo": "Borradores",
                                 "referencias": [
                                     "boe-borrador-2020-1-rd",
-                                    "boe-borrador-2020-2-rd"
+                                    "boe-borrador-2020-2-rd",
+                                    "boe-borrador-2021-2-rd"
                                 ]
                             }
                         },
@@ -78,17 +79,18 @@
                             "apartado": {
                                 "titulo": "Coronavirus Covid-19",
                                 "referencias": [
-                                    "boe-2020-463-rd",
-                                    "boe-2020-465-rd",
-                                    "boe-2020-361-o",
-                                    "boe-2020-362-o",
-                                    "boe-2020-365-o",
-                                    "boe-2020-399-o",
-                                    "boe-2020-537-rd",
-                                    "boe-2020-400-o",
-                                    "boe-2020-555-rd",
                                     "boe-2020-21-rdl",
-                                    "boe-2020-561-o"
+                                    "boe-2020-561-o",
+                                    "boe-2020-757-o",
+                                    "boe-2020-31-rdl"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2020/21",
+                                "referencias": [
+                                    "boe-2021-2-o"
                                 ]
                             }
                         },
@@ -96,16 +98,7 @@
                             "apartado": {
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
-                                    "boe-2020-139-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2018/19",
-                                "referencias": [
-                                    "boe-2019-12-o",
-                                    "boe-2019-196-o"
+                                    "boe-2020-255-o"
                                 ]
                             }
                         },
@@ -117,7 +110,7 @@
                                     "boe-2006-2-lo",
                                     "boe-2011-2-l",
                                     "boe-2011-4-lo",
-                                    "boe-2013-8-lo"
+                                    "boe-2020-3-lo"
                                 ]
                             }
                         },
@@ -147,7 +140,8 @@
                                     "boe-2011-776-rd",
                                     "boe-2014-817-rd",
                                     "boe-2015-1636-o",
-                                    "boe-2019-479-o-pci"
+                                    "boe-2019-479-o-pci",
+                                    "boe-2020-616-rd"
                                 ]
                             }
                         },
@@ -167,10 +161,7 @@
                             "apartado": {
                                 "titulo": "Convalidaciones de Formación Profesional",
                                 "referencias": [
-                                    "boe-2001-12-20-o",
-                                    "boe-2002-1842-o",
-                                    "boe-2014-2159-o",
-                                    "boe-2017-1055-o"
+                                    "boe-2020-1085-rd"
                                 ]
                             }
                         },
@@ -268,7 +259,8 @@
                                     "boe-2015-4-rdl",
                                     "boe-2015-30-l",
                                     "boe-2017-694-rd",
-                                    "boe-2019-283-o"
+                                    "boe-2019-283-o",
+                                    "boe-2021-143-rd"
                                 ]
                             }
                         },
@@ -280,7 +272,8 @@
                                     "boe-2011-686-rd",
                                     "boe-2011-1531-rd",
                                     "boe-2013-628-rd",
-                                    "boe-2014-548-rd"
+                                    "boe-2014-548-rd",
+                                    "boe-borrador-2021-1-rd"
                                 ]
                             }
                         },
@@ -316,10 +309,12 @@
                                     "boe-2007-1845-o",
                                     "boe-2008-1834-rd",
                                     "boe-2010-132-rd",
+                                    "boe-2011-1618-rd",
                                     "boe-2014-412-rd",
                                     "boe-2015-65-o",
                                     "boe-2015-665-rd",
-                                    "boe-2019-4-l"
+                                    "boe-2019-4-l",
+                                    "boe-2020-07-13-res"
                                 ]
                             }
                         }
@@ -368,17 +363,16 @@
                             "apartado": {
                                 "titulo": "Coronavirus Covid-19",
                                 "referencias": [
-                                    "dogv-2020-03-12-res",
-                                    "dogv-2020-03-23-res",
-                                    "dogv-2020-04-01-res",
-                                    "dogv-2020-2-dl",
-                                    "dogv-2020-04-05-res",
-                                    "dogv-2020-05-11-res",
-                                    "dogv-2020-05-13-res",
-                                    "dogv-2020-05-26-res",
-                                    "dogv-2020-06-01-res",
-                                    "dogv-2020-8-d",
-                                    "dogv-2020-06-19-acu"
+                                    "dogv-2020-07-17-res",
+                                    "dogv-2021-03-29-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2021/22",
+                                "referencias": [
+                                    "dogv-2020-12-23-res"
                                 ]
                             }
                         },
@@ -386,13 +380,16 @@
                             "apartado": {
                                 "titulo": "Curso 2020/21",
                                 "referencias": [
-                                    "dogv-2020-04-29-res",
                                     "dogv-2020-05-15-res",
                                     "dogv-2020-05-21-res",
                                     "dogv-2019-05-29-1-res",
                                     "dogv-2019-05-29-2-res",
                                     "dogv-2020-06-01-1-res",
-                                    "dogv-2020-06-01-2-res"
+                                    "dogv-2020-06-01-2-res",
+                                    "dogv-2020-07-15-res",
+                                    "dogv-2020-07-28-1-res",
+                                    "dogv-2020-07-28-2-res",
+                                    "dogv-2020-07-31-res"
                                 ]
                             }
                         },
@@ -400,10 +397,6 @@
                             "apartado": {
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
-                                    "dogv-2019-06-10-res",
-                                    "dogv-2019-07-08-1-res",
-                                    "dogv-2019-07-08-2-res",
-                                    "dogv-2019-07-05-res",
                                     "dogv-2019-10-15-res",
                                     "dogv-2020-06-29-res"
                                 ]
@@ -503,7 +496,8 @@
                                     "dogv-2018-104-d",
                                     "dogv-2019-20-o",
                                     "dogv-2019-07-24-1-res",
-                                    "dogv-2019-07-24-2-res"
+                                    "dogv-2019-07-24-2-res",
+                                    "dogv-2020-12-10-res"
                                 ]
                             }
                         },
@@ -550,7 +544,8 @@
                                     "dogv-2017-164-d",
                                     "dogv-2017-186-d",
                                     "dogv-2018-06-28-res",
-                                    "dogv-2019-252-d"
+                                    "dogv-2019-252-d",
+                                    "boe-2020-11-17-res"
                                 ]
                             }
                         }
@@ -562,6 +557,22 @@
                     "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la educación y publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
                     "profundidad": 1,
                     "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Coronavirus Covid-19",
+                                "referencias": [
+                                    "boe-2020-463-rd",
+                                    "boe-2020-465-rd",
+                                    "boe-2020-361-o",
+                                    "boe-2020-362-o",
+                                    "boe-2020-365-o",
+                                    "boe-2020-399-o",
+                                    "boe-2020-537-rd",
+                                    "boe-2020-440-o",
+                                    "boe-2020-555-rd"
+                                ]
+                            }
+                        },
                         {
                             "apartado": {
                                 "titulo": "Marco Español de Cualificaciones para la Educación Superior",
@@ -586,12 +597,31 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Convalidaciones de Formación Profesional",
+                                "referencias": [
+                                    "boe-2001-12-20-o",
+                                    "boe-2002-1842-o",
+                                    "boe-2014-2159-o",
+                                    "boe-2017-1055-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Certificados de Profesionalidad",
                                 "referencias": [
                                     "boe-1995-797-rd",
                                     "boe-1997-1597-rd",
                                     "boe-1997-1598-rd",
                                     "boe-2003-1506-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica para la Mejora de la Calidad Educativa (LOMCE, 2013)",
+                                "referencias": [
+                                    "boe-2013-8-lo"
                                 ]
                             }
                         },
@@ -774,6 +804,23 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Curso 2019/20",
+                                "referencias": [
+                                    "boe-2020-139-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2018/19",
+                                "referencias": [
+                                    "boe-2019-12-o",
+                                    "boe-2019-196-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2017/18",
                                 "referencias": [
                                     "boe-2018-42-o",
@@ -869,7 +916,18 @@
                                     "docv-2016-173-d",
                                     "dogv-2017-9-d",
                                     "dogv-2017-3-dl",
-                                    "dogv-2017-219-d"
+                                    "dogv-2017-219-d",
+                                    "dogv-2020-03-12-res",
+                                    "dogv-2020-03-23-res",
+                                    "dogv-2020-04-01-res",
+                                    "dogv-2020-2-dl",
+                                    "dogv-2020-05-04-res",
+                                    "dogv-2020-05-11-res",
+                                    "dogv-2020-05-13-res",
+                                    "dogv-2020-05-26-res",
+                                    "dogv-2020-06-01-res",
+                                    "dogv-2020-8-d",
+                                    "dogv-2020-06-19-acu"
                                 ]
                             }
                         }
@@ -877,15 +935,27 @@
                 },
                 {
                     "nombre": "listados/educativa-derogada-anual-es-cv.html",
-                    "titulo": "Legislación educativa Comunidad Valenciana (Anual) - Derogada",
+                    "titulo": "Legislación educativa Comunidad Valenciana (Anual) - Vencida",
                     "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la organización de cada curso académico y publicadas anualmente en el Diario Oficial de la Generalitat Valenciana.",
                     "profundidad": 1,
                     "contenido": [
                         {
                             "apartado": {
+                                "titulo": "Curso 2020/21",
+                                "referencias": [
+                                    "dogv-2020-04-29-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
-                                    "dogv-2019-04-02-res"
+                                    "dogv-2019-04-02-res",
+                                    "dogv-2019-06-10-res",
+                                    "dogv-2019-07-08-1-res",
+                                    "dogv-2019-07-08-2-res",
+                                    "dogv-2019-07-05-res"
                                 ]
                             }
                         },
@@ -1271,7 +1341,7 @@
                                     "celex-2018-1523-deceje",
                                     "celex-2018-2048-deceje",
                                     "celex-2019-882-dir",
-                                    "cen-301549-3-1-1-en"
+                                    "cen-301549-3-2-1-en"
                                 ]
                             }
                         },
@@ -1346,7 +1416,8 @@
                                     "boe-2007-11-l",
                                     "boe-2011-07-19-3-res",
                                     "boe-2011-11-15-res",
-                                    "boe-2018-5-rdl"
+                                    "boe-2018-5-rdl",
+                                    "cen-301549-3-1-1-en"
                                 ]
                             }
                         }

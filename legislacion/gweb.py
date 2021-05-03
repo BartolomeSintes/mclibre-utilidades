@@ -152,7 +152,7 @@ def cronologico(legislacion):
             tmp += '      <p class="fichero">\n'
             if version["versión"] == "borrador":
                 tmp += f'        <img src="../{gconst.DIR_IMAGES}/en-construccion.svg" alt="Borrador" title="Borrador" width="25">'
-                tmp += '<span class="derogado">borrador</span>'
+                tmp += '<span class="derogado">borrador</span>\n'
             if len(elemento["versiones"]) != 1:
                 tmp += (
                     f'      {version["versión"][:1].upper() + version["versión"][1:]}: '
