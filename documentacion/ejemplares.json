@@ -4346,6 +4346,17 @@
       "creado": "2021-04-24"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 43,
+      "año": 2021,
+      "mes": 6,
+      "portada": "hackspace-43-en-202106.jpg",
+      "fichero": "hackspace-43-en-202106.pdf",
+      "idioma": "inglés",
+      "creado": "2021-05-20"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -10438,6 +10449,17 @@
       "fichero": "raspberry-pi-handbook-2021-202011.pdf",
       "idioma": "inglés",
       "creado": "2020-11-28"
+    },
+    {
+      "serie": "The MagPi Books",
+      "nombre": "Raspberry Pi Beginner’s Guide 4º ed.",
+      "número": 4,
+      "año": 2020,
+      "mes": 11,
+      "portada": "raspberry-pi-beginners-book-4-es-202011.jpg",
+      "fichero": "raspberry-pi-beginners-book-4-es-202011.pdf",
+      "idioma": "español",
+      "creado": "2021-05-20"
     },
     {
       "serie": "The PCLinuxOS Magazine",
