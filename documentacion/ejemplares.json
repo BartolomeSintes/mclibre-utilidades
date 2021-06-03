@@ -8933,6 +8933,17 @@
       "creado": "2021-05-03"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 28,
+      "año": 2021,
+      "mes": 5,
+      "portada": "solo-linux-28-es-202105.jpg",
+      "fichero": "solo-linux-28-es-202105.pdf",
+      "idioma": "español",
+      "creado": "2021-06-03"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -12365,6 +12376,17 @@
       "creado": "2021-05-07"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 173,
+      "año": 2021,
+      "mes": 6,
+      "portada": "pclinuxos-173-en-202106.jpg",
+      "fichero": "pclinuxos-173-en-202106.pdf",
+      "idioma": "inglés",
+      "creado": "2021-06-03"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -13177,6 +13199,17 @@
       "fichero": "wireframe-50-en-202105.pdf",
       "idioma": "inglés",
       "creado": "2021-05-07"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 51,
+      "año": 2021,
+      "mes": 6,
+      "portada": "wireframe-51-en-202106.jpg",
+      "fichero": "wireframe-51-en-202106.pdf",
+      "idioma": "inglés",
+      "creado": "2021-06-03"
     },
     {
       "serie": "Wireframe Books",
