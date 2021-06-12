@@ -4588,6 +4588,17 @@
       "creado": "2021-03-01"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 16,
+      "año": 2021,
+      "mes": 6,
+      "portada": "hello-world-16-en-202106.jpg",
+      "fichero": "hello-world-16-en-202106.pdf",
+      "idioma": "inglés",
+      "creado": "2021-06-12"
+    },
+    {
       "serie": "(In)secure Magazine",
       "nombre": "(In)secure Magazine",
       "número": 1,
@@ -7919,6 +7930,17 @@
       "fichero": "olympiads-in-informatics-14-en-202008.pdf",
       "idioma": "inglés",
       "creado": "2020-08-08"
+    },
+    {
+      "serie": "Olympiads in informatics",
+      "nombre": "Olympiads in informatics",
+      "número": 15,
+      "año": 2021,
+      "mes": 6,
+      "portada": "olympiads-in-informatics-15-en-202106.jpg",
+      "fichero": "olympiads-in-informatics-15-en-202106.pdf",
+      "idioma": "inglés",
+      "creado": "2021-06-12"
     },
     {
       "serie": "Open Source Yearbook",
@@ -13243,6 +13265,17 @@
       "fichero": "wireframe-books-help-my-computer-is-broken-en-202012.pdf",
       "idioma": "inglés",
       "creado": "2020-12-12"
+    },
+    {
+      "serie": "Wireframe Books",
+      "nombre": "The Computers That Made Britain",
+      "número": 1,
+      "año": 2021,
+      "mes": 6,
+      "portada": "wireframe-books-computers-that-made-britain-em-202106.jpg",
+      "fichero": "wireframe-books-computers-that-made-britain-em-202106.pdf",
+      "idioma": "inglés",
+      "creado": "2021-06-12"
     },
     {
       "serie": "ALT Magazine",
