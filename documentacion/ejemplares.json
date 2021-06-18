@@ -4368,6 +4368,17 @@
       "creado": "2021-05-20"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 44,
+      "año": 2021,
+      "mes": 7,
+      "portada": "hackspace-44-en-202107.jpg",
+      "fichero": "hackspace-44-en-202107.pdf",
+      "idioma": "inglés",
+      "creado": "2021-06-18"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -13272,8 +13283,8 @@
       "número": 1,
       "año": 2021,
       "mes": 6,
-      "portada": "wireframe-books-computers-that-made-britain-em-202106.jpg",
-      "fichero": "wireframe-books-computers-that-made-britain-em-202106.pdf",
+      "portada": "wireframe-books-computers-that-made-britain-en-202106.jpg",
+      "fichero": "wireframe-books-computers-that-made-britain-en-202106.pdf",
       "idioma": "inglés",
       "creado": "2021-06-12"
     },
