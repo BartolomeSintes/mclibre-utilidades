@@ -49,6 +49,22 @@
             "estado": "activa"
         },
         {
+            "nombre-corto": "Custom PC",
+            "nombre": "Custom PC",
+            "nombre-largo": "Custom PC",
+            "web": [
+                [
+                    "https://custompc.raspberrypi.org/",
+                    "Revista Custom PC"
+                ]
+            ],
+            "miniaturas": "../img/revistas/custom-pc/",
+            "archivos": "custom-pc/",
+            "comentario": "",
+            "abreviatura" : "custompc",
+            "estado": "activa"
+        },
+        {
             "nombre-corto": "DING",
             "nombre": "DING",
             "nombre-largo": "DING - A magazine about the Internet and Things",
