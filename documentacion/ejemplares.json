@@ -1574,6 +1574,17 @@
       "creado": "2021-03-27"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 76,
+      "año": 2021,
+      "mes": 6,
+      "portada": "edutec-76-es-202106.jpg",
+      "fichero": "edutec-76-es-202106.pdf",
+      "idioma": "español",
+      "creado": "2021-07-02"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -9010,6 +9021,17 @@
       "creado": "2021-06-03"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 29,
+      "año": 2021,
+      "mes": 6,
+      "portada": "solo-linux-29-es-202106.jpg",
+      "fichero": "solo-linux-29-es-202106.pdf",
+      "idioma": "español",
+      "creado": "2021-07-02"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -13287,6 +13309,17 @@
       "fichero": "wireframe-51-en-202106.pdf",
       "idioma": "inglés",
       "creado": "2021-06-03"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 52,
+      "año": 2021,
+      "mes": 7,
+      "portada": "wireframe-52-en-202107.jpg",
+      "fichero": "wireframe-52-en-202107.pdf",
+      "idioma": "inglés",
+      "creado": "2021-07-02"
     },
     {
       "serie": "Wireframe Books",
