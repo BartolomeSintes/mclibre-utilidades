@@ -683,6 +683,17 @@
       "creado": "2020-12-05"
     },
     {
+      "serie": "Bits de Ciencia",
+      "nombre": "Bits de Ciencia",
+      "número": 21,
+      "año": 2021,
+      "mes": "S1",
+      "portada": "bits-de-ciencia-21-es-2021s1.jpg",
+      "fichero": "bits-de-ciencia-21-es-2021s1.pdf",
+      "idioma": "español",
+      "creado": "2021-07-10"
+    },
+    {
       "serie": "Custom PC",
       "nombre": "Custom PC",
       "número": 214,
@@ -703,6 +714,17 @@
       "fichero": "custom-pc-215-en-202106.pdf",
       "idioma": "inglés",
       "creado": "2021-06-25"
+    },
+    {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 216,
+      "año": 2021,
+      "mes": 7,
+      "portada": "custom-pc-216-en-202107.jpg",
+      "fichero": "custom-pc-216-en-202107.pdf",
+      "idioma": "inglés",
+      "creado": "2021-07-10"
     },
     {
       "serie": "DING",
@@ -12484,6 +12506,17 @@
       "fichero": "pclinuxos-173-en-202106.pdf",
       "idioma": "inglés",
       "creado": "2021-06-03"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 174,
+      "año": 2021,
+      "mes": 7,
+      "portada": "pclinuxos-174-en-202107.jpg",
+      "fichero": "pclinuxos-174-en-202107.pdf",
+      "idioma": "inglés",
+      "creado": "2021-07-10"
     },
     {
       "serie": "The R Journal",
