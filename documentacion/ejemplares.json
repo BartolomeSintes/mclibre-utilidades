@@ -5481,6 +5481,17 @@
     {
       "serie": "(In)secure Magazine",
       "nombre": "(In)secure Magazine",
+      "número": "especial",
+      "año": 2020,
+      "mes": 3,
+      "portada": "insecure-rsa2020-en-202003.jpg",
+      "fichero": "insecure-rsa2020-en-202003.pdf",
+      "idioma": "inglés",
+      "creado": "2020-03-15"
+    },
+    {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
       "número": 66,
       "año": 2020,
       "mes": 6,
@@ -5514,13 +5525,13 @@
     {
       "serie": "(In)secure Magazine",
       "nombre": "(In)secure Magazine",
-      "número": "especial",
-      "año": 2020,
-      "mes": 3,
-      "portada": "insecure-rsa2020-en-202003.jpg",
-      "fichero": "insecure-rsa2020-en-202003.pdf",
+      "número": 69,
+      "año": 2021,
+      "mes": 7,
+      "portada": "insecure-69-en-202107.jpg",
+      "fichero": "insecure-69-en-202107.pdf",
       "idioma": "inglés",
-      "creado": "2020-03-15"
+      "creado": "2021-07-16"
     },
     {
       "serie": "JOLTS",
