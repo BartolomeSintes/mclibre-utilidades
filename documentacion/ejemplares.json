@@ -3510,6 +3510,17 @@
       "creado": "2021-06-25"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 171,
+      "año": 2021,
+      "mes": 7,
+      "portada": "full-circle-171-en-202107.jpg",
+      "fichero": "full-circle-171-en-202107.pdf",
+      "idioma": "inglés",
+      "creado": "2021-08-02"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -9074,6 +9085,17 @@
       "fichero": "solo-linux-29-es-202106.pdf",
       "idioma": "español",
       "creado": "2021-07-02"
+    },
+    {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 30,
+      "año": 2021,
+      "mes": 7,
+      "portada": "solo-linux-30-es-202107.jpg",
+      "fichero": "solo-linux-30-es-202107.pdf",
+      "idioma": "español",
+      "creado": "2021-08-02"
     },
     {
       "serie": "Solo WordPress",
