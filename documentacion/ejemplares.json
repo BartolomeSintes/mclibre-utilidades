@@ -9131,6 +9131,17 @@
       "creado": "2021-08-02"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 31,
+      "año": 2021,
+      "mes": 8,
+      "portada": "solo-linux-31-es-202108.jpg",
+      "fichero": "solo-linux-31-es-202108.pdf",
+      "idioma": "español",
+      "creado": "2021-09-03"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -13485,6 +13496,17 @@
       "fichero": "wireframe-53-en-202108.pdf",
       "idioma": "inglés",
       "creado": "2021-08-12"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 54,
+      "año": 2021,
+      "mes": 9,
+      "portada": "wireframe-54-en-202109.jpg",
+      "fichero": "wireframe-54-en-202109.pdf",
+      "idioma": "inglés",
+      "creado": "2021-09-03"
     },
     {
       "serie": "Wireframe Books",
