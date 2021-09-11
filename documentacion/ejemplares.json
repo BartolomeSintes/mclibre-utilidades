@@ -738,6 +738,17 @@
       "creado": "2021-08-12"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 218,
+      "año": 2021,
+      "mes": 9,
+      "portada": "custom-pc-218-en-202109.jpg",
+      "fichero": "custom-pc-218-en-202109.pdf",
+      "idioma": "inglés",
+      "creado": "2021-09-10"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -12638,6 +12649,17 @@
       "fichero": "pclinuxos-175-en-202108.pdf",
       "idioma": "inglés",
       "creado": "2021-08-12"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 176,
+      "año": 2021,
+      "mes": 9,
+      "portada": "pclinuxos-176-en-202109.jpg",
+      "fichero": "pclinuxos-176-en-202109.pdf",
+      "idioma": "inglés",
+      "creado": "2021-09-10"
     },
     {
       "serie": "The R Journal",
