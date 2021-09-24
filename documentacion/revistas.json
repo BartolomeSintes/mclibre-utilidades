@@ -177,6 +177,22 @@
             "estado": "activa"
         },
         {
+            "nombre-corto": "Hello World Books",
+            "nombre": "Hello World Books",
+            "nombre-largo": "Hello World Books - The computing and digital making magazine for educators",
+            "web": [
+                [
+                    "https://helloworld.raspberrypi.org/",
+                    "Libros revista Hello World"
+                ]
+            ],
+            "miniaturas": "../img/revistas/hello-world-books/",
+            "archivos": "hello-world-books/",
+            "comentario": "",
+            "abreviatura" : "helloworld-books",
+            "estado": "activa"
+        },
+        {
             "nombre-corto": "(In)secure Magazine",
             "nombre": "(In)secure Magazine",
             "nombre-largo": "(In)secure Magazine",

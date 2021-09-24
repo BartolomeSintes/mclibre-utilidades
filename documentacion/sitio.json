@@ -128,6 +128,13 @@
       ]
     },
     {
+      "pagina": "revistas-hello-world-books.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "Hello World Books"
+      ]
+    },
+    {
       "pagina": "revistas-insecure.html",
       "directorio": "revistas-titulos",
       "revistas": [
