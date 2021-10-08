@@ -749,6 +749,17 @@
       "creado": "2021-09-10"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 219,
+      "año": 2021,
+      "mes": 10,
+      "portada": "custom-pc-219-en-202110.jpg",
+      "fichero": "custom-pc-219-en-202110.pdf",
+      "idioma": "inglés",
+      "creado": "2021-10-08"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -1627,6 +1638,17 @@
       "fichero": "edutec-76-es-202106.pdf",
       "idioma": "español",
       "creado": "2021-07-02"
+    },
+    {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 77,
+      "año": 2021,
+      "mes": 10,
+      "portada": "edutec-77-es-202110.jpg",
+      "fichero": "edutec-77-es-202110.pdf",
+      "idioma": "español",
+      "creado": "2021-10-08"
     },
     {
       "serie": "Full Circle",
@@ -12728,6 +12750,17 @@
       "creado": "2021-09-10"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 177,
+      "año": 2021,
+      "mes": 10,
+      "portada": "pclinuxos-177-en-202110.jpg",
+      "fichero": "pclinuxos-177-en-202110.pdf",
+      "idioma": "inglés",
+      "creado": "2021-10-08"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -13595,6 +13628,17 @@
       "fichero": "wireframe-54-en-202109.pdf",
       "idioma": "inglés",
       "creado": "2021-09-03"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 55,
+      "año": 2021,
+      "mes": 10,
+      "portada": "wireframe-55-en-202110.jpg",
+      "fichero": "wireframe-55-en-202110.pdf",
+      "idioma": "inglés",
+      "creado": "2021-10-08"
     },
     {
       "serie": "Wireframe Books",
