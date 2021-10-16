@@ -4786,6 +4786,17 @@
       "creado": "2021-06-12"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 17,
+      "año": 2021,
+      "mes": 10,
+      "portada": "hello-world-17-en-202110.jpg",
+      "fichero": "hello-world-17-en-202110.pdf",
+      "idioma": "inglés",
+      "creado": "2021-10-16"
+    },
+    {
       "serie": "Hello World Books",
       "nombre": "The Big Book of Comupting Pedagogy",
       "número": 1,
