@@ -110,12 +110,12 @@ def genera_ficha(simbolos, quita_fe0f):
     t += "        </p>\n"
     # Entidad numérica hexadecimal
     t += '        <p class="en">\n'
-    t += "          Hex: <strong>"
+    t += "          Hex:&nbsp;<strong>"
     for tmp in simbolos[0][0][gendef.UCO]:
         t += f"&amp;#x{int(tmp, 16):x};"
     t += "</strong><br>\n"
     # Entidad numérica adecimal
-    t += "          Dec: <strong>"
+    t += "          Dec:&nbsp;<strong>"
     for tmp in simbolos[0][0][gendef.UCO]:
         t += f"&amp;#{int(tmp, 16)};"
     t += "</strong>\n"
@@ -138,6 +138,7 @@ def prepara_ficha(c, fuentes, pagina, quita_fe0f):
     for fuente in fuentes:
         tmp = []
         if fuente == "":
+            # [2021-11-01] t no está definido: tengo que pensar cómo manejar el error y corregirlo
             t += "<h1>Error: No se ha indicado fuente en genera_fichas()</h1>\n"
         elif fuente == "SS":
             tmp = [c, "SS"]
@@ -214,7 +215,7 @@ def genera_grupo(
                 t += f"    <p>Se muestra aquí {contador} carácter "
             else:
                 t += f"    <p>Se muestran aquí {contador} caracteres "
-            t += f'Unicode del grupo que se extiende desde el carácter U+{inicial} hasta el carácter U+{final}. Puede descargar la <a href="unicode/{pdf}">tabla de códigos de caracteres Unicode 13.0</a> en formato PDF.</p>\n'
+            t += f'Unicode del grupo que se extiende desde el carácter U+{inicial} hasta el carácter U+{final}. Puede descargar la <a href="unicode/{pdf}">tabla de códigos de caracteres Unicode 14.0</a> en formato PDF.</p>\n'
             t += "\n"
 
         if comentario:
@@ -226,11 +227,13 @@ def genera_grupo(
                 for piel in gendef.fitzpatrick:
                     # en las secuencias el código Fitzpatrick va el segundo
                     c2 = copy.deepcopy(c)
-                    c2[gendef.UCO][1:1] += [piel[0]]
+                    # c2[gendef.UCO][1:1] += [piel[0]]
+                    c2[gendef.UCO][1:1] += ["0FE0E", piel[0]]
                     c2[gendef.DESC] += piel[1]
                     if (
-                        c[gendef.VS] == "VST"
-                        and fitzpatrick == gendef.FITZPATRICK_YES_TEXTO
+                        # c[gendef.VS] == "VST"
+                        # and fitzpatrick == gendef.FITZPATRICK_YES_TEXTO
+                        fitzpatrick == gendef.FITZPATRICK_YES_TEXTO
                     ):
                         fuentes2 = copy.deepcopy(fuentes)
                         fuentes2.remove("TCF-TGH")
@@ -295,7 +298,9 @@ def genera_grupos(pagina, fuentes):
 
 def genera_pagina(pagina):
     if pagina == gendef.PAG_SIMBOLOS:
-        return genera_grupos(gendef.PAG_SIMBOLOS, ["SS-VST", "SYM"])
+        return genera_grupos(gendef.PAG_SIMBOLOS, ["SS-VST"])
+        # 2021-11-04 Dejo de mostrar Symbola, porque en la última versión libre no hay ningún dibujo que no esté ya en Windows
+        # return genera_grupos(gendef.PAG_SIMBOLOS, ["SS-VST", "SYM"])
     elif pagina == gendef.PAG_EMOJIS:
         return genera_grupos(gendef.PAG_EMOJIS, ["SS-VSE", "TCF-TGH"])
     elif pagina == gendef.PAG_BANDERAS:
@@ -312,7 +317,7 @@ def genera_pagina(pagina):
 
 # Puñetitas varias
 # * No he tenido en cuenta si hay un carácter simple que no se ve en Windows pero sí está en gendef.TWEmoji
-# * Parece que en temoji todo los caracteres simples se llaman solamente con el código, pero si son gendef.VST no se añade
+# * Parece que en twemoji todo los caracteres simples se llaman solamente con el código, pero si son gendef.VST no se añade
 # * Los caracteres 0023, 002A, etc. para que se vean se tiene que escribir con 20E3 al final, así que los he puesto en secuencias,
 #   pero se supone que tiene versión texto y emoji, pero en Windows no se ven
 # * El carácter 2122 (trade mark) está en TCF, pero si pongo TGH no sale bien, no sé por qué

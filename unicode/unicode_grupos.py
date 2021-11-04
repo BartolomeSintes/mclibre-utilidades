@@ -81,14 +81,14 @@ grupos = {
         ],
         [
             filtra_grupo(
-                unicode_codigos.caracteres_unicode, "20A0", "20BF", gendef.PAG_SIMBOLOS
+                unicode_codigos.caracteres_unicode, "20A0", "20C0", gendef.PAG_SIMBOLOS
             ),
             "Símbolos de monedas",
             "monedas",
             "U020A0-currency-symbols.pdf",
             1,
             "20A0",
-            "20BF",
+            "20C0",
             gendef.FITZPATRICK_NO,
             "",
         ],
@@ -252,7 +252,7 @@ grupos = {
             filtra_grupo(
                 unicode_codigos.caracteres_unicode,
                 "1D100",
-                "1D1E8",
+                "1D1FF",
                 gendef.PAG_SIMBOLOS,
             ),
             "Símbolos musicales",
@@ -260,7 +260,7 @@ grupos = {
             "U1D100-musical-symbols.pdf",
             1,
             "1D100",
-            "1D1E8",
+            "1D1FF",
             gendef.FITZPATRICK_NO,
             "",
         ],
@@ -380,7 +380,7 @@ grupos = {
             filtra_grupo(
                 unicode_codigos.caracteres_unicode,
                 "1F780",
-                "1F7EB",
+                "1F7F0",
                 gendef.PAG_SIMBOLOS,
             ),
             "Formas geométricas extendidas",
@@ -388,7 +388,7 @@ grupos = {
             "U1F780-geometric-shapes-extended.pdf",
             1,
             "1F780",
-            "1F7EB",
+            "1F7F0",
             gendef.FITZPATRICK_NO,
             "",
         ],
@@ -515,14 +515,14 @@ grupos = {
         ],
         [
             filtra_grupo(
-                unicode_codigos.caracteres_unicode, "20A0", "20BF", gendef.PAG_EMOJIS
+                unicode_codigos.caracteres_unicode, "20A0", "20C0", gendef.PAG_EMOJIS
             ),
             "Símbolos de monedas",
             "monedas",
             "U020A0-currency-symbols.pdf",
             1,
             "20A0",
-            "20BF",
+            "20C0",
             gendef.FITZPATRICK_NO,
             "",
         ],
@@ -684,14 +684,14 @@ grupos = {
         ],
         [
             filtra_grupo(
-                unicode_codigos.caracteres_unicode, "1D100", "1D1E8", gendef.PAG_EMOJIS
+                unicode_codigos.caracteres_unicode, "1D100", "1D1FF", gendef.PAG_EMOJIS
             ),
             "Símbolos musicales",
             "musica",
             "U1D100-musical-symbols.pdf",
             1,
             "1D100",
-            "1D1E8",
+            "1D1FF",
             gendef.FITZPATRICK_NO,
             "",
         ],
@@ -788,14 +788,14 @@ grupos = {
         ],
         [
             filtra_grupo(
-                unicode_codigos.caracteres_unicode, "1F780", "1F7EB", gendef.PAG_EMOJIS
+                unicode_codigos.caracteres_unicode, "1F780", "1F7F0", gendef.PAG_EMOJIS
             ),
             "Formas geométricas extendidas",
             "geometricas-extendidas",
             "U1F780-geometric-shapes-extended.pdf",
             1,
             "1F780",
-            "1F7EB",
+            "1F7F0",
             gendef.FITZPATRICK_NO,
             "",
         ],
@@ -851,6 +851,22 @@ grupos = {
             gendef.FITZPATRICK_NO,
             "",
         ],
+        # [
+        #     filtra_grupo(
+        #         unicode_codigos.caracteres_unicode,
+        #         "1FA00",
+        #         "1FA6F",
+        #         gendef.PAG_EMOJIS,
+        #     ),
+        #     "Símbolos de ajedrez",
+        #     "simbolos-ajedres",
+        #     "U1FA00-chess-symbols.pdf",
+        #     1,
+        #     "1FA00",
+        #     "1FA6F",
+        #     gendef.FITZPATRICK_NO,
+        #     "",
+        # ],
         [
             filtra_grupo(
                 unicode_codigos.caracteres_unicode, "1FA70", "1FAFF", gendef.PAG_EMOJIS
@@ -876,18 +892,18 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            "    <p>En este apartado se muestran las secuencias Unicode que no pertenecen a ninguna de las otras categorías.</p>\n\n",
+            '    <p>En este apartado se muestran las secuencias Unicode que no pertenecen a ninguna de las otras categorías. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#otras">apartado Otras de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_banderas_sub,
-            "Banderas (subdivisiones)",
+            "Banderas (subdivisiones regionales)",
             "banderas-2",
             "",
             0,
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas regionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas-subdivisiones">apartado Banderas (secuencias) de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas regionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas-subdivisiones">apartado Banderas (subdivisiones regionales) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_banderas,
@@ -912,7 +928,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinado el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#genero-1">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_2,
@@ -923,7 +939,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinado el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#genero-2">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         # CUIDADO problematicas_piel_1 están también como genero_3_b porque al poner colores de piel no salen bien en Windows
         # Lo que me faltaría es ordenar los elementos, porque ahora se añaden al final
@@ -937,7 +953,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinado un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#genero-3">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_4,
@@ -948,7 +964,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinado un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#genero-4">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         #  ["Colores de piel",                                     "colores-piel",    "", 0, "0261D", "1F9FF"],
         #  ["Otros",                                               "otros",           "", 4, "0002A", "1F4FF"],
@@ -964,7 +980,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_TEXTO,
-            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick de caracteres cuya representación predeterminada es en modo texto. Estas secuencias se forman con dos caracteres, combinado un caracter que prepresenta un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick de caracteres cuya representación predeterminada es en modo texto. Estas secuencias se forman con dos caracteres, combinando un caracter que representa un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#colores-piel-texto">apartado Colores de piel modo texto de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.piel_1,
@@ -975,7 +991,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
-            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con dos o tres caracteres, combinado un caracter (o dos si se trata de un caracter cuya representación predeterminada es en modo texto) que prepresenta un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con dos o tres caracteres, combinando un caracter (o dos si se trata de un caracter cuya representación predeterminada es en modo texto) que representa un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en los apartados <a href="html-unicode-secuencias.html#colores-piel-1a">Colores de piel (1a)</a> y <a href="html-unicode-secuencias.html#colores-piel-1b">Colores de piel (1b)</a> de la lección Secuencias Unicode.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_1,
@@ -986,7 +1002,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cuatro caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de tres caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cuatro caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de tres caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#colores-piel-2-3">apartado Colores de piel (2-3) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_2,
@@ -997,7 +1013,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cuatro caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cuatro caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#colores-piel-2-3">apartado Colores de piel (2-3) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.genero_3,
@@ -1008,7 +1024,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cuatro caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cuatro caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#colores-piel-4-5">apartado Colores de piel (4-5) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.piel_5,
@@ -1019,7 +1035,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI_3,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con seis caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cinco caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con seis caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cinco caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#colores-piel-4-5">apartado Colores de piel (4-5) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
     ],
     # Parejas y familias
@@ -1033,7 +1049,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias formadas por uno o dos padres y uno o dos hijos. Estas secuencias se forman con tres, cinco o siete caracteres, combinado los caracteres de hombre, mujer, niña o niño, como se comenta en el <a href="html-unicode-secuencias.html#familias">apartado Familias de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias formadas por uno o dos padres y uno o dos hijos. Estas secuencias se forman con tres, cinco o siete caracteres, combinando los caracteres de hombre, mujer, niña o niño, como se comenta en el <a href="html-unicode-secuencias.html#familias">apartado Familias de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_parejas_1,
@@ -1044,7 +1060,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de enamorados. Estas secuencias se forman con seis caracteres, combinado los caracteres de hombre, mujer y corazón, como se comenta en el <a href="html-unicode-secuencias.html#enamorados">apartado Parejas de enamorados de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de enamorados. Estas secuencias se forman con seis caracteres, combinando los caracteres de hombre, mujer y corazón, como se comenta en el <a href="html-unicode-secuencias.html#enamorados">apartado Parejas de enamorados de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_parejas_2,
@@ -1055,7 +1071,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de enamorados. Estas secuencias se forman con ocho caracteres, combinado los caracteres de hombre, mujer, corazón y beso, como se comenta en el <a href="html-unicode-secuencias.html#enamorados-besandose">apartado Parejas de enamorados besándose de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de enamorados. Estas secuencias se forman con ocho caracteres, combinando los caracteres de hombre, mujer, corazón y beso, como se comenta en el <a href="html-unicode-secuencias.html#enamorados-besandose">apartado Parejas de enamorados besándose de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_parejas_piel_1,
@@ -1066,7 +1082,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (es decir, sin identificar claramente si son hombres o mujeres), con modificadores Fitzpatrick. Estas secuencias se forman con cinco o siete caracteres, combinado los caracteres de adultos y apretón de manos, además de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#parejas-neutras-colores-piel">apartado Parejas neutras (y colores de piel) de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (es decir, sin identificar claramente si son hombres o mujeres), con modificadores Fitzpatrick. Estas secuencias se forman con cinco o siete caracteres, combinando los caracteres de adultos y apretón de manos, además de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#parejas-neutras-colores-piel">apartado Parejas neutras (y colores de piel) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
         [
             unicode_combinaciones.cu_parejas_piel_2,
@@ -1077,7 +1093,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas con género (es decir, identificando si cada miembro de la pareja es hombre o mujer), con modificadores Fitzpatrick. Estas secuencias se forman con dos o siete caracteres, a partir de los caracteres de parejas o combinado los caracteres de hombre y mujer y apretón de manos, además de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#parejas-genero-colores-piel">apartado Parejas con género (y colores de piel) de la lección Secuencias Unicode</a>.</p>\n\n',
+            '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas con género (es decir, identificando si cada miembro de la pareja es hombre o mujer), con modificadores Fitzpatrick. Estas secuencias se forman con dos o siete caracteres, a partir de los caracteres de parejas o combinando los caracteres de hombre y mujer y apretón de manos, además de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#parejas-genero-colores-piel">apartado Parejas con género (y colores de piel) de la lección Secuencias Unicode</a>.</p>\n\n',
         ],
     ],
     # Secuencias que no van bien en Windows o en Twemoji
@@ -1091,7 +1107,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            "    <p>En este apartado se muestran las secuencias Unicode que no pertenecen a ninguna de las otras categorías. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n",
+            "    <p>En este apartado se muestran las secuencias Unicode que no pertenecen a ninguna de las otras categorías. Actualmente (noviembre de 2021) estas secuencias no se ven correctamente en Windows 10.</p>\n\n",
         ],
         # Géneros que NO funcionan en Windows o en Twemoji
         [
@@ -1103,7 +1119,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinado el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (noviembre de 2021) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_genero_2,
@@ -1114,7 +1130,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinado el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (noviembre de 2021) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_genero_3,
@@ -1125,7 +1141,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinado un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (noviembre de 2021) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_genero_4,
@@ -1136,7 +1152,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_NO,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinado un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#generos">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (noviembre de 2021) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         # Colores de piel que NO funcionan en Windows o en Twemoji
         [
@@ -1148,7 +1164,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_TEXTO,
-            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick de caracteres cuya representación predeterminada es en modo texto. Estas secuencias se forman con dos caracteres, combinado un caracter que prepresenta un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick de caracteres que no tiene representación en modo texto, pero que sin embargo actualmente (noviembre de 2021) se muestran en Windows 10. No se recomienda su uso. Estas secuencias se forman con tres caracteres, combinando un caracter que representa un individuo o una parte del cuerpo con el selector de variación VS15 y uno de los modificadores Fitzpatrick.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_piel_1,
@@ -1159,7 +1175,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
-            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con dos, combinado un caracter que prepresenta un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con dos caracteres, combinando un caracter que representa un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (noviembre de 2021) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_piel_2,
@@ -1170,18 +1186,18 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cuatro o cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de caracteres que representa un personaje femenino, masculino o neutro, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con cuatro o cinco caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de caracteres que representa un personaje femenino, masculino o neutro, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (noviembre de 2021) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_piel_3,
             "Colores de piel (3)",
-            "colores-piel-3-problemas", # como colores-piel-5
+            "colores-piel-3-problemas",  # como colores-piel-5
             "",
             0,
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI_3,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con seis caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cinco caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (junio de 2020) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
+            '    <p>En este apartado se muestran secuencias Unicode ZWJ con modificadores Fitzpatrick. Estas secuencias se forman con seis caracteres, añadiendo uno de los modificadores Fitzpatrick a la secuencia Unicode ZWJ de cinco caracteres que representa un personaje femenino o masculino, como se comenta en el <a href="html-unicode-secuencias.html#fitzpatrick">apartado Géneros de la lección Secuencias Unicode</a>. Actualmente (noviembre de 2021) estas secuencias no se ven correctamente en Windows 10.</p>\n\n',
         ],
         [
             unicode_combinaciones.problematicas_piel_4,
@@ -1192,7 +1208,7 @@ grupos = {
             "",
             "",
             gendef.FITZPATRICK_YES_EMOJI,
-            '    <p>En este apartado se muestran secuencias Unicode ZWJ que actualmente (junio de 2020) no están definidas en Unicode aunque Windows 10 sí que las muestra. No se recomienda su uso.</p>\n\n',
+            "    <p>En este apartado se muestran secuencias Unicode ZWJ que actualmente (junio de 2020) no están definidas en Unicode aunque Windows 10 sí que las muestra. No se recomienda su uso.</p>\n\n",
         ],
     ],
 }

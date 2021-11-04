@@ -5,16 +5,16 @@
   <title>Símbolos gráficos en modo texto en Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
-  <link rel="icon" href="../varios/favicon.ico">
+  <link rel="icon" href="../varios/favicon.svg">
   <style>
     @font-face {
       font-family: "Symbola";
-      src: url("unicode/Symbola.otf");
+      src: url("unicode/Symbola.ttf");
     }
 
     @font-face {
       font-family: "Twemoji";
-      src: url("unicode/TwitterColorEmoji-SVGinOT.ttf");
+      src: url("unicode/TwemojiMozilla.ttf");
     }
 
     div.u-l {
@@ -109,7 +109,7 @@
 
   <nav>
     <p>
-      <a href="../index.html"><img src="../varios/iconos/icono-html5.svg" alt="Índice de HTML/CSS" title="Índice de HTML/CSS" width="42" height="48"></a>
+      <a href="../index.html"><img src="../varios/iconos/icono-html.svg" alt="Home" title="Ir a página de inicio" width="42" height="48"></a>
       <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>
     </p>
 
@@ -146,7 +146,6 @@
         <li><a href="#emoticonos">Emoticonos</a></li>
         <li><a href="#transporte">Transporte y mapas</a></li>
         <li><a href="#simbolos-misc-supl">Símbolos y pict. misc. supl.</a></li>
-        <li><a href="#simbolos-ext-a">Símbolos y pict. extend. A</a></li>
       </ul>
     </div>
   </nav>
@@ -163,12 +162,12 @@
   <p>Esta página es la primera de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
   <ul>
     <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
-    <li><a href="html-unicode-dibujos.html">Dibujos</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
+    <li><a href="html-unicode-dibujos.html">Emojis</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
     <li><a href="html-unicode-secuencias-banderas.html">Banderas</a>, que muestra las secuencias Unicode que corresponden a banderas</li>
     <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
     <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
     <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
-    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no admiten actualmente</li>
+    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
   </ul>
 
   <section id="info">
@@ -178,7 +177,7 @@
 
     <ul>
       <li>el código Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal). En los casos de los emojis en modo texto, se necesita añadir el <a href="html-unicode-secuencias.html#selectores-variacion">selector de variación 15</a> (carácter U+FE0E).</li>
-      <li>el carácter en la fuente <span class="css-valor">sans-serif</span>. La fuente aplicada depende del sistema operativo, del navegador e incluso del carácter (si no existe el carácter en la fuente, el navegador muestra el código Unicode en un cuadrado de borde negro). En los casos en que Windows 10 no muestra el carácter, a la derecha del cuadrado de borde negro se ha añadido el carácter en una fuente que sí contiene el carácter (<span class="css-valor">Twemoji</span> para <i>emojis</i> y <span class="css-valor">Symbola</span> para el resto).</li>
+      <li>el carácter en la fuente <span class="css-valor">sans-serif</span>. La fuente aplicada depende del sistema operativo, del navegador e incluso del carácter (si no existe el carácter en la fuente, el navegador muestra el código Unicode en un cuadrado de borde negro).</li>
       <li>la entidad numérica de ese carácter (en formato hexadecimal y decimal)</li>
       <li>el nombre del carácter (en inglés)</li>
     </ul>

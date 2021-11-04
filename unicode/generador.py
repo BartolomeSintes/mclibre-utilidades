@@ -56,7 +56,7 @@ def main():
             texto = Template(fichero.read())
 
         meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
-        fecha = f"{datetime.date.today().strftime('%e')} de {meses[int(datetime.date.today().strftime('%m')) - 1]} de {datetime.date.today().strftime('%Y')}"
+        fecha = f"{datetime.date.today().strftime('%e')} de {meses[int(datetime.date.today().strftime('%m')) - 1]} de {datetime.date.today().strftime('%Y')}".strip()
 
         resultado = texto.safe_substitute(contenido=genfun.genera_pagina(pagina[0]), fecha=fecha)
 
@@ -64,7 +64,7 @@ def main():
             fichero.write(resultado)
         print()
 
-        webbrowser.open(fichero_destino)
+        # webbrowser.open(fichero_destino)
 
 
 if __name__ == "__main__":

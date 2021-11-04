@@ -1,79 +1,82 @@
-# 4 de agosto de 2019
-# Para cada carácter, la matriz contiene:
-# - el código hexadecimal (uno o varios]
-# - en qué versión de Unicode lo añadieron
-# - si admite códigos Fitzpatrick (color de piel]
-# - si se ve en Windows 10: WC = en color, W = en blanco y negro
-# - si se ve en Windows 7 en Firefox
-# - si está como SVG en twemoji
-# - el nombre del carácter
+<?php
+// 4 de agosto de 2019
+// Para cada carácter, la matriz contiene:
+// - el código hexadecimal (uno o varios]
+// - en qué versión de Unicode lo añadieron
+// - si admite códigos Fitzpatrick (color de piel]
+// - si se ve en Windows 10: WC = en color, W = en blanco y negro
+// - si se ve en Windows 7 en Firefox
+// - si está como SVG en twemoji
+// - el nombre del carácter
 
-# Cosas por hacer:
-# - descargar de archive.org las versiones anteriores de las tablas de unicode para saber qué añadieron en cada versión
+// Cosas por hacer:
+// - descargar de archive.org las versiones anteriores de las tablas de unicode para saber qué añadieron en cada versión
 
-# 2018-08-28.
-# En Twemoji está en carácter E50A.svg
-# https://github.com/twitter/twemoji/blob/gh-pages/2/svg/e50a.svg
-# En Unicode el rango E000-F8FF es privado así que no están definidos
-# Corresponde al centro comercial 109 de Tokio https://en.wikipedia.org/wiki/109_(department_store]
-# Estaba entre los emojis Softbank originales, pero no se incluyó en Unicode, aunque Twitter lo incluye
-# https://emojipedia.org/shibuya/
+// 2018-08-28.
+// En Twemoji está en carácter E50A.svg
+// https://github.com/twitter/twemoji/blob/gh-pages/2/svg/e50a.svg
+// En Unicode el rango E000-F8FF es privado así que no están definidos
+// Corresponde al centro comercial 109 de Tokio https://en.wikipedia.org/wiki/109_(department_store]
+// Estaba entre los emojis Softbank originales, pero no se incluyó en Unicode, aunque Twitter lo incluye
+// https://emojipedia.org/shibuya/
 
-# 2018-08-30
-# Revisar
-# http://www.unicode.org/Public/emoji/11.0/emoji-variation-sequences.txt
-# http://www.unicode.org/Public/emoji/11.0/emoji-sequences.txt
-# http://www.unicode.org/Public/emoji/11.0/emoji-data.txt
-# http://unicode.org/reports/tr51/#valid-emoji-tag-sequences
-# https://unicode.org/emoji/charts/full-emoji-list.html
-#
-# En emojipedia en algunos emoji dice que no están recomendados por interoperabilidad (RGI]
-# https://emojipedia.org/woman-in-business-suit-levitating-type-5/
+// 2018-08-30
+// Revisar
+// http://www.unicode.org/Public/emoji/11.0/emoji-variation-sequences.txt
+// http://www.unicode.org/Public/emoji/11.0/emoji-sequences.txt
+// http://www.unicode.org/Public/emoji/11.0/emoji-data.txt
+// http://unicode.org/reports/tr51/#valid-emoji-tag-sequences
+// https://unicode.org/emoji/charts/full-emoji-list.html
+//
+// En emojipedia en algunos emoji dice que no están recomendados por interoperabilidad (RGI]
+// https://emojipedia.org/woman-in-business-suit-levitating-type-5/
 
-# 2019-05-28
-# Añado símbolos Unicode 12.1
+// 2019-05-28
+// Añado símbolos Unicode 12.1
 
-# 2019-07-30
-# Añado info versión Unicode incluido para 10, 9, 8, 7, 6.3, 6.2, 6.1, 6.0, 5.2
+// 2019-07-30
+// Añado info versión Unicode incluido para 10, 9, 8, 7, 6.3, 6.2, 6.1, 6.0, 5.2
 
-# 2019-08-01
-# Añado info indicando si se ve en Windows 10
+// 2019-08-01
+// Añado info indicando si se ve en Windows 10
 
-# 2019-08-01
-# Añado info versión Unicode incluido para 5.1, 5.0, 4.1, 4.0, 3.2 y 3.1 parcialmente
+// 2019-08-01
+// Añado info versión Unicode incluido para 5.1, 5.0, 4.1, 4.0, 3.2 y 3.1 parcialmente
 
-# 2020-03-15
-# Añado símbolos Unicode 13.0
+// 2020-03-15
+// Añado símbolos Unicode 13.0
 
-# 2020-06-07
-# Aclarar si lo estoy incluyendo todo. Me faltan seguro los selectores FE0E y FE0F
-# https://unicode.org/reports/tr51/#valid-emoji-tag-sequences
-# https://www.unicode.org/Public/13.0.0/ucd/emoji/emoji-data.txt
-# https://www.unicode.org/Public/13.0.0/ucd/emoji/emoji-variation-sequences.txt
-# https://www.unicode.org/Public/emoji/13.0/emoji-sequences.txt
-# https://www.unicode.org/Public/emoji/13.0/emoji-zwj-sequences.txt
-# https://unicode.org/emoji/charts/full-emoji-list.html
-# https://unicode.org/emoji/charts/full-emoji-modifiers.html
+// 2020-06-07
+// Aclarar si lo estoy incluyendo todo. Me faltan seguro los selectores FE0E y FE0F
+// https://unicode.org/reports/tr51/#valid-emoji-tag-sequences
+// https://www.unicode.org/Public/13.0.0/ucd/emoji/emoji-data.txt
+// https://www.unicode.org/Public/13.0.0/ucd/emoji/emoji-data.txt
+// https://www.unicode.org/Public/13.0.0/ucd/emoji/emoji-variation-sequences.txt
+// https://www.unicode.org/Public/emoji/13.0/emoji-sequences.txt
+// https://www.unicode.org/Public/emoji/13.0/emoji-zwj-sequences.txt
+// https://www.unicode.org/Public/emoji/13.0/emoji-zwj-sequences.txt
+// https://unicode.org/emoji/charts/full-emoji-list.html
+// https://unicode.org/emoji/charts/full-emoji-modifiers.html
 
-# 0        - 1               - 2       - 3                     - 4                   - 5    - 6               - 7               - 8                             - 9            - 10
-# UCO      - UNV             - VS      - WIN                   - VSW                 - SHO  - TWE             - TWV             - TWO                           - DESC         - COME
-# [código] - versión unicode - VST/VSE - Carácter se ve en W10 - VS se ve en windows - show - Está en Twemoji - Versión Twemoji - origen Twemoji: HitHub/Fuente  - Descripción  - Comentario
-# Sólo hay comentarios en algunos
+// 0        - 1               - 2       - 3                     - 4                   - 5    - 6               - 7               - 8                             - 9            - 10
+// UCO      - UNV             - VS      - WIN                   - VSW                 - SHO  - TWE             - TWV             - TWO                           - DESC         - COME
+// [código] - versión unicode - VST/VSE - Carácter se ve en W10 - VS se ve en windows - show - Está en Twemoji - Versión Twemoji - origen Temoji: HitHub/Fuente  - Descripción  - Comentario
+// Sólo hay comentarios en algunos
 
-caracteres_unicode_seleccion = [
+$caracteres_unicode_seleccion = [
   [["00023"], "", "VST", "W10", "", "SHOW-YES", "", "", "", "number sign", "", ""],
   [["000A9"], "", "VST", "W10", "", "SHOW-YES", "TWE", "", "TCF", "copyright sign", "", ""],
   [["02122"], "", "VSE","W10", "", "SHOW-YES", "TWE", "", "TCF", "trade mark sign", "", ""],
   [["1F6D6"], "13", "", "", "", "SHOW-YES", "TWE", "", "TGH", "hut", "", ""],
-]
+];
 
-caracteres_unicode = [
-  # C0 Controls and Basic Latin
-  # U00000-c0-controls-and-basic-latin.pdf
-  # Range: 0000–007F
-  # 2020-06-12. las secuencias keycap no se consideran secuencias.
-  # Mirando https://www.unicode.org/Public/emoji/13.0/emoji-sequences.txt
-  # los codigos que son VST aparecen con FE0F
+$caracteres_unicode = [
+  // C0 Controls and Basic Latin
+  // U00000-c0-controls-and-basic-latin.pdf
+  // Range: 0000–007F
+  // 2020-06-12. las secuencias keycap no se consideran secuencias.
+  // Mirando https://www.unicode.org/Public/emoji/13.0/emoji-sequences.txt
+  // los codigos que son VST aparecen con FE0F
   [["00023"], "", "", "W10", "", "SHOW-YES", "", "", "", "number sign", ""],
   [["0002A"], "", "", "W10", "", "SHOW-YES", "", "", "", "asterisk", ""],
   [["00030"], "", "", "W10", "", "SHOW-YES", "", "", "", "digit zero", ""],
@@ -87,15 +90,15 @@ caracteres_unicode = [
   [["00038"], "", "", "W10", "", "SHOW-YES", "", "", "", "digit eight", ""],
   [["00039"], "", "", "W10", "", "SHOW-YES", "", "", "", "digit nine", ""],
 
-  # C1 Controls and Latin-1 Supplement
-  # U00080-c1-controls-and-latin-1-supplement.pdf
-  # Range: 0080–00FF
+  // C1 Controls and Latin-1 Supplement
+  // U00080-c1-controls-and-latin-1-supplement.pdf
+  // Range: 0080–00FF
   [["000A9"], "", "VST", "W10", "", "SHOW-YES", "TWE", "", "TCF", "copyright sign", ""],
   [["000AE"], "", "VST", "W10", "", "SHOW-YES", "TWE", "", "TCF", "registered sign", ""],
 
-  # General Punctuation
-  # U02000-general-punctuation.pdf
-  # Range: 2000–206F
+  // General Punctuation
+  // U02000-general-punctuation.pdf
+  // Range: 2000–206F
   [["0203C"], "", "VST", "W10", "", "SHOW-YES", "TWE", "", "TCF", "double exclamation mark", ""],
   [["02047"], "3.2", "", "W10", "", "SHOW-YES", "", "", "", "double question mark", ""],
   [["02049"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "exclamation question mark", ""],
@@ -122,9 +125,9 @@ caracteres_unicode = [
   [["02062"], "3.2", "", "W10", "", "SHOW-YES", "", "", "", "invisible times", ""],
   [["02063"], "3.2", "", "W10", "", "SHOW-YES", "", "", "", "invisible separator", ""],
 
-  # Currency symbols
-  # U020A0-currency-symbols.pdf
-  # Range: 020A0–020C0
+  // Currency symbols
+  // U020A0-currency-symbols.pdf
+  // Range: 020A0–020C0
   [["020A0"], "", "", "W10", "", "SHOW-YES", "", "", "", "euro currency sign", ""],
   [["020A1"], "", "", "W10", "", "SHOW-YES", "", "", "", "colon sing", ""],
   [["020A2"], "", "", "W10", "", "SHOW-YES", "", "", "", "cruzeiro sign", ""],
@@ -157,11 +160,11 @@ caracteres_unicode = [
   [["020BD"], "7", "", "W10", "", "SHOW-YES", "", "", "", "ruble sign", ""],
   [["020BE"], "8", "", "W10", "", "SHOW-YES", "", "", "", "lari sign", ""],
   [["020BF"], "10", "", "W10", "", "SHOW-YES", "", "", "", "bitcoin sign", ""],
-  [["020C0"], "14", "", "", "", "SHOW-YES", "", "", "", "som sign", ""],
+  [["020C0"], "14", "", "W10", "", "SHOW-YES", "", "", "", "som sign", ""],
 
-  # Letterlike Symbols
-  # U02100-letterlike-symbols.pdf
-  # Range: 2100–214F
+  // Letterlike Symbols
+  // U02100-letterlike-symbols.pdf
+  // Range: 2100–214F
   [["02122"], "", "VSE","W10", "", "SHOW-YES", "TWE", "", "TCF", "trade mark sign", ""],
   [["02139"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "information source", ""],
   [["0213B"], "4.0", "", "W10", "", "SHOW-YES", "", "", "", "facsimile sign", ""],
@@ -185,9 +188,9 @@ caracteres_unicode = [
   [["0214E"], "5.0", "", "W10", "", "SHOW-YES", "", "", "", "turned small f", ""],
   [["0214F"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "symbol for samaritan source", ""],
 
-  # Arrows
-  # U02190-arrows.pdf
-  # Range: 2190–21FF
+  // Arrows
+  // U02190-arrows.pdf
+  // Range: 2190–21FF
   [["02194"], "", "VST", "W10", "", "SHOW-YES", "TWE", "", "TCF", "left right arrow", ""],
   [["02195"], "", "VST", "W10", "", "SHOW-YES", "TWE", "", "TCF", "up down arrow", ""],
   [["02196"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "north west arrow", ""],
@@ -197,9 +200,9 @@ caracteres_unicode = [
   [["021A9"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "leftwards arrow with hook", ""],
   [["021AA"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "rightwards arrow with hook", ""],
 
-  # Miscellaneous Technical
-  # U02300-miscellaneous-technical.pdf
-  # Range: 2300–23FF
+  // Miscellaneous Technical
+  // U02300-miscellaneous-technical.pdf
+  // Range: 2300–23FF
   [["02300"], "", "", "W10", "", "SHOW-YES", "", "", "", "diameter sign", ""],
   [["02301"], "", "", "W10", "", "SHOW-YES", "", "", "", "electric arrow", ""],
   [["02302"], "", "", "W10", "", "SHOW-YES", "", "", "", "house", ""],
@@ -241,8 +244,8 @@ caracteres_unicode = [
   [["02326"], "", "", "W10", "", "SHOW-YES", "", "", "", "erase to the right", ""],
   [["02327"], "", "", "W10", "", "SHOW-YES", "", "", "", "x in a rectangle box", ""],
   [["02328"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "keyboard", ""],
-#  [["02329"], "", "", "W", "", "", "", "left-pointing angle bracket (obsoleto, no usar]", ""],
-#  [["0232A"], "", "", "W", "", "", "", "right-pointing angle bracket (obsoleto, no usar]", ""],
+//  [["02329"], "", "", "W", "", "", "", "left-pointing angle bracket (obsoleto, no usar]", ""],
+//  [["0232A"], "", "", "W", "", "", "", "right-pointing angle bracket (obsoleto, no usar]", ""],
   [["0232B"], "", "", "W10", "", "SHOW-YES", "", "", "", "erase to the left", ""],
   [["0232C"], "", "", "W10", "", "SHOW-YES", "", "", "", "benzene ring", ""],
   [["0232D"], "", "", "W10", "", "SHOW-YES", "", "", "", "cylindrity", ""],
@@ -457,15 +460,15 @@ caracteres_unicode = [
   [["023FE"], "9", "", "W10", "", "SHOW-YES", "", "", "", "power sleep symbol", ""],
   [["023FF"], "10", "", "", "", "SHOW-YES", "", "", "", "observer eye symbol", ""],
 
-  # Enclosed Alphanumerics
-  # U02460-enclosed-alphanumerics.pdf
-  # Range: 2460–24FF
+  // Enclosed Alphanumerics
+  // U02460-enclosed-alphanumerics.pdf
+  // Range: 2460–24FF
   [["024C2"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "circled latin capital letter m", ""],
-  # [["024FF"], "4.0", "", "W", "", "", "", "negative circled digit zero", ""],
+  // [["024FF"], "4.0", "", "W", "", "", "", "negative circled digit zero", ""],
 
-  # Box Drawing
-  # U02500-box-drawing.pdf
-  # Range: 2500–257F
+  // Box Drawing
+  // U02500-box-drawing.pdf
+  // Range: 2500–257F
   [["02500"], "", "", "W10", "", "SHOW-YES", "", "", "", "box drawings light horizontal", ""],
   [["02501"], "", "", "W10", "", "SHOW-YES", "", "", "", "box drawings heavy horizontal", ""],
   [["02502"], "", "", "W10", "", "SHOW-YES", "", "", "", "box drawings light vertical", ""],
@@ -595,9 +598,9 @@ caracteres_unicode = [
   [["0257E"], "", "", "W10", "", "SHOW-YES", "", "", "", "box drawings heavy left and light right", ""],
   [["0257F"], "", "", "W10", "", "SHOW-YES", "", "", "", "box drawings heavy up and light down", ""],
 
-  # Geometric Shapes
-  # U025A0-geometric-shapes.pdf
-  # Range: 25A0–25FF
+  // Geometric Shapes
+  // U025A0-geometric-shapes.pdf
+  //Range: 25A0–25FF
   [["025AA"], "", "VSE","W10", "", "SHOW-YES", "TWE", "", "TCF", "black small square", ""],
   [["025AB"], "", "VSE","W10", "", "SHOW-YES", "TWE", "", "TCF", "white small square", ""],
   [["025B6"], "", "VSE","W10", "", "SHOW-YES", "TWE", "", "TCF", "black right-pointing triangle", ""],
@@ -611,9 +614,9 @@ caracteres_unicode = [
   [["025FE"], "3.2", "VSE","W10", "", "SHOW-YES", "TWE", "", "TCF", "black medium small square", ""],
   [["025FF"], "3.2", "", "W10", "", "SHOW-YES", "", "", "", "lower right triangle", ""],
 
-  # Miscellaneous Symbols
-  # U02600-miscellaneous-symbols.pdf
-  # Range: 2600–26FF
+  // Miscellaneous Symbols
+  // U02600-miscellaneous-symbols.pdf
+  // Range: 2600–26FF
   [["02600"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "black sun with rays", ""],
   [["02601"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "cloud", ""],
   [["02602"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "umbrella", ""],
@@ -871,9 +874,9 @@ caracteres_unicode = [
   [["026FE"], "5.2", "", "W10", "", "SHOW-YES", "", "", "", "cup on black square", ""],
   [["026FF"], "5.2", "", "W10", "", "SHOW-YES", "", "", "", "white flag with horizontal middle black stripe", ""],
 
-  # Dingbats
-  # U02700-dingbats.pdf
-  # Range: 2700–27BF
+  // Dingbats
+  // U02700-dingbats.pdf
+  // Range: 2700–27BF
   [["02700"], "", "", "W10", "", "SHOW-YES", "", "", "", "black safety scissors", ""],
   [["02701"], "", "", "W10", "", "SHOW-YES", "", "", "", "upper blade scissors", ""],
   [["02702"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "black scissors", ""],
@@ -1067,16 +1070,16 @@ caracteres_unicode = [
   [["027BE"], "", "", "W10", "", "SHOW-YES", "", "", "", "open-outlined rightwards arrow", ""],
   [["027BF"], "6.0", "VSE", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "double curly loop", ""],
 
-  # Supplemental Arrows-B
-  # U02900-supplemental-arrows-b.pdf
-  # Range: 2900–297F
-  # Todos los caracteres se añadieron en Unicode 3.2
+  // Supplemental Arrows-B
+  // U02900-supplemental-arrows-b.pdf
+  // Range: 2900–297F
+  // Todos los caracteres se añadieron en Unicode 3.2
   [["02934"], "3.2", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "arrow pointing rightwards then curving upwards", ""],
   [["02935"], "3.2", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "arrow pointing rightwards then curving downwards", ""],
 
-  # Miscellaneous Symbols and Arrows
-  # U02B00-miscellaneous-symbols-and-arrows.pdf
-  # Range: 2B00–2BFF
+  // Miscellaneous Symbols and Arrows
+  // U02B00-miscellaneous-symbols-and-arrows.pdf
+  // Range: 2B00–2BFF
   [["02B00"], "4.0", "", "W10", "", "SHOW-YES", "", "", "", "north east white arrow", ""],
   [["02B01"], "4.0", "", "W10", "", "SHOW-YES", "", "", "", "north west white arrow", ""],
   [["02B02"], "4.0", "", "W10", "", "SHOW-YES", "", "", "", "south east white arrow", ""],
@@ -1331,17 +1334,17 @@ caracteres_unicode = [
   [["02BFE"], "11", "", "", "", "SHOW-YES", "", "", "", "reversed rith angle", ""],
   [["02BFF"], "12", "", "", "", "SHOW-YES", "", "", "", "hellschreiber pause symbol", ""],
 
-  # CJK Symbols and Punctuation
-  # U03000-cjk-symbols-and-punctuation.pdf
-  # Range: 3000–303F
+  // CJK Symbols and Punctuation
+  // U03000-cjk-symbols-and-punctuation.pdf
+  // Range: 3000–303F
   [["03030"], "", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "wavy dash", ""],
   [["0303B"], "3.2", "", "W10", "", "SHOW-YES", "", "", "", "vertical ideographic iteration mark", ""],
   [["0303C"], "3.2", "", "W10", "", "SHOW-YES", "", "", "", "masu mark", ""],
   [["0303D"], "3.2", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "part alternation mark", ""],
 
-  # Enclosed CJK Letters and Months
-  # U03200-enclosed-cjk-letters-and-months.pdf
-  # Range: 3200–32FF
+  // Enclosed CJK Letters and Months
+  // U03200-enclosed-cjk-letters-and-months.pdf
+  // Range: 3200–32FF
   [["0321D"], "4.0", "", "W10", "", "SHOW-YES", "", "", "", "parenthesized hangul kiyeok a", ""],
   [["0321E"], "4.0", "", "W10", "", "SHOW-YES", "", "", "", "parenthesized hangul nieun a", ""],
   [["03244"], "5.2", "", "W10", "", "SHOW-YES", "", "", "", "circled ideograph question", ""],
@@ -1397,19 +1400,19 @@ caracteres_unicode = [
   [["032CE"], "4.0", "", "W10", "", "SHOW-YES", "", "", "", "square ev", ""],
   [["032CF"], "4.0", "", "W10", "", "SHOW-YES", "", "", "", "limited liability sign", ""],
 
-  # Mahjong Tiles
-  # U1F000-mahjong-tiles.pdf
-  # Range: 1F000–1F02F
+  // Mahjong Tiles
+  // U1F000-mahjong-tiles.pdf
+  // Range: 1F000–1F02F
   [["1F004"], "5.1", "VSE", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "mahjong tile red dragon", ""],
 
-  # Playing Cards
-  # U1F0A0-playing-cards.pdf
-  # Range: 1F0A0–1F0FF
+  // Playing Cards
+  // U1F0A0-playing-cards.pdf
+  // Range: 1F0A0–1F0FF
   [["1F0CF"], "6.0", "VSE", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "playing card black joker", ""],
 
-  # Enclosed Alphanumeric Supplement
-  # U1F100-enclosed-alphanumeric-supplement.pdf
-  # Range: 1F100–1F1FF
+  // Enclosed Alphanumeric Supplement
+  // U1F100-enclosed-alphanumeric-supplement.pdf
+  // Range: 1F100–1F1FF
   [["1F10D"], "13", "", "", "", "SHOW-YES", "", "", "", "no rights reserved", ""],
   [["1F10E"], "13", "", "", "", "SHOW-YES", "", "", "", "share alike", ""],
   [["1F10F"], "13", "", "", "", "SHOW-YES", "", "", "", "non commercial", ""],
@@ -1467,9 +1470,9 @@ caracteres_unicode = [
   [["1F1FE"], "6.0", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "regional indicator symbol letter y", ""],
   [["1F1FF"], "6.0", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "regional indicator symbol letter z", ""],
 
-  # Enclosed Ideographic Supplement
-  # U1F200-enclosed-ideographic-supplement.pdf
-  # Range: 1F200–1F2FF
+  // Enclosed Ideographic Supplement
+  // U1F200-enclosed-ideographic-supplement.pdf
+  // Range: 1F200–1F2FF
   [["1F200"], "", "", "W10", "", "SHOW-YES", "", "", "", "squared hiragana hoka", ""],
   [["1F201"], "6.0", "VSE", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "squared katakana koko", ""],
   [["1F202"], "6.0", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "squared katakana sa", ""],
@@ -1535,9 +1538,9 @@ caracteres_unicode = [
   [["1F264"], "10", "", "", "", "SHOW-YES", "", "", "", "rounded symbol for shuangxi", ""],
   [["1F265"], "10", "", "", "", "SHOW-YES", "", "", "", "rounded symbol for cai", ""],
 
-  # Miscellaneous Symbols and Pictographs
-  # U1F300-miscellaneous-symbols-and-pictographs.pdf
-  # Range: 1F300–1F5FF
+  // Miscellaneous Symbols and Pictographs
+  // U1F300-miscellaneous-symbols-and-pictographs.pdf
+  // Range: 1F300–1F5FF
   [["1F300"], "6.0", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "cyclone", ""],
   [["1F301"], "6.0", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "foggy", ""],
   [["1F302"], "6.0", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "closed umbrella", ""],
@@ -2307,9 +2310,9 @@ caracteres_unicode = [
   [["1F5FE"], "6.0", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "silhouette of japan", ""],
   [["1F5FF"], "6.0", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "moyai", ""],
 
-  # Emoticons
-  # U1F600-emoticons.pdf
-  # Range: 1F600–1F64F
+  // Emoticons
+  // U1F600-emoticons.pdf
+  // Range: 1F600–1F64F
   [["1F600"], "6.1", "VSE", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "grinning face", ""],
   [["1F601"], "6.0", "VSE", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "grinning face with smiling eyes", ""],
   [["1F602"], "6.0", "VSE", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "face with tears of joy", ""],
@@ -2391,9 +2394,9 @@ caracteres_unicode = [
   [["1F64E"], "6.0", "VSE", "W10", "VSW","SHOW-YES", "TWE", "", "TCF", "person with pouting face", ""],
   [["1F64F"], "6.0", "VSE", "W10", "VSW","SHOW-YES", "TWE", "", "TCF", "person with folded hands", ""],
 
-  # Transport and Map Symbols
-  # U1F680-transport-and-map-symbols.pdf
-  # Range: 1F680–1F6FF
+  // Transport and Map Symbols
+  // U1F680-transport-and-map-symbols.pdf
+  // Range: 1F680–1F6FF
   [["1F680"], "6.0", "VSE", "W10", "VSW","SHOW-YES", "TWE", "", "TCF", "rocket", ""],
   [["1F681"], "6.0", "VSE", "W10", "VSW","SHOW-YES", "TWE", "", "TCF", "helicopter", ""],
   [["1F682"], "6.0", "VSE", "W10", "VSW","SHOW-YES", "TWE", "", "TCF", "steam locomotive", ""],
@@ -2482,9 +2485,9 @@ caracteres_unicode = [
   [["1F6D5"], "12", "", "W10", "","SHOW-YES", "TWE", "", "TCF", "hindu temple", ""],
   [["1F6D6"], "13", "", "", "", "SHOW-YES", "TWE", "", "TGH", "hut", ""],
   [["1F6D7"], "13", "", "", "", "SHOW-YES", "TWE", "", "TGH", "elevator", ""],
-  [["1F6DD"], "14", "", "", "", "SHOW-YES", "", "", "", "playground slide", ""],
-  [["1F6DE"], "14", "", "", "", "SHOW-YES", "", "", "", "wheel", ""],
-  [["1F6DF"], "14", "", "", "", "SHOW-YES", "", "", "", "ring buoy", ""],
+  [["1F6DD"], "14", "", "", "", "SHOW-YES", "TWE", "", "TGH", "playground slide", ""],
+  [["1F6DE"], "14", "", "", "", "SHOW-YES", "TWE", "", "TGH", "wheel", ""],
+  [["1F6DF"], "14", "", "", "", "SHOW-YES", "TWE", "", "TGH", "ring buoy", ""],
   [["1F6E0"], "7", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "hammer and wrench", ""],
   [["1F6E1"], "7", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "shield", ""],
   [["1F6E2"], "7", "VST", "W10", "VSW", "SHOW-YES", "TWE", "", "TCF", "oil drum", ""],
@@ -2512,9 +2515,9 @@ caracteres_unicode = [
   [["1F6FB"], "13", "", "", "", "SHOW-YES", "TWE", "", "TGH", "pickup truck", ""],
   [["1F6FC"], "13", "", "", "", "SHOW-YES", "TWE", "", "TGH", "roller skate", ""],
 
-  # Geometric Shapes Extended
-  # U1F780-geometric-shapes-extended.pdf
-  # Range: 1F780–1F7FF
+  // Geometric Shapes Extended
+  // U1F780-geometric-shapes-extended.pdf
+  // Range: 1F780–1F7FF
   [["1F780"], "7", "", "W10", "", "SHOW-YES", "", "", "", "black left-pointing isosceles right triangle", ""],
   [["1F781"], "7", "", "W10", "", "SHOW-YES", "", "", "", "black up-pointing isosceles right triangle", ""],
   [["1F782"], "7", "", "W10", "", "SHOW-YES", "", "", "", "black right-pointing isosceles right triangle", ""],
@@ -2584,7 +2587,7 @@ caracteres_unicode = [
   [["1F7C2"], "7", "", "W10", "", "SHOW-YES", "", "", "", "three pointed black star", ""],
   [["1F7C3"], "7", "", "W10", "", "SHOW-YES", "", "", "", "medium three pointed black star", ""],
   [["1F7C4"], "7", "", "W10", "", "SHOW-YES", "", "", "", "light four pointed black star", ""],
-  [["1F7C5"], "7", "", "", "", "SHOW-YES", "", "", "", "medium four pointed black star", ""],
+  [["1F7C5"], "7", "", "W1", "", "SHOW-YES", "", "", "", "medium four pointed black star", ""],
   [["1F7C6"], "7", "", "W10", "", "SHOW-YES", "", "", "", "four pointed black star", ""],
   [["1F7C7"], "7", "", "W10", "", "SHOW-YES", "", "", "", "medium four pointed pinwheel star", ""],
   [["1F7C8"], "7", "", "W10", "", "SHOW-YES", "", "", "", "reverse light four pointed pinwheel star", ""],
@@ -2618,9 +2621,9 @@ caracteres_unicode = [
   [["1F7EB"], "12", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "large brown square", ""],
   [["1F7F0"], "14", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "heavy equals sign", ""],
 
-  # Supplemental Symbols and Pictographs
-  # U1F900-supplemental-symbols-and-pictographs.pdf
-  # Range: 1F900–1F9FF
+  // Supplemental Symbols and Pictographs
+  // U1F900-supplemental-symbols-and-pictographs.pdf
+  // Range: 1F900–1F9FF
   [["1F900"], "10", "", "", "", "SHOW-YES", "", "", "", "circled cross formee with four dots", ""],
   [["1F901"], "10", "", "", "", "SHOW-YES", "", "", "", "circled cross formee with two dots", ""],
   [["1F902"], "10", "", "", "", "SHOW-YES", "", "", "", "circled cross formee", ""],
@@ -2878,9 +2881,9 @@ caracteres_unicode = [
   [["1F9FE"], "11", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "receipt", ""],
   [["1F9FF"], "11", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "nazar amulet", ""],
 
-  # Chess Symbols
-  # U1FA00-chess-symbols.pdf
-  # Range: 1FA00–1FA6F
+  // Chess Symbols
+  // U1FA00-chess-symbols.pdf
+  // Range: 1FA00–1FA6F
   [["1FA00"], "12", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "neutral chess king", ""],
   [["1FA01"], "12", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "neutral chess queen", ""],
   [["1FA02"], "12", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "neutral chess rook", ""],
@@ -2980,10 +2983,9 @@ caracteres_unicode = [
   [["1FA6C"], "11", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "xiangqi black cannon", ""],
   [["1FA6D"], "11", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "xiangqi black soldier", ""],
 
-
-  # Symbols and Pictographs Extended-A
-  # U1FA70-symbols-and-pictographs-extended-a.pdf
-  # Range: 1FA70–1FAFF
+  // Symbols and Pictographs Extended-A
+  // U1FA70-symbols-and-pictographs-extended-a.pdf
+  // Range: 1FA70–1FAFF
   [["1FA70"], "12", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "ballet shoes", ""],
   [["1FA71"], "12", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "one-piece swimsuit", ""],
   [["1FA72"], "12", "", "W10", "", "SHOW-YES", "TWE", "", "TCF", "briefs", ""],
@@ -3073,9 +3075,9 @@ caracteres_unicode = [
   [["1FAF5"], "14", "", "", "", "SHOW-YES", "TWE", "", "TGH", "index pointing at the viewer", ""],
   [["1FAF6"], "14", "", "", "", "SHOW-YES", "TWE", "", "TGH", "heart hands", ""],
 
-  # Symbols for Legacy Computing
-  # U1FB00-symbols-legacy-computing.pdf
-  # Range: 1FB00–1FBFF
+  // Symbols for Legacy Computing
+  // U1FB00-symbols-legacy-computing.pdf
+  // Range: 1FB00–1FBFF
   [["1FB00"], "13", "", "", "", "SHOW-YES", "", "", "", "block sextant-1", ""],
   [["1FB01"], "13", "", "", "", "SHOW-YES", "", "", "", "block sextant-2", ""],
   [["1FB02"], "13", "", "", "", "SHOW-YES", "", "", "", "block sextant-12", ""],
@@ -3288,11 +3290,11 @@ caracteres_unicode = [
   [["1FBF7"], "13", "", "", "", "SHOW-YES", "", "", "", "segmented digit seven", ""],
   [["1FBF8"], "13", "", "", "", "SHOW-YES", "", "", "", "segmented digit eight", ""],
   [["1FBF9"], "13", "", "", "", "SHOW-YES", "", "", "", "segmented digit nine", ""],
-  # ];
+  // ];
 
-  # /*
-    # Estos caracteres no sé si vale la pena enseñarlos
-    # Musical Symbols
+  // /*
+    // Estos caracteres no sé si vale la pena enseñarlos
+    // Musical Symbols
   [["1D100"], "5.0", "", "W10", "", "SHOW-YES", "", "", "", "musical symbol single barline", ""],
   [["1D101"], "5.0", "", "W10", "", "SHOW-YES", "", "", "", "musical symbol double barline", ""],
   [["1D102"], "5.0", "", "W10", "", "SHOW-YES", "", "", "", "musical symbol final barline", ""],
@@ -3524,10 +3526,10 @@ caracteres_unicode = [
   [["1D1E6"], "8", "", "W10", "", "SHOW-YES", "", "", "", "musical symbol kievan eighth note stem down", ""],
   [["1D1E7"], "8", "", "W10", "", "SHOW-YES", "", "", "", "musical symbol kievan eighth note stem up", ""],
   [["1D1E8"], "8", "", "W10", "", "SHOW-YES", "", "", "", "musical symbol flat sign", ""],
-  [["1D1E9"], "14", "", "", "", "SHOW-YES", "", "", "", "musical symbol sori", ""],
-  [["1D1EA"], "14", "", "", "", "SHOW-YES", "", "", "", "musical symbol koron", ""],
+  [["1D1E9"], "14", "", "W10", "", "SHOW-YES", "", "", "", "musical symbol sori", ""],
+  [["1D1EA"], "14", "", "W10", "", "SHOW-YES", "", "", "", "musical symbol koron", ""],
 
-  # Mahjong Tiles
+  // Mahjong Tiles
   [["1F000"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "mahjong tile east wind", ""],
   [["1F001"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "mahjong tile south wind", ""],
   [["1F002"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "mahjong tile west wind", ""],
@@ -3572,7 +3574,7 @@ caracteres_unicode = [
   [["1F02A"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "mahjong tile joker", ""],
   [["1F02B"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "mahjong tile back", ""],
 
-  # Domino Tiles
+  // Domino Tiles
   [["1F030"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "domino tile horizontal back", ""],
   [["1F031"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "domino tile horizontal-00-00", ""],
   [["1F032"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "domino tile horizontal-00-01", ""],
@@ -3674,7 +3676,7 @@ caracteres_unicode = [
   [["1F092"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "domino tile vertical-06-05", ""],
   [["1F093"], "5.1", "", "W10", "", "SHOW-YES", "", "", "", "domino tile vertical-06-06", ""],
 
-  # Playing Cards
+  // Playing Cards
   [["1F0A0"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "playing card back", ""],
   [["1F0A1"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "playing card ace of spades", ""],
   [["1F0A2"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "playing card two of spades", ""],
@@ -3757,7 +3759,7 @@ caracteres_unicode = [
   [["1F0F4"], "7", "", "W10", "", "SHOW-YES", "", "", "", "playing card trump-20", ""],
   [["1F0F5"], "7", "", "W10", "", "SHOW-YES", "", "", "", "playing card trump-21", ""],
 
-  # Ornamental Dingbats
+  // Ornamental Dingbats
   [["1F650"], "7", "", "W10", "", "SHOW-YES", "", "", "", "north west pointing leaf", ""],
   [["1F651"], "7", "", "W10", "", "SHOW-YES", "", "", "", "south west pointing leaf", ""],
   [["1F652"], "7", "", "W10", "", "SHOW-YES", "", "", "", "north east pointing leaf", ""],
@@ -3807,7 +3809,7 @@ caracteres_unicode = [
   [["1F67E"], "7", "", "W10", "", "SHOW-YES", "", "", "", "checker board", ""],
   [["1F67F"], "7", "", "W10", "", "SHOW-YES", "", "", "", "reverse checker board", ""],
 
-  # Alchemical Symbols
+  // Alchemical Symbols
   [["1F700"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "alchemical symbol for quintessence", ""],
   [["1F701"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "alchemical symbol for air", ""],
   [["1F702"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "alchemical symbol for fire", ""],
@@ -3924,4 +3926,4 @@ caracteres_unicode = [
   [["1F771"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "alchemical symbol for month", ""],
   [["1F772"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "alchemical symbol for half dram", ""],
   [["1F773"], "6.0", "", "W10", "", "SHOW-YES", "", "", "", "alchemical symbol for half ounce", ""],
-]
+];

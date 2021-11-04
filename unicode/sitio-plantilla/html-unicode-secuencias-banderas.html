@@ -5,17 +5,17 @@
   <title>Banderas y otras. Secuencias Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
-  <link rel="icon" href="../varios/favicon.ico">
+  <link rel="icon" href="../varios/favicon.svg">
   <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
   <style>
     @font-face {
       font-family: "Symbola";
-      src: url("unicode/Symbola.otf");
+      src: url("unicode/Symbola.ttf");
     }
 
     @font-face {
       font-family: "Twemoji";
-      src: url("unicode/TwitterColorEmoji-SVGinOT.ttf");
+      src: url("unicode/TwemojiMozilla.ttf");
     }
 
     div.u-l {
@@ -110,7 +110,7 @@
 
   <nav>
     <p>
-      <a href="../index.html"><img src="../varios/iconos/icono-html5.svg" alt="Índice de HTML/CSS" title="Índice de HTML/CSS" width="42" height="48"></a>
+      <a href="../index.html"><img src="../varios/iconos/icono-html.svg" alt="Home" title="Ir a página de inicio" width="42" height="48"></a>
       <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>
     </p>
 
@@ -137,12 +137,12 @@
   <p>Esta página es la tercera de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
   <ul>
     <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
-    <li><a href="html-unicode-dibujos.html">Dibujos</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
+    <li><a href="html-unicode-dibujos.html">Emojis</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
     <li><a href="html-unicode-secuencias-banderas.html">Banderas</a>, que muestra las secuencias Unicode que corresponden a banderas</li>
     <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
     <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
     <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
-    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no admiten actualmente</li>
+    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
   </ul>
 
   <section id="info">
@@ -152,10 +152,10 @@
 
     <ul>
       <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
-      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra el código Unicode en un cuadrado de borde negro)
+      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra un rectángulo de borde negro con el código Unicode en caracteres muy pequeños):
         <ul>
           <li>la fuente <span class="css-valor">sans-serif</span> (la fuente aplicada depende del sistema operativo, del navegador e incluso del carácter, por lo que se recomienda ver esta lección en Firefox y Chrome)</li>
-          <li>la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a>, que utiliza Firefox en Windows 7. Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
+          <li>la fuente <a href="https://github.com/mozilla/twemoji-colr">twemoji-colr</a> (esta fuente es la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a> en formato COLR/CPAL). Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
         </ul>
       </li>
       <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
