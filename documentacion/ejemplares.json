@@ -760,6 +760,17 @@
       "creado": "2021-10-08"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 220,
+      "año": 2021,
+      "mes": 11,
+      "portada": "custom-pc-220-en-202111.jpg",
+      "fichero": "custom-pc-220-en-202111.pdf",
+      "idioma": "inglés",
+      "creado": "2021-11-05"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -5686,6 +5697,17 @@
       "fichero": "insecure-69-en-202107.pdf",
       "idioma": "inglés",
       "creado": "2021-07-16"
+    },
+    {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
+      "número": 70,
+      "año": 2021,
+      "mes": 11,
+      "portada": "insecure-70-en-202111.jpg",
+      "fichero": "insecure-70-en-202111.pdf",
+      "idioma": "inglés",
+      "creado": "2021-11-05"
     },
     {
       "serie": "JOLTS",
@@ -13683,6 +13705,17 @@
       "fichero": "wireframe-55-en-202110.pdf",
       "idioma": "inglés",
       "creado": "2021-10-08"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 56,
+      "año": 2021,
+      "mes": 11,
+      "portada": "wireframe-56-en-202111.jpg",
+      "fichero": "wireframe-56-en-202111.pdf",
+      "idioma": "inglés",
+      "creado": "2021-11-05"
     },
     {
       "serie": "Wireframe Books",
