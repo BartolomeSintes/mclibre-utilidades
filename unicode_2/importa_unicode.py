@@ -4,6 +4,7 @@ import sys
 emoji_test = []
 emoji_data = emoji_data_simbolos = emoji_data_componentes = []
 emoji_variation_sequences = []
+emoji_zwj_sequences = []
 
 
 def importa_fichero_emoji_test():
@@ -254,6 +255,72 @@ def importa_fichero_emoji_variation_sequence():
     return importado
 
 
+def importa_fichero_emoji_zwj_sequences():
+    print(f"TRATANDO {gendef.FICHERO_EMOJI_ZWJ_SEQUENCES}")
+    print(f"  importando ...")
+    importado = []
+    with open(
+        gendef.UNICODE_ORIGINAL_DIR + gendef.FICHERO_EMOJI_ZWJ_SEQUENCES,
+        mode="r",
+        encoding="utf-8",
+    ) as f:
+        grupo = ""
+        for line in f:
+            if line[:25] == "# RGI_Emoji_ZWJ_Sequence:":
+                grupo = line[26:-1]
+            if line[0] != "#" and line[0] != "\n":
+                linea = []
+                # print(line)
+                corta = line.find(";")
+                resto = line
+                linea += [resto[:corta].strip()]
+                linea[0] = linea[0].split(" ")
+                resto = [resto[corta + 1 :].strip()]
+                corta = resto[0].find(";")
+                linea += [resto[0][:corta].strip()]
+                resto = [resto[0][corta + 1 :].strip()]
+                corta = resto[0].find("# E")
+                if corta != -1:
+                    linea += [resto[0][:corta].strip()]
+                    resto = [resto[0][corta + 3 :].strip()]
+                else:
+                    corta = resto[0].find("#E")
+                    linea += [resto[0][:corta].strip()]
+                    resto = [resto[0][corta + 2 :].strip()]
+                corta = resto[0].find("[")
+                linea += [resto[0][:corta].strip()]
+                resto = [resto[0][corta + 1 :].strip()]
+                corta = resto[0].find("] (")
+                linea += [resto[0][:corta].strip()]
+                resto = [resto[0][corta + 3 :].strip()]
+                corta = resto[0].find(")")
+                linea += [resto[0][:corta].strip()]
+                linea += [grupo]
+                importado += [linea]
+    print(f"  comprobando ...")
+    for elemento in importado:
+        if elemento[1] != "RGI_Emoji_ZWJ_Sequence":
+            print("Valor inesperado en campo [1]:", elemento[1])
+        if elemento[3] not in [
+            "2.0",
+            "4.0",
+            "5.0",
+            "11.0",
+            "12.0",
+            "12.1",
+            "13.0",
+            "13.1",
+            "14.0",
+        ]:
+            print("Valor inesperado en campo [3]:", elemento[3])
+            print(elemento)
+            input
+
+    for i in range(10):
+        print(importado[i])
+    return importado
+
+
 def exporta_matrices():
     destino = gendef.FICHERO_IMPORTADO
     print(f"CREANDO {destino}")
@@ -286,10 +353,11 @@ def exporta_matrices():
 
 def main():
     global emoji_test, emoji_data, emoji_variation_sequences
-    emoji_test = importa_fichero_emoji_test()
-    emoji_data = importa_fichero_emoji_data()
-    emoji_variation_sequences = importa_fichero_emoji_variation_sequence()
-    exporta_matrices()
+    # emoji_test = importa_fichero_emoji_test()
+    # emoji_data = importa_fichero_emoji_data()
+    # emoji_variation_sequences = importa_fichero_emoji_variation_sequence()
+    emoji_zwj_sequences = importa_fichero_emoji_zwj_sequences()
+    # exporta_matrices()
 
 
 if __name__ == "__main__":
