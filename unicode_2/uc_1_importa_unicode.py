@@ -407,7 +407,7 @@ def importa_fichero_emoji_sequences():
     return importado
 
 
-def exporta_matrices():
+def exporta_listas():
     destino = gendef.FICHERO_IMPORTADO
     print()
     print(f"  CREANDO {destino}")
@@ -465,7 +465,7 @@ def importa_unicode():
         emoji_variation_sequences = importa_fichero_emoji_variation_sequence()
         emoji_zwj_sequences = importa_fichero_emoji_zwj_sequences()
         emoji_sequences = importa_fichero_emoji_sequences()
-        exporta_matrices()
+        exporta_listas()
     print()
     print("  Programa terminado.")
     print()

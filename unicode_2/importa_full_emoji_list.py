@@ -161,7 +161,7 @@ def importa_fichero_full_emoji_list():
             else:
                 full_emoji_list[i][3] = [full_emoji_list[i][3][2:]]
 
-def exporta_matrices():
+def exporta_listas():
     global full_emoji_list
     destino = gendef.FICHERO_EMOJI_FULL_LIST_LISTA
     print(f"CREANDO {destino}")
@@ -181,7 +181,7 @@ def exporta_matrices():
 
 def main():
     importa_fichero_full_emoji_list()
-    exporta_matrices()
+    exporta_listas()
 
 
 if __name__ == "__main__":

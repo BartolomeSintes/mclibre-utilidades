@@ -161,7 +161,7 @@ def importa_fichero_full_emoji_modifier_sequences():
             else:
                 full_emoji_modifier_sequences[i][3] = [full_emoji_modifier_sequences[i][3][2:]]
 
-def exporta_matrices():
+def exporta_listas():
     global full_emoji_modifier_sequences
     destino = gendef.FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST_LISTA
     print(f"CREANDO {destino}")
@@ -181,7 +181,7 @@ def exporta_matrices():
 
 def main():
     importa_fichero_full_emoji_modifier_sequences()
-    exporta_matrices()
+    exporta_listas()
 
 
 if __name__ == "__main__":
