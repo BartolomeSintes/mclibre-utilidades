@@ -4,6 +4,7 @@ import pathlib
 import sys
 import unicode_txt_importados as imp
 import unicode_full_emoji_list as imp2
+import unicode_full_emoji_modifier_sequences_list as imp3
 
 fusionados = []
 
@@ -34,6 +35,22 @@ def fusion_1():
             [
                 imp2.full_emoji_list[i][3],
                 [imp2.full_emoji_list[i][:3] + imp2.full_emoji_list[i][4:]],
+                [],
+                [],
+                [],
+                [],
+                [],
+            ]
+        ]
+    # Añado full_emoji_modifier_sequences_list a fusionados
+    for i in range(len(imp3.full_emoji_modifier_sequences)):
+        fusionados += [
+            [
+                imp3.full_emoji_modifier_sequences[i][3],
+                [
+                    imp3.full_emoji_modifier_sequences[i][:3]
+                    + imp3.full_emoji_modifier_sequences[i][4:]
+                ],
                 [],
                 [],
                 [],
@@ -121,7 +138,7 @@ def fusion_2():
     global fusionados
 
 
-def exporta_matrices():
+def exporta_listas():
     destino = gendef.FICHERO_FUSIONADO
     print()
     print(f"  CREANDO {destino}")
@@ -144,9 +161,8 @@ def exporta_matrices():
         fichero.write(t)
 
 
-# def fusiona_matrices_unicode():
-def main():
-    print("2. FUSIONANDO MATRICES UNICODE ORIGINALES EN UNA MATRIZ")
+def fusiona_listas_unicode():
+    print("2. FUSIONANDO LISTAS UNICODE ORIGINALES EN UNA LISTA")
     # Comprueba si el fichero de destino existe y pide confirmación para sobreescribirlo
     p = pathlib.Path(gendef.FICHERO_FUSIONADO)
     respuesta = "N"
@@ -160,11 +176,7 @@ def main():
     if not p.exists():
         fusion_1()
         fusion_2()
-        exporta_matrices()
+        exporta_listas()
     print()
     print("  Programa terminado.")
     print()
-
-
-if __name__ == "__main__":
-    main()
