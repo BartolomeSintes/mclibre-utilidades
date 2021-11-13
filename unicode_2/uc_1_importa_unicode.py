@@ -160,6 +160,8 @@ def importa_fichero_emoji_data():
                 importado[i + j + 1 : i + j + 1] = [tmp]
             del importado[i]
             # print()
+    for i in range(len(importado)):
+        importado[i][0] = importado[i][0].split(" ")
     # # Esto está pendiente de hacer
     # # Elimino los elementos que son componentes que van a parar a emoji_data_componentes
     # print("  separando componentes ...")
@@ -236,7 +238,7 @@ def importa_fichero_emoji_variation_sequence():
                 corta = resto[0].find(")")
                 linea += [resto[0][:corta].strip()]
                 # nombre
-                linea += [resto[0][corta + 1 :].strip()]
+                linea += [resto[0][corta + 1 :].strip().lower()]
                 importado += [linea]
     print(f"    comprobando ...")
     for elemento in importado:
@@ -298,7 +300,8 @@ def importa_fichero_emoji_zwj_sequences():
                 linea += [resto[0][:corta].strip()]
                 resto = [resto[0][corta + 1 :].strip()]
                 corta = resto[0].find("] (")
-                linea += [resto[0][:corta].strip()]
+                # No guardo este valor porque es siempre [1]
+                # linea += [resto[0][:corta].strip()]
                 resto = [resto[0][corta + 3 :].strip()]
                 corta = resto[0].find(")")
                 linea += [resto[0][:corta].strip()]
@@ -323,6 +326,7 @@ def importa_fichero_emoji_zwj_sequences():
             print(elemento)
 
     return importado
+
 
 def importa_fichero_emoji_sequences():
     print()
@@ -363,7 +367,7 @@ def importa_fichero_emoji_sequences():
             "Emoji_Keycap_Sequence",
             "RGI_Emoji_Flag_Sequence",
             "RGI_Emoji_Tag_Sequence",
-            "RGI_Emoji_Modifier_Sequence"
+            "RGI_Emoji_Modifier_Sequence",
         ]:
             print("    Valor inesperado en campo [1]:", elemento[1])
         if elemento[3] not in [
@@ -394,6 +398,8 @@ def importa_fichero_emoji_sequences():
                 del tmp[1]
                 importado[i + j + 1 : i + j + 1] = [tmp]
             del importado[i]
+    for i in range(len(importado)):
+        importado[i][0] = importado[i][0].split(" ")
     print("    eliminando campo caracteres ...")
     for i in range(len(importado) - 1, -1, -1):
         del importado[i][4]
@@ -442,8 +448,9 @@ def exporta_matrices():
 
 
 def importa_unicode():
+    global emoji_test, emoji_data, emoji_variation_sequences, emoji_zwj_sequences, emoji_sequences
     print("1. IMPORTANDO FICHEROS UNICODE ORIGINALES EN MATRICES")
-    # Comprueba que el fichero de destino no existe y lo borra si existe
+    # Comprueba si el fichero de destino existe y pide confirmación para sobreescribirlo
     p = pathlib.Path(gendef.FICHERO_IMPORTADO)
     if p.exists():
         print(f"  El fichero de destino {gendef.FICHERO_IMPORTADO} ya existe.")
@@ -452,13 +459,13 @@ def importa_unicode():
             print("  El fichero no se ha creado.")
         else:
             os.remove(p)
-            global emoji_test, emoji_data, emoji_variation_sequences, emoji_zwj_sequences, emoji_sequences
-            emoji_test = importa_fichero_emoji_test()
-            emoji_data = importa_fichero_emoji_data()
-            emoji_variation_sequences = importa_fichero_emoji_variation_sequence()
-            emoji_zwj_sequences = importa_fichero_emoji_zwj_sequences()
-            emoji_sequences = importa_fichero_emoji_sequences()
-            exporta_matrices()
+    if not p.exists():
+        emoji_test = importa_fichero_emoji_test()
+        emoji_data = importa_fichero_emoji_data()
+        emoji_variation_sequences = importa_fichero_emoji_variation_sequence()
+        emoji_zwj_sequences = importa_fichero_emoji_zwj_sequences()
+        emoji_sequences = importa_fichero_emoji_sequences()
+        exporta_matrices()
     print()
     print("  Programa terminado.")
     print()
