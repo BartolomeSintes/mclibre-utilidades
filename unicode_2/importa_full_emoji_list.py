@@ -4,6 +4,22 @@ import sys
 full_emoji_list = []
 
 
+def busca(aguja, pajar, posicion):
+    encontrado = False
+    n = len(pajar)
+    i = 0
+    # print("probando", lista[i][0], codigos)
+    while not encontrado and i < n:
+        # print(lista[i][0], codigos)
+        if pajar[i][posicion] == aguja:
+            encontrado = True
+        i += 1
+        # input()
+    if encontrado:
+        return i - 1
+    else:
+        return -1
+
 def importa_fichero_full_emoji_list():
     global full_emoji_list
     print(f"TRATANDO {gendef.FICHERO_EMOJI_FULL_LIST}")
@@ -57,8 +73,15 @@ def importa_fichero_full_emoji_list():
             elif importado[i][:20] == '<th class="cchars">':
                 del importado[i]
 
+        # elemento_names = []
         # Borro los enlaces
         for i in range(len(importado) - 1, -1, -1):
+            # inicio_codigo = importado[i].find('"code"')
+            # if inicio_codigo != -1:
+            #     inicio_name = importado[i].find('name="')
+            #     if inicio_name != -1:
+            #         fin_name = importado[i][inicio_name + 6 :].find('"')
+            #         elemento_names +=[ [i, importado[i][inicio_name + 6 : inicio_name + 6 + fin_name]] ]
             corta1 = importado[i].find("<a")
             corta2 = importado[i][corta1:].find(">")
             if corta1 != -1:
@@ -106,6 +129,16 @@ def importa_fichero_full_emoji_list():
             if inicio_codigo != -1:
                 fin_codigo = importado[i][inicio_codigo + 7 :].find("</td>")
                 elemento += [importado[i][inicio_codigo + 7 : inicio_codigo + 7 + fin_codigo]]
+                # falta añadir atributo name que igual me sirve para twemoji
+                # pero es más difícil de lo que parece porque el name está en un enlace y los borro antes
+                # he probado a hacerlo y no funciona, así que no pierdo más tiempo
+                # posicion = busca(i, elemento_names, 0)
+                # if posicion != -1:
+                #     print(posicion)
+                #     elemento += [elemento_names[posicion][1]]
+                # else:
+                #     elemento += ""
+
             inicio_caracter = importado[i].find('"chars"')
             if inicio_caracter != -1:
                 fin_caracter = importado[i][inicio_caracter + 8 :].find("</td>")
@@ -117,12 +150,13 @@ def importa_fichero_full_emoji_list():
 
                 full_emoji_list += [elemento]
                 elemento = []
+        # Divido la secuencia en una lista de caracteres
         for i in range(len(full_emoji_list)):
             es_secuencia = full_emoji_list[i][3].find(" ")
             if es_secuencia != -1:
                 tmp = full_emoji_list[i][3].split(" ")
-                for i in range(len(tmp)):
-                    tmp[i] = tmp[i][2:]
+                for j in range(len(tmp)):
+                    tmp[j] = tmp[j][2:]
                 full_emoji_list[i][3] = tmp
             else:
                 full_emoji_list[i][3] = [full_emoji_list[i][3][2:]]
