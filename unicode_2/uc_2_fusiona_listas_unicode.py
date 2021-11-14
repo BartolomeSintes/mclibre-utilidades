@@ -34,7 +34,7 @@ def fusion_1():
         fusionados += [
             [
                 imp2.full_emoji_list[i][3],
-                [imp2.full_emoji_list[i][:3] + imp2.full_emoji_list[i][4:]],
+                imp2.full_emoji_list[i][:3] + imp2.full_emoji_list[i][4:],
                 [],
                 [],
                 [],
@@ -47,10 +47,8 @@ def fusion_1():
         fusionados += [
             [
                 imp3.full_emoji_modifier_sequences[i][3],
-                [
-                    imp3.full_emoji_modifier_sequences[i][:3]
-                    + imp3.full_emoji_modifier_sequences[i][4:]
-                ],
+                imp3.full_emoji_modifier_sequences[i][:3]
+                + imp3.full_emoji_modifier_sequences[i][4:],
                 [],
                 [],
                 [],
@@ -66,25 +64,41 @@ def fusion_1():
     for i in range(len(imp.emoji_test)):
         posicion = busca(imp.emoji_test[i][0], fusionados)
         if posicion != -1:
-            fusionados[posicion][2] = [imp.emoji_test[i][1:]]
+            fusionados[posicion][2] = imp.emoji_test[i][1:]
         else:
             fusionados += [
-                [imp.emoji_test[i][0], [], [imp.emoji_test[i][1:]], [], [], [], []]
+                [
+                    imp.emoji_test[i][0],
+                    [],
+                    imp.emoji_test[i][1:],
+                    [],
+                    [],
+                    [],
+                    [],
+                ]
             ]
     # Añado emoji_data a fusionados
     for i in range(len(imp.emoji_data)):
         posicion = busca(imp.emoji_data[i][0], fusionados)
         if posicion != -1:
-            fusionados[posicion][3] = [imp.emoji_data[i][1:]]
+            fusionados[posicion][3] = imp.emoji_data[i][1:]
         else:
             fusionados += [
-                [imp.emoji_data[i][0], [], [], [imp.emoji_data[i][1:]], [], [], []]
+                [
+                    imp.emoji_data[i][0],
+                    [],
+                    [],
+                    imp.emoji_data[i][1:],
+                    [],
+                    [],
+                    [],
+                ]
             ]
     # Añado emoji_variation_sequences a fusionados
     for i in range(len(imp.emoji_variation_sequences)):
         posicion = busca(imp.emoji_variation_sequences[i][0], fusionados)
         if posicion != -1:
-            fusionados[posicion][4] = [imp.emoji_variation_sequences[i][1:]]
+            fusionados[posicion][4] = imp.emoji_variation_sequences[i][1:]
         else:
             fusionados += [
                 [
@@ -92,7 +106,7 @@ def fusion_1():
                     [],
                     [],
                     [],
-                    [imp.emoji_variation_sequences[i][1:]],
+                    imp.emoji_variation_sequences[i][1:],
                     [],
                     [],
                 ]
@@ -101,7 +115,7 @@ def fusion_1():
     for i in range(len(imp.emoji_zwj_sequences)):
         posicion = busca(imp.emoji_zwj_sequences[i][0], fusionados)
         if posicion != -1:
-            fusionados[posicion][5] = [imp.emoji_zwj_sequences[i][1:]]
+            fusionados[posicion][5] = imp.emoji_zwj_sequences[i][1:]
         else:
             fusionados += [
                 [
@@ -110,7 +124,7 @@ def fusion_1():
                     [],
                     [],
                     [],
-                    [imp.emoji_zwj_sequences[i][1:]],
+                    imp.emoji_zwj_sequences[i][1:],
                     [],
                 ]
             ]
@@ -118,7 +132,7 @@ def fusion_1():
     for i in range(len(imp.emoji_sequences)):
         posicion = busca(imp.emoji_sequences[i][0], fusionados)
         if posicion != -1:
-            fusionados[posicion][6] = [imp.emoji_sequences[i][1:]]
+            fusionados[posicion][6] = imp.emoji_sequences[i][1:]
         else:
             fusionados += [
                 [
@@ -128,14 +142,9 @@ def fusion_1():
                     [],
                     [],
                     [],
-                    [imp.emoji_sequences[i][1:]],
+                    imp.emoji_sequences[i][1:],
                 ]
             ]
-
-
-def fusion_2():
-    # Ordena fusionados
-    global fusionados
 
 
 def exporta_listas():
@@ -148,13 +157,14 @@ def exporta_listas():
         # Guarda fusionados
         t += "fusionados = [\n"
         for i in fusionados:
-            t += f"  [{i[0]},\n"
-            t += f"   {i[1]},\n"
-            t += f"   {i[2]},\n"
-            t += f"   {i[3]},\n"
-            t += f"   {i[4]},\n"
-            t += f"   {i[5]},\n"
-            t += f"   {i[6]},\n"
+            t += f"  [\n"
+            t += f"    {i[0]},\n"
+            t += f"    {i[1]},\n"
+            t += f"    {i[2]},\n"
+            t += f"    {i[3]},\n"
+            t += f"    {i[4]},\n"
+            t += f"    {i[5]},\n"
+            t += f"    {i[6]},\n"
             t += f"  ],\n"
         t += "]\n"
         t += "\n"
@@ -175,7 +185,6 @@ def fusiona_listas_unicode():
             print("  El fichero no se ha creado.")
     if not p.exists():
         fusion_1()
-        fusion_2()
         exporta_listas()
     print()
     print("  Programa terminado.")
