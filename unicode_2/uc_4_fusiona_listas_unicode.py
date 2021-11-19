@@ -33,12 +33,13 @@ def busca(codigos, lista):
 def fusion_1():
     # Fusiono las cinco listas en una sola
     global fusionados
+
     # Añado full_emoji_list a fusionados
     for i in range(len(imp2.full_emoji_list)):
         fusionados += [
             [
                 imp2.full_emoji_list[i][3],
-                imp2.full_emoji_list[i][:3] + imp2.full_emoji_list[i][4:],
+                ["emoji"] + imp2.full_emoji_list[i][:3] + imp2.full_emoji_list[i][4:],
                 [],
                 [],
                 [],
@@ -46,12 +47,14 @@ def fusion_1():
                 [],
             ]
         ]
+
     # Añado full_emoji_modifier_sequences_list a fusionados
     for i in range(len(imp3.full_emoji_modifier_sequences)):
         fusionados += [
             [
                 imp3.full_emoji_modifier_sequences[i][3],
-                imp3.full_emoji_modifier_sequences[i][:3]
+                ["emoji_modifier_sequence"]
+                + imp3.full_emoji_modifier_sequences[i][:3]
                 + imp3.full_emoji_modifier_sequences[i][4:],
                 [],
                 [],
@@ -60,9 +63,6 @@ def fusion_1():
                 [],
             ]
         ]
-    # Añado emoji_test a fusionados
-    # for i in range(len(imp.emoji_test)):
-    #     fusionados += [[imp.emoji_test[i][0], [imp.emoji_test[i][1:]], [], [], [], []]]
 
     # Añado emoji_test a fusionados
     for i in range(len(imp.emoji_test)):
@@ -81,23 +81,25 @@ def fusion_1():
                     [],
                 ]
             ]
+
     # Añado emoji_data a fusionados
     for i in range(len(imp.emoji_data)):
         posicion = busca(imp.emoji_data[i][0], fusionados)
         if posicion != -1:
-            fusionados[posicion][3] = imp.emoji_data[i][1:]
+            fusionados[posicion][3] = [imp.emoji_data[i][1], imp.emoji_data[i][2]]
         else:
             fusionados += [
                 [
                     imp.emoji_data[i][0],
                     [],
                     [],
-                    imp.emoji_data[i][1:],
+                    [imp.emoji_data[i][1], imp.emoji_data[i][2]],
                     [],
                     [],
                     [],
                 ]
             ]
+
     # Añado emoji_variation_sequences a fusionados
     for i in range(len(imp.emoji_variation_sequences)):
         posicion = busca(imp.emoji_variation_sequences[i][0], fusionados)
@@ -115,6 +117,7 @@ def fusion_1():
                     [],
                 ]
             ]
+
     # Añado emoji_zwj_sequences a fusionados
     for i in range(len(imp.emoji_zwj_sequences)):
         posicion = busca(imp.emoji_zwj_sequences[i][0], fusionados)
@@ -132,6 +135,7 @@ def fusion_1():
                     [],
                 ]
             ]
+
     # Añado emoji_sequences a fusionados
     for i in range(len(imp.emoji_sequences)):
         posicion = busca(imp.emoji_sequences[i][0], fusionados)
