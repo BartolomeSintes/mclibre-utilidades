@@ -1,9 +1,9 @@
 # Este programa importa los ficheros txt
 # - emoji-test.txt
-# - emoji-zwj-sequences.txt
-# - emoji-variation-sequences.txt
-# - emoji-sequences.txt
 # - emoji-data.txt
+# - emoji-variation-sequences.txt
+# - emoji-zwj-sequences.txt
+# - emoji-sequences.txt
 
 import ucdef
 import os
@@ -213,7 +213,32 @@ def importa_fichero_emoji_data():
     # print(len(encontrados))
     # print(encontrados[0:300])
 
-    return importado
+    # Algunos caracteres salen varias veces en la lista, cada vez con una propiedad
+    # así que los agrupo haciendo una lista de propiedades
+    for i in range(len(importado)):
+        importado[i][1] = [importado[i][1]]
+    # Primero confirmo que la versión coincide en los registros con carácter repetido
+    for i in range(len(importado) - 1, -1, -1):
+        for j in range(i - 1, -1, -1):
+            if importado[i][0] == importado[j][0]:
+                if importado[i][2] != importado[j][2]:
+                    print("ERROR: El campo versión no coincide:")
+                    print(importado[i])
+                    print(importado[j])
+                    sys.exit()
+    # Creo una nueva lista con los valores agrupados
+    importado2 = []
+    for i in range(len(importado)):
+        encontrado = -1
+        for j in range(len(importado2)):
+            if importado[i][0] == importado2[j][0]:
+                encontrado = j
+        if encontrado == -1:
+            importado2 += [importado[i]]
+        else:
+            importado2[encontrado][1] += importado[i][1]
+
+    return importado2
 
 
 def importa_fichero_emoji_variation_sequence():
