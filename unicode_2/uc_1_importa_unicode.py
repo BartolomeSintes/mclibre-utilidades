@@ -1,4 +1,11 @@
-import gendef
+# Este programa importa los ficheros txt
+# - emoji-test.txt
+# - emoji-zwj-sequences.txt
+# - emoji-variation-sequences.txt
+# - emoji-sequences.txt
+# - emoji-data.txt
+
+import ucdef
 import os
 import pathlib
 import sys
@@ -12,11 +19,11 @@ emoji_sequences = []
 
 def importa_fichero_emoji_test():
     print()
-    print(f"  TRATANDO {gendef.FICHERO_EMOJI_TEST}")
+    print(f"  TRATANDO {ucdef.FICHERO_EMOJI_TEST}")
     print(f"    importando ...")
     importado = []
     with open(
-        gendef.UNICODE_ORIGINAL_DIR + gendef.FICHERO_EMOJI_TEST,
+        ucdef.FICHERO_EMOJI_TEST,
         mode="r",
         encoding="utf-8",
     ) as f:
@@ -78,11 +85,11 @@ def importa_fichero_emoji_test():
 
 def importa_fichero_emoji_data():
     print()
-    print(f"  TRATANDO {gendef.FICHERO_EMOJI_DATA}")
+    print(f"  TRATANDO {ucdef.FICHERO_EMOJI_DATA}")
     print(f"    importando ...")
     importado = []
     with open(
-        gendef.UNICODE_ORIGINAL_DIR + gendef.FICHERO_EMOJI_DATA,
+        ucdef.FICHERO_EMOJI_DATA,
         mode="r",
         encoding="utf-8",
     ) as f:
@@ -169,18 +176,18 @@ def importa_fichero_emoji_data():
     # for i in range(len(importado)-1, -1, -1):
     #     encontrado = False
     #     # print(importado[i][0])
-    #     for j in range(len(gendef.emoji_data_componentes_auxiliar)):
-    #         if importado[i][1] == "Emoji_Component" and importado[i][0] == gendef.emoji_data_componentes_auxiliar[j]:
-    #             # print (importado[i][0], gendef.emoji_data_componentes_auxiliar[j])
+    #     for j in range(len(ucdef.emoji_data_componentes_auxiliar)):
+    #         if importado[i][1] == "Emoji_Component" and importado[i][0] == ucdef.emoji_data_componentes_auxiliar[j]:
+    #             # print (importado[i][0], ucdef.emoji_data_componentes_auxiliar[j])
     #             encontrado = True
     #             # input()
     #     if encontrado:
     #         encontrados += [importado[i]]
     #         del(importado[i])
-    # if len(encontrados) == len(gendef.emoji_data_componentes_auxiliar):
+    # if len(encontrados) == len(ucdef.emoji_data_componentes_auxiliar):
     #     print ("    Encontrados todos los componentes")
     # else:
-    #     print(f"    CUIDADO: en vez de {len(gendef.emoji_data_componentes_auxiliar)} he encontrado {len(encontrados)}")
+    #     print(f"    CUIDADO: en vez de {len(ucdef.emoji_data_componentes_auxiliar)} he encontrado {len(encontrados)}")
     # # for i in encontrados:
     # #     print(i)
     # sys.exit()
@@ -211,11 +218,11 @@ def importa_fichero_emoji_data():
 
 def importa_fichero_emoji_variation_sequence():
     print()
-    print(f"  TRATANDO {gendef.FICHERO_EMOJI_VARIATION_SEQUENCES}")
+    print(f"  TRATANDO {ucdef.FICHERO_EMOJI_VARIATION_SEQUENCES}")
     print(f"    importando ...")
     importado = []
     with open(
-        gendef.UNICODE_ORIGINAL_DIR + gendef.FICHERO_EMOJI_VARIATION_SEQUENCES,
+        ucdef.FICHERO_EMOJI_VARIATION_SEQUENCES,
         mode="r",
         encoding="utf-8",
     ) as f:
@@ -265,11 +272,11 @@ def importa_fichero_emoji_variation_sequence():
 
 def importa_fichero_emoji_zwj_sequences():
     print()
-    print(f"  TRATANDO {gendef.FICHERO_EMOJI_ZWJ_SEQUENCES}")
+    print(f"  TRATANDO {ucdef.FICHERO_EMOJI_ZWJ_SEQUENCES}")
     print(f"    importando ...")
     importado = []
     with open(
-        gendef.UNICODE_ORIGINAL_DIR + gendef.FICHERO_EMOJI_ZWJ_SEQUENCES,
+        ucdef.FICHERO_EMOJI_ZWJ_SEQUENCES,
         mode="r",
         encoding="utf-8",
     ) as f:
@@ -330,11 +337,11 @@ def importa_fichero_emoji_zwj_sequences():
 
 def importa_fichero_emoji_sequences():
     print()
-    print(f"  TRATANDO {gendef.FICHERO_EMOJI_SEQUENCES}")
+    print(f"  TRATANDO {ucdef.FICHERO_EMOJI_SEQUENCES}")
     print(f"    importando ...")
     importado = []
     with open(
-        gendef.UNICODE_ORIGINAL_DIR + gendef.FICHERO_EMOJI_SEQUENCES,
+        ucdef.FICHERO_EMOJI_SEQUENCES,
         mode="r",
         encoding="utf-8",
     ) as f:
@@ -408,7 +415,7 @@ def importa_fichero_emoji_sequences():
 
 
 def exporta_listas():
-    destino = gendef.FICHERO_IMPORTADO
+    destino = ucdef.FICHERO_IMPORTADO
     print()
     print(f"  CREANDO {destino}")
 
@@ -451,9 +458,9 @@ def importa_unicode():
     global emoji_test, emoji_data, emoji_variation_sequences, emoji_zwj_sequences, emoji_sequences
     print("1. IMPORTANDO FICHEROS UNICODE ORIGINALES EN MATRICES")
     # Comprueba si el fichero de destino existe y pide confirmación para sobreescribirlo
-    p = pathlib.Path(gendef.FICHERO_IMPORTADO)
+    p = pathlib.Path(ucdef.FICHERO_IMPORTADO)
     if p.exists():
-        print(f"  El fichero de destino {gendef.FICHERO_IMPORTADO} ya existe.")
+        print(f"  El fichero de destino {ucdef.FICHERO_IMPORTADO} ya existe.")
         respuesta = input("  Confirme que desea crearlo de nuevo (S): ")
         if respuesta != "S":
             print("  El fichero no se ha creado.")

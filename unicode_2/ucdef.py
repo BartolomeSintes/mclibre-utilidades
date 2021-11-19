@@ -1,16 +1,22 @@
-UNICODE_ORIGINAL_DIR = "ficheros-originales-u14/"
-FICHERO_EMOJI_TEST = "u14-emoji-test.txt"
-FICHERO_EMOJI_ZWJ_SEQUENCES = "u14-emoji-zwj-sequences.txt"
-FICHERO_EMOJI_VARIATION_SEQUENCES = "u14-emoji-variation-sequences.txt"
-FICHERO_EMOJI_SEQUENCES = "u14-emoji-sequences.txt"
-FICHERO_EMOJI_DATA = "u14-emoji-data.txt"
-FICHERO_IMPORTADO = "unicode_txt_importados.py"
-FICHERO_FUSIONADO = "unicode_txt_fusionados.py"
+# Ficheros originales
+UNICODE_ORIGINAL_DIR = "u14_ficheros_originales/"
+FICHERO_EMOJI_TEST = UNICODE_ORIGINAL_DIR + "u14-emoji-test.txt"
+FICHERO_EMOJI_ZWJ_SEQUENCES = UNICODE_ORIGINAL_DIR + "u14-emoji-zwj-sequences.txt"
+FICHERO_EMOJI_VARIATION_SEQUENCES = UNICODE_ORIGINAL_DIR + "u14-emoji-variation-sequences.txt"
+FICHERO_EMOJI_SEQUENCES = UNICODE_ORIGINAL_DIR + "u14-emoji-sequences.txt"
+FICHERO_EMOJI_DATA = UNICODE_ORIGINAL_DIR + "u14-emoji-data.txt"
+FICHERO_EMOJI_FULL_LIST = UNICODE_ORIGINAL_DIR + "Full Emoji List, v14.0.html"
+FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = UNICODE_ORIGINAL_DIR + "Full Emoji Modifier Sequences, v14.0.html"
 
-FICHERO_EMOJI_FULL_LIST = "Full Emoji List, v14.0.html"
-FICHERO_EMOJI_FULL_LIST_LISTA = "unicode_full_emoji_list.py"
-FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = "Full Emoji Modifier Sequences, v14.0.html"
-FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST_LISTA = "unicode_full_emoji_modifier_sequences_list.py"
+# Ficheros importados (fos ficheros originales se convierten en estos ficheros)
+UNICODE_IMPORTADOS_DIR = "u14_ficheros_importados/"
+FICHERO_IMPORTADO = UNICODE_IMPORTADOS_DIR + "unicode_txt_importados.py"
+FICHERO_EMOJI_FULL_LIST_LISTA = UNICODE_IMPORTADOS_DIR + "unicode_full_emoji_list.py"
+FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST_LISTA = UNICODE_IMPORTADOS_DIR + "unicode_full_emoji_modifier_sequences_list.py"
+
+# Ficheros simplificados
+FICHERO_FUSIONADO = "unicode_txt_fusionados.py"
+FICHERO_ORDENADO = "unicode_txt_ordenado.py"
 
 emoji_data_componentes_auxiliar = [
     "0023",
@@ -23,20 +29,3 @@ emoji_data_componentes_auxiliar = [
     "1F9B0", "1F9B1", "1F9B2", "1F9B3",
     "E0020", "E0021", "E0022", "E0023", "E0024", "E0025", "E0026", "E0027", "E0028", "E0029", "E002A", "E002B", "E002C", "E002D", "E002E", "E002F", "E0030", "E0031", "E0032", "E0033", "E0034", "E0035", "E0036", "E0037", "E0038", "E0039", "E003A", "E003B", "E003C", "E003D", "E003E", "E003F", "E0040", "E0041", "E0042", "E0043", "E0044", "E0045", "E0046", "E0047", "E0048", "E0049", "E004A", "E004B", "E004C", "E004D", "E004E", "E004F", "E0050", "E0051", "E0052", "E0053", "E0054", "E0055", "E0056", "E0057", "E0058", "E0059", "E005A", "E005B", "E005C", "E005D", "E005E", "E005F", "E0060", "E0061", "E0062", "E0063", "E0064", "E0065", "E0066", "E0067", "E0068", "E0069", "E006A", "E006B", "E006C", "E006D", "E006E", "E006F", "E0070", "E0071", "E0072", "E0073", "E0074", "E0075", "E0076", "E0077", "E0078", "E0079", "E007A", "E007B", "E007C", "E007D", "E007E", "E007F",
 ]
-
-
-# emoji_test = [
-#   [['1F600'], 'fully-qualified', '😀', '1.0', 'grinning face', 'Smileys & Emotion', 'face-smiling'],
-
-# emoji_data = [
-#   [['0023'], 'Emoji', '0.0'],
-
-# emoji_variation_sequences = [
-#   [['0023', 'FE0E'], 'text style', '1.1', 'number sign'],
-
-# emoji_zwj_sequences = [
-#   [['1F468', '200D', '2764', 'FE0F', '200D', '1F468'], 'RGI_Emoji_ZWJ_Sequence', 'couple with heart: man, man', '2.0', '👨\u200d❤️\u200d👨', 'Family'],
-
-# emoji_sequences = [
-#   [['231A'], 'Basic_Emoji', '0.6'],
-#   [['0023', 'FE0F', '20E3'], 'Emoji_Keycap_Sequence', '0.6'],

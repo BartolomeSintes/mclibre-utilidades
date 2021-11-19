@@ -1,7 +1,10 @@
-import gendef
+# Este programa importa el ficheros html
+# - Full Emoji List, v14.0.html
+
+import ucdef
 import sys
 
-full_emoji_modifier_sequences = []
+full_emoji_list = []
 
 
 def busca(aguja, pajar, posicion):
@@ -20,13 +23,14 @@ def busca(aguja, pajar, posicion):
     else:
         return -1
 
-def importa_fichero_full_emoji_modifier_sequences():
-    global full_emoji_modifier_sequences
-    print(f"TRATANDO {gendef.FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST}")
+
+def importa_fichero_full_emoji_list():
+    global full_emoji_list
+    print(f"TRATANDO {ucdef.FICHERO_EMOJI_FULL_LIST}")
     print(f"  importando ...")
     importado = []
     with open(
-        gendef.UNICODE_ORIGINAL_DIR + gendef.FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST,
+        ucdef.FICHERO_EMOJI_FULL_LIST,
         mode="r",
         encoding="utf-8",
     ) as f:
@@ -121,14 +125,18 @@ def importa_fichero_full_emoji_modifier_sequences():
             if inicio_contador != -1:
                 fin_contador = importado[i][inicio_contador + 9 :].find("</td>")
                 elemento += [
-                    importado[i][inicio_contador + 9 : inicio_contador + 9 + fin_contador],
+                    importado[i][
+                        inicio_contador + 9 : inicio_contador + 9 + fin_contador
+                    ],
                     grupo,
-                    subgrupo
+                    subgrupo,
                 ]
             inicio_codigo = importado[i].find('"code"')
             if inicio_codigo != -1:
                 fin_codigo = importado[i][inicio_codigo + 7 :].find("</td>")
-                elemento += [importado[i][inicio_codigo + 7 : inicio_codigo + 7 + fin_codigo]]
+                elemento += [
+                    importado[i][inicio_codigo + 7 : inicio_codigo + 7 + fin_codigo]
+                ]
                 # falta añadir atributo name que igual me sirve para twemoji
                 # pero es más difícil de lo que parece porque el name está en un enlace y los borro antes
                 # he probado a hacerlo y no funciona, así que no pierdo más tiempo
@@ -142,35 +150,42 @@ def importa_fichero_full_emoji_modifier_sequences():
             inicio_caracter = importado[i].find('"chars"')
             if inicio_caracter != -1:
                 fin_caracter = importado[i][inicio_caracter + 8 :].find("</td>")
-                elemento += [importado[i][inicio_caracter + 8 : inicio_caracter + 8 + fin_caracter]]
+                elemento += [
+                    importado[i][
+                        inicio_caracter + 8 : inicio_caracter + 8 + fin_caracter
+                    ]
+                ]
             inicio_nombre = importado[i].find('"name"')
             if inicio_nombre != -1:
                 fin_nombre = importado[i][inicio_nombre + 7 :].find("</td>")
-                elemento += [importado[i][inicio_nombre + 7 : inicio_nombre + 7 + fin_nombre]]
+                elemento += [
+                    importado[i][inicio_nombre + 7 : inicio_nombre + 7 + fin_nombre]
+                ]
 
-                full_emoji_modifier_sequences += [elemento]
+                full_emoji_list += [elemento]
                 elemento = []
         # Divido la secuencia en una lista de caracteres
-        for i in range(len(full_emoji_modifier_sequences)):
-            es_secuencia = full_emoji_modifier_sequences[i][3].find(" ")
+        for i in range(len(full_emoji_list)):
+            es_secuencia = full_emoji_list[i][3].find(" ")
             if es_secuencia != -1:
-                tmp = full_emoji_modifier_sequences[i][3].split(" ")
+                tmp = full_emoji_list[i][3].split(" ")
                 for j in range(len(tmp)):
                     tmp[j] = tmp[j][2:]
-                full_emoji_modifier_sequences[i][3] = tmp
+                full_emoji_list[i][3] = tmp
             else:
-                full_emoji_modifier_sequences[i][3] = [full_emoji_modifier_sequences[i][3][2:]]
+                full_emoji_list[i][3] = [full_emoji_list[i][3][2:]]
+
 
 def exporta_listas():
-    global full_emoji_modifier_sequences
-    destino = gendef.FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST_LISTA
+    global full_emoji_list
+    destino = ucdef.FICHERO_EMOJI_FULL_LIST_LISTA
     print(f"CREANDO {destino}")
-    print(f"  Hay {len(full_emoji_modifier_sequences)} emojis")
+    print(f"  Hay {len(full_emoji_list)} emojis")
     with open(destino, "w", encoding="utf-8", newline="\n") as fichero:
         t = ""
         # Guarda Full emoji list
-        t += "full_emoji_modifier_sequences = [\n"
-        for i in full_emoji_modifier_sequences:
+        t += "full_emoji_list = [\n"
+        for i in full_emoji_list:
             t += f"  {i},\n"
         t += "]\n"
         t += "\n"
@@ -180,7 +195,7 @@ def exporta_listas():
 
 
 def main():
-    importa_fichero_full_emoji_modifier_sequences()
+    importa_fichero_full_emoji_list()
     exporta_listas()
 
 
