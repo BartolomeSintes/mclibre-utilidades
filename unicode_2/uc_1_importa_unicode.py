@@ -31,9 +31,9 @@ def importa_fichero_emoji_test():
         subgrupo = ""
         for line in f:
             if line[:7] == "# group":
-                grupo = line[9:-1]
+                grupo = line[9:-1].replace("&amp;", "&")
             elif line[:10] == "# subgroup":
-                subgrupo = line[12:-1]
+                subgrupo = line[12:-1].replace("&amp;", "&")
             if line[0] != "#" and line[0] != "\n":
                 linea = []
                 # print(line)
@@ -79,6 +79,14 @@ def importa_fichero_emoji_test():
             "14.0",
         ]:
             print("    Valor inesperado en campo [3]:", elemento[3])
+
+    # Compruebo si hay registros con el código unicode repetido
+    for i in range(len(importado)):
+        for j in range(i + 1, len(importado)):
+            if importado[i][0] == importado[j][0]:
+                print("PROBLEMA: El campo código unicode coincide:")
+                print(importado[i])
+                print(importado[j])
 
     return importado
 
@@ -222,7 +230,7 @@ def importa_fichero_emoji_data():
         for j in range(i - 1, -1, -1):
             if importado[i][0] == importado[j][0]:
                 if importado[i][2] != importado[j][2]:
-                    print("ERROR: El campo versión no coincide:")
+                    print("PROBLEMA: El campo versión no coincide:")
                     print(importado[i])
                     print(importado[j])
                     sys.exit()
@@ -237,6 +245,14 @@ def importa_fichero_emoji_data():
             importado2 += [importado[i]]
         else:
             importado2[encontrado][1] += importado[i][1]
+
+    # Compruebo si hay registros con el código unicode repetido
+    for i in range(len(importado2)):
+        for j in range(i + 1, len(importado2)):
+            if importado2[i][0] == importado2[j][0]:
+                print("PROBLEMA: El campo código unicode coincide:")
+                print(importado2[i])
+                print(importado2[j])
 
     return importado2
 
@@ -292,6 +308,14 @@ def importa_fichero_emoji_variation_sequence():
         ]:
             print("    Valor inesperado en campo [2]:", elemento[2])
 
+    # Compruebo si hay registros con el código unicode repetido
+    for i in range(len(importado)):
+        for j in range(i + 1, len(importado)):
+            if importado[i][0] == importado[j][0]:
+                print("PROBLEMA: El campo código unicode coincide:")
+                print(importado[i])
+                print(importado[j])
+
     return importado
 
 
@@ -308,7 +332,7 @@ def importa_fichero_emoji_zwj_sequences():
         grupo = ""
         for line in f:
             if line[:25] == "# RGI_Emoji_ZWJ_Sequence:":
-                grupo = line[26:-1]
+                grupo = line[26:-1].replace("&amp;", "&")
             if line[0] != "#" and line[0] != "\n":
                 linea = []
                 # print(line)
@@ -356,6 +380,14 @@ def importa_fichero_emoji_zwj_sequences():
         ]:
             print("    Valor inesperado en campo [3]:", elemento[3])
             print(elemento)
+
+    # Compruebo si hay registros con el código unicode repetido
+    for i in range(len(importado)):
+        for j in range(i + 1, len(importado)):
+            if importado[i][0] == importado[j][0]:
+                print("PROBLEMA: El campo código unicode coincide:")
+                print(importado[i])
+                print(importado[j])
 
     return importado
 
@@ -436,6 +468,15 @@ def importa_fichero_emoji_sequences():
     for i in range(len(importado) - 1, -1, -1):
         del importado[i][4]
         del importado[i][2]
+
+    # Compruebo si hay registros con el código unicode repetido
+    for i in range(len(importado)):
+        for j in range(i + 1, len(importado)):
+            if importado[i][0] == importado[j][0]:
+                print("PROBLEMA: El campo código unicode coincide:")
+                print(importado[i])
+                print(importado[j])
+
     return importado
 
 

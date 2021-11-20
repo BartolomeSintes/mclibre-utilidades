@@ -114,13 +114,13 @@ def importa_fichero_full_emoji_modifier_sequences():
             inicio_grupo = importado[i].find('class="bighead"')
             if inicio_grupo != -1:
                 fin_grupo = importado[i][inicio_grupo + 16 :].find("</th>")
-                grupo = importado[i][inicio_grupo + 16 : inicio_grupo + 16 + fin_grupo]
+                grupo = importado[i][inicio_grupo + 16 : inicio_grupo + 16 + fin_grupo].replace("&amp;", "&")
             inicio_subgrupo = importado[i].find('class="mediumhead"')
             if inicio_subgrupo != -1:
                 fin_subgrupo = importado[i][inicio_subgrupo + 19 :].find("</th>")
                 subgrupo = importado[i][
                     inicio_subgrupo + 19 : inicio_subgrupo + 19 + fin_subgrupo
-                ]
+                ].replace("&amp;", "&")
             inicio_contador = importado[i].find('"rchars"')
             if inicio_contador != -1:
                 fin_contador = importado[i][inicio_contador + 9 :].find("</td>")
