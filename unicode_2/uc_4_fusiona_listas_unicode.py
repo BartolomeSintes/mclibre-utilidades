@@ -6,9 +6,9 @@ import os
 import pathlib
 import sys
 import ucdef
-from u14_ficheros_importados import unicode_txt_importados as imp
-from u14_ficheros_importados import unicode_full_emoji_list as imp2
-from u14_ficheros_importados import unicode_full_emoji_modifier_sequences_list as imp3
+from u14_ficheros_2_importados import unicode_txt_importados as imp
+from u14_ficheros_2_importados import unicode_full_emoji_list as imp2
+from u14_ficheros_2_importados import unicode_full_emoji_modifier_sequences_list as imp3
 
 fusionados = []
 
@@ -156,7 +156,7 @@ def fusion_1():
 
 
 def exporta_listas():
-    destino = ucdef.FICHERO_FUSIONADO
+    destino = ucdef.FICHERO_FUSIONADO_1
     print()
     print(f"  CREANDO {destino}")
 
@@ -182,10 +182,10 @@ def exporta_listas():
 def fusiona_listas_unicode():
     print("2. FUSIONANDO LISTAS UNICODE ORIGINALES EN UNA LISTA")
     # Comprueba si el fichero de destino existe y pide confirmación para sobreescribirlo
-    p = pathlib.Path(ucdef.FICHERO_FUSIONADO)
+    p = pathlib.Path(ucdef.FICHERO_FUSIONADO_1)
     respuesta = "N"
     if p.exists():
-        print(f"  El fichero de destino {ucdef.FICHERO_FUSIONADO} ya existe.")
+        print(f"  El fichero de destino {ucdef.FICHERO_FUSIONADO_1} ya existe.")
         respuesta = input("  Confirme que desea crearlo de nuevo (S): ")
         if respuesta == "S":
             os.remove(p)

@@ -1,21 +1,25 @@
-# Ficheros originales
-UNICODE_ORIGINAL_DIR = "u14_ficheros_originales/"
-FICHERO_EMOJI_TEST = UNICODE_ORIGINAL_DIR + "u14-emoji-test.txt"
-FICHERO_EMOJI_ZWJ_SEQUENCES = UNICODE_ORIGINAL_DIR + "u14-emoji-zwj-sequences.txt"
-FICHERO_EMOJI_VARIATION_SEQUENCES = UNICODE_ORIGINAL_DIR + "u14-emoji-variation-sequences.txt"
-FICHERO_EMOJI_SEQUENCES = UNICODE_ORIGINAL_DIR + "u14-emoji-sequences.txt"
-FICHERO_EMOJI_DATA = UNICODE_ORIGINAL_DIR + "u14-emoji-data.txt"
-FICHERO_EMOJI_FULL_LIST = UNICODE_ORIGINAL_DIR + "Full Emoji List, v14.0.html"
-FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = UNICODE_ORIGINAL_DIR + "Full Emoji Modifier Sequences, v14.0.html"
+# Ficheros originales (descargados de la web de Unicode)
+UNICODE_ORIGINALES_DIR = "u14_ficheros_1_originales/"
+FICHERO_EMOJI_TEST = UNICODE_ORIGINALES_DIR + "u14-emoji-test.txt"
+FICHERO_EMOJI_ZWJ_SEQUENCES = UNICODE_ORIGINALES_DIR + "u14-emoji-zwj-sequences.txt"
+FICHERO_EMOJI_VARIATION_SEQUENCES = UNICODE_ORIGINALES_DIR + "u14-emoji-variation-sequences.txt"
+FICHERO_EMOJI_SEQUENCES = UNICODE_ORIGINALES_DIR + "u14-emoji-sequences.txt"
+FICHERO_EMOJI_DATA = UNICODE_ORIGINALES_DIR + "u14-emoji-data.txt"
+FICHERO_EMOJI_FULL_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji List, v14.0.html"
+FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji Modifier Sequences, v14.0.html"
 
-# Ficheros importados (fos ficheros originales se convierten en estos ficheros)
-UNICODE_IMPORTADOS_DIR = "u14_ficheros_importados/"
+# Ficheros importados (creados a partir de los ficheros originales)
+UNICODE_IMPORTADOS_DIR = "u14_ficheros_2_importados/"
 FICHERO_IMPORTADO = UNICODE_IMPORTADOS_DIR + "unicode_txt_importados.py"
 FICHERO_EMOJI_FULL_LIST_LISTA = UNICODE_IMPORTADOS_DIR + "unicode_full_emoji_list.py"
 FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST_LISTA = UNICODE_IMPORTADOS_DIR + "unicode_full_emoji_modifier_sequences_list.py"
 
+# Ficheros fusionados (creados a partir de los ficheros importados)
+UNICODE_FUSIONADOS_DIR = "u14_ficheros_3_fusionados/"
+FICHERO_FUSIONADO_1 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_1.py"
+FICHERO_FUSIONADO_2 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_2.py"
+
 # Ficheros simplificados
-FICHERO_FUSIONADO = "unicode_txt_fusionados.py"
 FICHERO_ORDENADO = "unicode_txt_ordenado.py"
 
 emoji_data_componentes_auxiliar = [
