@@ -241,73 +241,87 @@ def comprueba_fusion_1_1():
             print("PROBLEMA: versión no esperada")
             print(f"{c[6][1]}")
 
+
 def comprueba_campos_iguales(a1, a2, b1, b2):
     cx = cb = ca = 0
     for c in fusionados_1:
+        # Si está el que queremos eliminar
         if len(c[b1]) > 0:
             cb += 1
+            # Hay que comprobar que está el otro campo
             if len(c[a1]) > 0:
                 ca += 1
+                # Y que coinciden los valores
                 if c[a1][a2] == c[b1][b2]:
                     cx += 1
-    print(ca, cb, cx)
+                else:
+                    print(f"    ERROR: campos distintos: {c[a1][a2]}   {c[b1][b2]}")
+    # print(ca, cb, cx)
+    # Si cada vez que está el valor en un sitio, también está en el otro, entonces lo podemos eliminar
     return ca == cb == cx
 
+
 def comprueba_fusion_1_2():
-    # Compruebo los valores que coinciden y que puedo eliminar
+    # Compruebo que puedo quitar c[1][2], c[1][3], c[1][4], c[1][5], c[5][1], c[5][2], c[5][3], c[6][1]
     print("  Comprobando valores en lista fusionada ... ")
+    # Los puedo quitar porque cada vez que están esos campos, los mismos valores están en otro campo del mismo registro
+    candidatos_a_eliminar = [
+        [2, 4, 1, 2], [2, 5, 1, 3], [2, 1, 1, 4], [2, 3, 1, 5],
+        [2, 3, 5, 1], [2, 2, 5, 2], [2, 1, 5, 3],
+        [2, 2, 6, 1]
+    ]
+    for candidato in candidatos_a_eliminar:
+        [a1, a2, b1, b2] = candidato
+        if comprueba_campos_iguales(a1, a2, b1, b2):
+            print(f"    OK:c[{b1}][{b2}] es como c[{a1}][{a2}]")
+        else:
+            print(f"    ERROR: c[{b1}][{b2}] NO es como c[{a1}][{a2}]")
 
-    if comprueba_campos_iguales(1, 4, 2, 1):
-        print("c[2][1] es como c[1][4]")
-    else:
-        print("c[2][1] NO es como c[1][4]")
+    # for c in fusionados_1:
+    #     # Compruebo que el carácter es el mismo
+    #     if len(c[1]) > 0 and len(c[2]) > 0 and c[1][4] != c[2][1]:
+    #         print("PROBLEMA: carácteres distintos")
+    #         print(f"{c[0]} {c[1][4]} {c[2][1]}")
 
-    for c in fusionados_1:
-        # Compruebo que el carácter es el mismo
-        if len(c[1]) > 0 and len(c[2]) > 0 and c[1][4] != c[2][1]:
-            print("PROBLEMA: carácteres distintos")
-            print(f"{c[0]} {c[1][4]} {c[2][1]}")
+    #     # Compruebo que CLDR es el mismo
+    #     if len(c[1]) > 0 and len(c[2]) > 0 and c[1][5] != c[2][3]:
+    #         print("PROBLEMA: carácteres distintos")
+    #         print(f"{c[0]} {c[1][5]} {c[2][3]}")
 
-        # Compruebo que CLDR es el mismo
-        if len(c[1]) > 0 and len(c[2]) > 0 and c[1][5] != c[2][3]:
-            print("PROBLEMA: carácteres distintos")
-            print(f"{c[0]} {c[1][5]} {c[2][3]}")
+    #     # Compruebo que los grupos son iguales
+    #     if len(c[1]) > 0 and len(c[2]) > 0 and c[1][2] != c[2][4]:
+    #         print("PROBLEMA: grupos distintos")
+    #         print(f"{c[0]} {c[1][2]} {c[2][4]}")
 
-        # Compruebo que los grupos son iguales
-        if len(c[1]) > 0 and len(c[2]) > 0 and c[1][2] != c[2][4]:
-            print("PROBLEMA: grupos distintos")
-            print(f"{c[0]} {c[1][2]} {c[2][4]}")
+    #     # Compruebo que los subgrupos son iguales
+    #     if len(c[1]) > 0 and len(c[2]) > 0 and c[1][3] != c[2][5]:
+    #         print("PROBLEMA: subgrupos distintos")
+    #         print(f"{c[0]} {c[1][3]} {c[2][5]}")
 
-        # Compruebo que los subgrupos son iguales
-        if len(c[1]) > 0 and len(c[2]) > 0 and c[1][3] != c[2][5]:
-            print("PROBLEMA: subgrupos distintos")
-            print(f"{c[0]} {c[1][3]} {c[2][5]}")
+    #     # Compruebo que la versión es la misma
+    #     if len(c[2]) > 0 and len(c[3]) > 0 and c[2][2] != c[3][1]:
+    #         print("PROBLEMA: carácteres distintos")
+    #         print(f"{c[0]} {c[2][2]} {c[3][1]}")
 
-        # Compruebo que la versión es la misma
-        if len(c[2]) > 0 and len(c[3]) > 0 and c[2][2] != c[3][1]:
-            print("PROBLEMA: carácteres distintos")
-            print(f"{c[0]} {c[2][2]} {c[3][1]}")
+    #     # Compruebo que CLDR es el mismo
+    #     # if len(c[1]) > 0 and len(c[4]) > 0 and c[1][5] != c[4][2]:
+    #     #     print("PROBLEMA: carácteres distintos")
+    #     #     print(f"{c[0]} {c[1][5]} {c[4][2]}")
 
-        # Compruebo que CLDR es el mismo
-        # if len(c[1]) > 0 and len(c[4]) > 0 and c[1][5] != c[4][2]:
-        #     print("PROBLEMA: carácteres distintos")
-        #     print(f"{c[0]} {c[1][5]} {c[4][2]}")
+    #     # Compruebo que la versión es la misma
+    #     if len(c[2]) > 0 and len(c[5]) > 0 and c[2][2] != c[5][2]:
+    #         print("PROBLEMA: carácteres distintos")
+    #         print(f"{c[0]} {c[2][2]} {c[5][2]}")
 
+    #     # Compruebo que el carácter es el mismo
+    #     if len(c[1]) > 0 and len(c[5]) > 0 and c[1][4] != c[5][3]:
+    #         print("PROBLEMA: carácteres distintos")
+    #         print(f"{c[0]} {c[1][4]} {c[5][3]}")
 
-        # Compruebo que la versión es la misma
-        if len(c[2]) > 0 and len(c[5]) > 0 and c[2][2] != c[5][2]:
-            print("PROBLEMA: carácteres distintos")
-            print(f"{c[0]} {c[2][2]} {c[5][2]}")
-
-        # Compruebo que el carácter es el mismo
-        if len(c[1]) > 0 and len(c[5]) > 0 and c[1][4] != c[5][3]:
-            print("PROBLEMA: carácteres distintos")
-            print(f"{c[0]} {c[1][4]} {c[5][3]}")
-
-        # Compruebo que la versión es la misma
-        if len(c[2]) > 0 and len(c[6]) > 0 and c[2][2] != c[6][1]:
-            print("PROBLEMA: carácteres distintos")
-            print(f"{c[0]} {c[2][2]} {c[6][1]}")
+    #     # Compruebo que la versión es la misma
+    #     if len(c[2]) > 0 and len(c[6]) > 0 and c[2][2] != c[6][1]:
+    #         print("PROBLEMA: carácteres distintos")
+    #         print(f"{c[0]} {c[2][2]} {c[6][1]}")
 
 
 def fusion_2():
@@ -316,27 +330,94 @@ def fusion_2():
     fusionados_2 = copy.deepcopy(fusionados_1)
     for i in range(len(fusionados_2)):
         # Borro
-        if len(fusionados_2[i][2]) > 0 and len(fusionados_2[i][1]) > 0:
-            # Borro subgrupo repetido
-            del(fusionados_2[i][2][5])
-            # Borro grupo repetido
-            del(fusionados_2[i][2][4])
+        if len(fusionados_2[i][2]) and len(fusionados_2[i][1]):
             # Borro CDLR repetido
-            del(fusionados_2[i][2][3])
+            del fusionados_2[i][1][5]
             # Borro carácter repetido
-            del(fusionados_2[i][2][1])
-        # Borro número de versión repetido
-        if len(fusionados_2[i][3]) > 0 and len(fusionados_2[i][2]) > 0:
-            del(fusionados_2[i][3][1])
-        # Borro carácter repetido
-        if len(fusionados_2[i][5]) > 0 and len(fusionados_2[i][1]) > 0:
-            del(fusionados_2[i][5][3])
-        # Borro número de versión repetido
-        if len(fusionados_2[i][5]) > 0 and len(fusionados_2[i][2]) > 0:
-            del(fusionados_2[i][5][2])
-        # Borro número de versión repetido
-        if len(fusionados_2[i][6]) > 0 and len(fusionados_2[i][2]) > 0:
-            del(fusionados_2[i][6][1])
+            del fusionados_2[i][1][4]
+            # Borro subgrupo repetido
+            del fusionados_2[i][1][3]
+            # Borro grupo repetido
+            del fusionados_2[i][1][2]
+        if len(fusionados_2[i][2]) and len(fusionados_2[i][5]):
+            # Borro carácter repetido
+            del fusionados_2[i][5][3]
+            # Borro número de versión repetido
+            del fusionados_2[i][5][2]
+            # Borro CDLR repetido
+            del fusionados_2[i][5][1]
+        if len(fusionados_2[i][2]) and len(fusionados_2[i][6]):
+            # Borro número de versión repetido
+            del fusionados_2[i][6][1]
+
+
+def comprueba_tipos_de_registros():
+    # Compruebo los ocho tipos de registros que hay
+    print("  Comprobando tipos de registros ... ")
+    ct = ct1 = ct2 = ct3 = ct4 = ct5 = ct6 = ct7 = ct8 = 0
+    for c in fusionados_1:
+        ct += 1
+        if len(c[1]) and len(c[2]) and len(c[3]) and not len(c[4]) and not len(c[5]) and len(c[6]):
+            ct1 += 1
+        elif len(c[1]) and len(c[2]) and len(c[3]) and not len(c[4]) and not len(c[5]) and not(len(c[6])):
+            ct2 += 1
+        elif len(c[1]) and len(c[2]) and not len(c[3]) and not len(c[4]) and len(c[5]) and not(len(c[6])):
+            ct3 += 1
+        elif len(c[1]) and len(c[2]) and not len(c[3]) and not len(c[4]) and not len(c[5]) and len(c[6]):
+            ct4 += 1
+        elif not len(c[1]) and len(c[2]) and not len(c[3]) and len(c[4]) and not len(c[5]) and len(c[6]):
+            ct5 += 1
+        elif not len(c[1]) and len(c[2]) and not len(c[3]) and not len(c[4]) and not len(c[5]) and not len(c[6]):
+            ct6 += 1
+        elif not len(c[1]) and not len(c[2]) and len(c[3]) and not len(c[4]) and not len(c[5]) and not len(c[6]):
+            ct7 += 1
+        elif not len(c[1]) and not len(c[2]) and not len(c[3]) and len(c[4]) and not len(c[5]) and not len(c[6]):
+            ct8 += 1
+        else:
+            print("    ERROR: Tipo distinto a los esperados")
+            for i in c:
+                print(i)
+            print()
+            exit(0)
+
+    print(f"    OK: {ct} = {ct1} + {ct2} + {ct3} + {ct4} + {ct5} + {ct6} + {ct7} + {ct8}")
+
+def fusion_3():
+    # Fusiono las cinco listas en una sola
+    global fusionados_2
+    fusionados_2 = []
+    for i in range(len(fusionados_1)):
+        c = fusionados_1[i]
+        c2 = []
+        # c[0]
+        c2 += [c[0]]
+        # c[1]
+        # if len(c1[0])
+
+        fusionados_2 += [c2]
+        # Borro
+
+    #     if len(fusionados_2[i][2]) > 0 and len(fusionados_2[i][1]) > 0:
+    #         # Borro subgrupo repetido
+    #         del fusionados_2[i][2][5]
+    #         # Borro grupo repetido
+    #         del fusionados_2[i][2][4]
+    #         # Borro CDLR repetido
+    #         del fusionados_2[i][2][3]
+    #         # Borro carácter repetido
+    #         del fusionados_2[i][2][1]
+    #     # Borro número de versión repetido
+    #     if len(fusionados_2[i][3]) > 0 and len(fusionados_2[i][2]) > 0:
+    #         del fusionados_2[i][3][1]
+    #     # Borro carácter repetido
+    #     if len(fusionados_2[i][5]) > 0 and len(fusionados_2[i][1]) > 0:
+    #         del fusionados_2[i][5][3]
+    #     # Borro número de versión repetido
+    #     if len(fusionados_2[i][5]) > 0 and len(fusionados_2[i][2]) > 0:
+    #         del fusionados_2[i][5][2]
+    #     # Borro número de versión repetido
+    #     if len(fusionados_2[i][6]) > 0 and len(fusionados_2[i][2]) > 0:
+    #         del fusionados_2[i][6][1]
 
 
 def exporta_listas():
@@ -367,7 +448,7 @@ def exporta_listas():
     with open(destino, "w", encoding="utf-8", newline="\n") as fichero:
         t = ""
         # Guarda fusionados_1
-        t += "fusionados_1 = [\n"
+        t += "fusionados_2 = [\n"
         for i in fusionados_2:
             t += f"  [\n"
             t += f"    {i[0]},\n"
@@ -403,6 +484,7 @@ def fusiona_listas_unicode():
         fusion_1()
         comprueba_fusion_1_1()
         comprueba_fusion_1_2()
+        comprueba_tipos_de_registros()
         fusion_2()
         exporta_listas()
     print()
