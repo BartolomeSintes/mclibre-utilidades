@@ -22,6 +22,32 @@ FICHERO_FUSIONADO_2 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_2.py"
 # Ficheros simplificados
 FICHERO_ORDENADO = "unicode_txt_ordenado.py"
 
+uc_tipos = ["emoji", "emoji_modifier_sequence"]
+uc_status = ["component", "fully-qualified", "minimally-qualified", "unqualified"]
+uc_version = ["0.0", "0.6", "0.7", "1.0", "1.1", "2.0", "3.0", "3.1", "3.2", "4.0", "4.1", "5.0", "5.1", "5.2", "6.0", "7.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0"]
+uc_version_2 = ["1.1", "3.0", "3.2", "4.0", "4.1", "5.1", "5.2", "6.0", "7.0"]
+uc_property = ["Emoji", "Emoji_Presentation", "Emoji_Modifier", "Emoji_Modifier_Base", "Emoji_Component", "Extended_Pictographic", "Extended_Pictographic"]
+uc_style = ["emoji style", "text style"]
+uc_type_sequence = ["RGI_Emoji_ZWJ_Sequence"]
+uc_type = ["Basic_Emoji", "Emoji_Keycap_Sequence", "RGI_Emoji_Flag_Sequence", "RGI_Emoji_Tag_Sequence", "RGI_Emoji_Modifier_Sequence"]
+
+uc_type_sequence_grupo =  ["Family", "Role", "Gendered", "Hair", "Other"]
+uc_group = ["Smileys & Emotion", "People & Body", "Component", "Animals & Nature", "Food & Drink", "Travel & Places", "Activities", "Objects", "Symbols", "Flags"]
+uc_subgroup = [
+    "face-smiling", "face-affection", "face-tongue", "face-hand", "face-neutral-skeptical", "face-sleepy", "face-unwell", "face-hat", "face-glasses", "face-concerned", "face-negative", "face-costume", "cat-face", "monkey-face", "emotion",
+    "hand-fingers-open", "hand-fingers-partial", "hand-single-finger", "hand-fingers-closed", "hands", "hand-prop", "body-parts", "person", "person-gesture", "person-role", "person-fantasy", "person-activity", "person-sport", "person-resting", "family", "person-symbol",
+    "skin-tone", "hair-style",
+    "animal-mammal", "animal-bird", "animal-amphibian", "animal-reptile", "animal-marine", "animal-bug", "plant-flower", "plant-other",
+    "food-fruit", "food-vegetable", "food-prepared", "food-asian", "food-marine", "food-sweet", "drink", "dishware",
+    "place-map", "place-geographic", "place-building", "place-religious", "place-other", "transport-ground", "transport-water", "transport-air", "hotel", "time", "sky & weather",
+    "event", "award-medal", "sport", "game", "arts & crafts",
+    "clothing", "sound", "music", "musical-instrument", "phone", "computer", "light & video", "book-paper", "money", "mail", "writing", "office", "lock", "tool", "science", "medical", "household", "other-object",
+    "transport-sign", "warning", "arrow", "religion", "zodiac", "av-symbol", "gender", "math", "punctuation", "currency", "other-symbol", "keycap", "alphanum", "geometric",
+    "flag", "country-flag", "subdivision-flag"
+    ]
+
+
+# Resto que se usa en uc_1_importa_unicode.py, pero el código está comentado, así que realmente no se usa
 emoji_data_componentes_auxiliar = [
     "0023",
     "002A",
