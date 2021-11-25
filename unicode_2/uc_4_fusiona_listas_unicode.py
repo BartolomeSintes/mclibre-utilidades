@@ -397,27 +397,6 @@ def fusion_3():
         fusionados_2 += [c2]
         # Borro
 
-    #     if len(fusionados_2[i][2]) > 0 and len(fusionados_2[i][1]) > 0:
-    #         # Borro subgrupo repetido
-    #         del fusionados_2[i][2][5]
-    #         # Borro grupo repetido
-    #         del fusionados_2[i][2][4]
-    #         # Borro CDLR repetido
-    #         del fusionados_2[i][2][3]
-    #         # Borro carácter repetido
-    #         del fusionados_2[i][2][1]
-    #     # Borro número de versión repetido
-    #     if len(fusionados_2[i][3]) > 0 and len(fusionados_2[i][2]) > 0:
-    #         del fusionados_2[i][3][1]
-    #     # Borro carácter repetido
-    #     if len(fusionados_2[i][5]) > 0 and len(fusionados_2[i][1]) > 0:
-    #         del fusionados_2[i][5][3]
-    #     # Borro número de versión repetido
-    #     if len(fusionados_2[i][5]) > 0 and len(fusionados_2[i][2]) > 0:
-    #         del fusionados_2[i][5][2]
-    #     # Borro número de versión repetido
-    #     if len(fusionados_2[i][6]) > 0 and len(fusionados_2[i][2]) > 0:
-    #         del fusionados_2[i][6][1]
 
 
 def exporta_listas():
@@ -447,7 +426,7 @@ def exporta_listas():
 
     with open(destino, "w", encoding="utf-8", newline="\n") as fichero:
         t = ""
-        # Guarda fusionados_1
+        # Guarda fusionados_2
         t += "fusionados_2 = [\n"
         for i in fusionados_2:
             t += f"  [\n"
@@ -465,7 +444,7 @@ def exporta_listas():
 
 
 def fusiona_listas_unicode():
-    print("2. FUSIONANDO LISTAS UNICODE ORIGINALES EN UNA LISTA")
+    print("4. FUSIONANDO LISTAS UNICODE ORIGINALES EN UNA LISTA")
     # Comprueba si el fichero de destino existe y pide confirmación para sobreescribirlo
     p_1 = pathlib.Path(ucdef.FICHERO_FUSIONADO_1)
     p_2 = pathlib.Path(ucdef.FICHERO_FUSIONADO_2)

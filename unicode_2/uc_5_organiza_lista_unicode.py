@@ -2,7 +2,7 @@ import ucdef
 import os
 import pathlib
 import sys
-import unicode_txt_fusionados as imp
+from u14_ficheros_3_fusionados import unicode_txt_fusionados_1 as imp
 
 def busca(codigos, lista):
     encontrado = False
