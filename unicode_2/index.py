@@ -5,7 +5,7 @@ import uc_4_fusiona_listas_unicode as uc_4
 
 
 def main():
-    print("GENERADOR DE PÁGINAS PARA APUTNES HTML/CSS SOBRE EMOJIS")
+    print("GENERADOR DE PÁGINAS PARA APUNTES HTML/CSS SOBRE EMOJIS")
     print()
     eleccion = -1
     while eleccion != 0:
