@@ -7,12 +7,14 @@ FICHERO_EMOJI_SEQUENCES = UNICODE_ORIGINALES_DIR + "u14-emoji-sequences.txt"
 FICHERO_EMOJI_DATA = UNICODE_ORIGINALES_DIR + "u14-emoji-data.txt"
 FICHERO_EMOJI_FULL_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji List, v14.0.html"
 FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji Modifier Sequences, v14.0.html"
+FICHERO_DERIVED_NAME = UNICODE_ORIGINALES_DIR + "u14-DerivedName.txt"
 
 # Ficheros importados (creados a partir de los ficheros originales)
 UNICODE_IMPORTADOS_DIR = "u14_ficheros_2_importados/"
 FICHERO_IMPORTADO = UNICODE_IMPORTADOS_DIR + "unicode_txt_importados.py"
 FICHERO_EMOJI_FULL_LIST_LISTA = UNICODE_IMPORTADOS_DIR + "unicode_full_emoji_list.py"
 FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST_LISTA = UNICODE_IMPORTADOS_DIR + "unicode_full_emoji_modifier_sequences_list.py"
+FICHERO_UNICODE = UNICODE_IMPORTADOS_DIR + "unicode_txt_derived_name.py"
 
 # Ficheros fusionados (creados a partir de los ficheros importados)
 UNICODE_FUSIONADOS_DIR = "u14_ficheros_3_fusionados/"

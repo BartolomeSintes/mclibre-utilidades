@@ -15,7 +15,7 @@ emoji_data = emoji_data_simbolos = emoji_data_componentes = []
 emoji_variation_sequences = []
 emoji_zwj_sequences = []
 emoji_sequences = []
-
+derived_name = []
 
 def importa_fichero_emoji_test():
     print()
@@ -480,6 +480,29 @@ def importa_fichero_emoji_sequences():
     return importado
 
 
+def importa_fichero_derived_name():
+    print()
+    print(f"  TRATANDO {ucdef.FICHERO_DERIVED_NAME}")
+    print(f"    importando ...")
+    importado = []
+    with open(
+        ucdef.FICHERO_DERIVED_NAME,
+        mode="r",
+        encoding="utf-8",
+    ) as f:
+        for line in f:
+            if line[0] != "#" and line[0] != "\n":
+                linea = []
+                resto = line
+                # códigos
+                corta = line.find(";")
+                linea += [resto[:corta].strip()]
+                # nombre
+                linea += [resto[corta + 1 :].strip().lower()]
+                importado += [linea]
+    return importado
+
+
 def exporta_listas():
     destino = ucdef.FICHERO_IMPORTADO
     print()
@@ -519,11 +542,27 @@ def exporta_listas():
         t += "\n"
         fichero.write(t)
 
+    destino = ucdef.FICHERO_UNICODE
+    print()
+    print(f"  CREANDO {destino}")
+    with open(destino, "w", encoding="utf-8", newline="\n") as fichero:
+        t = ""
+        # Guarda derived_name
+        t += "derived_name = [\n"
+        for i in derived_name:
+            t += f"  {i},\n"
+        t += "]\n"
+        t += "\n"
+        fichero.write(t)
+
 
 def importa_unicode():
-    global emoji_test, emoji_data, emoji_variation_sequences, emoji_zwj_sequences, emoji_sequences
+    global emoji_test, emoji_data, emoji_variation_sequences, emoji_zwj_sequences, emoji_sequences, derived_name
     print("1. IMPORTANDO FICHEROS UNICODE ORIGINALES EN MATRICES")
     # Comprueba si el fichero de destino existe y pide confirmación para sobreescribirlo
+    p = pathlib.Path(ucdef.FICHERO_UNICODE)
+    if not p.exists():
+        print("El fichero NO EXISTE")
     p = pathlib.Path(ucdef.FICHERO_IMPORTADO)
     if p.exists():
         print(f"  El fichero de destino {ucdef.FICHERO_IMPORTADO} ya existe.")
@@ -538,6 +577,7 @@ def importa_unicode():
         emoji_variation_sequences = importa_fichero_emoji_variation_sequence()
         emoji_zwj_sequences = importa_fichero_emoji_zwj_sequences()
         emoji_sequences = importa_fichero_emoji_sequences()
+        derived_name = importa_fichero_derived_name()
         exporta_listas()
     print()
     print("  Programa terminado.")
