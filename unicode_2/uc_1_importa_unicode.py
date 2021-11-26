@@ -254,6 +254,17 @@ def importa_fichero_emoji_data():
                 print(importado2[i])
                 print(importado2[j])
 
+    # Algunos de los caracteres que he separado en realidad no existen en Unicode, así que los elimino
+    print("    eliminando caracteres inexistentes ...")
+    for i in range(len(importado2) - 1, -1, -1):
+        encontrado = False
+        for j in derived_name:
+            if importado2[i][0][0] == j[0]:
+                encontrado = True
+        if not encontrado:
+            print("      Elimino caracter no existente:", importado2[i])
+            del importado2[i]
+
     return importado2
 
 
@@ -572,12 +583,12 @@ def importa_unicode():
         else:
             os.remove(p)
     if not p.exists():
+        derived_name = importa_fichero_derived_name()
         emoji_test = importa_fichero_emoji_test()
         emoji_data = importa_fichero_emoji_data()
         emoji_variation_sequences = importa_fichero_emoji_variation_sequence()
         emoji_zwj_sequences = importa_fichero_emoji_zwj_sequences()
         emoji_sequences = importa_fichero_emoji_sequences()
-        derived_name = importa_fichero_derived_name()
         exporta_listas()
     print()
     print("  Programa terminado.")
