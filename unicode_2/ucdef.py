@@ -52,9 +52,13 @@ uc_subgroup = [
 
 uc_grupos_2 = [
     "gr-componentes",
-    "gr-banderas-paises",
-    "gr-genero-1", "gr-genero-2", "gr-genero-3", "gr-genero-4",  "gr-genero-5",
-    "gr-colores-piel-1", "gr-colores-piel-2", "gr-colores-piel-3", "gr-colores-piel-4", "gr-colores-piel-5",
+    "gr-banderas-paises", "gr-banderas-regiones", "gr-banderas-otras",
+    "gr-genero-1", "gr-genero-2", "gr-genero-3", "gr-genero-4", "gr-genero-5", "gr-genero-6", "genero-7",
+    "gr-colores-piel-1", "gr-colores-piel-2", "gr-colores-piel-3", "gr-colores-piel-4", "gr-colores-piel-5", "gr-colores-piel-6","gr-colores-piel-7", "gr-colores-piel-8",
+    "gr-familias", "gr-parejas-corazon-1", "gr-parejas-beso-1", "gr-parejas-mano-piel-1", "gr-parejas-mano-piel-2", "gr-parejas-corazon-piel-1", "gr-parejas-corazon-piel-2", "gr-parejas-beso-piel-1", "gr-parejas-beso-piel-2",
+    "gr-texto-emoji",
+    "gr-keycap",
+    "gr-restos",
 ]
 
 uc_tablas_caracteres = [
