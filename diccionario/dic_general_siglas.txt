@@ -48,6 +48,7 @@ CCPA
 CCXML 
 CD 
 CDG 
+CDN 
 cdr 
 cdrom 
 CDs 
@@ -168,6 +169,7 @@ HSLA
 HTML+RDFa 
 HTML4 
 HTML5 
+HV 
 I-JSON 
 I18n 
 IA 
@@ -301,9 +303,11 @@ ovf
 P2P 
 P3P 
 P3P1 
+PAP 
 PCDATA 
 PCI 
 PCIe 
+PCM 
 PCPI 
 PCs 
 PDAs 

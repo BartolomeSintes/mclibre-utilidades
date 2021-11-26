@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    @keyframes hideshow {
+      0% { opacity: 1; }
+      10% { opacity: 1; }
+      15% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .text-1 {
+      animation: hideshow 6s ease infinite;
+    }
+    .text-2 {
+      opacity: 0;
+      animation: hideshow 6s 2s ease infinite;
+    }
+    .text-3 {
+      opacity: 0;
+      animation: hideshow 6s 4s ease infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <svg version="1.1"  xmlns="http://www.w3.org/2000/svg"
+        width="200" height="200" viewBox="0 0 200 200" >
+      <rect x="10" y="10" width="80" height="80">
+        <animate attributeName="fill" values="red;blue;green;red" dur="6s" repeatCount="indefinite" />
+      </rect>
+      <rect x="110" y="10" width="80" height="80">
+        <animate attributeName="fill" values="blue;green;red;blue" dur="6s" repeatCount="indefinite" />
+      </rect>
+      <rect x="10" y="110" width="80" height="80">
+        <animate attributeName="fill" values="green;red;blue;blue" dur="6s" repeatCount="indefinite" />
+      </rect>
+      <text x="110" y="160" class="text-1">Rojo</text>
+      <text x="110" y="160" class="text-2">Azul</text>
+      <text x="110" y="160" class="text-3">Verde</text>
+    </svg>
+  </p>
+</body>
+</html>

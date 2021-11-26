@@ -3609,6 +3609,17 @@
       "creado": "2021-10-29"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 175,
+      "año": 2021,
+      "mes": 11,
+      "portada": "full-circle-175-en-202111.jpg",
+      "fichero": "full-circle-175-en-202111.pdf",
+      "idioma": "inglés",
+      "creado": "2021-11-26"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -10548,6 +10559,17 @@
       "fichero": "the-magpi-111-en-202111.pdf",
       "idioma": "inglés",
       "creado": "2021-10-29"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 112,
+      "año": 2021,
+      "mes": 12,
+      "portada": "the-magpi-112-en-202112.jpg",
+      "fichero": "the-magpi-112-en-202112.pdf",
+      "idioma": "inglés",
+      "creado": "2021-11-26"
     },
     {
       "serie": "The MagPi Books",

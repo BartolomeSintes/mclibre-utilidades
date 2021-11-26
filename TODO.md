@@ -36,3 +36,7 @@ Aplicación para analizar los logs de cdlibre y mclibre.
 
 ### ANALIZA EMOJIS
 Aplicación para clasificar los emojis en las nuevas versiones de Twemoji (podría mirar cómo los tengo organizados por carpetas y copiar los nuevos con la misma estructura, los que quedaran sin clasificar serían los nuevos).
+
+### ANALIZA TEXTO
+Aplicación para buscar errores más allás del diccionario. Por ejemplo: palabras repetidas, concordancia artículos con nombres, géneros, plurales, etc.
+

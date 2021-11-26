@@ -22,5 +22,8 @@ Esta aplicación genera la lista de palabras que hay en los ficheros de un direc
 -   2019-06-08. Opción para hacer revisión de diccionarios y que diga qué palabras ha encontrado (porque haya mejorado la eliminación y alguna excepeción ya no sea necesario).
 -   2019-06-08. Opción para hacer test de regexp y que saque sólo las coincidencias.
 -   2019-09-26. Opción para guardar una excepción para un archivo concreto. Por ejemplo un nombre de directorio sin acento (por ejemplo paginas en los apuntes de PHP).
--   2019-09-26. Cuando hay varias palabras unidas por guinoes bajos podría partirla y preguntar por cada una de las partes.
+-   2019-09-26. Cuando hay varias palabras unidas por guiones bajos podría partirla y preguntar por cada una de las partes.
 -   2019-10-03. Hacer que en algunas palabras compruebe mayúsculas/minúsculas (nombre de países, etc.).
+-   2020-07-01. No haría falta reordenar los diccionarios si no ha añadido ninguna palabra.
+-   2021-11-12. El programa podría buscar si hay dos palabras iguales seguidas, que suelen ser errores (una puede llevar mayúsculas y la otra no).
+-   2021-11-12. El programa podría buscar si hay errores de concordancia (artículos singulas seguidos de palabra en plural o viceversa). Esto no debe ser fácil.

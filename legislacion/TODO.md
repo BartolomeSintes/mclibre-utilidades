@@ -109,3 +109,16 @@ la Generalitat Valenciana. (En vigor parcialmente)
 -   <http://www.informatica-juridica.com/legislacion/espana/>
 
 -   A veces el buscador no muestra el DOGV completo, pero esta dirección parece que sí: <http://www.dogv.gva.es/datos/1999/11/30/PortalSDLCAS.html>
+
+- <https://algoquedaquedecir.blogspot.com/>. [Ratios en educación: normativa](http://algoquedaquedecir.blogspot.com/2018/12/ratios-en-educacion-normativa.html)
+
+
+
+## Pendiente de incluir
+
+- <https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/pdr-evaluacion-promocion.html>
+
+-<https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/prd-cualificaciones-profesionales.html>
+
+-[Orden PRE/2740/2007, de 19 de septiembre, por la que se aprueba el Reglamento de Evaluación y Certificación de la Seguridad de las Tecnologías de la Información](https://www.boe.es/buscar/act.php?id=BOE-A-2007-16830)
+

@@ -711,6 +711,7 @@ editor_1
 EditorConfig 
 EditWarning 
 EEEE 
+EJECUCION 
 ejemplo_mptc_1000 
 ejercicio10 
 element-case 
@@ -1015,6 +1016,7 @@ loquesea
 love-you 
 lrwxrwxrwx 
 lsb_release 
+LsGCkDyaex 
 lsmod 
 Lu 
 luminosidad1 
@@ -1833,6 +1835,7 @@ wikipage
 wikitable 
 Win 
 wireless_wep 
+WN45wzVTuRmW5QLuctuicGAFZIO2M3QR8NLdtQYatKTn1 
 wordpress0 
 wordpress_database_name 
 wordpress_database_password 
@@ -1900,6 +1903,7 @@ y_1
 y_2 
 yavendras 
 yChannelSelector 
+YiuRPSZM3ZXVe4UyIqv1dvy9rUjf5 
 yMax 
 yMin 
 you've 

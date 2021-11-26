@@ -1,5 +1,6 @@
 Accessoris 
 Aplicacions 
+Aules 
 Baixades 
 centres 
 ciència 
@@ -8,6 +9,9 @@ Compromís
 Comunitat 
 coneixements 
 Consell 
+conseller 
+Consellera 
+consellera 
 conselleria 
 d'educació 
 educació 
@@ -20,6 +24,10 @@ grau
 investigació 
 Junta 
 mitjà 
+Pep 
+Politècnica 
 qualificadora 
 rater 
+Universitat 
 valencià 
+València 

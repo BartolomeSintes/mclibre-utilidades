@@ -177,6 +177,7 @@ dados1
 dados2 
 datosCorrectos 
 datosRecibidos 
+db-prestamos 
 db_citas 
 db_intervalos 
 dbAgenda 
@@ -197,6 +198,7 @@ dbUsuarios
 dc 
 deporteOk 
 descripcion 
+devolver-1 
 dia+7 
 dia-7 
 diaAnt 
@@ -288,6 +290,7 @@ gnu_y
 height1 
 height2 
 height3 
+htmlspecialchars_decode 
 iaw-nombre-alumno 
 id_autor 
 id_cita 

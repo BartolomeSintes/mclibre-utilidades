@@ -48,6 +48,10 @@ Ecirc
 ecirc 
 Egrave 
 egrave 
+emoji-data 
+emoji-list 
+emoji-sequences 
+emoji-test 
 emsp 
 ensp 
 Epsilon 
@@ -60,6 +64,7 @@ eth
 Euml 
 euml 
 exist 
+fe0f 
 fnof 
 forall 
 frac12 
@@ -206,6 +211,7 @@ thinsp
 THORN 
 thorn 
 trade 
+u000D 
 Uacute 
 uacute 
 uarr 
@@ -219,8 +225,11 @@ Upsilon
 upsilon 
 Uuml 
 uuml 
+VSE 
+VST 
 weierp 
 x1f3f4 
+x1F4AA 
 x2642 
 Xi 
 xi 

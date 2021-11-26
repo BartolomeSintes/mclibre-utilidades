@@ -28941,6 +28941,119 @@
                 "formación profesional",
                 "covid-19"
             ]
+        },
+        {
+            "id": "boe-2021-279-rd",
+            "incluido": "2021-05-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2021-05-10",
+            "vigencia": "vigente",
+            "descripción": "Decreto del Curso de especialización en Inteligencia Artificial y Big Data",
+            "titulo": "Real Decreto 279/2021, de 20 de abril, por el que se establece el Curso de especialización en Inteligencia Artificial y Big Data y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-05-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2021-279-RD-IABD-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2021/04/20/279"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización",
+                "inteligencia artificial y big data"
+            ]
+        },
+        {
+            "id": "boe-2021-261-rd",
+            "incluido": "2021-05-12",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2021-05-07",
+            "vigencia": "vigente",
+            "descripción": "Decreto del Curso de especalización de Desarrollo de videojuegos y realidad virtual",
+            "titulo": "Real Decreto 261/2021, de 13 de abril, por el que se establece el Curso de especialización en Desarrollo de videojuegos y realidad virtual y se fijan los aspectos básicos del currículo, se modifican diversos reales decretos por los que se establecen cursos de especialización y los aspectos básicos del currículo y se corrigen errores del Real Decreto 283/2019, de 22 de abril y del Real Decreto 402/2020, de 25 de febrero, por los que establecen los títulos y los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-05-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2021-261-RD-Videojuegos-VR-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2021/04/13/261"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización",
+                "videojuegos y realidad virtual"
+            ]
+        },
+        {
+            "id": "boe-borrador-2021-3-lo",
+            "incluido": "2021-06-20",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2021-06-15",
+            "vigencia": "borrador",
+            "descripción": "Borrador Ley Orgánica ordenación e integración FP",
+            "titulo": "Proyecto de Ley Orgánica XX/2021, de XX de XXXX, de ordenación e integración de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2021-06-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-LO-ordenacion-e-integracion-fp-borrador-2021-06-15.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/anteproyecto-lo-ordenacion.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "borrador",
+                "educación",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
         }
     ]
 }

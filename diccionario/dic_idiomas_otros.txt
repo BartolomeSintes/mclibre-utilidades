@@ -5,6 +5,8 @@ Arbeitsfront
 arpeggiato 
 Ars 
 atem 
+baktún 
+baktúns 
 bassa 
 brevis 
 capo 
@@ -16,6 +18,7 @@ clef-2
 climacus 
 clivis 
 coda 
+cours 
 crescendo 
 croix 
 cruzeiro 
@@ -31,9 +34,11 @@ diya
 Doggen-Club 
 doit 
 déjà 
+Désir 
 fermata 
 flexus 
 forte 
+france 
 fuji 
 fusa 
 fédération 
@@ -51,9 +56,13 @@ imperfectum
 internationale 
 jove 
 jueui 
+katún 
+katúns 
 ken 
 kens 
 kievan 
+kin 
+kins 
 kiyeok 
 koto 
 longa 
@@ -64,8 +73,11 @@ mezzo
 modernes 
 mortuum 
 Musée 
+Neue 
 nieun 
 ninja 
+Noir 
+Nous 
 Numérique 
 ogre 
 ottava 
@@ -73,6 +85,7 @@ perfectum
 pes 
 podatus 
 porrectus 
+Portera 
 Programme 
 prolatione 
 quindicesima 
@@ -83,6 +96,7 @@ regulus-3
 regulus-4 
 resupinus 
 rinforzando 
+réprise 
 scandicus 
 segno 
 semibrevis 
@@ -107,7 +121,12 @@ torculus
 tremolo-1 
 tremolo-2 
 tremolo-3 
+tun 
+tuns 
+uinal 
+uinals 
 Université 
+Vent 
 vie 
 virga 
 vitae-2 

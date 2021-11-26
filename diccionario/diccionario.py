@@ -1,4 +1,5 @@
-import pathlib, re
+import pathlib
+import re
 
 # para ejecutar esta aplicación,
 # escriba en ORIGEN la raíz de los ficheros a analizar
@@ -12,8 +13,9 @@ ORIGEN_XML = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consul
 ORIGEN_PHP = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\php"
 ORIGEN_SEMANAS = "D:\\_Carpetas_frecuentes\\Documentos\\Clase\\19-20 Abastos\\19-20 Semanas\\1920"
 ORIGEN_LEGISLACION = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\legislacion"
+ORIGEN_EXPLICACIONES = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\_explicaciones"
 
-ORIGEN = ORIGEN_HTML
+ORIGEN = ORIGEN_EXPLICACIONES
 
 DICT_COD_PAISES = "dic_cod_paises.txt"
 DICT_COD_TK = "dic_cod_tk.txt"
@@ -67,8 +69,8 @@ DICT_LIST = [
     [DICT_COD_PAISES, "Códigos países", 47, 48],
     [DICT_COD_TK, "Tk", 49, 50],
     [DICT_EXCEPCIONES_XML, "Excep. XML", 51, 52],
-    [DICT_EXCEPCIONES_PHP, "Excep. PHP", 53, 54 ],
-    [DICT_TECNICO_VSCODE, "Excep. VSC", 55, 56 ]
+    [DICT_EXCEPCIONES_PHP, "Excep. PHP", 53, 54],
+    [DICT_TECNICO_VSCODE, "Excep. VSC", 55, 56],
 ]
 
 EXTENSIONES = ["html"]
@@ -135,7 +137,7 @@ def estadisticas():
 
 
 def ordena_diccionarios():
-    no_cuenta = [DICT_EXCEPCIONES, DICT_EXCEPCIONES_XML, DICT_EXCEPCIONES_PHP, DICT_TECNICO_MCLIBRE_CSS, DICT_IDIOMAS_NONSENSE, DICT_GENERAL_NOMBRES, DICT_GENERAL_SIGLAS, DICT_GENERAL_ABREVIATURAS,  DICT_COD_TK, DICT_COD_UNICODE]
+    no_cuenta = [DICT_EXCEPCIONES, DICT_EXCEPCIONES_XML, DICT_EXCEPCIONES_PHP, DICT_TECNICO_MCLIBRE_CSS, DICT_IDIOMAS_NONSENSE, DICT_GENERAL_NOMBRES, DICT_GENERAL_SIGLAS, DICT_GENERAL_ABREVIATURAS, DICT_COD_TK, DICT_COD_UNICODE]
     print()
     print("Ordenando diccionarios ...")
     total_palabras = 0
@@ -364,7 +366,7 @@ def main():
                     # CASOS ESPECIALES
 
                     # elimina genitivo sajón
-                    elimina = ["'s ", "’s " " d'"]
+                    elimina = ["'s ", "’s ", " d'"]
                     for i in elimina:
                         texto = texto.replace(i, " ")
 

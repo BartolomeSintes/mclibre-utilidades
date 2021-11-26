@@ -171,6 +171,7 @@ MENU_PRINCIPAL_CONECTADO
 MENU_USUARIOS 
 MENU_VOLVER 
 minimo 
+misTwemojis2 
 mon 
 mujer-mujer 
 muy-grande 
@@ -214,8 +215,13 @@ p4
 p5 
 p6 
 passwordOk 
+pong_1_1 
+pong_1_2 
+pong_1_3 
 posic 
 profundidaddirectorio 
+prueba_01 
+prueba_1 
 radio1 
 radio2 
 radio3 
@@ -227,6 +233,7 @@ resul2
 resultado-object 
 ROOT_NAME 
 ROOT_PASSWORD 
+ruta_1 
 s1 
 s2 
 s3 
@@ -254,6 +261,7 @@ tamUsuariosPasswordCifrado
 tamUsuariosUsuario 
 tate 
 telefono 
+test_200516 
 text1 
 textcontent 
 texto1 

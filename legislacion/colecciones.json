@@ -69,9 +69,9 @@
                             "apartado": {
                                 "titulo": "Borradores",
                                 "referencias": [
-                                    "boe-borrador-2020-1-rd",
-                                    "boe-borrador-2020-2-rd",
-                                    "boe-borrador-2021-2-rd"
+                                    "boe-borrador-2021-3-lo",
+                                    "boe-borrador-2021-2-rd",
+                                    "boe-borrador-2021-1-rd"
                                 ]
                             }
                         },
@@ -153,7 +153,9 @@
                                     "boe-2009-1629-rd",
                                     "boe-2010-450-rd",
                                     "boe-2010-686-rd",
-                                    "boe-2020-479-rd"
+                                    "boe-2020-479-rd",
+                                    "boe-2021-261-rd",
+                                    "boe-2021-279-rd"
                                 ]
                             }
                         },
@@ -272,8 +274,7 @@
                                     "boe-2011-686-rd",
                                     "boe-2011-1531-rd",
                                     "boe-2013-628-rd",
-                                    "boe-2014-548-rd",
-                                    "boe-borrador-2021-1-rd"
+                                    "boe-2014-548-rd"
                                 ]
                             }
                         },

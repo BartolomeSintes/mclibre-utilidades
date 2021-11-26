@@ -217,6 +217,7 @@ Battenger
 Bazán 
 BBPress 
 bbPress 
+bcdedit 
 Beaconsfield 
 BeansBooks 
 Beatriz 
@@ -303,6 +304,8 @@ Borgoña
 Boris 
 Bos 
 Boston 
+Bourbon 
+bourbon 
 Boutell 
 Boyer 
 Brackets 
@@ -392,6 +395,7 @@ Carothers
 Carpio 
 Carroll 
 Carter 
+Cascón 
 Case 
 Caspio 
 Castellón 
@@ -408,6 +412,7 @@ Chacon
 Chadwick 
 Chamberlin 
 Charles 
+Charlton 
 Chee 
 Cheney 
 Chernenko 
@@ -444,6 +449,8 @@ COBOL
 Codden 
 Codeacademy 
 codedread 
+CodeMirror 
+CodePen 
 codester 
 Codex 
 Codio 
@@ -532,6 +539,7 @@ Daggett
 Dahlström 
 Dale 
 Dalton 
+Danang 
 Daniel 
 Danland 
 Daphne 
@@ -573,6 +581,7 @@ Di
 Dick 
 Diego 
 Diggs 
+digiógenes 
 Dijkstra 
 Dimitris 
 DirectMedia 
@@ -674,6 +683,7 @@ Enrique
 Envato 
 eot 
 Epson 
+Erasmus 
 Eric 
 Erickson 
 Erik 
@@ -772,6 +782,7 @@ Florida
 Floris 
 FLOW-MATIC 
 FMI 
+focal 
 Fontastic 
 FontAwesome 
 Fontello 
@@ -868,6 +879,7 @@ Glimm
 Gloria 
 Glover 
 GlowScript 
+glup 
 gmail 
 GmbH 
 GNU 
@@ -1004,6 +1016,7 @@ html5
 HTML5shiv 
 HTMLHint 
 htmlhint 
+HTMLint 
 HTTrack 
 Hua 
 Hubbert 
@@ -1020,6 +1033,7 @@ Huynh
 Hyatt 
 Hykes 
 Hyper-V 
+hyper-V 
 Håkon 
 Héctor 
 Hércules 
@@ -1208,6 +1222,7 @@ Kass
 Kata 
 Kaufman 
 Kay 
+KDiff 
 Kehrig 
 Keith 
 Kellogg 
@@ -1266,6 +1281,7 @@ Kundera
 Károly 
 Käbisch 
 l7ssha 
+LABORA 
 Lachlan 
 Lafon 
 Lame 
@@ -1333,6 +1349,7 @@ Llosa
 LMSGI 
 Lobster 
 Lofton 
+Lola 
 London 
 Londres 
 Longley 
@@ -1393,6 +1410,7 @@ Manolescu
 MantisBT 
 Manu 
 Manuel 
+Manuela 
 Maquiavelo 
 Maradona 
 Marc 
@@ -1425,6 +1443,7 @@ Mary
 María 
 Marón 
 Masayasu 
+Masero 
 Massachusetts 
 Massimo 
 MATE 
@@ -1576,6 +1595,7 @@ Nextcloud
 nextcloud 
 NextGen 
 Nginx 
+nginx 
 Nguyen 
 Niccolò 
 Nicholas 
@@ -1627,6 +1647,7 @@ Ohmios
 Ola 
 Oladimeji 
 Oliveira 
+Oliver 
 Olivier 
 Ollie 
 onetone 
@@ -1656,6 +1677,7 @@ Oracle
 OrangeHRM 
 Orbitron 
 Orchard 
+Orero 
 Oriente 
 Oriol 
 Orion 
@@ -1707,6 +1729,7 @@ Parecki
 Paris 
 Parker 
 Parsia 
+parted 
 París 
 Pascal 
 Paschke 
@@ -1720,6 +1743,7 @@ patternify
 Paul 
 Paula 
 PCWorld 
+PDFtk 
 Peary 
 Pecita 
 Pedro 
@@ -1831,9 +1855,11 @@ publicdomainvectors
 Publio 
 Publisher 
 Puck 
+Pug 
 Pullmann 
 Purgecss 
 PuTTY 
+putty 
 PyAr 
 Pybonacci 
 PyCon 
@@ -1857,6 +1883,7 @@ Quesada
 Quest 
 Quevedo 
 Quijote 
+Quique 
 Quiroga 
 Rachel 
 RAE 
@@ -1912,6 +1939,7 @@ Ridley
 Ridruejo 
 Righteous 
 Rik 
+Rincón 
 Ringmark 
 Rinzo 
 Rioja 
@@ -1943,6 +1971,7 @@ Roma
 Romeo 
 Roncesvalles 
 Roo 
+Rosalie 
 Ross 
 Rossberg 
 Rossi 
@@ -2128,6 +2157,7 @@ Superman
 Suraski 
 Suráfrica 
 SUSE 
+Susy 
 Suárez 
 Svelte 
 svg-edit 
@@ -2229,6 +2259,7 @@ Tux
 tux 
 Twain 
 Twemoji 
+twemoji 
 Twister 
 Twitter 
 TWX 
@@ -2274,6 +2305,7 @@ Vectr
 Vedamuthu 
 Vega 
 Veix 
+Velásquez 
 Velázquez 
 Venecia 
 Vera 
@@ -2302,6 +2334,7 @@ Virginia
 virt 
 virtio 
 VirtualBox 
+virtualbox 
 VirtueMart 
 VisualBasic 
 Vito 
@@ -2323,6 +2356,7 @@ W3C
 W3Techs 
 Wagner 
 Wahbe 
+Wahyu 
 Walkman 
 Wall 
 Wallace 
@@ -2347,6 +2381,7 @@ Webber
 WebBook 
 WebCalendar 
 WebDriver 
+WebEx 
 WebExtensions 
 webhint 
 WebIDE 
@@ -2391,10 +2426,12 @@ WikiWikiWeb
 Wilco 
 Wilde 
 Wilder 
+Wilfort 
 Wilkes 
 William 
 Williams 
 Wilson 
+Win10 
 WinSCP 
 Wirth 
 Witt 
