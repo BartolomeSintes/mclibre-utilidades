@@ -2097,19 +2097,19 @@ manual_1 = [
   ],
   [
     ['1F9B0'],
-    ['gr-simbolos-misc-supl'],
+    ['gr-simbolos-misc-supl', 'gr-componentes'],
   ],
   [
     ['1F9B1'],
-    ['gr-simbolos-misc-supl'],
+    ['gr-simbolos-misc-supl', 'gr-componentes'],
   ],
   [
     ['1F9B3'],
-    ['gr-simbolos-misc-supl'],
+    ['gr-simbolos-misc-supl', 'gr-componentes'],
   ],
   [
     ['1F9B2'],
-    ['gr-simbolos-misc-supl'],
+    ['gr-simbolos-misc-supl', 'gr-componentes'],
   ],
   [
     ['1F435'],
@@ -14513,23 +14513,23 @@ manual_1 = [
   ],
   [
     ['1F3FB'],
-    ['gr-simbolos-pict-misc'],
+    ['gr-simbolos-pict-misc', 'gr-componentes'],
   ],
   [
     ['1F3FC'],
-    ['gr-simbolos-pict-misc'],
+    ['gr-simbolos-pict-misc', 'gr-componentes'],
   ],
   [
     ['1F3FD'],
-    ['gr-simbolos-pict-misc'],
+    ['gr-simbolos-pict-misc', 'gr-componentes'],
   ],
   [
     ['1F3FE'],
-    ['gr-simbolos-pict-misc'],
+    ['gr-simbolos-pict-misc', 'gr-componentes'],
   ],
   [
     ['1F3FF'],
-    ['gr-simbolos-pict-misc'],
+    ['gr-simbolos-pict-misc', 'gr-componentes'],
   ],
   [
     ['263A', 'FE0F'],
@@ -18809,155 +18809,155 @@ manual_1 = [
   ],
   [
     ['0023'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['002A'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0030'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0031'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0032'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0033'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0034'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0035'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0036'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0037'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0038'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['0039'],
-    ['gr-controles-latin'],
+    ['gr-controles-latin', 'gr-componentes'],
   ],
   [
     ['1F1E6'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1E7'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1E8'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1E9'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1EA'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1EB'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1EC'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1ED'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1EE'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1EF'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F0'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F1'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F2'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F3'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F4'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F5'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F6'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F7'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F8'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1F9'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1FA'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1FB'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1FC'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1FD'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1FE'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['1F1FF'],
-    ['gr-alfanum-circulo-sup'],
+    ['gr-alfanum-circulo-sup', 'gr-componentes'],
   ],
   [
     ['200D'],
@@ -20216,22 +20216,6 @@ manual_1 = [
     ['gr-fichas-mahjong'],
   ],
   [
-    ['1F02C'],
-    [],
-  ],
-  [
-    ['1F02D'],
-    [],
-  ],
-  [
-    ['1F02E'],
-    [],
-  ],
-  [
-    ['1F02F'],
-    [],
-  ],
-  [
     ['1F030'],
     ['gr-domino'],
   ],
@@ -20632,54 +20616,6 @@ manual_1 = [
     ['gr-domino'],
   ],
   [
-    ['1F094'],
-    [],
-  ],
-  [
-    ['1F095'],
-    [],
-  ],
-  [
-    ['1F096'],
-    [],
-  ],
-  [
-    ['1F097'],
-    [],
-  ],
-  [
-    ['1F098'],
-    [],
-  ],
-  [
-    ['1F099'],
-    [],
-  ],
-  [
-    ['1F09A'],
-    [],
-  ],
-  [
-    ['1F09B'],
-    [],
-  ],
-  [
-    ['1F09C'],
-    [],
-  ],
-  [
-    ['1F09D'],
-    [],
-  ],
-  [
-    ['1F09E'],
-    [],
-  ],
-  [
-    ['1F09F'],
-    [],
-  ],
-  [
     ['1F0A0'],
     ['gr-cartas'],
   ],
@@ -20740,14 +20676,6 @@ manual_1 = [
     ['gr-cartas'],
   ],
   [
-    ['1F0AF'],
-    ['gr-cartas'],
-  ],
-  [
-    ['1F0B0'],
-    ['gr-cartas'],
-  ],
-  [
     ['1F0B1'],
     ['gr-cartas'],
   ],
@@ -20805,10 +20733,6 @@ manual_1 = [
   ],
   [
     ['1F0BF'],
-    ['gr-cartas'],
-  ],
-  [
-    ['1F0C0'],
     ['gr-cartas'],
   ],
   [
@@ -20901,230 +20825,6 @@ manual_1 = [
   ],
   [
     ['1F1AD'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1AE'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1AF'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B0'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B1'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B2'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B3'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B4'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B5'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B6'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B7'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B8'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1B9'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1BA'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1BB'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1BC'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1BD'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1BE'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1BF'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C0'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C1'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C2'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C3'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C4'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C5'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C6'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C7'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C8'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1C9'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1CA'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1CB'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1CC'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1CD'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1CE'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1CF'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D0'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D1'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D2'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D3'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D4'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D5'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D6'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D7'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D8'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1D9'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1DA'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1DB'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1DC'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1DD'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1DE'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1DF'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1E0'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1E1'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1E2'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1E3'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1E4'],
-    ['gr-alfanum-circulo-sup'],
-  ],
-  [
-    ['1F1E5'],
     ['gr-alfanum-circulo-sup'],
   ],
   [
@@ -21688,480 +21388,396 @@ manual_1 = [
     ['gr-geometricas-extendidas'],
   ],
   [
-    ['1F7D9'],
-    ['gr-geometricas-extendidas'],
-  ],
-  [
-    ['1F7DA'],
-    ['gr-geometricas-extendidas'],
-  ],
-  [
-    ['1F7DB'],
-    ['gr-geometricas-extendidas'],
-  ],
-  [
-    ['1F7DC'],
-    ['gr-geometricas-extendidas'],
-  ],
-  [
-    ['1F7DD'],
-    ['gr-geometricas-extendidas'],
-  ],
-  [
-    ['1F7DE'],
-    ['gr-geometricas-extendidas'],
-  ],
-  [
-    ['1F7DF'],
-    ['gr-geometricas-extendidas'],
-  ],
-  [
     ['1FA00'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA01'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA02'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA03'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA04'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA05'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA06'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA07'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA08'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA09'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA0A'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA0B'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA0C'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA0D'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA0E'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA0F'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA10'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA11'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA12'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA13'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA14'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA15'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA16'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA17'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA18'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA19'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA1A'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA1B'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA1C'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA1D'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA1E'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA1F'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA20'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA21'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA22'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA23'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA24'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA25'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA26'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA27'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA28'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA29'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA2A'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA2B'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA2C'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA2D'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA2E'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA2F'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA30'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA31'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA32'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA33'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA34'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA35'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA36'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA37'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA38'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA39'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA3A'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA3B'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA3C'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA3D'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA3E'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA3F'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA40'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA41'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA42'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA43'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA44'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA45'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA46'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA47'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA48'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA49'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA4A'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA4B'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA4C'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA4D'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA4E'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA4F'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA50'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA51'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA52'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA53'],
-    [],
-  ],
-  [
-    ['1FA54'],
-    [],
-  ],
-  [
-    ['1FA55'],
-    [],
-  ],
-  [
-    ['1FA56'],
-    [],
-  ],
-  [
-    ['1FA57'],
-    [],
-  ],
-  [
-    ['1FA58'],
-    [],
-  ],
-  [
-    ['1FA59'],
-    [],
-  ],
-  [
-    ['1FA5A'],
-    [],
-  ],
-  [
-    ['1FA5B'],
-    [],
-  ],
-  [
-    ['1FA5C'],
-    [],
-  ],
-  [
-    ['1FA5D'],
-    [],
-  ],
-  [
-    ['1FA5E'],
-    [],
-  ],
-  [
-    ['1FA5F'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA60'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA61'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA62'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA63'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA64'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA65'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA66'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA67'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA68'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA69'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA6A'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA6B'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA6C'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['1FA6D'],
-    [],
-  ],
-  [
-    ['1FA6E'],
-    [],
-  ],
-  [
-    ['1FA6F'],
-    [],
+    ['gr-ajedrez'],
   ],
   [
     ['0023', 'FE0E'],

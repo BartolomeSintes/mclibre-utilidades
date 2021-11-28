@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Problemáticas. Secuencias Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
+  <link rel="icon" href="../varios/favicon.svg">
+  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+  <style>
+    @font-face {
+      font-family: "Symbola";
+      src: url("unicode/Symbola.ttf");
+    }
+
+    @font-face {
+      font-family: "Twemoji";
+      src: url("unicode/TwemojiMozilla.ttf");
+    }
+
+    div.u-l {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+
+    div.u,
+    div.u2 {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 210px;
+      margin: 5px;
+      border: black 1px solid;
+      text-align: center;
+    }
+
+    div.u2 {
+      flex: 0 1 280px;
+    }
+
+    div.u p:nth-child(odd),
+    div.u2 p:nth-child(odd) {
+      background-color: #eee;
+    }
+
+    div.u p,
+    div.u2 p {
+      margin: 0;
+      padding: 5px 10px;
+    }
+
+    div.u p.uc,
+    div.u2 p.uc {
+      font-weight: bold;
+    }
+
+    div.u p.si,
+    div.u2 p.si {
+      font-family: sans-serif;
+      font-size: 80px;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    div.u span.ss,
+    div.u2 span.ss {
+      font-family: sans-serif;
+      padding-right: 20px;
+    }
+
+    p.si span:not(:last-child) {
+      border-right: 2px solid black;
+    }
+
+    div.u span.sy,
+    div.u2 span.sy {
+      font-family: "Symbola";
+    }
+
+    div.u span.te,
+    div.u2 span.te {
+      font-family: "Twemoji";
+      font-size: 90px;
+    }
+
+    div.u .twe,
+    div.u2 .twe {
+      height: 90px;
+      vertical-align: text-bottom;
+    }
+
+    div.u p.no,
+    div.u2 p.no {
+      flex: 1 0 auto;
+      text-transform: uppercase;
+    }
+
+    div.u a,
+    div.u2 a {
+      border: none;
+      text-decoration: none;
+      color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Secuencias Unicode: Problemáticas</h1>
+
+  <nav>
+    <p>
+      <a href="../index.html"><img src="../varios/iconos/icono-html.svg" alt="Home" title="Ir a página de inicio" width="42" height="48"></a>
+      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>
+    </p>
+
+    <div class="toc">
+      <h2>Secuencias Problemáticas</h2>
+      <ul>
+        <li><a href="#otras-problemas">Otras secuencias</a></li>
+        <li><a href="#genero-1-problemas">Género (1)</a></li>
+        <li><a href="#genero-2-problemas">Género (2)</a></li>
+        <li><a href="#genero-3-problemas">Género (3)</a></li>
+        <li><a href="#genero-4-problemas">Género (4)</a></li>
+        <li><a href="#colores-piel-texto-problemas">Colores de piel modo texto</a></li>
+        <li><a href="#colores-piel-1-problemas">Colores de piel (1)</a></li>
+        <li><a href="#colores-piel-2-problemas">Colores de piel (2)</a></li>
+        <li><a href="#colores-piel-3-problemas">Colores de piel (3)</a></li>
+        <li><a href="#colores-piel-4-problemas">Colores de piel (4)</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <p>Esta página muestra las secuencias Unicode que actualmente (junio de 2020) no se ven correctamente en Windows 10 o se ven en Windows 10 cuando son secuencias incorrectas.</p>
+
+  <p>Para entender esta página se recomienda leer las lecciones:</p>
+  <ul>
+    <li><a href="html-utf8.html">El juego de caracteres UTF-8</a>, que explica qué es un juego de caracteres informático y, concretamente, qué es el juego de caracteres UTF-8.</li>
+    <li><a href="html-entidades-caracter.html">Entidades de carácter y entidades numéricas</a>, que explica cómo incluir caracteres Unicode en una página web</li>
+    <li><a href="html-unicode-secuencias.html">Secuencias</a>, que muestra cómo se definen las secuencias de caracteres Unicode que corresponden a dibujos (banderas, emojis, etc.)</li>
+  </ul>
+
+  <p>Esta página es la séptima de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
+  <ul>
+    <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
+    <li><a href="html-unicode-dibujos.html">Emojis</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
+    <li><a href="html-unicode-secuencias-banderas.html">Banderas</a>, que muestra las secuencias Unicode que corresponden a banderas</li>
+    <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
+    <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
+    <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
+    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
+  </ul>
+
+
+  <section id="info">
+    <h2>Información contenida en las fichas</h2>
+
+    <p>Las fichas siguientes muestran los dibujos (emoticonos, emojis y otros) correspondientes a secuencias de Unicode. Para cada secuencia se muestra:</p>
+
+    <ul>
+      <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
+      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra un rectángulo de borde negro con el código Unicode en caracteres muy pequeños):
+        <ul>
+          <li>la fuente <span class="css-valor">sans-serif</span> (la fuente aplicada depende del sistema operativo, del navegador e incluso del carácter, por lo que se recomienda ver esta lección en Firefox y Chrome)</li>
+          <li>la fuente <a href="https://github.com/mozilla/twemoji-colr">twemoji-colr</a> (esta fuente es la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a> en formato COLR/CPAL). Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
+        </ul>
+      </li>
+      <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
+      <li>el nombre de la secuencia (en inglés)</li>
+    </ul>
+
+    <hr class="corta">
+
+    <p>Cuando el sistema operativo no puede mostrar la secuencia Unicode, lo que suele hacer es mostrar cada uno de los caracteres de la secuencia por separado. Por eso se pueden ver dos o tres dibujos en vez del dibujo correcto.</p>
+  </section>
+
+
+  $contenido  <script>
+    var twemojis = document.getElementsByClassName('twe');
+    var i;
+    for (i = 0; i < twemojis.length; i++) {
+      twemoji.parse(twemojis[i], {
+        className: "twe",
+        folder: "svg",
+        ext: ".svg"
+      });
+    }
+  </script>
+
+  <footer>
+    <p class="ultmod">Última modificación de esta página: ${fecha}</p>
+
+    <p class="licencia">
+      <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"><img src="../varios/iconos/icono-cc-by-sa.svg" alt="Licencia Creative Commons" title="Licencia Creative Commons BY-SA" width="120" height="42"></a><br>
+      Esta página forma parte del curso <strong><a href="https://www.mclibre.org/consultar/htmlcss/">Páginas web HTML y hojas de estilo CSS</a></strong> por <a href="https://www.mclibre.org/" rel="author">Bartolomé Sintes Marco</a><br>
+      que se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES">Licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a>.
+    </p>
+  </footer>
+</body>
+</html>

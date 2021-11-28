@@ -9,7 +9,7 @@ from u14_ficheros_3_fusionados import unicode_txt_fusionados_2 as imp
 
 def grupo(codigo):
     for grupo in ucdef.uc_tablas_caracteres[0]:
-        if codigo >= grupo[3] and codigo <= grupo[4]:
+        if int(codigo, 16) >= int(grupo[3], 16) and int(codigo, 16) <= int(grupo[4], 16):
             return grupo[1]
     return ""
 

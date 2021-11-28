@@ -28,6 +28,24 @@ FICHERO_ORDENADO = "unicode_txt_ordenado.py"
 PAGINA_MANUAL_1 = UNICODE_FUSIONADOS_DIR + "html-manual-1.html"
 PAGINA_MANUAL_2 = UNICODE_FUSIONADOS_DIR + "html-manual-2.html"
 
+# Ficheros del sitio creado
+PAG_SIMBOLOS = "simbolos"
+PAG_EMOJIS = "emojis"
+PAG_BANDERAS = "banderas"
+PAG_GENEROS = "generos"
+PAG_FITZPATRICK = "fitzpatrick"
+PAG_PAREJAS = "parejas"
+PAG_PROBLEMAS = "problemas"
+
+FICHERO_SITIO_SIMBOLOS = "html-unicode-simbolos.html"
+FICHERO_SITIO_EMOJIS = "html-unicode-dibujos.html"
+FICHERO_SITIO_BANDERAS = "html-unicode-secuencias-banderas.html"
+FICHERO_SITIO_GENEROS = "html-unicode-secuencias-generos.html"
+FICHERO_SITIO_FITZPATRICK = "html-unicode-secuencias-colores.html"
+FICHERO_SITIO_PAREJAS = "html-unicode-secuencias-parejas.html"
+FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
+
+# Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]
 uc_status = ["component", "fully-qualified", "minimally-qualified", "unqualified"]
 uc_version = ["0.0", "0.6", "0.7", "1.0", "1.1", "2.0", "3.0", "3.1", "3.2", "4.0", "4.1", "5.0", "5.1", "5.2", "6.0", "7.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0"]
@@ -268,6 +286,13 @@ uc_tablas_caracteres = [
         "1F9FF",
     ],
     [
+        "Símbolos de ajedrez",
+        "gr-ajedrez",
+        "U1FA00-chess-symbols.pdf",
+        "1FA00",
+        "1FA6F",
+    ],
+    [
         "Símbolos y pictogramas extendidos A",
         "gr-simbolos-ext-a",
         "U1FA70-symbols-and-pictographs-extended-a.pdf",
@@ -275,37 +300,6 @@ uc_tablas_caracteres = [
         "1FAFF",
     ],
 ],
-
-# GRUPO_CONTROLES_LATIN = "controles-latin"
-# GRUPO_CONTROLES_SUP = "controles-sup"
-# GRUPO_PUNTUACION = "puntuacion"
-# GRUPO_MONEDAS = "monedas"
-# GRUPO_LETRAS = "simbolos-letras"
-# GRUPO_FLECHAS = "flechas"
-# GRUPO_TECNICO_MISC = "tecnicos-misc"
-# GRUPO_ALFANUM_CIRCULO = "alfanum-circulo"
-# GRUPO_CAJAS = "cajas"
-# GRUPO_FORMAS_GEOMETRICAS = "formas-geometricas"
-# GRUPO_SIMBOLOS_MISC = "simbolos-misc"
-# GRUPO_DINGBATS = "dingbats"
-# GRUPO_FLECHAS_SUPLEMENTARIAS = "flechas-suplementarias"
-# GRUPO_SIMPBOLOS_FLECHAS = "simbolos-flechas"
-# GRUPO_CJK = "cjk"
-# GRUPO_CJK_CIRCULO = "cjk-circulo"
-# GRUPO_MUSICA = "musica"
-# GRUPO_MAHJONG = "fichas-mahjong"
-# GRUPO_DOMINO = "domino"
-# GRUPO_CARTAS = "cartas"
-# GRUPO_ALFANUM_CIRCULO_SUP = "alfanum-circulo-sup"
-# GRUPO_IDEOGRAFICO_CIRCULO_SUP = "ideografico-circulo-sup"
-# GRUPO_DINGBATS = "dingbats-decorativos"
-# GRUPO_ALQUIMICOS = "simbolos-alquimicos"
-# GRUPO_GEOMETRICAS = "geometricas-extendidas"
-# GRUPO_PICT = "simbolos-pict-misc"
-# GRUPO_EMOTICONOS = "emoticonos"
-# GRUPO_TRANSPORTE = "transporte"
-# GRUPO_SIMBOLOS_MISC_SUPL = "simbolos-misc-supl"
-# GRUPO_SIMBOLOS_EXT = "simbolos-ext-a"
 
 # Resto que se usa en uc_1_importa_unicode.py, pero el código está comentado, así que realmente no se usa
 # emoji_data_componentes_auxiliar = [
