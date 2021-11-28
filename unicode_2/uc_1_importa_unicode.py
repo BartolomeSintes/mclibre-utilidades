@@ -502,7 +502,7 @@ def importa_fichero_derived_name():
         encoding="utf-8",
     ) as f:
         for line in f:
-            if line[0] != "#" and line[0] != "\n":
+            if line[0] != "#" and line[0] != "\n" and line[-3:-1] != "-*":
                 linea = []
                 resto = line
                 # códigos
@@ -511,7 +511,69 @@ def importa_fichero_derived_name():
                 # nombre
                 linea += [resto[corta + 1 :].strip().lower()]
                 importado += [linea]
+
+    for i in range(len(importado)):
+        grupo_encontrado = ""
+        for grupo in ucdef.uc_tablas_caracteres[0]:
+            if int(importado[i][0], 16) >= int(grupo[3], 16) and int(importado[i][0], 16) <= int(grupo[4], 16):
+                grupo_encontrado = grupo[1]
+        importado[i] += [grupo_encontrado]
+
     return importado
+
+
+def completa_fichero_derived_name():
+    # Para saber si la presentación por defecto es emoji
+    # hay que mirar emoji_data si tiene 'Emoji' y 'Emoji_Presentation'
+    global derived_name
+    print()
+    print(f"  TRATANDO {ucdef.FICHERO_DERIVED_NAME}")
+    print(f"    añadiendo texto/emoji  ...")
+
+    # Cojo cada caracter unicode
+    for i in range(len(derived_name)):
+        codigo = derived_name[i][0]
+        # Miro primero si está en emoji_avriation_sequencess
+        es_emoji_texto = False
+        for j in emoji_variation_sequences:
+            # print(j[0][0])
+            if codigo == j[0][0]:
+                es_emoji_texto = True
+        # Si está en emoji_variation_sequencess
+        if es_emoji_texto:
+            # Miro qué pone en emoji_data
+            for j in emoji_data:
+                if codigo == j[0][0]:
+                    if "Emoji" in j[1] and "Emoji_Presentation" in j[1]:
+                        derived_name[i][2:2] = ["emoji-texto"]
+                    else:
+                        derived_name[i][2:2] = ["texto-emoji"]
+        else:
+            # Miro qué pone en emoji_data
+            encontrado = False
+            for j in emoji_data:
+                if codigo == j[0][0]:
+                    encontrado = True
+                    if "Emoji" in j[1]:
+                        derived_name[i][2:2] = ["emoji"]
+                    else:
+                        derived_name[i][2:2] = ["texto"]
+            if not encontrado:
+                derived_name[i][2:2] = ["texto"]
+
+    c_emoji = c_texto = c_texto_emoji = c_emoji_texto = 0
+    for i in derived_name:
+        if i[2] == "emoji":
+            c_emoji += 1
+        elif i[2] == "texto":
+            c_texto += 1
+        elif i[2] == "texto-emoji":
+            c_texto_emoji += 1
+        elif i[2] == "emoji-texto":
+            c_emoji_texto += 1
+    print(f"    Emoji: {c_emoji} - Texto: {c_texto} - Texto-emoji: {c_texto_emoji} - Emoji-texto: {c_emoji_texto}")
+    print(f"    Total: {c_emoji_texto + c_texto_emoji + c_emoji + c_texto} de {len(derived_name)}")
+
 
 
 def exporta_listas():
@@ -589,6 +651,7 @@ def importa_unicode():
         emoji_variation_sequences = importa_fichero_emoji_variation_sequence()
         emoji_zwj_sequences = importa_fichero_emoji_zwj_sequences()
         emoji_sequences = importa_fichero_emoji_sequences()
+        completa_fichero_derived_name()
         exporta_listas()
     print()
     print("  Programa terminado.")
