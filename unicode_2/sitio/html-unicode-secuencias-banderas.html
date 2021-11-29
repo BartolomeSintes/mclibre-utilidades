@@ -1,0 +1,2903 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Banderas y otras. Secuencias Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
+  <link rel="icon" href="../varios/favicon.svg">
+  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+  <style>
+    @font-face {
+      font-family: "Symbola";
+      src: url("unicode/Symbola.ttf");
+    }
+
+    @font-face {
+      font-family: "Twemoji";
+      src: url("unicode/TwemojiMozilla.ttf");
+    }
+
+    div.u-l {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+    }
+
+    div.u,
+    div.u2 {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 210px;
+      margin: 5px;
+      border: black 1px solid;
+      text-align: center;
+    }
+
+    div.u2 {
+      flex: 0 1 280px;
+    }
+
+    div.u p:nth-child(odd),
+    div.u2 p:nth-child(odd) {
+      background-color: #eee;
+    }
+
+    div.u p,
+    div.u2 p {
+      margin: 0;
+      padding: 5px 10px;
+    }
+
+    div.u p.uc,
+    div.u2 p.uc {
+      font-weight: bold;
+    }
+
+    div.u p.si,
+    div.u2 p.si {
+      font-family: sans-serif;
+      font-size: 80px;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    div.u span.ss,
+    div.u2 span.ss {
+      font-family: sans-serif;
+      padding-right: 20px;
+    }
+
+    p.si span:not(:last-child) {
+      border-right: 2px solid black;
+    }
+
+    div.u span.sy,
+    div.u2 span.sy {
+      font-family: "Symbola";
+    }
+
+    div.u span.te,
+    div.u2 span.te {
+      font-family: "Twemoji";
+      font-size: 90px;
+    }
+
+    div.u .twe,
+    div.u2 .twe {
+      height: 90px;
+      vertical-align: text-bottom;
+    }
+
+    div.u p.no,
+    div.u2 p.no {
+      flex: 1 0 auto;
+      text-transform: uppercase;
+    }
+
+    div.u a,
+    div.u2 a {
+      border: none;
+      text-decoration: none;
+      color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Secuencias Unicode: Banderas y otras</h1>
+
+  <nav>
+    <p>
+      <a href="../index.html"><img src="../varios/iconos/icono-html.svg" alt="Home" title="Ir a página de inicio" width="42" height="48"></a>
+      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>
+    </p>
+
+    <div class="toc">
+      <h2>Secuencias Banderas</h2>
+
+      <ul>
+        <li><a href="#otras">Otras secuencias</a></li>
+        <li><a href="#banderas-2">Banderas (subdivisiones)</a></li>
+        <li><a href="#banderas">Banderas</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <p>Esta página muestra las imágenes de banderas (y otros) que se pueden conseguir mediante secuencias de caracteres Unicode.</p>
+
+  <p>Para entender esta página se recomienda leer las lecciones:</p>
+  <ul>
+    <li><a href="html-utf8.html">El juego de caracteres UTF-8</a>, que explica qué es un juego de caracteres informático y, concretamente, qué es el juego de caracteres UTF-8.</li>
+    <li><a href="html-entidades-caracter.html">Entidades de carácter y entidades numéricas</a>, que explica cómo incluir caracteres Unicode en una página web</li>
+    <li><a href="html-unicode-secuencias.html">Secuencias</a>, que muestra cómo se definen las secuencias de caracteres Unicode que corresponden a dibujos (banderas, emojis, etc.)</li>
+  </ul>
+
+  <p>Esta página es la tercera de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
+  <ul>
+    <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
+    <li><a href="html-unicode-dibujos.html">Emojis</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
+    <li><a href="html-unicode-secuencias-banderas.html">Banderas</a>, que muestra las secuencias Unicode que corresponden a banderas</li>
+    <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
+    <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
+    <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
+    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
+  </ul>
+
+  <section id="info">
+    <h2>Información contenida en las fichas</h2>
+
+    <p>Las fichas siguientes muestran los dibujos (emoticonos, emojis y otros) correspondientes a secuencias de Unicode. Para cada secuencia se muestra:</p>
+
+    <ul>
+      <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
+      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra un rectángulo de borde negro con el código Unicode en caracteres muy pequeños):
+        <ul>
+          <li>la fuente <span class="css-valor">sans-serif</span> (la fuente aplicada depende del sistema operativo, del navegador e incluso del carácter, por lo que se recomienda ver esta lección en Firefox y Chrome)</li>
+          <li>la fuente <a href="https://github.com/mozilla/twemoji-colr">twemoji-colr</a> (esta fuente es la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a> en formato COLR/CPAL). Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
+        </ul>
+      </li>
+      <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
+      <li>el nombre de la secuencia (en inglés)</li>
+    </ul>
+  </section>
+
+  <section id="gr-banderas-regiones">
+    <h2>Banderas (subdivisiones regionales)</h2>
+
+    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas regionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas-subdivisiones">apartado Banderas (subdivisiones regionales) de la lección Secuencias Unicode</a>.</p>
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F3F4 U+E0067 U+E0062 U+E0065 U+E006E U+E0067 U+E007F </p>
+        <p class="si">&#x1F3F4;&#xE0067;&#xE0062;&#xE0065;&#xE006E;&#xE0067;&#xE007F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#xe0067;&amp;#xe0062;&amp;#xe0065;&amp;#xe006e;&amp;#xe0067;&amp;#xe007f;</strong><br>
+          Dec:&nbsp;<strong>&amp;E007F;</strong>
+        </p>
+        <p class="no">flag: England</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F4 U+E0067 U+E0062 U+E0073 U+E0063 U+E0074 U+E007F </p>
+        <p class="si">&#x1F3F4;&#xE0067;&#xE0062;&#xE0073;&#xE0063;&#xE0074;&#xE007F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#xe0067;&amp;#xe0062;&amp;#xe0073;&amp;#xe0063;&amp;#xe0074;&amp;#xe007f;</strong><br>
+          Dec:&nbsp;<strong>&amp;E007F;</strong>
+        </p>
+        <p class="no">flag: Scotland</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F4 U+E0067 U+E0062 U+E0077 U+E006C U+E0073 U+E007F </p>
+        <p class="si">&#x1F3F4;&#xE0067;&#xE0062;&#xE0077;&#xE006C;&#xE0073;&#xE007F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#xe0067;&amp;#xe0062;&amp;#xe0077;&amp;#xe006c;&amp;#xe0073;&amp;#xe007f;</strong><br>
+          Dec:&nbsp;<strong>&amp;E007F;</strong>
+        </p>
+        <p class="no">flag: Wales</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="gr-banderas-otras">
+    <h2>Otras banderas</h2>
+
+    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas que no pertenecen a ninguna de las otras categorías. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#otras">apartado Otras de la lección Secuencias Unicode</a>.</p>
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F3F3 U+200D U+1F308 </p>
+        <p class="si">&#x1F3F3;&#x200D;&#x1F308;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#x200d;&amp;#x1f308;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F308;</strong>
+        </p>
+        <p class="no">rainbow flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F3 U+200D U+26A7 </p>
+        <p class="si">&#x1F3F3;&#x200D;&#x26A7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#x200d;&amp;#x26a7;</strong><br>
+          Dec:&nbsp;<strong>&amp;26A7;</strong>
+        </p>
+        <p class="no">transgender flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F3 U+200D U+26A7 U+FE0F </p>
+        <p class="si">&#x1F3F3;&#x200D;&#x26A7;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#x200d;&amp;#x26a7;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">transgender flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F3 U+FE0F U+200D U+1F308 </p>
+        <p class="si">&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#xfe0f;&amp;#x200d;&amp;#x1f308;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F308;</strong>
+        </p>
+        <p class="no">rainbow flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F3 U+FE0F U+200D U+26A7 </p>
+        <p class="si">&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#xfe0f;&amp;#x200d;&amp;#x26a7;</strong><br>
+          Dec:&nbsp;<strong>&amp;26A7;</strong>
+        </p>
+        <p class="no">transgender flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F </p>
+        <p class="si">&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#xfe0f;&amp;#x200d;&amp;#x26a7;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">transgender flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F4 U+200D U+2620 </p>
+        <p class="si">&#x1F3F4;&#x200D;&#x2620;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#x200d;&amp;#x2620;</strong><br>
+          Dec:&nbsp;<strong>&amp;2620;</strong>
+        </p>
+        <p class="no">pirate flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3F4 U+200D U+2620 U+FE0F </p>
+        <p class="si">&#x1F3F4;&#x200D;&#x2620;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#x200d;&amp;#x2620;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">pirate flag</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="gr-banderas-paises">
+    <h2>Banderas</h2>
+
+    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas nacionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas">apartado Banderas de la lección Secuencias Unicode</a>.</p>
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1E8 </p>
+        <p class="si">&#x1F1E6;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: Ascension Island</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1E9 </p>
+        <p class="si">&#x1F1E6;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E9;</strong>
+        </p>
+        <p class="no">flag: Andorra</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1EA </p>
+        <p class="si">&#x1F1E6;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: United Arab Emirates</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1EB </p>
+        <p class="si">&#x1F1E6;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: Afghanistan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1EC </p>
+        <p class="si">&#x1F1E6;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Antigua & Barbuda</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1EE </p>
+        <p class="si">&#x1F1E6;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Anguilla</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1F1 </p>
+        <p class="si">&#x1F1E6;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Albania</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1F2 </p>
+        <p class="si">&#x1F1E6;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Armenia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1F4 </p>
+        <p class="si">&#x1F1E6;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Angola</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1F6 </p>
+        <p class="si">&#x1F1E6;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F6;</strong>
+        </p>
+        <p class="no">flag: Antarctica</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1F7 </p>
+        <p class="si">&#x1F1E6;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Argentina</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1F8 </p>
+        <p class="si">&#x1F1E6;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: American Samoa</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1F9 </p>
+        <p class="si">&#x1F1E6;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Austria</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1FA </p>
+        <p class="si">&#x1F1E6;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Australia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1FC </p>
+        <p class="si">&#x1F1E6;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Aruba</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1FD </p>
+        <p class="si">&#x1F1E6;&#x1F1FD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1fd;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FD;</strong>
+        </p>
+        <p class="no">flag: Åland Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E6 U+1F1FF </p>
+        <p class="si">&#x1F1E6;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Azerbaijan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1E6 </p>
+        <p class="si">&#x1F1E7;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Bosnia & Herzegovina</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1E7 </p>
+        <p class="si">&#x1F1E7;&#x1F1E7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1e7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E7;</strong>
+        </p>
+        <p class="no">flag: Barbados</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1E9 </p>
+        <p class="si">&#x1F1E7;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E9;</strong>
+        </p>
+        <p class="no">flag: Bangladesh</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1EA </p>
+        <p class="si">&#x1F1E7;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Belgium</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1EB </p>
+        <p class="si">&#x1F1E7;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: Burkina Faso</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1EC </p>
+        <p class="si">&#x1F1E7;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Bulgaria</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1ED </p>
+        <p class="si">&#x1F1E7;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: Bahrain</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1EE </p>
+        <p class="si">&#x1F1E7;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Burundi</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1EF </p>
+        <p class="si">&#x1F1E7;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EF;</strong>
+        </p>
+        <p class="no">flag: Benin</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1F1 </p>
+        <p class="si">&#x1F1E7;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: St. Barthélemy</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1F2 </p>
+        <p class="si">&#x1F1E7;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Bermuda</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1F3 </p>
+        <p class="si">&#x1F1E7;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: Brunei</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1F4 </p>
+        <p class="si">&#x1F1E7;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Bolivia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1F6 </p>
+        <p class="si">&#x1F1E7;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F6;</strong>
+        </p>
+        <p class="no">flag: Caribbean Netherlands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1F7 </p>
+        <p class="si">&#x1F1E7;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Brazil</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1F8 </p>
+        <p class="si">&#x1F1E7;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: Bahamas</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1F9 </p>
+        <p class="si">&#x1F1E7;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Bhutan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1FB </p>
+        <p class="si">&#x1F1E7;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FB;</strong>
+        </p>
+        <p class="no">flag: Bouvet Island</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1FC </p>
+        <p class="si">&#x1F1E7;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Botswana</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1FE </p>
+        <p class="si">&#x1F1E7;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Belarus</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E7 U+1F1FF </p>
+        <p class="si">&#x1F1E7;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Belize</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1E6 </p>
+        <p class="si">&#x1F1E8;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Canada</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1E8 </p>
+        <p class="si">&#x1F1E8;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: Cocos (Keeling) Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1E9 </p>
+        <p class="si">&#x1F1E8;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E9;</strong>
+        </p>
+        <p class="no">flag: Congo - Kinshasa</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1EB </p>
+        <p class="si">&#x1F1E8;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: Central African Republic</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1EC </p>
+        <p class="si">&#x1F1E8;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Congo - Brazzaville</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1ED </p>
+        <p class="si">&#x1F1E8;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: Switzerland</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1EE </p>
+        <p class="si">&#x1F1E8;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Côte d’Ivoire</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1F0 </p>
+        <p class="si">&#x1F1E8;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Cook Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1F1 </p>
+        <p class="si">&#x1F1E8;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Chile</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1F2 </p>
+        <p class="si">&#x1F1E8;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Cameroon</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1F3 </p>
+        <p class="si">&#x1F1E8;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: China</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1F4 </p>
+        <p class="si">&#x1F1E8;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Colombia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1F5 </p>
+        <p class="si">&#x1F1E8;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F5;</strong>
+        </p>
+        <p class="no">flag: Clipperton Island</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1F7 </p>
+        <p class="si">&#x1F1E8;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Costa Rica</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1FA </p>
+        <p class="si">&#x1F1E8;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Cuba</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1FB </p>
+        <p class="si">&#x1F1E8;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FB;</strong>
+        </p>
+        <p class="no">flag: Cape Verde</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1FC </p>
+        <p class="si">&#x1F1E8;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Curaçao</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1FD </p>
+        <p class="si">&#x1F1E8;&#x1F1FD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fd;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FD;</strong>
+        </p>
+        <p class="no">flag: Christmas Island</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1FE </p>
+        <p class="si">&#x1F1E8;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Cyprus</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E8 U+1F1FF </p>
+        <p class="si">&#x1F1E8;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Czechia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E9 U+1F1EA </p>
+        <p class="si">&#x1F1E9;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Germany</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E9 U+1F1EC </p>
+        <p class="si">&#x1F1E9;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Diego Garcia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E9 U+1F1EF </p>
+        <p class="si">&#x1F1E9;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EF;</strong>
+        </p>
+        <p class="no">flag: Djibouti</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E9 U+1F1F0 </p>
+        <p class="si">&#x1F1E9;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Denmark</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E9 U+1F1F2 </p>
+        <p class="si">&#x1F1E9;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Dominica</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E9 U+1F1F4 </p>
+        <p class="si">&#x1F1E9;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Dominican Republic</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1E9 U+1F1FF </p>
+        <p class="si">&#x1F1E9;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Algeria</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1E6 </p>
+        <p class="si">&#x1F1EA;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Ceuta & Melilla</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1E8 </p>
+        <p class="si">&#x1F1EA;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: Ecuador</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1EA </p>
+        <p class="si">&#x1F1EA;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Estonia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1EC </p>
+        <p class="si">&#x1F1EA;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Egypt</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1ED </p>
+        <p class="si">&#x1F1EA;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: Western Sahara</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1F7 </p>
+        <p class="si">&#x1F1EA;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Eritrea</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1F8 </p>
+        <p class="si">&#x1F1EA;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: Spain</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1F9 </p>
+        <p class="si">&#x1F1EA;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Ethiopia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EA U+1F1FA </p>
+        <p class="si">&#x1F1EA;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: European Union</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EB U+1F1EE </p>
+        <p class="si">&#x1F1EB;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Finland</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EB U+1F1EF </p>
+        <p class="si">&#x1F1EB;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EF;</strong>
+        </p>
+        <p class="no">flag: Fiji</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EB U+1F1F0 </p>
+        <p class="si">&#x1F1EB;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Falkland Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EB U+1F1F2 </p>
+        <p class="si">&#x1F1EB;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Micronesia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EB U+1F1F4 </p>
+        <p class="si">&#x1F1EB;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Faroe Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EB U+1F1F7 </p>
+        <p class="si">&#x1F1EB;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: France</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1E6 </p>
+        <p class="si">&#x1F1EC;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Gabon</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1E7 </p>
+        <p class="si">&#x1F1EC;&#x1F1E7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1e7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E7;</strong>
+        </p>
+        <p class="no">flag: United Kingdom</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1E9 </p>
+        <p class="si">&#x1F1EC;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E9;</strong>
+        </p>
+        <p class="no">flag: Grenada</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1EA </p>
+        <p class="si">&#x1F1EC;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Georgia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1EB </p>
+        <p class="si">&#x1F1EC;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: French Guiana</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1EC </p>
+        <p class="si">&#x1F1EC;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Guernsey</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1ED </p>
+        <p class="si">&#x1F1EC;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: Ghana</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1EE </p>
+        <p class="si">&#x1F1EC;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Gibraltar</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1F1 </p>
+        <p class="si">&#x1F1EC;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Greenland</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1F2 </p>
+        <p class="si">&#x1F1EC;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Gambia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1F3 </p>
+        <p class="si">&#x1F1EC;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: Guinea</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1F5 </p>
+        <p class="si">&#x1F1EC;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F5;</strong>
+        </p>
+        <p class="no">flag: Guadeloupe</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1F6 </p>
+        <p class="si">&#x1F1EC;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F6;</strong>
+        </p>
+        <p class="no">flag: Equatorial Guinea</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1F7 </p>
+        <p class="si">&#x1F1EC;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Greece</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1F8 </p>
+        <p class="si">&#x1F1EC;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: South Georgia & South Sandwich Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1F9 </p>
+        <p class="si">&#x1F1EC;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Guatemala</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1FA </p>
+        <p class="si">&#x1F1EC;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Guam</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1FC </p>
+        <p class="si">&#x1F1EC;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Guinea-Bissau</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EC U+1F1FE </p>
+        <p class="si">&#x1F1EC;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Guyana</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1ED U+1F1F0 </p>
+        <p class="si">&#x1F1ED;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Hong Kong SAR China</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1ED U+1F1F2 </p>
+        <p class="si">&#x1F1ED;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Heard & McDonald Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1ED U+1F1F3 </p>
+        <p class="si">&#x1F1ED;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: Honduras</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1ED U+1F1F7 </p>
+        <p class="si">&#x1F1ED;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Croatia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1ED U+1F1F9 </p>
+        <p class="si">&#x1F1ED;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Haiti</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1ED U+1F1FA </p>
+        <p class="si">&#x1F1ED;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Hungary</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1E8 </p>
+        <p class="si">&#x1F1EE;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: Canary Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1E9 </p>
+        <p class="si">&#x1F1EE;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E9;</strong>
+        </p>
+        <p class="no">flag: Indonesia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1EA </p>
+        <p class="si">&#x1F1EE;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Ireland</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1F1 </p>
+        <p class="si">&#x1F1EE;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Israel</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1F2 </p>
+        <p class="si">&#x1F1EE;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Isle of Man</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1F3 </p>
+        <p class="si">&#x1F1EE;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: India</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1F4 </p>
+        <p class="si">&#x1F1EE;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: British Indian Ocean Territory</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1F6 </p>
+        <p class="si">&#x1F1EE;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F6;</strong>
+        </p>
+        <p class="no">flag: Iraq</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1F7 </p>
+        <p class="si">&#x1F1EE;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Iran</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1F8 </p>
+        <p class="si">&#x1F1EE;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: Iceland</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EE U+1F1F9 </p>
+        <p class="si">&#x1F1EE;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Italy</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EF U+1F1EA </p>
+        <p class="si">&#x1F1EF;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ef;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Jersey</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EF U+1F1F2 </p>
+        <p class="si">&#x1F1EF;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ef;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Jamaica</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EF U+1F1F4 </p>
+        <p class="si">&#x1F1EF;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ef;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Jordan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1EF U+1F1F5 </p>
+        <p class="si">&#x1F1EF;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ef;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F5;</strong>
+        </p>
+        <p class="no">flag: Japan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1EA </p>
+        <p class="si">&#x1F1F0;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Kenya</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1EC </p>
+        <p class="si">&#x1F1F0;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Kyrgyzstan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1ED </p>
+        <p class="si">&#x1F1F0;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: Cambodia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1EE </p>
+        <p class="si">&#x1F1F0;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Kiribati</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1F2 </p>
+        <p class="si">&#x1F1F0;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Comoros</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1F3 </p>
+        <p class="si">&#x1F1F0;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: St. Kitts & Nevis</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1F5 </p>
+        <p class="si">&#x1F1F0;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F5;</strong>
+        </p>
+        <p class="no">flag: North Korea</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1F7 </p>
+        <p class="si">&#x1F1F0;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: South Korea</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1FC </p>
+        <p class="si">&#x1F1F0;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Kuwait</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1FE </p>
+        <p class="si">&#x1F1F0;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Cayman Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F0 U+1F1FF </p>
+        <p class="si">&#x1F1F0;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Kazakhstan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1E6 </p>
+        <p class="si">&#x1F1F1;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Laos</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1E7 </p>
+        <p class="si">&#x1F1F1;&#x1F1E7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1e7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E7;</strong>
+        </p>
+        <p class="no">flag: Lebanon</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1E8 </p>
+        <p class="si">&#x1F1F1;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: St. Lucia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1EE </p>
+        <p class="si">&#x1F1F1;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Liechtenstein</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1F0 </p>
+        <p class="si">&#x1F1F1;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Sri Lanka</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1F7 </p>
+        <p class="si">&#x1F1F1;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Liberia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1F8 </p>
+        <p class="si">&#x1F1F1;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: Lesotho</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1F9 </p>
+        <p class="si">&#x1F1F1;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Lithuania</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1FA </p>
+        <p class="si">&#x1F1F1;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Luxembourg</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1FB </p>
+        <p class="si">&#x1F1F1;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FB;</strong>
+        </p>
+        <p class="no">flag: Latvia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F1 U+1F1FE </p>
+        <p class="si">&#x1F1F1;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Libya</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1E6 </p>
+        <p class="si">&#x1F1F2;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Morocco</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1E8 </p>
+        <p class="si">&#x1F1F2;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: Monaco</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1E9 </p>
+        <p class="si">&#x1F1F2;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E9;</strong>
+        </p>
+        <p class="no">flag: Moldova</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1EA </p>
+        <p class="si">&#x1F1F2;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Montenegro</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1EB </p>
+        <p class="si">&#x1F1F2;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: St. Martin</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1EC </p>
+        <p class="si">&#x1F1F2;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Madagascar</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1ED </p>
+        <p class="si">&#x1F1F2;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: Marshall Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F0 </p>
+        <p class="si">&#x1F1F2;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: North Macedonia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F1 </p>
+        <p class="si">&#x1F1F2;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Mali</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F2 </p>
+        <p class="si">&#x1F1F2;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Myanmar (Burma)</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F3 </p>
+        <p class="si">&#x1F1F2;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: Mongolia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F4 </p>
+        <p class="si">&#x1F1F2;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Macao SAR China</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F5 </p>
+        <p class="si">&#x1F1F2;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F5;</strong>
+        </p>
+        <p class="no">flag: Northern Mariana Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F6 </p>
+        <p class="si">&#x1F1F2;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F6;</strong>
+        </p>
+        <p class="no">flag: Martinique</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F7 </p>
+        <p class="si">&#x1F1F2;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Mauritania</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F8 </p>
+        <p class="si">&#x1F1F2;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: Montserrat</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1F9 </p>
+        <p class="si">&#x1F1F2;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Malta</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1FA </p>
+        <p class="si">&#x1F1F2;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Mauritius</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1FB </p>
+        <p class="si">&#x1F1F2;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FB;</strong>
+        </p>
+        <p class="no">flag: Maldives</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1FC </p>
+        <p class="si">&#x1F1F2;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Malawi</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1FD </p>
+        <p class="si">&#x1F1F2;&#x1F1FD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fd;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FD;</strong>
+        </p>
+        <p class="no">flag: Mexico</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1FE </p>
+        <p class="si">&#x1F1F2;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Malaysia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F2 U+1F1FF </p>
+        <p class="si">&#x1F1F2;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Mozambique</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1E6 </p>
+        <p class="si">&#x1F1F3;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Namibia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1E8 </p>
+        <p class="si">&#x1F1F3;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: New Caledonia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1EA </p>
+        <p class="si">&#x1F1F3;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Niger</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1EB </p>
+        <p class="si">&#x1F1F3;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: Norfolk Island</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1EC </p>
+        <p class="si">&#x1F1F3;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Nigeria</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1EE </p>
+        <p class="si">&#x1F1F3;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Nicaragua</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1F1 </p>
+        <p class="si">&#x1F1F3;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Netherlands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1F4 </p>
+        <p class="si">&#x1F1F3;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Norway</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1F5 </p>
+        <p class="si">&#x1F1F3;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F5;</strong>
+        </p>
+        <p class="no">flag: Nepal</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1F7 </p>
+        <p class="si">&#x1F1F3;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Nauru</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1FA </p>
+        <p class="si">&#x1F1F3;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Niue</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F3 U+1F1FF </p>
+        <p class="si">&#x1F1F3;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: New Zealand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F4 U+1F1F2 </p>
+        <p class="si">&#x1F1F4;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f4;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Oman</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1E6 </p>
+        <p class="si">&#x1F1F5;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Panama</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1EA </p>
+        <p class="si">&#x1F1F5;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Peru</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1EB </p>
+        <p class="si">&#x1F1F5;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: French Polynesia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1EC </p>
+        <p class="si">&#x1F1F5;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Papua New Guinea</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1ED </p>
+        <p class="si">&#x1F1F5;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: Philippines</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1F0 </p>
+        <p class="si">&#x1F1F5;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Pakistan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1F1 </p>
+        <p class="si">&#x1F1F5;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Poland</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1F2 </p>
+        <p class="si">&#x1F1F5;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: St. Pierre & Miquelon</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1F3 </p>
+        <p class="si">&#x1F1F5;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: Pitcairn Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1F7 </p>
+        <p class="si">&#x1F1F5;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Puerto Rico</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1F8 </p>
+        <p class="si">&#x1F1F5;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: Palestinian Territories</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1F9 </p>
+        <p class="si">&#x1F1F5;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Portugal</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1FC </p>
+        <p class="si">&#x1F1F5;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Palau</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F5 U+1F1FE </p>
+        <p class="si">&#x1F1F5;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Paraguay</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F6 U+1F1E6 </p>
+        <p class="si">&#x1F1F6;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f6;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Qatar</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F7 U+1F1EA </p>
+        <p class="si">&#x1F1F7;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Réunion</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F7 U+1F1F4 </p>
+        <p class="si">&#x1F1F7;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Romania</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F7 U+1F1F8 </p>
+        <p class="si">&#x1F1F7;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: Serbia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F7 U+1F1FA </p>
+        <p class="si">&#x1F1F7;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Russia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F7 U+1F1FC </p>
+        <p class="si">&#x1F1F7;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Rwanda</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1E6 </p>
+        <p class="si">&#x1F1F8;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Saudi Arabia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1E7 </p>
+        <p class="si">&#x1F1F8;&#x1F1E7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1e7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E7;</strong>
+        </p>
+        <p class="no">flag: Solomon Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1E8 </p>
+        <p class="si">&#x1F1F8;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: Seychelles</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1E9 </p>
+        <p class="si">&#x1F1F8;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E9;</strong>
+        </p>
+        <p class="no">flag: Sudan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1EA </p>
+        <p class="si">&#x1F1F8;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Sweden</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1EC </p>
+        <p class="si">&#x1F1F8;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Singapore</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1ED </p>
+        <p class="si">&#x1F1F8;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: St. Helena</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1EE </p>
+        <p class="si">&#x1F1F8;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: Slovenia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1EF </p>
+        <p class="si">&#x1F1F8;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EF;</strong>
+        </p>
+        <p class="no">flag: Svalbard & Jan Mayen</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1F0 </p>
+        <p class="si">&#x1F1F8;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Slovakia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1F1 </p>
+        <p class="si">&#x1F1F8;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Sierra Leone</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1F2 </p>
+        <p class="si">&#x1F1F8;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: San Marino</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1F3 </p>
+        <p class="si">&#x1F1F8;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: Senegal</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1F4 </p>
+        <p class="si">&#x1F1F8;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Somalia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1F7 </p>
+        <p class="si">&#x1F1F8;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Suriname</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1F8 </p>
+        <p class="si">&#x1F1F8;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: South Sudan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1F9 </p>
+        <p class="si">&#x1F1F8;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: São Tomé & Príncipe</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1FB </p>
+        <p class="si">&#x1F1F8;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FB;</strong>
+        </p>
+        <p class="no">flag: El Salvador</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1FD </p>
+        <p class="si">&#x1F1F8;&#x1F1FD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1fd;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FD;</strong>
+        </p>
+        <p class="no">flag: Sint Maarten</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1FE </p>
+        <p class="si">&#x1F1F8;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Syria</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F8 U+1F1FF </p>
+        <p class="si">&#x1F1F8;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Eswatini</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1E6 </p>
+        <p class="si">&#x1F1F9;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Tristan da Cunha</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1E8 </p>
+        <p class="si">&#x1F1F9;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: Turks & Caicos Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1E9 </p>
+        <p class="si">&#x1F1F9;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E9;</strong>
+        </p>
+        <p class="no">flag: Chad</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1EB </p>
+        <p class="si">&#x1F1F9;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: French Southern Territories</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1EC </p>
+        <p class="si">&#x1F1F9;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Togo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1ED </p>
+        <p class="si">&#x1F1F9;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1ED;</strong>
+        </p>
+        <p class="no">flag: Thailand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1EF </p>
+        <p class="si">&#x1F1F9;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EF;</strong>
+        </p>
+        <p class="no">flag: Tajikistan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1F0 </p>
+        <p class="si">&#x1F1F9;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Tokelau</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1F1 </p>
+        <p class="si">&#x1F1F9;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F1;</strong>
+        </p>
+        <p class="no">flag: Timor-Leste</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1F2 </p>
+        <p class="si">&#x1F1F9;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Turkmenistan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1F3 </p>
+        <p class="si">&#x1F1F9;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: Tunisia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1F4 </p>
+        <p class="si">&#x1F1F9;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F4;</strong>
+        </p>
+        <p class="no">flag: Tonga</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1F7 </p>
+        <p class="si">&#x1F1F9;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F7;</strong>
+        </p>
+        <p class="no">flag: Turkey</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1F9 </p>
+        <p class="si">&#x1F1F9;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Trinidad & Tobago</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1FB </p>
+        <p class="si">&#x1F1F9;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FB;</strong>
+        </p>
+        <p class="no">flag: Tuvalu</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1FC </p>
+        <p class="si">&#x1F1F9;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Taiwan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1F9 U+1F1FF </p>
+        <p class="si">&#x1F1F9;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Tanzania</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FA U+1F1E6 </p>
+        <p class="si">&#x1F1FA;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Ukraine</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FA U+1F1EC </p>
+        <p class="si">&#x1F1FA;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: Uganda</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FA U+1F1F2 </p>
+        <p class="si">&#x1F1FA;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: U.S. Outlying Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FA U+1F1F3 </p>
+        <p class="si">&#x1F1FA;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: United Nations</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FA U+1F1F8 </p>
+        <p class="si">&#x1F1FA;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: United States</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FA U+1F1FE </p>
+        <p class="si">&#x1F1FA;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FE;</strong>
+        </p>
+        <p class="no">flag: Uruguay</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FA U+1F1FF </p>
+        <p class="si">&#x1F1FA;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FF;</strong>
+        </p>
+        <p class="no">flag: Uzbekistan</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FB U+1F1E6 </p>
+        <p class="si">&#x1F1FB;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: Vatican City</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FB U+1F1E8 </p>
+        <p class="si">&#x1F1FB;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E8;</strong>
+        </p>
+        <p class="no">flag: St. Vincent & Grenadines</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FB U+1F1EA </p>
+        <p class="si">&#x1F1FB;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Venezuela</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FB U+1F1EC </p>
+        <p class="si">&#x1F1FB;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EC;</strong>
+        </p>
+        <p class="no">flag: British Virgin Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FB U+1F1EE </p>
+        <p class="si">&#x1F1FB;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EE;</strong>
+        </p>
+        <p class="no">flag: U.S. Virgin Islands</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FB U+1F1F3 </p>
+        <p class="si">&#x1F1FB;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F3;</strong>
+        </p>
+        <p class="no">flag: Vietnam</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FB U+1F1FA </p>
+        <p class="si">&#x1F1FB;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FA;</strong>
+        </p>
+        <p class="no">flag: Vanuatu</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FC U+1F1EB </p>
+        <p class="si">&#x1F1FC;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fc;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EB;</strong>
+        </p>
+        <p class="no">flag: Wallis & Futuna</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FC U+1F1F8 </p>
+        <p class="si">&#x1F1FC;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fc;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F8;</strong>
+        </p>
+        <p class="no">flag: Samoa</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FD U+1F1F0 </p>
+        <p class="si">&#x1F1FD;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fd;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F0;</strong>
+        </p>
+        <p class="no">flag: Kosovo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FE U+1F1EA </p>
+        <p class="si">&#x1F1FE;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fe;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1EA;</strong>
+        </p>
+        <p class="no">flag: Yemen</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FE U+1F1F9 </p>
+        <p class="si">&#x1F1FE;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fe;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F9;</strong>
+        </p>
+        <p class="no">flag: Mayotte</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FF U+1F1E6 </p>
+        <p class="si">&#x1F1FF;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ff;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1E6;</strong>
+        </p>
+        <p class="no">flag: South Africa</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FF U+1F1F2 </p>
+        <p class="si">&#x1F1FF;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ff;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1F2;</strong>
+        </p>
+        <p class="no">flag: Zambia</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F1FF U+1F1FC </p>
+        <p class="si">&#x1F1FF;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ff;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F1FC;</strong>
+        </p>
+        <p class="no">flag: Zimbabwe</p>
+      </div>
+
+    </div>
+  </section>
+
+<script>
+    var twemojis = document.getElementsByClassName('twe');
+    var i;
+    for (i = 0; i < twemojis.length; i++) {
+      twemoji.parse(twemojis[i], {
+        className: "twe",
+        folder: "svg",
+        ext: ".svg"
+      });
+    }
+  </script>
+
+  <footer>
+    <p class="ultmod">Última modificación de esta página: 29 de noviembre de 2021</p>
+
+    <p class="licencia">
+      <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"><img src="../varios/iconos/icono-cc-by-sa.svg" alt="Licencia Creative Commons" title="Licencia Creative Commons BY-SA" width="120" height="42"></a><br>
+      Esta página forma parte del curso <strong><a href="https://www.mclibre.org/consultar/htmlcss/">Páginas web HTML y hojas de estilo CSS</a></strong> por <a href="https://www.mclibre.org/" rel="author">Bartolomé Sintes Marco</a><br>
+      que se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES">Licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a>.
+    </p>
+  </footer>
+</body>
+</html>

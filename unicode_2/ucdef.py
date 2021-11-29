@@ -68,7 +68,7 @@ uc_subgroup = [
     "clothing", "sound", "music", "musical-instrument", "phone", "computer", "light & video", "book-paper", "money", "mail", "writing", "office", "lock", "tool", "science", "medical", "household", "other-object",
     "transport-sign", "warning", "arrow", "religion", "zodiac", "av-symbol", "gender", "math", "punctuation", "currency", "other-symbol", "keycap", "alphanum", "geometric",
     "flag", "country-flag", "subdivision-flag"
-    ]
+]
 
 uc_grupos_2 = [
     "gr-componentes",
@@ -79,6 +79,109 @@ uc_grupos_2 = [
     "gr-texto-emoji",
     "gr-keycap",
     "gr-restos",
+]
+
+uc_grupos_banderas = [
+    ["gr-banderas-regiones", "Banderas (subdivisiones regionales)",
+    '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas regionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas-subdivisiones">apartado Banderas (subdivisiones regionales) de la lección Secuencias Unicode</a>.</p>\n',
+    ],
+    ["gr-banderas-otras", "Otras banderas",
+    '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas que no pertenecen a ninguna de las otras categorías. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#otras">apartado Otras de la lección Secuencias Unicode</a>.</p>\n',
+    ],
+    ["gr-banderas-paises", "Banderas",
+    '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas nacionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas">apartado Banderas de la lección Secuencias Unicode</a>.</p>\n',
+    ],
+]
+
+uc_grupos_generos = [
+    ["gr-genero-1", "",
+    '',
+    ],
+    ["gr-genero-2", "",
+    '',
+    ],
+    ["gr-genero-3", "",
+    '',
+    ],
+    ["gr-genero-4", "",
+    '',
+    ],
+    ["gr-genero-5", "",
+    '',
+    ],
+    ["gr-genero-6", "",
+    '',
+    ],
+    ["gr-genero-7", "",
+    '',
+    ],
+]
+
+uc_grupos_fitzpatrick = [
+    ["gr-colores-piel-1", "",
+    '',
+    ],
+    ["gr-colores-piel-2", "",
+    '',
+    ],
+    ["gr-colores-piel-3", "",
+    '',
+    ],
+    ["gr-colores-piel-4", "",
+    '',
+    ],
+    ["gr-colores-piel-5", "",
+    '',
+    ],
+    ["gr-colores-piel-6", "",
+    '',
+    ],
+    ["gr-colores-piel-7", "",
+    '',
+    ],
+    ["gr-colores-piel-8", "",
+    '',
+    ],
+]
+
+uc_grupos_parejas = [
+    ["gr-familias", "",
+    '',
+    ],
+    ["gr-parejas-corazon-1", "",
+    '',
+    ],
+    ["gr-parejas-beso-1", "",
+    '',
+    ],
+    ["gr-parejas-mano-piel-1", "",
+    '',
+    ],
+    ["gr-parejas-mano-piel-2", "",
+    '',
+    ],
+    ["gr-parejas-corazon-piel-1", "",
+    '',
+    ],
+    ["gr-parejas-corazon-piel-2", "",
+    '',
+    ],
+    ["gr-parejas-beso-piel-1", "",
+    '',
+    ],
+    ["gr-parejas-beso-piel-2", "",
+    '',
+    ],
+]
+uc_grupos_2b = [
+    ["gr-componentes",
+    ],
+    ["gr-texto-emoji",
+    ],
+    ["gr-keycap",
+    ],
+    ["gr-restos",
+    ]
 ]
 
 uc_tablas_caracteres = [

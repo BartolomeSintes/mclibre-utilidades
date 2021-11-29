@@ -51,5 +51,14 @@ no están en fusionados_1
 Son sombreados en modo texto
 Es cosa de Windows porque salen en Chrome.
 
-
-
+# 2021-11-29
+- Tengo que completar uc_92 para que que añada en manual_1 para cada carácter la información que utilizo de fusionados_2 y de derived_name
+- Tengo que completar uc_92 para que diga si el elemento está en twemoji (tendría que hacer un programa intermedio para generar una lista twemoji y luego fusionarla)
+- Tengo que hacer un manual_2 con la información que añada yo: si se ve o no en Windows 10, en Windows 11, en Android, en iOS. Y luego están los que se ven en Firefox porque los saca de twemoji.
+- Tengo que decidir cómo agrupo las secuencias en las páginas de géneros y colores. Lo más fácil es por forma de codificación y de cortas a largas.
+- Tengo que decidir cómo ordeno los caracteres dentro de las secuencias. En principio por orden alfabético, pero en el caso de hombres y mujeres sería mejor que fueran seguidos (si el caracter hombre mujer va al principio, salen mal ordenados). Sería otra opción a añadir a la definición del grupo y hacer una función que ordenara de una forma u otra dependiendo de lo que se pusiera en el grupo (una lista con los números de carácter por los que ordena (el primero, el segundo, etc)).
+- Tengo que añadir una página de restos.
+- Tengo que decidir si hago una página con las que se ven en Windows, pero que no están definidas en Unicode. Creo que no, aunque podría mencionarlas.
+- Tengo que añadir una página con todos los twemoji.
+- Tengo que decidir si en los caracteres que no se ven en Windows (o en Android), pero sí que se ven en twemoji, les añado el twemoji para que se vea cómo es el dibujo.
+- Tengo que añadir en los programas que fusionan/importan contadores que digan si quedan cosas pendientes de pasar.

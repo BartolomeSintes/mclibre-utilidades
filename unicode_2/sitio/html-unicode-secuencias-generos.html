@@ -1,0 +1,3260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Géneros. Secuencias Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
+  <link rel="icon" href="../varios/favicon.svg">
+  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+  <style>
+    @font-face {
+      font-family: "Symbola";
+      src: url("unicode/Symbola.ttf");
+    }
+
+    @font-face {
+      font-family: "Twemoji";
+      src: url("unicode/TwemojiMozilla.ttf");
+    }
+
+    div.u-l {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+    }
+
+    div.u,
+    div.u2 {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 210px;
+      margin: 5px;
+      border: black 1px solid;
+      text-align: center;
+    }
+
+    div.u2 {
+      flex: 0 1 280px;
+    }
+
+    div.u p:nth-child(odd),
+    div.u2 p:nth-child(odd) {
+      background-color: #eee;
+    }
+
+    div.u p,
+    div.u2 p {
+      margin: 0;
+      padding: 5px 10px;
+    }
+
+    div.u p.uc,
+    div.u2 p.uc {
+      font-weight: bold;
+    }
+
+    div.u p.si,
+    div.u2 p.si {
+      font-family: sans-serif;
+      font-size: 80px;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    div.u span.ss,
+    div.u2 span.ss {
+      font-family: sans-serif;
+      padding-right: 20px;
+    }
+
+    p.si span:not(:last-child) {
+      border-right: 2px solid black;
+    }
+
+    div.u span.sy,
+    div.u2 span.sy {
+      font-family: "Symbola";
+    }
+
+    div.u span.te,
+    div.u2 span.te {
+      font-family: "Twemoji";
+      font-size: 90px;
+    }
+
+    div.u .twe,
+    div.u2 .twe {
+      height: 90px;
+      vertical-align: text-bottom;
+    }
+
+    div.u p.no,
+    div.u2 p.no {
+      flex: 1 0 auto;
+      text-transform: uppercase;
+    }
+
+    div.u a,
+    div.u2 a {
+      border: none;
+      text-decoration: none;
+      color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Secuencias Unicode: Géneros</h1>
+
+  <nav>
+    <p>
+      <a href="../index.html"><img src="../varios/iconos/icono-html.svg" alt="Home" title="Ir a página de inicio" width="42" height="48"></a>
+      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>
+    </p>
+
+    <div class="toc">
+      <h2>Secuencias Géneros</h2>
+
+      <ul>
+        <li><a href="#genero-1">Género (1)</a></li>
+        <li><a href="#genero-2">Género (2)</a></li>
+        <li><a href="#genero-3">Género (3)</a></li>
+        <li><a href="#genero-4">Género (4)</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <p>Esta página muestra los dibujos de personas con género (masculino o femenino) que se pueden conseguir mediante secuencias de caracteres Unicode.</p>
+
+  <p>Para entender esta página se recomienda leer las lecciones:</p>
+  <ul>
+    <li><a href="html-utf8.html">El juego de caracteres UTF-8</a>, que explica qué es un juego de caracteres informático y, concretamente, qué es el juego de caracteres UTF-8.</li>
+    <li><a href="html-entidades-caracter.html">Entidades de carácter y entidades numéricas</a>, que explica cómo incluir caracteres Unicode en una página web</li>
+    <li><a href="html-unicode-secuencias.html">Secuencias</a>, que muestra cómo se definen las secuencias de caracteres Unicode que corresponden a dibujos (banderas, emojis, etc.)</li>
+  </ul>
+
+  <p>Esta página es la cuarta de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
+  <ul>
+    <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
+    <li><a href="html-unicode-dibujos.html">Emojis</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
+    <li><a href="html-unicode-secuencias-banderas.html">Banderas</a>, que muestra las secuencias Unicode que corresponden a banderas</li>
+    <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
+    <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
+    <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
+    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
+  </ul>
+
+  <section id="info">
+    <h2>Información contenida en las fichas</h2>
+
+    <p>Las fichas siguientes muestran los dibujos (emoticonos, emojis y otros) correspondientes a secuencias de Unicode. Para cada secuencia se muestra:</p>
+
+    <ul>
+      <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
+      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra un rectángulo de borde negro con el código Unicode en caracteres muy pequeños):
+        <ul>
+          <li>la fuente <span class="css-valor">sans-serif</span> (la fuente aplicada depende del sistema operativo, del navegador e incluso del carácter, por lo que se recomienda ver esta lección en Firefox y Chrome)</li>
+          <li>la fuente <a href="https://github.com/mozilla/twemoji-colr">twemoji-colr</a> (esta fuente es la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a> en formato COLR/CPAL). Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
+        </ul>
+      </li>
+      <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
+      <li>el nombre de la secuencia (en inglés)</li>
+    </ul>
+  </section>
+
+
+    <section id="gr-genero-1">
+    <h2></h2>
+
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F3C3 U+200D U+2640 </p>
+        <p class="si">&#x1F3C3;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3c3;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman running</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3C3 U+200D U+2642 </p>
+        <p class="si">&#x1F3C3;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3c3;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man running</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3C4 U+200D U+2640 </p>
+        <p class="si">&#x1F3C4;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3c4;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman surfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3C4 U+200D U+2642 </p>
+        <p class="si">&#x1F3C4;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3c4;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man surfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CA U+200D U+2640 </p>
+        <p class="si">&#x1F3CA;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3ca;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman swimming</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CA U+200D U+2642 </p>
+        <p class="si">&#x1F3CA;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3ca;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man swimming</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CB U+200D U+2640 </p>
+        <p class="si">&#x1F3CB;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cb;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman lifting weights</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CB U+200D U+2642 </p>
+        <p class="si">&#x1F3CB;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cb;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man lifting weights</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CC U+200D U+2640 </p>
+        <p class="si">&#x1F3CC;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cc;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman golfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CC U+200D U+2642 </p>
+        <p class="si">&#x1F3CC;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cc;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man golfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F33E </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F33E;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f33e;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F33E;</strong>
+        </p>
+        <p class="no">man farmer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F373 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F373;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f373;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F373;</strong>
+        </p>
+        <p class="no">man cook</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F37C </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F37C;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f37c;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F37C;</strong>
+        </p>
+        <p class="no">man feeding baby</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F393 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F393;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f393;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F393;</strong>
+        </p>
+        <p class="no">man student</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F3A4 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F3A4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f3a4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3A4;</strong>
+        </p>
+        <p class="no">man singer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F3A8 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F3A8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f3a8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3A8;</strong>
+        </p>
+        <p class="no">man artist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F3EB </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F3EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f3eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3EB;</strong>
+        </p>
+        <p class="no">man teacher</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F3ED </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F3ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f3ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3ED;</strong>
+        </p>
+        <p class="no">man factory worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F4BB </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F4BB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f4bb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F4BB;</strong>
+        </p>
+        <p class="no">man technologist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F4BC </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F4BC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f4bc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F4BC;</strong>
+        </p>
+        <p class="no">man office worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F527 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F527;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f527;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F527;</strong>
+        </p>
+        <p class="no">man mechanic</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F52C </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F52C;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f52c;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F52C;</strong>
+        </p>
+        <p class="no">man scientist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F680 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F680;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f680;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F680;</strong>
+        </p>
+        <p class="no">man astronaut</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F692 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F692;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f692;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F692;</strong>
+        </p>
+        <p class="no">man firefighter</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F9AF </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F9AF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f9af;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9AF;</strong>
+        </p>
+        <p class="no">man with white cane</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F9B0 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F9B0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f9b0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B0;</strong>
+        </p>
+        <p class="no">man: red hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F9B1 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F9B1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f9b1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B1;</strong>
+        </p>
+        <p class="no">man: curly hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F9B2 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F9B2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f9b2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B2;</strong>
+        </p>
+        <p class="no">man: bald</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F9B3 </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F9B3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f9b3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B3;</strong>
+        </p>
+        <p class="no">man: white hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F9BC </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F9BC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f9bc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9BC;</strong>
+        </p>
+        <p class="no">man in motorized wheelchair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+1F9BD </p>
+        <p class="si">&#x1F468;&#x200D;&#x1F9BD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x1f9bd;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9BD;</strong>
+        </p>
+        <p class="no">man in manual wheelchair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+2695 </p>
+        <p class="si">&#x1F468;&#x200D;&#x2695;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x2695;</strong><br>
+          Dec:&nbsp;<strong>&amp;2695;</strong>
+        </p>
+        <p class="no">man health worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+2696 </p>
+        <p class="si">&#x1F468;&#x200D;&#x2696;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x2696;</strong><br>
+          Dec:&nbsp;<strong>&amp;2696;</strong>
+        </p>
+        <p class="no">man judge</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+2708 </p>
+        <p class="si">&#x1F468;&#x200D;&#x2708;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x2708;</strong><br>
+          Dec:&nbsp;<strong>&amp;2708;</strong>
+        </p>
+        <p class="no">man pilot</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F33E </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F33E;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f33e;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F33E;</strong>
+        </p>
+        <p class="no">woman farmer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F373 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F373;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f373;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F373;</strong>
+        </p>
+        <p class="no">woman cook</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F37C </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F37C;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f37c;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F37C;</strong>
+        </p>
+        <p class="no">woman feeding baby</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F393 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F393;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f393;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F393;</strong>
+        </p>
+        <p class="no">woman student</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F3A4 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F3A4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f3a4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3A4;</strong>
+        </p>
+        <p class="no">woman singer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F3A8 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F3A8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f3a8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3A8;</strong>
+        </p>
+        <p class="no">woman artist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F3EB </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F3EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f3eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3EB;</strong>
+        </p>
+        <p class="no">woman teacher</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F3ED </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F3ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f3ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3ED;</strong>
+        </p>
+        <p class="no">woman factory worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F4BB </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F4BB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f4bb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F4BB;</strong>
+        </p>
+        <p class="no">woman technologist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F4BC </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F4BC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f4bc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F4BC;</strong>
+        </p>
+        <p class="no">woman office worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F527 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F527;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f527;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F527;</strong>
+        </p>
+        <p class="no">woman mechanic</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F52C </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F52C;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f52c;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F52C;</strong>
+        </p>
+        <p class="no">woman scientist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F680 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F680;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f680;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F680;</strong>
+        </p>
+        <p class="no">woman astronaut</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F692 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F692;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f692;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F692;</strong>
+        </p>
+        <p class="no">woman firefighter</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F9AF </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F9AF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f9af;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9AF;</strong>
+        </p>
+        <p class="no">woman with white cane</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F9B0 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F9B0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f9b0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B0;</strong>
+        </p>
+        <p class="no">woman: red hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F9B1 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F9B1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f9b1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B1;</strong>
+        </p>
+        <p class="no">woman: curly hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F9B2 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F9B2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f9b2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B2;</strong>
+        </p>
+        <p class="no">woman: bald</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F9B3 </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F9B3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f9b3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B3;</strong>
+        </p>
+        <p class="no">woman: white hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F9BC </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F9BC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f9bc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9BC;</strong>
+        </p>
+        <p class="no">woman in motorized wheelchair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+1F9BD </p>
+        <p class="si">&#x1F469;&#x200D;&#x1F9BD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x1f9bd;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9BD;</strong>
+        </p>
+        <p class="no">woman in manual wheelchair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+2695 </p>
+        <p class="si">&#x1F469;&#x200D;&#x2695;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x2695;</strong><br>
+          Dec:&nbsp;<strong>&amp;2695;</strong>
+        </p>
+        <p class="no">woman health worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+2696 </p>
+        <p class="si">&#x1F469;&#x200D;&#x2696;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x2696;</strong><br>
+          Dec:&nbsp;<strong>&amp;2696;</strong>
+        </p>
+        <p class="no">woman judge</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+2708 </p>
+        <p class="si">&#x1F469;&#x200D;&#x2708;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x2708;</strong><br>
+          Dec:&nbsp;<strong>&amp;2708;</strong>
+        </p>
+        <p class="no">woman pilot</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F46E U+200D U+2640 </p>
+        <p class="si">&#x1F46E;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f46e;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman police officer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F46E U+200D U+2642 </p>
+        <p class="si">&#x1F46E;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f46e;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man police officer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F46F U+200D U+2640 </p>
+        <p class="si">&#x1F46F;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f46f;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">women with bunny ears</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F46F U+200D U+2642 </p>
+        <p class="si">&#x1F46F;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f46f;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">men with bunny ears</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F470 U+200D U+2640 </p>
+        <p class="si">&#x1F470;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f470;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman with veil</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F470 U+200D U+2642 </p>
+        <p class="si">&#x1F470;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f470;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man with veil</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F471 U+200D U+2640 </p>
+        <p class="si">&#x1F471;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f471;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman: blond hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F471 U+200D U+2642 </p>
+        <p class="si">&#x1F471;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f471;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man: blond hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F473 U+200D U+2640 </p>
+        <p class="si">&#x1F473;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f473;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman wearing turban</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F473 U+200D U+2642 </p>
+        <p class="si">&#x1F473;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f473;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man wearing turban</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F477 U+200D U+2640 </p>
+        <p class="si">&#x1F477;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f477;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman construction worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F477 U+200D U+2642 </p>
+        <p class="si">&#x1F477;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f477;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man construction worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F481 U+200D U+2640 </p>
+        <p class="si">&#x1F481;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f481;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman tipping hand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F481 U+200D U+2642 </p>
+        <p class="si">&#x1F481;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f481;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man tipping hand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F482 U+200D U+2640 </p>
+        <p class="si">&#x1F482;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f482;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman guard</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F482 U+200D U+2642 </p>
+        <p class="si">&#x1F482;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f482;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man guard</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F486 U+200D U+2640 </p>
+        <p class="si">&#x1F486;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f486;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman getting massage</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F486 U+200D U+2642 </p>
+        <p class="si">&#x1F486;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f486;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man getting massage</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F487 U+200D U+2640 </p>
+        <p class="si">&#x1F487;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f487;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman getting haircut</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F487 U+200D U+2642 </p>
+        <p class="si">&#x1F487;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f487;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man getting haircut</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F575 U+200D U+2640 </p>
+        <p class="si">&#x1F575;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f575;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman detective</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F575 U+200D U+2642 </p>
+        <p class="si">&#x1F575;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f575;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man detective</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F645 U+200D U+2640 </p>
+        <p class="si">&#x1F645;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f645;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman gesturing NO</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F645 U+200D U+2642 </p>
+        <p class="si">&#x1F645;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f645;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man gesturing NO</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F646 U+200D U+2640 </p>
+        <p class="si">&#x1F646;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f646;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman gesturing OK</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F646 U+200D U+2642 </p>
+        <p class="si">&#x1F646;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f646;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man gesturing OK</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F647 U+200D U+2640 </p>
+        <p class="si">&#x1F647;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f647;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman bowing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F647 U+200D U+2642 </p>
+        <p class="si">&#x1F647;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f647;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man bowing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64B U+200D U+2640 </p>
+        <p class="si">&#x1F64B;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64b;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman raising hand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64B U+200D U+2642 </p>
+        <p class="si">&#x1F64B;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64b;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man raising hand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64D U+200D U+2640 </p>
+        <p class="si">&#x1F64D;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64d;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman frowning</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64D U+200D U+2642 </p>
+        <p class="si">&#x1F64D;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64d;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man frowning</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64E U+200D U+2640 </p>
+        <p class="si">&#x1F64E;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64e;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman pouting</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64E U+200D U+2642 </p>
+        <p class="si">&#x1F64E;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64e;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man pouting</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6A3 U+200D U+2640 </p>
+        <p class="si">&#x1F6A3;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6a3;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman rowing boat</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6A3 U+200D U+2642 </p>
+        <p class="si">&#x1F6A3;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6a3;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man rowing boat</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B4 U+200D U+2640 </p>
+        <p class="si">&#x1F6B4;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b4;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman biking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B4 U+200D U+2642 </p>
+        <p class="si">&#x1F6B4;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b4;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man biking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B5 U+200D U+2640 </p>
+        <p class="si">&#x1F6B5;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b5;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman mountain biking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B5 U+200D U+2642 </p>
+        <p class="si">&#x1F6B5;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b5;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man mountain biking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B6 U+200D U+2640 </p>
+        <p class="si">&#x1F6B6;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b6;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman walking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B6 U+200D U+2642 </p>
+        <p class="si">&#x1F6B6;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b6;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man walking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F926 U+200D U+2640 </p>
+        <p class="si">&#x1F926;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f926;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman facepalming</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F926 U+200D U+2642 </p>
+        <p class="si">&#x1F926;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f926;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man facepalming</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F935 U+200D U+2640 </p>
+        <p class="si">&#x1F935;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f935;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman in tuxedo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F935 U+200D U+2642 </p>
+        <p class="si">&#x1F935;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f935;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man in tuxedo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F937 U+200D U+2640 </p>
+        <p class="si">&#x1F937;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f937;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman shrugging</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F937 U+200D U+2642 </p>
+        <p class="si">&#x1F937;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f937;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man shrugging</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F938 U+200D U+2640 </p>
+        <p class="si">&#x1F938;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f938;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman cartwheeling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F938 U+200D U+2642 </p>
+        <p class="si">&#x1F938;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f938;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man cartwheeling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F939 U+200D U+2640 </p>
+        <p class="si">&#x1F939;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f939;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman juggling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F939 U+200D U+2642 </p>
+        <p class="si">&#x1F939;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f939;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man juggling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93C U+200D U+2640 </p>
+        <p class="si">&#x1F93C;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93c;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">women wrestling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93C U+200D U+2642 </p>
+        <p class="si">&#x1F93C;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93c;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">men wrestling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93D U+200D U+2640 </p>
+        <p class="si">&#x1F93D;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93d;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman playing water polo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93D U+200D U+2642 </p>
+        <p class="si">&#x1F93D;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93d;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man playing water polo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93E U+200D U+2640 </p>
+        <p class="si">&#x1F93E;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93e;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman playing handball</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93E U+200D U+2642 </p>
+        <p class="si">&#x1F93E;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93e;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man playing handball</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9B8 U+200D U+2640 </p>
+        <p class="si">&#x1F9B8;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9b8;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman superhero</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9B8 U+200D U+2642 </p>
+        <p class="si">&#x1F9B8;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9b8;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man superhero</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9B9 U+200D U+2640 </p>
+        <p class="si">&#x1F9B9;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9b9;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman supervillain</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9B9 U+200D U+2642 </p>
+        <p class="si">&#x1F9B9;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9b9;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man supervillain</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CD U+200D U+2640 </p>
+        <p class="si">&#x1F9CD;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9cd;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman standing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CD U+200D U+2642 </p>
+        <p class="si">&#x1F9CD;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9cd;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man standing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CE U+200D U+2640 </p>
+        <p class="si">&#x1F9CE;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9ce;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman kneeling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CE U+200D U+2642 </p>
+        <p class="si">&#x1F9CE;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9ce;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man kneeling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CF U+200D U+2640 </p>
+        <p class="si">&#x1F9CF;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9cf;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">deaf woman</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CF U+200D U+2642 </p>
+        <p class="si">&#x1F9CF;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9cf;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">deaf man</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D4 U+200D U+2640 </p>
+        <p class="si">&#x1F9D4;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d4;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman: beard</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D4 U+200D U+2642 </p>
+        <p class="si">&#x1F9D4;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d4;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man: beard</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D6 U+200D U+2640 </p>
+        <p class="si">&#x1F9D6;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d6;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman in steamy room</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D6 U+200D U+2642 </p>
+        <p class="si">&#x1F9D6;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d6;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man in steamy room</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D7 U+200D U+2640 </p>
+        <p class="si">&#x1F9D7;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d7;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman climbing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D7 U+200D U+2642 </p>
+        <p class="si">&#x1F9D7;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d7;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man climbing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D8 U+200D U+2640 </p>
+        <p class="si">&#x1F9D8;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d8;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman in lotus position</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D8 U+200D U+2642 </p>
+        <p class="si">&#x1F9D8;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d8;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man in lotus position</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D9 U+200D U+2640 </p>
+        <p class="si">&#x1F9D9;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d9;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman mage</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D9 U+200D U+2642 </p>
+        <p class="si">&#x1F9D9;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d9;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man mage</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DA U+200D U+2640 </p>
+        <p class="si">&#x1F9DA;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9da;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman fairy</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DA U+200D U+2642 </p>
+        <p class="si">&#x1F9DA;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9da;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man fairy</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DB U+200D U+2640 </p>
+        <p class="si">&#x1F9DB;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9db;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman vampire</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DB U+200D U+2642 </p>
+        <p class="si">&#x1F9DB;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9db;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man vampire</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DC U+200D U+2640 </p>
+        <p class="si">&#x1F9DC;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9dc;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">mermaid</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DC U+200D U+2642 </p>
+        <p class="si">&#x1F9DC;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9dc;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">merman</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DD U+200D U+2640 </p>
+        <p class="si">&#x1F9DD;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9dd;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman elf</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DD U+200D U+2642 </p>
+        <p class="si">&#x1F9DD;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9dd;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man elf</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DE U+200D U+2640 </p>
+        <p class="si">&#x1F9DE;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9de;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman genie</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DE U+200D U+2642 </p>
+        <p class="si">&#x1F9DE;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9de;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man genie</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DF U+200D U+2640 </p>
+        <p class="si">&#x1F9DF;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9df;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman zombie</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DF U+200D U+2642 </p>
+        <p class="si">&#x1F9DF;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9df;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man zombie</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+26F9 U+200D U+2640 </p>
+        <p class="si">&#x26F9;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x26f9;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman bouncing ball</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+26F9 U+200D U+2642 </p>
+        <p class="si">&#x26F9;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x26f9;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man bouncing ball</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="gr-genero-2">
+    <h2></h2>
+
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+2695 U+FE0F </p>
+        <p class="si">&#x1F468;&#x200D;&#x2695;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x2695;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man health worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+2696 U+FE0F </p>
+        <p class="si">&#x1F468;&#x200D;&#x2696;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x2696;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man judge</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F468 U+200D U+2708 U+FE0F </p>
+        <p class="si">&#x1F468;&#x200D;&#x2708;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f468;&amp;#x200d;&amp;#x2708;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man pilot</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+2695 U+FE0F </p>
+        <p class="si">&#x1F469;&#x200D;&#x2695;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x2695;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman health worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+2696 U+FE0F </p>
+        <p class="si">&#x1F469;&#x200D;&#x2696;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x2696;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman judge</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F469 U+200D U+2708 U+FE0F </p>
+        <p class="si">&#x1F469;&#x200D;&#x2708;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f469;&amp;#x200d;&amp;#x2708;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman pilot</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="gr-genero-3">
+    <h2></h2>
+
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F3C3 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F3C3;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3c3;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman running</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3C3 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F3C3;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3c3;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man running</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3C4 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F3C4;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3c4;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman surfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3C4 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F3C4;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3c4;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man surfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CA U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F3CA;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3ca;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman swimming</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CA U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F3CA;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3ca;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man swimming</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CB U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F3CB;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cb;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman lifting weights</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CB U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F3CB;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cb;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man lifting weights</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CC U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F3CC;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cc;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman golfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CC U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F3CC;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cc;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man golfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F46E U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F46E;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f46e;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman police officer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F46E U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F46E;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f46e;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man police officer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F46F U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F46F;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f46f;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">women with bunny ears</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F46F U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F46F;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f46f;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">men with bunny ears</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F470 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F470;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f470;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman with veil</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F470 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F470;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f470;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man with veil</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F471 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F471;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f471;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman: blond hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F471 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F471;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f471;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man: blond hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F473 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F473;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f473;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman wearing turban</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F473 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F473;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f473;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man wearing turban</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F477 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F477;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f477;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman construction worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F477 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F477;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f477;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man construction worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F481 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F481;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f481;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman tipping hand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F481 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F481;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f481;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man tipping hand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F482 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F482;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f482;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman guard</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F482 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F482;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f482;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man guard</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F486 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F486;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f486;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman getting massage</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F486 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F486;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f486;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man getting massage</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F487 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F487;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f487;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman getting haircut</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F487 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F487;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f487;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man getting haircut</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F575 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F575;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f575;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman detective</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F575 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F575;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f575;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man detective</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F645 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F645;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f645;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman gesturing NO</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F645 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F645;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f645;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man gesturing NO</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F646 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F646;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f646;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman gesturing OK</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F646 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F646;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f646;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man gesturing OK</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F647 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F647;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f647;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman bowing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F647 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F647;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f647;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man bowing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64B U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F64B;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64b;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman raising hand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64B U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F64B;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64b;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man raising hand</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64D U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F64D;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64d;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman frowning</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64D U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F64D;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64d;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man frowning</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64E U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F64E;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64e;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman pouting</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F64E U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F64E;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f64e;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man pouting</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6A3 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F6A3;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6a3;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman rowing boat</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6A3 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F6A3;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6a3;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man rowing boat</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B4 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F6B4;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b4;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman biking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B4 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F6B4;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b4;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man biking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B5 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F6B5;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b5;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman mountain biking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B5 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F6B5;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b5;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man mountain biking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B6 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F6B6;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b6;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman walking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F6B6 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F6B6;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f6b6;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man walking</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F926 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F926;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f926;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman facepalming</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F926 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F926;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f926;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man facepalming</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F935 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F935;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f935;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman in tuxedo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F935 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F935;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f935;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man in tuxedo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F937 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F937;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f937;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman shrugging</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F937 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F937;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f937;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man shrugging</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F938 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F938;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f938;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman cartwheeling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F938 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F938;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f938;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man cartwheeling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F939 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F939;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f939;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman juggling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F939 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F939;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f939;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man juggling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93C U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F93C;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93c;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">women wrestling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93C U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F93C;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93c;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">men wrestling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93D U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F93D;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93d;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman playing water polo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93D U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F93D;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93d;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man playing water polo</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93E U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F93E;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93e;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman playing handball</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F93E U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F93E;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f93e;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man playing handball</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9B8 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9B8;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9b8;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman superhero</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9B8 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9B8;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9b8;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man superhero</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9B9 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9B9;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9b9;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman supervillain</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9B9 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9B9;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9b9;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man supervillain</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CD U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9CD;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9cd;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman standing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CD U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9CD;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9cd;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man standing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CE U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9CE;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9ce;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman kneeling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CE U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9CE;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9ce;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man kneeling</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CF U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9CF;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9cf;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">deaf woman</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9CF U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9CF;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9cf;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">deaf man</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D4 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9D4;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d4;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman: beard</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D4 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9D4;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d4;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man: beard</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D6 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9D6;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d6;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman in steamy room</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D6 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9D6;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d6;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man in steamy room</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D7 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9D7;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d7;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman climbing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D7 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9D7;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d7;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man climbing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D8 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9D8;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d8;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman in lotus position</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D8 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9D8;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d8;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man in lotus position</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D9 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9D9;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d9;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman mage</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D9 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9D9;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d9;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man mage</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DA U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9DA;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9da;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman fairy</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DA U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9DA;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9da;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man fairy</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DB U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9DB;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9db;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman vampire</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DB U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9DB;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9db;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man vampire</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DC U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9DC;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9dc;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">mermaid</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DC U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9DC;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9dc;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">merman</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DD U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9DD;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9dd;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman elf</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DD U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9DD;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9dd;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man elf</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DE U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9DE;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9de;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman genie</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DE U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9DE;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9de;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man genie</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DF U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F9DF;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9df;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman zombie</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9DF U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F9DF;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9df;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man zombie</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+26F9 U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x26F9;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x26f9;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman bouncing ball</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+26F9 U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x26F9;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x26f9;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man bouncing ball</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="gr-genero-4">
+    <h2></h2>
+
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F3CB U+FE0F U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F3CB;&#xFE0F;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cb;&amp;#xfe0f;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman lifting weights</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CB U+FE0F U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F3CB;&#xFE0F;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cb;&amp;#xfe0f;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man lifting weights</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CC U+FE0F U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F3CC;&#xFE0F;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cc;&amp;#xfe0f;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman golfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CC U+FE0F U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F3CC;&#xFE0F;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cc;&amp;#xfe0f;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man golfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F575 U+FE0F U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x1F575;&#xFE0F;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f575;&amp;#xfe0f;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman detective</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F575 U+FE0F U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x1F575;&#xFE0F;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f575;&amp;#xfe0f;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man detective</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+26F9 U+FE0F U+200D U+2640 U+FE0F </p>
+        <p class="si">&#x26F9;&#xFE0F;&#x200D;&#x2640;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x26f9;&amp;#xfe0f;&amp;#x200d;&amp;#x2640;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">woman bouncing ball</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+26F9 U+FE0F U+200D U+2642 U+FE0F </p>
+        <p class="si">&#x26F9;&#xFE0F;&#x200D;&#x2642;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x26f9;&amp;#xfe0f;&amp;#x200d;&amp;#x2642;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">man bouncing ball</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="gr-genero-5">
+    <h2></h2>
+
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F33E </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F33E;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f33e;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F33E;</strong>
+        </p>
+        <p class="no">farmer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F373 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F373;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f373;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F373;</strong>
+        </p>
+        <p class="no">cook</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F37C </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F37C;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f37c;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F37C;</strong>
+        </p>
+        <p class="no">person feeding baby</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F384 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F384;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f384;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F384;</strong>
+        </p>
+        <p class="no">mx claus</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F393 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F393;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f393;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F393;</strong>
+        </p>
+        <p class="no">student</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F3A4 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F3A4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f3a4;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3A4;</strong>
+        </p>
+        <p class="no">singer</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F3A8 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F3A8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f3a8;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3A8;</strong>
+        </p>
+        <p class="no">artist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F3EB </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F3EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f3eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3EB;</strong>
+        </p>
+        <p class="no">teacher</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F3ED </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F3ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f3ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F3ED;</strong>
+        </p>
+        <p class="no">factory worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F4BB </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F4BB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f4bb;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F4BB;</strong>
+        </p>
+        <p class="no">technologist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F4BC </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F4BC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f4bc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F4BC;</strong>
+        </p>
+        <p class="no">office worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F527 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F527;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f527;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F527;</strong>
+        </p>
+        <p class="no">mechanic</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F52C </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F52C;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f52c;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F52C;</strong>
+        </p>
+        <p class="no">scientist</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F680 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F680;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f680;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F680;</strong>
+        </p>
+        <p class="no">astronaut</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F692 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F692;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f692;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F692;</strong>
+        </p>
+        <p class="no">firefighter</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F9AF </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F9AF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f9af;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9AF;</strong>
+        </p>
+        <p class="no">person with white cane</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F9B0 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F9B0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f9b0;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B0;</strong>
+        </p>
+        <p class="no">person: red hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F9B1 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F9B1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f9b1;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B1;</strong>
+        </p>
+        <p class="no">person: curly hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F9B2 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F9B2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f9b2;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B2;</strong>
+        </p>
+        <p class="no">person: bald</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F9B3 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F9B3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f9b3;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9B3;</strong>
+        </p>
+        <p class="no">person: white hair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F9BC </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F9BC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f9bc;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9BC;</strong>
+        </p>
+        <p class="no">person in motorized wheelchair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+1F9BD </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x1F9BD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x1f9bd;</strong><br>
+          Dec:&nbsp;<strong>&amp;1F9BD;</strong>
+        </p>
+        <p class="no">person in manual wheelchair</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+2695 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x2695;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x2695;</strong><br>
+          Dec:&nbsp;<strong>&amp;2695;</strong>
+        </p>
+        <p class="no">health worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+2696 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x2696;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x2696;</strong><br>
+          Dec:&nbsp;<strong>&amp;2696;</strong>
+        </p>
+        <p class="no">judge</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+2708 </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x2708;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x2708;</strong><br>
+          Dec:&nbsp;<strong>&amp;2708;</strong>
+        </p>
+        <p class="no">pilot</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="gr-genero-6">
+    <h2></h2>
+
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+2695 U+FE0F </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x2695;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x2695;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">health worker</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+2696 U+FE0F </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x2696;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x2696;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">judge</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F9D1 U+200D U+2708 U+FE0F </p>
+        <p class="si">&#x1F9D1;&#x200D;&#x2708;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f9d1;&amp;#x200d;&amp;#x2708;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;FE0F;</strong>
+        </p>
+        <p class="no">pilot</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="gr-genero-7">
+    <h2></h2>
+
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">U+1F3CB U+FE0F U+200D U+2640 </p>
+        <p class="si">&#x1F3CB;&#xFE0F;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cb;&amp;#xfe0f;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman lifting weights</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CB U+FE0F U+200D U+2642 </p>
+        <p class="si">&#x1F3CB;&#xFE0F;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cb;&amp;#xfe0f;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man lifting weights</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CC U+FE0F U+200D U+2640 </p>
+        <p class="si">&#x1F3CC;&#xFE0F;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cc;&amp;#xfe0f;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman golfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F3CC U+FE0F U+200D U+2642 </p>
+        <p class="si">&#x1F3CC;&#xFE0F;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3cc;&amp;#xfe0f;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man golfing</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F575 U+FE0F U+200D U+2640 </p>
+        <p class="si">&#x1F575;&#xFE0F;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f575;&amp;#xfe0f;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman detective</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+1F575 U+FE0F U+200D U+2642 </p>
+        <p class="si">&#x1F575;&#xFE0F;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f575;&amp;#xfe0f;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man detective</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+26F9 U+FE0F U+200D U+2640 </p>
+        <p class="si">&#x26F9;&#xFE0F;&#x200D;&#x2640;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x26f9;&amp;#xfe0f;&amp;#x200d;&amp;#x2640;</strong><br>
+          Dec:&nbsp;<strong>&amp;2640;</strong>
+        </p>
+        <p class="no">woman bouncing ball</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">U+26F9 U+FE0F U+200D U+2642 </p>
+        <p class="si">&#x26F9;&#xFE0F;&#x200D;&#x2642;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x26f9;&amp;#xfe0f;&amp;#x200d;&amp;#x2642;</strong><br>
+          Dec:&nbsp;<strong>&amp;2642;</strong>
+        </p>
+        <p class="no">man bouncing ball</p>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    var twemojis = document.getElementsByClassName('twe');
+    var i;
+    for (i = 0; i < twemojis.length; i++) {
+      twemoji.parse(twemojis[i], {
+        className: "twe",
+        folder: "svg",
+        ext: ".svg"
+      });
+    }
+  </script>
+
+  <footer>
+    <p class="ultmod">Última modificación de esta página: 29 de noviembre de 2021</p>
+
+    <p class="licencia">
+      <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"><img src="../varios/iconos/icono-cc-by-sa.svg" alt="Licencia Creative Commons" title="Licencia Creative Commons BY-SA" width="120" height="42"></a><br>
+      Esta página forma parte del curso <strong><a href="https://www.mclibre.org/consultar/htmlcss/">Páginas web HTML y hojas de estilo CSS</a></strong> por <a href="https://www.mclibre.org/" rel="author">Bartolomé Sintes Marco</a><br>
+      que se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES">Licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a>.
+    </p>
+  </footer>
+</body>
+</html>

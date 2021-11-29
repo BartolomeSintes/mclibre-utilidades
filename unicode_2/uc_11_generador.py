@@ -6,12 +6,27 @@ import datetime
 import webbrowser
 import ucdef
 from u14_ficheros_2_importados import unicode_txt_derived_name as imp
+from u14_ficheros_3_fusionados import unicode_txt_fusionados_2 as imp2
+from u14_ficheros_3_fusionados import unicode_txt_manual_1 as imp3
 
 ORIGEN = pathlib.Path("sitio-plantilla")
 DESTINO = pathlib.Path("sitio")
 
 
 def genera_pagina(pagina):
+    if pagina == ucdef.PAG_SIMBOLOS or pagina == ucdef.PAG_EMOJIS:
+        return genera_pagina_caracteres(pagina)
+    elif pagina == ucdef.PAG_BANDERAS:
+        return genera_pagina_secuencias(pagina, ucdef.uc_grupos_banderas)
+    elif pagina == ucdef.PAG_GENEROS:
+        return genera_pagina_secuencias(pagina, ucdef.uc_grupos_generos)
+    elif pagina == ucdef.PAG_FITZPATRICK:
+        return genera_pagina_secuencias(pagina, ucdef.uc_grupos_fitzpatrick)
+    elif pagina == ucdef.PAG_PAREJAS:
+        return genera_pagina_secuencias(pagina, ucdef.uc_grupos_parejas)
+
+
+def genera_pagina_caracteres(pagina):
     if pagina == ucdef.PAG_SIMBOLOS:
         t = ""
         for grupo in ucdef.uc_tablas_caracteres[0]:
@@ -19,13 +34,13 @@ def genera_pagina(pagina):
             for c in imp.derived_name:
                 if c[3] == grupo[1] and c[2] != "emoji":
                     caracteres += [c]
+            caracteres.sort()
             contador = len(caracteres)
-            print(contador)
+            print(grupo[1], contador)
             if contador > 0:
                 t += f'  <section id="{grupo[1]}">\n'
                 t += f"    <h2>{grupo[0]}</h2>\n"
                 t += "\n"
-
                 if contador == 1:
                     t += f"    <p>Se muestra aquí {contador} carácter "
                 else:
@@ -48,7 +63,7 @@ def genera_pagina(pagina):
                         t += "      </div>\n"
                         t += "\n"
                     elif c[2] == "emoji-texto":
-                        t += '      <div class="u2">\n'
+                        t += '      <div class="u">\n'
                         t += '        <p class="uc">'
                         t += f"U+{int(c[0], 16):X} U+FE0E"
                         t += "</p>\n"
@@ -60,19 +75,18 @@ def genera_pagina(pagina):
                         t += f'        <p class="no">{c[1]}</p>\n'
                         t += "      </div>\n"
                         t += "\n"
-
-            t += "    </div>\n"
-            t += "  </section>\n"
+                t += "    </div>\n"
+                t += "  </section>\n"
         t += "\n"
-    if pagina == ucdef.PAG_EMOJIS:
+    elif pagina == ucdef.PAG_EMOJIS:
         t = ""
         for grupo in ucdef.uc_tablas_caracteres[0]:
             caracteres = []
             for c in imp.derived_name:
                 if c[3] == grupo[1] and c[2] != "texto":
                     caracteres += [c]
+            caracteres.sort()
             contador = len(caracteres)
-            print(contador)
             if contador > 0:
                 t += f'  <section id="{grupo[1]}">\n'
                 t += f"    <h2>{grupo[0]}</h2>\n"
@@ -100,7 +114,7 @@ def genera_pagina(pagina):
                         t += "      </div>\n"
                         t += "\n"
                     elif c[2] == "texto-emoji":
-                        t += '      <div class="u2">\n'
+                        t += '      <div class="u">\n'
                         t += '        <p class="uc">'
                         t += f"U+{int(c[0], 16):X} U+FE0F"
                         t += "</p>\n"
@@ -112,62 +126,63 @@ def genera_pagina(pagina):
                         t += f'        <p class="no">{c[1]}</p>\n'
                         t += "      </div>\n"
                         t += "\n"
-
-            t += "    </div>\n"
-            t += "  </section>\n"
+                t += "    </div>\n"
+                t += "  </section>\n"
         t += "\n"
-    if pagina == ucdef.PAG_BANDERAS:
-        t = ""
-        for grupo in ["gr-banderas-otras", "gr-banderas-regiones", "gr-banderas-paises"]:
-            caracteres = []
-            for c in imp.derived_name:
-                if c[3] == grupo[1] and c[2] != "texto":
+    return t
+
+
+def genera_pagina_secuencias(pagina, grupos):
+    t = ""
+    for grupo in grupos:
+        caracteres = []
+        for c in imp3.manual_1:
+            for cgrupo in c[1]:
+                if cgrupo == grupo[0]:
                     caracteres += [c]
-            contador = len(caracteres)
-            print(contador)
-            if contador > 0:
-                t += f'  <section id="{grupo[1]}">\n'
-                t += f"    <h2>{grupo[0]}</h2>\n"
+        caracteres.sort()
+        contador = len(caracteres)
+        if contador > 0:
+            info_grupo = []
+            for i in grupos:
+                if i[0] == grupo[0]:
+                    info_grupo = i
+            t += f'  <section id="{grupo[0]}">\n'
+            t += f"    <h2>{info_grupo[1]}</h2>\n"
+            t += "\n"
+            t += info_grupo[2]
+            t += "\n"
+            t += '    <div class="u-l">\n'
+            for c in caracteres:
+                t += '      <div class="u">\n'
+                t += '        <p class="uc">'
+                for cn in c[0]:
+                    t += f"U+{int(cn, 16):X} "
+                t += "</p>\n"
+                t += f'        <p class="si">'
+                for cn in c[0]:
+                    t += f"&#x{int(cn, 16):X};"
+                t += f"</p>\n"
+                t += '        <p class="en">\n'
+                t += f"          Hex:&nbsp;<strong>"
+                for cn in c[0]:
+                    t += f"&amp;#x{int(cn, 16):x};"
+                t += f"</strong><br>\n"
+                t += f"          Dec:&nbsp;<strong>"
+                t += f"&amp;{cn};"
+                t += f"</strong>\n"
+                t += "        </p>\n"
+                c_nombre = ""
+                for i in imp2.fusionados_2:
+                    # print(i[0], "xxx", c[0])
+                    if i[0] == c[0]:
+                        c_nombre = i[2][3]
+                t += f'        <p class="no">{c_nombre}</p>\n'
+                t += "      </div>\n"
                 t += "\n"
-
-                if contador == 1:
-                    t += f"    <p>Se muestra aquí {contador} carácter "
-                else:
-                    t += f"    <p>Se muestran aquí {contador} caracteres "
-                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 14.0</a> en formato PDF.</p>\n'
-                t += "\n"
-                t += '    <div class="u-l">\n'
-                for c in caracteres:
-                    if c[2] == "emoji" or c[2] == "emoji-texto":
-                        t += '      <div class="u">\n'
-                        t += '        <p class="uc">'
-                        t += f"U+{int(c[0], 16):X} "
-                        t += "</p>\n"
-                        t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
-                        t += '        <p class="en">\n'
-                        t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};</strong><br>\n"
-                        t += f"          Dec:&nbsp;<strong>&amp;{c[0]};</strong>\n"
-                        t += "        </p>\n"
-                        t += f'        <p class="no">{c[1]}</p>\n'
-                        t += "      </div>\n"
-                        t += "\n"
-                    elif c[2] == "texto-emoji":
-                        t += '      <div class="u2">\n'
-                        t += '        <p class="uc">'
-                        t += f"U+{int(c[0], 16):X} U+FE0F"
-                        t += "</p>\n"
-                        t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0f;</p>\n'
-                        t += '        <p class="en">\n'
-                        t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};&amps;#xfe0f;</strong><br>\n"
-                        t += f"          Dec:&nbsp;<strong>&amp;{c[0]};&amp;#65039;</strong>\n"
-                        t += "        </p>\n"
-                        t += f'        <p class="no">{c[1]}</p>\n'
-                        t += "      </div>\n"
-                        t += "\n"
-
-            t += "    </div>\n"
-            t += "  </section>\n"
-        t += "\n"
+        t += "    </div>\n"
+        t += "  </section>\n"
+    t += "\n"
     return t
 
 
@@ -202,9 +217,9 @@ def main():
         [ucdef.PAG_SIMBOLOS, ucdef.FICHERO_SITIO_SIMBOLOS],
         [ucdef.PAG_EMOJIS, ucdef.FICHERO_SITIO_EMOJIS],
         [ucdef.PAG_BANDERAS, ucdef.FICHERO_SITIO_BANDERAS],
-        # [ucdef.PAG_GENEROS, ucdef.FICHERO_SITIO_GENEROS],
-        # [ucdef.PAG_FITZPATRICK, ucdef.FICHERO_SITIO_FITZPATRICK],
-        # [ucdef.PAG_PAREJAS, ucdef.FICHERO_SITIO_PAREJAS],
+        [ucdef.PAG_GENEROS, ucdef.FICHERO_SITIO_GENEROS],
+        [ucdef.PAG_FITZPATRICK, ucdef.FICHERO_SITIO_FITZPATRICK],
+        [ucdef.PAG_PAREJAS, ucdef.FICHERO_SITIO_PAREJAS],
         # [ucdef.PAG_PROBLEMAS, ucdef.FICHERO_SITIO_PROBLEMAS],
     ]
 
