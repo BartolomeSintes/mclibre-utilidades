@@ -13,23 +13,19 @@ def grupos_paginas(elemento):
     paginas = []
     if len(elemento[0]) == 1:
         for grupo in ucdef.uc_tablas_caracteres[0]:
-            if int(elemento[0][0], 16) >= int(grupo[3], 16) and int(elemento[0][0], 16) <= int(grupo[4], 16):
+            if int(elemento[0][0], 16) >= int(grupo[3], 16) and int(
+                elemento[0][0], 16
+            ) <= int(grupo[4], 16):
                 grupos += [grupo[1]]
         if "Emoji_Component" in elemento[3][0]:
             grupos += ["gr-componentes"]
 
     elif len(elemento[0]) == 2:
         # XXX VS15/VS16
-        if elemento[0][1] == "FE0E" or elemento[0][1] == "FE0F":
+        if elemento[0][1] in ["FE0E", "FE0F"]:
             grupos += ["gr-texto-emoji"]
         # XXX FZ
-        if (
-            elemento[0][1] == "1F3FB"
-            or elemento[0][1] == "1F3FC"
-            or elemento[0][1] == "1F3FD"
-            or elemento[0][1] == "1F3FE"
-            or elemento[0][1] == "1F3FF"
-        ):
+        if elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]:
             grupos += ["gr-colores-piel-1"]
         # LETRA-REGIONAL LETRA-REGIONAL
         if (
@@ -41,15 +37,8 @@ def grupos_paginas(elemento):
             grupos += ["gr-banderas-paises"]
         # PAREJA FZ
         if (
-            elemento[0][0] == "1F46B"
-            or elemento[0][0] == "1F46C"
-            or elemento[0][0] == "1F46D"
-        ) and (
-            elemento[0][1] == "1F3FB"
-            or elemento[0][1] == "1F3FC"
-            or elemento[0][1] == "1F3FD"
-            or elemento[0][1] == "1F3FE"
-            or elemento[0][1] == "1F3FF"
+            elemento[0][0] in ["1F46B", "1F46C", "1F46D"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-mano-piel-2"]
         # XXX KEYCAP
@@ -57,15 +46,16 @@ def grupos_paginas(elemento):
             grupos += ["gr-keycap"]
     elif len(elemento[0]) == 3:
         # BANDERAS VARIAS
-        if (elemento[0][0] == "1F3F3" or elemento[0][0] == "1F3F4") and elemento[0][
-            1
-        ] == "200D":
+        if (
+            elemento[0][0] in ["1F3F3", "1F3F4"]
+            and elemento[0][1] == "200D"
+        ):
             grupos += ["gr-banderas-otras"]
         # M/W ZWJ NIÑO/NIÑA
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
-            and (elemento[0][2] == "1F466" or elemento[0][2] == "1F467")
+            and elemento[0][2] in ["1F466", "1F467"]
         ):
             grupos += ["gr-familias"]
         # ADULTO ZWJ XXX
@@ -73,14 +63,16 @@ def grupos_paginas(elemento):
             grupos += ["gr-genero-5"]
         # M/W ZWJ XXX
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
+            # ¡CUIDADO!
             and (elemento[0][2] != "1F466" and elemento[0][2] != "1F467")
         ):
             grupos += ["gr-genero-1"]
         # XXX ZWJ M/F
-        if elemento[0][1] == "200D" and (
-            elemento[0][2] == "2640" or elemento[0][2] == "2642"
+        if (
+            elemento[0][1] == "200D"
+            and elemento[0][2] in ["2640", "2642"]
         ):
             grupos += ["gr-genero-1"]
         # XXX KFE0F EYCAP
@@ -109,7 +101,7 @@ def grupos_paginas(elemento):
             grupos += ["gr-banderas-otras"]
         # M/W ZWJ XXX VS16
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
@@ -117,7 +109,7 @@ def grupos_paginas(elemento):
         # ZWJ M/F XXX VS16
         if (
             elemento[0][1] == "200D"
-            and (elemento[0][2] == "2640" or elemento[0][2] == "2642")
+            and elemento[0][2] in ["2640", "2642"]
             and elemento[0][3] == "FE0F"
         ):
             grupos += ["gr-genero-3"]
@@ -125,46 +117,28 @@ def grupos_paginas(elemento):
         if (
             elemento[0][1] == "FE0F"
             and elemento[0][2] == "200D"
-            and (elemento[0][3] == "2640" or elemento[0][3] == "2642")
+            and elemento[0][3] in ["2640", "2642"]
         ):
             grupos += ["gr-genero-7"]
         # ADULTO FZ ZWJ XXX
         if (
             elemento[0][0] == "1F9D1"
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
         ):
             grupos += ["gr-colores-piel-6"]
         # M/W FZ ZWJ XXX
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
         ):
             grupos += ["gr-colores-piel-2"]
         # XXX FZ ZWJ M/F
         if (
-            (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
-            and (elemento[0][3] == "2640" or elemento[0][3] == "2642")
+            and elemento[0][3] in ["2640", "2642"]
         ):
             grupos += ["gr-colores-piel-5"]
     elif len(elemento[0]) == 5:
@@ -178,25 +152,20 @@ def grupos_paginas(elemento):
             grupos += ["gr-banderas-otras"]
         # HOMBRE/MUJER ZWJ NIÑO/NIÑA/HOMBRE/MUJER ZWJ NIÑO/NIÑA
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
-            and (
-                elemento[0][2] == "1F466"
-                or elemento[0][2] == "1F467"
-                or elemento[0][2] == "1F468"
-                or elemento[0][2] == "1F469"
-            )
+            and elemento[0][2] in ["1F466", "1F467", "1F468", "1F469"]
             and elemento[0][3] == "200D"
-            and (elemento[0][4] == "1F466" or elemento[0][4] == "1F467")
+            and elemento[0][4] in ["1F466", "1F467"]
         ):
             grupos += ["gr-familias"]
         # HOMBRE/MUJER ZWJ CORAZÓN ZWJ HOMBRE/MUJER
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
             and elemento[0][2] == "2764"
             and elemento[0][3] == "200D"
-            and (elemento[0][4] == "1F468" or elemento[0][4] == "1F469")
+            and elemento[0][4] in ["1F468", "1F469"]
         ):
             grupos += ["gr-parejas-corazon-1"]
         # ADULTO ZWJ APRETÓN-MANOS ZWJ ADULTO
@@ -212,20 +181,14 @@ def grupos_paginas(elemento):
         if (
             elemento[0][1] == "FE0F"
             and elemento[0][2] == "200D"
-            and (elemento[0][3] == "2640" or elemento[0][3] == "2642")
+            and elemento[0][3] in ["2640", "2642"]
             and elemento[0][4] == "FE0F"
         ):
             grupos += ["gr-genero-4"]
         # ADULTO FZ ZWJ XXX VS16
         if (
             elemento[0][0] == "1F9D1"
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][4] == "FE0F"
         ):
@@ -233,59 +196,35 @@ def grupos_paginas(elemento):
         # MANO-DERECHA FZ ZWJ MANO-IZQUIERDA FZ
         if (
             elemento[0][0] == "1FAF1"
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "1FAF2"
-            and (
-                elemento[0][4] == "1F3FB"
-                or elemento[0][4] == "1F3FC"
-                or elemento[0][4] == "1F3FD"
-                or elemento[0][4] == "1F3FE"
-                or elemento[0][4] == "1F3FF"
-            )
+            and elemento[0][4] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-colores-piel-8"]
         # M/W FZ ZWJ XXX XXX
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
         ):
             grupos += ["gr-colores-piel-3"]
         # XXX FZ ZWJ M/F XXX
         if (
-            (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
-            and (elemento[0][3] == "2640" or elemento[0][3] == "2642")
+            and elemento[0][3] in ["2640", "2642"]
         ):
             grupos += ["gr-colores-piel-4"]
     elif len(elemento[0]) == 6:
         # HOMBRE/MUJER ZWJ CORAZÓN VS16 ZWJ HOMBRE/MUJER
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
             and elemento[0][2] == "2764"
             and elemento[0][3] == "FE0F"
             and elemento[0][4] == "200D"
-            and (elemento[0][5] == "1F468" or elemento[0][5] == "1F469")
+            and elemento[0][5] in ["1F468", "1F469"]
         ):
             grupos += ["gr-parejas-corazon-1"]
     elif len(elemento[0]) == 7:
@@ -294,241 +233,139 @@ def grupos_paginas(elemento):
             grupos += ["gr-banderas-regiones"]
         # M/W ZWJ NIÑO/NIÑA ZWJ HOMBRE/MUJER ZWJ NIÑO/NIÑA
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
-            and (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            and elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][3] == "200D"
-            and (elemento[0][4] == "1F466" or elemento[0][4] == "1F467")
+            and elemento[0][4] in ["1F466", "1F467"]
             and elemento[0][5] == "200D"
-            and (elemento[0][6] == "1F466" or elemento[0][6] == "1F467")
+            and elemento[0][6] in ["1F466", "1F467"]
         ):
             grupos += ["gr-familias"]
         # ADULTO FZ ZWJ APRETÓN-MANOS ZWJ ADULTO FZ
         if (
             elemento[0][0] == "1F9D1"
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "1F91D"
             and elemento[0][4] == "200D"
             and elemento[0][5] == "1F9D1"
-            and (
-                elemento[0][6] == "1F3FB"
-                or elemento[0][6] == "1F3FC"
-                or elemento[0][6] == "1F3FD"
-                or elemento[0][6] == "1F3FE"
-                or elemento[0][6] == "1F3FF"
-            )
+            and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-mano-piel-1"]
         # HOMBRE/MUJER FZ ZWJ APRETÓN-MANOS ZWJ HOMBRE/MUJER FZ
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "1F91D"
             and elemento[0][4] == "200D"
-            and (elemento[0][5] == "1F468" or elemento[0][5] == "1F469")
-            and (
-                elemento[0][6] == "1F3FB"
-                or elemento[0][6] == "1F3FC"
-                or elemento[0][6] == "1F3FD"
-                or elemento[0][6] == "1F3FE"
-                or elemento[0][6] == "1F3FF"
-            )
+            and elemento[0][5] in ["1F468", "1F469"]
+            and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-mano-piel-2"]
         # ADULTO FZ ZWJ CORAZÓN ZWJ ZWJ ADULTO FZ
         if (
             elemento[0][0] == "1F9D1"
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "2764"
             and elemento[0][4] == "200D"
             and elemento[0][5] == "1F9D1"
-            and (
-                elemento[0][6] == "1F3FB"
-                or elemento[0][6] == "1F3FC"
-                or elemento[0][6] == "1F3FD"
-                or elemento[0][6] == "1F3FE"
-                or elemento[0][6] == "1F3FF"
-            )
+            and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-corazon-piel-1"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN ZWJ ZWJ HOMBRE/MUJER FZ
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "2764"
             and elemento[0][4] == "200D"
-            and (elemento[0][5] == "1F468" or elemento[0][5] == "1F469")
-            and (
-                elemento[0][6] == "1F3FB"
-                or elemento[0][6] == "1F3FC"
-                or elemento[0][6] == "1F3FD"
-                or elemento[0][6] == "1F3FE"
-                or elemento[0][6] == "1F3FF"
-            )
+            and elemento[0][5] in ["1F468", "1F469"]
+            and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-corazon-piel-2"]
         # HOMBRE/MUJER ZWJ CORAZÓN ZWJ BESO ZWJ HOMBRE/MUJER
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
             and elemento[0][2] == "2764"
             and elemento[0][3] == "200D"
             and elemento[0][4] == "1F48B"
             and elemento[0][5] == "200D"
-            and (elemento[0][6] == "1F468" or elemento[0][6] == "1F469")
+            and elemento[0][6] in ["1F468", "1F469"]
         ):
             grupos += ["gr-parejas-beso-1"]
     elif len(elemento[0]) == 8:
         # HOMBRE/MUJER ZWJ CORAZÓN VS16 ZWJ BESO ZWJ HOMBRE/MUJER
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
+            elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
             and elemento[0][2] == "2764"
             and elemento[0][3] == "FE0F"
             and elemento[0][4] == "200D"
             and elemento[0][5] == "1F48B"
             and elemento[0][6] == "200D"
-            and (elemento[0][7] == "1F468" or elemento[0][7] == "1F469")
+            and elemento[0][7] in ["1F468", "1F469"]
         ):
             grupos += ["gr-parejas-beso-1"]
         # ADULTO FZ ZWJ CORAZÓN VS16 ZWJ ZWJ ADULTO FZ
         if (
             elemento[0][0] == "1F9D1"
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "2764"
             and elemento[0][4] == "FE0F"
             and elemento[0][5] == "200D"
             and elemento[0][6] == "1F9D1"
-            and (
-                elemento[0][7] == "1F3FB"
-                or elemento[0][7] == "1F3FC"
-                or elemento[0][7] == "1F3FD"
-                or elemento[0][7] == "1F3FE"
-                or elemento[0][7] == "1F3FF"
-            )
+            and elemento[0][7] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-corazon-piel-1"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN VS16 ZWJ ZWJ HOMBRE/MUJER FZ
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "2764"
             and elemento[0][4] == "FE0F"
             and elemento[0][5] == "200D"
-            and (elemento[0][6] == "1F468" or elemento[0][6] == "1F469")
-            and (
-                elemento[0][7] == "1F3FB"
-                or elemento[0][7] == "1F3FC"
-                or elemento[0][7] == "1F3FD"
-                or elemento[0][7] == "1F3FE"
-                or elemento[0][7] == "1F3FF"
-            )
+            and elemento[0][6] in ["1F468", "1F469"]
+            and elemento[0][7] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-corazon-piel-2"]
     elif len(elemento[0]) == 9:
         # ADULTO FZ ZWJ CORAZÓN ZWJ BESO ZWJ ADULTO FZ
         if (
             elemento[0][0] == "1F9D1"
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "2764"
             and elemento[0][4] == "200D"
             and elemento[0][5] == "1F48B"
             and elemento[0][6] == "200D"
             and elemento[0][7] == "1F9D1"
-            and (
-                elemento[0][8] == "1F3FB"
-                or elemento[0][8] == "1F3FC"
-                or elemento[0][8] == "1F3FD"
-                or elemento[0][8] == "1F3FE"
-                or elemento[0][8] == "1F3FF"
-            )
+            and elemento[0][8] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-beso-piel-1"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN ZWJ BESO ZWJ HOMBRE/MUJER FZ
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "2764"
             and elemento[0][4] == "200D"
             and elemento[0][5] == "1F48B"
             and elemento[0][6] == "200D"
-            and (elemento[0][7] == "1F468" or elemento[0][7] == "1F469")
-            and (
-                elemento[0][8] == "1F3FB"
-                or elemento[0][8] == "1F3FC"
-                or elemento[0][8] == "1F3FD"
-                or elemento[0][8] == "1F3FE"
-                or elemento[0][8] == "1F3FF"
-            )
+            and elemento[0][7] in ["1F468", "1F469"]
+            and elemento[0][8] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-beso-piel-2"]
     elif len(elemento[0]) == 10:
         # ADULTO FZ ZWJ CORAZÓN VS16 ZWJ BESO ZWJ ADULTO FZ
         if (
             elemento[0][0] == "1F9D1"
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "2764"
             and elemento[0][4] == "FE0F"
@@ -536,39 +373,21 @@ def grupos_paginas(elemento):
             and elemento[0][6] == "1F48B"
             and elemento[0][7] == "200D"
             and elemento[0][8] == "1F9D1"
-            and (
-                elemento[0][9] == "1F3FB"
-                or elemento[0][9] == "1F3FC"
-                or elemento[0][9] == "1F3FD"
-                or elemento[0][9] == "1F3FE"
-                or elemento[0][9] == "1F3FF"
-            )
+            and elemento[0][9] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-beso-piel-1"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN VS16 ZWJ BESO ZWJ HOMBRE/MUJER FZ
         if (
-            (elemento[0][0] == "1F468" or elemento[0][0] == "1F469")
-            and (
-                elemento[0][1] == "1F3FB"
-                or elemento[0][1] == "1F3FC"
-                or elemento[0][1] == "1F3FD"
-                or elemento[0][1] == "1F3FE"
-                or elemento[0][1] == "1F3FF"
-            )
+            elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] == "2764"
             and elemento[0][4] == "FE0F"
             and elemento[0][5] == "200D"
             and elemento[0][6] == "1F48B"
             and elemento[0][7] == "200D"
-            and (elemento[0][8] == "1F468" or elemento[0][8] == "1F469")
-            and (
-                elemento[0][9] == "1F3FB"
-                or elemento[0][9] == "1F3FC"
-                or elemento[0][9] == "1F3FD"
-                or elemento[0][9] == "1F3FE"
-                or elemento[0][9] == "1F3FF"
-            )
+            and elemento[0][8] in ["1F468", "1F469"]
+            and elemento[0][9] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
             grupos += ["gr-parejas-beso-piel-2"]
     return grupos
