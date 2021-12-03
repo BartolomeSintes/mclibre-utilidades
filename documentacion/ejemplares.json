@@ -771,6 +771,17 @@
       "creado": "2021-11-05"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 221,
+      "año": 2021,
+      "mes": 12,
+      "portada": "custom-pc-221-en-202112.jpg",
+      "fichero": "custom-pc-221-en-202112.pdf",
+      "idioma": "inglés",
+      "creado": "2021-12-03"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -12871,6 +12882,17 @@
       "creado": "2021-11-12"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 179,
+      "año": 2021,
+      "mes": 12,
+      "portada": "pclinuxos-179-en-202112.jpg",
+      "fichero": "pclinuxos-179-en-202112.pdf",
+      "idioma": "inglés",
+      "creado": "2021-12-03"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -13760,6 +13782,17 @@
       "fichero": "wireframe-56-en-202111.pdf",
       "idioma": "inglés",
       "creado": "2021-11-05"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 57,
+      "año": 2021,
+      "mes": 12,
+      "portada": "wireframe-57-en-202112.jpg",
+      "fichero": "wireframe-57-en-202112.pdf",
+      "idioma": "inglés",
+      "creado": "2021-12-03"
     },
     {
       "serie": "Wireframe Books",
