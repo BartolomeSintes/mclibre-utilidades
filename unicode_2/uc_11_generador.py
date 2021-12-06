@@ -9,9 +9,26 @@ from u14_ficheros_2_importados import unicode_txt_derived_name as imp
 from u14_ficheros_3_fusionados import unicode_txt_fusionados_2 as imp2
 from u14_ficheros_3_fusionados import unicode_txt_manual_1 as imp3
 from u14_ficheros_3_fusionados import seleccion_simbolos_manual as imp4
+from u14_ficheros_3_fusionados import unicode_txt_manual_2 as imp5
 
 ORIGEN = pathlib.Path("sitio-plantilla")
 DESTINO = pathlib.Path("sitio")
+
+def busca(aguja, pajar, posicion):
+    encontrado = False
+    n = len(pajar)
+    i = 0
+    while not encontrado and i < n:
+        # print(pajar[i][posicion], aguja, end=" - ")
+        if pajar[i][posicion] == aguja:
+            encontrado = True
+        i += 1
+        # input()
+    if encontrado:
+        return i - 1
+    else:
+        return -1
+
 
 def genera_pagina(pagina):
     if pagina == ucdef.PAG_SIMBOLOS or pagina == ucdef.PAG_EMOJIS:
@@ -136,6 +153,13 @@ def genera_pagina_caracteres(pagina):
                         t += f"          Dec:&nbsp;<strong>&amp;{int(c[0], 16)};</strong>\n"
                         t += "        </p>\n"
                         t += f'        <p class="no">{c[1]}</p>\n'
+                        hay_coment = busca([c[0]], imp5.manual_2, 0)
+                        if hay_coment != -1:
+                            t += f'        <p class="co">\n'
+                            for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                                t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                            t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                            t += '        </p>\n'
                         t += "      </div>\n"
                         t += "\n"
                     elif c[2] == "texto-emoji":
@@ -149,6 +173,13 @@ def genera_pagina_caracteres(pagina):
                         t += f"          Dec:&nbsp;<strong>&amp;{int(c[0], 16)};&amp;#65039;</strong>\n"
                         t += "        </p>\n"
                         t += f'        <p class="no">{c[1]}</p>\n'
+                        hay_coment = busca([c[0]], imp5.manual_2, 0)
+                        if hay_coment != -1:
+                            t += f'        <p class="co">\n'
+                            for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                                t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                            t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                            t += '        </p>\n'
                         t += "      </div>\n"
                         t += "\n"
                 t += "    </div>\n"
@@ -194,7 +225,8 @@ def genera_pagina_secuencias(pagina, grupos):
                     t += f"&amp;#x{int(cn, 16):x};"
                 t += f"</strong><br>\n"
                 t += f"          Dec:&nbsp;<strong>"
-                t += f"&amp;{cn};"
+                for cn in c[0]:
+                    t += f"&amp;#{int(cn, 16)};"
                 t += f"</strong>\n"
                 t += "        </p>\n"
                 c_nombre = ""
@@ -203,6 +235,13 @@ def genera_pagina_secuencias(pagina, grupos):
                     if i[0] == c[0]:
                         c_nombre = i[2][3]
                 t += f'        <p class="no">{c_nombre}</p>\n'
+                hay_coment = busca(c[0], imp5.manual_2, 0)
+                if hay_coment != -1:
+                    t += f'        <p class="co">\n'
+                    for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                        t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                    t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                    t += '        </p>\n'
                 t += "      </div>\n"
                 t += "\n"
         t += "    </div>\n"
@@ -280,7 +319,7 @@ def main():
 
     # Para generar la lista de símbolos completa, a la que luego
     # quito los símbolos que no quiero que se vean
-    print(f"  Creando {fichero_destino}")
+    print(f"  Creando {ucdef.FICHERO_SELECCION_SIMBOLOS}")
     genera_lista_simbolos()
 
 

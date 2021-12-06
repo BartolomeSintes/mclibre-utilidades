@@ -40,7 +40,7 @@ def grupos_paginas(elemento):
             elemento[0][0] in ["1F46B", "1F46C", "1F46D"]
             and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-mano-piel-2"]
+            grupos += ["gr-parejas-mano-piel-1"]
         # XXX KEYCAP
         if elemento[0][1] == "20E3":
             grupos += ["gr-keycap"]
@@ -57,10 +57,10 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][2] in ["1F466", "1F467"]
         ):
-            grupos += ["gr-familias"]
+            grupos += ["gr-familias-1"]
         # ADULTO ZWJ XXX
         if elemento[0][0] == "1F9D1" and elemento[0][1] == "200D":
-            grupos += ["gr-genero-5"]
+            grupos += ["gr-genero-3"]
         # M/W ZWJ XXX
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -74,7 +74,7 @@ def grupos_paginas(elemento):
             elemento[0][1] == "200D"
             and elemento[0][2] in ["2640", "2642"]
         ):
-            grupos += ["gr-genero-1"]
+            grupos += ["gr-genero-2"]
         # XXX KFE0F EYCAP
         if elemento[0][1] == "FE0F" and elemento[0][2] == "20E3":
             grupos += ["gr-keycap"]
@@ -85,7 +85,7 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-6"]
+            grupos += ["gr-genero-7"]
         # BANDERAS VARIAS
         if (
             elemento[0][0] == "1F3F3"
@@ -105,28 +105,28 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-2"]
+            grupos += ["gr-genero-4"]
         # ZWJ M/F XXX VS16
         if (
             elemento[0][1] == "200D"
             and elemento[0][2] in ["2640", "2642"]
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-3"]
+            grupos += ["gr-genero-5"]
         # XXX VS16 ZWJ M/F
         if (
             elemento[0][1] == "FE0F"
             and elemento[0][2] == "200D"
             and elemento[0][3] in ["2640", "2642"]
         ):
-            grupos += ["gr-genero-7"]
+            grupos += ["gr-genero-6"]
         # ADULTO FZ ZWJ XXX
         if (
             elemento[0][0] == "1F9D1"
             and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
         ):
-            grupos += ["gr-colores-piel-6"]
+            grupos += ["gr-colores-piel-4"]
         # M/W FZ ZWJ XXX
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -140,7 +140,7 @@ def grupos_paginas(elemento):
             and elemento[0][2] == "200D"
             and elemento[0][3] in ["2640", "2642"]
         ):
-            grupos += ["gr-colores-piel-5"]
+            grupos += ["gr-colores-piel-3"]
     elif len(elemento[0]) == 5:
         # BANDERAS VARIAS
         if (
@@ -158,7 +158,7 @@ def grupos_paginas(elemento):
             and elemento[0][3] == "200D"
             and elemento[0][4] in ["1F466", "1F467"]
         ):
-            grupos += ["gr-familias"]
+            grupos += ["gr-familias-2"]
         # HOMBRE/MUJER ZWJ CORAZÓN ZWJ HOMBRE/MUJER
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -176,7 +176,7 @@ def grupos_paginas(elemento):
             and elemento[0][3] == "200D"
             and elemento[0][4] == "1F9D1"
         ):
-            grupos += ["gr-parejas-mano-piel-1"]
+            grupos += ["gr-parejas-mano-piel-3"]
         # XXX VS15 ZWJ M/F VS16
         if (
             elemento[0][1] == "FE0F"
@@ -184,7 +184,7 @@ def grupos_paginas(elemento):
             and elemento[0][3] in ["2640", "2642"]
             and elemento[0][4] == "FE0F"
         ):
-            grupos += ["gr-genero-4"]
+            grupos += ["gr-genero-8"]
         # ADULTO FZ ZWJ XXX VS16
         if (
             elemento[0][0] == "1F9D1"
@@ -208,14 +208,14 @@ def grupos_paginas(elemento):
             and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
         ):
-            grupos += ["gr-colores-piel-3"]
+            grupos += ["gr-colores-piel-5"]
         # XXX FZ ZWJ M/F XXX
         if (
             elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
             and elemento[0][2] == "200D"
             and elemento[0][3] in ["2640", "2642"]
         ):
-            grupos += ["gr-colores-piel-4"]
+            grupos += ["gr-colores-piel-6"]
     elif len(elemento[0]) == 6:
         # HOMBRE/MUJER ZWJ CORAZÓN VS16 ZWJ HOMBRE/MUJER
         if (
@@ -241,7 +241,7 @@ def grupos_paginas(elemento):
             and elemento[0][5] == "200D"
             and elemento[0][6] in ["1F466", "1F467"]
         ):
-            grupos += ["gr-familias"]
+            grupos += ["gr-familias-3"]
         # ADULTO FZ ZWJ APRETÓN-MANOS ZWJ ADULTO FZ
         if (
             elemento[0][0] == "1F9D1"
@@ -252,7 +252,7 @@ def grupos_paginas(elemento):
             and elemento[0][5] == "1F9D1"
             and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-mano-piel-1"]
+            grupos += ["gr-parejas-mano-piel-3"]
         # HOMBRE/MUJER FZ ZWJ APRETÓN-MANOS ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -274,7 +274,7 @@ def grupos_paginas(elemento):
             and elemento[0][5] == "1F9D1"
             and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-corazon-piel-1"]
+            grupos += ["gr-parejas-corazon-piel-3"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN ZWJ ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -285,7 +285,7 @@ def grupos_paginas(elemento):
             and elemento[0][5] in ["1F468", "1F469"]
             and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-corazon-piel-2"]
+            grupos += ["gr-parejas-corazon-piel-1"]
         # HOMBRE/MUJER ZWJ CORAZÓN ZWJ BESO ZWJ HOMBRE/MUJER
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -321,7 +321,7 @@ def grupos_paginas(elemento):
             and elemento[0][6] == "1F9D1"
             and elemento[0][7] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-corazon-piel-1"]
+            grupos += ["gr-parejas-corazon-piel-4"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN VS16 ZWJ ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -347,7 +347,7 @@ def grupos_paginas(elemento):
             and elemento[0][7] == "1F9D1"
             and elemento[0][8] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-beso-piel-1"]
+            grupos += ["gr-parejas-beso-piel-3"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN ZWJ BESO ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -360,7 +360,7 @@ def grupos_paginas(elemento):
             and elemento[0][7] in ["1F468", "1F469"]
             and elemento[0][8] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-beso-piel-2"]
+            grupos += ["gr-parejas-beso-piel-1"]
     elif len(elemento[0]) == 10:
         # ADULTO FZ ZWJ CORAZÓN VS16 ZWJ BESO ZWJ ADULTO FZ
         if (
@@ -375,7 +375,7 @@ def grupos_paginas(elemento):
             and elemento[0][8] == "1F9D1"
             and elemento[0][9] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-beso-piel-1"]
+            grupos += ["gr-parejas-beso-piel-4"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN VS16 ZWJ BESO ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
