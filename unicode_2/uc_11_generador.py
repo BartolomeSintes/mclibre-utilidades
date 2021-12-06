@@ -41,6 +41,8 @@ def genera_pagina(pagina):
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_fitzpatrick)
     elif pagina == ucdef.PAG_PAREJAS:
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_parejas)
+    elif pagina == ucdef.PAG_OTRAS:
+        return genera_pagina_secuencias(pagina, ucdef.uc_grupos_otras)
 
 
 def genera_lista_simbolos():
@@ -298,6 +300,7 @@ def main():
         [ucdef.PAG_GENEROS, ucdef.FICHERO_SITIO_GENEROS],
         [ucdef.PAG_FITZPATRICK, ucdef.FICHERO_SITIO_FITZPATRICK],
         [ucdef.PAG_PAREJAS, ucdef.FICHERO_SITIO_PAREJAS],
+        [ucdef.PAG_OTRAS, ucdef.FICHERO_SITIO_OTRAS],
         # [ucdef.PAG_PROBLEMAS, ucdef.FICHERO_SITIO_PROBLEMAS],
     ]
 

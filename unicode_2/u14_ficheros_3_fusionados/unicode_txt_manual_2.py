@@ -2317,4 +2317,56 @@ manual_2 = [
     ['1FAF1', '1F3FF', '200D', '1FAF2', '1F3FF'],
     ['No disponible en Windows 10']
   ],
+  [
+    ['1F408', '200D', '2B1B'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F43B', '200D', '2744'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F43B', '200D', '2744', 'FE0F'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F441', '200D', '1F5E8'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F441', '200D', '1F5E8', 'FE0F'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F62E', '200D', '1F4A8'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F635', '200D', '1F4AB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F636', '200D', '1F32B'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F636', '200D', '1F32B', 'FE0F'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['2764', '200D', '1F525'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['2764', '200D', '1FA79'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['2764', 'FE0F', '200D', '1F525'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['2764', 'FE0F', '200D', '1FA79'],
+    ['No disponible en Windows 10']
+  ],
 ]

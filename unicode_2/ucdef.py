@@ -35,6 +35,7 @@ PAG_BANDERAS = "banderas"
 PAG_GENEROS = "generos"
 PAG_FITZPATRICK = "fitzpatrick"
 PAG_PAREJAS = "parejas"
+PAG_OTRAS = "otras"
 PAG_PROBLEMAS = "problemas"
 SELECCION_SIMBOLOS = "seleccion-simbolos"
 
@@ -44,6 +45,7 @@ FICHERO_SITIO_BANDERAS = "html-unicode-secuencias-banderas.html"
 FICHERO_SITIO_GENEROS = "html-unicode-secuencias-generos.html"
 FICHERO_SITIO_FITZPATRICK = "html-unicode-secuencias-colores.html"
 FICHERO_SITIO_PAREJAS = "html-unicode-secuencias-parejas.html"
+FICHERO_SITIO_OTRAS = "html-unicode-otras.html"
 FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
 FICHERO_SELECCION_SIMBOLOS = "seleccion_simbolos.py"
 
@@ -204,13 +206,17 @@ uc_grupos_parejas = [
 ]
 
 uc_grupos_otras = [
-    ["gr-componentes",
+    # ["gr-componentes", "Componentes",
+    #  "",
+    # ],
+    # ["gr-texto-emoji", "Texto-emoji",
+    #  "",
+    # ],
+    ["gr-keycap", "Caracteres enmarcados",
+     "",
     ],
-    ["gr-texto-emoji",
-    ],
-    ["gr-keycap",
-    ],
-    ["gr-restos",
+    ["gr-restos", "Otras secuencias",
+     "",
     ]
 ]
 
