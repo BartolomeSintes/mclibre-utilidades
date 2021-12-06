@@ -36,6 +36,7 @@ PAG_GENEROS = "generos"
 PAG_FITZPATRICK = "fitzpatrick"
 PAG_PAREJAS = "parejas"
 PAG_PROBLEMAS = "problemas"
+SELECCION_SIMBOLOS = "seleccion-simbolos"
 
 FICHERO_SITIO_SIMBOLOS = "html-unicode-simbolos.html"
 FICHERO_SITIO_EMOJIS = "html-unicode-dibujos.html"
@@ -44,6 +45,7 @@ FICHERO_SITIO_GENEROS = "html-unicode-secuencias-generos.html"
 FICHERO_SITIO_FITZPATRICK = "html-unicode-secuencias-colores.html"
 FICHERO_SITIO_PAREJAS = "html-unicode-secuencias-parejas.html"
 FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
+FICHERO_SELECCION_SIMBOLOS = "seleccion_simbolos.py"
 
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]
@@ -185,13 +187,13 @@ uc_grupos_2b = [
 ]
 
 uc_tablas_caracteres = [
-    [
-        "Controles y Latin básico",
-        "gr-controles-latin",
-        "U00000-c0-controls-and-basic-latin.pdf",
-        "0000",
-        "007F",
-    ],
+    # [
+    #     "Controles y Latin básico",
+    #     "gr-controles-latin",
+    #     "U00000-c0-controls-and-basic-latin.pdf",
+    #     "0000",
+    #     "007F",
+    # ],
     [
         "Suplemento controles y Latin-1",
         "gr-controles-sup",
@@ -332,13 +334,13 @@ uc_tablas_caracteres = [
         "1F100",
         "1F1FF",
     ],
-    [
-        "Suplemento ideográfico con círculo alrededor",
-        "gr-ideografico-circulo-sup",
-        "U1F200-enclosed-ideographic-supplement.pdf",
-        "1F200",
-        "1F2FF",
-    ],
+    # [
+    #     "Suplemento ideográfico con círculo alrededor",
+    #     "gr-ideografico-circulo-sup",
+    #     "U1F200-enclosed-ideographic-supplement.pdf",
+    #     "1F200",
+    #     "1F2FF",
+    # ],
     [
         "Dingbats decorativos",
         "gr-dingbats-decorativos",

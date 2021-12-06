@@ -17,16 +17,13 @@ emoji_zwj_sequences = []
 emoji_sequences = []
 derived_name = []
 
+
 def importa_fichero_emoji_test():
     print()
     print(f"  TRATANDO {ucdef.FICHERO_EMOJI_TEST}")
     print(f"    importando ...")
     importado = []
-    with open(
-        ucdef.FICHERO_EMOJI_TEST,
-        mode="r",
-        encoding="utf-8",
-    ) as f:
+    with open(ucdef.FICHERO_EMOJI_TEST, mode="r", encoding="utf-8") as f:
         grupo = ""
         subgrupo = ""
         for line in f:
@@ -515,7 +512,9 @@ def importa_fichero_derived_name():
     for i in range(len(importado)):
         grupo_encontrado = ""
         for grupo in ucdef.uc_tablas_caracteres[0]:
-            if int(importado[i][0], 16) >= int(grupo[3], 16) and int(importado[i][0], 16) <= int(grupo[4], 16):
+            if int(importado[i][0], 16) >= int(grupo[3], 16) and int(
+                importado[i][0], 16
+            ) <= int(grupo[4], 16):
                 grupo_encontrado = grupo[1]
         importado[i] += [grupo_encontrado]
 
@@ -571,9 +570,12 @@ def completa_fichero_derived_name():
             c_texto_emoji += 1
         elif i[2] == "emoji-texto":
             c_emoji_texto += 1
-    print(f"    Emoji: {c_emoji} - Texto: {c_texto} - Texto-emoji: {c_texto_emoji} - Emoji-texto: {c_emoji_texto}")
-    print(f"    Total: {c_emoji_texto + c_texto_emoji + c_emoji + c_texto} de {len(derived_name)}")
-
+    print(
+        f"    Emoji: {c_emoji} - Texto: {c_texto} - Texto-emoji: {c_texto_emoji} - Emoji-texto: {c_emoji_texto}"
+    )
+    print(
+        f"    Total: {c_emoji_texto + c_texto_emoji + c_emoji + c_texto} de {len(derived_name)}"
+    )
 
 
 def exporta_listas():
