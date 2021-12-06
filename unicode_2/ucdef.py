@@ -202,7 +202,8 @@ uc_grupos_parejas = [
     '',
     ],
 ]
-uc_grupos_2b = [
+
+uc_grupos_otras = [
     ["gr-componentes",
     ],
     ["gr-texto-emoji",

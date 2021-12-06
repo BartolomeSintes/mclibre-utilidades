@@ -102,6 +102,13 @@ def genera_pagina_caracteres(pagina):
                         t += f"          Dec:&nbsp;<strong>&amp;{c[0]};</strong>\n"
                         t += "        </p>\n"
                         t += f'        <p class="no">{c[1]}</p>\n'
+                        hay_coment = busca([c[0]], imp5.manual_2, 0)
+                        if hay_coment != -1:
+                            t += f'        <p class="co">\n'
+                            for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                                t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                            t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                            t += '        </p>\n'
                         t += "      </div>\n"
                         t += "\n"
                     elif c[2] == "emoji-texto":
@@ -115,6 +122,13 @@ def genera_pagina_caracteres(pagina):
                         t += f"          Dec:&nbsp;<strong>&amp;{c[0]};&amp;#65038;</strong>\n"
                         t += "        </p>\n"
                         t += f'        <p class="no">{c[1]}</p>\n'
+                        hay_coment = busca([c[0]], imp5.manual_2, 0)
+                        if hay_coment != -1:
+                            t += f'        <p class="co">\n'
+                            for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                                t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                            t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                            t += '        </p>\n'
                         t += "      </div>\n"
                         t += "\n"
                 t += "    </div>\n"

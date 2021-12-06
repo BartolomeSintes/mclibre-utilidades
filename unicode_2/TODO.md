@@ -64,4 +64,5 @@ Es cosa de Windows porque salen en Chrome.
 - Tengo que decidir si en los caracteres que no se ven en Windows (o en Android), pero sí que se ven en twemoji, les añado el twemoji para que se vea cómo es el dibujo.
 - Tengo que añadir en los programas que fusionan/importan contadores que digan si quedan cosas pendientes de pasar.
 - Ya no tengo claro si en Unicode están permitido los tonos de piel para emojis en modo texto. Windows hace muchos, pero yo diría que no.
+- tmp_seleccion.py tendría que comprobar que encuentra los códigos
 
