@@ -58,11 +58,10 @@ Es cosa de Windows porque salen en Chrome.
 - Tengo que completar uc_92 para que diga si el elemento está en twemoji (tendría que hacer un programa intermedio para generar una lista twemoji y luego fusionarla)
 - Tengo que hacer un manual_2 con la información que añada yo: si se ve o no en Windows 10, en Windows 11, en Android, en iOS. Y luego están los que se ven en Firefox porque los saca de twemoji.
 - Tengo que decidir cómo ordeno los caracteres dentro de las secuencias. En principio por orden alfabético, pero en el caso de hombres y mujeres sería mejor que fueran seguidos (si el caracter hombre mujer va al principio, salen mal ordenados). Sería otra opción a añadir a la definición del grupo y hacer una función que ordenara de una forma u otra dependiendo de lo que se pusiera en el grupo (una lista con los números de carácter por los que ordena (el primero, el segundo, etc). No sé si eso sería suficiente para ordenar el grupo de Otras banderas.
-- Tengo que añadir una página de restos.
 - Tengo que decidir si hago una página con las que se ven en Windows, pero que no están definidas en Unicode. Creo que no, aunque podría mencionarlas.
 - Tengo que añadir una página con todos los twemoji.
 - Tengo que decidir si en los caracteres que no se ven en Windows (o en Android), pero sí que se ven en twemoji, les añado el twemoji para que se vea cómo es el dibujo.
 - Tengo que añadir en los programas que fusionan/importan contadores que digan si quedan cosas pendientes de pasar.
 - Ya no tengo claro si en Unicode están permitido los tonos de piel para emojis en modo texto. Windows hace muchos, pero yo diría que no.
-- tmp_seleccion.py tendría que comprobar que encuentra los códigos
-
+- tmp_seleccion.py tendría que comprobar que encuentra los códigos.
+- el grupo gr-componentes no lo saco en ninguna página. Algunos componentes están incluidos en otros apartados, pero bastantes no. Lo tendría que poner en otras, pero no son secuencias, así que tendré que escribir una función para la página html-unicode-otras.html.

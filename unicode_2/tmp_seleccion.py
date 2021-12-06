@@ -1,5 +1,3 @@
-    # ['1F6D6'],
-    # ['No disponible en Windows 10', 'Firefox muestra Twemoji']
 manual_2 = [
   [
     ['20C0'],
