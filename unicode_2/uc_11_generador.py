@@ -252,7 +252,6 @@ def ordena(cs1, tipo):
         return cs
         for c in cs:
             print(c)
-
     return cs1
 
 def genera_pagina_secuencias(pagina, grupos):
@@ -265,7 +264,6 @@ def genera_pagina_secuencias(pagina, grupos):
                     caracteres += [c]
         caracteres.sort()
         if grupo[3] != ucdef.ORDENA_ESPECIAL_NO:
-            print("ordenando ...")
             caracteres = ordena(caracteres, grupo[3])
         contador = len(caracteres)
         if contador > 0:

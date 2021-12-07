@@ -5993,51 +5993,51 @@ manual_1 = [
   ],
   [
     ['0023', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['002A', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0030', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0031', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0032', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0033', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0034', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0035', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0036', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0037', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0038', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['0039', 'FE0F', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-2'],
   ],
   [
     ['1F51F'],
@@ -18681,51 +18681,51 @@ manual_1 = [
   ],
   [
     ['0023', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['002A', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0030', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0031', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0032', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0033', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0034', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0035', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0036', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0037', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0038', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['0039', '20E3'],
-    ['gr-keycap'],
+    ['gr-keycap-1'],
   ],
   [
     ['1F170', 'FE0F'],

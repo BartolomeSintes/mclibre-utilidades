@@ -43,7 +43,7 @@ def grupos_paginas(elemento):
             grupos += ["gr-parejas-mano-piel-1"]
         # XXX KEYCAP
         if elemento[0][1] == "20E3":
-            grupos += ["gr-keycap"]
+            grupos += ["gr-keycap-1"]
     elif len(elemento[0]) == 3:
         # BANDERAS VARIAS
         if (
@@ -77,7 +77,7 @@ def grupos_paginas(elemento):
             grupos += ["gr-genero-2"]
         # XXX KFE0F EYCAP
         if elemento[0][1] == "FE0F" and elemento[0][2] == "20E3":
-            grupos += ["gr-keycap"]
+            grupos += ["gr-keycap-2"]
     elif len(elemento[0]) == 4:
         # ADULTO ZWJ XXX
         if (
