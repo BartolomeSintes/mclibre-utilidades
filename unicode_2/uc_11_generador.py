@@ -203,6 +203,57 @@ def genera_pagina_caracteres(pagina):
         t += "\n"
     return t
 
+def ordena(cs1, tipo):
+    if tipo == ucdef.ORDENA_ESPECIAL_1:
+        cs2 = []
+        for i in range(len(cs1) - 1, -1, -1):
+            if cs1[i][0][0] == "1F469":
+                cs2 += [cs1[i]]
+                del cs1[i]
+        cs1.sort()
+        cs2.sort()
+        cs = []
+        for i in range(len(cs1)):
+            cs += [cs1[i]]
+            cs += [cs2[i]]
+        return cs
+        for c in cs:
+            print(c)
+    elif tipo == ucdef.ORDENA_ESPECIAL_2:
+        cs2 = []
+        cs3 = []
+        cs4 = []
+        cs5 = []
+        for i in range(len(cs1) - 1, -1, -1):
+            if cs1[i][0][1] == "1F3FC":
+                cs2 += [cs1[i]]
+                del cs1[i]
+            elif cs1[i][0][1] == "1F3FD":
+                cs3 += [cs1[i]]
+                del cs1[i]
+            elif cs1[i][0][1] == "1F3FE":
+                cs4 += [cs1[i]]
+                del cs1[i]
+            elif cs1[i][0][1] == "1F3FF":
+                cs5 += [cs1[i]]
+                del cs1[i]
+        cs1.sort()
+        cs2.sort()
+        cs3.sort()
+        cs4.sort()
+        cs5.sort()
+        cs = []
+        for i in range(len(cs1)):
+            cs += [cs1[i]]
+            cs += [cs2[i]]
+            cs += [cs3[i]]
+            cs += [cs4[i]]
+            cs += [cs5[i]]
+        return cs
+        for c in cs:
+            print(c)
+
+    return cs1
 
 def genera_pagina_secuencias(pagina, grupos):
     t = ""
@@ -213,6 +264,9 @@ def genera_pagina_secuencias(pagina, grupos):
                 if cgrupo == grupo[0]:
                     caracteres += [c]
         caracteres.sort()
+        if grupo[3] != ucdef.ORDENA_ESPECIAL_NO:
+            print("ordenando ...")
+            caracteres = ordena(caracteres, grupo[3])
         contador = len(caracteres)
         if contador > 0:
             info_grupo = []

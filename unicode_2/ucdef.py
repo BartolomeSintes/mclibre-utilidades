@@ -49,6 +49,10 @@ FICHERO_SITIO_OTRAS = "html-unicode-otras.html"
 FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
 FICHERO_SELECCION_SIMBOLOS = "seleccion_simbolos.py"
 
+ORDENA_ESPECIAL_NO = 0
+ORDENA_ESPECIAL_1 = 1
+ORDENA_ESPECIAL_2 = 2
+
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]
 uc_status = ["component", "fully-qualified", "minimally-qualified", "unqualified"]
@@ -88,120 +92,120 @@ uc_grupos_2 = [
 uc_grupos_banderas = [
     [ "gr-banderas-regiones",
       "Banderas (subdivisiones regionales)",
-      '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas regionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas-subdivisiones">apartado Banderas (subdivisiones regionales) de la lección Secuencias Unicode</a>.</p>\n',
+      '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas regionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas-subdivisiones">apartado Banderas (subdivisiones regionales) de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     [ "gr-banderas-otras",
       "Otras banderas",
-      '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas que no pertenecen a ninguna de las otras categorías. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#otras">apartado Otras de la lección Secuencias Unicode</a>.</p>\n',
+      '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas que no pertenecen a ninguna de las otras categorías. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#otras">apartado Otras de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     [ "gr-banderas-paises",
       "Banderas",
-      '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas nacionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas">apartado Banderas de la lección Secuencias Unicode</a>.</p>\n',
+      '    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas nacionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#banderas">apartado Banderas de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
 ]
 
 uc_grupos_generos = [
     ["gr-genero-1", "Género (1)",
-    '',
+    '', ORDENA_ESPECIAL_1
     ],
     ["gr-genero-2", "Género (2)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-genero-3", "Género (3)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-genero-4", "Género (4)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-genero-5", "Género (5)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-genero-6", "Género (6)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-genero-7", "Género (7)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-genero-8", "Género (8)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
 ]
 
 uc_grupos_fitzpatrick = [
     ["gr-colores-piel-1", "Colores de piel (1)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-colores-piel-2", "Colores de piel (2)",
-    '',
+    '', ORDENA_ESPECIAL_2
     ],
     ["gr-colores-piel-3", "Colores de piel (3)",
-    '',
+    '', ORDENA_ESPECIAL_2
     ],
     ["gr-colores-piel-4", "Colores de piel (4)",
-    '',
+    '', ORDENA_ESPECIAL_2
     ],
     ["gr-colores-piel-5", "Colores de piel (5)",
-    '',
+    '', ORDENA_ESPECIAL_2
     ],
     ["gr-colores-piel-6", "Colores de piel (6)",
-    '',
+    '', ORDENA_ESPECIAL_2
     ],
     ["gr-colores-piel-7", "Colores de piel (7)",
-    '',
+    '', ORDENA_ESPECIAL_2
     ],
     ["gr-colores-piel-8", "Colores de piel (8)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
 ]
 
 uc_grupos_parejas = [
     ["gr-familias-1", "Familias de 2 miembros",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-familias-2", "Familias de 3 miembros",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-familias-3", "Familias de 4 miembros",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-mano-piel-1", "Parejas masculinas/femeninas de la mano, con el mismo tono de piel",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-mano-piel-2", "Parejas masculinas/femeninas de la mano, con dos tonos de piel",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-mano-piel-3", "Parejas neutras de la mano, con dos tonos de piel",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-corazon-1", "Rostros masculinos/femeninos de enamorados",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-corazon-piel-1", "Rostros masculinos/femeninos de enamorados, con dos tonos de piel (1)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-corazon-piel-2", "Rostros masculinos/femeninos de enamorados, con dos tonos de piel (2)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-corazon-piel-3", "Rostros neutros de enamorados, con dos tonos de piel (1)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-corazon-piel-4", "Rostros neutros de enamorados, con dos tonos de piel (2)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-beso-1", "Rostros masculinos/femeninos de enamorados besándose",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-beso-piel-1", "Rostros masculinos/femeninos de enamorados besándose, con dos tonos de piel (1)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-beso-piel-2", "Rostros masculinos/femeninos de enamorados besándose, con dos tonos de piel (2)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-beso-piel-3", "Rostros neutros de enamorados besándose, con dos tonos de piel (1)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-beso-piel-4", "Rostros neutros de enamorados besándose, con tonos de piel (2)",
-    '',
+    '', ORDENA_ESPECIAL_NO
     ],
 ]
 
@@ -213,10 +217,10 @@ uc_grupos_otras = [
     #  "",
     # ],
     ["gr-keycap", "Caracteres enmarcados",
-     "",
+     "", ORDENA_ESPECIAL_NO
     ],
     ["gr-restos", "Otras secuencias",
-     "",
+     "", ORDENA_ESPECIAL_NO
     ]
 ]
 
