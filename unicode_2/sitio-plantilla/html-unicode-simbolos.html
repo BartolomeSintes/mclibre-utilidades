@@ -7,16 +7,6 @@
   <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
   <link rel="icon" href="../varios/favicon.svg">
   <style>
-    @font-face {
-      font-family: "Symbola";
-      src: url("unicode/Symbola.ttf");
-    }
-
-    @font-face {
-      font-family: "Twemoji";
-      src: url("unicode/TwemojiMozilla.ttf");
-    }
-
     div.u-l {
       display: flex;
       flex-flow: row wrap;
@@ -71,17 +61,6 @@
       border-right: 2px solid black;
     }
 
-    div.u span.sy,
-    div.u2 span.sy {
-      font-family: "Symbola";
-    }
-
-    div.u span.te,
-    div.u2 span.te {
-      font-family: "Twemoji";
-      font-size: 90px;
-    }
-
     div.u .twe,
     div.u2 .twe {
       height: 90px;
@@ -105,7 +84,6 @@
       text-decoration: none;
       color: black;
     }
-
   </style>
 </head>
 
@@ -172,7 +150,8 @@
     <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
     <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
     <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
-    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
+    <li><a href="html-unicode-secuencias-otras.html">Otras</a>, que muestra las secuencias Unicode no incluidas en las páginas anteriores</li>
+    <li><a href="html-unicode-twemoji.html">Twemoji</a>, que muestra los dibujos de <i>emojis</i> creados por el proyecto <a href="https://twemoji.twitter.com/">Twemoji</a> con licencia libre <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
   </ul>
 
   <section id="info">
@@ -185,6 +164,7 @@
       <li>el carácter en la fuente <span class="css-valor">sans-serif</span>. La fuente aplicada depende del sistema operativo, del navegador e incluso del carácter (si no existe el carácter en la fuente, el navegador muestra el código Unicode en un cuadrado de borde negro).</li>
       <li>la entidad numérica de ese carácter (en formato hexadecimal y decimal)</li>
       <li>el nombre del carácter (en inglés)</li>
+      <li>en su caso, información adicional sobre el carácter o la secuencia</li>
     </ul>
   </section>
 

@@ -8,16 +8,6 @@
   <link rel="icon" href="../varios/favicon.svg">
   <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
   <style>
-    @font-face {
-      font-family: "Symbola";
-      src: url("unicode/Symbola.ttf");
-    }
-
-    @font-face {
-      font-family: "Twemoji";
-      src: url("unicode/TwemojiMozilla.ttf");
-    }
-
     div.u-l {
       display: flex;
       flex-flow: row wrap;
@@ -72,17 +62,6 @@
       border-right: 2px solid black;
     }
 
-    div.u span.sy,
-    div.u2 span.sy {
-      font-family: "Symbola";
-    }
-
-    div.u span.te,
-    div.u2 span.te {
-      font-family: "Twemoji";
-      font-size: 90px;
-    }
-
     div.u .twe,
     div.u2 .twe {
       height: 90px;
@@ -106,7 +85,6 @@
       text-decoration: none;
       color: black;
     }
-
   </style>
 </head>
 
@@ -145,24 +123,21 @@
     <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
     <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
     <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
-    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
+    <li><a href="html-unicode-secuencias-otras.html">Otras</a>, que muestra las secuencias Unicode no incluidas en las páginas anteriores</li>
+    <li><a href="html-unicode-twemoji.html">Twemoji</a>, que muestra los dibujos de <i>emojis</i> creados por el proyecto <a href="https://twemoji.twitter.com/">Twemoji</a> con licencia libre <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
   </ul>
 
   <section id="info">
     <h2>Información contenida en las fichas</h2>
 
-    <p>Las fichas siguientes muestran los dibujos (emoticonos, emojis y otros) de Unicode. Para cada carácter se muestra:</p>
+    <p>Las fichas siguientes muestran los dibujos creados por el proyecto <a href="https://twemoji.twitter.com/">Twemoji</a> con licencia libre <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>. Para cada carácter se muestra:</p>
 
     <ul>
-      <li>el código Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal). En los casos de los emojis con representación predeterminada en modo texto, se necesita añadir el <a href="html-unicode-secuencias.html#selectores-variacion">selector de variación 16</a> (carácter U+FE0F).</li>
-      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra un rectángulo de borde negro con el código Unicode en caracteres muy pequeños):
-        <ul>
-          <li>la fuente <span class="css-valor">sans-serif</span> (la fuente aplicada depende del sistema operativo, del navegador e incluso del carácter)</li>
-          <li>la fuente <a href="https://github.com/mozilla/twemoji-colr">twemoji-colr</a> (esta fuente es la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a> en formato COLR/CPAL). Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
-        </ul>
-      </li>
-      <li>la entidad numérica de ese carácter (en formato hexadecimal y decimal)</li>
-      <li>el nombre del carácter (en inglés)</li>
+      <li>el código Unicode hexadecimal o la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal) que utiliza Twemoji para identificar el dibujo (a veces no coincide con el código o la secuencia unicode correcta).</li>
+      <li>la imagen de Twemoji del carácter o secuencia. Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
+      <li>la entidad numérica de ese carácter o las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
+      <li>el nombre del carácter o de la secuencia (en inglés)</li>
+      <li>en su caso, información adicional sobre el carácter o la secuencia</li>
     </ul>
   </section>
 
@@ -198,6 +173,7 @@
 
     </div>
   </section>
+
   <section id="gr-puntuacion">
     <h2>Puntuación</h2>
 
@@ -230,6 +206,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-letras">
     <h2>Símbolos con letras</h2>
 
@@ -262,6 +239,7 @@
 
     </div>
   </section>
+
   <section id="gr-flechas">
     <h2>Flechas</h2>
 
@@ -366,6 +344,7 @@
 
     </div>
   </section>
+
   <section id="gr-tecnicos-misc">
     <h2>Símbolos técnicos misceláneos</h2>
 
@@ -590,6 +569,7 @@
 
     </div>
   </section>
+
   <section id="gr-alfanum-circulo">
     <h2>Símbolos alfanuméricos con círculo alrededor</h2>
 
@@ -610,6 +590,7 @@
 
     </div>
   </section>
+
   <section id="gr-formas-geometricas">
     <h2>Formas geométricas</h2>
 
@@ -714,6 +695,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-misc">
     <h2>Símbolos misceláneos</h2>
 
@@ -1718,6 +1700,7 @@
 
     </div>
   </section>
+
   <section id="gr-dingbats">
     <h2>Dingbats</h2>
 
@@ -2122,6 +2105,7 @@
 
     </div>
   </section>
+
   <section id="gr-flechas-suplementarias">
     <h2>Flechas suplementarias B</h2>
 
@@ -2154,6 +2138,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-flechas">
     <h2>Símbolos y flechas misceláneos</h2>
 
@@ -2246,6 +2231,7 @@
 
     </div>
   </section>
+
   <section id="gr-cjk">
     <h2>Símbolos y puntuación CJK</h2>
 
@@ -2278,6 +2264,7 @@
 
     </div>
   </section>
+
   <section id="gr-cjk-circulo">
     <h2>Símbolos CJK con círculo alrededor</h2>
 
@@ -2310,6 +2297,7 @@
 
     </div>
   </section>
+
   <section id="gr-fichas-mahjong">
     <h2>Fichas de Mahjong</h2>
 
@@ -2330,6 +2318,7 @@
 
     </div>
   </section>
+
   <section id="gr-cartas">
     <h2>Cartas</h2>
 
@@ -2350,6 +2339,7 @@
 
     </div>
   </section>
+
   <section id="gr-alfanum-circulo-sup">
     <h2>Suplemento alfanuméricos con círculo alrededor</h2>
 
@@ -2928,6 +2918,7 @@
 
     </div>
   </section>
+
   <section id="gr-ideografico-circulo-sup">
     <h2>Suplemento ideográfico con círculo alrededor</h2>
 
@@ -3116,6 +3107,7 @@
 
     </div>
   </section>
+
   <section id="gr-geometricas-extendidas">
     <h2>Formas geométricas extendidas</h2>
 
@@ -3268,6 +3260,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-pict-misc">
     <h2>Símbolos y pictogramas misceláneos</h2>
 
@@ -10920,6 +10913,7 @@
 
     </div>
   </section>
+
   <section id="gr-emoticonos">
     <h2>Emoticonos</h2>
 
@@ -11888,6 +11882,7 @@
 
     </div>
   </section>
+
   <section id="gr-transporte">
     <h2>Símbolos de transporte y mapas</h2>
 
@@ -13120,6 +13115,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-misc-supl">
     <h2>Símbolos y pictogramas misceláneos suplementarios</h2>
 
@@ -16038,6 +16034,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-ext-a">
     <h2>Símbolos y pictogramas extendidos A</h2>
 
@@ -16853,6 +16850,7 @@
 
     </div>
   </section>
+
   <section id="gr-componentes">
     <h2>Componentes</h2>
 
@@ -17365,7 +17363,6 @@
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a teclas de un teclado de ordenador, en modo texto. Estas secuencias se forman con dos caracteres, combinando algunos caracteres con el componente de borde de tecla, como se comenta en el <a href="html-unicode-secuencias.html#gr-keycap-1">apartado Caracteres enmarcados (teclas), modo texto, de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+23 U+20E3 </p>
@@ -17513,13 +17510,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-restos">
     <h2>Otras secuencias</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que no corresponden a ninguna de las agrupaciones comentadas en esta página o en el las otras páginas dedicadas a secuencias Unicode. Estas secuencias se forman combinando varios caracteres, como se comenta en el <a href="html-unicode-secuencias.html#gr-restos">apartado Otras secuencias, de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -21639,7 +21633,6 @@
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-1">apartado Géneros (4) de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F468 U+200D U+1F33E </p>
@@ -22153,13 +22146,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-genero-3">
     <h2>Género (3)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes neutros (ni femeninos ni masculinos). Estas secuencias se forman con tres caracteres, combinando el <i>emoji</i> que representa a un adulto con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-3">apartado Géneros (3) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -22499,7 +22489,6 @@
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-4">apartado Géneros (4) de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F468 U+200D U+2695 U+FE0F </p>
@@ -22579,7 +22568,6 @@
     <h2>Género (5)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-5">apartado Géneros (5) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -23730,13 +23718,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-genero-7">
     <h2>Género (7)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes neutros (ni femeninos ni masculinos). Estas secuencias se forman con cuatro caracteres, combinando el <i>emoji</i> que representa a un adulto con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-7">apartado Géneros (7) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -23790,7 +23775,6 @@
     <h2>Género (8)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#genero-8">apartado Géneros (8) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -23895,7 +23879,6 @@
     <h2>Colores de piel (1)</h2>
 
     <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con dos caracteres, combinando un caracter que representa un individuo o una parte del cuerpo con uno de los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-1">apartado Colores de piel (1) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -31000,7 +30983,6 @@
 
     <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cuatro caracteres, combinando el carácter hombre o mujer con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-2">apartado Colores de piel (2) de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F468 U+1F3FB U+200D U+1F33E </p>
@@ -33554,13 +33536,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-colores-piel-4">
     <h2>Colores de piel (4)</h2>
 
     <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cuatro caracteres, combinando el <i>emoji</i> que representa a un adulto con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-4">apartado Colores de piel (4) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -35220,7 +35199,6 @@
 
     <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando el carácter hombre o mujer con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-5">apartado Colores de piel (5) de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F468 U+1F3FB U+200D U+2695 U+FE0F </p>
@@ -35588,7 +35566,6 @@
     <h2>Colores de piel (6)</h2>
 
     <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con uno de los modificadores Fitzpatrick y con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-6">apartado Colores de piel (6) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -41328,7 +41305,6 @@
 
     <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando el <i>emoji</i> que representa a un adulto con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-7">apartado Colores de piel (7) de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F9D1 U+1F3FB U+200D U+2695 U+FE0F </p>
@@ -41557,13 +41533,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-familias-1">
     <h2>Familias de 2 miembros</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias formadas por dos miembros: un padre o una madre y un hijo o una hija. Estas secuencias se forman con tres caracteres, combinando los caracteres de hombre, mujer, niña o niño, como se comenta en el <a href="html-unicode-secuencias.html#gr-familias-1">apartado Familias de 2 miembros de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -41620,7 +41593,6 @@
     <h2>Familias de 3 miembros</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias formadas por tres miembros: uno o dos progenitores y uno o dos hijos. Estas secuencias se forman con cinco caracteres, combinando los caracteres de hombre, mujer, niña o niño, como se comenta en el <a href="html-unicode-secuencias.html#gr-familias-2">apartado Familias de 3 miembros de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -41774,7 +41746,6 @@
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias formadas por cuatro miembros: dos progenitores y dos hijos. Estas secuencias se forman con siete caracteres, combinando los caracteres de hombre, mujer, niña o niño, como se comenta en el <a href="html-unicode-secuencias.html#gr-familias-3">apartado Familias de 4 miembros de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F468 U+200D U+1F468 U+200D U+1F466 U+200D U+1F466 </p>
@@ -41890,7 +41861,6 @@
     <h2>Parejas masculinas/femeninas de la mano, con el mismo tono de piel</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas con género (es decir, identificando si cada miembro de la pareja es hombre o mujer), con modificadores Fitzpatrick común (los dos personajes tienen el mismo color de piel). Estas secuencias se forman con dos caracteres, combinando los caracteres de parejas y los modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-mano-piel-1">apartado Parejas masculinas/femeninas de la mano, con el mismo tono de piel, de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -42079,7 +42049,6 @@
     <h2>Parejas masculinas/femeninas de la mano, con dos tonos de piel</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas con género (es decir, identificando si cada miembro de la pareja es hombre o mujer), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con siete caracteres, combinando los carácteres hombre y/o mujer y los modificadores Fitzpatrick con el caráter apretón de manos, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-mano-piel-2">apartado Parejas masculinas/femeninas de la mano, con dos tonos de piel, de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -42809,7 +42778,6 @@
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (con personajes ni femeninos ni masculinos), con modificadores Fitzpatrick. Estas secuencias se forman con siete caracteres, combinando combinando dos <i>emojis</i> que representan a adultos con los modificadores Fitzpatrick y con el caráter apretón de manos, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-mano-piel-3">apartado Parejas neutras de la mano, con dos tonos de piel, de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FB </p>
@@ -43130,7 +43098,6 @@
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de enamorados. Estas secuencias se forman con cinco caracteres, combinando los caracteres de hombre y/o mujer, con el carácter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-1">apartado Rostros masculinos/femeninos de enamorados de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F468 U+200D U+2764 U+FE0F U+200D U+1F468 </p>
@@ -43170,13 +43137,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-parejas-corazon-piel-2">
     <h2>Rostros masculinos/femeninos de enamorados, con dos tonos de piel (2)</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de enamorados, con modificadores Fitzpatrick. Estas secuencias se forman con ocho caracteres, combinando los caracteres de hombre y/o mujer, con modificadores Fitzpatrick y con el carácter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-piel-2">apartado Rostros masculinos/femeninos de enamorados, con dos tonos de piel (2) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -44081,13 +44045,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-parejas-corazon-piel-4">
     <h2>Rostros neutros de enamorados, con dos tonos de piel (2)</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (con personajes ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con ocho caracteres, combinando combinando dos <i>emojis</i> que representan a adultos con los modificadores Fitzpatrick y con el caráter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-piel-4">apartado Rostros neutros de enamorados, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -44337,7 +44298,6 @@
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de enamorados besándose. Estas secuencias se forman con siete caracteres, combinando los caracteres de hombre y/o mujer, con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-1">apartado Rostros masculinos/femeninos de enamorados besándose, de la lección Secuencias Unicode</a>.</p>
 
-
     <div class="u-l">
       <div class="u">
         <p class="uc">U+1F468 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 </p>
@@ -44377,13 +44337,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-parejas-beso-piel-2">
     <h2>Rostros masculinos/femeninos de enamorados besándose, con dos tonos de piel (2)</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de enamorados besándose, con modificadores Fitzpatrick. Estas secuencias se forman con diez caracteres, combinando los caracteres de hombre y/o mujer, con modificadores Fitzpatrick y con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#r-parejas-beso-piel-2">apartado Rostros masculinos/femeninos de enamorados besándose, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -45288,13 +45245,10 @@
 
     </div>
   </section>
-    </div>
-  </section>
   <section id="gr-parejas-beso-piel-4">
     <h2>Rostros neutros de enamorados besándose, con tonos de piel (2)</h2>
 
     <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de personajes neutros (ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con diez caracteres, combinando combinando dos <i>emojis</i> que representan a adultos con los modificadores Fitzpatrick y con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-piel-4">apartado Rostros neutros de enamorados besándose, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -45539,7 +45493,6 @@
 
     </div>
   </section>
-
   <section id="gr-twemoji-no-unicode">
     <h2>Dibujos de Twemoji no definidos en Unicode</h2>
 
@@ -45878,6 +45831,7 @@
 
     </div>
   </section>
+
   <script>
     var twemojis = document.getElementsByClassName('twe');
     var i;

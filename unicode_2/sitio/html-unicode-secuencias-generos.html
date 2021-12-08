@@ -6,18 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
   <link rel="icon" href="../varios/favicon.svg">
-  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
   <style>
-    @font-face {
-      font-family: "Symbola";
-      src: url("unicode/Symbola.ttf");
-    }
-
-    @font-face {
-      font-family: "Twemoji";
-      src: url("unicode/TwemojiMozilla.ttf");
-    }
-
     div.u-l {
       display: flex;
       flex-flow: row wrap;
@@ -72,17 +61,6 @@
       border-right: 2px solid black;
     }
 
-    div.u span.sy,
-    div.u2 span.sy {
-      font-family: "Symbola";
-    }
-
-    div.u span.te,
-    div.u2 span.te {
-      font-family: "Twemoji";
-      font-size: 90px;
-    }
-
     div.u .twe,
     div.u2 .twe {
       height: 90px;
@@ -106,7 +84,6 @@
       text-decoration: none;
       color: black;
     }
-
   </style>
 </head>
 
@@ -152,33 +129,28 @@
     <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
     <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
     <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
-    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
+    <li><a href="html-unicode-secuencias-otras.html">Otras</a>, que muestra las secuencias Unicode no incluidas en las páginas anteriores</li>
+    <li><a href="html-unicode-twemoji.html">Twemoji</a>, que muestra los dibujos de <i>emojis</i> creados por el proyecto <a href="https://twemoji.twitter.com/">Twemoji</a> con licencia libre <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
   </ul>
 
   <section id="info">
     <h2>Información contenida en las fichas</h2>
 
-    <p>Las fichas siguientes muestran los dibujos (emoticonos, emojis y otros) correspondientes a secuencias de Unicode. Para cada secuencia se muestra:</p>
+    <p>Las fichas siguientes muestran los dibujos de las secuencias de Unicode que corresponden a dibujos de personas o partes del cuerpo con aspecto masculino, femenino o nuetro. Para cada secuencia se muestra:</p>
 
     <ul>
       <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
-      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra un rectángulo de borde negro con el código Unicode en caracteres muy pequeños):
-        <ul>
-          <li>la fuente <span class="css-valor">sans-serif</span> (la fuente aplicada depende del sistema operativo, del navegador e incluso del carácter, por lo que se recomienda ver esta lección en Firefox y Chrome)</li>
-          <li>la fuente <a href="https://github.com/mozilla/twemoji-colr">twemoji-colr</a> (esta fuente es la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a> en formato COLR/CPAL). Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
-        </ul>
-      </li>
+      <li>el carácter en la fuente que utilice el sistema operativo o el navegador para mostrar los dibujos. Si no hay un dibujo disponible, el navegador muestra un rectángulo de borde negro que contiene el código Unicode con un tamaño minúsculo.</li>
       <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
       <li>el nombre de la secuencia (en inglés)</li>
+      <li>en su caso, información adicional sobre el carácter o la secuencia</li>
     </ul>
   </section>
 
-
-    <section id="gr-genero-1">
+  <section id="gr-genero-1">
     <h2>Género (1)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-1">apartado Géneros (4) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -669,11 +641,11 @@
 
     </div>
   </section>
+
   <section id="gr-genero-2">
     <h2>Género (2)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-2">apartado Géneros (2) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -1740,11 +1712,11 @@
 
     </div>
   </section>
+
   <section id="gr-genero-3">
     <h2>Género (3)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes neutros (ni femeninos ni masculinos). Estas secuencias se forman con tres caracteres, combinando el <i>emoji</i> que representa a un adulto con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-3">apartado Géneros (3) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -2074,11 +2046,11 @@
 
     </div>
   </section>
+
   <section id="gr-genero-4">
     <h2>Género (4)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-4">apartado Géneros (4) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -2143,11 +2115,11 @@
 
     </div>
   </section>
+
   <section id="gr-genero-5">
     <h2>Género (5)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-5">apartado Géneros (5) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -3214,11 +3186,11 @@
 
     </div>
   </section>
+
   <section id="gr-genero-6">
     <h2>Género (6)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-6">apartado Géneros (6) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -3303,11 +3275,11 @@
 
     </div>
   </section>
+
   <section id="gr-genero-7">
     <h2>Género (7)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes neutros (ni femeninos ni masculinos). Estas secuencias se forman con cuatro caracteres, combinando el <i>emoji</i> que representa a un adulto con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-7">apartado Géneros (7) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -3351,11 +3323,11 @@
 
     </div>
   </section>
+
   <section id="gr-genero-8">
     <h2>Género (8)</h2>
 
     <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#genero-8">apartado Géneros (8) de la lección Secuencias Unicode</a>.</p>
-
 
     <div class="u-l">
       <div class="u">
@@ -3440,18 +3412,6 @@
 
     </div>
   </section>
-
-  <script>
-    var twemojis = document.getElementsByClassName('twe');
-    var i;
-    for (i = 0; i < twemojis.length; i++) {
-      twemoji.parse(twemojis[i], {
-        className: "twe",
-        folder: "svg",
-        ext: ".svg"
-      });
-    }
-  </script>
 
   <footer>
     <p class="ultmod">Última modificación de esta página: 8 de diciembre de 2021</p>

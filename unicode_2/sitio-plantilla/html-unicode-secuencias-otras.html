@@ -6,18 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
   <link rel="icon" href="../varios/favicon.svg">
-  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
   <style>
-    @font-face {
-      font-family: "Symbola";
-      src: url("unicode/Symbola.ttf");
-    }
-
-    @font-face {
-      font-family: "Twemoji";
-      src: url("unicode/TwemojiMozilla.ttf");
-    }
-
     div.u-l {
       display: flex;
       flex-flow: row wrap;
@@ -72,17 +61,6 @@
       border-right: 2px solid black;
     }
 
-    div.u span.sy,
-    div.u2 span.sy {
-      font-family: "Symbola";
-    }
-
-    div.u span.te,
-    div.u2 span.te {
-      font-family: "Twemoji";
-      font-size: 90px;
-    }
-
     div.u .twe,
     div.u2 .twe {
       height: 90px;
@@ -106,7 +84,6 @@
       text-decoration: none;
       color: black;
     }
-
   </style>
 </head>
 
@@ -129,7 +106,7 @@
     </div>
   </nav>
 
-  <p>Esta página muestra las secuencias Unicode que no corresponden a banderas, ni personas con género o color de piel.</p>
+  <p>Esta página muestra las secuencias Unicode no incluidas en el resto de páginas de secuencias.</p>
 
   <p>Para entender esta página se recomienda leer las lecciones:</p>
   <ul>
@@ -146,25 +123,22 @@
     <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
     <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
     <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
-    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
+    <li><a href="html-unicode-secuencias-otras.html">Otras</a>, que muestra las secuencias Unicode no incluidas en las páginas anteriores</li>
+    <li><a href="html-unicode-twemoji.html">Twemoji</a>, que muestra los dibujos de <i>emojis</i> creados por el proyecto <a href="https://twemoji.twitter.com/">Twemoji</a> con licencia libre <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
   </ul>
 
 
   <section id="info">
     <h2>Información contenida en las fichas</h2>
 
-    <p>Las fichas siguientes muestran los dibujos (emoticonos, emojis y otros) correspondientes a secuencias de Unicode. Para cada secuencia se muestra:</p>
+    <p>Las fichas siguientes muestran los dibujos de las secuencias de Unicode no incluidas en el resto de páginas de secuencias. Para cada secuencia se muestra:</p>
 
     <ul>
       <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
-      <li>el carácter en dos tipos de letra, (si no existe el carácter en la fuente, el navegador muestra un rectángulo de borde negro con el código Unicode en caracteres muy pequeños):
-        <ul>
-          <li>la fuente <span class="css-valor">sans-serif</span> (la fuente aplicada depende del sistema operativo, del navegador e incluso del carácter, por lo que se recomienda ver esta lección en Firefox y Chrome)</li>
-          <li>la fuente <a href="https://github.com/mozilla/twemoji-colr">twemoji-colr</a> (esta fuente es la fuente <a href="https://github.com/twitter/twemoji">Twemoji</a> en formato COLR/CPAL). Además, la imagen enlaza con la página del repositorio de Twemoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
-        </ul>
-      </li>
+      <li>el carácter en la fuente que utilice el sistema operativo o el navegador para mostrar los dibujos. Si no hay un dibujo disponible, el navegador muestra un rectángulo de borde negro que contiene el código Unicode con un tamaño minúsculo.</li>
       <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
       <li>el nombre de la secuencia (en inglés)</li>
+      <li>en su caso, información adicional sobre el carácter o la secuencia</li>
     </ul>
 
     <hr class="corta">
@@ -172,20 +146,7 @@
     <p>Cuando el sistema operativo no puede mostrar la secuencia Unicode, lo que suele hacer es mostrar cada uno de los caracteres de la secuencia por separado. Por eso se pueden ver dos o tres dibujos en vez del dibujo correcto.</p>
   </section>
 
-
-  $contenido  <script>
-    var twemojis = document.getElementsByClassName('twe');
-    var i;
-    for (i = 0; i < twemojis.length; i++) {
-      twemoji.parse(twemojis[i], {
-        className: "twe",
-        folder: "svg",
-        ext: ".svg"
-      });
-    }
-  </script>
-
-  <footer>
+$contenido  <footer>
     <p class="ultmod">Última modificación de esta página: ${fecha}</p>
 
     <p class="licencia">

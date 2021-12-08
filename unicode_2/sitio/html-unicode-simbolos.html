@@ -7,16 +7,6 @@
   <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
   <link rel="icon" href="../varios/favicon.svg">
   <style>
-    @font-face {
-      font-family: "Symbola";
-      src: url("unicode/Symbola.ttf");
-    }
-
-    @font-face {
-      font-family: "Twemoji";
-      src: url("unicode/TwemojiMozilla.ttf");
-    }
-
     div.u-l {
       display: flex;
       flex-flow: row wrap;
@@ -71,17 +61,6 @@
       border-right: 2px solid black;
     }
 
-    div.u span.sy,
-    div.u2 span.sy {
-      font-family: "Symbola";
-    }
-
-    div.u span.te,
-    div.u2 span.te {
-      font-family: "Twemoji";
-      font-size: 90px;
-    }
-
     div.u .twe,
     div.u2 .twe {
       height: 90px;
@@ -105,7 +84,6 @@
       text-decoration: none;
       color: black;
     }
-
   </style>
 </head>
 
@@ -172,7 +150,8 @@
     <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
     <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
     <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
-    <li><a href="html-unicode-secuencias-problematicas.html">Problemáticas</a>, que muestra las secuencias Unicode que los sistemas operativos o navegadores no muestran correctamente</li>
+    <li><a href="html-unicode-secuencias-otras.html">Otras</a>, que muestra las secuencias Unicode no incluidas en las páginas anteriores</li>
+    <li><a href="html-unicode-twemoji.html">Twemoji</a>, que muestra los dibujos de <i>emojis</i> creados por el proyecto <a href="https://twemoji.twitter.com/">Twemoji</a> con licencia libre <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
   </ul>
 
   <section id="info">
@@ -185,6 +164,7 @@
       <li>el carácter en la fuente <span class="css-valor">sans-serif</span>. La fuente aplicada depende del sistema operativo, del navegador e incluso del carácter (si no existe el carácter en la fuente, el navegador muestra el código Unicode en un cuadrado de borde negro).</li>
       <li>la entidad numérica de ese carácter (en formato hexadecimal y decimal)</li>
       <li>el nombre del carácter (en inglés)</li>
+      <li>en su caso, información adicional sobre el carácter o la secuencia</li>
     </ul>
   </section>
 
@@ -216,6 +196,7 @@
 
     </div>
   </section>
+
   <section id="gr-puntuacion">
     <h2>Puntuación</h2>
 
@@ -474,6 +455,7 @@
 
     </div>
   </section>
+
   <section id="gr-monedas">
     <h2>Símbolos de monedas</h2>
 
@@ -815,6 +797,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-letras">
     <h2>Símbolos con letras</h2>
 
@@ -1623,6 +1606,7 @@
 
     </div>
   </section>
+
   <section id="gr-flechas">
     <h2>Flechas</h2>
 
@@ -2751,6 +2735,7 @@
 
     </div>
   </section>
+
   <section id="gr-tecnicos-misc">
     <h2>Símbolos técnicos misceláneos</h2>
 
@@ -5279,6 +5264,7 @@
 
     </div>
   </section>
+
   <section id="gr-alfanum-circulo">
     <h2>Símbolos alfanuméricos con círculo alrededor</h2>
 
@@ -6227,6 +6213,7 @@
 
     </div>
   </section>
+
   <section id="gr-cajas">
     <h2>Cajas</h2>
 
@@ -7515,6 +7502,7 @@
 
     </div>
   </section>
+
   <section id="gr-formas-geometricas">
     <h2>Formas geométricas</h2>
 
@@ -8483,6 +8471,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-misc">
     <h2>Símbolos misceláneos</h2>
 
@@ -11041,6 +11030,7 @@
 
     </div>
   </section>
+
   <section id="gr-dingbats">
     <h2>Dingbats</h2>
 
@@ -12839,6 +12829,7 @@
 
     </div>
   </section>
+
   <section id="gr-flechas-suplementarias">
     <h2>Flechas suplementarias B</h2>
 
@@ -14127,6 +14118,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-flechas">
     <h2>Símbolos y flechas misceláneos</h2>
 
@@ -16806,6 +16798,7 @@
 
     </div>
   </section>
+
   <section id="gr-cjk">
     <h2>Símbolos y puntuación CJK</h2>
 
@@ -17064,6 +17057,7 @@
 
     </div>
   </section>
+
   <section id="gr-cjk-circulo">
     <h2>Símbolos CJK con círculo alrededor</h2>
 
@@ -17312,6 +17306,7 @@
 
     </div>
   </section>
+
   <section id="gr-musica">
     <h2>Símbolos musicales</h2>
 
@@ -19656,6 +19651,7 @@
 
     </div>
   </section>
+
   <section id="gr-fichas-mahjong">
     <h2>Fichas de Mahjong</h2>
 
@@ -20104,6 +20100,7 @@
 
     </div>
   </section>
+
   <section id="gr-domino">
     <h2>Fichas de dominó</h2>
 
@@ -21112,6 +21109,7 @@
 
     </div>
   </section>
+
   <section id="gr-cartas">
     <h2>Cartas</h2>
 
@@ -21930,6 +21928,7 @@
 
     </div>
   </section>
+
   <section id="gr-alfanum-circulo-sup">
     <h2>Suplemento alfanuméricos con círculo alrededor</h2>
 
@@ -23266,6 +23265,7 @@
 
     </div>
   </section>
+
   <section id="gr-dingbats-decorativos">
     <h2>Dingbats decorativos</h2>
 
@@ -23754,6 +23754,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-alquimicos">
     <h2>Símbolos alquímicos</h2>
 
@@ -24922,6 +24923,7 @@
 
     </div>
   </section>
+
   <section id="gr-geometricas-extendidas">
     <h2>Formas geométricas extendidas</h2>
 
@@ -25877,6 +25879,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-pict-misc">
     <h2>Símbolos y pictogramas misceláneos</h2>
 
@@ -28758,6 +28761,7 @@
 
     </div>
   </section>
+
   <section id="gr-emoticonos">
     <h2>Emoticonos</h2>
 
@@ -28776,6 +28780,7 @@
 
     </div>
   </section>
+
   <section id="gr-transporte">
     <h2>Símbolos de transporte y mapas</h2>
 
@@ -29150,6 +29155,7 @@
 
     </div>
   </section>
+
   <section id="gr-simbolos-misc-supl">
     <h2>Símbolos y pictogramas misceláneos suplementarios</h2>
 

@@ -63,7 +63,7 @@ Es cosa de Windows porque salen en Chrome.
 - Tengo que añadir en los programas que fusionan/importan contadores que digan si quedan cosas pendientes de pasar.
 - Ya no tengo claro si en Unicode están permitido los tonos de piel para emojis en modo texto. Windows hace muchos, pero yo diría que no.
 - tmp_seleccion.py tendría que comprobar que encuentra los códigos.
-- el grupo gr-componentes no lo saco en ninguna página (salvo en la de twemoji). Creo no vale la pena, porque en html-manual-1.html están todos y la mayoría son invisibles. Los que se ven están incluidos en otros apartados. El problema que incluir los visibles en la página Otras es que no son secuencias, así que tendré que escribir una función para la página html-unicode-otras.html.
+- el grupo gr-componentes no lo saco en ninguna página (salvo en la de twemoji). Creo no vale la pena, porque en html-manual-1.html están todos y la mayoría son invisibles. Los que se ven están incluidos en otros apartados. El problema que incluir los visibles en la página Otras es que no son secuencias, así que tendré que escribir una función para la página html-unicode-secuencias-otras.html.
 - poner número de versión Unicode en el cuadro
 - los grupos en ucdef tienen campos distintos, pero los dos primeros campos están invertidos en los grupos de caracteres y en los de secuencias.
 - en twemoji ningún carácter texto-emoji lleva el VS16. Por ejemplo el "double exclamation mark" es U+203C U+FE0F, pero en twemoji es solamente U+203C. Tendría que localizar esos casos y añadir una nota en el cuadro.

@@ -155,7 +155,7 @@ def genera_pagina_twemoji(pagina):
                 t += "\n"
             t += "    </div>\n"
             t += "  </section>\n"
-    t += "\n"
+            t += "\n"
     numero_identificados_2 = len(identificados)
 
     # Después muestro las secuencias
@@ -223,9 +223,9 @@ def genera_pagina_twemoji(pagina):
                     t += '        </p>\n'
                 t += "      </div>\n"
                 t += "\n"
-        t += "    </div>\n"
-        t += "  </section>\n"
-    t += "\n"
+            t += "    </div>\n"
+            t += "  </section>\n"
+
     numero_identificados_3 = len(identificados)
     print(f"    Dibujos identificados: {numero_identificados_1} - Caracteres: {numero_identificados_1 - numero_identificados_2} - Secuencias: {numero_identificados_3 - numero_identificados_2}")
     print(f"    Identificados pendientes de dibujar: {numero_identificados_3}")
@@ -266,6 +266,7 @@ def genera_pagina_twemoji(pagina):
         t += "\n"
     t += "    </div>\n"
     t += "  </section>\n"
+    t += "\n"
     return t
 
 def genera_pagina_caracteres(pagina):
@@ -333,7 +334,7 @@ def genera_pagina_caracteres(pagina):
                         t += "\n"
                 t += "    </div>\n"
                 t += "  </section>\n"
-        t += "\n"
+                t += "\n"
     elif pagina == ucdef.PAG_EMOJIS:
         t = ""
         for grupo in ucdef.uc_tablas_caracteres[0]:
@@ -398,7 +399,7 @@ def genera_pagina_caracteres(pagina):
                         t += "\n"
                 t += "    </div>\n"
                 t += "  </section>\n"
-        t += "\n"
+                t += "\n"
     return t
 
 def ordena(cs1, tipo):
@@ -510,9 +511,9 @@ def genera_pagina_secuencias(pagina, grupos):
                     t += '        </p>\n'
                 t += "      </div>\n"
                 t += "\n"
-        t += "    </div>\n"
-        t += "  </section>\n"
-    t += "\n"
+            t += "    </div>\n"
+            t += "  </section>\n"
+        t += "\n"
     return t
 
 
