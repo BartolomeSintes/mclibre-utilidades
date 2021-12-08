@@ -1,3 +1,4 @@
+import copy
 import pathlib
 from string import Template
 import shutil
@@ -29,6 +30,21 @@ def busca(aguja, pajar, posicion):
     else:
         return -1
 
+def busca2(aguja, pajar):
+    encontrado = False
+    n = len(pajar)
+    i = 0
+    while not encontrado and i < n:
+        # print(pajar[i][posicion], aguja, end=" - ")
+        if pajar[i] == aguja:
+            encontrado = True
+        i += 1
+        # input()
+    if encontrado:
+        return i - 1
+    else:
+        return -1
+
 
 def genera_pagina(pagina):
     if pagina == ucdef.PAG_SIMBOLOS or pagina == ucdef.PAG_EMOJIS:
@@ -43,6 +59,8 @@ def genera_pagina(pagina):
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_parejas)
     elif pagina == ucdef.PAG_OTRAS:
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_otras)
+    elif pagina == ucdef.PAG_TWEMOJI:
+        return genera_pagina_twemoji(pagina)
 
 
 def genera_lista_simbolos():
@@ -69,6 +87,186 @@ def genera_lista_simbolos():
     with open(ucdef.UNICODE_FUSIONADOS_DIR + "/" + ucdef.FICHERO_SELECCION_SIMBOLOS, "w", encoding="utf-8") as fichero:
         fichero.write(t)
 
+
+def genera_pagina_twemoji(pagina):
+    identificados = copy.deepcopy(imp3.manual_1)
+    for i in range(len(identificados)-1, -1, -1):
+        if identificados[i][2] == "":
+            del identificados[i]
+    t = ""
+    numero_identificados_1 = len(identificados)
+    # Primero muestro los que son caracteres simples
+    # aunque según Unicode los texto-emoji deberían llevar FE0F
+    grupos = ucdef.uc_tablas_caracteres[0] + ucdef.uc_grupos_twemoji
+    grupos_caracteres = []
+    for grupo in grupos:
+        grupos_caracteres += [grupo[1]]
+    # print(grupos_caracteres)
+
+    for grupo in grupos:
+        caracteres = []
+        for i in range(len(identificados) -1, -1, -1):
+            if grupo[1] in identificados[i][1]: # Hago in porque algunos caracteres están en vario gr
+                caracteres += [identificados[i]]
+                for j in range(len(identificados[i][1]) -1, -1, -1):
+                    if identificados[i][1][j] == grupo[1]:
+                        del(identificados[i][1][j])
+                if len(identificados[i][1]) == 0:
+                    del identificados[i]
+        caracteres.sort()
+        contador = len(caracteres)
+        # print(grupo[0], contador, len(identificados))
+        if contador > 0:
+            t += f'  <section id="{grupo[1]}">\n'
+            t += f"    <h2>{grupo[0]}</h2>\n"
+            t += "\n"
+            if contador == 1:
+                t += f"    <p>Se muestra aquí {contador} carácter "
+            else:
+                t += f"    <p>Se muestran aquí {contador} caracteres "
+            t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 14.0</a> en formato PDF.</p>\n'
+            t += "\n"
+            t += '    <div class="u-l">\n'
+            for c in caracteres:
+                if len(c[0]) > 1:
+                    print(f"  CUIDADO: HAY UN CARACTER CON mÄS DE UN CARÁCTER: {c[0]}")
+                t += '      <div class="u">\n'
+                t += '        <p class="uc">'
+                t += f"U+{int(c[0][0], 16):X} "
+                t += "</p>\n"
+                t += f'        <p class="si">\n'
+                t += f'          <span class="twe"><a href="https://github.com/twitter/twemoji/blob/master/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
+                t += '        </p>\n'
+                t += '        <p class="en">\n'
+                t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0][0], 16):x};</strong><br>\n"
+                t += f"          Dec:&nbsp;<strong>&amp;{c[0][0]};</strong>\n"
+                t += "        </p>\n"
+                tmp = busca(c[0][0], imp.derived_name, 0)
+                # print(tmp, c[0], imp.derived_name[tmp])
+                t += f'        <p class="no">{imp.derived_name[tmp][1]}</p>\n'
+                hay_coment = busca([c[0]][0], imp5.manual_2, 0)
+                if hay_coment != -1:
+                    t += f'        <p class="co">\n'
+                    for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                        t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                    t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                    t += '        </p>\n'
+                t += "      </div>\n"
+                t += "\n"
+            t += "    </div>\n"
+            t += "  </section>\n"
+    t += "\n"
+    numero_identificados_2 = len(identificados)
+
+    # Después muestro las secuencias
+    grupos = ucdef.uc_grupos_otras + ucdef.uc_grupos_banderas + ucdef.uc_grupos_generos + ucdef.uc_grupos_fitzpatrick + ucdef.uc_grupos_parejas
+    for grupo in grupos:
+        caracteres = []
+        for i in range(len(identificados) -1, -1, -1):
+            if grupo[0] in identificados[i][1]: # Hago in porque algunos caracteres están en vario gr
+                caracteres += [identificados[i]]
+                for j in range(len(identificados[i][1]) -1, -1, -1):
+                    if identificados[i][1][j] == grupo[0]:
+                        del(identificados[i][1][j])
+                if len(identificados[i][1]) == 0:
+                    del identificados[i]
+        caracteres.sort()
+        if grupo[3] != ucdef.ORDENA_ESPECIAL_NO:
+            caracteres = ordena(caracteres, grupo[3])
+        contador = len(caracteres)
+        # print(grupo[0], contador, len(identificados))
+        if contador > 0:
+            info_grupo = []
+            for i in grupos:
+                if i[0] == grupo[0]:
+                    info_grupo = i
+            t += f'  <section id="{grupo[0]}">\n'
+            t += f"    <h2>{info_grupo[1]}</h2>\n"
+            t += "\n"
+            t += info_grupo[2]
+            t += "\n"
+            t += '    <div class="u-l">\n'
+            for c in caracteres:
+                t += '      <div class="u">\n'
+                t += '        <p class="uc">'
+                for cn in c[0]:
+                    t += f"U+{int(cn, 16):X} "
+                t += "</p>\n"
+                t += f'        <p class="si">\n'
+                t += f'          <span class="twe"><a href="https://github.com/twitter/twemoji/blob/master/assets/svg/{c[2]}">'
+                for cn in c[0]:
+                    t += f"&#x{int(cn, 16):X};"
+                t += '</a></span>\n'
+                t += f"        </p>\n"
+                t += '        <p class="en">\n'
+                t += f"          Hex:&nbsp;<strong>"
+                for cn in c[0]:
+                    t += f"&amp;#x{int(cn, 16):x};"
+                t += f"</strong><br>\n"
+                t += f"          Dec:&nbsp;<strong>"
+                for cn in c[0]:
+                    t += f"&amp;#{int(cn, 16)};"
+                t += f"</strong>\n"
+                t += "        </p>\n"
+                c_nombre = ""
+                for i in imp2.fusionados_2:
+                    # print(i[0], "xxx", c[0])
+                    if i[0] == c[0]:
+                        c_nombre = i[2][3]
+                t += f'        <p class="no">{c_nombre}</p>\n'
+                hay_coment = busca(c[0], imp5.manual_2, 0)
+                if hay_coment != -1:
+                    t += f'        <p class="co">\n'
+                    for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                        t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                    t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                    t += '        </p>\n'
+                t += "      </div>\n"
+                t += "\n"
+        t += "    </div>\n"
+        t += "  </section>\n"
+    t += "\n"
+    numero_identificados_3 = len(identificados)
+    print(f"    Dibujos identificados: {numero_identificados_1} - Caracteres: {numero_identificados_1 - numero_identificados_2} - Secuencias: {numero_identificados_3 - numero_identificados_2}")
+    print(f"    Identificados pendientes de dibujar: {numero_identificados_3}")
+    # for i in identificados:
+    #     print(i)
+
+    # Por último muestro los que no están identificados
+    print(f"    Dibujos no existentes en Unicode: {len(imp3.restos_twemoji)}")
+    t += f'  <section id="gr-twemoji-no-unicode">\n'
+    t += f"    <h2>Dibujos de Twemoji no definidos en Unicode</h2>\n"
+    t += "\n"
+    t += '     <p>En este apartado se muestran las imágenes incluidas en Twemoji que no están definidas en Unicode.</p>\n'
+    t += "\n"
+    t += '    <div class="u-l">\n'
+    for c in imp3.restos_twemoji:
+        t += '      <div class="u">\n'
+        t += '        <p class="uc">'
+        for cn in c[0]:
+            t += f"U+{int(cn, 16):X} "
+        t += "</p>\n"
+        t += f'        <p class="si">\n'
+        t += f'          <span class="twe"><a href="https://github.com/twitter/twemoji/blob/master/assets/svg/{c[1]}">'
+        for cn in c[0]:
+            t += f"&#x{int(cn, 16):X};"
+        t += '</a></span>\n'
+        t += f"        </p>\n"
+        t += '        <p class="en">\n'
+        t += f"          Hex:&nbsp;<strong>"
+        for cn in c[0]:
+            t += f"&amp;#x{int(cn, 16):x};"
+        t += f"</strong><br>\n"
+        t += f"          Dec:&nbsp;<strong>"
+        for cn in c[0]:
+            t += f"&amp;#{int(cn, 16)};"
+        t += f"</strong>\n"
+        t += "        </p>\n"
+        t += "      </div>\n"
+        t += "\n"
+    t += "    </div>\n"
+    t += "  </section>\n"
+    return t
 
 def genera_pagina_caracteres(pagina):
     if pagina == ucdef.PAG_SIMBOLOS:
@@ -353,6 +551,7 @@ def main():
         [ucdef.PAG_FITZPATRICK, ucdef.FICHERO_SITIO_FITZPATRICK],
         [ucdef.PAG_PAREJAS, ucdef.FICHERO_SITIO_PAREJAS],
         [ucdef.PAG_OTRAS, ucdef.FICHERO_SITIO_OTRAS],
+        [ucdef.PAG_TWEMOJI, ucdef.FICHERO_SITIO_TWEMOJI],
         # [ucdef.PAG_PROBLEMAS, ucdef.FICHERO_SITIO_PROBLEMAS],
     ]
 

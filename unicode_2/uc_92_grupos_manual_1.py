@@ -397,7 +397,7 @@ def crea_manual_1():
     global manual_1
     manual_1 = []
     for i in imp.fusionados_2:
-        manual_1 += [[i[0], grupos_paginas(i)]]
+        manual_1 += [[i[0], grupos_paginas(i), ""]]
     for i in manual_1:
         if not len(i[1]) and len(i[0]) > 1:
             i[1] = ["gr-restos"]
@@ -412,24 +412,115 @@ def crea_manual_1():
     print(f"  Ya clasificados en grupos: {cuenta_en_grupos}")
     print(f"  Pendientes de clasificar: {len(imp.fusionados_2) - cuenta_en_grupos}")
     print(f"  Pertenecientes a varios grupos: {cuenta_en_varios_grupos}")
-    if cuenta_en_varios_grupos:
-        for i in manual_1:
-            if len(i[1]) > 1:
-                print(f"    {i}")
+    print()
+    # Muestra los que están en varios grupos
+    # if cuenta_en_varios_grupos:
+    #     for i in manual_1:
+    #         if len(i[1]) > 1:
+    #             print(f"    {i}")
+
+def incluye_emojis():
+    global manual_1, restos_twemoji
+
+    twemoji_completo = os.listdir(ucdef.DIRECTORIO_TWEMOJI)
+    restos_twemoji = []
+    for i in twemoji_completo:
+        i2 = i.replace(".svg", "").upper()
+        if i2.find("-") == -1:
+            i2 = [i2]
+        else:
+            i2 = i2.split("-")
+
+        encontrado = -1
+        j = 0
+        while j < len(manual_1) and encontrado == -1:
+            if manual_1[j][0] == i2:
+                encontrado = j
+            j += 1
+        if encontrado == -1:
+            restos_twemoji += [[i2, i]]
+        else:
+            manual_1[encontrado][2] = i
+
+    cuenta_twemojis_asociados = 0
+    cuenta_caracteres_no_asociados = 0
+    for c in manual_1:
+        if c[2] != []:
+            cuenta_twemojis_asociados += 1
+        else:
+            cuenta_caracteres_no_asociados += 1
+
+    if not cuenta_caracteres_no_asociados:
+        print(f"  CUIDADO: HAY {len(restos_twemoji)} DIBUJOS DE TWEMOJI")
+        print("           QUE NO CORRESPONDEN A SECUENCIAS")
+    print()
+    # print(cuenta_temojis_asociados, cuenta_caracteres_no_asociados, len(restos_twemoji))
+
+    cuenta_varios_grupos = 0
+    for c in manual_1:
+        if len(c[1]) > 1:
+            cuenta_varios_grupos += 1
+            # print(c)
+    print(f"  CUIDADO: HAY {cuenta_varios_grupos} EN VARIOS GRUPOS")
+
+    # Caracteres asociados a mano, porque automáticamente no se asocian
+    asociados_manuales = [
+        [['00A9'], ['A9'], 'a9.svg'],
+        [['00AE'], ['AE'], 'ae.svg'],
+        [['0023', '20E3'], ['23', '20E3'], '23-20e3.svg'],
+        [['002A', '20E3'], ['2A', '20E3'], '2a-20e3.svg'],
+        [['0030', '20E3'], ['30', '20E3'], '30-20e3.svg'],
+        [['0031', '20E3'], ['31', '20E3'], '31-20e3.svg'],
+        [['0032', '20E3'], ['32', '20E3'], '32-20e3.svg'],
+        [['0033', '20E3'], ['33', '20E3'], '33-20e3.svg'],
+        [['0034', '20E3'], ['34', '20E3'], '34-20e3.svg'],
+        [['0035', '20E3'], ['35', '20E3'], '35-20e3.svg'],
+        [['0036', '20E3'], ['36', '20E3'], '36-20e3.svg'],
+        [['0037', '20E3'], ['37', '20E3'], '37-20e3.svg'],
+        [['0038', '20E3'], ['38', '20E3'], '38-20e3.svg'],
+        [['0039', '20E3'], ['39', '20E3'], '39-20e3.svg'],
+    ]
+    for asociado in asociados_manuales:
+        fin = len(manual_1)
+        i = 0
+        while i < fin:
+            if manual_1[i][0] == asociado[0]:
+                manual_1[i][2] = asociado[2]
+                i = fin
+            i += 1
+        fin = len(restos_twemoji)
+        i = 0
+        while i < fin:
+            if restos_twemoji[i][0] == asociado[1]:
+                del restos_twemoji[i]
+                i = fin
+            i += 1
+    # for i in restos_twemoji:
+    #     print(i)
 
 
 def exporta_lista():
     destino = ucdef.FICHERO_MANUAL_1
-    print(f"CREANDO {destino}")
+    print()
+    print(f"  CREANDO {destino}")
+    print()
     with open(destino, "w", encoding="utf-8", newline="\n") as fichero:
         t = ""
         # Guarda Full emoji list
         t += "manual_1 = [\n"
         for i in manual_1:
-            print
             t += "  [\n"
             t += f"    {i[0]},\n"
             t += f"    {i[1]},\n"
+            t += f"    '{i[2]}',\n"
+            t += "  ],\n"
+        t += "]\n"
+        t += "\n"
+        t += "restos_twemoji = [\n"
+        for i in restos_twemoji:
+            t += "  [\n"
+            t += f"    {i[0]},\n"
+            t += f"    '{i[1]}',\n"
             t += "  ],\n"
         t += "]\n"
         t += "\n"
@@ -522,8 +613,11 @@ def exporta_pagina():
 
 
 def main():
+    print()
     print("91. CREANDO FICHEROS MANUALES A PARTIR FUSIONADOS_2")
+    print()
     crea_manual_1()
+    incluye_emojis()
     # Comprueba si el fichero de destino existe y pide confirmación para sobreescribirlo
     p_1 = pathlib.Path(ucdef.FICHERO_MANUAL_1)
     respuesta = "N"
@@ -538,6 +632,7 @@ def main():
     if not p_1.exists():
         exporta_lista()
         exporta_pagina()
+    print("  Programa terminado")
 
 
 if __name__ == "__main__":

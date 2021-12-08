@@ -59,10 +59,13 @@ Es cosa de Windows porque salen en Chrome.
 - Tengo que hacer un manual_2 con la información que añada yo: si se ve o no en Windows 10, en Windows 11, en Android, en iOS. Y luego están los que se ven en Firefox porque los saca de twemoji.
 - Falta por ordenar las banderas: tendría que ordenarlas por su descripción, pero no tengo el texto en la matriz de caracteres. Basándome en los caracteres no veo manera de hacer dos grupos. En realidad, la única bandera que está fuera de su sitio es la Rainbow Flag que sí que se ve en colores,
 - Tengo que decidir si hago una página con las que se ven en Windows, pero que no están definidas en Unicode. Creo que no, aunque podría mencionarlas.
-- Tengo que añadir una página con todos los twemoji.
 - Tengo que decidir si en los caracteres que no se ven en Windows (o en Android), pero sí que se ven en twemoji, les añado el twemoji para que se vea cómo es el dibujo.
 - Tengo que añadir en los programas que fusionan/importan contadores que digan si quedan cosas pendientes de pasar.
 - Ya no tengo claro si en Unicode están permitido los tonos de piel para emojis en modo texto. Windows hace muchos, pero yo diría que no.
 - tmp_seleccion.py tendría que comprobar que encuentra los códigos.
-- el grupo gr-componentes no lo saco en ninguna página. Creo no vale la pena, porque en html-manual-1.html están todos y la mayoría son invisibles. Los que se ven están incluidos en otros apartados. El problema que incluir los visibles en la página Otras es que no son secuencias, así que tendré que escribir una función para la página html-unicode-otras.html.
+- el grupo gr-componentes no lo saco en ninguna página (salvo en la de twemoji). Creo no vale la pena, porque en html-manual-1.html están todos y la mayoría son invisibles. Los que se ven están incluidos en otros apartados. El problema que incluir los visibles en la página Otras es que no son secuencias, así que tendré que escribir una función para la página html-unicode-otras.html.
 - poner número de versión Unicode en el cuadro
+- los grupos en ucdef tienen campos distintos, pero los dos primeros campos están invertidos en los grupos de caracteres y en los de secuencias.
+- en twemoji ningún carácter texto-emoji lleva el VS16. Por ejemplo el "double exclamation mark" es U+203C U+FE0F, pero en twemoji es solamente U+203C. Tendría que localizar esos casos y añadir una nota en el cuadro.
+
+

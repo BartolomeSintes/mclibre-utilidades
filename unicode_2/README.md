@@ -45,11 +45,11 @@ Creo que ya sé cómo saber cuál es la presentación predeterminada de los cara
 - En el fichero [emoji-data.txt](https://www.unicode.org/Public/14.0.0/ucd/emoji/emoji-data.txt) es donde ponen las propiedades.
 - Así que lo que hago para cada carácter es mirar en el fichero unicode_txt_importados.py
     - primero miro si el carácter está en la lista emoji_variation_sequences:
-        - Si está, es emoji-texto o texto-emoji. Para distignuir cada caso, miro después en la lista emoji_data:
+        - Si está, es emoji-texto o texto-emoji. Para distinguir cada caso, miro después en la lista emoji_data:
             - Si el carácter tiene incluidas las propiedades "Emoji" y "Emoji_Presentation", entonces es emoji-texto
             - Si el carácter no tiene incluidas las propiedades "Emoji" y "Emoji_Presentation", entonces es texto-emoji
         - Si no está, es emoji o texto. Para distignuir cada caso, miro después en la lista emoji_data:
             - Si el carácter tiene incluida la propiedad "Emoji", entonces es emoji
             - Si el carácter no tiene incluida la propiedad "Emoji", entonces es texto
-
+- En la página [Text vs Emoji, v14.0](https://unicode.org/emoji/charts-14.0/text-style.html) hay una tabla donde se ve cada uno de los emojis, emojis-texto, y texto-emoji
 

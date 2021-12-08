@@ -36,6 +36,7 @@ PAG_GENEROS = "generos"
 PAG_FITZPATRICK = "fitzpatrick"
 PAG_PAREJAS = "parejas"
 PAG_OTRAS = "otras"
+PAG_TWEMOJI = "twemoji"
 PAG_PROBLEMAS = "problemas"
 SELECCION_SIMBOLOS = "seleccion-simbolos"
 
@@ -46,6 +47,7 @@ FICHERO_SITIO_GENEROS = "html-unicode-secuencias-generos.html"
 FICHERO_SITIO_FITZPATRICK = "html-unicode-secuencias-colores.html"
 FICHERO_SITIO_PAREJAS = "html-unicode-secuencias-parejas.html"
 FICHERO_SITIO_OTRAS = "html-unicode-otras.html"
+FICHERO_SITIO_TWEMOJI = "html-unicode-twemoji.html"
 FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
 FICHERO_SELECCION_SIMBOLOS = "seleccion_simbolos.py"
 
@@ -53,6 +55,9 @@ ORDENA_ESPECIAL_NO = 0
 ORDENA_ESPECIAL_1 = 1 # Para ordenar poniendo seguidos 1F468/1F469
 ORDENA_ESPECIAL_2 = 2 # Para ordenar poniendo seguidos 1F3FB/1F3FC/1F3FD/1F3FE/1F3FF
 ORDENA_ESPECIAL_3 = 3 # Para ordenar banderas
+
+# Twemoji
+DIRECTORIO_TWEMOJI = "D:\\Descargas\\TWEMOJI\\twemoji-13-1-0-svg-210528\\assets\\svg"
 
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]
@@ -226,6 +231,15 @@ uc_grupos_otras = [
     ["gr-restos", "Otras secuencias",
     '    <p>En este apartado se muestran las secuencias Unicode ZWJ que no corresponden a ninguna de las agrupaciones comentadas en esta página o en el las otras páginas dedicadas a secuencias Unicode. Estas secuencias se forman combinando varios caracteres, como se comenta en el <a href="html-unicode-secuencias.html#gr-restos">apartado Otras secuencias, de la lección Secuencias Unicode</a>.</p>\n\n', ORDENA_ESPECIAL_NO
     ]
+]
+
+uc_grupos_twemoji = [
+    # Este grupo es para que en la página de Twemoji incluya los componentes, aunque hay componentes que no están en ese pdf, pero el encabezado está pensado para enlazar un solo pdf.
+    ["Componentes", "gr-componentes",        "U1F100-enclosed-alphanumeric-supplement.pdf",
+        "1F100",
+        "1F1FF",
+
+    ],
 ]
 
 uc_tablas_caracteres = [
