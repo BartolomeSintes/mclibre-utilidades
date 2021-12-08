@@ -9307,6 +9307,17 @@
       "creado": "2021-10-01"
     },
     {
+      "serie": "Solo Linux",
+      "nombre": "Solo Linux",
+      "número": 33,
+      "año": 2021,
+      "mes": 12,
+      "portada": "solo-linux-33-es-202112.jpg",
+      "fichero": "solo-linux-33-es-202112.pdf",
+      "idioma": "español",
+      "creado": "2021-12-08"
+    },
+    {
       "serie": "Solo WordPress",
       "nombre": "Solo WordPress",
       "número": 1,
@@ -10933,6 +10944,17 @@
       "fichero": "raspberry-pi-handbook-2022-en-202109.pdf",
       "idioma": "inglés",
       "creado": "2021-09-24"
+    },
+    {
+      "serie": "The MagPi Books",
+      "nombre": "Retro Gaming with Raspberry Pi",
+      "número": 2,
+      "año": 2021,
+      "mes": 12,
+      "portada": "raspberry-pi-retro-gaming-02-en-202112.jpg",
+      "fichero": "raspberry-pi-retro-gaming-02-en-202112.pdf",
+      "idioma": "inglés",
+      "creado": "2021-12-08"
     },
     {
       "serie": "The PCLinuxOS Magazine",
