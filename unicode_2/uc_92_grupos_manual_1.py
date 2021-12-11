@@ -226,7 +226,7 @@ def grupos_paginas(elemento):
             and elemento[0][4] == "200D"
             and elemento[0][5] in ["1F468", "1F469"]
         ):
-            grupos += ["gr-parejas-corazon-1"]
+            grupos += ["gr-parejas-corazon-2"]
     elif len(elemento[0]) == 7:
         # BANDERA REGION
         if elemento[0][0] == "1F3F4":
@@ -309,7 +309,7 @@ def grupos_paginas(elemento):
             and elemento[0][6] == "200D"
             and elemento[0][7] in ["1F468", "1F469"]
         ):
-            grupos += ["gr-parejas-beso-1"]
+            grupos += ["gr-parejas-beso-2"]
         # ADULTO FZ ZWJ CORAZÓN VS16 ZWJ ZWJ ADULTO FZ
         if (
             elemento[0][0] == "1F9D1"

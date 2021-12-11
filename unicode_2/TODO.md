@@ -51,7 +51,8 @@ no están en fusionados_1
 Son sombreados en modo texto
 Es cosa de Windows porque salen en Chrome.
 
-# 2021-11-29
+# 2021-11-29 / 2021-12-08
+- Tendría que completar las notas: marcar los que no se ven en Windows 11, los que se ven distintos en Firefox, los que nose ven en Chrome aunque sí se ven en Segoe en Firefox, marcar los que no se ven en Android o los que no se ven en Safari
 - uc_11_generador.py: Tendría que hacer una página que mostrara los simbolos que están en seleccion_simbolos.py pero no están en seleccion_simbolos_manual.py para mirarla el año que viene y decidir si vale la pena incluir algún carácter más (por ejemplo porque ya se ve, como pasa con los símbolos de ajedrez).
 - El índice de las páginas está en la plantilla. Estaría bien que se creara automáticamente, pero tendría que añadir a uc_tablas_caracteres el texto que sale en el índice
 - Tengo que completar uc_92 para que que añada en manual_1 para cada carácter la información que utilizo de fusionados_2 y de derived_name
@@ -67,5 +68,6 @@ Es cosa de Windows porque salen en Chrome.
 - poner número de versión Unicode en el cuadro
 - los grupos en ucdef tienen campos distintos, pero los dos primeros campos están invertidos en los grupos de caracteres y en los de secuencias.
 - en twemoji ningún carácter texto-emoji lleva el VS16. Por ejemplo el "double exclamation mark" es U+203C U+FE0F, pero en twemoji es solamente U+203C. Tendría que localizar esos casos y añadir una nota en el cuadro.
+- En el apartado Colores de piel (2) podría poner los dibujos femeninos después de los masculinos (granjeros, granjeras, cocineros, cocineras, etc.) Lo que no tengo claro es si es mejor poner primero los cinco hombres y luego las cinco mujeres o ir intercalando hombre-mujer.
 
 
