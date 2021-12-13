@@ -135,7 +135,7 @@ def genera_pagina_twemoji(pagina):
                 t += f"U+{int(c[0][0], 16):X} "
                 t += "</p>\n"
                 t += f'        <p class="si">\n'
-                t += f'          <span class="twe"><a href="https://github.com/twitter/twemoji/blob/master/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
+                t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
                 t += '        </p>\n'
                 t += '        <p class="en">\n'
                 t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0][0], 16):x};</strong><br>\n"
@@ -193,7 +193,7 @@ def genera_pagina_twemoji(pagina):
                     t += f"U+{int(cn, 16):X} "
                 t += "</p>\n"
                 t += f'        <p class="si">\n'
-                t += f'          <span class="twe"><a href="https://github.com/twitter/twemoji/blob/master/assets/svg/{c[2]}">'
+                t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[2]}">'
                 for cn in c[0]:
                     t += f"&#x{int(cn, 16):X};"
                 t += '</a></span>\n'
@@ -247,7 +247,7 @@ def genera_pagina_twemoji(pagina):
             t += f"U+{int(cn, 16):X} "
         t += "</p>\n"
         t += f'        <p class="si">\n'
-        t += f'          <span class="twe"><a href="https://github.com/twitter/twemoji/blob/master/assets/svg/{c[1]}">'
+        t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[1]}">'
         for cn in c[0]:
             t += f"&#x{int(cn, 16):X};"
         t += '</a></span>\n'
