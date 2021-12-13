@@ -139,7 +139,7 @@ def genera_pagina_twemoji(pagina):
                 t += '        </p>\n'
                 t += '        <p class="en">\n'
                 t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0][0], 16):x};</strong><br>\n"
-                t += f"          Dec:&nbsp;<strong>&amp;{c[0][0]};</strong>\n"
+                t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0][0], 16)};</strong>\n"
                 t += "        </p>\n"
                 tmp = busca(c[0][0], imp.derived_name, 0)
                 # print(tmp, c[0], imp.derived_name[tmp])
@@ -148,8 +148,8 @@ def genera_pagina_twemoji(pagina):
                 if hay_coment != -1:
                     t += f'        <p class="co">\n'
                     for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                        t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
-                    t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                        t += f'          {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                    t += f'          {imp5.manual_2[hay_coment][1][-1]}\n'
                     t += '        </p>\n'
                 t += "      </div>\n"
                 t += "\n"
@@ -218,8 +218,8 @@ def genera_pagina_twemoji(pagina):
                 if hay_coment != -1:
                     t += f'        <p class="co">\n'
                     for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                        t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
-                    t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                        t += f'          {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                    t += f'          {imp5.manual_2[hay_coment][1][-1]}\n'
                     t += '        </p>\n'
                 t += "      </div>\n"
                 t += "\n"
@@ -300,15 +300,15 @@ def genera_pagina_caracteres(pagina):
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
                         t += '        <p class="en">\n'
                         t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};</strong><br>\n"
-                        t += f"          Dec:&nbsp;<strong>&amp;{c[0]};</strong>\n"
+                        t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0], 16)};</strong>\n"
                         t += "        </p>\n"
                         t += f'        <p class="no">{c[1]}</p>\n'
                         hay_coment = busca([c[0]], imp5.manual_2, 0)
                         if hay_coment != -1:
                             t += f'        <p class="co">\n'
                             for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                                t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
-                            t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                                t += f'          {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                            t += f'          {imp5.manual_2[hay_coment][1][-1]}\n'
                             t += '        </p>\n'
                         t += "      </div>\n"
                         t += "\n"
@@ -320,15 +320,15 @@ def genera_pagina_caracteres(pagina):
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0e;</p>\n'
                         t += '        <p class="en">\n'
                         t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};&amp;#xfe0e;</strong><br>\n"
-                        t += f"          Dec:&nbsp;<strong>&amp;{c[0]};&amp;#65038;</strong>\n"
+                        t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0], 16)};&amp;#65038;</strong>\n"
                         t += "        </p>\n"
                         t += f'        <p class="no">{c[1]}</p>\n'
                         hay_coment = busca([c[0]], imp5.manual_2, 0)
                         if hay_coment != -1:
                             t += f'        <p class="co">\n'
                             for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                                t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
-                            t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                                t += f'          {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                            t += f'          {imp5.manual_2[hay_coment][1][-1]}\n'
                             t += '        </p>\n'
                         t += "      </div>\n"
                         t += "\n"
@@ -365,15 +365,15 @@ def genera_pagina_caracteres(pagina):
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
                         t += '        <p class="en">\n'
                         t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};</strong><br>\n"
-                        t += f"          Dec:&nbsp;<strong>&amp;{int(c[0], 16)};</strong>\n"
+                        t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0], 16)};</strong>\n"
                         t += "        </p>\n"
                         t += f'        <p class="no">{c[1]}</p>\n'
                         hay_coment = busca([c[0]], imp5.manual_2, 0)
                         if hay_coment != -1:
                             t += f'        <p class="co">\n'
                             for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                                t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
-                            t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                                t += f'          {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                            t += f'          {imp5.manual_2[hay_coment][1][-1]}\n'
                             t += '        </p>\n'
                         t += "      </div>\n"
                         t += "\n"
@@ -385,15 +385,15 @@ def genera_pagina_caracteres(pagina):
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0f;</p>\n'
                         t += '        <p class="en">\n'
                         t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};&amp;#xfe0f;</strong><br>\n"
-                        t += f"          Dec:&nbsp;<strong>&amp;{int(c[0], 16)};&amp;#65039;</strong>\n"
+                        t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0], 16)};&amp;#65039;</strong>\n"
                         t += "        </p>\n"
                         t += f'        <p class="no">{c[1]}</p>\n'
                         hay_coment = busca([c[0]], imp5.manual_2, 0)
                         if hay_coment != -1:
                             t += f'        <p class="co">\n'
                             for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                                t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
-                            t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                                t += f'          {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                            t += f'          {imp5.manual_2[hay_coment][1][-1]}\n'
                             t += '        </p>\n'
                         t += "      </div>\n"
                         t += "\n"
@@ -506,8 +506,8 @@ def genera_pagina_secuencias(pagina, grupos):
                 if hay_coment != -1:
                     t += f'        <p class="co">\n'
                     for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                        t += f'         {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
-                    t += f'         {imp5.manual_2[hay_coment][1][-1]}\n'
+                        t += f'          {imp5.manual_2[hay_coment][1][comentario]}<br>\n'
+                    t += f'          {imp5.manual_2[hay_coment][1][-1]}\n'
                     t += '        </p>\n'
                 t += "      </div>\n"
                 t += "\n"

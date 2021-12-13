@@ -1,3 +1,4 @@
+# Este fichero lo creo manualmente copiando el contenido de tmp_seleccion.py que ha generado util.py
     # ['1F6D6'],
     # ['No disponible en Windows 10', 'Firefox muestra Twemoji']
 manual_2 = [
@@ -3347,6 +3348,326 @@ manual_2 = [
   ],
   [
     ['1FAF1', '1F3FF', '200D', '1FAF2', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
     ['No disponible en Windows 10']
   ],
   [
