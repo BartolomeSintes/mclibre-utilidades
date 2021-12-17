@@ -1673,6 +1673,17 @@
       "creado": "2021-10-08"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 78,
+      "año": 2021,
+      "mes": 12,
+      "portada": "edutec-78-es-202112.jpg",
+      "fichero": "edutec-78-es-202112.pdf",
+      "idioma": "español",
+      "creado": "2021-12-17"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -4619,6 +4630,17 @@
       "fichero": "hackspace-49-en-202112.pdf",
       "idioma": "inglés",
       "creado": "2021-11-20"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 50,
+      "año": 2022,
+      "mes": 1,
+      "portada": "hackspace-50-en-202201.jpg",
+      "fichero": "hackspace-50-en-202201.pdf",
+      "idioma": "inglés",
+      "creado": "2021-12-17"
     },
     {
       "serie": "HackSpace Books",
@@ -10592,6 +10614,17 @@
       "fichero": "the-magpi-112-en-202112.pdf",
       "idioma": "inglés",
       "creado": "2021-11-26"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 113,
+      "año": 2022,
+      "mes": 1,
+      "portada": "the-magpi-113-en-202201.jpg",
+      "fichero": "the-magpi-113-en-202201.pdf",
+      "idioma": "inglés",
+      "creado": "2021-12-17"
     },
     {
       "serie": "The MagPi Books",
