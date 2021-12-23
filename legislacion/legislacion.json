@@ -4816,7 +4816,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2019-10-23",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Pruebas para la obtención de títulos Formación Profesional 2019 (CV)",
             "titulo": "Resolución de 15 de octubre de 2019, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
             "versiones": [
@@ -12044,7 +12044,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2019-03-18",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
             "titulo": "Resolución de 26 de marzo de 2019, del director general de Centros y Personal Docente, por la que se establecen determinados procedimientos y se modifican los anexos de la Orden 7/2016, de 19 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
             "versiones": [
@@ -19205,7 +19205,7 @@
             "versiones": [
                 {
                     "versión": "original",
-                    "incluido": "2020-02-27",
+                    "fecha": "2008-07-31",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -22991,8 +22991,8 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-05-19",
-            "vigencia": "vigente",
-            "descripción": "Instrucciones Procedimiento de admisión 20/21 (CV)",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones Procedimiento de admisión 20/21 Infantil, Primaria, ESO y Bachillerato (CV)",
             "titulo": "Resolución de 15 de mayo de 2020, del conseller de Educación, Cultura y Deporte, por la que se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato para el curso 2020-2021.",
             "versiones": [
                 {
@@ -23541,8 +23541,8 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-05-25",
-            "vigencia": "vigente",
-            "descripción": "Calendario de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "vigencia": "vencido",
+            "descripción": "Calendario de admisión Infantil, Primaria, ESO y Bachillerato 20/21 (CV)",
             "titulo": "Resolución de 21 de mayo de 2020, del director general de Centros Docentes, por la que se establece el calendario de admisión del alumnado en los centros públicos y privados concertados de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato para el curso 2020-2021.",
             "versiones": [
                 {
@@ -24232,13 +24232,13 @@
             ]
         },
         {
-            "id": "dogv-2019-05-29-1-res",
+            "id": "dogv-2020-05-29-1-res",
             "incluido": "2020-06-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-06-03",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario escolar 2020/21 (CV)",
             "titulo": "Resolución de 29 de mayo de 2020, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2020/2021.",
             "versiones": [
@@ -24286,13 +24286,13 @@
             ]
         },
         {
-            "id": "dogv-2019-05-29-2-res",
+            "id": "dogv-2020-05-29-2-res",
             "incluido": "2020-06-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-06-03",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Directrices organización curricular 1º ESO 2020/21 (CV)",
             "titulo": "Resolución de 29 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establecen las directrices generales para la organización curricular del primer curso de Educación Secundaria Obligatoria para el curso 2020-2021.",
             "versiones": [
@@ -24303,7 +24303,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2020-05-29-R-organziacion-curricular-eso-1-2021.pdf"
+                            "url": "dogv/DOGV-2020-05-29-R-organizacion-curricular-eso-1-2021.pdf"
                         },
                         {
                             "formato": "web",
@@ -24318,12 +24318,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2020-05-29-R-organziacion-curricular-eso-1-2021-es.rtf"
+                            "url": "dogv/DOGV-2020-05-29-R-organizacion-curricular-eso-1-2021-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2020-05-29-R-organziacion-curricular-eso-1-2021-va.rtf"
+                            "url": "dogv/DOGV-2020-05-29-R-organizacion-curricular-eso-1-2021-va.rtf"
                         }
                     ]
                 }
@@ -24343,8 +24343,8 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-06-03",
-            "vigencia": "vigente",
-            "descripción": "Instrucciones proceso admisión FP (CV)",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones proceso admisión FP (CV) 20/21",
             "titulo": "Resolución de 1 de junio de 2020, de la Conselleria de Educación, Cultura y Deporte por la que se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, Formación Profesional Básica dirigida a personas beneficiarias del Plan de empleo juvenil y programas formativos de cualificación básica financiados con fondos públicos para el curso 2020-2021.",
             "versiones": [
                 {
@@ -25278,8 +25278,8 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-06-05",
-            "vigencia": "vigente",
-            "descripción": "Calendario de admisión FP (CV)",
+            "vigencia": "vencido",
+            "descripción": "Calendario de admisión FP 20/21 (CV)",
             "titulo": "Resolución de 1 de junio de 2020, de la Secretaria Autonómica de Educación y Formación Profesional, por la que se establecen el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados con ciclos formativos sostenidos con fondos públicos no universitarios; en los programas formativos de cualificación básica financiados con fondos públicos y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidos a personas beneficiarias del Plan de empleo juvenil para el curso 2020/2021.",
             "versiones": [
                 {
@@ -28066,13 +28066,13 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-07-17",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Implantación experimental Cursos de Especialización FP 20/21 (CV)",
             "titulo": "Resolución de 15 de julio de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se implantan determinados cursos de especialización de Formación Profesional con carácter experimental en el curso académico 2020/2021, y se determinan su procedimiento de admisión y aspectos de la organización en el ámbito territorial de la Comunitat Valenciana.",
             "versiones": [
                 {
                     "versión": "original",
-                    "incluido": "2020-07-17",
+                    "fecha": "2020-07-17",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -28203,7 +28203,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-07-30",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso FP 20/21 (CV)",
             "titulo": "Resolución del 28 de julio de 2020, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2020-2021 impartan ciclos de Formación Profesional Básica, de grado medio y de grado superior.",
             "versiones": [
@@ -28255,7 +28255,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-08-04",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones programas cualificación básica 20/21 (CV)",
             "titulo": "Resolución de 31 de julio de 2020, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2020-2021.",
             "versiones": [
@@ -28307,7 +28307,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-07-30",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 20/21 (CV)",
             "titulo": "Resolución de 28 de julio de 2020, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2020-2021.",
             "versiones": [
@@ -28889,7 +28889,7 @@
             ]
         },
         {
-            "id": "dogv-2021-03-29-res",
+            "id": "dogv-2021-03-29-2-res",
             "incluido": "2021-04-01",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -29053,6 +29053,561 @@
                 "educación",
                 "formación profesional",
                 "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "dogv-2021-06-01-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-06-04",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar 2021/22 (CV)",
+            "titulo": "Resolución de 1 de junio de 2021, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-06-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-06-01-R-calendario-escolar-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/6190&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/6190&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-06-01-R-calendario-escolar-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-06-01-R-calendario-escolar-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-03-30-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-04-09",
+            "vigencia": "vigente",
+            "descripción": "Calendario de admisión FP 21/22 (CV)",
+            "titulo": "Resolución de 31 de marzo de 2021, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establece el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados con ciclos formativos sostenidos con fondos públicos no universitarios; en los programas formativos de cualificación básica financiados con fondos públicos y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidos a personas beneficiarias del Plan de empleo juvenil para el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-04-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-03-30-R-admision-fp-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/3457&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/3457&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-03-30-R-admision-fp-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-03-30-R-admision-fp-2122-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2021-05-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-03-30-R-CO-admision-fp-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/4559&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/4559&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-03-30-R-CO-admision-fp-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-03-30-R-CO-admision-fp-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "fp",
+                "admisión",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-03-29-1-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-03-30",
+            "vigencia": "vigente",
+            "descripción": "Calendario de admisión Infantil, Primaria, ESO y Bachillerato 21/22 (CV)",
+            "titulo": "Resolución de 29 de marzo de 2021, del director general de Centros Docentes, por la que se establece el calendario de admisión del alumnado en los centros públicos y privados concertados de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato, para el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-03-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-03-29-R-calendario-admision-secundaria-bachillerato-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/3267&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/3267&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-03-29-R-calendario-admision-secundaria-bachillerato-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-03-29-R-calendario-admision-secundaria-bachillerato-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-05-06-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-05-10",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones Procedimiento de admisión 21/22 (CV)",
+            "titulo": "Resolución de 6 de mayo de 2021, del director general de Centros Docentes, por la que se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato para el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-05-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-05-06-R-admision-secundaria-bachillerato-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/4975&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/4975&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-05-06-R-admision-secundaria-bachillerato-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-05-06-R-admision-secundaria-bachillerato-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-05-27-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-31",
+            "vigencia": "vigente",
+            "descripción": "Directrices organización curricular 1º y 2º ESO 2021/22 (CV)",
+            "titulo": "Resolución de 27 de mayo de 2021, de la Secretaría Autonómica de Educación y Formación Profesional, por la cual se establecen las directrices generales para la organización curricular de los cursos primero y segundo de Educación Secundaria Obligatoria para el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-05-27-R-organizacion-curricular-eso-1-2-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/6044&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/6044&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-05-27-R-organizacion-curricular-eso-1-2-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-05-27-R-organizacion-curricular-eso-1-2-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-07-26-1-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-07-29",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso FP 21/22 (CV)",
+            "titulo": "Resolución de 26 de julio de 2021, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2021-2022 impartan ciclos de Formación Profesional Básica, de grado medio y de grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-07-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-28-R-inicio-curso-fp-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/8232&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/8232&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-28-R-inicio-curso-fp-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-07-28-R-inicio-curso-fp-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-07-26-2-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-07-30",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 21/22 (CV)",
+            "titulo": "Resolución de 26 de julio de 2021, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-26-R-inicio-curso-secundaria-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/8221&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/8221&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-26-R-inicio-curso-secundaria-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-07-26-R-inicio-curso-secundaria-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-07-26-3-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-07-29",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones programas cualificación básica 21/22 (CV)",
+            "titulo": "Resolución de 26 de julio de 2021, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-07-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-26-R-programas-cualificacion-basica-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/8235&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/8235&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-26-R-programas-cualificacion-basica-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-07-26-R-programas-cualificacion-basica-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-07-05-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-07-08",
+            "vigencia": "vigente",
+            "descripción": "Implantación experimental Cursos de Especialización FP 21/22 (CV)",
+            "titulo": "Resolución de 5 de julio de 2021, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se implantan determinados cursos de especialización de Formación Profesional con carácter experimental en el curso académico 2021-2022, se determina su procedimiento de admisión y aspectos de la organización.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-07-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-05-R-implantacion-experimental-cursos-especializacion-fp-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/7495&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/7495&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-05-R-implantacion-experimental-cursos-especializacion-fp-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-07-05-R-implantacion-experimental-cursos-especializacion-fp-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "cursos de especialización",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-12-15-res",
+            "incluido": "2021-12-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-12-21",
+            "vigencia": "vigente",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2022 (CV)",
+            "titulo": "Resolución de 15 de diciembre de 2021, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-12-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-12-15-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/12731&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/12731&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-12-15-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-10-15-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2021/22"
             ]
         }
     ]

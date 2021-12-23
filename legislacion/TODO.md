@@ -50,6 +50,8 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 - 2021-3-22. Me enviaron ayer un correo automático para decirme que había salido una nueva versión de EN 301 549. Hay una página que [informa de la versión](https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=59546).
 
+- 2021-12-23. No sé si ya lo tengo apuntado, pero debería chequear que no hay ids repetidos en legislacion.json, ni nombres de ficheros, ni urls.
+
 ## Otros
 
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.

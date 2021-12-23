@@ -365,7 +365,7 @@
                                 "titulo": "Coronavirus Covid-19",
                                 "referencias": [
                                     "dogv-2020-07-17-res",
-                                    "dogv-2021-03-29-res"
+                                    "dogv-2021-03-29-2-res"
                                 ]
                             }
                         },
@@ -373,24 +373,17 @@
                             "apartado": {
                                 "titulo": "Curso 2021/22",
                                 "referencias": [
-                                    "dogv-2020-12-23-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2020/21",
-                                "referencias": [
-                                    "dogv-2020-05-15-res",
-                                    "dogv-2020-05-21-res",
-                                    "dogv-2019-05-29-1-res",
-                                    "dogv-2019-05-29-2-res",
-                                    "dogv-2020-06-01-1-res",
-                                    "dogv-2020-06-01-2-res",
-                                    "dogv-2020-07-15-res",
-                                    "dogv-2020-07-28-1-res",
-                                    "dogv-2020-07-28-2-res",
-                                    "dogv-2020-07-31-res"
+                                    "dogv-2020-12-23-res",
+                                    "dogv-2021-03-29-1-res",
+                                    "dogv-2021-03-30-res",
+                                    "dogv-2021-05-06-res",
+                                    "dogv-2021-05-27-res",
+                                    "dogv-2021-06-01-res",
+                                    "dogv-2021-07-05-res",
+                                    "dogv-2021-07-26-1-res",
+                                    "dogv-2021-07-26-2-res",
+                                    "dogv-2021-07-26-3-res",
+                                    "dogv-2021-12-15-res"
                                 ]
                             }
                         },
@@ -398,7 +391,6 @@
                             "apartado": {
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
-                                    "dogv-2019-10-15-res",
                                     "dogv-2020-06-29-res"
                                 ]
                             }
@@ -508,7 +500,6 @@
                                 "referencias": [
                                     "docv-2016-40-d",
                                     "docv-2016-7-o",
-                                    "dogv-2019-03-26-res",
                                     "dogv-2020-35-d",
                                     "dogv-2020-5-o"
                                 ]
@@ -918,6 +909,7 @@
                                     "dogv-2017-9-d",
                                     "dogv-2017-3-dl",
                                     "dogv-2017-219-d",
+                                    "dogv-2019-03-26-res",
                                     "dogv-2020-03-12-res",
                                     "dogv-2020-03-23-res",
                                     "dogv-2020-04-01-res",
@@ -944,7 +936,17 @@
                             "apartado": {
                                 "titulo": "Curso 2020/21",
                                 "referencias": [
-                                    "dogv-2020-04-29-res"
+                                    "dogv-2020-04-29-res",
+                                    "dogv-2020-05-15-res",
+                                    "dogv-2020-05-21-res",
+                                    "dogv-2020-05-29-1-res",
+                                    "dogv-2020-05-29-2-res",
+                                    "dogv-2020-06-01-1-res",
+                                    "dogv-2020-06-01-2-res",
+                                    "dogv-2020-07-15-res",
+                                    "dogv-2020-07-28-1-res",
+                                    "dogv-2020-07-28-2-res",
+                                    "dogv-2020-07-31-res"
                                 ]
                             }
                         },
@@ -956,7 +958,8 @@
                                     "dogv-2019-06-10-res",
                                     "dogv-2019-07-08-1-res",
                                     "dogv-2019-07-08-2-res",
-                                    "dogv-2019-07-05-res"
+                                    "dogv-2019-07-05-res",
+                                    "dogv-2019-10-15-res"
                                 ]
                             }
                         },
