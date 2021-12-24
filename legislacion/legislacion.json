@@ -2474,7 +2474,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2016-05-17",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Número máximo de alumnos y jornada lectiva profesores (CV)",
             "titulo": "Decreto 59/2016, de 13 de mayo, del Consell, por el que se fija el número máximo de alumnado y la jornada lectiva del personal docente en los niveles no universitarios regulados por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, en los centros docentes no universitarios de la Comunitat Valenciana.",
             "versiones": [
@@ -2551,7 +2551,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2017-07-14",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Número máximo de alumnos y jornada lectiva profesores (CV)",
             "titulo": "Decreto 89/2017, de 7 de julio, del Consell, por el que se modifican las disposiciones transitorias del Decreto 59/2016, de 13 de mayo, del Consell, por el que se fija el número máximo de alumnado y la jornada lectiva del personal docente en los niveles no universitarios regulados por la Ley orgánica 2/2006, de 3 de mayo, de educación, en los centros docentes no universitarios de la Comunitat Valenciana.",
             "versiones": [
@@ -4776,27 +4776,27 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOCV-2013-74-D-fp dual.pdf"
+                            "url": "dogv/DOCV-2013-74-D-fp-dual.pdf"
                         },
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2013/06/14/74/"
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2013/06/14/74/"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2014/01/13/2/vci"
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2013/06/14/74/vci"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOCV-2013-74-D-fp dual-es.rtf"
+                            "url": "dogv/DOCV-2013-74-D-fp-dual-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOCV-2013-74-D-fp dual-va.rtf"
+                            "url": "dogv/DOCV-2013-74-D-fp-dual-va.rtf"
                         }
                     ]
                 }
@@ -4817,7 +4817,7 @@
             "origen": "DOGV",
             "fecha": "2019-10-23",
             "vigencia": "vencido",
-            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2019 (CV)",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2020 (CV)",
             "titulo": "Resolución de 15 de octubre de 2019, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
             "versiones": [
                 {
@@ -10817,7 +10817,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2017-12-18",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "ROF de Conselleria de Educación (CV)",
             "titulo": "Decreto 186/2017, de 24 de noviembre, del Consell, por el que aprueba el Reglamento orgánico y funcional de la Conselleria de Educación, Investigación, Cultura y Deporte.",
             "versiones": [
@@ -10930,15 +10930,15 @@
             ]
         },
         {
-            "id": "docv-2016-173-d",
+            "id": "docv-2016-73-d",
             "incluido": "2020-01-03",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2016-06-16",
-            "vigencia": "derogado",
+            "vigencia": "vigente",
             "descripción": "ROF de Conselleria de Educación (CV)",
-            "titulo": "Decreto 173/2016, de 10 de junio, del Consell, por el que se modifica el Decreto 155/2015, de 18 de septiembre, del Consell, por el que aprueba el Reglamento orgánico y funcional de la Conselleria de Educación, Investigación, Cultura y Deporte.",
+            "titulo": "Decreto 73/2016, de 10 de junio, del Consell, por el que se modifica el Decreto 155/2015, de 18 de septiembre, del Consell, por el que aprueba el Reglamento orgánico y funcional de la Conselleria de Educación, Investigación, Cultura y Deporte.",
             "versiones": [
                 {
                     "versión": "original",
@@ -10947,7 +10947,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOCV-2016-173-D-rof-conselleria-educacion.pdf"
+                            "url": "dogv/DOCV-2016-73-D-rof-conselleria-educacion.pdf"
                         },
                         {
                             "formato": "web",
@@ -10962,12 +10962,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOCV-2016-173-D-rof-conselleria-educacion-es.rtf"
+                            "url": "dogv/DOCV-2016-73-D-rof-conselleria-educacion-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOCV-2016-173-D-rof-conselleria-educacion-va.rtf"
+                            "url": "dogv/DOCV-2016-73-D-rof-conselleria-educacion-va.rtf"
                         }
                     ]
                 }
@@ -27048,8 +27048,8 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-07-06",
-            "vigencia": "vigente",
-            "descripción": "Calendario de las pruebas para la obtención de títulos Formación Profesional 2019 (CV)",
+            "vigencia": "vencido",
+            "descripción": "Calendario de las pruebas para la obtención de títulos Formación Profesional 2020 (CV)",
             "titulo": "Resolución de 29 de junio de 2020, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la cual se establece el calendario de realización de las pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional.",
             "versiones": [
                 {
@@ -28431,7 +28431,7 @@
             "origen": "BOE",
             "fecha": "2020-09-30",
             "vigencia": "vigente",
-            "descripción": "Convenio Promoción del pensamiento computacional (Comunidad Valenciana)",
+            "descripción": "Convenio Promoción del pensamiento computacional (CV)",
             "titulo": "Resolución de 17 de noviembre de 2020, de la Secretaría General Técnica, por la que se publica el Convenio  con la Comunitat Valenciana, para la promoción del pensamiento computacional en todas las etapas educativas no universitarias a través del proyecto «Escuela de Pensamiento Computacional e Inteligencia Artificial».",
             "versiones": [
                 {
@@ -29390,6 +29390,37 @@
                             "url": "dogv/DOGV-2021-07-28-R-inicio-curso-fp-2122-va.rtf"
                         }
                     ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2021-10-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-28-R-CO-inicio-curso-fp-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/10383&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/10383&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-28-R-CO-inicio-curso-fp-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-07-28-R-CO-inicio-curso-fp-2122-va.rtf"
+                        }
+                    ]
                 }
             ],
             "claves": [
@@ -29608,6 +29639,302 @@
                 "formación profesional",
                 "pruebas para la obtención de los títulos",
                 "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2020-173-d",
+            "incluido": "2021-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-11-24",
+            "vigencia": "vigente",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 173/2020, de 30 de octubre, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Deporte..",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-11-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-173-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2020/10/30/173/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2020/10/30/173/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-173-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-173-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-2021-9-o",
+            "incluido": "2021-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-05-11",
+            "vigencia": "vigente",
+            "descripción": "Desarrollo del ROF de Conselleria de Educación (CV)",
+            "titulo": "Orden 9/2021, de 7 de mayo, de la Conselleria de Educación, Cultura y Deporte, de desarrollo del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Deporte.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-05-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-9-O-desarrollo-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2021/05/07/9/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2021/05/07/9/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-9-O-desarrollo-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-9-O-desarrollo-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-2021-58-d",
+            "incluido": "2021-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-05-06",
+            "vigencia": "vigente",
+            "descripción": "Número máximo de alumnos y jornada lectiva profesores (CV)",
+            "titulo": "Decreto 58/2021, de 30 de abril, del Consell, sobre jornada lectiva del personal docente y número máximo de alumnado por unidad en centros docentes no universitarios.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-05-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-58-D-maximo-alumnos-jornada-lectiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/4855&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/4855&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-58-D-maximo-alumnos-jornada-lectiva-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-58-D-maximo-alumnos-jornada-lectiva-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "alumnos",
+                "profesores",
+                "jornada lectiva"
+            ]
+        },
+        {
+            "id": "boe-2021-984-rd",
+            "incluido": "2021-12-24",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2021-11-17",
+            "vigencia": "vigente",
+            "descripción": "Evaluación, promoción y titulación ESO, Bachillerato y FP",
+            "titulo": "Real Decreto 984/2021, de 16 de noviembre, por el que se regulan la evaluación y la promoción en la Educación Primaria, así como la evaluación, la promoción y la titulación en la Educación Secundaria Obligatoria, el Bachillerato y la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-11-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2021-984-RD-evaluacion-promocion-titulacion-eso-bachillerato-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2021/11/16/984"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "evaluación",
+                "promoción",
+                "titulación",
+                "secundaria",
+                "ESO",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-2021-47-d",
+            "incluido": "2021-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-04-06",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional Dual (CV)",
+            "titulo": "Decreto 47/2021, de 26 de marzo, del Consell, de modificación del Decreto 74/2013, de 14 de junio, del Consell, por el que se regula la Formación Profesional Dual del sistema educativo en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-04-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-47-D-fp-dual.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/3390&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/3390&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-47-D-fp-dual-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-47-D-fp-dual-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "fp dual"
+            ]
+        },
+        {
+            "id": "dogv-2021-02-21-res",
+            "incluido": "2021-12-24",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-03-03",
+            "vigencia": "vencido",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2021 (CV)",
+            "titulo": "Resolución de 21 de febrero de 2021, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-03-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-02-21-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/1657&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/1657&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-02-21-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-02-21-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2020/21"
             ]
         }
     ]
