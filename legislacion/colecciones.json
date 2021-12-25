@@ -373,6 +373,7 @@
                                 "titulo": "Coronavirus Covid-19",
                                 "referencias": [
                                     "dogv-2020-07-17-res",
+                                    "dogv-2020-11-07-res",
                                     "dogv-2021-03-29-2-res"
                                 ]
                             }
@@ -430,25 +431,6 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Convivencia",
-                                "referencias": [
-                                    "docv-2007-09-12-o",
-                                    "docv-2008-39-d",
-                                    "docv-2010-15-l"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Centros integrados de Formación Profesional",
-                                "referencias": [
-                                    "docv-2008-115-d",
-                                    "dogv-2019-74-d"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
                                 "titulo": "Formación Profesional",
                                 "referencias": [
                                     "docv-2008-01-29-o",
@@ -472,11 +454,31 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Centros integrados de Formación Profesional",
+                                "referencias": [
+                                    "docv-2008-115-d",
+                                    "dogv-2019-74-d"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Formación Profesional Dual",
                                 "referencias": [
                                     "docv-2013-74-d",
                                     "docv-2014-02-o",
                                     "dogv-2021-47-d"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Admisión",
+                                "referencias": [
+                                    "docv-2016-40-d",
+                                    "docv-2016-7-o",
+                                    "dogv-2020-35-d",
+                                    "dogv-2020-5-o"
                                 ]
                             }
                         },
@@ -505,12 +507,11 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Admisión",
+                                "titulo": "Convivencia",
                                 "referencias": [
-                                    "docv-2016-40-d",
-                                    "docv-2016-7-o",
-                                    "dogv-2020-35-d",
-                                    "dogv-2020-5-o"
+                                    "docv-2007-09-12-o",
+                                    "docv-2008-39-d",
+                                    "docv-2010-15-l"
                                 ]
                             }
                         },
@@ -518,7 +519,21 @@
                             "apartado": {
                                 "titulo": "Plurilingüismo",
                                 "referencias": [
-                                    "dogv-2018-4-l"
+                                    "dogv-2018-4-l",
+                                    "dogv-2020-06-04-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Formación permanente del profesorado",
+                                "referencias": [
+                                    "dogv-1997-231-d",
+                                    "docv-2012-64-o",
+                                    "docv-2012-65-o",
+                                    "docv-2014-54-o",
+                                    "dogv-2017-164-d",
+                                    "dogv-2020-05-21-2-res"
                                 ]
                             }
                         },
@@ -537,11 +552,9 @@
                                     "docv-2011-45-o",
                                     "docv-2012-108-d",
                                     "docv-2013-183-d",
-                                    "docv-2014-54-o",
                                     "docv-2015-69-o",
                                     "docv-2016-73-d",
                                     "dogv-2017-38-o",
-                                    "dogv-2017-164-d",
                                     "dogv-2018-06-28-res",
                                     "dogv-2019-252-d",
                                     "dogv-2020-173-d",
@@ -950,7 +963,7 @@
                                 "referencias": [
                                     "dogv-2020-04-29-res",
                                     "dogv-2020-05-15-res",
-                                    "dogv-2020-05-21-res",
+                                    "dogv-2020-05-21-1-res",
                                     "dogv-2020-05-29-1-res",
                                     "dogv-2020-05-29-2-res",
                                     "dogv-2020-06-01-1-res",
@@ -959,6 +972,7 @@
                                     "dogv-2020-07-28-1-res",
                                     "dogv-2020-07-28-2-res",
                                     "dogv-2020-07-31-res",
+                                    "dogv-2020-11-04-res",
                                     "dogv-2021-02-21-res"
                                 ]
                             }

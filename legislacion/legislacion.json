@@ -23535,7 +23535,7 @@
             ]
         },
         {
-            "id": "dogv-2020-05-21-res",
+            "id": "dogv-2020-05-21-1-res",
             "incluido": "2020-05-26",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -29304,14 +29304,14 @@
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
-            "fecha": "2020-05-31",
+            "fecha": "2021-05-31",
             "vigencia": "vigente",
             "descripción": "Directrices organización curricular 1º y 2º ESO 2021/22 (CV)",
             "titulo": "Resolución de 27 de mayo de 2021, de la Secretaría Autonómica de Educación y Formación Profesional, por la cual se establecen las directrices generales para la organización curricular de los cursos primero y segundo de Educación Secundaria Obligatoria para el curso 2021-2022.",
             "versiones": [
                 {
                     "versión": "original",
-                    "fecha": "2020-05-31",
+                    "fecha": "2021-05-31",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -29935,6 +29935,364 @@
                 "formación profesional",
                 "pruebas para la obtención de los títulos",
                 "curso 2020/21"
+            ]
+        },
+        {
+            "id": "dogv-2020-11-07-res",
+            "incluido": "2021-12-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-11-11",
+            "vigencia": "vigente",
+            "descripción": "FCT 2020/21 Coronavirus Covid-19 (CV)",
+            "titulo": "Resolución de 7 de noviembre de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones sobre la realización de la formación en centros de trabajo de los centros de la Comunitat Valenciana que durante el curso 2020-2021 impartan ciclos de Formación Profesional Básica, de grado medio y de grado superior, programas formativos de cualificación básica, así como enseñanzas artísticas profesionales y enseñanzas deportivas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-11-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-11-07-R-covid-fct-2021.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2020/9454&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2020/9454&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-11-07-R-covid-fct-2021-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-11-07-R-covid-fct-2021-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "curso 2020/21",
+                "formación profesional",
+                "fct",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "dogv-2020-11-04-res",
+            "incluido": "2021-12-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-11-09",
+            "vigencia": "vencido",
+            "descripción": "Período de impartición Cursos de Especialización FP 20/21 (CV)",
+            "titulo": "Resolución de 4 de noviembre de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establece el período para impartir los cursos de especialización de Formación Profesional en el curso 2020-2021 en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-11-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-11-04-R-periodo-imparticion-cursos-especializacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2020/9325&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2020/9325&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-11-04-R-periodo-imparticion-cursos-especializacion-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-11-04-R-periodo-imparticion-cursos-especializacion-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "cursos de especialización",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "dogv-2020-06-04-res",
+            "incluido": "2021-12-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-06-30",
+            "vigencia": "vigente",
+            "descripción": "Portfolio Europeo de las Lenguas como actividad de formación (CV)",
+            "titulo": "Resolución de 4 de junio de 2020, de la Dirección General de Innovación Educativa y Ordenación, por la que se regula la solicitud de participación y la aplicación del Portfolio Europeo de las Lenguas y el Portfolio Europeo de las Lenguas electrónico, e-PEL (+14), en los centros de Educación Infantil y Primaria, de Educación Secundaria, de Ciclos Formativos y de Formación de Personas Adultas y de Escuelas Oficiales de Idiomas de la Comunitat Valenciana, y se establecen las condiciones para el reconocimiento como actividad de formación del profesorado.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-04-R-plurilinguismo-actividad-formacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2020/5034&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2020/5034&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-06-04-R-plurilinguismo-actividad-formacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-06-04-R-plurilinguismo-actividad-formacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plurilingüismo",
+                "portfolio europeo de las lenguas",
+                "formación profesorado"
+            ]
+        },
+        {
+            "id": "dogv-2020-05-21-2-res",
+            "incluido": "2021-12-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2020-05-29",
+            "vigencia": "vigente",
+            "descripción": "Plan bienal de formación permanente del profesorado cursos 202/21 y 2021/22 (CV)",
+            "titulo": "Resolución de 21 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establece el Plan bienal de formación permanente del profesorado correspondiente a los cursos 2020-2021 y 2021-2022, teniendo en cuenta las modificaciones generadas en el Plan anual de formación 2019-20 sobre la base de la situación de emergencia de salud pública ocasionada por la Covid-19.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-05-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-21-R-plan-bienal-formacion-permanente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2020/3734&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2020/3734&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-21-R-plan-bienal-formacion-permanente-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-21-R-plan-bienal-formacion-permanente-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "formación profesorado"
+            ]
+        },
+        {
+            "id": "docv-2012-64-o",
+            "incluido": "2021-12-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-10-31",
+            "vigencia": "vigente",
+            "descripción": "Desarrollo del Decreto de CEFIRES (CV)",
+            "titulo": "Orden 64/2012, de 26 de octubre, de la Conselleria de Educación, Formación y Empleo, por la que se desarrolla el Decreto 231/1997, de 2 de septiembre, por el que se regula la creación, estructura y funcionamiento de los Centros de Formación, Innovación y Recursos Educativos de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-10-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-64-O-desarrollo-decreto-cefires.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2012/10/26/64/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2012/10/26/64/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-64-O-desarrollo-decreto-cefires-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-64-O-desarrollo-decreto-cefires-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "formación profesorado",
+                "cefires"
+            ]
+        },
+        {
+            "id": "dogv-1997-231-d",
+            "incluido": "2021-12-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1997-09-08",
+            "vigencia": "vigente",
+            "descripción": "Creación, estrucutra y funcionamiento de CEFIRES (CV)",
+            "titulo": "Decreto 231/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se regula la creación, estructura y funcionamiento de los Centros de Formación, Innovación y Recursos Educativos de la Comunidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-09-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-231-D-creacion-cefires.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/1997/09/02/231/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/1997/09/02/231/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-231-D-creacion-cefires-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1997-231-D-creacion-cefires-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "formación profesorado",
+                "cefires"
+            ]
+        },
+        {
+            "id": "docv-2012-65-o",
+            "incluido": "2021-12-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-10-31",
+            "vigencia": "vigente",
+            "descripción": "Modelo de formación permanente del profesorado (CV)",
+            "titulo": "Orden 65/2012, de 26 de octubre, de la Conselleria de Educación, Formación y Empleo, que establece el modelo de formación permanente del profesorado y el diseño, reconocimiento y registro de las actividades formativas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-10-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-65-O-formacion-permanente-profesorado.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2012/10009&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2012/10009&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-65-O-formacion-permanente-profesorado-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-65-O-formacion-permanente-profesorado-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "formación profesorado"
             ]
         }
     ]
