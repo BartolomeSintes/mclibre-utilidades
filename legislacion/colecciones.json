@@ -456,8 +456,8 @@
                             "apartado": {
                                 "titulo": "Centros integrados de Formación Profesional",
                                 "referencias": [
-                                    "docv-2008-115-d",
-                                    "dogv-2019-74-d"
+                                    "dogv-2019-74-d",
+                                    "docv-2021-193-d"
                                 ]
                             }
                         },
@@ -906,6 +906,7 @@
                                     "docv-2007-112-d",
                                     "docv-2007-118-d",
                                     "docv-2008-102-d",
+                                    "docv-2008-115-d",
                                     "docv-2008-11-24-o",
                                     "docv-2009-03-31-o",
                                     "docv-2009-05-19-2-o",
@@ -954,9 +955,24 @@
                 {
                     "nombre": "listados/educativa-derogada-anual-es-cv.html",
                     "titulo": "Legislación educativa Comunidad Valenciana (Anual) - Vencida",
-                    "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la organización de cada curso académico y publicadas anualmente en el Diario Oficial de la Generalitat Valenciana.",
+                    "introducción": "Esta página contiene NNN referencias legislativas vencidas relacionadas con la organización de cada curso académico y publicadas anualmente en el Diario Oficial de la Generalitat Valenciana.",
                     "profundidad": 1,
                     "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Formación permanente del profesorado",
+                                "referencias": [
+                                    "docv-2012-12-14-res",
+                                    "docv-2013-08-26-res",
+                                    "docv-2014-07-25-res",
+                                    "dogv-2015-08-26-res",
+                                    "dogv-2016-10-14-res",
+                                    "dogv-2017-10-05-res",
+                                    "dogv-2018-07-20-res",
+                                    "dogv-2019-07-31-res"
+                                ]
+                            }
+                        },
                         {
                             "apartado": {
                                 "titulo": "Curso 2020/21",
