@@ -79,8 +79,6 @@
                             "apartado": {
                                 "titulo": "Coronavirus Covid-19",
                                 "referencias": [
-                                    "boe-2020-21-rdl",
-                                    "boe-2020-561-o",
                                     "boe-2020-757-o",
                                     "boe-2020-31-rdl"
                                 ]
@@ -372,9 +370,8 @@
                             "apartado": {
                                 "titulo": "Coronavirus Covid-19",
                                 "referencias": [
-                                    "dogv-2020-07-17-res",
-                                    "dogv-2020-11-07-res",
-                                    "dogv-2021-03-29-2-res"
+                                    "dogv-2020-06-19-acu",
+                                    "dogv-2020-07-17-res"
                                 ]
                             }
                         },
@@ -448,16 +445,10 @@
                                     "dogv-2017-04-04-res",
                                     "dogv-2018-05-15-res",
                                     "dogv-2018-05-22-res",
-                                    "dogv-2020-36-d"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Centros integrados de Formación Profesional",
-                                "referencias": [
                                     "dogv-2019-74-d",
-                                    "docv-2021-193-d"
+                                    "dogv-2020-36-d",
+                                    "dogv-2021-2-o",
+                                    "dogv-2021-193-d"
                                 ]
                             }
                         },
@@ -468,6 +459,16 @@
                                     "docv-2013-74-d",
                                     "docv-2014-02-o",
                                     "dogv-2021-47-d"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Reconocimiento de Cualificaciones Profesionales",
+                                "referencias": [
+                                    "dogv-2018-3-d",
+                                    "dogv-2021-07-21-res",
+                                    "dogv-2021-11-09-res"
                                 ]
                             }
                         },
@@ -560,7 +561,8 @@
                                     "dogv-2020-173-d",
                                     "boe-2020-11-17-res",
                                     "dogv-2021-58-d",
-                                    "dogv-2021-9-o"
+                                    "dogv-2021-9-o",
+                                    "dogv-2021-11-29-res"
                                 ]
                             }
                         }
@@ -569,25 +571,9 @@
                 {
                     "nombre": "listados/educativa-derogada.html",
                     "titulo": "Legislación educativa - Derogada",
-                    "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la educación y publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
+                    "introducción": "Esta página contiene NNN referencias legislativas derogadas o vencidas relacionadas con la educación y publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
                     "profundidad": 1,
                     "contenido": [
-                        {
-                            "apartado": {
-                                "titulo": "Coronavirus Covid-19",
-                                "referencias": [
-                                    "boe-2020-463-rd",
-                                    "boe-2020-465-rd",
-                                    "boe-2020-361-o",
-                                    "boe-2020-362-o",
-                                    "boe-2020-365-o",
-                                    "boe-2020-399-o",
-                                    "boe-2020-537-rd",
-                                    "boe-2020-440-o",
-                                    "boe-2020-555-rd"
-                                ]
-                            }
-                        },
                         {
                             "apartado": {
                                 "titulo": "Marco Español de Cualificaciones para la Educación Superior",
@@ -919,9 +905,10 @@
                                     "docv-2011-27-o",
                                     "docv-2011-33-o",
                                     "docv-2011-98-d",
-                                    "docv-2012-50-o",
+                                    "docv-2012-73-d",
                                     "docv-2012-103-d",
                                     "docv-2012-115-d",
+                                    "docv-2012-50-o",
                                     "docv-2012-127-d",
                                     "docv-2012-190-d",
                                     "docv-2013-14-o",
@@ -935,7 +922,32 @@
                                     "dogv-2017-89-d",
                                     "dogv-2017-186-d",
                                     "dogv-2017-219-d",
-                                    "dogv-2019-03-26-res",
+                                    "dogv-2019-03-26-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Coronavirus Covid-19 (España)",
+                                "referencias": [
+                                    "boe-2020-463-rd",
+                                    "boe-2020-465-rd",
+                                    "boe-2020-361-o",
+                                    "boe-2020-362-o",
+                                    "boe-2020-365-o",
+                                    "boe-2020-399-o",
+                                    "boe-2020-537-rd",
+                                    "boe-2020-440-o",
+                                    "boe-2020-555-rd",
+                                    "boe-2020-21-rdl",
+                                    "boe-2020-561-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Coronavirus Covid-19 (CV)",
+                                "referencias": [
                                     "dogv-2020-03-12-res",
                                     "dogv-2020-03-23-res",
                                     "dogv-2020-04-01-res",
@@ -946,7 +958,8 @@
                                     "dogv-2020-05-26-res",
                                     "dogv-2020-06-01-res",
                                     "dogv-2020-8-d",
-                                    "dogv-2020-06-19-acu"
+                                    "dogv-2020-11-07-res",
+                                    "dogv-2021-03-29-2-res"
                                 ]
                             }
                         }

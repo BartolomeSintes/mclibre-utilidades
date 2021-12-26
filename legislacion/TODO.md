@@ -2,6 +2,14 @@
 
 Este repositorio contiene una colección legislativa de interés para profesores y alumnos de Informática.
 
+## Urgentes
+
+-   2021-12-26. Poner versión consolidada en todas las directivas. También lo tendría que hacer en las cosas del BOE y en el DOGV también tienen versiones consolidadas de algunas cosas. No tengo claro cómo gestiono las varias versiones de legislación consolidada en el json.
+
+-   2021-12-26. Algunos RTF tiene tamaño 1 KB o 2KB. Es porque están vacíos o solo contienen el título. Debería descargarlos de nuevo o quitarlos.
+
+-   2021-12-26. Poner nlaces https a DOGV. Poner enlaces permanentes eli a DOGV. <https://dogv.gva.es/es/projecte-eli-identificador-legislatiu-europeu>
+
 ## Errores
 
 -   2020-05-20. Al final de Otros temas pone el borrador de ciberseguridad que no está en ningún apartado.
@@ -52,6 +60,7 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 - 2021-12-23. No sé si ya lo tengo apuntado, pero debería chequear que no hay ids repetidos en legislacion.json, ni nombres de ficheros, ni urls.
 
+
 ## Otros
 
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.
@@ -95,7 +104,15 @@ la Generalitat Valenciana. (En vigor parcialmente)
 
 -   [Guías de aplicación de las Normas Técnicas de Interoperabilidad (NTI)](https://www.anabad.org/guias-de-aplicacion-de-las-normas-tecnicas-de-interoperabilidad-nti-en-la-coleccion-administracion-electronica/)
 
+-   ORDEN 4/2021, de 4 de febrero, del conseller de Educación, Cultura y Deporte, por el que se modifica la Orden 3/2020, de 6 de febrero, de la Consellería de Educación, Cultura y Deporte, por la que se determina la competencia lingüística necesaria para el acceso y el ejercicio de la función docente en el sistema educativo valenciano. https://dogv.gva.es/datos/2021/02/08/pdf/2021_1083.pdf
+
+-   ORDEN 5/2021, de 12 de febrero, de la Conselleria de Educación, Cultura y Deporte, por la que se regulan el contenido, uso y acceso al expediente docente electrónico normalizado (EDEN), al servicio del sistema público educativo de la Generalitat. https://dogv.gva.es/datos/2021/02/17/pdf/2021_1347.pdf
+
+-   ORDEN 3/2020, de 6 de febrero, de la Consellería de Educación, Cultura y Deporte, por la que se determina la competencia lingüística necesaria para el acceso y el ejercicio de la función docente en el sistema educativo valenciano. https://dogv.gva.es/datos/2020/02/10/pdf/2020_1131.pdf
+
 ## Dónde mirar referencias
+
+-   <http://legislacioeducativa.blogspot.com/>
 
 -   <http://bibliotecacefirevalencia.blogspot.com/search/label/Legislaci%C3%B3n>
 
@@ -113,6 +130,8 @@ la Generalitat Valenciana. (En vigor parcialmente)
 -   A veces el buscador no muestra el DOGV completo, pero esta dirección parece que sí: <http://www.dogv.gva.es/datos/1999/11/30/PortalSDLCAS.html>
 
 - <https://algoquedaquedecir.blogspot.com/>. [Ratios en educación: normativa](http://algoquedaquedecir.blogspot.com/2018/12/ratios-en-educacion-normativa.html)
+
+-   <https://www.csif.es/contenido/comunidad-valenciana/educacion/149216>
 
 
 

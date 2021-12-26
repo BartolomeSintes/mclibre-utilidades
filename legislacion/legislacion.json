@@ -18989,7 +18989,7 @@
                 "resolución",
                 "educación",
                 "formación profesional",
-                "oferta integrada"
+                "oferta integrada de fp"
             ]
         },
         {
@@ -22017,7 +22017,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-04-06",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Medidas urgentes Coronavirus Covid-19 (CV)",
             "titulo": "Decreto Ley 2/2020, de 3 de abril, de medidas urgentes, en el ámbito de la educación, de la cultura y del deporte, para paliar los efectos de la emergencia sanitaria provocada por la Covid-19.",
             "versiones": [
@@ -22069,7 +22069,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-04-03",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Formación profesional para el empleo Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 1 de abril de 2020, del director general de LABORA Servicio Valenciano de Empleo y Formación, por la que se establecen instrucciones con relación a la impartición de formación profesional para el empleo tras la suspensión de las acciones formativas a consecuencia de la crisis sanitaria provocadas por el COVID-19.",
             "versiones": [
@@ -22325,7 +22325,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-05-08",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Tercer trimestre 2019/20 Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 4 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establecen el marco y las directrices de actuación que hay que desarrollar durante el tercer trimestre del curso 2019/2020 y el inicio del curso 2020/2021, ante la situación de crisis ocasionada por la Covid-19.",
             "versiones": [
@@ -22379,7 +22379,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-03-13",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Suspensión actividad educativa presencial Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 12 de marzo de 2020, de la consellera de Sanidad Universal y Salud Pública, por la que se acuerda suspender temporalmente la actividad educativa y formativa presencial en todos los centros y etapas, ciclos, grados, cursos y niveles de enseñanza en la Comunitat Valenciana, como consecuencia de la situación y evolución del coronavirus (Covid-19).",
             "versiones": [
@@ -22391,6 +22391,26 @@
                             "formato": "pdf",
                             "idioma": "es",
                             "url": "dogv/DOGV-2020-03-12-R-covid-suspension-actividad-educativa-presencial.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2020/2526&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2020/2526&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-03-12-R-covid-suspension-actividad-educativa-presencial-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-03-12-R-covid-suspension-actividad-educativa-presencial-va.rtf"
                         }
                     ]
                 }
@@ -22452,7 +22472,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-05-12",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Apertura centros educativos tareas administrativas Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 11 de mayo de 2020, de la Consellera de Sanidad Universal y Salud Pública, por la que se autoriza la apertura de los centros educativos de la Comunitat Valenciana, para la realización de determinadas funciones administrativas y de coordinación.",
             "versiones": [
@@ -22464,6 +22484,26 @@
                             "formato": "pdf",
                             "idioma": "es",
                             "url": "dogv/DOGV-2020-05-11-R-covid-apertura-centros-tareas-administrativas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2020/3381&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2020/3381&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-05-11-R-covid-apertura-centros-tareas-administrativas-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-05-11-R-covid-apertura-centros-tareas-administrativas-va.rtf"
                         }
                     ]
                 }
@@ -22937,7 +22977,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-05-15",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Reapertura parcial centros educativos Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 13 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la prestación de servicios administrativos y de coordinación en los centros educativos.",
             "versiones": [
@@ -24029,7 +24069,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-05-28",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Regulación fase 2 Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 26 de mayo de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la fase 2 del Plan para la transición hacia una nueva normalidad",
             "versiones": [
@@ -24169,7 +24209,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-03-24",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Cierre centros educativos Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de la consellera de Sanidad Universal y Salud Pública, de 23 de marzo de 2020, por la que se acuerda el cierre de todos los centros educativos de la Comunitat Valenciana, como consecuencia de la situación de crisis sanitaria ocasionada por el COVID-19. (CV).",
             "versiones": [
@@ -24181,6 +24221,16 @@
                             "formato": "pdf",
                             "idioma": "es",
                             "url": "dogv/DOGV-2020-03-23-R-covid-cierre-centros.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2020/2683&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-03-23-R-covid-cierre-centros-es.rtf"
                         }
                     ]
                 }
@@ -26163,7 +26213,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2020-06-10",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Nueva normalidad Coronavirus Covid-19",
             "titulo": "Real Decreto-ley 21/2020, de 9 de junio, de medidas urgentes de prevención, contención y coordinación para hacer frente a la crisis sanitaria ocasionada por el COVID-19.",
             "versiones": [
@@ -26198,7 +26248,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-06-13",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Regulación fase 3 Coronavirus Covid-19 (CV)",
             "titulo": "Decreto 8/2020, de 13 de junio, del president de la Generalitat, de regulación y flexibilización de determinadas restricciones, en el ámbito de la Comunitat Valenciana, establecidas durante la declaración del estado de alarma, en aplicación de la fase 3 del Plan para la transición hacia una nueva normalidad. (CV).",
             "versiones": [
@@ -26252,9 +26302,9 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-06-02",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Formación profesional para el empleo Coronavirus Covid-19 (CV)",
-            "titulo": "Resolución  de 1 de junio de 2020, de la Dirección General de LABORA Servicio Valenciano de Empleo y Formación, por la que se adoptan medidas para la recuperación de la actividad formativa presencial en la formación profesional para el empleo en el ámbito laboral, en el marco de la implementación del Plan para la transición hacia una nueva normalidad.",
+            "titulo": "Resolución de 1 de junio de 2020, de la Dirección General de LABORA Servicio Valenciano de Empleo y Formación, por la que se adoptan medidas para la recuperación de la actividad formativa presencial en la formación profesional para el empleo en el ámbito laboral, en el marco de la implementación del Plan para la transición hacia una nueva normalidad.",
             "versiones": [
                 {
                     "versión": "original",
@@ -26354,7 +26404,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2020-06-24",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Acuerdos para el curso 20/21 Coronavirus Covid-19",
             "titulo": "Orden EFP/561/2020, de 20 de junio, por la que se publican Acuerdos de la Conferencia  Sectorial  de  Educación,  para  el  inicio  y  el  desarrollo  del  curso 2020-2021.",
             "versiones": [
@@ -28895,7 +28945,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2021-03-31",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Tercer trimestre 2020/21 Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 29 de marzo de 2021, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la adaptación del currículo, las programaciones didácticas y los criterios de evaluación, promoción y titulación durante el curso 2020-2021, ante la situación ocasionada por la Covid-19.",
             "versiones": [
@@ -29944,7 +29994,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2020-11-11",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "FCT 2020/21 Coronavirus Covid-19 (CV)",
             "titulo": "Resolución de 7 de noviembre de 2020, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones sobre la realización de la formación en centros de trabajo de los centros de la Comunitat Valenciana que durante el curso 2020-2021 impartan ciclos de Formación Profesional Básica, de grado medio y de grado superior, programas formativos de cualificación básica, así como enseñanzas artísticas profesionales y enseñanzas deportivas.",
             "versiones": [
@@ -30707,7 +30757,7 @@
             ]
         },
         {
-            "id": "docv-2021-193-d",
+            "id": "dogv-2021-193-d",
             "incluido": "2021-12-26",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -30756,6 +30806,305 @@
                 "secundaria",
                 "formación profesional",
                 "centros integrados de formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2021-2-o",
+            "incluido": "2021-12-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-12-20",
+            "vigencia": "vigente",
+            "descripción": "Desarrollo oferta integrada FP en IES (CV)",
+            "titulo": "Orden de 25 de noviembre, conjunta, de la Conselleria de Educación, Cultura y Deporte y de la Conselleria de Economía Sostenible, Sectores Productivos, Comercio y Trabajo, por la cual se desarrolla el Decreto 74/2019, de 24 de mayo, del Consell, por el que se determinan los requisitos y el procedimiento de aprobación de la oferta integrada de Formación Profesional en institutos de Educación Secundaria autorizados en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-12-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-2-O-desarrollo-oferta-integrada-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/12069&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/12069&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-2-O-desarrollo-oferta-integrada-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-2-O-desarrollo-oferta-integrada-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "oferta integrada de fp"
+            ]
+        },
+        {
+            "id": "dogv-2021-11-29-res",
+            "incluido": "2021-12-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-12-21",
+            "vigencia": "vigente",
+            "descripción": "Catálogo TIC contratado por centro educativos (CV)",
+            "titulo": "Resolución de 29 de noviembre de 2021, del director general de Tecnologías de la Información de las Comunicaciones de la Conselleria de Hacienda y Modelo Económico, por la que se crea el catálogo de equipamiento y productos TIC susceptible de ser contratado por los centros educativos de la Generalitat y se establece su presupuesto.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-12-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-11-29-R-catalogo-tic-contratado-centros.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/12180&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/12180&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-11-29-R-catalogo-tic-contratado-centros-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-11-29-R-catalogo-tic-contratado-centros-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "compras"
+            ]
+        },
+        {
+            "id": "docv-2012-73-d",
+            "incluido": "2019-12-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-05-21",
+            "vigencia": "derogado",
+            "descripción": "Aplicación RDL 14/2012 medidas urgentes gasto público (CV)",
+            "titulo": "Decreto 73/2012, de 18 de mayo, del Consell, por el que se determinan las condiciones de aplicación del Real Decreto Ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo no universitario en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-05-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-73-D-aplicacion-rdl-2012-14-gasto-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2012/05/18/73/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2012/05/18/73/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-73-D-aplicacion-rdl-2012-14-gasto-publico-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-73-D-aplicacion-rdl-2012-14-gasto-publico-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "recortes",
+                "jornada lectiva"
+            ]
+        },
+        {
+            "id": "dogv-2018-3-d",
+            "incluido": "2021-12-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2018-03-02",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento de reconocimiento de competencias adquiridas por experiencia laboral (CV)",
+            "titulo": "Decreto 3/2018, de 12 de enero, del Consell, por el que se establece la estructura organizativa y el procedimiento de evaluación y acreditación de la competencia profesional adquirida por experiencia laboral o formación no formal.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-03-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-3-D-procedimiento-reconocimiento-competencias-experiencia-laboral.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2018/2109&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2018/2109&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2018-3-D-procedimiento-reconocimiento-competencias-experiencia-laboral-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2018-3-D-procedimiento-reconocimiento-competencias-experiencia-laboral-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "reconocimiento de cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "dogv-2021-11-09-res",
+            "incluido": "2021-12-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-11-16",
+            "vigencia": "vigente",
+            "descripción": "Admisión en oferta parcial de alumnos con reconocimiento de competencias (CV)",
+            "titulo": "Resolución de 9 de noviembre de 2021, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se dictan instrucciones para la admisión y matrícula en oferta parcial en ciclos formativos de Formación Profesional de aquellas personas que hayan participado en alguno de los procedimientos de evaluación y acreditación de las competencias profesionales, adquiridas a través de la experiencia laboral o de vías no formales de formación convocados en el ámbito de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-11-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-11-09-R-admision-oferta-parcial-reconomiento-competencias.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/11455&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/11455&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-11-09-R-admision-oferta-parcial-reconomiento-competencias-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-11-09-R-admision-oferta-parcial-reconomiento-competencias-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "admisión",
+                "reconocimiento de cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "dogv-2021-07-21-res",
+            "incluido": "2021-12-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-07-27",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento permanente de reconocimiento de competencias adquiridas por experiencia laboral (CV)",
+            "titulo": "Resolución de 21 de julio de 2021, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se convoca un procedimiento abierto de manera permanente, para la evaluación y acreditación de la totalidad de las unidades de competencia profesional incluidas en la oferta existente de Formación Profesional en la Comunitat Valenciana vinculada al Catálogo nacional de las cualificaciones profesionales, que hayan sido adquiridas a través de la experiencia laboral o de vías no formales de formación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-07-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-07-21-R-procedimiento-permanente-reconomiento-competencias.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/8074&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/8074&L=1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "reconocimiento de cualificaciones profesionales"
             ]
         }
     ]
