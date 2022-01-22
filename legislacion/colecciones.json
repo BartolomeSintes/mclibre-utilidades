@@ -69,6 +69,7 @@
                             "apartado": {
                                 "titulo": "Borradores",
                                 "referencias": [
+                                    "boe-borrador-2022-1-rd",
                                     "boe-borrador-2021-3-lo",
                                     "boe-borrador-2021-2-rd",
                                     "boe-borrador-2021-1-rd"
@@ -448,7 +449,8 @@
                                     "dogv-2019-74-d",
                                     "dogv-2020-36-d",
                                     "dogv-2021-2-o",
-                                    "dogv-2021-193-d"
+                                    "dogv-2021-193-d",
+                                    "dogv-2022-01-17-res"
                                 ]
                             }
                         },

@@ -21877,7 +21877,7 @@
             "fecha": "2020-03-18",
             "vigencia": "borrador",
             "descripción": "Borrador Decreto del Curso de especalización de Desarrollo de videojuegos y realidad virtual",
-            "titulo": "Proyecto de real decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Desarrollo de videojuegos y realidad virtual y se fijan los aspectos básicos del currículo.",
+            "titulo": "Proyecto de Real Decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Desarrollo de videojuegos y realidad virtual y se fijan los aspectos básicos del currículo.",
             "versiones": [
                 {
                     "versión": "borrador",
@@ -26441,7 +26441,7 @@
             "fecha": "2020-06-19",
             "vigencia": "borrador",
             "descripción": "Borrador Decreto del Curso de especialización en Inteligencia Artificial y Big Data",
-            "titulo": "Proyecto de real decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Inteligencia Artificial y Big Data y se fijan los aspectos básicos del currículo.",
+            "titulo": "Proyecto de Real Decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Inteligencia Artificial y Big Data y se fijan los aspectos básicos del currículo.",
             "versiones": [
                 {
                     "versión": "borrador",
@@ -30257,7 +30257,7 @@
             "origen": "DOGV",
             "fecha": "1997-09-08",
             "vigencia": "vigente",
-            "descripción": "Creación, estrucutra y funcionamiento de CEFIRES (CV)",
+            "descripción": "Creación, estructura y funcionamiento de CEFIRES (CV)",
             "titulo": "Decreto 231/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se regula la creación, estructura y funcionamiento de los Centros de Formación, Innovación y Recursos Educativos de la Comunidad Valenciana.",
             "versiones": [
                 {
@@ -30774,27 +30774,27 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2021-12-D-CIFP-CV.pdf"
+                            "url": "dogv/DOGV-2021-193-D-CIFP-CV.pdf"
                         },
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2008/08/01/115/"
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/12855&L=1"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2008/08/01/115/vci"
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/12855&L=1"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2021-12-D-CIFP-CV-es.rtf"
+                            "url": "dogv/DOGV-2021-193-D-CIFP-CV-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2021-12-D-CIFP-CV-va.rtf"
+                            "url": "dogv/DOGV-2021-193-D-CIFP-CV-va.rtf"
                         }
                     ]
                 }
@@ -31105,6 +31105,95 @@
                 "educación",
                 "formación profesional",
                 "reconocimiento de cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "dogv-2022-01-17-res",
+            "incluido": "2022-01-22",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-01-21",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento de flexibilización de las enseñanzas FP (CV)",
+            "titulo": "Resolución de 17 de enero de 2022, del secretario autonómico de Educación y Formación Profesional, por la que se determina el procedimiento para flexibilizar las enseñanzas de Formación Profesional en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-11-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-01-17-R-flexibilizacion-ensenanzas-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/338&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/338&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-01-17-R-flexibilizacion-ensenanzas-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-01-17-R-flexibilizacion-ensenanzas-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-borrador-2022-1-rd",
+            "incluido": "2022-01-22",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2022-01-11",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto actualización títulos DAM y DAW",
+            "titulo": "Proyecto de Real Decreto XXX/2022, de XX de XXXX, por el que se actualizan 10 Reales Decretos que establecen títulos de Técnico y Técnico Superior de Formación Profesional de 5 Familias profesionales y se fijan sus enseñanzas mínimas, y se actualizan los módulos de idiomas de los ciclos formativos de grado medio y grado superior de la Formación Profesional del Sistema Educativo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2022-01-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-actualizacion-DAM-DAW-borrador-2022-01-11.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.todofp.es/dam/jcr:95e6b32e-7c1d-45bd-a4d2-ffd89e6cc1b4/prd-actual-10-1titulos-modidiomas-11-01-2022.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
             ]
         }
     ]
