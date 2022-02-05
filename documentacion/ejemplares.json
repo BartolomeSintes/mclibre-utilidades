@@ -793,6 +793,17 @@
       "creado": "2022-01-07"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 223,
+      "año": 2022,
+      "mes": 2,
+      "portada": "custom-pc-223-en-202202.jpg",
+      "fichero": "custom-pc-223-en-202202.pdf",
+      "idioma": "inglés",
+      "creado": "2022-02-04"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -13925,6 +13936,17 @@
       "fichero": "wireframe-58-en-202201.pdf",
       "idioma": "inglés",
       "creado": "2022-01-07"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 59,
+      "año": 2022,
+      "mes": 2,
+      "portada": "wireframe-59-en-202202.jpg",
+      "fichero": "wireframe-59-en-202202.pdf",
+      "idioma": "inglés",
+      "creado": "2022-02-04"
     },
     {
       "serie": "Wireframe Books",
