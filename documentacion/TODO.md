@@ -31,3 +31,8 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   Aula de innovación educativa: <https://www.grao.com/es/productos/revistas>
 -   Comunicar: <https://www.revistacomunicar.com/index.php?idioma=es>
 -   Red Seguridad: <https://www.redseguridad.com/kiosko-pro/>
+
+## Libros para incluir
+
+-   https://www.systemsapproach.org/books.html
+

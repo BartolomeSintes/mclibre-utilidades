@@ -13025,6 +13025,17 @@
       "creado": "2022-01-07"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 181,
+      "año": 2022,
+      "mes": 2,
+      "portada": "pclinuxos-181-en-202202.jpg",
+      "fichero": "pclinuxos-181-en-202202.pdf",
+      "idioma": "inglés",
+      "creado": "2022-02-12"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
