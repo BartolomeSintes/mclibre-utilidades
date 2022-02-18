@@ -4698,6 +4698,17 @@
       "creado": "2022-01-22"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 52,
+      "año": 2022,
+      "mes": 3,
+      "portada": "hackspace-52-en-202203.jpg",
+      "fichero": "hackspace-52-en-202203.pdf",
+      "idioma": "inglés",
+      "creado": "2022-02-18"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -13309,6 +13320,17 @@
       "fichero": "the-r-journal-25-en-202106.pdf",
       "idioma": "inglés",
       "creado": "2021-08-12"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 13 nº 2",
+      "año": 2021,
+      "mes": 12,
+      "portada": "the-r-journal-26-en-202112.jpg",
+      "fichero": "the-r-journal-26-en-202112.pdf",
+      "idioma": "inglés",
+      "creado": "2022-02-18"
     },
     {
       "serie": "Wireframe",
