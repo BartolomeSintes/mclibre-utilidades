@@ -10695,13 +10695,24 @@
     {
       "serie": "The MagPi",
       "nombre": "The MagPi",
-      "número": 113,
+      "número": 114,
       "año": 2022,
       "mes": 2,
       "portada": "the-magpi-114-en-202202.jpg",
       "fichero": "the-magpi-114-en-202202.pdf",
       "idioma": "inglés",
       "creado": "2022-01-28"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 115,
+      "año": 2022,
+      "mes": 3,
+      "portada": "the-magpi-115-en-202203.jpg",
+      "fichero": "the-magpi-115-en-202203.pdf",
+      "idioma": "inglés",
+      "creado": "2022-02-25"
     },
     {
       "serie": "The MagPi Books",
