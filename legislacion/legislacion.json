@@ -4714,7 +4714,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2014-01-17",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Formación Profesional Dual (CV)",
             "titulo": "Orden 2/2014, de 13 de enero, de la Consellería de Educación, Cultura y Deporte, por la que se regulan determinados aspectos de la ordenación de la Formación Profesional dual del sistema educativo en la Comunitat Valenciana.",
             "versiones": [
@@ -18584,7 +18584,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2019-07-30",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Procedimientos organización inclusión (CV)",
             "titulo": "Resolución de 24 de julio de 2019, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones para la aplicación de algunos de los principales procedimientos previstos en la Orden 20/2019, de 30 de abril, de la Consellería de Educación, Investigación, Cultura y Deporte, por la que se regula la organización de la respuesta educativa para la inclusión del alumnado en los centros docentes sostenidos con fondos públicos del sistema educativo valenciano, y se publican los formularios referidos a la evaluación sociopsicopedagógica, el informe sociospsicopedagógico, el plan de actuación personalizado (PAP) y el dictamen para la escolarización.",
             "versiones": [
@@ -28479,14 +28479,14 @@
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "BOE",
-            "fecha": "2020-09-30",
+            "fecha": "2020-11-26",
             "vigencia": "vigente",
             "descripción": "Convenio Promoción del pensamiento computacional (CV)",
             "titulo": "Resolución de 17 de noviembre de 2020, de la Secretaría General Técnica, por la que se publica el Convenio  con la Comunitat Valenciana, para la promoción del pensamiento computacional en todas las etapas educativas no universitarias a través del proyecto «Escuela de Pensamiento Computacional e Inteligencia Artificial».",
             "versiones": [
                 {
                     "versión": "original",
-                    "fecha": "2020-09-30",
+                    "fecha": "2020-11-26",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -28676,7 +28676,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2021-01-11",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Pruebas de acceso ciclos formativos Formación Profesional 2021 (CV)",
             "titulo": "Resolución de 23 de diciembre de 2020, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional.",
             "versiones": [
@@ -29785,7 +29785,7 @@
             ],
             "claves": [
                 "comunidad valenciana",
-                "decreto",
+                "orden",
                 "conselleria de educación"
             ]
         },
@@ -31264,6 +31264,811 @@
                 "orden",
                 "formación profesional",
                 "cualificaciones"
+            ]
+        },
+        {
+            "id": "dogv-2022-01-28-res",
+            "incluido": "2021-02-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-02-04",
+            "vigencia": "vigente",
+            "descripción": "Pruebas de acceso ciclos formativos Formación Profesional 2022 (CV)",
+            "titulo": "Resolución de 28 de enero de 2022, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-02-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-01-28-R-pruebas-acceso-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/818"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/818"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas de acceso",
+                "curso 2022/23"
+            ]
+        },
+        {
+            "id": "dogv-2022-05-o",
+            "incluido": "2022-02-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-02-22",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional Dual (CV)",
+            "titulo": "Orden 5/2022, de 15 de febrero, de la Conselleria de Educación, Cultura y Deporte, por la cual se regulan determinados aspectos de la ordenación de la Formación Profesional Dual del sistema educativo en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-02-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-05-O-ordenacion-fp-dual.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/1272"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/1272"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "fp dual"
+            ]
+        },
+        {
+            "id": "dogv-2022-5-d",
+            "incluido": "2022-02-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-02-17",
+            "vigencia": "vigente",
+            "descripción": "Sexenios formación permanente (CV)",
+            "titulo": "Decreto 5/2022, de 28 de enero, del Consell, de modificación del Decreto 164/2017, de 27 de octubre, por el que se regula el componente retributivo relacionado con la formación permanente del funcionariado docente y la realización de las actividades para la mejora de la calidad de la enseñanza.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-02-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-5-D-sexenio.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/1129"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/1129"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "sexenios"
+            ]
+        },
+        {
+            "id": "dogv-2021-12-23-res",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-12-29",
+            "vigencia": "vigente",
+            "descripción": "Detección necesidades de apoyo educativo (CV)",
+            "titulo": "Resolución de 23 de diciembre de 2021, de la directora general de Inclusión Educativa, por la cual se dictan instrucciones para la detección y la identificación de las necesidades específicas de apoyo educativo y las necesidades de compensación de desigualdades.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-12-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-12-23-R-deteccion-necesidades-apoyo-educativo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/13042"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/13042"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-12-23-R-deteccion-necesidades-apoyo-educativo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-12-23-R-deteccion-necesidades-apoyo-educativo-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "inclusión",
+                "primaria",
+                "secundaria",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2021-47-o",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-01-10",
+            "vigencia": "vigente",
+            "descripción": "Red Novigi (CV)",
+            "titulo": "Orden 47/2021, de 29 de diciembre, de la Conselleria de Educación, Cultura y Deporte, por la que se crea la Red Novigi y se regulan los requisitos de participación y reconocimiento de centros docentes y profesorado adheridos a esta en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-01-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-47-O-red-novigi.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/12069&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/12069&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-47-O-red-novigi-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-47-O-red-novigi-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "calidad",
+                "novigi"
+            ]
+        },
+        {
+            "id": "dogv-2005-03-22-o",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2005-04-15",
+            "vigencia": "vigente",
+            "descripción": "Implantación de Sistemas de gestión de calidad en centros no universitarios (CV)",
+            "titulo": "Orden de 22 de marzo de 2005, de la Conselleria de Cultura, Educación y Deporte, por la que se regula el procedimiento para la implantación de sistemas de gestión de calidad en los centros educativos no universitarios de la Comunidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-04-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2005-03-22-O-sistemas-gestion-calidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/12069&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/12069&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2005-03-22-O-sistemas-gestion-calidad-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2005-03-22-O-sistemas-gestion-calidad-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "calidad"
+            ]
+        },
+        {
+            "id": "dogv-2000-10-d",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2000-01-31",
+            "vigencia": "vigente",
+            "descripción": "Instituto Valenciano de Evaluación y Calidad Educativa (CV)",
+            "titulo": "Decreto 10/2000, de 25 de enero, del Gobierno Valenciano, por el que se crea el Instituto Valenciano de Evaluación y Calidad Educativa.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-01-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-10-D-instituto-valenciano-evaluacion-calidad-educativa.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2000/01/25/10/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2000/01/25/10/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-10-D-instituto-valenciano-evaluacion-calidad-educativa-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2000-10-D-instituto-valenciano-evaluacion-calidad-educativa-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "calidad"
+            ]
+        },
+        {
+            "id": "dogv-2021-09-29-res",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-11-08",
+            "vigencia": "vigente",
+            "descripción": "Protocolo de actuación ante absentismo escolar (CV)",
+            "titulo": "Resolución de 29 de septiembre de 2021, de la directora general de Inclusión Educativa, por la cual se establece el protocolo de actuación ante situaciones de absentismo escolar en los centros educativos sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas obligatorias y Formación Profesional Básica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-11-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-09-29-R-protocolo-absentismo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/res/2021/09/29/(2)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/eli/es-vc/res/2021/09/29/(2)/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-09-29-R-protocolo-absentismo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-09-29-R-protocolo-absentismo-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "inclusión",
+                "absentismo",
+                "primaria",
+                "secundaria",
+                "formación profesional básica"
+            ]
+        },
+        {
+            "id": "docv-2014-62-o",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2014-08-01",
+            "vigencia": "vigente",
+            "descripción": "Planes de convivencia (CV)",
+            "titulo": "Orden 62/2014, de 28 de julio, de la Consellería de Educación, Cultura y Deporte, por la que se actualiza la normativa que regula la elaboración de los planes de convivencia en los centros educativos de la Comunitat Valenciana y se establecen los protocolos de actuación e intervención ante supuestos de violencia escolar.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-08-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2014-62-O-planes-convivencia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2014/7282"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2014/7282"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2014-62-O-planes-convivencia-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2014-62-O-planes-convivencia-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "convivencia"
+            ]
+        },
+        {
+            "id": "dogv-2021-72-d",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-06-03",
+            "vigencia": "vigente",
+            "descripción": "Organización de la Orienteación educativa y profesional (CV)",
+            "titulo": "Decreto 72/2021, de 21 de mayo, del Consell, de organización de la orientación educativa y profesional en el sistema educativo valenciano.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-72-D-orientacion-educativa-profesional.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/6157"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/6157"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-72-D-orientacion-educativa-profesional-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-72-D-orientacion-educativa-profesional-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "inclusión",
+                "orientación",
+                "primaria",
+                "secundaria",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2016-12-15-i",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2016-12-27",
+            "vigencia": "vigente",
+            "descripción": "Protocolo derecho a la identidad de género (CV)",
+            "titulo": "Instrucción del 15 de diciembre de 2016, del director general de Política Educativa, por la que se establece el protocolo de acompañamiento para garantizar el derecho a la identidad de género, la expresión de género y la intersexualidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-12-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2016-12-15-I-protocolo-identidad-genero.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2016/10425"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2016/10425"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2016-12-15-I-protocolo-identidad-genero-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2016-12-15-I-protocolo-identidad-genero-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "inclusión",
+                "protocolo",
+                "primaria",
+                "secundaria",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2011-51-d",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2011-05-17",
+            "vigencia": "vigente",
+            "descripción": "Sistema de información ITACA (CV)",
+            "titulo": "Decreto 51/2011, de 13 de mayo, del Consell, sobre el sistema de comunicación de datos a la conselleria competente en materia de educación, a través del sistema de información ITACA, de los centros docentes que imparten enseñanzas regladas no universitarias.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-05-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-51-D-itaca.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/4855&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/4855&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2011-51-D-itaca-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2011-51-D-itaca-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "itaca"
+            ]
+        },
+        {
+            "id": "dogv-2022-01-26-res",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-01-28",
+            "vigencia": "vigente",
+            "descripción": "Modificación Instrucciones inicio de curso Secundaria y Bachillerato 21/22 (CV)",
+            "titulo": "Resolución de 26 de enero de 2022, del secretario autonómico de Educación y Formación Profesional, por la que se modifican algunos aspectos y se realizan aclaraciones sobre el contenido de las resoluciones de 20 de julio y de 26 de julio de 2021, del secretario autonómico de Educación y Formación Profesional, por las que se aprueban, respectivamente, las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Infantil de segundo ciclo y Educación Primaria, y Educación Secundaria Obligatoria y Bachillerato, durante, el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-01-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-02-26-R-inicio-curso-secundaria-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/636"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/636"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-02-26-R-inicio-curso-secundaria-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-02-26-R-inicio-curso-secundaria-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-04-13-res",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-04-16",
+            "vigencia": "derogado",
+            "descripción": "Procedimiento permanente de reconocimiento de competencias adquiridas por experiencia laboral (CV)",
+            "titulo": "Resolución de 13 de abril de 2021, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se convoca un procedimiento abierto de manera permanente, para la evaluación y acreditación de la totalidad de las unidades de competencia profesional incluidas en la oferta existente de Formación Profesional en la Comunitat Valenciana, vinculada al Catálogo nacional de las cualificaciones profesionales, que hayan sido adquiridas a través de la experiencia laboral o de vías no formales de formación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-04-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-04-13-R-procedimiento-permanente-reconomiento-competencias.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/8074&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/8074&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-04-13-R-procedimiento-permanente-reconomiento-competencias-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-04-13-R-procedimiento-permanente-reconomiento-competencias-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "reconocimiento de cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "dogv-2021-10-01-res",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-10-05",
+            "vigencia": "vigente",
+            "descripción": "Líneas estratégicas irentación educativa curso 2021/22 (CV)",
+            "titulo": "Resolución de 1 de octubre de 2021, de la directora general de Inclusión Educativa, por la cual se establecen las líneas estratégicas de la orientación educativa y profesional y de la acción tutorial para el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-10-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-10-01-R-orientacion-educativa-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/9988"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/9988"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-10-01-R-orientacion-educativa-2122-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-10-01-R-orientacion-educativa-2122-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "inclusión",
+                "orientación",
+                "primaria",
+                "secundaria",
+                "formación profesional",
+                "curso 2021/22"
+            ]
+        },
+        {
+            "id": "dogv-2021-17-o",
+            "incluido": "2022-02-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-07-02",
+            "vigencia": "vigente",
+            "descripción": "Relación de disposiciones de carácter general (CV)",
+            "titulo": "Orden 17/2021, de 15 de junio, de la Conselleria de Educación, Cultura y Deporte, por la cual se aprueba la relación de disposiciones administrativas de carácter general, de rango inferior al de orden de conselleria, dictadas en las materias de su competencia por los órganos superiores y directivos integrados en esta conselleria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-07-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-17-O-relacion-disposiciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/7262"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/7262"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-17-O-relacion-disposiciones-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2021-17-O-relacion-disposiciones-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "conselleria de educación"
             ]
         }
     ]

@@ -380,9 +380,16 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Curso 2022/23",
+                                "referencias": [
+                                    "dogv-2022-01-28-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2021/22",
                                 "referencias": [
-                                    "dogv-2020-12-23-res",
                                     "dogv-2021-03-29-1-res",
                                     "dogv-2021-03-30-res",
                                     "dogv-2021-05-06-res",
@@ -392,7 +399,8 @@
                                     "dogv-2021-07-26-1-res",
                                     "dogv-2021-07-26-2-res",
                                     "dogv-2021-07-26-3-res",
-                                    "dogv-2021-12-15-res"
+                                    "dogv-2021-12-15-res",
+                                    "dogv-2022-01-26-res"
                                 ]
                             }
                         },
@@ -461,8 +469,8 @@
                                 "titulo": "Formación Profesional Dual",
                                 "referencias": [
                                     "docv-2013-74-d",
-                                    "docv-2014-02-o",
-                                    "dogv-2021-47-d"
+                                    "dogv-2021-47-d",
+                                    "dogv-2022-05-o"
                                 ]
                             }
                         },
@@ -500,13 +508,25 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Inclusión",
+                                "titulo": "Formación permanente del profesorado",
                                 "referencias": [
-                                    "dogv-2018-104-d",
-                                    "dogv-2019-20-o",
-                                    "dogv-2019-07-24-1-res",
-                                    "dogv-2019-07-24-2-res",
-                                    "dogv-2020-12-10-res"
+                                    "dogv-1997-231-d",
+                                    "docv-2012-64-o",
+                                    "docv-2012-65-o",
+                                    "docv-2014-54-o",
+                                    "dogv-2017-164-d",
+                                    "dogv-2020-05-21-2-res",
+                                    "dogv-2022-5-d"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Sistemas de gestión de la calidad",
+                                "referencias": [
+                                    "dogv-2000-10-d",
+                                    "dogv-2005-03-22-o",
+                                    "dogv-2021-47-o"
                                 ]
                             }
                         },
@@ -516,7 +536,24 @@
                                 "referencias": [
                                     "docv-2007-09-12-o",
                                     "docv-2008-39-d",
-                                    "docv-2010-15-l"
+                                    "docv-2010-15-l",
+                                    "docv-2014-62-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Inclusión",
+                                "referencias": [
+                                    "dogv-2016-12-15-i",
+                                    "dogv-2018-104-d",
+                                    "dogv-2019-20-o",
+                                    "dogv-2019-07-24-1-res",
+                                    "dogv-2020-12-10-res",
+                                    "dogv-2021-72-d",
+                                    "dogv-2021-09-29-res",
+                                    "dogv-2021-10-01-res",
+                                    "dogv-2021-12-23-res"
                                 ]
                             }
                         },
@@ -531,19 +568,6 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Formación permanente del profesorado",
-                                "referencias": [
-                                    "dogv-1997-231-d",
-                                    "docv-2012-64-o",
-                                    "docv-2012-65-o",
-                                    "docv-2014-54-o",
-                                    "dogv-2017-164-d",
-                                    "dogv-2020-05-21-2-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
                                     "dogv-1992-06-29-o",
@@ -553,6 +577,7 @@
                                     "docv-2009-06-04-o",
                                     "docv-2010-80-o",
                                     "docv-2011-18-o",
+                                    "dogv-2011-51-d",
                                     "docv-2011-32-o",
                                     "docv-2011-45-o",
                                     "docv-2012-108-d",
@@ -566,6 +591,7 @@
                                     "boe-2020-11-17-res",
                                     "dogv-2021-58-d",
                                     "dogv-2021-9-o",
+                                    "dogv-2021-17-o",
                                     "dogv-2021-11-29-res"
                                 ]
                             }
@@ -918,6 +944,7 @@
                                     "docv-2013-14-o",
                                     "docv-2013-42-d",
                                     "docv-2014-88-o",
+                                    "docv-2014-02-o",
                                     "docv-2014-140-d",
                                     "docv-2015-155-d",
                                     "docv-2016-59-d",
@@ -926,7 +953,9 @@
                                     "dogv-2017-89-d",
                                     "dogv-2017-186-d",
                                     "dogv-2017-219-d",
-                                    "dogv-2019-03-26-res"
+                                    "dogv-2019-03-26-res",
+                                    "dogv-2019-07-24-2-res",
+                                    "dogv-2021-04-13-res"
                                 ]
                             }
                         },
@@ -987,6 +1016,14 @@
                                     "dogv-2017-10-05-res",
                                     "dogv-2018-07-20-res",
                                     "dogv-2019-07-31-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2021/22",
+                                "referencias": [
+                                    "dogv-2020-12-23-res"
                                 ]
                             }
                         },
