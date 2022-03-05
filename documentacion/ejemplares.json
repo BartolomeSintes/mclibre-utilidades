@@ -804,6 +804,17 @@
       "creado": "2022-02-04"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 224,
+      "año": 2022,
+      "mes": 3,
+      "portada": "custom-pc-224-en-202203.jpg",
+      "fichero": "custom-pc-224-en-202203.pdf",
+      "idioma": "inglés",
+      "creado": "2022-03-04"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -3684,6 +3695,17 @@
       "fichero": "full-circle-177-en-202201.pdf",
       "idioma": "inglés",
       "creado": "2022-01-30"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 178,
+      "año": 2022,
+      "mes": 2,
+      "portada": "full-circle-178-en-202202.jpg",
+      "fichero": "full-circle-178-en-202202.pdf",
+      "idioma": "inglés",
+      "creado": "2022-03-04"
     },
     {
       "serie": "Full Circle (rec)",
@@ -13991,6 +14013,17 @@
       "fichero": "wireframe-59-en-202202.pdf",
       "idioma": "inglés",
       "creado": "2022-02-04"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 60,
+      "año": 2022,
+      "mes": 3,
+      "portada": "wireframe-60-en-202203.jpg",
+      "fichero": "wireframe-60-en-202203.pdf",
+      "idioma": "inglés",
+      "creado": "2022-03-04"
     },
     {
       "serie": "Wireframe Books",

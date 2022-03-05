@@ -22,6 +22,7 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   2019-12-04. Hay revistas bimensuales (como Solo WordPress), pero el programa sólo escribe un mes.
 -   2019-12-04. En los cuadros no pone el nombre de la revista. Debería ponerlo, porque no se puede buscar en la página escribiendo el nombre.
 -   2020-05-24. Podría poner flechas para pasar de un año al siguiente y al anterior, o de una revista a la siguiente o a la anterior
+-   2022-03-03. The Python Papers está desaparecido. Me podría dedicar a bajar los pdfs de archive.org y preparar los pdfs https://web.archive.org/web/20180819045931/http://ojs.pythonpapers.org/index.php/tpp/issue/archive. He guardado un artículo en revistas/, además de un python rag que he encontrado.
 
 ## Revistas para incluir
 
