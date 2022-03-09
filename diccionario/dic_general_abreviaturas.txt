@@ -45,6 +45,7 @@ IAIG
 Inc 
 inc 
 Infoset 
+Intef 
 IWB 
 JTC 
 kg 
@@ -74,6 +75,7 @@ pebi
 PICSRules 
 pict 
 pMA 
+pma 
 po 
 prefs 
 PROV-AQ 
@@ -121,6 +123,7 @@ vocab
 Vol 
 Wasm 
 Wed 
+Wp 
 X01 
 x86 
 XDM 

@@ -1,3 +1,5 @@
+AttributeError 
+bbox 
 bevel 
 butt 
 clip-path 
@@ -18,7 +20,9 @@ stroke-linecap
 stroke-linejoin 
 stroke-width 
 stroke_width 
+SvgDocumentElement 
 transform 
+typename 
 viewBox 
 viewbox 
 x1 

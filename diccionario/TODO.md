@@ -27,3 +27,4 @@ Esta aplicación genera la lista de palabras que hay en los ficheros de un direc
 -   2020-07-01. No haría falta reordenar los diccionarios si no ha añadido ninguna palabra.
 -   2021-11-12. El programa podría buscar si hay dos palabras iguales seguidas, que suelen ser errores (una puede llevar mayúsculas y la otra no).
 -   2021-11-12. El programa podría buscar si hay errores de concordancia (artículos singulas seguidos de palabra en plural o viceversa). Esto no debe ser fácil.
+-   2021-12-20. Podría buscar si hay alguna mayúscula que no esté al principio de una frase (descartando las palabras que en el diccionario empiecen con mayúscula). O las frase que después de un punto no tengan mayúscula.

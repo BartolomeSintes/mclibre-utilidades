@@ -13,6 +13,7 @@ ActivityPub
 Adam 
 Adams 
 Adblock 
+Adenot 
 Adida 
 Adler 
 Adminer 
@@ -43,6 +44,7 @@ Albert
 Alberto 
 Albertoni 
 Albufera 
+Alcotas 
 Aldine 
 Aldrin 
 Aldus 
@@ -54,6 +56,7 @@ Alexander
 Alexandra 
 Alfred 
 Alfredo 
+Alfurí 
 Algeciras 
 ALGOL 
 Algol 
@@ -102,6 +105,7 @@ Android
 Andropov 
 Andréi 
 Andy 
+angstrom 
 AngularJS 
 Anish 
 Anivers 
@@ -132,6 +136,7 @@ Aracataca
 Aragonés 
 Aragón 
 Archer 
+Arduino 
 Arenas 
 Argentina 
 Argote 
@@ -170,6 +175,7 @@ ATP
 ATypI 
 Aubrey 
 Auburn 
+Auckland 
 Audacity 
 Audrey 
 Augusto 
@@ -191,6 +197,7 @@ Balfanz
 Ball 
 Bao 
 Barberá 
+Barbuda 
 Barcelona 
 Bardanov 
 Bardi 
@@ -229,6 +236,7 @@ Beethoven
 Belianís 
 Bellamy-Royds 
 Bellard 
+Bellido 
 Belshe 
 Ben 
 Benito 
@@ -254,6 +262,7 @@ Bernstein
 Berra 
 Berrueta 
 Bert 
+BetterDev 
 Betto 
 Beverloo 
 Bezaire 
@@ -264,6 +273,7 @@ Bierce
 Bigelow 
 Bijan 
 Billy 
+Binicalsitx 
 bionic 
 Birbeck 
 Birminghan 
@@ -297,6 +307,7 @@ Bogdan
 Boilerplate 
 Boley 
 Bolonia 
+Bonaparte 
 Bonner 
 Booktype 
 Bootstrap 
@@ -315,6 +326,7 @@ Brasseur
 Brave 
 Bravo 
 Bray 
+Brazzaville 
 Brendan 
 Bretaña 
 Brezhnev 
@@ -348,6 +360,7 @@ Burgos
 Burj 
 Burke 
 Burkhardt 
+Burma 
 Burnett 
 Burns 
 Burroughs 
@@ -381,12 +394,15 @@ Camps
 Camus 
 Canada 
 Candell 
+caniuse 
 Canonical 
 Canyang 
 Capadisli 
+Cape 
 Capin 
 captcha 
 Carbuncle 
+Caribbean 
 Carlisle 
 Carlos 
 Carmen 
@@ -400,6 +416,7 @@ Case
 Caspio 
 Castellón 
 Cayo 
+Cañuelo 
 cdlibre 
 Cecilia 
 Celsius 
@@ -411,6 +428,7 @@ cervantesvirtual
 Chacon 
 Chadwick 
 Chamberlin 
+Chang 
 Charles 
 Charlton 
 Chee 
@@ -424,11 +442,14 @@ Chikuyonok
 Chimezie 
 Chinnici 
 Chisholm 
+chocolatey 
+Choi 
 Chris 
 Christian 
 Christine 
 Christoph 
 Christopher 
+ChromaCheck 
 Chrome 
 chrome 
 Chromebook 
@@ -446,6 +467,7 @@ Clyde
 cmsms 
 Cobbler 
 COBOL 
+Cocioles 
 Codden 
 Codeacademy 
 codedread 
@@ -497,6 +519,7 @@ Costello
 Courier 
 Coursera 
 CourseTalk 
+Cova 
 Coverdale 
 Cowan 
 Cox 
@@ -514,6 +537,7 @@ Crockford
 Cruikshank 
 Cruyff 
 Crystal 
+CSS-tricks 
 CSS2 
 CSS3 
 CSS4 
@@ -525,6 +549,7 @@ CSSLint
 csslintrc 
 CSSTree 
 Cubitus 
+Cullen 
 Cunningham 
 Curie 
 customizedgirl 
@@ -538,12 +563,14 @@ d'Annunzio
 Daggett 
 Dahlström 
 Dale 
+Dalt 
 Dalton 
 Danang 
 Daniel 
 Danland 
 Daphne 
 darcs 
+darkwolf 
 Darmstadt 
 Das 
 Datalog 
@@ -697,11 +724,13 @@ esculapio
 Esteaua 
 Estocolmo 
 Estuardo 
+Eswatini 
 etch 
 Etemad 
 Ethernet 
 Etherpad 
 Eugenia 
+euler 
 Europa 
 EuroPython 
 Eva 
@@ -721,6 +750,7 @@ Fadi
 Fahlman 
 Fahrenheit 
 fahrenheit 
+Falkland 
 Fallside 
 Faltstrom 
 Faniel 
@@ -768,6 +798,7 @@ Fiore
 Firebird 
 Firebug 
 FireMath 
+fitzpatrick 
 Fixer 
 Flanagan 
 Flandes 
@@ -799,6 +830,7 @@ Frank
 Frankfurt 
 Franks 
 Frans 
+Fraunces 
 Frederick 
 freeCodeCamp 
 freepik 
@@ -814,6 +846,7 @@ Fulánez
 Fundéu 
 FutureLearn 
 Félix 
+Gabaldón 
 Gabriel 
 Gabriela 
 Gabriele 
@@ -873,6 +906,7 @@ Github
 github 
 Giuseppe 
 GIYF 
+Glade 
 Glazman 
 Glenn 
 Glimm 
@@ -991,6 +1025,7 @@ Hitchock
 Hitzler 
 Hjelle 
 Hobbes 
+Hodges 
 Hoffman 
 Holanda 
 Holger 
@@ -1001,6 +1036,7 @@ Holly
 Holstege 
 Homer 
 Hong-Kong 
+Hongchan 
 Horacio 
 Horde 
 Horno 
@@ -1008,6 +1044,7 @@ Horridge
 Hors 
 Hortaleza 
 Hoschka 
+Hostinger 
 Houdini 
 Howard 
 HowToCreate 
@@ -1040,6 +1077,7 @@ Hércules
 Hérnandez 
 Ian 
 Iannella 
+Ibarra 
 IBM 
 Ibáñez 
 IcoFX 
@@ -1078,6 +1116,7 @@ Inky
 Innotek 
 Installatron 
 intel 
+Intelephense 
 Intellisense 
 Inter 
 Invaders 
@@ -1093,6 +1132,7 @@ iPhone
 iPod 
 IRA 
 Irina 
+IronKey 
 Isaac 
 Isabel 
 Ishii 
@@ -1101,6 +1141,7 @@ Issuu
 Istambul 
 Italia 
 Ito 
+Iunius 
 Ivan 
 Iversity 
 iversity 
@@ -1140,6 +1181,7 @@ Jeddah
 Jeff 
 Jekyll 
 Jen 
+Jennings 
 Jeremy 
 Jerry 
 Jerusalén 
@@ -1184,7 +1226,9 @@ js
 jscript 
 JSFiddle 
 JSLinux 
+json5 
 JSONLint 
+jsonp 
 jsonrpc 
 Jssor 
 Juan 
@@ -1212,6 +1256,7 @@ kanban
 Kanboard 
 Kane 
 Kantar 
+Kanzhelev 
 Karamchand 
 Karen 
 Karl 
@@ -1227,6 +1272,7 @@ Kehrig
 Keith 
 Kellogg 
 Kelly 
+kelvin 
 Kendall 
 Kennel 
 Kent 
@@ -1245,6 +1291,7 @@ Kifer
 Kilimanjaro 
 Kim 
 King 
+Kinshasa 
 Kipling 
 Kirby 
 Kirkpatrick 
@@ -1278,6 +1325,7 @@ Kubernetes
 Kubrick 
 Kukurikos 
 Kundera 
+Kurinto 
 Károly 
 Käbisch 
 l7ssha 
@@ -1288,7 +1336,9 @@ Lame
 Laminas 
 Landon 
 Lanthaler 
+Laos 
 Laravel 
+laravel 
 Larrea 
 Larry 
 Larsen 
@@ -1320,6 +1370,8 @@ Leonardo
 Leonid 
 Leora 
 Lerdorf 
+Lesar 
+Lesotho 
 Levante 
 Levante-EMV 
 Leventhal 
@@ -1340,6 +1392,7 @@ Linkit
 Linus 
 Linux 
 Lipner 
+Lisa 
 LISP 
 Listamatic 
 LittleBizzy 
@@ -1363,6 +1416,7 @@ Louis
 Louise 
 Louvre 
 Lovecraft 
+Lubuntu 
 Luc 
 Lucas 
 lucid 
@@ -1411,6 +1465,7 @@ MantisBT
 Manu 
 Manuel 
 Manuela 
+manzanera 
 Maquiavelo 
 Maradona 
 Marc 
@@ -1422,6 +1477,7 @@ Marcy
 Marek 
 Marga 
 Maria 
+MariaBD 
 MariaDB 
 mariadb 
 Mariano 
@@ -1430,6 +1486,7 @@ Mario
 Marion 
 Markdown 
 MarkDown 
+markdown 
 Markus 
 Marrow 
 Mars 
@@ -1457,6 +1514,7 @@ Matthew
 Matthias 
 Matute 
 Maurice 
+Mautic 
 Max 
 Mayer 
 McCarey 
@@ -1473,6 +1531,7 @@ ME
 MediaWiki 
 mediawiki 
 Megaupload 
+Megitt 
 Mehta 
 Mel 
 Melinda 
@@ -1521,6 +1580,7 @@ Missier
 MIT 
 Mitchell 
 Mitra 
+Moby 
 Mockapetris 
 Modula 
 Modula-2 
@@ -1533,6 +1593,7 @@ Moncloa
 Monotone 
 MonsterID 
 Montalbán 
+Monterey 
 Montgolfier 
 Montgomery 
 Montoro 
@@ -1541,6 +1602,7 @@ Moodle
 Moore 
 Mooshak 
 Moreau 
+Morell 
 Morera 
 Morgante 
 Morgenstern 
@@ -1581,7 +1643,9 @@ Nakache
 Namco 
 nano 
 Nantes 
+Napoleón 
 Narayanan 
+Nati 
 Navarro 
 Neil 
 Nelson 
@@ -1590,6 +1654,7 @@ Netcraft
 NetMarketShare 
 Netscape 
 Network 
+Nevis 
 Newman 
 Nextcloud 
 nextcloud 
@@ -1604,6 +1669,7 @@ Nicolás
 Nielsen 
 Nies 
 Nieskens 
+Nigel 
 Nigerio 
 Nikita 
 Niklaus 
@@ -1627,9 +1693,12 @@ Noto
 Nottingham 
 Novack 
 Novella 
+Novigi 
 NovoED 
 Numa 
 numa 
+nvm 
+NVM-windows 
 Nystrom 
 O'Neill 
 O'Reilly 
@@ -1643,6 +1712,7 @@ Octoverse
 Odyssey 
 Ogbuji 
 Ohm 
+ohm 
 Ohmios 
 Ola 
 Oladimeji 
@@ -1670,6 +1740,7 @@ OpenStreetMap
 opentype 
 OpenUniversity 
 OpenupEd 
+Openverse 
 Opera 
 Ops 
 Ora 
@@ -1742,7 +1813,9 @@ PatternCooler
 patternify 
 Paul 
 Paula 
+paúl 
 PCWorld 
+PDFsam 
 PDFtk 
 Peary 
 Pecita 
@@ -1756,6 +1829,7 @@ Pentium
 Peon 
 Pepe 
 pepe 
+Pepita 
 pepito 
 pepé 
 Perec 
@@ -1769,6 +1843,7 @@ Peter
 Peterson 
 Peugeot 
 Pexels 
+pgadmin4 
 Phabricator 
 PhantomOpenEmoji 
 Phil 
@@ -1783,6 +1858,7 @@ PHP_CodeSniffer
 phpBB 
 phpbb 
 phpBB3 
+PHPDeveloper 
 phpDoc 
 phpDocumentor 
 phpFreeChat 
@@ -1799,6 +1875,7 @@ Pierre-Anthony
 Pieter 
 Pieters 
 Pike 
+Pine64 
 Pinky 
 Piotr 
 Piqué 
@@ -1810,6 +1887,7 @@ Pixley
 Pizzicato 
 Pla 
 Planck 
+planck 
 PluginManager_vX 
 Plus 
 png 
@@ -1820,9 +1898,11 @@ Pollock
 Polonia 
 Pong 
 Popescu 
+Popov 
 Porter 
 pos 
 PostCSS 
+postgres 
 PostgreSQL 
 postgreSQL 
 Postscript 
@@ -1840,6 +1920,8 @@ PrimaFuture
 Princeton 
 Priscilla 
 Prism 
+prism 
+prismjs 
 Prodromou 
 ProgramaMe 
 ProjectEuler 
@@ -1875,6 +1957,7 @@ pytest
 Python 
 Python-future 
 Pythonista 
+PythonSoftwareFoundation 
 Pérez 
 Pío 
 QEMU 
@@ -1902,9 +1985,11 @@ Raphaël
 RapydScript 
 Rasmus 
 Rato 
+Ray 
 Raymond 
 Raúl 
 Realtek 
+rebollar 
 RedBeanPHP 
 Redfish 
 RedHat 
@@ -1913,6 +1998,7 @@ Regebro
 Regex 
 RegExr 
 Regumiel 
+Reid 
 Reinaldos 
 Renato 
 Renault 
@@ -1950,6 +2036,7 @@ Ritz
 Rivas 
 Rivoal 
 RJ 
+RK3588 
 Roald 
 Rob 
 Robert 
@@ -1958,6 +2045,7 @@ Roberts
 Robie 
 Robin 
 RoboHornet 
+Rockchip 
 Rodrigo 
 Rodríguez 
 Roel 
@@ -1980,6 +2068,7 @@ Rossum
 Rotan 
 Roundcube 
 Roy 
+Ruben 
 Rudyard 
 Rufus 
 Rusia 
@@ -2039,8 +2128,11 @@ Sears
 Seattle 
 Sebastian 
 Seca 
+Seeman-Horwitz 
 Segoe 
+Sejda 
 Selenium 
+selenium 
 Serena 
 Sergey 
 Serna 
@@ -2057,6 +2149,8 @@ Shard
 ShareX 
 Sharon 
 Shaw 
+Shiki 
+Shikijs 
 Shlomit 
 Shpika 
 Shuang 
@@ -2079,6 +2173,7 @@ Sivonen
 Sketch 
 SLE 
 Sliger 
+smagris 
 Smalltalk 
 Smalltalk-72 
 Smirke 
@@ -2142,10 +2237,12 @@ Stoik
 Straub 
 Striped 
 stripemania 
+StyleLint 
 Stylo 
 Stéfano 
 Stéphane 
 Subramanian 
+SubtitleProcessor 
 Subversion 
 Suecia 
 Suignard 
@@ -2161,6 +2258,7 @@ Susy
 Suárez 
 Svelte 
 svg-edit 
+SVG-in-OpenType 
 SVG-Whiz 
 SVGCleaner 
 SVGinOT 
@@ -2173,12 +2271,15 @@ Symbola
 Symfony 
 symfony 
 Syncany 
+Syria 
 systemd 
 SystemRescue 
 SystemRescueCD 
 Sájarov 
 Sánchez 
+São 
 Séneca 
+Taelman 
 Tahoma 
 Tailandia 
 Taipéi 
@@ -2188,6 +2289,7 @@ Tallon
 Tamás 
 Tandy 
 Tantek 
+Tanzu 
 Tcl 
 TechChange 
 Ted 
@@ -2201,6 +2303,8 @@ terrier
 Terry 
 TestMyCSS 
 TeX 
+Textmate 
+textmate 
 Thelma 
 Thimble 
 Thomas 
@@ -2228,9 +2332,12 @@ Tolga
 Tolkien 
 Tom 
 Tomás 
+Tomé 
 Tondo 
 Tool 
 Topping 
+Torrentfreak 
+Torrijas 
 Toru 
 Torvalds 
 Toscanini 
@@ -2240,6 +2347,7 @@ Trapisonda
 Traviata 
 Trello 
 Trello-like 
+Tremulous 
 Treviranus 
 Trident 
 Troncy 
@@ -2260,6 +2368,7 @@ tux
 Twain 
 Twemoji 
 twemoji 
+twemoji-colr 
 Twister 
 Twitter 
 TWX 
@@ -2275,6 +2384,7 @@ Udacity
 Udell 
 Uderzo 
 Uffizi 
+Ukraine 
 Uli 
 Ulises 
 Ullah 
@@ -2285,19 +2395,24 @@ Unamuno
 Underhill 
 Unicode 
 unicode 
+Unicode® 
 Union 
 Unisys 
 Universia 
 Unix 
 Unsplash 
 Unus 
+Unvanquished 
+Unysis 
 UpdraftPlus 
 URL 
+Vall 
 Valladolid 
 Valle-Inclán 
 vanRossum 
 Vargas 
 Vasari 
+Vatican 
 VBox 
 vBulletin 
 Vecteezy 
@@ -2322,6 +2437,7 @@ Vidur
 Viena 
 Viet 
 Vietman 
+Vietnam 
 Vijay 
 Villa 
 Villaescusa 
@@ -2344,6 +2460,7 @@ Vladimir
 VLC 
 VMware 
 VMWare 
+vmware 
 Volkswagen 
 Vollmer 
 Voltios 
@@ -2413,6 +2530,7 @@ wheezy
 WhiteCloud 
 Whitesmiths 
 Whitesnake 
+Whitmer 
 Widenius 
 WikiBooks 
 Wikidot 
@@ -2432,7 +2550,10 @@ William
 Williams 
 Wilson 
 Win10 
+WinCVS 
+wincvs 
 WinSCP 
+winSCP 
 Wirth 
 Witt 
 Wium 
@@ -2458,6 +2579,7 @@ X11
 xampp 
 Xbox 
 Xdebug 
+xdebug 
 Xen 
 xenial 
 XFCE 
@@ -2508,5 +2630,6 @@ Zöllner
 Ángel 
 Ángeles 
 Ásterix 
+Åland 
 Çelik 
 Óscar 

@@ -52,6 +52,7 @@ emoji-data
 emoji-list 
 emoji-sequences 
 emoji-test 
+Emoji_Presentation 
 emsp 
 ensp 
 Epsilon 

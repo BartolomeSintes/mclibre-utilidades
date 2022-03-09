@@ -37,6 +37,7 @@ ctrl+alt+t
 Ctrl+Alt+v 
 Ctrl+Máy+h 
 declare_equal_normalize 
+defaultFormatter 
 documentFormattingProvider 
 emmet 
 empty-tag-not-self-closed 
@@ -50,6 +51,7 @@ hp-cs-fixer
 HTML-Hint 
 iaw-nombre-de-alumno 
 IgnoreTags 
+insertfinalnewline 
 Intellisense 
 linebreak_after_opening_tag 
 lines-between-rulesets 

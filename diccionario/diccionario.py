@@ -15,7 +15,7 @@ ORIGEN_SEMANAS = "D:\\_Carpetas_frecuentes\\Documentos\\Clase\\19-20 Abastos\\19
 ORIGEN_LEGISLACION = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\legislacion"
 ORIGEN_EXPLICACIONES = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\_explicaciones"
 
-ORIGEN = ORIGEN_EXPLICACIONES
+ORIGEN = ORIGEN_LEGISLACION
 
 DICT_COD_PAISES = "dic_cod_paises.txt"
 DICT_COD_TK = "dic_cod_tk.txt"

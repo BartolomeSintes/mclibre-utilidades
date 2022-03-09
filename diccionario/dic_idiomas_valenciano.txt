@@ -5,6 +5,7 @@ Baixades
 centres 
 ciència 
 coalició 
+coloms 
 Compromís 
 Comunitat 
 coneixements 
@@ -14,6 +15,7 @@ Consellera
 consellera 
 conselleria 
 d'educació 
+des 
 educació 
 elementals 
 esport 
