@@ -4973,6 +4973,17 @@
       "creado": "2021-10-16"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 18,
+      "año": 2022,
+      "mes": 3,
+      "portada": "hello-world-18-en-202203.jpg",
+      "fichero": "hello-world-18-en-202203.pdf",
+      "idioma": "inglés",
+      "creado": "2022-03-18"
+    },
+    {
       "serie": "Hello World Books",
       "nombre": "The Big Book of Comupting Pedagogy",
       "número": 1,
@@ -5851,6 +5862,17 @@
       "fichero": "insecure-70-en-202111.pdf",
       "idioma": "inglés",
       "creado": "2021-11-05"
+    },
+    {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
+      "número": 71,
+      "año": 2022,
+      "mes": 3,
+      "portada": "insecure-71-en-202203.jpg",
+      "fichero": "insecure-71-en-202203.pdf",
+      "idioma": "inglés",
+      "creado": "2022-03-18"
     },
     {
       "serie": "JOLTS",
