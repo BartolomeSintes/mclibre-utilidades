@@ -6299,7 +6299,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2010-09-03",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Regulación módulo FCT (CV)",
             "titulo": "Orden 77/2010 de 27 de agosto, de la Conselleria de Educación, por la que se regula el módulo profesional de Formación en Centros de Trabajo (FCT) de los ciclos formativos de Formación Profesional, de las Enseñanzas de Artes Plásticas y Diseño y de los Programas de Cualificación Profesional Inicial en el ámbito territorial de la Comunitat Valenciana",
             "versiones": [
@@ -21876,7 +21876,7 @@
             "origen": "MEC",
             "fecha": "2020-03-18",
             "vigencia": "borrador",
-            "descripción": "Borrador Decreto del Curso de especalización de Desarrollo de videojuegos y realidad virtual",
+            "descripción": "Borrador Decreto del Curso de especialización de Desarrollo de videojuegos y realidad virtual",
             "titulo": "Proyecto de Real Decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Desarrollo de videojuegos y realidad virtual y se fijan los aspectos básicos del currículo.",
             "versiones": [
                 {
@@ -23127,6 +23127,26 @@
                             "formato": "pdf",
                             "idioma": "es",
                             "url": "dogv/DOGV-2020-5-O-admision-secundaria-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2020/03/31/5/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2020/03/31/5/vci/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2020-5-O-admision-secundaria-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2020-5-O-admision-secundaria-bachillerato-va.rtf"
                         }
                     ]
                 }
@@ -29038,7 +29058,7 @@
             "origen": "MEC",
             "fecha": "2021-05-07",
             "vigencia": "vigente",
-            "descripción": "Decreto del Curso de especalización de Desarrollo de videojuegos y realidad virtual",
+            "descripción": "Decreto del Curso de especialización de Desarrollo de videojuegos y realidad virtual",
             "titulo": "Real Decreto 261/2021, de 13 de abril, por el que se establece el Curso de especialización en Desarrollo de videojuegos y realidad virtual y se fijan los aspectos básicos del currículo, se modifican diversos reales decretos por los que se establecen cursos de especialización y los aspectos básicos del currículo y se corrigen errores del Real Decreto 283/2019, de 22 de abril y del Real Decreto 402/2020, de 25 de febrero, por los que establecen los títulos y los aspectos básicos del currículo.",
             "versiones": [
                 {
@@ -31309,7 +31329,7 @@
             ]
         },
         {
-            "id": "dogv-2022-05-o",
+            "id": "dogv-2022-5-o",
             "incluido": "2022-02-25",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -31326,7 +31346,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2022-05-O-ordenacion-fp-dual.pdf"
+                            "url": "dogv/DOGV-2022-5-O-ordenacion-fp-dual.pdf"
                         },
                         {
                             "formato": "web",
@@ -31709,7 +31729,7 @@
             "origen": "DOGV",
             "fecha": "2021-06-03",
             "vigencia": "vigente",
-            "descripción": "Organización de la Orienteación educativa y profesional (CV)",
+            "descripción": "Organización de la Orientación educativa y profesional (CV)",
             "titulo": "Decreto 72/2021, de 21 de mayo, del Consell, de organización de la orientación educativa y profesional en el sistema educativo valenciano.",
             "versiones": [
                 {
@@ -31976,7 +31996,7 @@
             "origen": "DOGV",
             "fecha": "2021-10-05",
             "vigencia": "vigente",
-            "descripción": "Líneas estratégicas irentación educativa curso 2021/22 (CV)",
+            "descripción": "Líneas estratégicas orientación educativa curso 2021/22 (CV)",
             "titulo": "Resolución de 1 de octubre de 2021, de la directora general de Inclusión Educativa, por la cual se establecen las líneas estratégicas de la orientación educativa y profesional y de la acción tutorial para el curso 2021-2022.",
             "versiones": [
                 {
@@ -32069,6 +32089,238 @@
                 "comunidad valenciana",
                 "orden",
                 "conselleria de educación"
+            ]
+        },
+        {
+            "id": "boe-2022-150-rd",
+            "incluido": "2022-03-25",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-03-17",
+            "vigencia": "vigente",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "Real Decreto 150/2022, de 22 de febrero, por el que se actualizan determinadas cualificaciones profesionales de las familias profesionales Imagen Personal, Industrias Alimentarias, Industrias Extractivas, Informática y Comunicaciones, e Instalación y Mantenimiento, y se modifican parcialmente determinadas cualificaciones profesionales de las familias profesionales Hostelería y Turismo, Imagen Personal, Industrias Extractivas e Informática y Comunicaciones, recogidas en el Catálogo Nacional de Cualificaciones Profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-150-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2022/02/22/150"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "dogv-2022-21-d",
+            "incluido": "2022-03-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-03-23",
+            "vigencia": "vigente",
+            "descripción": "Admisión Infantil, Primaria, Secundaria Obligatoria y Bachillerato (CV)",
+            "titulo": "Decreto 21/2022, de 4 de marzo, del Consell, de modificación del Decreto 40/2016, de 15 de abril, del Consell, por el que se regula la admisión en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-21-D-admision-secundaria-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2022/03/04/21/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2022/03/04/21/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-21-D-admision-secundaria-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-21-D-admision-secundaria-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2022-14-o",
+            "incluido": "2022-03-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-03-25",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
+            "titulo": "Orden 14/2022, de 24 de marzo, de la Conselleria de Educación, Cultura y Deporte, de modificación de la Orden 7/2016, de 19 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-14-O-admision-secundaria-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2020/03/31/5/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2020/03/31/5/vci/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-14-O-admision-secundaria-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-14-O-admision-secundaria-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2020/21"
+            ]
+        },
+        {
+            "id": "dogv-2022-03-11-res",
+            "incluido": "2022-03-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-03-17",
+            "vigencia": "vigente",
+            "descripción": "Formación Profesional Dual (CV)",
+            "titulo": "Resolución de 11 de marzo de 2022, de la Dirección General de Formación Profesional y Enseñanzas de Régimen, por la que se establecen los procedimientos, documentos y modelos de gestión de la Formación Profesional Dual en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-03-11-R-documentos-fp-dual.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/2181&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/2181&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv//DOGV-2022-03-11-R-documentos-fp-dual-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv//DOGV-2022-03-11-R-documentos-fp-dual-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "fp dual"
+            ]
+        },
+        {
+            "id": "docv-2022-12-o",
+            "incluido": "2022-03-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-03-16",
+            "vigencia": "vigente",
+            "descripción": "Regulación módulo FCT (CV)",
+            "titulo": "Orden 12/2022, de 9 de marzo, de la Conselleria de Educación, Cultura y Deporte, por la que se regula el módulo profesional de Formación en Centros de Trabajo (FCT) de los ciclos formativos de grado medio y superior, Formación Profesional Básica, Programas Formativos de Cualificación Básica, Cursos de Especialización y Bloque de Formación Práctica (BFP) de las Enseñanzas de Régimen Especial, en el ámbito territorial de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-12-O-fct.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/2086&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/2086&L=1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "fct"
             ]
         }
     ]

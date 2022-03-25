@@ -81,9 +81,7 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   RESOLUCIÓN de 21 de mayo de 1998, de la Dirección General de Ordenación e Innovación Educativa y Política Lingüística, por la que se establecen normas para el cálculo de la nota media en el expediente académico del alumnado que solicita el acceso a enseñanzas universitarias de la Comunidad Valenciana desde la Formación Profesional. <http://www.dogv.gva.es/datos/1998/06/12/pdf/1998_4783.pdf>
 
--   ORDEN de 8 de julio de 1998 de la Conselleria de Cultura, Educación y Ciencia por la que se establece el proceso de implantacion de las enseñanzas de regimen general reguladas por la Ley Organica 1/1990 de Ordenacion General del Sistema Educativo y la progresiva extincion de las enseñanzas medias reguladas por la Ley General de Educación de 1970 en la Comunidad Valenciana. <
-
--   ORDEN de 8 de julio de 1998 de la Conselleria de Cultura, Educación y Ciencia por la que se establece el proceso de implantacion de las enseñanzas de regimen general reguladas por la Ley Organica 1/1990 de Ordenacion General del Sistema Educativo y la progresiva extincion de las enseñanzas medias reguladas por la Ley General de Educación de 1970 en la Comunidad Valenciana.>
+-   ORDEN de 8 de julio de 1998 de la Conselleria de Cultura, Educación y Ciencia por la que se establece el proceso de implantacion de las enseñanzas de regimen general reguladas por la Ley Organica 1/1990 de Ordenacion General del Sistema Educativo y la progresiva extincion de las enseñanzas medias reguladas por la Ley General de Educación de 1970 en la Comunidad Valenciana.
 
 -   DOGV Decreto 108/2012, de 29 de junio, del Consell, por el que se regula la recolocación y
 redistribución del personal docente con destino definitivo en los centros docentes públicos no
@@ -115,6 +113,7 @@ la Generalitat Valenciana. (En vigor parcialmente)
 -   <http://legislacioeducativa.blogspot.com/>
 
 -   <http://bibliotecacefirevalencia.blogspot.com/search/label/Legislaci%C3%B3n>
+    2022-02-26: He repasado del 2021-12-17 al 2022-02-25
 
 -   <http://www.ceice.gva.es/es/web/centros-docentes/legislacion>
 
@@ -137,9 +136,12 @@ la Generalitat Valenciana. (En vigor parcialmente)
 
 ## Pendiente de incluir
 
-- <https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/pdr-evaluacion-promocion.html>
+-   <https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/pdr-evaluacion-promocion.html>
 
--<https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/prd-cualificaciones-profesionales.html>
+-   <https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/prd-cualificaciones-profesionales.html>
 
--[Orden PRE/2740/2007, de 19 de septiembre, por la que se aprueba el Reglamento de Evaluación y Certificación de la Seguridad de las Tecnologías de la Información](https://www.boe.es/buscar/act.php?id=BOE-A-2007-16830)
+-   [Orden PRE/2740/2007, de 19 de septiembre, por la que se aprueba el Reglamento de Evaluación y Certificación de la Seguridad de las Tecnologías de la Información](https://www.boe.es/buscar/act.php?id=BOE-A-2007-16830)
+
+-   [Common Criteria for Information Technology Security Evaluation](https://en.wikipedia.org/wiki/Common_Criteria)
+
 

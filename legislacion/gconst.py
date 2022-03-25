@@ -1,4 +1,4 @@
-# Constantes utilziadas por el resto de módulos
+# Constantes utilizadas por el resto de módulos
 
 JSON_FILE_REFERENCES = "legislacion.json"
 JSON_FILE_COLLECTIONS = "colecciones.json"
