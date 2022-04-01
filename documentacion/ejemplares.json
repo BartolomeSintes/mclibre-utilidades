@@ -815,6 +815,17 @@
       "creado": "2022-03-04"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 225,
+      "año": 2022,
+      "mes": 4,
+      "portada": "custom-pc-225-en-202204.jpg",
+      "fichero": "custom-pc-225-en-202204.pdf",
+      "idioma": "inglés",
+      "creado": "2022-04-01"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -1715,6 +1726,17 @@
       "fichero": "edutec-78-es-202112.pdf",
       "idioma": "español",
       "creado": "2021-12-17"
+    },
+    {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 79,
+      "año": 2022,
+      "mes": 3,
+      "portada": "edutec-79-es-202203.jpg",
+      "fichero": "edutec-79-es-202203.pdf",
+      "idioma": "español",
+      "creado": "2022-04-01"
     },
     {
       "serie": "Full Circle",
@@ -10779,6 +10801,17 @@
       "fichero": "the-magpi-115-en-202203.pdf",
       "idioma": "inglés",
       "creado": "2022-02-25"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 116,
+      "año": 2022,
+      "mes": 4,
+      "portada": "the-magpi-116-en-202204.jpg",
+      "fichero": "the-magpi-116-en-202204.pdf",
+      "idioma": "inglés",
+      "creado": "2022-04-01"
     },
     {
       "serie": "The MagPi Books",
