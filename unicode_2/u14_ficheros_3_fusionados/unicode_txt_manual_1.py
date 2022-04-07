@@ -52,7 +52,7 @@ manual_1 = [
   [
     ['1FAE0'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fae0.svg',
   ],
   [
     ['1F609'],
@@ -157,12 +157,12 @@ manual_1 = [
   [
     ['1FAE2'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fae2.svg',
   ],
   [
     ['1FAE3'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fae3.svg',
   ],
   [
     ['1F92B'],
@@ -177,7 +177,7 @@ manual_1 = [
   [
     ['1FAE1'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fae1.svg',
   ],
   [
     ['1F910'],
@@ -207,7 +207,7 @@ manual_1 = [
   [
     ['1FAE5'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fae5.svg',
   ],
   [
     ['1F636', '200D', '1F32B', 'FE0F'],
@@ -367,7 +367,7 @@ manual_1 = [
   [
     ['1FAE4'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fae4.svg',
   ],
   [
     ['1F61F'],
@@ -412,7 +412,7 @@ manual_1 = [
   [
     ['1F979'],
     ['gr-simbolos-misc-supl'],
-    '',
+    '1f979.svg',
   ],
   [
     ['1F626'],
@@ -842,22 +842,22 @@ manual_1 = [
   [
     ['1FAF1'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faf1.svg',
   ],
   [
     ['1FAF2'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faf2.svg',
   ],
   [
     ['1FAF3'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faf3.svg',
   ],
   [
     ['1FAF4'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faf4.svg',
   ],
   [
     ['1F44C'],
@@ -887,7 +887,7 @@ manual_1 = [
   [
     ['1FAF0'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faf0.svg',
   ],
   [
     ['1F91F'],
@@ -937,7 +937,7 @@ manual_1 = [
   [
     ['1FAF5'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faf5.svg',
   ],
   [
     ['1F44D'],
@@ -982,7 +982,7 @@ manual_1 = [
   [
     ['1FAF6'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faf6.svg',
   ],
   [
     ['1F450'],
@@ -1107,7 +1107,7 @@ manual_1 = [
   [
     ['1FAE6'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fae6.svg',
   ],
   [
     ['1F476'],
@@ -1707,7 +1707,7 @@ manual_1 = [
   [
     ['1FAC5'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fac5.svg',
   ],
   [
     ['1F934'],
@@ -1782,12 +1782,12 @@ manual_1 = [
   [
     ['1FAC3'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fac3.svg',
   ],
   [
     ['1FAC4'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fac4.svg',
   ],
   [
     ['1F931'],
@@ -1967,7 +1967,7 @@ manual_1 = [
   [
     ['1F9CC'],
     ['gr-simbolos-misc-supl'],
-    '',
+    '1f9cc.svg',
   ],
   [
     ['1F486'],
@@ -3147,7 +3147,7 @@ manual_1 = [
   [
     ['1FAB8'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fab8.svg',
   ],
   [
     ['1F40C'],
@@ -3247,7 +3247,7 @@ manual_1 = [
   [
     ['1FAB7'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fab7.svg',
   ],
   [
     ['1F3F5'],
@@ -3352,12 +3352,12 @@ manual_1 = [
   [
     ['1FAB9'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fab9.svg',
   ],
   [
     ['1FABA'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faba.svg',
   ],
   [
     ['1F347'],
@@ -3527,7 +3527,7 @@ manual_1 = [
   [
     ['1FAD8'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fad8.svg',
   ],
   [
     ['1F330'],
@@ -3957,7 +3957,7 @@ manual_1 = [
   [
     ['1FAD7'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fad7.svg',
   ],
   [
     ['1F964'],
@@ -4012,7 +4012,7 @@ manual_1 = [
   [
     ['1FAD9'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fad9.svg',
   ],
   [
     ['1F3FA'],
@@ -4327,7 +4327,7 @@ manual_1 = [
   [
     ['1F6DD'],
     ['gr-transporte'],
-    '',
+    '1f6dd.svg',
   ],
   [
     ['1F3A1'],
@@ -4572,7 +4572,7 @@ manual_1 = [
   [
     ['1F6DE'],
     ['gr-transporte'],
-    '',
+    '1f6de.svg',
   ],
   [
     ['1F6A8'],
@@ -4607,7 +4607,7 @@ manual_1 = [
   [
     ['1F6DF'],
     ['gr-transporte'],
-    '',
+    '1f6df.svg',
   ],
   [
     ['26F5'],
@@ -5417,7 +5417,7 @@ manual_1 = [
   [
     ['1FAAC'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faac.svg',
   ],
   [
     ['1F3AE'],
@@ -5457,7 +5457,7 @@ manual_1 = [
   [
     ['1FAA9'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faa9.svg',
   ],
   [
     ['1FA86'],
@@ -5937,7 +5937,7 @@ manual_1 = [
   [
     ['1FAAB'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faab.svg',
   ],
   [
     ['1F50C'],
@@ -6642,7 +6642,7 @@ manual_1 = [
   [
     ['1FA7C'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fa7c.svg',
   ],
   [
     ['1FA7A'],
@@ -6652,7 +6652,7 @@ manual_1 = [
   [
     ['1FA7B'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fa7b.svg',
   ],
   [
     ['1F6AA'],
@@ -6757,7 +6757,7 @@ manual_1 = [
   [
     ['1FAE7'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1fae7.svg',
   ],
   [
     ['1FAA5'],
@@ -6812,7 +6812,7 @@ manual_1 = [
   [
     ['1FAAA'],
     ['gr-simbolos-ext-a'],
-    '',
+    '1faaa.svg',
   ],
   [
     ['1F3E7'],
@@ -7332,7 +7332,7 @@ manual_1 = [
   [
     ['1F7F0'],
     ['gr-geometricas-extendidas'],
-    '',
+    '1f7f0.svg',
   ],
   [
     ['267E'],
@@ -9392,102 +9392,102 @@ manual_1 = [
   [
     ['1FAF1', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf1-1f3fb.svg',
   ],
   [
     ['1FAF1', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf1-1f3fc.svg',
   ],
   [
     ['1FAF1', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf1-1f3fd.svg',
   ],
   [
     ['1FAF1', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf1-1f3fe.svg',
   ],
   [
     ['1FAF1', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf1-1f3ff.svg',
   ],
   [
     ['1FAF2', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf2-1f3fb.svg',
   ],
   [
     ['1FAF2', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf2-1f3fc.svg',
   ],
   [
     ['1FAF2', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf2-1f3fd.svg',
   ],
   [
     ['1FAF2', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf2-1f3fe.svg',
   ],
   [
     ['1FAF2', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf2-1f3ff.svg',
   ],
   [
     ['1FAF3', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf3-1f3fb.svg',
   ],
   [
     ['1FAF3', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf3-1f3fc.svg',
   ],
   [
     ['1FAF3', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf3-1f3fd.svg',
   ],
   [
     ['1FAF3', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf3-1f3fe.svg',
   ],
   [
     ['1FAF3', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf3-1f3ff.svg',
   ],
   [
     ['1FAF4', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf4-1f3fb.svg',
   ],
   [
     ['1FAF4', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf4-1f3fc.svg',
   ],
   [
     ['1FAF4', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf4-1f3fd.svg',
   ],
   [
     ['1FAF4', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf4-1f3fe.svg',
   ],
   [
     ['1FAF4', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf4-1f3ff.svg',
   ],
   [
     ['1F44C', '1F3FB'],
@@ -9617,27 +9617,27 @@ manual_1 = [
   [
     ['1FAF0', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf0-1f3fb.svg',
   ],
   [
     ['1FAF0', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf0-1f3fc.svg',
   ],
   [
     ['1FAF0', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf0-1f3fd.svg',
   ],
   [
     ['1FAF0', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf0-1f3fe.svg',
   ],
   [
     ['1FAF0', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf0-1f3ff.svg',
   ],
   [
     ['1F91F', '1F3FB'],
@@ -9867,27 +9867,27 @@ manual_1 = [
   [
     ['1FAF5', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf5-1f3fb.svg',
   ],
   [
     ['1FAF5', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf5-1f3fc.svg',
   ],
   [
     ['1FAF5', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf5-1f3fd.svg',
   ],
   [
     ['1FAF5', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf5-1f3fe.svg',
   ],
   [
     ['1FAF5', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf5-1f3ff.svg',
   ],
   [
     ['1F44D', '1F3FB'],
@@ -10092,27 +10092,27 @@ manual_1 = [
   [
     ['1FAF6', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf6-1f3fb.svg',
   ],
   [
     ['1FAF6', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf6-1f3fc.svg',
   ],
   [
     ['1FAF6', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf6-1f3fd.svg',
   ],
   [
     ['1FAF6', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf6-1f3fe.svg',
   ],
   [
     ['1FAF6', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1faf6-1f3ff.svg',
   ],
   [
     ['1F450', '1F3FB'],
@@ -10167,127 +10167,127 @@ manual_1 = [
   [
     ['1F91D', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1f91d-1f3fb.svg',
   ],
   [
     ['1F91D', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1f91d-1f3fc.svg',
   ],
   [
     ['1F91D', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1f91d-1f3fd.svg',
   ],
   [
     ['1F91D', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1f91d-1f3fe.svg',
   ],
   [
     ['1F91D', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1f91d-1f3ff.svg',
   ],
   [
     ['1FAF1', '1F3FB', '200D', '1FAF2', '1F3FC'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fb-200d-1faf2-1f3fc.svg',
   ],
   [
     ['1FAF1', '1F3FB', '200D', '1FAF2', '1F3FD'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fb-200d-1faf2-1f3fd.svg',
   ],
   [
     ['1FAF1', '1F3FB', '200D', '1FAF2', '1F3FE'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fb-200d-1faf2-1f3fe.svg',
   ],
   [
     ['1FAF1', '1F3FB', '200D', '1FAF2', '1F3FF'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fb-200d-1faf2-1f3ff.svg',
   ],
   [
     ['1FAF1', '1F3FC', '200D', '1FAF2', '1F3FB'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fc-200d-1faf2-1f3fb.svg',
   ],
   [
     ['1FAF1', '1F3FC', '200D', '1FAF2', '1F3FD'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fc-200d-1faf2-1f3fd.svg',
   ],
   [
     ['1FAF1', '1F3FC', '200D', '1FAF2', '1F3FE'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fc-200d-1faf2-1f3fe.svg',
   ],
   [
     ['1FAF1', '1F3FC', '200D', '1FAF2', '1F3FF'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fc-200d-1faf2-1f3ff.svg',
   ],
   [
     ['1FAF1', '1F3FD', '200D', '1FAF2', '1F3FB'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fd-200d-1faf2-1f3fb.svg',
   ],
   [
     ['1FAF1', '1F3FD', '200D', '1FAF2', '1F3FC'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fd-200d-1faf2-1f3fc.svg',
   ],
   [
     ['1FAF1', '1F3FD', '200D', '1FAF2', '1F3FE'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fd-200d-1faf2-1f3fe.svg',
   ],
   [
     ['1FAF1', '1F3FD', '200D', '1FAF2', '1F3FF'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fd-200d-1faf2-1f3ff.svg',
   ],
   [
     ['1FAF1', '1F3FE', '200D', '1FAF2', '1F3FB'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fe-200d-1faf2-1f3fb.svg',
   ],
   [
     ['1FAF1', '1F3FE', '200D', '1FAF2', '1F3FC'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fe-200d-1faf2-1f3fc.svg',
   ],
   [
     ['1FAF1', '1F3FE', '200D', '1FAF2', '1F3FD'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fe-200d-1faf2-1f3fd.svg',
   ],
   [
     ['1FAF1', '1F3FE', '200D', '1FAF2', '1F3FF'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3fe-200d-1faf2-1f3ff.svg',
   ],
   [
     ['1FAF1', '1F3FF', '200D', '1FAF2', '1F3FB'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3ff-200d-1faf2-1f3fb.svg',
   ],
   [
     ['1FAF1', '1F3FF', '200D', '1FAF2', '1F3FC'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3ff-200d-1faf2-1f3fc.svg',
   ],
   [
     ['1FAF1', '1F3FF', '200D', '1FAF2', '1F3FD'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3ff-200d-1faf2-1f3fd.svg',
   ],
   [
     ['1FAF1', '1F3FF', '200D', '1FAF2', '1F3FE'],
     ['gr-colores-piel-8'],
-    '',
+    '1faf1-1f3ff-200d-1faf2-1f3fe.svg',
   ],
   [
     ['1F64F', '1F3FB'],
@@ -13517,27 +13517,27 @@ manual_1 = [
   [
     ['1FAC5', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac5-1f3fb.svg',
   ],
   [
     ['1FAC5', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac5-1f3fc.svg',
   ],
   [
     ['1FAC5', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac5-1f3fd.svg',
   ],
   [
     ['1FAC5', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac5-1f3fe.svg',
   ],
   [
     ['1FAC5', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac5-1f3ff.svg',
   ],
   [
     ['1F934', '1F3FB'],
@@ -13892,52 +13892,52 @@ manual_1 = [
   [
     ['1FAC3', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac3-1f3fb.svg',
   ],
   [
     ['1FAC3', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac3-1f3fc.svg',
   ],
   [
     ['1FAC3', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac3-1f3fd.svg',
   ],
   [
     ['1FAC3', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac3-1f3fe.svg',
   ],
   [
     ['1FAC3', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac3-1f3ff.svg',
   ],
   [
     ['1FAC4', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac4-1f3fb.svg',
   ],
   [
     ['1FAC4', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac4-1f3fc.svg',
   ],
   [
     ['1FAC4', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac4-1f3fd.svg',
   ],
   [
     ['1FAC4', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac4-1f3fe.svg',
   ],
   [
     ['1FAC4', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    '1fac4-1f3ff.svg',
   ],
   [
     ['1F931', '1F3FB'],

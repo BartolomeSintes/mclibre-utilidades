@@ -4,9 +4,9 @@ En noviembre de 2021 me he dado cuenta de que no puedo mantener a mano los fiche
 
 ## COSAS A TENER EN CUENTA EL AÑO QUE VIENE
 
-- Al importar DerivedName hay líneas que resumen muchos carácteres (ideográficos). Lo que he he hecho ha sido ignorar esas líneas al importar el fichero. Tendría que comprobar manualmente que esas líneas efectivamente las quiero ignorar.
+- Al importar DerivedName hay líneas que resumen muchos caracteres (ideográficos). Lo que he he hecho ha sido ignorar esas líneas al importar el fichero. Tendría que comprobar manualmente que esas líneas efectivamente las quiero ignorar.
 
-## FICHEROS PUBLCIADOS POR UNICODE
+## FICHEROS PUBLICADOS POR UNICODE
 
 Por un lado hay cinco ficheros .txt publicados en dos directorios distintos
 - https://unicode.org/Public/emoji/14.0/
@@ -23,6 +23,8 @@ Por otro lado, hay dos páginas web con listas completas:
 
 Por otro lado, hay un fichero con todos los códigos Unicode individuales:
 - [DerivedName.txt](https://www.unicode.org/Public/14.0.0/ucd/extracted/DerivedName.txt)
+
+- En la página [Text vs Emoji, v14.0](https://unicode.org/emoji/charts-14.0/text-style.html) hay una tabla donde se ve cada uno de los emojis, emojis-texto, y texto-emoji
 
 ## IMPORTACIÓN DE LOS FICHEROS
 
@@ -51,5 +53,4 @@ Creo que ya sé cómo saber cuál es la presentación predeterminada de los cara
         - Si no está, es emoji o texto. Para distignuir cada caso, miro después en la lista emoji_data:
             - Si el carácter tiene incluida la propiedad "Emoji", entonces es emoji
             - Si el carácter no tiene incluida la propiedad "Emoji", entonces es texto
-- En la página [Text vs Emoji, v14.0](https://unicode.org/emoji/charts-14.0/text-style.html) hay una tabla donde se ve cada uno de los emojis, emojis-texto, y texto-emoji
 

@@ -37,7 +37,7 @@ Este repositorio contiene un programa para generar las páginas de los apuntes d
 
 - En el caso de los caracteres con representaciones texto/emoji no sé cuál es la represenbación por defecto. La única página que veo sobre el tema es <https://unicode.org/emoji/charts/emoji-style.html> pero no me aclaro con ella. En Unicode 12 publicaron una lista <https://unicode.org/Public/emoji/12.0/emoji-variation-sequences.txt>, pero no dice cuál es el predeterminado. Y en Unicode 13 esa lista no existe. Por ejemplo, apunté que Battery o White flower no son emojis, pero Windows sí que los muestra como emojis, pero no sé de dónde saqué esa información.
 En el caso de los caracteres con representaciones texto/emoji la representación predeterminada la tendría que mirar en <https://www.unicode.org/Public/13.0.0/ucd/emoji/emoji-data.txt>. pero es una página muy incómoda, se supone que primero listan todos los emojis y luego dicen los que tienen Emoji_Presentation por defecto. Según esa lista Battery y White Flower sí que sería emoji.
-<https://dict.emojiall.com/es/property-emoji-presentation-list> tiene una lista que podría utilziar si me fío de ella. Según esa lista Battery y White Flower sí que sería emoji.
+<https://dict.emojiall.com/es/property-emoji-presentation-list> tiene una lista que podría utilizar si me fío de ella. Según esa lista Battery y White Flower sí que sería emoji.
 
 - Tengo descargados los svg de Twemoji 12 y 13. Tendgo que organizarlos por directorios que coincidan con los apartados que aparecen en los apuntes (fmailias, géneros, etc.). Tendría que tener en un directorio los de 12, en otro los de 13 separando los que coinciden con 12 y los distintos, y en otro los de 13 todos juntos para cuando toque compararlos con 14.
 

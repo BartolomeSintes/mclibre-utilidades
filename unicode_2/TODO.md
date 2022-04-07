@@ -70,4 +70,6 @@ Es cosa de Windows porque salen en Chrome.
 - en twemoji ningún carácter texto-emoji lleva el VS16. Por ejemplo el "double exclamation mark" es U+203C U+FE0F, pero en twemoji es solamente U+203C. Tendría que localizar esos casos y añadir una nota en el cuadro.
 - En el apartado Colores de piel (2) podría poner los dibujos femeninos después de los masculinos (granjeros, granjeras, cocineros, cocineras, etc.) Lo que no tengo claro es si es mejor poner primero los cinco hombres y luego las cinco mujeres o ir intercalando hombre-mujer.
 
+# 2022-04-07
+- Así como en los apartados de caracteres el párrfo inicial incluye el número de caracteres, en los apartados de secuencias no aparece el númeor. No tengo claro por qué.
 

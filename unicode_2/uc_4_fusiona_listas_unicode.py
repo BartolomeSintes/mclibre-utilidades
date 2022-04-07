@@ -280,12 +280,12 @@ def comprueba_fusion_1_2():
     # for c in fusionados_1:
     #     # Compruebo que el carácter es el mismo
     #     if len(c[1]) > 0 and len(c[2]) > 0 and c[1][4] != c[2][1]:
-    #         print("PROBLEMA: carácteres distintos")
+    #         print("PROBLEMA: caracteres distintos")
     #         print(f"{c[0]} {c[1][4]} {c[2][1]}")
 
     #     # Compruebo que CLDR es el mismo
     #     if len(c[1]) > 0 and len(c[2]) > 0 and c[1][5] != c[2][3]:
-    #         print("PROBLEMA: carácteres distintos")
+    #         print("PROBLEMA: caracteres distintos")
     #         print(f"{c[0]} {c[1][5]} {c[2][3]}")
 
     #     # Compruebo que los grupos son iguales
@@ -300,27 +300,27 @@ def comprueba_fusion_1_2():
 
     #     # Compruebo que la versión es la misma
     #     if len(c[2]) > 0 and len(c[3]) > 0 and c[2][2] != c[3][1]:
-    #         print("PROBLEMA: carácteres distintos")
+    #         print("PROBLEMA: caracteres distintos")
     #         print(f"{c[0]} {c[2][2]} {c[3][1]}")
 
     #     # Compruebo que CLDR es el mismo
     #     # if len(c[1]) > 0 and len(c[4]) > 0 and c[1][5] != c[4][2]:
-    #     #     print("PROBLEMA: carácteres distintos")
+    #     #     print("PROBLEMA: caracteres distintos")
     #     #     print(f"{c[0]} {c[1][5]} {c[4][2]}")
 
     #     # Compruebo que la versión es la misma
     #     if len(c[2]) > 0 and len(c[5]) > 0 and c[2][2] != c[5][2]:
-    #         print("PROBLEMA: carácteres distintos")
+    #         print("PROBLEMA: caracteres distintos")
     #         print(f"{c[0]} {c[2][2]} {c[5][2]}")
 
     #     # Compruebo que el carácter es el mismo
     #     if len(c[1]) > 0 and len(c[5]) > 0 and c[1][4] != c[5][3]:
-    #         print("PROBLEMA: carácteres distintos")
+    #         print("PROBLEMA: caracteres distintos")
     #         print(f"{c[0]} {c[1][4]} {c[5][3]}")
 
     #     # Compruebo que la versión es la misma
     #     if len(c[2]) > 0 and len(c[6]) > 0 and c[2][2] != c[6][1]:
-    #         print("PROBLEMA: carácteres distintos")
+    #         print("PROBLEMA: caracteres distintos")
     #         print(f"{c[0]} {c[2][2]} {c[6][1]}")
 
 
