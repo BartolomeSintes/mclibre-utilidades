@@ -13168,6 +13168,17 @@
       "creado": "2022-03-11"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 183,
+      "año": 2022,
+      "mes": 4,
+      "portada": "pclinuxos-183-en-202204.jpg",
+      "fichero": "pclinuxos-183-en-202204.pdf",
+      "idioma": "inglés",
+      "creado": "2022-04-08"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -14112,6 +14123,17 @@
       "fichero": "wireframe-60-en-202203.pdf",
       "idioma": "inglés",
       "creado": "2022-03-04"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 61,
+      "año": 2022,
+      "mes": 4,
+      "portada": "wireframe-61-en-202204.jpg",
+      "fichero": "wireframe-61-en-202204.pdf",
+      "idioma": "inglés",
+      "creado": "2022-04-08"
     },
     {
       "serie": "Wireframe Books",
