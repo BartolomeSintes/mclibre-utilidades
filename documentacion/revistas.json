@@ -54,7 +54,7 @@
             "nombre-largo": "Custom PC",
             "web": [
                 [
-                    "https://custompc.raspberrypi.org/",
+                    "https://custompc.raspberrypi.com/",
                     "Revista Custom PC"
                 ]
             ],
@@ -134,7 +134,7 @@
             "nombre-largo": "HackSpace - The monthly magazine for the modern maker",
             "web": [
                 [
-                    "https://hackspace.raspberrypi.org/",
+                    "https://hackspace.raspberrypi.com/",
                     "Revista HackSpace"
                 ]
             ],
@@ -150,7 +150,7 @@
             "nombre-largo": "Revista HackSpace Books",
             "web": [
                 [
-                    "https://hackspace.raspberrypi.org/books",
+                    "https://hackspace.raspberrypi.com/books",
                     "Libros Revista HackSpace"
                 ]
             ],
@@ -351,7 +351,7 @@
             "nombre-largo": "The MagPi - The official Raspberry Pi magazine",
             "web": [
                 [
-                    "https://magpi.raspberrypi.org/",
+                    "https://magpi.raspberrypi.com/",
                     "Revista The MagPi"
                 ]
             ],
@@ -367,7 +367,7 @@
             "nombre-largo": "The MagPi Books",
             "web": [
                 [
-                    "https://magpi.raspberrypi.org/books",
+                    "https://magpi.raspberrypi.com/books",
                     "Libros Revista The MagPi"
                 ]
             ],
@@ -415,7 +415,7 @@
             "nombre-largo": "Wireframe - Lifting the lid on video games",
             "web": [
                 [
-                    "https://wireframe.raspberrypi.org/",
+                    "https://wireframe.raspberrypi.com/",
                     "Revista Wireframe"
                 ]
             ],
@@ -431,7 +431,7 @@
             "nombre-largo": "Wireframe Books",
             "web": [
                 [
-                    "https://wireframe.raspberrypi.org/books",
+                    "https://wireframe.raspberrypi.com/books",
                     "Libros Revista Wireframe"
                 ]
             ],
