@@ -4808,6 +4808,17 @@
       "creado": "2022-04-23"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 55,
+      "año": 2022,
+      "mes": 6,
+      "portada": "hackspace-55-en-202206.jpg",
+      "fichero": "hackspace-55-en-202206.pdf",
+      "idioma": "inglés",
+      "creado": "2022-05-21"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -13210,17 +13221,6 @@
       "fichero": "pclinuxos-182-en-202203.pdf",
       "idioma": "inglés",
       "creado": "2022-03-11"
-    },
-    {
-      "serie": "The PCLinuxOS Magazine",
-      "nombre": "The PCLinuxOS Magazine",
-      "número": 183,
-      "año": 2022,
-      "mes": 4,
-      "portada": "pclinuxos-183-en-202204.jpg",
-      "fichero": "pclinuxos-183-en-202204.pdf",
-      "idioma": "inglés",
-      "creado": "2022-04-08"
     },
     {
       "serie": "The PCLinuxOS Magazine",
