@@ -687,11 +687,22 @@
       "nombre": "Bits de Ciencia",
       "número": 21,
       "año": 2021,
-      "mes": "S1",
-      "portada": "bits-de-ciencia-21-es-2021s1.jpg",
-      "fichero": "bits-de-ciencia-21-es-2021s1.pdf",
+      "mes": "",
+      "portada": "bits-de-ciencia-21-es-2021.jpg",
+      "fichero": "bits-de-ciencia-21-es-2021.pdf",
       "idioma": "español",
       "creado": "2021-07-10"
+    },
+    {
+      "serie": "Bits de Ciencia",
+      "nombre": "Bits de Ciencia",
+      "número": 22,
+      "año": 2022,
+      "mes": "S1",
+      "portada": "bits-de-ciencia-22-es-2022s1.jpg",
+      "fichero": "bits-de-ciencia-22-es-2022s1.pdf",
+      "idioma": "español",
+      "creado": "2022-06-03"
     },
     {
       "serie": "Custom PC",
@@ -14233,6 +14244,17 @@
       "fichero": "wireframe-62-en-202205.pdf",
       "idioma": "inglés",
       "creado": "2022-05-06"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 63,
+      "año": 2022,
+      "mes": 6,
+      "portada": "wireframe-63-en-202206.jpg",
+      "fichero": "wireframe-63-en-202206.pdf",
+      "idioma": "inglés",
+      "creado": "2022-06-03"
     },
     {
       "serie": "Wireframe Books",
