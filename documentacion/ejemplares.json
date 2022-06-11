@@ -848,6 +848,17 @@
       "creado": "2022-05-06"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 227,
+      "año": 2022,
+      "mes": 6,
+      "portada": "custom-pc-227-en-202206.jpg",
+      "fichero": "custom-pc-227-en-202206.pdf",
+      "idioma": "inglés",
+      "creado": "2022-06-11"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -13276,6 +13287,17 @@
       "fichero": "pclinuxos-184-en-202205.pdf",
       "idioma": "inglés",
       "creado": "2022-05-06"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 185,
+      "año": 2022,
+      "mes": 6,
+      "portada": "pclinuxos-185-en-202206.jpg",
+      "fichero": "pclinuxos-185-en-202206.pdf",
+      "idioma": "inglés",
+      "creado": "2022-06-11"
     },
     {
       "serie": "The R Journal",
