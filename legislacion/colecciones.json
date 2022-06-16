@@ -70,7 +70,6 @@
                                 "titulo": "Borradores",
                                 "referencias": [
                                     "boe-borrador-2022-1-rd",
-                                    "boe-borrador-2021-3-lo",
                                     "boe-borrador-2021-2-rd",
                                     "boe-borrador-2021-1-rd"
                                 ]
@@ -173,7 +172,8 @@
                             "apartado": {
                                 "titulo": "Convalidaciones de Formación Profesional",
                                 "referencias": [
-                                    "boe-2020-1085-rd"
+                                    "boe-2020-1085-rd",
+                                    "boe-2021-1210-o"
                                 ]
                             }
                         },
@@ -191,7 +191,9 @@
                                 "titulo": "Currículos de Secundaria y Bachillerato",
                                 "referencias": [
                                     "boe-2011-1146-rd",
-                                    "boe-2014-1105-rd"
+                                    "boe-2014-1105-rd",
+                                    "boe-2022-217-rd",
+                                    "boe-2022-243-rd"
                                 ]
                             }
                         },
@@ -219,7 +221,8 @@
                                 "titulo": "Ordenación FP",
                                 "referencias": [
                                     "boe-1998-777-rd",
-                                    "boe-2011-1147-rd"
+                                    "boe-2011-1147-rd",
+                                    "boe-2022-3-lo"
                                 ]
                             }
                         },
@@ -302,6 +305,7 @@
                                 "titulo": "Estudios universitarios informática",
                                 "referencias": [
                                     "boe-2009-06-08-res",
+                                    "boe-2010-11-26-res",
                                     "boe-2011-03-23-res",
                                     "boe-2011-07-18-res",
                                     "boe-2014-07-15-res",
@@ -383,7 +387,10 @@
                             "apartado": {
                                 "titulo": "Curso 2022/23",
                                 "referencias": [
-                                    "dogv-2022-01-28-res"
+                                    "dogv-2022-01-28-res",
+                                    "dogv-2022-03-24-res",
+                                    "dogv-2022-03-28-res",
+                                    "dogv-2022-06-14-res"
                                 ]
                             }
                         },
@@ -391,9 +398,6 @@
                             "apartado": {
                                 "titulo": "Curso 2021/22",
                                 "referencias": [
-                                    "dogv-2021-03-29-1-res",
-                                    "dogv-2021-03-30-res",
-                                    "dogv-2021-05-06-res",
                                     "dogv-2021-05-27-res",
                                     "dogv-2021-06-01-res",
                                     "dogv-2021-07-05-res",
@@ -402,14 +406,6 @@
                                     "dogv-2021-07-26-3-res",
                                     "dogv-2021-12-15-res",
                                     "dogv-2022-01-26-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2019/20",
-                                "referencias": [
-                                    "dogv-2020-06-29-res"
                                 ]
                             }
                         },
@@ -1028,7 +1024,10 @@
                             "apartado": {
                                 "titulo": "Curso 2021/22",
                                 "referencias": [
-                                    "dogv-2020-12-23-res"
+                                    "dogv-2020-12-23-res",
+                                    "dogv-2021-03-29-1-res",
+                                    "dogv-2021-03-31-res",
+                                    "dogv-2021-05-06-res"
                                 ]
                             }
                         },
@@ -1061,7 +1060,8 @@
                                     "dogv-2019-07-08-1-res",
                                     "dogv-2019-07-08-2-res",
                                     "dogv-2019-07-05-res",
-                                    "dogv-2019-10-15-res"
+                                    "dogv-2019-10-15-res",
+                                    "dogv-2020-06-29-res"
                                 ]
                             }
                         },

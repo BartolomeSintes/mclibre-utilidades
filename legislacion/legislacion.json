@@ -1347,7 +1347,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2015-01-03",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Currículo básico de ESO y Bachillerato",
             "titulo": "Real Decreto 1105/2014, de 26 de diciembre, por el que se establece el currículo básico de la Educación Secundaria Obligatoria y del Bachillerato.",
             "versiones": [
@@ -5249,7 +5249,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2015-01-29",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Competencias clave, contenidos y criterios de evaluación Secundaria y Bachillerato",
             "titulo": "Orden ECD/65/2015, de 21 de enero, por la que se describen las relaciones entre las competencias, los contenidos y los criterios de evaluación de la educación primaria, la educación secundaria obligatoria y el bachillerato.",
             "versiones": [
@@ -8005,7 +8005,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2017-06-03",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Obtención títulos ESO y Bachiller",
             "titulo": "Real Decreto 562/2017, de 2 de junio, por el que se regulan las condiciones para la obtención de los títulos de Graduado en Educación Secundaria Obligatoria y de Bachiller, de acuerdo con lo dispuesto en el Real Decreto-ley 5/2016, de 9 de diciembre, de medidas urgentes para la ampliación del calendario de implantación de la Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.",
             "versiones": [
@@ -23825,7 +23825,23 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-6906"
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-6916"
+                        }
+                    ]
+                },
+                {
+                    "versión": "modificado",
+                    "fecha": "2020-07-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-07-27-O-plan-estudios-graduado-ingenieria-informatica-upv-modificacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-8629"
                         }
                     ]
                 }
@@ -29180,13 +29196,13 @@
             ]
         },
         {
-            "id": "dogv-2021-03-30-res",
+            "id": "dogv-2021-03-31-res",
             "incluido": "2021-12-23",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2021-04-09",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario de admisión FP 21/22 (CV)",
             "titulo": "Resolución de 31 de marzo de 2021, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establece el calendario y el procedimiento de admisión y matrícula del alumnado en las enseñanzas de Formación Profesional Básica, de grado medio y de grado superior, en centros públicos y centros privados con ciclos formativos sostenidos con fondos públicos no universitarios; en los programas formativos de cualificación básica financiados con fondos públicos y en los ciclos de Formación Profesional Básica en institutos de Educación Secundaria y centros integrados públicos de Formación Profesional de la Comunitat Valenciana, dirigidos a personas beneficiarias del Plan de empleo juvenil para el curso 2021-2022.",
             "versiones": [
@@ -29269,7 +29285,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2021-03-30",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario de admisión Infantil, Primaria, ESO y Bachillerato 21/22 (CV)",
             "titulo": "Resolución de 29 de marzo de 2021, del director general de Centros Docentes, por la que se establece el calendario de admisión del alumnado en los centros públicos y privados concertados de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato, para el curso 2021-2022.",
             "versiones": [
@@ -29322,7 +29338,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2021-05-10",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones Procedimiento de admisión 21/22 (CV)",
             "titulo": "Resolución de 6 de mayo de 2021, del director general de Centros Docentes, por la que se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato para el curso 2021-2022.",
             "versiones": [
@@ -29872,7 +29888,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2021-11-17",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Evaluación, promoción y titulación ESO, Bachillerato y FP",
             "titulo": "Real Decreto 984/2021, de 16 de noviembre, por el que se regulan la evaluación y la promoción en la Educación Primaria, así como la evaluación, la promoción y la titulación en la Educación Secundaria Obligatoria, el Bachillerato y la Formación Profesional.",
             "versiones": [
@@ -32321,6 +32337,358 @@
                 "educación",
                 "formación profesional",
                 "fct"
+            ]
+        },
+        {
+            "id": "boe-2021-1210-o",
+            "incluido": "2022-03-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2021-11-08",
+            "vigencia": "vigente",
+            "descripción": "Equivalencias a efectos de acceso a ciclos formativos",
+            "titulo": "Orden EFP/1210/2021, de 2 de noviembre, por la que se establece la equivalencia, a los efectos de acceso a enseñanzas de formación profesional, de determinados estudios y títulos anteriores al actual sistema educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-11-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2021-1210-O-equivalencias-accesos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2021/11/02/efp1210"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "convalidaciones"
+            ]
+        },
+        {
+            "id": "boe-2022-217-rd",
+            "incluido": "2022-03-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-03-30",
+            "vigencia": "vigente",
+            "descripción": "Enseñanzas mínimas de ESO",
+            "titulo": "Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-217-RD-ensenanzas-minimas-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2022/03/29/217"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "currículo",
+                "secundaria",
+                "ESO"
+            ]
+        },
+        {
+            "id": "boe-2022-3-lo",
+            "incluido": "2022-04-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-03-31",
+            "vigencia": "vigente",
+            "descripción": "Ley de Ordenación e integración de la FP",
+            "titulo": "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-3-LO-ordenacion-integracion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2022/03/31/3"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "formación profesional",
+                "formación profesional para el empleo",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "boe-2022-243-rd",
+            "incluido": "2022-04-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-04-06",
+            "vigencia": "vigente",
+            "descripción": "Enseñanzas mínimas Bachillerato",
+            "titulo": "Real Decreto 243/2022, de 5 de abril, por el que se establecen la ordenación y las enseñanzas mínimas del Bachillerato.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-04-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-243-RD-ensenanzas-minimas-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2022/04/05/243"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "currículo",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-2022-06-14-res",
+            "incluido": "2022-06-16",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-06-16",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar 2022/23 (CV)",
+            "titulo": "Resolución de 14 de junio de 2022, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2022-2023 en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-06-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-06-14-R-calendario-escolar-2223.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/5675"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/5675"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-06-14-R-calendario-escolar-2223-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-06-14-R-calendario-escolar-2223-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2022/23"
+            ]
+        },
+        {
+            "id": "dogv-2022-03-24-res",
+            "incluido": "2022-06-16",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-03-30",
+            "vigencia": "vigente",
+            "descripción": "Calendario de admisión FP 22/23 (CV)",
+            "titulo": "Resolución de 24 de marzo de 2022, del secretario autonómico de Educación y Formación Profesional, por la que se establece el calendario de admisión en las enseñanzas sostenidas con fondos públicos de Formación Profesional de grado básico, de grado medio y de grado superior, cursos de especialización y programas formativos de cualificación básica, para el curso 2022-2023.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-03-24-R-admision-fp-2223.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/2648"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/2648"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-03-24-R-admision-fp-2223-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-03-24-R-admision-fp-2223-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "fp",
+                "admisión",
+                "curso 2022/23"
+            ]
+        },
+        {
+            "id": "dogv-2022-03-28-res",
+            "incluido": "2022-03-28",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-03-29",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones Procedimiento de admisión 22/23 (CV)",
+            "titulo": "Resolución de 28 de marzo de 2022, del director general de Centros Docentes, por la que se establece el calendario y se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato para el curso 2022-2023.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-03-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-03-28-R-admision-secundaria-bachillerato-2223.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/2679"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "ca",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/2679"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-03-28-R-admision-secundaria-bachillerato-2223-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-03-28-R-admision-secundaria-bachillerato-2223-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2022/23"
+            ]
+        },
+        {
+            "id": "boe-2010-11-26-res",
+            "incluido": "2022-06-16",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-01-28",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Máster en Automática e Informática Industrial (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 26 de noviembre de 2010, de la Universidad Politécnica de Valencia, por la que se publica el plan de estudios de Máster en Automática e Informática Industrial.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-01-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-11-26-O-plan-estudios-master-automatica-informatica-industrial-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-1602"
+                        }
+                    ]
+                },
+                {
+                    "versión": "modificado",
+                    "fecha": "2016-05-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2016-05-26-O-plan-estudios-master-automatica-informatica-industrial-upv-modificacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2016-5005"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
             ]
         }
     ]
