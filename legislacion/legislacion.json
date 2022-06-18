@@ -6690,7 +6690,7 @@
             "origen": "BOE",
             "fecha": "2016-12-23",
             "vigencia": "vencido",
-            "descripción": "Regulación pruebas evaluación final Bachillerato acceso Universidad 2016/17",
+            "descripción": "Pruebas evaluación final Bachillerato y acceso Universidad 2016/17",
             "titulo": "Orden ECD/1941/2016, de 22 de diciembre, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas, para el curso 2016/2017.",
             "versiones": [
                 {
@@ -6727,7 +6727,7 @@
             "origen": "BOE",
             "fecha": "2018-01-26",
             "vigencia": "vencido",
-            "descripción": "Regulación pruebas evaluación final Bachillerato acceso Universidad 2017/18",
+            "descripción": "Pruebas evaluación final Bachillerato y acceso Universidad 2017/18",
             "titulo": "Orden ECD/42/2018, de 25 de enero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas, para el curso 2017/2018.",
             "versiones": [
                 {
@@ -6764,7 +6764,7 @@
             "origen": "BOE",
             "fecha": "2019-01-15",
             "vigencia": "vencido",
-            "descripción": "Regulación pruebas evaluación final Bachillerato acceso Universidad 2018/19",
+            "descripción": "Pruebas evaluación final Bachillerato y acceso Universidad 2018/19",
             "titulo": "Orden PCI/12/2019, de 14 de enero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas en el curso 2018-2019.",
             "versiones": [
                 {
@@ -22158,7 +22158,7 @@
             "origen": "BOE",
             "fecha": "2020-02-19",
             "vigencia": "vencido",
-            "descripción": "Acceso a la Universidad 2019/20",
+            "descripción": "Pruebas evaluación final Bachillerato y acceso Universidad 2019/20",
             "titulo": "Orden PCM/139/2020, de 17 de febrero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas en el curso 2019-2020.",
             "versiones": [
                 {
@@ -22174,6 +22174,22 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.boe.es/eli/es/o/2020/02/17/pcm139"
+                        }
+                    ]
+                },
+                {
+                    "versión": "modificado",
+                    "fecha": "2020-04-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-362-O-acceso-universidad-1920-modificacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2020/04/22/pcm362"
                         }
                     ]
                 }
@@ -28764,7 +28780,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2020-03-19",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Regulación pruebas evaluación final ESO 2019/20",
             "titulo": "Orden EFP/255/2020, de 11 de marzo, por la que se regulan las pruebas de la evaluación final de Educación Secundaria Obligatoria, para el curso 2019/2020, y se modifica la Orden ECD/65/2018, de 29 de enero, por la que se regulan las pruebas de la evaluación final de Educación Secundaria Obligatoria, para el curso 2017/2018.",
             "versiones": [
@@ -28800,8 +28816,8 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2021-01-13",
-            "vigencia": "vigente",
-            "descripción": "Acceso a la Universidad 2020/21",
+            "vigencia": "vencido",
+            "descripción": "Pruebas evaluación final Bachillerato y acceso Universidad 2020/21",
             "titulo": "Orden PCM/2/2021, de 11 de enero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la Universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas, en el curso 2020-2021.",
             "versiones": [
                 {
@@ -32689,6 +32705,44 @@
                 "resolución",
                 "universidad",
                 "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-2022-58-o",
+            "incluido": "2022-06-18",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-02-04",
+            "vigencia": "vigente",
+            "descripción": "Pruebas evaluación final Bachillerato y acceso Universidad 2021/22",
+            "titulo": "Orden PCM/58/2022, de 2 de febrero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas, en el curso 2021-2022.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-02-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-58-O-acceso-universidad-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2022/02/02/pcm58"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2021/22",
+                "educación",
+                "bachillerato",
+                "acceso universidad",
+                "evaluaciones finales"
             ]
         }
     ]

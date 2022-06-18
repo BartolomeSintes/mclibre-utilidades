@@ -86,17 +86,9 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Curso 2020/21",
+                                "titulo": "Curso 2021/22",
                                 "referencias": [
-                                    "boe-2021-2-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2019/20",
-                                "referencias": [
-                                    "boe-2020-255-o"
+                                    "boe-2022-58-o"
                                 ]
                             }
                         },
@@ -835,9 +827,18 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Curso 2020/21",
+                                "referencias": [
+                                    "boe-2021-2-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2019/20",
                                 "referencias": [
-                                    "boe-2020-139-o"
+                                    "boe-2020-139-o",
+                                    "boe-2020-255-o"
                                 ]
                             }
                         },
