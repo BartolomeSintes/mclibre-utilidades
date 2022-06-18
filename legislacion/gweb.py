@@ -19,7 +19,7 @@ def bandera(entidad, ancho):
     return f'<img src="../{gconst.DIR_IMAGES}/bandera-{gconst.CODIGOS_ISO_3166[entidad]}.svg" alt="{entidad}" title="{entidad}" width="{ancho}">'
 
 
-def cabecera(titulo, profundidad):
+def cabecera(titulo, profundidad, incluye_js):
     tmp = "<!DOCTYPE html>\n"
     tmp += '<html lang="es">\n'
     tmp += "<head>\n"
@@ -32,6 +32,41 @@ def cabecera(titulo, profundidad):
     else:
         tmp += f'  <link rel="stylesheet" href="../{gconst.FILE_CSS}">\n'
         tmp += f'  <link rel="icon" href="../varios/favicon.ico">\n'
+    if incluye_js:
+        tmp += '  <script>\n'
+        tmp += '    function cambia(clase) {\n'
+        tmp += '      var checks = {\n'
+        tmp += '        "disposicion": true,\n'
+        tmp += '        "origen-ue": document.getElementById("origen-ue").checked,\n'
+        tmp += '        "origen-es": document.getElementById("origen-es").checked,\n'
+        tmp += '        "origen-es-tm": document.getElementById("origen-es-tm").checked,\n'
+        tmp += '        "origen-es-cv": document.getElementById("origen-es-cv").checked,\n'
+        tmp += '        "vigencia-borrador": document.getElementById("vigencia-borrador").checked,\n'
+        tmp += '        "vigencia-vigente": document.getElementById("vigencia-vigente").checked,\n'
+        tmp += '        "vigencia-derogado": document.getElementById("vigencia-derogado").checked,\n'
+        tmp += '        "vigencia-vencido": document.getElementById("vigencia-vencido").checked,\n'
+        tmp += '      };\n'
+        tmp += '      var elementos = document.getElementsByClassName("disposicion");\n'
+        tmp += '      for (var i = 0; i < elementos.length; i++) {\n'
+        tmp += '        listaClases = elementos[i].classList;\n'
+        tmp += '        elementos[i].style.display = "flex";\n'
+        tmp += '        for (var j = 0; j < listaClases.length; j++) {\n'
+        tmp += '          if (!checks[listaClases[j]]) {\n'
+        tmp += '            elementos[i].style.display = "none";\n'
+        tmp += '            cuenta--;\n'
+        tmp += '          }\n'
+        tmp += '        }\n'
+        tmp += '      }\n'
+        tmp += '      var cuenta = 0;\n'
+        tmp += '      for (var i = 0; i < elementos.length; i++) {\n'
+        tmp += '        if (elementos[i].style.display == "flex") {\n'
+        tmp += '          cuenta++;\n'
+        tmp += '        }\n'
+        tmp += '      }\n'
+        tmp += '      document.getElementById("contador").innerHTML = cuenta;\n'
+        tmp += '    }\n'
+        tmp += '  </script>\n'
+
     tmp += "</head>\n"
     tmp += "\n"
     tmp += "<body>\n"
@@ -80,6 +115,27 @@ def cabecera(titulo, profundidad):
         tmp += "    </div>\n"
     tmp += "  </nav>\n"
     tmp += "\n"
+    if incluye_js:
+        tmp += '  <table>\n'
+        tmp += '    <tr>\n'
+        tmp += '      <td colspan="5">Mostrar / Ocultar referencias:</td>\n'
+        tmp += '    </tr>\n'
+        tmp += '    <tr>\n'
+        tmp += '      <td>Origen:</td>\n'
+        tmp += '      <td><label><input type="checkbox" name="origen-ue" id="origen-ue" checked onclick="cambia(\'origen-ue\')">Unión Europea</label></td>\n'
+        tmp += '      <td><label><input type="checkbox" name="origen-es" id="origen-es" checked onclick="cambia(\'origen-es\')">España</label></td>\n'
+        tmp += '      <td><label><input type="checkbox" name="origen-es-tm" id="origen-es-tm" checked onclick="cambia(\'origen-es-tm\')">Territorio MEC</label></td>\n'
+        tmp += '      <td><label><input type="checkbox" name="origen-es-cv" id="origen-es-cv" checked onclick="cambia(\'origen-es-cv\')">Comunidad Valenciana</label></td>\n'
+        tmp += '    </tr>\n'
+        tmp += '    <tr>\n'
+        tmp += '      <td>Vigencia:</td>\n'
+        tmp += '      <td><label><input type="checkbox" name="vigencia-borrador" id="vigencia-borrador" checked onclick="cambia(\'vigencia-borrador\')">Borrador</label></td>\n'
+        tmp += '      <td><label><input type="checkbox" name="vigencia-vigente" id="vigencia-vigente" checked onclick="cambia(\'vigencia-vigente\')">Vigente</label></td>\n'
+        tmp += '      <td><label><input type="checkbox" name="vigencia-derogado" id="vigencia-derogado" checked onclick="cambia(\'vigencia-derogado\')">Derogado</label></td>\n'
+        tmp += '      <td><label><input type="checkbox" name="vigencia-vencido" id="vigencia-vencido" checked onclick="cambia(\'vigencia-vencido\')">Vencido</label></td>\n'
+        tmp += '    </tr>\n'
+        tmp += '  </table>\n'
+        tmp += "\n"
 
     return tmp
 
@@ -90,7 +146,10 @@ def seccion(legislacion, identificador, titulo):
     tmp += "\n"
     tmp += f'    <div class="disposiciones">\n'
     for elemento in legislacion:
-        tmp += f'      <article class="disposicion" id="{elemento["id"]}">\n'
+        tmp += f'      <article class="disposicion'
+        tmp += f' {elemento["ámbito"]}'
+        tmp += f' {elemento["vigencia"]}'
+        tmp += f'" id="{elemento["id"]}">\n'
         tmp += f'        <h3>{elemento["descripción"]}</h3>\n'
         tmp += f'        <p class="publicacion">\n'
         tmp += f'          {bandera(elemento["ámbito"], 25)}\n'
@@ -138,7 +197,29 @@ def cronologico(legislacion):
     tmp = ""
     tmp += f'  <div class="disposiciones">\n'
     for elemento in legislacion:
-        tmp += f'    <article class="disposicion" id="{elemento["id"]}">\n'
+        tmp += f'    <article class="disposicion'
+        if elemento["ámbito"] == "Unión Europea":
+            tmp += ' origen-ue'
+        elif elemento["ámbito"] == "España":
+            tmp += ' origen-es'
+        elif elemento["ámbito"] == "Comunidad Valenciana":
+            tmp += ' origen-es-cv'
+        elif elemento["ámbito"] == "Ministerio de Educación":
+            tmp += ' origen-es-tm'
+        else:
+            tmp += ' origen-xxx'
+
+        if elemento["vigencia"] == "borrador":
+            tmp += ' vigencia-borrador'
+        elif elemento["vigencia"] == "vigente":
+            tmp += ' vigencia-vigente'
+        elif elemento["vigencia"] == "derogado":
+            tmp += ' vigencia-derogado'
+        elif elemento["vigencia"] == "vencido":
+            tmp += ' vigencia-vencido'
+        else:
+            tmp += ' vigencia-xxx'
+        tmp += f'" id="{elemento["id"]}">\n'
         tmp += f'      <h3>{elemento["descripción"]}</h3>\n'
         tmp += f'      <p class="publicacion">\n'
         tmp += f'        {bandera(elemento["ámbito"], 25)}\n'
@@ -146,7 +227,7 @@ def cronologico(legislacion):
         if elemento["vigencia"] == gconst.DEROGADO:
             tmp += f'        <span class="derogado">derogado</span>\n'
         elif elemento["vigencia"] == gconst.VENCIDO:
-            tmp += f'          <span class="derogado">vencido</span>\n'
+            tmp += f'        <span class="derogado">vencido</span>\n'
         tmp += "      </p>\n"
         for version in elemento["versiones"]:
             tmp += '      <p class="fichero">\n'
@@ -155,7 +236,7 @@ def cronologico(legislacion):
                 tmp += '<span class="derogado">borrador</span>\n'
             if len(elemento["versiones"]) != 1:
                 tmp += (
-                    f'      {version["versión"][:1].upper() + version["versión"][1:]}: '
+                    f'        {version["versión"][:1].upper() + version["versión"][1:]}:\n'
                 )
             for i in range(len(version["enlaces"])):
                 if version["enlaces"][i]["formato"] != "web":
@@ -266,9 +347,9 @@ def guarda_fichas(eliminar):
     # Genera índice
     t = ""
     t += "\n"
-    t += cabecera("Legislación informática - Orden cronológico", 1)
+    t += cabecera("Legislación informática - Orden cronológico", 1, 1)
 
-    t += f"  <p>Esta página muestra las {len(legislacion)} referencias legislativas de este repositorio en orden cronológico inverso.</p>\n"
+    t += f'  <p>Esta página muestra las <span id="contador">{len(legislacion)}</span> referencias legislativas de este repositorio en orden cronológico inverso.</p>\n'
     t += "\n"
 
     t += cronologico(legislacion)
@@ -305,7 +386,7 @@ def guarda_index(restos):
     ids = [d["id"] for d in legislacion]
 
     t = ""
-    t += cabecera("Legislación Informática", 0)
+    t += cabecera("Legislación Informática", 0, 0)
 
     t += "  <p>Este sitio web recopila legislación relacionada con la Informática. Se trata en su mayor parte de legislación "
     t += "educativa, pero también contiene legislación relacionada con otros temas (protección de datos, seguridad, etc.).</p>\n"
@@ -365,7 +446,7 @@ def guarda_colecciones(nombre):
 
     for pagina in coleccion["paginas"]:
         t = ""
-        t += cabecera(pagina["titulo"], pagina["profundidad"])
+        t += cabecera(pagina["titulo"], pagina["profundidad"], 0)
         # t += '  <p><a href="fichas.html">Versión en forma de fichas</a></p>\n'
         # t += "\n"
         cuenta = gjson.cuenta_referencias_en_coleccion(pagina)

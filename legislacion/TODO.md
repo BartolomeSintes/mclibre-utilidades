@@ -145,3 +145,18 @@ la Generalitat Valenciana. (En vigor parcialmente)
 -   [Common Criteria for Information Technology Security Evaluation](https://en.wikipedia.org/wiki/Common_Criteria)
 
 
+## Ideas
+
+-   2022-03-30. En los enlaces a versiones consolidadas, debería poner la fecha porque seguramente habrá versiones consolidadas posteriores.
+
+-   2022-03-30. Tendría que revisar todos los enlaces para ver en qué casos hay versiones consolidadas y añadirlos o actualizarlos. Igual tendría que añadirlas en el websitewatcher para enterarme de las nuevas versiones actualizadas
+
+-   2022-03-30. Otra cosa para revisar son los ficheros rtf de los dogv, que están vacíos en muchos casos.
+
+-   2022-03-30. Otra cosa para revisar son los enlaces del dogv que ahora son https y los enlaces permanentes del dogv que me faltan en muchos casos.
+
+-   2022-04-06. Tendría que poner dos campos más en legislacion.json, "fecha_derogación" y "derogado_por". No sé cómo tendría que llamarlo, porque además de derogadas, hay cosas vencidas que también se sustituyen unas a otras). Además, como hay cosas derogadas por dos (por ejemplo RD 1105/2014 está derogado por RD 217/2022 y por RD 243/2022), tendría que ser una lista. Puestos a soñar, algún día a partir de ahí podría hacer gráficas con las relaciones.
+
+-   2022-04-06. Estaría bien que la información derogado por o sustituido por saliera en el propio cuadro, abajo, con enlace al otro.
+
+
