@@ -28132,8 +28132,8 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2020-07-13",
-            "vigencia": "vigente",
-            "descripción": "Acuerdos sobre el marco de referencia de la competencia digital docente",
+            "vigencia": "derogado",
+            "descripción": "Acuerdo sobre el marco de referencia de la competencia digital docente",
             "titulo": "Resolución de 2 de julio de 2020, de la Dirección General de Evaluación y Cooperación Territorial, por la que se publica el Acuerdo de la Conferencia Sectorial de Educación sobre el marco de referencia de la competencia digital docente.",
             "versiones": [
                 {
@@ -32743,6 +32743,192 @@
                 "bachillerato",
                 "acceso universidad",
                 "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2022-04-05-res",
+            "incluido": "2022-06-21",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-05-16",
+            "vigencia": "vigente",
+            "descripción": "Acuerdo sobre el marco de referencia de la competencia digital docente",
+            "titulo": "Resolución de 4 de mayo de 2022, de la Dirección General de Evaluación y Cooperación Territorial, por la que se publica el Acuerdo de la Conferencia Sectorial de Educación, sobre la actualización del marco de referencia de la competencia digital docente.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-05-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-05-04-RES-acuerdos-competencia-digital-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/res/2022/05/04/(5)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "educación",
+                "formación profesorado",
+                "competencia digital"
+            ]
+        },
+        {
+            "id": "docv-2008-7-d",
+            "incluido": "2022-06-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2008-01-28",
+            "vigencia": "vigente",
+            "descripción": "Permisos y licencias personal docente no universitario (CV)",
+            "titulo": "Decreto 7/2008, de 25 de enero, del Consell, por el que se regulan los permisos y licencias del personal docente no universitario dependiente de la Conselleria de Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-01-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-7-D-permisos-licencias-personal-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2007/03/30/33/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2008-7-D-permisos-licencias-personal-docente-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2008-7-D-permisos-licencias-personal-docente-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "permisos y licencias"
+            ]
+        },
+        {
+            "id": "dogv-2001-7-d",
+            "incluido": "2022-06-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-10-19",
+            "vigencia": "derogado",
+            "descripción": "Permisos y licencias personal docente no universitario (CV)",
+            "titulo": "Decreto 28/2001, de 30 de enero, del Gobierno Valenciano, por el que se regulan los permisos y licencias del personal docente no universitario dependientes de la Conselleria de Cultura y Educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-10-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-28-D-permisos-licencias-personal-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2001/01/30/28/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2001/01/30/28/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-28-D-permisos-licencias-personal-docente-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-28-D-permisos-licencias-personal-docente-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "permisos y licencias"
+            ]
+        },
+        {
+            "id": "dogv-2001-10-03-o",
+            "incluido": "2022-06-21",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2001-10-19",
+            "vigencia": "derogado",
+            "descripción": "Permisos y licencias personal docente no universitario (CV)",
+            "titulo": "Orden de 3 de octubre de 2001, de la Conselleria de Cultura y Educación, sobre concesión de permisos y licencias al personal docente no universitario al servicio de la administración de la Generalitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-10-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-10-03-O-permisos-licencias-personal-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/va/eli?param=es-vc/o/2001/10/03/(1)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2001/10/03/(1)/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2001-10-03-O-permisos-licencias-personal-docente-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2001-10-03-O-permisos-licencias-personal-docente-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "permisos y licencias"
             ]
         }
     ]
