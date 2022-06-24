@@ -3796,6 +3796,17 @@
       "creado": "2022-05-27"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 182,
+      "año": 2022,
+      "mes": 6,
+      "portada": "full-circle-182-en-202206.jpg",
+      "fichero": "full-circle-182-en-202206.pdf",
+      "idioma": "inglés",
+      "creado": "2022-06-24"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -4850,6 +4861,17 @@
       "fichero": "hackspace-55-en-202206.pdf",
       "idioma": "inglés",
       "creado": "2022-05-21"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 56,
+      "año": 2022,
+      "mes": 7,
+      "portada": "hackspace-56-en-202207.jpg",
+      "fichero": "hackspace-56-en-202207.pdf",
+      "idioma": "inglés",
+      "creado": "2022-06-24"
     },
     {
       "serie": "HackSpace Books",
