@@ -28084,7 +28084,7 @@
             "fecha": "2003-02-28",
             "vigencia": "vigente",
             "descripción": "Registros y notificaciones telemáticas",
-            "titulo": "Real Decreto 209/2003, de 21 de febrero, por el que se regulan los registros y las notificaciones telemáticas, así como la utilización de medios telemáticos para la sustitución de la aportación de certificados por los ciudadanos. ",
+            "titulo": "Real Decreto 209/2003, de 21 de febrero, por el que se regulan los registros y las notificaciones telemáticas, así como la utilización de medios telemáticos para la sustitución de la aportación de certificados por los ciudadanos.",
             "versiones": [
                 {
                     "versión": "original",
@@ -32975,7 +32975,7 @@
             "fecha": "2002-06-14",
             "vigencia": "vencido",
             "descripción": "Programa de trabajo seguimiento objetivos Educación y Formación 2010 (ET 2010)",
-            "titulo": "Programa de trabajo detallado para el seguimiento de los objetivos concretos de los sistemas de educación y formación en Europa. (2002/C 142/01) ",
+            "titulo": "Programa de trabajo detallado para el seguimiento de los objetivos concretos de los sistemas de educación y formación en Europa. (2002/C 142/01)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33010,7 +33010,7 @@
             "fecha": "2004-04-30",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2004 (ET 2010)",
-            "titulo": "Educación y Formación 2010. Urgen las reformas para coronar con éxito la estrategia de Lisboa — Informe intermedio conjunto del Consejo y la Comisión sobre la ejecución del programa de trabajo detallado relativo al seguimiento de los objetivos de los sistemas de educación y formación en Europa. (2004/C 104/01)",
+            "titulo": "Educación y Formación 2010. Urgen las reformas para coronar con éxito la estrategia de Lisboa. Informe intermedio conjunto del Consejo y la Comisión sobre la ejecución del programa de trabajo detallado relativo al seguimiento de los objetivos de los sistemas de educación y formación en Europa. (2004/C 104/01)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33080,7 +33080,7 @@
             "fecha": "2008-04-05",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2008 (ET 2010)",
-            "titulo": "Informe conjunto de situación de 2008 del Consejo y de la Comisión sobre la ejecución del programa de trabajo Educación y Formación 2010 — Facilitar el aprendizaje permanente para fomentar el conocimiento, la creatividad y la innovación. (2008/C 86/01)",
+            "titulo": "Informe conjunto de situación de 2008 del Consejo y de la Comisión sobre la ejecución del programa de trabajo Educación y Formación 2010. Facilitar el aprendizaje permanente para fomentar el conocimiento, la creatividad y la innovación. (2008/C 86/01)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33115,7 +33115,7 @@
             "fecha": "2006-04-01",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2006 (ET 2010)",
-            "titulo": "Modernizar la educación y la formación: una contribución esencial a la prosperidad y a la cohesión social en Europa — Informe conjunto provisional de 2006 del Consejo y de la Comisión sobre los progresos registrados en la puesta en práctica del programa de trabajo Educación y Formación 2010. (2006/C 79/01)",
+            "titulo": "Modernizar la educación y la formación: una contribución esencial a la prosperidad y a la cohesión social en Europa. Informe conjunto provisional de 2006 del Consejo y de la Comisión sobre los progresos registrados en la puesta en práctica del programa de trabajo Educación y Formación 2010. (2006/C 79/01)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33209,6 +33209,250 @@
                 "informe",
                 "educación",
                 "educación y formación 2010"
+            ]
+        },
+        {
+            "id": "celex-2009-05-28-con",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2009-05-28",
+            "vigencia": "vencido",
+            "descripción": "Marco estratégico Educación y Formación 2020 (ET 2020)",
+            "titulo": "Conclusiones del Consejo de 12 de mayo de 2009 sobre un marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). (2009/C 119/02)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2009-05-28-CON-marco-estategico-et2020.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52009XG0528(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "educación y formación 2020"
+            ]
+        },
+        {
+            "id": "celex-2012-70-05-inf",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-03-08",
+            "vigencia": "vencido",
+            "descripción": "Informe intermedio 2012 (ET 2020)",
+            "titulo": "Informe conjunto de 2012 del Consejo y de la Comisión sobre la aplicación del marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). Educación y formación en una Europa inteligente, sostenible e inclusiva. (2012/C 70/05)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2012-70-5-INF-informe-intermedio-2012-et2020.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52009XG0528(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "informe",
+                "educación",
+                "educación y formación 2020"
+            ]
+        },
+        {
+            "id": "celex-2015-417-04-inf",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2015-12-15",
+            "vigencia": "vencido",
+            "descripción": "Informe intermedio 2015 (ET 2020)",
+            "titulo": "Informe conjunto de 2015 del Consejo y de la Comisión sobre la aplicación del marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). Nuevas prioridades para la cooperación europea en educación y formación. (2015/C 417/04)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-12-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2015-417-4-INF-informe-intermedio-2015-et2020.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52015XG1215(02)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "informe",
+                "educación",
+                "educación y formación 2020"
+            ]
+        },
+        {
+            "id": "celex-2017-673-com",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2017-11-14",
+            "vigencia": "vigente",
+            "descripción": "Propuesta Espacio Europeo de Educación (2017)",
+            "titulo": "Comunicación de la Comisión al parlamente Europeo, al Consejo, al Comité Económinco y Social Europeo y al Comité de las Regiones. Reforzar la identidad europea mediante la Educación y la Cultura Contribución de la Comisión Europea a la reunión de dirigentes en Gotemburgo el 17 de noviembre de 2017. (COM(2017) 673 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-11-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2017-673-COM-propuesta-2017-eee.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:52017DC0673"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "espacio europeo de educación"
+            ]
+        },
+        {
+            "id": "celex-2018-05-22-rec",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-06-07",
+            "vigencia": "vigente",
+            "descripción": "Promoción valores comunes, educación inclusiva, educación europea",
+            "titulo": "Recomendación del Consejo, de 22 de mayo de 2018, relativa a la promoción de los valores comunes, la educación inclusiva y la dimensión europea de la enseñanza. (2018/C 195/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-06-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-05-22-REC-promocion-valores-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2018.195.01.0001.01.SPA"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación"
+            ]
+        },
+        {
+            "id": "celex-2019-389-res",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-11-18",
+            "vigencia": "vigente",
+            "descripción": "Desarrollo Espacio Europeo de Educación (2019)",
+            "titulo": "Resolución del Consejo sobre un mayor desarrollo del Espacio Europeo de Educación para apoyar unos sistemas de educación y formación orientados al futuro. (2019/C 389/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-11-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-389-RES-desarrollo-2019-eee.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2019.389.01.0001.01.SPA"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución",
+                "educación",
+                "espacio europeo de educación"
+            ]
+        },
+        {
+            "id": "celex-2020-625-com",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-09-30",
+            "vigencia": "vigente",
+            "descripción": "Consecución Espacio Europeo de Educación en 2025",
+            "titulo": "Comunicación de la Comisión al parlamente Europeo, al Consejo, al Comité Económinco y Social Europeo y al Comité de las Regiones relativa a la consecución del Espacio Europeo de Educación de aquí a 2025. (COM(2020) 625 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-09-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2020-625-COM-consecucion-2025-eee.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52020DC0625"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "espacio europeo de educación"
             ]
         }
     ]

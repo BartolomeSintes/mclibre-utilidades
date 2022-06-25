@@ -62,13 +62,34 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Educación y Formación 2020 (ET 2020)",
+                                "referencias": [
+                                    "celex-2009-05-28-con",
+                                    "celex-2012-70-05-inf",
+                                    "celex-2015-417-04-inf"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Espacio Europeo de Educación",
+                                "referencias": [
+                                    "celex-2017-673-com",
+                                    "celex-2019-389-res",
+                                    "celex-2020-625-com",
+                                    "celex-2021-66-01-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otros",
                                 "referencias": [
                                     "celex-1992-12-03-res",
                                     "celex-2013-1288-reg",
                                     "celex-2016-06-10-com",
                                     "celex-2016-12-19-rec",
-                                    "celex-2021-66-01-res"
+                                    "celex-2018-05-22-rec"
                                 ]
                             }
                         }
