@@ -48,12 +48,27 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Educación y Formación 2010 (ET 2010)",
+                                "referencias": [
+                                    "celex-2002-142-01-com",
+                                    "celex-2004-104-01-inf",
+                                    "celex-2006-79-01-inf",
+                                    "celex-2008-86-01-inf",
+                                    "celex-2010-107-01-inf",
+                                    "celex-2010-107-01-1-inf",
+                                    "celex-2010-107-01-2-inf"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otros",
                                 "referencias": [
                                     "celex-1992-12-03-res",
                                     "celex-2013-1288-reg",
                                     "celex-2016-06-10-com",
-                                    "celex-2016-12-19-rec"
+                                    "celex-2016-12-19-rec",
+                                    "celex-2021-66-01-res"
                                 ]
                             }
                         }
