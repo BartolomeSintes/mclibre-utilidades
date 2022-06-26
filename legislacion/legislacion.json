@@ -23775,7 +23775,7 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "2013-12-20",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Reglamento creación Erasmus+",
             "titulo": "Reglamento (UE) n° 1288/2013 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2013, por el que se crea el programa «Erasmus+», de educación, formación, juventud y deporte de la Unión y por el que se derogan las Decisiones n° 1719/2006/CE, 1720/2006/CE y 1298/2008/CE Texto pertinente a efectos del EEE",
             "versiones": [
@@ -29143,7 +29143,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/anteproyecto-lo-ordenacion.html"
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2021/anteproyecto-lo-ordenacion.html"
                         }
                     ]
                 }
@@ -31244,8 +31244,7 @@
                 "borrador",
                 "educación",
                 "currículo",
-                "formación profesional",
-                "curso de especialización"
+                "formación profesional"
             ]
         },
         {
@@ -33453,6 +33452,181 @@
                 "comunicación",
                 "educación",
                 "espacio europeo de educación"
+            ]
+        },
+        {
+            "id": "celex-2020-624-com",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-09-30",
+            "vigencia": "vigente",
+            "descripción": "Plan de Acción de Educación Digital 2021-2027",
+            "titulo": "Comunicación de la Comisión al parlamente Europeo, al Consejo, al Comité Económinco y Social Europeo y al Comité de las Regiones. Plan de Acción de Educación Digital 2021-2027. Adaptar la educación y la formación a la era digital. (COM/2020/624 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-09-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2020-624-COM-plan-accion-educacion-digital.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52020DC0624"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "plan de acción de educación digital"
+            ]
+        },
+        {
+            "id": "celex-2018-022-com",
+            "incluido": "2022-06-25",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-01-17",
+            "vigencia": "vigente",
+            "descripción": "Plan de Acción de Educación Digital 2018-2020",
+            "titulo": "Comunicación de la Comisión al parlamente Europeo, al Consejo, al Comité Económinco y Social Europeo y al Comité de las Regiones sobre el Plan de Acción de Educación Digital. (COM/2018/022 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-01-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-22-COM-plan-accion-educacion-digital.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=COM:2018:22:FIN"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "plan de acción de educación digital"
+            ]
+        },
+        {
+            "id": "celex-2021-694-reg",
+            "incluido": "2022-06-26",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-05-11",
+            "vigencia": "vigente",
+            "descripción": "Programa Europa Digital",
+            "titulo": "Reglamento (UE) 2021/694 del Parlamento Europeo y del Consejo de 29 de abril de 2021 por el que se establece el Programa Europa Digital y por el que se deroga la Decisión (UE) 2015/2240",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-05-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-694-REG-programa-europa-digital.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32021R0694"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "programa europa digital"
+            ]
+        },
+        {
+            "id": "celex-2021-817-reg",
+            "incluido": "2022-06-26",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-05-28",
+            "vigencia": "derogado",
+            "descripción": "Reglamento creación Erasmus+",
+            "titulo": "Reglamento (UE) 2021/817 del Parlamento Europeo y del Consejo de 20 de mayo de 2021 por el que se establece Erasmus+, el Programa de la Unión para la educación y la formación, la juventud y el deporte, y se deroga el Reglamento (UE) n.o 1288/2013 (Texto pertinente a efectos del EEE)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-817-REG-erasmus+.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2021/817"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "erasmus+"
+            ]
+        },
+        {
+            "id": "boe-borrador-2022-06-20-rd",
+            "incluido": "2022-06-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2022-06-20",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto actualización cualificaciones profesionales Informática y Comunicaciones",
+            "titulo": "Proyecto de Real Decreto por el que se actualizan y se modifican parcialmente determinadas cualificaciones profesionales de las familias profesionales Informática y Comunicaciones, Seguridad y Medio Ambiente, Servicios Socioculturales y a la Comunidad y Transporte y Mantenimiento de Vehículos, recogidas en el Catálogo Nacional de Cualificaciones Profesionales.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2022-06-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-actualizacion-cualificaciones-2022-06-20.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2022/prd-modifica-cualificaciones-profesionales-3.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional"
             ]
         }
     ]

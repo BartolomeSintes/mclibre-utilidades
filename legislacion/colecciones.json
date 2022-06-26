@@ -83,13 +83,24 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Plan de Acción de Educación Digital 2021-2027",
+                                "referencias": [
+                                    "celex-2018-022-com",
+                                    "celex-2020-624-com"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otros",
                                 "referencias": [
                                     "celex-1992-12-03-res",
                                     "celex-2013-1288-reg",
                                     "celex-2016-06-10-com",
                                     "celex-2016-12-19-rec",
-                                    "celex-2018-05-22-rec"
+                                    "celex-2018-05-22-rec",
+                                    "celex-2021-694-reg",
+                                    "celex-2021-817-reg"
                                 ]
                             }
                         }
@@ -107,7 +118,8 @@
                                 "referencias": [
                                     "boe-borrador-2022-1-rd",
                                     "boe-borrador-2021-2-rd",
-                                    "boe-borrador-2021-1-rd"
+                                    "boe-borrador-2021-1-rd",
+                                    "boe-borrador-2022-06-20-rd"
                                 ]
                             }
                         },
