@@ -5,8 +5,8 @@
             "paginas": [
                 {
                     "nombre": "listados/educativa-eu.html",
-                    "titulo": "Legislación educativa - Unión Europea",
-                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la educación publicadas en el Diario Oficial de las Comunidades Europeas.",
+                    "titulo": "Legislación educativa - Unión Europea - Vigente",
+                    "introducción": "Esta página contiene NNN referencias legislativas vigentes relacionadas con la educación publicadas en el Diario Oficial de las Comunidades Europeas.",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -48,6 +48,48 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Espacio Europeo de Educación",
+                                "referencias": [
+                                    "celex-2017-673-com",
+                                    "celex-2019-389-res",
+                                    "celex-2020-625-com",
+                                    "celex-2021-66-01-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Plan de Acción de Educación Digital 2021-2027",
+                                "referencias": [
+                                    "celex-2018-022-com",
+                                    "celex-2020-624-com"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Otros",
+                                "referencias": [
+                                    "celex-1992-12-03-res",
+                                    "celex-2011-06-28-rec",
+                                    "celex-2016-06-10-com",
+                                    "celex-2016-12-19-rec",
+                                    "celex-2018-05-22-2-rec",
+                                    "celex-2021-694-reg",
+                                    "celex-2021-817-reg"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nombre": "listados/educativa-derogada-eu.html",
+                    "titulo": "Legislación educativa - Unión Europea - Derogada o vencida",
+                    "introducción": "Esta página contiene NNN referencias legislativas derogadas o vencidas relacionadas con la educación y publicadas en el Diario Oficial de las Comunidades Europeas.",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
                                 "titulo": "Educación y Formación 2010 (ET 2010)",
                                 "referencias": [
                                     "celex-2002-142-01-com",
@@ -72,35 +114,16 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Espacio Europeo de Educación",
+                                "titulo": "Otras",
                                 "referencias": [
-                                    "celex-2017-673-com",
-                                    "celex-2019-389-res",
-                                    "celex-2020-625-com",
-                                    "celex-2021-66-01-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Plan de Acción de Educación Digital 2021-2027",
-                                "referencias": [
-                                    "celex-2018-022-com",
-                                    "celex-2020-624-com"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Otros",
-                                "referencias": [
-                                    "celex-1992-12-03-res",
-                                    "celex-2013-1288-reg",
-                                    "celex-2016-06-10-com",
-                                    "celex-2016-12-19-rec",
-                                    "celex-2018-05-22-rec",
-                                    "celex-2021-694-reg",
-                                    "celex-2021-817-reg"
+                                    "celex-1985-368-dec",
+                                    "celex-1989-48-dir",
+                                    "celex-1992-51-dir",
+                                    "celex-1998-12-21-dec",
+                                    "celex-2001-07-10-rec",
+                                    "celex-2004-2241-dec",
+                                    "celex-2008-04-23-rec",
+                                    "celex-2013-1288-reg"
                                 ]
                             }
                         }
@@ -108,8 +131,8 @@
                 },
                 {
                     "nombre": "listados/educativa-es.html",
-                    "titulo": "Legislación educativa - España",
-                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la educación publicadas en el Boletín Oficial del Estado de España.",
+                    "titulo": "Legislación educativa - España - Vigente",
+                    "introducción": "Esta página contiene NNN referencias legislativas vigentes relacionadas con la educación publicadas en el Boletín Oficial del Estado de España.",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -376,33 +399,293 @@
                     ]
                 },
                 {
-                    "nombre": "listados/educativa-es-min.html",
-                    "titulo": "Legislación educativa - Territorio MEC",
-                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la educación publicadas en el Boletín Oficial del Estado de España y con vigor en aquellos territorios sin competencias autonómicas en Educación (el llamado <i>territorio MEC</i>).",
+                    "nombre": "listados/educativa-derogada-es.html",
+                    "titulo": "Legislación educativa - España - Derogada o vencida",
+                    "introducción": "Esta página contiene NNN referencias legislativas derogadas o vencidas relacionadas con la educación y publicadas en el Boletín Oficial del Estado.",
                     "profundidad": 1,
                     "contenido": [
                         {
                             "apartado": {
-                                "titulo": "Currículos de Formación Profesional",
+                                "titulo": "Marco Español de Cualificaciones para la Educación Superior",
                                 "referencias": [
-                                    "boe-2009-2187-o",
-                                    "boe-2010-392-o",
-                                    "boe-2010-2000-o",
-                                    "boe-2010-2887-o"
+                                    "boe-2007-900-rd"
                                 ]
                             }
                         },
                         {
                             "apartado": {
-                                "titulo": "Otros",
+                                "titulo": "Currículos de Formación Profesional",
                                 "referencias": [
-                                    "boe-1994-06-29-o",
-                                    "boe-1996-83-rd",
-                                    "boe-2007-2220-o",
-                                    "boe-2007-08-03-res",
-                                    "boe-2007-2572-o",
-                                    "boe-2008-944-o",
-                                    "boe-2015-1361-o"
+                                    "boe-1993-676-rd",
+                                    "boe-1994-1660-rd",
+                                    "boe-1994-1675-rd",
+                                    "boe-1994-1661-rd",
+                                    "boe-1994-1676-rd",
+                                    "boe-2003-497-rd",
+                                    "boe-2003-939-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Convalidaciones de Formación Profesional",
+                                "referencias": [
+                                    "boe-2001-12-20-o",
+                                    "boe-2002-1842-o",
+                                    "boe-2014-2159-o",
+                                    "boe-2017-1055-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Certificados de Profesionalidad",
+                                "referencias": [
+                                    "boe-1995-797-rd",
+                                    "boe-1997-1597-rd",
+                                    "boe-1997-1598-rd",
+                                    "boe-2003-1506-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica para la Mejora de la Calidad Educativa (LOMCE, 2013)",
+                                "referencias": [
+                                    "boe-2013-8-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Educación (LOE, 2006)",
+                                "referencias": [
+                                    "boe-2006-1631-rd",
+                                    "boe-2007-1467-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Calidad de la Educación (LOCE, 2002)",
+                                "referencias": [
+                                    "boe-2002-10-lo",
+                                    "boe-2003-827-rd",
+                                    "boe-2003-831-rd",
+                                    "boe-2003-832-rd",
+                                    "boe-2003-1923-o",
+                                    "boe-2003-942-rd",
+                                    "boe-2004-118-rd",
+                                    "boe-2004-334-rd",
+                                    "boe-2004-1318-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de la participación, la evaluación y el gobierno de los centros docentes (LOPEG, 1995)",
+                                "referencias": [
+                                    "boe-1995-9-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica de Ordenación General del Sistema Educativo (LOGSE, 1990)",
+                                "referencias": [
+                                    "boe-1990-1-lo",
+                                    "boe-1991-986-rd",
+                                    "boe-1991-1004-rd",
+                                    "boe-1991-1007-rd",
+                                    "boe-1991-1345-rd",
+                                    "boe-1991-1700-rd",
+                                    "boe-1992-1178-rd",
+                                    "boe-1992-10-30-o",
+                                    "boe-1993-535-rd",
+                                    "boe-1993-850-rd",
+                                    "boe-1994-1487-rd",
+                                    "boe-1995-732-rd",
+                                    "boe-1995-894-rd",
+                                    "boe-1995-1390-rd",
+                                    "boe-1995-1692-rd",
+                                    "boe-2000-3473-rd",
+                                    "boe-2000-3474-rd",
+                                    "boe-2001-937-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley Orgánica reguladora del Derecho a la Educación (LODE, 1985)",
+                                "referencias": [
+                                    "boe-1988-1543-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Ley General de Educación (LGE, 1970)",
+                                "referencias": [
+                                    "boe-1970-14-lo",
+                                    "boe-1970-2459-d",
+                                    "boe-1970-2481-d",
+                                    "boe-1970-2618-d",
+                                    "boe-1970-09-30-o",
+                                    "boe-1970-11-16-o",
+                                    "boe-1970-11-17-res",
+                                    "boe-1971-09-01-o",
+                                    "boe-1971-09-28-o",
+                                    "boe-1974-995-d",
+                                    "boe-1974-07-02-o",
+                                    "boe-1974-30-l",
+                                    "boe-1975-160-d",
+                                    "boe-1975-03-22-o",
+                                    "boe-1976-327-d",
+                                    "boe-1976-707-d",
+                                    "boe-1976-2214-rd",
+                                    "boe-1977-3193-rd",
+                                    "boe-1978-02-15-o",
+                                    "boe-1980-5-lo",
+                                    "boe-1985-04-19-o",
+                                    "boe-1988-05-27-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Estudios universitarios",
+                                "referencias": [
+                                    "boe-1987-1497-rd",
+                                    "boe-1994-1267-rd",
+                                    "boe-1996-2347-rd",
+                                    "boe-1997-614-rd",
+                                    "boe-1998-779-rd",
+                                    "boe-2005-55-rd",
+                                    "boe-2005-56-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Estudios universitarios informática",
+                                "referencias": [
+                                    "boe-1969-554-d",
+                                    "boe-1970-07-29-o",
+                                    "boe-1971-06-24-o",
+                                    "boe-1976-327-rd",
+                                    "boe-1990-1459-rd",
+                                    "boe-1991-09-11-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Estudios universitarios informática Universidad de Valencia",
+                                "referencias": [
+                                    "boe-1976-10-01-o",
+                                    "boe-1984-05-07-o",
+                                    "boe-1985-04-09-o",
+                                    "boe-1993-10-29-res",
+                                    "boe-1995-06-20-res",
+                                    "boe-2000-09-20-res",
+                                    "boe-2004-09-01-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Estudios universitarios informática Universidad Politécnica de Valencia",
+                                "referencias": [
+                                    "boe-1982-1620-rd",
+                                    "boe-1984-07-19-o",
+                                    "boe-1987-03-16-o",
+                                    "boe-1994-07-08-1-res",
+                                    "boe-1994-07-08-2-res",
+                                    "boe-1996-06-07-o",
+                                    "boe-2001-09-21-res",
+                                    "boe-2001-09-27-1-res",
+                                    "boe-2001-09-27-2-res",
+                                    "boe-2003-03-13-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Otras",
+                                "referencias": [
+                                    "boe-1990-1618-rd",
+                                    "boe-1991-1701-rd",
+                                    "boe-1993-631-rd",
+                                    "boe-1994-07-07-o",
+                                    "boe-2003-1046-rd",
+                                    "boe-2004-362-rd",
+                                    "boe-2006-1538-rd",
+                                    "boe-2007-395-rd",
+                                    "boe-2008-1892-rd",
+                                    "boe-2012-14-rdl",
+                                    "boe-2020-07-13-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2020/21",
+                                "referencias": [
+                                    "boe-2021-2-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2019/20",
+                                "referencias": [
+                                    "boe-2020-139-o",
+                                    "boe-2020-255-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2018/19",
+                                "referencias": [
+                                    "boe-2019-12-o",
+                                    "boe-2019-196-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2017/18",
+                                "referencias": [
+                                    "boe-2018-42-o",
+                                    "boe-2018-65-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2016/17",
+                                "referencias": [
+                                    "boe-2016-1941-o",
+                                    "boe-2017-393-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Coronavirus Covid-19 (España)",
+                                "referencias": [
+                                    "boe-2020-463-rd",
+                                    "boe-2020-465-rd",
+                                    "boe-2020-361-o",
+                                    "boe-2020-362-o",
+                                    "boe-2020-365-o",
+                                    "boe-2020-399-o",
+                                    "boe-2020-537-rd",
+                                    "boe-2020-440-o",
+                                    "boe-2020-555-rd",
+                                    "boe-2020-21-rdl",
+                                    "boe-2020-561-o"
                                 ]
                             }
                         }
@@ -410,8 +693,8 @@
                 },
                 {
                     "nombre": "listados/educativa-es-vc.html",
-                    "titulo": "Legislación educativa - Comunidad Valenciana",
-                    "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la educación publicadas en el Diario Oficial de la Generalitat Valenciana.",
+                    "titulo": "Legislación educativa - Comunidad Valenciana - Vigente",
+                    "introducción": "Esta página contiene NNN referencias legislativas vigentes relacionadas con la educación publicadas en el Diario Oficial de la Generalitat Valenciana.",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -640,285 +923,11 @@
                     ]
                 },
                 {
-                    "nombre": "listados/educativa-derogada.html",
-                    "titulo": "Legislación educativa - Derogada",
-                    "introducción": "Esta página contiene NNN referencias legislativas derogadas o vencidas relacionadas con la educación y publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
+                    "nombre": "listados/educativa-derogada-es-cv.html",
+                    "titulo": "Legislación educativa - Comunidad Valenciana - Derogada o vencida",
+                    "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la educación y publicadas en el Diario Oficial de la Generalitat Valenciana.",
                     "profundidad": 1,
                     "contenido": [
-                        {
-                            "apartado": {
-                                "titulo": "Marco Español de Cualificaciones para la Educación Superior",
-                                "referencias": [
-                                    "boe-2007-900-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Currículos de Formación Profesional",
-                                "referencias": [
-                                    "boe-1993-676-rd",
-                                    "boe-1994-1660-rd",
-                                    "boe-1994-1675-rd",
-                                    "boe-1994-1661-rd",
-                                    "boe-1994-1676-rd",
-                                    "boe-2003-497-rd",
-                                    "boe-2003-939-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Convalidaciones de Formación Profesional",
-                                "referencias": [
-                                    "boe-2001-12-20-o",
-                                    "boe-2002-1842-o",
-                                    "boe-2014-2159-o",
-                                    "boe-2017-1055-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Certificados de Profesionalidad",
-                                "referencias": [
-                                    "boe-1995-797-rd",
-                                    "boe-1997-1597-rd",
-                                    "boe-1997-1598-rd",
-                                    "boe-2003-1506-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Ley Orgánica para la Mejora de la Calidad Educativa (LOMCE, 2013)",
-                                "referencias": [
-                                    "boe-2013-8-lo"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Ley Orgánica de Educación (LOE, 2006)",
-                                "referencias": [
-                                    "boe-2006-1631-rd",
-                                    "boe-2007-1467-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Ley Orgánica de Calidad de la Educación (LOCE, 2002)",
-                                "referencias": [
-                                    "boe-2002-10-lo",
-                                    "boe-2003-827-rd",
-                                    "boe-2003-831-rd",
-                                    "boe-2003-832-rd",
-                                    "boe-2003-1923-o",
-                                    "boe-2003-942-rd",
-                                    "boe-2004-118-rd",
-                                    "boe-2004-334-rd",
-                                    "boe-2004-1318-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Ley Orgánica de la participación, la evaluación y el gobierno de los centros docentes (LOPEG, 1995)",
-                                "referencias": [
-                                    "boe-1995-9-lo"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Ley Orgánica de Ordenación General del Sistema Educativo (LOGSE, 1990)",
-                                "referencias": [
-                                    "boe-1990-1-lo",
-                                    "boe-1991-986-rd",
-                                    "boe-1991-1004-rd",
-                                    "boe-1991-1007-rd",
-                                    "boe-1991-1345-rd",
-                                    "boe-1991-1700-rd",
-                                    "boe-1992-1178-rd",
-                                    "boe-1992-10-30-o",
-                                    "boe-1993-535-rd",
-                                    "boe-1993-850-rd",
-                                    "boe-1994-1487-rd",
-                                    "boe-1995-732-rd",
-                                    "boe-1995-894-rd",
-                                    "boe-1995-1390-rd",
-                                    "boe-1995-1692-rd",
-                                    "boe-2000-3473-rd",
-                                    "boe-2000-3474-rd",
-                                    "boe-2001-937-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Ley Orgánica reguladora del Derecho a la Educación (LODE, 1985)",
-                                "referencias": [
-                                    "boe-1988-1543-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Ley General de Educación (LGE, 1970)",
-                                "referencias": [
-                                    "boe-1970-14-lo",
-                                    "boe-1970-2459-d",
-                                    "boe-1970-2481-d",
-                                    "boe-1970-2618-d",
-                                    "boe-1970-09-30-o",
-                                    "boe-1970-11-16-o",
-                                    "boe-1970-11-17-res",
-                                    "boe-1971-09-01-o",
-                                    "boe-1971-09-28-o",
-                                    "boe-1974-995-d",
-                                    "boe-1974-07-02-o",
-                                    "boe-1974-30-l",
-                                    "boe-1975-160-d",
-                                    "boe-1975-03-22-o",
-                                    "boe-1976-327-d",
-                                    "boe-1976-707-d",
-                                    "boe-1976-2214-rd",
-                                    "boe-1977-3193-rd",
-                                    "boe-1978-02-15-o",
-                                    "boe-1980-5-lo",
-                                    "boe-1985-04-19-o",
-                                    "boe-1988-05-27-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Estudios universitarios",
-                                "referencias": [
-                                    "boe-1987-1497-rd",
-                                    "boe-1994-1267-rd",
-                                    "boe-1996-2347-rd",
-                                    "boe-1997-614-rd",
-                                    "boe-1998-779-rd",
-                                    "boe-2005-55-rd",
-                                    "boe-2005-56-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Estudios universitarios informática",
-                                "referencias": [
-                                    "boe-1969-554-d",
-                                    "boe-1970-07-29-o",
-                                    "boe-1971-06-24-o",
-                                    "boe-1976-327-rd",
-                                    "boe-1990-1459-rd",
-                                    "boe-1991-09-11-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Estudios universitarios informática Universidad de Valencia",
-                                "referencias": [
-                                    "boe-1976-10-01-o",
-                                    "boe-1984-05-07-o",
-                                    "boe-1985-04-09-o",
-                                    "boe-1993-10-29-res",
-                                    "boe-1995-06-20-res",
-                                    "boe-2000-09-20-res",
-                                    "boe-2004-09-01-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Estudios universitarios informática Universidad Politécnica de Valencia",
-                                "referencias": [
-                                    "boe-1982-1620-rd",
-                                    "boe-1984-07-19-o",
-                                    "boe-1987-03-16-o",
-                                    "boe-1994-07-08-1-res",
-                                    "boe-1994-07-08-2-res",
-                                    "boe-1996-06-07-o",
-                                    "boe-2001-09-21-res",
-                                    "boe-2001-09-27-1-res",
-                                    "boe-2001-09-27-2-res",
-                                    "boe-2003-03-13-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Otras",
-                                "referencias": [
-                                    "celex-1985-368-dec",
-                                    "celex-1989-48-dir",
-                                    "boe-1990-1618-rd",
-                                    "boe-1991-1701-rd",
-                                    "celex-1992-51-dir",
-                                    "boe-1993-631-rd",
-                                    "boe-1994-07-07-o",
-                                    "celex-1998-12-21-dec",
-                                    "celex-2001-07-10-rec",
-                                    "boe-2003-1046-rd",
-                                    "celex-2004-2241-dec",
-                                    "boe-2004-362-rd",
-                                    "boe-2006-1538-rd",
-                                    "boe-2007-395-rd",
-                                    "celex-2008-04-23-rec",
-                                    "boe-2008-1892-rd",
-                                    "boe-2012-14-rdl",
-                                    "boe-2020-07-13-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2020/21",
-                                "referencias": [
-                                    "boe-2021-2-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2019/20",
-                                "referencias": [
-                                    "boe-2020-139-o",
-                                    "boe-2020-255-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2018/19",
-                                "referencias": [
-                                    "boe-2019-12-o",
-                                    "boe-2019-196-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2017/18",
-                                "referencias": [
-                                    "boe-2018-42-o",
-                                    "boe-2018-65-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2016/17",
-                                "referencias": [
-                                    "boe-2016-1941-o",
-                                    "boe-2017-393-o"
-                                ]
-                            }
-                        },
                         {
                             "apartado": {
                                 "titulo": "Comunidad Valenciana",
@@ -1015,24 +1024,6 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Coronavirus Covid-19 (España)",
-                                "referencias": [
-                                    "boe-2020-463-rd",
-                                    "boe-2020-465-rd",
-                                    "boe-2020-361-o",
-                                    "boe-2020-362-o",
-                                    "boe-2020-365-o",
-                                    "boe-2020-399-o",
-                                    "boe-2020-537-rd",
-                                    "boe-2020-440-o",
-                                    "boe-2020-555-rd",
-                                    "boe-2020-21-rdl",
-                                    "boe-2020-561-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
                                 "titulo": "Coronavirus Covid-19 (CV)",
                                 "referencias": [
                                     "dogv-2020-03-12-res",
@@ -1054,8 +1045,8 @@
                 },
                 {
                     "nombre": "listados/educativa-derogada-anual-es-cv.html",
-                    "titulo": "Legislación educativa Comunidad Valenciana (Anual) - Vencida",
-                    "introducción": "Esta página contiene NNN referencias legislativas vencidas relacionadas con la organización de cada curso académico y publicadas anualmente en el Diario Oficial de la Generalitat Valenciana.",
+                    "titulo": "Legislación educativa Comunidad Valenciana - Vencida",
+                    "introducción": "Esta página contiene NNN referencias legislativas vencidas (por ejemplo, relacionadas con la organización de cada curso académico) y publicadas en el Diario Oficial de la Generalitat Valenciana.",
                     "profundidad": 1,
                     "contenido": [
                         {
@@ -1337,8 +1328,41 @@
                     ]
                 },
                 {
+                    "nombre": "listados/educativa-es-min.html",
+                    "titulo": "Legislación educativa - Territorio MEC - Vigente",
+                    "introducción": "Esta página contiene NNN referencias legislativas vigentes relacionadas con la educación publicadas en el Boletín Oficial del Estado de España y con vigor en aquellos territorios sin competencias autonómicas en Educación (el llamado <i>territorio MEC</i>).",
+                    "profundidad": 1,
+                    "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Currículos de Formación Profesional",
+                                "referencias": [
+                                    "boe-2009-2187-o",
+                                    "boe-2010-392-o",
+                                    "boe-2010-2000-o",
+                                    "boe-2010-2887-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Otros",
+                                "referencias": [
+                                    "boe-1994-06-29-o",
+                                    "boe-1996-83-rd",
+                                    "boe-2007-2220-o",
+                                    "boe-2007-08-03-res",
+                                    "boe-2007-2572-o",
+                                    "boe-2008-944-o",
+                                    "boe-2015-1361-o"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
                     "nombre": "listados/educativa-derogada-es-min.html",
-                    "titulo": "Legislación educativa - Territorio MEC - Derogada",
+                    "titulo": "Legislación educativa - Territorio MEC - Derogada o vencida",
                     "introducción": "Esta página contiene NNN referencias legislativas derogadas relacionadas con la educación y publicadas en el Boletín Oficial del Estado de España y con vigor en aquellos territorios sin competencias autonómicas en Educación (el llamado <i>territorio MEC</i>).",
                     "profundidad": 1,
                     "contenido": [
@@ -1382,7 +1406,7 @@
                 },
                 {
                     "nombre": "listados/otras.html",
-                    "titulo": "Legislación informática - Otras normas",
+                    "titulo": "Legislación informática - Otras normas - Vigente",
                     "introducción": "Esta página contiene NNN referencias legislativas relacionadas con la informática (pero no con la enseñanza de la informática) publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
                     "profundidad": 1,
                     "contenido": [
@@ -1432,7 +1456,9 @@
                                     "boe-2015-1-lo",
                                     "celex-2016-1148-dir",
                                     "boe-2018-12-rdl",
-                                    "boe-2019-14-rdl"
+                                    "celex-2019-881-reg",
+                                    "boe-2019-14-rdl",
+                                    "celex-2021-887-reg"
                                 ]
                             }
                         },
@@ -1552,7 +1578,15 @@
                                     "boe-2005-1542-o"
                                 ]
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "nombre": "listados/otras-derogada.html",
+                    "titulo": "Legislación informática - Otras normas - Derogada o vencida",
+                    "introducción": "Esta página contiene NNN referencias legislativas derogadas o vencidas relacionadas con la informática (pero no con la enseñanza de la informática) publicadas en el Diario Oficial de las Comunidades Europeas, en el Boletín Oficial del Estado o en los diferentes Boletines Autonómicos.",
+                    "profundidad": 1,
+                    "contenido": [
                         {
                             "apartado": {
                                 "titulo": "Legislación derogada",
@@ -1571,10 +1605,13 @@
                                     "boe-2000-05-30-res",
                                     "boe-2003-662-o",
                                     "boe-2004-292-rd",
+                                    "celex-2004-460-reg",
                                     "celex-2006-24-dir",
                                     "boe-2007-11-l",
                                     "boe-2011-07-19-3-res",
                                     "boe-2011-11-15-res",
+                                    "celex-2013-526-reg",
+                                    "celex-2015-2240-dec",
                                     "boe-2018-5-rdl",
                                     "cen-301549-3-1-1-en"
                                 ]

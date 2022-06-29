@@ -96,7 +96,8 @@ def cabecera(titulo, profundidad, incluye_js):
         tmp += '      <h2><a href="../index.html">Legislación</a></h2>\n'
         tmp += "\n"
         tmp += "      <ul>\n"
-        tmp += "        <li>Educativa\n"
+        tmp += '        <li><a href="cronologico.html">Orden Cronológico</a></li>\n'
+        tmp += "        <li>Educativa (vigente)\n"
         tmp += "          <ul>\n"
         tmp += '            <li><a href="educativa-eu.html">Unión Europea</a></li>\n'
         tmp += '            <li><a href="educativa-es.html">España</a></li>\n'
@@ -106,13 +107,19 @@ def cabecera(titulo, profundidad, incluye_js):
         tmp += '                <li><a href="educativa-es-min.html">Territorio MEC</a></li>\n'
         tmp += "              </ul>\n"
         tmp += "            </li>\n"
-        tmp += '            <li><a href="educativa-derogada.html">Derogada</a></li>\n'
-        tmp += '            <li><a href="educativa-derogada-anual-es-cv.html">Derogada Comun. Valenc.</a></li>\n'
-        tmp += '            <li><a href="educativa-derogada-es-min.html">Derogada Territorio MEC</a></li>\n'
         tmp += "          </ul>\n"
         tmp += "        </li>\n"
-        tmp += '        <li><a href="otras.html">Otros temas</a></li>\n'
-        tmp += '        <li><a href="cronologico.html">Orden Cronológico</a></li>\n'
+        tmp += '        <li><a href="otras.html">Otros temas (vigente)</a></li>\n'
+        tmp += "        <li>Educativa (derogada/vencida)\n"
+        tmp += "          <ul>\n"
+        tmp += '            <li><a href="educativa-derogada-eu.html">Unión Europea</a></li>\n'
+        tmp += '            <li><a href="educativa-derogada-es.html">España</a></li>\n'
+        tmp += '            <li><a href="educativa-derogada-es-cv.html">Comun. Valenc. derogada</a></li>\n'
+        tmp += '            <li><a href="educativa-derogada-anual-es-cv.html">Comun. Valenc. vencida</a></li>\n'
+        tmp += '            <li><a href="educativa-derogada-es-min.html">Territorio MEC</a></li>\n'
+        tmp += "          </ul>\n"
+        tmp += "        </li>\n"
+        tmp += '        <li><a href="otras-derogada.html">Otros temas (derog./venc.)</a></li>\n'
         tmp += "      </ul>\n"
         tmp += "    </div>\n"
     tmp += "  </nav>\n"
@@ -391,27 +398,34 @@ def guarda_index(restos):
     t += cabecera("Legislación Informática", 0, 0)
 
     t += "  <p>Este sitio web recopila legislación relacionada con la Informática. Se trata en su mayor parte de legislación "
-    t += "educativa, pero también contiene legislación relacionada con otros temas (protección de datos, seguridad, etc.).</p>\n"
+    t += "relacionada con la enseñanza, pero también contiene legislación relacionada con otros temas (protección de datos, seguridad, etc.).</p>\n"
     t += "\n"
     t += f"  <p>Este sitio web contiene {len(ids) - len(restos)} referencias, distribuidas en varias páginas:</p>\n"
     t += "  <ul>\n"
-    t += "    <li>Legislación educativa\n"
-    t += "      <ul>\n"
-    t += '        <li><a href="listados/educativa-eu.html">Unión Europea</a></li>\n'
-    t += '        <li><a href="listados/educativa-es.html">España</a></li>\n'
-    t += "        <li>Comunidades Autónomas:\n"
+    t += '        <li><a href="listados/cronologico.html">Todas las referencias en orden cronológico inverso</a></li>\n'
+    t += "        <li>Legislación Educativa vigente\n"
     t += "          <ul>\n"
-    t += '            <li><a href="listados/educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
-    t += '            <li><a href="listados/educativa-es-min.html">Territorio MEC</a></li>\n'
+    t += '            <li><a href="listados/educativa-eu.html">Unión Europea</a></li>\n'
+    t += '            <li><a href="listados/educativa-es.html">España</a></li>\n'
+    t += "            <li>Comunidades Autónomas:\n"
+    t += "              <ul>\n"
+    t += '                <li><a href="listados/educativa-es-vc.html">Comunidad Valenciana</a></li>\n'
+    t += '                <li><a href="listados/educativa-es-min.html">Territorio MEC</a></li>\n'
+    t += "              </ul>\n"
+    t += "            </li>\n"
     t += "          </ul>\n"
     t += "        </li>\n"
-    t += '        <li><a href="listados/educativa-derogada.html">Derogada</a></li>\n'
-    t += '        <li><a href="listados/educativa-derogada-anual-es-cv.html">Derogada Comunidad Valenciana (organización de cursos académicos)</a></li>\n'
-    t += '        <li><a href="listados/educativa-derogada-es-min.html">Derogada Territorio MEC</a></li>\n'
-    t += "      </ul>\n"
-    t += "    </li>\n"
-    t += '    <li><a href="listados/otras.html">Otros temas</a></li>\n'
-    t += '    <li><a href="listados/cronologico.html">Todas las referencias en orden cronológico inverso</a></li>\n'
+    t += '        <li><a href="listados/otras.html">Legislación Informática vigente (no educativa)</a></li>\n'
+    t += "        <li>Legislación Educativa derogada o vencida\n"
+    t += "          <ul>\n"
+    t += '            <li><a href="listados/educativa-derogada-eu.html">Unión Europea</a></li>\n'
+    t += '            <li><a href="listados/educativa-derogada-es.html">España</a></li>\n'
+    t += '            <li><a href="listados/educativa-derogada-es-cv.html">Comunidad Valenciana derogada</a></li>\n'
+    t += '            <li><a href="listados/educativa-derogada-anual-es-cv.html">Comunindad Valenciana vencida</a></li>\n'
+    t += '            <li><a href="listados/educativa-derogada-es-min.html">Territorio MEC</a></li>\n'
+    t += "          </ul>\n"
+    t += "        </li>\n"
+    t += '        <li><a href="listados/otras-derogada.html">Legislación Informática derogada o vencida (no educativa)</a></li>\n'
     t += "  </ul>\n"
     t += "\n"
     t += "  <p>Para facilitar su consulta, los textos legales se ofrecen en varios formatos:</p>\n"
@@ -453,16 +467,19 @@ def guarda_colecciones(nombre):
         # t += "\n"
         cuenta = gjson.cuenta_referencias_en_coleccion(pagina)
         t_intro = pagina["introducción"]
-        if cuenta == 1:
-            if "NNN referencias legislativas relacionadas" in t_intro:
-                t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencia legislativa relacionada")
-            elif "NNN referencias legislativas derogadas relacionadas" in t_intro:
-                t += t_intro.replace("NNN referencias legislativas derogadas relacionadas", f"{cuenta} referencia legislativa derogada relacionada")
-        else:
-            if "NNN referencias legislativas relacionadas" in t_intro:
-                t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencias legislativas relacionadas")
-            elif "NNN referencias legislativas derogadas relacionadas" in t_intro:
-                t += t_intro.replace("NNN referencias legislativas derogadas relacionadas", f"{cuenta} referencias legislativas derogadas relacionadas")
+        t += t_intro.replace("NNN", f"{cuenta}")
+        # 2022-06-29 He quitado el if else porque ninguna página va a tener solo una referencia legislativa
+        # y en realidad hay más encabezados posibles (vencidas, etc.)
+        # if cuenta == 1:
+        #     if "NNN referencias legislativas relacionadas" in t_intro:
+        #         t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencia legislativa relacionada")
+        #     elif "NNN referencias legislativas derogadas relacionadas" in t_intro:
+        #         t += t_intro.replace("NNN referencias legislativas derogadas relacionadas", f"{cuenta} referencia legislativa derogada relacionada")
+        # else:
+        #     if "NNN referencias legislativas relacionadas" in t_intro:
+        #         t += t_intro.replace("NNN referencias legislativas relacionadas", f"{cuenta} referencias legislativas relacionadas")
+        #     elif "NNN referencias legislativas derogadas relacionadas" in t_intro:
+        #         t += t_intro.replace("NNN referencias legislativas derogadas relacionadas", f"{cuenta} referencias legislativas derogadas relacionadas")
         t += "\n"
         for apartado in pagina["contenido"]:
             t += f'  <h2>{apartado["apartado"]["titulo"]}</h2>\n'
