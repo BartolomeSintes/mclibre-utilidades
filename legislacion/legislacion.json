@@ -1261,7 +1261,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex:32016R0679"
+                            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
                         }
                     ]
                 },
@@ -1277,7 +1277,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:02016R0679-20160504"
+                            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/2016-05-04"
                         }
                     ]
                 }
@@ -2709,7 +2709,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:31995L0046"
+                            "url": "http://data.europa.eu/eli/dir/1995/46/oj"
                         }
                     ]
                 },
@@ -2725,7 +2725,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:01995L0046-20031120"
+                            "url": "https://eur-lex.europa.eu/eli/dir/1995/46/2003-11-20"
                         }
                     ]
                 }
@@ -2951,7 +2951,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016L1148"
+                            "url": "http://data.europa.eu/eli/dir/2016/1148/oj"
                         }
                     ]
                 }
@@ -23428,7 +23428,7 @@
             "fecha": "2009-12-18",
             "vigencia": "vigente",
             "descripción": "Directiva sobre la privacidad y las comunicaciones electrónicas",
-            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009, por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) n o 2006/2004 sobre la cooperación en materia de protección de los consumidores (Texto pertinente a efectos del EEE)",
+            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009, por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) nº 2006/2004 sobre la cooperación en materia de protección de los consumidores (Texto pertinente a efectos del EEE)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33351,7 +33351,7 @@
             ]
         },
         {
-            "id": "celex-2018-05-22-rec",
+            "id": "celex-2018-05-22-2-rec",
             "incluido": "2022-06-25",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -33547,7 +33547,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32021R0694"
+                            "url": "http://data.europa.eu/eli/reg/2021/694/oj"
                         }
                     ]
                 }
@@ -33565,7 +33565,7 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "2021-05-28",
-            "vigencia": "derogado",
+            "vigencia": "vigente",
             "descripción": "Reglamento creación Erasmus+",
             "titulo": "Reglamento (UE) 2021/817 del Parlamento Europeo y del Consejo de 20 de mayo de 2021 por el que se establece Erasmus+, el Programa de la Unión para la educación y la formación, la juventud y el deporte, y se deroga el Reglamento (UE) n.o 1288/2013 (Texto pertinente a efectos del EEE)",
             "versiones": [
@@ -33627,6 +33627,211 @@
                 "educación",
                 "currículo",
                 "formación profesional"
+            ]
+        },
+        {
+            "id": "celex-2021-887-reg",
+            "incluido": "2022-06-28",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-06-08",
+            "vigencia": "vigente",
+            "descripción": "Centro Europeo de Investigación en Ciberseguridad",
+            "titulo": "Reglamento (UE) 2021/887 del Parlamento Europeo y del Consejo, de 20 de mayo de 2021, por el que se establecen el Centro Europeo de Competencia Industrial, Tecnológica y de Investigación en Ciberseguridad y la Red de Centros Nacionales de Coordinación",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-06-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-887-REG-centro-europeo-investigacion-ciberseguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2021/887/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "ciberseguridad"
+            ]
+        },
+        {
+            "id": "celex-2015-2240-dec",
+            "incluido": "2022-06-28",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2015-12-04",
+            "vigencia": "derogado",
+            "descripción": "Interoperabilidad y marcos comunes modernización sector público",
+            "titulo": "Decisión (UE) 2015/2240 del Parlamento Europeo y del Consejo, de 25 de noviembre de 2015, por la que se establece un programa relativo a las soluciones de interoperabilidad y los marcos comunes para las administraciones públicas, las empresas y los ciudadanos europeos (programa ISA2) como medio de modernización del sector público (Texto pertinente a efectos del EEE)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2015-12-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-2240-DEC-modernizacion-sector-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dec/2015/2240/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "decisión",
+                "interoperabilidad"
+            ]
+        },
+        {
+            "id": "celex-2011-06-28-rec",
+            "incluido": "2022-06-28",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2011-07-01",
+            "vigencia": "vigente",
+            "descripción": "Abandono escolar prematuro",
+            "titulo": "Recomendación del Consejo, de 28 de junio de 2011, relativa a las políticas para reducir el abandono escolar prematuro Texto pertinente a efectos del EEE. (2011/C 191/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-07-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2011-06-28-REC-abandono-escolar.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=celex:32011H0701(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "abandono escolar"
+            ]
+        },
+        {
+            "id": "celex-2019-881-reg",
+            "incluido": "2022-06-28",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-06-07",
+            "vigencia": "vigente",
+            "descripción": "Agencia de la Unión Europea para la Ciberseguridad",
+            "titulo": "Reglamento (UE) 2019/881 del Parlamento Europeo y del Consejo, de 17 de abril de 2019, relativo a ENISA (Agencia de la Unión Europea para la Ciberseguridad) y a la certificación de la ciberseguridad de las tecnologías de la información y la comunicación y por el que se deroga el Reglamento (UE) n.o 526/2013 («Reglamento sobre la Ciberseguridad») (Texto pertinente a efectos del EEE)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-881-REG-agencia-ue-ciberseguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2019/881/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "ciberseguridad"
+            ]
+        },
+        {
+            "id": "celex-2013-526-reg",
+            "incluido": "2022-06-28",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2013-06-18",
+            "vigencia": "derogado",
+            "descripción": "Agencia de Seguridad de las Redes de la Información de la Unión Europea",
+            "titulo": "Reglamento (UE) nº 526/2013 del Parlamento Europeo y del Consejo, de 21 de mayo de 2013, relativo a la Agencia de Seguridad de las Redes de la Información de la Unión Europea (ENISA) y por el que se deroga el Reglamento (CE) nº 460/2004 Texto pertinente a efectos del EEE",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-06-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2013-526-REG-agencia-seguridad-redes-ue.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2013/526/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "ciberseguridad"
+            ]
+        },
+        {
+            "id": "celex-2004-460-reg",
+            "incluido": "2022-06-28",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2004-03-13",
+            "vigencia": "derogado",
+            "descripción": "Agencia de Seguridad de las Redes de la Información de la Unión Europea",
+            "titulo": "Reglamento (CE) n° 460/2004 del Parlamento Europeo y del Consejo, de 10 de marzo de 2004, por el que se crea la Agencia Europea de Seguridad de las Redes y de la Información (Texto pertinente a efectos del EEE)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-03-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2004-460-REG-agencia-seguridad-redes.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2004/460/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "ciberseguridad"
             ]
         }
     ]
