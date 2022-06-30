@@ -421,7 +421,7 @@ def guarda_index(restos):
     t += '            <li><a href="listados/educativa-derogada-eu.html">Unión Europea</a></li>\n'
     t += '            <li><a href="listados/educativa-derogada-es.html">España</a></li>\n'
     t += '            <li><a href="listados/educativa-derogada-es-cv.html">Comunidad Valenciana derogada</a></li>\n'
-    t += '            <li><a href="listados/educativa-derogada-anual-es-cv.html">Comunindad Valenciana vencida</a></li>\n'
+    t += '            <li><a href="listados/educativa-derogada-anual-es-cv.html">Comunidad Valenciana vencida</a></li>\n'
     t += '            <li><a href="listados/educativa-derogada-es-min.html">Territorio MEC</a></li>\n'
     t += "          </ul>\n"
     t += "        </li>\n"

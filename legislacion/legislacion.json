@@ -4086,7 +4086,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?qid=1576091288404&uri=CELEX:31993Y0219(01)"
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31993Y0219(01)"
                         }
                     ]
                 }
@@ -4610,7 +4610,7 @@
             "fecha": "2008-05-06",
             "vigencia": "derogado",
             "descripción": "Marco Europeo de Cualificaciones",
-            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 23 de abril de 2008, relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente (Texto pertinente a efectos del EEE). (2008/C 111/01)",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 23 de abril de 2008, relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente. Texto pertinente a efectos del EEE. (2008/C 111/01)",
             "versiones": [
                 {
                     "versión": "original",
@@ -4695,7 +4695,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=OJ%3AJOC_2016_484_R_0001"
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=OJ:JOC_2016_484_R_0001"
                         }
                     ]
                 }
@@ -6544,7 +6544,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2016-12-10",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Evaluaciones finales ESO y Bachillerato",
             "titulo": "Real Decreto-ley 5/2016, de 9 de diciembre, de medidas urgentes para la ampliación del calendario de implantación de la Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.",
             "versiones": [
@@ -13214,7 +13214,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2007-10-30",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Ordenación enseñanzas universitarias",
             "titulo": "Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales.",
             "versiones": [
@@ -19252,7 +19252,7 @@
             "fecha": "2016-06-10",
             "vigencia": "vigente",
             "descripción": "Nueva Agenda de Capacidades para Europa",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Una Nueva Agenda de Capacidades para Europa: trabajar juntos para reforzar el capital humano, la empleabilidad y la competitividad. {SWD(2016) 195 final}",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Una Nueva Agenda de Capacidades para Europa: trabajar juntos para reforzar el capital humano, la empleabilidad y la competitividad. (COM/2016/0381 final)",
             "versiones": [
                 {
                     "versión": "original",
@@ -23428,7 +23428,7 @@
             "fecha": "2009-12-18",
             "vigencia": "vigente",
             "descripción": "Directiva sobre la privacidad y las comunicaciones electrónicas",
-            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009, por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) nº 2006/2004 sobre la cooperación en materia de protección de los consumidores (Texto pertinente a efectos del EEE)",
+            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009, por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) nº 2006/2004 sobre la cooperación en materia de protección de los consumidores. Texto pertinente a efectos del EEE.",
             "versiones": [
                 {
                     "versión": "original",
@@ -23777,7 +23777,7 @@
             "fecha": "2013-12-20",
             "vigencia": "derogado",
             "descripción": "Reglamento creación Erasmus+",
-            "titulo": "Reglamento (UE) n° 1288/2013 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2013, por el que se crea el programa «Erasmus+», de educación, formación, juventud y deporte de la Unión y por el que se derogan las Decisiones n° 1719/2006/CE, 1720/2006/CE y 1298/2008/CE Texto pertinente a efectos del EEE",
+            "titulo": "Reglamento (UE) n° 1288/2013 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2013, por el que se crea el programa «Erasmus+», de educación, formación, juventud y deporte de la Unión y por el que se derogan las Decisiones n° 1719/2006/CE, 1720/2006/CE y 1298/2008/CE. Texto pertinente a efectos del EEE.",
             "versiones": [
                 {
                     "versión": "original",
@@ -33149,7 +33149,7 @@
             "fecha": "2010-05-06",
             "vigencia": "vencido",
             "descripción": "Anexo I Informe final 2010 (ET 2010)",
-            "titulo": "Anexo al Informe conjunto de 2010. Analysis of implementation at the European and national levels {COM(2009) 640 final}",
+            "titulo": "Anexo al Informe conjunto de 2010. Analysis of implementation at the European and national levels (COM/2009/640 final)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33324,7 +33324,7 @@
             "fecha": "2017-11-14",
             "vigencia": "vigente",
             "descripción": "Propuesta Espacio Europeo de Educación (2017)",
-            "titulo": "Comunicación de la Comisión al parlamente Europeo, al Consejo, al Comité Económinco y Social Europeo y al Comité de las Regiones. Reforzar la identidad europea mediante la Educación y la Cultura Contribución de la Comisión Europea a la reunión de dirigentes en Gotemburgo el 17 de noviembre de 2017. (COM(2017) 673 final)",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Reforzar la identidad europea mediante la Educación y la Cultura Contribución de la Comisión Europea a la reunión de dirigentes en Gotemburgo el 17 de noviembre de 2017. (COM/2017/673 final)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33428,7 +33428,7 @@
             "fecha": "2020-09-30",
             "vigencia": "vigente",
             "descripción": "Consecución Espacio Europeo de Educación en 2025",
-            "titulo": "Comunicación de la Comisión al parlamente Europeo, al Consejo, al Comité Económinco y Social Europeo y al Comité de las Regiones relativa a la consecución del Espacio Europeo de Educación de aquí a 2025. (COM(2020) 625 final)",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones relativa a la consecución del Espacio Europeo de Educación de aquí a 2025. (COM/2020/625 final)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33463,7 +33463,7 @@
             "fecha": "2020-09-30",
             "vigencia": "vigente",
             "descripción": "Plan de Acción de Educación Digital 2021-2027",
-            "titulo": "Comunicación de la Comisión al parlamente Europeo, al Consejo, al Comité Económinco y Social Europeo y al Comité de las Regiones. Plan de Acción de Educación Digital 2021-2027. Adaptar la educación y la formación a la era digital. (COM/2020/624 final)",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan de Acción de Educación Digital 2021-2027. Adaptar la educación y la formación a la era digital. (COM/2020/624 final)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33498,7 +33498,7 @@
             "fecha": "2018-01-17",
             "vigencia": "vigente",
             "descripción": "Plan de Acción de Educación Digital 2018-2020",
-            "titulo": "Comunicación de la Comisión al parlamente Europeo, al Consejo, al Comité Económinco y Social Europeo y al Comité de las Regiones sobre el Plan de Acción de Educación Digital. (COM/2018/022 final)",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones sobre el Plan de Acción de Educación Digital. (COM/2018/022 final)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33567,7 +33567,7 @@
             "fecha": "2021-05-28",
             "vigencia": "vigente",
             "descripción": "Reglamento creación Erasmus+",
-            "titulo": "Reglamento (UE) 2021/817 del Parlamento Europeo y del Consejo de 20 de mayo de 2021 por el que se establece Erasmus+, el Programa de la Unión para la educación y la formación, la juventud y el deporte, y se deroga el Reglamento (UE) n.o 1288/2013 (Texto pertinente a efectos del EEE)",
+            "titulo": "Reglamento (UE) 2021/817 del Parlamento Europeo y del Consejo de 20 de mayo de 2021 por el que se establece Erasmus+, el Programa de la Unión para la educación y la formación, la juventud y el deporte, y se deroga el Reglamento (UE) n.o 1288/2013. Texto pertinente a efectos del EEE",
             "versiones": [
                 {
                     "versión": "original",
@@ -33672,7 +33672,7 @@
             "fecha": "2015-12-04",
             "vigencia": "derogado",
             "descripción": "Interoperabilidad y marcos comunes modernización sector público",
-            "titulo": "Decisión (UE) 2015/2240 del Parlamento Europeo y del Consejo, de 25 de noviembre de 2015, por la que se establece un programa relativo a las soluciones de interoperabilidad y los marcos comunes para las administraciones públicas, las empresas y los ciudadanos europeos (programa ISA2) como medio de modernización del sector público (Texto pertinente a efectos del EEE)",
+            "titulo": "Decisión (UE) 2015/2240 del Parlamento Europeo y del Consejo, de 25 de noviembre de 2015, por la que se establece un programa relativo a las soluciones de interoperabilidad y los marcos comunes para las administraciones públicas, las empresas y los ciudadanos europeos (programa ISA2) como medio de modernización del sector público. Texto pertinente a efectos del EEE",
             "versiones": [
                 {
                     "versión": "original",
@@ -33706,7 +33706,7 @@
             "fecha": "2011-07-01",
             "vigencia": "vigente",
             "descripción": "Abandono escolar prematuro",
-            "titulo": "Recomendación del Consejo, de 28 de junio de 2011, relativa a las políticas para reducir el abandono escolar prematuro Texto pertinente a efectos del EEE. (2011/C 191/01)",
+            "titulo": "Recomendación del Consejo, de 28 de junio de 2011, relativa a las políticas para reducir el abandono escolar prematuro. Texto pertinente a efectos del EEE. (2011/C 191/01)",
             "versiones": [
                 {
                     "versión": "original",
@@ -33741,7 +33741,7 @@
             "fecha": "2019-06-07",
             "vigencia": "vigente",
             "descripción": "Agencia de la Unión Europea para la Ciberseguridad",
-            "titulo": "Reglamento (UE) 2019/881 del Parlamento Europeo y del Consejo, de 17 de abril de 2019, relativo a ENISA (Agencia de la Unión Europea para la Ciberseguridad) y a la certificación de la ciberseguridad de las tecnologías de la información y la comunicación y por el que se deroga el Reglamento (UE) n.o 526/2013 («Reglamento sobre la Ciberseguridad») (Texto pertinente a efectos del EEE)",
+            "titulo": "Reglamento (UE) 2019/881 del Parlamento Europeo y del Consejo, de 17 de abril de 2019, relativo a ENISA (Agencia de la Unión Europea para la Ciberseguridad) y a la certificación de la ciberseguridad de las tecnologías de la información y la comunicación y por el que se deroga el Reglamento (UE) n.o 526/2013 («Reglamento sobre la Ciberseguridad»). Texto pertinente a efectos del EEE",
             "versiones": [
                 {
                     "versión": "original",
@@ -33775,7 +33775,7 @@
             "fecha": "2013-06-18",
             "vigencia": "derogado",
             "descripción": "Agencia de Seguridad de las Redes de la Información de la Unión Europea",
-            "titulo": "Reglamento (UE) nº 526/2013 del Parlamento Europeo y del Consejo, de 21 de mayo de 2013, relativo a la Agencia de Seguridad de las Redes de la Información de la Unión Europea (ENISA) y por el que se deroga el Reglamento (CE) nº 460/2004 Texto pertinente a efectos del EEE",
+            "titulo": "Reglamento (UE) nº 526/2013 del Parlamento Europeo y del Consejo, de 21 de mayo de 2013, relativo a la Agencia de Seguridad de las Redes de la Información de la Unión Europea (ENISA) y por el que se deroga el Reglamento (CE) nº 460/2004. Texto pertinente a efectos del EEE",
             "versiones": [
                 {
                     "versión": "original",
@@ -33809,7 +33809,7 @@
             "fecha": "2004-03-13",
             "vigencia": "derogado",
             "descripción": "Agencia de Seguridad de las Redes de la Información de la Unión Europea",
-            "titulo": "Reglamento (CE) n° 460/2004 del Parlamento Europeo y del Consejo, de 10 de marzo de 2004, por el que se crea la Agencia Europea de Seguridad de las Redes y de la Información (Texto pertinente a efectos del EEE)",
+            "titulo": "Reglamento (CE) n° 460/2004 del Parlamento Europeo y del Consejo, de 10 de marzo de 2004, por el que se crea la Agencia Europea de Seguridad de las Redes y de la Información. Texto pertinente a efectos del EEE",
             "versiones": [
                 {
                     "versión": "original",
@@ -33832,6 +33832,1147 @@
                 "unión europea",
                 "reglamento",
                 "ciberseguridad"
+            ]
+        },
+        {
+            "id": "celex-2012-669-com",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-11-20",
+            "vigencia": "vigente",
+            "descripción": "Nuevo concepto de educación",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Un nuevo concepto de educación: invertir en las aptitudes para lograr mejores resultados socioeconómicos. (COM/2012/0669 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2012-669-COM-nuevo-concepto-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012DC0669"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2013-02-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2012-669-COM-CO-nuevo-concepto-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012DC0669R(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nuevo concepto de educación"
+            ]
+        },
+        {
+            "id": "celex-2012-669-1-wd",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-11-20",
+            "vigencia": "vigente",
+            "descripción": "Nuevo concepto de educación (documento de trabajo 1)",
+            "titulo": "Commission Staff Working Document. Assessment of Key Competences in initial education and training: Policy Guidance. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0371 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2012-669-COM-1-SWD-nuevo-concepto-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012SC0371"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nuevo concepto de educación"
+            ]
+        },
+        {
+            "id": "celex-2012-669-2-wd",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-11-20",
+            "vigencia": "vigente",
+            "descripción": "Nuevo concepto de educación (documento de trabajo 2)",
+            "titulo": "Commission Staff Working Document. Language competences for employability, mobility and growth. Accompanying the document Communication From the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0372 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2012-669-COM-2-SWD-nuevo-concepto-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012SC0372"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nuevo concepto de educación"
+            ]
+        },
+        {
+            "id": "celex-2012-669-3-wd",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-11-20",
+            "vigencia": "vigente",
+            "descripción": "Nuevo concepto de educación (documento de trabajo 3)",
+            "titulo": "Commission Staff Working Document. Education and Training Monitor 2012. Accompanying the document Communication From the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0373 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2012-669-COM-3-SWD-nuevo-concepto-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012SC0373"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nuevo concepto de educación"
+            ]
+        },
+        {
+            "id": "celex-2012-669-4-wd",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-11-20",
+            "vigencia": "vigente",
+            "descripción": "Nuevo concepto de educación (documento de trabajo 4)",
+            "titulo": "Commission Staff Working Document. Supporting the Teaching Professions for Better Learning Outcomes. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0374 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2012-669-COM-4-SWD-nuevo-concepto-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012SC0374"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nuevo concepto de educación"
+            ]
+        },
+        {
+            "id": "celex-2012-669-5-wd",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-11-20",
+            "vigencia": "vigente",
+            "descripción": "Nuevo concepto de educación (documento de trabajo 5)",
+            "titulo": "Commission Staff Working Document. Vocational education and training for better skills, growth and jobs. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0375 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2012-669-COM-5-SWD-nuevo-concepto-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012SC0375"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nuevo concepto de educación"
+            ]
+        },
+        {
+            "id": "celex-2012-669-6-wd",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-11-20",
+            "vigencia": "vigente",
+            "descripción": "Nuevo concepto de educación (documento de trabajo 6)",
+            "titulo": "Commission Staff Working Document. Partnership and flexible pathways for lifelong skills development. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0376 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2012-669-COM-6-SWD-nuevo-concepto-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012SC0376"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nuevo concepto de educación"
+            ]
+        },
+        {
+            "id": "celex-2012-669-7-wd",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-11-20",
+            "vigencia": "vigente",
+            "descripción": "Nuevo concepto de educación (documento de trabajo 7)",
+            "titulo": "Commission Staff Working Document. Country Analysis Part I. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0377 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-11-20",
+                    "enlaces": [
+                        {
+                            "formato": "doc",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2012-669-COM-7-SWD-nuevo-concepto-educacion.doc"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52012SC0377"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "nuevo concepto de educación"
+            ]
+        },
+        {
+            "id": "celex-2002-06-03-res",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2002-07-06",
+            "vigencia": "vigente",
+            "descripción": "Capacidades y movilidad",
+            "titulo": "Resolución del Consejo de 3 de junio de 2002 sobre las capacidades y la movilidad. (2002/C 162/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2002-06-03-RES-capacidades-movilidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32002G0706(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución",
+                "educación",
+                "educación permanente",
+                "aprendizaje permanente"
+            ]
+        },
+        {
+            "id": "celex-2020-274-com",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-07-01",
+            "vigencia": "vigente",
+            "descripción": "Agenda de capacidades europea",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Agenda de Capacidades Europea para la competitividad sostenible, la equidad social y la resiliencia. (COM/2020/274 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-07-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2020-274-COM-agenda-capacidades.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52020DC0274"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "agenda de capacidades"
+            ]
+        },
+        {
+            "id": "celex-2020-415-con",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-12-01",
+            "vigencia": "vigente",
+            "descripción": "Educación digital",
+            "titulo": "Conclusiones del Consejo sobre la educación digital en las sociedades europeas del conocimiento. (2020/C 415/10)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-12-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2020-415-CON-educacion-digital.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2020.415.01.0022.01.SPA"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "educación digital"
+            ]
+        },
+        {
+            "id": "celex-2020-212-con",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-06-26",
+            "vigencia": "vigente",
+            "descripción": "Crisis Covid-19 en educación",
+            "titulo": "Conclusiones del Consejo sobre la lucha contra la crisis de la COVID-19 en el ámbito de la educación y la formación. (2020/C 212 I/03)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2020-212-CON-covid-19-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.CI.2020.212.01.0009.01.SPA"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "covid-19"
+            ]
+        },
+        {
+            "id": "celex-2019-05-22-rec",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-06-05",
+            "vigencia": "vigente",
+            "descripción": "Enfoque global enseñanza de idiomas",
+            "titulo": "Recomendación del Consejo, de 22 de mayo de 2019, relativa a un enfoque global de la enseñanza y el aprendizaje de idiomas. (2019/C 189/03)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-05-22-REC-enfoque-global-ensenanza-idiomas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=celex:32011H0701(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "enseñanza de idiomas"
+            ]
+        },
+        {
+            "id": "celex-2022-06-16-3-rec",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-06-27",
+            "vigencia": "vigente",
+            "descripción": "Cuentas de aprendizaje individuales",
+            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa a las cuentas de aprendizaje individuales. (2022/C 243/03)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-06-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-06-16-3-REC-cuentas-aprendizaje-permanente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022H0627(03)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "cuentas de aprendizaje individuales"
+            ]
+        },
+        {
+            "id": "celex-2022-06-16-2-rec",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-06-27",
+            "vigencia": "vigente",
+            "descripción": "Microcredenciales para el aprendizaje permanente y la empleabilidad",
+            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa a un enfoque europeo de las microcredenciales para el aprendizaje permanente y la empleabilidad. (2022/C 243/02)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-06-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-06-16-2-REC-microcredenciales-aprendizaje-permanente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022H0627(02)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "microcredenciales para el aprendizaje permanente"
+            ]
+        },
+        {
+            "id": "celex-2022-06-16-1-rec",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-06-27",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje para la transición ecológica y el desarrollo sostenible",
+            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa al aprendizaje para la transición ecológica y el desarrollo sostenible. Texto pertinente a efectos del EEE. (2022/C 243/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-06-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-06-16-1-REC-aprendizaje-transicion-ecologica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022H0627(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "aprendizaje para la transición ecológica"
+            ]
+        },
+        {
+            "id": "celex-2012-12-20-rec",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-12-22",
+            "vigencia": "vigente",
+            "descripción": "Validación del aprendizaje no formal e informal",
+            "titulo": "Recomendación del Consejo, de 20 de diciembre de 2012, sobre la validación del aprendizaje no formal e informal. (2012/C 398/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-12-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2012-12-22-REC-validacion-aprendizaje-no-formal.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2012.398.01.0001.01.SPA"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "validación del aprendizaje"
+            ]
+        },
+        {
+            "id": "celex-1995-03-31-res",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "1995-08-12",
+            "vigencia": "vigente",
+            "descripción": "Mejora de la enseñanza de las lenguas",
+            "titulo": "Resolución del Consejo, de 31 de marzo de 1995, relativa a la mejora de la calidad y la diversificación del aprendizaje y de la enseñanza de las lenguas en los sistemas educativos de la Unión Europea. (95/C 207/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-08-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-1995-03-31-RES-mejora-ensenanza-lenguas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31995Y0812(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución",
+                "educación",
+                "enseñanza lenguas"
+            ]
+        },
+        {
+            "id": "celex-2021-11-29-rec",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2012-12-14",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje mixto para educación inclusiva",
+            "titulo": "Recomendación del Consejo de 29 de noviembre de 2021 relativa a los planteamientos basados en el aprendizaje mixto para lograr una educación primaria y secundaria inclusivas y de alta calidad. (2021/C 504/03)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-12-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-11-29-REC-aprendizaje-mixto-educacion-inclusiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2021.504.01.0021.01.SPA"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "aprendizaje mixto",
+                "educación inclusiva"
+            ]
+        },
+        {
+            "id": "celex-2021-504-res",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-12-14",
+            "vigencia": "vigente",
+            "descripción": "Nuevo plan europeo de aprendizaje de adultos 2021-2030",
+            "titulo": "Resolución del Consejo sobre un nuevo plan europeo de aprendizaje de adultos 2021-2030. (2021/C 504/02)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-12-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-504-RES-aprendizaje-adultos-2021-2030.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2021.504.01.0009.01.SPA"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución",
+                "educación",
+                "aprendizaje adultos"
+            ]
+        },
+        {
+            "id": "celex-2002-12-19-res",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2003-01-18",
+            "vigencia": "vigente",
+            "descripción": "Fomento de la cooperación reforzada en educación y formación profesionales",
+            "titulo": "Resolución del Consejo de 19 de diciembre de 2002 relativa al fomento de la cooperación reforzada europea en materia de educación y formación profesionales. (2003/C 13/02)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-01-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2002-12-19-RES-cooperacion-reforzada-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32003G0118(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución",
+                "educación",
+                "cooperación reforzada"
+            ]
+        },
+        {
+            "id": "celex-2018-11-26-rec",
+            "incluido": "2022-06-29",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-12-10",
+            "vigencia": "vigente",
+            "descripción": "Reconocimiento mutuo automático de las cualificaciones",
+            "titulo": "Recomendación del Consejo, de 26 de noviembre de 2018, relativa a la promoción del reconocimiento mutuo automático de las cualificaciones de educación superior y de educación secundaria postobligatoria, y de los resultados de los períodos de aprendizaje en el extranjero. (2018/C 444/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-11-26-REC-reconocimiento-mutuo-automatico-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex:32018H1210(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "reconocimiento cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2021-822-rd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2021-09-29",
+            "vigencia": "vigente",
+            "descripción": "Organización enseñanzas universitarias",
+            "titulo": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-09-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2021-822-RD-organizacion-ensenanzas-universitarias.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2021/09/28/822"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "universidad",
+                "ordenacion",
+                "organización"
+            ]
+        },
+        {
+            "id": "celex-2001-59-inf",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2001-01-31",
+            "vigencia": "vencido",
+            "descripción": "Informe Objetivos precisos sistemas educativos",
+            "titulo": "Informe de la Comisión - Futuros objetivos precisos de los sistemas educativos. (COM/2001/0059 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2001-01-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2001-59-INF-objetivos-precisos-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52001DC0059"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "informe",
+                "educación",
+                "educación y formación 2010"
+            ]
+        },
+        {
+            "id": "celex-2021-497-res",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-12-10",
+            "vigencia": "vigente",
+            "descripción": "Estructura de gobernanza cooperación en educación",
+            "titulo": "Resolución del Consejo relativa a la estructura de gobernanza del marco estratégico para la cooperación europea en el ámbito de la educación y la formación con miras al Espacio Europeo de Educación y más allá (2021-2030). (2021/C 497/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-497-RES-gobernanza cooperacion-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32021G1210(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución",
+                "educación",
+                "espacio europeo de educación",
+                "gobernanza"
+            ]
+        },
+        {
+            "id": "celex-2013-654-com",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2013-09-25",
+            "vigencia": "vigente",
+            "descripción": "Recursos educativos abiertos",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Apertura de la educación: Docencia y aprendizaje innovadores para todos a través de nuevas tecnologías y recursos educativos abiertos. (COM/2013/65 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-09-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2013-654-COM-recursos-educativos-abiertos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52013DC0654"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "recursos educativos abiertos"
+            ]
+        },
+        {
+            "id": "celex-2021-221-con",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-06-10",
+            "vigencia": "vigente",
+            "descripción": "Equidad e inclusión en educación",
+            "titulo": "Conclusiones del Consejo sobre la equidad y la inclusión en la educación y la formación para favorecer el éxito educativo para todos. (2021/C 221/02)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-221-CON-equidad-inclusion-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2021.221.01.0003.01.SPA"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "inclusión"
+            ]
+        },
+        {
+            "id": "celex-2010-296-com",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2010-06-09",
+            "vigencia": "vencido",
+            "descripción": "Nuevo impulso a la cooperación en educación (ET 2020)",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones - Un nuevo impulso a la cooperación en educación y formación profesional para apoyar la Estrategia Europa 2020. (COM/2010/0296 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2010-06-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2010-296-COM-impulso-cooperacion-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52010DC0296"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "recursos educativos abiertos"
+            ]
+        },
+        {
+            "id": "celex-2007-558-com",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2007-07-29",
+            "vigencia": "vencido",
+            "descripción": "Plan de acción sobre el aprendizaje de adultos",
+            "titulo": "Comunicación de la Comisión al Consejo Europeo, al Parlamento Europeo, al Comité Económico y Social Europeo y al Comité de las Regiones - Plan de Acción sobre el Aprendizaje de Adultos - Siempre es buen momento para aprender. (COM/2007/0558 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-07-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2007-558-COM-plan-accion-aprendizaje-adultos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52007DC0558"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución",
+                "educación",
+                "aprendizaje adultos"
+            ]
+        },
+        {
+            "id": "celex-2020-193-con",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-06-09",
+            "vigencia": "vigente",
+            "descripción": "Personal docente y formador del futuro",
+            "titulo": "Conclusiones del Consejo sobre el personal docente y formador del futuro. (2020/C 193/04)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-06-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2020-193-CON-personal-docente-futuro.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52020XG0609(02)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "personal docente"
+            ]
+        },
+        {
+            "id": "celex-2020-11-24-rec",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-12-02",
+            "vigencia": "vigente",
+            "descripción": "Educación y Formación Profesionales para la competitividad sostenible",
+            "titulo": "Recomendación del Consejo de 24 de noviembre de 2020 sobre la educación y formación profesionales (EFP) para la competitividad sostenible, la equidad social y la resiliencia (2020/C 417/01)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-12-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2020-11-24-REC-formacion-profesional-competitividad-sostenible.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32020H1202(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "formación profesional"
+
+            ]
+        },
+        {
+            "id": "celex-2022-167-con",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-04-21",
+            "vigencia": "vigente",
+            "descripción": "Movilidad personal docente",
+            "titulo": "Conclusiones del Consejo sobre la mejora de la movilidad del personal docente y formador, en particular la movilidad europea, durante su educación y formación inicial y en el empleo (2022/C 167/02)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-04-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-167-CON-movilidad-personal-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52022XG0421(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "personal docente"
             ]
         }
     ]

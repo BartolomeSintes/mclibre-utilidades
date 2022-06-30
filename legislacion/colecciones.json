@@ -48,12 +48,28 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Nuevo concepto de educación (2012)",
+                                "referencias": [
+                                    "celex-2012-669-com",
+                                    "celex-2012-669-1-wd",
+                                    "celex-2012-669-2-wd",
+                                    "celex-2012-669-3-wd",
+                                    "celex-2012-669-4-wd",
+                                    "celex-2012-669-5-wd",
+                                    "celex-2012-669-6-wd",
+                                    "celex-2012-669-7-wd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Espacio Europeo de Educación",
                                 "referencias": [
                                     "celex-2017-673-com",
                                     "celex-2019-389-res",
                                     "celex-2020-625-com",
-                                    "celex-2021-66-01-res"
+                                    "celex-2021-66-01-res",
+                                    "celex-2021-497-res"
                                 ]
                             }
                         },
@@ -71,12 +87,31 @@
                                 "titulo": "Otros",
                                 "referencias": [
                                     "celex-1992-12-03-res",
+                                    "celex-1995-03-31-res",
+                                    "celex-2002-06-03-res",
+                                    "celex-2002-12-19-res",
                                     "celex-2011-06-28-rec",
+                                    "celex-2012-12-20-rec",
+                                    "celex-2013-654-com",
                                     "celex-2016-06-10-com",
                                     "celex-2016-12-19-rec",
                                     "celex-2018-05-22-2-rec",
+                                    "celex-2018-11-26-rec",
+                                    "celex-2019-05-22-rec",
+                                    "celex-2020-193-con",
+                                    "celex-2020-212-con",
+                                    "celex-2020-274-com",
+                                    "celex-2020-415-con",
+                                    "celex-2020-11-24-rec",
                                     "celex-2021-694-reg",
-                                    "celex-2021-817-reg"
+                                    "celex-2021-817-reg",
+                                    "celex-2021-221-con",
+                                    "celex-2021-11-29-rec",
+                                    "celex-2021-504-res",
+                                    "celex-2022-167-con",
+                                    "celex-2022-06-16-1-rec",
+                                    "celex-2022-06-16-2-rec",
+                                    "celex-2022-06-16-3-rec"
                                 ]
                             }
                         }
@@ -92,6 +127,7 @@
                             "apartado": {
                                 "titulo": "Educación y Formación 2010 (ET 2010)",
                                 "referencias": [
+                                    "celex-2001-59-inf",
                                     "celex-2002-142-01-com",
                                     "celex-2004-104-01-inf",
                                     "celex-2006-79-01-inf",
@@ -107,6 +143,7 @@
                                 "titulo": "Educación y Formación 2020 (ET 2020)",
                                 "referencias": [
                                     "celex-2009-05-28-con",
+                                    "celex-2010-296-com",
                                     "celex-2012-70-05-inf",
                                     "celex-2015-417-04-inf"
                                 ]
@@ -122,6 +159,7 @@
                                     "celex-1998-12-21-dec",
                                     "celex-2001-07-10-rec",
                                     "celex-2004-2241-dec",
+                                    "celex-2007-558-com",
                                     "celex-2008-04-23-rec",
                                     "celex-2013-1288-reg"
                                 ]
@@ -172,14 +210,6 @@
                                     "boe-2011-2-l",
                                     "boe-2011-4-lo",
                                     "boe-2020-3-lo"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Ley Orgánica de Modificación de la Ley Orgánica de Educación (LOMLOE, 2020)",
-                                "referencias": [
-                                    "boe-2021-984-rd"
                                 ]
                             }
                         },
@@ -254,7 +284,6 @@
                                 "titulo": "Currículos de Secundaria y Bachillerato",
                                 "referencias": [
                                     "boe-2011-1146-rd",
-                                    "boe-2014-1105-rd",
                                     "boe-2022-217-rd",
                                     "boe-2022-243-rd"
                                 ]
@@ -264,8 +293,7 @@
                             "apartado": {
                                 "titulo": "Calendario de implantación Evaluaciones finales de Secundaria y Bachillerato",
                                 "referencias": [
-                                    "boe-2016-310-rd",
-                                    "boe-2016-5-rdl"
+                                    "boe-2016-310-rd"
                                 ]
                             }
                         },
@@ -274,8 +302,7 @@
                                 "titulo": "Títulos",
                                 "referencias": [
                                     "boe-2009-1850-rd",
-                                    "boe-2015-197-rd",
-                                    "boe-2017-562-rd"
+                                    "boe-2015-197-rd"
                                 ]
                             }
                         },
@@ -359,7 +386,7 @@
                                 "titulo": "Universidad",
                                 "referencias": [
                                     "boe-2003-1125-rd",
-                                    "boe-2007-1393-rd"
+                                    "boe-2021-822-rd"
                                 ]
                             }
                         },
@@ -389,7 +416,6 @@
                                     "boe-2010-132-rd",
                                     "boe-2011-1618-rd",
                                     "boe-2014-412-rd",
-                                    "boe-2015-65-o",
                                     "boe-2015-665-rd",
                                     "boe-2019-4-l",
                                     "boe-2022-04-05-res"
@@ -450,9 +476,21 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Ley Orgánica de Modificación de la Ley Orgánica de Educación (LOMLOE, 2020)",
+                                "referencias": [
+                                    "boe-2021-984-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Ley Orgánica para la Mejora de la Calidad Educativa (LOMCE, 2013)",
                                 "referencias": [
-                                    "boe-2013-8-lo"
+                                    "boe-2013-8-lo",
+                                    "boe-2014-1105-rd",
+                                    "boe-2015-65-o",
+                                    "boe-2016-5-rdl",
+                                    "boe-2017-562-rd"
                                 ]
                             }
                         },
@@ -561,7 +599,8 @@
                                     "boe-1997-614-rd",
                                     "boe-1998-779-rd",
                                     "boe-2005-55-rd",
-                                    "boe-2005-56-rd"
+                                    "boe-2005-56-rd",
+                                    "boe-2007-1393-rd"
                                 ]
                             }
                         },
