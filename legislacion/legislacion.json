@@ -33886,7 +33886,7 @@
             ]
         },
         {
-            "id": "celex-2012-669-1-wd",
+            "id": "celex-2012-669-1-swd",
             "incluido": "2022-06-29",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -33921,7 +33921,7 @@
             ]
         },
         {
-            "id": "celex-2012-669-2-wd",
+            "id": "celex-2012-669-2-swd",
             "incluido": "2022-06-29",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -33956,7 +33956,7 @@
             ]
         },
         {
-            "id": "celex-2012-669-3-wd",
+            "id": "celex-2012-669-3-swd",
             "incluido": "2022-06-29",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -33991,7 +33991,7 @@
             ]
         },
         {
-            "id": "celex-2012-669-4-wd",
+            "id": "celex-2012-669-4-swd",
             "incluido": "2022-06-29",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -34026,7 +34026,7 @@
             ]
         },
         {
-            "id": "celex-2012-669-5-wd",
+            "id": "celex-2012-669-5-swd",
             "incluido": "2022-06-29",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -34061,7 +34061,7 @@
             ]
         },
         {
-            "id": "celex-2012-669-6-wd",
+            "id": "celex-2012-669-6-swd",
             "incluido": "2022-06-29",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -34096,7 +34096,7 @@
             ]
         },
         {
-            "id": "celex-2012-669-7-wd",
+            "id": "celex-2012-669-7-swd",
             "incluido": "2022-06-29",
             "modificado": "",
             "ámbito": "Unión Europea",
@@ -34949,7 +34949,7 @@
             "fecha": "2022-04-21",
             "vigencia": "vigente",
             "descripción": "Movilidad personal docente",
-            "titulo": "Conclusiones del Consejo sobre la mejora de la movilidad del personal docente y formador, en particular la movilidad europea, durante su educación y formación inicial y en el empleo (2022/C 167/02)",
+            "titulo": "Conclusiones del Consejo sobre la mejora de la movilidad del personal docente y formador, en particular la movilidad europea, durante su educación y formación inicial y en el empleo. (2022/C 167/02)",
             "versiones": [
                 {
                     "versión": "original",
@@ -34973,6 +34973,397 @@
                 "conclusiones",
                 "educación",
                 "personal docente"
+            ]
+        },
+        {
+            "id": "celex-2022-3-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-01-14",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje para la transición ecológica y el desarrollo sostenible (documento de trabajo)",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on learning for environmental sustainability. (SWD/2022/3 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-01-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2022-06-16-1-REC-SWD-aprendizaje-transicion-ecologica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52022SC0003"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "aprendizaje para la transición ecológica"
+            ]
+        },
+        {
+            "id": "celex-2020-209-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-09-30",
+            "vigencia": "vigente",
+            "descripción": "Plan de Acción de Educación Digital 2021-2027 (documento de trabajo)",
+            "titulo": "Commission Staff Working Document accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions Digital Education action Plan 2021-2027 Resetting education and training for the digital age. (SWD/2020/209 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-09-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2020-624-COM-SWD-plan-accion-educacion-digital.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52020SC0209"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "plan de acción de educación digital"
+            ]
+        },
+        {
+            "id": "celex-2020-212-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-09-30",
+            "vigencia": "vigente",
+            "descripción": "Consecución Espacio Europeo de Educación en 2025 (documento de trabajo)",
+            "titulo": "Commission Staff Working Document accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of Regions on achieving the European Education Area by 2025. (SWD/2020/212 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-09-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2020-625-COM-SWD-consecucion-2025-eee.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52020SC0212"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "espacio europeo de educación"
+            ]
+        },
+        {
+            "id": "celex-2019-389-con",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-11-18",
+            "vigencia": "vigente",
+            "descripción": "Función esencial del aprendizaje permanente",
+            "titulo": "Conclusiones del Consejo sobre la función esencial que desempeña el aprendizaje permanente para empoderar a las sociedades de modo que puedan afrontar la transición tecnológica y ecológica apoyando un crecimiento inclusivo y sostenible. (2019/C 389/07)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-11-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-389-CON-funcion-esencial-aprendizaje-permanente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52019XG1118(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "aprendizaje permamente",
+                "transición ecológica"
+            ]
+        },
+        {
+            "id": "celex-2020-123-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-07-01",
+            "vigencia": "vigente",
+            "descripción": "Educación y Formación Profesionales para la competitividad sostenible (documento de trabajo)",
+            "titulo": "Commission Staff Working Document accompanying the Commission Proposal for a Council Recommendation on vocational education and training (VET) for sustainable competitiveness, social fairness and resilience. (SWD/2020/123 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-07-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2020-11-24-REC-SWD-formacion-profesional-competitividad-sostenible.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52020SC0123"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "celex-2019-189-con",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-06-05",
+            "vigencia": "vigente",
+            "descripción": "Conclusiones itinerarios de mejora de las capacidades",
+            "titulo": "Conclusiones del Consejo sobre la aplicación de la Recomendación del Consejo relativa a Itinerarios de mejora de las capacidades: Nuevas oportunidades para adultos. (2019/C 189/04)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-189-CON-itinerarios-mejora-capacidades.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52019XG0605(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "itinerarios de mejora de las capacidades"
+            ]
+        },
+        {
+            "id": "celex-2021-219-1-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-08-05",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 1/5)",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 1/5",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2021-11-29-REC-1-SWD-aprendizaje-mixto-educacion-inclusiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52021SC0219"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "aprendizaje mixto",
+                "educación inclusiva"
+            ]
+        },
+        {
+            "id": "celex-2021-219-2-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-08-05",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 2/5)",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 2/5",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2021-11-29-REC-2-SWD-aprendizaje-mixto-educacion-inclusiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52021SC0219"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "aprendizaje mixto",
+                "educación inclusiva"
+            ]
+        },
+        {
+            "id": "celex-2021-219-3-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-08-05",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 3/5)",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 3/5",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2021-11-29-REC-3-SWD-aprendizaje-mixto-educacion-inclusiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52021SC0219"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "aprendizaje mixto",
+                "educación inclusiva"
+            ]
+        },
+        {
+            "id": "celex-2021-219-4-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-08-05",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 4/5)",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 4/5",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2021-11-29-REC-4-SWD-aprendizaje-mixto-educacion-inclusiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52021SC0219"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "aprendizaje mixto",
+                "educación inclusiva"
+            ]
+        },
+        {
+            "id": "celex-2021-219-5-swd",
+            "incluido": "2022-06-30",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-08-05",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 5/5)",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 5/5",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "en",
+                            "url": "eur-lex/EURLEX-2021-11-29-REC-5-SWD-aprendizaje-mixto-educacion-inclusiva.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52021SC0219"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "educación",
+                "aprendizaje mixto",
+                "educación inclusiva"
             ]
         }
     ]

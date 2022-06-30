@@ -51,13 +51,13 @@
                                 "titulo": "Nuevo concepto de educación (2012)",
                                 "referencias": [
                                     "celex-2012-669-com",
-                                    "celex-2012-669-1-wd",
-                                    "celex-2012-669-2-wd",
-                                    "celex-2012-669-3-wd",
-                                    "celex-2012-669-4-wd",
-                                    "celex-2012-669-5-wd",
-                                    "celex-2012-669-6-wd",
-                                    "celex-2012-669-7-wd"
+                                    "celex-2012-669-1-swd",
+                                    "celex-2012-669-2-swd",
+                                    "celex-2012-669-3-swd",
+                                    "celex-2012-669-4-swd",
+                                    "celex-2012-669-5-swd",
+                                    "celex-2012-669-6-swd",
+                                    "celex-2012-669-7-swd"
                                 ]
                             }
                         },
@@ -68,6 +68,7 @@
                                     "celex-2017-673-com",
                                     "celex-2019-389-res",
                                     "celex-2020-625-com",
+                                    "celex-2020-212-swd",
                                     "celex-2021-66-01-res",
                                     "celex-2021-497-res"
                                 ]
@@ -78,7 +79,8 @@
                                 "titulo": "Plan de Acción de Educación Digital 2021-2027",
                                 "referencias": [
                                     "celex-2018-022-com",
-                                    "celex-2020-624-com"
+                                    "celex-2020-624-com",
+                                    "celex-2020-209-swd"
                                 ]
                             }
                         },
@@ -97,19 +99,28 @@
                                     "celex-2016-12-19-rec",
                                     "celex-2018-05-22-2-rec",
                                     "celex-2018-11-26-rec",
+                                    "celex-2019-189-con",
                                     "celex-2019-05-22-rec",
+                                    "celex-2019-389-con",
                                     "celex-2020-193-con",
                                     "celex-2020-212-con",
                                     "celex-2020-274-com",
                                     "celex-2020-415-con",
                                     "celex-2020-11-24-rec",
+                                    "celex-2020-123-swd",
                                     "celex-2021-694-reg",
                                     "celex-2021-817-reg",
                                     "celex-2021-221-con",
                                     "celex-2021-11-29-rec",
+                                    "celex-2021-219-1-swd",
+                                    "celex-2021-219-2-swd",
+                                    "celex-2021-219-3-swd",
+                                    "celex-2021-219-4-swd",
+                                    "celex-2021-219-5-swd",
                                     "celex-2021-504-res",
                                     "celex-2022-167-con",
                                     "celex-2022-06-16-1-rec",
+                                    "celex-2022-3-swd",
                                     "celex-2022-06-16-2-rec",
                                     "celex-2022-06-16-3-rec"
                                 ]
