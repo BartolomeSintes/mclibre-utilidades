@@ -1772,6 +1772,17 @@
       "creado": "2022-04-01"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 80,
+      "año": 2022,
+      "mes": 6,
+      "portada": "edutec-80-es-202206.jpg",
+      "fichero": "edutec-80-es-202206.pdf",
+      "idioma": "español",
+      "creado": "2022-07-05"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -5125,6 +5136,17 @@
       "fichero": "hello-world-18-en-202203.pdf",
       "idioma": "inglés",
       "creado": "2022-03-18"
+    },
+    {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 19,
+      "año": 2022,
+      "mes": 6,
+      "portada": "hello-world-19-en-202206.jpg",
+      "fichero": "hello-world-19-en-202206.pdf",
+      "idioma": "inglés",
+      "creado": "2022-07-05"
     },
     {
       "serie": "Hello World Books",
@@ -8526,6 +8548,17 @@
       "creado": "2021-06-12"
     },
     {
+      "serie": "Olympiads in informatics",
+      "nombre": "Olympiads in informatics",
+      "número": 12,
+      "año": 2022,
+      "mes": 6,
+      "portada": "olympiads-in-informatics-16-en-202206.jpg",
+      "fichero": "olympiads-in-informatics-16-en-202206.pdf",
+      "idioma": "inglés",
+      "creado": "2022-07-05"
+    },
+    {
       "serie": "Open Source Yearbook",
       "nombre": "Open Source Yearbook",
       "número": "Año 2015",
@@ -10944,6 +10977,17 @@
       "fichero": "the-magpi-118-en-202206.pdf",
       "idioma": "inglés",
       "creado": "2022-05-27"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 119,
+      "año": 2022,
+      "mes": 7,
+      "portada": "the-magpi-119-en-202207.jpg",
+      "fichero": "the-magpi-119-en-202207.pdf",
+      "idioma": "inglés",
+      "creado": "2022-07-05"
     },
     {
       "serie": "The MagPi Books",

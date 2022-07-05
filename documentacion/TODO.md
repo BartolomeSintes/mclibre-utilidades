@@ -36,4 +36,8 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 ## Libros para incluir
 
 -   https://www.systemsapproach.org/books.html
+-   https://www.raspberrypi.org/research/publications/
+    https://www.raspberrypi.org/app/uploads/2021/11/Teaching-programming-in-schools-pedagogy-review-Raspberry-Pi-Foundation.pdf
+    https://www.raspberrypi.org/app/uploads/2021/05/Understanding-computing-education-Volume-1-Raspberry-Pi-Foundation-Research-Seminars.pdf
+    https://www.raspberrypi.org/blog/research-report-teaching-programming/
 
