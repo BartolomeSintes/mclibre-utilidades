@@ -86,6 +86,23 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Conclusiones del Consejo",
+                                "referencias": [
+                                    "celex-1992-336-con",
+                                    "celex-2005-292-con",
+                                    "celex-2006-298-con",
+                                    "celex-2007-300-con",
+                                    "celex-2009-302-con",
+                                    "celex-2017-62-con",
+                                    "celex-2017-421-con",
+                                    "celex-2017-429-con",
+                                    "celex-2017-441-con",
+                                    "celex-2020-202-con"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otros",
                                 "referencias": [
                                     "celex-1992-12-03-res",
@@ -156,6 +173,7 @@
                                     "celex-2009-05-28-con",
                                     "celex-2010-296-com",
                                     "celex-2012-70-05-inf",
+                                    "celex-2011-1608-swd",
                                     "celex-2015-417-04-inf"
                                 ]
                             }
