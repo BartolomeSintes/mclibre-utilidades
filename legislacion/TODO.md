@@ -159,4 +159,6 @@ la Generalitat Valenciana. (En vigor parcialmente)
 
 -   2022-04-06. Estaría bien que la información derogado por o sustituido por saliera en el propio cuadro, abajo, con enlace al otro.
 
+-   2022-07-08. Al generar las páginas podría hacer la comprobación de campos repetidos, por ejemplo las "url" o el "id".
+
 

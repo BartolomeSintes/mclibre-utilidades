@@ -35159,7 +35159,7 @@
             "origen": "DOCE",
             "fecha": "2019-06-05",
             "vigencia": "vigente",
-            "descripción": "Conclusiones itinerarios de mejora de las capacidades",
+            "descripción": "Itinerarios de mejora de las capacidades",
             "titulo": "Conclusiones del Consejo sobre la aplicación de la Recomendación del Consejo relativa a Itinerarios de mejora de las capacidades: Nuevas oportunidades para adultos. (2019/C 189/04)",
             "versiones": [
                 {
@@ -35418,7 +35418,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2017-421-CON-desarrollo-escolar.pdf"
                         },
                         {
@@ -35452,7 +35452,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2017-62-CON-inclusion-diversidad.pdf"
                         },
                         {
@@ -35487,7 +35487,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2005-292-CON-cualificaciones-competencias.pdf"
                         },
                         {
@@ -35523,7 +35523,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2095-302-CON-papel-educacion.pdf"
                         },
                         {
@@ -35557,7 +35557,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-1992-336-CON-cooperacion-eeuu.pdf"
                         },
                         {
@@ -35592,7 +35592,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2007-300-CON-mejora-formacion-profesorado.pdf"
                         },
                         {
@@ -35627,7 +35627,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2006-298-CON-prioridades-cooperacion-educacion.pdf"
                         },
                         {
@@ -35662,7 +35662,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2006-298-CON-agenda-educacion-superior.pdf"
                         },
                         {
@@ -35697,7 +35697,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2017-441-CON-identificador-europeo-legislacion.pdf"
                         },
                         {
@@ -35711,6 +35711,7 @@
             "claves": [
                 "unión europea",
                 "conclusiones",
+                "legislación",
                 "ELI"
             ]
         },
@@ -35731,7 +35732,7 @@
                     "enlaces": [
                         {
                             "formato": "pdf",
-                            "idioma": "en",
+                            "idioma": "es",
                             "url": "eur-lex/EURLEX-2020-202-CON-futuro-digital-europa.pdf"
                         },
                         {
@@ -35746,6 +35747,352 @@
                 "unión europea",
                 "conclusiones",
                 "educación",
+                "educación superior"
+            ]
+        },
+        {
+            "id": "celex-2018-795-com",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-12-07",
+            "vigencia": "vigente",
+            "descripción": "Plan coordinado sobre la inteligencia artificial",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan coordinado sobre la inteligencia artificial. (COM/2018/795 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-12-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-795-COM-plan-inteligencia-artificial.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52018DC0795"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "inteligencia artificial"
+            ]
+        },
+        {
+            "id": "celex-2018-795-1-com",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-12-07",
+            "vigencia": "vigente",
+            "descripción": "Anexo I al Plan coordinado sobre la inteligencia artificial",
+            "titulo": "Anexo I a la Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan coordinado sobre la inteligencia artificial. (COM/2018/795 final annex)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-12-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-795-COM-plan-inteligencia-artificial-anexo-1.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52018DC0795"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación",
+                "anexo",
+                "inteligencia artificial"
+            ]
+        },
+        {
+            "id": "celex-2019-412-3-con",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-12-09",
+            "vigencia": "vigente",
+            "descripción": "Educación de los trabajadores y juventud",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros reunidos en el seno del Consejo sobre la educación y formación de los trabajadores en el ámbito de la juventud. (2019/C 412/03)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-12-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-412-3-CON-formacion-trabajadores-juventud.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52019XG1209(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "trabajadores",
+                "juventud"
+            ]
+        },
+        {
+            "id": "celex-2019-414-2-con",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-12-10",
+            "vigencia": "vigente",
+            "descripción": "Trabajo digital y juventud",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el seno del Consejo, sobre el trabajo digital en el ámbito de la juventud. (2019/C 414/02)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-414-2-CON-trabajo-digital-juventud.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52019XG1210(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "trabajo digital",
+                "juventud"
+            ]
+        },
+        {
+            "id": "celex-2019-189-5-con",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-06-05",
+            "vigencia": "vigente",
+            "descripción": "Jóvenes y futuro del trabajo",
+            "titulo": "Conclusiones del Consejo sobre los jóvenes y el futuro del trabajo. (2019/C 189/05)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-189-5-CON-jovenes-futuro-trabajo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52019XG0605(02)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "trabajo",
+                "juventud"
+            ]
+        },
+        {
+            "id": "celex-2019-389-7-con",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-11-18",
+            "vigencia": "vigente",
+            "descripción": "Aprendizaje permanente para la transición ecológica",
+            "titulo": "Conclusiones del Consejo sobre la función esencial que desempeña el aprendizaje permanente para empoderar a las sociedades de modo que puedan afrontar la transición tecnológica y ecológica apoyando un crecimiento inclusivo y sostenible. (2019/C 389/07)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-11-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-389-7-CON-aprendizaje-permanente-transicion-ecologica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52019XG1118(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "aprendizaje permanente",
+                "transición ecológica"
+            ]
+        },
+        {
+            "id": "celex-2019-414-3-con",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-12-10",
+            "vigencia": "vigente",
+            "descripción": "Riesgos 5G",
+            "titulo": "Conclusiones del Consejo sobre la importancia de la tecnología 5G para la economía europea y la necesidad de mitigar los riesgos para la seguridad relacionados con la 5G. (2019/C 414/03)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-414-3-CON-5g-riesgos-seguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52019XG1210(02)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "5G"
+            ]
+        },
+        {
+            "id": "celex-2018-195-4-con",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-06-08",
+            "vigencia": "vigente",
+            "descripción": "Visión del Espacio Europeo de Educación",
+            "titulo": "Conclusiones del Consejo sobre la adquisición de una visión del Espacio Europeo de Educación. (2018/C 195/04)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2018-06-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-195-4-CON-vision-eee.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52018XG0607(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "espacio europeo de educación"
+            ]
+        },
+        {
+            "id": "celex-2021-241-4-con",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-06-21",
+            "vigencia": "vigente",
+            "descripción": "Tecnología de datos para la mejora de la legislación",
+            "titulo": "Conclusiones del Consejo sobre tecnologías de datos para optimizar la mejora de la legislación. (2021/C 241/04)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-06-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-241-4-CON-tecnologia-mejora-legislacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52021XG0621(02)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "legislación"
+            ]
+        },
+        {
+            "id": "celex-2022-167-3-con",
+            "incluido": "2022-07-11",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-04-21",
+            "vigencia": "vigente",
+            "descripción": "Capacitación educación superior para el futuro",
+            "titulo": "Conclusiones del Consejo sobre una estrategia europea de capacitación de las instituciones de educación superior para el futuro de Europa. (2022/C 167/03)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-04-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-167-3-CON-capacitacion-educacion-superior-futuro.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52022XG0421(02)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
                 "educación superior"
             ]
         }

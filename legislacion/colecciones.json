@@ -96,8 +96,20 @@
                                     "celex-2017-62-con",
                                     "celex-2017-421-con",
                                     "celex-2017-429-con",
-                                    "celex-2017-441-con",
-                                    "celex-2020-202-con"
+                                    "celex-2018-195-4-con",
+                                    "celex-2019-189-con",
+                                    "celex-2019-189-5-con",
+                                    "celex-2019-389-con",
+                                    "celex-2019-389-7-con",
+                                    "celex-2019-412-3-con",
+                                    "celex-2019-414-2-con",
+                                    "celex-2020-193-con",
+                                    "celex-2020-202-con",
+                                    "celex-2020-212-con",
+                                    "celex-2020-415-con",
+                                    "celex-2021-221-con",
+                                    "celex-2022-167-con",
+                                    "celex-2022-167-3-con"
                                 ]
                             }
                         },
@@ -116,18 +128,14 @@
                                     "celex-2016-12-19-rec",
                                     "celex-2018-05-22-2-rec",
                                     "celex-2018-11-26-rec",
-                                    "celex-2019-189-con",
+                                    "celex-2018-795-com",
+                                    "celex-2018-795-1-com",
                                     "celex-2019-05-22-rec",
-                                    "celex-2019-389-con",
-                                    "celex-2020-193-con",
-                                    "celex-2020-212-con",
                                     "celex-2020-274-com",
-                                    "celex-2020-415-con",
                                     "celex-2020-11-24-rec",
                                     "celex-2020-123-swd",
                                     "celex-2021-694-reg",
                                     "celex-2021-817-reg",
-                                    "celex-2021-221-con",
                                     "celex-2021-11-29-rec",
                                     "celex-2021-219-1-swd",
                                     "celex-2021-219-2-swd",
@@ -135,7 +143,6 @@
                                     "celex-2021-219-4-swd",
                                     "celex-2021-219-5-swd",
                                     "celex-2021-504-res",
-                                    "celex-2022-167-con",
                                     "celex-2022-06-16-1-rec",
                                     "celex-2022-3-swd",
                                     "celex-2022-06-16-2-rec",
@@ -1639,11 +1646,21 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Legislación",
+                                "referencias": [
+                                    "celex-2017-441-con",
+                                    "celex-2021-241-4-con"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
                                     "celex-1990-270-dir",
                                     "boe-1997-488-rdl",
-                                    "boe-2005-1542-o"
+                                    "boe-2005-1542-o",
+                                    "celex-2019-414-3-con"
                                 ]
                             }
                         }
