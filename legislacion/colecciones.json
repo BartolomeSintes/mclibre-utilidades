@@ -131,18 +131,20 @@
                                     "celex-2018-795-com",
                                     "celex-2018-795-1-com",
                                     "celex-2019-05-22-rec",
+                                    "celex-2019-189-2-con",
                                     "celex-2020-274-com",
                                     "celex-2020-11-24-rec",
                                     "celex-2020-123-swd",
                                     "celex-2021-694-reg",
                                     "celex-2021-817-reg",
-                                    "celex-2021-11-29-rec",
+                                    "celex-2021-861-reg",
                                     "celex-2021-219-1-swd",
                                     "celex-2021-219-2-swd",
                                     "celex-2021-219-3-swd",
                                     "celex-2021-219-4-swd",
                                     "celex-2021-219-5-swd",
                                     "celex-2021-504-res",
+                                    "celex-2021-11-29-rec",
                                     "celex-2022-06-16-1-rec",
                                     "celex-2022-3-swd",
                                     "celex-2022-06-16-2-rec",
@@ -454,7 +456,8 @@
                                     "boe-2014-412-rd",
                                     "boe-2015-665-rd",
                                     "boe-2019-4-l",
-                                    "boe-2022-04-05-res"
+                                    "boe-2022-04-05-res",
+                                    "boe-2022-07-01-res"
                                 ]
                             }
                         }
@@ -788,7 +791,8 @@
                                     "dogv-2022-01-28-res",
                                     "dogv-2022-03-24-res",
                                     "dogv-2022-03-28-res",
-                                    "dogv-2022-06-14-res"
+                                    "dogv-2022-06-14-res",
+                                    "dogv-2022-07-12-res"
                                 ]
                             }
                         },
@@ -1660,7 +1664,8 @@
                                     "celex-1990-270-dir",
                                     "boe-1997-488-rdl",
                                     "boe-2005-1542-o",
-                                    "celex-2019-414-3-con"
+                                    "celex-2019-414-3-con",
+                                    "celex-2020-427-4-con"
                                 ]
                             }
                         }

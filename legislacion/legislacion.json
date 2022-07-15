@@ -35524,7 +35524,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "eur-lex/EURLEX-2095-302-CON-papel-educacion.pdf"
+                            "url": "eur-lex/EURLEX-2009-302-CON-papel-educacion.pdf"
                         },
                         {
                             "formato": "web",
@@ -36094,6 +36094,189 @@
                 "unión europea",
                 "conclusiones",
                 "educación superior"
+            ]
+        },
+        {
+            "id": "celex-2019-189-2-con",
+            "incluido": "2022-07-12",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-06-05",
+            "vigencia": "vigente",
+            "descripción": "Educación primera infancia",
+            "titulo": "Recomendación del Consejo, de 22 de mayo de 2019, relativa a unos sistemas de educación y cuidados de la primera infancia de alta calidad. (2019/C 189/02)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-189-2-CON-educacion-primera-infancia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32019H0605(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "educación",
+                "primera infancia"
+            ]
+        },
+        {
+            "id": "celex-2021-861-reg",
+            "incluido": "2022-07-12",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-05-31",
+            "vigencia": "vigente",
+            "descripción": "Datos técnicos encuesta educación",
+            "titulo": "Reglamento de Ejecución (UE) 2021/861 de la Comisión de 21 de mayo de 2021 por el que se especifican los datos técnicos del conjunto de datos y se establecen los formatos técnicos para la transmisión de la información en relación con la organización de una encuesta muestral en el ámbito de la educación y la formación, de conformidad con el Reglamento (UE) 2019/1700 del Parlamento Europeo y del Consejo (Texto pertinente a efectos del EEE)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-05-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-861-REG-datos-tecnicos-encuesta-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://data.europa.eu/eli/reg_impl/2021/861/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "ciberseguridad"
+            ]
+        },
+        {
+            "id": "celex-2020-427-4-con",
+            "incluido": "2022-07-12",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2020-12-10",
+            "vigencia": "vigente",
+            "descripción": "Ciberseguridad dispositivos conectados",
+            "titulo": "Conclusiones del Consejo sobre la ciberseguridad de los dispositivos conectados. (2020/C 427/04)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2020-427-4-CON-ciberseguridad-dispositivos-conectados.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020XG1210(01)"
+                        }
+                    ]
+                }
+            ],
+            "comentario": "El enlace permanente sale en inglés, porque al pedirlo que lo muestre en español dice La petición no puede procesarse",
+            "claves": [
+                "unión europea",
+                "conclusiones",
+                "ciberseguridad"
+            ]
+        },
+        {
+            "id": "boe-2022-07-01-res",
+            "incluido": "2022-07-16",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-07-12",
+            "vigencia": "vigente",
+            "descripción": "Acuerdo sobre la certificación, acreditación y reconocimiento de la competencia digital docente",
+            "titulo": "Resolución de 1 de julio de 2022, de la Dirección General de Evaluación y Cooperación Territorial, por la que se publica el Acuerdo de la Conferencia Sectorial de Educación sobre la certificación, acreditación y reconocimiento de la competencia digital docente.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-07-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-07-01-RES-certificacion-competencia-digital-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-11574"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "educación",
+                "formación profesorado",
+                "competencia digital"
+            ]
+        },
+        {
+            "id": "dogv-2022-07-12-res",
+            "incluido": "2022-07-16",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-07-15",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 22/23 (CV)",
+            "titulo": "Resolución de 12 de julio de 2022, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2022-2023.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-07-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-07-12-R-inicio-curso-secundaria-2223.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/6761&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/6761&L=1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2022/23"
             ]
         }
     ]

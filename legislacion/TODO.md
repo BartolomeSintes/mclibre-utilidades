@@ -8,7 +8,15 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2021-12-26. Algunos RTF tiene tamaño 1 KB o 2KB. Es porque están vacíos o solo contienen el título. Debería descargarlos de nuevo o quitarlos.
 
--   2021-12-26. Poner nlaces https a DOGV. Poner enlaces permanentes eli a DOGV. <https://dogv.gva.es/es/projecte-eli-identificador-legislatiu-europeu>
+-   2021-12-26. Poner enlaces https a DOGV. Poner enlaces permanentes eli a DOGV. <https://dogv.gva.es/es/projecte-eli-identificador-legislatiu-europeu>
+
+-   2022-07-12. Unificar los ids de la legislación europea. En muchos casos utilizo la fecha, pero hay normas de la misma fecha, así que le añado un número de orden arbitrario (los pongo cuando me doy cuenta de que se repiten). Hoy creo que sería mejor usar el COM, que no se repite (aunque el COM se repite cuando son anexos y hay cosas que no tiene COM como los reglamentos de ejecución). Lo mejor sería usar el celex, pero es un número en el que no sé reconocer la fecha.
+
+-   2022-07-12. Unificar las url de la legislación europea. En muchos casos pongo la url que pone cuando le das a l link a enlace pemanente de la página de eurlex, pero muchas veces en esa página también pone el eli. Debería poner el eli.
+
+-   2022-07-12. Si no existen los ficheros el generador da error. Simplemente debería crearlos.
+
+-   He añadido un campo comentario en la norma Conclusiones del Consejo sobre la ciberseguridad de los dispositivos conectados 2020/C 427/04. Debería añadirlo a todo para poder hacer anotaciones específicas (normalmente estará vacío).
 
 ## Errores
 
@@ -59,7 +67,6 @@ Este repositorio contiene una colección legislativa de interés para profesores
 - 2021-3-22. Me enviaron ayer un correo automático para decirme que había salido una nueva versión de EN 301 549. Hay una página que [informa de la versión](https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=59546).
 
 - 2021-12-23. No sé si ya lo tengo apuntado, pero debería chequear que no hay ids repetidos en legislacion.json, ni nombres de ficheros, ni urls.
-
 
 ## Otros
 
@@ -132,8 +139,6 @@ la Generalitat Valenciana. (En vigor parcialmente)
 
 -   <https://www.csif.es/contenido/comunidad-valenciana/educacion/149216>
 
-
-
 ## Pendiente de incluir
 
 -   <https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2021/pdr-evaluacion-promocion.html>
@@ -161,4 +166,9 @@ la Generalitat Valenciana. (En vigor parcialmente)
 
 -   2022-07-08. Al generar las páginas podría hacer la comprobación de campos repetidos, por ejemplo las "url" o el "id".
 
+-   2022-07-16. Hay dogv para los que no hay rtf disponible. Podría hacer un programtia que los localizara y mostrara una página con enlaces para poder comprobar fácilmente si ya hay.
 
+## legislación Europea
+
+- 2022-07-13. He empezado a buscar con la búsqueda avanzada las Conclusiones del Consejo sobre temas educativas, año por año. He hecho hasta 2017
+https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=ALL_ALL&textScope0=ti&DTS_DOM=ALL&lang=es&type=advanced&qid=1657292985931&andText0=%22Conclusiones+del+consejo%22&page=2
