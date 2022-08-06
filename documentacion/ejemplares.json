@@ -3829,6 +3829,17 @@
       "creado": "2022-06-24"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 183,
+      "año": 2022,
+      "mes": 7,
+      "portada": "full-circle-183-en-202207.jpg",
+      "fichero": "full-circle-183-en-202207.pdf",
+      "idioma": "inglés",
+      "creado": "2022-07-30"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -4894,6 +4905,17 @@
       "fichero": "hackspace-56-en-202207.pdf",
       "idioma": "inglés",
       "creado": "2022-06-24"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 57,
+      "año": 2022,
+      "mes": 8,
+      "portada": "hackspace-57-en-202208.jpg",
+      "fichero": "hackspace-57-en-202208.pdf",
+      "idioma": "inglés",
+      "creado": "2022-07-30"
     },
     {
       "serie": "HackSpace Books",
@@ -6049,6 +6071,17 @@
       "fichero": "insecure-71-en-202203.pdf",
       "idioma": "inglés",
       "creado": "2022-03-18"
+    },
+    {
+      "serie": "(In)secure Magazine",
+      "nombre": "(In)secure Magazine",
+      "número": 72,
+      "año": 2022,
+      "mes": 7,
+      "portada": "insecure-72-en-202207.jpg",
+      "fichero": "insecure-72-en-202207.pdf",
+      "idioma": "inglés",
+      "creado": "2022-07-30"
     },
     {
       "serie": "(In)secure Magazine",
@@ -11001,6 +11034,17 @@
       "creado": "2022-07-05"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 120,
+      "año": 2022,
+      "mes": 8,
+      "portada": "the-magpi-120-en-202208.jpg",
+      "fichero": "the-magpi-120-en-202208.pdf",
+      "idioma": "inglés",
+      "creado": "2022-07-30"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -11362,6 +11406,17 @@
       "fichero": "raspberry-pi-retro-gaming-02-en-202112.pdf",
       "idioma": "inglés",
       "creado": "2021-12-08"
+    },
+    {
+      "serie": "The MagPi Books",
+      "nombre": "Build a Raspberry Pi Media Player",
+      "número": 1,
+      "año": 2022,
+      "mes": 7,
+      "portada": "build-a-raspberry-pi-media-player-01-en-202207.jpg",
+      "fichero": "build-a-raspberry-pi-media-player-01-en-202207.pdf",
+      "idioma": "inglés",
+      "creado": "2022-07-30"
     },
     {
       "serie": "The PCLinuxOS Magazine",
