@@ -3851,6 +3851,17 @@
       "creado": "2022-07-30"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 184,
+      "año": 2022,
+      "mes": 8,
+      "portada": "full-circle-184-en-202208.jpg",
+      "fichero": "full-circle-184-en-202208.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-02"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -11067,6 +11078,17 @@
       "creado": "2022-07-30"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 121,
+      "año": 2022,
+      "mes": 9,
+      "portada": "the-magpi-121-en-202209.jpg",
+      "fichero": "the-magpi-121-en-202209.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-02"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -14486,6 +14508,17 @@
       "fichero": "wireframe-65-en-202208.pdf",
       "idioma": "inglés",
       "creado": "2022-08-07"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 66,
+      "año": 2022,
+      "mes": 9,
+      "portada": "wireframe-66-en-202209.jpg",
+      "fichero": "wireframe-66-en-202209.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-02"
     },
     {
       "serie": "Wireframe Books",
