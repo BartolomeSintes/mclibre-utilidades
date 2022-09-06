@@ -777,22 +777,15 @@
                     "contenido": [
                         {
                             "apartado": {
-                                "titulo": "Coronavirus Covid-19",
-                                "referencias": [
-                                    "dogv-2020-06-19-acu",
-                                    "dogv-2020-07-17-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
                                 "titulo": "Curso 2022/23",
                                 "referencias": [
                                     "dogv-2022-01-28-res",
                                     "dogv-2022-03-24-res",
                                     "dogv-2022-03-28-res",
                                     "dogv-2022-06-14-res",
-                                    "dogv-2022-07-12-res"
+                                    "dogv-2022-07-12-res",
+                                    "dogv-2022-07-15-res",
+                                    "dogv-2022-07-26-res"
                                 ]
                             }
                         },
@@ -800,14 +793,8 @@
                             "apartado": {
                                 "titulo": "Curso 2021/22",
                                 "referencias": [
-                                    "dogv-2021-05-27-res",
-                                    "dogv-2021-06-01-res",
                                     "dogv-2021-07-05-res",
-                                    "dogv-2021-07-26-1-res",
-                                    "dogv-2021-07-26-2-res",
-                                    "dogv-2021-07-26-3-res",
-                                    "dogv-2021-12-15-res",
-                                    "dogv-2022-01-26-res"
+                                    "dogv-2021-12-15-res"
                                 ]
                             }
                         },
@@ -859,7 +846,8 @@
                                     "dogv-2021-2-o",
                                     "dogv-2021-193-d",
                                     "dogv-2022-01-17-res",
-                                    "docv-2022-12-o"
+                                    "docv-2022-12-o",
+                                    "dogv-2022-06-02-res"
                                 ]
                             }
                         },
@@ -1114,6 +1102,8 @@
                                     "dogv-2020-05-13-res",
                                     "dogv-2020-05-26-res",
                                     "dogv-2020-06-01-res",
+                                    "dogv-2020-06-19-acu",
+                                    "dogv-2020-07-17-res",
                                     "dogv-2020-8-d",
                                     "dogv-2020-11-07-res",
                                     "dogv-2021-03-29-2-res"
@@ -1150,7 +1140,13 @@
                                     "dogv-2020-12-23-res",
                                     "dogv-2021-03-29-1-res",
                                     "dogv-2021-03-31-res",
-                                    "dogv-2021-05-06-res"
+                                    "dogv-2021-05-06-res",
+                                    "dogv-2021-05-27-res",
+                                    "dogv-2021-06-01-res",
+                                    "dogv-2021-07-26-1-res",
+                                    "dogv-2021-07-26-2-res",
+                                    "dogv-2021-07-26-3-res",
+                                    "dogv-2022-01-26-res"
                                 ]
                             }
                         },
