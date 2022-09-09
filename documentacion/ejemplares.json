@@ -881,6 +881,17 @@
       "creado": "2022-08-07"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 230,
+      "año": 2022,
+      "mes": 9,
+      "portada": "custom-pc-230-en-202209.jpg",
+      "fichero": "custom-pc-230-en-202209.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-09"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -11463,6 +11474,17 @@
       "creado": "2022-07-30"
     },
     {
+      "serie": "The MagPi Books",
+      "nombre": "Raspberry Pi Handbook 2023",
+      "número": 1,
+      "año": 2022,
+      "mes": 9,
+      "portada": "raspberry-pi-handbook-2023-en-202209.jpg",
+      "fichero": "raspberry-pi-handbook-2023-en-202209.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-09"
+    },
+    {
       "serie": "The PCLinuxOS Magazine",
       "nombre": "The PCLinuxOS Magazine",
       "número": 1,
@@ -13507,6 +13529,17 @@
       "fichero": "pclinuxos-187-en-202208.pdf",
       "idioma": "inglés",
       "creado": "2022-08-07"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 188,
+      "año": 2022,
+      "mes": 9,
+      "portada": "pclinuxos-188-en-202209.jpg",
+      "fichero": "pclinuxos-188-en-202209.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-09"
     },
     {
       "serie": "The R Journal",
