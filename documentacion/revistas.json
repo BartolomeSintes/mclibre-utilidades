@@ -65,6 +65,22 @@
             "estado": "activa"
         },
         {
+            "nombre-corto": "Custom PC Books",
+            "nombre": "Custom PC Books",
+            "nombre-largo": "Revista Custom PC Books",
+            "web": [
+                [
+                    "https://custompc.raspberrypi.com/books",
+                    "Libros Revista Custom PC"
+                ]
+            ],
+            "miniaturas": "../img/revistas/custom-pc-books/",
+            "archivos": "custom-pc-books/",
+            "comentario": "",
+            "abreviatura" : "custompcbooks",
+            "estado": "activa"
+        },
+        {
             "nombre-corto": "DING",
             "nombre": "DING",
             "nombre-largo": "DING - A magazine about the Internet and Things",

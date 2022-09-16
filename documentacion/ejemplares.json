@@ -892,6 +892,17 @@
       "creado": "2022-09-09"
     },
     {
+      "serie": "Custom PC Books",
+      "nombre": "Retrogade",
+      "número": 1,
+      "año": 2022,
+      "mes": 7,
+      "portada": "custompc-retrogade-01-en-202207.jpg",
+      "fichero": "custompc-retrogade-01-en-202207.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-16"
+    },
+    {
       "serie": "DING",
       "nombre": "DING",
       "número": 1,
@@ -5015,6 +5026,17 @@
       "fichero": "hackspace-get-started-with-micropython-on-pico-01-202101.pdf",
       "idioma": "inglés",
       "creado": "2021-01-22"
+    },
+    {
+      "serie": "HackSpace Books",
+      "nombre": "FreeCAD for Makers",
+      "número": 1,
+      "año": 2022,
+      "mes": 9,
+      "portada": "hackspace-freecad-book-01-en-202209.jpg",
+      "fichero": "hackspace-freecad-book-01-en-202209.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-16"
     },
     {
       "serie": "Hello World",

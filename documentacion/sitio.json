@@ -79,6 +79,13 @@
       ]
     },
     {
+      "pagina": "revistas-custom-pc-books.html",
+      "directorio": "revistas-titulos",
+      "revistas": [
+        "Custom PC Books"
+      ]
+    },
+    {
       "pagina": "revistas-ding.html",
       "directorio": "revistas-titulos",
       "revistas": [
