@@ -4973,6 +4973,17 @@
       "creado": "2022-08-22"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 59,
+      "año": 2022,
+      "mes": 10,
+      "portada": "hackspace-59-en-202210.jpg",
+      "fichero": "hackspace-59-en-202210.pdf",
+      "idioma": "inglés",
+      "creado": "2022-09-23"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -6305,7 +6316,7 @@
     },
     {
       "serie": "JOLTS",
-      "nombre": "The Journal of Open Law, Technology & Society",
+      "nombre": "The Journal of Open Law, Technology &amp; Society",
       "número": "vol 11 nº 1",
       "año": 2019,
       "mes": 12,
@@ -6316,7 +6327,7 @@
     },
     {
       "serie": "JOLTS",
-      "nombre": "The Journal of Open Law, Technology & Society",
+      "nombre": "The Journal of Open Law, Technology &amp; Society",
       "número": "vol 12 nº 1",
       "año": 2021,
       "mes": 1,

@@ -226,12 +226,12 @@
         },
         {
             "nombre-corto": "JOLTS",
-            "nombre": "The Journal of Open Law, Technology & Society",
-            "nombre-largo": "The Journal of Open Law, Technology & Society",
+            "nombre": "The Journal of Open Law, Technology &amp; Society",
+            "nombre-largo": "The Journal of Open Law, Technology &amp; Society",
             "web": [
                 [
                     "https://jolts.world/index.php/jolts",
-                    "Revista The Journal of Open Law, Technology & Society"
+                    "Revista The Journal of Open Law, Technology &amp; Society"
                 ]
             ],
             "miniaturas": "../img/revistas/ifosslr/",
