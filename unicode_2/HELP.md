@@ -1,5 +1,37 @@
 # AYUDA
 
+## 2022-10-12
+
+En 2022-09-13 publicaron Unicode 15. Quiero actualizar las páginas de los apuntes.
+
+- Hago una copia de unicode_2 y le he llamado unicode_3
+
+- Descargo los cinco ficheros:
+    - https://unicode.org/Public/emoji/15.0/emoji-sequences.txt
+    - https://unicode.org/Public/emoji/15.0/emoji-test.txt
+    - https://unicode.org/Public/emoji/15.0/emoji-zwj-sequences.txt
+    - https://www.unicode.org/Public/15.0.0/ucd/emoji/emoji-data.txt
+    - https://www.unicode.org/Public/15.0.0/ucd/emoji/emoji-variation-sequences.txt
+    - https://www.unicode.org/emoji/charts/full-emoji-list.html
+    - https://www.unicode.org/Public/15.0.0/ucd/extracted/DerivedName.txt
+
+- En ucdef.py cambio las referencias a 14 por 15 y añado 15.0 en lista uc_version
+
+- Ejecuto index.py
+    - Ejecuto 1, 2, 3 y 4
+    - Al ejecutar index > 4 Fusionar listas Unicode me dice "subgrupo no esperado". Tengo que añadir en ucdef.py uc_subgroup el subgrupo "heart". Miro en full-emoji-list.html para ver en qué posición va. Una vez añadido, fusiona OK.
+
+- Ejecuto uc_92_grupos_manual_1.py
+
+- El fichero unicode_txt_manual_2.py se crea con util.py. util.py crea el fichero tmp_seleccion.py y hay que copiarlo en unicode_txt_manual_2.py. La verdad es que podría crearlo directamente.
+
+- Ejecuto util.py pero me genera el mismo fichero que el año pasado porque tengo que añadir a mano en el programa los dibujos que no se ven.
+
+- Ejecuto uc_11_generador.py y me genera las páginas.
+
+- Compruebo que los nuevos emojis no se ven en W10 ni W11 y los añado en util.py. Ejecuto util.py. Copio a mano el contenido de tmp_seleccion.py en unicode_txt_manual_2.py. Ejecuto uc_11_generador.py y me geenra las páginas.
+
+
 ## 2022-04-06
 
 El 2022-03-31 publicaron Twemoji 14. He querido actualizar la página de Twemoji de los apuntes y ya no me acordaba de cómo funciona ;-(, así que voy a escribir aquí una chuleta.
