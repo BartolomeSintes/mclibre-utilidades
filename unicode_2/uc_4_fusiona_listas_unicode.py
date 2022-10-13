@@ -7,9 +7,9 @@ import pathlib
 import sys
 
 import ucdef
-from u14_ficheros_2_importados import unicode_txt_importados as imp
-from u14_ficheros_2_importados import unicode_full_emoji_list as imp2
-from u14_ficheros_2_importados import unicode_full_emoji_modifier_sequences_list as imp3
+from ficheros_2_importados import unicode_txt_importados as imp
+from ficheros_2_importados import unicode_full_emoji_list as imp2
+from ficheros_2_importados import unicode_full_emoji_modifier_sequences_list as imp3
 
 fusionados_1 = []
 fusionados_2 = []

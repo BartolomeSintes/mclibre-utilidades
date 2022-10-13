@@ -60,21 +60,7 @@ def importa_fichero_emoji_test():
             "component",
         ]:
             print("    Valor inesperado en campo [1]:", elemento[1])
-        if elemento[3] not in [
-            "0.6",
-            "0.7",
-            "1.0",
-            "2.0",
-            "3.0",
-            "4.0",
-            "5.0",
-            "11.0",
-            "12.0",
-            "12.1",
-            "13.0",
-            "13.1",
-            "14.0",
-        ]:
+        if elemento[3] not in ucdef.uc_importacion_1:
             print("    Valor inesperado en campo [3]:", elemento[3])
 
     # Compruebo si hay registros con el código unicode repetido
@@ -133,22 +119,7 @@ def importa_fichero_emoji_data():
             "Extended_Pictographic",
         ]:
             print("    Valor inesperado en campo [1]:", elemento[1])
-        if elemento[2] not in [
-            "0.0",
-            "0.6",
-            "0.7",
-            "1.0",
-            "2.0",
-            "3.0",
-            "4.0",
-            "5.0",
-            "11.0",
-            "12.0",
-            "12.1",
-            "13.0",
-            "13.1",
-            "14.0",
-        ]:
+        if elemento[2] not in ucdef.uc_importacion_2:
             print("    Valor inesperado en campo [2]:", elemento[2])
     # No sé por qué incluyen elementos reservados. Si en las agrupaciones están todos reservados, los puedo eliminar
     # pero si solo están reservados una parte, tendré que mirar a mano cuáles están reservados
@@ -375,17 +346,7 @@ def importa_fichero_emoji_zwj_sequences():
     for elemento in importado:
         if elemento[1] != "RGI_Emoji_ZWJ_Sequence":
             print("    Valor inesperado en campo [1]:", elemento[1])
-        if elemento[3] not in [
-            "2.0",
-            "4.0",
-            "5.0",
-            "11.0",
-            "12.0",
-            "12.1",
-            "13.0",
-            "13.1",
-            "14.0",
-        ]:
+        if elemento[3] not in ucdef.uc_importacion_3:
             print("    Valor inesperado en campo [3]:", elemento[3])
             print(elemento)
 
@@ -442,20 +403,7 @@ def importa_fichero_emoji_sequences():
             "RGI_Emoji_Modifier_Sequence",
         ]:
             print("    Valor inesperado en campo [1]:", elemento[1])
-        if elemento[3] not in [
-            "0.6",
-            "0.7",
-            "1.0",
-            "2.0",
-            "3.0",
-            "4.0",
-            "5.0",
-            "11.0",
-            "12.0",
-            "13.0",
-            "13.1",
-            "14.0",
-        ]:
+        if elemento[3] not in ucdef.uc_importacion_4:
             print("    Valor inesperado en campo [3]:", elemento[3])
     print("    separando agrupaciones ...")
     for i in range(len(importado) - 1, -1, -1):
@@ -517,7 +465,6 @@ def importa_fichero_derived_name():
             ) <= int(grupo[4], 16):
                 grupo_encontrado = grupo[1]
         importado[i] += [grupo_encontrado]
-
     return importado
 
 

@@ -1,23 +1,23 @@
 # Ficheros originales (descargados de la web de Unicode)
-UNICODE_ORIGINALES_DIR = "u14_ficheros_1_originales/"
-FICHERO_EMOJI_TEST = UNICODE_ORIGINALES_DIR + "u14-emoji-test.txt"
-FICHERO_EMOJI_ZWJ_SEQUENCES = UNICODE_ORIGINALES_DIR + "u14-emoji-zwj-sequences.txt"
-FICHERO_EMOJI_VARIATION_SEQUENCES = UNICODE_ORIGINALES_DIR + "u14-emoji-variation-sequences.txt"
-FICHERO_EMOJI_SEQUENCES = UNICODE_ORIGINALES_DIR + "u14-emoji-sequences.txt"
-FICHERO_EMOJI_DATA = UNICODE_ORIGINALES_DIR + "u14-emoji-data.txt"
-FICHERO_EMOJI_FULL_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji List, v14.0.html"
-FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji Modifier Sequences, v14.0.html"
-FICHERO_DERIVED_NAME = UNICODE_ORIGINALES_DIR + "u14-DerivedName.txt"
+UNICODE_ORIGINALES_DIR = "ficheros_1_originales/"
+FICHERO_EMOJI_TEST = UNICODE_ORIGINALES_DIR + "u15-emoji-test.txt"
+FICHERO_EMOJI_ZWJ_SEQUENCES = UNICODE_ORIGINALES_DIR + "u15-emoji-zwj-sequences.txt"
+FICHERO_EMOJI_VARIATION_SEQUENCES = UNICODE_ORIGINALES_DIR + "u15-emoji-variation-sequences.txt"
+FICHERO_EMOJI_SEQUENCES = UNICODE_ORIGINALES_DIR + "u15-emoji-sequences.txt"
+FICHERO_EMOJI_DATA = UNICODE_ORIGINALES_DIR + "u15-emoji-data.txt"
+FICHERO_EMOJI_FULL_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji List, v15.0.htm"
+FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji Modifier Sequences, v15.0.htm"
+FICHERO_DERIVED_NAME = UNICODE_ORIGINALES_DIR + "u15-DerivedName.txt"
 
 # Ficheros importados (creados a partir de los ficheros originales)
-UNICODE_IMPORTADOS_DIR = "u14_ficheros_2_importados/"
+UNICODE_IMPORTADOS_DIR = "ficheros_2_importados/"
 FICHERO_IMPORTADO = UNICODE_IMPORTADOS_DIR + "unicode_txt_importados.py"
 FICHERO_EMOJI_FULL_LIST_LISTA = UNICODE_IMPORTADOS_DIR + "unicode_full_emoji_list.py"
 FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST_LISTA = UNICODE_IMPORTADOS_DIR + "unicode_full_emoji_modifier_sequences_list.py"
 FICHERO_UNICODE = UNICODE_IMPORTADOS_DIR + "unicode_txt_derived_name.py"
 
 # Ficheros fusionados (creados a partir de los ficheros importados)
-UNICODE_FUSIONADOS_DIR = "u14_ficheros_3_fusionados/"
+UNICODE_FUSIONADOS_DIR = "ficheros_3_fusionados/"
 FICHERO_FUSIONADO_1 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_1.py"
 FICHERO_FUSIONADO_2 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_2.py"
 FICHERO_MANUAL_1 = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_1.py"
@@ -63,8 +63,12 @@ DIRECTORIO_TWEMOJI = "D:\\Descargas\\TWEMOJI\\twemoji-14-0-2-220331\\assets\\svg
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]
 uc_status = ["component", "fully-qualified", "minimally-qualified", "unqualified"]
-uc_version = ["0.0", "0.6", "0.7", "1.0", "1.1", "2.0", "3.0", "3.1", "3.2", "4.0", "4.1", "5.0", "5.1", "5.2", "6.0", "7.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0"]
+uc_version = ["0.0", "0.6", "0.7", "1.0", "1.1", "2.0", "3.0", "3.1", "3.2", "4.0", "4.1", "5.0", "5.1", "5.2", "6.0", "7.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0"]
 uc_version_2 = ["1.1", "3.0", "3.2", "4.0", "4.1", "5.1", "5.2", "6.0", "7.0"]
+uc_importacion_1 = ["0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0"]
+uc_importacion_2 = ["0.0", "0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0"]
+uc_importacion_3 = ["2.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0"]
+uc_importacion_4 = ["0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "13.0", "13.1", "14.0", "15.0"]
 uc_property = ["Emoji", "Emoji_Presentation", "Emoji_Modifier", "Emoji_Modifier_Base", "Emoji_Component", "Extended_Pictographic", "Extended_Pictographic"]
 uc_style = ["emoji style", "text style"]
 uc_type_sequence = ["RGI_Emoji_ZWJ_Sequence"]
@@ -73,7 +77,7 @@ uc_type = ["Basic_Emoji", "Emoji_Keycap_Sequence", "RGI_Emoji_Flag_Sequence", "R
 uc_type_sequence_grupo =  ["Family", "Role", "Gendered", "Hair", "Other"]
 uc_group = ["Smileys & Emotion", "People & Body", "Component", "Animals & Nature", "Food & Drink", "Travel & Places", "Activities", "Objects", "Symbols", "Flags"]
 uc_subgroup = [
-    "face-smiling", "face-affection", "face-tongue", "face-hand", "face-neutral-skeptical", "face-sleepy", "face-unwell", "face-hat", "face-glasses", "face-concerned", "face-negative", "face-costume", "cat-face", "monkey-face", "emotion",
+    "face-smiling", "face-affection", "face-tongue", "face-hand", "face-neutral-skeptical", "face-sleepy", "face-unwell", "face-hat", "face-glasses", "face-concerned", "face-negative", "face-costume", "cat-face", "monkey-face", "heart", "emotion",
     "hand-fingers-open", "hand-fingers-partial", "hand-single-finger", "hand-fingers-closed", "hands", "hand-prop", "body-parts", "person", "person-gesture", "person-role", "person-fantasy", "person-activity", "person-sport", "person-resting", "family", "person-symbol",
     "skin-tone", "hair-style",
     "animal-mammal", "animal-bird", "animal-amphibian", "animal-reptile", "animal-marine", "animal-bug", "plant-flower", "plant-other",
@@ -161,7 +165,7 @@ uc_grupos_fitzpatrick = [
     '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando el <i>emoji</i> que representa a un adulto con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-7">apartado Colores de piel (7) de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_2
     ],
     ["gr-colores-piel-8", "Colores de piel (8)",
-    '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando los <i>emojis</i> que representan una mano izquierda y una mano derecha con dos modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-8">apartado Colores de piel (8) de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+    '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando los emojis que representan una mano izquierda y una mano derecha con dos modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-8">apartado Colores de piel (8) de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
 ]
 
@@ -182,7 +186,7 @@ uc_grupos_parejas = [
     '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas con género (es decir, identificando si cada miembro de la pareja es hombre o mujer), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con siete caracteres, combinando los caracteres hombre y/o mujer y los modificadores Fitzpatrick con el carácter apretón de manos, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-mano-piel-2">apartado Parejas masculinas/femeninas cogidas de la mano, con dos tonos de piel, de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-mano-piel-3", "Parejas neutras cogidas de la mano, con dos tonos de piel",
-    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (con personajes ni femeninos ni masculinos), con modificadores Fitzpatrick. Estas secuencias se forman con siete caracteres, combinando combinando dos <i>emojis</i> que representan a adultos con los modificadores Fitzpatrick y con el carácter apretón de manos, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-mano-piel-3">apartado Parejas neutras cogidas de la mano, con dos tonos de piel, de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (con personajes ni femeninos ni masculinos), con modificadores Fitzpatrick. Estas secuencias se forman con siete caracteres, combinando combinando dos emojis que representan a adultos con los modificadores Fitzpatrick y con el carácter apretón de manos, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-mano-piel-3">apartado Parejas neutras cogidas de la mano, con dos tonos de piel, de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-corazon-1", "Parejas de rostros masculinos/femeninos de enamorados (1)",
     '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de rostros de enamorados. Estas secuencias se forman con cinco caracteres, combinando los caracteres de hombre y/o mujer, con el carácter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-1">apartado Parejas de rostros masculinos/femeninos de enamorados (1) de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
@@ -197,10 +201,10 @@ uc_grupos_parejas = [
     '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de rostros de enamorados, con modificadores Fitzpatrick. Estas secuencias se forman con ocho caracteres, combinando los caracteres de hombre y/o mujer, con modificadores Fitzpatrick y con el carácter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-piel-2">apartado Parejas de rostros masculinos/femeninos de enamorados, con dos tonos de piel (2) de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-corazon-piel-3", "Parejas de rostros neutros de enamorados, con dos tonos de piel (1)",
-    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (con personajes ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con siete caracteres, combinando combinando dos <i>emojis</i> que representan a adultos con los modificadores Fitzpatrick y con el carácter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-piel-3">apartado Parejas de rostros neutros de enamorados, con dos tonos de piel (1), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (con personajes ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con siete caracteres, combinando combinando dos emojis que representan a adultos con los modificadores Fitzpatrick y con el carácter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-piel-3">apartado Parejas de rostros neutros de enamorados, con dos tonos de piel (1), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-corazon-piel-4", "Parejas de rostros neutros de enamorados, con dos tonos de piel (2)",
-    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (con personajes ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con ocho caracteres, combinando combinando dos <i>emojis</i> que representan a adultos con los modificadores Fitzpatrick y con el carácter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-piel-4">apartado Parejas de rostros neutros de enamorados, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas neutras (con personajes ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con ocho caracteres, combinando combinando dos emojis que representan a adultos con los modificadores Fitzpatrick y con el carácter corazón, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-corazon-piel-4">apartado Parejas de rostros neutros de enamorados, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-beso-1", "Parejas de rostros masculinos/femeninos de enamorados besándose (1)",
     '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de rostros de enamorados besándose. Estas secuencias se forman con siete caracteres, combinando los caracteres de hombre y/o mujer, con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-1">apartado Parejas de rostros masculinos/femeninos de enamorados besándose (1), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
@@ -215,10 +219,10 @@ uc_grupos_parejas = [
     '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a parejas de rostros de enamorados besándose, con modificadores Fitzpatrick. Estas secuencias se forman con diez caracteres, combinando los caracteres de hombre y/o mujer, con modificadores Fitzpatrick y con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-piel-2">apartado Parejas de rostros masculinos/femeninos de enamorados besándose, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-beso-piel-3", "Parejas de rostros neutros de enamorados besándose, con dos tonos de piel (1)",
-    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de personajes neutros (ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con nueve caracteres, combinando combinando dos <i>emojis</i> que representan a adultos con los modificadores Fitzpatrick y con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-piel-3">apartado Parejas de rostros neutros de enamorados besándose, con dos tonos de piel (1), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de personajes neutros (ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con nueve caracteres, combinando combinando dos emojis que representan a adultos con los modificadores Fitzpatrick y con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-piel-3">apartado Parejas de rostros neutros de enamorados besándose, con dos tonos de piel (1), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
     ["gr-parejas-beso-piel-4", "Parejas de rostros neutros de enamorados besándose, con dos tonos de piel (2)",
-    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de personajes neutros (ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con diez caracteres, combinando combinando dos <i>emojis</i> que representan a adultos con los modificadores Fitzpatrick y con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-piel-4">apartado Parejas de rostros neutros de enamorados besándose, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de personajes neutros (ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con diez caracteres, combinando combinando dos emojis que representan a adultos con los modificadores Fitzpatrick y con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-piel-4">apartado Parejas de rostros neutros de enamorados besándose, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
 ]
 
