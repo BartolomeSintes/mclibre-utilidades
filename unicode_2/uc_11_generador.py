@@ -6,11 +6,11 @@ import sys
 import datetime
 import webbrowser
 import ucdef
-from u14_ficheros_2_importados import unicode_txt_derived_name as imp
-from u14_ficheros_3_fusionados import unicode_txt_fusionados_2 as imp2
-from u14_ficheros_3_fusionados import unicode_txt_manual_1 as imp3
-from u14_ficheros_3_fusionados import seleccion_simbolos_manual as imp4
-from u14_ficheros_3_fusionados import unicode_txt_manual_2 as imp5
+from ficheros_2_importados import unicode_txt_derived_name as imp
+from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp2
+from ficheros_3_fusionados import unicode_txt_manual_1 as imp3
+from ficheros_3_fusionados import seleccion_simbolos_manual as imp4
+from ficheros_3_fusionados import unicode_txt_manual_2 as imp5
 
 ORIGEN = pathlib.Path("sitio-plantilla")
 DESTINO = pathlib.Path("sitio")
@@ -132,7 +132,7 @@ def genera_pagina_twemoji(pagina):
                     print(f"  CUIDADO: HAY UN CARACTER CON mÄS DE UN CARÁCTER: {c[0]}")
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">'
-                t += f"U+{int(c[0][0], 16):X} "
+                t += f"U+{int(c[0][0], 16):X}"
                 t += "</p>\n"
                 t += f'        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
@@ -295,7 +295,7 @@ def genera_pagina_caracteres(pagina):
                     if c[2] == "texto" or c[2] == "texto-emoji":
                         t += '      <div class="u">\n'
                         t += '        <p class="uc">'
-                        t += f"U+{int(c[0], 16):X} "
+                        t += f"U+{int(c[0], 16):X}"
                         t += "</p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
                         t += '        <p class="en">\n'
@@ -360,7 +360,7 @@ def genera_pagina_caracteres(pagina):
                     if c[2] == "emoji" or c[2] == "emoji-texto":
                         t += '      <div class="u">\n'
                         t += '        <p class="uc">'
-                        t += f"U+{int(c[0], 16):X} "
+                        t += f"U+{int(c[0], 16):X}"
                         t += "</p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
                         t += '        <p class="en">\n'

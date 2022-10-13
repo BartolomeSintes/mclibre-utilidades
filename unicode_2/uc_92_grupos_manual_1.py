@@ -5,7 +5,7 @@ import os
 import pathlib
 import ucdef
 import sys
-from u14_ficheros_3_fusionados import unicode_txt_fusionados_2 as imp
+from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp
 
 
 def grupos_paginas(elemento):
