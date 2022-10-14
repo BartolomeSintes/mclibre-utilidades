@@ -1,5 +1,6 @@
 import copy
 import pathlib
+from math import floor
 from string import Template
 import shutil
 import sys
@@ -87,6 +88,42 @@ def genera_lista_simbolos():
     with open(ucdef.UNICODE_FUSIONADOS_DIR + "/" + ucdef.FICHERO_SELECCION_SIMBOLOS, "w", encoding="utf-8") as fichero:
         fichero.write(t)
 
+def convierte_version(valor):
+    if floor(float(valor)) == float(valor):
+        return floor(float(valor))
+    else:
+        return valor
+
+def indica_version(codigo):
+    for c in imp2.fusionados_2:
+        if len(c[0]) == 1 and c[0][0] == codigo:
+            if len(c[2]) > 2 and c[2][2] in ucdef.uc_versiones_marcadas:
+                 return convierte_version(c[2][2])
+            elif len(c[3]) > 1 and c[3][1] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[3][1])
+            elif len(c[4]) > 1 and c[4][1] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[4][1])
+            elif len(c[5]) > 2 and c[5][2] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[5][2])
+            elif len(c[6]) > 1 and c[6][1] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[6][1])
+            else:
+                return -1
+        elif len(c[0]) > 1 and c[0] == codigo:
+            # print(f"codigo: {codigo} - caracter: {c[0]}")
+            if len(c[2]) > 2 and c[2][2] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[2][2])
+            elif len(c[3]) > 1 and c[3][1] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[3][1])
+            elif len(c[4]) > 1 and c[4][1] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[4][1])
+            elif len(c[5]) > 2 and c[5][2] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[5][2])
+            elif len(c[6]) > 1 and c[6][1] in ucdef.uc_versiones_marcadas:
+                return convierte_version(c[6][1])
+            else:
+                return -2
+    return -3
 
 def genera_pagina_twemoji(pagina):
     identificados = copy.deepcopy(imp3.manual_1)
@@ -124,16 +161,34 @@ def genera_pagina_twemoji(pagina):
                 t += f"    <p>Se muestra aquí {contador} carácter "
             else:
                 t += f"    <p>Se muestran aquí {contador} caracteres "
-            t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 14.0</a> en formato PDF.</p>\n'
+            t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 15.0</a> en formato PDF.</p>\n'
             t += "\n"
             t += '    <div class="u-l">\n'
             for c in caracteres:
                 if len(c[0]) > 1:
                     print(f"  CUIDADO: HAY UN CARACTER CON mÄS DE UN CARÁCTER: {c[0]}")
                 t += '      <div class="u">\n'
-                t += '        <p class="uc">'
-                t += f"U+{int(c[0][0], 16):X}"
-                t += "</p>\n"
+                t += '        <p class="uc">\n'
+                vers = indica_version(c[0])
+                # print (" emojis ", vers)
+                if  float(vers) > 0:
+                    if len(str(vers)) > 2:
+                        vers_size = 160
+                    else:
+                        vers_size = 240
+                    t += f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n' \
+                        + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" ' \
+                        + 'width="30" viewBox="0 0 512 512">\n' \
+                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 ' \
+                        + '492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 ' \
+                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" ' \
+                        + 'stroke-width="20" stroke="red" />\n' \
+                        + '              <text x="250" y="320" font-family="sans-serif" font-size="240" ' \
+                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n' \
+                        + '           </svg>\n' \
+                        + '          </span>\n'
+                t += f"          U+{int(c[0][0], 16):X}\n"
+                t += "        </p>\n"
                 t += f'        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
                 t += '        </p>\n'
@@ -188,10 +243,28 @@ def genera_pagina_twemoji(pagina):
             t += '    <div class="u-l">\n'
             for c in caracteres:
                 t += '      <div class="u">\n'
-                t += '        <p class="uc">'
+                t += '        <p class="uc">\n'
+                vers = indica_version(c[0])
+                # print (" secuencias ", vers)
+                if  float(vers) > 0:
+                    if len(str(vers)) > 2:
+                        vers_size = 160
+                    else:
+                        vers_size = 240
+                    t += f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n' \
+                        + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" ' \
+                        + 'width="30" viewBox="0 0 512 512">\n' \
+                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 ' \
+                        + '492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 ' \
+                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" ' \
+                        + 'stroke-width="20" stroke="red" />\n' \
+                        + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" ' \
+                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n' \
+                        + '           </svg>\n' \
+                        + '          </span>\n'
                 for cn in c[0]:
-                    t += f"U+{int(cn, 16):X} "
-                t += "</p>\n"
+                    t += f"          U+{int(cn, 16):X} "
+                t += "        </p>\n"
                 t += f'        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[2]}">'
                 for cn in c[0]:
@@ -242,10 +315,28 @@ def genera_pagina_twemoji(pagina):
     t += '    <div class="u-l">\n'
     for c in imp3.restos_twemoji:
         t += '      <div class="u">\n'
-        t += '        <p class="uc">'
+        t += '        <p class="uc">\n'
+        vers = indica_version(c[0])
+        # print (" secuencias ", vers)
+        if  float(vers) > 0:
+            if len(str(vers)) > 2:
+                vers_size = 160
+            else:
+                vers_size = 240
+            t += f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n' \
+                + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" ' \
+                + 'width="30" viewBox="0 0 512 512">\n' \
+                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 ' \
+                + '492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 ' \
+                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" ' \
+                + 'stroke-width="20" stroke="red" />\n' \
+                + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" ' \
+                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n' \
+                + '           </svg>\n' \
+                + '          </span>\n'
         for cn in c[0]:
-            t += f"U+{int(cn, 16):X} "
-        t += "</p>\n"
+            t += f"          U+{int(cn, 16):X} "
+        t += "        </p>\n"
         t += f'        <p class="si">\n'
         t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[1]}">'
         for cn in c[0]:
@@ -288,15 +379,33 @@ def genera_pagina_caracteres(pagina):
                     t += f"    <p>Se muestra aquí {contador} carácter "
                 else:
                     t += f"    <p>Se muestran aquí {contador} caracteres "
-                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[0][3]} hasta el carácter U+{grupo[0][4]}. Puede descargar la <a href="unicode/{grupo[0][2]}">tabla de códigos de caracteres Unicode 14.0</a> en formato PDF.</p>\n'
+                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[0][3]} hasta el carácter U+{grupo[0][4]}. Puede descargar la <a href="unicode/{grupo[0][2]}">tabla de códigos de caracteres Unicode 15.0</a> en formato PDF.</p>\n'
                 t += "\n"
                 t += '    <div class="u-l">\n'
                 for c in caracteres:
                     if c[2] == "texto" or c[2] == "texto-emoji":
                         t += '      <div class="u">\n'
-                        t += '        <p class="uc">'
-                        t += f"U+{int(c[0], 16):X}"
-                        t += "</p>\n"
+                        t += '        <p class="uc">\n'
+                        vers = indica_version(c[0])
+                        # print (" emojis ", vers)
+                        if  float(vers) > 0:
+                            if len(str(vers)) > 2:
+                                vers_size = 160
+                            else:
+                                vers_size = 240
+                            t += f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n' \
+                                + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" ' \
+                                + 'width="30" viewBox="0 0 512 512">\n' \
+                                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 ' \
+                                + '492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 ' \
+                                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" ' \
+                                + 'stroke-width="20" stroke="red" />\n' \
+                                + '              <text x="250" y="320" font-family="sans-serif" font-size="240" ' \
+                                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n' \
+                                + '           </svg>\n' \
+                                + '          </span>\n'
+                        t += f"          U+{int(c[0], 16):X}\n"
+                        t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
                         t += '        <p class="en">\n'
                         t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};</strong><br>\n"
@@ -314,9 +423,27 @@ def genera_pagina_caracteres(pagina):
                         t += "\n"
                     elif c[2] == "emoji-texto":
                         t += '      <div class="u">\n'
-                        t += '        <p class="uc">'
-                        t += f"U+{int(c[0], 16):X} U+FE0E"
-                        t += "</p>\n"
+                        t += '        <p class="uc">\n'
+                        vers = indica_version(c[0])
+                        # print (" emojis ", vers)
+                        if  float(vers) > 0:
+                            if len(str(vers)) > 2:
+                                vers_size = 160
+                            else:
+                                vers_size = 240
+                            t += f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n' \
+                                + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" ' \
+                                + 'width="30" viewBox="0 0 512 512">\n' \
+                                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 ' \
+                                + '492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 ' \
+                                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" ' \
+                                + 'stroke-width="20" stroke="red" />\n' \
+                                + '              <text x="250" y="320" font-family="sans-serif" font-size="240" ' \
+                                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n' \
+                                + '           </svg>\n' \
+                                + '          </span>\n'
+                        t += f"          U+{int(c[0], 16):X}\n"
+                        t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0e;</p>\n'
                         t += '        <p class="en">\n'
                         t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};&amp;#xfe0e;</strong><br>\n"
@@ -353,15 +480,33 @@ def genera_pagina_caracteres(pagina):
                     t += f"    <p>Se muestra aquí {contador} carácter "
                 else:
                     t += f"    <p>Se muestran aquí {contador} caracteres "
-                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 14.0</a> en formato PDF.</p>\n'
+                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 15.0</a> en formato PDF.</p>\n'
                 t += "\n"
                 t += '    <div class="u-l">\n'
                 for c in caracteres:
                     if c[2] == "emoji" or c[2] == "emoji-texto":
                         t += '      <div class="u">\n'
-                        t += '        <p class="uc">'
-                        t += f"U+{int(c[0], 16):X}"
-                        t += "</p>\n"
+                        t += '        <p class="uc">\n'
+                        vers = indica_version(c[0])
+                        # print (" emojis ", vers)
+                        if  float(vers) > 0:
+                            if len(str(vers)) > 2:
+                                vers_size = 160
+                            else:
+                                vers_size = 240
+                            t += f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n' \
+                                + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" ' \
+                                + 'width="30" viewBox="0 0 512 512">\n' \
+                                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 ' \
+                                + '492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 ' \
+                                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" ' \
+                                + 'stroke-width="20" stroke="red" />\n' \
+                                + '              <text x="250" y="320" font-family="sans-serif" font-size="240" ' \
+                                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n' \
+                                + '           </svg>\n' \
+                                + '          </span>\n'
+                        t += f"          U+{int(c[0], 16):X}\n"
+                        t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
                         t += '        <p class="en">\n'
                         t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};</strong><br>\n"
@@ -379,9 +524,27 @@ def genera_pagina_caracteres(pagina):
                         t += "\n"
                     elif c[2] == "texto-emoji":
                         t += '      <div class="u">\n'
-                        t += '        <p class="uc">'
-                        t += f"U+{int(c[0], 16):X} U+FE0F"
-                        t += "</p>\n"
+                        t += '        <p class="uc">\n'
+                        vers = indica_version(c[0])
+                        # print (" emojis ", vers)
+                        if  float(vers) > 0:
+                            if len(str(vers)) > 2:
+                                vers_size = 160
+                            else:
+                                vers_size = 240
+                            t += f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n' \
+                                + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" ' \
+                                + 'width="30" viewBox="0 0 512 512">\n' \
+                                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 ' \
+                                + '492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 ' \
+                                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" ' \
+                                + 'stroke-width="20" stroke="red" />\n' \
+                                + '              <text x="250" y="320" font-family="sans-serif" font-size="240" ' \
+                                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n' \
+                                + '           </svg>\n' \
+                                + '          </span>\n'
+                        t += f"          U+{int(c[0], 16):X}\n"
+                        t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0f;</p>\n'
                         t += '        <p class="en">\n'
                         t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0], 16):x};&amp;#xfe0f;</strong><br>\n"
@@ -478,10 +641,28 @@ def genera_pagina_secuencias(pagina, grupos):
             t += '    <div class="u-l">\n'
             for c in caracteres:
                 t += '      <div class="u">\n'
-                t += '        <p class="uc">'
+                t += '        <p class="uc">\n'
+                vers = indica_version(c[0])
+                # print (" secuencias ", vers)
+                if  float(vers) > 0:
+                    if len(str(vers)) > 2:
+                        vers_size = 160
+                    else:
+                        vers_size = 240
+                    t += f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n' \
+                        + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" ' \
+                        + 'width="30" viewBox="0 0 512 512">\n' \
+                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 ' \
+                        + '492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 ' \
+                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" ' \
+                        + 'stroke-width="20" stroke="red" />\n' \
+                        + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" ' \
+                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n' \
+                        + '           </svg>\n' \
+                        + '          </span>\n'
                 for cn in c[0]:
-                    t += f"U+{int(cn, 16):X} "
-                t += "</p>\n"
+                    t += f"          U+{int(cn, 16):X} "
+                t += "        </p>\n"
                 t += f'        <p class="si">'
                 for cn in c[0]:
                     t += f"&#x{int(cn, 16):X};"
@@ -553,7 +734,7 @@ def main():
         [ucdef.PAG_PAREJAS, ucdef.FICHERO_SITIO_PAREJAS],
         [ucdef.PAG_OTRAS, ucdef.FICHERO_SITIO_OTRAS],
         [ucdef.PAG_TWEMOJI, ucdef.FICHERO_SITIO_TWEMOJI],
-        # [ucdef.PAG_PROBLEMAS, ucdef.FICHERO_SITIO_PROBLEMAS],
+        # # # [ucdef.PAG_PROBLEMAS, ucdef.FICHERO_SITIO_PROBLEMAS],
     ]
 
     for pagina in paginas:

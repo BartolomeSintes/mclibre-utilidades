@@ -559,9 +559,10 @@ def exporta_pagina():
         t += '<html lang="es">\n'
         t += "<head>\n"
         t += '  <meta charset="utf-8">\n'
+        t += '  <title>Emojis por grupos</title>\n'
         t += "</head>\n"
         t += "<body>\n"
-        t += "<h1>Emojis por gupos</h1>"
+        t += "<h1>Emojis por gupos</h1>\n"
         for grupo in ucdef.uc_tablas_caracteres[0]:
             extraido = selecciona_grupo(grupo[1])
             t += f"  <p>{grupo[1]}\n"
