@@ -2,11 +2,16 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Banderas y otras. Secuencias Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <title>Google Noto Emoji. Dibujos en Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
   <link rel="icon" href="../varios/favicon.svg">
   <style>
+    @font-face {
+      font-family: 'Noto Color Emoji';
+      src: url("https://raw.githack.com/googlefonts/noto-emoji/main/fonts/Noto-COLRv1.ttf");
+    }
+
     div.u-l {
       display: flex;
       flex-flow: row wrap;
@@ -69,6 +74,7 @@
     div.u2 .twe {
       height: 90px;
       vertical-align: text-bottom;
+      font-family: "Noto Color Emoji";
     }
 
     div.u p.no,
@@ -88,11 +94,12 @@
       text-decoration: none;
       color: black;
     }
+
   </style>
 </head>
 
 <body>
-  <h1>Secuencias Unicode: Banderas</h1>
+  <h1>Dibujos en Unicode: Google Noto Emoji</h1>
 
   <nav>
     <p>
@@ -101,17 +108,19 @@
     </p>
 
     <div class="toc">
-      <h2>Secuencias Banderas</h2>
+      <h2>Noto Emoji</h2>
 
       <ul>
-        <li><a href="#gr-banderas-regiones">Banderas (regionales)</a></li>
-        <li><a href="#gr-banderas-otras">Otras banderas</a></li>
-        <li><a href="#gr-banderas-paises">Banderas nacionales</a></li>
+        <li><a href="#info">Información ofrecida</a></li>
       </ul>
     </div>
   </nav>
 
-  <p>Esta página muestra las imágenes de banderas (y otros) que se pueden conseguir mediante secuencias de caracteres Unicode.</p>
+  <p><a href="https://fonts.google.com/noto">Noto</a> es un proyecto de Google con licencia libre <a href="https://scripts.sil.org/ofl">SIL Open Font License</a> de creación de fuentes Unicode. Una de ellas, <a href="https://fonts.google.com/noto/specimen/Noto+Emoji">Noto Emoji</a> cubre los emojis definidos en Unicode. El proyecto se encuentra alojado en un <a href="https://github.com/googlefonts/noto-emoji">repositorio de GitHub</a>.</p>
+
+  <p>Esta página es una recopilación de esas imágenes, para su consulta y descarga individual.</p>
+
+  <p><img src="../varios/iconos/icono-warning.svg" alt="¡Atención!" title="¡Atención!" width="55" height="48"> Actualmente (octubre de 2022) Firefox no muestra los emojis de esta página ya que se utiliza la fuente Noto Emoji en formato COLRv1, que Firefox admite únicamente si se activa la preferencia gfx.font_rendering.colr_v1.enabled. En Firefox 107 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1791558">está previsto</a> que  admita COLRv1 sin necesidad de activar esa preferencia.</p>
 
   <p>Para entender esta página se recomienda leer las lecciones:</p>
   <ul>
@@ -120,7 +129,7 @@
     <li><a href="html-unicode-secuencias.html">Secuencias</a>, que muestra cómo se definen las secuencias de caracteres Unicode que corresponden a dibujos (banderas, emojis, etc.)</li>
   </ul>
 
-  <p>Esta página es la sexta de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
+  <p>Esta página es la octava de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
   <ul>
     <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
     <li><a href="html-unicode-dibujos.html">Emojis</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
@@ -136,18 +145,20 @@
   <section id="info">
     <h2>Información contenida en las fichas</h2>
 
-    <p>Las fichas siguientes muestran los dibujos de las secuencias de Unicode que corresponden a banderas. Para cada secuencia se muestra:</p>
+    <p>Las fichas siguientes muestran los dibujos creados por el proyecto <a href="https://fonts.google.com/noto/specimen/Noto+Emoji">Google Noto Emoji</a> con licencia libre <a href="https://scripts.sil.org/ofl">SIL Open Font License</a>. Para cada carácter se muestra:</p>
 
     <ul>
-      <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
-      <li>el carácter en la fuente que utilice el sistema operativo o el navegador para mostrar los dibujos. Si no hay un dibujo disponible, el navegador muestra un rectángulo de borde negro que contiene el código Unicode con un tamaño minúsculo.</li>
-      <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
-      <li>el nombre de la secuencia (en inglés)</li>
+      <li>el código Unicode hexadecimal o la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal) que utiliza Twemoji para identificar el dibujo (a veces no coincide con el código o la secuencia unicode correcta).</li>
+      <li>la imagen de Noto Emoji del carácter o secuencia. Además, la imagen enlaza con la página del repositorio de Noto Emoji desde la que se puede descargar el icono en formato SVG para utilizarlo como imagen independiente.</li>
+      <li>la entidad numérica de ese carácter o las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
+      <li>el nombre del carácter o de la secuencia (en inglés)</li>
       <li>en su caso, información adicional sobre el carácter o la secuencia</li>
     </ul>
   </section>
 
-$contenido  <footer>
+${contenido}
+
+  <footer>
     <p class="ultmod">Última modificación de esta página: ${fecha}</p>
 
     <p class="licencia">

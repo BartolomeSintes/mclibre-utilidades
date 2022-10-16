@@ -49,7 +49,7 @@ def main():
     p_1 = pathlib.Path(ucdef.FICHERO_MANUAL_1)
     respuesta = "N"
     if p_1.exists():
-        print(f"  El fichero de destino MANUL ya existe.")
+        print(f"  El fichero de destino MANUAL ya existe.")
         respuesta = input("  Confirme que desea crearlo de nuevo (S): ")
         if respuesta == "S":
             if p_1.exists():

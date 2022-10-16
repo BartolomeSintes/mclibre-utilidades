@@ -21,6 +21,7 @@ UNICODE_FUSIONADOS_DIR = "ficheros_3_fusionados/"
 FICHERO_FUSIONADO_1 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_1.py"
 FICHERO_FUSIONADO_2 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_2.py"
 FICHERO_MANUAL_1 = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_1.py"
+FICHERO_MANUAL_1_NOTO = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_1_noto.py"
 
 # Ficheros simplificados
 FICHERO_ORDENADO = "unicode_txt_ordenado.py"
@@ -37,6 +38,7 @@ PAG_FITZPATRICK = "fitzpatrick"
 PAG_PAREJAS = "parejas"
 PAG_OTRAS = "otras"
 PAG_TWEMOJI = "twemoji"
+PAG_NOTO = "noto"
 PAG_PROBLEMAS = "problemas"
 SELECCION_SIMBOLOS = "seleccion-simbolos"
 
@@ -48,6 +50,7 @@ FICHERO_SITIO_FITZPATRICK = "html-unicode-secuencias-colores.html"
 FICHERO_SITIO_PAREJAS = "html-unicode-secuencias-parejas.html"
 FICHERO_SITIO_OTRAS = "html-unicode-secuencias-otras.html"
 FICHERO_SITIO_TWEMOJI = "html-unicode-twemoji.html"
+FICHERO_SITIO_NOTO = "html-unicode-noto.html"
 FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
 FICHERO_SELECCION_SIMBOLOS = "seleccion_simbolos.py"
 
@@ -59,6 +62,9 @@ ORDENA_ESPECIAL_3 = 3 # Para ordenar banderas
 # Twemoji
 # DIRECTORIO_TWEMOJI = "D:\\Descargas\\TWEMOJI\\twemoji-13-1-0-svg-210528\\assets\\svg"
 DIRECTORIO_TWEMOJI = "D:\\Descargas\\TWEMOJI\\twemoji-14-0-2-220331\\assets\\svg"
+
+# Noto
+DIRECTORIO_NOTO = "D:\\Descargas\\GOOGLE NOTO\\noto-emoji-2.038\\svg"
 
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]
@@ -246,7 +252,7 @@ uc_grupos_otras = [
     ]
 ]
 
-uc_grupos_twemoji = [
+uc_grupos_twemoji = uc_grupos_noto = [
     # Este grupo es para que en la página de Twemoji incluya los componentes, aunque hay componentes que no están en ese pdf, pero el encabezado está pensado para enlazar un solo pdf.
     ["Componentes", "gr-componentes",        "U1F100-enclosed-alphanumeric-supplement.pdf",
         "1F100",

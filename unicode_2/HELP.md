@@ -1,5 +1,15 @@
 # AYUDA
 
+## 2022-10-16
+
+- He generado la página de emojis que están en la fuente Google Noto, que está más actualizada que Twemoji.
+
+- He creado un programa uc_93 que es una copia del uc_92 pero modificado para Noto en vez de Twemoji.
+
+## 2022-10-14
+
+- He añadido en uc_11_generador que añada estrellitas en los cuadros de emojis incluidos en las últimas versiones de unicode (los que se indiquen en uc_versiones_years). Es un apaño porque los ficheros a partir de los que hago las páginas no contiene toda la información, así que me toca volver a buscar la versión. Tendría que reescribir el programa para que empezara creando un fichero con todas la información, y a partir de ella que creara las páginas. Otro año será.
+
 ## 2022-10-12
 
 En 2022-09-13 publicaron Unicode 15. Quiero actualizar las páginas de los apuntes.
