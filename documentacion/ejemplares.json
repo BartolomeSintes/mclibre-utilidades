@@ -5314,6 +5314,17 @@
       "creado": "2021-09-24"
     },
     {
+      "serie": "Hello World Books",
+      "nombre": "The Big Book of Comupting Content",
+      "número": 1,
+      "año": 2022,
+      "mes": 10,
+      "portada": "hello-world-books-the-big-book-of-computing-content-en-202210.jpg",
+      "fichero": "hello-world-books-the-big-book-of-computing-content-en-202210.pdf",
+      "idioma": "inglés",
+      "creado": "2022-10-28"
+    },
+    {
       "serie": "(In)secure Magazine",
       "nombre": "(In)secure Magazine",
       "número": 1,
@@ -11186,6 +11197,17 @@
       "fichero": "the-magpi-122-en-202210.pdf",
       "idioma": "inglés",
       "creado": "2022-10-02"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 123,
+      "año": 2022,
+      "mes": 11,
+      "portada": "the-magpi-123-en-202211.jpg",
+      "fichero": "the-magpi-123-en-202211.pdf",
+      "idioma": "inglés",
+      "creado": "2022-10-28"
     },
     {
       "serie": "The MagPi Books",
