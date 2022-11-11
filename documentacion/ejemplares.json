@@ -13685,6 +13685,17 @@
       "creado": "2022-10-07"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 190,
+      "año": 2022,
+      "mes": 11,
+      "portada": "pclinuxos-190-en-202211.jpg",
+      "fichero": "pclinuxos-190-en-202211.pdf",
+      "idioma": "inglés",
+      "creado": "2022-11-11"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -14761,6 +14772,17 @@
       "fichero": "wireframe-books-computers-that-made-britain-en-202106.pdf",
       "idioma": "inglés",
       "creado": "2021-06-12"
+    },
+    {
+      "serie": "Wireframe Books",
+      "nombre": "Game Dev Cookbook",
+      "número": 1,
+      "año": 2022,
+      "mes": 11,
+      "portada": "wireframe-books-game-dev-cookbook-en-202211.jpg",
+      "fichero": "wireframe-books-game-dev-cookbook-en-202211.pdf",
+      "idioma": "inglés",
+      "creado": "2022-11-11"
     },
     {
       "serie": "ALT Magazine",
