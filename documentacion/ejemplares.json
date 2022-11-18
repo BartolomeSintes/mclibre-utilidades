@@ -705,6 +705,17 @@
       "creado": "2022-06-03"
     },
     {
+      "serie": "Bits de Ciencia",
+      "nombre": "Bits de Ciencia",
+      "número": 22,
+      "año": 2022,
+      "mes": "S2",
+      "portada": "bits-de-ciencia-23-es-2022s2.jpg",
+      "fichero": "bits-de-ciencia-23-es-2022s2.pdf",
+      "idioma": "español",
+      "creado": "2022-11-18"
+    },
+    {
       "serie": "Custom PC",
       "nombre": "Custom PC",
       "número": 214,
@@ -5048,6 +5059,17 @@
       "fichero": "hackspace-60-en-202211.pdf",
       "idioma": "inglés",
       "creado": "2022-10-21"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 61,
+      "año": 2022,
+      "mes": 12,
+      "portada": "hackspace-61-en-202212.jpg",
+      "fichero": "hackspace-61-en-202212.pdf",
+      "idioma": "inglés",
+      "creado": "2022-11-18"
     },
     {
       "serie": "HackSpace Books",
