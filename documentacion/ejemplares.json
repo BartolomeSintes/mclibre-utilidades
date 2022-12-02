@@ -925,6 +925,17 @@
       "creado": "2022-11-04"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 233,
+      "año": 2022,
+      "mes": 12,
+      "portada": "custom-pc-233-en-202212.jpg",
+      "fichero": "custom-pc-233-en-202212.pdf",
+      "idioma": "inglés",
+      "creado": "2022-12-02"
+    },
+    {
       "serie": "Custom PC Books",
       "nombre": "Retrogade",
       "número": 1,
@@ -11519,8 +11530,8 @@
     },
     {
       "serie": "The MagPi Books",
-      "nombre": "Raspberry Pi Beginner’s Guide 3º ed.",
-      "número": 3,
+      "nombre": "Raspberry Pi Beginner’s Guide",
+      "número": "3º ed.",
       "año": 2019,
       "mes": 11,
       "portada": "raspberry-pi-beginners-book-3-en-201911.jpg",
@@ -11585,8 +11596,8 @@
     },
     {
       "serie": "The MagPi Books",
-      "nombre": "Raspberry Pi Beginner’s Guide 4º ed.",
-      "número": 4,
+      "nombre": "Raspberry Pi Beginner’s Guide",
+      "número": "4º ed.",
       "año": 2020,
       "mes": 11,
       "portada": "raspberry-pi-beginners-book-4-en-202011.jpg",
@@ -11607,8 +11618,8 @@
     },
     {
       "serie": "The MagPi Books",
-      "nombre": "Raspberry Pi Beginner’s Guide 4º ed.",
-      "número": 4,
+      "nombre": "Raspberry Pi Beginner’s Guide",
+      "número": "4º ed.",
       "año": 2020,
       "mes": 11,
       "portada": "raspberry-pi-beginners-book-4-es-202011.jpg",
@@ -11659,6 +11670,17 @@
       "fichero": "raspberry-pi-handbook-2023-en-202209.pdf",
       "idioma": "inglés",
       "creado": "2022-09-09"
+    },
+    {
+      "serie": "The MagPi Books",
+      "nombre": "C and GUI Programming",
+      "número": "2º ed.",
+      "año": 2022,
+      "mes": 11,
+      "portada": "raspberry-pi-c-gui-programming-02-en-202211.jpg",
+      "fichero": "raspberry-pi-c-gui-programming-02-en-202211.pdf",
+      "idioma": "inglés",
+      "creado": "2022-12-02"
     },
     {
       "serie": "The PCLinuxOS Magazine",
@@ -14772,6 +14794,17 @@
       "fichero": "wireframe-68-en-202211.pdf",
       "idioma": "inglés",
       "creado": "2022-11-04"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 69,
+      "año": 2022,
+      "mes": 12,
+      "portada": "wireframe-69-en-202212.jpg",
+      "fichero": "wireframe-69-en-202212.pdf",
+      "idioma": "inglés",
+      "creado": "2022-12-02"
     },
     {
       "serie": "Wireframe Books",
