@@ -1882,6 +1882,17 @@
       "creado": "2022-10-02"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 82,
+      "año": 2022,
+      "mes": 12,
+      "portada": "edutec-82-es-202212.jpg",
+      "fichero": "edutec-82-es-202212.pdf",
+      "idioma": "español",
+      "creado": "2023-01-01"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -3970,6 +3981,17 @@
       "fichero": "full-circle-187-en-202211.pdf",
       "idioma": "inglés",
       "creado": "2022-11-26"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 188,
+      "año": 2022,
+      "mes": 12,
+      "portada": "full-circle-188-en-202212.jpg",
+      "fichero": "full-circle-188-en-202212.pdf",
+      "idioma": "inglés",
+      "creado": "2023-01-01"
     },
     {
       "serie": "Full Circle (rec)",
