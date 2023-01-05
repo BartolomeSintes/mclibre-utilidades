@@ -172,3 +172,6 @@ la Generalitat Valenciana. (En vigor parcialmente)
 
 - 2022-07-13. He empezado a buscar con la búsqueda avanzada las Conclusiones del Consejo sobre temas educativas, año por año. He hecho hasta 2017
 https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=ALL_ALL&textScope0=ti&DTS_DOM=ALL&lang=es&type=advanced&qid=1657292985931&andText0=%22Conclusiones+del+consejo%22&page=2
+
+- 2022-12-30. Castilla La Mancha parece que es la primera comunidad que ha sacado el currículum del curso de especialización de Ciberseguridad: https://docm.jccm.es/docm/descargarArchivo.do?ruta=2022/07/18/pdf/2022_6692.pdf&tipo=rutaDocm
+

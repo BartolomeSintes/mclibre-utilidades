@@ -2420,7 +2420,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2008-04-09",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Convivencia en los centros (CV)",
             "titulo": "Decreto 39/2008, de 4 de abril, del Consell, sobre la convivencia en los centros docentes no universitarios sostenidos con fondos públicos y sobre los derechos y deberes del alumnado, padres, madres, tutores o tutoras, profesorado y personal de administración y servicios.",
             "versiones": [
@@ -26123,7 +26123,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2014-07-28",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Plan de Estudios Máster en Ingeniería de Servicios y Aplicaciones Web (Universidad de Valencia)",
             "titulo": "Resolución de 15 de julio de 2014, de la Universitat de València, por la que se publica el plan de estudios de Máster en Ingeniería de Servicios y Aplicaciones Web.",
             "versiones": [
@@ -32787,7 +32787,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2008-01-28",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Permisos y licencias personal docente no universitario (CV)",
             "titulo": "Decreto 7/2008, de 25 de enero, del Consell, por el que se regulan los permisos y licencias del personal docente no universitario dependiente de la Conselleria de Educación.",
             "versiones": [
@@ -33615,7 +33615,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2022/prd-modifica-cualificaciones-profesionales-3.html"
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2022/prd-modifica-cualificaciones-profesionales-3.html"
                         }
                     ]
                 }
@@ -36423,6 +36423,300 @@
                 "formación profesional",
                 "programas cualificación básica",
                 "curso 2022/23"
+            ]
+        },
+        {
+            "id": "boe-2022-884-rd",
+            "incluido": "2022-11-18",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-11-09",
+            "vigencia": "vigente",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "Real Decreto 884/2022, de 18 de octubre, por el que se establecen determinadas cualificaciones profesionales de las familias profesionales Hostelería y Turismo, Informática y Comunicaciones, Instalación y Mantenimiento, y Transporte y Mantenimiento de Vehículos, que se incluyen en el Catálogo Nacional de Cualificaciones Profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-11-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-884-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2022/10/18/884"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "dogv-2022-195-d",
+            "incluido": "2022-11-18",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-11-16",
+            "vigencia": "vigente",
+            "descripción": "Igualdad y convivencia en el sistema educativo (CV)",
+            "titulo": "Decreto 195/2022, de 11 de noviembre, del Consell, de igualdad y convivencia en el sistema educativo valenciano.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-11-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-195-D-convivencia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/10681"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/10681"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-195-D-convivencia-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-195-D-convivencia-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "convivencia"
+            ]
+        },
+        {
+            "id": "boe-2022-11-16-res",
+            "incluido": "2022-12-11",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-12-06",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Graduado en Informática Industrial y Robótica (Universidad Politécnica de Valencia)",
+            "titulo": "Resolución de 16 de noviembre de 2022, de la Universitat Politècnica de València, por la que se publica el plan de estudios de Graduado o Graduada en Informática Industrial y Robótica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-11-16-O-plan-estudios-graduado-informatica-industrial-robotica-upv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/boe/dias/2022/12/06/pdfs/BOE-A-2022-20659.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "plan de estudios"
+            ]
+        },
+        {
+            "id": "boe-borrador-2022-3-rd",
+            "incluido": "2022-12-11",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2022-12-09",
+            "vigencia": "borrador",
+            "descripción": "Borrador Decreto del Curso de especialización de Desarrollo de aplicaciones en lenguaje Python ",
+            "titulo": "Proyecto de Real Decreto por el que se establece el curso de especialización de formación profesional de grado superior en desarrollo de aplicaciones en lenguaje Phyton y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2020-03-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-aplicaciones-python-borrador-2022-12-09.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2022/prd-curso-aplicaciones-phyton.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "docv-2022-107-d",
+            "incluido": "2023-01-05",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-08-11",
+            "vigencia": "vigente",
+            "descripción": "Currículo de ESO (CV)",
+            "titulo": "Decreto 107/2022, de 5 de agosto, del Consell, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-08-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-107-D-curriculo-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2022/08/05/107/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2022/08/05/107/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-107-D-curriculo-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-107-D-curriculo-eso-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2022-08-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-107-D-CO-curriculo-eso.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2022/08/05/107/corrigendum/20221103/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2022/08/05/107/corrigendum/20221103/vci/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-107-D-CO-curriculo-eso-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-107-D-CO-curriculo-eso-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "currículo",
+                "secundaria",
+                "ESO"
+            ]
+        },
+        {
+            "id": "docv-2022-234-d",
+            "incluido": "2023-01-05",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-01-05",
+            "vigencia": "vigente",
+            "descripción": "Permisos y licencias personal docente no universitario (CV)",
+            "titulo": "Decreto 234/2022, de 30 de diciembre, del Consell, por el que se regulan las condiciones de trabajo del personal docente no universitario funcionarial dependiente de la Conselleria de Educación, Cultura y Deporte: permisos y licencias.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-01-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-234-D-permisos-licencias-personal-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/13147"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/13147"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-234-D-permisos-licencias-personal-docente-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-234-D-permisos-licencias-personal-docente-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "permisos y licencias"
             ]
         }
     ]
