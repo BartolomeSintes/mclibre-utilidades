@@ -936,6 +936,17 @@
       "creado": "2022-12-02"
     },
     {
+      "serie": "Custom PC",
+      "nombre": "Custom PC",
+      "número": 234,
+      "año": 2023,
+      "mes": 1,
+      "portada": "custom-pc-234-en-202301.jpg",
+      "fichero": "custom-pc-234-en-202301.pdf",
+      "idioma": "inglés",
+      "creado": "2023-01-06"
+    },
+    {
       "serie": "Custom PC Books",
       "nombre": "Retrogade",
       "número": 1,
@@ -14860,6 +14871,17 @@
       "fichero": "wireframe-69-en-202212.pdf",
       "idioma": "inglés",
       "creado": "2022-12-02"
+    },
+    {
+      "serie": "Wireframe",
+      "nombre": "Wireframe",
+      "número": 70,
+      "año": 2023,
+      "mes": 1,
+      "portada": "wireframe-70-en-202301.jpg",
+      "fichero": "wireframe-70-en-202301.pdf",
+      "idioma": "inglés",
+      "creado": "2023-01-06"
     },
     {
       "serie": "Wireframe Books",
