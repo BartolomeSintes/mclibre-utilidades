@@ -4005,6 +4005,17 @@
       "creado": "2023-01-01"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 189,
+      "año": 2023,
+      "mes": 1,
+      "portada": "full-circle-189-en-202301.jpg",
+      "fichero": "full-circle-189-en-202301.pdf",
+      "idioma": "inglés",
+      "creado": "2023-01-28"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -11353,6 +11364,17 @@
       "creado": "2022-12-16"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 126,
+      "año": 2023,
+      "mes": 2,
+      "portada": "the-magpi-126-en-202302.jpg",
+      "fichero": "the-magpi-126-en-202302.pdf",
+      "idioma": "inglés",
+      "creado": "2023-01-28"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -14907,7 +14929,7 @@
     },
     {
       "serie": "Wireframe Books",
-      "nombre": "Code the Classics – Volume 1 ",
+      "nombre": "Code the Classics – Volume 1",
       "número": 1,
       "año": 2019,
       "mes": 12,
