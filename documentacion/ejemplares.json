@@ -5435,6 +5435,17 @@
       "creado": "2022-07-05"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 20,
+      "año": 2023,
+      "mes": 1,
+      "portada": "hello-world-20-en-202301.jpg",
+      "fichero": "hello-world-20-en-202301.pdf",
+      "idioma": "inglés",
+      "creado": "2023-02-03"
+    },
+    {
       "serie": "Hello World Books",
       "nombre": "The Big Book of Comupting Pedagogy",
       "número": 1,
@@ -13870,6 +13881,17 @@
       "fichero": "pclinuxos-192-en-202301.pdf",
       "idioma": "inglés",
       "creado": "2023-01-13"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 193,
+      "año": 2023,
+      "mes": 2,
+      "portada": "pclinuxos-193-en-202302.jpg",
+      "fichero": "pclinuxos-193-en-202302.pdf",
+      "idioma": "inglés",
+      "creado": "2023-02-03"
     },
     {
       "serie": "The R Journal",
