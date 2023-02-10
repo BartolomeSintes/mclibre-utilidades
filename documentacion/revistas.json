@@ -1,38 +1,6 @@
 {
     "revistas": [
         {
-            "nombre-corto": "Aprender para educar",
-            "nombre": "Aprender para educar con tecnología",
-            "nombre-largo": "Aprender para educar con tecnología",
-            "web": [
-                [
-                    "http://e-ducadores.com/aprenderparaeducar/",
-                    "Revista Aprender para educar con tecnología"
-                ]
-            ],
-            "miniaturas": "../img/revistas/aprender-para-educar/",
-            "archivos": "aprender-para-educar/",
-            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse en formato pdf.",
-            "abreviatura" : "ape",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "Atix",
-            "nombre": "Atix - Revista de software libre",
-            "nombre-largo": "Atix - Revista de software libre",
-            "web": [
-                [
-                    "http://revista.atixlibre.org/",
-                    "Revista Atix"
-                ]
-            ],
-            "miniaturas": "../img/revistas/atix/",
-            "archivos": "atix/",
-            "comentario": "",
-            "abreviatura" : "atix",
-            "estado": "activa"
-        },
-        {
             "nombre-corto": "Bits de Ciencia",
             "nombre": "Bits de Ciencia",
             "nombre-largo": "Bits de Ciencia",
@@ -94,7 +62,7 @@
             "archivos": "ding/",
             "comentario": "",
             "abreviatura" : "ding",
-            "estado": "activa"
+            "estado": "inactiva"
         },
         {
             "nombre-corto": "Edutec",
@@ -225,22 +193,6 @@
             "estado": "activa"
         },
         {
-            "nombre-corto": "JOLTS",
-            "nombre": "The Journal of Open Law, Technology &amp; Society",
-            "nombre-largo": "The Journal of Open Law, Technology &amp; Society",
-            "web": [
-                [
-                    "https://jolts.world/index.php/jolts",
-                    "Revista The Journal of Open Law, Technology &amp; Society"
-                ]
-            ],
-            "miniaturas": "../img/revistas/ifosslr/",
-            "archivos": "ifosslr/",
-            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf. Antes de 2019 esta revista se llamaba <strong>International Free and Open Source Software Law Review</strong>.",
-            "abreviatura" : "ifosslr",
-            "estado": "activa"
-        },
-        {
             "nombre-corto": "Occam's Razor",
             "nombre": "Occam's Razor",
             "nombre-largo": "Occam's Razor - porque lo más sencillo es lo más probable ",
@@ -310,23 +262,6 @@
             "archivos": "open-source-yearbook/",
             "comentario": "",
             "abreviatura" : "osyearbook",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "Programar",
-            "nombre": "Programar",
-            "nombre-largo": "Programar. Revista portuguesa de programac&atilde;o"
-            ,
-            "web": [
-                [
-                    "https://www.revista-programar.info/",
-                    "Programar"
-                ]
-            ],
-            "miniaturas": "../img/revistas/programar/",
-            "archivos": "programar/",
-            "comentario": "",
-            "abreviatura" : "programar",
             "estado": "activa"
         },
         {
@@ -471,6 +406,38 @@
             "archivos": "alt-magazine/",
             "comentario": "",
             "abreviatura" : "alt",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "Aprender para educar",
+            "nombre": "Aprender para educar con tecnología",
+            "nombre-largo": "Aprender para educar con tecnología",
+            "web": [
+                [
+                    "http://e-ducadores.com/aprenderparaeducar/",
+                    "Revista Aprender para educar con tecnología"
+                ]
+            ],
+            "miniaturas": "../img/revistas/aprender-para-educar/",
+            "archivos": "aprender-para-educar/",
+            "comentario": "",
+            "abreviatura" : "ape",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "Atix",
+            "nombre": "Atix - Revista de software libre",
+            "nombre-largo": "Atix - Revista de software libre",
+            "web": [
+                [
+                    "https://web.archive.org/web/20190921113742/http://revista.atixlibre.org/",
+                    "Revista Atix (copia en archive.org)"
+                ]
+            ],
+            "miniaturas": "../img/revistas/atix/",
+            "archivos": "atix/",
+            "comentario": "",
+            "abreviatura" : "atix",
             "estado": "inactiva"
         },
         {
@@ -734,6 +701,22 @@
             "estado": "inactiva"
         },
         {
+            "nombre-corto": "JOLTS",
+            "nombre": "The Journal of Open Law, Technology &amp; Society",
+            "nombre-largo": "The Journal of Open Law, Technology &amp; Society",
+            "web": [
+                [
+                    "https://jolts.world/index.php/jolts",
+                    "Revista The Journal of Open Law, Technology &amp; Society"
+                ]
+            ],
+            "miniaturas": "../img/revistas/ifosslr/",
+            "archivos": "ifosslr/",
+            "comentario": "En la web de la revista pueden consultarse números posteriores a los incluidos aquí, pero que no pueden descargarse de forma completa en formato pdf. Antes de 2019 esta revista se llamaba <strong>International Free and Open Source Software Law Review</strong>.",
+            "abreviatura" : "ifosslr",
+            "estado": "inactiva"
+        },
+        {
             "nombre-corto": "Libre Graphics Magazine",
             "nombre": "Libre Graphics Magazine",
             "nombre-largo": "Libre Graphics Magazine (2010-2015)",
@@ -955,6 +938,23 @@
             "archivos": "planetix/",
             "comentario": "",
             "abreviatura" : "planetix",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "Programar",
+            "nombre": "Programar",
+            "nombre-largo": "Programar. Revista portuguesa de programac&atilde;o"
+            ,
+            "web": [
+                [
+                    "https://www.revista-programar.info/",
+                    "Programar"
+                ]
+            ],
+            "miniaturas": "../img/revistas/programar/",
+            "archivos": "programar/",
+            "comentario": "",
+            "abreviatura" : "programar",
             "estado": "inactiva"
         },
         {

@@ -23,6 +23,7 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   2019-12-04. En los cuadros no pone el nombre de la revista. Debería ponerlo, porque no se puede buscar en la página escribiendo el nombre.
 -   2020-05-24. Podría poner flechas para pasar de un año al siguiente y al anterior, o de una revista a la siguiente o a la anterior
 -   2022-03-03. The Python Papers está desaparecido. Me podría dedicar a bajar los pdfs de archive.org y preparar los pdfs https://web.archive.org/web/20180819045931/http://ojs.pythonpapers.org/index.php/tpp/issue/archive. He guardado un artículo en revistas/, además de un python rag que he encontrado.
+-   2023-02-10. En este repositorio <https://gitlab.com/sirtetris/ubunchu-translation> que he encontrado mirando <https://groups.google.com/g/ubunchu-translators> hay jpg de los número 9 a 14 (n sé si está todo). Podría hacer yo el pdf a partir de las imágenes, pero no tengo claro el copyright de estos números y es sospenchos que nadie lo haya publicado en pdf.
 
 ## Revistas para incluir
 
@@ -33,6 +34,9 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   Comunicar: <https://www.revistacomunicar.com/index.php?idioma=es>
 -   Red Seguridad: <https://www.redseguridad.com/kiosko-pro/>
 -   Kilobyte Magazine: <https://retro.wtf/kilobytemagazine/>
+-   e-ducadores del mundo <https://e-ducadores.org/revista/2022/12/29/la-cuarta-edicion/> Es continuación de Aprender para educar, pero de 4 revistas solo he podido descargar en pdf 2 de ellas.
+-   Revista TINO <https://revista.jovenclub.cu/numeros-de-tino/> hay 86 números, desde el 2007. No parece gran cosa, pero están todos los pdfs en <https://revista.jovenclub.cu/revista-tino-pdf/>
+-   El predecesor de The R Journal se llamaba R news y hay varios años de revista en <https://www.r-project.org/doc/Rnews/index.html>
 
 ## Libros para incluir
 

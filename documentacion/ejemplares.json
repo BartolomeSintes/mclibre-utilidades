@@ -133,6 +133,39 @@
       "creado": "2019-07-27"
     },
     {
+      "serie": "Aprender para educar",
+      "nombre": "Aprender para educar",
+      "número": 12,
+      "año": 2015,
+      "mes": 10,
+      "portada": "aprender-para-educar-12-es-201510.jpg",
+      "fichero": "aprender-para-educar-12-es-201510.pdf",
+      "idioma": "español",
+      "creado": "2023-02-10"
+    },
+    {
+      "serie": "Aprender para educar",
+      "nombre": "Aprender para educar",
+      "número": 13,
+      "año": 2016,
+      "mes": 3,
+      "portada": "aprender-para-educar-13-es-201603.jpg",
+      "fichero": "aprender-para-educar-13-es-201603.pdf",
+      "idioma": "español",
+      "creado": "2023-02-10"
+    },
+    {
+      "serie": "Aprender para educar",
+      "nombre": "Aprender para educar",
+      "número": 14,
+      "año": 2016,
+      "mes": 11,
+      "portada": "aprender-para-educar-14-es-201611.jpg",
+      "fichero": "aprender-para-educar-14-es-201611.pdf",
+      "idioma": "español",
+      "creado": "2023-02-10"
+    },
+    {
       "serie": "Atix",
       "nombre": "Atix",
       "número": 1,
@@ -989,6 +1022,17 @@
       "fichero": "ding-3-en-202012.pdf",
       "idioma": "inglés",
       "creado": "2020-12-19"
+    },
+    {
+      "serie": "DING",
+      "nombre": "DING",
+      "número": 4,
+      "año": 2021,
+      "mes": 10,
+      "portada": "ding-4-en-202110.jpg",
+      "fichero": "ding-4-en-202110.pdf",
+      "idioma": "inglés",
+      "creado": "2023-02-10"
     },
     {
       "serie": "Edutec",
@@ -14178,6 +14222,39 @@
       "fichero": "the-r-journal-26-en-202112.pdf",
       "idioma": "inglés",
       "creado": "2022-02-18"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 14 nº 1",
+      "año": 2022,
+      "mes": 3,
+      "portada": "the-r-journal-27-en-202203.jpg",
+      "fichero": "the-r-journal-27-en-202203.pdf",
+      "idioma": "inglés",
+      "creado": "2023-02-10"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 14 nº 2",
+      "año": 2022,
+      "mes": 6,
+      "portada": "the-r-journal-28-en-202206.jpg",
+      "fichero": "the-r-journal-28-en-202206.pdf",
+      "idioma": "inglés",
+      "creado": "2023-02-10"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 14 nº 3",
+      "año": 2022,
+      "mes": 9,
+      "portada": "the-r-journal-29-en-202209.jpg",
+      "fichero": "the-r-journal-29-en-202209.pdf",
+      "idioma": "inglés",
+      "creado": "2023-02-10"
     },
     {
       "serie": "Wireframe",
