@@ -5204,6 +5204,17 @@
       "creado": "2023-01-20"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 64,
+      "año": 2023,
+      "mes": 3,
+      "portada": "hackspace-64-en-202303.jpg",
+      "fichero": "hackspace-64-en-202303.pdf",
+      "idioma": "inglés",
+      "creado": "2023-02-17"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
