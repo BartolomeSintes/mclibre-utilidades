@@ -307,7 +307,7 @@
                 ]
             ],
             "miniaturas": "../img/revistas/the-magpi/",
-            "archivos": "magpi/",
+            "archivos": "the-magpi/",
             "comentario": "",
             "abreviatura" : "magpi",
             "estado": "activa"

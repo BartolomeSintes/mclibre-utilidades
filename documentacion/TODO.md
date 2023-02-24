@@ -24,6 +24,7 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   2020-05-24. Podría poner flechas para pasar de un año al siguiente y al anterior, o de una revista a la siguiente o a la anterior
 -   2022-03-03. The Python Papers está desaparecido. Me podría dedicar a bajar los pdfs de archive.org y preparar los pdfs https://web.archive.org/web/20180819045931/http://ojs.pythonpapers.org/index.php/tpp/issue/archive. He guardado un artículo en revistas/, además de un python rag que he encontrado.
 -   2023-02-10. En este repositorio <https://gitlab.com/sirtetris/ubunchu-translation> que he encontrado mirando <https://groups.google.com/g/ubunchu-translators> hay jpg de los número 9 a 14 (n sé si está todo). Podría hacer yo el pdf a partir de las imágenes, pero no tengo claro el copyright de estos números y es sospenchos que nadie lo haya publicado en pdf.
+-   2023-02-10. En las revistas JOLTS que tengo colgadas faltan artículos que están sueltos en la web. Tendría que descargarlos y unirlos con PDFsam.
 
 ## Revistas para incluir
 

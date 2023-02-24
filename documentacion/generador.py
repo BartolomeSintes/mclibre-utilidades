@@ -2,7 +2,6 @@
 # Este programa genera bonitas páginas Web
 
 import json
-import operator
 import pathlib
 import shutil
 import time
@@ -117,14 +116,13 @@ def ordena(lista, reverse=False):
 def meses(numero):
     if numero == "":
         return ""
-    elif str(numero).isnumeric() and 1 <= numero and numero <= 12:
+    if str(numero).isnumeric() and 1 <= numero and numero <= 12:
         return MES[numero]
-    elif numero == "S1":
+    if numero == "S1":
         return "Primer semestre"
-    elif numero == "S2":
+    if numero == "S2":
         return "Segundo semestre"
-    else:
-        return "ERROR"
+    return "ERROR"
 
 
 def fecha_a_texto(numero):
@@ -189,11 +187,11 @@ def pagina_individual_revistas(r):
     t += "\n"
     t += f'    <h2>{info_r["nombre-largo"]}</h2>\n'
     t += "\n"
-    t += f"  <p>Página web: "
+    t += "  <p>Página web: "
     t += f'<a href="{info_r["web"][0][0]}">{info_r["web"][0][1]}</a>'
     for i in range(len(info_r["web"]) - 1):
         t += f' - <a href="{info_r["web"][i+1][0]}">{info_r["web"][i+1][1]}</a>'
-    t += f"</p>\n"
+    t += "</p>\n"
     t += "\n"
     for a in anyos:
         ejemplares_year = []
@@ -374,7 +372,7 @@ def revistas_por_fecha_inclusion():
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f"  <h1>Revistas ordenadas por fecha de inclusión en mclibre</h1>\n"
+    t += "  <h1>Revistas ordenadas por fecha de inclusión en mclibre</h1>\n"
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
@@ -382,7 +380,7 @@ def revistas_por_fecha_inclusion():
     t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
     t += "    </p>\n"
     t += "\n"
-    t += f"    <h2>Revistas</h2>\n"
+    t += "    <h2>Revistas</h2>\n"
     t += "\n"
     t += '    <div class="toc">\n'
     t += "      <ul>\n"
@@ -491,14 +489,14 @@ def pagina_revistas_inactivas(revistas):
     t += '<html lang="es">\n'
     t += "<head>\n"
     t += '  <meta charset="utf-8">\n'
-    t += f"  <title>Revistas inactivas. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
+    t += "  <title>Revistas inactivas. Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     t += '  <link rel="stylesheet" type="text/css" href="../varios/documentos.css" title="mclibre">\n'
     t += '  <link rel="icon" href="../varios/favicon.ico">\n'
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f"  <h1>Revistas inactivas</h1>\n"
+    t += "  <h1>Revistas inactivas</h1>\n"
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
@@ -506,7 +504,7 @@ def pagina_revistas_inactivas(revistas):
     t += '      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>\n'
     t += "    </p>\n"
     t += "\n"
-    t += f"    <h2>Revistas inactivas</h2>\n"
+    t += "    <h2>Revistas inactivas</h2>\n"
     t += "\n"
     t += '    <div class="toc">\n'
     t += "      <ul>\n"
@@ -524,7 +522,7 @@ def pagina_revistas_inactivas(revistas):
     t += "    </div>\n"
     t += "  </nav>\n"
     t += "\n"
-    t += f"  <p>Esta página contiene enlaces a revistas sobre software libre y distribuciones GNU/Linux que han dejado de publicarse, aunque ojalá vuelvan a hacerlo en el futuro.</p>\n"
+    t += "  <p>Esta página contiene enlaces a revistas sobre software libre y distribuciones GNU/Linux que han dejado de publicarse, aunque ojalá vuelvan a hacerlo en el futuro.</p>\n"
     t += "\n"
     ultimo_creado = ""
     for i in range(len(revistas)):
@@ -604,14 +602,14 @@ def pagina_index():
     t += '<html lang="es">\n'
     t += "<head>\n"
     t += '  <meta charset="utf-8">\n'
-    t += f"  <title>Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
+    t += "  <title>Documentación sobre software libre. Bartolomé Sintes Marco. www.mclibre.org</title>\n"
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     t += '  <link rel="stylesheet" type="text/css" href="varios/documentos.css" title="mclibre">\n'
     t += '  <link rel="icon" href="varios/favicon.ico">\n'
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f"  <h1>Documentación sobre software libre y contenidos libres</h1>\n"
+    t += "  <h1>Documentación sobre software libre y contenidos libres</h1>\n"
     t += "\n"
     t += "  <nav>\n"
     t += "    <p>\n"
