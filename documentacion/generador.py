@@ -215,9 +215,16 @@ def pagina_individual_revistas(r):
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
             if isinstance(i["mes"], int):
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+                t += f'        <p><img alt="Revista {i["nombre"]} - '
+                if isinstance(i["número"], int):
+                    t += 'nº '
+                t += f'{i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
             else:
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+                t += f'        <p><img alt="Revista {i["nombre"]} - '
+                if isinstance(i["número"], int):
+                    t += 'nº '
+                t += f'{i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+
             if i["serie"] != i["nombre"]:
                 t += f'        <p>{i["nombre"]}</p>\n'
             if i["número"] == "":
@@ -304,11 +311,11 @@ def paginas_years_revistas(anyo):
         t += f'  <section id="{i[1]["abreviatura"]}">\n'
         t += f'    <h2>{i[1]["nombre"]}</h2>\n'
         t += "\n"
-        t += f"    <p>Página web: "
+        t += "    <p>Página web: "
         t += f'<a href="{info_r["web"][0][0]}">{info_r["web"][0][1]}</a>'
         for j in range(len(i[1]["web"]) - 1):
             t += f' - <a href="{info_r["web"][j+1][0]}">{info_r["web"][j+1][1]}</a>'
-        t += f"</p>\n"
+        t += "</p>\n"
         t += "\n"
         ejemplares_revistas = ordena(ejemplares_revistas, reverse=False)
 
@@ -322,9 +329,15 @@ def paginas_years_revistas(anyo):
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
             if isinstance(i["mes"], int):
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+                t += f'        <p><img alt="Revista {i["nombre"]} - '
+                if isinstance(i["número"], int):
+                    t += 'nº '
+                t += f'{i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
             else:
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+                t += f'        <p><img alt="Revista {i["nombre"]} - '
+                if isinstance(i["número"], int):
+                    t += 'nº '
+                t += f'{i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
             if i["serie"] != i["nombre"]:
                 t += f'        <p>{i["nombre"]}</p>\n'
             if i["número"] == "":
@@ -399,7 +412,7 @@ def revistas_por_fecha_inclusion():
                 ejemplares_revistas += [j]
         t += f'  <section id="{i}">\n'
         t += f"    <h2>{i}</h2>\n"
-        t += f"\n"
+        t += "\n"
         ejemplares_revistas = ordena(ejemplares_revistas, reverse=True)
 
         t += '    <div class="miniaturas">\n'
@@ -426,13 +439,19 @@ def revistas_por_fecha_inclusion():
             if isinstance(i["mes"], int):
                 t += "        <p>\n"
                 t += f'          <a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">\n'
-                t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+                t += f'            <img alt="Revista {i["nombre"]} - '
+                if isinstance(i["número"], int):
+                    t += 'nº '
+                t += f'{i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
                 t += "          </a>\n"
                 t += "        </p>\n"
             else:
                 t += "        <p>\n"
                 t += f'          <a href="{REMOTO_ARCHIVOS +info_r["archivos"]+i["fichero"]}">\n'
-                t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+                t += f'            <img alt="Revista {i["nombre"]} - '
+                if isinstance(i["número"], int):
+                    t += 'nº '
+                t += f'{i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
                 t += "          </a>\n"
                 t += "        </p>\n"
             if i["serie"] != i["nombre"]:
@@ -549,11 +568,11 @@ def pagina_revistas_inactivas(revistas):
             t += f"    <h2>{revistas[i]} ({min(anyos)}-{max(anyos)})</h2>\n"
 
         t += "\n"
-        t += f"    <p>Página web: "
+        t += "    <p>Página web: "
         t += f'<a href="{info_r["web"][0][0]}">{info_r["web"][0][1]}</a>'
         for j in range(len(info_r["web"]) - 1):
             t += f' - <a href="{info_r["web"][j+1][0]}">{info_r["web"][j+1][1]}</a>'
-        t += f"</p>\n"
+        t += "</p>\n"
         t += "\n"
 
         t += '    <div class="miniaturas">\n'
@@ -566,9 +585,15 @@ def pagina_revistas_inactivas(revistas):
             formato = fichero.suffix[1:].upper()
             t += "      <div>\n"
             if isinstance(i["mes"], int):
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+                t += f'        <p><img alt="Revista {i["nombre"]} - '
+                if isinstance(i["número"], int):
+                    t += 'nº '
+                t += f'{i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
             else:
-                t += f'        <p><img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
+                t += f'        <p><img alt="Revista {i["nombre"]} - '
+                if isinstance(i["número"], int):
+                    t += 'nº '
+                t += f'{i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"]}{i["portada"]}" width="{width}" height="{height}"></p>\n'
             if i["serie"] != i["nombre"]:
                 t += f'        <p>{i["nombre"]}</p>\n'
             if i["número"] == "":
@@ -703,13 +728,19 @@ def pagina_index():
         if isinstance(i["mes"], int):
             t += "        <p>\n"
             t += f'          <a href="{camino}">\n'
-            t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+            t += f'            <img alt="Revista {i["nombre"]} - '
+            if isinstance(i["número"], int):
+                t += 'nº '
+            t += f'{i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
             t += "          </a>\n"
             t += "        </p>\n"
         else:
             t += "        <p>\n"
             t += f'          <a href="{camino}">\n'
-            t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+            t += f'            <img alt="Revista {i["nombre"]} - '
+            if isinstance(i["número"], int):
+                t += 'nº '
+            t += f'{i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
             t += "          </a>\n"
             t += "        </p>\n"
         t += f'        <p><a href="{camino}">{info_r["nombre-corto"]}</a></p>\n'
@@ -718,7 +749,7 @@ def pagina_index():
         else:
             t += f"        <p>{min(anyos)} - {max(anyos)}</p>\n"
         if j[2] == 1:
-            t += f"        <p>1 ejemplar</p>\n"
+            t += "        <p>1 ejemplar</p>\n"
         else:
             t += f"        <p>{j[2]} ejemplares</p>\n"
         t += "      </div>\n"
@@ -769,13 +800,19 @@ def pagina_index():
         if isinstance(i["mes"], int):
             t += "        <p>\n"
             t += f'          <a href="{camino}">\n'
-            t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+            t += f'            <img alt="Revista {i["nombre"]} - '
+            if isinstance(i["número"], int):
+                t += 'nº '
+            t += f'{i["número"]} - {i["año"]}-{i["mes"]:02d}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
             t += "          </a>\n"
             t += "        </p>\n"
         else:
             t += "        <p>\n"
             t += f'          <a href="{camino}">\n'
-            t += f'            <img alt="Revista {i["nombre"]} nº {i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
+            t += f'            <img alt="Revista {i["nombre"]} - '
+            if isinstance(i["número"], int):
+                t += 'nº '
+            t += f'{i["número"]} - {i["año"]}-{i["mes"]}" src="{info_r["miniaturas"][3:]}{i["portada"]}" width="{width}" height="{height}">\n'
             t += "          </a>\n"
             t += "        </p>\n"
         t += f'        <p><a href="{camino}">{info_r["nombre-corto"]}</a></p>\n'
@@ -784,7 +821,7 @@ def pagina_index():
         else:
             t += f"        <p>{min(anyos)} - {max(anyos)}</p>\n"
         if j[2] == 1:
-            t += f"        <p>1 ejemplar</p>\n"
+            t += "        <p>1 ejemplar</p>\n"
         else:
             t += f"        <p>{j[2]} ejemplares</p>\n"
         t += "      </div>\n"
@@ -886,7 +923,7 @@ if len(tmp) != 1:
 else:
     revistas = tmp[0]["revistas"]
     fichero_destino = "sitio\\listados\\revistas-desaparecidas.html"
-    print(f"  " + fichero_destino)
+    print("  " + fichero_destino)
     with open(fichero_destino, "w", encoding="utf-8") as fichero:
         fichero.write(pagina_revistas_inactivas(revistas))
 
@@ -933,7 +970,7 @@ print()
 print("Creando página ejemplares for fecha de inclusión")
 print()
 fichero_destino = "sitio\\ultimos-incluidos.html"
-print(f"  " + fichero_destino)
+print("  " + fichero_destino)
 with open(fichero_destino, "w", encoding="utf-8") as fichero:
     fichero.write(revistas_por_fecha_inclusion())
 print()
@@ -943,7 +980,7 @@ print()
 print("Creando página index")
 print()
 fichero_destino = "sitio\\index2.html"
-print(f"  " + fichero_destino)
+print("  " + fichero_destino)
 with open(fichero_destino, "w", encoding="utf-8") as fichero:
     fichero.write(pagina_index())
 print()

@@ -11476,7 +11476,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Make games with Python",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2015,
       "mes": 12,
       "portada": "the-magpi-essentials-games-01-en-201512.jpg",
@@ -11498,7 +11498,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Experiment with the Sense Hat",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2016,
       "mes": 1,
       "portada": "the-magpi-essentials-sense-01-en-201601.jpg",
@@ -11509,7 +11509,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Code music with Somic Pi",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2016,
       "mes": 3,
       "portada": "the-magpi-essentials-sonic-01-en-201603.jpg",
@@ -11520,7 +11520,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Learn to code with Scratch",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2016,
       "mes": 6,
       "portada": "the-magpi-essentials-scratch-01-en-201606.jpg",
@@ -11531,7 +11531,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Hacking and making in Minecraft",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2016,
       "mes": 8,
       "portada": "the-magpi-essentials-minecraft-01-en-201608.jpg",
@@ -11542,7 +11542,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Simple electronics with GPIO Zero",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2016,
       "mes": 8,
       "portada": "the-magpi-essentials-gpiozero-01-en-201608.jpg",
@@ -11553,7 +11553,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Learn to code with C",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2016,
       "mes": 10,
       "portada": "the-magpi-essentials-c-01-en-201610.jpg",
@@ -11575,7 +11575,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "The Camera Module Guide",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2017,
       "mes": 6,
       "portada": "the-magpi-essentials-camera-01-en-201706.jpg",
@@ -11597,7 +11597,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Create a voice kit",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2017,
       "mes": 11,
       "portada": "the-magpi-essentials-aiy-projects-voice-01-en-201711.jpg",
@@ -11608,7 +11608,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Raspberry Pi Beginners Book",
-      "número": "1º ed.",
+      "número": "1ª ed.",
       "año": 2017,
       "mes": 12,
       "portada": "raspberry-pi-beginners-book-1-en-201712.jpg",
@@ -11619,7 +11619,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Raspberry Pi Beginners Book",
-      "número": "2º ed.",
+      "número": "2ª ed.",
       "año": 2019,
       "mes": 7,
       "portada": "raspberry-pi-beginners-book-2-en-201907.jpg",
@@ -11630,7 +11630,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Raspberry Pi Annual 2018",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2018,
       "mes": 1,
       "portada": "raspberry-pi-annual-2018-en-201801.jpg",
@@ -11652,7 +11652,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "The Official Raspberry Pi Beginner's Guide",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2018,
       "mes": 12,
       "portada": "raspberry-pi-beginners-guide-1-en-201812.jpg",
@@ -11685,7 +11685,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "C and GUI Programming",
-      "número": "",
+      "número": "1ª ed.",
       "año": 2019,
       "mes": 4,
       "portada": "raspberry-pi-c-gui-programming-en-201904.jpg",
@@ -11696,7 +11696,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Raspberry Pi Beginner’s Guide",
-      "número": "3º ed.",
+      "número": "3ª ed.",
       "año": 2019,
       "mes": 11,
       "portada": "raspberry-pi-beginners-book-3-en-201911.jpg",
@@ -11762,7 +11762,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Raspberry Pi Beginner’s Guide",
-      "número": "4º ed.",
+      "número": "4ª ed.",
       "año": 2020,
       "mes": 11,
       "portada": "raspberry-pi-beginners-book-4-en-202011.jpg",
@@ -11784,7 +11784,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "Raspberry Pi Beginner’s Guide",
-      "número": "4º ed.",
+      "número": "4ª ed.",
       "año": 2020,
       "mes": 11,
       "portada": "raspberry-pi-beginners-book-4-es-202011.jpg",
@@ -11839,7 +11839,7 @@
     {
       "serie": "The MagPi Books",
       "nombre": "C and GUI Programming",
-      "número": "2º ed.",
+      "número": "2ª ed.",
       "año": 2022,
       "mes": 11,
       "portada": "raspberry-pi-c-gui-programming-02-en-202211.jpg",
