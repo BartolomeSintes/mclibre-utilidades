@@ -4060,6 +4060,17 @@
       "creado": "2023-01-28"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 190,
+      "año": 2023,
+      "mes": 2,
+      "portada": "full-circle-190-en-202302.jpg",
+      "fichero": "full-circle-190-en-202302.pdf",
+      "idioma": "inglés",
+      "creado": "2023-03-03"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -14277,6 +14288,17 @@
       "fichero": "the-r-journal-29-en-202209.pdf",
       "idioma": "inglés",
       "creado": "2023-02-10"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 14 nº 4",
+      "año": 2022,
+      "mes": 12,
+      "portada": "the-r-journal-30-en-202212.jpg",
+      "fichero": "the-r-journal-30-en-202212.pdf",
+      "idioma": "inglés",
+      "creado": "2023-03-03"
     },
     {
       "serie": "Wireframe",
