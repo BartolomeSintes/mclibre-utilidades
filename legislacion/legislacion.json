@@ -2936,7 +2936,7 @@
             "origen": "DOCE",
             "fecha": "2016-07-19",
             "vigencia": "vigente",
-            "descripción": "Directiva Seguridad de las redes y sistema de información",
+            "descripción": "Directiva Seguridad de las redes y sistema de información (NIS)",
             "titulo": "Directiva (UE) 2016/1148 del Parlamento Europeo y del Consejo, de 6 de julio de 2016, relativa a las medidas destinadas a garantizar un elevado nivel común de seguridad de las redes y sistemas de información en la Unión",
             "versiones": [
                 {
@@ -26765,7 +26765,7 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "2013-06-27",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Directiva Reutilización de la información del sector público",
             "titulo": "Directiva 2013/37/UE del Parlamento Europeo y del Consejo, de 26 de junio de 2013, por la que se modifica la Directiva 2003/98/CE relativa a la reutilización de la información del sector público",
             "versiones": [
@@ -26800,7 +26800,7 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "2003-12-31",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Directiva Reutilización de la información del sector público",
             "titulo": "Directiva 2003/98/CE del Parlamento Europeo y del Consejo, de 17 de noviembre de 2003, relativa a la reutilización de la información del sector público",
             "versiones": [
@@ -29698,7 +29698,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2021-12-21",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Pruebas para la obtención de títulos Formación Profesional 2022 (CV)",
             "titulo": "Resolución de 15 de diciembre de 2021, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico y de técnico superior de Formación Profesional.",
             "versiones": [
@@ -33625,7 +33625,7 @@
                 "real decreto",
                 "borrador",
                 "educación",
-                "currículo",
+                "cualificaciones profesionales",
                 "formación profesional"
             ]
         },
@@ -36558,7 +36558,7 @@
             "fecha": "2022-12-09",
             "vigencia": "borrador",
             "descripción": "Borrador Decreto del Curso de especialización de Desarrollo de aplicaciones en lenguaje Python ",
-            "titulo": "Proyecto de Real Decreto por el que se establece el curso de especialización de formación profesional de grado superior en desarrollo de aplicaciones en lenguaje Phyton y se fijan los aspectos básicos del currículo.",
+            "titulo": "Proyecto de Real Decreto por el que se establece el curso de especialización de formación profesional de grado superior en desarrollo de aplicaciones en lenguaje Python y se fijan los aspectos básicos del currículo.",
             "versiones": [
                 {
                     "versión": "borrador",
@@ -36572,7 +36572,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2022/prd-curso-aplicaciones-phyton.html"
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/consulta-publica-previa/cerrados/2022/prd-fpgs-desarrollo-aplicaciones-python.html"
                         }
                     ]
                 }
@@ -36717,6 +36717,392 @@
                 "decreto",
                 "educación",
                 "permisos y licencias"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-01-25-rd",
+            "incluido": "2023-01-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-01-25",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto actualización cualificaciones profesionales Informática y Comunicaciones",
+            "titulo": "Proyecto de Real Decreto por el que se actualizan y se modifican parcialmente determinadas cualificaciones profesionales de las familias profesionales Informática y Comunicaciones, Seguridad y Medio Ambiente, Servicios Socioculturales y a la Comunidad y Transporte y Mantenimiento de Vehículos, recogidas en el Catálogo Nacional de Cualificaciones Profesionales.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-01-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-actualizacion-cualificaciones-2023-01-25.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/prd-establecen-suprimen-cualificaciones.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "cualificaciones profesionales",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-02-20-rd",
+            "incluido": "2023-02-28",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-02-20",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Ordenación del Sistema de Formación Profesional",
+            "titulo": "Proyecto de Real Decreto por el que se establece la Ordenación del Sistema de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-02-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-ordenacion-sistema-FP-2023-02-20.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2023/prd-ordenacion-sistema-fp.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-03-02-rd",
+            "incluido": "2023-03-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-03-02",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto actualización cualificaciones profesionales Informática y Comunicaciones",
+            "titulo": "Proyecto de Real Decreto por el que se establecen y actualizan determinadas cualificaciones profesionales de distintas familias profesionales, establecidas por determinados reales decretos.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-03-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-actualizacion-cualificaciones-2023-03-02.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/consulta-publica-previa/abiertos/2023/prd-cualificaciones-familias-profesionales.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "cualificaciones profesionales",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "celex-2022-09-15-prop",
+            "incluido": "2032-03-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-09-15",
+            "vigencia": "borrador",
+            "descripción": "Propuesta Directiva Ciber Resiliencia (CRA, Cyber Resilience Act)",
+            "titulo": "Propuesta de Reglamento del Parlamento europeo y del Consejo relativo a los requisitos horizontales de ciberseguridad para los productos con elementos digitales y por el que se modifica el Reglamento (UE) 2019/102. (COM(2022) 454 final).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-09-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-454-COM-1-PRO-cybersecurity-resilience-act.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A52022PC0454"
+                        }
+                    ]
+                },
+                {
+                    "versión": "anexos",
+                    "fecha": "2022-09-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-454-COM-2-PRO-cybersecurity-resilience-act.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A52022PC0454"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "ciberseguridad",
+                "propuesta"
+            ]
+        },
+        {
+            "id": "celex-2022-2554-reg",
+            "incluido": "2023-03-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-12-27",
+            "vigencia": "vigente",
+            "descripción": "Reglamento Resiliencia operativa digital sector financiero (DORA, Digital Operational Resilience Act)",
+            "titulo": "Reglamento (UE) 2022/2554 del Parlamento Europeo y del Consejo de 14 de diciembre de 2022 sobre la resiliencia operativa digital del sector financiero y por el que se modifican los Reglamentos (CE) 1060/2009, (UE) 648/2012, (UE) 600/2014, (UE) 909/2014 y (UE) 2016/1011.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-12-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-2554-REG-DORA-ciberresiliencia-sector-financiero.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "sector financiero",
+                "ciberseguridad"
+            ]
+        },
+        {
+            "id": "celex-2022-2555-dir",
+            "incluido": "2023-03-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-12-27",
+            "vigencia": "vigente",
+            "descripción": "Directiva Nivel común de ciberseguridad (NIS2, Network and Information Systems)",
+            "titulo": "Directiva (UE) 2022/2555 del Parlamento Europeo y del Consejo de 14 de diciembre de 2022 relativa a las medidas destinadas a garantizar un elevado nivel común de ciberseguridad en toda la Unión, por la que se modifican el Reglamento (UE) 910/2014 y la Directiva (UE) 2018/1972 y por la que se deroga la Directiva (UE) 2016/1148 (Directiva SRI 2).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-12-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-2555-D-NIS2-nivel-comun-ciberseguridad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "ciberseguridad"
+            ]
+        },
+        {
+            "id": "celex-2022-2481-dec",
+            "incluido": "2023-03-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-12-19",
+            "vigencia": "vigente",
+            "descripción": "Decisión Programa estratégico Década Digital 2030",
+            "titulo": "Decisión (UE) 2022/2481 del Parlamento Europeo y del Consejo de 14 de diciembre de 2022 por la que se establece el programa estratégico de la Década Digital para 2030.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-12-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-2481-DEC-programa-decada-digital.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "década digital 2030"
+            ]
+        },
+        {
+            "id": "celex-2019-1024-dir",
+            "incluido": "2023-03-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2019-06-26",
+            "vigencia": "vigente",
+            "descripción": "Directiva Reutilización de la información del sector público",
+            "titulo": "Directiva (UE) 2019/1024 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a los datos abiertos y la reutilización de la información del sector público",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-06-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-1024-D-reutilizacion-informacion-sector-publico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "sector público",
+                "reutilización información"
+            ]
+        },
+        {
+            "id": "celex-2021-1232-reg",
+            "incluido": "2023-03-07",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-07-30",
+            "vigencia": "vigente",
+            "descripción": "Reglamento sobre la privacidad y las comunicaciones electrónicas",
+            "titulo": "Reglamento (UE) 2021/1232 del Parlamento Europeo y del Consejo, de 14 de julio de 2021, por el que se establece una excepción temporal a determinadas disposiciones de la Directiva 2002/58/CE en lo que respecta al uso de tecnologías por proveedores de servicios de comunicaciones interpersonales independientes de la numeración para el tratamiento de datos personales y de otro tipo con fines de lucha contra los abusos sexuales de menores en línea.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-07-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-1232-REG-privacidad-comunicaciones-electronicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2021/1232/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "privacidad",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "dogv-2023-01-19-res",
+            "incluido": "2023-03-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-01-25",
+            "vigencia": "vigente",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2023 (CV)",
+            "titulo": "Resolución  de 19 de enero de 2023, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-01-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-01-19-R-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/644&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/644&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-01-19-R-pruebas-titulos-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-01-19-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2022/23"
             ]
         }
     ]

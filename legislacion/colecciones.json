@@ -215,11 +215,14 @@
                             "apartado": {
                                 "titulo": "Borradores",
                                 "referencias": [
-                                    "boe-borrador-2022-1-rd",
                                     "boe-borrador-2021-2-rd",
                                     "boe-borrador-2021-1-rd",
+                                    "boe-borrador-2022-1-rd",
                                     "boe-borrador-2022-06-20-rd",
-                                    "boe-borrador-2022-3-rd"
+                                    "boe-borrador-2022-3-rd",
+                                    "boe-borrador-2023-01-25-rd",
+                                    "boe-borrador-2023-02-20-rd",
+                                    "boe-borrador-2023-03-02-rd"
                                 ]
                             }
                         },
@@ -788,7 +791,8 @@
                                     "dogv-2022-06-14-res",
                                     "dogv-2022-07-12-res",
                                     "dogv-2022-07-15-res",
-                                    "dogv-2022-07-26-res"
+                                    "dogv-2022-07-26-res",
+                                    "dogv-2023-01-19-res"
                                 ]
                             }
                         },
@@ -796,8 +800,7 @@
                             "apartado": {
                                 "titulo": "Curso 2021/22",
                                 "referencias": [
-                                    "dogv-2021-07-05-res",
-                                    "dogv-2021-12-15-res"
+                                    "dogv-2021-07-05-res"
                                 ]
                             }
                         },
@@ -1152,6 +1155,7 @@
                                     "dogv-2021-07-26-1-res",
                                     "dogv-2021-07-26-2-res",
                                     "dogv-2021-07-26-3-res",
+                                    "dogv-2021-12-15-res",
                                     "dogv-2022-01-26-res"
                                 ]
                             }
@@ -1493,6 +1497,14 @@
                     "contenido": [
                         {
                             "apartado": {
+                                "titulo": "Borradores",
+                                "referencias": [
+                                    "celex-2022-09-15-prop"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Protección de datos",
                                 "referencias": [
                                     "boe-1995-02-02-res",
@@ -1539,7 +1551,9 @@
                                     "boe-2018-12-rdl",
                                     "celex-2019-881-reg",
                                     "boe-2019-14-rdl",
-                                    "celex-2021-887-reg"
+                                    "celex-2021-887-reg",
+                                    "celex-2022-2554-reg",
+                                    "celex-2022-2555-dir"
                                 ]
                             }
                         },
@@ -1593,7 +1607,8 @@
                                 "referencias": [
                                     "celex-2002-58-dir",
                                     "boe-2005-424-rd",
-                                    "celex-2009-136-dir"
+                                    "celex-2009-136-dir",
+                                    "celex-2021-1232-reg"
                                 ]
                             }
                         },
@@ -1624,11 +1639,10 @@
                             "apartado": {
                                 "titulo": "Reutilización de la información del sector público",
                                 "referencias": [
-                                    "celex-2003-98-dir",
                                     "boe-2007-37-l",
                                     "boe-2011-1495-rd",
-                                    "celex-2013-37-dir",
-                                    "boe-2015-18-l"
+                                    "boe-2015-18-l",
+                                    "celex-2019-1024-dir"
                                 ]
                             }
                         },
@@ -1667,7 +1681,8 @@
                                     "boe-1997-488-rdl",
                                     "boe-2005-1542-o",
                                     "celex-2019-414-3-con",
-                                    "celex-2020-427-4-con"
+                                    "celex-2020-427-4-con",
+                                    "celex-2022-2481-dec"
                                 ]
                             }
                         }
@@ -1696,6 +1711,7 @@
                                     "boe-2000-03-21-o",
                                     "boe-2000-05-30-res",
                                     "boe-2003-662-o",
+                                    "celex-2003-98-dir",
                                     "boe-2004-292-rd",
                                     "celex-2004-460-reg",
                                     "celex-2006-24-dir",
@@ -1703,6 +1719,7 @@
                                     "boe-2011-07-19-3-res",
                                     "boe-2011-11-15-res",
                                     "celex-2013-526-reg",
+                                    "celex-2013-37-dir",
                                     "celex-2015-2240-dec",
                                     "boe-2018-5-rdl",
                                     "cen-301549-3-1-1-en"

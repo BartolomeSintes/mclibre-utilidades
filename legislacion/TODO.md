@@ -170,8 +170,32 @@ la Generalitat Valenciana. (En vigor parcialmente)
 
 ## legislación Europea
 
-- 2022-07-13. He empezado a buscar con la búsqueda avanzada las Conclusiones del Consejo sobre temas educativas, año por año. He hecho hasta 2017
+-   2022-07-13. He empezado a buscar con la búsqueda avanzada las Conclusiones del Consejo sobre temas educativas, año por año. He hecho hasta 2017
 https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=ALL_ALL&textScope0=ti&DTS_DOM=ALL&lang=es&type=advanced&qid=1657292985931&andText0=%22Conclusiones+del+consejo%22&page=2
 
-- 2022-12-30. Castilla La Mancha parece que es la primera comunidad que ha sacado el currículum del curso de especialización de Ciberseguridad: https://docm.jccm.es/docm/descargarArchivo.do?ruta=2022/07/18/pdf/2022_6692.pdf&tipo=rutaDocm
+-   2022-12-30. Castilla La Mancha parece que es la primera comunidad que ha sacado el currículum del curso de especialización de Ciberseguridad: https://docm.jccm.es/docm/descargarArchivo.do?ruta=2022/07/18/pdf/2022_6692.pdf&tipo=rutaDocm
 
+-   2023-01-27. Borradores Comunidad Valenciana https://stepv.intersindical.org/ensenyament_public/meses
+
+-   2023-03-06. Artículo de xarxatic https://xarxatic.com/dudas-acerca-de-normativa-educativa-aqui-teneis-la-solucion/ sobre el sitio del MEC: https://educagob.educacionyfp.gob.es/ensenanzas.html
+
+-   2023-03-06. La UE está aprobando más legislación relacionada con la seguridad informática.
+    -   Chat Control 2 (Chat Control 1 es 2021/1232): https://www.theregister.com/2023/03/03/german_digital_committee_hearing_heaps/
+    -   https://www.european-cyber-resilience-act.com/Cyber_Resilience_Act_Links.html
+        Al final de esta página hay enlaces a varias directivas, reglamentos, etc.
+    -   https://www.nis-2-directive.com/
+        Esta es una página parecida, pero hablando de la directiva NIS2
+    -   https://eur-lex.europa.eu/eli/dir/2022/2557/oj
+        Directiva (UE) 2022/2557 del Parlamento Europeo y del Consejo de 14 de diciembre de 2022 relativa a la resiliencia de las entidades críticas y por la que se deroga la Directiva 2008/114/CE del Consejo
+    -   La propuesta de la CRA ha generado ruido:
+        -   https://blog.nlnetlabs.nl/open-source-software-vs-the-cyber-resilience-act/
+        -   https://blogs.eclipse.org/post/mike-milinkovich/cyber-resilience-act-good-intentions-and-unintended-consequences
+        -   https://www.theregister.com/2022/09/16/eu_cyber_resilience_act/
+        -   https://devclass.com/2023/01/24/eus-proposed-ce-mark-for-software-could-have-dire-impact-on-open-source/?td=rt-3a
+        -   https://www.theregister.com/2023/01/30/opinion_eu_foss_security/
+        -   Sesión en FOSDEM febrero 2023: https://fosdem.org/2023/schedule/event/cyber_resilience/
+    -   https://ecommerce-europe.eu/news-item/the-european-commission-proposes-revision-of-the-product-liability-directive/
+    -   https://ecommerce-europe.eu/news-item/european-commission-publishes-new-ai-liability-rules/
+    -   https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0206
+        Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL LAYING DOWN HARMONISED RULES ON ARTIFICIAL INTELLIGENCE (ARTIFICIAL INTELLIGENCE ACT) AND AMENDING CERTAIN UNION LEGISLATIVE ACTS COM/2021/206 final
+    -
