@@ -740,7 +740,7 @@
     {
       "serie": "Bits de Ciencia",
       "nombre": "Bits de Ciencia",
-      "número": 22,
+      "número": 23,
       "año": 2022,
       "mes": "S2",
       "portada": "bits-de-ciencia-23-es-2022s2.jpg",
@@ -1946,6 +1946,17 @@
       "fichero": "edutec-82-es-202212.pdf",
       "idioma": "español",
       "creado": "2023-01-01"
+    },
+    {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 83,
+      "año": 2023,
+      "mes": 3,
+      "portada": "edutec-83-es-202303.jpg",
+      "fichero": "edutec-83-es-202303.pdf",
+      "idioma": "español",
+      "creado": "2023-03-24"
     },
     {
       "serie": "Full Circle",
