@@ -783,11 +783,18 @@
                     "contenido": [
                         {
                             "apartado": {
+                                "titulo": "Curso 2023/24",
+                                "referencias": [
+                                    "dogv-2023-01-11-res",
+                                    "dogv-2023-03-07-res",
+                                    "dogv-2023-03-15-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2022/23",
                                 "referencias": [
-                                    "dogv-2022-01-28-res",
-                                    "dogv-2022-03-24-res",
-                                    "dogv-2022-03-28-res",
                                     "dogv-2022-06-14-res",
                                     "dogv-2022-07-12-res",
                                     "dogv-2022-07-15-res",
@@ -912,8 +919,8 @@
                                     "docv-2012-65-o",
                                     "docv-2014-54-o",
                                     "dogv-2017-164-d",
-                                    "dogv-2020-05-21-2-res",
-                                    "dogv-2022-5-d"
+                                    "dogv-2022-5-d",
+                                    "dogv-2022-06-28-res"
                                 ]
                             }
                         },
@@ -1138,7 +1145,18 @@
                                     "dogv-2016-10-14-res",
                                     "dogv-2017-10-05-res",
                                     "dogv-2018-07-20-res",
-                                    "dogv-2019-07-31-res"
+                                    "dogv-2019-07-31-res",
+                                    "dogv-2020-05-21-2-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2022/23",
+                                "referencias": [
+                                    "dogv-2022-01-28-res",
+                                    "dogv-2022-03-24-res",
+                                    "dogv-2022-03-28-res"
                                 ]
                             }
                         },
