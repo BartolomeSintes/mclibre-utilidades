@@ -1,558 +1,578 @@
 {
-  "paginas": [
-    {
-      "pagina": "revistas-inactivas.html",
-      "directorio": "",
-      "revistas": [
-        "LOM Brasil",
-        "Linux Voice",
-        "Libre Graphics Magazine",
-        "Espírito Livre",
-        "The Original Hacker",
-        "GIMP Magazine",
-        "Tuxinfo",
-        "Saber Libre",
-        "WI:DGET",
-        "HD",
-        "Cotejo",
-        "Python entre todos",
-        "Datta Magazine",
-        "CODE:FREE",
-        "Pixels and code",
-        "Libresfera",
-        "Planetix",
-        "Ubunchu",
-        "Fedora LATAM",
-        "Linvix",
-        "HackHispano eZine",
-        "Papirux",
-        "Nibbler",
-        "SL para ti",
-        "Gubuntu",
-        "Magazine ZX",
-        "ALT Magazine",
-        "Informática Libre",
-        "Uxi",
-        "Begins",
-        "SofLix",
-        "The Python Papers",
-        "BrOffice.orgZine",
-        "Scripta",
-        "Revista SL",
-        "Fent Llinux",
-        "NetBeans magazine",
-        "MiniMiniM",
-        "Free Tux",
-        "Essentia Libre",
-        "Qlugster magazine",
-        "Qespisqa Kawsay",
-        ".@vi",
-        "MyGnet"
-      ]
-    },
-    {
-      "pagina": "revistas-aprender-para-educar.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Aprender para educar"
-      ]
-    },
-    {
-      "pagina": "revistas-atix.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Atix"
-      ]
-    },
-    {
-      "pagina": "revistas-bits-de-ciencia.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Bits de Ciencia"
-      ]
-    },
-    {
-      "pagina": "revistas-custom-pc.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Custom PC"
-      ]
-    },
-    {
-      "pagina": "revistas-custom-pc-books.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Custom PC Books"
-      ]
-    },
-    {
-      "pagina": "revistas-ding.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "DING"
-      ]
-    },
-    {
-      "pagina": "revistas-edutec.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Edutec"
-      ]
-    },
-    {
-      "pagina": "revistas-full-circle.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Full Circle"
-      ]
-    },
-    {
-      "pagina": "revistas-full-circle-recopilaciones.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Full Circle (rec)"
-      ]
-    },
-    {
-      "pagina": "revistas-hackspace.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "HackSpace"
-      ]
-    },
-    {
-      "pagina": "revistas-hackspace-books.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "HackSpace Books"
-      ]
-    },
-    {
-      "pagina": "revistas-hello-world.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Hello World"
-      ]
-    },
-    {
-      "pagina": "revistas-hello-world-books.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Hello World Books"
-      ]
-    },
-    {
-      "pagina": "revistas-insecure.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "(In)secure Magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-ifosslr.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "JOLTS"
-      ]
-    },
-    {
-      "pagina": "revistas-linux-voice.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Linux Voice"
-      ]
-    },
-    {
-      "pagina": "revistas-occam.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Occam's Razor"
-      ]
-    },
-    {
-      "pagina": "revistas-odroid.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "ODROID Magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-oii.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Olympiads in informatics"
-      ]
-    },
-    {
-      "pagina": "revistas-osy.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Open Source Yearbook"
-      ]
-    },
-    {
-      "pagina": "revistas-programar.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Programar"
-      ]
-    },
-    {
-      "pagina": "revistas-solo-linux.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Solo Linux"
-      ]
-    },
-    {
-      "pagina": "revistas-solo-wordpress.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Solo WordPress"
-      ]
-    },
-    {
-      "pagina": "revistas-the-magpi.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "The MagPi"
-      ]
-    },
-    {
-      "pagina": "revistas-the-magpi-books.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "The MagPi Books"
-      ]
-    },
-    {
-      "pagina": "revistas-the-r-journal.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "The R Journal"
-      ]
-    },
-    {
-      "pagina": "revistas-pclinuxos.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "The PCLinuxOS Magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-wireframe.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Wireframe"
-      ]
-    },
-    {
-      "pagina": "revistas-wireframe-books.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Wireframe Books"
-      ]
-    },
-    {
-      "pagina": "revistas-alt-magazine.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "ALT Magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-avi.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        ".@vi"
-      ]
-    },
-    {
-      "pagina": "revistas-begins.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Begins"
-      ]
-    },
-    {
-      "pagina": "revistas-brofficeorgzine.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "BrOffice.orgZine"
-      ]
-    },
-    {
-      "pagina": "revistas-cotejo.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Cotejo"
-      ]
-    },
-    {
-      "pagina": "revistas-dattamagazine.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Datta Magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-espirito-libre.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Espírito Livre"
-      ]
-    },
-    {
-      "pagina": "revistas-essentia-libre.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Essentia Libre"
-      ]
-    },
-    {
-      "pagina": "revistas-code-free.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "CODE:FREE"
-      ]
-    },
-    {
-      "pagina": "revistas-fedora-latam.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Fedora LATAM"
-      ]
-    },
-    {
-      "pagina": "revistas-fent-linux.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Fent Llinux"
-      ]
-    },
-    {
-      "pagina": "revistas-free-tux.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Free Tux"
-      ]
-    },
-    {
-      "pagina": "revistas-gimp-magazine.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "GIMP Magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-gubuntu.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Gubuntu"
-      ]
-    },
-    {
-      "pagina": "revistas-hack-hispano-ezine.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "HackHispano eZine"
-      ]
-    },
-    {
-      "pagina": "revistas-hd.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "HD"
-      ]
-    },
-    {
-      "pagina": "revistas-informatica-libre.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Informática Libre"
-      ]
-    },
-    {
-      "pagina": "revistas-lgm.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Libre Graphics Magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-libreoffice-brasil.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "LOM Brasil"
-      ]
-    },
-    {
-      "pagina": "revistas-libresfera.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Libresfera"
-      ]
-    },
-    {
-      "pagina": "revistas-linvix.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Linvix"
-      ]
-    },
-    {
-      "pagina": "revistas-magazine-zx.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Magazine ZX"
-      ]
-    },
-    {
-      "pagina": "revistas-miniminim.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "MiniMiniM"
-      ]
-    },
-    {
-      "pagina": "revistas-mygnet.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "MyGnet"
-      ]
-    },
-    {
-      "pagina": "revistas-netbeans-magazine.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "NetBeans magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-nibbler.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Nibbler"
-      ]
-    },
-    {
-      "pagina": "revistas-papirux.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Papirux"
-      ]
-    },
-    {
-      "pagina": "revistas-pet.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Python entre todos"
-      ]
-    },
-    {
-      "pagina": "revistas-pixels-and-code.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Pixels and code"
-      ]
-    },
-    {
-      "pagina": "revistas-planetix.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Planetix"
-      ]
-    },
-    {
-      "pagina": "revistas-qlugster.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Qlugster magazine"
-      ]
-    },
-    {
-      "pagina": "revistas-qespisqa.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Qespisqa Kawsay"
-      ]
-    },
-    {
-      "pagina": "revistas-scripta.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Scripta"
-      ]
-    },
-    {
-      "pagina": "revistas-saber-libre.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Saber Libre"
-      ]
-    },
-    {
-      "pagina": "revistas-sl.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Revista SL"
-      ]
-    },
-    {
-      "pagina": "revistas-sl-para-ti.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "SL para ti"
-      ]
-    },
-    {
-      "pagina": "revistas-soflix.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "SofLix"
-      ]
-    },
-    {
-      "pagina": "revistas-the-original-hacker.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "The Original Hacker"
-      ]
-    },
-    {
-      "pagina": "revistas-the-python-papers.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "The Python Papers"
-      ]
-    },
-    {
-      "pagina": "revistas-tuxinfo.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Tuxinfo"
-      ]
-    },
-    {
-      "pagina": "revistas-ubunchu.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Ubunchu"
-      ]
-    },
-    {
-      "pagina": "revistas-uxi.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "Uxi"
-      ]
-    },
-    {
-      "pagina": "revistas-widget.html",
-      "directorio": "revistas-titulos",
-      "revistas": [
-        "WI:DGET"
-      ]
-    }
-  ]
+    "paginas": [
+        {
+            "pagina": "revistas-inactivas.html",
+            "directorio": "",
+            "revistas": [
+                "Custom PC",
+                "Wireframe",
+                "Custom PC Books",
+                "Wireframe Books",
+                "Solo Linux",
+                "DING",
+                "JOLTS",
+                "Solo WordPress",
+                "ODROID Magazine",
+                "Open Source Yearbook",
+                "Atix",
+                "Programar",
+                "LOM Brasil",
+                "Linux Voice",
+                "Aprender para educar",
+                "Libre Graphics Magazine",
+                "Espírito Livre",
+                "The Original Hacker",
+                "GIMP Magazine",
+                "Tuxinfo",
+                "Saber Libre",
+                "WI:DGET",
+                "HD",
+                "Cotejo",
+                "Python entre todos",
+                "Datta Magazine",
+                "CODE:FREE",
+                "Pixels and code",
+                "Libresfera",
+                "Planetix",
+                "Ubunchu",
+                "Fedora LATAM",
+                "Linvix",
+                "HackHispano eZine",
+                "Papirux",
+                "Nibbler",
+                "SL para ti",
+                "Gubuntu",
+                "Magazine ZX",
+                "ALT Magazine",
+                "Informática Libre",
+                "Uxi",
+                "Begins",
+                "SofLix",
+                "The Python Papers",
+                "BrOffice.orgZine",
+                "Scripta",
+                "Revista SL",
+                "Fent Llinux",
+                "NetBeans magazine",
+                "MiniMiniM",
+                "Free Tux",
+                "Essentia Libre",
+                "Qlugster magazine",
+                "Qespisqa Kawsay",
+                ".@vi",
+                "MyGnet"
+            ]
+        },
+        {
+            "pagina": "revistas-aprender-para-educar.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Aprender para educar"
+            ]
+        },
+        {
+            "pagina": "revistas-atix.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Atix"
+            ]
+        },
+        {
+            "pagina": "revistas-bits-de-ciencia.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Bits de Ciencia"
+            ]
+        },
+        {
+            "pagina": "revistas-custom-pc.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Custom PC"
+            ]
+        },
+        {
+            "pagina": "revistas-custom-pc-books.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Custom PC Books"
+            ]
+        },
+        {
+            "pagina": "revistas-ding.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "DING"
+            ]
+        },
+        {
+            "pagina": "revistas-edutec.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Edutec"
+            ]
+        },
+        {
+            "pagina": "revistas-full-circle.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Full Circle"
+            ]
+        },
+        {
+            "pagina": "revistas-full-circle-recopilaciones.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Full Circle (rec)"
+            ]
+        },
+        {
+            "pagina": "revistas-hackspace.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "HackSpace"
+            ]
+        },
+        {
+            "pagina": "revistas-hackspace-books.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "HackSpace Books"
+            ]
+        },
+        {
+            "pagina": "revistas-hello-world.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Hello World"
+            ]
+        },
+        {
+            "pagina": "revistas-hello-world-books.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Hello World Books"
+            ]
+        },
+        {
+            "pagina": "revistas-insecure.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "(In)secure Magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-ifosslr.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "JOLTS"
+            ]
+        },
+        {
+            "pagina": "revistas-linux-voice.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Linux Voice"
+            ]
+        },
+        {
+            "pagina": "revistas-occam.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Occam's Razor"
+            ]
+        },
+        {
+            "pagina": "revistas-odroid.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "ODROID Magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-oii.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Olympiads in informatics"
+            ]
+        },
+        {
+            "pagina": "revistas-osy.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Open Source Yearbook"
+            ]
+        },
+        {
+            "pagina": "revistas-programar.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Programar"
+            ]
+        },
+        {
+            "pagina": "revistas-solo-linux.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Solo Linux"
+            ]
+        },
+        {
+            "pagina": "revistas-solo-wordpress.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Solo WordPress"
+            ]
+        },
+        {
+            "pagina": "revistas-the-magpi.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "The MagPi"
+            ]
+        },
+        {
+            "pagina": "revistas-the-magpi-books.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "The MagPi Books"
+            ]
+        },
+        {
+            "pagina": "revistas-the-r-journal.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "The R Journal"
+            ]
+        },
+        {
+            "pagina": "revistas-pclinuxos.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "The PCLinuxOS Magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-tino.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Tino"
+            ]
+        },
+        {
+            "pagina": "revistas-wireframe.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Wireframe"
+            ]
+        },
+        {
+            "pagina": "revistas-wireframe-books.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Wireframe Books"
+            ]
+        },
+        {
+            "pagina": "revistas-alt-magazine.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "ALT Magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-avi.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                ".@vi"
+            ]
+        },
+        {
+            "pagina": "revistas-begins.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Begins"
+            ]
+        },
+        {
+            "pagina": "revistas-brofficeorgzine.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "BrOffice.orgZine"
+            ]
+        },
+        {
+            "pagina": "revistas-cotejo.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Cotejo"
+            ]
+        },
+        {
+            "pagina": "revistas-dattamagazine.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Datta Magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-espirito-libre.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Espírito Livre"
+            ]
+        },
+        {
+            "pagina": "revistas-essentia-libre.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Essentia Libre"
+            ]
+        },
+        {
+            "pagina": "revistas-code-free.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "CODE:FREE"
+            ]
+        },
+        {
+            "pagina": "revistas-fedora-latam.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Fedora LATAM"
+            ]
+        },
+        {
+            "pagina": "revistas-fent-linux.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Fent Llinux"
+            ]
+        },
+        {
+            "pagina": "revistas-free-tux.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Free Tux"
+            ]
+        },
+        {
+            "pagina": "revistas-gimp-magazine.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "GIMP Magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-gubuntu.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Gubuntu"
+            ]
+        },
+        {
+            "pagina": "revistas-hack-hispano-ezine.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "HackHispano eZine"
+            ]
+        },
+        {
+            "pagina": "revistas-hd.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "HD"
+            ]
+        },
+        {
+            "pagina": "revistas-informatica-libre.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Informática Libre"
+            ]
+        },
+        {
+            "pagina": "revistas-lgm.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Libre Graphics Magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-libreoffice-brasil.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "LOM Brasil"
+            ]
+        },
+        {
+            "pagina": "revistas-libresfera.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Libresfera"
+            ]
+        },
+        {
+            "pagina": "revistas-linvix.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Linvix"
+            ]
+        },
+        {
+            "pagina": "revistas-magazine-zx.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Magazine ZX"
+            ]
+        },
+        {
+            "pagina": "revistas-miniminim.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "MiniMiniM"
+            ]
+        },
+        {
+            "pagina": "revistas-mygnet.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "MyGnet"
+            ]
+        },
+        {
+            "pagina": "revistas-netbeans-magazine.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "NetBeans magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-nibbler.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Nibbler"
+            ]
+        },
+        {
+            "pagina": "revistas-papirux.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Papirux"
+            ]
+        },
+        {
+            "pagina": "revistas-pet.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Python entre todos"
+            ]
+        },
+        {
+            "pagina": "revistas-pixels-and-code.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Pixels and code"
+            ]
+        },
+        {
+            "pagina": "revistas-planetix.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Planetix"
+            ]
+        },
+        {
+            "pagina": "revistas-qlugster.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Qlugster magazine"
+            ]
+        },
+        {
+            "pagina": "revistas-qespisqa.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Qespisqa Kawsay"
+            ]
+        },
+        {
+            "pagina": "revistas-scripta.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Scripta"
+            ]
+        },
+        {
+            "pagina": "revistas-saber-libre.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Saber Libre"
+            ]
+        },
+        {
+            "pagina": "revistas-sl.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Revista SL"
+            ]
+        },
+        {
+            "pagina": "revistas-sl-para-ti.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "SL para ti"
+            ]
+        },
+        {
+            "pagina": "revistas-soflix.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "SofLix"
+            ]
+        },
+        {
+            "pagina": "revistas-the-original-hacker.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "The Original Hacker"
+            ]
+        },
+        {
+            "pagina": "revistas-the-python-papers.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "The Python Papers"
+            ]
+        },
+        {
+            "pagina": "revistas-tuxinfo.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Tuxinfo"
+            ]
+        },
+        {
+            "pagina": "revistas-ubunchu.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Ubunchu"
+            ]
+        },
+        {
+            "pagina": "revistas-uxi.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "Uxi"
+            ]
+        },
+        {
+            "pagina": "revistas-widget.html",
+            "directorio": "revistas-titulos",
+            "revistas": [
+                "WI:DGET"
+            ]
+        }
+    ]
 }
