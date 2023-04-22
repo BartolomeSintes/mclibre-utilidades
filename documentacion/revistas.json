@@ -245,6 +245,22 @@
             "estado": "activa"
         },
         {
+            "nombre-corto": "Tino",
+            "nombre": "Tino",
+            "nombre-largo": "Revista Tino",
+            "web": [
+                [
+                    "https://revista.jovenclub.cu/",
+                    "Revista Tino"
+                ]
+            ],
+            "miniaturas": "../img/revistas/tino/",
+            "archivos": "tino/",
+            "comentario": "",
+            "abreviatura" : "tino",
+            "estado": "activa"
+        },
+        {
             "nombre-corto": "ALT Magazine",
             "nombre": "ALT Magazine",
             "nombre-largo": "ALT Magazine",
@@ -575,7 +591,7 @@
             "web": [
                 [
                     "http://www.hdmagazine.org/",
-                    "Revista HD Hackers & Developers"
+                    "Revista HD Hackers &amp; Developers"
                 ]
             ],
             "miniaturas": "../img/revistas/hackers-and-developers/",
