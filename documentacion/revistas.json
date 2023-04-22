@@ -17,54 +17,6 @@
             "estado": "activa"
         },
         {
-            "nombre-corto": "Custom PC",
-            "nombre": "Custom PC",
-            "nombre-largo": "Custom PC",
-            "web": [
-                [
-                    "https://custompc.raspberrypi.com/",
-                    "Revista Custom PC"
-                ]
-            ],
-            "miniaturas": "../img/revistas/custom-pc/",
-            "archivos": "custom-pc/",
-            "comentario": "",
-            "abreviatura" : "custompc",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "Custom PC Books",
-            "nombre": "Custom PC Books",
-            "nombre-largo": "Revista Custom PC Books",
-            "web": [
-                [
-                    "https://custompc.raspberrypi.com/books",
-                    "Libros Revista Custom PC"
-                ]
-            ],
-            "miniaturas": "../img/revistas/custom-pc-books/",
-            "archivos": "custom-pc-books/",
-            "comentario": "",
-            "abreviatura" : "custompcbooks",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "DING",
-            "nombre": "DING",
-            "nombre-largo": "DING - A magazine about the Internet and Things",
-            "web": [
-                [
-                    "https://dingdingding.org/",
-                    "Revista DING"
-                ]
-            ],
-            "miniaturas": "../img/revistas/ding/",
-            "archivos": "ding/",
-            "comentario": "",
-            "abreviatura" : "ding",
-            "estado": "inactiva"
-        },
-        {
             "nombre-corto": "Edutec",
             "nombre": "Edutec",
             "nombre-largo": "Edutec - Revista Electrónica de Tecnología Educativa",
@@ -209,26 +161,6 @@
             "estado": "activa"
         },
         {
-            "nombre-corto": "ODROID Magazine",
-            "nombre": "ODROID Magazine",
-            "nombre-largo": "ODROID Magazine - Your Source For All Things ODROIDian",
-            "web": [
-                [
-                    "https://magazine.odroid.com/",
-                    "Revista ODROID Magazine (en inglés)"
-                ],
-                [
-                    "https://magazine.odroid.com/es/",
-                    "Revista ODROID Magazine (en español)"
-                ]
-            ],
-            "miniaturas": "../img/revistas/odroid/",
-            "archivos": "odroid/",
-            "comentario": "",
-            "abreviatura" : "odroid",
-            "estado": "activa"
-        },
-        {
             "nombre-corto": "Olympiads in informatics",
             "nombre": "Olympiads in informatics",
             "nombre-largo": "Olympiads in informatics - An International Journal",
@@ -246,54 +178,6 @@
             "archivos": "olympiads-in-informatics/",
             "comentario": "",
             "abreviatura" : "olympiads",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "Open Source Yearbook",
-            "nombre": "Open Source Yearbook",
-            "nombre-largo": "Open Source Yearbook",
-            "web": [
-                [
-                    "https://opensource.com/",
-                    "Anuario Open Source Yearbook"
-                ]
-            ],
-            "miniaturas": "../img/revistas/open-source-yearbook/",
-            "archivos": "open-source-yearbook/",
-            "comentario": "",
-            "abreviatura" : "osyearbook",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "Solo Linux",
-            "nombre": "Solo Linux",
-            "nombre-largo": "Solo Linux",
-            "web": [
-                [
-                    "https://www.sololinux.es/",
-                    "Revista Solo Linux"
-                ]
-            ],
-            "miniaturas": "../img/revistas/solo-linux/",
-            "archivos": "solo-linux/",
-            "comentario": "",
-            "abreviatura" : "sololinux",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "Solo WordPress",
-            "nombre": "Solo WordPress",
-            "nombre-largo": "Solo WordPress",
-            "web": [
-                [
-                    "https://solowordpress.es/",
-                    "Revista Solo WordPress"
-                ]
-            ],
-            "miniaturas": "../img/revistas/solo-wordpress/",
-            "archivos": "solo-wordpress/",
-            "comentario": "",
-            "abreviatura" : "solowordpress",
             "estado": "activa"
         },
         {
@@ -358,38 +242,6 @@
             "archivos": "the-r-journal/",
             "comentario": "",
             "abreviatura" : "rjournal",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "Wireframe",
-            "nombre": "Wireframe",
-            "nombre-largo": "Wireframe - Lifting the lid on video games",
-            "web": [
-                [
-                    "https://wireframe.raspberrypi.com/",
-                    "Revista Wireframe"
-                ]
-            ],
-            "miniaturas": "../img/revistas/wireframe/",
-            "archivos": "wireframe/",
-            "comentario": "",
-            "abreviatura" : "wireframe",
-            "estado": "activa"
-        },
-        {
-            "nombre-corto": "Wireframe Books",
-            "nombre": "Wireframe Books",
-            "nombre-largo": "Wireframe Books",
-            "web": [
-                [
-                    "https://wireframe.raspberrypi.com/books",
-                    "Libros Revista Wireframe"
-                ]
-            ],
-            "miniaturas": "../img/revistas/wireframe-books/",
-            "archivos": "wireframe-books/",
-            "comentario": "",
-            "abreviatura" : "wireframe-books",
             "estado": "activa"
         },
         {
@@ -521,6 +373,38 @@
             "estado": "inactiva"
         },
         {
+            "nombre-corto": "Custom PC",
+            "nombre": "Custom PC",
+            "nombre-largo": "Custom PC",
+            "web": [
+                [
+                    "https://custompc.raspberrypi.com/",
+                    "Revista Custom PC"
+                ]
+            ],
+            "miniaturas": "../img/revistas/custom-pc/",
+            "archivos": "custom-pc/",
+            "comentario": "",
+            "abreviatura" : "custompc",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "Custom PC Books",
+            "nombre": "Custom PC Books",
+            "nombre-largo": "Revista Custom PC Books",
+            "web": [
+                [
+                    "https://custompc.raspberrypi.com/books",
+                    "Libros Revista Custom PC"
+                ]
+            ],
+            "miniaturas": "../img/revistas/custom-pc-books/",
+            "archivos": "custom-pc-books/",
+            "comentario": "",
+            "abreviatura" : "custompcbooks",
+            "estado": "inactiva"
+        },
+        {
             "nombre-corto": "Datta Magazine",
             "nombre": "Dattamagazine.com",
             "nombre-largo": "Dattamagazine.com",
@@ -534,6 +418,22 @@
             "archivos": "dattamagazine/",
             "comentario": "",
             "abreviatura" : "dattamagazine",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "DING",
+            "nombre": "DING",
+            "nombre-largo": "DING - A magazine about the Internet and Things",
+            "web": [
+                [
+                    "https://dingdingding.org/",
+                    "Revista DING"
+                ]
+            ],
+            "miniaturas": "../img/revistas/ding/",
+            "archivos": "ding/",
+            "comentario": "",
+            "abreviatura" : "ding",
             "estado": "inactiva"
         },
         {
@@ -877,6 +777,42 @@
             "estado": "inactiva"
         },
         {
+            "nombre-corto": "ODROID Magazine",
+            "nombre": "ODROID Magazine",
+            "nombre-largo": "ODROID Magazine - Your Source For All Things ODROIDian",
+            "web": [
+                [
+                    "https://magazine.odroid.com/",
+                    "Revista ODROID Magazine (en inglés)"
+                ],
+                [
+                    "https://magazine.odroid.com/es/",
+                    "Revista ODROID Magazine (en español)"
+                ]
+            ],
+            "miniaturas": "../img/revistas/odroid/",
+            "archivos": "odroid/",
+            "comentario": "",
+            "abreviatura" : "odroid",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "Open Source Yearbook",
+            "nombre": "Open Source Yearbook",
+            "nombre-largo": "Open Source Yearbook",
+            "web": [
+                [
+                    "https://opensource.com/",
+                    "Anuario Open Source Yearbook"
+                ]
+            ],
+            "miniaturas": "../img/revistas/open-source-yearbook/",
+            "archivos": "open-source-yearbook/",
+            "comentario": "",
+            "abreviatura" : "osyearbook",
+            "estado": "inactiva"
+        },
+        {
             "nombre-corto": "Papirux",
             "nombre": "Papirux - La revista libre",
             "nombre-largo": "Papirux - La revista libre (2008-2010)",
@@ -1074,6 +1010,38 @@
             "estado": "inactiva"
         },
         {
+            "nombre-corto": "Solo Linux",
+            "nombre": "Solo Linux",
+            "nombre-largo": "Solo Linux",
+            "web": [
+                [
+                    "https://www.sololinux.es/",
+                    "Revista Solo Linux"
+                ]
+            ],
+            "miniaturas": "../img/revistas/solo-linux/",
+            "archivos": "solo-linux/",
+            "comentario": "",
+            "abreviatura" : "sololinux",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "Solo WordPress",
+            "nombre": "Solo WordPress",
+            "nombre-largo": "Solo WordPress",
+            "web": [
+                [
+                    "https://solowordpress.es/",
+                    "Revista Solo WordPress"
+                ]
+            ],
+            "miniaturas": "../img/revistas/solo-wordpress/",
+            "archivos": "solo-wordpress/",
+            "comentario": "",
+            "abreviatura" : "solowordpress",
+            "estado": "inactiva"
+        },
+        {
             "nombre-corto": "The Original Hacker",
             "nombre": "The Original Hacker",
             "nombre-largo": "The Original Hacker (Argentina, 2013-2015)",
@@ -1168,6 +1136,38 @@
             "archivos": "widget/",
             "comentario": "",
             "abreviatura" : "widget",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "Wireframe",
+            "nombre": "Wireframe",
+            "nombre-largo": "Wireframe - Lifting the lid on video games",
+            "web": [
+                [
+                    "https://wireframe.raspberrypi.com/",
+                    "Revista Wireframe"
+                ]
+            ],
+            "miniaturas": "../img/revistas/wireframe/",
+            "archivos": "wireframe/",
+            "comentario": "",
+            "abreviatura" : "wireframe",
+            "estado": "inactiva"
+        },
+        {
+            "nombre-corto": "Wireframe Books",
+            "nombre": "Wireframe Books",
+            "nombre-largo": "Wireframe Books",
+            "web": [
+                [
+                    "https://wireframe.raspberrypi.com/books",
+                    "Libros Revista Wireframe"
+                ]
+            ],
+            "miniaturas": "../img/revistas/wireframe-books/",
+            "archivos": "wireframe-books/",
+            "comentario": "",
+            "abreviatura" : "wireframe-books",
             "estado": "inactiva"
         }
     ]
