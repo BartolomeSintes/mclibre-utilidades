@@ -38,6 +38,7 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   e-ducadores del mundo <https://e-ducadores.org/revista/2022/12/29/la-cuarta-edicion/> Es continuación de Aprender para educar, pero de 4 revistas solo he podido descargar en pdf 2 de ellas.
 -   Revista TINO <https://revista.jovenclub.cu/numeros-de-tino/> hay 86 números, desde el 2007. No parece gran cosa, pero están todos los pdfs en <https://revista.jovenclub.cu/revista-tino-pdf/>
 -   El predecesor de The R Journal se llamaba R news y hay varios años de revista en <https://www.r-project.org/doc/Rnews/index.html>
+-   The Internet Protocol Journal <https://ipj.dreamhosters.com/internet-protocol-journal/issues/back-issues/>
 
 ## Libros para incluir
 
