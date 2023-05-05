@@ -237,9 +237,9 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Curso 2021/22",
+                                "titulo": "Curso 2022/23",
                                 "referencias": [
-                                    "boe-2022-58-o"
+                                    "boe-2023-63-o"
                                 ]
                             }
                         },
@@ -259,11 +259,12 @@
                             "apartado": {
                                 "titulo": "Marco Español de Cualificaciones para la Educación Superior",
                                 "referencias": [
+                                    "boe-2011-776-rd",
                                     "boe-2011-1027-rd",
                                     "boe-2014-96-rd",
-                                    "boe-2014-967-rd",
                                     "boe-2015-22-rd",
-                                    "boe-2015-05-04-res"
+                                    "boe-2015-05-04-res",
+                                    "boe-2022-889-rd"
                                 ]
                             }
                         },
@@ -271,14 +272,12 @@
                             "apartado": {
                                 "titulo": "Cualificaciones Profesionales de Informática",
                                 "referencias": [
-                                    "boe-2002-5-lo",
                                     "boe-2003-1128-rd",
                                     "boe-2004-295-rd",
                                     "boe-2005-1087-rd",
                                     "boe-2005-1416-rd",
                                     "boe-2007-1201-rd",
                                     "boe-2007-1701-rd",
-                                    "boe-2011-776-rd",
                                     "boe-2014-817-rd",
                                     "boe-2015-1636-o",
                                     "boe-2019-479-o-pci",
@@ -476,14 +475,6 @@
                     "introducción": "Esta página contiene NNN referencias legislativas derogadas o vencidas relacionadas con la educación y publicadas en el Boletín Oficial del Estado.",
                     "profundidad": 1,
                     "contenido": [
-                        {
-                            "apartado": {
-                                "titulo": "Marco Español de Cualificaciones para la Educación Superior",
-                                "referencias": [
-                                    "boe-2007-900-rd"
-                                ]
-                            }
-                        },
                         {
                             "apartado": {
                                 "titulo": "Currículos de Formación Profesional",
@@ -697,6 +688,23 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Marco Español de Cualificaciones para la Educación Superior",
+                                "referencias": [
+                                    "boe-2007-900-rd",
+                                    "boe-2014-967-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Cualificaciones Profesionales de Informática",
+                                "referencias": [
+                                    "boe-2002-5-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
                                     "boe-1990-1618-rd",
@@ -715,45 +723,19 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Curso 2020/21",
+                                "titulo": "Pruebas de evaluación final ESO y Bachillerato",
                                 "referencias": [
-                                    "boe-2021-2-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2019/20",
-                                "referencias": [
-                                    "boe-2020-139-o",
-                                    "boe-2020-255-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2018/19",
-                                "referencias": [
-                                    "boe-2019-12-o",
-                                    "boe-2019-196-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2017/18",
-                                "referencias": [
-                                    "boe-2018-42-o",
-                                    "boe-2018-65-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2016/17",
-                                "referencias": [
+
                                     "boe-2016-1941-o",
-                                    "boe-2017-393-o"
+                                    "boe-2017-393-o",
+                                    "boe-2018-42-o",
+                                    "boe-2018-65-o",
+                                    "boe-2019-12-o",
+                                    "boe-2019-196-o",
+                                    "boe-2020-139-o",
+                                    "boe-2020-255-o",
+                                    "boe-2021-2-o",
+                                    "boe-2022-58-o"
                                 ]
                             }
                         },
@@ -853,8 +835,10 @@
                                     "docv-2014-135-d",
                                     "docv-2016-18-o",
                                     "dogv-2017-04-04-res",
+                                    "dogv-2018-03-23-res",
                                     "dogv-2018-05-15-res",
                                     "dogv-2018-05-22-res",
+                                    "dogv-2019-05-10-res",
                                     "dogv-2019-74-d",
                                     "dogv-2020-36-d",
                                     "dogv-2021-2-o",
@@ -1018,6 +1002,7 @@
                                     "dogv-1991-246-d",
                                     "dogv-1992-47-d",
                                     "dogv-1992-115-d",
+                                    "dogv-1993-04-23-o",
                                     "dogv-1993-114-d",
                                     "dogv-1994-186-d",
                                     "dogv-1994-174-d",
@@ -1034,6 +1019,7 @@
                                     "dogv-1998-05-20-res",
                                     "dogv-1998-06-11-o",
                                     "dogv-1998-10-07-o",
+                                    "dogv-1999-06-18-o",
                                     "dogv-1999-86-d",
                                     "dogv-1999-07-14-o",
                                     "dogv-2000-10-d",
@@ -1057,6 +1043,7 @@
                                     "dogv-2004-04-26-o",
                                     "dogv-2004-05-31-o",
                                     "dogv-2004-09-07-o",
+                                    "dogv-2004-10-18-o",
                                     "dogv-2005-01-27-o",
                                     "dogv-2006-03-20-o",
                                     "docv-2007-33-d",
@@ -1064,6 +1051,7 @@
                                     "docv-2007-05-14-o",
                                     "docv-2007-112-d",
                                     "docv-2007-118-d",
+                                    "docv-2007-12-14-o",
                                     "docv-2008-7-d",
                                     "docv-2008-39-d",
                                     "docv-2008-06-27-o",
@@ -1538,7 +1526,7 @@
                                     "boe-2007-25-l",
                                     "celex-2016-679-reg",
                                     "celex-2016-680-dir",
-                                    "boe-2018-16673-lo"
+                                    "boe-2018-3-lo"
                                 ]
                             }
                         },
@@ -1585,13 +1573,12 @@
                             "apartado": {
                                 "titulo": "Esquema Nacional de Seguridad",
                                 "referencias": [
-                                    "boe-2010-3-rd",
                                     "boe-2015-39-l",
-                                    "boe-2015-951-rd",
                                     "boe-2016-10-07-res",
                                     "boe-2016-10-13-res",
                                     "boe-2018-03-27-res",
-                                    "boe-2018-04-13-res"
+                                    "boe-2018-04-13-res",
+                                    "boe-2022-311-rd"
                                 ]
                             }
                         },
@@ -1683,8 +1670,8 @@
                                 "titulo": "Firma electrónica",
                                 "referencias": [
                                     "boe-1999-14-rdl",
-                                    "boe-2003-59-l",
-                                    "celex-2014-910-reg"
+                                    "celex-2014-910-reg",
+                                    "boe-2020-06-l"
                                 ]
                             }
                         },
@@ -1744,15 +1731,18 @@
                                     "boe-2000-03-21-o",
                                     "boe-2000-05-30-res",
                                     "boe-2003-662-o",
+                                    "boe-2003-59-l",
                                     "celex-2003-98-dir",
                                     "boe-2004-292-rd",
                                     "celex-2004-460-reg",
                                     "celex-2006-24-dir",
                                     "boe-2007-11-l",
+                                    "boe-2010-3-rd",
                                     "boe-2011-07-19-3-res",
                                     "boe-2011-11-15-res",
                                     "celex-2013-526-reg",
                                     "celex-2013-37-dir",
+                                    "boe-2015-951-rd",
                                     "celex-2015-2240-dec",
                                     "boe-2018-5-rdl",
                                     "cen-301549-3-1-1-en"
