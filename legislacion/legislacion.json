@@ -23471,57 +23471,6 @@
             ]
         },
         {
-            "id": "boe-2005-424-rd",
-            "incluido": "2020-05-26",
-            "modificado": "",
-            "ámbito": "España",
-            "origen": "BOE",
-            "fecha": "2005-04-29",
-            "vigencia": "vigente",
-            "descripción": "Reglamento de protección de usuarios de comunicaciones electrónicas",
-            "titulo": "Real Decreto 424/2005, de 15 de abril, por el que se aprueba el Reglamento sobre las condiciones para la prestación de servicios de comunicaciones electrónicas, el servicio universal y la protección de los usuarios.",
-            "versiones": [
-                {
-                    "versión": "original",
-                    "fecha": "2005-04-29",
-                    "enlaces": [
-                        {
-                            "formato": "pdf",
-                            "idioma": "es",
-                            "url": "boe/BOE-2005-424-RD-proteccion-usuarios-comunciaciones-electronicas.pdf"
-                        },
-                        {
-                            "formato": "web",
-                            "idioma": "es",
-                            "url": "https://www.boe.es/eli/es/rd/2005/04/15/424"
-                        }
-                    ]
-                },
-                {
-                    "versión": "consolidado",
-                    "fecha": "2018-12-29",
-                    "enlaces": [
-                        {
-                            "formato": "pdf",
-                            "idioma": "es",
-                            "url": "boe/BOE-2005-424-RD-proteccion-usuarios-comunciaciones-electronicas-consolidado-2018-12-29.pdf"
-                        },
-                        {
-                            "formato": "web",
-                            "idioma": "es",
-                            "url": "https://www.boe.es/eli/es/rd/2005/04/15/424/con"
-                        }
-                    ]
-                }
-            ],
-            "claves": [
-                "españa",
-                "real decreto",
-                "protección de usuarios",
-                "comunicaciones electrónicas"
-            ]
-        },
-        {
             "id": "celex-1997-66-dir",
             "incluido": "2020-05-26",
             "modificado": "",
@@ -30885,7 +30834,7 @@
             "fecha": "2021-12-20",
             "vigencia": "vigente",
             "descripción": "Desarrollo oferta integrada FP en IES (CV)",
-            "titulo": "Orden de 25 de noviembre, conjunta, de la Conselleria de Educación, Cultura y Deporte y de la Conselleria de Economía Sostenible, Sectores Productivos, Comercio y Trabajo, por la cual se desarrolla el Decreto 74/2019, de 24 de mayo, del Consell, por el que se determinan los requisitos y el procedimiento de aprobación de la oferta integrada de Formación Profesional en institutos de Educación Secundaria autorizados en la Comunitat Valenciana.",
+            "titulo": "Orden 2/2021, de 25 de noviembre, conjunta, de la Conselleria de Educación, Cultura y Deporte y de la Conselleria de Economía Sostenible, Sectores Productivos, Comercio y Trabajo, por la cual se desarrolla el Decreto 74/2019, de 24 de mayo, del Consell, por el que se determinan los requisitos y el procedimiento de aprobación de la oferta integrada de Formación Profesional en institutos de Educación Secundaria autorizados en la Comunitat Valenciana.",
             "versiones": [
                 {
                     "versión": "original",
@@ -36685,7 +36634,7 @@
             ]
         },
         {
-            "id": "docv-2022-234-d",
+            "id": "dogv-2022-234-d",
             "incluido": "2023-01-05",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -38155,6 +38104,733 @@
                 "educación",
                 "formación profesional",
                 "admisión"
+            ]
+        },
+        {
+            "id": "dogv-2022-53-o",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-09-12",
+            "vigencia": "vigente",
+            "descripción": "Desarrollo del ROF de Conselleria de Educación (CV)",
+            "titulo": "Orden 53/2022, de 7 de septiembre, de la Conselleria de Educación, Cultura y Deporte, por la que se modifica la Orden 9/2021, de 7 de mayo, de la Conselleria de Educación, Cultura y Deporte, de desarrollo del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Deporte.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-09-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-53-O-desarrollo-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2022/09/07/53/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2022/09/07/53/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-53-O-desarrollo-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-53-O-desarrollo-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-2022-07-08-res",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-07-20",
+            "vigencia": "vigente",
+            "descripción": "Catálogo TIC contratado por centro educativos (CV)",
+            "titulo": "Resolución de 8 de julio de 2022, del director general de Tecnologías de la Información y de las Comunicaciones, de la Conselleria de Hacienda y Modelo Económico, por la que se actualiza el anexo del catálogo del equipamiento y productos TIC susceptibles de ser contratados por los centros educativos de la Generalitat.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-07-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-07-08-R-catalogo-tic-contratado-centros.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/6721"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/6721"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-07-08-R-catalogo-tic-contratado-centros-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-07-08-R-catalogo-tic-contratado-centros-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "compras"
+            ]
+        },
+        {
+            "id": "dogv-2022-10-24-res",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-11-10",
+            "vigencia": "vigente",
+            "descripción": "Catálogo TIC contratado por centro educativos (CV)",
+            "titulo": "Resolución de 24 de octubre de 2022, del director general de Tecnologías de la Información y las Comunicaciones, de la Conselleria de Hacienda y Modelo Económico, por la que se actualiza el catálogo de equipamiento y productos TIC susceptible de ser contratado por los centros educativos de la Generalitat.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-11-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-10-24-R-catalogo-tic-contratado-centros.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/9973"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/9973"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-10-24-R-catalogo-tic-contratado-centros-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-10-24-R-catalogo-tic-contratado-centros-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "compras"
+            ]
+        },
+        {
+            "id": "docv-2012-130-d",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-08-27",
+            "vigencia": "vigente",
+            "descripción": "Seguridad de la información de la Generalitat (CV)",
+            "titulo": "Decreto 130/2012, de 24 de agosto, del Consell, por el que se establece la organización de la seguridad de la información de la Generalitat.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-08-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-130-seguridad-informacion-generalitat.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2012/08/24/130/spa"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2012/08/24/130/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-130-seguridad-informacion-generalitat-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-130-seguridad-informacion-generalitat-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "seguridad"
+            ]
+        },
+        {
+            "id": "docv-2012-66-d",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-08-27",
+            "vigencia": "vigente",
+            "descripción": "Seguridad de la información de la Generalitat (CV)",
+            "titulo": "Decreto 66/2012, de 27 de abril, del Consell, por el que se establece la política de seguridad de la información de la Generalitat.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2012-08-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-66-seguridad-informacion-generalitat.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2012/04/27/66/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2012/04/27/66/vci"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2012-66-seguridad-informacion-generalitat-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOCV-2012-66-seguridad-informacion-generalitat-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "seguridad"
+            ]
+        },
+        {
+            "id": "boe-2000-02-21-o",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2000-02-22",
+            "vigencia": "derogado",
+            "descripción": "Acreditación de certificación de firma electrónica",
+            "titulo": "Orden de 21 de febrero de 2000 por la que se aprueba el Reglamento de acreditación de prestadores de servicios de certificación y de certificación de determinados productos de firma electrónica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-02-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2000-02-21-O-acreditacion-firma-electronica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2000/02/21/(1)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "firma electrónica"
+            ]
+        },
+        {
+            "id": "boe-2014-1090-o",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-06-27",
+            "vigencia": "vigente",
+            "descripción": "Calidad de servicio de comunicaciones electrónicas",
+            "titulo": "Orden IET/1090/2014, de 16 de junio, por la que se regulan las condiciones relativas a la calidad de servicio en la prestación de los servicios de comunicaciones electrónicas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-06-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-1090-iet-O-calidad-servicios-comunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2014/06/16/iet1090"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-2006-912-o",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2006-03-31",
+            "vigencia": "derogado",
+            "descripción": "Calidad de servicio de comunicaciones electrónicas",
+            "titulo": "Orden ITC/912/2006, de 29 de marzo, por la que se regulan las condiciones relativas a la calidad de servicio en la prestación de los servicios de comunicaciones electrónicas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2006-03-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-912-itc-O-calidad-servicios-comunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2006/03/29/itc912"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-2005-424-rd",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-04-29",
+            "vigencia": "vigente",
+            "descripción": "Prestación de servicios de comunicaciones electrónicas",
+            "titulo": "Real Decreto 424/2005, de 15 de abril, por el que se aprueba el Reglamento sobre las condiciones para la prestación de servicios de comunicaciones electrónicas, el servicio universal y la protección de los usuarios.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-04-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-424-RD-calidad-servicios-comunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/04/15/424"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2018-12-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-424-RD-calidad-servicios-comunicaciones-consolidado-2018-12-29.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/04/15/424/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-1999-10-14-o",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1999-10-14",
+            "vigencia": "derogado",
+            "descripción": "Calidad de servicio de telecomunicaciones",
+            "titulo": "Orden de 14 de octubre de 1999 por la que se regulan las condiciones de calidad en la prestación de los servicios de telecomunicaciones.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-10-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1999-10-14-O-calidad-servicios-telecomunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1999/10/14/(2)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-2009-899-rd",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2009-05-30",
+            "vigencia": "vigente",
+            "descripción": "Derechos del usuario de comunicaciones electrónicas",
+            "titulo": "Real Decreto 899/2009, de 22 de mayo, por el que se aprueba la carta de derechos del usuario de los servicios de comunicaciones electrónicas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-05-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-899-RD-derechos-usuario-servicios-comunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2009/05/22/899"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "comunicaciones electrónicas",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "boe-2009-329-rd",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2009-04-06",
+            "vigencia": "vigente",
+            "descripción": "Prestación de servicios de comunicaciones electrónicas",
+            "titulo": "Real Decreto 329/2009, de 13 de marzo, por el que se modifica el Reglamento sobre las condiciones para la prestación de servicios de comunicaciones electrónicas, el servicio universal y la protección de los usuarios, aprobado por el Real Decreto 424/2005, de 15 de abril, y el Reglamento sobre mercados de comunicaciones electrónicas, acceso a las redes y numeración, aprobado por Real Decreto 2296/2004, de 10 de diciembre.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2009-04-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-329-RD-proteccion-usuarios-comunicaciones-electronicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2009/03/13/329"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de usuarios",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-2011-726-rd",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-05-24",
+            "vigencia": "vigente",
+            "descripción": "Prestación de servicios de comunicaciones electrónicas",
+            "titulo": "Real Decreto 726/2011, de 20 de mayo, por el que se modifica el Reglamento sobre las condiciones para la prestación de servicios de comunicaciones electrónicas, el servicio universal y la protección de los usuarios, aprobado por Real Decreto 424/2005, de 15 de abril.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-05-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-726-RD-proteccion-usuarios-comunicaciones-electronicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/05/20/726"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "protección de usuarios",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-2004-2296-rd",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2004-12-30",
+            "vigencia": "vigente",
+            "descripción": "Mercado de comunicaciones electrónicas",
+            "titulo": "Real Decreto 2296/2004, de 10 de diciembre, por el que se aprueba el Reglamento sobre mercados de comunicaciones electrónicas, acceso a las redes y numeración.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2004-12-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-2296-RD-mercado-comunicaciones-electronicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/12/10/2296"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2009-06-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-2296-RD-mercado-comunicaciones-electronicas-consolidado-2009-06-11.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/12/10/2296/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-2013-199-o",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2013-02-15",
+            "vigencia": "vigente",
+            "descripción": "Formato datos conservados por operadores",
+            "titulo": "Orden PRE/199/2013, de 29 de enero, por la que se define el formato de entrega de los datos conservados por los operadores de servicios de comunicaciones electrónicas o de redes públicas de comunicaciones a los agentes facultados.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2013-02-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2013-199-O-formato datos-conservados-operadores.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2013/01/29/pre199"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "comunicaciones electrónicas"
+            ]
+        },
+        {
+            "id": "boe-2020-233-rd",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2020-02-06",
+            "vigencia": "vigente",
+            "descripción": "Reconocimiento de cualificaciones profesionales",
+            "titulo": "Real Decreto 233/2020, de 4 de febrero, por el que se modifica el Real Decreto 581/2017, de 9 de junio, por el que se incorpora al ordenamiento jurídico español la Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) n.º 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior (Reglamento IMI).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2020-02-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2020-233-RD-reconocimiento-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2020/02/04/233"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "formación profesional",
+                "cualificaciones",
+                "reconocimiento cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "boe-2021-1129-rd",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2021-12-22",
+            "vigencia": "vigente",
+            "descripción": "Reconocimiento de cualificaciones profesionales",
+            "titulo": "Real Decreto 1129/2021, de 21 de diciembre, por el que se modifica el Real Decreto 581/2017, de 9 de junio, por el que se incorpora al ordenamiento jurídico español la Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) n.º 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior (Reglamento IMI), en relación con el procedimiento de reconocimiento de cualificaciones profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-12-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2021-1129-RD-reconocimiento-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2021/12/21/1129"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "formación profesional",
+                "cualificaciones",
+                "reconocimiento cualificaciones profesionales"
+            ]
+        },
+        {
+            "id": "celex-2018-1972-dir",
+            "incluido": "2023-05-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-12-17",
+            "vigencia": "vigente",
+            "descripción": "Código Europeo de las Comunicaciones Electrónicas",
+            "titulo": "Directiva (UE) 2018/1972 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018, por la que se establece el Código Europeo de las Comunicaciones Electrónicas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2016-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-1972-D-codigo-europeo-comunicaciones-electronicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2002/22/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "accesibilidad",
+                "sector público"
             ]
         }
     ]

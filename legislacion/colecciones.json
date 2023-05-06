@@ -317,7 +317,9 @@
                                 "titulo": "Reconocimiento de Cualificaciones Profesionales",
                                 "referencias": [
                                     "boe-2008-1837-rd",
-                                    "boe-2017-581-rd"
+                                    "boe-2017-581-rd",
+                                    "boe-2020-233-rd",
+                                    "boe-2021-1129-rd"
                                 ]
                             }
                         },
@@ -725,7 +727,6 @@
                             "apartado": {
                                 "titulo": "Pruebas de evaluación final ESO y Bachillerato",
                                 "referencias": [
-
                                     "boe-2016-1941-o",
                                     "boe-2017-393-o",
                                     "boe-2018-42-o",
@@ -979,7 +980,10 @@
                                     "dogv-2021-9-o",
                                     "dogv-2021-17-o",
                                     "dogv-2021-11-29-res",
-                                    "docv-2022-234-d"
+                                    "dogv-2022-07-08-res",
+                                    "dogv-2022-53-o",
+                                    "dogv-2022-10-24-res",
+                                    "dogv-2022-234-d"
                                 ]
                             }
                         }
@@ -1523,10 +1527,21 @@
                                     "boe-1998-07-31-res",
                                     "boe-1999-15-lo",
                                     "boe-2007-1720-rd",
-                                    "boe-2007-25-l",
                                     "celex-2016-679-reg",
                                     "celex-2016-680-dir",
                                     "boe-2018-3-lo"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Protección de datos de las comunicaciones electrónicas",
+                                "referencias": [
+                                    "celex-2002-58-dir",
+                                    "boe-2007-25-l",
+                                    "celex-2009-136-dir",
+                                    "boe-2013-199-o",
+                                    "celex-2021-1232-reg"
                                 ]
                             }
                         },
@@ -1614,17 +1629,6 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Comunicaciones electrónicas",
-                                "referencias": [
-                                    "celex-2002-58-dir",
-                                    "boe-2005-424-rd",
-                                    "celex-2009-136-dir",
-                                    "celex-2021-1232-reg"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
                                 "titulo": "Accesibilidad",
                                 "referencias": [
                                     "boe-2007-1494-rd",
@@ -1639,18 +1643,11 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Protección de datos",
-                                "referencias": [
-                                    "celex-2009-24-dir"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Bases de datos",
+                                "titulo": "Protección jurídica",
                                 "referencias": [
                                     "celex-1996-9-dir",
-                                    "boe-1988-5-l"
+                                    "boe-1988-5-l",
+                                    "celex-2009-24-dir"
                                 ]
                             }
                         },
@@ -1689,6 +1686,29 @@
                                 "referencias": [
                                     "celex-2017-441-con",
                                     "celex-2021-241-4-con"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Seguridad de la información (CV)",
+                                "referencias": [
+                                    "docv-2012-66-d",
+                                    "docv-2012-130-d"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Servicios de comunicaciones electrónicas",
+                                "referencias": [
+                                    "boe-2004-2296-rd",
+                                    "boe-2005-424-rd",
+                                    "boe-2009-329-rd",
+                                    "boe-2009-899-rd",
+                                    "boe-2011-726-rd",
+                                    "boe-2014-1090-o",
+                                    "celex-2018-1972-dir"
                                 ]
                             }
                         },
@@ -1746,6 +1766,23 @@
                                     "celex-2015-2240-dec",
                                     "boe-2018-5-rdl",
                                     "cen-301549-3-1-1-en"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Firma electrónica",
+                                "referencias": [
+                                    "boe-2000-02-21-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Servicios de comunicaciones electrónicas",
+                                "referencias": [
+                                    "boe-1999-10-14-o",
+                                    "boe-2006-912-o"
                                 ]
                             }
                         }
