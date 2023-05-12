@@ -39,6 +39,7 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   Revista TINO <https://revista.jovenclub.cu/numeros-de-tino/> hay 86 números, desde el 2007. No parece gran cosa, pero están todos los pdfs en <https://revista.jovenclub.cu/revista-tino-pdf/>
 -   El predecesor de The R Journal se llamaba R news y hay varios años de revista en <https://www.r-project.org/doc/Rnews/index.html>
 -   The Internet Protocol Journal <https://ipj.dreamhosters.com/internet-protocol-journal/issues/back-issues/>
+-   Supervisión21 publicación de la Unión Sindical de Inspectores de Educación, https://usie.es/supervision21/index.php/Sp21/issue/archive
 
 ## Libros para incluir
 
