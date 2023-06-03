@@ -5578,6 +5578,17 @@
       "creado": "2023-02-03"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 21,
+      "año": 2023,
+      "mes": 5,
+      "portada": "hello-world-21-en-202305.jpg",
+      "fichero": "hello-world-21-en-202305.pdf",
+      "idioma": "inglés",
+      "creado": "2023-06-03"
+    },
+    {
       "serie": "Hello World Books",
       "nombre": "The Big Book of Comupting Pedagogy",
       "número": 1,
