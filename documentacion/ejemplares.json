@@ -749,6 +749,17 @@
       "creado": "2022-11-18"
     },
     {
+      "serie": "Bits de Ciencia",
+      "nombre": "Bits de Ciencia",
+      "número": 24,
+      "año": 2023,
+      "mes": "S1",
+      "portada": "bits-de-ciencia-24-es-2023s1.jpg",
+      "fichero": "bits-de-ciencia-24-es-2023s1.pdf",
+      "idioma": "español",
+      "creado": "2023-06-09"
+    },
+    {
       "serie": "Custom PC",
       "nombre": "Custom PC",
       "número": 214,
@@ -14101,6 +14112,17 @@
       "fichero": "pclinuxos-196-en-202305.pdf",
       "idioma": "inglés",
       "creado": "2023-05-05"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 197,
+      "año": 2023,
+      "mes": 6,
+      "portada": "pclinuxos-197-en-202306.jpg",
+      "fichero": "pclinuxos-197-en-202306.pdf",
+      "idioma": "inglés",
+      "creado": "2023-06-09"
     },
     {
       "serie": "The R Journal",
