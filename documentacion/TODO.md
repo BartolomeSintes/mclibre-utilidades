@@ -49,4 +49,4 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
     https://www.raspberrypi.org/app/uploads/2021/05/Understanding-computing-education-Volume-1-Raspberry-Pi-Foundation-Research-Seminars.pdf
     https://www.raspberrypi.org/blog/research-report-teaching-programming/
 -   https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-es.md
-
+-   https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html
