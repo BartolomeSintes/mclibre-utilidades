@@ -382,7 +382,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2015-06-30",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Plantillas de Secundaria (CV)",
             "titulo": "Orden 69/2015, de 25 de junio, de la Consellería de Educación, Cultura y Deporte, por la que se establecen criterios para la dotación de plantillas y para la determinación de condiciones de trabajo del profesorado de los centros docentes públicos que imparten ESO, Bachillerato y Formación Profesional, dependientes de la consellería competente en materia de educación.",
             "versiones": [
@@ -6262,7 +6262,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2017-10-10",
-            "vigencia": "derogado",
+            "vigencia": "vigente",
             "descripción": "Evaluación en ESO, Bachillerato y FPA (CV)",
             "titulo": "Orden 38/2017, de 4 de octubre, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula la evaluación en Educación Secundaria Obligatoria, en Bachillerato y en las enseñanzas de la Educación de las Personas Adultas en la Comunitat Valenciana.",
             "versiones": [
@@ -9288,7 +9288,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2009-07-07",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Currículo de optativas de Bachillerato (CV)",
             "titulo": "Orden de 17 de junio de 2009, de la Conselleria de Educación, por la que regula las materias optativas en el Bachillerato.",
             "versiones": [
@@ -9340,7 +9340,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2010-09-21",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Atribución de optativas de Bachillerato a departamentos didácticos (CV)",
             "titulo": "Orden 80/2010, de 14 de septiembre, de la Conselleria de Educación, por la que se modifica parcialmente la Orden de 17 de junio de 2009, de la Conselleria de Educación, por la que regula las materias optativas en el Bachillerato.",
             "versiones": [
@@ -9392,7 +9392,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2011-04-14",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Distribución de optativas de Bachillerato (CV)",
             "titulo": "Orden 18/2011, de 1 de abril, de la Conselleria de Educación, por la que se modifica parcialmente la Orden de 17 de junio de 2009, de la Conselleria de Educación, por la que regula las materias optativas en el Bachillerato.",
             "versiones": [
@@ -9443,7 +9443,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2008-06-12",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Currículo de optativas de ESO (CV)",
             "titulo": "Orden de 27 de mayo de 2008, de la Conselleria de Educación, por la que se regulan las materias optativas en la educación secundaria obligatoria.",
             "versiones": [
@@ -9495,7 +9495,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2010-06-29",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Currículo de optativas de ESO (CV)",
             "titulo": "Orden 64/2010, de 16 de junio, de la Conselleria de Educación, por la que se modifica parcialmente la Orden de 27 de mayo de 2008, de la Conselleria de Educación, por la que se regulan las materias optativas en la Educación Secundaria Obligatoria.",
             "versiones": [
@@ -26838,12 +26838,12 @@
                 },
                 {
                     "versión": "consolidado",
-                    "fecha": "2020-02-06",
+                    "fecha": "2021-12-22",
                     "enlaces": [
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-2017-581-RD-reconocimiento-cualificaciones-profesionales-consolidado-2020-02-06.pdf"
+                            "url": "boe/BOE-2017-581-RD-reconocimiento-cualificaciones-profesionales-consolidado-2021-12-22.pdf"
                         },
                         {
                             "formato": "web",
@@ -29014,7 +29014,7 @@
             "incluido": "2021-05-12",
             "modificado": "",
             "ámbito": "España",
-            "origen": "MEC",
+            "origen": "BOE",
             "fecha": "2021-05-10",
             "vigencia": "vigente",
             "descripción": "Decreto del Curso de especialización en Inteligencia Artificial y Big Data",
@@ -29052,7 +29052,7 @@
             "incluido": "2021-05-12",
             "modificado": "",
             "ámbito": "España",
-            "origen": "MEC",
+            "origen": "BOE",
             "fecha": "2021-05-07",
             "vigencia": "vigente",
             "descripción": "Decreto del Curso de especialización de Desarrollo de videojuegos y realidad virtual",
@@ -31311,6 +31311,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/818"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-01-28-R-pruebas-acceso-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-01-28-R-pruebas-acceso-fp-va.rtf"
                         }
                     ]
                 }
@@ -31353,6 +31363,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/1272"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-5-O-ordenacion-fp-dual-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-5-O-ordenacion-fp-dual-va.rtf"
                         }
                     ]
                 }
@@ -31394,6 +31414,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/1129"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-5-D-sexenio-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-5-D-sexenio-va.rtf"
                         }
                     ]
                 }
@@ -32307,6 +32337,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/2086&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-12-O-fct-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-12-O-fct-va.rtf"
                         }
                     ]
                 }
@@ -32468,7 +32508,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2022-06-16",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario escolar 2022/23 (CV)",
             "titulo": "Resolución de 14 de junio de 2022, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2022-2023 en la Comunitat Valenciana.",
             "versiones": [
@@ -36207,7 +36247,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2022-07-15",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 22/23 (CV)",
             "titulo": "Resolución de 12 de julio de 2022, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2022-2023.",
             "versiones": [
@@ -36229,6 +36269,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/6761&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-07-12-R-inicio-curso-secundaria-2223-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-07-12-R-inicio-curso-secundaria-2223-va.rtf"
                         }
                     ]
                 }
@@ -36272,6 +36322,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/6899"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-07-15-R-inicio-curso-fp-2223-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-07-15-R-inicio-curso-fp-2223-va.rtf"
                         }
                     ]
                 }
@@ -36314,6 +36374,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/5235"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-06-02-R-gestion-fct-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-06-02-R-gestion-fct-va.rtf"
                         }
                     ]
                 }
@@ -36355,6 +36425,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/6903"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-07-26-R-programas-cualificacion-basica-2223-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-07-26-R-programas-cualificacion-basica-2223-va.rtf"
                         }
                     ]
                 },
@@ -36376,6 +36456,16 @@
                             "formato": "web",
                             "idioma": "va",
                             "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/7090"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-07-26-R-CO-programas-cualificacion-basica-2223-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2022-07-26-R-CO-programas-cualificacion-basica-2223-va.rtf"
                         }
                     ]
                 }
@@ -36743,7 +36833,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2023/prd-ordenacion-sistema-fp.html"
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/prd-ordenacion-sistema-fp.html"
                         }
                     ]
                 }
@@ -38806,8 +38896,8 @@
             "origen": "DOCE",
             "fecha": "2018-12-17",
             "vigencia": "vigente",
-            "descripción": "Código Europeo de las Comunicaciones Electrónicas",
-            "titulo": "Directiva (UE) 2018/1972 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018, por la que se establece el Código Europeo de las Comunicaciones Electrónicas.",
+            "descripción": "Código Europeo de las Comunicaciones Electrónicas (Directiva servicio universal)",
+            "titulo": "Directiva (UE) 2018/1972 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018, por la que se establece el Código Europeo de las Comunicaciones Electrónicas (Directiva servicio universal).",
             "versiones": [
                 {
                     "versión": "original",
@@ -38829,8 +38919,470 @@
             "claves": [
                 "unión europea",
                 "directiva",
-                "accesibilidad",
-                "sector público"
+                "comunicaciones electrónicas",
+                "servicio universal"
+            ]
+        },
+        {
+            "id": "celex-2002-22-dir",
+            "incluido": "2023-05-07",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2002-04-24",
+            "vigencia": "derogado",
+            "descripción": "Directiva servicio universal",
+            "titulo": "Directiva 2002/22/CE del Parlamento Europeo y del Consejo, de 7 de marzo de 2002, relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas (Directiva servicio universal).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2002-04-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2002-22-D-servicio-universal-comunicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2002/22/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2016-04-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2002-22-D-servicio-universal-comunicaciones-consolidado-2016-04-30.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2002/22/2016-04-30"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "comunicaciones electrónicas",
+                "servicio universal"
+            ]
+        },
+        {
+            "id": "boe-2021-43-rd",
+            "incluido": "2023-05-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2021-01-28",
+            "vigencia": "vigente",
+            "descripción": "Seguridad de las redes y sistemas de información",
+            "titulo": "Real Decreto 43/2021, de 26 de enero, por el que se desarrolla el Real Decreto-ley 12/2018, de 7 de septiembre, de seguridad de las redes y sistemas de información.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-01-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2021-43-RD-seguridad-redes.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2021/01/26/43"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "ley",
+                "seguridad"
+            ]
+        },
+        {
+            "id": "boe-2023-405-rd",
+            "incluido": "2023-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2023-06-03",
+            "vigencia": "vigente",
+            "descripción": "Decreto de actualización Títulos de DAM y DAW",
+            "titulo": "Real Decreto 405/2023, de 29 de mayo, por el que se actualizan los títulos de la formación profesional del sistema educativo de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y Técnico Superior en Desarrollo de Aplicaciones Web, de la familia profesional Informática y Comunicaciones, y se fijan sus enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2023-405-RD-FP-DAM-DAW-actualizacion-titulos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2023/05/29/405"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "dogv-2023-06-14-res",
+            "incluido": "2023-06-25",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-06-20",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar 2023/24 (CV)",
+            "titulo": "Resolución de 14 de junio de 2023, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2023-2024 en la Comunitat Valenciana. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-06-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-06-14-R-calendario-escolar-2324.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/682"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/6827"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-06-14-R-calendario-escolar-2324-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-06-14-R-calendario-escolar-2324-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2023/24"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-06-02-rd",
+            "incluido": "2023-06-25",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-06-02",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Modificación títulos FP de grado superior",
+            "titulo": "PRD complementario al RD xxxx/xxxx, de xx, por el que se desarrolla la ordenación del Sistema de Formación Profesional, de modificación de determinados Reales Decretos por los que se establecen títulos de Formación Profesional de grado superior.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-06-02",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-modificacion-titulos-FP-superior-2023-06-02.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/prd-formacion-profesional-grado-superior.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "ordenación",
+                "títulos"
+            ]
+        },
+        {
+            "id": "dogv-2023-06-27-res",
+            "incluido": "2023-07-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-06-30",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 23/24 (CV)",
+            "titulo": "Resolución de 27 de junio de 2023, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2023-2024.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-06-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-06-27-R-inicio-curso-secundaria-2324.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/7359"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/7359"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-06-27-R-inicio-curso-secundaria-2324-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-06-27-R-inicio-curso-secundaria-2324-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2023/24"
+            ]
+        },
+        {
+            "id": "dogv-2023-19-o",
+            "incluido": "2023-07-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-07-04",
+            "vigencia": "vigente",
+            "descripción": "Procedimientos currículo de Secundaria Obligatoria y Bachillerato (CV)",
+            "titulo": "Orden 19/2023, de 29 de junio, de la Conselleria de Educación, Cultura y Deporte, por la que se regulan los procedimientos derivados del Decreto 107/2022, de 5 de agosto, del Consell, por el que se establecen la ordenación y el currículo de Educación Secundaria Obligatoria, y del Decreto 108/2022, de 5 de agosto, del Consell, por el que se establecen la ordenación y el currículo de Bachillerato, así como la organización y el funcionamiento del Bachillerato nocturno y a distancia en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-07-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-19-O-procedimientos-curriculo-secundaria-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/7514"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/7514"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-19-O-procedimientos-curriculo-secundaria-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-19-O-procedimientos-curriculo-secundaria-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "currículo",
+                "secundaria",
+                "bachillerato"
+            ]
+        },
+        {
+            "id": "dogv-2023-06-29-a",
+            "incluido": "2023-07-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-07-06",
+            "vigencia": "vigente",
+            "descripción": "Plantillas de Secundaria y FP (CV)",
+            "titulo": "Acuerdo de 29 de junio de 2023, del Consell de ratificación del acuerdo subscrito entre la Conselleria de Educación, Cultura y Deporte y las organizaciones sindicales de la mesa sectorial de educación, por el que se pactan los criterios para la dotación de plantillas de profesorado de los centros docentes públicos que imparten eso, bachillerato y formación profesional dependientes de la conselleria competente en materia de educación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-06-29-A-plantillas-secundaria-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/7702&L=0"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "hhttps://dogv.gva.es/va/resultat-dogv?signatura=2023/7702&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-06-29-A-plantillas-secundaria-fp-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-06-29-A-plantillas-secundaria-fp-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2023-10-o",
+            "incluido": "2023-07-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-05-30",
+            "vigencia": "vigente",
+            "descripción": "Organización de la Orientación educativa y profesional (CV)",
+            "titulo": "Orden 10/2023, de 22 de mayo, de la Conselleria de Educación, Cultura y Deporte, por la que se regulan y se concretan determinados aspectos de la organización y el funcionamiento de la orientación educativa y profesional en el sistema educativo valenciano.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-05-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-10-O-orientacion-educativa-profesional.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/5709"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/5709"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-10-O-orientacion-educativa-profesional-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-10-O-orientacion-educativa-profesional-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "inclusión",
+                "orientación",
+                "primaria",
+                "secundaria",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-2023-694-o",
+            "incluido": "2023-07-06",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2023-06-27",
+            "vigencia": "vigente",
+            "descripción": "Creación del Departamento de Informática en Institutos de Secundaria (Ceuta y Melilla)",
+            "titulo": "Orden EFP/694/2023, de 16 de junio, por la que se crean los departamentos didácticos de Informática y de Economía en los Institutos de Educación Secundaria de Ceuta y Melilla.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-06-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2023-694-O-departamento-informatica-ies.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-15051"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ceuta y melilla",
+                "decreto",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "departamento de informática"
             ]
         }
     ]

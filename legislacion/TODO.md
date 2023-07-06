@@ -198,4 +198,22 @@ https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=AL
     -   https://ecommerce-europe.eu/news-item/european-commission-publishes-new-ai-liability-rules/
     -   https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0206
         Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL LAYING DOWN HARMONISED RULES ON ARTIFICIAL INTELLIGENCE (ARTIFICIAL INTELLIGENCE ACT) AND AMENDING CERTAIN UNION LEGISLATIVE ACTS COM/2021/206 final
-    -
+    -   https://www.europarl.europa.eu/doceo/document/TA-9-2023-0069_EN.pdf
+        Data Act. Amendments adopted by the European Parliament on 14 March 2023 on the proposal for a regulation of the European Parliament and of the Council on harmonised rules on fair access to and use of data (Data Act) (COM(2022)0068 – C9-0051/2022 – 2022/0047(COD)
+
+-   2023-03-31. https://xarxatic.com/recopilacion-de-articulos-acerca-de-legislacion-educativa/
+-   2023-04-30. https://blog.cipi.es/blog2-intelectual/item/217-la-transposicion-de-las-directivas-de-la-ue-sobre-propiedad-intelectual
+-   2023-04-30. https://digital-strategy.ec.europa.eu/en
+-   2023-05-09. https://dgtic.gva.es/es/normativa tengo puesta alguna, pero no todas
+-   2023-05-09. https://digital-strategy.ec.europa.eu/en/policies/cyber-solidarity visto en https://devclass.com/2023/04/28/brussels-greenlights-ai-act-chews-over-cyber-resilience-legislation/
+-   2023-06-14. https://valenciaplaza.com/asi-funcionara-el-observatorio-de-la-inteligencia-artificial-de-la-comunitat-valenciana - https://dogv.gva.es/datos/2023/06/13/pdf/2023_6578.pdf - Un chiriguito inútil más
+-   2023-06-15  https://xarxatic.com/dos-documentos-legales-que-como-docentes-de-la-publica-deberiais-tener-siempre-a-mano/ - https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-PB-2022-140
+-   2023-06-29  https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15051 - Orden EFP/694/2023, de 16 de junio, por la que se crean los departamentos didácticos de Informática y de Economía en los Institutos de Educación Secundaria de Ceuta y Melilla.
+
+## Cosas a hacer periódicamente
+
+-   Comprobar si la legislación más antigua está derogada (empezar por la más antigua vigente y avanzar hasta casi el final).
+-   Actualizar las versiones consolidadas del BOE.
+-   Comprobar si hay enlaces permanentes para DOGV.
+-   Comprobar si hay ids repetidos o hay enlaces repetidos
+

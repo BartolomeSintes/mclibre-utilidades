@@ -217,12 +217,12 @@
                                 "referencias": [
                                     "boe-borrador-2021-2-rd",
                                     "boe-borrador-2021-1-rd",
-                                    "boe-borrador-2022-1-rd",
                                     "boe-borrador-2022-06-20-rd",
                                     "boe-borrador-2022-3-rd",
                                     "boe-borrador-2023-01-25-rd",
                                     "boe-borrador-2023-02-20-rd",
-                                    "boe-borrador-2023-03-02-rd"
+                                    "boe-borrador-2023-03-02-rd",
+                                    "boe-borrador-2023-06-02-rd"
                                 ]
                             }
                         },
@@ -299,7 +299,8 @@
                                     "boe-2010-686-rd",
                                     "boe-2020-479-rd",
                                     "boe-2021-261-rd",
-                                    "boe-2021-279-rd"
+                                    "boe-2021-279-rd",
+                                    "boe-2023-405-rd"
                                 ]
                             }
                         },
@@ -772,7 +773,9 @@
                                 "referencias": [
                                     "dogv-2023-01-11-res",
                                     "dogv-2023-03-07-res",
-                                    "dogv-2023-03-15-res"
+                                    "dogv-2023-03-15-res",
+                                    "dogv-2023-06-14-res",
+                                    "dogv-2023-06-27-res"
                                 ]
                             }
                         },
@@ -780,8 +783,6 @@
                             "apartado": {
                                 "titulo": "Curso 2022/23",
                                 "referencias": [
-                                    "dogv-2022-06-14-res",
-                                    "dogv-2022-07-12-res",
                                     "dogv-2022-07-15-res",
                                     "dogv-2022-07-26-res",
                                     "dogv-2023-01-19-res"
@@ -812,14 +813,12 @@
                             "apartado": {
                                 "titulo": "Currículos de Secundaria y Bachillerato",
                                 "referencias": [
-                                    "docv-2008-05-27-o",
-                                    "docv-2009-06-17-o",
-                                    "docv-2010-64-o",
                                     "docv-2015-87-d",
                                     "docv-2015-136-d",
                                     "dogv-2018-51-d",
                                     "dogv-2022-107-d",
-                                    "dogv-2022-108-d"
+                                    "dogv-2022-108-d",
+                                    "dogv-2023-19-o"
                                 ]
                             }
                         },
@@ -943,7 +942,8 @@
                                     "dogv-2021-72-d",
                                     "dogv-2021-09-29-res",
                                     "dogv-2021-10-01-res",
-                                    "dogv-2021-12-23-res"
+                                    "dogv-2021-12-23-res",
+                                    "dogv-2023-10-o"
                                 ]
                             }
                         },
@@ -964,14 +964,12 @@
                                     "dogv-1997-296-d",
                                     "dogv-2000-07-26-res",
                                     "docv-2009-06-04-o",
-                                    "docv-2010-80-o",
-                                    "docv-2011-18-o",
                                     "dogv-2011-51-d",
                                     "docv-2011-32-o",
                                     "docv-2012-108-d",
                                     "docv-2013-183-d",
-                                    "docv-2015-69-o",
                                     "docv-2016-73-d",
+                                    "dogv-2017-38-o",
                                     "dogv-2018-06-28-res",
                                     "dogv-2019-252-d",
                                     "dogv-2020-173-d",
@@ -983,7 +981,8 @@
                                     "dogv-2022-07-08-res",
                                     "dogv-2022-53-o",
                                     "dogv-2022-10-24-res",
-                                    "dogv-2022-234-d"
+                                    "dogv-2022-234-d",
+                                    "dogv-2023-06-29-a"
                                 ]
                             }
                         }
@@ -1058,6 +1057,7 @@
                                     "docv-2007-12-14-o",
                                     "docv-2008-7-d",
                                     "docv-2008-39-d",
+                                    "docv-2008-05-27-o",
                                     "docv-2008-06-27-o",
                                     "docv-2008-102-d",
                                     "docv-2008-07-04-o",
@@ -1067,12 +1067,16 @@
                                     "docv-2009-05-19-2-o",
                                     "docv-2009-05-19-1-o",
                                     "docv-2009-05-04-o",
+                                    "docv-2009-06-17-o",
                                     "docv-2009-06-19-o",
                                     "docv-2009-07-20-o",
-                                    "docv-2010-77-o",
                                     "docv-2009-08-17-2-res",
                                     "docv-2009-08-17-1-res",
+                                    "docv-2010-64-o",
+                                    "docv-2010-77-o",
+                                    "docv-2010-80-o",
                                     "docv-2010-09-15-res",
+                                    "docv-2011-18-o",
                                     "docv-2011-19-o",
                                     "docv-2011-27-o",
                                     "docv-2011-33-o",
@@ -1089,12 +1093,12 @@
                                     "docv-2013-14-o",
                                     "docv-2014-140-d",
                                     "docv-2014-88-o",
+                                    "docv-2015-69-o",
                                     "docv-2015-155-d",
                                     "docv-2016-59-d",
                                     "dogv-2017-9-d",
                                     "dogv-2017-89-d",
                                     "dogv-2017-3-dl",
-                                    "dogv-2017-38-o",
                                     "dogv-2017-186-d",
                                     "dogv-2017-219-d",
                                     "dogv-2019-03-26-res",
@@ -1154,7 +1158,9 @@
                                 "referencias": [
                                     "dogv-2022-01-28-res",
                                     "dogv-2022-03-24-res",
-                                    "dogv-2022-03-28-res"
+                                    "dogv-2022-03-28-res",
+                                    "dogv-2022-06-14-res",
+                                    "dogv-2022-07-12-res"
                                 ]
                             }
                         },
@@ -1455,7 +1461,8 @@
                                     "boe-2007-08-03-res",
                                     "boe-2007-2572-o",
                                     "boe-2008-944-o",
-                                    "boe-2015-1361-o"
+                                    "boe-2015-1361-o",
+                                    "boe-2023-694-o"
                                 ]
                             }
                         }
@@ -1578,6 +1585,7 @@
                                     "boe-2018-12-rdl",
                                     "celex-2019-881-reg",
                                     "boe-2019-14-rdl",
+                                    "boe-2021-43-rd",
                                     "celex-2021-887-reg",
                                     "celex-2022-2554-reg",
                                     "celex-2022-2555-dir"
@@ -1782,6 +1790,7 @@
                                 "titulo": "Servicios de comunicaciones electrónicas",
                                 "referencias": [
                                     "boe-1999-10-14-o",
+                                    "celex-2002-22-dir",
                                     "boe-2006-912-o"
                                 ]
                             }
