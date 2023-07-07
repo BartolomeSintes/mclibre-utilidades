@@ -1970,6 +1970,17 @@
       "creado": "2023-03-24"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 84,
+      "año": 2023,
+      "mes": 6,
+      "portada": "edutec-84-es-202306.jpg",
+      "fichero": "edutec-84-es-202306.pdf",
+      "idioma": "español",
+      "creado": "2023-07-07"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -4124,6 +4135,17 @@
       "fichero": "full-circle-193-en-202305.pdf",
       "idioma": "inglés",
       "creado": "2023-05-27"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 194,
+      "año": 2023,
+      "mes": 6,
+      "portada": "full-circle-194-en-202306.jpg",
+      "fichero": "full-circle-194-en-202306.pdf",
+      "idioma": "inglés",
+      "creado": "2023-07-07"
     },
     {
       "serie": "Full Circle (rec)",
@@ -9034,13 +9056,24 @@
     {
       "serie": "Olympiads in informatics",
       "nombre": "Olympiads in informatics",
-      "número": 12,
+      "número": 16,
       "año": 2022,
       "mes": 6,
       "portada": "olympiads-in-informatics-16-en-202206.jpg",
       "fichero": "olympiads-in-informatics-16-en-202206.pdf",
       "idioma": "inglés",
       "creado": "2022-07-05"
+    },
+    {
+      "serie": "Olympiads in informatics",
+      "nombre": "Olympiads in informatics",
+      "número": 17,
+      "año": 2023,
+      "mes": 7,
+      "portada": "olympiads-in-informatics-17-en-202307.jpg",
+      "fichero": "olympiads-in-informatics-17-en-202307.pdf",
+      "idioma": "inglés",
+      "creado": "2023-07-07"
     },
     {
       "serie": "Open Source Yearbook",
@@ -15454,6 +15487,17 @@
       "fichero": "tino-88-es-202306.pdf",
       "idioma": "español",
       "creado": "2023-05-12"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 89,
+      "año": 2023,
+      "mes": 8,
+      "portada": "tino-89-es-202308.jpg",
+      "fichero": "tino-89-es-202308.pdf",
+      "idioma": "español",
+      "creado": "2023-07-07"
     },
     {
       "serie": "Wireframe",
