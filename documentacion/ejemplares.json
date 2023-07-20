@@ -5336,6 +5336,17 @@
       "creado": "2023-06-16"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 68,
+      "año": 2023,
+      "mes": 7,
+      "portada": "hackspace-68-en-202307.jpg",
+      "fichero": "hackspace-68-en-202307.pdf",
+      "idioma": "inglés",
+      "creado": "2023-07-20"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -11626,6 +11637,17 @@
       "fichero": "the-magpi-130-en-202306.pdf",
       "idioma": "inglés",
       "creado": "2023-06-16"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 131,
+      "año": 2023,
+      "mes": 7,
+      "portada": "the-magpi-131-en-202307.jpg",
+      "fichero": "the-magpi-131-en-202307.pdf",
+      "idioma": "inglés",
+      "creado": "2023-07-20"
     },
     {
       "serie": "The MagPi Books",
