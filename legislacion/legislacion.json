@@ -36300,7 +36300,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2022-07-20",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso FP 22/23 (CV)",
             "titulo": "Resolución de 15 de julio de 2022, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2022-2023 impartan ciclos de Formación Profesional de grado básico, de grado medio, de grado superior y cursos de especialización.",
             "versiones": [
@@ -36403,7 +36403,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2022-07-22",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones programas cualificación básica 22/23 (CV)",
             "titulo": "Resolución de 15 de julio de 2022, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2022-2023.",
             "versiones": [
@@ -39383,6 +39383,257 @@
                 "ESO",
                 "bachillerato",
                 "departamento de informática"
+            ]
+        },
+        {
+            "id": "boe-2017-02-06-res",
+            "incluido": "2023-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2017-02-22",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Máster en Ciencia de Datos (Universidad de Valencia)",
+            "titulo": "Resolución de 6 de febrero de 2017, de la Universitat de València, por la que se publica el plan de estudios de Máster en Ciencia de Datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2017-02-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2017-02-06-RES-plan-estudios-master-ciencia-datos-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-1822"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad de valencia",
+                "plan de estudios",
+                "máster"
+            ]
+        },
+        {
+            "id": "boe-2019-03-21-res",
+            "incluido": "2023-07-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2019-04-11",
+            "vigencia": "vigente",
+            "descripción": "Plan de Estudios Graduado en Ciencia de Datos (Universidad de Valencia)",
+            "titulo": "Resolución de 21 de marzo de 2019, de la Universitat de València, por la que se publica el plan de estudios de Graduado en Ciencia de Datos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-04-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2019-03-21-RES-plan-estudios-graduado-ciencia-datos-uv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-5478"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "resolución",
+                "universidad",
+                "universidad de valencia",
+                "plan de estudios",
+                "grado"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-07-04-rd",
+            "incluido": "2023-07-08",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-07-04",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Modificación títulos FP de grado medio",
+            "titulo": "PRD complementario al RD xxxx/xxxx, de xx, por el que se desarrolla la ordenación del Sistema de Formación Profesional, de modificación de determinados Reales Decretos por los que se establecen títulos de Formación Profesional de grado superior.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-07-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-modificacion-titulos-FP-medio-2023-07-04.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2023/prd-modificacion-reales-decretos.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "ordenación",
+                "títulos"
+            ]
+        },
+        {
+            "id": "boe-2023-659-rd",
+            "incluido": "2023-07-22",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2023-07-22",
+            "vigencia": "vigente",
+            "descripción": "Real Decreto Ordenación del Sistema de Formación Profesional",
+            "titulo": "Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-07-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2023-659-RD-ordenacion-sistema-FP.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-16889"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "dogv-2023-07-06-res",
+            "incluido": "2023-07-22",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-07-13",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso FP 23/24 (CV)",
+            "titulo": "Resolución de 6 de julio de 2023, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones sobre la ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2023-2024 impartan Formación Profesional de grado C, D y E.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-07-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-07-06-R-inicio-curso-fp-2324.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/7821"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/7821"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-07-06-R-inicio-curso-fp-2324-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-07-06-R-inicio-curso-fp-2324-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2023/24"
+            ]
+        },
+        {
+            "id": "dogv-2023-07-06-2-res",
+            "incluido": "2023-07-22",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-07-13",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso programas cualificación básica 23/24 (CV)",
+            "titulo": "Resolución  de 6 de julio de 2023, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2023-2024.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-07-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-07-06-R-inicio-curso-fp-basica-2324.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/res/2023/07/06/(7)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/eli/es-vc/res/2023/07/06/(7)/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-07-06-R-inicio-curso-fp-basica-2324-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-07-06-R-inicio-curso-fp-basica-2324-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2023/24"
             ]
         }
     ]

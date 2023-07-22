@@ -220,9 +220,9 @@
                                     "boe-borrador-2022-06-20-rd",
                                     "boe-borrador-2022-3-rd",
                                     "boe-borrador-2023-01-25-rd",
-                                    "boe-borrador-2023-02-20-rd",
                                     "boe-borrador-2023-03-02-rd",
-                                    "boe-borrador-2023-06-02-rd"
+                                    "boe-borrador-2023-06-02-rd",
+                                    "boe-borrador-2023-07-04-rd"
                                 ]
                             }
                         },
@@ -358,7 +358,8 @@
                                     "boe-1998-777-rd",
                                     "boe-2011-1147-rd",
                                     "boe-2022-3-lo",
-                                    "boe-2023-278-rd"
+                                    "boe-2023-278-rd",
+                                    "boe-2023-659-rd"
                                 ]
                             }
                         },
@@ -445,7 +446,9 @@
                                     "boe-2011-03-23-res",
                                     "boe-2011-07-18-res",
                                     "boe-2015-05-20-res",
+                                    "boe-2017-02-06-res",
                                     "boe-2018-03-05-res",
+                                    "boe-2019-03-21-res",
                                     "boe-2022-11-16-res"
                                 ]
                             }
@@ -775,7 +778,9 @@
                                     "dogv-2023-03-07-res",
                                     "dogv-2023-03-15-res",
                                     "dogv-2023-06-14-res",
-                                    "dogv-2023-06-27-res"
+                                    "dogv-2023-06-27-res",
+                                    "dogv-2023-07-06-res",
+                                    "dogv-2023-07-06-2-res"
                                 ]
                             }
                         },
@@ -783,8 +788,6 @@
                             "apartado": {
                                 "titulo": "Curso 2022/23",
                                 "referencias": [
-                                    "dogv-2022-07-15-res",
-                                    "dogv-2022-07-26-res",
                                     "dogv-2023-01-19-res"
                                 ]
                             }
@@ -1160,7 +1163,9 @@
                                     "dogv-2022-03-24-res",
                                     "dogv-2022-03-28-res",
                                     "dogv-2022-06-14-res",
-                                    "dogv-2022-07-12-res"
+                                    "dogv-2022-07-12-res",
+                                    "dogv-2022-07-15-res",
+                                    "dogv-2022-07-26-res"
                                 ]
                             }
                         },
