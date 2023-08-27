@@ -4145,18 +4145,29 @@
       "portada": "full-circle-194-en-202306.jpg",
       "fichero": "full-circle-194-en-202306.pdf",
       "idioma": "inglés",
-      "creado": "2023-07-30"
+      "creado": "2023-07-07"
     },
     {
       "serie": "Full Circle",
       "nombre": "Full Circle",
-      "número": 194,
+      "número": 195,
       "año": 2023,
-      "mes": 6,
-      "portada": "full-circle-194-en-202306.jpg",
-      "fichero": "full-circle-194-en-202306.pdf",
+      "mes": 7,
+      "portada": "full-circle-195-en-202307.jpg",
+      "fichero": "full-circle-195-en-202307.pdf",
       "idioma": "inglés",
-      "creado": "2023-07-07"
+      "creado": "2023-08-04"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 196,
+      "año": 2023,
+      "mes": 8,
+      "portada": "full-circle-196-en-202308.jpg",
+      "fichero": "full-circle-196-en-202308.pdf",
+      "idioma": "inglés",
+      "creado": "2023-08-27"
     },
     {
       "serie": "Full Circle (rec)",
@@ -5356,6 +5367,17 @@
       "fichero": "hackspace-68-en-202307.pdf",
       "idioma": "inglés",
       "creado": "2023-07-20"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 69,
+      "año": 2023,
+      "mes": 8,
+      "portada": "hackspace-69-en-202308.jpg",
+      "fichero": "hackspace-69-en-202308.pdf",
+      "idioma": "inglés",
+      "creado": "2023-08-27"
     },
     {
       "serie": "HackSpace Books",
@@ -11659,6 +11681,17 @@
       "fichero": "the-magpi-131-en-202307.pdf",
       "idioma": "inglés",
       "creado": "2023-07-20"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 132,
+      "año": 2023,
+      "mes": 8,
+      "portada": "the-magpi-132-en-202308.jpg",
+      "fichero": "the-magpi-132-en-202308.pdf",
+      "idioma": "inglés",
+      "creado": "2023-08-27"
     },
     {
       "serie": "The MagPi Books",
