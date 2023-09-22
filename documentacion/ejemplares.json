@@ -5380,6 +5380,17 @@
       "creado": "2023-08-27"
     },
     {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 70,
+      "año": 2023,
+      "mes": 9,
+      "portada": "hackspace-70-en-202309.jpg",
+      "fichero": "hackspace-70-en-202309.pdf",
+      "idioma": "inglés",
+      "creado": "2023-09-22"
+    },
+    {
       "serie": "HackSpace Books",
       "nombre": "Wearable Tech Projects",
       "número": 1,
@@ -11694,6 +11705,17 @@
       "creado": "2023-08-27"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 133,
+      "año": 2023,
+      "mes": 9,
+      "portada": "the-magpi-133-en-202309.jpg",
+      "fichero": "the-magpi-133-en-202309.pdf",
+      "idioma": "inglés",
+      "creado": "2023-09-22"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -15597,6 +15619,17 @@
       "fichero": "tino-89-es-202308.pdf",
       "idioma": "español",
       "creado": "2023-07-07"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 90,
+      "año": 2023,
+      "mes": 9,
+      "portada": "tino-90-es-202309.jpg",
+      "fichero": "tino-90-es-202309.pdf",
+      "idioma": "español",
+      "creado": "2023-09-22"
     },
     {
       "serie": "Wireframe",
