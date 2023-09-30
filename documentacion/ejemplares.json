@@ -1981,6 +1981,17 @@
       "creado": "2023-07-07"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 85,
+      "año": 2023,
+      "mes": 9,
+      "portada": "edutec-85-es-202309.jpg",
+      "fichero": "edutec-85-es-202309.pdf",
+      "idioma": "español",
+      "creado": "2023-09-30"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -4168,6 +4179,17 @@
       "fichero": "full-circle-196-en-202308.pdf",
       "idioma": "inglés",
       "creado": "2023-08-27"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 197,
+      "año": 2023,
+      "mes": 9,
+      "portada": "full-circle-197-en-202309.jpg",
+      "fichero": "full-circle-197-en-202309.pdf",
+      "idioma": "inglés",
+      "creado": "2023-09-30"
     },
     {
       "serie": "Full Circle (rec)",
@@ -14629,6 +14651,17 @@
       "fichero": "the-r-journal-30-en-202212.pdf",
       "idioma": "inglés",
       "creado": "2023-03-03"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 15 nº 1",
+      "año": 2023,
+      "mes": 3,
+      "portada": "the-r-journal-31-en-202303.jpg",
+      "fichero": "the-r-journal-31-en-202303.pdf",
+      "idioma": "inglés",
+      "creado": "2023-09-30"
     },
     {
       "serie": "Tino",
