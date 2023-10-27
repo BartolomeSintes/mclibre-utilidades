@@ -760,6 +760,17 @@
       "creado": "2023-06-09"
     },
     {
+      "serie": "Bits de Ciencia",
+      "nombre": "Bits de Ciencia",
+      "número": 25,
+      "año": 2023,
+      "mes": "S2",
+      "portada": "bits-de-ciencia-25-es-2023s2.jpg",
+      "fichero": "bits-de-ciencia-25-es-2023s2.pdf",
+      "idioma": "español",
+      "creado": "2023-10-27"
+    },
+    {
       "serie": "Custom PC",
       "nombre": "Custom PC",
       "número": 214,
@@ -5719,6 +5730,17 @@
       "fichero": "hello-world-21-en-202305.pdf",
       "idioma": "inglés",
       "creado": "2023-06-03"
+    },
+    {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 22,
+      "año": 2023,
+      "mes": 10,
+      "portada": "hello-world-22-en-202310.jpg",
+      "fichero": "hello-world-22-en-202310.pdf",
+      "idioma": "inglés",
+      "creado": "2023-10-27"
     },
     {
       "serie": "Hello World Books",
