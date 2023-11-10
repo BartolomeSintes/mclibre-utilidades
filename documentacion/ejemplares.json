@@ -14389,6 +14389,17 @@
       "creado": "2023-10-07"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 202,
+      "año": 2023,
+      "mes": 11,
+      "portada": "pclinuxos-202-en-202311.jpg",
+      "fichero": "pclinuxos-202-en-202311.pdf",
+      "idioma": "inglés",
+      "creado": "2023-11-10"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -15729,6 +15740,17 @@
       "fichero": "tino-90-es-202309.pdf",
       "idioma": "español",
       "creado": "2023-09-22"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 91,
+      "año": 2023,
+      "mes": 11,
+      "portada": "tino-91-es-202311.jpg",
+      "fichero": "tino-91-es-202311.pdf",
+      "idioma": "español",
+      "creado": "2023-11-10"
     },
     {
       "serie": "Wireframe",
