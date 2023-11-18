@@ -64,7 +64,7 @@ ORDENA_ESPECIAL_3 = 3 # Para ordenar banderas
 DIRECTORIO_TWEMOJI = "D:\\Descargas\\TWEMOJI\\twemoji-14-0-2-220331\\assets\\svg"
 
 # Noto
-DIRECTORIO_NOTO = "D:\\Descargas\\GOOGLE NOTO\\noto-emoji-2.038\\svg"
+DIRECTORIO_NOTO = "D:\\Descargas\\GOOGLE NOTO\\noto-emoji-main-2022-09-16\\svg"
 
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]
@@ -75,8 +75,8 @@ uc_importacion_1 = ["0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12
 uc_importacion_2 = ["0.0", "0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0"]
 uc_importacion_3 = ["2.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0"]
 uc_importacion_4 = ["0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "13.0", "13.1", "14.0", "15.0"]
-uc_versiones_marcadas = ["13.0", "13.1", "14.0", "15.0"]
-uc_versiones_years = { 13: "2020", '13.1': "2020", 14: "2021", 15: "15" }
+uc_versiones_marcadas = ["6.1", "6.2", "6.3", "7.0", "8.0", "9.0", "10.0", "11.0", "12.0", "13.0", "13.1", "14.0", "15.0"]
+uc_versiones_years = {  "6.1": 2012, "6.2": 2012, "6.3": 2013, 7: 2014, 8: 2015, 9:2016, 10: 2017, 11: 2018, 12: 2019, "12.1": 2019, 13: "2020", '13.1': "2020", 14: "2021", 15: "15" }
 uc_property = ["Emoji", "Emoji_Presentation", "Emoji_Modifier", "Emoji_Modifier_Base", "Emoji_Component", "Extended_Pictographic", "Extended_Pictographic"]
 uc_style = ["emoji style", "text style"]
 uc_type_sequence = ["RGI_Emoji_ZWJ_Sequence"]
