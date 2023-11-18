@@ -1,0 +1,18 @@
+2023-11-16
+Estos son los ficheros que hay en la web de Unicode.
+A partir de ellos trabajan mis programas
+
+https://unicode.org/Public/emoji/15.1/
+https://unicode.org/Public/emoji/15.1/emoji-sequences.txt
+https://unicode.org/Public/emoji/15.1/emoji-test.txt
+https://unicode.org/Public/emoji/15.1/emoji-zwj-sequences.txt
+
+https://www.unicode.org/Public/15.1.0/ucd/emoji/
+https://www.unicode.org/Public/15.1.0/ucd/emoji/emoji-data.txt
+https://www.unicode.org/Public/15.1.0/ucd/emoji/emoji-variation-sequences.txt
+https://www.unicode.org/Public/15.1.0/ucd/extracted/DerivedName.txt
+
+https://www.unicode.org/emoji/charts/full-emoji-list.html
+https://www.unicode.org/emoji/charts/full-emoji-modifiers.html
+
+- - - - - -

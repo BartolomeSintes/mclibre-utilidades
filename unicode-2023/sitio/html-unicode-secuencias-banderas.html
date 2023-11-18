@@ -1,0 +1,4226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Banderas y otras. Secuencias Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
+  <link rel="icon" href="../varios/favicon.svg">
+  <style>
+    div.u-l {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+    }
+
+    div.u,
+    div.u2 {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 210px;
+      margin: 5px;
+      border: black 1px solid;
+      text-align: center;
+    }
+
+    div.u2 {
+      flex: 0 1 280px;
+    }
+
+    div.u p:nth-child(odd),
+    div.u2 p:nth-child(odd) {
+      background-color: #eee;
+    }
+
+    div.u p,
+    div.u2 p {
+      margin: 0;
+      padding: 5px 10px;
+    }
+
+    div.u p.uc,
+    div.u2 p.uc {
+      font-weight: bold;
+    }
+
+    span.ve {
+      float: right;
+    }
+
+    div.u p.si,
+    div.u2 p.si {
+      font-family: sans-serif;
+      font-size: 80px;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    div.u span.ss,
+    div.u2 span.ss {
+      font-family: sans-serif;
+      padding-right: 20px;
+    }
+
+    p.si span:not(:last-child) {
+      border-right: 2px solid black;
+    }
+
+    div.u .twe,
+    div.u2 .twe {
+      height: 90px;
+      vertical-align: text-bottom;
+    }
+
+    div.u p.no,
+    div.u2 p.no {
+      flex: 1 0 auto;
+      text-transform: uppercase;
+    }
+
+    div.u p.co,
+    div.u2 p.co {
+      font-size: 90%;
+    }
+
+    div.u a,
+    div.u2 a {
+      border: none;
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Secuencias Unicode: Banderas</h1>
+
+  <nav>
+    <p>
+      <a href="../index.html"><img src="../varios/iconos/icono-html.svg" alt="Home" title="Ir a página de inicio" width="42" height="48"></a>
+      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>
+    </p>
+
+    <div class="toc">
+      <h2>Secuencias Banderas</h2>
+
+      <ul>
+        <li><a href="#gr-banderas-regiones">Banderas (regionales)</a></li>
+        <li><a href="#gr-banderas-otras">Otras banderas</a></li>
+        <li><a href="#gr-banderas-paises">Banderas nacionales</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <p>Esta página muestra las imágenes de banderas (y otros) que se pueden conseguir mediante secuencias de caracteres Unicode.</p>
+
+  <p>Para entender esta página se recomienda leer las lecciones:</p>
+  <ul>
+    <li><a href="html-utf8.html">El juego de caracteres UTF-8</a>, que explica qué es un juego de caracteres informático y, concretamente, qué es el juego de caracteres UTF-8.</li>
+    <li><a href="html-entidades-caracter.html">Entidades de carácter y entidades numéricas</a>, que explica cómo incluir caracteres Unicode en una página web</li>
+    <li><a href="html-unicode-secuencias.html">Secuencias</a>, que muestra cómo se definen las secuencias de caracteres Unicode que corresponden a dibujos (banderas, emojis, etc.)</li>
+  </ul>
+
+  <p>Esta página es la sexta de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
+  <ul>
+    <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
+    <li><a href="html-unicode-dibujos.html">Emojis</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
+    <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
+    <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
+    <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
+    <li><a href="html-unicode-secuencias-banderas.html">Banderas</a>, que muestra las secuencias Unicode que corresponden a banderas</li>
+    <li><a href="html-unicode-secuencias-otras.html">Otras</a>, que muestra las secuencias Unicode no incluidas en las páginas anteriores</li>
+    <li><a href="html-unicode-noto.html">Noto Emoji</a>, que muestra los dibujos de emojis de la fuente <a href="https://fonts.google.com/noto/specimen/Noto+Emoji">Google Noto Emoji</a> con licencia libre <a href="https://scripts.sil.org/ofl">SIL Open Font License</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
+    <li><a href="html-unicode-twemoji.html">Twemoji</a>, que muestra los dibujos de emojis creados por el proyecto <a href="https://twemoji.twitter.com/">Twemoji</a> con licencia libre <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
+  </ul>
+
+  <section id="info">
+    <h2>Información contenida en las fichas</h2>
+
+    <p>Las fichas siguientes muestran los dibujos de las secuencias de Unicode que corresponden a banderas. Para cada secuencia se muestra:</p>
+
+    <ul>
+      <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
+      <li>el carácter en la fuente que utilice el sistema operativo o el navegador para mostrar los dibujos. Si no hay un dibujo disponible, el navegador muestra un rectángulo de borde negro que contiene el código Unicode con un tamaño minúsculo.</li>
+      <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
+      <li>el nombre de la secuencia (en inglés)</li>
+      <li>en su caso, información adicional sobre el carácter o la secuencia</li>
+    </ul>
+  </section>
+
+  <section id="gr-banderas-regiones">
+    <h2>Banderas (subdivisiones regionales)</h2>
+
+    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas regionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#gr-banderas-regiones">apartado Banderas (subdivisiones regionales) de la lección Secuencias Unicode</a>.</p>
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">
+          U+1F3F4           U+E0067           U+E0062           U+E0065           U+E006E           U+E0067           U+E007F         </p>
+        <p class="si">&#x1F3F4;&#xE0067;&#xE0062;&#xE0065;&#xE006E;&#xE0067;&#xE007F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#xe0067;&amp;#xe0062;&amp;#xe0065;&amp;#xe006e;&amp;#xe0067;&amp;#xe007f;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127988;&amp;#917607;&amp;#917602;&amp;#917605;&amp;#917614;&amp;#917607;&amp;#917631;</strong>
+        </p>
+        <p class="no">flag: England</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F3F4           U+E0067           U+E0062           U+E0073           U+E0063           U+E0074           U+E007F         </p>
+        <p class="si">&#x1F3F4;&#xE0067;&#xE0062;&#xE0073;&#xE0063;&#xE0074;&#xE007F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#xe0067;&amp;#xe0062;&amp;#xe0073;&amp;#xe0063;&amp;#xe0074;&amp;#xe007f;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127988;&amp;#917607;&amp;#917602;&amp;#917619;&amp;#917603;&amp;#917620;&amp;#917631;</strong>
+        </p>
+        <p class="no">flag: Scotland</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F3F4           U+E0067           U+E0062           U+E0077           U+E006C           U+E0073           U+E007F         </p>
+        <p class="si">&#x1F3F4;&#xE0067;&#xE0062;&#xE0077;&#xE006C;&#xE0073;&#xE007F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#xe0067;&amp;#xe0062;&amp;#xe0077;&amp;#xe006c;&amp;#xe0073;&amp;#xe007f;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127988;&amp;#917607;&amp;#917602;&amp;#917623;&amp;#917612;&amp;#917619;&amp;#917631;</strong>
+        </p>
+        <p class="no">flag: Wales</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="gr-banderas-otras">
+    <h2>Otras banderas</h2>
+
+    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas que no pertenecen a ninguna de las otras categorías. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#gr-banderas-otras">apartado Otras de la lección Secuencias Unicode</a>.</p>
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">
+          U+1F3F3           U+200D           U+1F308         </p>
+        <p class="si">&#x1F3F3;&#x200D;&#x1F308;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#x200d;&amp;#x1f308;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127987;&amp;#8205;&amp;#127752;</strong>
+        </p>
+        <p class="no">rainbow flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          <span class="ve" title="Nuevo en Unicode 13 (2020)">
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 512 512">
+              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" stroke-width="20" stroke="red" />
+              <text x="250" y="320" font-family="sans-serif" font-size="240" font-weight="bold" text-anchor="middle" fill="red">13</text>
+           </svg>
+          </span>
+          U+1F3F3           U+200D           U+26A7         </p>
+        <p class="si">&#x1F3F3;&#x200D;&#x26A7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#x200d;&amp;#x26a7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127987;&amp;#8205;&amp;#9895;</strong>
+        </p>
+        <p class="no">transgender flag</p>
+        <p class="co">
+          No disponible en Windows 10
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          <span class="ve" title="Nuevo en Unicode 13 (2020)">
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 512 512">
+              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" stroke-width="20" stroke="red" />
+              <text x="250" y="320" font-family="sans-serif" font-size="240" font-weight="bold" text-anchor="middle" fill="red">13</text>
+           </svg>
+          </span>
+          U+1F3F3           U+200D           U+26A7           U+FE0F         </p>
+        <p class="si">&#x1F3F3;&#x200D;&#x26A7;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#x200d;&amp;#x26a7;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127987;&amp;#8205;&amp;#9895;&amp;#65039;</strong>
+        </p>
+        <p class="no">transgender flag</p>
+        <p class="co">
+          No disponible en Windows 10
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F3F3           U+FE0F           U+200D           U+1F308         </p>
+        <p class="si">&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#xfe0f;&amp;#x200d;&amp;#x1f308;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127987;&amp;#65039;&amp;#8205;&amp;#127752;</strong>
+        </p>
+        <p class="no">rainbow flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          <span class="ve" title="Nuevo en Unicode 13 (2020)">
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 512 512">
+              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" stroke-width="20" stroke="red" />
+              <text x="250" y="320" font-family="sans-serif" font-size="240" font-weight="bold" text-anchor="middle" fill="red">13</text>
+           </svg>
+          </span>
+          U+1F3F3           U+FE0F           U+200D           U+26A7         </p>
+        <p class="si">&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#xfe0f;&amp;#x200d;&amp;#x26a7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127987;&amp;#65039;&amp;#8205;&amp;#9895;</strong>
+        </p>
+        <p class="no">transgender flag</p>
+        <p class="co">
+          No disponible en Windows 10
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          <span class="ve" title="Nuevo en Unicode 13 (2020)">
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 512 512">
+              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" stroke-width="20" stroke="red" />
+              <text x="250" y="320" font-family="sans-serif" font-size="240" font-weight="bold" text-anchor="middle" fill="red">13</text>
+           </svg>
+          </span>
+          U+1F3F3           U+FE0F           U+200D           U+26A7           U+FE0F         </p>
+        <p class="si">&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f3;&amp;#xfe0f;&amp;#x200d;&amp;#x26a7;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127987;&amp;#65039;&amp;#8205;&amp;#9895;&amp;#65039;</strong>
+        </p>
+        <p class="no">transgender flag</p>
+        <p class="co">
+          No disponible en Windows 10
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F3F4           U+200D           U+2620         </p>
+        <p class="si">&#x1F3F4;&#x200D;&#x2620;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#x200d;&amp;#x2620;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127988;&amp;#8205;&amp;#9760;</strong>
+        </p>
+        <p class="no">pirate flag</p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F3F4           U+200D           U+2620           U+FE0F         </p>
+        <p class="si">&#x1F3F4;&#x200D;&#x2620;&#xFE0F;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f3f4;&amp;#x200d;&amp;#x2620;&amp;#xfe0f;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127988;&amp;#8205;&amp;#9760;&amp;#65039;</strong>
+        </p>
+        <p class="no">pirate flag</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="gr-banderas-paises">
+    <h2>Banderas nacionales</h2>
+
+    <p>En este apartado se muestran las secuencias Unicode que corresponden a banderas nacionales. Estas secuencias se comentan en el <a href="html-unicode-secuencias.html#gr-banderas-paises">apartado Banderas de la lección Secuencias Unicode</a>.</p>
+
+    <div class="u-l">
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1E8         </p>
+        <p class="si">&#x1F1E6;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: Ascension Island</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1E9         </p>
+        <p class="si">&#x1F1E6;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127465;</strong>
+        </p>
+        <p class="no">flag: Andorra</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1EA         </p>
+        <p class="si">&#x1F1E6;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: United Arab Emirates</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1EB         </p>
+        <p class="si">&#x1F1E6;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: Afghanistan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1EC         </p>
+        <p class="si">&#x1F1E6;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Antigua & Barbuda</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1EE         </p>
+        <p class="si">&#x1F1E6;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Anguilla</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1F1         </p>
+        <p class="si">&#x1F1E6;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Albania</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1F2         </p>
+        <p class="si">&#x1F1E6;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Armenia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1F4         </p>
+        <p class="si">&#x1F1E6;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Angola</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1F6         </p>
+        <p class="si">&#x1F1E6;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127478;</strong>
+        </p>
+        <p class="no">flag: Antarctica</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1F7         </p>
+        <p class="si">&#x1F1E6;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Argentina</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1F8         </p>
+        <p class="si">&#x1F1E6;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: American Samoa</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1F9         </p>
+        <p class="si">&#x1F1E6;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Austria</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1FA         </p>
+        <p class="si">&#x1F1E6;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Australia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1FC         </p>
+        <p class="si">&#x1F1E6;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Aruba</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1FD         </p>
+        <p class="si">&#x1F1E6;&#x1F1FD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1fd;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127485;</strong>
+        </p>
+        <p class="no">flag: Åland Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E6           U+1F1FF         </p>
+        <p class="si">&#x1F1E6;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e6;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127462;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Azerbaijan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1E6         </p>
+        <p class="si">&#x1F1E7;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Bosnia & Herzegovina</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1E7         </p>
+        <p class="si">&#x1F1E7;&#x1F1E7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1e7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127463;</strong>
+        </p>
+        <p class="no">flag: Barbados</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1E9         </p>
+        <p class="si">&#x1F1E7;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127465;</strong>
+        </p>
+        <p class="no">flag: Bangladesh</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1EA         </p>
+        <p class="si">&#x1F1E7;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Belgium</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1EB         </p>
+        <p class="si">&#x1F1E7;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: Burkina Faso</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1EC         </p>
+        <p class="si">&#x1F1E7;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Bulgaria</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1ED         </p>
+        <p class="si">&#x1F1E7;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: Bahrain</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1EE         </p>
+        <p class="si">&#x1F1E7;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Burundi</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1EF         </p>
+        <p class="si">&#x1F1E7;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127471;</strong>
+        </p>
+        <p class="no">flag: Benin</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1F1         </p>
+        <p class="si">&#x1F1E7;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: St. Barthélemy</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1F2         </p>
+        <p class="si">&#x1F1E7;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Bermuda</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1F3         </p>
+        <p class="si">&#x1F1E7;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: Brunei</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1F4         </p>
+        <p class="si">&#x1F1E7;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Bolivia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1F6         </p>
+        <p class="si">&#x1F1E7;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127478;</strong>
+        </p>
+        <p class="no">flag: Caribbean Netherlands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1F7         </p>
+        <p class="si">&#x1F1E7;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Brazil</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1F8         </p>
+        <p class="si">&#x1F1E7;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: Bahamas</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1F9         </p>
+        <p class="si">&#x1F1E7;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Bhutan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1FB         </p>
+        <p class="si">&#x1F1E7;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127483;</strong>
+        </p>
+        <p class="no">flag: Bouvet Island</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1FC         </p>
+        <p class="si">&#x1F1E7;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Botswana</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1FE         </p>
+        <p class="si">&#x1F1E7;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Belarus</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E7           U+1F1FF         </p>
+        <p class="si">&#x1F1E7;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e7;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127463;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Belize</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1E6         </p>
+        <p class="si">&#x1F1E8;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Canada</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1E8         </p>
+        <p class="si">&#x1F1E8;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: Cocos (Keeling) Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1E9         </p>
+        <p class="si">&#x1F1E8;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127465;</strong>
+        </p>
+        <p class="no">flag: Congo - Kinshasa</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1EB         </p>
+        <p class="si">&#x1F1E8;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: Central African Republic</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1EC         </p>
+        <p class="si">&#x1F1E8;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Congo - Brazzaville</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1ED         </p>
+        <p class="si">&#x1F1E8;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: Switzerland</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1EE         </p>
+        <p class="si">&#x1F1E8;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Côte d’Ivoire</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1F0         </p>
+        <p class="si">&#x1F1E8;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Cook Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1F1         </p>
+        <p class="si">&#x1F1E8;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Chile</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1F2         </p>
+        <p class="si">&#x1F1E8;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Cameroon</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1F3         </p>
+        <p class="si">&#x1F1E8;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: China</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1F4         </p>
+        <p class="si">&#x1F1E8;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Colombia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1F5         </p>
+        <p class="si">&#x1F1E8;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127477;</strong>
+        </p>
+        <p class="no">flag: Clipperton Island</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1F7         </p>
+        <p class="si">&#x1F1E8;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Costa Rica</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1FA         </p>
+        <p class="si">&#x1F1E8;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Cuba</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1FB         </p>
+        <p class="si">&#x1F1E8;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127483;</strong>
+        </p>
+        <p class="no">flag: Cape Verde</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1FC         </p>
+        <p class="si">&#x1F1E8;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Curaçao</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1FD         </p>
+        <p class="si">&#x1F1E8;&#x1F1FD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fd;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127485;</strong>
+        </p>
+        <p class="no">flag: Christmas Island</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1FE         </p>
+        <p class="si">&#x1F1E8;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Cyprus</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E8           U+1F1FF         </p>
+        <p class="si">&#x1F1E8;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e8;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127464;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Czechia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E9           U+1F1EA         </p>
+        <p class="si">&#x1F1E9;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127465;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Germany</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E9           U+1F1EC         </p>
+        <p class="si">&#x1F1E9;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127465;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Diego Garcia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E9           U+1F1EF         </p>
+        <p class="si">&#x1F1E9;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127465;&amp;#127471;</strong>
+        </p>
+        <p class="no">flag: Djibouti</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E9           U+1F1F0         </p>
+        <p class="si">&#x1F1E9;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127465;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Denmark</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E9           U+1F1F2         </p>
+        <p class="si">&#x1F1E9;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127465;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Dominica</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E9           U+1F1F4         </p>
+        <p class="si">&#x1F1E9;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127465;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Dominican Republic</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1E9           U+1F1FF         </p>
+        <p class="si">&#x1F1E9;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1e9;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127465;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Algeria</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1E6         </p>
+        <p class="si">&#x1F1EA;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Ceuta & Melilla</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1E8         </p>
+        <p class="si">&#x1F1EA;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: Ecuador</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1EA         </p>
+        <p class="si">&#x1F1EA;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Estonia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1EC         </p>
+        <p class="si">&#x1F1EA;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Egypt</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1ED         </p>
+        <p class="si">&#x1F1EA;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: Western Sahara</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1F7         </p>
+        <p class="si">&#x1F1EA;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Eritrea</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1F8         </p>
+        <p class="si">&#x1F1EA;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: Spain</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1F9         </p>
+        <p class="si">&#x1F1EA;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Ethiopia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EA           U+1F1FA         </p>
+        <p class="si">&#x1F1EA;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ea;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127466;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: European Union</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EB           U+1F1EE         </p>
+        <p class="si">&#x1F1EB;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127467;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Finland</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EB           U+1F1EF         </p>
+        <p class="si">&#x1F1EB;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127467;&amp;#127471;</strong>
+        </p>
+        <p class="no">flag: Fiji</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EB           U+1F1F0         </p>
+        <p class="si">&#x1F1EB;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127467;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Falkland Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EB           U+1F1F2         </p>
+        <p class="si">&#x1F1EB;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127467;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Micronesia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EB           U+1F1F4         </p>
+        <p class="si">&#x1F1EB;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127467;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Faroe Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EB           U+1F1F7         </p>
+        <p class="si">&#x1F1EB;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1eb;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127467;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: France</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1E6         </p>
+        <p class="si">&#x1F1EC;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Gabon</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1E7         </p>
+        <p class="si">&#x1F1EC;&#x1F1E7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1e7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127463;</strong>
+        </p>
+        <p class="no">flag: United Kingdom</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1E9         </p>
+        <p class="si">&#x1F1EC;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127465;</strong>
+        </p>
+        <p class="no">flag: Grenada</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1EA         </p>
+        <p class="si">&#x1F1EC;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Georgia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1EB         </p>
+        <p class="si">&#x1F1EC;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: French Guiana</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1EC         </p>
+        <p class="si">&#x1F1EC;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Guernsey</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1ED         </p>
+        <p class="si">&#x1F1EC;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: Ghana</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1EE         </p>
+        <p class="si">&#x1F1EC;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Gibraltar</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1F1         </p>
+        <p class="si">&#x1F1EC;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Greenland</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1F2         </p>
+        <p class="si">&#x1F1EC;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Gambia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1F3         </p>
+        <p class="si">&#x1F1EC;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: Guinea</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1F5         </p>
+        <p class="si">&#x1F1EC;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127477;</strong>
+        </p>
+        <p class="no">flag: Guadeloupe</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1F6         </p>
+        <p class="si">&#x1F1EC;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127478;</strong>
+        </p>
+        <p class="no">flag: Equatorial Guinea</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1F7         </p>
+        <p class="si">&#x1F1EC;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Greece</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1F8         </p>
+        <p class="si">&#x1F1EC;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: South Georgia & South Sandwich Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1F9         </p>
+        <p class="si">&#x1F1EC;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Guatemala</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1FA         </p>
+        <p class="si">&#x1F1EC;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Guam</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1FC         </p>
+        <p class="si">&#x1F1EC;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Guinea-Bissau</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EC           U+1F1FE         </p>
+        <p class="si">&#x1F1EC;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ec;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127468;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Guyana</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1ED           U+1F1F0         </p>
+        <p class="si">&#x1F1ED;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127469;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Hong Kong SAR China</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1ED           U+1F1F2         </p>
+        <p class="si">&#x1F1ED;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127469;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Heard & McDonald Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1ED           U+1F1F3         </p>
+        <p class="si">&#x1F1ED;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127469;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: Honduras</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1ED           U+1F1F7         </p>
+        <p class="si">&#x1F1ED;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127469;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Croatia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1ED           U+1F1F9         </p>
+        <p class="si">&#x1F1ED;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127469;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Haiti</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1ED           U+1F1FA         </p>
+        <p class="si">&#x1F1ED;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ed;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127469;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Hungary</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1E8         </p>
+        <p class="si">&#x1F1EE;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: Canary Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1E9         </p>
+        <p class="si">&#x1F1EE;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127465;</strong>
+        </p>
+        <p class="no">flag: Indonesia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1EA         </p>
+        <p class="si">&#x1F1EE;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Ireland</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1F1         </p>
+        <p class="si">&#x1F1EE;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Israel</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1F2         </p>
+        <p class="si">&#x1F1EE;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Isle of Man</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1F3         </p>
+        <p class="si">&#x1F1EE;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: India</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1F4         </p>
+        <p class="si">&#x1F1EE;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: British Indian Ocean Territory</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1F6         </p>
+        <p class="si">&#x1F1EE;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127478;</strong>
+        </p>
+        <p class="no">flag: Iraq</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1F7         </p>
+        <p class="si">&#x1F1EE;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Iran</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1F8         </p>
+        <p class="si">&#x1F1EE;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: Iceland</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EE           U+1F1F9         </p>
+        <p class="si">&#x1F1EE;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ee;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127470;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Italy</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EF           U+1F1EA         </p>
+        <p class="si">&#x1F1EF;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ef;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127471;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Jersey</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EF           U+1F1F2         </p>
+        <p class="si">&#x1F1EF;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ef;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127471;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Jamaica</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EF           U+1F1F4         </p>
+        <p class="si">&#x1F1EF;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ef;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127471;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Jordan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1EF           U+1F1F5         </p>
+        <p class="si">&#x1F1EF;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ef;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127471;&amp;#127477;</strong>
+        </p>
+        <p class="no">flag: Japan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1EA         </p>
+        <p class="si">&#x1F1F0;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Kenya</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1EC         </p>
+        <p class="si">&#x1F1F0;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Kyrgyzstan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1ED         </p>
+        <p class="si">&#x1F1F0;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: Cambodia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1EE         </p>
+        <p class="si">&#x1F1F0;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Kiribati</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1F2         </p>
+        <p class="si">&#x1F1F0;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Comoros</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1F3         </p>
+        <p class="si">&#x1F1F0;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: St. Kitts & Nevis</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1F5         </p>
+        <p class="si">&#x1F1F0;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127477;</strong>
+        </p>
+        <p class="no">flag: North Korea</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1F7         </p>
+        <p class="si">&#x1F1F0;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: South Korea</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1FC         </p>
+        <p class="si">&#x1F1F0;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Kuwait</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1FE         </p>
+        <p class="si">&#x1F1F0;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Cayman Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F0           U+1F1FF         </p>
+        <p class="si">&#x1F1F0;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f0;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127472;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Kazakhstan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1E6         </p>
+        <p class="si">&#x1F1F1;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Laos</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1E7         </p>
+        <p class="si">&#x1F1F1;&#x1F1E7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1e7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127463;</strong>
+        </p>
+        <p class="no">flag: Lebanon</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1E8         </p>
+        <p class="si">&#x1F1F1;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: St. Lucia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1EE         </p>
+        <p class="si">&#x1F1F1;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Liechtenstein</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1F0         </p>
+        <p class="si">&#x1F1F1;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Sri Lanka</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1F7         </p>
+        <p class="si">&#x1F1F1;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Liberia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1F8         </p>
+        <p class="si">&#x1F1F1;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: Lesotho</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1F9         </p>
+        <p class="si">&#x1F1F1;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Lithuania</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1FA         </p>
+        <p class="si">&#x1F1F1;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Luxembourg</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1FB         </p>
+        <p class="si">&#x1F1F1;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127483;</strong>
+        </p>
+        <p class="no">flag: Latvia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F1           U+1F1FE         </p>
+        <p class="si">&#x1F1F1;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f1;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127473;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Libya</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1E6         </p>
+        <p class="si">&#x1F1F2;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Morocco</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1E8         </p>
+        <p class="si">&#x1F1F2;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: Monaco</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1E9         </p>
+        <p class="si">&#x1F1F2;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127465;</strong>
+        </p>
+        <p class="no">flag: Moldova</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1EA         </p>
+        <p class="si">&#x1F1F2;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Montenegro</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1EB         </p>
+        <p class="si">&#x1F1F2;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: St. Martin</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1EC         </p>
+        <p class="si">&#x1F1F2;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Madagascar</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1ED         </p>
+        <p class="si">&#x1F1F2;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: Marshall Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F0         </p>
+        <p class="si">&#x1F1F2;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: North Macedonia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F1         </p>
+        <p class="si">&#x1F1F2;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Mali</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F2         </p>
+        <p class="si">&#x1F1F2;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Myanmar (Burma)</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F3         </p>
+        <p class="si">&#x1F1F2;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: Mongolia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F4         </p>
+        <p class="si">&#x1F1F2;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Macao SAR China</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F5         </p>
+        <p class="si">&#x1F1F2;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127477;</strong>
+        </p>
+        <p class="no">flag: Northern Mariana Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F6         </p>
+        <p class="si">&#x1F1F2;&#x1F1F6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127478;</strong>
+        </p>
+        <p class="no">flag: Martinique</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F7         </p>
+        <p class="si">&#x1F1F2;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Mauritania</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F8         </p>
+        <p class="si">&#x1F1F2;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: Montserrat</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1F9         </p>
+        <p class="si">&#x1F1F2;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Malta</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1FA         </p>
+        <p class="si">&#x1F1F2;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Mauritius</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1FB         </p>
+        <p class="si">&#x1F1F2;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127483;</strong>
+        </p>
+        <p class="no">flag: Maldives</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1FC         </p>
+        <p class="si">&#x1F1F2;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Malawi</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1FD         </p>
+        <p class="si">&#x1F1F2;&#x1F1FD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fd;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127485;</strong>
+        </p>
+        <p class="no">flag: Mexico</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1FE         </p>
+        <p class="si">&#x1F1F2;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Malaysia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F2           U+1F1FF         </p>
+        <p class="si">&#x1F1F2;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f2;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127474;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Mozambique</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1E6         </p>
+        <p class="si">&#x1F1F3;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Namibia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1E8         </p>
+        <p class="si">&#x1F1F3;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: New Caledonia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1EA         </p>
+        <p class="si">&#x1F1F3;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Niger</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1EB         </p>
+        <p class="si">&#x1F1F3;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: Norfolk Island</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1EC         </p>
+        <p class="si">&#x1F1F3;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Nigeria</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1EE         </p>
+        <p class="si">&#x1F1F3;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Nicaragua</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1F1         </p>
+        <p class="si">&#x1F1F3;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Netherlands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1F4         </p>
+        <p class="si">&#x1F1F3;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Norway</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1F5         </p>
+        <p class="si">&#x1F1F3;&#x1F1F5;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1f5;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127477;</strong>
+        </p>
+        <p class="no">flag: Nepal</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1F7         </p>
+        <p class="si">&#x1F1F3;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Nauru</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1FA         </p>
+        <p class="si">&#x1F1F3;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Niue</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F3           U+1F1FF         </p>
+        <p class="si">&#x1F1F3;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f3;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127475;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: New Zealand</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F4           U+1F1F2         </p>
+        <p class="si">&#x1F1F4;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f4;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127476;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Oman</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1E6         </p>
+        <p class="si">&#x1F1F5;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Panama</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1EA         </p>
+        <p class="si">&#x1F1F5;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Peru</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1EB         </p>
+        <p class="si">&#x1F1F5;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: French Polynesia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1EC         </p>
+        <p class="si">&#x1F1F5;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Papua New Guinea</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1ED         </p>
+        <p class="si">&#x1F1F5;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: Philippines</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1F0         </p>
+        <p class="si">&#x1F1F5;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Pakistan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1F1         </p>
+        <p class="si">&#x1F1F5;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Poland</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1F2         </p>
+        <p class="si">&#x1F1F5;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: St. Pierre & Miquelon</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1F3         </p>
+        <p class="si">&#x1F1F5;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: Pitcairn Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1F7         </p>
+        <p class="si">&#x1F1F5;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Puerto Rico</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1F8         </p>
+        <p class="si">&#x1F1F5;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: Palestinian Territories</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1F9         </p>
+        <p class="si">&#x1F1F5;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Portugal</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1FC         </p>
+        <p class="si">&#x1F1F5;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Palau</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F5           U+1F1FE         </p>
+        <p class="si">&#x1F1F5;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f5;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127477;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Paraguay</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F6           U+1F1E6         </p>
+        <p class="si">&#x1F1F6;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f6;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127478;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Qatar</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F7           U+1F1EA         </p>
+        <p class="si">&#x1F1F7;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127479;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Réunion</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F7           U+1F1F4         </p>
+        <p class="si">&#x1F1F7;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127479;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Romania</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F7           U+1F1F8         </p>
+        <p class="si">&#x1F1F7;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127479;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: Serbia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F7           U+1F1FA         </p>
+        <p class="si">&#x1F1F7;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127479;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Russia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F7           U+1F1FC         </p>
+        <p class="si">&#x1F1F7;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f7;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127479;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Rwanda</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1E6         </p>
+        <p class="si">&#x1F1F8;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Saudi Arabia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1E7         </p>
+        <p class="si">&#x1F1F8;&#x1F1E7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1e7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127463;</strong>
+        </p>
+        <p class="no">flag: Solomon Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1E8         </p>
+        <p class="si">&#x1F1F8;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: Seychelles</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1E9         </p>
+        <p class="si">&#x1F1F8;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127465;</strong>
+        </p>
+        <p class="no">flag: Sudan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1EA         </p>
+        <p class="si">&#x1F1F8;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Sweden</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1EC         </p>
+        <p class="si">&#x1F1F8;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Singapore</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1ED         </p>
+        <p class="si">&#x1F1F8;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: St. Helena</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1EE         </p>
+        <p class="si">&#x1F1F8;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: Slovenia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1EF         </p>
+        <p class="si">&#x1F1F8;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127471;</strong>
+        </p>
+        <p class="no">flag: Svalbard & Jan Mayen</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1F0         </p>
+        <p class="si">&#x1F1F8;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Slovakia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1F1         </p>
+        <p class="si">&#x1F1F8;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Sierra Leone</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1F2         </p>
+        <p class="si">&#x1F1F8;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: San Marino</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1F3         </p>
+        <p class="si">&#x1F1F8;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: Senegal</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1F4         </p>
+        <p class="si">&#x1F1F8;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Somalia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1F7         </p>
+        <p class="si">&#x1F1F8;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Suriname</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1F8         </p>
+        <p class="si">&#x1F1F8;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: South Sudan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1F9         </p>
+        <p class="si">&#x1F1F8;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: São Tomé & Príncipe</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1FB         </p>
+        <p class="si">&#x1F1F8;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127483;</strong>
+        </p>
+        <p class="no">flag: El Salvador</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1FD         </p>
+        <p class="si">&#x1F1F8;&#x1F1FD;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1fd;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127485;</strong>
+        </p>
+        <p class="no">flag: Sint Maarten</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1FE         </p>
+        <p class="si">&#x1F1F8;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Syria</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F8           U+1F1FF         </p>
+        <p class="si">&#x1F1F8;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f8;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127480;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Eswatini</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1E6         </p>
+        <p class="si">&#x1F1F9;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Tristan da Cunha</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1E8         </p>
+        <p class="si">&#x1F1F9;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: Turks & Caicos Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1E9         </p>
+        <p class="si">&#x1F1F9;&#x1F1E9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1e9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127465;</strong>
+        </p>
+        <p class="no">flag: Chad</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1EB         </p>
+        <p class="si">&#x1F1F9;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: French Southern Territories</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1EC         </p>
+        <p class="si">&#x1F1F9;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Togo</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1ED         </p>
+        <p class="si">&#x1F1F9;&#x1F1ED;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1ed;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127469;</strong>
+        </p>
+        <p class="no">flag: Thailand</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1EF         </p>
+        <p class="si">&#x1F1F9;&#x1F1EF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1ef;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127471;</strong>
+        </p>
+        <p class="no">flag: Tajikistan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1F0         </p>
+        <p class="si">&#x1F1F9;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Tokelau</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1F1         </p>
+        <p class="si">&#x1F1F9;&#x1F1F1;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f1;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127473;</strong>
+        </p>
+        <p class="no">flag: Timor-Leste</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1F2         </p>
+        <p class="si">&#x1F1F9;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Turkmenistan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1F3         </p>
+        <p class="si">&#x1F1F9;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: Tunisia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1F4         </p>
+        <p class="si">&#x1F1F9;&#x1F1F4;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f4;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127476;</strong>
+        </p>
+        <p class="no">flag: Tonga</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1F7         </p>
+        <p class="si">&#x1F1F9;&#x1F1F7;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f7;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127479;</strong>
+        </p>
+        <p class="no">flag: Türkiye</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1F9         </p>
+        <p class="si">&#x1F1F9;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Trinidad & Tobago</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1FB         </p>
+        <p class="si">&#x1F1F9;&#x1F1FB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1fb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127483;</strong>
+        </p>
+        <p class="no">flag: Tuvalu</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1FC         </p>
+        <p class="si">&#x1F1F9;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Taiwan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1F9           U+1F1FF         </p>
+        <p class="si">&#x1F1F9;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1f9;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127481;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Tanzania</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FA           U+1F1E6         </p>
+        <p class="si">&#x1F1FA;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127482;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Ukraine</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FA           U+1F1EC         </p>
+        <p class="si">&#x1F1FA;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127482;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: Uganda</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FA           U+1F1F2         </p>
+        <p class="si">&#x1F1FA;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127482;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: U.S. Outlying Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FA           U+1F1F3         </p>
+        <p class="si">&#x1F1FA;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127482;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: United Nations</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FA           U+1F1F8         </p>
+        <p class="si">&#x1F1FA;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127482;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: United States</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FA           U+1F1FE         </p>
+        <p class="si">&#x1F1FA;&#x1F1FE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1fe;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127482;&amp;#127486;</strong>
+        </p>
+        <p class="no">flag: Uruguay</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FA           U+1F1FF         </p>
+        <p class="si">&#x1F1FA;&#x1F1FF;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fa;&amp;#x1f1ff;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127482;&amp;#127487;</strong>
+        </p>
+        <p class="no">flag: Uzbekistan</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FB           U+1F1E6         </p>
+        <p class="si">&#x1F1FB;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127483;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: Vatican City</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FB           U+1F1E8         </p>
+        <p class="si">&#x1F1FB;&#x1F1E8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1e8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127483;&amp;#127464;</strong>
+        </p>
+        <p class="no">flag: St. Vincent & Grenadines</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FB           U+1F1EA         </p>
+        <p class="si">&#x1F1FB;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127483;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Venezuela</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FB           U+1F1EC         </p>
+        <p class="si">&#x1F1FB;&#x1F1EC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1ec;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127483;&amp;#127468;</strong>
+        </p>
+        <p class="no">flag: British Virgin Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FB           U+1F1EE         </p>
+        <p class="si">&#x1F1FB;&#x1F1EE;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1ee;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127483;&amp;#127470;</strong>
+        </p>
+        <p class="no">flag: U.S. Virgin Islands</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FB           U+1F1F3         </p>
+        <p class="si">&#x1F1FB;&#x1F1F3;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1f3;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127483;&amp;#127475;</strong>
+        </p>
+        <p class="no">flag: Vietnam</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FB           U+1F1FA         </p>
+        <p class="si">&#x1F1FB;&#x1F1FA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fb;&amp;#x1f1fa;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127483;&amp;#127482;</strong>
+        </p>
+        <p class="no">flag: Vanuatu</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FC           U+1F1EB         </p>
+        <p class="si">&#x1F1FC;&#x1F1EB;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fc;&amp;#x1f1eb;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127484;&amp;#127467;</strong>
+        </p>
+        <p class="no">flag: Wallis & Futuna</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FC           U+1F1F8         </p>
+        <p class="si">&#x1F1FC;&#x1F1F8;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fc;&amp;#x1f1f8;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127484;&amp;#127480;</strong>
+        </p>
+        <p class="no">flag: Samoa</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FD           U+1F1F0         </p>
+        <p class="si">&#x1F1FD;&#x1F1F0;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fd;&amp;#x1f1f0;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127485;&amp;#127472;</strong>
+        </p>
+        <p class="no">flag: Kosovo</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FE           U+1F1EA         </p>
+        <p class="si">&#x1F1FE;&#x1F1EA;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fe;&amp;#x1f1ea;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127486;&amp;#127466;</strong>
+        </p>
+        <p class="no">flag: Yemen</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FE           U+1F1F9         </p>
+        <p class="si">&#x1F1FE;&#x1F1F9;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1fe;&amp;#x1f1f9;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127486;&amp;#127481;</strong>
+        </p>
+        <p class="no">flag: Mayotte</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FF           U+1F1E6         </p>
+        <p class="si">&#x1F1FF;&#x1F1E6;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ff;&amp;#x1f1e6;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127487;&amp;#127462;</strong>
+        </p>
+        <p class="no">flag: South Africa</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FF           U+1F1F2         </p>
+        <p class="si">&#x1F1FF;&#x1F1F2;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ff;&amp;#x1f1f2;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127487;&amp;#127474;</strong>
+        </p>
+        <p class="no">flag: Zambia</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+      <div class="u">
+        <p class="uc">
+          U+1F1FF           U+1F1FC         </p>
+        <p class="si">&#x1F1FF;&#x1F1FC;</p>
+        <p class="en">
+          Hex:&nbsp;<strong>&amp;#x1f1ff;&amp;#x1f1fc;</strong><br>
+          Dec:&nbsp;<strong>&amp;#127487;&amp;#127484;</strong>
+        </p>
+        <p class="no">flag: Zimbabwe</p>
+        <p class="co">
+          No disponible en Windows 10<br>
+          No disponible en Windows 11
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p class="ultmod">Última modificación de esta página: 18 de noviembre de 2023</p>
+
+    <p class="licencia">
+      <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es"><img src="../varios/iconos/icono-cc-by-sa.svg" alt="Licencia Creative Commons" title="Licencia Creative Commons BY-SA" width="120" height="42"></a><br>
+      Esta página forma parte del curso <strong><a href="https://www.mclibre.org/consultar/htmlcss/">Páginas web HTML y hojas de estilo CSS</a></strong> por <a href="https://www.mclibre.org/" rel="author">Bartolomé Sintes Marco</a><br>
+      que se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">Licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a>.
+    </p>
+  </footer>
+</body>
+</html>

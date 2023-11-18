@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Géneros. Secuencias Unicode. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../varios/htmlcss.css" title="mclibre">
+  <link rel="icon" href="../varios/favicon.svg">
+  <style>
+    div.u-l {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+    }
+
+    div.u,
+    div.u2 {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 210px;
+      margin: 5px;
+      border: black 1px solid;
+      text-align: center;
+    }
+
+    div.u2 {
+      flex: 0 1 280px;
+    }
+
+    div.u p:nth-child(odd),
+    div.u2 p:nth-child(odd) {
+      background-color: #eee;
+    }
+
+    div.u p,
+    div.u2 p {
+      margin: 0;
+      padding: 5px 10px;
+    }
+
+    div.u p.uc,
+    div.u2 p.uc {
+      font-weight: bold;
+    }
+
+    span.ve {
+      float: right;
+    }
+
+    div.u p.si,
+    div.u2 p.si {
+      font-family: sans-serif;
+      font-size: 80px;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    div.u span.ss,
+    div.u2 span.ss {
+      font-family: sans-serif;
+      padding-right: 20px;
+    }
+
+    p.si span:not(:last-child) {
+      border-right: 2px solid black;
+    }
+
+    div.u .twe,
+    div.u2 .twe {
+      height: 90px;
+      vertical-align: text-bottom;
+    }
+
+    div.u p.no,
+    div.u2 p.no {
+      flex: 1 0 auto;
+      text-transform: uppercase;
+    }
+
+    div.u p.co,
+    div.u2 p.co {
+      font-size: 90%;
+    }
+
+    div.u a,
+    div.u2 a {
+      border: none;
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Secuencias Unicode: Géneros</h1>
+
+  <nav>
+    <p>
+      <a href="../index.html"><img src="../varios/iconos/icono-html.svg" alt="Home" title="Ir a página de inicio" width="42" height="48"></a>
+      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36"></a>
+    </p>
+
+    <div class="toc">
+      <h2>Secuencias Géneros</h2>
+
+      <ul>
+        <li><a href="#gr-genero-1">Géneros (1)</a></li>
+        <li><a href="#gr-genero-2">Géneros (2)</a></li>
+        <li><a href="#gr-genero-3">Géneros (3)</a></li>
+        <li><a href="#gr-genero-4">Géneros (4)</a></li>
+        <li><a href="#gr-genero-5">Géneros (5)</a></li>
+        <li><a href="#gr-genero-6">Géneros (6)</a></li>
+        <li><a href="#gr-genero-7">Géneros (7)</a></li>
+        <li><a href="#gr-genero-8">Géneros (8)</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <p>Esta página muestra los dibujos de personas con género (masculino o femenino) que se pueden conseguir mediante secuencias de caracteres Unicode.</p>
+
+  <p>Para entender esta página se recomienda leer las lecciones:</p>
+  <ul>
+    <li><a href="html-utf8.html">El juego de caracteres UTF-8</a>, que explica qué es un juego de caracteres informático y, concretamente, qué es el juego de caracteres UTF-8.</li>
+    <li><a href="html-entidades-caracter.html">Entidades de carácter y entidades numéricas</a>, que explica cómo incluir caracteres Unicode en una página web</li>
+    <li><a href="html-unicode-secuencias.html">Secuencias</a>, que muestra cómo se definen las secuencias de caracteres Unicode que corresponden a dibujos (banderas, emojis, etc.)</li>
+  </ul>
+
+  <p>Esta página es la tercera de un grupo de páginas que muestran diferentes símbolos Unicode agrupados por temas:</p>
+  <ul>
+    <li><a href="html-unicode-simbolos.html">Símbolos gráficos</a>, que muestra los caracteres Unicode que corresponden a símbolos gráficos (incluye tanto los símbolos en blanco y negro como los emojis que tiene versión en modo texto)</li>
+    <li><a href="html-unicode-dibujos.html">Emojis</a>, que muestra únicamente los caracteres Unicode que corresponden a los emojis (en color)</li>
+    <li><a href="html-unicode-secuencias-generos.html">Géneros</a>, que muestra las secuencias Unicode que corresponden a personas con un género (masculino o femenino) determinado</li>
+    <li><a href="html-unicode-secuencias-colores.html">Colores de piel</a>, que muestra las secuencias Unicode que corresponden a personas con un color de piel determinado</li>
+    <li><a href="html-unicode-secuencias-parejas.html">Parejas</a>, que muestra las secuencias Unicode que corresponden a parejas y familias</li>
+    <li><a href="html-unicode-secuencias-banderas.html">Banderas</a>, que muestra las secuencias Unicode que corresponden a banderas</li>
+    <li><a href="html-unicode-secuencias-otras.html">Otras</a>, que muestra las secuencias Unicode no incluidas en las páginas anteriores</li>
+    <li><a href="html-unicode-noto.html">Noto Emoji</a>, que muestra los dibujos de emojis de la fuente <a href="https://fonts.google.com/noto/specimen/Noto+Emoji">Google Noto Emoji</a> con licencia libre <a href="https://scripts.sil.org/ofl">SIL Open Font License</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
+    <li><a href="html-unicode-twemoji.html">Twemoji</a>, que muestra los dibujos de emojis creados por el proyecto <a href="https://twemoji.twitter.com/">Twemoji</a> con licencia libre <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (es un fichero grande que puede tardar un poco en cargarse)</li>
+  </ul>
+
+  <section id="info">
+    <h2>Información contenida en las fichas</h2>
+
+    <p>Las fichas siguientes muestran los dibujos de las secuencias de Unicode que corresponden a dibujos de personas o partes del cuerpo con aspecto masculino, femenino o neutro. Para cada secuencia se muestra:</p>
+
+    <ul>
+      <li>la secuencia de códigos Unicode hexadecimal (el formato es U+HHHH, donde HHHH es un número hexadecimal)</li>
+      <li>el carácter en la fuente que utilice el sistema operativo o el navegador para mostrar los dibujos. Si no hay un dibujo disponible, el navegador muestra un rectángulo de borde negro que contiene el código Unicode con un tamaño minúsculo.</li>
+      <li>las entidades numéricas de la secuencia de caracteres (en formato hexadecimal y decimal)</li>
+      <li>el nombre de la secuencia (en inglés)</li>
+      <li>en su caso, información adicional sobre el carácter o la secuencia</li>
+    </ul>
+  </section>
+
+$contenido  <footer>
+    <p class="ultmod">Última modificación de esta página: ${fecha}</p>
+
+    <p class="licencia">
+      <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es"><img src="../varios/iconos/icono-cc-by-sa.svg" alt="Licencia Creative Commons" title="Licencia Creative Commons BY-SA" width="120" height="42"></a><br>
+      Esta página forma parte del curso <strong><a href="https://www.mclibre.org/consultar/htmlcss/">Páginas web HTML y hojas de estilo CSS</a></strong> por <a href="https://www.mclibre.org/" rel="author">Bartolomé Sintes Marco</a><br>
+      que se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">Licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a>.
+    </p>
+  </footer>
+</body>
+</html>
