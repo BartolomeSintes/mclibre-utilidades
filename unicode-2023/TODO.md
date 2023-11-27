@@ -1,4 +1,36 @@
-# CARACTERES UNICODE 2 TODO
+# CARACTERES UNICODE 2023 TODO
+
+## COSAS QUE SE ME QUEDAN PENDIENTES EN NOVIEMBRE
+
+- [2023-11-27] Símbolos: añadir FE0F en los cuadros. El FE0F aparece en el código hex/dec, pero no arriba, no sé por qué
+- [2023-11-27] Secuencias:
+    - Aclarar cuándo se puede omitir VS15/VS16 (sobre todo en las secuencias)
+    - Poner seguidas las cajas de ejemplos con las formas posibles de generar una secuencia (con o sin VS16, básicamente) Así que Géenros (2) y Géneros (5) podrían unirse y Género (6) y Géneros (8) también.
+    - Family Adult lo mete en Géneros (3) porque empieza igual. Pensar cómo separarlo
+    - Dónde mirar para aclararme:
+        - https://unicode.org/emoji/charts-15.1/emoji-released.html
+        - Lista de informes Unicode https://unicode.org/reports/
+        - Explicación completa de los emojis: https://unicode.org/reports/tr51/ Aquí es donde explican cómo se hacen
+        - Lista de todas las tablas de emojis https://www.unicode.org/emoji/charts-15.1/
+        - https://www.unicode.org/Public/emoji/15.1/emoji-sequences.txt
+        - https://www.unicode.org/Public/emoji/15.1/emoji-test.txt Aquí es donde se puede ver fully-qualified y minimally-qualified IMPORTANTE
+        - https://unicode.org/Public/15.1.0/ucd/emoji/emoji-variation-sequences.txt
+        - En estas también me tendría que fijar para saber si se puede omitir FE0F o si el defecto es texto o emoji
+            - https://unicode.org/emoji/charts/emoji-style.html
+            - https://www.unicode.org/emoji/charts-15.1/emoji-style.txt
+            - https://www.unicode.org/emoji/charts-15.1/text-style.html
+            - https://unicode.org/emoji/charts/emoji-variants.html
+        - Full Emoji List, v15.1.htm
+        - Full Emoji Modifier Sequences, v15.1.htm
+
+- [2023-11-19] En https://commons.wikimedia.org/wiki/Emoji aparecen referencias a colecciones de emojis.
+- [2023-11-19] https://github.com/microsoft/fluentui-emoji/tree/main Repositorio Fluent Emoji de Microsoft. Hay versión Color/Flat/HIgh contrast en SVG y versión 3D en PGN. Lo malo es que está organizado por carpetas con el nombre del emoji. Tendría que hacer la correspondencia con el código Unicode correspondiente para poder hacer una página de muestra. Y no tengo claro hasta qué punto está actualizado.
+- [2023-11-19] https://openmoji.org/ https://github.com/hfg-gmuend/openmoji Este repostiorio sí que lo tengo que incluir. Los dibujos no se pasan, pero es un proyecto libre.
+- [2023-11-19] https://icon-sets.iconify.design/streamline-emojis/ https://github.com/webalys-hq/streamline-vectors/tree/main/freebies-freemojis No parece que sea un repositorio de emojis, pero sí de iconos libres y en formato SVG.
+- [2023-11-19] En firefox about:config se puede cambiar la fuente de emojis en font.name-list.emoji. Por defecto pone Segoe UI Emoji, Twemoji. Hice la prueba de poner la fuente Noto en la carpeta Mozilla Firefox/fonts pero no me hacía caso. Instalé la fuente Noto y ya me hizo caso, pero no me dejó borrar la fuente que había copiado antes en fotns, así que no sé si la usa también. Tendría que probar en algún PC a instalar sólo la fuente, para ver qué pasa.
+- [2023-11-19] http://www.unicode.org/emoji/charts/emoji-sequences.html Aclarar si esta página me sirve de algo (la descargué y la puse en ficheros_1_originales)
+
+## RESTOS AÑOS ANTERIORES
 
 ## VARIOS
 

@@ -61,6 +61,8 @@ def genera_pagina(pagina):
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_fitzpatrick)
     elif pagina == ucdef.PAG_PAREJAS:
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_parejas)
+    elif pagina == ucdef.PAG_SENTIDO:
+        return genera_pagina_secuencias(pagina, ucdef.uc_grupos_sentido)
     elif pagina == ucdef.PAG_OTRAS:
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_otras)
     elif pagina == ucdef.PAG_TWEMOJI:
@@ -288,8 +290,10 @@ def genera_pagina_twemoji(pagina):
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
+                t += "          "
                 for cn in c[0]:
-                    t += f"          U+{int(cn, 16):X} "
+                    t += f"U+{int(cn, 16):X} "
+                t += "\n"
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[2]}">'
@@ -364,8 +368,10 @@ def genera_pagina_twemoji(pagina):
                 + "           </svg>\n"
                 + "          </span>\n"
             )
+        t += "          "
         for cn in c[0]:
-            t += f"          U+{int(cn, 16):X} "
+            t += f"U+{int(cn, 16):X} "
+        t += "\n"
         t += "        </p>\n"
         t += '        <p class="si">\n'
         t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[1]}">'
@@ -490,13 +496,14 @@ def genera_pagina_noto(pagina):
         + ucdef.uc_grupos_generos
         + ucdef.uc_grupos_fitzpatrick
         + ucdef.uc_grupos_parejas
+        + ucdef.uc_grupos_sentido
     )
     for grupo in grupos:
         caracteres = []
         for i in range(len(identificados) - 1, -1, -1):
             if (
                 grupo[0] in identificados[i][1]
-            ):  # Hago in porque algunos caracteres están en vario gr
+            ):  # Hago in porque algunos caracteres están en varios gr
                 caracteres += [identificados[i]]
                 for j in range(len(identificados[i][1]) - 1, -1, -1):
                     if identificados[i][1][j] == grupo[0]:
@@ -542,8 +549,10 @@ def genera_pagina_noto(pagina):
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
+                t += "          "
                 for cn in c[0]:
-                    t += f"          U+{int(cn, 16):X} "
+                    t += f"U+{int(cn, 16):X} "
+                t += "\n"
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/{c[2]}">'
@@ -569,7 +578,7 @@ def genera_pagina_noto(pagina):
                 t += f'        <p class="no">{c_nombre}</p>\n'
                 hay_coment = busca(c[0], imp5.manual_2, 0)
                 if hay_coment != -1:
-                    t += f'        <p class="co">\n'
+                    t += '        <p class="co">\n'
                     for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
                         t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
                     t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
@@ -618,8 +627,10 @@ def genera_pagina_noto(pagina):
                 + "           </svg>\n"
                 + "          </span>\n"
             )
+        t += "          "
         for cn in c[0]:
-            t += f"          U+{int(cn, 16):X} "
+            t += f"U+{int(cn, 16):X} "
+        t += "\n"
         t += "        </p>\n"
         t += '        <p class="si">\n'
         t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/{c[1]}">'
@@ -965,8 +976,10 @@ def genera_pagina_secuencias(pagina, grupos):
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
+                t += "          "
                 for cn in c[0]:
-                    t += f"          U+{int(cn, 16):X} "
+                    t += f"U+{int(cn, 16):X} "
+                t += "\n"
                 t += "        </p>\n"
                 t += '        <p class="si">'
                 for cn in c[0]:
@@ -1038,6 +1051,7 @@ def main():
         [ucdef.PAG_GENEROS, ucdef.FICHERO_SITIO_GENEROS],
         [ucdef.PAG_FITZPATRICK, ucdef.FICHERO_SITIO_FITZPATRICK],
         [ucdef.PAG_PAREJAS, ucdef.FICHERO_SITIO_PAREJAS],
+        [ucdef.PAG_SENTIDO, ucdef.FICHERO_SITIO_SENTIDO],
         [ucdef.PAG_OTRAS, ucdef.FICHERO_SITIO_OTRAS],
         [ucdef.PAG_TWEMOJI, ucdef.FICHERO_SITIO_TWEMOJI],
         [ucdef.PAG_NOTO, ucdef.FICHERO_SITIO_NOTO],

@@ -12,6 +12,58 @@ from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp
 def grupos_paginas(elemento):
     grupos = []
     paginas = []
+    # Sentido hacia la derecha
+    if ("27A1" in elemento[0]):
+        # GÉNEROS (1) CON SENTIDO DERECHA
+        if (
+            (len(elemento[0]) == 5 or len(elemento[0]) == 6)
+            and elemento[0][2] in ["1F9AF", "1F9BC", "1F9BD"]
+            and elemento[0][4] == "27A1"
+        ):
+            grupos += ["gr-sentido-1"]
+        elif (
+            (len(elemento[0]) == 6 or len(elemento[0]) == 7)
+            and elemento[0][3] in ["1F9AF", "1F9BC", "1F9BD"]
+            and elemento[0][5] == "27A1"
+        ):
+            grupos += ["gr-sentido-1"]
+        # GÉNEROS (2) CON SENTIDO DERECHA
+        elif (
+            (len(elemento[0]) == 3 or len(elemento[0]) == 4)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][2] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+        elif (
+            (len(elemento[0]) == 4 or len(elemento[0]) == 5)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][3] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+        elif (
+            (len(elemento[0]) == 5 or len(elemento[0]) == 6)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][4] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+        elif (
+            (len(elemento[0]) == 6 or len(elemento[0]) == 7)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][5] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+        elif (
+            (len(elemento[0]) == 7 or len(elemento[0]) == 8)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][6] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+
+    # Familias genéricas
+    if len(elemento[0]) == 5 or len(elemento[0]) == 7:
+        if elemento[0][0] == "1F9D1" and elemento[0][4] == "1F9D2":
+            grupos += ["gr-familias-4"]
+
     if len(elemento[0]) == 1:
         for grupo in ucdef.uc_tablas_caracteres[0]:
             if int(elemento[0][0], 16) >= int(grupo[3], 16) and int(
@@ -20,7 +72,6 @@ def grupos_paginas(elemento):
                 grupos += [grupo[1]]
         if "Emoji_Component" in elemento[3][0]:
             grupos += ["gr-componentes"]
-
     elif len(elemento[0]) == 2:
         # XXX VS15/VS16
         if elemento[0][1] in ["FE0E", "FE0F"]:

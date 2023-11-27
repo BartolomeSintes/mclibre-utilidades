@@ -37,6 +37,7 @@ PAG_BANDERAS = "banderas"
 PAG_GENEROS = "generos"
 PAG_FITZPATRICK = "fitzpatrick"
 PAG_PAREJAS = "parejas"
+PAG_SENTIDO = "sentido"
 PAG_OTRAS = "otras"
 PAG_TWEMOJI = "twemoji"
 PAG_NOTO = "noto"
@@ -49,6 +50,7 @@ FICHERO_SITIO_BANDERAS = "html-unicode-secuencias-banderas.html"
 FICHERO_SITIO_GENEROS = "html-unicode-secuencias-generos.html"
 FICHERO_SITIO_FITZPATRICK = "html-unicode-secuencias-colores.html"
 FICHERO_SITIO_PAREJAS = "html-unicode-secuencias-parejas.html"
+FICHERO_SITIO_SENTIDO = "html-unicode-secuencias-sentido.html"
 FICHERO_SITIO_OTRAS = "html-unicode-secuencias-otras.html"
 FICHERO_SITIO_TWEMOJI = "html-unicode-twemoji.html"
 FICHERO_SITIO_NOTO = "html-unicode-noto.html"
@@ -179,6 +181,9 @@ uc_grupos_fitzpatrick = [
 ]
 
 uc_grupos_parejas = [
+    ["gr-familias-4", "Familias genéricas",
+    '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias genéricas formadas por tres o cuatro miembros: uno o dos adultos y uno o dos niños. Estas secuencias se forman con cinco o siete caracteres, combinando los caracteres de adulto y niño, como se comenta en el <a href="html-unicode-secuencias.html#familias">apartado Familias de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+     ],
     ["gr-familias-1", "Familias de 2 miembros",
     '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias formadas por dos miembros: un padre o una madre y un hijo o una hija. Estas secuencias se forman con tres caracteres, combinando los caracteres de hombre, mujer, niña o niño, como se comenta en el <a href="html-unicode-secuencias.html#familias">apartado Familias de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
@@ -232,6 +237,15 @@ uc_grupos_parejas = [
     ],
     ["gr-parejas-beso-piel-4", "Parejas de rostros neutros de enamorados besándose, con dos tonos de piel (2)",
     '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a rostros de personajes neutros (ni femeninos ni masculinos), con modificadores Fitzpatrick distintos (los dos personajes tienen distinto color de piel). Estas secuencias se forman con diez caracteres, combinando combinando dos emojis que representan a adultos con los modificadores Fitzpatrick y con los caracteres corazón y marca de labios, como se comenta en el <a href="html-unicode-secuencias.html#gr-parejas-beso-piel-4">apartado Parejas de rostros neutros de enamorados besándose, con dos tonos de piel (2), de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+    ],
+]
+
+uc_grupos_sentido = [
+    ["gr-sentido-1", "Sentido (1)",
+    '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con seis o siete caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, además del código Fitzpatrick y el identificador de dirección para dirigir al personaje hacia la derecha, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-1">apartado Géneros (1) de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
+    ],
+    ["gr-sentido-2", "Sentido (2)",
+    '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con seis o siete  caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, además del código Fitzpatrick y el identificador de dirección para dirigir al personaje hacia la derecha, como se comenta en el <a href="html-unicode-secuencias.html#gr-sentido-2">apartado Sentido (2) de la lección Secuencias Unicode</a>.</p>\n', ORDENA_ESPECIAL_NO
     ],
 ]
 

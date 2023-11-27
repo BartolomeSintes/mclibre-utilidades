@@ -11,6 +11,58 @@ from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp
 def grupos_paginas(elemento):
     grupos = []
     paginas = []
+    # Sentido hacia la derecha
+    if ("27A1" in elemento[0]):
+        # GÉNEROS (1) CON SENTIDO DERECHA
+        if (
+            (len(elemento[0]) == 5 or len(elemento[0]) == 6)
+            and elemento[0][2] in ["1F9AF", "1F9BC", "1F9BD"]
+            and elemento[0][4] == "27A1"
+        ):
+            grupos += ["gr-sentido-1"]
+        elif (
+            (len(elemento[0]) == 6 or len(elemento[0]) == 7)
+            and elemento[0][3] in ["1F9AF", "1F9BC", "1F9BD"]
+            and elemento[0][5] == "27A1"
+        ):
+            grupos += ["gr-sentido-1"]
+        # GÉNEROS (2) CON SENTIDO DERECHA
+        elif (
+            (len(elemento[0]) == 3 or len(elemento[0]) == 4)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][2] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+        elif (
+            (len(elemento[0]) == 4 or len(elemento[0]) == 5)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][3] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+        elif (
+            (len(elemento[0]) == 5 or len(elemento[0]) == 6)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][4] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+        elif (
+            (len(elemento[0]) == 6 or len(elemento[0]) == 7)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][5] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+        elif (
+            (len(elemento[0]) == 7 or len(elemento[0]) == 8)
+            and elemento[0][0] in ["1F3C3", "1F6B6", "1F9CE"]
+            and elemento[0][6] == "27A1"
+        ):
+            grupos += ["gr-sentido-2"]
+
+    # Familias genéricas
+    if len(elemento[0]) == 5 or len(elemento[0]) == 7:
+        if elemento[0][0] == "1F9D1" and elemento[0][4] == "1F9D2":
+            grupos += ["gr-familias-4"]
+
     if len(elemento[0]) == 1:
         for grupo in ucdef.uc_tablas_caracteres[0]:
             if int(elemento[0][0], 16) >= int(grupo[3], 16) and int(
@@ -19,7 +71,6 @@ def grupos_paginas(elemento):
                 grupos += [grupo[1]]
         if "Emoji_Component" in elemento[3][0]:
             grupos += ["gr-componentes"]
-
     elif len(elemento[0]) == 2:
         # XXX VS15/VS16
         if elemento[0][1] in ["FE0E", "FE0F"]:
@@ -36,20 +87,20 @@ def grupos_paginas(elemento):
         ):
             grupos += ["gr-banderas-paises"]
         # PAREJA FZ
-        if (
-            elemento[0][0] in ["1F46B", "1F46C", "1F46D"]
-            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
-        ):
+        if elemento[0][0] in ["1F46B", "1F46C", "1F46D"] and elemento[0][1] in [
+            "1F3FB",
+            "1F3FC",
+            "1F3FD",
+            "1F3FE",
+            "1F3FF",
+        ]:
             grupos += ["gr-parejas-mano-piel-1"]
         # XXX KEYCAP
         if elemento[0][1] == "20E3":
             grupos += ["gr-keycap-1"]
     elif len(elemento[0]) == 3:
         # BANDERAS VARIAS
-        if (
-            elemento[0][0] in ["1F3F3", "1F3F4"]
-            and elemento[0][1] == "200D"
-        ):
+        if elemento[0][0] in ["1F3F3", "1F3F4"] and elemento[0][1] == "200D":
             grupos += ["gr-banderas-otras"]
         # M/W ZWJ NIÑO/NIÑA
         if (
@@ -70,10 +121,7 @@ def grupos_paginas(elemento):
         ):
             grupos += ["gr-genero-1"]
         # XXX ZWJ M/F
-        if (
-            elemento[0][1] == "200D"
-            and elemento[0][2] in ["2640", "2642"]
-        ):
+        if elemento[0][1] == "200D" and elemento[0][2] in ["2640", "2642"]:
             grupos += ["gr-genero-2"]
         # XXX KFE0F EYCAP
         if elemento[0][1] == "FE0F" and elemento[0][2] == "20E3":
@@ -419,6 +467,7 @@ def crea_manual_1():
     #         if len(i[1]) > 1:
     #             print(f"    {i}")
 
+
 def incluye_emojis():
     global manual_1, restos_twemoji
 
@@ -464,41 +513,40 @@ def incluye_emojis():
     print(f"  CUIDADO: HAY {cuenta_varios_grupos} EN VARIOS GRUPOS")
 
     # # Caracteres asociados a mano, porque automáticamente no se asocian
-    # 2023-11-18 Lo comento porque se supone que ya se hace la conversión en uc_1
-    # asociados_manuales = [
-    #     [['00A9'], ['A9'], 'a9.svg'],
-    #     [['00AE'], ['AE'], 'ae.svg'],
-    #     [['0023', '20E3'], ['23', '20E3'], '23-20e3.svg'],
-    #     [['002A', '20E3'], ['2A', '20E3'], '2a-20e3.svg'],
-    #     [['0030', '20E3'], ['30', '20E3'], '30-20e3.svg'],
-    #     [['0031', '20E3'], ['31', '20E3'], '31-20e3.svg'],
-    #     [['0032', '20E3'], ['32', '20E3'], '32-20e3.svg'],
-    #     [['0033', '20E3'], ['33', '20E3'], '33-20e3.svg'],
-    #     [['0034', '20E3'], ['34', '20E3'], '34-20e3.svg'],
-    #     [['0035', '20E3'], ['35', '20E3'], '35-20e3.svg'],
-    #     [['0036', '20E3'], ['36', '20E3'], '36-20e3.svg'],
-    #     [['0037', '20E3'], ['37', '20E3'], '37-20e3.svg'],
-    #     [['0038', '20E3'], ['38', '20E3'], '38-20e3.svg'],
-    #     [['0039', '20E3'], ['39', '20E3'], '39-20e3.svg'],
-    # ]
-    # for asociado in asociados_manuales:
-    #     fin = len(manual_1)
-    #     i = 0
-    #     while i < fin:
-    #         if manual_1[i][0] == asociado[0]:
-    #             manual_1[i][2] = asociado[2]
-    #             i = fin
-    #         i += 1
-    #     fin = len(restos_twemoji)
-    #     i = 0
-    #     while i < fin:
-    #         if restos_twemoji[i][0] == asociado[1]:
-    #             del restos_twemoji[i]
-    #             i = fin
-    #         i += 1
+    asociados_manuales = [
+        [["00A9"], ["A9"], "a9.svg"],
+        [["00AE"], ["AE"], "ae.svg"],
+        [["0023", "20E3"], ["23", "20E3"], "23-20e3.svg"],
+        [["002A", "20E3"], ["2A", "20E3"], "2a-20e3.svg"],
+        [["0030", "20E3"], ["30", "20E3"], "30-20e3.svg"],
+        [["0031", "20E3"], ["31", "20E3"], "31-20e3.svg"],
+        [["0032", "20E3"], ["32", "20E3"], "32-20e3.svg"],
+        [["0033", "20E3"], ["33", "20E3"], "33-20e3.svg"],
+        [["0034", "20E3"], ["34", "20E3"], "34-20e3.svg"],
+        [["0035", "20E3"], ["35", "20E3"], "35-20e3.svg"],
+        [["0036", "20E3"], ["36", "20E3"], "36-20e3.svg"],
+        [["0037", "20E3"], ["37", "20E3"], "37-20e3.svg"],
+        [["0038", "20E3"], ["38", "20E3"], "38-20e3.svg"],
+        [["0039", "20E3"], ["39", "20E3"], "39-20e3.svg"],
+    ]
+    for asociado in asociados_manuales:
+        fin = len(manual_1)
+        i = 0
+        while i < fin:
+            if manual_1[i][0] == asociado[0]:
+                manual_1[i][2] = asociado[2]
+                i = fin
+            i += 1
+        fin = len(restos_twemoji)
+        i = 0
+        while i < fin:
+            if restos_twemoji[i][0] == asociado[1]:
+                del restos_twemoji[i]
+                i = fin
+            i += 1
 
-    # # for i in restos_twemoji:
-    # #     print(i)
+    # for i in restos_twemoji:
+    #     print(i)
 
 
 def exporta_lista():
@@ -561,7 +609,7 @@ def exporta_pagina():
         t += '<html lang="es">\n'
         t += "<head>\n"
         t += '  <meta charset="utf-8">\n'
-        t += '  <title>Emojis por grupos</title>\n'
+        t += "  <title>Emojis por grupos</title>\n"
         t += "</head>\n"
         t += "<body>\n"
         t += "<h1>Emojis por gupos</h1>\n"
@@ -593,7 +641,7 @@ def exporta_pagina():
         #     extraido = selecciona_grupo(grupo[1])
         t += "<h2>Restos 1</h2>\n"
         cuenta_1 = 0
-        t += f"  <p>\n"
+        t += "  <p>\n"
         for i in manual_1:
             if len(i[1]) == 0 and len(i[0]) == 1:
                 t += f"    {genera_entidad_numerica(i[0])}\n"
@@ -602,7 +650,7 @@ def exporta_pagina():
         t += "  </p>\n"
         t += "<h2>Restos secuencias</h2>\n"
         cuenta_2 = 0
-        t += f"  <p>\n"
+        t += "  <p>\n"
         for i in manual_1:
             if len(i[1]) == 0 and len(i[0]) > 1:
                 t += f"    {genera_entidad_numerica(i[0])}\n"
