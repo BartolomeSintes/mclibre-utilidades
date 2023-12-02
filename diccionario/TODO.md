@@ -28,3 +28,5 @@ Esta aplicación genera la lista de palabras que hay en los ficheros de un direc
 -   2021-11-12. El programa podría buscar si hay dos palabras iguales seguidas, que suelen ser errores (una puede llevar mayúsculas y la otra no).
 -   2021-11-12. El programa podría buscar si hay errores de concordancia (artículos singulas seguidos de palabra en plural o viceversa). Esto no debe ser fácil.
 -   2021-12-20. Podría buscar si hay alguna mayúscula que no esté al principio de una frase (descartando las palabras que en el diccionario empiecen con mayúscula). O las frase que después de un punto no tengan mayúscula.
+-   2022-04-04. Podría buscar si hay algún espacio antes de un signo de puntuación (comas, puntos, puntos y comas, cierre de paréntesis). O si no hay espacios antes de abrir paréntesis
+-   2023-02-17. Podría poder decirle que no mirara en ciertos directorios (en php /tmp, por ejemplo)

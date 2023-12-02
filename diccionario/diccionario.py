@@ -14,8 +14,9 @@ ORIGEN_PHP = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consul
 ORIGEN_SEMANAS = "D:\\_Carpetas_frecuentes\\Documentos\\Clase\\19-20 Abastos\\19-20 Semanas\\1920"
 ORIGEN_LEGISLACION = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\legislacion"
 ORIGEN_EXPLICACIONES = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\_explicaciones"
+ORIGEN_CURSO_CEFIRE_HTMLCSS = "D:\\_Carpetas_frecuentes\\Documentos\\_MCLibre.org\\Actual\\consultar\\curso-cefire-html-css-2022-04"
 
-ORIGEN = ORIGEN_LEGISLACION
+ORIGEN = ORIGEN_PHP
 
 DICT_COD_PAISES = "dic_cod_paises.txt"
 DICT_COD_TK = "dic_cod_tk.txt"
@@ -102,7 +103,7 @@ EXTENSIONES_NO_ANALIZADAS = [
 
 def estadisticas():
     total = 0
-    for _ in pathlib.Path(ORIGEN).glob(f"**/*.*"):
+    for _ in pathlib.Path(ORIGEN).glob("**/*.*"):
         total += 1
     print(f"Total: {total} ficheros")
 

@@ -218,6 +218,7 @@ AAAA-MM
 aaaa-mm-dd 
 AAAA-MM-DDTHH-MM 
 AAAA-WSS 
+aaaabbbb 
 aab 
 aAbBcCdDeEfF 
 aad 
@@ -226,6 +227,7 @@ Ab
 abbbbbbbb 
 abc 
 abcde 
+abcdeabcdeabcde 
 abcdefg 
 abcdefghij 
 abcdefghijklmnopqrstuvwxyz 
@@ -312,6 +314,7 @@ ardillas…
 argumentsInColorFunction 
 aritmeticas_1 
 around-profile 
+asdfsdfdsf 
 ask_detect 
 atencion 
 atributo~ 
@@ -375,6 +378,8 @@ bb
 BBB 
 bbb 
 BBBB 
+bbbb 
+bbbbaaaa 
 bbbbbab 
 bbbbbba 
 bcc5a67f3 
@@ -441,6 +446,7 @@ c_1
 c_2 
 ca-certificates 
 cacert 
+cadena_3 
 cainfo 
 calcMode 
 calcula_media 
@@ -568,6 +574,7 @@ D2
 D3 
 D300S 
 D4 
+D6FEA1F11B4D23B481A48198F51D9B08258A36F6024CB5CEC447FE78379959CE 
 daa968e19f45b22dede29dffd9a0bbe8b986a2eac28defa9a15320a66dfe 
 dabale 
 dacb 
@@ -897,6 +904,7 @@ header-navigation-wrapper
 HeaderRow 
 hello-wolrd 
 hello-world 
+henero 
 hexColorLength 
 hfeed 
 HH 
@@ -1136,6 +1144,7 @@ mclibre-pytesting
 MediaMagick 
 memory_consumption 
 menu-item 
+meolvides 
 mes-año 
 mfnh0rf_dditf8lusdzm+5ilf 
 mi-apache 
@@ -1253,6 +1262,7 @@ nombreDeLista
 nombredeusuario 
 nombreProfesor 
 NombreUsuario 
+nomeolvides 
 nomodeset 
 non-source 
 noninteractive 
@@ -1417,6 +1427,7 @@ preserveAspectRatio
 preventDefault 
 primary-menu-wrapper 
 primitiveUnits 
+primt 
 print-server 
 problemmatcher 
 product_id 
@@ -2001,6 +2012,7 @@ ZZZ
 ´ 
 ·_· 
 á 
+áeiou 
 Â 
 ç 
 é 

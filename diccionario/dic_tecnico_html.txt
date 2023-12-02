@@ -93,6 +93,7 @@ i
 icon 
 id 
 iframe 
+iframes 
 imagemap 
 img 
 info 

@@ -1,3 +1,4 @@
+alexcvzz 
 align_double_arrow 
 align_equals 
 align_multiline_comment 
@@ -11,6 +12,8 @@ alt+shift+c
 alt+shift+f 
 array_indentation 
 array_syntax 
+attr-sorted 
+attr-value-single-quotes 
 autoFixByBracket 
 autoFixBySemicolon 
 balanceIn 
@@ -51,6 +54,7 @@ hp-cs-fixer
 HTML-Hint 
 iaw-nombre-de-alumno 
 IgnoreTags 
+input-requires-label 
 insertfinalnewline 
 Intellisense 
 linebreak_after_opening_tag 
@@ -100,6 +104,7 @@ phpdoc_trim
 phpdoc_types 
 remove-empty-rulesets 
 removeTag 
+S01E06 
 semicolon_after_instruction 
 setindent 
 setLineEnding 
@@ -113,6 +118,7 @@ sort-order
 sort-order-fallback 
 space_after_semicolon 
 standardize_not_equals 
+tags-check 
 ternary_operator_spaces 
 ternary_to_null_coalescing 
 trailing_comma_in_multiline_array 

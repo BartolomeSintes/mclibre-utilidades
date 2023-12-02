@@ -28,10 +28,13 @@ ASI
 asm 
 ASO 
 ATAG 
+av1-avif 
+AVIF 
 AWS 
 BBC 
 BC 
 BDOF 
+BFP 
 BLJ 
 BMP 
 BOE 
@@ -61,6 +64,7 @@ cdr
 cdrom 
 CDs 
 CE 
+CEC 
 CEE 
 cefire 
 CEFIRES 
@@ -74,6 +78,8 @@ CMS
 CNCF 
 COLR 
 colr 
+COLRv0 
+COLRv1 
 CPAL 
 cpal 
 CPU 
@@ -100,11 +106,13 @@ DDL
 DEU 
 dhcp 
 DHTML 
+DIDs 
 dll 
 DNI 
 dni 
 DNS 
 DNT 
+DOC 
 DOCV 
 DOGV 
 DOM 
@@ -120,6 +128,8 @@ DVDs
 e-PEL 
 E4X 
 EATP 
+eBook 
+eBook™ 
 ECD 
 ECI 
 ECMA 
@@ -138,14 +148,18 @@ ELO
 EMMA 
 EmotionML 
 ENIAC 
+ENISA 
 EOL 
+EPI 
 EPS 
 eps 
+epub 
 ESD 
 ESI 
 ESR 
 ESS 
 ESXi 
+ET2020 
 EUPV 
 EXI 
 FAQ 
@@ -157,6 +171,7 @@ FIFe
 FNMT 
 FOL 
 FP 
+fp 
 FPA 
 FPE 
 fpi 
@@ -188,6 +203,8 @@ GZIP
 hcl 
 HCL2 
 HDI 
+HDMI 
+hdmi 
 HLC 
 HSLA 
 HTML+RDFa 
@@ -208,6 +225,7 @@ ICT
 IDC 
 IDE 
 IDNA 
+IDPF 
 IDREF 
 ie 
 IE10 
@@ -237,6 +255,7 @@ ip
 IRC 
 IRI 
 IRIs 
+ISA2 
 ISO 
 iso 
 ISO-8859-1 
@@ -252,6 +271,8 @@ JRE
 JSON 
 JSON-LD 
 JSON-RPC 
+JXL 
+jxl 
 K-10 
 KB 
 kb 
@@ -319,18 +340,24 @@ NTP
 ntp 
 OASIS 
 OC 
+OCF 
 ODBC 
 ODRL 
 odt 
+OEBPS 
 OFL 
 OIE 
+OOBE 
 OOCSS 
+OPF 
 OPML 
+OPS 
 ORM 
 ORS 
 OSM 
 OSR1 
 OSR2 
+OSS 
 OSX 
 otan 
 ova 
@@ -378,6 +405,7 @@ QT
 QUIC 
 R2RML 
 RAR 
+RC522 
 RDB 
 RDB2RDF 
 RDF 
@@ -390,6 +418,7 @@ react
 REC 
 RET 
 RFC 
+RFID 
 RGPD 
 RHEL 
 RIF 
@@ -398,6 +427,7 @@ ROF
 ROM 
 RPC 
 rpc 
+RPI 
 RPM 
 rsa 
 rsa4096 
@@ -416,6 +446,7 @@ SBIX
 SCEA 
 SCXML 
 SDL 
+SEC 
 SEO 
 SF 
 SFTP 
@@ -454,6 +485,7 @@ SVGA
 SVGO 
 SVGs 
 SVN 
+SWD 
 SWF 
 TAR 
 TC32 
@@ -472,6 +504,7 @@ TOML
 TPAC 
 tpl 
 TriG 
+TSL 
 TSV 
 TTML 
 TTML1 
@@ -495,6 +528,7 @@ V8
 VCDs 
 VCS 
 vdi 
+VET 
 VM 
 VMs 
 VoiceXML 
@@ -504,6 +538,7 @@ VSFTP
 VT-x 
 W10 
 WA 
+WAI-Adapt 
 WAI-ARIA 
 WAIS 
 WAMP 
@@ -526,6 +561,7 @@ WYSIWYG
 XBL 
 XBRL 
 XForms 
+XHR 
 XHTML+RDFa 
 XHTML+SMIL 
 XHTML2 

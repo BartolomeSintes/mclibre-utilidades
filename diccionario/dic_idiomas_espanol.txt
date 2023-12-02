@@ -1,3 +1,4 @@
+1er 
 72ava 
 96ava 
 a 
@@ -15,9 +16,11 @@ abandonará
 abandonaría 
 abandone 
 abandono 
+abandonos 
 abandoné 
 abandonó 
 abanico 
+abaratado 
 abarca 
 abarcan 
 abarcar 
@@ -46,6 +49,8 @@ abordará
 abordarán 
 abordo 
 abordé 
+aborta 
+abortando 
 abortarse 
 abra 
 abran 
@@ -53,6 +58,7 @@ abras
 abrasa 
 abrasaros 
 abrazarán 
+abrazo 
 abre 
 abren 
 abres 
@@ -69,6 +75,7 @@ abrimos
 abrir 
 abrirla 
 abrirlo 
+abrirlos 
 abriros 
 abrirse 
 abrirá 
@@ -107,14 +114,17 @@ abusiva
 abuso 
 acaba 
 acababa 
+acababas 
 acabado 
 acaban 
 acabar 
+acabara 
 acabaron 
 acabará 
 acabarán 
 acabarás 
 acabaría 
+acabaríamos 
 acabarían 
 acabe 
 acaben 
@@ -137,7 +147,9 @@ accede
 accedemos 
 acceden 
 acceder 
+accederá 
 accederán 
+accedería 
 accederían 
 accedido 
 accediendo 
@@ -178,7 +190,9 @@ aceptó
 acerca 
 acercando 
 acercar 
+acercándonos 
 acercándose 
+acerque 
 acertadas 
 acertado 
 acertados 
@@ -198,6 +212,7 @@ aclaraciones
 aclaración 
 aclarado 
 aclarados 
+aclaran 
 aclarando 
 aclarar 
 aclararme 
@@ -222,6 +237,7 @@ acompañamiento
 acompañan 
 acompañando 
 acompañe 
+acompañé 
 acompañó 
 aconseja 
 aconsejaba 
@@ -232,9 +248,11 @@ aconsejadas
 aconsejado 
 aconsejan 
 aconsejar 
+aconsejaría 
 aconsejo 
 aconsejó 
 acontecimientos 
+acordaba 
 acordaos 
 acordarme 
 acordé 
@@ -275,6 +293,7 @@ activistas
 activo 
 activos 
 activándolo 
+activé 
 acto 
 actores 
 actrices 
@@ -299,15 +318,19 @@ actualizadas
 actualizado 
 actualizador 
 actualizados 
+actualizamos 
 actualizan 
 actualizando 
 actualizar 
 actualizaremos 
 actualizarla 
 actualizarlas 
+actualizarle 
+actualizarnos 
 actualizarse 
 actualizará 
 actualizarán 
+actualizaré 
 actualizo 
 actualizándose 
 actualizó 
@@ -322,6 +345,7 @@ acude
 acuden 
 acudir 
 acuerda 
+acuerdas 
 acuerdo 
 acuerdos 
 acumula 
@@ -332,28 +356,34 @@ acumulado
 acumulador 
 acumuladores 
 acumulados 
+acumulan 
 acumulando 
 acumular 
 acumularse 
 acumularán 
+acumule 
 acumulen 
 acusado 
 acuérdate 
 acuñado 
 adapta 
+adaptaba 
 adaptable 
 adaptación 
 adaptada 
 adaptadas 
 adaptado 
 adaptador 
+adaptados 
 adaptan 
 adaptando 
 adaptar 
 adaptarlo 
+adaptarlos 
 adaptarnos 
 adaptarse 
 adaptará 
+adaptas 
 adaptativo 
 adapten 
 adaptó 
@@ -421,6 +451,8 @@ admiten
 admitidas 
 admitido 
 admitidos 
+admitiendo 
+admitieran 
 admitir 
 admitirlo 
 admitirá 
@@ -484,6 +516,7 @@ afectaría
 afecte 
 afecten 
 afectó 
+afiance 
 aficionado 
 aficionados 
 aficiones 
@@ -497,9 +530,11 @@ afirmó
 afloja 
 aflorado 
 afortunadamente 
+africano 
 afroamericano 
 afrontar 
 afuera 
+afán 
 agencia 
 agencias 
 agenda 
@@ -517,6 +552,7 @@ agradable
 agradables 
 agradece 
 agradezco 
+agrado 
 agraria 
 agravaba 
 agravando 
@@ -555,6 +591,8 @@ agudeza
 agudiza 
 agudo 
 agudos 
+aguja 
+Agustín 
 ah 
 ahogó 
 ahora 
@@ -569,11 +607,13 @@ ahorrarse
 ahorraré 
 ahorre 
 ahorro 
+ahorrándonos 
 ahí 
 aires 
 aisladas 
 aislados 
 aislamiento 
+aislante 
 aislar 
 ajedrez 
 ajena 
@@ -639,6 +679,7 @@ alejado
 alejamos 
 alejan 
 alejando 
+alejándonos 
 alemana 
 alemanas 
 alemanes 
@@ -665,12 +706,16 @@ algunas
 alguno 
 algunos 
 algún 
+alicantino 
 alienígena 
 alienígenas 
 aligerar 
 aligerarla 
+alimentación 
+Alimentarias 
 alimentos 
 alinea 
+alineaciones 
 alineación 
 alineada 
 alineadas 
@@ -692,6 +737,7 @@ almacenamiento
 almacenan 
 almacenando 
 almacenar 
+almacenaremos 
 almacenarlos 
 almacenarse 
 almacenará 
@@ -722,10 +768,12 @@ altamente
 altas 
 altavoz 
 altera 
+alteraba 
 alteración 
 alterado 
 alterar 
 alteren 
+alternaban 
 alternada 
 alternado 
 alternancia 
@@ -742,6 +790,7 @@ alto
 altos 
 altura 
 alturas 
+alucino 
 aludir 
 aludía 
 alumnado 
@@ -774,6 +823,7 @@ amenazar
 amenazas 
 americana 
 americano 
+amigable 
 amigo 
 amigos 
 amo 
@@ -788,10 +838,12 @@ ampliaban
 ampliable 
 ampliaciones 
 ampliación 
+ampliada 
 ampliadas 
 ampliado 
 ampliados 
 ampliamente 
+ampliamos 
 amplian 
 ampliando 
 ampliar 
@@ -817,10 +869,13 @@ analistas
 analiza 
 analizable 
 analizador 
+analizamos 
 analizan 
 analizando 
 analizar 
+analizaremos 
 analizarse 
+analizó 
 analógica 
 anarquía 
 ancha 
@@ -863,6 +918,7 @@ animado
 animados 
 animal 
 animales 
+anime 
 animo 
 animoso 
 aniversario 
@@ -882,6 +938,7 @@ anteriormente
 antes 
 antibiótico 
 anticipada 
+anticonstitucionalidad 
 anticuerpos 
 antigua 
 antiguamente 
@@ -892,6 +949,8 @@ antigüedad
 antigüedades 
 antihorario 
 antimonárquico 
+antinorteamericanismo 
+antílope 
 anual 
 anuales 
 anualmente 
@@ -900,10 +959,13 @@ anulaba
 anulada 
 anuladas 
 anular 
+anularlo 
 anuncia 
 anunciada 
+anunciadas 
 anunciado 
 anuncian 
+anunciando 
 anunciantes 
 anunciaron 
 anunciará 
@@ -919,6 +981,7 @@ apaga
 apagada 
 apagado 
 apagar 
+apago 
 apague 
 apagándose 
 apaisado 
@@ -951,6 +1014,8 @@ apartarlos
 aparte 
 apasionados 
 apasionante 
+apañaré 
+apañé 
 apellido 
 apellidos 
 apenas 
@@ -1002,6 +1067,8 @@ apostado
 apostar 
 apostó 
 apoyada 
+apoyando 
+apoyar 
 apoyo 
 apoyos 
 apreciable 
@@ -1026,6 +1093,7 @@ aprendiendo
 aprendizaje 
 aprendió 
 aprendo 
+aprendáis 
 apretado 
 apretón 
 aprobación 
@@ -1043,12 +1111,14 @@ apropiado
 apropiados 
 aprovecha 
 aprovechable 
+aprovechado 
 aprovechados 
 aprovechamiento 
 aprovechamos 
 aprovechan 
 aprovechando 
 aprovechar 
+aprovecharemos 
 aprovecharla 
 aprovecharlas 
 aprovecharlo 
@@ -1056,6 +1126,7 @@ aprovecharse
 aproveche 
 aprovechemos 
 aprovecho 
+aprovechábamos 
 aprovechéis 
 aprovechó 
 aproximación 
@@ -1069,6 +1140,7 @@ aprueban
 apruebe 
 aptitud 
 aptitudes 
+apto 
 apuesta 
 apuestan 
 apunta 
@@ -1085,6 +1157,7 @@ apuntes
 apunto 
 apuntéis 
 apéndice 
+Apéndices 
 apócrifa 
 apóstrofo 
 aquel 
@@ -1134,9 +1207,11 @@ arquitecto
 arquitectura 
 arquitectónico 
 arranca 
+arrancaba 
 arrancado 
 arrancados 
 arrancamos 
+arrancan 
 arrancando 
 arrancar 
 arrancó 
@@ -1159,6 +1234,7 @@ arriba
 arriesgada 
 arriesgamos 
 arroba 
+arrodillado 
 arrogante 
 arroyo 
 arroz 
@@ -1184,6 +1260,7 @@ ascenso
 asco 
 asegura 
 aseguraban 
+aseguramiento 
 aseguramos 
 asegurando 
 asegurar 
@@ -1205,6 +1282,7 @@ asesinato
 asesinó 
 asesor 
 asfaltada 
+asiento 
 asigna 
 asignaciones 
 asignación 
@@ -1216,6 +1294,7 @@ asignamos
 asignan 
 asignando 
 asignar 
+asignara 
 asignarla 
 asignarlas 
 asignarle 
@@ -1226,6 +1305,7 @@ asignatura
 asignaturas 
 asigne 
 asignársela 
+asignó 
 asimismo 
 asir 
 asistencia 
@@ -1253,6 +1333,7 @@ asocien
 asociándolas 
 asociándole 
 asoció 
+asombra 
 aspa 
 aspas 
 aspecto 
@@ -1274,7 +1355,9 @@ asígnesela
 asíncrona 
 asíncronas 
 ataca 
+atacada 
 atacante 
+atacantes 
 atacar 
 atajo 
 atajos 
@@ -1284,8 +1367,10 @@ atascado
 atención 
 atenderá 
 atenderán 
+atendido 
 atendidos 
 atendiendo 
+atendía 
 atentado 
 atentamente 
 atento 
@@ -1300,10 +1385,13 @@ atracciones
 atracción 
 atractiva 
 atractivas 
+atractivo 
 atractivos 
 atraer 
 atraso 
 atraviesa 
+atraviese 
+atreve 
 atreven 
 atreverse 
 atrevido 
@@ -1317,11 +1405,13 @@ atropellaba
 atrás 
 atómica 
 audio 
+audios 
 auditiva 
 auditivas 
 auditoría 
 auge 
 aula 
+aulas 
 aumenta 
 aumentaba 
 aumentada 
@@ -1332,11 +1422,15 @@ aumentamos
 aumentan 
 aumentando 
 aumentar 
+aumentaremos 
+aumentarla 
 aumentarlo 
 aumentaron 
 aumentarse 
 aumentará 
+aumentaría 
 aumente 
+aumentes 
 aumento 
 aumentó 
 auménteme 
@@ -1351,9 +1445,11 @@ autenticación
 autenticado 
 autentificación 
 autobuses 
+autobús 
 autocompletado 
 autocorrección 
 autodenominar 
+autodimensionar 
 autoformato 
 autogobierno 
 automatización 
@@ -1376,6 +1472,7 @@ autonómicas
 autonómico 
 autonómicos 
 autor 
+autoredimensionar 
 autores 
 autorice 
 autoridad 
@@ -1421,6 +1518,7 @@ aviones
 avisa 
 avisando 
 avisar 
+avisarle 
 avisará 
 avise 
 aviso 
@@ -1441,6 +1539,7 @@ ayudará
 ayudarán 
 ayuden 
 ayudándose 
+ayudéis 
 ayudó 
 Ayuntamiento 
 azar 
@@ -1449,8 +1548,10 @@ azul
 azules 
 azúcar 
 añada 
+añadas 
 añade 
 añaden 
+añades 
 añadida 
 añadidas 
 añadido 
@@ -1471,6 +1572,7 @@ añadirá
 añadirán 
 añadiré 
 añadiéndole 
+añadiéndoles 
 añadiéndolo 
 añadiéndose 
 añadió 
@@ -1485,6 +1587,7 @@ aúnan
 bachiller 
 bachillerato 
 bacterias 
+baile 
 baja 
 bajado 
 bajamos 
@@ -1502,6 +1605,7 @@ balanceadas
 balaustradas 
 ballena 
 balneario 
+Balompié 
 balonmano 
 balón 
 banana 
@@ -1522,6 +1626,7 @@ barajamos
 barajar 
 barajen 
 barata 
+barbas 
 barbero 
 barco 
 barcos 
@@ -1556,6 +1661,7 @@ bastantes
 bastará 
 bastaría 
 baste 
+bastón 
 basura 
 basándolo 
 basándose 
@@ -1576,23 +1682,28 @@ beneficiarias
 beneficiarios 
 beneficios 
 beneficioso 
+bengalí 
 beso 
 besos 
 bestias 
 besándose 
 biblioteca 
 bibliotecas 
+bici 
 bicicleta 
 bidimensional 
 bidireccional 
+bielorrusia 
 bien 
 bienal 
 bienintencionadas 
 bienvenida 
+bienvenidas 
 bienvenido 
 bienvenidos 
 bifurcaciones 
 bifurcación 
+Bilbao 
 biliotecas 
 billete 
 billetes 
@@ -1600,6 +1711,7 @@ binaria
 binarias 
 binario 
 binarios 
+bingo 
 biografía 
 biografías 
 birriosos 
@@ -1614,6 +1726,8 @@ blanca
 blancas 
 blanco 
 blancos 
+Blancura 
+blancura 
 bloc 
 bloque 
 bloquea 
@@ -1621,6 +1735,7 @@ bloqueaba
 bloqueada 
 bloqueado 
 bloqueadores 
+bloqueados 
 bloquean 
 bloquear 
 bloquearía 
@@ -1668,6 +1783,7 @@ borrarse
 borrará 
 borrarán 
 borre 
+borro 
 borrándolo 
 borrándolos 
 borréis 
@@ -1676,6 +1792,7 @@ bosques
 botando 
 botones 
 botón 
+Brasil 
 brasileño 
 braza 
 brazas 
@@ -1693,8 +1810,10 @@ brillo
 brisca 
 británica 
 británico 
+británicos 
 broma 
 bromea 
+bronce 
 bruta 
 bruto 
 brutos 
@@ -1742,6 +1861,7 @@ bórrelos
 búnkeres 
 búsqueda 
 búsquedas 
+Caballer 
 caballero 
 caballeros 
 caballerías 
@@ -1777,6 +1897,7 @@ cafetería
 café 
 caja 
 cajas 
+cal 
 cala 
 calabaza 
 calamar 
@@ -1795,7 +1916,9 @@ calculan
 calculando 
 calcular 
 calculara 
+calcularla 
 calcularlo 
+calcularse 
 calculará 
 calcularé 
 calcule 
@@ -1805,6 +1928,7 @@ calidad
 caliente 
 calificaciones 
 calificación 
+calificada 
 calificado 
 califican 
 calificarlo 
@@ -1820,6 +1944,7 @@ camarero
 camareros 
 cambia 
 cambiaba 
+cambiadas 
 cambiado 
 cambiamos 
 cambian 
@@ -1827,11 +1952,13 @@ cambiando
 cambiante 
 cambiar 
 cambiara 
+cambiaremos 
 cambiarla 
 cambiarlas 
 cambiarles 
 cambiarlo 
 cambiarlos 
+cambiaron 
 cambiarse 
 cambiará 
 cambiarán 
@@ -1847,6 +1974,7 @@ cambiándolas
 cambiáramos 
 cambié 
 cambió 
+caminado 
 caminando 
 caminante 
 caminaremos 
@@ -1909,6 +2037,7 @@ capitalismo
 capitalistas 
 capitán 
 captura 
+capturada 
 capturador 
 capturar 
 capturas 
@@ -1937,6 +2066,7 @@ cargan
 cargando 
 cargar 
 cargara 
+cargarlas 
 cargarse 
 cargará 
 cargarán 
@@ -1977,6 +2107,8 @@ casado
 casarnos 
 casarse 
 casas 
+casca 
+cascaba 
 cascada 
 cascadas 
 casi 
@@ -2010,6 +2142,7 @@ cauce
 causa 
 causaba 
 causado 
+causando 
 causar 
 causas 
 cautivos 
@@ -2026,14 +2159,19 @@ caótica
 caóticas 
 caótico 
 ceban 
+ceden 
 cedilla 
 cedillas 
+cejar 
 celar 
 celda 
 celdas 
 celebra 
 celebración 
 celebrado 
+celebrar 
+celebrarlo 
+celebraron 
 celebro 
 celos 
 censura 
@@ -2053,6 +2191,7 @@ centralizadoras
 centralizados 
 centralizar 
 centran 
+centrando 
 centrar 
 centrarla 
 centrarme 
@@ -2071,6 +2210,8 @@ cerebro
 cereza 
 cerezas 
 cerezos 
+cerilla 
+cerillas 
 cero 
 ceros 
 cerrad 
@@ -2084,6 +2225,7 @@ cerrar
 cerrarlas 
 cerrarse 
 cerrará 
+cerraríamos 
 cerro 
 cerrándola 
 cerró 
@@ -2098,14 +2240,21 @@ cesó
 ceñudo 
 cf 
 chafa 
+chain 
 chaleco 
+chantajear 
 chapotean 
+Charla 
+charla 
 charlas 
 charlatanería 
+chavales 
+checa 
 chelines 
 chelín 
 chequee 
 chica 
+chicas 
 chicharra 
 chico 
 chinchetas 
@@ -2137,6 +2286,7 @@ cien
 ciencia 
 ciencias 
 cieno 
+ciento 
 cientos 
 científica 
 científicas 
@@ -2165,6 +2315,7 @@ cinematográficas
 cines 
 cinismo 
 cinológica 
+cinta 
 cintas 
 circo 
 circuitería 
@@ -2245,12 +2396,14 @@ coces
 coche 
 coches 
 cociente 
+cocientes 
 cocinero 
 cocineros 
 codicia 
 codificaciones 
 codificación 
 codificada 
+codificado 
 codificados 
 codifican 
 codificando 
@@ -2270,7 +2423,11 @@ cogido
 cogidos 
 cogiendo 
 cogiera 
+cogí 
+cogían 
+cogías 
 coherente 
+cohesión 
 coincida 
 coincidan 
 coincide 
@@ -2282,7 +2439,9 @@ coincidentes
 coincidido 
 coincidiendo 
 coincidieran 
+coincidimos 
 coincidir 
+coincidirían 
 coincidían 
 coja 
 colabora 
@@ -2344,6 +2503,7 @@ comandó
 comas 
 combina 
 combinaba 
+combinaban 
 combinaciones 
 combinación 
 combinada 
@@ -2357,6 +2517,7 @@ combinando
 combinar 
 combinarse 
 combustibles 
+comecocos 
 comedia 
 comencé 
 comenta 
@@ -2364,12 +2525,14 @@ comentaba
 comentad 
 comentada 
 comentadas 
+comentadlos 
 comentadmelo 
 comentado 
 comentados 
 comentan 
 comentando 
 comentar 
+comentarais 
 comentario 
 comentarios 
 comentarla 
@@ -2432,6 +2595,7 @@ comparamos
 comparan 
 comparando 
 comparar 
+compararlas 
 compararlos 
 compararse 
 comparase 
@@ -2523,6 +2687,7 @@ complete
 completo 
 completos 
 completé 
+completéis 
 completó 
 complexión 
 complica 
@@ -2561,6 +2726,7 @@ compramos
 comprar 
 compras 
 compraventa 
+compre 
 comprenden 
 comprender 
 comprenderla 
@@ -2579,6 +2745,7 @@ comprimido
 comprimidos 
 comprimir 
 comprimiremos 
+compro 
 comprobaciones 
 comprobación 
 comprobad 
@@ -2601,6 +2768,7 @@ comprueba
 comprueban 
 compruebe 
 compruebo 
+compré 
 compró 
 compuertas 
 compuesta 
@@ -2609,6 +2777,7 @@ compuesto
 compuestos 
 compuso 
 computacional 
+computacionalmente 
 computación 
 computada 
 computadora 
@@ -2641,10 +2810,12 @@ coméntelo
 comía 
 común 
 con 
+concatenaciones 
 concatenación 
 concatenada 
 concatenadas 
 concatenan 
+concatenando 
 concatenar 
 concatenarlas 
 concatenarlos 
@@ -2687,6 +2858,7 @@ concretamente
 concretas 
 concreto 
 concretos 
+concuerda 
 concurso 
 concursos 
 concéntricos 
@@ -2721,6 +2893,7 @@ conectado
 conectados 
 conectamos 
 conectan 
+conectando 
 conectar 
 conectaremos 
 conectarnos 
@@ -2800,6 +2973,7 @@ congresos
 conjetura 
 conjeturas 
 conjuguen 
+conjunciones 
 conjunción 
 conjunta 
 conjuntamente 
@@ -2825,7 +2999,9 @@ conocido
 conocidos 
 conocimiento 
 conocimientos 
+conociéndote 
 conocéis 
+conocí 
 conocíamos 
 conozcan 
 conozco 
@@ -2833,13 +3009,17 @@ conozcáis
 conquista 
 consciente 
 conscientes 
+Consecución 
+consecución 
 consecuencia 
 consecuencias 
+Consecuentemente 
 consecutiva 
 consecutivamente 
 consecutivas 
 consecutivo 
 consecutivos 
+conseguida 
 conseguido 
 conseguidos 
 conseguimos 
@@ -2850,6 +3030,7 @@ conseguirse
 conseguirá 
 conseguirán 
 conseguiré 
+conseguía 
 conseguían 
 conseguís 
 consejero 
@@ -2874,6 +3055,7 @@ conservarla
 conservará 
 conservarán 
 conservemos 
+conserváis 
 considera 
 consideraba 
 consideraban 
@@ -2920,6 +3102,7 @@ consistiría
 consistía 
 consistían 
 consola 
+consolarnos 
 consolas 
 consolidadas 
 consolidado 
@@ -2935,6 +3118,7 @@ constar
 constará 
 constatar 
 conste 
+constitucionalización 
 constitución 
 constituir 
 constituye 
@@ -2974,6 +3158,8 @@ consumirse
 consumo 
 consumían 
 consíguelo 
+contaban 
+contabas 
 contabilidad 
 contabilizadas 
 contabilizará 
@@ -2993,6 +3179,7 @@ contar
 contarlas 
 contaron 
 contará 
+contaríamos 
 contemplan 
 contemplar 
 contemporánea 
@@ -3008,6 +3195,7 @@ contenida
 contenidas 
 contenido 
 contenidos 
+conteniendo 
 contentos 
 contenía 
 contenían 
@@ -3064,6 +3252,7 @@ contraposición
 contraria 
 contrario 
 contrarios 
+contrarrevolucionario 
 contras 
 contraseña 
 contraseñas 
@@ -3096,6 +3285,7 @@ controlaría
 controles 
 contuviera 
 contuvieran 
+contándome 
 contárselo 
 contínuo 
 contó 
@@ -3110,6 +3300,7 @@ convenible
 conveniente 
 convenientemente 
 convenio 
+convenía 
 convergente 
 conversaciones 
 conversación 
@@ -3125,11 +3316,14 @@ convertidos
 convertir 
 convertirla 
 convertirlas 
+convertirle 
 convertirlo 
 convertirlos 
 convertirse 
 convertirá 
 convertiría 
+convertía 
+convertían 
 convicción 
 conviene 
 convierta 
@@ -3158,6 +3352,7 @@ coordinación
 coordinada 
 coordinados 
 coordinar 
+Copa 
 copia 
 copiada 
 copiadas 
@@ -3173,7 +3368,9 @@ copiará
 copias 
 copie 
 copio 
+copiándola 
 copié 
+copíais 
 corazones 
 corazón 
 corchete 
@@ -3209,8 +3406,12 @@ corregirlos
 corregirse 
 corregirá 
 corregiré 
+corregiría 
+corregí 
 corregía 
 corregían 
+correlativa 
+correlativamente 
 correlativo 
 correlativos 
 correo 
@@ -3228,6 +3429,7 @@ correspondiente
 correspondientes 
 correspondiera 
 correspondía 
+corresponsabilización 
 correveidile 
 corriendo 
 corriente 
@@ -3238,6 +3440,7 @@ corrigieron
 corrigió 
 corrija 
 corrijan 
+corrillo 
 corrimiento 
 corroborar 
 corromper 
@@ -3246,6 +3449,8 @@ cortada
 cortado 
 cortados 
 cortafuegos 
+cortan 
+cortando 
 cortar 
 cortas 
 corte 
@@ -3266,6 +3471,7 @@ costaría
 coste 
 costes 
 costosa 
+costoso 
 costumbre 
 costumbrismo 
 costumbrista 
@@ -3293,6 +3499,7 @@ crean
 creando 
 crear 
 creara 
+crearan 
 crearemos 
 crearla 
 crearlas 
@@ -3307,6 +3514,7 @@ crearían
 crease 
 creasteis 
 creativas 
+creatividad 
 crece 
 crecen 
 crecer 
@@ -3329,11 +3537,14 @@ creen
 creencias 
 creer 
 creería 
+crees 
 creo 
 crezcan 
+creándose 
 creé 
 creéis 
 creía 
+creían 
 creó 
 criado 
 criadores 
@@ -3388,6 +3599,7 @@ cuadrados
 cuadrante 
 cuadrantes 
 cuadrito 
+cuadritos 
 cuadro 
 cuadros 
 cuadráticas 
@@ -3410,11 +3622,13 @@ cuarenta
 cuarentena 
 cuarentenas 
 cuarta 
+cuartas 
 cuarteto 
 cuarto 
 cuartos 
 cuatrimestre 
 cuatro 
+cuatros 
 cubierto 
 cubo 
 cubra 
@@ -3440,6 +3654,7 @@ cuestan
 cuestas 
 cuestionario 
 cuestionarios 
+cuestiones 
 cuestión 
 cuidado 
 cuidadosamente 
@@ -3560,6 +3775,7 @@ dame
 damos 
 dan 
 dando 
+danesa 
 danza 
 danés 
 dar 
@@ -3608,6 +3824,7 @@ debieran
 debió 
 debo 
 debéis 
+debí 
 debía 
 debían 
 decayendo 
@@ -3616,6 +3833,7 @@ decenas
 decidamos 
 decidan 
 decide 
+deciden 
 decidida 
 decidido 
 decididos 
@@ -3674,7 +3892,9 @@ Decreto-Ley
 decretos 
 decía 
 decían 
+decírtelo 
 dedica 
+dedicaba 
 dedicaban 
 dedicación 
 dedicad 
@@ -3684,6 +3904,7 @@ dedicado
 dedicados 
 dedicando 
 dedicar 
+dedicarle 
 dedicaron 
 dedicarán 
 dedicaré 
@@ -3702,6 +3923,7 @@ defectos
 defendió 
 defensa 
 defensor 
+deficiencias 
 deficiente 
 defiende 
 defina 
@@ -3739,6 +3961,7 @@ degenerado
 degradados 
 degradando 
 deinstalar 
+deis 
 deja 
 dejaba 
 dejadlo 
@@ -3764,6 +3987,7 @@ dejo
 dejándoles 
 dejándolo 
 dejé 
+dejéis 
 dejó 
 del 
 delante 
@@ -3797,6 +4021,7 @@ demolición
 demoliendo 
 demolió 
 demonio 
+demorarse 
 demostraciones 
 demostración 
 demostrado 
@@ -3861,6 +4086,7 @@ deriva
 derivaciones 
 derivada 
 derivadas 
+derivado 
 derivados 
 derivan 
 derivar 
@@ -3902,6 +4128,7 @@ desactivo
 desactivó 
 desactualizada 
 desacuerdo 
+desafortunadamente 
 desafío 
 desafíos 
 desagradecido 
@@ -3912,6 +4139,7 @@ desaparece
 desaparecen 
 desaparecer 
 desaparecerá 
+desaparecerán 
 desaparecidas 
 desaparecido 
 desaparecidos 
@@ -3955,6 +4183,7 @@ desborda
 desbordado 
 desbordamiento 
 desborde 
+desborden 
 descansar 
 descanso 
 descarga 
@@ -3990,6 +4219,7 @@ descartan
 descartando 
 descartar 
 descartaría 
+descatalogada 
 descatar 
 descendencia 
 descendente 
@@ -4005,6 +4235,7 @@ desciende
 descomedidos 
 descomentada 
 descomentar 
+descomentarla 
 descompensado 
 descomponer 
 descomposición 
@@ -4012,6 +4243,7 @@ descompresión
 descompresor 
 descomprima 
 descomprime 
+descomprimid 
 descomprimida 
 descomprimido 
 descomprimiendo 
@@ -4022,11 +4254,17 @@ descomprímalas
 descomprímalo 
 descomunal 
 descomunales 
+descoméntela 
 desconcierto 
 desconectado 
+desconectando 
 desconectar 
 desconectarse 
+desconectará 
+desconecte 
+desconectándose 
 desconexión 
+desconfiar 
 desconfía 
 desconoce 
 desconocida 
@@ -4051,6 +4289,7 @@ descritas
 descubierta 
 descubierto 
 descubiertos 
+descubra 
 descubre 
 descubriendo 
 descubriera 
@@ -4058,6 +4297,7 @@ descubrimiento
 descubrimos 
 descubrir 
 descubrió 
+descubro 
 descubrí 
 descuente 
 descuenten 
@@ -4079,6 +4319,7 @@ desee
 deseemos 
 deseen 
 desempatar 
+desempeña 
 desempeño 
 desenfadado 
 desenfoque 
@@ -4087,10 +4328,13 @@ desentrañarles
 deseo 
 deseos 
 desestimado 
+desestructurar 
 desfasado 
+desfasados 
 desfases 
 desgracia 
 desgraciadamente 
+desgracias 
 deshabilita 
 deshabilitada 
 deshabilitadas 
@@ -4118,6 +4362,7 @@ desinfecte
 desinformación 
 desinstala 
 desinstalación 
+desinstalado 
 desinstalan 
 desinstalar 
 desinstalarlas 
@@ -4133,6 +4378,8 @@ desmayarse
 desmayo 
 desmenuzar 
 desminificado 
+desmontadas 
+desmontando 
 desmontó 
 desniveles 
 desnuda 
@@ -4142,6 +4389,7 @@ desoladora
 desordenadas 
 desordenados 
 desorganizada 
+desoxirribonucleótido 
 despacho 
 desparecida 
 despedida 
@@ -4151,6 +4399,7 @@ despertadores
 despertó 
 despida 
 despide 
+despidos 
 despistado 
 desplace 
 desplacen 
@@ -4175,6 +4424,7 @@ desplegar
 desplegará 
 despliega 
 despliegue 
+desplumando 
 desplácese 
 despropósitos 
 despulsa 
@@ -4219,7 +4469,9 @@ desvelábase
 desventaja 
 desventajas 
 desviación 
+desvinculación 
 desvinculado 
+desvincularse 
 desvío 
 detalla 
 detallaban 
@@ -4244,12 +4496,16 @@ detectamos
 detectan 
 detectando 
 detectar 
+detectarla 
 detecte 
 detectemos 
 detecten 
 detective 
 detector 
+detectáis 
 detención 
+detendrá 
+detendría 
 detener 
 deteneros 
 detenerse 
@@ -4265,6 +4521,7 @@ determinados
 determinan 
 determinante 
 determinar 
+determinará 
 determinó 
 detiene 
 detienen 
@@ -4284,6 +4541,8 @@ devolverían
 devolviendo 
 devolviera 
 devolvió 
+devolvía 
+devolvían 
 devoran 
 devorando 
 devuelta 
@@ -4306,6 +4565,7 @@ diario
 diarios 
 dibuja 
 dibujaba 
+dibujaban 
 dibujada 
 dibujado 
 dibujados 
@@ -4373,6 +4633,7 @@ dificultan
 dificultar 
 dificultará 
 difiere 
+difieren 
 difuminado 
 difundidos 
 difundiendo 
@@ -4396,6 +4657,7 @@ dijo
 dile 
 dimensiones 
 dimensión 
+Dinamarca 
 dinero 
 dinámica 
 dinámicamente 
@@ -4430,6 +4692,7 @@ directrices
 dirige 
 dirigen 
 dirigente 
+dirigentes 
 dirigible 
 dirigida 
 dirigidas 
@@ -4462,6 +4725,7 @@ discusiones
 discusión 
 discutible 
 discutibles 
+discutiendo 
 discutir 
 discutió 
 diseminada 
@@ -4479,11 +4743,13 @@ diseño
 diseños 
 diseñó 
 disfrutado 
+disgusto 
 disidentes 
 disimular 
 disminuir 
 disminuya 
 disminuye 
+disminuyen 
 disminuyendo 
 disparadas 
 disparando 
@@ -4513,14 +4779,17 @@ disposición
 dispositivo 
 dispositivos 
 dispuesto 
+disruptivo 
 distancia 
 distancias 
 distante 
 distinción 
 distinga 
+distingan 
 distingue 
 distinguen 
 distinguido 
+distinguieran 
 distinguir 
 distinguiremos 
 distinguirla 
@@ -4559,6 +4828,7 @@ divergencias
 diversa 
 diversas 
 diversidad 
+diversificación 
 diversificar 
 diverso 
 diversos 
@@ -4643,6 +4913,7 @@ dorso
 dos 
 dotación 
 dotado 
+dotados 
 dotar 
 downloading 
 doy 
@@ -4654,8 +4925,10 @@ duales
 dubi 
 duda 
 dudas 
+dudo 
 dudosa 
 duele 
+duelo 
 duelos 
 dueño 
 dulce 
@@ -4703,6 +4976,7 @@ dólar
 dólares 
 dónde 
 echado 
+echando 
 echar 
 echarán 
 echaría 
@@ -4710,6 +4984,7 @@ eclipsando
 eclipse 
 eclosión 
 eco 
+ecológica 
 economía 
 económica 
 económicas 
@@ -4752,6 +5027,7 @@ efectividad
 efectivo 
 efecto 
 efectos 
+efectuada 
 efectuando 
 efectuar 
 efectuarse 
@@ -4781,6 +5057,7 @@ ejecutan
 ejecutando 
 ejecutar 
 ejecutara 
+ejecutaran 
 ejecutarla 
 ejecutarlo 
 ejecutarlos 
@@ -4796,6 +5073,7 @@ ejecuto
 ejecutándose 
 ejecútelo 
 ejemplares 
+ejemplificaremos 
 ejemplo 
 ejemplos 
 ejercerá 
@@ -4821,6 +5099,7 @@ elecciones
 elección 
 electricidad 
 electrodo 
+electroencefalografía 
 electromagnética 
 electromecánicos 
 electrotécnica 
@@ -4846,6 +5125,7 @@ elemental
 elementales 
 elemento 
 elementos 
+elevaban 
 elevado 
 elevar 
 elige 
@@ -4866,6 +5146,7 @@ eliminamos
 eliminan 
 eliminando 
 eliminar 
+eliminarlo 
 eliminarlos 
 eliminaron 
 eliminarse 
@@ -4875,6 +5156,7 @@ elimine
 eliminemos 
 eliminen 
 elimino 
+eliminándolos 
 eliminé 
 eliminó 
 elipse 
@@ -4894,6 +5176,7 @@ elípticos
 embarcado 
 embarcó 
 embargo 
+embebidos 
 emergencia 
 emergencias 
 emergente 
@@ -4910,6 +5193,7 @@ emparejada
 emparejadas 
 emparejados 
 emparejó 
+empatadas 
 empatado 
 empatan 
 empatando 
@@ -4931,6 +5215,7 @@ empezaremos
 empezaron 
 empezaréis 
 empezó 
+empeño 
 empiece 
 empiecen 
 empieza 
@@ -4952,6 +5237,7 @@ empleará
 emplee 
 empleen 
 empleo 
+empoderar 
 emprendedora 
 empresa 
 empresarial 
@@ -4978,6 +5264,7 @@ encadenadas
 encadenados 
 encadenar 
 encamina 
+encaminadas 
 encantado 
 encantamentos 
 encanto 
@@ -4992,12 +5279,14 @@ encargados
 encargan 
 encargara 
 encargarse 
+encargué 
 encarnada 
 encauzar 
 encender 
 encenderlo 
 encenderse 
 encendida 
+encendido 
 encerrado 
 enciclopedia 
 enciende 
@@ -5024,7 +5313,10 @@ encontraron
 encontrarse 
 encontrará 
 encontrarán 
+encontrarás 
+encontrase 
 encontremos 
+encontráramos 
 encontré 
 encontréis 
 encontró 
@@ -5063,6 +5355,7 @@ enfrentaros
 enfrentarse 
 enfrente 
 enfría 
+engancha 
 enganchado 
 engañada 
 engañar 
@@ -5112,11 +5405,13 @@ enormemente
 enormes 
 enquistados 
 enredado 
+enriquecidos 
 ensamblador 
 ensamblaje 
 ensanchan 
 ensanchando 
 ensanchar 
+ensayan 
 ensayo 
 enseguida 
 enseña 
@@ -5128,6 +5423,7 @@ enseñar
 enseñas 
 enseñen 
 enseño 
+enseñó 
 ensillaba 
 ente 
 entendais 
@@ -5170,6 +5466,7 @@ entradas
 entran 
 entrando 
 entrar 
+entraremos 
 entraron 
 entrará 
 entrarán 
@@ -5193,6 +5490,7 @@ entrenador
 entrenamiento 
 entresemana 
 entretenerse 
+entretenido 
 entreteniendo 
 entretenimiento 
 entretienen 
@@ -5214,7 +5512,9 @@ enunciado
 enunciados 
 enviaba 
 enviaban 
+enviabas 
 enviada 
+enviadas 
 enviadla 
 enviadme 
 enviado 
@@ -5222,6 +5522,7 @@ enviados
 enviamos 
 enviando 
 enviar 
+enviara 
 enviaremos 
 enviarla 
 enviarle 
@@ -5234,6 +5535,7 @@ enviarse
 enviará 
 enviaré 
 enviaría 
+enviaste 
 enviudar 
 enviándolo 
 envió 
@@ -5246,8 +5548,10 @@ envíe
 envíen 
 envío 
 envíos 
+enzarzan 
 epidemia 
 epidemias 
+episodio 
 episodios 
 equidad 
 equilibrado 
@@ -5261,6 +5565,7 @@ equipo
 equipos 
 equivale 
 equivalencia 
+Equivalencias 
 equivalente 
 equivalentes 
 equivalía 
@@ -5273,13 +5578,16 @@ equivocar
 equivocarnos 
 equivoque 
 era 
+eramos 
 eran 
+eras 
 eres 
 erosionar 
 errata 
 erratas 
 error 
 errores 
+errático 
 errónea 
 erróneamente 
 erróneo 
@@ -5295,6 +5603,7 @@ escalables
 escalado 
 escalando 
 escalar 
+escalares 
 escalas 
 escalera 
 escaleras 
@@ -5315,6 +5624,7 @@ escisión
 esclavo 
 escogen 
 escogida 
+escogidas 
 escoja 
 escojo 
 escolar 
@@ -5337,7 +5647,9 @@ escribirla
 escribirlas 
 escribirlo 
 escribirlos 
+escribirme 
 escribirse 
+escribirte 
 escribirá 
 escribirán 
 escribiría 
@@ -5346,11 +5658,13 @@ escribiéndola
 escribiéndolas 
 escribiéndolo 
 escribiéndolos 
+escribiéndose 
 escribió 
 escribo 
 escribr 
 escribáis 
 escribía 
+escribíamos 
 escribían 
 escrita 
 escritas 
@@ -5381,6 +5695,7 @@ esencial
 esenciales 
 esfera 
 esfuerzo 
+esgrima 
 eso 
 esos 
 espaciado 
@@ -5476,11 +5791,13 @@ establecen
 establecer 
 establecerse 
 establecerá 
+estableces 
 establecida 
 establecidas 
 establecido 
 establecidos 
 estableciendo 
+establecieron 
 establecimiento 
 estableció 
 establecía 
@@ -5508,6 +5825,7 @@ estaremos
 estarlo 
 estará 
 estarán 
+estarás 
 estaréis 
 estaría 
 estaríamos 
@@ -5520,6 +5838,7 @@ estatuto
 este 
 estemos 
 esterlinas 
+esternocleidomastoideo 
 estilo 
 estilos 
 estima 
@@ -5539,6 +5858,7 @@ estoy
 estrategia 
 estrategias 
 estratégicas 
+estratégico 
 estraño 
 estrecha 
 estrechamente 
@@ -5549,6 +5869,7 @@ estrecho
 estrella 
 estrellas 
 estrellato 
+estrena 
 estrenadas 
 estreno 
 estrenó 
@@ -5557,12 +5878,15 @@ estricta
 estrictamente 
 estricto 
 estropea 
+estropeando 
 estructura 
 estructurada 
 estructurado 
 estructurados 
+estructurales 
 estructurar 
 estructuras 
+estudia 
 estudiado 
 estudiando 
 estudiante 
@@ -5599,6 +5923,7 @@ etapas
 etc 
 eterna 
 eterno 
+ethical 
 etiqueta 
 etiquetado 
 etiquetar 
@@ -5611,6 +5936,7 @@ europeo
 europeos 
 euros 
 evaluaba 
+evaluables 
 evaluaciones 
 evaluación 
 evaluada 
@@ -5634,6 +5960,7 @@ evitar
 evitarlo 
 evitarse 
 evite 
+eviten 
 evoluciona 
 evolucionado 
 evolucionando 
@@ -5641,6 +5968,7 @@ evolucionar
 evoluciones 
 evolucionó 
 evolución 
+evolving 
 exacta 
 exactamente 
 exactas 
@@ -5653,6 +5981,7 @@ examinaros
 examinarse 
 exceda 
 excelente 
+excelentes 
 excepcionales 
 excepcionalmente 
 excepciones 
@@ -5660,6 +5989,7 @@ excepción
 excepto 
 exceptuando 
 excesivamente 
+excesivo 
 excesivos 
 exceso 
 excesos 
@@ -5669,6 +5999,7 @@ exclusivamente
 exclusivas 
 exclusivo 
 exclusivos 
+excluyentes 
 excursiones 
 excursión 
 excusa 
@@ -5682,6 +6013,7 @@ exigencias
 exigente 
 exigible 
 exigir 
+exigiros 
 exigía 
 exiliados 
 exilio 
@@ -5707,6 +6039,7 @@ exitoso
 expandidas 
 expandido 
 expansión 
+expectativas 
 expediciones 
 expedición 
 expediente 
@@ -5745,6 +6078,8 @@ explorador
 explorando 
 explorar 
 exploró 
+explosiones 
+explosión 
 explotación 
 explotar 
 explícita 
@@ -5759,6 +6094,7 @@ exponiendo
 exponían 
 exporta 
 exportación 
+exportado 
 exportar 
 exportarla 
 exporte 
@@ -5766,6 +6102,7 @@ exportándolas
 exposiciones 
 exposición 
 expresa 
+expresaban 
 expresada 
 expresadas 
 expresado 
@@ -5776,6 +6113,7 @@ expresando
 expresar 
 expresaros 
 expresarse 
+expresarán 
 exprese 
 expresiones 
 expresión 
@@ -5792,6 +6130,8 @@ extendida
 extendidas 
 extendido 
 extendidos 
+extendiendo 
+extendiera 
 extendieron 
 extendiéndose 
 extendió 
@@ -5815,6 +6155,7 @@ extiende
 extienden 
 extra 
 extracción 
+Extractivas 
 extrae 
 extraemos 
 extraen 
@@ -5833,8 +6174,10 @@ extrapolando
 extras 
 extrayendo 
 extraído 
+extraña 
 extraños 
 extremadamente 
+Extremadura 
 extremas 
 extremistas 
 extremo 
@@ -5863,9 +6206,11 @@ facilitan
 facilitando 
 facilitar 
 facilitarle 
+facilitaron 
 facilitaros 
 facilitarse 
 facilitará 
+facilitarán 
 facilitasen 
 facilite 
 facilito 
@@ -5890,6 +6235,7 @@ fallaría
 fallarían 
 Fallas 
 fallas 
+fallaste 
 falle 
 fallece 
 fallecida 
@@ -5928,6 +6274,7 @@ famoso
 famosos 
 fantasmas 
 fantasía 
+faringitis 
 farmacia 
 farragosa 
 fascismo 
@@ -5945,6 +6292,7 @@ favorito
 favoritos 
 fax 
 fe 
+feas 
 febrero 
 fecha 
 fechado 
@@ -5964,6 +6312,7 @@ fenómeno
 feo 
 fermosura 
 ferrocarril 
+festejan 
 festejó 
 festivo 
 festivos 
@@ -5985,6 +6334,7 @@ fiestas
 figura 
 figuras 
 fija 
+fijadas 
 fijamos 
 fijan 
 fijando 
@@ -6003,12 +6353,15 @@ filas
 filo 
 filosofía 
 filtra 
+filtrada 
 filtrados 
 filtrar 
+filtre 
 filtro 
 filtros 
 filósofo 
 fin 
+fina 
 final 
 finales 
 finalice 
@@ -6033,6 +6386,7 @@ fines
 finito 
 fino 
 firma 
+firmada 
 firmado 
 firmaron 
 firmas 
@@ -6052,6 +6406,7 @@ flexibles
 flor 
 florentinos 
 flores 
+florete 
 florín 
 flota 
 flotación 
@@ -6062,6 +6417,7 @@ flotantes
 flotar 
 flotas 
 floten 
+fluido 
 fluir 
 flujo 
 fluya 
@@ -6070,6 +6426,8 @@ fluyen
 fluyendo 
 focas 
 foco 
+fomentar 
+fomento 
 fondo 
 fondos 
 fonógrafo 
@@ -6080,6 +6438,7 @@ formación
 formada 
 formadas 
 formado 
+formador 
 formadores 
 formados 
 formal 
@@ -6102,6 +6461,7 @@ formateada
 formateadas 
 formateado 
 formateador 
+formateadores 
 formateamos 
 formateando 
 formatear 
@@ -6127,12 +6487,14 @@ forró
 fortaleza 
 fortifican 
 fortuna 
+forzada 
 forzados 
 forzamos 
 forzar 
 forzoso 
 fosa 
 foto 
+fotocopia 
 fotografía 
 fotografías 
 fotogramas 
@@ -6152,6 +6514,7 @@ fractional
 fragmentación 
 fragmentado 
 fragmentando 
+fragmentar 
 fragmento 
 fragmentos 
 frailes 
@@ -6166,6 +6529,7 @@ frase
 frases 
 frecuencia 
 frecuente 
+frecuentes 
 frenado 
 frenando 
 frenar 
@@ -6203,6 +6567,8 @@ fuertes
 fuerza 
 fuerzas 
 fugitivo 
+fui 
+fuimos 
 fulgurante 
 fulminante 
 fuma 
@@ -6258,6 +6624,7 @@ futuras
 futuro 
 futuros 
 fuéramos 
+fá 
 fábrica 
 fácil 
 fáciles 
@@ -6270,6 +6637,7 @@ físico
 físicos 
 fórmula 
 fórmulas 
+fú 
 fútbol 
 galaxia 
 galaxias 
@@ -6284,6 +6652,7 @@ galones
 galán 
 galón 
 gama 
+gamberros 
 gana 
 ganada 
 ganadas 
@@ -6296,11 +6665,15 @@ ganan
 ganancias 
 ganando 
 ganar 
+ganara 
 ganaron 
+ganará 
 ganaría 
+ganaste 
 gancho 
 ganso 
 ganó 
+garantice 
 garantizada 
 garantizar 
 garantizará 
@@ -6353,6 +6726,7 @@ generarían
 genere 
 generen 
 genero 
+generosa 
 generosidad 
 generó 
 genial 
@@ -6388,7 +6762,9 @@ gigantea
 gigantes 
 gigantesca 
 gigantesco 
+gigantescos 
 gime 
+gimnasia 
 gira 
 girada 
 giradas 
@@ -6396,10 +6772,12 @@ girado
 girados 
 giramos 
 girando 
+girar 
 giro 
 global 
 globales 
 globalmente 
+globitos 
 globo 
 globos 
 glúcidos 
@@ -6416,10 +6794,15 @@ golpes
 gongorismo 
 gordas 
 gordo 
+Gorrión 
 gota 
 goza 
+grababas 
+grabaciones 
 grabación 
+grabado 
 grabar 
+gracia 
 gracias 
 gradación 
 gradiente 
@@ -6433,6 +6816,8 @@ gradualmente
 grafo 
 grafos 
 gramaticales 
+gramaticalmente 
+gramos 
 gramática 
 gramáticas 
 gran 
@@ -6494,6 +6879,7 @@ guardaría
 guarde 
 guarden 
 guardes 
+guardo 
 guardándolo 
 guardó 
 gubernamentales 
@@ -6502,6 +6888,8 @@ guerras
 guiadas 
 guiado 
 guiados 
+guiando 
+guiaremos 
 guinda 
 guineo 
 guion 
@@ -6523,6 +6911,7 @@ guárdela
 guárdelas 
 guárdelo 
 guía 
+guían 
 guías 
 género 
 géneros 
@@ -6557,6 +6946,7 @@ habla
 hablaba 
 hablaban 
 hablador 
+hablamos 
 hablan 
 hablando 
 hablar 
@@ -6564,9 +6954,12 @@ hablaremos
 hablaron 
 hablaré 
 hablemos 
+hablo 
+hablé 
 habremos 
 habrá 
 habrán 
+habrás 
 habréis 
 habría 
 habrían 
@@ -6575,14 +6968,18 @@ había
 habíais 
 habíamos 
 habían 
+habías 
 hace 
 haced 
 hacemos 
 hacen 
 hacer 
+hacerla 
 hacerlas 
+hacerle 
 hacerlo 
 hacerlos 
+hacerme 
 haceros 
 hacerse 
 haces 
@@ -6590,6 +6987,7 @@ hacia
 hacienda 
 haciendo 
 haciéndolo 
+hackea 
 hacéis 
 hacía 
 hacían 
@@ -6610,6 +7008,7 @@ han
 hanegas 
 hanseática 
 haremos 
+hartar 
 harto 
 hará 
 harán 
@@ -6626,7 +7025,9 @@ hay
 haya 
 hayamos 
 hayan 
+hayas 
 hayáis 
+hazañas 
 he 
 hebreo 
 hecha 
@@ -6661,6 +7062,9 @@ hice
 hiciera 
 hicieran 
 hicieron 
+hiciste 
+hicisteis 
+hiciéramos 
 hidalgo 
 hidroavión 
 hidrógeno 
@@ -6672,6 +7076,7 @@ hijos
 hilandera 
 hilo 
 hilos 
+himno 
 hincapié 
 hindú 
 hindúes 
@@ -6722,6 +7127,7 @@ horarios
 horas 
 horizontal 
 horizontales 
+horizontally 
 horizontalmente 
 hormiguita 
 horror 
@@ -6763,6 +7169,7 @@ huéspedes
 hábitos 
 hágalo 
 iba 
+ibamos 
 iban 
 iberoamericanas 
 ibérica 
@@ -6825,6 +7232,7 @@ igual
 iguala 
 igualando 
 igualar 
+igualarla 
 igualaron 
 igualdad 
 igualdades 
@@ -6834,6 +7242,7 @@ igualmente
 ilegible 
 ilegibles 
 ilimitada 
+iluminado 
 ilusiones 
 ilusión 
 ilustra 
@@ -6912,11 +7321,13 @@ implementando
 implementar 
 implementarla 
 implementarlo 
+implementaron 
 implementarse 
 implemente 
 implementen 
 implementó 
 implica 
+implicaba 
 implicados 
 implícita 
 implícitamente 
@@ -6928,8 +7339,10 @@ imponer
 imponga 
 imponiendo 
 importa 
+importaba 
 importación 
 importado 
+importados 
 importamos 
 importan 
 importancia 
@@ -6940,8 +7353,10 @@ importar
 importarla 
 importarlas 
 importarlo 
+importarlos 
 importará 
 importe 
+importemos 
 importándola 
 imposibilidad 
 imposible 
@@ -6986,6 +7401,7 @@ impusieron
 impuso 
 impúdico 
 imágenes 
+inabarcable 
 inacabable 
 inaccesible 
 inaccesibles 
@@ -7007,6 +7423,7 @@ incertidumbres
 incidencia 
 incidencias 
 incidentes 
+incierto 
 incipiente 
 inclina 
 inclinación 
@@ -7031,6 +7448,9 @@ incluirán
 incluiré 
 incluiría 
 inclusiones 
+inclusiva 
+inclusivas 
+inclusivo 
 inclusión 
 incluso 
 incluya 
@@ -7059,14 +7479,18 @@ incompleta
 incompletas 
 incompleto 
 incompletos 
+incondicional 
+inconsistentes 
 inconveniente 
 inconvenientes 
 incoporaba 
+incoporarla 
 incordia 
 incordio 
 incorpora 
 incorporaba 
 incorporación 
+incorporada 
 incorporadas 
 incorporado 
 incorporados 
@@ -7134,12 +7558,14 @@ indicarán
 indicaré 
 indicaría 
 indicativas 
+indices 
 indico 
 indicándolo 
 indiferencia 
 indiferente 
 indio 
 indique 
+indiquemos 
 indiquen 
 indiquéis 
 indirecta 
@@ -7156,6 +7582,7 @@ individuos
 indudable 
 indulto 
 industria 
+industriales 
 industrias 
 inequívoca 
 inercia 
@@ -7167,6 +7594,7 @@ inestable
 inestables 
 inevitable 
 inevitablemente 
+inevitables 
 inexistente 
 inexistentes 
 inexorablemente 
@@ -7192,6 +7620,7 @@ influencia
 influencias 
 influido 
 influye 
+influyen 
 infografía 
 informa 
 informaciones 
@@ -7230,6 +7659,7 @@ inglés
 ingredientes 
 ingreso 
 ingresos 
+inhabilitar 
 inherentes 
 inicia 
 iniciación 
@@ -7280,6 +7710,7 @@ innecesarios
 innovaciones 
 innovación 
 innovador 
+innovadores 
 innovando 
 innumerables 
 inocentes 
@@ -7314,6 +7745,7 @@ insertarlos
 insertarse 
 insertará 
 insertarán 
+insertaría 
 insertarían 
 inserte 
 inserten 
@@ -7352,11 +7784,14 @@ instalarlo
 instalarlos 
 instalarse 
 instalará 
+instalarán 
 instalaría 
+instalas 
 instale 
 instalen 
 instalo 
 instalr 
+instalé 
 instaléis 
 instaló 
 instancia 
@@ -7390,6 +7825,7 @@ integraron
 integrarse 
 integrará 
 integridad 
+integró 
 intelectual 
 inteligencia 
 inteligente 
@@ -7438,7 +7874,9 @@ intercalar
 intercambiables 
 intercambiados 
 intercambiar 
+intercambie 
 intercambio 
+interdisciplinariedad 
 interesa 
 interesadas 
 interesado 
@@ -7456,6 +7894,7 @@ interfaz
 interferencias 
 interferir 
 interferirse 
+interfiera 
 interfiere 
 interior 
 interiores 
@@ -7494,6 +7933,7 @@ interpretamos
 interpretan 
 interpretando 
 interpretar 
+interpretarlas 
 interpretarse 
 interpretarán 
 interpretaría 
@@ -7510,6 +7950,7 @@ interrumpir
 interrumpirla 
 interrumpirá 
 interrumpiría 
+interruptor 
 intersección 
 intersexualidad 
 intervalo 
@@ -7593,8 +8034,10 @@ invierno
 invirtiendo 
 invisible 
 invisibles 
+invita 
 invitaciones 
 invitado 
+invitados 
 invito 
 invoca 
 invocado 
@@ -7613,6 +8056,7 @@ inyección
 inyectados 
 inyectando 
 inyectar 
+inútiles 
 ir 
 iremos 
 iris 
@@ -7647,6 +8091,7 @@ IVA
 izquierda 
 izquierdo 
 izquierdos 
+ja 
 jamaicano 
 jamones 
 jamás 
@@ -7655,6 +8100,7 @@ japonesas
 jaque 
 jardinero 
 jardín 
+je 
 jefatura 
 jefe 
 jerarquizadas 
@@ -7682,6 +8128,7 @@ jugadas
 jugado 
 jugador 
 jugadora 
+jugadoras 
 jugadores 
 jugando 
 jugar 
@@ -7751,7 +8198,10 @@ lanzados
 lanzamiento 
 lanzamientos 
 lanzan 
+lanzando 
 lanzar 
+lanzarlo 
+lanzará 
 larga 
 largas 
 largo 
@@ -7865,6 +8315,7 @@ licencia
 licenciado 
 licencias 
 licencioso 
+Liceo 
 licor 
 liderazgo 
 lideró 
@@ -7897,6 +8348,7 @@ limite
 limpiados 
 limpiar 
 limpias 
+limpieza 
 limpio 
 lineal 
 lineales 
@@ -7917,6 +8369,7 @@ listarlos
 listas 
 liste 
 listillo 
+listón 
 literal 
 literales 
 literaria 
@@ -7945,10 +8398,12 @@ llamarla
 llamarlo 
 llamaron 
 llamarse 
+llamarte 
 llamará 
 llamarán 
 llamaría 
 llamativas 
+llamativos 
 llame 
 llamemos 
 llamen 
@@ -7956,6 +8411,7 @@ llamo
 llamándole 
 llano 
 llave 
+llavero 
 llaves 
 llega 
 llegaba 
@@ -7972,28 +8428,37 @@ llegará
 llegarán 
 llegarás 
 llego 
+llegue 
+lleguemos 
 lleguen 
 llegues 
 llegué 
+llegábamos 
 llegó 
 llena 
+llenado 
 llene 
 lleno 
 llenósele 
 lleva 
+llevaba 
 llevada 
 llevado 
 llevamos 
 llevan 
 llevando 
 llevar 
+llevaremos 
 llevarlas 
+llevarlo 
 llevarse 
 llevará 
+llevaría 
 lleve 
 lleven 
 llevé 
 llevó 
+llorar 
 llorón 
 lloviera 
 llámela 
@@ -8006,6 +8471,7 @@ local
 locales 
 localidad 
 localización 
+localizadas 
 localizado 
 localizador 
 localizan 
@@ -8019,6 +8485,7 @@ logarítmicas
 logo 
 logotipo 
 logotipos 
+lograr 
 logró 
 loma 
 longevidad 
@@ -8033,8 +8500,10 @@ lucro
 luego 
 lugar 
 lugares 
+Luminancia 
 luminosas 
 luminosidad 
+luna 
 lunar 
 lunares 
 lunas 
@@ -8092,6 +8561,7 @@ mala
 malabares 
 malas 
 malditas 
+maleantes 
 maleducados 
 malentendidos 
 maliciosa 
@@ -8110,10 +8580,12 @@ mancebo
 mancha 
 mandadme 
 mandado 
+mandan 
 mandando 
 mandar 
 mandato 
 mande 
+mando 
 manecilla 
 manecillas 
 maneja 
@@ -8136,11 +8608,13 @@ manipulado
 manipulando 
 manipular 
 manipule 
+manitas 
 mano 
 manos 
 mantendremos 
 mantendrá 
 mantendrán 
+mantendría 
 mantenemos 
 mantener 
 mantenerla 
@@ -8178,6 +8652,9 @@ mapeo
 maquetación 
 maquinaria 
 mar 
+maracas 
+maratones 
+maratón 
 maravilloso 
 marca 
 marcada 
@@ -8194,9 +8671,11 @@ marcará
 marcas 
 marcea 
 marcha 
+marcharse 
 marco 
 marcos 
 marcó 
+marearme 
 marearse 
 margen 
 marginal 
@@ -8235,6 +8714,7 @@ material
 materiales 
 materias 
 materna 
+matices 
 matiz 
 matrices 
 matriculación 
@@ -8246,7 +8726,9 @@ matrimonio
 matriz 
 matrícula 
 matrículas 
+maximice 
 maximiza 
+maximizado 
 maximizar 
 maya 
 mayas 
@@ -8264,6 +8746,8 @@ mazo
 mañana 
 mecanismo 
 mecanismos 
+medalla 
+medallas 
 media 
 mediados 
 medianas 
@@ -8272,6 +8756,7 @@ medianoche
 medianos 
 mediante 
 mediantes 
+mediar 
 medias 
 medicamento 
 medicina 
@@ -8285,6 +8770,7 @@ medio
 mediodía 
 medios 
 medir 
+medirte 
 Mediterráneo 
 medía 
 mega 
@@ -8293,6 +8779,7 @@ mejicano
 mejor 
 mejora 
 mejorable 
+mejorables 
 mejorada 
 mejorado 
 mejoran 
@@ -8305,6 +8792,8 @@ mejoras
 mejore 
 mejoren 
 mejores 
+mejoré 
+mejoró 
 melindroso 
 memoria 
 memorias 
@@ -8323,6 +8812,7 @@ menos
 mensaje 
 mensajería 
 mensajes 
+mensual 
 mensuales 
 mensualmente 
 mensáfonos 
@@ -8345,6 +8835,7 @@ merece
 merecedora 
 merecen 
 merecerá 
+merecidamente 
 merecido 
 merecimiento 
 merendero 
@@ -8361,8 +8852,10 @@ metainformación
 metaprogramación 
 mete 
 meten 
+meterse 
 metida 
 metido 
+metodología 
 metropolitana 
 metros 
 metí 
@@ -8372,9 +8865,13 @@ mezcladas
 mezclan 
 mezclando 
 mezclar 
+mezclarse 
 mezclen 
 mi 
 micro 
+microcontrolador 
+Microcredenciales 
+microcredenciales 
 microdatos 
 microformatos 
 microinformáticos 
@@ -8387,6 +8884,7 @@ miedo
 miembro 
 miembros 
 mientras 
+mierda 
 migraciones 
 migración 
 migrar 
@@ -8404,13 +8902,17 @@ milímetros
 mima 
 mini 
 miniatura 
+minificada 
+minificador 
 minificar 
+minificarlo 
 minifico 
 minijuegos 
 minimalista 
 minimapa 
 minimice 
 minimiza 
+minimizadas 
 minimizado 
 minimizar 
 miniordenador 
@@ -8422,19 +8924,24 @@ ministros
 minoritaria 
 minoritario 
 minoritarios 
+minuciosidad 
 minuto 
 minutos 
 minúscula 
 minúsculas 
 minúsculo 
+mira 
 mirad 
 mirado 
 miran 
 mirando 
 mirar 
 mirarlas 
+mirarlo 
 mirarlos 
+miras 
 miro 
+mirándome 
 miré 
 miréis 
 mirón 
@@ -8446,6 +8953,7 @@ mismas
 mismo 
 mismos 
 mitad 
+mitades 
 mixta 
 mixto 
 miércoles 
@@ -8464,6 +8972,7 @@ moderadores
 moderna 
 modernas 
 modernización 
+Modernizar 
 moderno 
 modernos 
 modifica 
@@ -8523,6 +9032,7 @@ monarcas
 monarquía 
 moneda 
 monedas 
+monetarias 
 monetario 
 monitor 
 monitores 
@@ -8559,6 +9069,7 @@ mostrados
 mostramos 
 mostrando 
 mostrar 
+mostrara 
 mostraran 
 mostraremos 
 mostrarla 
@@ -8586,9 +9097,11 @@ motive
 motivo 
 motivos 
 motores 
+motorizada 
 movemos 
 mover 
 moveremos 
+Moverla 
 moverlo 
 moverlos 
 moverse 
@@ -8654,6 +9167,7 @@ mundial
 mundiales 
 mundo 
 mundos 
+Munich 
 municipio 
 murallas 
 Murcia 
@@ -8671,6 +9185,7 @@ mutable
 mutables 
 mutación 
 mutuamente 
+mutuo 
 muy 
 muéstrela 
 muévase 
@@ -8692,6 +9207,7 @@ médicos
 mérito 
 método 
 métodos 
+métricas 
 métrico 
 mí 
 mía 
@@ -8750,12 +9266,14 @@ naturaleza
 naturalismo 
 naturalmente 
 naufragio 
+nave 
 navegabilidad 
 navegación 
 navegador 
 navegadores 
 navegar 
 Navidad 
+navidad 
 naútica 
 naúticas 
 necesaria 
@@ -8774,6 +9292,7 @@ necesitamos
 necesitan 
 necesitando 
 necesitar 
+necesitara 
 necesitaremos 
 necesitarlo 
 necesitarse 
@@ -8782,6 +9301,7 @@ necesitarán
 necesitarás 
 necesitaréis 
 necesitaría 
+necesitaríamos 
 necesitas 
 necesite 
 necesitemos 
@@ -8814,6 +9334,8 @@ negras
 negrita 
 negro 
 negros 
+Negrura 
+negrura 
 neogótica 
 nervios 
 nervioso 
@@ -8824,6 +9346,7 @@ neutros
 ni 
 niegan 
 nietos 
+nieve 
 ninguna 
 ninguno 
 ningunos 
@@ -9011,6 +9534,7 @@ obtendrían
 obtenemos 
 obtener 
 obtenerla 
+obtenerlo 
 obtenerse 
 obtenga 
 obtengan 
@@ -9134,8 +9658,10 @@ olvidar
 olvidara 
 olvidarnos 
 olvidarse 
+olvides 
 olvido 
 olvidó 
+olía 
 omisión 
 omita 
 omite 
@@ -9150,10 +9676,13 @@ omnipresente
 ondas 
 ontología 
 ontologías 
+onza 
+onzas 
 opacidad 
 opaco 
 opcional 
 opcionales 
+opcionalmente 
 opciones 
 opción 
 operaciones 
@@ -9195,6 +9724,7 @@ opuesta
 opuestas 
 opuesto 
 opuestos 
+oración 
 oral 
 orangistas 
 orden 
@@ -9212,6 +9742,7 @@ ordenamos
 ordenan 
 ordenando 
 ordenar 
+ordenarnos 
 ordenará 
 ordenarán 
 ordenaría 
@@ -9221,6 +9752,7 @@ ordenándolas
 ordinaria 
 ordinario 
 ordinarios 
+Oregón 
 oreja 
 orfebre 
 orfebres 
@@ -9256,6 +9788,7 @@ orientado
 orientados 
 orientales 
 orientarse 
+orientativo 
 origen 
 original 
 originales 
@@ -9277,6 +9810,7 @@ os
 osadía 
 oscilaciones 
 oscilar 
+oscile 
 osciloscopio 
 oscura 
 oscurecer 
@@ -9289,6 +9823,7 @@ otorgados
 otorgan 
 otorgar 
 otorgó 
+otorrinolaringología 
 otoño 
 otra 
 otras 
@@ -9371,6 +9906,7 @@ paralelizar
 paralelo 
 paralización 
 paralizados 
+paralizaron 
 paramétricas 
 parar 
 paraíso 
@@ -9443,7 +9979,9 @@ pasa
 pasaba 
 pasaban 
 pasada 
+pasadas 
 pasado 
+pasados 
 pasan 
 pasando 
 pasar 
@@ -9495,6 +10033,7 @@ peces
 pecho 
 peculiar 
 pedagógica 
+pedagógicas 
 pedagógico 
 pedaleando 
 pedazo 
@@ -9509,8 +10048,10 @@ pedirles
 pediros 
 pedirse 
 pedirá 
+pedirán 
 pediré 
 pediría 
+Pedrayes 
 pedí 
 pedía 
 pedían 
@@ -9527,10 +10068,12 @@ pegan
 pegando 
 pegar 
 pegarla 
+pegarlas 
 pegarle 
 pegarlo 
 pego 
 pegue 
+pegándola 
 pelado 
 pelaje 
 peligro 
@@ -9591,9 +10134,11 @@ perder
 perderse 
 perderá 
 perderán 
+perdería 
 perderíamos 
 perderían 
 perdida 
+perdidas 
 perdido 
 perdiendo 
 perdiéndose 
@@ -9612,7 +10157,9 @@ perfectamente
 perfecto 
 perfectos 
 perfil 
+perfilador 
 perfiles 
+periférico 
 periféricos 
 periodicidad 
 periodismo 
@@ -9685,6 +10232,7 @@ personalice
 personaliza 
 personalizable 
 personalizables 
+personalizaciones 
 personalización 
 personalizada 
 personalizadas 
@@ -9726,6 +10274,7 @@ petición
 petróleo 
 petróleos 
 pez 
+phoenix 
 piano 
 pica 
 picas 
@@ -9760,10 +10309,13 @@ piezas
 pila 
 pilas 
 pillará 
+pillen 
 pilotar 
 pinada 
 pinar 
+pines 
 pingüino 
+pinitos 
 pinta 
 pintados 
 pintamos 
@@ -9773,6 +10325,7 @@ pintores
 pintoresco 
 pintura 
 pionero 
+piques 
 pirata 
 piratas 
 pisar 
@@ -9804,6 +10357,7 @@ plantea
 planteada 
 planteado 
 planteados 
+planteamientos 
 planteamos 
 plantean 
 planteando 
@@ -9816,9 +10370,11 @@ plantearán
 plantee 
 planteo 
 planteé 
+planteéis 
 planteó 
 plantilla 
 plantillas 
+planto 
 plasma 
 plata 
 plataforma 
@@ -9879,6 +10435,7 @@ podrían
 podáis 
 podéis 
 podía 
+podíais 
 podían 
 poema 
 poemario 
@@ -9902,6 +10459,7 @@ política
 políticas 
 político 
 políticos 
+pon 
 pondrá 
 pondré 
 pondría 
@@ -9909,9 +10467,11 @@ pondrían
 pone 
 ponemos 
 ponen 
+ponencias 
 poner 
 ponerla 
 ponerlas 
+ponerle 
 ponerles 
 ponerlo 
 ponerlos 
@@ -9929,6 +10489,7 @@ popular
 populares 
 popularidad 
 popularizado 
+popularizaran 
 popularizaron 
 popularizó 
 por 
@@ -9977,10 +10538,12 @@ posteriores
 posteriori 
 posterioridad 
 posteriormente 
+postobligatoria 
 postre 
 posturas 
 potasio 
 potencia 
+potenciación 
 potenciales 
 potencialmente 
 potencias 
@@ -9994,6 +10557,7 @@ practicado
 practicar 
 practicaréis 
 practiquéis 
+Praga 
 precarga 
 precauciones 
 precaución 
@@ -10008,6 +10572,7 @@ precios
 precioso 
 precipitación 
 precipitado 
+precipitó 
 precisa 
 precisamente 
 precisión 
@@ -10044,6 +10609,7 @@ preferido
 preferir 
 preferirá 
 prefería 
+preferís 
 prefiera 
 prefieran 
 prefiere 
@@ -10067,6 +10633,7 @@ pregunte
 pregunté 
 pregúntale 
 preliminar 
+prematuro 
 premiado 
 premiados 
 premio 
@@ -10082,6 +10649,7 @@ preocuparse
 preocupes 
 preocupándose 
 prepara 
+preparaba 
 preparación 
 preparada 
 preparadas 
@@ -10115,6 +10683,7 @@ presentación
 presentada 
 presentado 
 presentados 
+presentamos 
 presentan 
 presentando 
 presentar 
@@ -10145,6 +10714,7 @@ presuntamente
 presuntos 
 presupone 
 presuponen 
+presupuestarias 
 presupuesto 
 presupuestos 
 pretenda 
@@ -10197,6 +10767,7 @@ priori
 prioridad 
 prioridades 
 prioritario 
+prisas 
 privacidad 
 privada 
 privadas 
@@ -10206,6 +10777,8 @@ privativo
 privilegios 
 proactiva 
 probaban 
+probabilidad 
+probabilidades 
 probable 
 probablemente 
 probado 
@@ -10216,6 +10789,7 @@ probarlas
 probarlo 
 probarlos 
 probarse 
+probaría 
 problema 
 problemas 
 problemilla 
@@ -10302,6 +10876,7 @@ programadas
 programado 
 programador 
 programadores 
+programamos 
 programando 
 programar 
 programaremos 
@@ -10312,9 +10887,13 @@ programó
 progresistas 
 progresiva 
 progresivamente 
+progresivo 
 progresión 
 progreso 
+progresos 
+prohibe 
 prohibición 
+prohibida 
 prohibidas 
 prohibido 
 prohibidos 
@@ -10327,6 +10906,7 @@ promedio
 promesa 
 promesas 
 promete 
+prometedor 
 prometedores 
 prometo 
 promoción 
@@ -10355,6 +10935,7 @@ proponen
 proponer 
 proponerse 
 proponga 
+propongan 
 propongo 
 proponiendo 
 proponía 
@@ -10366,6 +10947,7 @@ proporcionado
 proporcionados 
 proporcional 
 proporcionales 
+proporcionalidad 
 proporcionalmente 
 proporcionan 
 proporcionando 
@@ -10393,6 +10975,7 @@ prosperidad
 protagonista 
 protagonistas 
 protagonizó 
+protecciones 
 protección 
 protege 
 proteger 
@@ -10413,6 +10996,7 @@ proveedores
 proveniente 
 provenientes 
 provenía 
+provenían 
 proverbios 
 proviene 
 provienen 
@@ -10431,6 +11015,7 @@ provocan
 provocar 
 provocarán 
 provocaría 
+provocarían 
 provocó 
 provoque 
 proximidad 
@@ -10447,6 +11032,7 @@ pruebo
 práctica 
 prácticamente 
 prácticas 
+práctico 
 prácticos 
 préstamo 
 préstamos 
@@ -10480,6 +11066,7 @@ publicando
 publicar 
 publicara 
 publicaran 
+publicarlas 
 publicarlo 
 publicarlos 
 publicaron 
@@ -10500,6 +11087,7 @@ pudiendo
 pudiera 
 pudieran 
 pudieron 
+pudiéramos 
 pudo 
 pueblo 
 pueda 
@@ -10516,6 +11104,7 @@ puerto
 puertos 
 pues 
 puesta 
+puestas 
 puesto 
 puestos 
 pulgada 
@@ -10530,6 +11119,7 @@ pulsaciones
 pulsación 
 pulsado 
 pulsamos 
+pulsan 
 pulsando 
 pulsar 
 pulsarse 
@@ -10542,6 +11132,7 @@ punteado
 puntero 
 punteros 
 puntería 
+puntitos 
 punto 
 puntos 
 puntuaciones 
@@ -10578,6 +11169,7 @@ pérdida
 pésima 
 píxel 
 píxeles 
+póker 
 pública 
 públicas 
 público 
@@ -10598,6 +11190,7 @@ quedando
 quedar 
 quedaran 
 quedarme 
+quedarnos 
 quedaron 
 quedarse 
 quedará 
@@ -10648,15 +11241,18 @@ quitaba
 quitaban 
 quitado 
 quitan 
+quitando 
 quitar 
 quitarla 
 quitarle 
 quitarlo 
 quitaré 
+quito 
 quitándole 
 quizá 
 quizás 
 quién 
+quiénes 
 qué 
 química 
 químicos 
@@ -10699,6 +11295,7 @@ raras
 raro 
 raros 
 rascacielos 
+rasgo 
 rastreado 
 rastreados 
 rastrean 
@@ -10771,6 +11368,8 @@ realizarán
 realizaría 
 realizó 
 realmente 
+reanudado 
+reanudó 
 reapertura 
 reaprovechar 
 rebajar 
@@ -10779,9 +11378,12 @@ rebautizaron
 rebautizó 
 rebelaron 
 rebelión 
+reborde 
 rebotar 
 rebote 
 reboten 
+rebuscando 
+recalcular 
 recalculará 
 recalcó 
 recapitulaba 
@@ -10796,6 +11398,7 @@ recargue
 recatado 
 recebía 
 receloso 
+recepción 
 receptor 
 recesión 
 rechaza 
@@ -10818,6 +11421,7 @@ recibidos
 recibiendo 
 recibiera 
 recibieron 
+recibimos 
 recibir 
 recibirlas 
 recibirá 
@@ -10831,6 +11435,8 @@ reciclo
 reciente 
 recientemente 
 recientes 
+recipiente 
+recipientes 
 recién 
 reclama 
 reclamaciones 
@@ -10844,11 +11450,14 @@ recoger
 recogerla 
 recogerlo 
 recogerse 
+recogerá 
+recoges 
 recogida 
 recogidas 
 recogido 
 recogidos 
 recogiendo 
+recogí 
 recoja 
 recojan 
 recolector 
@@ -10895,14 +11504,17 @@ reconstrucción
 reconstruido 
 reconstruir 
 reconvertida 
+reconvertido 
 reconvertir 
 reconvertirlo 
+reconvertí 
 reconvirtió 
 recopila 
 recopilaciones 
 recopilación 
 recopilada 
 recopilan 
+recopilando 
 recopilar 
 recopiló 
 recordaba 
@@ -10929,6 +11541,7 @@ recorriera
 recorta 
 recortada 
 recortado 
+recortando 
 recortar 
 recortará 
 recorte 
@@ -10941,6 +11554,7 @@ rectificación
 rectifican 
 rectificar 
 rectificó 
+rectifique 
 recto 
 rectángulo 
 rectángulos 
@@ -10990,6 +11604,7 @@ redefinió
 redes 
 redibujar 
 redibuje 
+redimensionable 
 redirecciona 
 redireccionar 
 redireccionará 
@@ -11027,7 +11642,10 @@ reducidas
 reducido 
 reducidos 
 reduciendo 
+reducimos 
 reducir 
+reducirla 
+reducirlo 
 reducirse 
 reducirá 
 reduciría 
@@ -11046,6 +11664,7 @@ reemplace
 reemplaza 
 reemplazada 
 reemplazadas 
+reemplazante 
 reemplazarse 
 reemplazarán 
 reenviar 
@@ -11081,7 +11700,9 @@ reflexionar
 reflexiones 
 reflexión 
 reforma 
+reformas 
 reformular 
+reforzada 
 reforzadas 
 reforzar 
 refranes 
@@ -11149,11 +11770,15 @@ reindexan
 reindexar 
 reinice 
 reinicia 
+reiniciaba 
+reiniciaban 
 reiniciado 
+reiniciamos 
 reinician 
 reiniciando 
 reiniciar 
 reiniciarse 
+reiniciará 
 reinicie 
 reinicio 
 reino 
@@ -11183,6 +11808,7 @@ relativas
 relativo 
 relativos 
 releer 
+releerlas 
 relevancia 
 relevante 
 relevantes 
@@ -11229,6 +11855,7 @@ renderizado
 rendición 
 rendimiento 
 renombra 
+renombrado 
 renombrando 
 renombrar 
 renombrarlo 
@@ -11248,7 +11875,9 @@ renueve
 renumeran 
 renumerando 
 renumerarán 
+renumeren 
 renuncia 
+renunciaba 
 renunciado 
 renunciar 
 renuncias 
@@ -11321,12 +11950,14 @@ representan
 representando 
 representantes 
 representar 
+representarlo 
 representarse 
 representarían 
 representativas 
 representativo 
 represente 
 representen 
+represión 
 reproducción 
 reproduce 
 reproducid 
@@ -11336,6 +11967,7 @@ reproducirla
 reproducirlas 
 reproductor 
 reproductores 
+reproducía 
 reproduzca 
 republicano 
 republicanos 
@@ -11364,6 +11996,7 @@ resaltados
 resaltan 
 resaltando 
 resaltar 
+resaltara 
 rescate 
 rescribí 
 reserva 
@@ -11380,6 +12013,7 @@ residenciales
 residencias 
 residual 
 resiente 
+resiliencia 
 resiliente 
 resista 
 resiste 
@@ -11411,6 +12045,7 @@ respetaban
 respetan 
 respetando 
 respetar 
+respetara 
 respetaran 
 respetarla 
 respetarlos 
@@ -11423,6 +12058,7 @@ respondan
 responde 
 responded 
 responden 
+responder 
 respondiendo 
 responsabilidad 
 responsabilidades 
@@ -11432,6 +12068,7 @@ respuestas
 resta 
 restablece 
 restablecer 
+restablecido 
 restado 
 restando 
 restante 
@@ -11458,6 +12095,7 @@ restringe
 restringido 
 restringidos 
 restringir 
+restringiremos 
 restringía 
 resucitara 
 resuelta 
@@ -11496,6 +12134,7 @@ retener
 retira 
 retirada 
 retiradas 
+retirado 
 retirados 
 retirando 
 retirar 
@@ -11509,10 +12148,12 @@ retoma
 retomado 
 retomando 
 retomar 
+retome 
 retomó 
 retoque 
 retorno 
 retos 
+retrasadas 
 retrasado 
 retrasar 
 retrasaron 
@@ -11529,6 +12170,7 @@ retroceder
 retrocedía 
 retroceso 
 reunidas 
+reuniones 
 reunir 
 reunión 
 reutilizables 
@@ -11561,6 +12203,7 @@ revolución
 revés 
 rey 
 reyes 
+reír 
 reírse 
 riberas 
 rica 
@@ -11588,6 +12231,7 @@ robar
 robo 
 robots 
 robó 
+robótica 
 rocín 
 rodea 
 rodeada 
@@ -11596,6 +12240,7 @@ rodeado
 rodean 
 rodeando 
 rodear 
+rodearla 
 rodearlo 
 rodeará 
 rodearán 
@@ -11615,6 +12260,7 @@ romanos
 romanticismo 
 rombo 
 rombos 
+rompecabezas 
 romperse 
 ronda 
 rondar 
@@ -11622,17 +12268,23 @@ rondas
 rosa 
 rostro 
 rostros 
+rotaciones 
+rotación 
 rotundamente 
 roza 
 rudeza 
 rudimentos 
 rueda 
+ruedas 
 ruido 
 ruidos 
 ruina 
+ruleta 
 rumana 
+rumores 
 rusas 
 ruso 
+rusos 
 ruta 
 rutas 
 rutina 
@@ -11646,6 +12298,7 @@ récord
 régimen 
 río 
 ríos 
+Sabadell 
 sabe 
 sabemos 
 saben 
@@ -11704,6 +12357,7 @@ salidas
 salido 
 saliendo 
 saliera 
+salieras 
 salieron 
 salimos 
 salir 
@@ -11713,6 +12367,7 @@ salpicadas
 salpicón 
 salta 
 saltar 
+Salte 
 salto 
 saltos 
 saltándose 
@@ -11720,6 +12375,7 @@ saltárselos
 salud 
 saluda 
 saludando 
+saludar 
 salude 
 saludo 
 saludos 
@@ -11748,6 +12404,7 @@ sanitaria
 sanitarias 
 sanitario 
 santa 
+santo 
 saque 
 saquen 
 saqué 
@@ -11822,6 +12479,8 @@ seguís
 según 
 seis 
 selecciona 
+seleccionable 
+seleccionables 
 seleccionada 
 seleccionadas 
 seleccionado 
@@ -11834,6 +12493,7 @@ seleccionarla
 seleccionarlo 
 seleccionarse 
 seleccionará 
+seleccionarán 
 seleccionas 
 seleccione 
 selección 
@@ -11844,6 +12504,7 @@ selva
 semana 
 semanal 
 semanales 
+semanalmente 
 semanas 
 sembradura 
 semejante 
@@ -11877,14 +12538,17 @@ seno
 sensación 
 sensible 
 sensor 
+sentaron 
 sentencia 
 sentenciar 
 sentencias 
 sentido 
+sentimiento 
 sentía 
 sepa 
 sepamos 
 separa 
+separaban 
 separaciones 
 separación 
 separada 
@@ -11896,6 +12560,7 @@ separados
 separan 
 separando 
 separar 
+separaremos 
 separarlas 
 separarlo 
 separarlos 
@@ -12003,8 +12668,11 @@ siguiera
 siguieran 
 siguieron 
 siguió 
+sigáis 
 silencio 
+silla 
 silueta 
+Silvia 
 sima 
 simbolismo 
 similar 
@@ -12016,6 +12684,7 @@ simplemente
 simples 
 simplicidad 
 simplifica 
+simplificaba 
 simplificaciones 
 simplificación 
 simplificada 
@@ -12081,6 +12750,7 @@ situando
 situar 
 situarnos 
 situarse 
+situarían 
 situándose 
 sitúa 
 sitúan 
@@ -12103,6 +12773,7 @@ sobrerrayado
 sobresale 
 sobresalen 
 sobresaliente 
+sobrescriba 
 sobrescriben 
 sobrescribir 
 sobrina 
@@ -12112,6 +12783,7 @@ socialista
 sociedad 
 sociedades 
 socioculturales 
+socioeconómicos 
 sociopsicopedagógica 
 sociospsicopedagógico 
 sofisticada 
@@ -12129,7 +12801,11 @@ solapan
 solapando 
 solapar 
 solar 
+solas 
 soldado 
+soldador 
+soldaduras 
+soldé 
 soledad 
 soledades 
 solicita 
@@ -12144,6 +12820,7 @@ solicitar
 solicitara 
 solicitarlo 
 solicitaron 
+solicitarse 
 solicitará 
 solicite 
 soliciten 
@@ -12153,6 +12830,7 @@ solitario
 solitarios 
 solo 
 soltado 
+soltando 
 soltar 
 soltero 
 solucionado 
@@ -12161,6 +12839,7 @@ soluciones
 solución 
 solía 
 solían 
+solías 
 sombra 
 sombras 
 sombreado 
@@ -12181,13 +12860,17 @@ soporte
 soprano 
 sorprende 
 sorprendente 
+sorprenderá 
+sorprendería 
 sorpresa 
+sorpresas 
 sortear 
 sospecha 
 sospechan 
 sospechar 
 sospechas 
 sostenible 
+sostenidas 
 sostenidos 
 sostienen 
 sostuvo 
@@ -12243,6 +12926,7 @@ sublista
 sublistas 
 submarino 
 submatrices 
+submatriz 
 submenú 
 submenús 
 submódulos 
@@ -12264,6 +12948,7 @@ subventanas
 subversión 
 subí 
 subíndice 
+subíndices 
 sucederse 
 sucedidos 
 sucediendo 
@@ -12298,6 +12983,7 @@ sufrido
 sufriendo 
 sufrir 
 sufrió 
+sugerencia 
 sugerencias 
 sugerida 
 sugerir 
@@ -12310,6 +12996,7 @@ suite
 suizo 
 sujeta 
 sujetarse 
+sujetarte 
 sujetas 
 suma 
 sumado 
@@ -12322,6 +13009,7 @@ sumaria
 sumas 
 sumatorio 
 sume 
+sumen 
 sumergido 
 sumida 
 suministrada 
@@ -12338,6 +13026,7 @@ superado
 superan 
 superando 
 superar 
+superarlo 
 superaron 
 superará 
 superaría 
@@ -12360,6 +13049,7 @@ superponen
 superponer 
 superponerse 
 superpongan 
+superponiendo 
 superponiéndose 
 superposición 
 superpuesta 
@@ -12368,6 +13058,7 @@ superpuesto
 superpuestos 
 supervisión 
 superíndice 
+superíndices 
 superó 
 suplanta 
 suplantaciones 
@@ -12390,7 +13081,10 @@ supongamos
 supongo 
 suponiendo 
 suponía 
+suprayado 
+suprayados 
 supremacía 
+Supremo 
 supresión 
 suprimen 
 suprimido 
@@ -12412,8 +13106,11 @@ susceptibles
 suscripciones 
 suscripción 
 suscriptor 
+suscriptores 
+suspenda 
 suspender 
 suspendido 
+suspendidos 
 suspendía 
 suspensivos 
 suspensión 
@@ -12441,6 +13138,7 @@ sustituyendo
 sustituyera 
 sustituyeran 
 sustituyeron 
+sustituyéndolos 
 sustituyó 
 sustituí 
 sustituía 
@@ -12452,6 +13150,7 @@ suyo
 sábado 
 sábados 
 sánscrito 
+Sátiro 
 sé 
 séptima 
 séptimo 
@@ -12479,6 +13178,7 @@ tachado
 tachando 
 tal 
 taladran 
+talento 
 tales 
 tallo 
 tallos 
@@ -12489,19 +13189,23 @@ tampoco
 tan 
 tanga 
 tangencial 
+tangente 
 tanino 
 tanta 
 tantas 
 tanto 
 tantos 
+taoísta 
 tapado 
 tapar 
 tapará 
 tape 
+tapiar 
 tarda 
 tardaba 
 tardado 
 tardan 
+tardando 
 tardar 
 tardará 
 tardarán 
@@ -12531,12 +13235,16 @@ teclee
 tecnicismo 
 tecnología 
 tecnologías 
+Tecnológica 
+tecnológica 
 tecnológicos 
 tecnoptimismo 
+tee 
 tejado 
 tejidos 
 tejos 
 tela 
+tele 
 telecomunicaciones 
 telefonía 
 telefónica 
@@ -12566,6 +13274,7 @@ temperatura
 temperaturas 
 templadas 
 temporada 
+temporadas 
 temporal 
 temporales 
 temporalización 
@@ -12585,6 +13294,7 @@ tendréis
 tendría 
 tendríamos 
 tendrían 
+tendíamos 
 tened 
 tenedores 
 tenemos 
@@ -12613,6 +13323,7 @@ tenían
 teorema 
 teoremas 
 teoría 
+teorías 
 terabyte 
 tercer 
 tercera 
@@ -12706,6 +13417,7 @@ tirados
 tiran 
 tirando 
 tirar 
+tirará 
 tirarán 
 tiras 
 tire 
@@ -12740,6 +13452,7 @@ toleran
 tolerancia 
 toma 
 tomaba 
+tomabas 
 tomada 
 tomadas 
 tomado 
@@ -12759,6 +13472,7 @@ tomó
 tonalidades 
 tono 
 tonos 
+tonterías 
 tonto 
 tontos 
 topaba 
@@ -12788,6 +13502,7 @@ trabajar
 trabajaremos 
 trabajarla 
 trabajaron 
+trabajará 
 trabajarán 
 trabajaría 
 trabaje 
@@ -12801,6 +13516,7 @@ trabajó
 tradicional 
 tradicionales 
 tradicionalmente 
+tradiciones 
 tradición 
 traducciones 
 traducción 
@@ -12819,11 +13535,14 @@ tradujo
 traduzca 
 traduzco 
 traer 
+traeros 
 tragados 
 tragaperras 
+tragos 
 traidor 
 traje 
 trajera 
+trajo 
 trama 
 tramas 
 tramitación 
@@ -12849,6 +13568,7 @@ transformador
 transforman 
 transformando 
 transformar 
+transformarse 
 transforme 
 transgénero 
 transiciones 
@@ -12873,10 +13593,13 @@ trasero
 traslada 
 trasladar 
 traslado 
+trasmitían 
 traspasando 
 trasposición 
 traspuesta 
 traspuesto 
+trastear 
+trastero 
 trata 
 trataba 
 tratada 
@@ -12888,13 +13611,16 @@ tratamientos
 tratan 
 tratar 
 tratara 
+trataremos 
 tratarlas 
+tratarlo 
 tratarlos 
 tratarse 
 tratará 
 trataría 
 trate 
 trato 
+tratos 
 trató 
 travieso 
 través 
@@ -12911,6 +13637,7 @@ tren
 trenzado 
 tres 
 triangular 
+Tribunal 
 tribunales 
 tridente 
 tridimensional 
@@ -12933,6 +13660,7 @@ troceado
 troceando 
 trocear 
 trocitos 
+trofeo 
 tronco 
 trono 
 tropas 
@@ -12971,9 +13699,12 @@ tutorías
 tuve 
 tuviera 
 tuvieran 
+tuvieras 
 tuvieron 
+tuvimos 
 tuvo 
 tuya 
+tuyas 
 tuyo 
 tácticas 
 táctil 
@@ -12995,6 +13726,7 @@ tú
 túnel 
 ubicaciones 
 ubicación 
+ubicado 
 ubicuas 
 ultra-extendido 
 un 
@@ -13040,9 +13772,11 @@ unión
 uno 
 unos 
 unía 
+unían 
 unívoca 
 urbano 
 urbanos 
+urgen 
 urgencia 
 urgente 
 urgentes 
@@ -13054,6 +13788,7 @@ usabilidad
 usada 
 usadas 
 usado 
+usamos 
 usan 
 usando 
 usar 
@@ -13074,6 +13809,7 @@ usuario
 usuarios 
 usáis 
 usándose 
+usé 
 uséis 
 usó 
 utilice 
@@ -13123,6 +13859,7 @@ utilizó
 va 
 vaca 
 vacaciones 
+vacante 
 vaciar 
 vacilan 
 vacuna 
@@ -13142,6 +13879,7 @@ Valencianas
 valenciano 
 valentía 
 valer 
+vales 
 valga 
 valgan 
 valida 
@@ -13156,6 +13894,7 @@ validamos
 validan 
 validando 
 validar 
+validarlas 
 validarlos 
 valide 
 validez 
@@ -13163,6 +13902,7 @@ valido
 valiendo 
 valiente 
 valiera 
+valiosa 
 valiéndose 
 valió 
 valor 
@@ -13215,6 +13955,7 @@ vectorial
 vectoriales 
 vega 
 vehículo 
+Vehículos 
 veinte 
 vela 
 velar 
@@ -13227,6 +13968,7 @@ veloz
 vemos 
 ven 
 vena 
+vencer 
 vencida 
 vencidas 
 vencido 
@@ -13234,7 +13976,9 @@ vencieron
 venció 
 vende 
 vendedores 
+venden 
 vender 
+vendida 
 vendidas 
 vendido 
 vendidos 
@@ -13259,6 +14003,7 @@ ventajosa
 ventana 
 ventanas 
 ventas 
+ventilación 
 ventilada 
 ventilador 
 venturoso 
@@ -13285,10 +14030,12 @@ verificables
 verificación 
 verificado 
 verificar 
+Verifique 
 verja 
 verla 
 verlas 
 verlo 
+vernos 
 veros 
 verosímiles 
 versalitas 
@@ -13368,6 +14115,7 @@ violentos
 violeta 
 violín 
 virando 
+virguera 
 virtual 
 virtuales 
 virtualización 
@@ -13400,6 +14148,7 @@ vislumbrar
 visor 
 vista 
 vistas 
+vistazo 
 visto 
 vistos 
 visual 
@@ -13457,11 +14206,13 @@ volved
 volvedla 
 volvemos 
 volver 
+volveremos 
 volverla 
 volverlos 
 volverá 
 volverán 
 volverían 
+volverías 
 volviendo 
 volviera 
 volvieran 
@@ -13485,6 +14236,8 @@ vuelto
 vuelva 
 vuelve 
 vuelven 
+vuelves 
+vuelvo 
 vuestra 
 vuestras 
 vuestro 
@@ -13520,6 +14273,8 @@ yen
 yenes 
 yo 
 zaga 
+zapatos 
+Zaragoza 
 zodiaco 
 zona 
 zonas 
@@ -13557,10 +14312,12 @@ zorra
 ídolo 
 índice 
 índices 
+índole 
 ínfima 
-ínstaladores 
+íntegro 
 ítem 
 ítems 
+ñu 
 óperas 
 óptica 
 ópticas 
