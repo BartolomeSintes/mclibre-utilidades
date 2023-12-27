@@ -2003,6 +2003,17 @@
       "creado": "2023-09-30"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 86,
+      "año": 2023,
+      "mes": 12,
+      "portada": "edutec-86-es-202312.jpg",
+      "fichero": "edutec-86-es-202312.pdf",
+      "idioma": "español",
+      "creado": "2023-12-27"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
