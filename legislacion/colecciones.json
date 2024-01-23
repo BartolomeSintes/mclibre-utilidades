@@ -222,7 +222,13 @@
                                     "boe-borrador-2023-01-25-rd",
                                     "boe-borrador-2023-03-02-rd",
                                     "boe-borrador-2023-06-02-rd",
-                                    "boe-borrador-2023-07-04-rd"
+                                    "boe-borrador-2023-07-04-rd",
+                                    "boe-borrador-2023-06-23-rd",
+                                    "boe-borrador-2023-11-21-1-rd",
+                                    "boe-borrador-2023-11-21-2-rd",
+                                    "boe-borrador-2023-12-25-o",
+                                    "boe-borrador-2023-12-26-rd",
+                                    "boe-borrador-2024-01-17-o"
                                 ]
                             }
                         },
@@ -469,6 +475,7 @@
                                     "boe-2019-4-l",
                                     "boe-2022-04-05-res",
                                     "boe-2022-07-01-res",
+                                    "boe-2022-800-rd",
                                     "boe-2023-286-rd"
                                 ]
                             }
@@ -780,7 +787,8 @@
                                     "dogv-2023-06-14-res",
                                     "dogv-2023-06-27-res",
                                     "dogv-2023-07-06-res",
-                                    "dogv-2023-07-06-2-res"
+                                    "dogv-2023-07-06-2-res",
+                                    "dogv-2023-10-06-res"
                                 ]
                             }
                         },
@@ -909,7 +917,8 @@
                                     "docv-2014-54-o",
                                     "dogv-2017-164-d",
                                     "dogv-2022-5-d",
-                                    "dogv-2022-06-28-res"
+                                    "dogv-2022-06-28-res",
+                                    "dogv-2023-11-13-res"
                                 ]
                             }
                         },
@@ -1527,6 +1536,7 @@
                             "apartado": {
                                 "titulo": "Borradores",
                                 "referencias": [
+                                    "celex-2021-04-21-prop",
                                     "celex-2022-09-15-prop"
                                 ]
                             }
@@ -1722,6 +1732,14 @@
                                     "boe-2011-726-rd",
                                     "boe-2014-1090-o",
                                     "celex-2018-1972-dir"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Inteligencia Artificial",
+                                "referencias": [
+                                    "boe-2023-817-rd"
                                 ]
                             }
                         },

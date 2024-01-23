@@ -6470,7 +6470,7 @@
             "fecha": "2011-03-12",
             "vigencia": "vigente",
             "descripción": "Complementaria de la Ley de Economía Sostenible",
-            "titulo": "Ley Orgánica 4/2011, de 11 de marzo, complementaria de la Ley de Economía Sostenible,  por  la  que  se  modifican  las  Leyes  Orgánicas  5/2002,  de  19  de junio,  de  las  Cualificaciones  y  de  la  Formación  Profesional,  2/2006,  de  3  de mayo, de Educación, y 6/1985, de 1 de julio, del Poder Judicial.",
+            "titulo": "Ley Orgánica 4/2011, de 11 de marzo, complementaria de la Ley de Economía Sostenible, por la que se modifican las Leyes Orgánicas 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, 2/2006, de 3 de mayo, de Educación, y 6/1985, de 1 de julio, del Poder Judicial.",
             "versiones": [
                 {
                     "versión": "original",
@@ -26423,7 +26423,7 @@
             "fecha": "2020-06-24",
             "vigencia": "vencido",
             "descripción": "Acuerdos para el curso 20/21 Coronavirus Covid-19",
-            "titulo": "Orden EFP/561/2020, de 20 de junio, por la que se publican Acuerdos de la Conferencia  Sectorial  de  Educación,  para  el  inicio  y  el  desarrollo  del  curso 2020-2021.",
+            "titulo": "Orden EFP/561/2020, de 20 de junio, por la que se publican Acuerdos de la Conferencia Sectorial de Educación, para el inicio y el desarrollo del curso 2020-2021.",
             "versiones": [
                 {
                     "versión": "original",
@@ -28499,7 +28499,7 @@
             "fecha": "2020-11-26",
             "vigencia": "vigente",
             "descripción": "Convenio Promoción del pensamiento computacional (CV)",
-            "titulo": "Resolución de 17 de noviembre de 2020, de la Secretaría General Técnica, por la que se publica el Convenio  con la Comunitat Valenciana, para la promoción del pensamiento computacional en todas las etapas educativas no universitarias a través del proyecto «Escuela de Pensamiento Computacional e Inteligencia Artificial».",
+            "titulo": "Resolución de 17 de noviembre de 2020, de la Secretaría General Técnica, por la que se publica el Convenio con la Comunitat Valenciana, para la promoción del pensamiento computacional en todas las etapas educativas no universitarias a través del proyecto «Escuela de Pensamiento Computacional e Inteligencia Artificial».",
             "versiones": [
                 {
                     "versión": "original",
@@ -36869,7 +36869,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/consulta-publica-previa/abiertos/2023/prd-cualificaciones-familias-profesionales.html"
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/consulta-publica-previa/cerrados/2023/prd-cualificaciones-familias-profesionales.html"
                         }
                     ]
                 }
@@ -36885,7 +36885,7 @@
         },
         {
             "id": "celex-2022-09-15-prop",
-            "incluido": "2032-03-06",
+            "incluido": "2023-03-06",
             "modificado": "",
             "ámbito": "Unión Europea",
             "origen": "DOCE",
@@ -37116,7 +37116,7 @@
             "fecha": "2023-01-25",
             "vigencia": "vigente",
             "descripción": "Pruebas para la obtención de títulos Formación Profesional 2023 (CV)",
-            "titulo": "Resolución  de 19 de enero de 2023, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional.",
+            "titulo": "Resolución de 19 de enero de 2023, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional.",
             "versiones": [
                 {
                     "versión": "original",
@@ -37146,6 +37146,27 @@
                             "formato": "rtf",
                             "idioma": "va",
                             "url": "dogv/DOGV-2023-01-19-R-pruebas-titulos-fp-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2023-02-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-01-19-R-CO-pruebas-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/1093&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/1093&L=1"
                         }
                     ]
                 }
@@ -39109,7 +39130,7 @@
             "fecha": "2023-06-02",
             "vigencia": "borrador",
             "descripción": "Borrador Real Decreto Modificación títulos FP de grado superior",
-            "titulo": "PRD complementario al RD xxxx/xxxx, de xx, por el que se desarrolla la ordenación del Sistema de Formación Profesional, de modificación de determinados Reales Decretos por los que se establecen títulos de Formación Profesional de grado superior.",
+            "titulo": "Proyecto de Real Decreto complementario al RD xxxx/xxxx, de xx, por el que se desarrolla la ordenación del Sistema de Formación Profesional, de modificación de determinados Reales Decretos por los que se establecen títulos de Formación Profesional de grado superior.",
             "versiones": [
                 {
                     "versión": "borrador",
@@ -39468,7 +39489,7 @@
             "fecha": "2023-07-04",
             "vigencia": "borrador",
             "descripción": "Borrador Real Decreto Modificación títulos FP de grado medio",
-            "titulo": "PRD complementario al RD xxxx/xxxx, de xx, por el que se desarrolla la ordenación del Sistema de Formación Profesional, de modificación de determinados Reales Decretos por los que se establecen títulos de Formación Profesional de grado superior.",
+            "titulo": "Proyecto de Real Decreto complementario al RD xxxx/xxxx, de xx, por el que se desarrolla la ordenación del Sistema de Formación Profesional, de modificación de determinados Reales Decretos por los que se establecen títulos de Formación Profesional de grado superior.",
             "versiones": [
                 {
                     "versión": "borrador",
@@ -39482,7 +39503,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2023/prd-modificacion-reales-decretos.html"
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/prd-modificacion-reales-decretos.html"
                         }
                     ]
                 }
@@ -39593,7 +39614,7 @@
             "fecha": "2023-07-13",
             "vigencia": "vigente",
             "descripción": "Instrucciones inicio de curso programas cualificación básica 23/24 (CV)",
-            "titulo": "Resolución  de 6 de julio de 2023, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2023-2024.",
+            "titulo": "Resolución de 6 de julio de 2023, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2023-2024.",
             "versiones": [
                 {
                     "versión": "original",
@@ -39633,6 +39654,456 @@
                 "educación",
                 "formación profesional",
                 "programas cualificación básica",
+                "curso 2023/24"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-06-23-rd",
+            "incluido": "2023-08-11",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-06-23",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Regulación grados A, B y C Informática",
+            "titulo": "Proyecto de Real Decreto XXX/2023, de XX de XXXX, por el que se regulan aspectos específicos de los grados A, B y C de Formación Profesional para las familias profesionales Administración y Gestión, Agraria, Artes y Artesanías, Informática y Comunicaciones y Madera, Mueble y Corcho.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-06-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-grados-a-b-c-informatica-2023-06-23.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/prd-grados-abc-adg-aga-art-ifc-mam.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "ordenación",
+                "títulos"
+            ]
+        },
+        {
+            "id": "boe-2022-800-rd",
+            "incluido": "2023-11-14",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-10-05",
+            "vigencia": "vigente",
+            "descripción": "Integración Profesores Técnicos de FP en Profesores de Enseñanza Secundaria",
+            "titulo": "Real Decreto 800/2022, de 4 de octubre, por el que se regula la integración del profesorado del Cuerpo, a extinguir, de Profesores Técnicos de Formación Profesional en el Cuerpo de Profesores de Enseñanza Secundaria, y se modifican diversos reales decretos relativos al profesorado de enseñanzas no universitarias.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-10-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-800-integracion-pts-secundaria.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2022/10/04/800/"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "profesorado",
+                "secundaria",
+                "profesores técnicos"
+            ]
+        },
+        {
+            "id": "dogv-2023-10-06-res",
+            "incluido": "2023-11-14",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-11-09",
+            "vigencia": "vigente",
+            "descripción": "Ayudas al estudio ganadores fase local Valencia de la Olimpiada Informática 2023/24 (CV)",
+            "titulo": "Extracto de la Resolución de 6 de octubre de 2023, de la vicerrectora de Estudios de la Univesitat de València, por la cual se convocan las ayudas al estudio de la Universitat de València para el alumnado ganador de la fase local de la Olimpiada Informática de la Comunitat Valenciana que tendrá lugar el curso académico 2023-2024, y se aprueban las bases que regulan esta convocatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-11-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-10-06-R-ayudas-fase-valencia-olimpiada-informatica-cv.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/11110"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/11110"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-10-06-R-ayudas-fase-valencia-olimpiada-informatica-cv-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-10-06-R-ayudas-fase-valencia-olimpiada-informatica-cv-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "ayudas",
+                "olimpiada informática",
+                "universidad de valencia",
+                "curso 2023/24"
+            ]
+        },
+        {
+            "id": "boe-2023-817-rd",
+            "incluido": "2023-12-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2023-11-09",
+            "vigencia": "vigente",
+            "descripción": "Entorno controlado de pruebas para el ensayo del cumplimiento de la propuesta de Reglamento europeo Ley de Inteligencia Artificial",
+            "titulo": "Real Decreto 817/2023, de 8 de noviembre, que establece un entorno controlado de pruebas para el ensayo del cumplimiento de la propuesta de Reglamento del Parlamento Europeo y del Consejo por el que se establecen normas armonizadas en materia de inteligencia artificial.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-11-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2023-817-RD-entorno-pruebas-cumplimiento-propuesta-ley-ia.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2023/11/08/817"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "entorno controlado de pruebas",
+                "inteligencia artificial"
+            ]
+        },
+        {
+            "id": "celex-2021-04-21-prop",
+            "incluido": "2023-12-01",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2021-04-21",
+            "vigencia": "borrador",
+            "descripción": "Propuesta Ley de Inteligencia Artificial (AIA, Artificial Intelligence Act)",
+            "titulo": "Propuesta de Reglamento del Parlamento europeo y del Consejo por el que se establecen normas armonizadas en materia de inteligencia artificial (Ley de inteligencia artificial) y se modifican determinados actos legislativos de la unión (COM/2021/206 final).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-04-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-206-COM-1-PRO-artificial-intelligence-act.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A52021PC0206"
+                        }
+                    ]
+                },
+                {
+                    "versión": "anexos",
+                    "fecha": "2021-04-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-206-COM-2-PRO-artificial-intelligence-act.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A52021PC0206"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "inteligencia artificial",
+                "propuesta"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-11-21-1-rd",
+            "incluido": "2023-12-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-11-21",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Modificación títulos FP de cursos de especialización",
+            "titulo": "Proyecto de Real Decreto xxxx/xxxx, de XX de XX, complementario al Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional, por el que se modifican determinados reales decretos por los que se establecen cursos de especialización de grado medio y superior, y se fijan sus enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-11-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-modificacion-titulos-FP-cursos-especializacion-2023-11-21.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/prd-ordenacion-fp.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "ordenación",
+                "borrador"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-11-21-2-rd",
+            "incluido": "2023-12-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-11-21",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Modificación títulos FP de grado básico",
+            "titulo": "Proyecto de Real Decreto xxxx/xxxx, de XX de XX, complementario al Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional, por el que se modifican determinados reales decretos por los que se establecen títulos de Formación Profesional de grado básico y se fijan sus enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-11-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-modificacion-titulos-FP-grado-basico-2023-11-21.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/prd-grado-basico.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "ordenación",
+                "borrador"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-12-26-rd",
+            "incluido": "2024-01-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-12-26",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto actualización cualificaciones profesionales Informática y Comunicaciones",
+            "titulo": "Proyecto de Real Decreto por el que se establecen dos cualificaciones profesionales de las familias profesionales Actividades Físicas y Deportivas y Fabricación Mecánica, que se incluyen en el Catálogo Nacional de Cualificaciones Profesionales, y se actualizan determinadas cualificaciones profesionales de diversas familias profesionales, establecidas por determinados reales decretos.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-12-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-actualizacion-cualificaciones-2023-12-26.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/prd-fisicas-deporticas-fabricacion-mecanica.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "cualificaciones profesionales",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-borrador-2023-12-25-o",
+            "incluido": "2024-01-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2023-12-25",
+            "vigencia": "borrador",
+            "descripción": "Borrador Orden autorización centros privados FP en el exterior",
+            "titulo": "Proyecto de Orden ministerial de autorización de centros formativos privados en el exterior para impartir ofertas del sistema de formación profesional español.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2023-12-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-O-FP-centros-privados-exterior-2023-12-25.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2023/or-centros-privados-exterior-fp-espanol.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "borrador",
+                "educación",
+                "centros",
+                "formación profesional",
+                "exterior"
+            ]
+        },
+        {
+            "id": "boe-borrador-2024-01-17-o",
+            "incluido": "2024-01-23",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2024-01-17",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Ordenación FP",
+            "titulo": "Proyecto de Real Decreto de modificación del RD 132/2010, de 12 de febrero, y del RD 659/2023, de 18 de julio.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2024-01-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-modificacion-RD-659-2023-2024-01-17.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2024/prd-modificacion-659-2023.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "ordenación",
+                "formación profesional",
+                "exterior"
+            ]
+        },
+        {
+            "id": "dogv-2023-11-13-res",
+            "incluido": "2024-01-23",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-11-17",
+            "vigencia": "vigente",
+            "descripción": "Programa anual de formación permanente de centro curso 2023/23 (CV)",
+            "titulo": "Resolución de 13 de noviembre de 2023, del conseller de Educación, Universidades y Empleo, por la que se regula el Programa Anual de Formación Permanente de Centro, se convoca la solicitud de las modalidades formativas proyectos de formación en centros, seminarios y grupos de trabajo, para desarrollarlas durante el curso 2023-2024 y se establece la dotación de recursos económicos para los centros docentes públicos de titularidad de la Generalitat.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-11-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-11-13-R-programa-anual-formacion-centro-2324.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/11471"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/11471"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-11-13-R-programa-anual-formacion-centro-2324-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-11-13-R-programa-anual-formacion-centro-2324-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "formación profesorado",
+                "programa anual de formación",
                 "curso 2023/24"
             ]
         }
