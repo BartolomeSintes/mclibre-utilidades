@@ -4258,6 +4258,17 @@
       "creado": "2024-02-03"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 202,
+      "año": 2024,
+      "mes": 2,
+      "portada": "full-circle-202-en-202402.jpg",
+      "fichero": "full-circle-202-en-202402.pdf",
+      "idioma": "inglés",
+      "creado": "2024-03-01"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -14569,11 +14580,22 @@
       "nombre": "The PCLinuxOS Magazine",
       "número": 205,
       "año": 2024,
-      "mes": 5,
+      "mes": 2,
       "portada": "pclinuxos-205-en-202402.jpg",
       "fichero": "pclinuxos-205-en-202402.pdf",
       "idioma": "inglés",
       "creado": "2024-02-10"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 206,
+      "año": 2024,
+      "mes": 3,
+      "portada": "pclinuxos-206-en-202403.jpg",
+      "fichero": "pclinuxos-206-en-202403.pdf",
+      "idioma": "inglés",
+      "creado": "2024-03-01"
     },
     {
       "serie": "The R Journal",
@@ -14926,6 +14948,17 @@
       "fichero": "the-r-journal-32-en-202306.pdf",
       "idioma": "inglés",
       "creado": "2023-11-17"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 15 nº 3",
+      "año": 2023,
+      "mes": 9,
+      "portada": "the-r-journal-33-en-202309.jpg",
+      "fichero": "the-r-journal-33-en-202309.pdf",
+      "idioma": "inglés",
+      "creado": "2024-03-01"
     },
     {
       "serie": "Tino",
