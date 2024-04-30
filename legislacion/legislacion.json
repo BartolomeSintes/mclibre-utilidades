@@ -4966,7 +4966,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2016-04-18",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Admisión Infantil, Primaria, Secundaria Obligatoria y Bachillerato (CV)",
             "titulo": "Decreto 40/2016, de 15 de abril, del Consell, por el que se regula la admisión en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
             "versiones": [
@@ -5004,7 +5004,7 @@
             ],
             "claves": [
                 "comunidad valenciana",
-                "orden",
+                "decreto",
                 "educación",
                 "secundaria",
                 "bachillerato",
@@ -11545,7 +11545,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2016-04-21",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Procedimiento de admisión Infantil, Primaria, ESO y Bachillerato (CV)",
             "titulo": "Orden 7/2016, de 19 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato.",
             "versiones": [
@@ -28858,7 +28858,7 @@
             "origen": "MEC",
             "fecha": "2021-03-09",
             "vigencia": "vigente",
-            "descripción": "Borrador Decreto actualización decretos Títulos",
+            "descripción": "Borrador Decreto Actualización decretos Títulos",
             "titulo": "Proyecto de Real Decreto XX/2021, de XX de XXXX, por el que se actualizan 23 Reales Decretos que establecen títulos de Técnico y Técnico Superior de Formación Profesional de 10 Familias profesionales y se fijan sus enseñanzas mínimas, y se actualizan los módulos de idiomas de los ciclos formativos de grado medio y grado superior de la Formación Profesional del Sistema Educativo.",
             "versiones": [
                 {
@@ -33605,7 +33605,7 @@
             "origen": "MEC",
             "fecha": "2022-06-20",
             "vigencia": "borrador",
-            "descripción": "Borrador Real Decreto actualización cualificaciones profesionales Informática y Comunicaciones",
+            "descripción": "Borrador Real Decreto Actualización cualificaciones profesionales Informática y Comunicaciones",
             "titulo": "Proyecto de Real Decreto por el que se actualizan y se modifican parcialmente determinadas cualificaciones profesionales de las familias profesionales Informática y Comunicaciones, Seguridad y Medio Ambiente, Servicios Socioculturales y a la Comunidad y Transporte y Mantenimiento de Vehículos, recogidas en el Catálogo Nacional de Cualificaciones Profesionales.",
             "versiones": [
                 {
@@ -36781,7 +36781,7 @@
             "origen": "MEC",
             "fecha": "2023-01-25",
             "vigencia": "borrador",
-            "descripción": "Borrador Real Decreto actualización cualificaciones profesionales Informática y Comunicaciones",
+            "descripción": "Borrador Real Decreto Actualización cualificaciones profesionales Informática y Comunicaciones",
             "titulo": "Proyecto de Real Decreto por el que se actualizan y se modifican parcialmente determinadas cualificaciones profesionales de las familias profesionales Informática y Comunicaciones, Seguridad y Medio Ambiente, Servicios Socioculturales y a la Comunidad y Transporte y Mantenimiento de Vehículos, recogidas en el Catálogo Nacional de Cualificaciones Profesionales.",
             "versiones": [
                 {
@@ -36854,7 +36854,7 @@
             "origen": "MEC",
             "fecha": "2023-03-02",
             "vigencia": "borrador",
-            "descripción": "Borrador Real Decreto actualización cualificaciones profesionales Informática y Comunicaciones",
+            "descripción": "Borrador Real Decreto Actualización cualificaciones profesionales Informática y Comunicaciones",
             "titulo": "Proyecto de Real Decreto por el que se establecen y actualizan determinadas cualificaciones profesionales de distintas familias profesionales, establecidas por determinados reales decretos.",
             "versiones": [
                 {
@@ -37186,14 +37186,14 @@
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
-            "fecha": "2022-03-27",
-            "vigencia": "vigente",
+            "fecha": "2023-03-27",
+            "vigencia": "vencido",
             "descripción": "Calendario de admisión FP 23/24 (CV)",
             "titulo": "Resolución de 15 de marzo de 2023, del secretario autonómico de Educación y Formación Profesional, por la que se establece el calendario de admisión en las enseñanzas sostenidas con fondos públicos de Formación Profesional de grado básico, de grado medio y de grado superior, cursos de especialización y programas formativos de cualificación básica, para el curso 2023-2024.",
             "versiones": [
                 {
                     "versión": "original",
-                    "fecha": "2022-03-27",
+                    "fecha": "2023-03-27",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -37292,7 +37292,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2023-01-16",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Pruebas de acceso ciclos formativos Formación Profesional 2023 (CV)",
             "titulo": "Resolución de 11 de enero de 2023, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de grado medio y superior de Formación Profesional para el año 2023.",
             "versiones": [
@@ -39951,7 +39951,7 @@
             "origen": "MEC",
             "fecha": "2023-12-26",
             "vigencia": "borrador",
-            "descripción": "Borrador Real Decreto actualización cualificaciones profesionales Informática y Comunicaciones",
+            "descripción": "Borrador Real Decreto Actualización cualificaciones profesionales Informática y Comunicaciones",
             "titulo": "Proyecto de Real Decreto por el que se establecen dos cualificaciones profesionales de las familias profesionales Actividades Físicas y Deportivas y Fabricación Mecánica, que se incluyen en el Catálogo Nacional de Cualificaciones Profesionales, y se actualizan determinadas cualificaciones profesionales de diversas familias profesionales, establecidas por determinados reales decretos.",
             "versiones": [
                 {
@@ -39988,7 +39988,7 @@
             "origen": "MEC",
             "fecha": "2023-12-25",
             "vigencia": "borrador",
-            "descripción": "Borrador Orden autorización centros privados FP en el exterior",
+            "descripción": "Borrador Orden Autorización centros privados FP en el exterior",
             "titulo": "Proyecto de Orden ministerial de autorización de centros formativos privados en el exterior para impartir ofertas del sistema de formación profesional español.",
             "versiones": [
                 {
@@ -40019,7 +40019,7 @@
             ]
         },
         {
-            "id": "boe-borrador-2024-01-17-o",
+            "id": "boe-borrador-2024-01-17-rd",
             "incluido": "2024-01-23",
             "modificado": "",
             "ámbito": "España",
@@ -40105,6 +40105,344 @@
                 "formación profesorado",
                 "programa anual de formación",
                 "curso 2023/24"
+            ]
+        },
+        {
+            "id": "dogv-2024-02-02-res",
+            "incluido": "2024-04-09",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-02-09",
+            "vigencia": "vigente",
+            "descripción": "Pruebas de acceso ciclos formativos Formación Profesional 2024 (CV)",
+            "titulo": "Resolución de 2 de febrero de 2024, de la Dirección General de Formación Profesional, por la que se convocan pruebas de acceso a los ciclos de grado medio y superior en el año 2024.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-02-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-02-02-R-pruebas-acceso-fp-24.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/981"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/981"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-02-02-R-pruebas-acceso-fp-24-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-02-02-R-pruebas-acceso-fp-24-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas de acceso",
+                "curso 2024/25"
+            ]
+        },
+        {
+            "id": "dogv-2024-04-18-res",
+            "incluido": "2024-04-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-04-24",
+            "vigencia": "vigente",
+            "descripción": "Calendario de admisión FP 24/25 (CV)",
+            "titulo": "de 18 de abril de 2024, del secretario autonómico de Educación, por la que se establece el calendario de admisión y matrícula en las enseñanzas sostenidas con fondos públicos de Formación Profesional de grado básico, medio y superior, cursos de especialización y programas formativos de cualificación básica, para el curso 2024-2025.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-04-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-04-18-R-admision-fp-2425.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/3504&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/3504&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-04-18-R-admision-fp-2425-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-04-18-R-admision-fp-2425-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "fp",
+                "admisión",
+                "curso 2024/25"
+            ]
+        },
+        {
+            "id": "dogv-2024-48-d",
+            "incluido": "2024-04-30",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-04-24",
+            "vigencia": "vigente",
+            "descripción": "Admisión Infantil, Primaria, Secundaria Obligatoria y Bachillerato (CV)",
+            "titulo": "Decreto 48/2024, de 23 de abril, del Consell, por el que se regula el proceso de admisión en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato, y en los centros de Educación Especial, en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-04-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-48-D-admision-secundaria-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/3541&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/3541&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-48-D-admision-secundaria-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-48-D-admision-secundaria-bachillerato-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "2024-04-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-48-D-CO-admision-secundaria-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli?param=es-vc/d/2024/04/23/48/corrigendum/20240425/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/eli/es-vc/d/2024/04/23/48/corrigendum/20240425/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-48-D-CO-admision-secundaria-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-48-D-CO-admision-secundaria-bachillerato-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión"
+            ]
+        },
+        {
+            "id": "boe-borrador-2024-04-26-rd",
+            "incluido": "2024-04-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2024-04-26",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Acreditación de competencias básicas (FP)",
+            "titulo": "Proyecto de Real Decreto por el que se establecen el procedimiento y el marco de referencia para la evaluación y acreditación de las competencias básicas adquiridas por las personas adultas a través de la experiencia laboral, por vías no formales de formación y aprendizajes informales",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2024-04-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-acreditacion-competencias-basicas-2024-04-26.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2024/prd-competencias-bs-personas-adultas.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "ordenación",
+                "formación profesional",
+                "acreditación",
+                "competencias básicas"
+            ]
+        },
+        {
+            "id": "boe-borrador-2024-04-23-rd",
+            "incluido": "2024-04-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2024-04-23",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Sistema Nacional de Formación Profesional",
+            "titulo": "Proyecto de Real Decreto por el que se desarrollan los elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2024-04-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-sistema-nacional-formacion-profesional-2024-04-23.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "hhttps://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2024/prd-elementos-instrumentos-snfp.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "ordenación",
+                "formación profesional",
+                "sistema nacional",
+                "cualificaciones",
+                "competencias profesionales",
+                "catálogo modular de formación profesional",
+                "catálogo nacional de ofertas de formación profesional"
+            ]
+        },
+        {
+            "id": "boe-2023-545-rd",
+            "incluido": "2024-04-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2023-07-28",
+            "vigencia": "vigente",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "Real Decreto 545/2023, de 27 de junio, por el que se actualizan y se modifican parcialmente determinadas cualificaciones profesionales de las familias profesionales Informática y Comunicaciones; Seguridad y Medio Ambiente; Servicios Socioculturales y a la Comunidad; y Transporte y Mantenimiento de Vehículos, recogidas en el Catálogo Nacional de Cualificaciones Profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-07-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2023-545-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2023/06/27/545"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2023-546-rd",
+            "incluido": "2024-04-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2023-07-28",
+            "vigencia": "vigente",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "Real Decreto 546/2023, de 27 de junio, por el que se establecen determinadas cualificaciones profesionales de las familias profesionales Actividades Físicas y Deportivas; Agraria; Artes y Artesanía; Comercio y Marketing; Edificación y Obra Civil; Electricidad y Electrónica; Energía y Agua; Fabricación Mecánica; Hostelería y Turismo; Informática y Comunicaciones; Instalación y Mantenimiento; Química; Seguridad y Medioambiente; y Transporte y Mantenimiento de Vehículos, que se incluyen en el Catálogo Nacional de Cualificaciones Profesionales, y se suprimen determinadas cualificaciones profesionales establecidas por determinados reales decretos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-07-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2023-546-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2023/06/27/546"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "cualificaciones"
             ]
         }
     ]
