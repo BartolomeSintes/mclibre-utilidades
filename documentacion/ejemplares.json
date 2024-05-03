@@ -14686,6 +14686,17 @@
       "creado": "2024-04-05"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 208,
+      "año": 2024,
+      "mes": 5,
+      "portada": "pclinuxos-208-en-202405.jpg",
+      "fichero": "pclinuxos-208-en-202405.pdf",
+      "idioma": "inglés",
+      "creado": "2024-05-03"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -15047,6 +15058,17 @@
       "fichero": "the-r-journal-33-en-202309.pdf",
       "idioma": "inglés",
       "creado": "2024-03-01"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 15 nº 4",
+      "año": 2023,
+      "mes": 12,
+      "portada": "the-r-journal-34-en-202312.jpg",
+      "fichero": "the-r-journal-34-en-202312.pdf",
+      "idioma": "inglés",
+      "creado": "2024-05-03"
     },
     {
       "serie": "Tino",
