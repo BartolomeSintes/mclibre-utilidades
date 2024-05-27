@@ -784,7 +784,9 @@
                                 "titulo": "Curso 2024/25",
                                 "referencias": [
                                     "dogv-2024-02-02-res",
-                                    "dogv-2024-04-18-res"
+                                    "dogv-2024-04-18-res",
+                                    "dogv-2024-04-25-res",
+                                    "dogv-2024-05-21-res"
                                 ]
                             }
                         },
@@ -792,7 +794,6 @@
                             "apartado": {
                                 "titulo": "Curso 2023/24",
                                 "referencias": [
-                                    "dogv-2023-03-07-res",
                                     "dogv-2023-06-14-res",
                                     "dogv-2023-06-27-res",
                                     "dogv-2023-07-06-res",
@@ -853,12 +854,7 @@
                                     "docv-2012-46-o",
                                     "docv-2013-86-o",
                                     "docv-2014-135-d",
-                                    "docv-2016-18-o",
-                                    "dogv-2017-04-04-res",
-                                    "dogv-2018-03-23-res",
-                                    "dogv-2018-05-15-res",
                                     "dogv-2018-05-22-res",
-                                    "dogv-2019-05-10-res",
                                     "dogv-2019-74-d",
                                     "dogv-2020-36-d",
                                     "dogv-2021-2-o",
@@ -867,7 +863,8 @@
                                     "docv-2022-12-o",
                                     "docv-2022-30-o",
                                     "dogv-2022-06-02-res",
-                                    "dogv-2023-14-d"
+                                    "dogv-2023-14-d",
+                                    "dogv-2024-10-o"
                                 ]
                             }
                         },
@@ -897,10 +894,9 @@
                                 "titulo": "Admisión",
                                 "referencias": [
                                     "dogv-2020-35-d",
-                                    "dogv-2020-5-o",
                                     "dogv-2022-21-d",
-                                    "dogv-2022-14-o",
-                                    "dogv-2024-48-d"
+                                    "dogv-2024-48-d",
+                                    "dogv-2024-8-o"
                                 ]
                             }
                         },
@@ -1118,14 +1114,21 @@
                                     "docv-2016-40-d",
                                     "docv-2016-7-o",
                                     "docv-2016-59-d",
+                                    "docv-2016-18-o",
                                     "dogv-2017-9-d",
+                                    "dogv-2017-04-04-res",
                                     "dogv-2017-89-d",
                                     "dogv-2017-3-dl",
                                     "dogv-2017-186-d",
                                     "dogv-2017-219-d",
+                                    "dogv-2018-03-23-res",
+                                    "dogv-2018-05-15-res",
                                     "dogv-2019-03-26-res",
+                                    "dogv-2019-05-10-res",
                                     "dogv-2019-07-24-2-res",
-                                    "dogv-2021-04-13-res"
+                                    "dogv-2020-5-o",
+                                    "dogv-2021-04-13-res",
+                                    "dogv-2022-14-o"
                                 ]
                             }
                         },
@@ -1179,6 +1182,7 @@
                                 "titulo": "Curso 2023/24",
                                 "referencias": [
                                     "dogv-2023-01-11-res",
+                                    "dogv-2023-03-07-res",
                                     "dogv-2023-03-15-res"
                                 ]
                             }
