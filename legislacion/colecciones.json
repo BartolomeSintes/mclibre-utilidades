@@ -243,9 +243,9 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Curso 2022/23",
+                                "titulo": "Curso 2023/24",
                                 "referencias": [
-                                    "boe-2023-63-o"
+                                    "boe-2024-39-o"
                                 ]
                             }
                         },
@@ -308,7 +308,11 @@
                                     "boe-2020-479-rd",
                                     "boe-2021-261-rd",
                                     "boe-2021-279-rd",
-                                    "boe-2023-405-rd"
+                                    "boe-2023-405-rd",
+                                    "boe-2024-497-rd",
+                                    "boe-2024-498-rd",
+                                    "boe-2024-499-rd",
+                                    "boe-2024-500-rd"
                                 ]
                             }
                         },
@@ -465,6 +469,7 @@
                             "apartado": {
                                 "titulo": "Otras",
                                 "referencias": [
+                                    "boe-1995-1635-rd",
                                     "boe-1998-02-23-o",
                                     "boe-2006-806-rd",
                                     "boe-2007-276-rd",
@@ -598,6 +603,7 @@
                                     "boe-1995-894-rd",
                                     "boe-1995-1390-rd",
                                     "boe-1995-1692-rd",
+                                    "boe-1998-173-rd",
                                     "boe-2000-3473-rd",
                                     "boe-2000-3474-rd",
                                     "boe-2001-937-rd"
@@ -661,6 +667,7 @@
                                 "titulo": "Estudios universitarios informática",
                                 "referencias": [
                                     "boe-1969-554-d",
+                                    "boe-1969-11-11-o",
                                     "boe-1970-07-29-o",
                                     "boe-1971-06-24-o",
                                     "boe-1976-327-rd",
@@ -749,7 +756,8 @@
                                     "boe-2020-139-o",
                                     "boe-2020-255-o",
                                     "boe-2021-2-o",
-                                    "boe-2022-58-o"
+                                    "boe-2022-58-o",
+                                    "boe-2023-63-o"
                                 ]
                             }
                         },

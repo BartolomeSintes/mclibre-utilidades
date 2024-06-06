@@ -209,6 +209,12 @@ https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=AL
 -   2023-06-14. https://valenciaplaza.com/asi-funcionara-el-observatorio-de-la-inteligencia-artificial-de-la-comunitat-valenciana - https://dogv.gva.es/datos/2023/06/13/pdf/2023_6578.pdf - Un chiriguito inútil más
 -   2023-06-15  https://xarxatic.com/dos-documentos-legales-que-como-docentes-de-la-publica-deberiais-tener-siempre-a-mano/ - https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-PB-2022-140
 -   2023-06-29  https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15051 - Orden EFP/694/2023, de 16 de junio, por la que se crean los departamentos didácticos de Informática y de Economía en los Institutos de Educación Secundaria de Ceuta y Melilla.
+-   2024-06-05. Estudios nocturnos de Bachillerato
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-21701
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1976-16589
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1978-23730
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1985-25013
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1988-16731
 
 ## Cosas a hacer periódicamente
 

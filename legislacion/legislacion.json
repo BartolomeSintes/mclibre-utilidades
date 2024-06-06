@@ -9867,7 +9867,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-1991-1701-especialidades-secundaria.pdf"
+                            "url": "boe/BOE-1991-1701-RD-especialidades-secundaria.pdf"
                         },
                         {
                             "formato": "web",
@@ -27072,7 +27072,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "boe/BOE-2015-1361-O-mec-curriculo-eso-bachillerato-2016-07-03.pdf"
+                            "url": "boe/BOE-2015-1361-O-mec-curriculo-eso-bachillerato-consolidado-2016-07-03.pdf"
                         },
                         {
                             "formato": "web",
@@ -37880,7 +37880,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2023-01-27",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Pruebas evaluación final Bachillerato y acceso Universidad 2022/23",
             "titulo": "Orden PCM/63/2023, de 25 de enero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas, en el curso 2022-2023.",
             "versiones": [
@@ -40651,6 +40651,335 @@
                 "bachillerato",
                 "admisión",
                 "curso 2024/25"
+            ]
+        },
+        {
+            "id": "boe-1969-11-11-o",
+            "incluido": "2024-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1969-12-10",
+            "vigencia": "derogado",
+            "descripción": "Plan de estudios Programador de Aplicaciones, Programador de Sistemas, Analista de Aplicaciones",
+            "titulo": "Orden de 11 de noviembre de 1969 por la que se aprueba el Plan de Estudios de Programador de Aplicaciones del Instituto de Informática",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1969-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1969-11-11-O-plan-estudios-programadores-de-aplicaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1969-10258"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "universidad",
+                "planes de estudio"
+            ]
+        },
+        {
+            "id": "boe-1998-173-rd",
+            "incluido": "2024-06-05",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-02-17",
+            "vigencia": "derogado",
+            "descripción": "Calendario implantación LOGSE",
+            "titulo": "Real Decreto 173/1998, de 16 de febrero, por el que se modifica y completa el Real Decreto 986/1991, de 14 de junio, por el que se aprueba el calendario de aplicación de la nueva ordenación del sistema educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-02-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-173-RD-calendario-aplicacion-logse.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1998/02/16/173"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "educación",
+                "calendario aplicación",
+                "logse"
+            ]
+        },
+        {
+            "id": "boe-1995-1635-rd",
+            "incluido": "2024-06-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1995-10-10",
+            "vigencia": "vigente",
+            "descripción": "Especialidades de Formación Profesional",
+            "titulo": "Real Decreto 1635/1995, de 6 de octubre, por el que se adscribe el profesorado de los Cuerpos de Profesores de Enseñanza Secundaria y Profesores Técnicos de Formación Profesional a las especialidades propias de la formación profesional específica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1995-10-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-1635-RD-especialidades-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1995/10/06/1635"
+                        }
+                    ]
+                },
+                {
+                    "versión": "corrección",
+                    "fecha": "1995-10-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-1635-RD-especialidades-fp-correccion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1995/10/06/1635/corrigendum/19951026"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2003-05-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-1635-RD-especialidades-fp-consolidado-2003-05-24.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1995/10/06/1635/con"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "profesorado",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "especialidades docentes"
+            ]
+        },
+        {
+            "id": "boe-2024-39-o",
+            "incluido": "2024-06-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-01-26",
+            "vigencia": "vigente",
+            "descripción": "Pruebas evaluación final Bachillerato y acceso Universidad 2023/24",
+            "titulo": "Orden PJC/39/2024, de 24 de enero, por la que se determinan las características, el diseño y el contenido de la evaluación de Bachillerato para el acceso a la universidad, y las fechas máximas de realización y de resolución de los procedimientos de revisión de las calificaciones obtenidas, en el curso 2023-2024.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-01-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-39-O-acceso-universidad-2324.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2024/01/24/pjc39"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "curso 2023/24",
+                "educación",
+                "bachillerato",
+                "acceso universidad",
+                "evaluaciones finales"
+            ]
+        },
+        {
+            "id": "boe-2024-497-rd",
+            "incluido": "2024-06-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-05-28",
+            "vigencia": "vigente",
+            "descripción": "Modificación Títulos Cursos de especialización",
+            "titulo": "Real Decreto 497/2024, de 21 de mayo, por el que se modifican determinados reales decretos por los que se establecen, en el ámbito de la Formación Profesional, cursos de especialización de grado medio y superior y se fijan sus enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-497-RD-modificacion-titulos-cursos-especializacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2024/05/21/497"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "cursos de especialización"
+            ]
+        },
+        {
+            "id": "boe-2024-498-rd",
+            "incluido": "2024-06-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-05-28",
+            "vigencia": "vigente",
+            "descripción": "Modificación Títulos Grado Básico",
+            "titulo": "Real Decreto 498/2024, de 21 de mayo, por el que se modifican determinados reales decretos por los que se establecen títulos de Formación Profesional de grado básico y se fijan sus enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-498-RD-modificacion-titulos-grado-basico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2024/05/21/498"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado básico"
+            ]
+        },
+        {
+            "id": "boe-2024-499-rd",
+            "incluido": "2024-06-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-05-28",
+            "vigencia": "vigente",
+            "descripción": "Modificación Títulos Grado Medio",
+            "titulo": "Real Decreto 499/2024, de 21 de mayo, por el que se modifican determinados reales decretos por los que se establecen títulos de Formación Profesional de grado medio y se fijan sus enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-499-RD-modificacion-titulos-grado-medio.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2024/05/21/499"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado medio"
+            ]
+        },
+        {
+            "id": "boe-2024-500-rd",
+            "incluido": "2024-06-06",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-05-28",
+            "vigencia": "vigente",
+            "descripción": "Modificación Títulos Grado Superior",
+            "titulo": "Real Decreto 500/2024, de 21 de mayo, por el que se modifican determinados reales decretos por los que se establecen títulos de Formación Profesional de grado superior y se fijan sus enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-500-RD-modificacion-titulos-grado-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2024/05/21/500"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
             ]
         }
     ]
