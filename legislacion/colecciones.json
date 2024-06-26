@@ -226,6 +226,8 @@
                                     "boe-borrador-2023-12-25-o",
                                     "boe-borrador-2023-12-26-rd",
                                     "boe-borrador-2024-01-17-rd",
+                                    "boe-borrador-2024-03-15-rd",
+                                    "boe-borrador-2024-03-15-o",
                                     "boe-borrador-2024-04-23-rd",
                                     "boe-borrador-2024-04-26-rd",
                                     "boe-borrador-2024-06-06-rd"
@@ -782,6 +784,15 @@
                     "introducción": "Esta página contiene NNN referencias legislativas vigentes relacionadas con la educación publicadas en el Diario Oficial de la Generalitat Valenciana.",
                     "profundidad": 1,
                     "contenido": [
+                        {
+                            "apartado": {
+                                "titulo": "Borradores",
+                                "referencias": [
+                                    "dogv-borrador-2024-05-16-o",
+                                    "dogv-borrador-2024-06-13-o"
+                                ]
+                            }
+                        },
                         {
                             "apartado": {
                                 "titulo": "Curso 2024/25",

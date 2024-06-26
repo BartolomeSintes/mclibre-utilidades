@@ -41190,6 +41190,157 @@
                 "centros",
                 "exterior"
             ]
+        },
+        {
+            "id": "boe-borrador-2024-03-15-rd",
+            "incluido": "2024-06-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2024-03-15",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Actualización cualificaciones profesionales Informática y Comunicaciones",
+            "titulo": "Proyecto de Real Decreto por el que se establecen y actualizan determinadas cualificaciones de distintas familias profesionales.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2024-03-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-actualizacion-cualificaciones-2024-03-15.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/consulta-publica-previa/cerrados/2024/prd-cualificaciones-familias-profesionales.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "cualificaciones profesionales",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-borrador-2024-03-15-o",
+            "incluido": "2024-06-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2024-03-15",
+            "vigencia": "borrador",
+            "descripción": "Borrador Orden Actualización cualificaciones profesionales Informática y Comunicaciones",
+            "titulo": "Proyecto de Orden por la que se actualizan, de acuerdo con el Real Decreto 817/2014, de 26 de septiembre, por el que se establecen los aspectos puntuales de las cualificaciones profesionales, determinadas cualificaciones profesionales de las familias profesionales Actividades Físicas y Deportivas; Artes Gráficas; Artes y Artesanías; Informática y Comunicaciones; Servicios Socioculturales y a la Comunidad; Textil, Confección y Piel, y Vidrio y Cerámica, recogidas en el Catálogo Nacional de Cualificaciones Profesionales",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2024-03-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-O-FP-actualizacion-cualificaciones-2024-03-15.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2024/po-cualificaciones-profesionales.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "borrador",
+                "educación",
+                "cualificaciones profesionales",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-borrador-2024-05-16-o",
+            "incluido": "2024-06-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "ANPE",
+            "fecha": "2024-05-16",
+            "vigencia": "borrador",
+            "descripción": "Borrador Orden Currículos Grado Medio y Grado Superior (CV)",
+            "titulo": "Proyecto de Orden de la Conselleria de Educación, Universidades y Empleo, por la que se desarrollan y concretan determinados aspectos de los currículos de los ciclos de grado medio y de grado superior, en aplicación del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2024-05-16",
+                    "enlaces": [
+                        {
+                            "formato": "docx",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-XXXX-XX-O-FP-curriculos-gm-gs-2024-05-16.docx"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://anpecomunidadvalenciana.es/notices/186103/Negociado-el-proyecto-de-Orden-que-desarrolla-los-curr%C3%ADculos-de-ciclos-de-GM-y-GS-para-el-curso-2024-25"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "borrador",
+                "educación",
+                "currículo",
+                "grado medio",
+                "grado superior",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-borrador-2024-06-13-o",
+            "incluido": "2024-06-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "ANPE",
+            "fecha": "2024-06-13",
+            "vigencia": "borrador",
+            "descripción": "Borrador Orden Currículos Grado Básico (CV)",
+            "titulo": "Proyecto de Orden de la Conselleria de Educación, Universidades y Empleo, por la que se desarrollan para la Comunitat Valenciana los currículos de los ciclos formativos de grado básico de todas las familias profesionales, según lo dispuesto en el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2024-06-13",
+                    "enlaces": [
+                        {
+                            "formato": "docx",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-XXXX-XX-O-FP-curriculos-gb-2024-06-13.docx"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://anpecomunidadvalenciana.es/notices/186926/NEGOCIACIONES-Desarrollo-de-los-curr%C3%ADculos-de-los-ciclos-formativos-de-grado-b%C3%A1sico-de-todas-las-familias-profesionales"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "borrador",
+                "educación",
+                "currículo",
+                "grado básico",
+                "formación profesional"
+            ]
         }
     ]
 }
