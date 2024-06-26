@@ -217,7 +217,6 @@
                                 "referencias": [
                                     "boe-borrador-2021-2-rd",
                                     "boe-borrador-2021-1-rd",
-                                    "boe-borrador-2022-3-rd",
                                     "boe-borrador-2023-03-02-rd",
                                     "boe-borrador-2023-06-02-rd",
                                     "boe-borrador-2023-07-04-rd",
@@ -228,7 +227,8 @@
                                     "boe-borrador-2023-12-26-rd",
                                     "boe-borrador-2024-01-17-rd",
                                     "boe-borrador-2024-04-23-rd",
-                                    "boe-borrador-2024-04-26-rd"
+                                    "boe-borrador-2024-04-26-rd",
+                                    "boe-borrador-2024-06-06-rd"
                                 ]
                             }
                         },
@@ -312,7 +312,8 @@
                                     "boe-2024-497-rd",
                                     "boe-2024-498-rd",
                                     "boe-2024-499-rd",
-                                    "boe-2024-500-rd"
+                                    "boe-2024-500-rd",
+                                    "boe-2024-566-rd"
                                 ]
                             }
                         },
@@ -343,14 +344,6 @@
                                     "boe-2011-1146-rd",
                                     "boe-2022-217-rd",
                                     "boe-2022-243-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Calendario de implantación Evaluaciones finales de Secundaria y Bachillerato",
-                                "referencias": [
-                                    "boe-2016-310-rd"
                                 ]
                             }
                         },
@@ -477,13 +470,13 @@
                                     "boe-2008-1834-rd",
                                     "boe-2010-132-rd",
                                     "boe-2011-1618-rd",
-                                    "boe-2014-412-rd",
                                     "boe-2015-665-rd",
                                     "boe-2019-4-l",
                                     "boe-2022-04-05-res",
                                     "boe-2022-07-01-res",
                                     "boe-2022-800-rd",
-                                    "boe-2023-286-rd"
+                                    "boe-2023-286-rd",
+                                    "boe-2024-534-rd"
                                 ]
                             }
                         }
@@ -544,8 +537,10 @@
                                 "titulo": "Ley Orgánica para la Mejora de la Calidad Educativa (LOMCE, 2013)",
                                 "referencias": [
                                     "boe-2013-8-lo",
+                                    "boe-2014-412-rd",
                                     "boe-2014-1105-rd",
                                     "boe-2015-65-o",
+                                    "boe-2016-310-rd",
                                     "boe-2016-5-rdl",
                                     "boe-2017-562-rd"
                                 ]
@@ -794,7 +789,8 @@
                                     "dogv-2024-02-02-res",
                                     "dogv-2024-04-18-res",
                                     "dogv-2024-04-25-res",
-                                    "dogv-2024-05-21-res"
+                                    "dogv-2024-05-21-res",
+                                    "dogv-2024-06-05-res"
                                 ]
                             }
                         },
@@ -802,7 +798,6 @@
                             "apartado": {
                                 "titulo": "Curso 2023/24",
                                 "referencias": [
-                                    "dogv-2023-06-14-res",
                                     "dogv-2023-06-27-res",
                                     "dogv-2023-07-06-res",
                                     "dogv-2023-07-06-2-res",
@@ -847,7 +842,8 @@
                                     "dogv-2018-51-d",
                                     "dogv-2022-107-d",
                                     "dogv-2022-108-d",
-                                    "dogv-2023-19-o"
+                                    "dogv-2023-19-o",
+                                    "dogv-2024-66-d"
                                 ]
                             }
                         },
@@ -1191,7 +1187,8 @@
                                 "referencias": [
                                     "dogv-2023-01-11-res",
                                     "dogv-2023-03-07-res",
-                                    "dogv-2023-03-15-res"
+                                    "dogv-2023-03-15-res",
+                                    "dogv-2023-06-14-res"
                                 ]
                             }
                         },

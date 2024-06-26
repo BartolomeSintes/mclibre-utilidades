@@ -3959,7 +3959,7 @@
             "ámbito": "España",
             "origen": "MEC",
             "fecha": "2019-07-02",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Borrador Decreto del Curso de Especialización en Ciberseguridad",
             "titulo": "Proyecto de Real Decreto EFP/XXX/2019, de XX de XXXXX por el que se establece el Curso de Especialización en Ciberseguridad en entornos de las tecnologías de la información y se fijan los aspectos básicos del currículo.",
             "versiones": [
@@ -6507,7 +6507,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2016-07-30",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Evaluaciones finales ESO y Bachillerato",
             "titulo": "Real Decreto 310/2016, de 29 de julio, por el que se regulan las evaluaciones finales de Educación Secundaria Obligatoria y de Bachillerato.",
             "versiones": [
@@ -6816,7 +6816,7 @@
             "ámbito": "España",
             "origen": "BOE",
             "fecha": "2014-06-07",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Admisión a las enseñanzas universitarias de Grado",
             "titulo": "Real Decreto 412/2014, de 6 de junio, por el que se establece la normativa básica de los procedimientos de acceso a universidad",
             "versiones": [
@@ -21891,7 +21891,7 @@
             "ámbito": "España",
             "origen": "MEC",
             "fecha": "2020-03-18",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Borrador Real Decreto del Curso de especialización de Desarrollo de videojuegos y realidad virtual",
             "titulo": "Proyecto de Real Decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Desarrollo de videojuegos y realidad virtual y se fijan los aspectos básicos del currículo.",
             "versiones": [
@@ -26456,7 +26456,7 @@
             "ámbito": "España",
             "origen": "MEC",
             "fecha": "2020-06-19",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Borrador Decreto del Curso de especialización en Inteligencia Artificial y Big Data",
             "titulo": "Proyecto de Real Decreto XXX/2020, de XX de XXXXX por el que se establece el Curso de Especialización en Inteligencia Artificial y Big Data y se fijan los aspectos básicos del currículo.",
             "versiones": [
@@ -36610,8 +36610,8 @@
             "ámbito": "España",
             "origen": "MEC",
             "fecha": "2022-12-09",
-            "vigencia": "borrador",
-            "descripción": "Borrador Decreto del Curso de especialización de Desarrollo de aplicaciones en lenguaje Python ",
+            "vigencia": "vencido",
+            "descripción": "Borrador Decreto del Curso de especialización de Desarrollo de aplicaciones en lenguaje Python",
             "titulo": "Proyecto de Real Decreto por el que se establece el curso de especialización de formación profesional de grado superior en desarrollo de aplicaciones en lenguaje Python y se fijan los aspectos básicos del currículo.",
             "versiones": [
                 {
@@ -39074,9 +39074,9 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2023-06-20",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario escolar 2023/24 (CV)",
-            "titulo": "Resolución de 14 de junio de 2023, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2023-2024 en la Comunitat Valenciana. ",
+            "titulo": "Resolución de 14 de junio de 2023, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2023-2024 en la Comunitat Valenciana.",
             "versiones": [
                 {
                     "versión": "original",
@@ -40980,6 +40980,215 @@
                 "currículo",
                 "formación profesional",
                 "grado superior"
+            ]
+        },
+        {
+            "id": "boe-2024-566-rd",
+            "incluido": "2024-06-20",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-06-20",
+            "vigencia": "vigente",
+            "descripción": "Decreto del Curso de especialización de Desarrollo de aplicaciones en lenguaje Python",
+            "titulo": "Real Decreto 566/2024, de 18 de junio, por el que se establece el Curso de especialización de Formación Profesional de Grado Superior en Desarrollo de aplicaciones en lenguaje Python y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "vigente",
+                    "fecha": "2024-06-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-566-RD-FP-titulo-aplicaciones-python.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12503"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "boe-2024-534-rd",
+            "incluido": "2024-06-20",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-06-12",
+            "vigencia": "vigente",
+            "descripción": "Admisión a las enseñanzas universitarias de Grado",
+            "titulo": "Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-06-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-534-RD-admision-universidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2024/06/11/534"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "acceso universidad"
+            ]
+        },
+        {
+            "id": "dogv-2024-06-05-res",
+            "incluido": "2024-06-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-06-17",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar 2024/25 (CV)",
+            "titulo": "Resolución de 5 de junio de 2024, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2024-2025 en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-06-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-06-05-R-calendario-escolar-2425.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/5471&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/5471&L=0"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-06-05-R-calendario-escolar-2425-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-06-05-R-calendario-escolar-2425-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2024/25"
+            ]
+        },
+        {
+            "id": "dogv-2024-66-d",
+            "incluido": "2024-06-26",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-06-24",
+            "vigencia": "vigente",
+            "descripción": "Currículo de ESO y Bachillerato(CV)",
+            "titulo": "Decreto 66/2024, de 21 de junio, del Consell, por el que se modifica el Decreto 107/2022, de 5 de agosto, del Consell, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria y la Orden 19/2023, de 29 de junio, de la Conselleria de Educación, Cultura y Deporte, por la que se regulan los procedimientos derivados del Decreto 107/2022, de 5 de agosto, del Consell, por el que se establecen la ordenación y el currículo de Educación Secundaria Obligatoria, y del Decreto 108/2022, de 5 de agosto, del Consell, por el que se establecen la ordenación y el currículo de Bachillerato, así como la organización y el funcionamiento del Bachillerato nocturno y a distancia en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-06-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-66-D-curriculo-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/6134&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/5471&L=0"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "currículo",
+                "secundaria",
+                "ESO",
+                "bachillerato"
+            ],
+            "comentario": "Falta RTF (estaba vacío cuando colgué el pdf"
+
+        },
+        {
+            "id": "boe-borrador-2024-06-06-rd",
+            "incluido": "2024-06-26",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2024-06-06",
+            "vigencia": "borrador",
+            "descripción": "Borrador Real Decreto Autorización centros privados no universitarios en el exterior",
+            "titulo": "Proyecto de real decreto de autorización de apertura y funcionamiento de centros docentes españoles de titularidad privada en el exterior para impartir enseñanzas de régimen general no universitarias.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2024-06-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-centros-privados-exterior-2024-06-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2024/prd-autorizacion-centros-exterior-nouniversitarios.html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "borrador",
+                "educación",
+                "centros",
+                "exterior"
             ]
         }
     ]
