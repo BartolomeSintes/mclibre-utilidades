@@ -13,7 +13,7 @@
             "origen": "BOE",
             "fecha": "2008-11-17",
             "vigencia": "vigente",
-            "descripción": "Decreto del Título de SMR",
+            "descripción": "Título de SMR",
             "titulo": "Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.",
             "versiones": [
                 {
@@ -50,7 +50,7 @@
             "origen": "BOE",
             "fecha": "2009-11-18",
             "vigencia": "vigente",
-            "descripción": "Decreto del Título de ASIR",
+            "descripción": "Título de ASIR",
             "titulo": "Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.",
             "versiones": [
                 {
@@ -87,7 +87,7 @@
             "origen": "BOE",
             "fecha": "2010-05-20",
             "vigencia": "vigente",
-            "descripción": "Decreto del Título de DAM",
+            "descripción": "Título de DAM",
             "titulo": "Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas.",
             "versiones": [
                 {
@@ -124,7 +124,7 @@
             "fecha": "2010-06-12",
             "modificado": "",
             "vigencia": "vigente",
-            "descripción": "Decreto del Título de DAW",
+            "descripción": "Título de DAW",
             "titulo": "Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.",
             "versiones": [
                 {
@@ -2146,7 +2146,7 @@
             "origen": "BOE",
             "fecha": "1994-09-30",
             "vigencia": "derogado",
-            "descripción": "Decreto del Título de ASI",
+            "descripción": "Título de ASI",
             "titulo": "Real Decreto 1660/1994, de 22 de julio, por el que se establece el título de Técnico superior en Administración de Sistemas Informáticos y las correspondientes enseñanzas mínimas.",
             "versiones": [
                 {
@@ -2183,7 +2183,7 @@
             "origen": "BOE",
             "fecha": "1994-09-30",
             "vigencia": "derogado",
-            "descripción": "Decreto del Título de DAI",
+            "descripción": "Título de DAI",
             "titulo": "Real Decreto 1661/1994, de 22 de julio, por el que se establece el título de Técnico superior en Desarrollo de Aplicaciones Informáticas y las correspondientes enseñanzas mínimas.",
             "versiones": [
                 {
@@ -3301,7 +3301,7 @@
             "origen": "BOE",
             "fecha": "2003-05-24",
             "vigencia": "derogado",
-            "descripción": "Decreto del Título de ESI",
+            "descripción": "Título de ESI",
             "titulo": "Real Decreto 497/2003, de 2 de mayo, por el que se establece el título de técnico en Explotación de Sistemas Informáticos y las correspondientes enseñanzas comunes.",
             "versiones": [
                 {
@@ -8489,7 +8489,7 @@
             "origen": "BOE",
             "fecha": "1971-10-09",
             "vigencia": "derogado",
-            "descripción": "Calendario aplicación LGE",
+            "descripción": "Horario profesorado Bachillerato (LGE)",
             "titulo": "Orden de 28 de septiembre de 1971 por la que se dictan normas sobre el horario del Profesorado de Centros de Bachillerato.",
             "versiones": [
                 {
@@ -8954,7 +8954,7 @@
             "modificado": "",
             "ámbito": "España",
             "origen": "BOE",
-            "fecha": "1970-09-07",
+            "fecha": "1970-10-21",
             "vigencia": "derogado",
             "descripción": "Centros experimentales y experimentación en Centros ordinarios (LGE)",
             "titulo": "Orden de 30 de septiembre de 1970 por la que se desarrollan las normas sobre Centros experimentales y autorización para la experimentación en Centros ordinarios del Decreto 2481/1970.",
@@ -9288,7 +9288,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2009-07-07",
-            "vigencia": "vencido",
+            "vigencia": "derogado",
             "descripción": "Currículo de optativas de Bachillerato (CV)",
             "titulo": "Orden de 17 de junio de 2009, de la Conselleria de Educación, por la que regula las materias optativas en el Bachillerato.",
             "versiones": [
@@ -12804,7 +12804,7 @@
             "origen": "BOE",
             "fecha": "1976-03-01",
             "vigencia": "derogado",
-            "descripción": "Creación estudios universitarios de Informática",
+            "descripción": "Creación estudios universitarios y de FP de Informática",
             "titulo": "Decreto 327/1976, de 26 de febrero, sobre estudios de Informática.",
             "versiones": [
                 {
@@ -39290,7 +39290,7 @@
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "hhttps://dogv.gva.es/va/resultat-dogv?signatura=2023/7702&L=0"
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/7702&L=0"
                         },
                         {
                             "formato": "rtf",
@@ -40041,7 +40041,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2024/prd-modificacion-659-2023.html"
+                            "url": "https://www.educacionyfp.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2024/prd-modificacion-659-2023.html"
                         }
                     ]
                 }
@@ -40317,7 +40317,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2024/prd-competencias-bs-personas-adultas.html"
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2024/prd-competencias-bs-personas-adultas.html"
                         }
                     ]
                 }
@@ -40356,7 +40356,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "hhttps://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2024/prd-elementos-instrumentos-snfp.html"
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2024/prd-elementos-instrumentos-snfp.html"
                         }
                     ]
                 }
@@ -41177,7 +41177,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2024/prd-autorizacion-centros-exterior-nouniversitarios.html"
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/cerrados/2024/prd-autorizacion-centros-exterior-nouniversitarios.html"
                         }
                     ]
                 }
@@ -41340,6 +41340,758 @@
                 "currículo",
                 "grado básico",
                 "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-1970-2480-d",
+            "incluido": "2024-06-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1970-09-07",
+            "vigencia": "vencido",
+            "descripción": "Ordenación curso 1970/71 (LGE)",
+            "titulo": "Decreto 2480/1970, de 22 de agosto, sobre ordenación del curso en el año académico 1970-1971.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1970-09-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1970-2480-D-ordenacion-curso-7071.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1970-975"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "curso 1970/71"
+            ]
+        },
+        {
+            "id": "boe-1971-1485-d",
+            "incluido": "2024-06-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1971-07-13",
+            "vigencia": "vencido",
+            "descripción": "Ordenación curso 1971/72 (LGE)",
+            "titulo": "Decreto 1485/1971, de 1 de julio, de ordenación del curso en el año académico 1971-72 y sobre medidas complementarias del Decreto 2459/1970, de 22 de agosto.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1971-07-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1971-1485-D-ordenacion-curso-7172.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1971-875"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "curso 1971/72"
+            ]
+        },
+        {
+            "id": "boe-1972-1380-d",
+            "incluido": "2024-06-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1972-06-07",
+            "vigencia": "vencido",
+            "descripción": "Ordenación curso 1972/73 (LGE)",
+            "titulo": "Decreto 1380/1972, de 25 de mayo, sobre ordenación de la Educación General Básica y del Bachillerato en el curso académico 1972-73.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1972-06-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1972-1380-D-ordenacion-curso-7273.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1972-828"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "curso 1972/73"
+            ]
+        },
+        {
+            "id": "boe-1976-05-18-o",
+            "incluido": "2024-06-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1976-04-12",
+            "vigencia": "vencido",
+            "descripción": "Ordenación FP curso 1976/77 (LGE)",
+            "titulo": "Orden de 18 de mayo de 1976 sobre Ordenación de la Formación Profesional durante el curso académico 1976-77.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1976-04-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1976-05-18-O-ordenacion-fp-curso-7677.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1976-11190"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "curso 1976/77"
+            ]
+        },
+        {
+            "id": "boe-1977-05-31-o",
+            "incluido": "2024-06-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1977-06-07",
+            "vigencia": "vencido",
+            "descripción": "Ordenación FP curso 1977/78 (LGE)",
+            "titulo": "Orden de 31 de mayo de 1977 sobre ordenación de la Formación Profesional durante el curso académico 1977-78.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1977-06-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1977-05-31-O-ordenacion-fp-curso-7778.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-13517"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "curso 1977/78"
+            ]
+        },
+        {
+            "id": "boe-1978-07-07-o",
+            "incluido": "2024-06-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1978-07-17",
+            "vigencia": "vencido",
+            "descripción": "Ordenación FP curso 1978/79 (LGE)",
+            "titulo": "Orden de 7 de julio de 1978 sobre ordenación de la Formación Profesional durante el curso 1978-79.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1978-07-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1978-07-07-O-ordenacion-fp-curso-7879.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-13517"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "decreto",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "curso 1978/79"
+            ]
+        },
+        {
+            "id": "boe-1985-07-31-o",
+            "incluido": "2024-06-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1985-08-07",
+            "vigencia": "derogado",
+            "descripción": "Bases del Plan Nacional de Formación e Inserción Profesional",
+            "titulo": "Orden de 31 de julio de 1985 por la que se desarrolla el Acuerdo del Consejo de Ministros, en el que se aprueban las bases del Plan Nacional de Formación e Inserción Profesional y se regulan los cursos de Formación Profesional Ocupacional a impartir por los centros colaboradores del INEM..",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1985-08-07",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1985-07-31-O-bases-plan-nacional-formacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/1985/07/31/(9)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "trabajo",
+                "formación profesional",
+                "formación profesional para el empleo"
+            ]
+        },
+        {
+            "id": "dogv-2000-06-29-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2000-07-10",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Secundaria, Bachillerato y FP 00/01 (CV)",
+            "titulo": "Resolución de 29 de junio de 2000 de las Direcciones Generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros de Educación Secundaria para el curso 2000-2001.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2000-07-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-06-29-R-inicio-curso-secundaria-0001.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2000/5727&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2000/5727&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2000-06-29-R-inicio-curso-secundaria-0001-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2000-06-29-R-inicio-curso-secundaria-0001-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2001/02"
+            ]
+        },
+        {
+            "id": "dogv-1998-07-08-o",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-07-27",
+            "vigencia": "vencido",
+            "descripción": "Implantación enseñanzas LOGSE (CV)",
+            "titulo": "Orden de 8 de julio de 1998 de la Conselleria de Cultura, Educación y Ciencia por la que se establece el proceso de implantacion de las enseñanzas de regimen general reguladas por la Ley Organica 1/1990 de Ordenacion General del Sistema Educativo y la progresiva extincion de las enseñanzas medias reguladas por la Ley General de Educación de 1970 en la Comunidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-07-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-07-08-O-implantacion-logse.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1998/6304&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1998/6304&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-07-08-O-implantacion-logse-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-07-08-O-implantacion-logse-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "implantación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-1998-07-09-1-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-07-27",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 98/99 (CV)",
+            "titulo": "Resolución de 9 de julio de 1998, de la Secretaria General y de las Direcciones Generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros de titularidad de la Generalitat Valenciana que durante el curso 1998-99 impartan ciclos de Formación Profesional Específica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-07-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-07-27-R-inicio-curso-fp-9899.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1998/6131&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1998/6131&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-07-27-R-inicio-curso-fp-9899-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-07-27-R-inicio-curso-fp-9899-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1998/99"
+            ]
+        },
+        {
+            "id": "dogv-1998-07-09-2-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1998-07-27",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso BUP, COU y FP 98/99 (CV)",
+            "titulo": "Resolución de 9 de julio de 1998, de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros de titularidad de la Generalitat Valenciana que imparten enseñanzas del Bachillerato Unificado y Polivalente, del Curso de Orientación Universitaria y de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1998-07-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-07-27-R-inicio-curso-bup-cou-fp-9899.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1998/6131&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1998/6131&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1998-07-27-R-inicio-curso-bup-cou-fp-9899-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1998-07-27-R-inicio-curso-bup-cou-fp-9899-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "bup",
+                "cou",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1998/99"
+            ]
+        },
+        {
+            "id": "dogv-1999-06-25-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1999-06-30",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso ESO, Bachillerato, BUP COU y FP 99/00 (CV)",
+            "titulo": "Resolución de 25 de junio de 1999, de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal, por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los institutos de Secundaria que, durante el curso 1999-2000, impartan enseñanzas de Educación Secundaria Obligatoria, Bachillerato (LOGSE) y enseñanzas en extinción de Bachillerato Unificado y Polivalente, Curso de Orientación Universitaria y Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-06-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1999-06-25-R-inicio-curso-eso-bachillerato-bup-cou-fp-9900.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1999/6114&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1999/6144&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1999-06-25-R-inicio-curso-eso-bachillerato-bup-cou-fp-9900-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1999-06-25-R-inicio-curso-eso-bachillerato-bup-cou-fp-9900-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "bup",
+                "cou",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1999/00"
+            ]
+        },
+        {
+            "id": "dogv-1999-06-24-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1999-07-05",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP 99/00 (CV)",
+            "titulo": "Resolución de 24 de junio de 1999, de la Secretaria General y de las Direcciones Generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros de titularidad de la Generalitat Valenciana que durante el curso 1999-2000 impartan ciclos de Formación Profesional Específica.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1999-07-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1999-06-24-R-inicio-curso-fp-9900.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1999/6146&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1999/6146&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1999-06-24-R-inicio-curso-fp-9900-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1999-06-24-R-inicio-curso-fp-9900-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1999/00"
+            ]
+        },
+        {
+            "id": "dogv-1997-07-21-1-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1997-07-31",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP forma anticipada 97/98 (CV)",
+            "titulo": "Resolución de 21 de julio de 1997 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal, de la Conselleria de Cultura, Educación y Ciencia, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente para los centros de titularidad de la Generalitat Valenciana que durante el curso 1997-98 impartan ciclos formativos de grado medio y de grado superior. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-07-21-R-inicio-curso-fp-9798.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1997/9389&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1997/9389&L=1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1997/98"
+            ]
+        },
+        {
+            "id": "dogv-1997-07-21-2-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1997-07-31",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso BUP, COU y FP 97/98 (CV)",
+            "titulo": "Resolución de 21 de julio de 1997, de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros de titularidad de la Generalitat Valenciana que imparten enseñanzas del Bachillerato Unificado y Polivalente, del Curso de Orientación Universitaria y de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-07-31-R-inicio-curso-bup-cou-fp-9798.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1997/9387&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1997/9387&L=1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "bup",
+                "cou",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1997/98"
+            ]
+        },
+        {
+            "id": "dogv-1997-07-21-3-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1997-07-31",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Bachillerato forma anticipada 97/98 (CV)",
+            "titulo": "Resolución de 21 de julio de 1997, de la Secretaría General y de las Direcciones Generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal, de la Conselleria de Cultura, Educación y Ciencia, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros de titularidad de la Generalitat Valenciana autorizados para implantar de forma anticipada enseñanzas de Bachillerato (LOGSE).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-07-31-R-inicio-curso-bachillerato-anticipada-9798.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1997/9388&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1997/9388&L=1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "bachillerato",
+                "inicio de curso",
+                "curso 1997/98"
+            ]
+        },
+        {
+            "id": "dogv-1997-07-21-4-res",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1997-07-31",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso ESO 97/98 (CV)",
+            "titulo": "Resolución  de 21 de julio de 1997 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros que durante el curso 1997-98 impartan enseñanzas de Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1997-07-31",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1997-07-31-R-inicio-curso-eso-9798.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1997/9386&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1997/9386&L=1"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "eso",
+                "inicio de curso",
+                "curso 1997/98"
             ]
         }
     ]

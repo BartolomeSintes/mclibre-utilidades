@@ -215,6 +215,14 @@ https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=AL
     -   https://www.boe.es/buscar/doc.php?id=BOE-A-1978-23730
     -   https://www.boe.es/buscar/doc.php?id=BOE-A-1985-25013
     -   https://www.boe.es/buscar/doc.php?id=BOE-A-1988-16731
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-8175
+    -   https://www.boe.es/diario_boe/txt.php?id=BOE-A-1972-1278
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1972-34
+    -   https://www.boe.es/diario_boe/txt.php?id=BOE-A-1971-936
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-16627
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-26270
+    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-24066
+-   Curso 200/01, 1999/00, 1998/99: faltan instrucciones de inicio de curso, pero no las encontraba con Google o Bing, así que habría que ir día a día buscándolos en el DOGV de junio y julio (no cuesta tanto).
 
 ## Cosas a hacer periódicamente
 
