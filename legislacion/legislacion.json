@@ -9563,12 +9563,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/1995/05/09/(2)/spa"
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/1995/05/09/(3)/dof/spa/html"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/1995/05/09/(2)/vci"
+                            "url": "https://dogv.gva.es/va/eli/es-vc/o/1995/05/09/(3)/dof/spa/html"
                         },
                         {
                             "formato": "rtf",
@@ -28821,7 +28821,7 @@
             "fecha": "2021-01-22",
             "vigencia": "vigente",
             "descripción": "Borrador Certificados de profesionalidad Familia Informática y comunicaciones (12)",
-            "titulo": "Proyecto de Orden EFP/…./2021, de .. de …., por la que se actualizan dieciocho certificados de profesionalidad de la familia profesional Informática y comunicaciones, recogidos en el Repertorio Nacional de Certificados de Profesionalidad, establecidos por el Real Decreto 1218/2009 de 17 de julio, el Real Decreto 686/2011 de 13 de mayo, el Real Decreto 1531/2011 de 31 de octubre y el Real Decreto 628/2013 de 2 de agosto y también se modifican parcialmente determinados certificados de profesionalidad establecidos por el Real Decreto 686/2011 de 13 de mayo, el Real Decreto 1531/2011 de 31 de octubre y el Real Decreto 628/2013 de 2 de agosto.",
+            "titulo": "Proyecto de Orden EFP/.../2021, de ... de ..., por la que se actualizan dieciocho certificados de profesionalidad de la familia profesional Informática y comunicaciones, recogidos en el Repertorio Nacional de Certificados de Profesionalidad, establecidos por el Real Decreto 1218/2009 de 17 de julio, el Real Decreto 686/2011 de 13 de mayo, el Real Decreto 1531/2011 de 31 de octubre y el Real Decreto 628/2013 de 2 de agosto y también se modifican parcialmente determinados certificados de profesionalidad establecidos por el Real Decreto 686/2011 de 13 de mayo, el Real Decreto 1531/2011 de 31 de octubre y el Real Decreto 628/2013 de 2 de agosto.",
             "versiones": [
                 {
                     "versión": "borrador",
@@ -29717,7 +29717,7 @@
             "fecha": "2020-11-24",
             "vigencia": "vigente",
             "descripción": "ROF de Conselleria de Educación (CV)",
-            "titulo": "Decreto 173/2020, de 30 de octubre, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Deporte..",
+            "titulo": "Decreto 173/2020, de 30 de octubre, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Deporte.",
             "versiones": [
                 {
                     "versión": "original",
@@ -32438,7 +32438,7 @@
             "origen": "BOE",
             "fecha": "2022-03-31",
             "vigencia": "vigente",
-            "descripción": "Ley de Ordenación e integración de la FP",
+            "descripción": "Ley de ordenación e integración de la FP",
             "titulo": "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
             "versiones": [
                 {
@@ -41576,7 +41576,7 @@
             "fecha": "1985-08-07",
             "vigencia": "derogado",
             "descripción": "Bases del Plan Nacional de Formación e Inserción Profesional",
-            "titulo": "Orden de 31 de julio de 1985 por la que se desarrolla el Acuerdo del Consejo de Ministros, en el que se aprueban las bases del Plan Nacional de Formación e Inserción Profesional y se regulan los cursos de Formación Profesional Ocupacional a impartir por los centros colaboradores del INEM..",
+            "titulo": "Orden de 31 de julio de 1985 por la que se desarrolla el Acuerdo del Consejo de Ministros, en el que se aprueban las bases del Plan Nacional de Formación e Inserción Profesional y se regulan los cursos de Formación Profesional Ocupacional a impartir por los centros colaboradores del INEM.",
             "versiones": [
                 {
                     "versión": "original",
@@ -41933,7 +41933,7 @@
             "fecha": "1997-07-31",
             "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso FP forma anticipada 97/98 (CV)",
-            "titulo": "Resolución de 21 de julio de 1997 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal, de la Conselleria de Cultura, Educación y Ciencia, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente para los centros de titularidad de la Generalitat Valenciana que durante el curso 1997-98 impartan ciclos formativos de grado medio y de grado superior. ",
+            "titulo": "Resolución de 21 de julio de 1997 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal, de la Conselleria de Cultura, Educación y Ciencia, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente para los centros de titularidad de la Generalitat Valenciana que durante el curso 1997-98 impartan ciclos formativos de grado medio y de grado superior.",
             "versiones": [
                 {
                     "versión": "original",
@@ -42092,6 +42092,552 @@
                 "eso",
                 "inicio de curso",
                 "curso 1997/98"
+            ]
+        },
+        {
+            "id": "boe-1955-07-20-l",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1955-07-21",
+            "vigencia": "derogado",
+            "descripción": "Ley sobre Formación Profesional Industrial",
+            "titulo": "Ley de 20 de julio de 1955 sobre Formación Profesional Industrial.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1955-07-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1955-07-20-L-fpi.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1955-10412"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "educación",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "gazeta-1924-11-05-rd",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "Gazeta",
+            "fecha": "1924-11-05",
+            "vigencia": "derogado",
+            "descripción": "Estatuto de Enseñanza Industrial (1924)",
+            "titulo": "Real decreto aprobando el Estatuto de Enseñanza Industrial.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1924-11-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "gazeta/Gazeta-1924-11-05-RD-ensenanza-industrial.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "gazeta-1928-2451-rd",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "Gazeta",
+            "fecha": "1928-12-28",
+            "vigencia": "derogado",
+            "descripción": "Estatuto de Formación Profesional",
+            "titulo": "Real decreto 2451/1928, de 21 de diciembre, aprobando el Estatuto de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1928-12-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "gazeta/Gazeta-1928-2451-RD-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1955-10412"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-1951-10-25-o",
+            "incluido": "2024-07-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1951-11-06",
+            "vigencia": "derogado",
+            "descripción": "Comisión Ley sobre Formación Profesional Industrial",
+            "titulo": "Orden de 25 de octubre de 1951 por la que se nombra una Comisión para la redacción y estudios de un anteproyecto de un nuevo Estatuto de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1950-11-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1951-10-25-o-comision-fpi.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley",
+                "educación",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-2024-658-efd-o",
+            "incluido": "2024-07-02",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2024-07-01",
+            "vigencia": "vigente",
+            "descripción": "Currículo FP Grado Básico (MEC)",
+            "titulo": "Orden EFD/658/2024, de 25 de junio, por la que se determina el currículo y se regulan determinados aspectos organizativos para los ciclos formativos de grado básico en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-07-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-658-EFD-O-mec-curriculo-fp-grado-basico.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2024/06/25/efd658"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "formación profesional",
+                "grado básico",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2024-657-efd-o",
+            "incluido": "2024-07-02",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2024-07-01",
+            "vigencia": "vigente",
+            "descripción": "Currículo FP Grado Medio (MEC)",
+            "titulo": "Orden EFD/657/2024, de 25 de junio, por la que se determina el currículo y se regulan determinados aspectos organizativos para los ciclos formativos de grado medio en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-07-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-657-EFD-O-mec-curriculo-fp-grado-medio.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2024/06/25/efd657"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "formación profesional",
+                "grado medio",
+                "currículo"
+            ]
+        },
+        {
+            "id": "boe-2024-659-efd-o",
+            "incluido": "2024-07-02",
+            "modificado": "",
+            "ámbito": "Ministerio de Educación",
+            "origen": "BOE",
+            "fecha": "2024-07-01",
+            "vigencia": "vigente",
+            "descripción": "Currículo FP Grado Superior (MEC)",
+            "titulo": "Orden EFD/659/2024, de 25 de junio, por la que se determina el currículo y se regulan determinados aspectos organizativos para los ciclos formativos de grado superior en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-07-01",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-659-EFD-O-mec-curriculo-fp-grado-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2024/06/25/efd659"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "ministerio de educación",
+                "orden",
+                "formación profesional",
+                "grado superior",
+                "currículo"
+            ]
+        },
+        {
+            "id": "dogv-2023-136-d",
+            "incluido": "2024-07-02",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-08-14",
+            "vigencia": "vigente",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 136/2023, de 10 de agosto, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Universidades y Empleo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-08-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-136-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/8898&L=1"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/8898&L=1"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-136-D-rof-conselleria-educacion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2023-136-D-rof-conselleria-educacion-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-1996-07-19-1-res",
+            "incluido": "2024-07-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1996-07-29",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso FP forma anticipada 96/97 (CV)",
+            "titulo": "Resolución de 19 de julio de 1996 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal de la Conselleria de Cultura, Educación y Ciencia, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente para los centros de titularidad de la Generalitat Valenciana que impartan ciclos formativos de grado medio y de grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1996-07-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-fp-9697.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1996/838928"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1996/838928"
+                        },
+                        {
+                            "formato": "xml",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-fp-9697-es.xml"
+                        },
+                        {
+                            "formato": "xml",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-fp-9697-va.xml"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1996/97"
+            ]
+        },
+        {
+            "id": "dogv-1996-07-19-2-res",
+            "incluido": "2024-07-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1996-07-29",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso BUP, COU y FP 96/97 (CV)",
+            "titulo": "Resolución de 19 de julio de 1996, de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal sobre ordenación académica y organización de la actividad docente de los centros de titularidad de la Generalitat Valenciana que imparten enseñanzas del Bachillerato Unificado y Polivalente, del Curso de Orientación Universitaria y de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1996-07-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-bup-cou-fp-9697.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1996/838926"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1996/838926"
+                        },
+                        {
+                            "formato": "xml",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-bup-cou-fp-9697-es.xml"
+                        },
+                        {
+                            "formato": "xml",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-bup-cou-fp-9697-va.xml"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "bup",
+                "cou",
+                "formación profesional",
+                "inicio de curso",
+                "curso 1996/97"
+            ]
+        },
+        {
+            "id": "dogv-1996-07-19-3-res",
+            "incluido": "2024-07-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1996-07-29",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso ESO 96/97 (CV)",
+            "titulo": "Resolución de 19 de julio de 1996 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros de titularidad de la Generalitat Valenciana que durante el curso 1996-97 impartan enseñanzas de Educación Secundaria Obligatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1996-07-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-eso-9697.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1996/838927"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1996/838927"
+                        },
+                        {
+                            "formato": "xml",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-eso-9697-es.xml"
+                        },
+                        {
+                            "formato": "xml",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-eso-9697-va.xml"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "eso",
+                "inicio de curso",
+                "curso 1996/97"
+            ]
+        },
+        {
+            "id": "dogv-1996-07-19-4-res",
+            "incluido": "2024-07-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "1996-07-29",
+            "vigencia": "vencido",
+            "descripción": "Instrucciones inicio de curso Bachillerato forma anticipada 96/97 (CV)",
+            "titulo": "Resolución de 19 de julio de 1996 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal de la Conselleria de Cultura, Educación y Ciencia, por la que se dictan instrucciones en materia de ordenación académica y organización de la actividad docente de los centros de titularidad de la Generalitat Valenciana autorizados para implantar de forma anticipada enseñanzas de Bachillerato (LOGSE).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1996-07-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-bachillerato-anticipada-9697.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1996/838929"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=1996/838929"
+                        },
+                        {
+                            "formato": "xml",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-bachillerato-anticipada-9697-es.xml"
+                        },
+                        {
+                            "formato": "xml",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-1996-07-29-R-inicio-curso-bachillerato-anticipada-9697-va.xml"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "bachillerato",
+                "inicio de curso",
+                "curso 1996/97"
+            ]
+        },
+        {
+            "id": "dogv-2024-72-d",
+            "incluido": "2024-07-11",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-07-02",
+            "vigencia": "vigente",
+            "descripción": "ROF de Conselleria de Educación (CV)",
+            "titulo": "Decreto 72/2024, de 28 de junio, del Consell, de modificación del Decreto 112/2023, de 25 de julio, del Consell, por el que establece la estructura orgánica básica de la Presidencia y de las consellerias de la Generalitat, y del Decreto 136/2023, de 10 de agosto, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Universidades y Empleo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-08-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-72-D-rof-conselleria-educacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/6403"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/6403"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-72-D-rof-conselleria-educacion-es.xml"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-72-D-rof-conselleria-educacion-va.xml"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "conselleria de educación"
             ]
         }
     ]

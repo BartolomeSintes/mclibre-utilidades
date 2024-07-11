@@ -218,11 +218,7 @@
                                     "boe-borrador-2021-2-rd",
                                     "boe-borrador-2021-1-rd",
                                     "boe-borrador-2023-03-02-rd",
-                                    "boe-borrador-2023-06-02-rd",
-                                    "boe-borrador-2023-07-04-rd",
                                     "boe-borrador-2023-06-23-rd",
-                                    "boe-borrador-2023-11-21-1-rd",
-                                    "boe-borrador-2023-11-21-2-rd",
                                     "boe-borrador-2023-12-25-o",
                                     "boe-borrador-2023-12-26-rd",
                                     "boe-borrador-2024-01-17-rd",
@@ -652,6 +648,17 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Legislación anterior a la Ley General de Educación (LGE, 1970)",
+                                "referencias": [
+                                    "gazeta-1924-11-05-rd",
+                                    "gazeta-1928-2451-rd",
+                                    "boe-1951-10-25-o",
+                                    "boe-1955-07-20-l"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Estudios universitarios",
                                 "referencias": [
                                     "boe-1987-1497-rd",
@@ -1020,7 +1027,9 @@
                                     "dogv-2022-53-o",
                                     "dogv-2022-10-24-res",
                                     "dogv-2022-234-d",
-                                    "dogv-2023-06-29-a"
+                                    "dogv-2023-06-29-a",
+                                    "dogv-2023-136-d",
+                                    "dogv-2024-72-d"
                                 ]
                             }
                         }
@@ -1529,6 +1538,17 @@
                                     "dogv-1997-07-21-4-res"
                                 ]
                             }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 1996/97",
+                                "referencias": [
+                                    "dogv-1996-07-19-1-res",
+                                    "dogv-1996-07-19-2-res",
+                                    "dogv-1996-07-19-3-res",
+                                    "dogv-1996-07-19-4-res"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -1560,7 +1580,10 @@
                                     "boe-2007-2572-o",
                                     "boe-2008-944-o",
                                     "boe-2015-1361-o",
-                                    "boe-2023-694-o"
+                                    "boe-2023-694-o",
+                                    "boe-2024-658-efd-o",
+                                    "boe-2024-657-efd-o",
+                                    "boe-2024-659-efd-o"
                                 ]
                             }
                         }
