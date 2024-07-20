@@ -5963,6 +5963,17 @@
       "creado": "2024-02-23"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 24,
+      "año": 2024,
+      "mes": 7,
+      "portada": "hello-world-24-en-202407.jpg",
+      "fichero": "hello-world-24-en-202407.pdf",
+      "idioma": "inglés",
+      "creado": "2024-07-20"
+    },
+    {
       "serie": "Hello World Books",
       "nombre": "The Big Book of Comupting Pedagogy",
       "número": 1,
@@ -9404,6 +9415,17 @@
       "fichero": "olympiads-in-informatics-17-en-202307.pdf",
       "idioma": "inglés",
       "creado": "2023-07-07"
+    },
+    {
+      "serie": "Olympiads in informatics",
+      "nombre": "Olympiads in informatics",
+      "número": 18,
+      "año": 2024,
+      "mes": 7,
+      "portada": "olympiads-in-informatics-18-en-202407.jpg",
+      "fichero": "olympiads-in-informatics-18-en-202407.pdf",
+      "idioma": "inglés",
+      "creado": "2024-07-20"
     },
     {
       "serie": "Open Source Yearbook",
@@ -14774,6 +14796,17 @@
       "creado": "2024-06-07"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 210,
+      "año": 2024,
+      "mes": 7,
+      "portada": "pclinuxos-210-en-202407.jpg",
+      "fichero": "pclinuxos-210-en-202407.pdf",
+      "idioma": "inglés",
+      "creado": "2024-07-20"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -16191,6 +16224,17 @@
       "fichero": "tino-94-es-202405.pdf",
       "idioma": "español",
       "creado": "2024-05-10"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 95,
+      "año": 2024,
+      "mes": 7,
+      "portada": "tino-95-es-202407.jpg",
+      "fichero": "tino-95-es-202407.pdf",
+      "idioma": "español",
+      "creado": "2024-07-20"
     },
     {
       "serie": "Wireframe",
