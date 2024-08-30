@@ -4346,6 +4346,17 @@
       "creado": "2024-07-27"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 208,
+      "año": 2024,
+      "mes": 8,
+      "portada": "full-circle-208-en-202408.jpg",
+      "fichero": "full-circle-208-en-202408.pdf",
+      "idioma": "inglés",
+      "creado": "2024-08-30"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -5675,6 +5686,17 @@
       "fichero": "hackspace-80-en-202407.pdf",
       "idioma": "inglés",
       "creado": "2024-07-27"
+    },
+    {
+      "serie": "HackSpace",
+      "nombre": "HackSpace",
+      "número": 81,
+      "año": 2024,
+      "mes": 8,
+      "portada": "hackspace-81-en-202408.jpg",
+      "fichero": "hackspace-81-en-202408.pdf",
+      "idioma": "inglés",
+      "creado": "2024-08-30"
     },
     {
       "serie": "HackSpace Books",
@@ -12165,6 +12187,17 @@
       "fichero": "the-magpi-143-en-202407.pdf",
       "idioma": "inglés",
       "creado": "2024-07-27"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 144,
+      "año": 2024,
+      "mes": 8,
+      "portada": "the-magpi-144-en-202408.jpg",
+      "fichero": "the-magpi-144-en-202408.pdf",
+      "idioma": "inglés",
+      "creado": "2024-08-30"
     },
     {
       "serie": "The MagPi Books",
