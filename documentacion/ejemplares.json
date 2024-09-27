@@ -4357,6 +4357,17 @@
       "creado": "2024-08-30"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 209,
+      "año": 2024,
+      "mes": 9,
+      "portada": "full-circle-209-en-202409.jpg",
+      "fichero": "full-circle-209-en-202409.pdf",
+      "idioma": "inglés",
+      "creado": "2024-09-27"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -6027,6 +6038,17 @@
       "fichero": "hello-world-24-en-202407.pdf",
       "idioma": "inglés",
       "creado": "2024-07-20"
+    },
+    {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 25,
+      "año": 2024,
+      "mes": 9,
+      "portada": "hello-world-25-en-202409.jpg",
+      "fichero": "hello-world-25-en-202409.pdf",
+      "idioma": "inglés",
+      "creado": "2024-09-27"
     },
     {
       "serie": "Hello World Books",
@@ -12198,6 +12220,17 @@
       "fichero": "the-magpi-144-en-202408.pdf",
       "idioma": "inglés",
       "creado": "2024-08-30"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 145,
+      "año": 2024,
+      "mes": 9,
+      "portada": "the-magpi-145-en-202409.jpg",
+      "fichero": "the-magpi-145-en-202409.pdf",
+      "idioma": "inglés",
+      "creado": "2024-09-27"
     },
     {
       "serie": "The MagPi Books",
