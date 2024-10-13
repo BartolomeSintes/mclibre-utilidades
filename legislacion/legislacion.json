@@ -37114,7 +37114,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2023-01-25",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Pruebas para la obtención de títulos Formación Profesional 2023 (CV)",
             "titulo": "Resolución de 19 de enero de 2023, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional.",
             "versiones": [
@@ -37344,7 +37344,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2022-07-04",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Plan bienal de formación permanente del profesorado cursos 2022/23 y 2023/24 (CV)",
             "titulo": "Resolución de 28 de junio de 2022, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establece el Plan bienal de formación permanente del profesorado correspondiente a los cursos 2022-2023 y 2023-2024.",
             "versiones": [
@@ -39165,7 +39165,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2023-06-30",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 23/24 (CV)",
             "titulo": "Resolución de 27 de junio de 2023, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2023-2024.",
             "versiones": [
@@ -39560,7 +39560,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2023-07-13",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso FP 23/24 (CV)",
             "titulo": "Resolución de 6 de julio de 2023, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se dictan instrucciones sobre la ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2023-2024 impartan Formación Profesional de grado C, D y E.",
             "versiones": [
@@ -39612,7 +39612,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2023-07-13",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso programas cualificación básica 23/24 (CV)",
             "titulo": "Resolución de 6 de julio de 2023, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2023-2024.",
             "versiones": [
@@ -39628,12 +39628,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://dogv.gva.es/es/eli/es-vc/res/2023/07/06/(7)/"
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/7846"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "https://dogv.gva.es/va/eli/es-vc/res/2023/07/06/(7)/"
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/7846"
                         },
                         {
                             "formato": "rtf",
@@ -40064,7 +40064,7 @@
             "origen": "DOGV",
             "fecha": "2023-11-17",
             "vigencia": "vigente",
-            "descripción": "Programa anual de formación permanente de centro curso 2023/23 (CV)",
+            "descripción": "Programa anual de formación permanente de centro curso 2023/24 (CV)",
             "titulo": "Resolución de 13 de noviembre de 2023, del conseller de Educación, Universidades y Empleo, por la que se regula el Programa Anual de Formación Permanente de Centro, se convoca la solicitud de las modalidades formativas proyectos de formación en centros, seminarios y grupos de trabajo, para desarrollarlas durante el curso 2023-2024 y se establece la dotación de recursos económicos para los centros docentes públicos de titularidad de la Generalitat.",
             "versiones": [
                 {
@@ -42638,6 +42638,394 @@
                 "comunidad valenciana",
                 "decreto",
                 "conselleria de educación"
+            ]
+        },
+        {
+            "id": "dogv-2024-08-08-res",
+            "incluido": "2024-10-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-08-14",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso FP 24/25 (CV)",
+            "titulo": "RESOLUCIÓN de 8 de agosto de 2024, de la Secretaría Autonómica de Educación, por la cual se dictan instrucciones sobre ordenación académica y de organización de los centros que imparten Formación  Profesional durante el curso 2024-2025 en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-08-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-08-08-R-inicio-curso-fp-2425-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-08-08-R-inicio-curso-fp-2425-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/8407"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/8407"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2024/25"
+            ]
+        },
+        {
+            "id": "dogv-2024-07-22-res",
+            "incluido": "2024-10-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-07-26",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 24/25 (CV)",
+            "titulo": "Resolución de 22 de julio de 2024, del secretario autonómico de Educación, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2024-2025.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-07-22-R-inicio-curso-secundaria-2425-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-07-22-R-inicio-curso-secundaria-2425-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/7640"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/7640"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2024/25"
+            ]
+        },
+        {
+            "id": "dogv-2024-08-06-res",
+            "incluido": "2024-10-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-08-13",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso programas cualificación básica 24/25 (CV)",
+            "titulo": "Resolución de 6 de agosto de 2024, del secretario autonómico de Educación, por la cual se dictan instrucciones para la organización y el funcionamiento de los programas formativos de calificación básica en el ámbito de la Comunitat Valenciana para el curso 2024-2025.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-08-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-08-06-R-inicio-curso-fp-basica-2425-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-08-06-R-inicio-curso-fp-basica-2425-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/8401"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/8401"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2024/25"
+            ]
+        },
+        {
+            "id": "dogv-2024-09-23-res",
+            "incluido": "2024-10-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-09-27",
+            "vigencia": "vigente",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2024 (CV)",
+            "titulo": "Resolución de 23 de septiembre de 2024, de la Dirección General de Formación Profesional, por la que se convocan las pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional en el año 2024.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-09-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-09-23-R-pruebas-titulos-fp-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-09-23-R-pruebas-titulos-fp-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/9819"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/9819"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2024/25"
+            ]
+        },
+        {
+            "id": "dogv-2023-04-26-res",
+            "incluido": "2024-10-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-05-11",
+            "vigencia": "vigente",
+            "descripción": "Establecimiento y ordenación Cursos de especialización (CV)",
+            "titulo": "Resolución de 26 de abril de 2023, de la Secretaría Autonómica de Educación y Formación Profesional, por la que se establece y ordena los cursos de especialización en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-05-11",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-04-26-R-ordenacion-cursos-especializacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/4695"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023/4695"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "dogv-2024-07-23-res",
+            "incluido": "2024-20-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-07-29",
+            "vigencia": "vigente",
+            "descripción": "Plan anual de formación permanente del profesorado curso 2024/25 (CV)",
+            "titulo": "Resolución de 22 de julio de 2024, del Conseller de Educación, Cultura, Universidades y Empleo, por la que se establece el plan anual de formación permanente del profesorado correspondiente al curso 2024-2025 y la redefinición de los CEFIRE específicos de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-07-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-07-22-R-plan-anual-formacion-permanente-2425-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-07-22-R-plan-anual-formacion-permanente-2425-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/7725"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/7725"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "formación profesorado",
+                "plan de formación",
+                "curso 2024/25"
+            ]
+        },
+        {
+            "id": "dogv-2024-04-26-res",
+            "incluido": "2024-10-13",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-04-30",
+            "vigencia": "vigente",
+            "descripción": "Correspondencias entre títulos de FP y Universitarios (CV)",
+            "titulo": "Resolución de 26 de abril de 2024, por la que se publica el convenio de colaboración entre la Generalitat y las cinco universidades públicas de la Comunitat Valenciana para determinar las correspondencias entre los títulos de técnico y técnica superiores de Formación Profesional y de Artes Plásticas y Diseño impartidos en la Comunitat Valenciana, los títulos universitarios de grado impartidos por las distintas universidades de la Comunitat Valenciana y los títulos de grado en enseñanzas artísticas superiores, así como el reconocimiento de créditos ECTS entre los títulos mencionados. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-04-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-04-26-R-correspondencia-titulos-fp-universidad.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/3733"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/3733"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "boe-2024-658-rd",
+            "incluido": "2024-10-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-07-10",
+            "vigencia": "vigente",
+            "descripción": "Modificación Real Decreto Ordenación del Sistema de Formación Profesional",
+            "titulo": "Real Decreto 658/2024, de 9 de julio, por el que se modifican el Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria, y el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-07-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-658-RD-modificacion-ordenacion-sistema-FP.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2024/07/09/658"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación professional",
+                "ordenación"
+            ]
+        },
+        {
+            "id": "boe-2024-917-rd",
+            "incluido": "2024-10-13",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2024-10-10",
+            "vigencia": "vigente",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "Real Decreto 917/2024, de 17 de septiembre, por el que se actualizan determinadas cualificaciones profesionales de las familias profesionales Hostelería y Turismo; Imagen Personal; Informática y Comunicaciones; Seguridad y Medio Ambiente; Servicios Socioculturales y a la Comunidad; y Textil, Confección y Piel, recogidas en el Catálogo Nacional de Cualificaciones Profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-10-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2024-917-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2023/06/27/546"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "formación profesional",
+                "cualificaciones"
             ]
         }
     ]
