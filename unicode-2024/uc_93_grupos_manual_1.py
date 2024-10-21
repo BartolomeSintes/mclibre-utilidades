@@ -513,6 +513,9 @@ def incluye_emojis():
     if not cuenta_caracteres_no_asociados:
         print(f"  CUIDADO: HAY {len(restos_noto)} DIBUJOS DE NOTO")
         print("           QUE NO CORRESPONDEN A SECUENCIAS")
+    # print(cuenta_notos_asociados, cuenta_caracteres_no_asociados, len(restos_noto))
+    for i in restos_noto:
+        print(i)
     print()
     # print(cuenta_temojis_asociados, cuenta_caracteres_no_asociados, len(restos_noto))
 
@@ -521,7 +524,11 @@ def incluye_emojis():
         if len(c[1]) > 1:
             cuenta_varios_grupos += 1
             # print(c)
-    print(f"  CUIDADO: HAY {cuenta_varios_grupos} EN VARIOS GRUPOS")
+    if cuenta_varios_grupos > 0:
+        print(f"  CUIDADO: HAY {cuenta_varios_grupos} EN VARIOS GRUPOS")
+        for c in manual_1:
+            if len(c[1]) > 1:
+                print(c)
 
     # Caracteres asociados a mano, porque automáticamente no se asocian
     asociados_manuales = [

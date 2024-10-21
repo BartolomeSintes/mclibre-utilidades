@@ -502,8 +502,9 @@ def incluye_emojis():
     if not cuenta_caracteres_no_asociados:
         print(f"  CUIDADO: HAY {len(restos_twemoji)} DIBUJOS DE TWEMOJI")
         print("           QUE NO CORRESPONDEN A SECUENCIAS")
+    # print(cuenta_twemojis_asociados, cuenta_caracteres_no_asociados, len(restos_twemoji))
+    print (restos_twemoji)
     print()
-    # print(cuenta_temojis_asociados, cuenta_caracteres_no_asociados, len(restos_twemoji))
 
     cuenta_varios_grupos = 0
     for c in manual_1:

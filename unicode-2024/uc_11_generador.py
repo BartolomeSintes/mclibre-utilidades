@@ -142,6 +142,7 @@ def indica_version(codigo):
 def genera_pagina_twemoji(pagina):
     identificados = copy.deepcopy(imp3.manual_1)
     for i in range(len(identificados) - 1, -1, -1):
+        print(identificados[i])
         if identificados[i][2] == "":
             del identificados[i]
     t = ""
@@ -177,7 +178,7 @@ def genera_pagina_twemoji(pagina):
                 t += f"    <p>Se muestra aquí {contador} carácter "
             else:
                 t += f"    <p>Se muestran aquí {contador} caracteres "
-            t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 15.1</a> en formato PDF.</p>\n'
+            t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 16.0</a> en formato PDF.</p>\n'
             t += "\n"
             t += '    <div class="u-l">\n'
             for c in caracteres:
@@ -435,7 +436,7 @@ def genera_pagina_noto(pagina):
                 t += f"    <p>Se muestra aquí {contador} carácter "
             else:
                 t += f"    <p>Se muestran aquí {contador} caracteres "
-            t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 15.1</a> en formato PDF.</p>\n'
+            t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 16.0</a> en formato PDF.</p>\n'
             t += "\n"
             t += '    <div class="u-l">\n'
             for c in caracteres:
@@ -675,7 +676,7 @@ def genera_pagina_caracteres(pagina):
                     t += f"    <p>Se muestra aquí {contador} carácter "
                 else:
                     t += f"    <p>Se muestran aquí {contador} caracteres "
-                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[0][3]} hasta el carácter U+{grupo[0][4]}. Puede descargar la <a href="unicode/{grupo[0][2]}">tabla de códigos de caracteres Unicode 15.1</a> en formato PDF.</p>\n'
+                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[0][3]} hasta el carácter U+{grupo[0][4]}. Puede descargar la <a href="unicode/{grupo[0][2]}">tabla de códigos de caracteres Unicode 16.0</a> en formato PDF.</p>\n'
                 t += "\n"
                 t += '    <div class="u-l">\n'
                 for c in caracteres:
@@ -744,7 +745,7 @@ def genera_pagina_caracteres(pagina):
                                 + "           </svg>\n"
                                 + "          </span>\n"
                             )
-                        t += f"          U+{int(c[0], 16):X}\n"
+                        t += f"          U+{int(c[0], 16):X} U+FE0E\n"
                         t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0e;</p>\n'
                         t += '        <p class="en">\n'
@@ -784,7 +785,7 @@ def genera_pagina_caracteres(pagina):
                     t += f"    <p>Se muestra aquí {contador} carácter "
                 else:
                     t += f"    <p>Se muestran aquí {contador} caracteres "
-                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 15.1</a> en formato PDF.</p>\n'
+                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[3]} hasta el carácter U+{grupo[4]}. Puede descargar la <a href="unicode/{grupo[2]}">tabla de códigos de caracteres Unicode 16.0</a> en formato PDF.</p>\n'
                 t += "\n"
                 t += '    <div class="u-l">\n'
                 for c in caracteres:
@@ -853,7 +854,7 @@ def genera_pagina_caracteres(pagina):
                                 + "           </svg>\n"
                                 + "          </span>\n"
                             )
-                        t += f"          U+{int(c[0], 16):X}\n"
+                        t += f"          U+{int(c[0], 16):X} U+FE0F\n"
                         t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0f;</p>\n'
                         t += '        <p class="en">\n'
@@ -1053,8 +1054,8 @@ def main():
         [ucdef.PAG_PAREJAS, ucdef.FICHERO_SITIO_PAREJAS],
         [ucdef.PAG_SENTIDO, ucdef.FICHERO_SITIO_SENTIDO],
         [ucdef.PAG_OTRAS, ucdef.FICHERO_SITIO_OTRAS],
-        [ucdef.PAG_TWEMOJI, ucdef.FICHERO_SITIO_TWEMOJI],
         [ucdef.PAG_NOTO, ucdef.FICHERO_SITIO_NOTO],
+        [ucdef.PAG_TWEMOJI, ucdef.FICHERO_SITIO_TWEMOJI],
         # # # [ucdef.PAG_PROBLEMAS, ucdef.FICHERO_SITIO_PROBLEMAS],
     ]
 
