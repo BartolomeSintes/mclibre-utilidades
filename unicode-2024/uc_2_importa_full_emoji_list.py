@@ -45,7 +45,7 @@ def importa_fichero_full_emoji_list():
 
         # Borro todo lo que hay después de la tabla
         localiza = 0
-        while importado[localiza][:16] != "</tbody></table>":
+        while importado[localiza][:8] != "</table>":
             localiza += 1
         del importado[localiza + 1 :]
 

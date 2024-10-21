@@ -513,8 +513,17 @@ fusionados_1 = [
     ['Basic_Emoji', '1.0'],
   ],
   [
+    ['1FAE9'],
+    ['emoji', '58', 'Smileys & Emotion', 'face-sleepy', '\U0001fae9', 'face with bags under eyes'],
+    ['fully-qualified', '\U0001fae9', '16.0', 'face with bags under eyes', 'Smileys & Emotion', 'face-sleepy'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '16.0'],
+    [],
+    [],
+    ['Basic_Emoji', '16.0'],
+  ],
+  [
     ['1F637'],
-    ['emoji', '58', 'Smileys & Emotion', 'face-unwell', '😷', 'face with medical mask'],
+    ['emoji', '59', 'Smileys & Emotion', 'face-unwell', '😷', 'face with medical mask'],
     ['fully-qualified', '😷', '0.6', 'face with medical mask', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -523,7 +532,7 @@ fusionados_1 = [
   ],
   [
     ['1F912'],
-    ['emoji', '59', 'Smileys & Emotion', 'face-unwell', '🤒', 'face with thermometer'],
+    ['emoji', '60', 'Smileys & Emotion', 'face-unwell', '🤒', 'face with thermometer'],
     ['fully-qualified', '🤒', '1.0', 'face with thermometer', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -532,7 +541,7 @@ fusionados_1 = [
   ],
   [
     ['1F915'],
-    ['emoji', '60', 'Smileys & Emotion', 'face-unwell', '🤕', 'face with head-bandage'],
+    ['emoji', '61', 'Smileys & Emotion', 'face-unwell', '🤕', 'face with head-bandage'],
     ['fully-qualified', '🤕', '1.0', 'face with head-bandage', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -541,7 +550,7 @@ fusionados_1 = [
   ],
   [
     ['1F922'],
-    ['emoji', '61', 'Smileys & Emotion', 'face-unwell', '🤢', 'nauseated face'],
+    ['emoji', '62', 'Smileys & Emotion', 'face-unwell', '🤢', 'nauseated face'],
     ['fully-qualified', '🤢', '3.0', 'nauseated face', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -550,7 +559,7 @@ fusionados_1 = [
   ],
   [
     ['1F92E'],
-    ['emoji', '62', 'Smileys & Emotion', 'face-unwell', '🤮', 'face vomiting'],
+    ['emoji', '63', 'Smileys & Emotion', 'face-unwell', '🤮', 'face vomiting'],
     ['fully-qualified', '🤮', '5.0', 'face vomiting', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -559,7 +568,7 @@ fusionados_1 = [
   ],
   [
     ['1F927'],
-    ['emoji', '63', 'Smileys & Emotion', 'face-unwell', '🤧', 'sneezing face'],
+    ['emoji', '64', 'Smileys & Emotion', 'face-unwell', '🤧', 'sneezing face'],
     ['fully-qualified', '🤧', '3.0', 'sneezing face', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -568,7 +577,7 @@ fusionados_1 = [
   ],
   [
     ['1F975'],
-    ['emoji', '64', 'Smileys & Emotion', 'face-unwell', '🥵', 'hot face'],
+    ['emoji', '65', 'Smileys & Emotion', 'face-unwell', '🥵', 'hot face'],
     ['fully-qualified', '🥵', '11.0', 'hot face', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -577,7 +586,7 @@ fusionados_1 = [
   ],
   [
     ['1F976'],
-    ['emoji', '65', 'Smileys & Emotion', 'face-unwell', '🥶', 'cold face'],
+    ['emoji', '66', 'Smileys & Emotion', 'face-unwell', '🥶', 'cold face'],
     ['fully-qualified', '🥶', '11.0', 'cold face', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -586,7 +595,7 @@ fusionados_1 = [
   ],
   [
     ['1F974'],
-    ['emoji', '66', 'Smileys & Emotion', 'face-unwell', '🥴', 'woozy face'],
+    ['emoji', '67', 'Smileys & Emotion', 'face-unwell', '🥴', 'woozy face'],
     ['fully-qualified', '🥴', '11.0', 'woozy face', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -595,7 +604,7 @@ fusionados_1 = [
   ],
   [
     ['1F635'],
-    ['emoji', '67', 'Smileys & Emotion', 'face-unwell', '😵', 'face with crossed-out eyes'],
+    ['emoji', '68', 'Smileys & Emotion', 'face-unwell', '😵', 'face with crossed-out eyes'],
     ['fully-qualified', '😵', '0.6', 'face with crossed-out eyes', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -604,7 +613,7 @@ fusionados_1 = [
   ],
   [
     ['1F635', '200D', '1F4AB'],
-    ['emoji', '68', 'Smileys & Emotion', 'face-unwell', '😵\u200d💫', 'face with spiral eyes'],
+    ['emoji', '69', 'Smileys & Emotion', 'face-unwell', '😵\u200d💫', 'face with spiral eyes'],
     ['fully-qualified', '😵\u200d💫', '13.1', 'face with spiral eyes', 'Smileys & Emotion', 'face-unwell'],
     [],
     [],
@@ -613,7 +622,7 @@ fusionados_1 = [
   ],
   [
     ['1F92F'],
-    ['emoji', '69', 'Smileys & Emotion', 'face-unwell', '🤯', 'exploding head'],
+    ['emoji', '70', 'Smileys & Emotion', 'face-unwell', '🤯', 'exploding head'],
     ['fully-qualified', '🤯', '5.0', 'exploding head', 'Smileys & Emotion', 'face-unwell'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -622,7 +631,7 @@ fusionados_1 = [
   ],
   [
     ['1F920'],
-    ['emoji', '70', 'Smileys & Emotion', 'face-hat', '🤠', 'cowboy hat face'],
+    ['emoji', '71', 'Smileys & Emotion', 'face-hat', '🤠', 'cowboy hat face'],
     ['fully-qualified', '🤠', '3.0', 'cowboy hat face', 'Smileys & Emotion', 'face-hat'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -631,7 +640,7 @@ fusionados_1 = [
   ],
   [
     ['1F973'],
-    ['emoji', '71', 'Smileys & Emotion', 'face-hat', '🥳', 'partying face'],
+    ['emoji', '72', 'Smileys & Emotion', 'face-hat', '🥳', 'partying face'],
     ['fully-qualified', '🥳', '11.0', 'partying face', 'Smileys & Emotion', 'face-hat'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -640,7 +649,7 @@ fusionados_1 = [
   ],
   [
     ['1F978'],
-    ['emoji', '72', 'Smileys & Emotion', 'face-hat', '🥸', 'disguised face'],
+    ['emoji', '73', 'Smileys & Emotion', 'face-hat', '🥸', 'disguised face'],
     ['fully-qualified', '🥸', '13.0', 'disguised face', 'Smileys & Emotion', 'face-hat'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -649,7 +658,7 @@ fusionados_1 = [
   ],
   [
     ['1F60E'],
-    ['emoji', '73', 'Smileys & Emotion', 'face-glasses', '😎', 'smiling face with sunglasses'],
+    ['emoji', '74', 'Smileys & Emotion', 'face-glasses', '😎', 'smiling face with sunglasses'],
     ['fully-qualified', '😎', '1.0', 'smiling face with sunglasses', 'Smileys & Emotion', 'face-glasses'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -658,7 +667,7 @@ fusionados_1 = [
   ],
   [
     ['1F913'],
-    ['emoji', '74', 'Smileys & Emotion', 'face-glasses', '🤓', 'nerd face'],
+    ['emoji', '75', 'Smileys & Emotion', 'face-glasses', '🤓', 'nerd face'],
     ['fully-qualified', '🤓', '1.0', 'nerd face', 'Smileys & Emotion', 'face-glasses'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -667,7 +676,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D0'],
-    ['emoji', '75', 'Smileys & Emotion', 'face-glasses', '🧐', 'face with monocle'],
+    ['emoji', '76', 'Smileys & Emotion', 'face-glasses', '🧐', 'face with monocle'],
     ['fully-qualified', '🧐', '5.0', 'face with monocle', 'Smileys & Emotion', 'face-glasses'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -676,7 +685,7 @@ fusionados_1 = [
   ],
   [
     ['1F615'],
-    ['emoji', '76', 'Smileys & Emotion', 'face-concerned', '😕', 'confused face'],
+    ['emoji', '77', 'Smileys & Emotion', 'face-concerned', '😕', 'confused face'],
     ['fully-qualified', '😕', '1.0', 'confused face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -685,7 +694,7 @@ fusionados_1 = [
   ],
   [
     ['1FAE4'],
-    ['emoji', '77', 'Smileys & Emotion', 'face-concerned', '\U0001fae4', 'face with diagonal mouth'],
+    ['emoji', '78', 'Smileys & Emotion', 'face-concerned', '\U0001fae4', 'face with diagonal mouth'],
     ['fully-qualified', '\U0001fae4', '14.0', 'face with diagonal mouth', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -694,7 +703,7 @@ fusionados_1 = [
   ],
   [
     ['1F61F'],
-    ['emoji', '78', 'Smileys & Emotion', 'face-concerned', '😟', 'worried face'],
+    ['emoji', '79', 'Smileys & Emotion', 'face-concerned', '😟', 'worried face'],
     ['fully-qualified', '😟', '1.0', 'worried face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -703,7 +712,7 @@ fusionados_1 = [
   ],
   [
     ['1F641'],
-    ['emoji', '79', 'Smileys & Emotion', 'face-concerned', '🙁', 'slightly frowning face'],
+    ['emoji', '80', 'Smileys & Emotion', 'face-concerned', '🙁', 'slightly frowning face'],
     ['fully-qualified', '🙁', '1.0', 'slightly frowning face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -712,7 +721,7 @@ fusionados_1 = [
   ],
   [
     ['2639'],
-    ['emoji', '80', 'Smileys & Emotion', 'face-concerned', '☹', 'frowning face'],
+    ['emoji', '81', 'Smileys & Emotion', 'face-concerned', '☹', 'frowning face'],
     ['unqualified', '☹', '0.7', 'frowning face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -721,7 +730,7 @@ fusionados_1 = [
   ],
   [
     ['1F62E'],
-    ['emoji', '81', 'Smileys & Emotion', 'face-concerned', '😮', 'face with open mouth'],
+    ['emoji', '82', 'Smileys & Emotion', 'face-concerned', '😮', 'face with open mouth'],
     ['fully-qualified', '😮', '1.0', 'face with open mouth', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -730,7 +739,7 @@ fusionados_1 = [
   ],
   [
     ['1F62F'],
-    ['emoji', '82', 'Smileys & Emotion', 'face-concerned', '😯', 'hushed face'],
+    ['emoji', '83', 'Smileys & Emotion', 'face-concerned', '😯', 'hushed face'],
     ['fully-qualified', '😯', '1.0', 'hushed face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -739,7 +748,7 @@ fusionados_1 = [
   ],
   [
     ['1F632'],
-    ['emoji', '83', 'Smileys & Emotion', 'face-concerned', '😲', 'astonished face'],
+    ['emoji', '84', 'Smileys & Emotion', 'face-concerned', '😲', 'astonished face'],
     ['fully-qualified', '😲', '0.6', 'astonished face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -748,7 +757,7 @@ fusionados_1 = [
   ],
   [
     ['1F633'],
-    ['emoji', '84', 'Smileys & Emotion', 'face-concerned', '😳', 'flushed face'],
+    ['emoji', '85', 'Smileys & Emotion', 'face-concerned', '😳', 'flushed face'],
     ['fully-qualified', '😳', '0.6', 'flushed face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -757,7 +766,7 @@ fusionados_1 = [
   ],
   [
     ['1F97A'],
-    ['emoji', '85', 'Smileys & Emotion', 'face-concerned', '🥺', 'pleading face'],
+    ['emoji', '86', 'Smileys & Emotion', 'face-concerned', '🥺', 'pleading face'],
     ['fully-qualified', '🥺', '11.0', 'pleading face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -766,7 +775,7 @@ fusionados_1 = [
   ],
   [
     ['1F979'],
-    ['emoji', '86', 'Smileys & Emotion', 'face-concerned', '\U0001f979', 'face holding back tears'],
+    ['emoji', '87', 'Smileys & Emotion', 'face-concerned', '\U0001f979', 'face holding back tears'],
     ['fully-qualified', '\U0001f979', '14.0', 'face holding back tears', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -775,7 +784,7 @@ fusionados_1 = [
   ],
   [
     ['1F626'],
-    ['emoji', '87', 'Smileys & Emotion', 'face-concerned', '😦', 'frowning face with open mouth'],
+    ['emoji', '88', 'Smileys & Emotion', 'face-concerned', '😦', 'frowning face with open mouth'],
     ['fully-qualified', '😦', '1.0', 'frowning face with open mouth', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -784,7 +793,7 @@ fusionados_1 = [
   ],
   [
     ['1F627'],
-    ['emoji', '88', 'Smileys & Emotion', 'face-concerned', '😧', 'anguished face'],
+    ['emoji', '89', 'Smileys & Emotion', 'face-concerned', '😧', 'anguished face'],
     ['fully-qualified', '😧', '1.0', 'anguished face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -793,7 +802,7 @@ fusionados_1 = [
   ],
   [
     ['1F628'],
-    ['emoji', '89', 'Smileys & Emotion', 'face-concerned', '😨', 'fearful face'],
+    ['emoji', '90', 'Smileys & Emotion', 'face-concerned', '😨', 'fearful face'],
     ['fully-qualified', '😨', '0.6', 'fearful face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -802,7 +811,7 @@ fusionados_1 = [
   ],
   [
     ['1F630'],
-    ['emoji', '90', 'Smileys & Emotion', 'face-concerned', '😰', 'anxious face with sweat'],
+    ['emoji', '91', 'Smileys & Emotion', 'face-concerned', '😰', 'anxious face with sweat'],
     ['fully-qualified', '😰', '0.6', 'anxious face with sweat', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -811,7 +820,7 @@ fusionados_1 = [
   ],
   [
     ['1F625'],
-    ['emoji', '91', 'Smileys & Emotion', 'face-concerned', '😥', 'sad but relieved face'],
+    ['emoji', '92', 'Smileys & Emotion', 'face-concerned', '😥', 'sad but relieved face'],
     ['fully-qualified', '😥', '0.6', 'sad but relieved face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -820,7 +829,7 @@ fusionados_1 = [
   ],
   [
     ['1F622'],
-    ['emoji', '92', 'Smileys & Emotion', 'face-concerned', '😢', 'crying face'],
+    ['emoji', '93', 'Smileys & Emotion', 'face-concerned', '😢', 'crying face'],
     ['fully-qualified', '😢', '0.6', 'crying face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -829,7 +838,7 @@ fusionados_1 = [
   ],
   [
     ['1F62D'],
-    ['emoji', '93', 'Smileys & Emotion', 'face-concerned', '😭', 'loudly crying face'],
+    ['emoji', '94', 'Smileys & Emotion', 'face-concerned', '😭', 'loudly crying face'],
     ['fully-qualified', '😭', '0.6', 'loudly crying face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -838,7 +847,7 @@ fusionados_1 = [
   ],
   [
     ['1F631'],
-    ['emoji', '94', 'Smileys & Emotion', 'face-concerned', '😱', 'face screaming in fear'],
+    ['emoji', '95', 'Smileys & Emotion', 'face-concerned', '😱', 'face screaming in fear'],
     ['fully-qualified', '😱', '0.6', 'face screaming in fear', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -847,7 +856,7 @@ fusionados_1 = [
   ],
   [
     ['1F616'],
-    ['emoji', '95', 'Smileys & Emotion', 'face-concerned', '😖', 'confounded face'],
+    ['emoji', '96', 'Smileys & Emotion', 'face-concerned', '😖', 'confounded face'],
     ['fully-qualified', '😖', '0.6', 'confounded face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -856,7 +865,7 @@ fusionados_1 = [
   ],
   [
     ['1F623'],
-    ['emoji', '96', 'Smileys & Emotion', 'face-concerned', '😣', 'persevering face'],
+    ['emoji', '97', 'Smileys & Emotion', 'face-concerned', '😣', 'persevering face'],
     ['fully-qualified', '😣', '0.6', 'persevering face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -865,7 +874,7 @@ fusionados_1 = [
   ],
   [
     ['1F61E'],
-    ['emoji', '97', 'Smileys & Emotion', 'face-concerned', '😞', 'disappointed face'],
+    ['emoji', '98', 'Smileys & Emotion', 'face-concerned', '😞', 'disappointed face'],
     ['fully-qualified', '😞', '0.6', 'disappointed face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -874,7 +883,7 @@ fusionados_1 = [
   ],
   [
     ['1F613'],
-    ['emoji', '98', 'Smileys & Emotion', 'face-concerned', '😓', 'downcast face with sweat'],
+    ['emoji', '99', 'Smileys & Emotion', 'face-concerned', '😓', 'downcast face with sweat'],
     ['fully-qualified', '😓', '0.6', 'downcast face with sweat', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -883,7 +892,7 @@ fusionados_1 = [
   ],
   [
     ['1F629'],
-    ['emoji', '99', 'Smileys & Emotion', 'face-concerned', '😩', 'weary face'],
+    ['emoji', '100', 'Smileys & Emotion', 'face-concerned', '😩', 'weary face'],
     ['fully-qualified', '😩', '0.6', 'weary face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -892,7 +901,7 @@ fusionados_1 = [
   ],
   [
     ['1F62B'],
-    ['emoji', '100', 'Smileys & Emotion', 'face-concerned', '😫', 'tired face'],
+    ['emoji', '101', 'Smileys & Emotion', 'face-concerned', '😫', 'tired face'],
     ['fully-qualified', '😫', '0.6', 'tired face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -901,7 +910,7 @@ fusionados_1 = [
   ],
   [
     ['1F971'],
-    ['emoji', '101', 'Smileys & Emotion', 'face-concerned', '🥱', 'yawning face'],
+    ['emoji', '102', 'Smileys & Emotion', 'face-concerned', '🥱', 'yawning face'],
     ['fully-qualified', '🥱', '12.0', 'yawning face', 'Smileys & Emotion', 'face-concerned'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -910,7 +919,7 @@ fusionados_1 = [
   ],
   [
     ['1F624'],
-    ['emoji', '102', 'Smileys & Emotion', 'face-negative', '😤', 'face with steam from nose'],
+    ['emoji', '103', 'Smileys & Emotion', 'face-negative', '😤', 'face with steam from nose'],
     ['fully-qualified', '😤', '0.6', 'face with steam from nose', 'Smileys & Emotion', 'face-negative'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -919,7 +928,7 @@ fusionados_1 = [
   ],
   [
     ['1F621'],
-    ['emoji', '103', 'Smileys & Emotion', 'face-negative', '😡', 'enraged face'],
+    ['emoji', '104', 'Smileys & Emotion', 'face-negative', '😡', 'enraged face'],
     ['fully-qualified', '😡', '0.6', 'enraged face', 'Smileys & Emotion', 'face-negative'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -928,7 +937,7 @@ fusionados_1 = [
   ],
   [
     ['1F620'],
-    ['emoji', '104', 'Smileys & Emotion', 'face-negative', '😠', 'angry face'],
+    ['emoji', '105', 'Smileys & Emotion', 'face-negative', '😠', 'angry face'],
     ['fully-qualified', '😠', '0.6', 'angry face', 'Smileys & Emotion', 'face-negative'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -937,7 +946,7 @@ fusionados_1 = [
   ],
   [
     ['1F92C'],
-    ['emoji', '105', 'Smileys & Emotion', 'face-negative', '🤬', 'face with symbols on mouth'],
+    ['emoji', '106', 'Smileys & Emotion', 'face-negative', '🤬', 'face with symbols on mouth'],
     ['fully-qualified', '🤬', '5.0', 'face with symbols on mouth', 'Smileys & Emotion', 'face-negative'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -946,7 +955,7 @@ fusionados_1 = [
   ],
   [
     ['1F608'],
-    ['emoji', '106', 'Smileys & Emotion', 'face-negative', '😈', 'smiling face with horns'],
+    ['emoji', '107', 'Smileys & Emotion', 'face-negative', '😈', 'smiling face with horns'],
     ['fully-qualified', '😈', '1.0', 'smiling face with horns', 'Smileys & Emotion', 'face-negative'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -955,7 +964,7 @@ fusionados_1 = [
   ],
   [
     ['1F47F'],
-    ['emoji', '107', 'Smileys & Emotion', 'face-negative', '👿', 'angry face with horns'],
+    ['emoji', '108', 'Smileys & Emotion', 'face-negative', '👿', 'angry face with horns'],
     ['fully-qualified', '👿', '0.6', 'angry face with horns', 'Smileys & Emotion', 'face-negative'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -964,7 +973,7 @@ fusionados_1 = [
   ],
   [
     ['1F480'],
-    ['emoji', '108', 'Smileys & Emotion', 'face-negative', '💀', 'skull'],
+    ['emoji', '109', 'Smileys & Emotion', 'face-negative', '💀', 'skull'],
     ['fully-qualified', '💀', '0.6', 'skull', 'Smileys & Emotion', 'face-negative'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -973,7 +982,7 @@ fusionados_1 = [
   ],
   [
     ['2620'],
-    ['emoji', '109', 'Smileys & Emotion', 'face-negative', '☠', 'skull and crossbones'],
+    ['emoji', '110', 'Smileys & Emotion', 'face-negative', '☠', 'skull and crossbones'],
     ['unqualified', '☠', '1.0', 'skull and crossbones', 'Smileys & Emotion', 'face-negative'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -982,7 +991,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A9'],
-    ['emoji', '110', 'Smileys & Emotion', 'face-costume', '💩', 'pile of poo'],
+    ['emoji', '111', 'Smileys & Emotion', 'face-costume', '💩', 'pile of poo'],
     ['fully-qualified', '💩', '0.6', 'pile of poo', 'Smileys & Emotion', 'face-costume'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -991,7 +1000,7 @@ fusionados_1 = [
   ],
   [
     ['1F921'],
-    ['emoji', '111', 'Smileys & Emotion', 'face-costume', '🤡', 'clown face'],
+    ['emoji', '112', 'Smileys & Emotion', 'face-costume', '🤡', 'clown face'],
     ['fully-qualified', '🤡', '3.0', 'clown face', 'Smileys & Emotion', 'face-costume'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1000,7 +1009,7 @@ fusionados_1 = [
   ],
   [
     ['1F479'],
-    ['emoji', '112', 'Smileys & Emotion', 'face-costume', '👹', 'ogre'],
+    ['emoji', '113', 'Smileys & Emotion', 'face-costume', '👹', 'ogre'],
     ['fully-qualified', '👹', '0.6', 'ogre', 'Smileys & Emotion', 'face-costume'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1009,7 +1018,7 @@ fusionados_1 = [
   ],
   [
     ['1F47A'],
-    ['emoji', '113', 'Smileys & Emotion', 'face-costume', '👺', 'goblin'],
+    ['emoji', '114', 'Smileys & Emotion', 'face-costume', '👺', 'goblin'],
     ['fully-qualified', '👺', '0.6', 'goblin', 'Smileys & Emotion', 'face-costume'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1018,7 +1027,7 @@ fusionados_1 = [
   ],
   [
     ['1F47B'],
-    ['emoji', '114', 'Smileys & Emotion', 'face-costume', '👻', 'ghost'],
+    ['emoji', '115', 'Smileys & Emotion', 'face-costume', '👻', 'ghost'],
     ['fully-qualified', '👻', '0.6', 'ghost', 'Smileys & Emotion', 'face-costume'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1027,7 +1036,7 @@ fusionados_1 = [
   ],
   [
     ['1F47D'],
-    ['emoji', '115', 'Smileys & Emotion', 'face-costume', '👽', 'alien'],
+    ['emoji', '116', 'Smileys & Emotion', 'face-costume', '👽', 'alien'],
     ['fully-qualified', '👽', '0.6', 'alien', 'Smileys & Emotion', 'face-costume'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1036,7 +1045,7 @@ fusionados_1 = [
   ],
   [
     ['1F47E'],
-    ['emoji', '116', 'Smileys & Emotion', 'face-costume', '👾', 'alien monster'],
+    ['emoji', '117', 'Smileys & Emotion', 'face-costume', '👾', 'alien monster'],
     ['fully-qualified', '👾', '0.6', 'alien monster', 'Smileys & Emotion', 'face-costume'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1045,7 +1054,7 @@ fusionados_1 = [
   ],
   [
     ['1F916'],
-    ['emoji', '117', 'Smileys & Emotion', 'face-costume', '🤖', 'robot'],
+    ['emoji', '118', 'Smileys & Emotion', 'face-costume', '🤖', 'robot'],
     ['fully-qualified', '🤖', '1.0', 'robot', 'Smileys & Emotion', 'face-costume'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -1054,7 +1063,7 @@ fusionados_1 = [
   ],
   [
     ['1F63A'],
-    ['emoji', '118', 'Smileys & Emotion', 'cat-face', '😺', 'grinning cat'],
+    ['emoji', '119', 'Smileys & Emotion', 'cat-face', '😺', 'grinning cat'],
     ['fully-qualified', '😺', '0.6', 'grinning cat', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1063,7 +1072,7 @@ fusionados_1 = [
   ],
   [
     ['1F638'],
-    ['emoji', '119', 'Smileys & Emotion', 'cat-face', '😸', 'grinning cat with smiling eyes'],
+    ['emoji', '120', 'Smileys & Emotion', 'cat-face', '😸', 'grinning cat with smiling eyes'],
     ['fully-qualified', '😸', '0.6', 'grinning cat with smiling eyes', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1072,7 +1081,7 @@ fusionados_1 = [
   ],
   [
     ['1F639'],
-    ['emoji', '120', 'Smileys & Emotion', 'cat-face', '😹', 'cat with tears of joy'],
+    ['emoji', '121', 'Smileys & Emotion', 'cat-face', '😹', 'cat with tears of joy'],
     ['fully-qualified', '😹', '0.6', 'cat with tears of joy', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1081,7 +1090,7 @@ fusionados_1 = [
   ],
   [
     ['1F63B'],
-    ['emoji', '121', 'Smileys & Emotion', 'cat-face', '😻', 'smiling cat with heart-eyes'],
+    ['emoji', '122', 'Smileys & Emotion', 'cat-face', '😻', 'smiling cat with heart-eyes'],
     ['fully-qualified', '😻', '0.6', 'smiling cat with heart-eyes', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1090,7 +1099,7 @@ fusionados_1 = [
   ],
   [
     ['1F63C'],
-    ['emoji', '122', 'Smileys & Emotion', 'cat-face', '😼', 'cat with wry smile'],
+    ['emoji', '123', 'Smileys & Emotion', 'cat-face', '😼', 'cat with wry smile'],
     ['fully-qualified', '😼', '0.6', 'cat with wry smile', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1099,7 +1108,7 @@ fusionados_1 = [
   ],
   [
     ['1F63D'],
-    ['emoji', '123', 'Smileys & Emotion', 'cat-face', '😽', 'kissing cat'],
+    ['emoji', '124', 'Smileys & Emotion', 'cat-face', '😽', 'kissing cat'],
     ['fully-qualified', '😽', '0.6', 'kissing cat', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1108,7 +1117,7 @@ fusionados_1 = [
   ],
   [
     ['1F640'],
-    ['emoji', '124', 'Smileys & Emotion', 'cat-face', '🙀', 'weary cat'],
+    ['emoji', '125', 'Smileys & Emotion', 'cat-face', '🙀', 'weary cat'],
     ['fully-qualified', '🙀', '0.6', 'weary cat', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1117,7 +1126,7 @@ fusionados_1 = [
   ],
   [
     ['1F63F'],
-    ['emoji', '125', 'Smileys & Emotion', 'cat-face', '😿', 'crying cat'],
+    ['emoji', '126', 'Smileys & Emotion', 'cat-face', '😿', 'crying cat'],
     ['fully-qualified', '😿', '0.6', 'crying cat', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1126,7 +1135,7 @@ fusionados_1 = [
   ],
   [
     ['1F63E'],
-    ['emoji', '126', 'Smileys & Emotion', 'cat-face', '😾', 'pouting cat'],
+    ['emoji', '127', 'Smileys & Emotion', 'cat-face', '😾', 'pouting cat'],
     ['fully-qualified', '😾', '0.6', 'pouting cat', 'Smileys & Emotion', 'cat-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1135,7 +1144,7 @@ fusionados_1 = [
   ],
   [
     ['1F648'],
-    ['emoji', '127', 'Smileys & Emotion', 'monkey-face', '🙈', 'see-no-evil monkey'],
+    ['emoji', '128', 'Smileys & Emotion', 'monkey-face', '🙈', 'see-no-evil monkey'],
     ['fully-qualified', '🙈', '0.6', 'see-no-evil monkey', 'Smileys & Emotion', 'monkey-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1144,7 +1153,7 @@ fusionados_1 = [
   ],
   [
     ['1F649'],
-    ['emoji', '128', 'Smileys & Emotion', 'monkey-face', '🙉', 'hear-no-evil monkey'],
+    ['emoji', '129', 'Smileys & Emotion', 'monkey-face', '🙉', 'hear-no-evil monkey'],
     ['fully-qualified', '🙉', '0.6', 'hear-no-evil monkey', 'Smileys & Emotion', 'monkey-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1153,7 +1162,7 @@ fusionados_1 = [
   ],
   [
     ['1F64A'],
-    ['emoji', '129', 'Smileys & Emotion', 'monkey-face', '🙊', 'speak-no-evil monkey'],
+    ['emoji', '130', 'Smileys & Emotion', 'monkey-face', '🙊', 'speak-no-evil monkey'],
     ['fully-qualified', '🙊', '0.6', 'speak-no-evil monkey', 'Smileys & Emotion', 'monkey-face'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1162,7 +1171,7 @@ fusionados_1 = [
   ],
   [
     ['1F48C'],
-    ['emoji', '130', 'Smileys & Emotion', 'heart', '💌', 'love letter'],
+    ['emoji', '131', 'Smileys & Emotion', 'heart', '💌', 'love letter'],
     ['fully-qualified', '💌', '0.6', 'love letter', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1171,7 +1180,7 @@ fusionados_1 = [
   ],
   [
     ['1F498'],
-    ['emoji', '131', 'Smileys & Emotion', 'heart', '💘', 'heart with arrow'],
+    ['emoji', '132', 'Smileys & Emotion', 'heart', '💘', 'heart with arrow'],
     ['fully-qualified', '💘', '0.6', 'heart with arrow', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1180,7 +1189,7 @@ fusionados_1 = [
   ],
   [
     ['1F49D'],
-    ['emoji', '132', 'Smileys & Emotion', 'heart', '💝', 'heart with ribbon'],
+    ['emoji', '133', 'Smileys & Emotion', 'heart', '💝', 'heart with ribbon'],
     ['fully-qualified', '💝', '0.6', 'heart with ribbon', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1189,7 +1198,7 @@ fusionados_1 = [
   ],
   [
     ['1F496'],
-    ['emoji', '133', 'Smileys & Emotion', 'heart', '💖', 'sparkling heart'],
+    ['emoji', '134', 'Smileys & Emotion', 'heart', '💖', 'sparkling heart'],
     ['fully-qualified', '💖', '0.6', 'sparkling heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1198,7 +1207,7 @@ fusionados_1 = [
   ],
   [
     ['1F497'],
-    ['emoji', '134', 'Smileys & Emotion', 'heart', '💗', 'growing heart'],
+    ['emoji', '135', 'Smileys & Emotion', 'heart', '💗', 'growing heart'],
     ['fully-qualified', '💗', '0.6', 'growing heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1207,7 +1216,7 @@ fusionados_1 = [
   ],
   [
     ['1F493'],
-    ['emoji', '135', 'Smileys & Emotion', 'heart', '💓', 'beating heart'],
+    ['emoji', '136', 'Smileys & Emotion', 'heart', '💓', 'beating heart'],
     ['fully-qualified', '💓', '0.6', 'beating heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1216,7 +1225,7 @@ fusionados_1 = [
   ],
   [
     ['1F49E'],
-    ['emoji', '136', 'Smileys & Emotion', 'heart', '💞', 'revolving hearts'],
+    ['emoji', '137', 'Smileys & Emotion', 'heart', '💞', 'revolving hearts'],
     ['fully-qualified', '💞', '0.6', 'revolving hearts', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1225,7 +1234,7 @@ fusionados_1 = [
   ],
   [
     ['1F495'],
-    ['emoji', '137', 'Smileys & Emotion', 'heart', '💕', 'two hearts'],
+    ['emoji', '138', 'Smileys & Emotion', 'heart', '💕', 'two hearts'],
     ['fully-qualified', '💕', '0.6', 'two hearts', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1234,7 +1243,7 @@ fusionados_1 = [
   ],
   [
     ['1F49F'],
-    ['emoji', '138', 'Smileys & Emotion', 'heart', '💟', 'heart decoration'],
+    ['emoji', '139', 'Smileys & Emotion', 'heart', '💟', 'heart decoration'],
     ['fully-qualified', '💟', '0.6', 'heart decoration', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1243,7 +1252,7 @@ fusionados_1 = [
   ],
   [
     ['2763'],
-    ['emoji', '139', 'Smileys & Emotion', 'heart', '❣', 'heart exclamation'],
+    ['emoji', '140', 'Smileys & Emotion', 'heart', '❣', 'heart exclamation'],
     ['unqualified', '❣', '1.0', 'heart exclamation', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -1252,7 +1261,7 @@ fusionados_1 = [
   ],
   [
     ['1F494'],
-    ['emoji', '140', 'Smileys & Emotion', 'heart', '💔', 'broken heart'],
+    ['emoji', '141', 'Smileys & Emotion', 'heart', '💔', 'broken heart'],
     ['fully-qualified', '💔', '0.6', 'broken heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1261,7 +1270,7 @@ fusionados_1 = [
   ],
   [
     ['2764', 'FE0F', '200D', '1F525'],
-    ['emoji', '141', 'Smileys & Emotion', 'heart', '❤️\u200d🔥', 'heart on fire'],
+    ['emoji', '142', 'Smileys & Emotion', 'heart', '❤️\u200d🔥', 'heart on fire'],
     ['fully-qualified', '❤️\u200d🔥', '13.1', 'heart on fire', 'Smileys & Emotion', 'heart'],
     [],
     [],
@@ -1270,7 +1279,7 @@ fusionados_1 = [
   ],
   [
     ['2764', 'FE0F', '200D', '1FA79'],
-    ['emoji', '142', 'Smileys & Emotion', 'heart', '❤️\u200d🩹', 'mending heart'],
+    ['emoji', '143', 'Smileys & Emotion', 'heart', '❤️\u200d🩹', 'mending heart'],
     ['fully-qualified', '❤️\u200d🩹', '13.1', 'mending heart', 'Smileys & Emotion', 'heart'],
     [],
     [],
@@ -1279,7 +1288,7 @@ fusionados_1 = [
   ],
   [
     ['2764'],
-    ['emoji', '143', 'Smileys & Emotion', 'heart', '❤', 'red heart'],
+    ['emoji', '144', 'Smileys & Emotion', 'heart', '❤', 'red heart'],
     ['unqualified', '❤', '0.6', 'red heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1288,7 +1297,7 @@ fusionados_1 = [
   ],
   [
     ['1FA77'],
-    ['emoji', '144', 'Smileys & Emotion', 'heart', '\U0001fa77', 'pink heart'],
+    ['emoji', '145', 'Smileys & Emotion', 'heart', '\U0001fa77', 'pink heart'],
     ['fully-qualified', '\U0001fa77', '15.0', 'pink heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -1297,7 +1306,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E1'],
-    ['emoji', '145', 'Smileys & Emotion', 'heart', '🧡', 'orange heart'],
+    ['emoji', '146', 'Smileys & Emotion', 'heart', '🧡', 'orange heart'],
     ['fully-qualified', '🧡', '5.0', 'orange heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -1306,7 +1315,7 @@ fusionados_1 = [
   ],
   [
     ['1F49B'],
-    ['emoji', '146', 'Smileys & Emotion', 'heart', '💛', 'yellow heart'],
+    ['emoji', '147', 'Smileys & Emotion', 'heart', '💛', 'yellow heart'],
     ['fully-qualified', '💛', '0.6', 'yellow heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1315,7 +1324,7 @@ fusionados_1 = [
   ],
   [
     ['1F49A'],
-    ['emoji', '147', 'Smileys & Emotion', 'heart', '💚', 'green heart'],
+    ['emoji', '148', 'Smileys & Emotion', 'heart', '💚', 'green heart'],
     ['fully-qualified', '💚', '0.6', 'green heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1324,7 +1333,7 @@ fusionados_1 = [
   ],
   [
     ['1F499'],
-    ['emoji', '148', 'Smileys & Emotion', 'heart', '💙', 'blue heart'],
+    ['emoji', '149', 'Smileys & Emotion', 'heart', '💙', 'blue heart'],
     ['fully-qualified', '💙', '0.6', 'blue heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1333,7 +1342,7 @@ fusionados_1 = [
   ],
   [
     ['1FA75'],
-    ['emoji', '149', 'Smileys & Emotion', 'heart', '\U0001fa75', 'light blue heart'],
+    ['emoji', '150', 'Smileys & Emotion', 'heart', '\U0001fa75', 'light blue heart'],
     ['fully-qualified', '\U0001fa75', '15.0', 'light blue heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -1342,7 +1351,7 @@ fusionados_1 = [
   ],
   [
     ['1F49C'],
-    ['emoji', '150', 'Smileys & Emotion', 'heart', '💜', 'purple heart'],
+    ['emoji', '151', 'Smileys & Emotion', 'heart', '💜', 'purple heart'],
     ['fully-qualified', '💜', '0.6', 'purple heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1351,7 +1360,7 @@ fusionados_1 = [
   ],
   [
     ['1F90E'],
-    ['emoji', '151', 'Smileys & Emotion', 'heart', '🤎', 'brown heart'],
+    ['emoji', '152', 'Smileys & Emotion', 'heart', '🤎', 'brown heart'],
     ['fully-qualified', '🤎', '12.0', 'brown heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -1360,7 +1369,7 @@ fusionados_1 = [
   ],
   [
     ['1F5A4'],
-    ['emoji', '152', 'Smileys & Emotion', 'heart', '🖤', 'black heart'],
+    ['emoji', '153', 'Smileys & Emotion', 'heart', '🖤', 'black heart'],
     ['fully-qualified', '🖤', '3.0', 'black heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1369,7 +1378,7 @@ fusionados_1 = [
   ],
   [
     ['1FA76'],
-    ['emoji', '153', 'Smileys & Emotion', 'heart', '\U0001fa76', 'grey heart'],
+    ['emoji', '154', 'Smileys & Emotion', 'heart', '\U0001fa76', 'grey heart'],
     ['fully-qualified', '\U0001fa76', '15.0', 'grey heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -1378,7 +1387,7 @@ fusionados_1 = [
   ],
   [
     ['1F90D'],
-    ['emoji', '154', 'Smileys & Emotion', 'heart', '🤍', 'white heart'],
+    ['emoji', '155', 'Smileys & Emotion', 'heart', '🤍', 'white heart'],
     ['fully-qualified', '🤍', '12.0', 'white heart', 'Smileys & Emotion', 'heart'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -1387,7 +1396,7 @@ fusionados_1 = [
   ],
   [
     ['1F48B'],
-    ['emoji', '155', 'Smileys & Emotion', 'emotion', '💋', 'kiss mark'],
+    ['emoji', '156', 'Smileys & Emotion', 'emotion', '💋', 'kiss mark'],
     ['fully-qualified', '💋', '0.6', 'kiss mark', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1396,7 +1405,7 @@ fusionados_1 = [
   ],
   [
     ['1F4AF'],
-    ['emoji', '156', 'Smileys & Emotion', 'emotion', '💯', 'hundred points'],
+    ['emoji', '157', 'Smileys & Emotion', 'emotion', '💯', 'hundred points'],
     ['fully-qualified', '💯', '0.6', 'hundred points', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1405,7 +1414,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A2'],
-    ['emoji', '157', 'Smileys & Emotion', 'emotion', '💢', 'anger symbol'],
+    ['emoji', '158', 'Smileys & Emotion', 'emotion', '💢', 'anger symbol'],
     ['fully-qualified', '💢', '0.6', 'anger symbol', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1414,7 +1423,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A5'],
-    ['emoji', '158', 'Smileys & Emotion', 'emotion', '💥', 'collision'],
+    ['emoji', '159', 'Smileys & Emotion', 'emotion', '💥', 'collision'],
     ['fully-qualified', '💥', '0.6', 'collision', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1423,7 +1432,7 @@ fusionados_1 = [
   ],
   [
     ['1F4AB'],
-    ['emoji', '159', 'Smileys & Emotion', 'emotion', '💫', 'dizzy'],
+    ['emoji', '160', 'Smileys & Emotion', 'emotion', '💫', 'dizzy'],
     ['fully-qualified', '💫', '0.6', 'dizzy', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1432,7 +1441,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A6'],
-    ['emoji', '160', 'Smileys & Emotion', 'emotion', '💦', 'sweat droplets'],
+    ['emoji', '161', 'Smileys & Emotion', 'emotion', '💦', 'sweat droplets'],
     ['fully-qualified', '💦', '0.6', 'sweat droplets', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1441,7 +1450,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A8'],
-    ['emoji', '161', 'Smileys & Emotion', 'emotion', '💨', 'dashing away'],
+    ['emoji', '162', 'Smileys & Emotion', 'emotion', '💨', 'dashing away'],
     ['fully-qualified', '💨', '0.6', 'dashing away', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1450,7 +1459,7 @@ fusionados_1 = [
   ],
   [
     ['1F573'],
-    ['emoji', '162', 'Smileys & Emotion', 'emotion', '🕳', 'hole'],
+    ['emoji', '163', 'Smileys & Emotion', 'emotion', '🕳', 'hole'],
     ['unqualified', '🕳', '0.7', 'hole', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -1459,7 +1468,7 @@ fusionados_1 = [
   ],
   [
     ['1F4AC'],
-    ['emoji', '163', 'Smileys & Emotion', 'emotion', '💬', 'speech balloon'],
+    ['emoji', '164', 'Smileys & Emotion', 'emotion', '💬', 'speech balloon'],
     ['fully-qualified', '💬', '0.6', 'speech balloon', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1468,7 +1477,7 @@ fusionados_1 = [
   ],
   [
     ['1F441', 'FE0F', '200D', '1F5E8', 'FE0F'],
-    ['emoji', '164', 'Smileys & Emotion', 'emotion', '👁️\u200d🗨️', 'eye in speech bubble'],
+    ['emoji', '165', 'Smileys & Emotion', 'emotion', '👁️\u200d🗨️', 'eye in speech bubble'],
     ['fully-qualified', '👁️\u200d🗨️', '2.0', 'eye in speech bubble', 'Smileys & Emotion', 'emotion'],
     [],
     [],
@@ -1477,7 +1486,7 @@ fusionados_1 = [
   ],
   [
     ['1F5E8'],
-    ['emoji', '165', 'Smileys & Emotion', 'emotion', '🗨', 'left speech bubble'],
+    ['emoji', '166', 'Smileys & Emotion', 'emotion', '🗨', 'left speech bubble'],
     ['unqualified', '🗨', '2.0', 'left speech bubble', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Extended_Pictographic'], '2.0'],
     [],
@@ -1486,7 +1495,7 @@ fusionados_1 = [
   ],
   [
     ['1F5EF'],
-    ['emoji', '166', 'Smileys & Emotion', 'emotion', '🗯', 'right anger bubble'],
+    ['emoji', '167', 'Smileys & Emotion', 'emotion', '🗯', 'right anger bubble'],
     ['unqualified', '🗯', '0.7', 'right anger bubble', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -1495,7 +1504,7 @@ fusionados_1 = [
   ],
   [
     ['1F4AD'],
-    ['emoji', '167', 'Smileys & Emotion', 'emotion', '💭', 'thought balloon'],
+    ['emoji', '168', 'Smileys & Emotion', 'emotion', '💭', 'thought balloon'],
     ['fully-qualified', '💭', '1.0', 'thought balloon', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -1504,7 +1513,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A4'],
-    ['emoji', '168', 'Smileys & Emotion', 'emotion', '💤', 'ZZZ'],
+    ['emoji', '169', 'Smileys & Emotion', 'emotion', '💤', 'ZZZ'],
     ['fully-qualified', '💤', '0.6', 'ZZZ', 'Smileys & Emotion', 'emotion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1513,7 +1522,7 @@ fusionados_1 = [
   ],
   [
     ['1F44B'],
-    ['emoji', '169', 'People & Body', 'hand-fingers-open', '👋', 'waving hand'],
+    ['emoji', '170', 'People & Body', 'hand-fingers-open', '👋', 'waving hand'],
     ['fully-qualified', '👋', '0.6', 'waving hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1522,7 +1531,7 @@ fusionados_1 = [
   ],
   [
     ['1F91A'],
-    ['emoji', '170', 'People & Body', 'hand-fingers-open', '🤚', 'raised back of hand'],
+    ['emoji', '171', 'People & Body', 'hand-fingers-open', '🤚', 'raised back of hand'],
     ['fully-qualified', '🤚', '3.0', 'raised back of hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1531,7 +1540,7 @@ fusionados_1 = [
   ],
   [
     ['1F590'],
-    ['emoji', '171', 'People & Body', 'hand-fingers-open', '🖐', 'hand with fingers splayed'],
+    ['emoji', '172', 'People & Body', 'hand-fingers-open', '🖐', 'hand with fingers splayed'],
     ['unqualified', '🖐', '0.7', 'hand with fingers splayed', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.7'],
     [],
@@ -1540,7 +1549,7 @@ fusionados_1 = [
   ],
   [
     ['270B'],
-    ['emoji', '172', 'People & Body', 'hand-fingers-open', '✋', 'raised hand'],
+    ['emoji', '173', 'People & Body', 'hand-fingers-open', '✋', 'raised hand'],
     ['fully-qualified', '✋', '0.6', 'raised hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1549,7 +1558,7 @@ fusionados_1 = [
   ],
   [
     ['1F596'],
-    ['emoji', '173', 'People & Body', 'hand-fingers-open', '🖖', 'vulcan salute'],
+    ['emoji', '174', 'People & Body', 'hand-fingers-open', '🖖', 'vulcan salute'],
     ['fully-qualified', '🖖', '1.0', 'vulcan salute', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -1558,7 +1567,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF1'],
-    ['emoji', '174', 'People & Body', 'hand-fingers-open', '\U0001faf1', 'rightwards hand'],
+    ['emoji', '175', 'People & Body', 'hand-fingers-open', '\U0001faf1', 'rightwards hand'],
     ['fully-qualified', '\U0001faf1', '14.0', 'rightwards hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -1567,7 +1576,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF2'],
-    ['emoji', '175', 'People & Body', 'hand-fingers-open', '\U0001faf2', 'leftwards hand'],
+    ['emoji', '176', 'People & Body', 'hand-fingers-open', '\U0001faf2', 'leftwards hand'],
     ['fully-qualified', '\U0001faf2', '14.0', 'leftwards hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -1576,7 +1585,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF3'],
-    ['emoji', '176', 'People & Body', 'hand-fingers-open', '\U0001faf3', 'palm down hand'],
+    ['emoji', '177', 'People & Body', 'hand-fingers-open', '\U0001faf3', 'palm down hand'],
     ['fully-qualified', '\U0001faf3', '14.0', 'palm down hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -1585,7 +1594,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF4'],
-    ['emoji', '177', 'People & Body', 'hand-fingers-open', '\U0001faf4', 'palm up hand'],
+    ['emoji', '178', 'People & Body', 'hand-fingers-open', '\U0001faf4', 'palm up hand'],
     ['fully-qualified', '\U0001faf4', '14.0', 'palm up hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -1594,7 +1603,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF7'],
-    ['emoji', '178', 'People & Body', 'hand-fingers-open', '\U0001faf7', 'leftwards pushing hand'],
+    ['emoji', '179', 'People & Body', 'hand-fingers-open', '\U0001faf7', 'leftwards pushing hand'],
     ['fully-qualified', '\U0001faf7', '15.0', 'leftwards pushing hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '15.0'],
     [],
@@ -1603,7 +1612,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF8'],
-    ['emoji', '179', 'People & Body', 'hand-fingers-open', '\U0001faf8', 'rightwards pushing hand'],
+    ['emoji', '180', 'People & Body', 'hand-fingers-open', '\U0001faf8', 'rightwards pushing hand'],
     ['fully-qualified', '\U0001faf8', '15.0', 'rightwards pushing hand', 'People & Body', 'hand-fingers-open'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '15.0'],
     [],
@@ -1612,7 +1621,7 @@ fusionados_1 = [
   ],
   [
     ['1F44C'],
-    ['emoji', '180', 'People & Body', 'hand-fingers-partial', '👌', 'OK hand'],
+    ['emoji', '181', 'People & Body', 'hand-fingers-partial', '👌', 'OK hand'],
     ['fully-qualified', '👌', '0.6', 'OK hand', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1621,7 +1630,7 @@ fusionados_1 = [
   ],
   [
     ['1F90C'],
-    ['emoji', '181', 'People & Body', 'hand-fingers-partial', '🤌', 'pinched fingers'],
+    ['emoji', '182', 'People & Body', 'hand-fingers-partial', '🤌', 'pinched fingers'],
     ['fully-qualified', '🤌', '13.0', 'pinched fingers', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '13.0'],
     [],
@@ -1630,7 +1639,7 @@ fusionados_1 = [
   ],
   [
     ['1F90F'],
-    ['emoji', '182', 'People & Body', 'hand-fingers-partial', '🤏', 'pinching hand'],
+    ['emoji', '183', 'People & Body', 'hand-fingers-partial', '🤏', 'pinching hand'],
     ['fully-qualified', '🤏', '12.0', 'pinching hand', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '12.0'],
     [],
@@ -1639,7 +1648,7 @@ fusionados_1 = [
   ],
   [
     ['270C'],
-    ['emoji', '183', 'People & Body', 'hand-fingers-partial', '✌', 'victory hand'],
+    ['emoji', '184', 'People & Body', 'hand-fingers-partial', '✌', 'victory hand'],
     ['unqualified', '✌', '0.6', 'victory hand', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1648,7 +1657,7 @@ fusionados_1 = [
   ],
   [
     ['1F91E'],
-    ['emoji', '184', 'People & Body', 'hand-fingers-partial', '🤞', 'crossed fingers'],
+    ['emoji', '185', 'People & Body', 'hand-fingers-partial', '🤞', 'crossed fingers'],
     ['fully-qualified', '🤞', '3.0', 'crossed fingers', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1657,7 +1666,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF0'],
-    ['emoji', '185', 'People & Body', 'hand-fingers-partial', '\U0001faf0', 'hand with index finger and thumb crossed'],
+    ['emoji', '186', 'People & Body', 'hand-fingers-partial', '\U0001faf0', 'hand with index finger and thumb crossed'],
     ['fully-qualified', '\U0001faf0', '14.0', 'hand with index finger and thumb crossed', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -1666,7 +1675,7 @@ fusionados_1 = [
   ],
   [
     ['1F91F'],
-    ['emoji', '186', 'People & Body', 'hand-fingers-partial', '🤟', 'love-you gesture'],
+    ['emoji', '187', 'People & Body', 'hand-fingers-partial', '🤟', 'love-you gesture'],
     ['fully-qualified', '🤟', '5.0', 'love-you gesture', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -1675,7 +1684,7 @@ fusionados_1 = [
   ],
   [
     ['1F918'],
-    ['emoji', '187', 'People & Body', 'hand-fingers-partial', '🤘', 'sign of the horns'],
+    ['emoji', '188', 'People & Body', 'hand-fingers-partial', '🤘', 'sign of the horns'],
     ['fully-qualified', '🤘', '1.0', 'sign of the horns', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -1684,7 +1693,7 @@ fusionados_1 = [
   ],
   [
     ['1F919'],
-    ['emoji', '188', 'People & Body', 'hand-fingers-partial', '🤙', 'call me hand'],
+    ['emoji', '189', 'People & Body', 'hand-fingers-partial', '🤙', 'call me hand'],
     ['fully-qualified', '🤙', '3.0', 'call me hand', 'People & Body', 'hand-fingers-partial'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1693,7 +1702,7 @@ fusionados_1 = [
   ],
   [
     ['1F448'],
-    ['emoji', '189', 'People & Body', 'hand-single-finger', '👈', 'backhand index pointing left'],
+    ['emoji', '190', 'People & Body', 'hand-single-finger', '👈', 'backhand index pointing left'],
     ['fully-qualified', '👈', '0.6', 'backhand index pointing left', 'People & Body', 'hand-single-finger'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1702,7 +1711,7 @@ fusionados_1 = [
   ],
   [
     ['1F449'],
-    ['emoji', '190', 'People & Body', 'hand-single-finger', '👉', 'backhand index pointing right'],
+    ['emoji', '191', 'People & Body', 'hand-single-finger', '👉', 'backhand index pointing right'],
     ['fully-qualified', '👉', '0.6', 'backhand index pointing right', 'People & Body', 'hand-single-finger'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1711,7 +1720,7 @@ fusionados_1 = [
   ],
   [
     ['1F446'],
-    ['emoji', '191', 'People & Body', 'hand-single-finger', '👆', 'backhand index pointing up'],
+    ['emoji', '192', 'People & Body', 'hand-single-finger', '👆', 'backhand index pointing up'],
     ['fully-qualified', '👆', '0.6', 'backhand index pointing up', 'People & Body', 'hand-single-finger'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1720,7 +1729,7 @@ fusionados_1 = [
   ],
   [
     ['1F595'],
-    ['emoji', '192', 'People & Body', 'hand-single-finger', '🖕', 'middle finger'],
+    ['emoji', '193', 'People & Body', 'hand-single-finger', '🖕', 'middle finger'],
     ['fully-qualified', '🖕', '1.0', 'middle finger', 'People & Body', 'hand-single-finger'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -1729,7 +1738,7 @@ fusionados_1 = [
   ],
   [
     ['1F447'],
-    ['emoji', '193', 'People & Body', 'hand-single-finger', '👇', 'backhand index pointing down'],
+    ['emoji', '194', 'People & Body', 'hand-single-finger', '👇', 'backhand index pointing down'],
     ['fully-qualified', '👇', '0.6', 'backhand index pointing down', 'People & Body', 'hand-single-finger'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1738,7 +1747,7 @@ fusionados_1 = [
   ],
   [
     ['261D'],
-    ['emoji', '194', 'People & Body', 'hand-single-finger', '☝', 'index pointing up'],
+    ['emoji', '195', 'People & Body', 'hand-single-finger', '☝', 'index pointing up'],
     ['unqualified', '☝', '0.6', 'index pointing up', 'People & Body', 'hand-single-finger'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1747,7 +1756,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF5'],
-    ['emoji', '195', 'People & Body', 'hand-single-finger', '\U0001faf5', 'index pointing at the viewer'],
+    ['emoji', '196', 'People & Body', 'hand-single-finger', '\U0001faf5', 'index pointing at the viewer'],
     ['fully-qualified', '\U0001faf5', '14.0', 'index pointing at the viewer', 'People & Body', 'hand-single-finger'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -1756,7 +1765,7 @@ fusionados_1 = [
   ],
   [
     ['1F44D'],
-    ['emoji', '196', 'People & Body', 'hand-fingers-closed', '👍', 'thumbs up'],
+    ['emoji', '197', 'People & Body', 'hand-fingers-closed', '👍', 'thumbs up'],
     ['fully-qualified', '👍', '0.6', 'thumbs up', 'People & Body', 'hand-fingers-closed'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1765,7 +1774,7 @@ fusionados_1 = [
   ],
   [
     ['1F44E'],
-    ['emoji', '197', 'People & Body', 'hand-fingers-closed', '👎', 'thumbs down'],
+    ['emoji', '198', 'People & Body', 'hand-fingers-closed', '👎', 'thumbs down'],
     ['fully-qualified', '👎', '0.6', 'thumbs down', 'People & Body', 'hand-fingers-closed'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1774,7 +1783,7 @@ fusionados_1 = [
   ],
   [
     ['270A'],
-    ['emoji', '198', 'People & Body', 'hand-fingers-closed', '✊', 'raised fist'],
+    ['emoji', '199', 'People & Body', 'hand-fingers-closed', '✊', 'raised fist'],
     ['fully-qualified', '✊', '0.6', 'raised fist', 'People & Body', 'hand-fingers-closed'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1783,7 +1792,7 @@ fusionados_1 = [
   ],
   [
     ['1F44A'],
-    ['emoji', '199', 'People & Body', 'hand-fingers-closed', '👊', 'oncoming fist'],
+    ['emoji', '200', 'People & Body', 'hand-fingers-closed', '👊', 'oncoming fist'],
     ['fully-qualified', '👊', '0.6', 'oncoming fist', 'People & Body', 'hand-fingers-closed'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1792,7 +1801,7 @@ fusionados_1 = [
   ],
   [
     ['1F91B'],
-    ['emoji', '200', 'People & Body', 'hand-fingers-closed', '🤛', 'left-facing fist'],
+    ['emoji', '201', 'People & Body', 'hand-fingers-closed', '🤛', 'left-facing fist'],
     ['fully-qualified', '🤛', '3.0', 'left-facing fist', 'People & Body', 'hand-fingers-closed'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1801,7 +1810,7 @@ fusionados_1 = [
   ],
   [
     ['1F91C'],
-    ['emoji', '201', 'People & Body', 'hand-fingers-closed', '🤜', 'right-facing fist'],
+    ['emoji', '202', 'People & Body', 'hand-fingers-closed', '🤜', 'right-facing fist'],
     ['fully-qualified', '🤜', '3.0', 'right-facing fist', 'People & Body', 'hand-fingers-closed'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1810,7 +1819,7 @@ fusionados_1 = [
   ],
   [
     ['1F44F'],
-    ['emoji', '202', 'People & Body', 'hands', '👏', 'clapping hands'],
+    ['emoji', '203', 'People & Body', 'hands', '👏', 'clapping hands'],
     ['fully-qualified', '👏', '0.6', 'clapping hands', 'People & Body', 'hands'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1819,7 +1828,7 @@ fusionados_1 = [
   ],
   [
     ['1F64C'],
-    ['emoji', '203', 'People & Body', 'hands', '🙌', 'raising hands'],
+    ['emoji', '204', 'People & Body', 'hands', '🙌', 'raising hands'],
     ['fully-qualified', '🙌', '0.6', 'raising hands', 'People & Body', 'hands'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1828,7 +1837,7 @@ fusionados_1 = [
   ],
   [
     ['1FAF6'],
-    ['emoji', '204', 'People & Body', 'hands', '\U0001faf6', 'heart hands'],
+    ['emoji', '205', 'People & Body', 'hands', '\U0001faf6', 'heart hands'],
     ['fully-qualified', '\U0001faf6', '14.0', 'heart hands', 'People & Body', 'hands'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -1837,7 +1846,7 @@ fusionados_1 = [
   ],
   [
     ['1F450'],
-    ['emoji', '205', 'People & Body', 'hands', '👐', 'open hands'],
+    ['emoji', '206', 'People & Body', 'hands', '👐', 'open hands'],
     ['fully-qualified', '👐', '0.6', 'open hands', 'People & Body', 'hands'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1846,7 +1855,7 @@ fusionados_1 = [
   ],
   [
     ['1F932'],
-    ['emoji', '206', 'People & Body', 'hands', '🤲', 'palms up together'],
+    ['emoji', '207', 'People & Body', 'hands', '🤲', 'palms up together'],
     ['fully-qualified', '🤲', '5.0', 'palms up together', 'People & Body', 'hands'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -1855,7 +1864,7 @@ fusionados_1 = [
   ],
   [
     ['1F91D'],
-    ['emoji', '207', 'People & Body', 'hands', '🤝', 'handshake'],
+    ['emoji', '208', 'People & Body', 'hands', '🤝', 'handshake'],
     ['fully-qualified', '🤝', '3.0', 'handshake', 'People & Body', 'hands'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1864,7 +1873,7 @@ fusionados_1 = [
   ],
   [
     ['1F64F'],
-    ['emoji', '208', 'People & Body', 'hands', '🙏', 'folded hands'],
+    ['emoji', '209', 'People & Body', 'hands', '🙏', 'folded hands'],
     ['fully-qualified', '🙏', '0.6', 'folded hands', 'People & Body', 'hands'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1873,7 +1882,7 @@ fusionados_1 = [
   ],
   [
     ['270D'],
-    ['emoji', '209', 'People & Body', 'hand-prop', '✍', 'writing hand'],
+    ['emoji', '210', 'People & Body', 'hand-prop', '✍', 'writing hand'],
     ['unqualified', '✍', '0.7', 'writing hand', 'People & Body', 'hand-prop'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.7'],
     [],
@@ -1882,7 +1891,7 @@ fusionados_1 = [
   ],
   [
     ['1F485'],
-    ['emoji', '210', 'People & Body', 'hand-prop', '💅', 'nail polish'],
+    ['emoji', '211', 'People & Body', 'hand-prop', '💅', 'nail polish'],
     ['fully-qualified', '💅', '0.6', 'nail polish', 'People & Body', 'hand-prop'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1891,7 +1900,7 @@ fusionados_1 = [
   ],
   [
     ['1F933'],
-    ['emoji', '211', 'People & Body', 'hand-prop', '🤳', 'selfie'],
+    ['emoji', '212', 'People & Body', 'hand-prop', '🤳', 'selfie'],
     ['fully-qualified', '🤳', '3.0', 'selfie', 'People & Body', 'hand-prop'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -1900,7 +1909,7 @@ fusionados_1 = [
   ],
   [
     ['1F4AA'],
-    ['emoji', '212', 'People & Body', 'body-parts', '💪', 'flexed biceps'],
+    ['emoji', '213', 'People & Body', 'body-parts', '💪', 'flexed biceps'],
     ['fully-qualified', '💪', '0.6', 'flexed biceps', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1909,7 +1918,7 @@ fusionados_1 = [
   ],
   [
     ['1F9BE'],
-    ['emoji', '213', 'People & Body', 'body-parts', '🦾', 'mechanical arm'],
+    ['emoji', '214', 'People & Body', 'body-parts', '🦾', 'mechanical arm'],
     ['fully-qualified', '🦾', '12.0', 'mechanical arm', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -1918,7 +1927,7 @@ fusionados_1 = [
   ],
   [
     ['1F9BF'],
-    ['emoji', '214', 'People & Body', 'body-parts', '🦿', 'mechanical leg'],
+    ['emoji', '215', 'People & Body', 'body-parts', '🦿', 'mechanical leg'],
     ['fully-qualified', '🦿', '12.0', 'mechanical leg', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -1927,7 +1936,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B5'],
-    ['emoji', '215', 'People & Body', 'body-parts', '🦵', 'leg'],
+    ['emoji', '216', 'People & Body', 'body-parts', '🦵', 'leg'],
     ['fully-qualified', '🦵', '11.0', 'leg', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '11.0'],
     [],
@@ -1936,7 +1945,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B6'],
-    ['emoji', '216', 'People & Body', 'body-parts', '🦶', 'foot'],
+    ['emoji', '217', 'People & Body', 'body-parts', '🦶', 'foot'],
     ['fully-qualified', '🦶', '11.0', 'foot', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '11.0'],
     [],
@@ -1945,7 +1954,7 @@ fusionados_1 = [
   ],
   [
     ['1F442'],
-    ['emoji', '217', 'People & Body', 'body-parts', '👂', 'ear'],
+    ['emoji', '218', 'People & Body', 'body-parts', '👂', 'ear'],
     ['fully-qualified', '👂', '0.6', 'ear', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1954,7 +1963,7 @@ fusionados_1 = [
   ],
   [
     ['1F9BB'],
-    ['emoji', '218', 'People & Body', 'body-parts', '🦻', 'ear with hearing aid'],
+    ['emoji', '219', 'People & Body', 'body-parts', '🦻', 'ear with hearing aid'],
     ['fully-qualified', '🦻', '12.0', 'ear with hearing aid', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '12.0'],
     [],
@@ -1963,7 +1972,7 @@ fusionados_1 = [
   ],
   [
     ['1F443'],
-    ['emoji', '219', 'People & Body', 'body-parts', '👃', 'nose'],
+    ['emoji', '220', 'People & Body', 'body-parts', '👃', 'nose'],
     ['fully-qualified', '👃', '0.6', 'nose', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -1972,7 +1981,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E0'],
-    ['emoji', '220', 'People & Body', 'body-parts', '🧠', 'brain'],
+    ['emoji', '221', 'People & Body', 'body-parts', '🧠', 'brain'],
     ['fully-qualified', '🧠', '5.0', 'brain', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -1981,7 +1990,7 @@ fusionados_1 = [
   ],
   [
     ['1FAC0'],
-    ['emoji', '221', 'People & Body', 'body-parts', '🫀', 'anatomical heart'],
+    ['emoji', '222', 'People & Body', 'body-parts', '🫀', 'anatomical heart'],
     ['fully-qualified', '🫀', '13.0', 'anatomical heart', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -1990,7 +1999,7 @@ fusionados_1 = [
   ],
   [
     ['1FAC1'],
-    ['emoji', '222', 'People & Body', 'body-parts', '🫁', 'lungs'],
+    ['emoji', '223', 'People & Body', 'body-parts', '🫁', 'lungs'],
     ['fully-qualified', '🫁', '13.0', 'lungs', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -1999,7 +2008,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B7'],
-    ['emoji', '223', 'People & Body', 'body-parts', '🦷', 'tooth'],
+    ['emoji', '224', 'People & Body', 'body-parts', '🦷', 'tooth'],
     ['fully-qualified', '🦷', '11.0', 'tooth', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -2008,7 +2017,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B4'],
-    ['emoji', '224', 'People & Body', 'body-parts', '🦴', 'bone'],
+    ['emoji', '225', 'People & Body', 'body-parts', '🦴', 'bone'],
     ['fully-qualified', '🦴', '11.0', 'bone', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -2017,7 +2026,7 @@ fusionados_1 = [
   ],
   [
     ['1F440'],
-    ['emoji', '225', 'People & Body', 'body-parts', '👀', 'eyes'],
+    ['emoji', '226', 'People & Body', 'body-parts', '👀', 'eyes'],
     ['fully-qualified', '👀', '0.6', 'eyes', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2026,7 +2035,7 @@ fusionados_1 = [
   ],
   [
     ['1F441'],
-    ['emoji', '226', 'People & Body', 'body-parts', '👁', 'eye'],
+    ['emoji', '227', 'People & Body', 'body-parts', '👁', 'eye'],
     ['unqualified', '👁', '0.7', 'eye', 'People & Body', 'body-parts'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -2035,7 +2044,7 @@ fusionados_1 = [
   ],
   [
     ['1F445'],
-    ['emoji', '227', 'People & Body', 'body-parts', '👅', 'tongue'],
+    ['emoji', '228', 'People & Body', 'body-parts', '👅', 'tongue'],
     ['fully-qualified', '👅', '0.6', 'tongue', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2044,7 +2053,7 @@ fusionados_1 = [
   ],
   [
     ['1F444'],
-    ['emoji', '228', 'People & Body', 'body-parts', '👄', 'mouth'],
+    ['emoji', '229', 'People & Body', 'body-parts', '👄', 'mouth'],
     ['fully-qualified', '👄', '0.6', 'mouth', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2053,7 +2062,7 @@ fusionados_1 = [
   ],
   [
     ['1FAE6'],
-    ['emoji', '229', 'People & Body', 'body-parts', '\U0001fae6', 'biting lip'],
+    ['emoji', '230', 'People & Body', 'body-parts', '\U0001fae6', 'biting lip'],
     ['fully-qualified', '\U0001fae6', '14.0', 'biting lip', 'People & Body', 'body-parts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -2062,7 +2071,7 @@ fusionados_1 = [
   ],
   [
     ['1F476'],
-    ['emoji', '230', 'People & Body', 'person', '👶', 'baby'],
+    ['emoji', '231', 'People & Body', 'person', '👶', 'baby'],
     ['fully-qualified', '👶', '0.6', 'baby', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2071,7 +2080,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D2'],
-    ['emoji', '231', 'People & Body', 'person', '🧒', 'child'],
+    ['emoji', '232', 'People & Body', 'person', '🧒', 'child'],
     ['fully-qualified', '🧒', '5.0', 'child', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -2080,7 +2089,7 @@ fusionados_1 = [
   ],
   [
     ['1F466'],
-    ['emoji', '232', 'People & Body', 'person', '👦', 'boy'],
+    ['emoji', '233', 'People & Body', 'person', '👦', 'boy'],
     ['fully-qualified', '👦', '0.6', 'boy', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2089,7 +2098,7 @@ fusionados_1 = [
   ],
   [
     ['1F467'],
-    ['emoji', '233', 'People & Body', 'person', '👧', 'girl'],
+    ['emoji', '234', 'People & Body', 'person', '👧', 'girl'],
     ['fully-qualified', '👧', '0.6', 'girl', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2098,7 +2107,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1'],
-    ['emoji', '234', 'People & Body', 'person', '🧑', 'person'],
+    ['emoji', '235', 'People & Body', 'person', '🧑', 'person'],
     ['fully-qualified', '🧑', '5.0', 'person', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -2107,7 +2116,7 @@ fusionados_1 = [
   ],
   [
     ['1F471'],
-    ['emoji', '235', 'People & Body', 'person', '👱', 'person: blond hair'],
+    ['emoji', '236', 'People & Body', 'person', '👱', 'person: blond hair'],
     ['fully-qualified', '👱', '0.6', 'person: blond hair', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2116,7 +2125,7 @@ fusionados_1 = [
   ],
   [
     ['1F468'],
-    ['emoji', '236', 'People & Body', 'person', '👨', 'man'],
+    ['emoji', '237', 'People & Body', 'person', '👨', 'man'],
     ['fully-qualified', '👨', '0.6', 'man', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2125,7 +2134,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D4'],
-    ['emoji', '237', 'People & Body', 'person', '🧔', 'person: beard'],
+    ['emoji', '238', 'People & Body', 'person', '🧔', 'person: beard'],
     ['fully-qualified', '🧔', '5.0', 'person: beard', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -2134,7 +2143,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D4', '200D', '2642', 'FE0F'],
-    ['emoji', '238', 'People & Body', 'person', '🧔\u200d♂️', 'man: beard'],
+    ['emoji', '239', 'People & Body', 'person', '🧔\u200d♂️', 'man: beard'],
     ['fully-qualified', '🧔\u200d♂️', '13.1', 'man: beard', 'People & Body', 'person'],
     [],
     [],
@@ -2143,7 +2152,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D4', '200D', '2640', 'FE0F'],
-    ['emoji', '239', 'People & Body', 'person', '🧔\u200d♀️', 'woman: beard'],
+    ['emoji', '240', 'People & Body', 'person', '🧔\u200d♀️', 'woman: beard'],
     ['fully-qualified', '🧔\u200d♀️', '13.1', 'woman: beard', 'People & Body', 'person'],
     [],
     [],
@@ -2152,7 +2161,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9B0'],
-    ['emoji', '240', 'People & Body', 'person', '👨\u200d🦰', 'man: red hair'],
+    ['emoji', '241', 'People & Body', 'person', '👨\u200d🦰', 'man: red hair'],
     ['fully-qualified', '👨\u200d🦰', '11.0', 'man: red hair', 'People & Body', 'person'],
     [],
     [],
@@ -2161,7 +2170,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9B1'],
-    ['emoji', '241', 'People & Body', 'person', '👨\u200d🦱', 'man: curly hair'],
+    ['emoji', '242', 'People & Body', 'person', '👨\u200d🦱', 'man: curly hair'],
     ['fully-qualified', '👨\u200d🦱', '11.0', 'man: curly hair', 'People & Body', 'person'],
     [],
     [],
@@ -2170,7 +2179,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9B3'],
-    ['emoji', '242', 'People & Body', 'person', '👨\u200d🦳', 'man: white hair'],
+    ['emoji', '243', 'People & Body', 'person', '👨\u200d🦳', 'man: white hair'],
     ['fully-qualified', '👨\u200d🦳', '11.0', 'man: white hair', 'People & Body', 'person'],
     [],
     [],
@@ -2179,7 +2188,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9B2'],
-    ['emoji', '243', 'People & Body', 'person', '👨\u200d🦲', 'man: bald'],
+    ['emoji', '244', 'People & Body', 'person', '👨\u200d🦲', 'man: bald'],
     ['fully-qualified', '👨\u200d🦲', '11.0', 'man: bald', 'People & Body', 'person'],
     [],
     [],
@@ -2188,7 +2197,7 @@ fusionados_1 = [
   ],
   [
     ['1F469'],
-    ['emoji', '244', 'People & Body', 'person', '👩', 'woman'],
+    ['emoji', '245', 'People & Body', 'person', '👩', 'woman'],
     ['fully-qualified', '👩', '0.6', 'woman', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2197,7 +2206,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9B0'],
-    ['emoji', '245', 'People & Body', 'person', '👩\u200d🦰', 'woman: red hair'],
+    ['emoji', '246', 'People & Body', 'person', '👩\u200d🦰', 'woman: red hair'],
     ['fully-qualified', '👩\u200d🦰', '11.0', 'woman: red hair', 'People & Body', 'person'],
     [],
     [],
@@ -2206,7 +2215,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9B0'],
-    ['emoji', '246', 'People & Body', 'person', '🧑\u200d🦰', 'person: red hair'],
+    ['emoji', '247', 'People & Body', 'person', '🧑\u200d🦰', 'person: red hair'],
     ['fully-qualified', '🧑\u200d🦰', '12.1', 'person: red hair', 'People & Body', 'person'],
     [],
     [],
@@ -2215,7 +2224,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9B1'],
-    ['emoji', '247', 'People & Body', 'person', '👩\u200d🦱', 'woman: curly hair'],
+    ['emoji', '248', 'People & Body', 'person', '👩\u200d🦱', 'woman: curly hair'],
     ['fully-qualified', '👩\u200d🦱', '11.0', 'woman: curly hair', 'People & Body', 'person'],
     [],
     [],
@@ -2224,7 +2233,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9B1'],
-    ['emoji', '248', 'People & Body', 'person', '🧑\u200d🦱', 'person: curly hair'],
+    ['emoji', '249', 'People & Body', 'person', '🧑\u200d🦱', 'person: curly hair'],
     ['fully-qualified', '🧑\u200d🦱', '12.1', 'person: curly hair', 'People & Body', 'person'],
     [],
     [],
@@ -2233,7 +2242,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9B3'],
-    ['emoji', '249', 'People & Body', 'person', '👩\u200d🦳', 'woman: white hair'],
+    ['emoji', '250', 'People & Body', 'person', '👩\u200d🦳', 'woman: white hair'],
     ['fully-qualified', '👩\u200d🦳', '11.0', 'woman: white hair', 'People & Body', 'person'],
     [],
     [],
@@ -2242,7 +2251,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9B3'],
-    ['emoji', '250', 'People & Body', 'person', '🧑\u200d🦳', 'person: white hair'],
+    ['emoji', '251', 'People & Body', 'person', '🧑\u200d🦳', 'person: white hair'],
     ['fully-qualified', '🧑\u200d🦳', '12.1', 'person: white hair', 'People & Body', 'person'],
     [],
     [],
@@ -2251,7 +2260,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9B2'],
-    ['emoji', '251', 'People & Body', 'person', '👩\u200d🦲', 'woman: bald'],
+    ['emoji', '252', 'People & Body', 'person', '👩\u200d🦲', 'woman: bald'],
     ['fully-qualified', '👩\u200d🦲', '11.0', 'woman: bald', 'People & Body', 'person'],
     [],
     [],
@@ -2260,7 +2269,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9B2'],
-    ['emoji', '252', 'People & Body', 'person', '🧑\u200d🦲', 'person: bald'],
+    ['emoji', '253', 'People & Body', 'person', '🧑\u200d🦲', 'person: bald'],
     ['fully-qualified', '🧑\u200d🦲', '12.1', 'person: bald', 'People & Body', 'person'],
     [],
     [],
@@ -2269,7 +2278,7 @@ fusionados_1 = [
   ],
   [
     ['1F471', '200D', '2640', 'FE0F'],
-    ['emoji', '253', 'People & Body', 'person', '👱\u200d♀️', 'woman: blond hair'],
+    ['emoji', '254', 'People & Body', 'person', '👱\u200d♀️', 'woman: blond hair'],
     ['fully-qualified', '👱\u200d♀️', '4.0', 'woman: blond hair', 'People & Body', 'person'],
     [],
     [],
@@ -2278,7 +2287,7 @@ fusionados_1 = [
   ],
   [
     ['1F471', '200D', '2642', 'FE0F'],
-    ['emoji', '254', 'People & Body', 'person', '👱\u200d♂️', 'man: blond hair'],
+    ['emoji', '255', 'People & Body', 'person', '👱\u200d♂️', 'man: blond hair'],
     ['fully-qualified', '👱\u200d♂️', '4.0', 'man: blond hair', 'People & Body', 'person'],
     [],
     [],
@@ -2287,7 +2296,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D3'],
-    ['emoji', '255', 'People & Body', 'person', '🧓', 'older person'],
+    ['emoji', '256', 'People & Body', 'person', '🧓', 'older person'],
     ['fully-qualified', '🧓', '5.0', 'older person', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -2296,7 +2305,7 @@ fusionados_1 = [
   ],
   [
     ['1F474'],
-    ['emoji', '256', 'People & Body', 'person', '👴', 'old man'],
+    ['emoji', '257', 'People & Body', 'person', '👴', 'old man'],
     ['fully-qualified', '👴', '0.6', 'old man', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2305,7 +2314,7 @@ fusionados_1 = [
   ],
   [
     ['1F475'],
-    ['emoji', '257', 'People & Body', 'person', '👵', 'old woman'],
+    ['emoji', '258', 'People & Body', 'person', '👵', 'old woman'],
     ['fully-qualified', '👵', '0.6', 'old woman', 'People & Body', 'person'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2314,7 +2323,7 @@ fusionados_1 = [
   ],
   [
     ['1F64D'],
-    ['emoji', '258', 'People & Body', 'person-gesture', '🙍', 'person frowning'],
+    ['emoji', '259', 'People & Body', 'person-gesture', '🙍', 'person frowning'],
     ['fully-qualified', '🙍', '0.6', 'person frowning', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2323,7 +2332,7 @@ fusionados_1 = [
   ],
   [
     ['1F64D', '200D', '2642', 'FE0F'],
-    ['emoji', '259', 'People & Body', 'person-gesture', '🙍\u200d♂️', 'man frowning'],
+    ['emoji', '260', 'People & Body', 'person-gesture', '🙍\u200d♂️', 'man frowning'],
     ['fully-qualified', '🙍\u200d♂️', '4.0', 'man frowning', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2332,7 +2341,7 @@ fusionados_1 = [
   ],
   [
     ['1F64D', '200D', '2640', 'FE0F'],
-    ['emoji', '260', 'People & Body', 'person-gesture', '🙍\u200d♀️', 'woman frowning'],
+    ['emoji', '261', 'People & Body', 'person-gesture', '🙍\u200d♀️', 'woman frowning'],
     ['fully-qualified', '🙍\u200d♀️', '4.0', 'woman frowning', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2341,7 +2350,7 @@ fusionados_1 = [
   ],
   [
     ['1F64E'],
-    ['emoji', '261', 'People & Body', 'person-gesture', '🙎', 'person pouting'],
+    ['emoji', '262', 'People & Body', 'person-gesture', '🙎', 'person pouting'],
     ['fully-qualified', '🙎', '0.6', 'person pouting', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2350,7 +2359,7 @@ fusionados_1 = [
   ],
   [
     ['1F64E', '200D', '2642', 'FE0F'],
-    ['emoji', '262', 'People & Body', 'person-gesture', '🙎\u200d♂️', 'man pouting'],
+    ['emoji', '263', 'People & Body', 'person-gesture', '🙎\u200d♂️', 'man pouting'],
     ['fully-qualified', '🙎\u200d♂️', '4.0', 'man pouting', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2359,7 +2368,7 @@ fusionados_1 = [
   ],
   [
     ['1F64E', '200D', '2640', 'FE0F'],
-    ['emoji', '263', 'People & Body', 'person-gesture', '🙎\u200d♀️', 'woman pouting'],
+    ['emoji', '264', 'People & Body', 'person-gesture', '🙎\u200d♀️', 'woman pouting'],
     ['fully-qualified', '🙎\u200d♀️', '4.0', 'woman pouting', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2368,7 +2377,7 @@ fusionados_1 = [
   ],
   [
     ['1F645'],
-    ['emoji', '264', 'People & Body', 'person-gesture', '🙅', 'person gesturing NO'],
+    ['emoji', '265', 'People & Body', 'person-gesture', '🙅', 'person gesturing NO'],
     ['fully-qualified', '🙅', '0.6', 'person gesturing NO', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2377,7 +2386,7 @@ fusionados_1 = [
   ],
   [
     ['1F645', '200D', '2642', 'FE0F'],
-    ['emoji', '265', 'People & Body', 'person-gesture', '🙅\u200d♂️', 'man gesturing NO'],
+    ['emoji', '266', 'People & Body', 'person-gesture', '🙅\u200d♂️', 'man gesturing NO'],
     ['fully-qualified', '🙅\u200d♂️', '4.0', 'man gesturing NO', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2386,7 +2395,7 @@ fusionados_1 = [
   ],
   [
     ['1F645', '200D', '2640', 'FE0F'],
-    ['emoji', '266', 'People & Body', 'person-gesture', '🙅\u200d♀️', 'woman gesturing NO'],
+    ['emoji', '267', 'People & Body', 'person-gesture', '🙅\u200d♀️', 'woman gesturing NO'],
     ['fully-qualified', '🙅\u200d♀️', '4.0', 'woman gesturing NO', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2395,7 +2404,7 @@ fusionados_1 = [
   ],
   [
     ['1F646'],
-    ['emoji', '267', 'People & Body', 'person-gesture', '🙆', 'person gesturing OK'],
+    ['emoji', '268', 'People & Body', 'person-gesture', '🙆', 'person gesturing OK'],
     ['fully-qualified', '🙆', '0.6', 'person gesturing OK', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2404,7 +2413,7 @@ fusionados_1 = [
   ],
   [
     ['1F646', '200D', '2642', 'FE0F'],
-    ['emoji', '268', 'People & Body', 'person-gesture', '🙆\u200d♂️', 'man gesturing OK'],
+    ['emoji', '269', 'People & Body', 'person-gesture', '🙆\u200d♂️', 'man gesturing OK'],
     ['fully-qualified', '🙆\u200d♂️', '4.0', 'man gesturing OK', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2413,7 +2422,7 @@ fusionados_1 = [
   ],
   [
     ['1F646', '200D', '2640', 'FE0F'],
-    ['emoji', '269', 'People & Body', 'person-gesture', '🙆\u200d♀️', 'woman gesturing OK'],
+    ['emoji', '270', 'People & Body', 'person-gesture', '🙆\u200d♀️', 'woman gesturing OK'],
     ['fully-qualified', '🙆\u200d♀️', '4.0', 'woman gesturing OK', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2422,7 +2431,7 @@ fusionados_1 = [
   ],
   [
     ['1F481'],
-    ['emoji', '270', 'People & Body', 'person-gesture', '💁', 'person tipping hand'],
+    ['emoji', '271', 'People & Body', 'person-gesture', '💁', 'person tipping hand'],
     ['fully-qualified', '💁', '0.6', 'person tipping hand', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2431,7 +2440,7 @@ fusionados_1 = [
   ],
   [
     ['1F481', '200D', '2642', 'FE0F'],
-    ['emoji', '271', 'People & Body', 'person-gesture', '💁\u200d♂️', 'man tipping hand'],
+    ['emoji', '272', 'People & Body', 'person-gesture', '💁\u200d♂️', 'man tipping hand'],
     ['fully-qualified', '💁\u200d♂️', '4.0', 'man tipping hand', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2440,7 +2449,7 @@ fusionados_1 = [
   ],
   [
     ['1F481', '200D', '2640', 'FE0F'],
-    ['emoji', '272', 'People & Body', 'person-gesture', '💁\u200d♀️', 'woman tipping hand'],
+    ['emoji', '273', 'People & Body', 'person-gesture', '💁\u200d♀️', 'woman tipping hand'],
     ['fully-qualified', '💁\u200d♀️', '4.0', 'woman tipping hand', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2449,7 +2458,7 @@ fusionados_1 = [
   ],
   [
     ['1F64B'],
-    ['emoji', '273', 'People & Body', 'person-gesture', '🙋', 'person raising hand'],
+    ['emoji', '274', 'People & Body', 'person-gesture', '🙋', 'person raising hand'],
     ['fully-qualified', '🙋', '0.6', 'person raising hand', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2458,7 +2467,7 @@ fusionados_1 = [
   ],
   [
     ['1F64B', '200D', '2642', 'FE0F'],
-    ['emoji', '274', 'People & Body', 'person-gesture', '🙋\u200d♂️', 'man raising hand'],
+    ['emoji', '275', 'People & Body', 'person-gesture', '🙋\u200d♂️', 'man raising hand'],
     ['fully-qualified', '🙋\u200d♂️', '4.0', 'man raising hand', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2467,7 +2476,7 @@ fusionados_1 = [
   ],
   [
     ['1F64B', '200D', '2640', 'FE0F'],
-    ['emoji', '275', 'People & Body', 'person-gesture', '🙋\u200d♀️', 'woman raising hand'],
+    ['emoji', '276', 'People & Body', 'person-gesture', '🙋\u200d♀️', 'woman raising hand'],
     ['fully-qualified', '🙋\u200d♀️', '4.0', 'woman raising hand', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2476,7 +2485,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CF'],
-    ['emoji', '276', 'People & Body', 'person-gesture', '🧏', 'deaf person'],
+    ['emoji', '277', 'People & Body', 'person-gesture', '🧏', 'deaf person'],
     ['fully-qualified', '🧏', '12.0', 'deaf person', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '12.0'],
     [],
@@ -2485,7 +2494,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CF', '200D', '2642', 'FE0F'],
-    ['emoji', '277', 'People & Body', 'person-gesture', '🧏\u200d♂️', 'deaf man'],
+    ['emoji', '278', 'People & Body', 'person-gesture', '🧏\u200d♂️', 'deaf man'],
     ['fully-qualified', '🧏\u200d♂️', '12.0', 'deaf man', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2494,7 +2503,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CF', '200D', '2640', 'FE0F'],
-    ['emoji', '278', 'People & Body', 'person-gesture', '🧏\u200d♀️', 'deaf woman'],
+    ['emoji', '279', 'People & Body', 'person-gesture', '🧏\u200d♀️', 'deaf woman'],
     ['fully-qualified', '🧏\u200d♀️', '12.0', 'deaf woman', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2503,7 +2512,7 @@ fusionados_1 = [
   ],
   [
     ['1F647'],
-    ['emoji', '279', 'People & Body', 'person-gesture', '🙇', 'person bowing'],
+    ['emoji', '280', 'People & Body', 'person-gesture', '🙇', 'person bowing'],
     ['fully-qualified', '🙇', '0.6', 'person bowing', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -2512,7 +2521,7 @@ fusionados_1 = [
   ],
   [
     ['1F647', '200D', '2642', 'FE0F'],
-    ['emoji', '280', 'People & Body', 'person-gesture', '🙇\u200d♂️', 'man bowing'],
+    ['emoji', '281', 'People & Body', 'person-gesture', '🙇\u200d♂️', 'man bowing'],
     ['fully-qualified', '🙇\u200d♂️', '4.0', 'man bowing', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2521,7 +2530,7 @@ fusionados_1 = [
   ],
   [
     ['1F647', '200D', '2640', 'FE0F'],
-    ['emoji', '281', 'People & Body', 'person-gesture', '🙇\u200d♀️', 'woman bowing'],
+    ['emoji', '282', 'People & Body', 'person-gesture', '🙇\u200d♀️', 'woman bowing'],
     ['fully-qualified', '🙇\u200d♀️', '4.0', 'woman bowing', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2530,7 +2539,7 @@ fusionados_1 = [
   ],
   [
     ['1F926'],
-    ['emoji', '282', 'People & Body', 'person-gesture', '🤦', 'person facepalming'],
+    ['emoji', '283', 'People & Body', 'person-gesture', '🤦', 'person facepalming'],
     ['fully-qualified', '🤦', '3.0', 'person facepalming', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -2539,7 +2548,7 @@ fusionados_1 = [
   ],
   [
     ['1F926', '200D', '2642', 'FE0F'],
-    ['emoji', '283', 'People & Body', 'person-gesture', '🤦\u200d♂️', 'man facepalming'],
+    ['emoji', '284', 'People & Body', 'person-gesture', '🤦\u200d♂️', 'man facepalming'],
     ['fully-qualified', '🤦\u200d♂️', '4.0', 'man facepalming', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2548,7 +2557,7 @@ fusionados_1 = [
   ],
   [
     ['1F926', '200D', '2640', 'FE0F'],
-    ['emoji', '284', 'People & Body', 'person-gesture', '🤦\u200d♀️', 'woman facepalming'],
+    ['emoji', '285', 'People & Body', 'person-gesture', '🤦\u200d♀️', 'woman facepalming'],
     ['fully-qualified', '🤦\u200d♀️', '4.0', 'woman facepalming', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2557,7 +2566,7 @@ fusionados_1 = [
   ],
   [
     ['1F937'],
-    ['emoji', '285', 'People & Body', 'person-gesture', '🤷', 'person shrugging'],
+    ['emoji', '286', 'People & Body', 'person-gesture', '🤷', 'person shrugging'],
     ['fully-qualified', '🤷', '3.0', 'person shrugging', 'People & Body', 'person-gesture'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -2566,7 +2575,7 @@ fusionados_1 = [
   ],
   [
     ['1F937', '200D', '2642', 'FE0F'],
-    ['emoji', '286', 'People & Body', 'person-gesture', '🤷\u200d♂️', 'man shrugging'],
+    ['emoji', '287', 'People & Body', 'person-gesture', '🤷\u200d♂️', 'man shrugging'],
     ['fully-qualified', '🤷\u200d♂️', '4.0', 'man shrugging', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2575,7 +2584,7 @@ fusionados_1 = [
   ],
   [
     ['1F937', '200D', '2640', 'FE0F'],
-    ['emoji', '287', 'People & Body', 'person-gesture', '🤷\u200d♀️', 'woman shrugging'],
+    ['emoji', '288', 'People & Body', 'person-gesture', '🤷\u200d♀️', 'woman shrugging'],
     ['fully-qualified', '🤷\u200d♀️', '4.0', 'woman shrugging', 'People & Body', 'person-gesture'],
     [],
     [],
@@ -2584,7 +2593,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '2695', 'FE0F'],
-    ['emoji', '288', 'People & Body', 'person-role', '🧑\u200d⚕️', 'health worker'],
+    ['emoji', '289', 'People & Body', 'person-role', '🧑\u200d⚕️', 'health worker'],
     ['fully-qualified', '🧑\u200d⚕️', '12.1', 'health worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2593,7 +2602,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '2695', 'FE0F'],
-    ['emoji', '289', 'People & Body', 'person-role', '👨\u200d⚕️', 'man health worker'],
+    ['emoji', '290', 'People & Body', 'person-role', '👨\u200d⚕️', 'man health worker'],
     ['fully-qualified', '👨\u200d⚕️', '4.0', 'man health worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2602,7 +2611,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '2695', 'FE0F'],
-    ['emoji', '290', 'People & Body', 'person-role', '👩\u200d⚕️', 'woman health worker'],
+    ['emoji', '291', 'People & Body', 'person-role', '👩\u200d⚕️', 'woman health worker'],
     ['fully-qualified', '👩\u200d⚕️', '4.0', 'woman health worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2611,7 +2620,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F393'],
-    ['emoji', '291', 'People & Body', 'person-role', '🧑\u200d🎓', 'student'],
+    ['emoji', '292', 'People & Body', 'person-role', '🧑\u200d🎓', 'student'],
     ['fully-qualified', '🧑\u200d🎓', '12.1', 'student', 'People & Body', 'person-role'],
     [],
     [],
@@ -2620,7 +2629,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F393'],
-    ['emoji', '292', 'People & Body', 'person-role', '👨\u200d🎓', 'man student'],
+    ['emoji', '293', 'People & Body', 'person-role', '👨\u200d🎓', 'man student'],
     ['fully-qualified', '👨\u200d🎓', '4.0', 'man student', 'People & Body', 'person-role'],
     [],
     [],
@@ -2629,7 +2638,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F393'],
-    ['emoji', '293', 'People & Body', 'person-role', '👩\u200d🎓', 'woman student'],
+    ['emoji', '294', 'People & Body', 'person-role', '👩\u200d🎓', 'woman student'],
     ['fully-qualified', '👩\u200d🎓', '4.0', 'woman student', 'People & Body', 'person-role'],
     [],
     [],
@@ -2638,7 +2647,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F3EB'],
-    ['emoji', '294', 'People & Body', 'person-role', '🧑\u200d🏫', 'teacher'],
+    ['emoji', '295', 'People & Body', 'person-role', '🧑\u200d🏫', 'teacher'],
     ['fully-qualified', '🧑\u200d🏫', '12.1', 'teacher', 'People & Body', 'person-role'],
     [],
     [],
@@ -2647,7 +2656,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F3EB'],
-    ['emoji', '295', 'People & Body', 'person-role', '👨\u200d🏫', 'man teacher'],
+    ['emoji', '296', 'People & Body', 'person-role', '👨\u200d🏫', 'man teacher'],
     ['fully-qualified', '👨\u200d🏫', '4.0', 'man teacher', 'People & Body', 'person-role'],
     [],
     [],
@@ -2656,7 +2665,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F3EB'],
-    ['emoji', '296', 'People & Body', 'person-role', '👩\u200d🏫', 'woman teacher'],
+    ['emoji', '297', 'People & Body', 'person-role', '👩\u200d🏫', 'woman teacher'],
     ['fully-qualified', '👩\u200d🏫', '4.0', 'woman teacher', 'People & Body', 'person-role'],
     [],
     [],
@@ -2665,7 +2674,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '2696', 'FE0F'],
-    ['emoji', '297', 'People & Body', 'person-role', '🧑\u200d⚖️', 'judge'],
+    ['emoji', '298', 'People & Body', 'person-role', '🧑\u200d⚖️', 'judge'],
     ['fully-qualified', '🧑\u200d⚖️', '12.1', 'judge', 'People & Body', 'person-role'],
     [],
     [],
@@ -2674,7 +2683,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '2696', 'FE0F'],
-    ['emoji', '298', 'People & Body', 'person-role', '👨\u200d⚖️', 'man judge'],
+    ['emoji', '299', 'People & Body', 'person-role', '👨\u200d⚖️', 'man judge'],
     ['fully-qualified', '👨\u200d⚖️', '4.0', 'man judge', 'People & Body', 'person-role'],
     [],
     [],
@@ -2683,7 +2692,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '2696', 'FE0F'],
-    ['emoji', '299', 'People & Body', 'person-role', '👩\u200d⚖️', 'woman judge'],
+    ['emoji', '300', 'People & Body', 'person-role', '👩\u200d⚖️', 'woman judge'],
     ['fully-qualified', '👩\u200d⚖️', '4.0', 'woman judge', 'People & Body', 'person-role'],
     [],
     [],
@@ -2692,7 +2701,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F33E'],
-    ['emoji', '300', 'People & Body', 'person-role', '🧑\u200d🌾', 'farmer'],
+    ['emoji', '301', 'People & Body', 'person-role', '🧑\u200d🌾', 'farmer'],
     ['fully-qualified', '🧑\u200d🌾', '12.1', 'farmer', 'People & Body', 'person-role'],
     [],
     [],
@@ -2701,7 +2710,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F33E'],
-    ['emoji', '301', 'People & Body', 'person-role', '👨\u200d🌾', 'man farmer'],
+    ['emoji', '302', 'People & Body', 'person-role', '👨\u200d🌾', 'man farmer'],
     ['fully-qualified', '👨\u200d🌾', '4.0', 'man farmer', 'People & Body', 'person-role'],
     [],
     [],
@@ -2710,7 +2719,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F33E'],
-    ['emoji', '302', 'People & Body', 'person-role', '👩\u200d🌾', 'woman farmer'],
+    ['emoji', '303', 'People & Body', 'person-role', '👩\u200d🌾', 'woman farmer'],
     ['fully-qualified', '👩\u200d🌾', '4.0', 'woman farmer', 'People & Body', 'person-role'],
     [],
     [],
@@ -2719,7 +2728,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F373'],
-    ['emoji', '303', 'People & Body', 'person-role', '🧑\u200d🍳', 'cook'],
+    ['emoji', '304', 'People & Body', 'person-role', '🧑\u200d🍳', 'cook'],
     ['fully-qualified', '🧑\u200d🍳', '12.1', 'cook', 'People & Body', 'person-role'],
     [],
     [],
@@ -2728,7 +2737,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F373'],
-    ['emoji', '304', 'People & Body', 'person-role', '👨\u200d🍳', 'man cook'],
+    ['emoji', '305', 'People & Body', 'person-role', '👨\u200d🍳', 'man cook'],
     ['fully-qualified', '👨\u200d🍳', '4.0', 'man cook', 'People & Body', 'person-role'],
     [],
     [],
@@ -2737,7 +2746,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F373'],
-    ['emoji', '305', 'People & Body', 'person-role', '👩\u200d🍳', 'woman cook'],
+    ['emoji', '306', 'People & Body', 'person-role', '👩\u200d🍳', 'woman cook'],
     ['fully-qualified', '👩\u200d🍳', '4.0', 'woman cook', 'People & Body', 'person-role'],
     [],
     [],
@@ -2746,7 +2755,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F527'],
-    ['emoji', '306', 'People & Body', 'person-role', '🧑\u200d🔧', 'mechanic'],
+    ['emoji', '307', 'People & Body', 'person-role', '🧑\u200d🔧', 'mechanic'],
     ['fully-qualified', '🧑\u200d🔧', '12.1', 'mechanic', 'People & Body', 'person-role'],
     [],
     [],
@@ -2755,7 +2764,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F527'],
-    ['emoji', '307', 'People & Body', 'person-role', '👨\u200d🔧', 'man mechanic'],
+    ['emoji', '308', 'People & Body', 'person-role', '👨\u200d🔧', 'man mechanic'],
     ['fully-qualified', '👨\u200d🔧', '4.0', 'man mechanic', 'People & Body', 'person-role'],
     [],
     [],
@@ -2764,7 +2773,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F527'],
-    ['emoji', '308', 'People & Body', 'person-role', '👩\u200d🔧', 'woman mechanic'],
+    ['emoji', '309', 'People & Body', 'person-role', '👩\u200d🔧', 'woman mechanic'],
     ['fully-qualified', '👩\u200d🔧', '4.0', 'woman mechanic', 'People & Body', 'person-role'],
     [],
     [],
@@ -2773,7 +2782,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F3ED'],
-    ['emoji', '309', 'People & Body', 'person-role', '🧑\u200d🏭', 'factory worker'],
+    ['emoji', '310', 'People & Body', 'person-role', '🧑\u200d🏭', 'factory worker'],
     ['fully-qualified', '🧑\u200d🏭', '12.1', 'factory worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2782,7 +2791,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F3ED'],
-    ['emoji', '310', 'People & Body', 'person-role', '👨\u200d🏭', 'man factory worker'],
+    ['emoji', '311', 'People & Body', 'person-role', '👨\u200d🏭', 'man factory worker'],
     ['fully-qualified', '👨\u200d🏭', '4.0', 'man factory worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2791,7 +2800,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F3ED'],
-    ['emoji', '311', 'People & Body', 'person-role', '👩\u200d🏭', 'woman factory worker'],
+    ['emoji', '312', 'People & Body', 'person-role', '👩\u200d🏭', 'woman factory worker'],
     ['fully-qualified', '👩\u200d🏭', '4.0', 'woman factory worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2800,7 +2809,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F4BC'],
-    ['emoji', '312', 'People & Body', 'person-role', '🧑\u200d💼', 'office worker'],
+    ['emoji', '313', 'People & Body', 'person-role', '🧑\u200d💼', 'office worker'],
     ['fully-qualified', '🧑\u200d💼', '12.1', 'office worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2809,7 +2818,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F4BC'],
-    ['emoji', '313', 'People & Body', 'person-role', '👨\u200d💼', 'man office worker'],
+    ['emoji', '314', 'People & Body', 'person-role', '👨\u200d💼', 'man office worker'],
     ['fully-qualified', '👨\u200d💼', '4.0', 'man office worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2818,7 +2827,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F4BC'],
-    ['emoji', '314', 'People & Body', 'person-role', '👩\u200d💼', 'woman office worker'],
+    ['emoji', '315', 'People & Body', 'person-role', '👩\u200d💼', 'woman office worker'],
     ['fully-qualified', '👩\u200d💼', '4.0', 'woman office worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -2827,7 +2836,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F52C'],
-    ['emoji', '315', 'People & Body', 'person-role', '🧑\u200d🔬', 'scientist'],
+    ['emoji', '316', 'People & Body', 'person-role', '🧑\u200d🔬', 'scientist'],
     ['fully-qualified', '🧑\u200d🔬', '12.1', 'scientist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2836,7 +2845,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F52C'],
-    ['emoji', '316', 'People & Body', 'person-role', '👨\u200d🔬', 'man scientist'],
+    ['emoji', '317', 'People & Body', 'person-role', '👨\u200d🔬', 'man scientist'],
     ['fully-qualified', '👨\u200d🔬', '4.0', 'man scientist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2845,7 +2854,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F52C'],
-    ['emoji', '317', 'People & Body', 'person-role', '👩\u200d🔬', 'woman scientist'],
+    ['emoji', '318', 'People & Body', 'person-role', '👩\u200d🔬', 'woman scientist'],
     ['fully-qualified', '👩\u200d🔬', '4.0', 'woman scientist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2854,7 +2863,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F4BB'],
-    ['emoji', '318', 'People & Body', 'person-role', '🧑\u200d💻', 'technologist'],
+    ['emoji', '319', 'People & Body', 'person-role', '🧑\u200d💻', 'technologist'],
     ['fully-qualified', '🧑\u200d💻', '12.1', 'technologist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2863,7 +2872,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F4BB'],
-    ['emoji', '319', 'People & Body', 'person-role', '👨\u200d💻', 'man technologist'],
+    ['emoji', '320', 'People & Body', 'person-role', '👨\u200d💻', 'man technologist'],
     ['fully-qualified', '👨\u200d💻', '4.0', 'man technologist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2872,7 +2881,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F4BB'],
-    ['emoji', '320', 'People & Body', 'person-role', '👩\u200d💻', 'woman technologist'],
+    ['emoji', '321', 'People & Body', 'person-role', '👩\u200d💻', 'woman technologist'],
     ['fully-qualified', '👩\u200d💻', '4.0', 'woman technologist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2881,7 +2890,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F3A4'],
-    ['emoji', '321', 'People & Body', 'person-role', '🧑\u200d🎤', 'singer'],
+    ['emoji', '322', 'People & Body', 'person-role', '🧑\u200d🎤', 'singer'],
     ['fully-qualified', '🧑\u200d🎤', '12.1', 'singer', 'People & Body', 'person-role'],
     [],
     [],
@@ -2890,7 +2899,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F3A4'],
-    ['emoji', '322', 'People & Body', 'person-role', '👨\u200d🎤', 'man singer'],
+    ['emoji', '323', 'People & Body', 'person-role', '👨\u200d🎤', 'man singer'],
     ['fully-qualified', '👨\u200d🎤', '4.0', 'man singer', 'People & Body', 'person-role'],
     [],
     [],
@@ -2899,7 +2908,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F3A4'],
-    ['emoji', '323', 'People & Body', 'person-role', '👩\u200d🎤', 'woman singer'],
+    ['emoji', '324', 'People & Body', 'person-role', '👩\u200d🎤', 'woman singer'],
     ['fully-qualified', '👩\u200d🎤', '4.0', 'woman singer', 'People & Body', 'person-role'],
     [],
     [],
@@ -2908,7 +2917,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F3A8'],
-    ['emoji', '324', 'People & Body', 'person-role', '🧑\u200d🎨', 'artist'],
+    ['emoji', '325', 'People & Body', 'person-role', '🧑\u200d🎨', 'artist'],
     ['fully-qualified', '🧑\u200d🎨', '12.1', 'artist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2917,7 +2926,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F3A8'],
-    ['emoji', '325', 'People & Body', 'person-role', '👨\u200d🎨', 'man artist'],
+    ['emoji', '326', 'People & Body', 'person-role', '👨\u200d🎨', 'man artist'],
     ['fully-qualified', '👨\u200d🎨', '4.0', 'man artist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2926,7 +2935,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F3A8'],
-    ['emoji', '326', 'People & Body', 'person-role', '👩\u200d🎨', 'woman artist'],
+    ['emoji', '327', 'People & Body', 'person-role', '👩\u200d🎨', 'woman artist'],
     ['fully-qualified', '👩\u200d🎨', '4.0', 'woman artist', 'People & Body', 'person-role'],
     [],
     [],
@@ -2935,7 +2944,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '2708', 'FE0F'],
-    ['emoji', '327', 'People & Body', 'person-role', '🧑\u200d✈️', 'pilot'],
+    ['emoji', '328', 'People & Body', 'person-role', '🧑\u200d✈️', 'pilot'],
     ['fully-qualified', '🧑\u200d✈️', '12.1', 'pilot', 'People & Body', 'person-role'],
     [],
     [],
@@ -2944,7 +2953,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '2708', 'FE0F'],
-    ['emoji', '328', 'People & Body', 'person-role', '👨\u200d✈️', 'man pilot'],
+    ['emoji', '329', 'People & Body', 'person-role', '👨\u200d✈️', 'man pilot'],
     ['fully-qualified', '👨\u200d✈️', '4.0', 'man pilot', 'People & Body', 'person-role'],
     [],
     [],
@@ -2953,7 +2962,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '2708', 'FE0F'],
-    ['emoji', '329', 'People & Body', 'person-role', '👩\u200d✈️', 'woman pilot'],
+    ['emoji', '330', 'People & Body', 'person-role', '👩\u200d✈️', 'woman pilot'],
     ['fully-qualified', '👩\u200d✈️', '4.0', 'woman pilot', 'People & Body', 'person-role'],
     [],
     [],
@@ -2962,7 +2971,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F680'],
-    ['emoji', '330', 'People & Body', 'person-role', '🧑\u200d🚀', 'astronaut'],
+    ['emoji', '331', 'People & Body', 'person-role', '🧑\u200d🚀', 'astronaut'],
     ['fully-qualified', '🧑\u200d🚀', '12.1', 'astronaut', 'People & Body', 'person-role'],
     [],
     [],
@@ -2971,7 +2980,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F680'],
-    ['emoji', '331', 'People & Body', 'person-role', '👨\u200d🚀', 'man astronaut'],
+    ['emoji', '332', 'People & Body', 'person-role', '👨\u200d🚀', 'man astronaut'],
     ['fully-qualified', '👨\u200d🚀', '4.0', 'man astronaut', 'People & Body', 'person-role'],
     [],
     [],
@@ -2980,7 +2989,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F680'],
-    ['emoji', '332', 'People & Body', 'person-role', '👩\u200d🚀', 'woman astronaut'],
+    ['emoji', '333', 'People & Body', 'person-role', '👩\u200d🚀', 'woman astronaut'],
     ['fully-qualified', '👩\u200d🚀', '4.0', 'woman astronaut', 'People & Body', 'person-role'],
     [],
     [],
@@ -2989,7 +2998,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F692'],
-    ['emoji', '333', 'People & Body', 'person-role', '🧑\u200d🚒', 'firefighter'],
+    ['emoji', '334', 'People & Body', 'person-role', '🧑\u200d🚒', 'firefighter'],
     ['fully-qualified', '🧑\u200d🚒', '12.1', 'firefighter', 'People & Body', 'person-role'],
     [],
     [],
@@ -2998,7 +3007,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F692'],
-    ['emoji', '334', 'People & Body', 'person-role', '👨\u200d🚒', 'man firefighter'],
+    ['emoji', '335', 'People & Body', 'person-role', '👨\u200d🚒', 'man firefighter'],
     ['fully-qualified', '👨\u200d🚒', '4.0', 'man firefighter', 'People & Body', 'person-role'],
     [],
     [],
@@ -3007,7 +3016,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F692'],
-    ['emoji', '335', 'People & Body', 'person-role', '👩\u200d🚒', 'woman firefighter'],
+    ['emoji', '336', 'People & Body', 'person-role', '👩\u200d🚒', 'woman firefighter'],
     ['fully-qualified', '👩\u200d🚒', '4.0', 'woman firefighter', 'People & Body', 'person-role'],
     [],
     [],
@@ -3016,7 +3025,7 @@ fusionados_1 = [
   ],
   [
     ['1F46E'],
-    ['emoji', '336', 'People & Body', 'person-role', '👮', 'police officer'],
+    ['emoji', '337', 'People & Body', 'person-role', '👮', 'police officer'],
     ['fully-qualified', '👮', '0.6', 'police officer', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3025,7 +3034,7 @@ fusionados_1 = [
   ],
   [
     ['1F46E', '200D', '2642', 'FE0F'],
-    ['emoji', '337', 'People & Body', 'person-role', '👮\u200d♂️', 'man police officer'],
+    ['emoji', '338', 'People & Body', 'person-role', '👮\u200d♂️', 'man police officer'],
     ['fully-qualified', '👮\u200d♂️', '4.0', 'man police officer', 'People & Body', 'person-role'],
     [],
     [],
@@ -3034,7 +3043,7 @@ fusionados_1 = [
   ],
   [
     ['1F46E', '200D', '2640', 'FE0F'],
-    ['emoji', '338', 'People & Body', 'person-role', '👮\u200d♀️', 'woman police officer'],
+    ['emoji', '339', 'People & Body', 'person-role', '👮\u200d♀️', 'woman police officer'],
     ['fully-qualified', '👮\u200d♀️', '4.0', 'woman police officer', 'People & Body', 'person-role'],
     [],
     [],
@@ -3043,7 +3052,7 @@ fusionados_1 = [
   ],
   [
     ['1F575'],
-    ['emoji', '339', 'People & Body', 'person-role', '🕵', 'detective'],
+    ['emoji', '340', 'People & Body', 'person-role', '🕵', 'detective'],
     ['unqualified', '🕵', '0.7', 'detective', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.7'],
     [],
@@ -3052,7 +3061,7 @@ fusionados_1 = [
   ],
   [
     ['1F575', 'FE0F', '200D', '2642', 'FE0F'],
-    ['emoji', '340', 'People & Body', 'person-role', '🕵️\u200d♂️', 'man detective'],
+    ['emoji', '341', 'People & Body', 'person-role', '🕵️\u200d♂️', 'man detective'],
     ['fully-qualified', '🕵️\u200d♂️', '4.0', 'man detective', 'People & Body', 'person-role'],
     [],
     [],
@@ -3061,7 +3070,7 @@ fusionados_1 = [
   ],
   [
     ['1F575', 'FE0F', '200D', '2640', 'FE0F'],
-    ['emoji', '341', 'People & Body', 'person-role', '🕵️\u200d♀️', 'woman detective'],
+    ['emoji', '342', 'People & Body', 'person-role', '🕵️\u200d♀️', 'woman detective'],
     ['fully-qualified', '🕵️\u200d♀️', '4.0', 'woman detective', 'People & Body', 'person-role'],
     [],
     [],
@@ -3070,7 +3079,7 @@ fusionados_1 = [
   ],
   [
     ['1F482'],
-    ['emoji', '342', 'People & Body', 'person-role', '💂', 'guard'],
+    ['emoji', '343', 'People & Body', 'person-role', '💂', 'guard'],
     ['fully-qualified', '💂', '0.6', 'guard', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3079,7 +3088,7 @@ fusionados_1 = [
   ],
   [
     ['1F482', '200D', '2642', 'FE0F'],
-    ['emoji', '343', 'People & Body', 'person-role', '💂\u200d♂️', 'man guard'],
+    ['emoji', '344', 'People & Body', 'person-role', '💂\u200d♂️', 'man guard'],
     ['fully-qualified', '💂\u200d♂️', '4.0', 'man guard', 'People & Body', 'person-role'],
     [],
     [],
@@ -3088,7 +3097,7 @@ fusionados_1 = [
   ],
   [
     ['1F482', '200D', '2640', 'FE0F'],
-    ['emoji', '344', 'People & Body', 'person-role', '💂\u200d♀️', 'woman guard'],
+    ['emoji', '345', 'People & Body', 'person-role', '💂\u200d♀️', 'woman guard'],
     ['fully-qualified', '💂\u200d♀️', '4.0', 'woman guard', 'People & Body', 'person-role'],
     [],
     [],
@@ -3097,7 +3106,7 @@ fusionados_1 = [
   ],
   [
     ['1F977'],
-    ['emoji', '345', 'People & Body', 'person-role', '🥷', 'ninja'],
+    ['emoji', '346', 'People & Body', 'person-role', '🥷', 'ninja'],
     ['fully-qualified', '🥷', '13.0', 'ninja', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '13.0'],
     [],
@@ -3106,7 +3115,7 @@ fusionados_1 = [
   ],
   [
     ['1F477'],
-    ['emoji', '346', 'People & Body', 'person-role', '👷', 'construction worker'],
+    ['emoji', '347', 'People & Body', 'person-role', '👷', 'construction worker'],
     ['fully-qualified', '👷', '0.6', 'construction worker', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3115,7 +3124,7 @@ fusionados_1 = [
   ],
   [
     ['1F477', '200D', '2642', 'FE0F'],
-    ['emoji', '347', 'People & Body', 'person-role', '👷\u200d♂️', 'man construction worker'],
+    ['emoji', '348', 'People & Body', 'person-role', '👷\u200d♂️', 'man construction worker'],
     ['fully-qualified', '👷\u200d♂️', '4.0', 'man construction worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -3124,7 +3133,7 @@ fusionados_1 = [
   ],
   [
     ['1F477', '200D', '2640', 'FE0F'],
-    ['emoji', '348', 'People & Body', 'person-role', '👷\u200d♀️', 'woman construction worker'],
+    ['emoji', '349', 'People & Body', 'person-role', '👷\u200d♀️', 'woman construction worker'],
     ['fully-qualified', '👷\u200d♀️', '4.0', 'woman construction worker', 'People & Body', 'person-role'],
     [],
     [],
@@ -3133,7 +3142,7 @@ fusionados_1 = [
   ],
   [
     ['1FAC5'],
-    ['emoji', '349', 'People & Body', 'person-role', '\U0001fac5', 'person with crown'],
+    ['emoji', '350', 'People & Body', 'person-role', '\U0001fac5', 'person with crown'],
     ['fully-qualified', '\U0001fac5', '14.0', 'person with crown', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -3142,7 +3151,7 @@ fusionados_1 = [
   ],
   [
     ['1F934'],
-    ['emoji', '350', 'People & Body', 'person-role', '🤴', 'prince'],
+    ['emoji', '351', 'People & Body', 'person-role', '🤴', 'prince'],
     ['fully-qualified', '🤴', '3.0', 'prince', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -3151,7 +3160,7 @@ fusionados_1 = [
   ],
   [
     ['1F478'],
-    ['emoji', '351', 'People & Body', 'person-role', '👸', 'princess'],
+    ['emoji', '352', 'People & Body', 'person-role', '👸', 'princess'],
     ['fully-qualified', '👸', '0.6', 'princess', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3160,7 +3169,7 @@ fusionados_1 = [
   ],
   [
     ['1F473'],
-    ['emoji', '352', 'People & Body', 'person-role', '👳', 'person wearing turban'],
+    ['emoji', '353', 'People & Body', 'person-role', '👳', 'person wearing turban'],
     ['fully-qualified', '👳', '0.6', 'person wearing turban', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3169,7 +3178,7 @@ fusionados_1 = [
   ],
   [
     ['1F473', '200D', '2642', 'FE0F'],
-    ['emoji', '353', 'People & Body', 'person-role', '👳\u200d♂️', 'man wearing turban'],
+    ['emoji', '354', 'People & Body', 'person-role', '👳\u200d♂️', 'man wearing turban'],
     ['fully-qualified', '👳\u200d♂️', '4.0', 'man wearing turban', 'People & Body', 'person-role'],
     [],
     [],
@@ -3178,7 +3187,7 @@ fusionados_1 = [
   ],
   [
     ['1F473', '200D', '2640', 'FE0F'],
-    ['emoji', '354', 'People & Body', 'person-role', '👳\u200d♀️', 'woman wearing turban'],
+    ['emoji', '355', 'People & Body', 'person-role', '👳\u200d♀️', 'woman wearing turban'],
     ['fully-qualified', '👳\u200d♀️', '4.0', 'woman wearing turban', 'People & Body', 'person-role'],
     [],
     [],
@@ -3187,7 +3196,7 @@ fusionados_1 = [
   ],
   [
     ['1F472'],
-    ['emoji', '355', 'People & Body', 'person-role', '👲', 'person with skullcap'],
+    ['emoji', '356', 'People & Body', 'person-role', '👲', 'person with skullcap'],
     ['fully-qualified', '👲', '0.6', 'person with skullcap', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3196,7 +3205,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D5'],
-    ['emoji', '356', 'People & Body', 'person-role', '🧕', 'woman with headscarf'],
+    ['emoji', '357', 'People & Body', 'person-role', '🧕', 'woman with headscarf'],
     ['fully-qualified', '🧕', '5.0', 'woman with headscarf', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3205,7 +3214,7 @@ fusionados_1 = [
   ],
   [
     ['1F935'],
-    ['emoji', '357', 'People & Body', 'person-role', '🤵', 'person in tuxedo'],
+    ['emoji', '358', 'People & Body', 'person-role', '🤵', 'person in tuxedo'],
     ['fully-qualified', '🤵', '3.0', 'person in tuxedo', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -3214,7 +3223,7 @@ fusionados_1 = [
   ],
   [
     ['1F935', '200D', '2642', 'FE0F'],
-    ['emoji', '358', 'People & Body', 'person-role', '🤵\u200d♂️', 'man in tuxedo'],
+    ['emoji', '359', 'People & Body', 'person-role', '🤵\u200d♂️', 'man in tuxedo'],
     ['fully-qualified', '🤵\u200d♂️', '13.0', 'man in tuxedo', 'People & Body', 'person-role'],
     [],
     [],
@@ -3223,7 +3232,7 @@ fusionados_1 = [
   ],
   [
     ['1F935', '200D', '2640', 'FE0F'],
-    ['emoji', '359', 'People & Body', 'person-role', '🤵\u200d♀️', 'woman in tuxedo'],
+    ['emoji', '360', 'People & Body', 'person-role', '🤵\u200d♀️', 'woman in tuxedo'],
     ['fully-qualified', '🤵\u200d♀️', '13.0', 'woman in tuxedo', 'People & Body', 'person-role'],
     [],
     [],
@@ -3232,7 +3241,7 @@ fusionados_1 = [
   ],
   [
     ['1F470'],
-    ['emoji', '360', 'People & Body', 'person-role', '👰', 'person with veil'],
+    ['emoji', '361', 'People & Body', 'person-role', '👰', 'person with veil'],
     ['fully-qualified', '👰', '0.6', 'person with veil', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3241,7 +3250,7 @@ fusionados_1 = [
   ],
   [
     ['1F470', '200D', '2642', 'FE0F'],
-    ['emoji', '361', 'People & Body', 'person-role', '👰\u200d♂️', 'man with veil'],
+    ['emoji', '362', 'People & Body', 'person-role', '👰\u200d♂️', 'man with veil'],
     ['fully-qualified', '👰\u200d♂️', '13.0', 'man with veil', 'People & Body', 'person-role'],
     [],
     [],
@@ -3250,7 +3259,7 @@ fusionados_1 = [
   ],
   [
     ['1F470', '200D', '2640', 'FE0F'],
-    ['emoji', '362', 'People & Body', 'person-role', '👰\u200d♀️', 'woman with veil'],
+    ['emoji', '363', 'People & Body', 'person-role', '👰\u200d♀️', 'woman with veil'],
     ['fully-qualified', '👰\u200d♀️', '13.0', 'woman with veil', 'People & Body', 'person-role'],
     [],
     [],
@@ -3259,7 +3268,7 @@ fusionados_1 = [
   ],
   [
     ['1F930'],
-    ['emoji', '363', 'People & Body', 'person-role', '🤰', 'pregnant woman'],
+    ['emoji', '364', 'People & Body', 'person-role', '🤰', 'pregnant woman'],
     ['fully-qualified', '🤰', '3.0', 'pregnant woman', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -3268,7 +3277,7 @@ fusionados_1 = [
   ],
   [
     ['1FAC3'],
-    ['emoji', '364', 'People & Body', 'person-role', '\U0001fac3', 'pregnant man'],
+    ['emoji', '365', 'People & Body', 'person-role', '\U0001fac3', 'pregnant man'],
     ['fully-qualified', '\U0001fac3', '14.0', 'pregnant man', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -3277,7 +3286,7 @@ fusionados_1 = [
   ],
   [
     ['1FAC4'],
-    ['emoji', '365', 'People & Body', 'person-role', '\U0001fac4', 'pregnant person'],
+    ['emoji', '366', 'People & Body', 'person-role', '\U0001fac4', 'pregnant person'],
     ['fully-qualified', '\U0001fac4', '14.0', 'pregnant person', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '14.0'],
     [],
@@ -3286,7 +3295,7 @@ fusionados_1 = [
   ],
   [
     ['1F931'],
-    ['emoji', '366', 'People & Body', 'person-role', '🤱', 'breast-feeding'],
+    ['emoji', '367', 'People & Body', 'person-role', '🤱', 'breast-feeding'],
     ['fully-qualified', '🤱', '5.0', 'breast-feeding', 'People & Body', 'person-role'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3295,7 +3304,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F37C'],
-    ['emoji', '367', 'People & Body', 'person-role', '👩\u200d🍼', 'woman feeding baby'],
+    ['emoji', '368', 'People & Body', 'person-role', '👩\u200d🍼', 'woman feeding baby'],
     ['fully-qualified', '👩\u200d🍼', '13.0', 'woman feeding baby', 'People & Body', 'person-role'],
     [],
     [],
@@ -3304,7 +3313,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F37C'],
-    ['emoji', '368', 'People & Body', 'person-role', '👨\u200d🍼', 'man feeding baby'],
+    ['emoji', '369', 'People & Body', 'person-role', '👨\u200d🍼', 'man feeding baby'],
     ['fully-qualified', '👨\u200d🍼', '13.0', 'man feeding baby', 'People & Body', 'person-role'],
     [],
     [],
@@ -3313,7 +3322,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F37C'],
-    ['emoji', '369', 'People & Body', 'person-role', '🧑\u200d🍼', 'person feeding baby'],
+    ['emoji', '370', 'People & Body', 'person-role', '🧑\u200d🍼', 'person feeding baby'],
     ['fully-qualified', '🧑\u200d🍼', '13.0', 'person feeding baby', 'People & Body', 'person-role'],
     [],
     [],
@@ -3322,7 +3331,7 @@ fusionados_1 = [
   ],
   [
     ['1F47C'],
-    ['emoji', '370', 'People & Body', 'person-fantasy', '👼', 'baby angel'],
+    ['emoji', '371', 'People & Body', 'person-fantasy', '👼', 'baby angel'],
     ['fully-qualified', '👼', '0.6', 'baby angel', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3331,7 +3340,7 @@ fusionados_1 = [
   ],
   [
     ['1F385'],
-    ['emoji', '371', 'People & Body', 'person-fantasy', '🎅', 'Santa Claus'],
+    ['emoji', '372', 'People & Body', 'person-fantasy', '🎅', 'Santa Claus'],
     ['fully-qualified', '🎅', '0.6', 'Santa Claus', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3340,7 +3349,7 @@ fusionados_1 = [
   ],
   [
     ['1F936'],
-    ['emoji', '372', 'People & Body', 'person-fantasy', '🤶', 'Mrs. Claus'],
+    ['emoji', '373', 'People & Body', 'person-fantasy', '🤶', 'Mrs. Claus'],
     ['fully-qualified', '🤶', '3.0', 'Mrs. Claus', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -3349,16 +3358,16 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F384'],
-    ['emoji', '373', 'People & Body', 'person-fantasy', '🧑\u200d🎄', 'mx claus'],
-    ['fully-qualified', '🧑\u200d🎄', '13.0', 'mx claus', 'People & Body', 'person-fantasy'],
+    ['emoji', '374', 'People & Body', 'person-fantasy', '🧑\u200d🎄', 'Mx Claus'],
+    ['fully-qualified', '🧑\u200d🎄', '13.0', 'Mx Claus', 'People & Body', 'person-fantasy'],
     [],
     [],
-    ['RGI_Emoji_ZWJ_Sequence', 'mx claus', '13.0', '🧑\u200d🎄', 'Role'],
+    ['RGI_Emoji_ZWJ_Sequence', 'Mx Claus', '13.0', '🧑\u200d🎄', 'Role'],
     [],
   ],
   [
     ['1F9B8'],
-    ['emoji', '374', 'People & Body', 'person-fantasy', '🦸', 'superhero'],
+    ['emoji', '375', 'People & Body', 'person-fantasy', '🦸', 'superhero'],
     ['fully-qualified', '🦸', '11.0', 'superhero', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '11.0'],
     [],
@@ -3367,7 +3376,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B8', '200D', '2642', 'FE0F'],
-    ['emoji', '375', 'People & Body', 'person-fantasy', '🦸\u200d♂️', 'man superhero'],
+    ['emoji', '376', 'People & Body', 'person-fantasy', '🦸\u200d♂️', 'man superhero'],
     ['fully-qualified', '🦸\u200d♂️', '11.0', 'man superhero', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3376,7 +3385,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B8', '200D', '2640', 'FE0F'],
-    ['emoji', '376', 'People & Body', 'person-fantasy', '🦸\u200d♀️', 'woman superhero'],
+    ['emoji', '377', 'People & Body', 'person-fantasy', '🦸\u200d♀️', 'woman superhero'],
     ['fully-qualified', '🦸\u200d♀️', '11.0', 'woman superhero', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3385,7 +3394,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B9'],
-    ['emoji', '377', 'People & Body', 'person-fantasy', '🦹', 'supervillain'],
+    ['emoji', '378', 'People & Body', 'person-fantasy', '🦹', 'supervillain'],
     ['fully-qualified', '🦹', '11.0', 'supervillain', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '11.0'],
     [],
@@ -3394,7 +3403,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B9', '200D', '2642', 'FE0F'],
-    ['emoji', '378', 'People & Body', 'person-fantasy', '🦹\u200d♂️', 'man supervillain'],
+    ['emoji', '379', 'People & Body', 'person-fantasy', '🦹\u200d♂️', 'man supervillain'],
     ['fully-qualified', '🦹\u200d♂️', '11.0', 'man supervillain', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3403,7 +3412,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B9', '200D', '2640', 'FE0F'],
-    ['emoji', '379', 'People & Body', 'person-fantasy', '🦹\u200d♀️', 'woman supervillain'],
+    ['emoji', '380', 'People & Body', 'person-fantasy', '🦹\u200d♀️', 'woman supervillain'],
     ['fully-qualified', '🦹\u200d♀️', '11.0', 'woman supervillain', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3412,7 +3421,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D9'],
-    ['emoji', '380', 'People & Body', 'person-fantasy', '🧙', 'mage'],
+    ['emoji', '381', 'People & Body', 'person-fantasy', '🧙', 'mage'],
     ['fully-qualified', '🧙', '5.0', 'mage', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3421,7 +3430,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D9', '200D', '2642', 'FE0F'],
-    ['emoji', '381', 'People & Body', 'person-fantasy', '🧙\u200d♂️', 'man mage'],
+    ['emoji', '382', 'People & Body', 'person-fantasy', '🧙\u200d♂️', 'man mage'],
     ['fully-qualified', '🧙\u200d♂️', '5.0', 'man mage', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3430,7 +3439,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D9', '200D', '2640', 'FE0F'],
-    ['emoji', '382', 'People & Body', 'person-fantasy', '🧙\u200d♀️', 'woman mage'],
+    ['emoji', '383', 'People & Body', 'person-fantasy', '🧙\u200d♀️', 'woman mage'],
     ['fully-qualified', '🧙\u200d♀️', '5.0', 'woman mage', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3439,7 +3448,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DA'],
-    ['emoji', '383', 'People & Body', 'person-fantasy', '🧚', 'fairy'],
+    ['emoji', '384', 'People & Body', 'person-fantasy', '🧚', 'fairy'],
     ['fully-qualified', '🧚', '5.0', 'fairy', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3448,7 +3457,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DA', '200D', '2642', 'FE0F'],
-    ['emoji', '384', 'People & Body', 'person-fantasy', '🧚\u200d♂️', 'man fairy'],
+    ['emoji', '385', 'People & Body', 'person-fantasy', '🧚\u200d♂️', 'man fairy'],
     ['fully-qualified', '🧚\u200d♂️', '5.0', 'man fairy', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3457,7 +3466,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DA', '200D', '2640', 'FE0F'],
-    ['emoji', '385', 'People & Body', 'person-fantasy', '🧚\u200d♀️', 'woman fairy'],
+    ['emoji', '386', 'People & Body', 'person-fantasy', '🧚\u200d♀️', 'woman fairy'],
     ['fully-qualified', '🧚\u200d♀️', '5.0', 'woman fairy', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3466,7 +3475,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DB'],
-    ['emoji', '386', 'People & Body', 'person-fantasy', '🧛', 'vampire'],
+    ['emoji', '387', 'People & Body', 'person-fantasy', '🧛', 'vampire'],
     ['fully-qualified', '🧛', '5.0', 'vampire', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3475,7 +3484,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DB', '200D', '2642', 'FE0F'],
-    ['emoji', '387', 'People & Body', 'person-fantasy', '🧛\u200d♂️', 'man vampire'],
+    ['emoji', '388', 'People & Body', 'person-fantasy', '🧛\u200d♂️', 'man vampire'],
     ['fully-qualified', '🧛\u200d♂️', '5.0', 'man vampire', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3484,7 +3493,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DB', '200D', '2640', 'FE0F'],
-    ['emoji', '388', 'People & Body', 'person-fantasy', '🧛\u200d♀️', 'woman vampire'],
+    ['emoji', '389', 'People & Body', 'person-fantasy', '🧛\u200d♀️', 'woman vampire'],
     ['fully-qualified', '🧛\u200d♀️', '5.0', 'woman vampire', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3493,7 +3502,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DC'],
-    ['emoji', '389', 'People & Body', 'person-fantasy', '🧜', 'merperson'],
+    ['emoji', '390', 'People & Body', 'person-fantasy', '🧜', 'merperson'],
     ['fully-qualified', '🧜', '5.0', 'merperson', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3502,7 +3511,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DC', '200D', '2642', 'FE0F'],
-    ['emoji', '390', 'People & Body', 'person-fantasy', '🧜\u200d♂️', 'merman'],
+    ['emoji', '391', 'People & Body', 'person-fantasy', '🧜\u200d♂️', 'merman'],
     ['fully-qualified', '🧜\u200d♂️', '5.0', 'merman', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3511,7 +3520,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DC', '200D', '2640', 'FE0F'],
-    ['emoji', '391', 'People & Body', 'person-fantasy', '🧜\u200d♀️', 'mermaid'],
+    ['emoji', '392', 'People & Body', 'person-fantasy', '🧜\u200d♀️', 'mermaid'],
     ['fully-qualified', '🧜\u200d♀️', '5.0', 'mermaid', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3520,7 +3529,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DD'],
-    ['emoji', '392', 'People & Body', 'person-fantasy', '🧝', 'elf'],
+    ['emoji', '393', 'People & Body', 'person-fantasy', '🧝', 'elf'],
     ['fully-qualified', '🧝', '5.0', 'elf', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3529,7 +3538,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DD', '200D', '2642', 'FE0F'],
-    ['emoji', '393', 'People & Body', 'person-fantasy', '🧝\u200d♂️', 'man elf'],
+    ['emoji', '394', 'People & Body', 'person-fantasy', '🧝\u200d♂️', 'man elf'],
     ['fully-qualified', '🧝\u200d♂️', '5.0', 'man elf', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3538,7 +3547,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DD', '200D', '2640', 'FE0F'],
-    ['emoji', '394', 'People & Body', 'person-fantasy', '🧝\u200d♀️', 'woman elf'],
+    ['emoji', '395', 'People & Body', 'person-fantasy', '🧝\u200d♀️', 'woman elf'],
     ['fully-qualified', '🧝\u200d♀️', '5.0', 'woman elf', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3547,7 +3556,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DE'],
-    ['emoji', '395', 'People & Body', 'person-fantasy', '🧞', 'genie'],
+    ['emoji', '396', 'People & Body', 'person-fantasy', '🧞', 'genie'],
     ['fully-qualified', '🧞', '5.0', 'genie', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3556,7 +3565,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DE', '200D', '2642', 'FE0F'],
-    ['emoji', '396', 'People & Body', 'person-fantasy', '🧞\u200d♂️', 'man genie'],
+    ['emoji', '397', 'People & Body', 'person-fantasy', '🧞\u200d♂️', 'man genie'],
     ['fully-qualified', '🧞\u200d♂️', '5.0', 'man genie', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3565,7 +3574,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DE', '200D', '2640', 'FE0F'],
-    ['emoji', '397', 'People & Body', 'person-fantasy', '🧞\u200d♀️', 'woman genie'],
+    ['emoji', '398', 'People & Body', 'person-fantasy', '🧞\u200d♀️', 'woman genie'],
     ['fully-qualified', '🧞\u200d♀️', '5.0', 'woman genie', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3574,7 +3583,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DF'],
-    ['emoji', '398', 'People & Body', 'person-fantasy', '🧟', 'zombie'],
+    ['emoji', '399', 'People & Body', 'person-fantasy', '🧟', 'zombie'],
     ['fully-qualified', '🧟', '5.0', 'zombie', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -3583,7 +3592,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DF', '200D', '2642', 'FE0F'],
-    ['emoji', '399', 'People & Body', 'person-fantasy', '🧟\u200d♂️', 'man zombie'],
+    ['emoji', '400', 'People & Body', 'person-fantasy', '🧟\u200d♂️', 'man zombie'],
     ['fully-qualified', '🧟\u200d♂️', '5.0', 'man zombie', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3592,7 +3601,7 @@ fusionados_1 = [
   ],
   [
     ['1F9DF', '200D', '2640', 'FE0F'],
-    ['emoji', '400', 'People & Body', 'person-fantasy', '🧟\u200d♀️', 'woman zombie'],
+    ['emoji', '401', 'People & Body', 'person-fantasy', '🧟\u200d♀️', 'woman zombie'],
     ['fully-qualified', '🧟\u200d♀️', '5.0', 'woman zombie', 'People & Body', 'person-fantasy'],
     [],
     [],
@@ -3601,7 +3610,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CC'],
-    ['emoji', '401', 'People & Body', 'person-fantasy', '\U0001f9cc', 'troll'],
+    ['emoji', '402', 'People & Body', 'person-fantasy', '\U0001f9cc', 'troll'],
     ['fully-qualified', '\U0001f9cc', '14.0', 'troll', 'People & Body', 'person-fantasy'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -3610,7 +3619,7 @@ fusionados_1 = [
   ],
   [
     ['1F486'],
-    ['emoji', '402', 'People & Body', 'person-activity', '💆', 'person getting massage'],
+    ['emoji', '403', 'People & Body', 'person-activity', '💆', 'person getting massage'],
     ['fully-qualified', '💆', '0.6', 'person getting massage', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3619,7 +3628,7 @@ fusionados_1 = [
   ],
   [
     ['1F486', '200D', '2642', 'FE0F'],
-    ['emoji', '403', 'People & Body', 'person-activity', '💆\u200d♂️', 'man getting massage'],
+    ['emoji', '404', 'People & Body', 'person-activity', '💆\u200d♂️', 'man getting massage'],
     ['fully-qualified', '💆\u200d♂️', '4.0', 'man getting massage', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3628,7 +3637,7 @@ fusionados_1 = [
   ],
   [
     ['1F486', '200D', '2640', 'FE0F'],
-    ['emoji', '404', 'People & Body', 'person-activity', '💆\u200d♀️', 'woman getting massage'],
+    ['emoji', '405', 'People & Body', 'person-activity', '💆\u200d♀️', 'woman getting massage'],
     ['fully-qualified', '💆\u200d♀️', '4.0', 'woman getting massage', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3637,7 +3646,7 @@ fusionados_1 = [
   ],
   [
     ['1F487'],
-    ['emoji', '405', 'People & Body', 'person-activity', '💇', 'person getting haircut'],
+    ['emoji', '406', 'People & Body', 'person-activity', '💇', 'person getting haircut'],
     ['fully-qualified', '💇', '0.6', 'person getting haircut', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3646,7 +3655,7 @@ fusionados_1 = [
   ],
   [
     ['1F487', '200D', '2642', 'FE0F'],
-    ['emoji', '406', 'People & Body', 'person-activity', '💇\u200d♂️', 'man getting haircut'],
+    ['emoji', '407', 'People & Body', 'person-activity', '💇\u200d♂️', 'man getting haircut'],
     ['fully-qualified', '💇\u200d♂️', '4.0', 'man getting haircut', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3655,7 +3664,7 @@ fusionados_1 = [
   ],
   [
     ['1F487', '200D', '2640', 'FE0F'],
-    ['emoji', '407', 'People & Body', 'person-activity', '💇\u200d♀️', 'woman getting haircut'],
+    ['emoji', '408', 'People & Body', 'person-activity', '💇\u200d♀️', 'woman getting haircut'],
     ['fully-qualified', '💇\u200d♀️', '4.0', 'woman getting haircut', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3664,7 +3673,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6'],
-    ['emoji', '408', 'People & Body', 'person-activity', '🚶', 'person walking'],
+    ['emoji', '409', 'People & Body', 'person-activity', '🚶', 'person walking'],
     ['fully-qualified', '🚶', '0.6', 'person walking', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3673,7 +3682,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '200D', '2642', 'FE0F'],
-    ['emoji', '409', 'People & Body', 'person-activity', '🚶\u200d♂️', 'man walking'],
+    ['emoji', '410', 'People & Body', 'person-activity', '🚶\u200d♂️', 'man walking'],
     ['fully-qualified', '🚶\u200d♂️', '4.0', 'man walking', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3682,7 +3691,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '200D', '2640', 'FE0F'],
-    ['emoji', '410', 'People & Body', 'person-activity', '🚶\u200d♀️', 'woman walking'],
+    ['emoji', '411', 'People & Body', 'person-activity', '🚶\u200d♀️', 'woman walking'],
     ['fully-qualified', '🚶\u200d♀️', '4.0', 'woman walking', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3691,7 +3700,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '200D', '27A1', 'FE0F'],
-    ['emoji', '411', 'People & Body', 'person-activity', '🚶\u200d➡️', 'person walking facing right'],
+    ['emoji', '412', 'People & Body', 'person-activity', '🚶\u200d➡️', 'person walking facing right'],
     ['fully-qualified', '🚶\u200d➡️', '15.1', 'person walking facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3700,7 +3709,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji', '412', 'People & Body', 'person-activity', '🚶\u200d♀️\u200d➡️', 'woman walking facing right'],
+    ['emoji', '413', 'People & Body', 'person-activity', '🚶\u200d♀️\u200d➡️', 'woman walking facing right'],
     ['fully-qualified', '🚶\u200d♀️\u200d➡️', '15.1', 'woman walking facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3709,7 +3718,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji', '413', 'People & Body', 'person-activity', '🚶\u200d♂️\u200d➡️', 'man walking facing right'],
+    ['emoji', '414', 'People & Body', 'person-activity', '🚶\u200d♂️\u200d➡️', 'man walking facing right'],
     ['fully-qualified', '🚶\u200d♂️\u200d➡️', '15.1', 'man walking facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3718,7 +3727,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CD'],
-    ['emoji', '414', 'People & Body', 'person-activity', '🧍', 'person standing'],
+    ['emoji', '415', 'People & Body', 'person-activity', '🧍', 'person standing'],
     ['fully-qualified', '🧍', '12.0', 'person standing', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '12.0'],
     [],
@@ -3727,7 +3736,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CD', '200D', '2642', 'FE0F'],
-    ['emoji', '415', 'People & Body', 'person-activity', '🧍\u200d♂️', 'man standing'],
+    ['emoji', '416', 'People & Body', 'person-activity', '🧍\u200d♂️', 'man standing'],
     ['fully-qualified', '🧍\u200d♂️', '12.0', 'man standing', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3736,7 +3745,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CD', '200D', '2640', 'FE0F'],
-    ['emoji', '416', 'People & Body', 'person-activity', '🧍\u200d♀️', 'woman standing'],
+    ['emoji', '417', 'People & Body', 'person-activity', '🧍\u200d♀️', 'woman standing'],
     ['fully-qualified', '🧍\u200d♀️', '12.0', 'woman standing', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3745,7 +3754,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE'],
-    ['emoji', '417', 'People & Body', 'person-activity', '🧎', 'person kneeling'],
+    ['emoji', '418', 'People & Body', 'person-activity', '🧎', 'person kneeling'],
     ['fully-qualified', '🧎', '12.0', 'person kneeling', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '12.0'],
     [],
@@ -3754,7 +3763,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '200D', '2642', 'FE0F'],
-    ['emoji', '418', 'People & Body', 'person-activity', '🧎\u200d♂️', 'man kneeling'],
+    ['emoji', '419', 'People & Body', 'person-activity', '🧎\u200d♂️', 'man kneeling'],
     ['fully-qualified', '🧎\u200d♂️', '12.0', 'man kneeling', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3763,7 +3772,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '200D', '2640', 'FE0F'],
-    ['emoji', '419', 'People & Body', 'person-activity', '🧎\u200d♀️', 'woman kneeling'],
+    ['emoji', '420', 'People & Body', 'person-activity', '🧎\u200d♀️', 'woman kneeling'],
     ['fully-qualified', '🧎\u200d♀️', '12.0', 'woman kneeling', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3772,7 +3781,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '200D', '27A1', 'FE0F'],
-    ['emoji', '420', 'People & Body', 'person-activity', '🧎\u200d➡️', 'person kneeling facing right'],
+    ['emoji', '421', 'People & Body', 'person-activity', '🧎\u200d➡️', 'person kneeling facing right'],
     ['fully-qualified', '🧎\u200d➡️', '15.1', 'person kneeling facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3781,7 +3790,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji', '421', 'People & Body', 'person-activity', '🧎\u200d♀️\u200d➡️', 'woman kneeling facing right'],
+    ['emoji', '422', 'People & Body', 'person-activity', '🧎\u200d♀️\u200d➡️', 'woman kneeling facing right'],
     ['fully-qualified', '🧎\u200d♀️\u200d➡️', '15.1', 'woman kneeling facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3790,7 +3799,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji', '422', 'People & Body', 'person-activity', '🧎\u200d♂️\u200d➡️', 'man kneeling facing right'],
+    ['emoji', '423', 'People & Body', 'person-activity', '🧎\u200d♂️\u200d➡️', 'man kneeling facing right'],
     ['fully-qualified', '🧎\u200d♂️\u200d➡️', '15.1', 'man kneeling facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3799,7 +3808,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9AF'],
-    ['emoji', '423', 'People & Body', 'person-activity', '🧑\u200d🦯', 'person with white cane'],
+    ['emoji', '424', 'People & Body', 'person-activity', '🧑\u200d🦯', 'person with white cane'],
     ['fully-qualified', '🧑\u200d🦯', '12.1', 'person with white cane', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3808,7 +3817,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji', '424', 'People & Body', 'person-activity', '🧑\u200d🦯\u200d➡️', 'person with white cane facing right'],
+    ['emoji', '425', 'People & Body', 'person-activity', '🧑\u200d🦯\u200d➡️', 'person with white cane facing right'],
     ['fully-qualified', '🧑\u200d🦯\u200d➡️', '15.1', 'person with white cane facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3817,7 +3826,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9AF'],
-    ['emoji', '425', 'People & Body', 'person-activity', '👨\u200d🦯', 'man with white cane'],
+    ['emoji', '426', 'People & Body', 'person-activity', '👨\u200d🦯', 'man with white cane'],
     ['fully-qualified', '👨\u200d🦯', '12.0', 'man with white cane', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3826,7 +3835,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji', '426', 'People & Body', 'person-activity', '👨\u200d🦯\u200d➡️', 'man with white cane facing right'],
+    ['emoji', '427', 'People & Body', 'person-activity', '👨\u200d🦯\u200d➡️', 'man with white cane facing right'],
     ['fully-qualified', '👨\u200d🦯\u200d➡️', '15.1', 'man with white cane facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3835,7 +3844,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9AF'],
-    ['emoji', '427', 'People & Body', 'person-activity', '👩\u200d🦯', 'woman with white cane'],
+    ['emoji', '428', 'People & Body', 'person-activity', '👩\u200d🦯', 'woman with white cane'],
     ['fully-qualified', '👩\u200d🦯', '12.0', 'woman with white cane', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3844,7 +3853,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji', '428', 'People & Body', 'person-activity', '👩\u200d🦯\u200d➡️', 'woman with white cane facing right'],
+    ['emoji', '429', 'People & Body', 'person-activity', '👩\u200d🦯\u200d➡️', 'woman with white cane facing right'],
     ['fully-qualified', '👩\u200d🦯\u200d➡️', '15.1', 'woman with white cane facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3853,7 +3862,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9BC'],
-    ['emoji', '429', 'People & Body', 'person-activity', '🧑\u200d🦼', 'person in motorized wheelchair'],
+    ['emoji', '430', 'People & Body', 'person-activity', '🧑\u200d🦼', 'person in motorized wheelchair'],
     ['fully-qualified', '🧑\u200d🦼', '12.1', 'person in motorized wheelchair', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3862,7 +3871,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji', '430', 'People & Body', 'person-activity', '🧑\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right'],
+    ['emoji', '431', 'People & Body', 'person-activity', '🧑\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right'],
     ['fully-qualified', '🧑\u200d🦼\u200d➡️', '15.1', 'person in motorized wheelchair facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3871,7 +3880,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9BC'],
-    ['emoji', '431', 'People & Body', 'person-activity', '👨\u200d🦼', 'man in motorized wheelchair'],
+    ['emoji', '432', 'People & Body', 'person-activity', '👨\u200d🦼', 'man in motorized wheelchair'],
     ['fully-qualified', '👨\u200d🦼', '12.0', 'man in motorized wheelchair', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3880,7 +3889,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji', '432', 'People & Body', 'person-activity', '👨\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right'],
+    ['emoji', '433', 'People & Body', 'person-activity', '👨\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right'],
     ['fully-qualified', '👨\u200d🦼\u200d➡️', '15.1', 'man in motorized wheelchair facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3889,7 +3898,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9BC'],
-    ['emoji', '433', 'People & Body', 'person-activity', '👩\u200d🦼', 'woman in motorized wheelchair'],
+    ['emoji', '434', 'People & Body', 'person-activity', '👩\u200d🦼', 'woman in motorized wheelchair'],
     ['fully-qualified', '👩\u200d🦼', '12.0', 'woman in motorized wheelchair', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3898,7 +3907,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji', '434', 'People & Body', 'person-activity', '👩\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right'],
+    ['emoji', '435', 'People & Body', 'person-activity', '👩\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right'],
     ['fully-qualified', '👩\u200d🦼\u200d➡️', '15.1', 'woman in motorized wheelchair facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3907,7 +3916,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9BD'],
-    ['emoji', '435', 'People & Body', 'person-activity', '🧑\u200d🦽', 'person in manual wheelchair'],
+    ['emoji', '436', 'People & Body', 'person-activity', '🧑\u200d🦽', 'person in manual wheelchair'],
     ['fully-qualified', '🧑\u200d🦽', '12.1', 'person in manual wheelchair', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3916,7 +3925,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji', '436', 'People & Body', 'person-activity', '🧑\u200d🦽\u200d➡️', 'person in manual wheelchair facing right'],
+    ['emoji', '437', 'People & Body', 'person-activity', '🧑\u200d🦽\u200d➡️', 'person in manual wheelchair facing right'],
     ['fully-qualified', '🧑\u200d🦽\u200d➡️', '15.1', 'person in manual wheelchair facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3925,7 +3934,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9BD'],
-    ['emoji', '437', 'People & Body', 'person-activity', '👨\u200d🦽', 'man in manual wheelchair'],
+    ['emoji', '438', 'People & Body', 'person-activity', '👨\u200d🦽', 'man in manual wheelchair'],
     ['fully-qualified', '👨\u200d🦽', '12.0', 'man in manual wheelchair', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3934,7 +3943,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji', '438', 'People & Body', 'person-activity', '👨\u200d🦽\u200d➡️', 'man in manual wheelchair facing right'],
+    ['emoji', '439', 'People & Body', 'person-activity', '👨\u200d🦽\u200d➡️', 'man in manual wheelchair facing right'],
     ['fully-qualified', '👨\u200d🦽\u200d➡️', '15.1', 'man in manual wheelchair facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3943,7 +3952,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9BD'],
-    ['emoji', '439', 'People & Body', 'person-activity', '👩\u200d🦽', 'woman in manual wheelchair'],
+    ['emoji', '440', 'People & Body', 'person-activity', '👩\u200d🦽', 'woman in manual wheelchair'],
     ['fully-qualified', '👩\u200d🦽', '12.0', 'woman in manual wheelchair', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3952,7 +3961,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji', '440', 'People & Body', 'person-activity', '👩\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right'],
+    ['emoji', '441', 'People & Body', 'person-activity', '👩\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right'],
     ['fully-qualified', '👩\u200d🦽\u200d➡️', '15.1', 'woman in manual wheelchair facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3961,7 +3970,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3'],
-    ['emoji', '441', 'People & Body', 'person-activity', '🏃', 'person running'],
+    ['emoji', '442', 'People & Body', 'person-activity', '🏃', 'person running'],
     ['fully-qualified', '🏃', '0.6', 'person running', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -3970,7 +3979,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '200D', '2642', 'FE0F'],
-    ['emoji', '442', 'People & Body', 'person-activity', '🏃\u200d♂️', 'man running'],
+    ['emoji', '443', 'People & Body', 'person-activity', '🏃\u200d♂️', 'man running'],
     ['fully-qualified', '🏃\u200d♂️', '4.0', 'man running', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3979,7 +3988,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '200D', '2640', 'FE0F'],
-    ['emoji', '443', 'People & Body', 'person-activity', '🏃\u200d♀️', 'woman running'],
+    ['emoji', '444', 'People & Body', 'person-activity', '🏃\u200d♀️', 'woman running'],
     ['fully-qualified', '🏃\u200d♀️', '4.0', 'woman running', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3988,7 +3997,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '200D', '27A1', 'FE0F'],
-    ['emoji', '444', 'People & Body', 'person-activity', '🏃\u200d➡️', 'person running facing right'],
+    ['emoji', '445', 'People & Body', 'person-activity', '🏃\u200d➡️', 'person running facing right'],
     ['fully-qualified', '🏃\u200d➡️', '15.1', 'person running facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -3997,7 +4006,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji', '445', 'People & Body', 'person-activity', '🏃\u200d♀️\u200d➡️', 'woman running facing right'],
+    ['emoji', '446', 'People & Body', 'person-activity', '🏃\u200d♀️\u200d➡️', 'woman running facing right'],
     ['fully-qualified', '🏃\u200d♀️\u200d➡️', '15.1', 'woman running facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -4006,7 +4015,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji', '446', 'People & Body', 'person-activity', '🏃\u200d♂️\u200d➡️', 'man running facing right'],
+    ['emoji', '447', 'People & Body', 'person-activity', '🏃\u200d♂️\u200d➡️', 'man running facing right'],
     ['fully-qualified', '🏃\u200d♂️\u200d➡️', '15.1', 'man running facing right', 'People & Body', 'person-activity'],
     [],
     [],
@@ -4015,7 +4024,7 @@ fusionados_1 = [
   ],
   [
     ['1F483'],
-    ['emoji', '447', 'People & Body', 'person-activity', '💃', 'woman dancing'],
+    ['emoji', '448', 'People & Body', 'person-activity', '💃', 'woman dancing'],
     ['fully-qualified', '💃', '0.6', 'woman dancing', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4024,7 +4033,7 @@ fusionados_1 = [
   ],
   [
     ['1F57A'],
-    ['emoji', '448', 'People & Body', 'person-activity', '🕺', 'man dancing'],
+    ['emoji', '449', 'People & Body', 'person-activity', '🕺', 'man dancing'],
     ['fully-qualified', '🕺', '3.0', 'man dancing', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -4033,7 +4042,7 @@ fusionados_1 = [
   ],
   [
     ['1F574'],
-    ['emoji', '449', 'People & Body', 'person-activity', '🕴', 'person in suit levitating'],
+    ['emoji', '450', 'People & Body', 'person-activity', '🕴', 'person in suit levitating'],
     ['unqualified', '🕴', '0.7', 'person in suit levitating', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.7'],
     [],
@@ -4042,7 +4051,7 @@ fusionados_1 = [
   ],
   [
     ['1F46F'],
-    ['emoji', '450', 'People & Body', 'person-activity', '👯', 'people with bunny ears'],
+    ['emoji', '451', 'People & Body', 'person-activity', '👯', 'people with bunny ears'],
     ['fully-qualified', '👯', '0.6', 'people with bunny ears', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4051,7 +4060,7 @@ fusionados_1 = [
   ],
   [
     ['1F46F', '200D', '2642', 'FE0F'],
-    ['emoji', '451', 'People & Body', 'person-activity', '👯\u200d♂️', 'men with bunny ears'],
+    ['emoji', '452', 'People & Body', 'person-activity', '👯\u200d♂️', 'men with bunny ears'],
     ['fully-qualified', '👯\u200d♂️', '4.0', 'men with bunny ears', 'People & Body', 'person-activity'],
     [],
     [],
@@ -4060,7 +4069,7 @@ fusionados_1 = [
   ],
   [
     ['1F46F', '200D', '2640', 'FE0F'],
-    ['emoji', '452', 'People & Body', 'person-activity', '👯\u200d♀️', 'women with bunny ears'],
+    ['emoji', '453', 'People & Body', 'person-activity', '👯\u200d♀️', 'women with bunny ears'],
     ['fully-qualified', '👯\u200d♀️', '4.0', 'women with bunny ears', 'People & Body', 'person-activity'],
     [],
     [],
@@ -4069,7 +4078,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D6'],
-    ['emoji', '453', 'People & Body', 'person-activity', '🧖', 'person in steamy room'],
+    ['emoji', '454', 'People & Body', 'person-activity', '🧖', 'person in steamy room'],
     ['fully-qualified', '🧖', '5.0', 'person in steamy room', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -4078,7 +4087,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D6', '200D', '2642', 'FE0F'],
-    ['emoji', '454', 'People & Body', 'person-activity', '🧖\u200d♂️', 'man in steamy room'],
+    ['emoji', '455', 'People & Body', 'person-activity', '🧖\u200d♂️', 'man in steamy room'],
     ['fully-qualified', '🧖\u200d♂️', '5.0', 'man in steamy room', 'People & Body', 'person-activity'],
     [],
     [],
@@ -4087,7 +4096,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D6', '200D', '2640', 'FE0F'],
-    ['emoji', '455', 'People & Body', 'person-activity', '🧖\u200d♀️', 'woman in steamy room'],
+    ['emoji', '456', 'People & Body', 'person-activity', '🧖\u200d♀️', 'woman in steamy room'],
     ['fully-qualified', '🧖\u200d♀️', '5.0', 'woman in steamy room', 'People & Body', 'person-activity'],
     [],
     [],
@@ -4096,7 +4105,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D7'],
-    ['emoji', '456', 'People & Body', 'person-activity', '🧗', 'person climbing'],
+    ['emoji', '457', 'People & Body', 'person-activity', '🧗', 'person climbing'],
     ['fully-qualified', '🧗', '5.0', 'person climbing', 'People & Body', 'person-activity'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -4105,7 +4114,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D7', '200D', '2642', 'FE0F'],
-    ['emoji', '457', 'People & Body', 'person-activity', '🧗\u200d♂️', 'man climbing'],
+    ['emoji', '458', 'People & Body', 'person-activity', '🧗\u200d♂️', 'man climbing'],
     ['fully-qualified', '🧗\u200d♂️', '5.0', 'man climbing', 'People & Body', 'person-activity'],
     [],
     [],
@@ -4114,7 +4123,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D7', '200D', '2640', 'FE0F'],
-    ['emoji', '458', 'People & Body', 'person-activity', '🧗\u200d♀️', 'woman climbing'],
+    ['emoji', '459', 'People & Body', 'person-activity', '🧗\u200d♀️', 'woman climbing'],
     ['fully-qualified', '🧗\u200d♀️', '5.0', 'woman climbing', 'People & Body', 'person-activity'],
     [],
     [],
@@ -4123,7 +4132,7 @@ fusionados_1 = [
   ],
   [
     ['1F93A'],
-    ['emoji', '459', 'People & Body', 'person-sport', '🤺', 'person fencing'],
+    ['emoji', '460', 'People & Body', 'person-sport', '🤺', 'person fencing'],
     ['fully-qualified', '🤺', '3.0', 'person fencing', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -4132,7 +4141,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C7'],
-    ['emoji', '460', 'People & Body', 'person-sport', '🏇', 'horse racing'],
+    ['emoji', '461', 'People & Body', 'person-sport', '🏇', 'horse racing'],
     ['fully-qualified', '🏇', '1.0', 'horse racing', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -4141,7 +4150,7 @@ fusionados_1 = [
   ],
   [
     ['26F7'],
-    ['emoji', '461', 'People & Body', 'person-sport', '⛷', 'skier'],
+    ['emoji', '462', 'People & Body', 'person-sport', '⛷', 'skier'],
     ['unqualified', '⛷', '0.7', 'skier', 'People & Body', 'person-sport'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -4150,7 +4159,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C2'],
-    ['emoji', '462', 'People & Body', 'person-sport', '🏂', 'snowboarder'],
+    ['emoji', '463', 'People & Body', 'person-sport', '🏂', 'snowboarder'],
     ['fully-qualified', '🏂', '0.6', 'snowboarder', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4159,7 +4168,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CC'],
-    ['emoji', '463', 'People & Body', 'person-sport', '🏌', 'person golfing'],
+    ['emoji', '464', 'People & Body', 'person-sport', '🏌', 'person golfing'],
     ['unqualified', '🏌', '0.7', 'person golfing', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.7'],
     [],
@@ -4168,7 +4177,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CC', 'FE0F', '200D', '2642', 'FE0F'],
-    ['emoji', '464', 'People & Body', 'person-sport', '🏌️\u200d♂️', 'man golfing'],
+    ['emoji', '465', 'People & Body', 'person-sport', '🏌️\u200d♂️', 'man golfing'],
     ['fully-qualified', '🏌️\u200d♂️', '4.0', 'man golfing', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4177,7 +4186,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CC', 'FE0F', '200D', '2640', 'FE0F'],
-    ['emoji', '465', 'People & Body', 'person-sport', '🏌️\u200d♀️', 'woman golfing'],
+    ['emoji', '466', 'People & Body', 'person-sport', '🏌️\u200d♀️', 'woman golfing'],
     ['fully-qualified', '🏌️\u200d♀️', '4.0', 'woman golfing', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4186,7 +4195,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C4'],
-    ['emoji', '466', 'People & Body', 'person-sport', '🏄', 'person surfing'],
+    ['emoji', '467', 'People & Body', 'person-sport', '🏄', 'person surfing'],
     ['fully-qualified', '🏄', '0.6', 'person surfing', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4195,7 +4204,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C4', '200D', '2642', 'FE0F'],
-    ['emoji', '467', 'People & Body', 'person-sport', '🏄\u200d♂️', 'man surfing'],
+    ['emoji', '468', 'People & Body', 'person-sport', '🏄\u200d♂️', 'man surfing'],
     ['fully-qualified', '🏄\u200d♂️', '4.0', 'man surfing', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4204,7 +4213,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C4', '200D', '2640', 'FE0F'],
-    ['emoji', '468', 'People & Body', 'person-sport', '🏄\u200d♀️', 'woman surfing'],
+    ['emoji', '469', 'People & Body', 'person-sport', '🏄\u200d♀️', 'woman surfing'],
     ['fully-qualified', '🏄\u200d♀️', '4.0', 'woman surfing', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4213,7 +4222,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A3'],
-    ['emoji', '469', 'People & Body', 'person-sport', '🚣', 'person rowing boat'],
+    ['emoji', '470', 'People & Body', 'person-sport', '🚣', 'person rowing boat'],
     ['fully-qualified', '🚣', '1.0', 'person rowing boat', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -4222,7 +4231,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A3', '200D', '2642', 'FE0F'],
-    ['emoji', '470', 'People & Body', 'person-sport', '🚣\u200d♂️', 'man rowing boat'],
+    ['emoji', '471', 'People & Body', 'person-sport', '🚣\u200d♂️', 'man rowing boat'],
     ['fully-qualified', '🚣\u200d♂️', '4.0', 'man rowing boat', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4231,7 +4240,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A3', '200D', '2640', 'FE0F'],
-    ['emoji', '471', 'People & Body', 'person-sport', '🚣\u200d♀️', 'woman rowing boat'],
+    ['emoji', '472', 'People & Body', 'person-sport', '🚣\u200d♀️', 'woman rowing boat'],
     ['fully-qualified', '🚣\u200d♀️', '4.0', 'woman rowing boat', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4240,7 +4249,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CA'],
-    ['emoji', '472', 'People & Body', 'person-sport', '🏊', 'person swimming'],
+    ['emoji', '473', 'People & Body', 'person-sport', '🏊', 'person swimming'],
     ['fully-qualified', '🏊', '0.6', 'person swimming', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4249,7 +4258,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CA', '200D', '2642', 'FE0F'],
-    ['emoji', '473', 'People & Body', 'person-sport', '🏊\u200d♂️', 'man swimming'],
+    ['emoji', '474', 'People & Body', 'person-sport', '🏊\u200d♂️', 'man swimming'],
     ['fully-qualified', '🏊\u200d♂️', '4.0', 'man swimming', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4258,7 +4267,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CA', '200D', '2640', 'FE0F'],
-    ['emoji', '474', 'People & Body', 'person-sport', '🏊\u200d♀️', 'woman swimming'],
+    ['emoji', '475', 'People & Body', 'person-sport', '🏊\u200d♀️', 'woman swimming'],
     ['fully-qualified', '🏊\u200d♀️', '4.0', 'woman swimming', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4267,7 +4276,7 @@ fusionados_1 = [
   ],
   [
     ['26F9'],
-    ['emoji', '475', 'People & Body', 'person-sport', '⛹', 'person bouncing ball'],
+    ['emoji', '476', 'People & Body', 'person-sport', '⛹', 'person bouncing ball'],
     ['unqualified', '⛹', '0.7', 'person bouncing ball', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.7'],
     [],
@@ -4276,7 +4285,7 @@ fusionados_1 = [
   ],
   [
     ['26F9', 'FE0F', '200D', '2642', 'FE0F'],
-    ['emoji', '476', 'People & Body', 'person-sport', '⛹️\u200d♂️', 'man bouncing ball'],
+    ['emoji', '477', 'People & Body', 'person-sport', '⛹️\u200d♂️', 'man bouncing ball'],
     ['fully-qualified', '⛹️\u200d♂️', '4.0', 'man bouncing ball', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4285,7 +4294,7 @@ fusionados_1 = [
   ],
   [
     ['26F9', 'FE0F', '200D', '2640', 'FE0F'],
-    ['emoji', '477', 'People & Body', 'person-sport', '⛹️\u200d♀️', 'woman bouncing ball'],
+    ['emoji', '478', 'People & Body', 'person-sport', '⛹️\u200d♀️', 'woman bouncing ball'],
     ['fully-qualified', '⛹️\u200d♀️', '4.0', 'woman bouncing ball', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4294,7 +4303,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CB'],
-    ['emoji', '478', 'People & Body', 'person-sport', '🏋', 'person lifting weights'],
+    ['emoji', '479', 'People & Body', 'person-sport', '🏋', 'person lifting weights'],
     ['unqualified', '🏋', '0.7', 'person lifting weights', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.7'],
     [],
@@ -4303,7 +4312,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CB', 'FE0F', '200D', '2642', 'FE0F'],
-    ['emoji', '479', 'People & Body', 'person-sport', '🏋️\u200d♂️', 'man lifting weights'],
+    ['emoji', '480', 'People & Body', 'person-sport', '🏋️\u200d♂️', 'man lifting weights'],
     ['fully-qualified', '🏋️\u200d♂️', '4.0', 'man lifting weights', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4312,7 +4321,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CB', 'FE0F', '200D', '2640', 'FE0F'],
-    ['emoji', '480', 'People & Body', 'person-sport', '🏋️\u200d♀️', 'woman lifting weights'],
+    ['emoji', '481', 'People & Body', 'person-sport', '🏋️\u200d♀️', 'woman lifting weights'],
     ['fully-qualified', '🏋️\u200d♀️', '4.0', 'woman lifting weights', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4321,7 +4330,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B4'],
-    ['emoji', '481', 'People & Body', 'person-sport', '🚴', 'person biking'],
+    ['emoji', '482', 'People & Body', 'person-sport', '🚴', 'person biking'],
     ['fully-qualified', '🚴', '1.0', 'person biking', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -4330,7 +4339,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B4', '200D', '2642', 'FE0F'],
-    ['emoji', '482', 'People & Body', 'person-sport', '🚴\u200d♂️', 'man biking'],
+    ['emoji', '483', 'People & Body', 'person-sport', '🚴\u200d♂️', 'man biking'],
     ['fully-qualified', '🚴\u200d♂️', '4.0', 'man biking', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4339,7 +4348,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B4', '200D', '2640', 'FE0F'],
-    ['emoji', '483', 'People & Body', 'person-sport', '🚴\u200d♀️', 'woman biking'],
+    ['emoji', '484', 'People & Body', 'person-sport', '🚴\u200d♀️', 'woman biking'],
     ['fully-qualified', '🚴\u200d♀️', '4.0', 'woman biking', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4348,7 +4357,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B5'],
-    ['emoji', '484', 'People & Body', 'person-sport', '🚵', 'person mountain biking'],
+    ['emoji', '485', 'People & Body', 'person-sport', '🚵', 'person mountain biking'],
     ['fully-qualified', '🚵', '1.0', 'person mountain biking', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -4357,7 +4366,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B5', '200D', '2642', 'FE0F'],
-    ['emoji', '485', 'People & Body', 'person-sport', '🚵\u200d♂️', 'man mountain biking'],
+    ['emoji', '486', 'People & Body', 'person-sport', '🚵\u200d♂️', 'man mountain biking'],
     ['fully-qualified', '🚵\u200d♂️', '4.0', 'man mountain biking', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4366,7 +4375,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B5', '200D', '2640', 'FE0F'],
-    ['emoji', '486', 'People & Body', 'person-sport', '🚵\u200d♀️', 'woman mountain biking'],
+    ['emoji', '487', 'People & Body', 'person-sport', '🚵\u200d♀️', 'woman mountain biking'],
     ['fully-qualified', '🚵\u200d♀️', '4.0', 'woman mountain biking', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4375,7 +4384,7 @@ fusionados_1 = [
   ],
   [
     ['1F938'],
-    ['emoji', '487', 'People & Body', 'person-sport', '🤸', 'person cartwheeling'],
+    ['emoji', '488', 'People & Body', 'person-sport', '🤸', 'person cartwheeling'],
     ['fully-qualified', '🤸', '3.0', 'person cartwheeling', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -4384,7 +4393,7 @@ fusionados_1 = [
   ],
   [
     ['1F938', '200D', '2642', 'FE0F'],
-    ['emoji', '488', 'People & Body', 'person-sport', '🤸\u200d♂️', 'man cartwheeling'],
+    ['emoji', '489', 'People & Body', 'person-sport', '🤸\u200d♂️', 'man cartwheeling'],
     ['fully-qualified', '🤸\u200d♂️', '4.0', 'man cartwheeling', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4393,7 +4402,7 @@ fusionados_1 = [
   ],
   [
     ['1F938', '200D', '2640', 'FE0F'],
-    ['emoji', '489', 'People & Body', 'person-sport', '🤸\u200d♀️', 'woman cartwheeling'],
+    ['emoji', '490', 'People & Body', 'person-sport', '🤸\u200d♀️', 'woman cartwheeling'],
     ['fully-qualified', '🤸\u200d♀️', '4.0', 'woman cartwheeling', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4402,7 +4411,7 @@ fusionados_1 = [
   ],
   [
     ['1F93C'],
-    ['emoji', '490', 'People & Body', 'person-sport', '🤼', 'people wrestling'],
+    ['emoji', '491', 'People & Body', 'person-sport', '🤼', 'people wrestling'],
     ['fully-qualified', '🤼', '3.0', 'people wrestling', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -4411,7 +4420,7 @@ fusionados_1 = [
   ],
   [
     ['1F93C', '200D', '2642', 'FE0F'],
-    ['emoji', '491', 'People & Body', 'person-sport', '🤼\u200d♂️', 'men wrestling'],
+    ['emoji', '492', 'People & Body', 'person-sport', '🤼\u200d♂️', 'men wrestling'],
     ['fully-qualified', '🤼\u200d♂️', '4.0', 'men wrestling', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4420,7 +4429,7 @@ fusionados_1 = [
   ],
   [
     ['1F93C', '200D', '2640', 'FE0F'],
-    ['emoji', '492', 'People & Body', 'person-sport', '🤼\u200d♀️', 'women wrestling'],
+    ['emoji', '493', 'People & Body', 'person-sport', '🤼\u200d♀️', 'women wrestling'],
     ['fully-qualified', '🤼\u200d♀️', '4.0', 'women wrestling', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4429,7 +4438,7 @@ fusionados_1 = [
   ],
   [
     ['1F93D'],
-    ['emoji', '493', 'People & Body', 'person-sport', '🤽', 'person playing water polo'],
+    ['emoji', '494', 'People & Body', 'person-sport', '🤽', 'person playing water polo'],
     ['fully-qualified', '🤽', '3.0', 'person playing water polo', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -4438,7 +4447,7 @@ fusionados_1 = [
   ],
   [
     ['1F93D', '200D', '2642', 'FE0F'],
-    ['emoji', '494', 'People & Body', 'person-sport', '🤽\u200d♂️', 'man playing water polo'],
+    ['emoji', '495', 'People & Body', 'person-sport', '🤽\u200d♂️', 'man playing water polo'],
     ['fully-qualified', '🤽\u200d♂️', '4.0', 'man playing water polo', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4447,7 +4456,7 @@ fusionados_1 = [
   ],
   [
     ['1F93D', '200D', '2640', 'FE0F'],
-    ['emoji', '495', 'People & Body', 'person-sport', '🤽\u200d♀️', 'woman playing water polo'],
+    ['emoji', '496', 'People & Body', 'person-sport', '🤽\u200d♀️', 'woman playing water polo'],
     ['fully-qualified', '🤽\u200d♀️', '4.0', 'woman playing water polo', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4456,7 +4465,7 @@ fusionados_1 = [
   ],
   [
     ['1F93E'],
-    ['emoji', '496', 'People & Body', 'person-sport', '🤾', 'person playing handball'],
+    ['emoji', '497', 'People & Body', 'person-sport', '🤾', 'person playing handball'],
     ['fully-qualified', '🤾', '3.0', 'person playing handball', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -4465,7 +4474,7 @@ fusionados_1 = [
   ],
   [
     ['1F93E', '200D', '2642', 'FE0F'],
-    ['emoji', '497', 'People & Body', 'person-sport', '🤾\u200d♂️', 'man playing handball'],
+    ['emoji', '498', 'People & Body', 'person-sport', '🤾\u200d♂️', 'man playing handball'],
     ['fully-qualified', '🤾\u200d♂️', '4.0', 'man playing handball', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4474,7 +4483,7 @@ fusionados_1 = [
   ],
   [
     ['1F93E', '200D', '2640', 'FE0F'],
-    ['emoji', '498', 'People & Body', 'person-sport', '🤾\u200d♀️', 'woman playing handball'],
+    ['emoji', '499', 'People & Body', 'person-sport', '🤾\u200d♀️', 'woman playing handball'],
     ['fully-qualified', '🤾\u200d♀️', '4.0', 'woman playing handball', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4483,7 +4492,7 @@ fusionados_1 = [
   ],
   [
     ['1F939'],
-    ['emoji', '499', 'People & Body', 'person-sport', '🤹', 'person juggling'],
+    ['emoji', '500', 'People & Body', 'person-sport', '🤹', 'person juggling'],
     ['fully-qualified', '🤹', '3.0', 'person juggling', 'People & Body', 'person-sport'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '3.0'],
     [],
@@ -4492,7 +4501,7 @@ fusionados_1 = [
   ],
   [
     ['1F939', '200D', '2642', 'FE0F'],
-    ['emoji', '500', 'People & Body', 'person-sport', '🤹\u200d♂️', 'man juggling'],
+    ['emoji', '501', 'People & Body', 'person-sport', '🤹\u200d♂️', 'man juggling'],
     ['fully-qualified', '🤹\u200d♂️', '4.0', 'man juggling', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4501,7 +4510,7 @@ fusionados_1 = [
   ],
   [
     ['1F939', '200D', '2640', 'FE0F'],
-    ['emoji', '501', 'People & Body', 'person-sport', '🤹\u200d♀️', 'woman juggling'],
+    ['emoji', '502', 'People & Body', 'person-sport', '🤹\u200d♀️', 'woman juggling'],
     ['fully-qualified', '🤹\u200d♀️', '4.0', 'woman juggling', 'People & Body', 'person-sport'],
     [],
     [],
@@ -4510,7 +4519,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D8'],
-    ['emoji', '502', 'People & Body', 'person-resting', '🧘', 'person in lotus position'],
+    ['emoji', '503', 'People & Body', 'person-resting', '🧘', 'person in lotus position'],
     ['fully-qualified', '🧘', '5.0', 'person in lotus position', 'People & Body', 'person-resting'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '5.0'],
     [],
@@ -4519,7 +4528,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D8', '200D', '2642', 'FE0F'],
-    ['emoji', '503', 'People & Body', 'person-resting', '🧘\u200d♂️', 'man in lotus position'],
+    ['emoji', '504', 'People & Body', 'person-resting', '🧘\u200d♂️', 'man in lotus position'],
     ['fully-qualified', '🧘\u200d♂️', '5.0', 'man in lotus position', 'People & Body', 'person-resting'],
     [],
     [],
@@ -4528,7 +4537,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D8', '200D', '2640', 'FE0F'],
-    ['emoji', '504', 'People & Body', 'person-resting', '🧘\u200d♀️', 'woman in lotus position'],
+    ['emoji', '505', 'People & Body', 'person-resting', '🧘\u200d♀️', 'woman in lotus position'],
     ['fully-qualified', '🧘\u200d♀️', '5.0', 'woman in lotus position', 'People & Body', 'person-resting'],
     [],
     [],
@@ -4537,7 +4546,7 @@ fusionados_1 = [
   ],
   [
     ['1F6C0'],
-    ['emoji', '505', 'People & Body', 'person-resting', '🛀', 'person taking bath'],
+    ['emoji', '506', 'People & Body', 'person-resting', '🛀', 'person taking bath'],
     ['fully-qualified', '🛀', '0.6', 'person taking bath', 'People & Body', 'person-resting'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4546,7 +4555,7 @@ fusionados_1 = [
   ],
   [
     ['1F6CC'],
-    ['emoji', '506', 'People & Body', 'person-resting', '🛌', 'person in bed'],
+    ['emoji', '507', 'People & Body', 'person-resting', '🛌', 'person in bed'],
     ['fully-qualified', '🛌', '1.0', 'person in bed', 'People & Body', 'person-resting'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -4555,7 +4564,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F91D', '200D', '1F9D1'],
-    ['emoji', '507', 'People & Body', 'family', '🧑\u200d🤝\u200d🧑', 'people holding hands'],
+    ['emoji', '508', 'People & Body', 'family', '🧑\u200d🤝\u200d🧑', 'people holding hands'],
     ['fully-qualified', '🧑\u200d🤝\u200d🧑', '12.0', 'people holding hands', 'People & Body', 'family'],
     [],
     [],
@@ -4564,7 +4573,7 @@ fusionados_1 = [
   ],
   [
     ['1F46D'],
-    ['emoji', '508', 'People & Body', 'family', '👭', 'women holding hands'],
+    ['emoji', '509', 'People & Body', 'family', '👭', 'women holding hands'],
     ['fully-qualified', '👭', '1.0', 'women holding hands', 'People & Body', 'family'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -4573,7 +4582,7 @@ fusionados_1 = [
   ],
   [
     ['1F46B'],
-    ['emoji', '509', 'People & Body', 'family', '👫', 'woman and man holding hands'],
+    ['emoji', '510', 'People & Body', 'family', '👫', 'woman and man holding hands'],
     ['fully-qualified', '👫', '0.6', 'woman and man holding hands', 'People & Body', 'family'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4582,7 +4591,7 @@ fusionados_1 = [
   ],
   [
     ['1F46C'],
-    ['emoji', '510', 'People & Body', 'family', '👬', 'men holding hands'],
+    ['emoji', '511', 'People & Body', 'family', '👬', 'men holding hands'],
     ['fully-qualified', '👬', '1.0', 'men holding hands', 'People & Body', 'family'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '1.0'],
     [],
@@ -4591,7 +4600,7 @@ fusionados_1 = [
   ],
   [
     ['1F48F'],
-    ['emoji', '511', 'People & Body', 'family', '💏', 'kiss'],
+    ['emoji', '512', 'People & Body', 'family', '💏', 'kiss'],
     ['fully-qualified', '💏', '0.6', 'kiss', 'People & Body', 'family'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4600,7 +4609,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468'],
-    ['emoji', '512', 'People & Body', 'family', '👩\u200d❤️\u200d💋\u200d👨', 'kiss: woman, man'],
+    ['emoji', '513', 'People & Body', 'family', '👩\u200d❤️\u200d💋\u200d👨', 'kiss: woman, man'],
     ['fully-qualified', '👩\u200d❤️\u200d💋\u200d👨', '2.0', 'kiss: woman, man', 'People & Body', 'family'],
     [],
     [],
@@ -4609,7 +4618,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468'],
-    ['emoji', '513', 'People & Body', 'family', '👨\u200d❤️\u200d💋\u200d👨', 'kiss: man, man'],
+    ['emoji', '514', 'People & Body', 'family', '👨\u200d❤️\u200d💋\u200d👨', 'kiss: man, man'],
     ['fully-qualified', '👨\u200d❤️\u200d💋\u200d👨', '2.0', 'kiss: man, man', 'People & Body', 'family'],
     [],
     [],
@@ -4618,7 +4627,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469'],
-    ['emoji', '514', 'People & Body', 'family', '👩\u200d❤️\u200d💋\u200d👩', 'kiss: woman, woman'],
+    ['emoji', '515', 'People & Body', 'family', '👩\u200d❤️\u200d💋\u200d👩', 'kiss: woman, woman'],
     ['fully-qualified', '👩\u200d❤️\u200d💋\u200d👩', '2.0', 'kiss: woman, woman', 'People & Body', 'family'],
     [],
     [],
@@ -4627,7 +4636,7 @@ fusionados_1 = [
   ],
   [
     ['1F491'],
-    ['emoji', '515', 'People & Body', 'family', '💑', 'couple with heart'],
+    ['emoji', '516', 'People & Body', 'family', '💑', 'couple with heart'],
     ['fully-qualified', '💑', '0.6', 'couple with heart', 'People & Body', 'family'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4636,7 +4645,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '2764', 'FE0F', '200D', '1F468'],
-    ['emoji', '516', 'People & Body', 'family', '👩\u200d❤️\u200d👨', 'couple with heart: woman, man'],
+    ['emoji', '517', 'People & Body', 'family', '👩\u200d❤️\u200d👨', 'couple with heart: woman, man'],
     ['fully-qualified', '👩\u200d❤️\u200d👨', '2.0', 'couple with heart: woman, man', 'People & Body', 'family'],
     [],
     [],
@@ -4645,7 +4654,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '2764', 'FE0F', '200D', '1F468'],
-    ['emoji', '517', 'People & Body', 'family', '👨\u200d❤️\u200d👨', 'couple with heart: man, man'],
+    ['emoji', '518', 'People & Body', 'family', '👨\u200d❤️\u200d👨', 'couple with heart: man, man'],
     ['fully-qualified', '👨\u200d❤️\u200d👨', '2.0', 'couple with heart: man, man', 'People & Body', 'family'],
     [],
     [],
@@ -4654,7 +4663,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '2764', 'FE0F', '200D', '1F469'],
-    ['emoji', '518', 'People & Body', 'family', '👩\u200d❤️\u200d👩', 'couple with heart: woman, woman'],
+    ['emoji', '519', 'People & Body', 'family', '👩\u200d❤️\u200d👩', 'couple with heart: woman, woman'],
     ['fully-qualified', '👩\u200d❤️\u200d👩', '2.0', 'couple with heart: woman, woman', 'People & Body', 'family'],
     [],
     [],
@@ -4663,7 +4672,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F469', '200D', '1F466'],
-    ['emoji', '519', 'People & Body', 'family', '👨\u200d👩\u200d👦', 'family: man, woman, boy'],
+    ['emoji', '520', 'People & Body', 'family', '👨\u200d👩\u200d👦', 'family: man, woman, boy'],
     ['fully-qualified', '👨\u200d👩\u200d👦', '2.0', 'family: man, woman, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4672,7 +4681,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F469', '200D', '1F467'],
-    ['emoji', '520', 'People & Body', 'family', '👨\u200d👩\u200d👧', 'family: man, woman, girl'],
+    ['emoji', '521', 'People & Body', 'family', '👨\u200d👩\u200d👧', 'family: man, woman, girl'],
     ['fully-qualified', '👨\u200d👩\u200d👧', '2.0', 'family: man, woman, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4681,7 +4690,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F469', '200D', '1F467', '200D', '1F466'],
-    ['emoji', '521', 'People & Body', 'family', '👨\u200d👩\u200d👧\u200d👦', 'family: man, woman, girl, boy'],
+    ['emoji', '522', 'People & Body', 'family', '👨\u200d👩\u200d👧\u200d👦', 'family: man, woman, girl, boy'],
     ['fully-qualified', '👨\u200d👩\u200d👧\u200d👦', '2.0', 'family: man, woman, girl, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4690,7 +4699,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F469', '200D', '1F466', '200D', '1F466'],
-    ['emoji', '522', 'People & Body', 'family', '👨\u200d👩\u200d👦\u200d👦', 'family: man, woman, boy, boy'],
+    ['emoji', '523', 'People & Body', 'family', '👨\u200d👩\u200d👦\u200d👦', 'family: man, woman, boy, boy'],
     ['fully-qualified', '👨\u200d👩\u200d👦\u200d👦', '2.0', 'family: man, woman, boy, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4699,7 +4708,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F469', '200D', '1F467', '200D', '1F467'],
-    ['emoji', '523', 'People & Body', 'family', '👨\u200d👩\u200d👧\u200d👧', 'family: man, woman, girl, girl'],
+    ['emoji', '524', 'People & Body', 'family', '👨\u200d👩\u200d👧\u200d👧', 'family: man, woman, girl, girl'],
     ['fully-qualified', '👨\u200d👩\u200d👧\u200d👧', '2.0', 'family: man, woman, girl, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4708,7 +4717,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F468', '200D', '1F466'],
-    ['emoji', '524', 'People & Body', 'family', '👨\u200d👨\u200d👦', 'family: man, man, boy'],
+    ['emoji', '525', 'People & Body', 'family', '👨\u200d👨\u200d👦', 'family: man, man, boy'],
     ['fully-qualified', '👨\u200d👨\u200d👦', '2.0', 'family: man, man, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4717,7 +4726,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F468', '200D', '1F467'],
-    ['emoji', '525', 'People & Body', 'family', '👨\u200d👨\u200d👧', 'family: man, man, girl'],
+    ['emoji', '526', 'People & Body', 'family', '👨\u200d👨\u200d👧', 'family: man, man, girl'],
     ['fully-qualified', '👨\u200d👨\u200d👧', '2.0', 'family: man, man, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4726,7 +4735,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F468', '200D', '1F467', '200D', '1F466'],
-    ['emoji', '526', 'People & Body', 'family', '👨\u200d👨\u200d👧\u200d👦', 'family: man, man, girl, boy'],
+    ['emoji', '527', 'People & Body', 'family', '👨\u200d👨\u200d👧\u200d👦', 'family: man, man, girl, boy'],
     ['fully-qualified', '👨\u200d👨\u200d👧\u200d👦', '2.0', 'family: man, man, girl, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4735,7 +4744,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F468', '200D', '1F466', '200D', '1F466'],
-    ['emoji', '527', 'People & Body', 'family', '👨\u200d👨\u200d👦\u200d👦', 'family: man, man, boy, boy'],
+    ['emoji', '528', 'People & Body', 'family', '👨\u200d👨\u200d👦\u200d👦', 'family: man, man, boy, boy'],
     ['fully-qualified', '👨\u200d👨\u200d👦\u200d👦', '2.0', 'family: man, man, boy, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4744,7 +4753,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F468', '200D', '1F467', '200D', '1F467'],
-    ['emoji', '528', 'People & Body', 'family', '👨\u200d👨\u200d👧\u200d👧', 'family: man, man, girl, girl'],
+    ['emoji', '529', 'People & Body', 'family', '👨\u200d👨\u200d👧\u200d👧', 'family: man, man, girl, girl'],
     ['fully-qualified', '👨\u200d👨\u200d👧\u200d👧', '2.0', 'family: man, man, girl, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4753,7 +4762,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F469', '200D', '1F466'],
-    ['emoji', '529', 'People & Body', 'family', '👩\u200d👩\u200d👦', 'family: woman, woman, boy'],
+    ['emoji', '530', 'People & Body', 'family', '👩\u200d👩\u200d👦', 'family: woman, woman, boy'],
     ['fully-qualified', '👩\u200d👩\u200d👦', '2.0', 'family: woman, woman, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4762,7 +4771,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F469', '200D', '1F467'],
-    ['emoji', '530', 'People & Body', 'family', '👩\u200d👩\u200d👧', 'family: woman, woman, girl'],
+    ['emoji', '531', 'People & Body', 'family', '👩\u200d👩\u200d👧', 'family: woman, woman, girl'],
     ['fully-qualified', '👩\u200d👩\u200d👧', '2.0', 'family: woman, woman, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4771,7 +4780,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F469', '200D', '1F467', '200D', '1F466'],
-    ['emoji', '531', 'People & Body', 'family', '👩\u200d👩\u200d👧\u200d👦', 'family: woman, woman, girl, boy'],
+    ['emoji', '532', 'People & Body', 'family', '👩\u200d👩\u200d👧\u200d👦', 'family: woman, woman, girl, boy'],
     ['fully-qualified', '👩\u200d👩\u200d👧\u200d👦', '2.0', 'family: woman, woman, girl, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4780,7 +4789,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F469', '200D', '1F466', '200D', '1F466'],
-    ['emoji', '532', 'People & Body', 'family', '👩\u200d👩\u200d👦\u200d👦', 'family: woman, woman, boy, boy'],
+    ['emoji', '533', 'People & Body', 'family', '👩\u200d👩\u200d👦\u200d👦', 'family: woman, woman, boy, boy'],
     ['fully-qualified', '👩\u200d👩\u200d👦\u200d👦', '2.0', 'family: woman, woman, boy, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4789,7 +4798,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F469', '200D', '1F467', '200D', '1F467'],
-    ['emoji', '533', 'People & Body', 'family', '👩\u200d👩\u200d👧\u200d👧', 'family: woman, woman, girl, girl'],
+    ['emoji', '534', 'People & Body', 'family', '👩\u200d👩\u200d👧\u200d👧', 'family: woman, woman, girl, girl'],
     ['fully-qualified', '👩\u200d👩\u200d👧\u200d👧', '2.0', 'family: woman, woman, girl, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4798,7 +4807,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F466'],
-    ['emoji', '534', 'People & Body', 'family', '👨\u200d👦', 'family: man, boy'],
+    ['emoji', '535', 'People & Body', 'family', '👨\u200d👦', 'family: man, boy'],
     ['fully-qualified', '👨\u200d👦', '4.0', 'family: man, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4807,7 +4816,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F466', '200D', '1F466'],
-    ['emoji', '535', 'People & Body', 'family', '👨\u200d👦\u200d👦', 'family: man, boy, boy'],
+    ['emoji', '536', 'People & Body', 'family', '👨\u200d👦\u200d👦', 'family: man, boy, boy'],
     ['fully-qualified', '👨\u200d👦\u200d👦', '4.0', 'family: man, boy, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4816,7 +4825,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F467'],
-    ['emoji', '536', 'People & Body', 'family', '👨\u200d👧', 'family: man, girl'],
+    ['emoji', '537', 'People & Body', 'family', '👨\u200d👧', 'family: man, girl'],
     ['fully-qualified', '👨\u200d👧', '4.0', 'family: man, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4825,7 +4834,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F467', '200D', '1F466'],
-    ['emoji', '537', 'People & Body', 'family', '👨\u200d👧\u200d👦', 'family: man, girl, boy'],
+    ['emoji', '538', 'People & Body', 'family', '👨\u200d👧\u200d👦', 'family: man, girl, boy'],
     ['fully-qualified', '👨\u200d👧\u200d👦', '4.0', 'family: man, girl, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4834,7 +4843,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '200D', '1F467', '200D', '1F467'],
-    ['emoji', '538', 'People & Body', 'family', '👨\u200d👧\u200d👧', 'family: man, girl, girl'],
+    ['emoji', '539', 'People & Body', 'family', '👨\u200d👧\u200d👧', 'family: man, girl, girl'],
     ['fully-qualified', '👨\u200d👧\u200d👧', '4.0', 'family: man, girl, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4843,7 +4852,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F466'],
-    ['emoji', '539', 'People & Body', 'family', '👩\u200d👦', 'family: woman, boy'],
+    ['emoji', '540', 'People & Body', 'family', '👩\u200d👦', 'family: woman, boy'],
     ['fully-qualified', '👩\u200d👦', '4.0', 'family: woman, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4852,7 +4861,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F466', '200D', '1F466'],
-    ['emoji', '540', 'People & Body', 'family', '👩\u200d👦\u200d👦', 'family: woman, boy, boy'],
+    ['emoji', '541', 'People & Body', 'family', '👩\u200d👦\u200d👦', 'family: woman, boy, boy'],
     ['fully-qualified', '👩\u200d👦\u200d👦', '4.0', 'family: woman, boy, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4861,7 +4870,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F467'],
-    ['emoji', '541', 'People & Body', 'family', '👩\u200d👧', 'family: woman, girl'],
+    ['emoji', '542', 'People & Body', 'family', '👩\u200d👧', 'family: woman, girl'],
     ['fully-qualified', '👩\u200d👧', '4.0', 'family: woman, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4870,7 +4879,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F467', '200D', '1F466'],
-    ['emoji', '542', 'People & Body', 'family', '👩\u200d👧\u200d👦', 'family: woman, girl, boy'],
+    ['emoji', '543', 'People & Body', 'family', '👩\u200d👧\u200d👦', 'family: woman, girl, boy'],
     ['fully-qualified', '👩\u200d👧\u200d👦', '4.0', 'family: woman, girl, boy', 'People & Body', 'family'],
     [],
     [],
@@ -4879,7 +4888,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '200D', '1F467', '200D', '1F467'],
-    ['emoji', '543', 'People & Body', 'family', '👩\u200d👧\u200d👧', 'family: woman, girl, girl'],
+    ['emoji', '544', 'People & Body', 'family', '👩\u200d👧\u200d👧', 'family: woman, girl, girl'],
     ['fully-qualified', '👩\u200d👧\u200d👧', '4.0', 'family: woman, girl, girl', 'People & Body', 'family'],
     [],
     [],
@@ -4888,7 +4897,7 @@ fusionados_1 = [
   ],
   [
     ['1F5E3'],
-    ['emoji', '544', 'People & Body', 'person-symbol', '🗣', 'speaking head'],
+    ['emoji', '545', 'People & Body', 'person-symbol', '🗣', 'speaking head'],
     ['unqualified', '🗣', '0.7', 'speaking head', 'People & Body', 'person-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -4897,7 +4906,7 @@ fusionados_1 = [
   ],
   [
     ['1F464'],
-    ['emoji', '545', 'People & Body', 'person-symbol', '👤', 'bust in silhouette'],
+    ['emoji', '546', 'People & Body', 'person-symbol', '👤', 'bust in silhouette'],
     ['fully-qualified', '👤', '0.6', 'bust in silhouette', 'People & Body', 'person-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4906,7 +4915,7 @@ fusionados_1 = [
   ],
   [
     ['1F465'],
-    ['emoji', '546', 'People & Body', 'person-symbol', '👥', 'busts in silhouette'],
+    ['emoji', '547', 'People & Body', 'person-symbol', '👥', 'busts in silhouette'],
     ['fully-qualified', '👥', '1.0', 'busts in silhouette', 'People & Body', 'person-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -4915,7 +4924,7 @@ fusionados_1 = [
   ],
   [
     ['1FAC2'],
-    ['emoji', '547', 'People & Body', 'person-symbol', '🫂', 'people hugging'],
+    ['emoji', '548', 'People & Body', 'person-symbol', '🫂', 'people hugging'],
     ['fully-qualified', '🫂', '13.0', 'people hugging', 'People & Body', 'person-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -4924,7 +4933,7 @@ fusionados_1 = [
   ],
   [
     ['1F46A'],
-    ['emoji', '548', 'People & Body', 'person-symbol', '👪', 'family'],
+    ['emoji', '549', 'People & Body', 'person-symbol', '👪', 'family'],
     ['fully-qualified', '👪', '0.6', 'family', 'People & Body', 'person-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Modifier_Base', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4933,7 +4942,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9D1', '200D', '1F9D2'],
-    ['emoji', '549', 'People & Body', 'person-symbol', '🧑\u200d🧑\u200d🧒', 'family: adult, adult, child'],
+    ['emoji', '550', 'People & Body', 'person-symbol', '🧑\u200d🧑\u200d🧒', 'family: adult, adult, child'],
     ['fully-qualified', '🧑\u200d🧑\u200d🧒', '15.1', 'family: adult, adult, child', 'People & Body', 'person-symbol'],
     [],
     [],
@@ -4942,7 +4951,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9D1', '200D', '1F9D2', '200D', '1F9D2'],
-    ['emoji', '550', 'People & Body', 'person-symbol', '🧑\u200d🧑\u200d🧒\u200d🧒', 'family: adult, adult, child, child'],
+    ['emoji', '551', 'People & Body', 'person-symbol', '🧑\u200d🧑\u200d🧒\u200d🧒', 'family: adult, adult, child, child'],
     ['fully-qualified', '🧑\u200d🧑\u200d🧒\u200d🧒', '15.1', 'family: adult, adult, child, child', 'People & Body', 'person-symbol'],
     [],
     [],
@@ -4951,7 +4960,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9D2'],
-    ['emoji', '551', 'People & Body', 'person-symbol', '🧑\u200d🧒', 'family: adult, child'],
+    ['emoji', '552', 'People & Body', 'person-symbol', '🧑\u200d🧒', 'family: adult, child'],
     ['fully-qualified', '🧑\u200d🧒', '15.1', 'family: adult, child', 'People & Body', 'person-symbol'],
     [],
     [],
@@ -4960,7 +4969,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9D2', '200D', '1F9D2'],
-    ['emoji', '552', 'People & Body', 'person-symbol', '🧑\u200d🧒\u200d🧒', 'family: adult, child, child'],
+    ['emoji', '553', 'People & Body', 'person-symbol', '🧑\u200d🧒\u200d🧒', 'family: adult, child, child'],
     ['fully-qualified', '🧑\u200d🧒\u200d🧒', '15.1', 'family: adult, child, child', 'People & Body', 'person-symbol'],
     [],
     [],
@@ -4969,7 +4978,7 @@ fusionados_1 = [
   ],
   [
     ['1F463'],
-    ['emoji', '553', 'People & Body', 'person-symbol', '👣', 'footprints'],
+    ['emoji', '554', 'People & Body', 'person-symbol', '👣', 'footprints'],
     ['fully-qualified', '👣', '0.6', 'footprints', 'People & Body', 'person-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -4977,8 +4986,17 @@ fusionados_1 = [
     ['Basic_Emoji', '0.6'],
   ],
   [
+    ['1FAC6'],
+    ['emoji', '555', 'People & Body', 'person-symbol', '\U0001fac6', 'fingerprint'],
+    ['fully-qualified', '\U0001fac6', '16.0', 'fingerprint', 'People & Body', 'person-symbol'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '16.0'],
+    [],
+    [],
+    ['Basic_Emoji', '16.0'],
+  ],
+  [
     ['1F9B0'],
-    ['emoji', '554', 'Component', 'hair-style', '🦰', 'red hair'],
+    ['emoji', '556', 'Component', 'hair-style', '🦰', 'red hair'],
     ['component', '🦰', '11.0', 'red hair', 'Component', 'hair-style'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Component', 'Extended_Pictographic'], '11.0'],
     [],
@@ -4987,7 +5005,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B1'],
-    ['emoji', '555', 'Component', 'hair-style', '🦱', 'curly hair'],
+    ['emoji', '557', 'Component', 'hair-style', '🦱', 'curly hair'],
     ['component', '🦱', '11.0', 'curly hair', 'Component', 'hair-style'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Component', 'Extended_Pictographic'], '11.0'],
     [],
@@ -4996,7 +5014,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B3'],
-    ['emoji', '556', 'Component', 'hair-style', '🦳', 'white hair'],
+    ['emoji', '558', 'Component', 'hair-style', '🦳', 'white hair'],
     ['component', '🦳', '11.0', 'white hair', 'Component', 'hair-style'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Component', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5005,7 +5023,7 @@ fusionados_1 = [
   ],
   [
     ['1F9B2'],
-    ['emoji', '557', 'Component', 'hair-style', '🦲', 'bald'],
+    ['emoji', '559', 'Component', 'hair-style', '🦲', 'bald'],
     ['component', '🦲', '11.0', 'bald', 'Component', 'hair-style'],
     [['Emoji', 'Emoji_Presentation', 'Emoji_Component', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5014,7 +5032,7 @@ fusionados_1 = [
   ],
   [
     ['1F435'],
-    ['emoji', '558', 'Animals & Nature', 'animal-mammal', '🐵', 'monkey face'],
+    ['emoji', '560', 'Animals & Nature', 'animal-mammal', '🐵', 'monkey face'],
     ['fully-qualified', '🐵', '0.6', 'monkey face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5023,7 +5041,7 @@ fusionados_1 = [
   ],
   [
     ['1F412'],
-    ['emoji', '559', 'Animals & Nature', 'animal-mammal', '🐒', 'monkey'],
+    ['emoji', '561', 'Animals & Nature', 'animal-mammal', '🐒', 'monkey'],
     ['fully-qualified', '🐒', '0.6', 'monkey', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5032,7 +5050,7 @@ fusionados_1 = [
   ],
   [
     ['1F98D'],
-    ['emoji', '560', 'Animals & Nature', 'animal-mammal', '🦍', 'gorilla'],
+    ['emoji', '562', 'Animals & Nature', 'animal-mammal', '🦍', 'gorilla'],
     ['fully-qualified', '🦍', '3.0', 'gorilla', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5041,7 +5059,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A7'],
-    ['emoji', '561', 'Animals & Nature', 'animal-mammal', '🦧', 'orangutan'],
+    ['emoji', '563', 'Animals & Nature', 'animal-mammal', '🦧', 'orangutan'],
     ['fully-qualified', '🦧', '12.0', 'orangutan', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -5050,7 +5068,7 @@ fusionados_1 = [
   ],
   [
     ['1F436'],
-    ['emoji', '562', 'Animals & Nature', 'animal-mammal', '🐶', 'dog face'],
+    ['emoji', '564', 'Animals & Nature', 'animal-mammal', '🐶', 'dog face'],
     ['fully-qualified', '🐶', '0.6', 'dog face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5059,7 +5077,7 @@ fusionados_1 = [
   ],
   [
     ['1F415'],
-    ['emoji', '563', 'Animals & Nature', 'animal-mammal', '🐕', 'dog'],
+    ['emoji', '565', 'Animals & Nature', 'animal-mammal', '🐕', 'dog'],
     ['fully-qualified', '🐕', '0.7', 'dog', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -5068,7 +5086,7 @@ fusionados_1 = [
   ],
   [
     ['1F9AE'],
-    ['emoji', '564', 'Animals & Nature', 'animal-mammal', '🦮', 'guide dog'],
+    ['emoji', '566', 'Animals & Nature', 'animal-mammal', '🦮', 'guide dog'],
     ['fully-qualified', '🦮', '12.0', 'guide dog', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -5077,7 +5095,7 @@ fusionados_1 = [
   ],
   [
     ['1F415', '200D', '1F9BA'],
-    ['emoji', '565', 'Animals & Nature', 'animal-mammal', '🐕\u200d🦺', 'service dog'],
+    ['emoji', '567', 'Animals & Nature', 'animal-mammal', '🐕\u200d🦺', 'service dog'],
     ['fully-qualified', '🐕\u200d🦺', '12.0', 'service dog', 'Animals & Nature', 'animal-mammal'],
     [],
     [],
@@ -5086,7 +5104,7 @@ fusionados_1 = [
   ],
   [
     ['1F429'],
-    ['emoji', '566', 'Animals & Nature', 'animal-mammal', '🐩', 'poodle'],
+    ['emoji', '568', 'Animals & Nature', 'animal-mammal', '🐩', 'poodle'],
     ['fully-qualified', '🐩', '0.6', 'poodle', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5095,7 +5113,7 @@ fusionados_1 = [
   ],
   [
     ['1F43A'],
-    ['emoji', '567', 'Animals & Nature', 'animal-mammal', '🐺', 'wolf'],
+    ['emoji', '569', 'Animals & Nature', 'animal-mammal', '🐺', 'wolf'],
     ['fully-qualified', '🐺', '0.6', 'wolf', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5104,7 +5122,7 @@ fusionados_1 = [
   ],
   [
     ['1F98A'],
-    ['emoji', '568', 'Animals & Nature', 'animal-mammal', '🦊', 'fox'],
+    ['emoji', '570', 'Animals & Nature', 'animal-mammal', '🦊', 'fox'],
     ['fully-qualified', '🦊', '3.0', 'fox', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5113,7 +5131,7 @@ fusionados_1 = [
   ],
   [
     ['1F99D'],
-    ['emoji', '569', 'Animals & Nature', 'animal-mammal', '🦝', 'raccoon'],
+    ['emoji', '571', 'Animals & Nature', 'animal-mammal', '🦝', 'raccoon'],
     ['fully-qualified', '🦝', '11.0', 'raccoon', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5122,7 +5140,7 @@ fusionados_1 = [
   ],
   [
     ['1F431'],
-    ['emoji', '570', 'Animals & Nature', 'animal-mammal', '🐱', 'cat face'],
+    ['emoji', '572', 'Animals & Nature', 'animal-mammal', '🐱', 'cat face'],
     ['fully-qualified', '🐱', '0.6', 'cat face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5131,7 +5149,7 @@ fusionados_1 = [
   ],
   [
     ['1F408'],
-    ['emoji', '571', 'Animals & Nature', 'animal-mammal', '🐈', 'cat'],
+    ['emoji', '573', 'Animals & Nature', 'animal-mammal', '🐈', 'cat'],
     ['fully-qualified', '🐈', '0.7', 'cat', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -5140,7 +5158,7 @@ fusionados_1 = [
   ],
   [
     ['1F408', '200D', '2B1B'],
-    ['emoji', '572', 'Animals & Nature', 'animal-mammal', '🐈\u200d⬛', 'black cat'],
+    ['emoji', '574', 'Animals & Nature', 'animal-mammal', '🐈\u200d⬛', 'black cat'],
     ['fully-qualified', '🐈\u200d⬛', '13.0', 'black cat', 'Animals & Nature', 'animal-mammal'],
     [],
     [],
@@ -5149,7 +5167,7 @@ fusionados_1 = [
   ],
   [
     ['1F981'],
-    ['emoji', '573', 'Animals & Nature', 'animal-mammal', '🦁', 'lion'],
+    ['emoji', '575', 'Animals & Nature', 'animal-mammal', '🦁', 'lion'],
     ['fully-qualified', '🦁', '1.0', 'lion', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5158,7 +5176,7 @@ fusionados_1 = [
   ],
   [
     ['1F42F'],
-    ['emoji', '574', 'Animals & Nature', 'animal-mammal', '🐯', 'tiger face'],
+    ['emoji', '576', 'Animals & Nature', 'animal-mammal', '🐯', 'tiger face'],
     ['fully-qualified', '🐯', '0.6', 'tiger face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5167,7 +5185,7 @@ fusionados_1 = [
   ],
   [
     ['1F405'],
-    ['emoji', '575', 'Animals & Nature', 'animal-mammal', '🐅', 'tiger'],
+    ['emoji', '577', 'Animals & Nature', 'animal-mammal', '🐅', 'tiger'],
     ['fully-qualified', '🐅', '1.0', 'tiger', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5176,7 +5194,7 @@ fusionados_1 = [
   ],
   [
     ['1F406'],
-    ['emoji', '576', 'Animals & Nature', 'animal-mammal', '🐆', 'leopard'],
+    ['emoji', '578', 'Animals & Nature', 'animal-mammal', '🐆', 'leopard'],
     ['fully-qualified', '🐆', '1.0', 'leopard', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5185,7 +5203,7 @@ fusionados_1 = [
   ],
   [
     ['1F434'],
-    ['emoji', '577', 'Animals & Nature', 'animal-mammal', '🐴', 'horse face'],
+    ['emoji', '579', 'Animals & Nature', 'animal-mammal', '🐴', 'horse face'],
     ['fully-qualified', '🐴', '0.6', 'horse face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5194,7 +5212,7 @@ fusionados_1 = [
   ],
   [
     ['1FACE'],
-    ['emoji', '578', 'Animals & Nature', 'animal-mammal', '\U0001face', 'moose'],
+    ['emoji', '580', 'Animals & Nature', 'animal-mammal', '\U0001face', 'moose'],
     ['fully-qualified', '\U0001face', '15.0', 'moose', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -5203,7 +5221,7 @@ fusionados_1 = [
   ],
   [
     ['1FACF'],
-    ['emoji', '579', 'Animals & Nature', 'animal-mammal', '\U0001facf', 'donkey'],
+    ['emoji', '581', 'Animals & Nature', 'animal-mammal', '\U0001facf', 'donkey'],
     ['fully-qualified', '\U0001facf', '15.0', 'donkey', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -5212,7 +5230,7 @@ fusionados_1 = [
   ],
   [
     ['1F40E'],
-    ['emoji', '580', 'Animals & Nature', 'animal-mammal', '🐎', 'horse'],
+    ['emoji', '582', 'Animals & Nature', 'animal-mammal', '🐎', 'horse'],
     ['fully-qualified', '🐎', '0.6', 'horse', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5221,7 +5239,7 @@ fusionados_1 = [
   ],
   [
     ['1F984'],
-    ['emoji', '581', 'Animals & Nature', 'animal-mammal', '🦄', 'unicorn'],
+    ['emoji', '583', 'Animals & Nature', 'animal-mammal', '🦄', 'unicorn'],
     ['fully-qualified', '🦄', '1.0', 'unicorn', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5230,7 +5248,7 @@ fusionados_1 = [
   ],
   [
     ['1F993'],
-    ['emoji', '582', 'Animals & Nature', 'animal-mammal', '🦓', 'zebra'],
+    ['emoji', '584', 'Animals & Nature', 'animal-mammal', '🦓', 'zebra'],
     ['fully-qualified', '🦓', '5.0', 'zebra', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -5239,7 +5257,7 @@ fusionados_1 = [
   ],
   [
     ['1F98C'],
-    ['emoji', '583', 'Animals & Nature', 'animal-mammal', '🦌', 'deer'],
+    ['emoji', '585', 'Animals & Nature', 'animal-mammal', '🦌', 'deer'],
     ['fully-qualified', '🦌', '3.0', 'deer', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5248,7 +5266,7 @@ fusionados_1 = [
   ],
   [
     ['1F9AC'],
-    ['emoji', '584', 'Animals & Nature', 'animal-mammal', '🦬', 'bison'],
+    ['emoji', '586', 'Animals & Nature', 'animal-mammal', '🦬', 'bison'],
     ['fully-qualified', '🦬', '13.0', 'bison', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -5257,7 +5275,7 @@ fusionados_1 = [
   ],
   [
     ['1F42E'],
-    ['emoji', '585', 'Animals & Nature', 'animal-mammal', '🐮', 'cow face'],
+    ['emoji', '587', 'Animals & Nature', 'animal-mammal', '🐮', 'cow face'],
     ['fully-qualified', '🐮', '0.6', 'cow face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5266,7 +5284,7 @@ fusionados_1 = [
   ],
   [
     ['1F402'],
-    ['emoji', '586', 'Animals & Nature', 'animal-mammal', '🐂', 'ox'],
+    ['emoji', '588', 'Animals & Nature', 'animal-mammal', '🐂', 'ox'],
     ['fully-qualified', '🐂', '1.0', 'ox', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5275,7 +5293,7 @@ fusionados_1 = [
   ],
   [
     ['1F403'],
-    ['emoji', '587', 'Animals & Nature', 'animal-mammal', '🐃', 'water buffalo'],
+    ['emoji', '589', 'Animals & Nature', 'animal-mammal', '🐃', 'water buffalo'],
     ['fully-qualified', '🐃', '1.0', 'water buffalo', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5284,7 +5302,7 @@ fusionados_1 = [
   ],
   [
     ['1F404'],
-    ['emoji', '588', 'Animals & Nature', 'animal-mammal', '🐄', 'cow'],
+    ['emoji', '590', 'Animals & Nature', 'animal-mammal', '🐄', 'cow'],
     ['fully-qualified', '🐄', '1.0', 'cow', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5293,7 +5311,7 @@ fusionados_1 = [
   ],
   [
     ['1F437'],
-    ['emoji', '589', 'Animals & Nature', 'animal-mammal', '🐷', 'pig face'],
+    ['emoji', '591', 'Animals & Nature', 'animal-mammal', '🐷', 'pig face'],
     ['fully-qualified', '🐷', '0.6', 'pig face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5302,7 +5320,7 @@ fusionados_1 = [
   ],
   [
     ['1F416'],
-    ['emoji', '590', 'Animals & Nature', 'animal-mammal', '🐖', 'pig'],
+    ['emoji', '592', 'Animals & Nature', 'animal-mammal', '🐖', 'pig'],
     ['fully-qualified', '🐖', '1.0', 'pig', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5311,7 +5329,7 @@ fusionados_1 = [
   ],
   [
     ['1F417'],
-    ['emoji', '591', 'Animals & Nature', 'animal-mammal', '🐗', 'boar'],
+    ['emoji', '593', 'Animals & Nature', 'animal-mammal', '🐗', 'boar'],
     ['fully-qualified', '🐗', '0.6', 'boar', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5320,7 +5338,7 @@ fusionados_1 = [
   ],
   [
     ['1F43D'],
-    ['emoji', '592', 'Animals & Nature', 'animal-mammal', '🐽', 'pig nose'],
+    ['emoji', '594', 'Animals & Nature', 'animal-mammal', '🐽', 'pig nose'],
     ['fully-qualified', '🐽', '0.6', 'pig nose', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5329,7 +5347,7 @@ fusionados_1 = [
   ],
   [
     ['1F40F'],
-    ['emoji', '593', 'Animals & Nature', 'animal-mammal', '🐏', 'ram'],
+    ['emoji', '595', 'Animals & Nature', 'animal-mammal', '🐏', 'ram'],
     ['fully-qualified', '🐏', '1.0', 'ram', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5338,7 +5356,7 @@ fusionados_1 = [
   ],
   [
     ['1F411'],
-    ['emoji', '594', 'Animals & Nature', 'animal-mammal', '🐑', 'ewe'],
+    ['emoji', '596', 'Animals & Nature', 'animal-mammal', '🐑', 'ewe'],
     ['fully-qualified', '🐑', '0.6', 'ewe', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5347,7 +5365,7 @@ fusionados_1 = [
   ],
   [
     ['1F410'],
-    ['emoji', '595', 'Animals & Nature', 'animal-mammal', '🐐', 'goat'],
+    ['emoji', '597', 'Animals & Nature', 'animal-mammal', '🐐', 'goat'],
     ['fully-qualified', '🐐', '1.0', 'goat', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5356,7 +5374,7 @@ fusionados_1 = [
   ],
   [
     ['1F42A'],
-    ['emoji', '596', 'Animals & Nature', 'animal-mammal', '🐪', 'camel'],
+    ['emoji', '598', 'Animals & Nature', 'animal-mammal', '🐪', 'camel'],
     ['fully-qualified', '🐪', '1.0', 'camel', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5365,7 +5383,7 @@ fusionados_1 = [
   ],
   [
     ['1F42B'],
-    ['emoji', '597', 'Animals & Nature', 'animal-mammal', '🐫', 'two-hump camel'],
+    ['emoji', '599', 'Animals & Nature', 'animal-mammal', '🐫', 'two-hump camel'],
     ['fully-qualified', '🐫', '0.6', 'two-hump camel', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5374,7 +5392,7 @@ fusionados_1 = [
   ],
   [
     ['1F999'],
-    ['emoji', '598', 'Animals & Nature', 'animal-mammal', '🦙', 'llama'],
+    ['emoji', '600', 'Animals & Nature', 'animal-mammal', '🦙', 'llama'],
     ['fully-qualified', '🦙', '11.0', 'llama', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5383,7 +5401,7 @@ fusionados_1 = [
   ],
   [
     ['1F992'],
-    ['emoji', '599', 'Animals & Nature', 'animal-mammal', '🦒', 'giraffe'],
+    ['emoji', '601', 'Animals & Nature', 'animal-mammal', '🦒', 'giraffe'],
     ['fully-qualified', '🦒', '5.0', 'giraffe', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -5392,7 +5410,7 @@ fusionados_1 = [
   ],
   [
     ['1F418'],
-    ['emoji', '600', 'Animals & Nature', 'animal-mammal', '🐘', 'elephant'],
+    ['emoji', '602', 'Animals & Nature', 'animal-mammal', '🐘', 'elephant'],
     ['fully-qualified', '🐘', '0.6', 'elephant', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5401,7 +5419,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A3'],
-    ['emoji', '601', 'Animals & Nature', 'animal-mammal', '🦣', 'mammoth'],
+    ['emoji', '603', 'Animals & Nature', 'animal-mammal', '🦣', 'mammoth'],
     ['fully-qualified', '🦣', '13.0', 'mammoth', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -5410,7 +5428,7 @@ fusionados_1 = [
   ],
   [
     ['1F98F'],
-    ['emoji', '602', 'Animals & Nature', 'animal-mammal', '🦏', 'rhinoceros'],
+    ['emoji', '604', 'Animals & Nature', 'animal-mammal', '🦏', 'rhinoceros'],
     ['fully-qualified', '🦏', '3.0', 'rhinoceros', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5419,7 +5437,7 @@ fusionados_1 = [
   ],
   [
     ['1F99B'],
-    ['emoji', '603', 'Animals & Nature', 'animal-mammal', '🦛', 'hippopotamus'],
+    ['emoji', '605', 'Animals & Nature', 'animal-mammal', '🦛', 'hippopotamus'],
     ['fully-qualified', '🦛', '11.0', 'hippopotamus', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5428,7 +5446,7 @@ fusionados_1 = [
   ],
   [
     ['1F42D'],
-    ['emoji', '604', 'Animals & Nature', 'animal-mammal', '🐭', 'mouse face'],
+    ['emoji', '606', 'Animals & Nature', 'animal-mammal', '🐭', 'mouse face'],
     ['fully-qualified', '🐭', '0.6', 'mouse face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5437,7 +5455,7 @@ fusionados_1 = [
   ],
   [
     ['1F401'],
-    ['emoji', '605', 'Animals & Nature', 'animal-mammal', '🐁', 'mouse'],
+    ['emoji', '607', 'Animals & Nature', 'animal-mammal', '🐁', 'mouse'],
     ['fully-qualified', '🐁', '1.0', 'mouse', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5446,7 +5464,7 @@ fusionados_1 = [
   ],
   [
     ['1F400'],
-    ['emoji', '606', 'Animals & Nature', 'animal-mammal', '🐀', 'rat'],
+    ['emoji', '608', 'Animals & Nature', 'animal-mammal', '🐀', 'rat'],
     ['fully-qualified', '🐀', '1.0', 'rat', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5455,7 +5473,7 @@ fusionados_1 = [
   ],
   [
     ['1F439'],
-    ['emoji', '607', 'Animals & Nature', 'animal-mammal', '🐹', 'hamster'],
+    ['emoji', '609', 'Animals & Nature', 'animal-mammal', '🐹', 'hamster'],
     ['fully-qualified', '🐹', '0.6', 'hamster', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5464,7 +5482,7 @@ fusionados_1 = [
   ],
   [
     ['1F430'],
-    ['emoji', '608', 'Animals & Nature', 'animal-mammal', '🐰', 'rabbit face'],
+    ['emoji', '610', 'Animals & Nature', 'animal-mammal', '🐰', 'rabbit face'],
     ['fully-qualified', '🐰', '0.6', 'rabbit face', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5473,7 +5491,7 @@ fusionados_1 = [
   ],
   [
     ['1F407'],
-    ['emoji', '609', 'Animals & Nature', 'animal-mammal', '🐇', 'rabbit'],
+    ['emoji', '611', 'Animals & Nature', 'animal-mammal', '🐇', 'rabbit'],
     ['fully-qualified', '🐇', '1.0', 'rabbit', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5482,7 +5500,7 @@ fusionados_1 = [
   ],
   [
     ['1F43F'],
-    ['emoji', '610', 'Animals & Nature', 'animal-mammal', '🐿', 'chipmunk'],
+    ['emoji', '612', 'Animals & Nature', 'animal-mammal', '🐿', 'chipmunk'],
     ['unqualified', '🐿', '0.7', 'chipmunk', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -5491,7 +5509,7 @@ fusionados_1 = [
   ],
   [
     ['1F9AB'],
-    ['emoji', '611', 'Animals & Nature', 'animal-mammal', '🦫', 'beaver'],
+    ['emoji', '613', 'Animals & Nature', 'animal-mammal', '🦫', 'beaver'],
     ['fully-qualified', '🦫', '13.0', 'beaver', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -5500,7 +5518,7 @@ fusionados_1 = [
   ],
   [
     ['1F994'],
-    ['emoji', '612', 'Animals & Nature', 'animal-mammal', '🦔', 'hedgehog'],
+    ['emoji', '614', 'Animals & Nature', 'animal-mammal', '🦔', 'hedgehog'],
     ['fully-qualified', '🦔', '5.0', 'hedgehog', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -5509,7 +5527,7 @@ fusionados_1 = [
   ],
   [
     ['1F987'],
-    ['emoji', '613', 'Animals & Nature', 'animal-mammal', '🦇', 'bat'],
+    ['emoji', '615', 'Animals & Nature', 'animal-mammal', '🦇', 'bat'],
     ['fully-qualified', '🦇', '3.0', 'bat', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5518,7 +5536,7 @@ fusionados_1 = [
   ],
   [
     ['1F43B'],
-    ['emoji', '614', 'Animals & Nature', 'animal-mammal', '🐻', 'bear'],
+    ['emoji', '616', 'Animals & Nature', 'animal-mammal', '🐻', 'bear'],
     ['fully-qualified', '🐻', '0.6', 'bear', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5527,7 +5545,7 @@ fusionados_1 = [
   ],
   [
     ['1F43B', '200D', '2744', 'FE0F'],
-    ['emoji', '615', 'Animals & Nature', 'animal-mammal', '🐻\u200d❄️', 'polar bear'],
+    ['emoji', '617', 'Animals & Nature', 'animal-mammal', '🐻\u200d❄️', 'polar bear'],
     ['fully-qualified', '🐻\u200d❄️', '13.0', 'polar bear', 'Animals & Nature', 'animal-mammal'],
     [],
     [],
@@ -5536,7 +5554,7 @@ fusionados_1 = [
   ],
   [
     ['1F428'],
-    ['emoji', '616', 'Animals & Nature', 'animal-mammal', '🐨', 'koala'],
+    ['emoji', '618', 'Animals & Nature', 'animal-mammal', '🐨', 'koala'],
     ['fully-qualified', '🐨', '0.6', 'koala', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5545,7 +5563,7 @@ fusionados_1 = [
   ],
   [
     ['1F43C'],
-    ['emoji', '617', 'Animals & Nature', 'animal-mammal', '🐼', 'panda'],
+    ['emoji', '619', 'Animals & Nature', 'animal-mammal', '🐼', 'panda'],
     ['fully-qualified', '🐼', '0.6', 'panda', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5554,7 +5572,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A5'],
-    ['emoji', '618', 'Animals & Nature', 'animal-mammal', '🦥', 'sloth'],
+    ['emoji', '620', 'Animals & Nature', 'animal-mammal', '🦥', 'sloth'],
     ['fully-qualified', '🦥', '12.0', 'sloth', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -5563,7 +5581,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A6'],
-    ['emoji', '619', 'Animals & Nature', 'animal-mammal', '🦦', 'otter'],
+    ['emoji', '621', 'Animals & Nature', 'animal-mammal', '🦦', 'otter'],
     ['fully-qualified', '🦦', '12.0', 'otter', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -5572,7 +5590,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A8'],
-    ['emoji', '620', 'Animals & Nature', 'animal-mammal', '🦨', 'skunk'],
+    ['emoji', '622', 'Animals & Nature', 'animal-mammal', '🦨', 'skunk'],
     ['fully-qualified', '🦨', '12.0', 'skunk', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -5581,7 +5599,7 @@ fusionados_1 = [
   ],
   [
     ['1F998'],
-    ['emoji', '621', 'Animals & Nature', 'animal-mammal', '🦘', 'kangaroo'],
+    ['emoji', '623', 'Animals & Nature', 'animal-mammal', '🦘', 'kangaroo'],
     ['fully-qualified', '🦘', '11.0', 'kangaroo', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5590,7 +5608,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A1'],
-    ['emoji', '622', 'Animals & Nature', 'animal-mammal', '🦡', 'badger'],
+    ['emoji', '624', 'Animals & Nature', 'animal-mammal', '🦡', 'badger'],
     ['fully-qualified', '🦡', '11.0', 'badger', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5599,7 +5617,7 @@ fusionados_1 = [
   ],
   [
     ['1F43E'],
-    ['emoji', '623', 'Animals & Nature', 'animal-mammal', '🐾', 'paw prints'],
+    ['emoji', '625', 'Animals & Nature', 'animal-mammal', '🐾', 'paw prints'],
     ['fully-qualified', '🐾', '0.6', 'paw prints', 'Animals & Nature', 'animal-mammal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5608,7 +5626,7 @@ fusionados_1 = [
   ],
   [
     ['1F983'],
-    ['emoji', '624', 'Animals & Nature', 'animal-bird', '🦃', 'turkey'],
+    ['emoji', '626', 'Animals & Nature', 'animal-bird', '🦃', 'turkey'],
     ['fully-qualified', '🦃', '1.0', 'turkey', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5617,7 +5635,7 @@ fusionados_1 = [
   ],
   [
     ['1F414'],
-    ['emoji', '625', 'Animals & Nature', 'animal-bird', '🐔', 'chicken'],
+    ['emoji', '627', 'Animals & Nature', 'animal-bird', '🐔', 'chicken'],
     ['fully-qualified', '🐔', '0.6', 'chicken', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5626,7 +5644,7 @@ fusionados_1 = [
   ],
   [
     ['1F413'],
-    ['emoji', '626', 'Animals & Nature', 'animal-bird', '🐓', 'rooster'],
+    ['emoji', '628', 'Animals & Nature', 'animal-bird', '🐓', 'rooster'],
     ['fully-qualified', '🐓', '1.0', 'rooster', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5635,7 +5653,7 @@ fusionados_1 = [
   ],
   [
     ['1F423'],
-    ['emoji', '627', 'Animals & Nature', 'animal-bird', '🐣', 'hatching chick'],
+    ['emoji', '629', 'Animals & Nature', 'animal-bird', '🐣', 'hatching chick'],
     ['fully-qualified', '🐣', '0.6', 'hatching chick', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5644,7 +5662,7 @@ fusionados_1 = [
   ],
   [
     ['1F424'],
-    ['emoji', '628', 'Animals & Nature', 'animal-bird', '🐤', 'baby chick'],
+    ['emoji', '630', 'Animals & Nature', 'animal-bird', '🐤', 'baby chick'],
     ['fully-qualified', '🐤', '0.6', 'baby chick', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5653,7 +5671,7 @@ fusionados_1 = [
   ],
   [
     ['1F425'],
-    ['emoji', '629', 'Animals & Nature', 'animal-bird', '🐥', 'front-facing baby chick'],
+    ['emoji', '631', 'Animals & Nature', 'animal-bird', '🐥', 'front-facing baby chick'],
     ['fully-qualified', '🐥', '0.6', 'front-facing baby chick', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5662,7 +5680,7 @@ fusionados_1 = [
   ],
   [
     ['1F426'],
-    ['emoji', '630', 'Animals & Nature', 'animal-bird', '🐦', 'bird'],
+    ['emoji', '632', 'Animals & Nature', 'animal-bird', '🐦', 'bird'],
     ['fully-qualified', '🐦', '0.6', 'bird', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5671,7 +5689,7 @@ fusionados_1 = [
   ],
   [
     ['1F427'],
-    ['emoji', '631', 'Animals & Nature', 'animal-bird', '🐧', 'penguin'],
+    ['emoji', '633', 'Animals & Nature', 'animal-bird', '🐧', 'penguin'],
     ['fully-qualified', '🐧', '0.6', 'penguin', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5680,7 +5698,7 @@ fusionados_1 = [
   ],
   [
     ['1F54A'],
-    ['emoji', '632', 'Animals & Nature', 'animal-bird', '🕊', 'dove'],
+    ['emoji', '634', 'Animals & Nature', 'animal-bird', '🕊', 'dove'],
     ['unqualified', '🕊', '0.7', 'dove', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -5689,7 +5707,7 @@ fusionados_1 = [
   ],
   [
     ['1F985'],
-    ['emoji', '633', 'Animals & Nature', 'animal-bird', '🦅', 'eagle'],
+    ['emoji', '635', 'Animals & Nature', 'animal-bird', '🦅', 'eagle'],
     ['fully-qualified', '🦅', '3.0', 'eagle', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5698,7 +5716,7 @@ fusionados_1 = [
   ],
   [
     ['1F986'],
-    ['emoji', '634', 'Animals & Nature', 'animal-bird', '🦆', 'duck'],
+    ['emoji', '636', 'Animals & Nature', 'animal-bird', '🦆', 'duck'],
     ['fully-qualified', '🦆', '3.0', 'duck', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5707,7 +5725,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A2'],
-    ['emoji', '635', 'Animals & Nature', 'animal-bird', '🦢', 'swan'],
+    ['emoji', '637', 'Animals & Nature', 'animal-bird', '🦢', 'swan'],
     ['fully-qualified', '🦢', '11.0', 'swan', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5716,7 +5734,7 @@ fusionados_1 = [
   ],
   [
     ['1F989'],
-    ['emoji', '636', 'Animals & Nature', 'animal-bird', '🦉', 'owl'],
+    ['emoji', '638', 'Animals & Nature', 'animal-bird', '🦉', 'owl'],
     ['fully-qualified', '🦉', '3.0', 'owl', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5725,7 +5743,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A4'],
-    ['emoji', '637', 'Animals & Nature', 'animal-bird', '🦤', 'dodo'],
+    ['emoji', '639', 'Animals & Nature', 'animal-bird', '🦤', 'dodo'],
     ['fully-qualified', '🦤', '13.0', 'dodo', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -5734,7 +5752,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB6'],
-    ['emoji', '638', 'Animals & Nature', 'animal-bird', '🪶', 'feather'],
+    ['emoji', '640', 'Animals & Nature', 'animal-bird', '🪶', 'feather'],
     ['fully-qualified', '🪶', '13.0', 'feather', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -5743,7 +5761,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A9'],
-    ['emoji', '639', 'Animals & Nature', 'animal-bird', '🦩', 'flamingo'],
+    ['emoji', '641', 'Animals & Nature', 'animal-bird', '🦩', 'flamingo'],
     ['fully-qualified', '🦩', '12.0', 'flamingo', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -5752,7 +5770,7 @@ fusionados_1 = [
   ],
   [
     ['1F99A'],
-    ['emoji', '640', 'Animals & Nature', 'animal-bird', '🦚', 'peacock'],
+    ['emoji', '642', 'Animals & Nature', 'animal-bird', '🦚', 'peacock'],
     ['fully-qualified', '🦚', '11.0', 'peacock', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5761,7 +5779,7 @@ fusionados_1 = [
   ],
   [
     ['1F99C'],
-    ['emoji', '641', 'Animals & Nature', 'animal-bird', '🦜', 'parrot'],
+    ['emoji', '643', 'Animals & Nature', 'animal-bird', '🦜', 'parrot'],
     ['fully-qualified', '🦜', '11.0', 'parrot', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -5770,7 +5788,7 @@ fusionados_1 = [
   ],
   [
     ['1FABD'],
-    ['emoji', '642', 'Animals & Nature', 'animal-bird', '\U0001fabd', 'wing'],
+    ['emoji', '644', 'Animals & Nature', 'animal-bird', '\U0001fabd', 'wing'],
     ['fully-qualified', '\U0001fabd', '15.0', 'wing', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -5779,7 +5797,7 @@ fusionados_1 = [
   ],
   [
     ['1F426', '200D', '2B1B'],
-    ['emoji', '643', 'Animals & Nature', 'animal-bird', '🐦\u200d⬛', 'black bird'],
+    ['emoji', '645', 'Animals & Nature', 'animal-bird', '🐦\u200d⬛', 'black bird'],
     ['fully-qualified', '🐦\u200d⬛', '15.0', 'black bird', 'Animals & Nature', 'animal-bird'],
     [],
     [],
@@ -5788,7 +5806,7 @@ fusionados_1 = [
   ],
   [
     ['1FABF'],
-    ['emoji', '644', 'Animals & Nature', 'animal-bird', '\U0001fabf', 'goose'],
+    ['emoji', '646', 'Animals & Nature', 'animal-bird', '\U0001fabf', 'goose'],
     ['fully-qualified', '\U0001fabf', '15.0', 'goose', 'Animals & Nature', 'animal-bird'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -5797,7 +5815,7 @@ fusionados_1 = [
   ],
   [
     ['1F426', '200D', '1F525'],
-    ['emoji', '645', 'Animals & Nature', 'animal-bird', '🐦\u200d🔥', 'phoenix'],
+    ['emoji', '647', 'Animals & Nature', 'animal-bird', '🐦\u200d🔥', 'phoenix'],
     ['fully-qualified', '🐦\u200d🔥', '15.1', 'phoenix', 'Animals & Nature', 'animal-bird'],
     [],
     [],
@@ -5806,7 +5824,7 @@ fusionados_1 = [
   ],
   [
     ['1F438'],
-    ['emoji', '646', 'Animals & Nature', 'animal-amphibian', '🐸', 'frog'],
+    ['emoji', '648', 'Animals & Nature', 'animal-amphibian', '🐸', 'frog'],
     ['fully-qualified', '🐸', '0.6', 'frog', 'Animals & Nature', 'animal-amphibian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5815,7 +5833,7 @@ fusionados_1 = [
   ],
   [
     ['1F40A'],
-    ['emoji', '647', 'Animals & Nature', 'animal-reptile', '🐊', 'crocodile'],
+    ['emoji', '649', 'Animals & Nature', 'animal-reptile', '🐊', 'crocodile'],
     ['fully-qualified', '🐊', '1.0', 'crocodile', 'Animals & Nature', 'animal-reptile'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5824,7 +5842,7 @@ fusionados_1 = [
   ],
   [
     ['1F422'],
-    ['emoji', '648', 'Animals & Nature', 'animal-reptile', '🐢', 'turtle'],
+    ['emoji', '650', 'Animals & Nature', 'animal-reptile', '🐢', 'turtle'],
     ['fully-qualified', '🐢', '0.6', 'turtle', 'Animals & Nature', 'animal-reptile'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5833,7 +5851,7 @@ fusionados_1 = [
   ],
   [
     ['1F98E'],
-    ['emoji', '649', 'Animals & Nature', 'animal-reptile', '🦎', 'lizard'],
+    ['emoji', '651', 'Animals & Nature', 'animal-reptile', '🦎', 'lizard'],
     ['fully-qualified', '🦎', '3.0', 'lizard', 'Animals & Nature', 'animal-reptile'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5842,7 +5860,7 @@ fusionados_1 = [
   ],
   [
     ['1F40D'],
-    ['emoji', '650', 'Animals & Nature', 'animal-reptile', '🐍', 'snake'],
+    ['emoji', '652', 'Animals & Nature', 'animal-reptile', '🐍', 'snake'],
     ['fully-qualified', '🐍', '0.6', 'snake', 'Animals & Nature', 'animal-reptile'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5851,7 +5869,7 @@ fusionados_1 = [
   ],
   [
     ['1F432'],
-    ['emoji', '651', 'Animals & Nature', 'animal-reptile', '🐲', 'dragon face'],
+    ['emoji', '653', 'Animals & Nature', 'animal-reptile', '🐲', 'dragon face'],
     ['fully-qualified', '🐲', '0.6', 'dragon face', 'Animals & Nature', 'animal-reptile'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5860,7 +5878,7 @@ fusionados_1 = [
   ],
   [
     ['1F409'],
-    ['emoji', '652', 'Animals & Nature', 'animal-reptile', '🐉', 'dragon'],
+    ['emoji', '654', 'Animals & Nature', 'animal-reptile', '🐉', 'dragon'],
     ['fully-qualified', '🐉', '1.0', 'dragon', 'Animals & Nature', 'animal-reptile'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5869,7 +5887,7 @@ fusionados_1 = [
   ],
   [
     ['1F995'],
-    ['emoji', '653', 'Animals & Nature', 'animal-reptile', '🦕', 'sauropod'],
+    ['emoji', '655', 'Animals & Nature', 'animal-reptile', '🦕', 'sauropod'],
     ['fully-qualified', '🦕', '5.0', 'sauropod', 'Animals & Nature', 'animal-reptile'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -5878,7 +5896,7 @@ fusionados_1 = [
   ],
   [
     ['1F996'],
-    ['emoji', '654', 'Animals & Nature', 'animal-reptile', '🦖', 'T-Rex'],
+    ['emoji', '656', 'Animals & Nature', 'animal-reptile', '🦖', 'T-Rex'],
     ['fully-qualified', '🦖', '5.0', 'T-Rex', 'Animals & Nature', 'animal-reptile'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -5887,7 +5905,7 @@ fusionados_1 = [
   ],
   [
     ['1F433'],
-    ['emoji', '655', 'Animals & Nature', 'animal-marine', '🐳', 'spouting whale'],
+    ['emoji', '657', 'Animals & Nature', 'animal-marine', '🐳', 'spouting whale'],
     ['fully-qualified', '🐳', '0.6', 'spouting whale', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5896,7 +5914,7 @@ fusionados_1 = [
   ],
   [
     ['1F40B'],
-    ['emoji', '656', 'Animals & Nature', 'animal-marine', '🐋', 'whale'],
+    ['emoji', '658', 'Animals & Nature', 'animal-marine', '🐋', 'whale'],
     ['fully-qualified', '🐋', '1.0', 'whale', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -5905,7 +5923,7 @@ fusionados_1 = [
   ],
   [
     ['1F42C'],
-    ['emoji', '657', 'Animals & Nature', 'animal-marine', '🐬', 'dolphin'],
+    ['emoji', '659', 'Animals & Nature', 'animal-marine', '🐬', 'dolphin'],
     ['fully-qualified', '🐬', '0.6', 'dolphin', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5914,7 +5932,7 @@ fusionados_1 = [
   ],
   [
     ['1F9AD'],
-    ['emoji', '658', 'Animals & Nature', 'animal-marine', '🦭', 'seal'],
+    ['emoji', '660', 'Animals & Nature', 'animal-marine', '🦭', 'seal'],
     ['fully-qualified', '🦭', '13.0', 'seal', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -5923,7 +5941,7 @@ fusionados_1 = [
   ],
   [
     ['1F41F'],
-    ['emoji', '659', 'Animals & Nature', 'animal-marine', '🐟', 'fish'],
+    ['emoji', '661', 'Animals & Nature', 'animal-marine', '🐟', 'fish'],
     ['fully-qualified', '🐟', '0.6', 'fish', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5932,7 +5950,7 @@ fusionados_1 = [
   ],
   [
     ['1F420'],
-    ['emoji', '660', 'Animals & Nature', 'animal-marine', '🐠', 'tropical fish'],
+    ['emoji', '662', 'Animals & Nature', 'animal-marine', '🐠', 'tropical fish'],
     ['fully-qualified', '🐠', '0.6', 'tropical fish', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5941,7 +5959,7 @@ fusionados_1 = [
   ],
   [
     ['1F421'],
-    ['emoji', '661', 'Animals & Nature', 'animal-marine', '🐡', 'blowfish'],
+    ['emoji', '663', 'Animals & Nature', 'animal-marine', '🐡', 'blowfish'],
     ['fully-qualified', '🐡', '0.6', 'blowfish', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5950,7 +5968,7 @@ fusionados_1 = [
   ],
   [
     ['1F988'],
-    ['emoji', '662', 'Animals & Nature', 'animal-marine', '🦈', 'shark'],
+    ['emoji', '664', 'Animals & Nature', 'animal-marine', '🦈', 'shark'],
     ['fully-qualified', '🦈', '3.0', 'shark', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -5959,7 +5977,7 @@ fusionados_1 = [
   ],
   [
     ['1F419'],
-    ['emoji', '663', 'Animals & Nature', 'animal-marine', '🐙', 'octopus'],
+    ['emoji', '665', 'Animals & Nature', 'animal-marine', '🐙', 'octopus'],
     ['fully-qualified', '🐙', '0.6', 'octopus', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5968,7 +5986,7 @@ fusionados_1 = [
   ],
   [
     ['1F41A'],
-    ['emoji', '664', 'Animals & Nature', 'animal-marine', '🐚', 'spiral shell'],
+    ['emoji', '666', 'Animals & Nature', 'animal-marine', '🐚', 'spiral shell'],
     ['fully-qualified', '🐚', '0.6', 'spiral shell', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -5977,7 +5995,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB8'],
-    ['emoji', '665', 'Animals & Nature', 'animal-marine', '\U0001fab8', 'coral'],
+    ['emoji', '667', 'Animals & Nature', 'animal-marine', '\U0001fab8', 'coral'],
     ['fully-qualified', '\U0001fab8', '14.0', 'coral', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -5986,7 +6004,7 @@ fusionados_1 = [
   ],
   [
     ['1FABC'],
-    ['emoji', '666', 'Animals & Nature', 'animal-marine', '\U0001fabc', 'jellyfish'],
+    ['emoji', '668', 'Animals & Nature', 'animal-marine', '\U0001fabc', 'jellyfish'],
     ['fully-qualified', '\U0001fabc', '15.0', 'jellyfish', 'Animals & Nature', 'animal-marine'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -5994,8 +6012,53 @@ fusionados_1 = [
     ['Basic_Emoji', '15.0'],
   ],
   [
+    ['1F980'],
+    ['emoji', '669', 'Animals & Nature', 'animal-marine', '🦀', 'crab'],
+    ['fully-qualified', '🦀', '1.0', 'crab', 'Animals & Nature', 'animal-marine'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
+    [],
+    [],
+    ['Basic_Emoji', '1.0'],
+  ],
+  [
+    ['1F99E'],
+    ['emoji', '670', 'Animals & Nature', 'animal-marine', '🦞', 'lobster'],
+    ['fully-qualified', '🦞', '11.0', 'lobster', 'Animals & Nature', 'animal-marine'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
+    [],
+    [],
+    ['Basic_Emoji', '11.0'],
+  ],
+  [
+    ['1F990'],
+    ['emoji', '671', 'Animals & Nature', 'animal-marine', '🦐', 'shrimp'],
+    ['fully-qualified', '🦐', '3.0', 'shrimp', 'Animals & Nature', 'animal-marine'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
+    [],
+    [],
+    ['Basic_Emoji', '3.0'],
+  ],
+  [
+    ['1F991'],
+    ['emoji', '672', 'Animals & Nature', 'animal-marine', '🦑', 'squid'],
+    ['fully-qualified', '🦑', '3.0', 'squid', 'Animals & Nature', 'animal-marine'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
+    [],
+    [],
+    ['Basic_Emoji', '3.0'],
+  ],
+  [
+    ['1F9AA'],
+    ['emoji', '673', 'Animals & Nature', 'animal-marine', '🦪', 'oyster'],
+    ['fully-qualified', '🦪', '12.0', 'oyster', 'Animals & Nature', 'animal-marine'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
+    [],
+    [],
+    ['Basic_Emoji', '12.0'],
+  ],
+  [
     ['1F40C'],
-    ['emoji', '667', 'Animals & Nature', 'animal-bug', '🐌', 'snail'],
+    ['emoji', '674', 'Animals & Nature', 'animal-bug', '🐌', 'snail'],
     ['fully-qualified', '🐌', '0.6', 'snail', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6004,7 +6067,7 @@ fusionados_1 = [
   ],
   [
     ['1F98B'],
-    ['emoji', '668', 'Animals & Nature', 'animal-bug', '🦋', 'butterfly'],
+    ['emoji', '675', 'Animals & Nature', 'animal-bug', '🦋', 'butterfly'],
     ['fully-qualified', '🦋', '3.0', 'butterfly', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6013,7 +6076,7 @@ fusionados_1 = [
   ],
   [
     ['1F41B'],
-    ['emoji', '669', 'Animals & Nature', 'animal-bug', '🐛', 'bug'],
+    ['emoji', '676', 'Animals & Nature', 'animal-bug', '🐛', 'bug'],
     ['fully-qualified', '🐛', '0.6', 'bug', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6022,7 +6085,7 @@ fusionados_1 = [
   ],
   [
     ['1F41C'],
-    ['emoji', '670', 'Animals & Nature', 'animal-bug', '🐜', 'ant'],
+    ['emoji', '677', 'Animals & Nature', 'animal-bug', '🐜', 'ant'],
     ['fully-qualified', '🐜', '0.6', 'ant', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6031,7 +6094,7 @@ fusionados_1 = [
   ],
   [
     ['1F41D'],
-    ['emoji', '671', 'Animals & Nature', 'animal-bug', '🐝', 'honeybee'],
+    ['emoji', '678', 'Animals & Nature', 'animal-bug', '🐝', 'honeybee'],
     ['fully-qualified', '🐝', '0.6', 'honeybee', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6040,7 +6103,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB2'],
-    ['emoji', '672', 'Animals & Nature', 'animal-bug', '🪲', 'beetle'],
+    ['emoji', '679', 'Animals & Nature', 'animal-bug', '🪲', 'beetle'],
     ['fully-qualified', '🪲', '13.0', 'beetle', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6049,7 +6112,7 @@ fusionados_1 = [
   ],
   [
     ['1F41E'],
-    ['emoji', '673', 'Animals & Nature', 'animal-bug', '🐞', 'lady beetle'],
+    ['emoji', '680', 'Animals & Nature', 'animal-bug', '🐞', 'lady beetle'],
     ['fully-qualified', '🐞', '0.6', 'lady beetle', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6058,7 +6121,7 @@ fusionados_1 = [
   ],
   [
     ['1F997'],
-    ['emoji', '674', 'Animals & Nature', 'animal-bug', '🦗', 'cricket'],
+    ['emoji', '681', 'Animals & Nature', 'animal-bug', '🦗', 'cricket'],
     ['fully-qualified', '🦗', '5.0', 'cricket', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -6067,7 +6130,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB3'],
-    ['emoji', '675', 'Animals & Nature', 'animal-bug', '🪳', 'cockroach'],
+    ['emoji', '682', 'Animals & Nature', 'animal-bug', '🪳', 'cockroach'],
     ['fully-qualified', '🪳', '13.0', 'cockroach', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6076,7 +6139,7 @@ fusionados_1 = [
   ],
   [
     ['1F577'],
-    ['emoji', '676', 'Animals & Nature', 'animal-bug', '🕷', 'spider'],
+    ['emoji', '683', 'Animals & Nature', 'animal-bug', '🕷', 'spider'],
     ['unqualified', '🕷', '0.7', 'spider', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -6085,7 +6148,7 @@ fusionados_1 = [
   ],
   [
     ['1F578'],
-    ['emoji', '677', 'Animals & Nature', 'animal-bug', '🕸', 'spider web'],
+    ['emoji', '684', 'Animals & Nature', 'animal-bug', '🕸', 'spider web'],
     ['unqualified', '🕸', '0.7', 'spider web', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -6094,7 +6157,7 @@ fusionados_1 = [
   ],
   [
     ['1F982'],
-    ['emoji', '678', 'Animals & Nature', 'animal-bug', '🦂', 'scorpion'],
+    ['emoji', '685', 'Animals & Nature', 'animal-bug', '🦂', 'scorpion'],
     ['fully-qualified', '🦂', '1.0', 'scorpion', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6103,7 +6166,7 @@ fusionados_1 = [
   ],
   [
     ['1F99F'],
-    ['emoji', '679', 'Animals & Nature', 'animal-bug', '🦟', 'mosquito'],
+    ['emoji', '686', 'Animals & Nature', 'animal-bug', '🦟', 'mosquito'],
     ['fully-qualified', '🦟', '11.0', 'mosquito', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -6112,7 +6175,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB0'],
-    ['emoji', '680', 'Animals & Nature', 'animal-bug', '🪰', 'fly'],
+    ['emoji', '687', 'Animals & Nature', 'animal-bug', '🪰', 'fly'],
     ['fully-qualified', '🪰', '13.0', 'fly', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6121,7 +6184,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB1'],
-    ['emoji', '681', 'Animals & Nature', 'animal-bug', '🪱', 'worm'],
+    ['emoji', '688', 'Animals & Nature', 'animal-bug', '🪱', 'worm'],
     ['fully-qualified', '🪱', '13.0', 'worm', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6130,7 +6193,7 @@ fusionados_1 = [
   ],
   [
     ['1F9A0'],
-    ['emoji', '682', 'Animals & Nature', 'animal-bug', '🦠', 'microbe'],
+    ['emoji', '689', 'Animals & Nature', 'animal-bug', '🦠', 'microbe'],
     ['fully-qualified', '🦠', '11.0', 'microbe', 'Animals & Nature', 'animal-bug'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -6139,7 +6202,7 @@ fusionados_1 = [
   ],
   [
     ['1F490'],
-    ['emoji', '683', 'Animals & Nature', 'plant-flower', '💐', 'bouquet'],
+    ['emoji', '690', 'Animals & Nature', 'plant-flower', '💐', 'bouquet'],
     ['fully-qualified', '💐', '0.6', 'bouquet', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6148,7 +6211,7 @@ fusionados_1 = [
   ],
   [
     ['1F338'],
-    ['emoji', '684', 'Animals & Nature', 'plant-flower', '🌸', 'cherry blossom'],
+    ['emoji', '691', 'Animals & Nature', 'plant-flower', '🌸', 'cherry blossom'],
     ['fully-qualified', '🌸', '0.6', 'cherry blossom', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6157,7 +6220,7 @@ fusionados_1 = [
   ],
   [
     ['1F4AE'],
-    ['emoji', '685', 'Animals & Nature', 'plant-flower', '💮', 'white flower'],
+    ['emoji', '692', 'Animals & Nature', 'plant-flower', '💮', 'white flower'],
     ['fully-qualified', '💮', '0.6', 'white flower', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6166,7 +6229,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB7'],
-    ['emoji', '686', 'Animals & Nature', 'plant-flower', '\U0001fab7', 'lotus'],
+    ['emoji', '693', 'Animals & Nature', 'plant-flower', '\U0001fab7', 'lotus'],
     ['fully-qualified', '\U0001fab7', '14.0', 'lotus', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -6175,7 +6238,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F5'],
-    ['emoji', '687', 'Animals & Nature', 'plant-flower', '🏵', 'rosette'],
+    ['emoji', '694', 'Animals & Nature', 'plant-flower', '🏵', 'rosette'],
     ['unqualified', '🏵', '0.7', 'rosette', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -6184,7 +6247,7 @@ fusionados_1 = [
   ],
   [
     ['1F339'],
-    ['emoji', '688', 'Animals & Nature', 'plant-flower', '🌹', 'rose'],
+    ['emoji', '695', 'Animals & Nature', 'plant-flower', '🌹', 'rose'],
     ['fully-qualified', '🌹', '0.6', 'rose', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6193,7 +6256,7 @@ fusionados_1 = [
   ],
   [
     ['1F940'],
-    ['emoji', '689', 'Animals & Nature', 'plant-flower', '🥀', 'wilted flower'],
+    ['emoji', '696', 'Animals & Nature', 'plant-flower', '🥀', 'wilted flower'],
     ['fully-qualified', '🥀', '3.0', 'wilted flower', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6202,7 +6265,7 @@ fusionados_1 = [
   ],
   [
     ['1F33A'],
-    ['emoji', '690', 'Animals & Nature', 'plant-flower', '🌺', 'hibiscus'],
+    ['emoji', '697', 'Animals & Nature', 'plant-flower', '🌺', 'hibiscus'],
     ['fully-qualified', '🌺', '0.6', 'hibiscus', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6211,7 +6274,7 @@ fusionados_1 = [
   ],
   [
     ['1F33B'],
-    ['emoji', '691', 'Animals & Nature', 'plant-flower', '🌻', 'sunflower'],
+    ['emoji', '698', 'Animals & Nature', 'plant-flower', '🌻', 'sunflower'],
     ['fully-qualified', '🌻', '0.6', 'sunflower', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6220,7 +6283,7 @@ fusionados_1 = [
   ],
   [
     ['1F33C'],
-    ['emoji', '692', 'Animals & Nature', 'plant-flower', '🌼', 'blossom'],
+    ['emoji', '699', 'Animals & Nature', 'plant-flower', '🌼', 'blossom'],
     ['fully-qualified', '🌼', '0.6', 'blossom', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6229,7 +6292,7 @@ fusionados_1 = [
   ],
   [
     ['1F337'],
-    ['emoji', '693', 'Animals & Nature', 'plant-flower', '🌷', 'tulip'],
+    ['emoji', '700', 'Animals & Nature', 'plant-flower', '🌷', 'tulip'],
     ['fully-qualified', '🌷', '0.6', 'tulip', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6238,7 +6301,7 @@ fusionados_1 = [
   ],
   [
     ['1FABB'],
-    ['emoji', '694', 'Animals & Nature', 'plant-flower', '\U0001fabb', 'hyacinth'],
+    ['emoji', '701', 'Animals & Nature', 'plant-flower', '\U0001fabb', 'hyacinth'],
     ['fully-qualified', '\U0001fabb', '15.0', 'hyacinth', 'Animals & Nature', 'plant-flower'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -6247,7 +6310,7 @@ fusionados_1 = [
   ],
   [
     ['1F331'],
-    ['emoji', '695', 'Animals & Nature', 'plant-other', '🌱', 'seedling'],
+    ['emoji', '702', 'Animals & Nature', 'plant-other', '🌱', 'seedling'],
     ['fully-qualified', '🌱', '0.6', 'seedling', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6256,7 +6319,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB4'],
-    ['emoji', '696', 'Animals & Nature', 'plant-other', '🪴', 'potted plant'],
+    ['emoji', '703', 'Animals & Nature', 'plant-other', '🪴', 'potted plant'],
     ['fully-qualified', '🪴', '13.0', 'potted plant', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6265,7 +6328,7 @@ fusionados_1 = [
   ],
   [
     ['1F332'],
-    ['emoji', '697', 'Animals & Nature', 'plant-other', '🌲', 'evergreen tree'],
+    ['emoji', '704', 'Animals & Nature', 'plant-other', '🌲', 'evergreen tree'],
     ['fully-qualified', '🌲', '1.0', 'evergreen tree', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6274,7 +6337,7 @@ fusionados_1 = [
   ],
   [
     ['1F333'],
-    ['emoji', '698', 'Animals & Nature', 'plant-other', '🌳', 'deciduous tree'],
+    ['emoji', '705', 'Animals & Nature', 'plant-other', '🌳', 'deciduous tree'],
     ['fully-qualified', '🌳', '1.0', 'deciduous tree', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6283,7 +6346,7 @@ fusionados_1 = [
   ],
   [
     ['1F334'],
-    ['emoji', '699', 'Animals & Nature', 'plant-other', '🌴', 'palm tree'],
+    ['emoji', '706', 'Animals & Nature', 'plant-other', '🌴', 'palm tree'],
     ['fully-qualified', '🌴', '0.6', 'palm tree', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6292,7 +6355,7 @@ fusionados_1 = [
   ],
   [
     ['1F335'],
-    ['emoji', '700', 'Animals & Nature', 'plant-other', '🌵', 'cactus'],
+    ['emoji', '707', 'Animals & Nature', 'plant-other', '🌵', 'cactus'],
     ['fully-qualified', '🌵', '0.6', 'cactus', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6301,7 +6364,7 @@ fusionados_1 = [
   ],
   [
     ['1F33E'],
-    ['emoji', '701', 'Animals & Nature', 'plant-other', '🌾', 'sheaf of rice'],
+    ['emoji', '708', 'Animals & Nature', 'plant-other', '🌾', 'sheaf of rice'],
     ['fully-qualified', '🌾', '0.6', 'sheaf of rice', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6310,7 +6373,7 @@ fusionados_1 = [
   ],
   [
     ['1F33F'],
-    ['emoji', '702', 'Animals & Nature', 'plant-other', '🌿', 'herb'],
+    ['emoji', '709', 'Animals & Nature', 'plant-other', '🌿', 'herb'],
     ['fully-qualified', '🌿', '0.6', 'herb', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6319,7 +6382,7 @@ fusionados_1 = [
   ],
   [
     ['2618'],
-    ['emoji', '703', 'Animals & Nature', 'plant-other', '☘', 'shamrock'],
+    ['emoji', '710', 'Animals & Nature', 'plant-other', '☘', 'shamrock'],
     ['unqualified', '☘', '1.0', 'shamrock', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6328,7 +6391,7 @@ fusionados_1 = [
   ],
   [
     ['1F340'],
-    ['emoji', '704', 'Animals & Nature', 'plant-other', '🍀', 'four leaf clover'],
+    ['emoji', '711', 'Animals & Nature', 'plant-other', '🍀', 'four leaf clover'],
     ['fully-qualified', '🍀', '0.6', 'four leaf clover', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6337,7 +6400,7 @@ fusionados_1 = [
   ],
   [
     ['1F341'],
-    ['emoji', '705', 'Animals & Nature', 'plant-other', '🍁', 'maple leaf'],
+    ['emoji', '712', 'Animals & Nature', 'plant-other', '🍁', 'maple leaf'],
     ['fully-qualified', '🍁', '0.6', 'maple leaf', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6346,7 +6409,7 @@ fusionados_1 = [
   ],
   [
     ['1F342'],
-    ['emoji', '706', 'Animals & Nature', 'plant-other', '🍂', 'fallen leaf'],
+    ['emoji', '713', 'Animals & Nature', 'plant-other', '🍂', 'fallen leaf'],
     ['fully-qualified', '🍂', '0.6', 'fallen leaf', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6355,7 +6418,7 @@ fusionados_1 = [
   ],
   [
     ['1F343'],
-    ['emoji', '707', 'Animals & Nature', 'plant-other', '🍃', 'leaf fluttering in wind'],
+    ['emoji', '714', 'Animals & Nature', 'plant-other', '🍃', 'leaf fluttering in wind'],
     ['fully-qualified', '🍃', '0.6', 'leaf fluttering in wind', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6364,7 +6427,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB9'],
-    ['emoji', '708', 'Animals & Nature', 'plant-other', '\U0001fab9', 'empty nest'],
+    ['emoji', '715', 'Animals & Nature', 'plant-other', '\U0001fab9', 'empty nest'],
     ['fully-qualified', '\U0001fab9', '14.0', 'empty nest', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -6373,7 +6436,7 @@ fusionados_1 = [
   ],
   [
     ['1FABA'],
-    ['emoji', '709', 'Animals & Nature', 'plant-other', '\U0001faba', 'nest with eggs'],
+    ['emoji', '716', 'Animals & Nature', 'plant-other', '\U0001faba', 'nest with eggs'],
     ['fully-qualified', '\U0001faba', '14.0', 'nest with eggs', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -6382,7 +6445,7 @@ fusionados_1 = [
   ],
   [
     ['1F344'],
-    ['emoji', '710', 'Animals & Nature', 'plant-other', '🍄', 'mushroom'],
+    ['emoji', '717', 'Animals & Nature', 'plant-other', '🍄', 'mushroom'],
     ['fully-qualified', '🍄', '0.6', 'mushroom', 'Animals & Nature', 'plant-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6390,8 +6453,17 @@ fusionados_1 = [
     ['Basic_Emoji', '0.6'],
   ],
   [
+    ['1FABE'],
+    ['emoji', '718', 'Animals & Nature', 'plant-other', '\U0001fabe', 'leafless tree'],
+    ['fully-qualified', '\U0001fabe', '16.0', 'leafless tree', 'Animals & Nature', 'plant-other'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '16.0'],
+    [],
+    [],
+    ['Basic_Emoji', '16.0'],
+  ],
+  [
     ['1F347'],
-    ['emoji', '711', 'Food & Drink', 'food-fruit', '🍇', 'grapes'],
+    ['emoji', '719', 'Food & Drink', 'food-fruit', '🍇', 'grapes'],
     ['fully-qualified', '🍇', '0.6', 'grapes', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6400,7 +6472,7 @@ fusionados_1 = [
   ],
   [
     ['1F348'],
-    ['emoji', '712', 'Food & Drink', 'food-fruit', '🍈', 'melon'],
+    ['emoji', '720', 'Food & Drink', 'food-fruit', '🍈', 'melon'],
     ['fully-qualified', '🍈', '0.6', 'melon', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6409,7 +6481,7 @@ fusionados_1 = [
   ],
   [
     ['1F349'],
-    ['emoji', '713', 'Food & Drink', 'food-fruit', '🍉', 'watermelon'],
+    ['emoji', '721', 'Food & Drink', 'food-fruit', '🍉', 'watermelon'],
     ['fully-qualified', '🍉', '0.6', 'watermelon', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6418,7 +6490,7 @@ fusionados_1 = [
   ],
   [
     ['1F34A'],
-    ['emoji', '714', 'Food & Drink', 'food-fruit', '🍊', 'tangerine'],
+    ['emoji', '722', 'Food & Drink', 'food-fruit', '🍊', 'tangerine'],
     ['fully-qualified', '🍊', '0.6', 'tangerine', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6427,7 +6499,7 @@ fusionados_1 = [
   ],
   [
     ['1F34B'],
-    ['emoji', '715', 'Food & Drink', 'food-fruit', '🍋', 'lemon'],
+    ['emoji', '723', 'Food & Drink', 'food-fruit', '🍋', 'lemon'],
     ['fully-qualified', '🍋', '1.0', 'lemon', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6436,7 +6508,7 @@ fusionados_1 = [
   ],
   [
     ['1F34B', '200D', '1F7E9'],
-    ['emoji', '716', 'Food & Drink', 'food-fruit', '🍋\u200d🟩', 'lime'],
+    ['emoji', '724', 'Food & Drink', 'food-fruit', '🍋\u200d🟩', 'lime'],
     ['fully-qualified', '🍋\u200d🟩', '15.1', 'lime', 'Food & Drink', 'food-fruit'],
     [],
     [],
@@ -6445,7 +6517,7 @@ fusionados_1 = [
   ],
   [
     ['1F34C'],
-    ['emoji', '717', 'Food & Drink', 'food-fruit', '🍌', 'banana'],
+    ['emoji', '725', 'Food & Drink', 'food-fruit', '🍌', 'banana'],
     ['fully-qualified', '🍌', '0.6', 'banana', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6454,7 +6526,7 @@ fusionados_1 = [
   ],
   [
     ['1F34D'],
-    ['emoji', '718', 'Food & Drink', 'food-fruit', '🍍', 'pineapple'],
+    ['emoji', '726', 'Food & Drink', 'food-fruit', '🍍', 'pineapple'],
     ['fully-qualified', '🍍', '0.6', 'pineapple', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6463,7 +6535,7 @@ fusionados_1 = [
   ],
   [
     ['1F96D'],
-    ['emoji', '719', 'Food & Drink', 'food-fruit', '🥭', 'mango'],
+    ['emoji', '727', 'Food & Drink', 'food-fruit', '🥭', 'mango'],
     ['fully-qualified', '🥭', '11.0', 'mango', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -6472,7 +6544,7 @@ fusionados_1 = [
   ],
   [
     ['1F34E'],
-    ['emoji', '720', 'Food & Drink', 'food-fruit', '🍎', 'red apple'],
+    ['emoji', '728', 'Food & Drink', 'food-fruit', '🍎', 'red apple'],
     ['fully-qualified', '🍎', '0.6', 'red apple', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6481,7 +6553,7 @@ fusionados_1 = [
   ],
   [
     ['1F34F'],
-    ['emoji', '721', 'Food & Drink', 'food-fruit', '🍏', 'green apple'],
+    ['emoji', '729', 'Food & Drink', 'food-fruit', '🍏', 'green apple'],
     ['fully-qualified', '🍏', '0.6', 'green apple', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6490,7 +6562,7 @@ fusionados_1 = [
   ],
   [
     ['1F350'],
-    ['emoji', '722', 'Food & Drink', 'food-fruit', '🍐', 'pear'],
+    ['emoji', '730', 'Food & Drink', 'food-fruit', '🍐', 'pear'],
     ['fully-qualified', '🍐', '1.0', 'pear', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6499,7 +6571,7 @@ fusionados_1 = [
   ],
   [
     ['1F351'],
-    ['emoji', '723', 'Food & Drink', 'food-fruit', '🍑', 'peach'],
+    ['emoji', '731', 'Food & Drink', 'food-fruit', '🍑', 'peach'],
     ['fully-qualified', '🍑', '0.6', 'peach', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6508,7 +6580,7 @@ fusionados_1 = [
   ],
   [
     ['1F352'],
-    ['emoji', '724', 'Food & Drink', 'food-fruit', '🍒', 'cherries'],
+    ['emoji', '732', 'Food & Drink', 'food-fruit', '🍒', 'cherries'],
     ['fully-qualified', '🍒', '0.6', 'cherries', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6517,7 +6589,7 @@ fusionados_1 = [
   ],
   [
     ['1F353'],
-    ['emoji', '725', 'Food & Drink', 'food-fruit', '🍓', 'strawberry'],
+    ['emoji', '733', 'Food & Drink', 'food-fruit', '🍓', 'strawberry'],
     ['fully-qualified', '🍓', '0.6', 'strawberry', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6526,7 +6598,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD0'],
-    ['emoji', '726', 'Food & Drink', 'food-fruit', '🫐', 'blueberries'],
+    ['emoji', '734', 'Food & Drink', 'food-fruit', '🫐', 'blueberries'],
     ['fully-qualified', '🫐', '13.0', 'blueberries', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6535,7 +6607,7 @@ fusionados_1 = [
   ],
   [
     ['1F95D'],
-    ['emoji', '727', 'Food & Drink', 'food-fruit', '🥝', 'kiwi fruit'],
+    ['emoji', '735', 'Food & Drink', 'food-fruit', '🥝', 'kiwi fruit'],
     ['fully-qualified', '🥝', '3.0', 'kiwi fruit', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6544,7 +6616,7 @@ fusionados_1 = [
   ],
   [
     ['1F345'],
-    ['emoji', '728', 'Food & Drink', 'food-fruit', '🍅', 'tomato'],
+    ['emoji', '736', 'Food & Drink', 'food-fruit', '🍅', 'tomato'],
     ['fully-qualified', '🍅', '0.6', 'tomato', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6553,7 +6625,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD2'],
-    ['emoji', '729', 'Food & Drink', 'food-fruit', '🫒', 'olive'],
+    ['emoji', '737', 'Food & Drink', 'food-fruit', '🫒', 'olive'],
     ['fully-qualified', '🫒', '13.0', 'olive', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6562,7 +6634,7 @@ fusionados_1 = [
   ],
   [
     ['1F965'],
-    ['emoji', '730', 'Food & Drink', 'food-fruit', '🥥', 'coconut'],
+    ['emoji', '738', 'Food & Drink', 'food-fruit', '🥥', 'coconut'],
     ['fully-qualified', '🥥', '5.0', 'coconut', 'Food & Drink', 'food-fruit'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -6571,7 +6643,7 @@ fusionados_1 = [
   ],
   [
     ['1F951'],
-    ['emoji', '731', 'Food & Drink', 'food-vegetable', '🥑', 'avocado'],
+    ['emoji', '739', 'Food & Drink', 'food-vegetable', '🥑', 'avocado'],
     ['fully-qualified', '🥑', '3.0', 'avocado', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6580,7 +6652,7 @@ fusionados_1 = [
   ],
   [
     ['1F346'],
-    ['emoji', '732', 'Food & Drink', 'food-vegetable', '🍆', 'eggplant'],
+    ['emoji', '740', 'Food & Drink', 'food-vegetable', '🍆', 'eggplant'],
     ['fully-qualified', '🍆', '0.6', 'eggplant', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6589,7 +6661,7 @@ fusionados_1 = [
   ],
   [
     ['1F954'],
-    ['emoji', '733', 'Food & Drink', 'food-vegetable', '🥔', 'potato'],
+    ['emoji', '741', 'Food & Drink', 'food-vegetable', '🥔', 'potato'],
     ['fully-qualified', '🥔', '3.0', 'potato', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6598,7 +6670,7 @@ fusionados_1 = [
   ],
   [
     ['1F955'],
-    ['emoji', '734', 'Food & Drink', 'food-vegetable', '🥕', 'carrot'],
+    ['emoji', '742', 'Food & Drink', 'food-vegetable', '🥕', 'carrot'],
     ['fully-qualified', '🥕', '3.0', 'carrot', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6607,7 +6679,7 @@ fusionados_1 = [
   ],
   [
     ['1F33D'],
-    ['emoji', '735', 'Food & Drink', 'food-vegetable', '🌽', 'ear of corn'],
+    ['emoji', '743', 'Food & Drink', 'food-vegetable', '🌽', 'ear of corn'],
     ['fully-qualified', '🌽', '0.6', 'ear of corn', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6616,7 +6688,7 @@ fusionados_1 = [
   ],
   [
     ['1F336'],
-    ['emoji', '736', 'Food & Drink', 'food-vegetable', '🌶', 'hot pepper'],
+    ['emoji', '744', 'Food & Drink', 'food-vegetable', '🌶', 'hot pepper'],
     ['unqualified', '🌶', '0.7', 'hot pepper', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -6625,7 +6697,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD1'],
-    ['emoji', '737', 'Food & Drink', 'food-vegetable', '🫑', 'bell pepper'],
+    ['emoji', '745', 'Food & Drink', 'food-vegetable', '🫑', 'bell pepper'],
     ['fully-qualified', '🫑', '13.0', 'bell pepper', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6634,7 +6706,7 @@ fusionados_1 = [
   ],
   [
     ['1F952'],
-    ['emoji', '738', 'Food & Drink', 'food-vegetable', '🥒', 'cucumber'],
+    ['emoji', '746', 'Food & Drink', 'food-vegetable', '🥒', 'cucumber'],
     ['fully-qualified', '🥒', '3.0', 'cucumber', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6643,7 +6715,7 @@ fusionados_1 = [
   ],
   [
     ['1F96C'],
-    ['emoji', '739', 'Food & Drink', 'food-vegetable', '🥬', 'leafy green'],
+    ['emoji', '747', 'Food & Drink', 'food-vegetable', '🥬', 'leafy green'],
     ['fully-qualified', '🥬', '11.0', 'leafy green', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -6652,7 +6724,7 @@ fusionados_1 = [
   ],
   [
     ['1F966'],
-    ['emoji', '740', 'Food & Drink', 'food-vegetable', '🥦', 'broccoli'],
+    ['emoji', '748', 'Food & Drink', 'food-vegetable', '🥦', 'broccoli'],
     ['fully-qualified', '🥦', '5.0', 'broccoli', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -6661,7 +6733,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C4'],
-    ['emoji', '741', 'Food & Drink', 'food-vegetable', '🧄', 'garlic'],
+    ['emoji', '749', 'Food & Drink', 'food-vegetable', '🧄', 'garlic'],
     ['fully-qualified', '🧄', '12.0', 'garlic', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -6670,7 +6742,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C5'],
-    ['emoji', '742', 'Food & Drink', 'food-vegetable', '🧅', 'onion'],
+    ['emoji', '750', 'Food & Drink', 'food-vegetable', '🧅', 'onion'],
     ['fully-qualified', '🧅', '12.0', 'onion', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -6679,7 +6751,7 @@ fusionados_1 = [
   ],
   [
     ['1F95C'],
-    ['emoji', '743', 'Food & Drink', 'food-vegetable', '🥜', 'peanuts'],
+    ['emoji', '751', 'Food & Drink', 'food-vegetable', '🥜', 'peanuts'],
     ['fully-qualified', '🥜', '3.0', 'peanuts', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6688,7 +6760,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD8'],
-    ['emoji', '744', 'Food & Drink', 'food-vegetable', '\U0001fad8', 'beans'],
+    ['emoji', '752', 'Food & Drink', 'food-vegetable', '\U0001fad8', 'beans'],
     ['fully-qualified', '\U0001fad8', '14.0', 'beans', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -6697,7 +6769,7 @@ fusionados_1 = [
   ],
   [
     ['1F330'],
-    ['emoji', '745', 'Food & Drink', 'food-vegetable', '🌰', 'chestnut'],
+    ['emoji', '753', 'Food & Drink', 'food-vegetable', '🌰', 'chestnut'],
     ['fully-qualified', '🌰', '0.6', 'chestnut', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6706,7 +6778,7 @@ fusionados_1 = [
   ],
   [
     ['1FADA'],
-    ['emoji', '746', 'Food & Drink', 'food-vegetable', '\U0001fada', 'ginger root'],
+    ['emoji', '754', 'Food & Drink', 'food-vegetable', '\U0001fada', 'ginger root'],
     ['fully-qualified', '\U0001fada', '15.0', 'ginger root', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -6715,7 +6787,7 @@ fusionados_1 = [
   ],
   [
     ['1FADB'],
-    ['emoji', '747', 'Food & Drink', 'food-vegetable', '\U0001fadb', 'pea pod'],
+    ['emoji', '755', 'Food & Drink', 'food-vegetable', '\U0001fadb', 'pea pod'],
     ['fully-qualified', '\U0001fadb', '15.0', 'pea pod', 'Food & Drink', 'food-vegetable'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -6724,7 +6796,7 @@ fusionados_1 = [
   ],
   [
     ['1F344', '200D', '1F7EB'],
-    ['emoji', '748', 'Food & Drink', 'food-vegetable', '🍄\u200d🟫', 'brown mushroom'],
+    ['emoji', '756', 'Food & Drink', 'food-vegetable', '🍄\u200d🟫', 'brown mushroom'],
     ['fully-qualified', '🍄\u200d🟫', '15.1', 'brown mushroom', 'Food & Drink', 'food-vegetable'],
     [],
     [],
@@ -6732,8 +6804,17 @@ fusionados_1 = [
     [],
   ],
   [
+    ['1FADC'],
+    ['emoji', '757', 'Food & Drink', 'food-vegetable', '\U0001fadc', 'root vegetable'],
+    ['fully-qualified', '\U0001fadc', '16.0', 'root vegetable', 'Food & Drink', 'food-vegetable'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '16.0'],
+    [],
+    [],
+    ['Basic_Emoji', '16.0'],
+  ],
+  [
     ['1F35E'],
-    ['emoji', '749', 'Food & Drink', 'food-prepared', '🍞', 'bread'],
+    ['emoji', '758', 'Food & Drink', 'food-prepared', '🍞', 'bread'],
     ['fully-qualified', '🍞', '0.6', 'bread', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6742,7 +6823,7 @@ fusionados_1 = [
   ],
   [
     ['1F950'],
-    ['emoji', '750', 'Food & Drink', 'food-prepared', '🥐', 'croissant'],
+    ['emoji', '759', 'Food & Drink', 'food-prepared', '🥐', 'croissant'],
     ['fully-qualified', '🥐', '3.0', 'croissant', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6751,7 +6832,7 @@ fusionados_1 = [
   ],
   [
     ['1F956'],
-    ['emoji', '751', 'Food & Drink', 'food-prepared', '🥖', 'baguette bread'],
+    ['emoji', '760', 'Food & Drink', 'food-prepared', '🥖', 'baguette bread'],
     ['fully-qualified', '🥖', '3.0', 'baguette bread', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6760,7 +6841,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD3'],
-    ['emoji', '752', 'Food & Drink', 'food-prepared', '🫓', 'flatbread'],
+    ['emoji', '761', 'Food & Drink', 'food-prepared', '🫓', 'flatbread'],
     ['fully-qualified', '🫓', '13.0', 'flatbread', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6769,7 +6850,7 @@ fusionados_1 = [
   ],
   [
     ['1F968'],
-    ['emoji', '753', 'Food & Drink', 'food-prepared', '🥨', 'pretzel'],
+    ['emoji', '762', 'Food & Drink', 'food-prepared', '🥨', 'pretzel'],
     ['fully-qualified', '🥨', '5.0', 'pretzel', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -6778,7 +6859,7 @@ fusionados_1 = [
   ],
   [
     ['1F96F'],
-    ['emoji', '754', 'Food & Drink', 'food-prepared', '🥯', 'bagel'],
+    ['emoji', '763', 'Food & Drink', 'food-prepared', '🥯', 'bagel'],
     ['fully-qualified', '🥯', '11.0', 'bagel', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -6787,7 +6868,7 @@ fusionados_1 = [
   ],
   [
     ['1F95E'],
-    ['emoji', '755', 'Food & Drink', 'food-prepared', '🥞', 'pancakes'],
+    ['emoji', '764', 'Food & Drink', 'food-prepared', '🥞', 'pancakes'],
     ['fully-qualified', '🥞', '3.0', 'pancakes', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6796,7 +6877,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C7'],
-    ['emoji', '756', 'Food & Drink', 'food-prepared', '🧇', 'waffle'],
+    ['emoji', '765', 'Food & Drink', 'food-prepared', '🧇', 'waffle'],
     ['fully-qualified', '🧇', '12.0', 'waffle', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -6805,7 +6886,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C0'],
-    ['emoji', '757', 'Food & Drink', 'food-prepared', '🧀', 'cheese wedge'],
+    ['emoji', '766', 'Food & Drink', 'food-prepared', '🧀', 'cheese wedge'],
     ['fully-qualified', '🧀', '1.0', 'cheese wedge', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6814,7 +6895,7 @@ fusionados_1 = [
   ],
   [
     ['1F356'],
-    ['emoji', '758', 'Food & Drink', 'food-prepared', '🍖', 'meat on bone'],
+    ['emoji', '767', 'Food & Drink', 'food-prepared', '🍖', 'meat on bone'],
     ['fully-qualified', '🍖', '0.6', 'meat on bone', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6823,7 +6904,7 @@ fusionados_1 = [
   ],
   [
     ['1F357'],
-    ['emoji', '759', 'Food & Drink', 'food-prepared', '🍗', 'poultry leg'],
+    ['emoji', '768', 'Food & Drink', 'food-prepared', '🍗', 'poultry leg'],
     ['fully-qualified', '🍗', '0.6', 'poultry leg', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6832,7 +6913,7 @@ fusionados_1 = [
   ],
   [
     ['1F969'],
-    ['emoji', '760', 'Food & Drink', 'food-prepared', '🥩', 'cut of meat'],
+    ['emoji', '769', 'Food & Drink', 'food-prepared', '🥩', 'cut of meat'],
     ['fully-qualified', '🥩', '5.0', 'cut of meat', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -6841,7 +6922,7 @@ fusionados_1 = [
   ],
   [
     ['1F953'],
-    ['emoji', '761', 'Food & Drink', 'food-prepared', '🥓', 'bacon'],
+    ['emoji', '770', 'Food & Drink', 'food-prepared', '🥓', 'bacon'],
     ['fully-qualified', '🥓', '3.0', 'bacon', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6850,7 +6931,7 @@ fusionados_1 = [
   ],
   [
     ['1F354'],
-    ['emoji', '762', 'Food & Drink', 'food-prepared', '🍔', 'hamburger'],
+    ['emoji', '771', 'Food & Drink', 'food-prepared', '🍔', 'hamburger'],
     ['fully-qualified', '🍔', '0.6', 'hamburger', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6859,7 +6940,7 @@ fusionados_1 = [
   ],
   [
     ['1F35F'],
-    ['emoji', '763', 'Food & Drink', 'food-prepared', '🍟', 'french fries'],
+    ['emoji', '772', 'Food & Drink', 'food-prepared', '🍟', 'french fries'],
     ['fully-qualified', '🍟', '0.6', 'french fries', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6868,7 +6949,7 @@ fusionados_1 = [
   ],
   [
     ['1F355'],
-    ['emoji', '764', 'Food & Drink', 'food-prepared', '🍕', 'pizza'],
+    ['emoji', '773', 'Food & Drink', 'food-prepared', '🍕', 'pizza'],
     ['fully-qualified', '🍕', '0.6', 'pizza', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6877,7 +6958,7 @@ fusionados_1 = [
   ],
   [
     ['1F32D'],
-    ['emoji', '765', 'Food & Drink', 'food-prepared', '🌭', 'hot dog'],
+    ['emoji', '774', 'Food & Drink', 'food-prepared', '🌭', 'hot dog'],
     ['fully-qualified', '🌭', '1.0', 'hot dog', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6886,7 +6967,7 @@ fusionados_1 = [
   ],
   [
     ['1F96A'],
-    ['emoji', '766', 'Food & Drink', 'food-prepared', '🥪', 'sandwich'],
+    ['emoji', '775', 'Food & Drink', 'food-prepared', '🥪', 'sandwich'],
     ['fully-qualified', '🥪', '5.0', 'sandwich', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -6895,7 +6976,7 @@ fusionados_1 = [
   ],
   [
     ['1F32E'],
-    ['emoji', '767', 'Food & Drink', 'food-prepared', '🌮', 'taco'],
+    ['emoji', '776', 'Food & Drink', 'food-prepared', '🌮', 'taco'],
     ['fully-qualified', '🌮', '1.0', 'taco', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6904,7 +6985,7 @@ fusionados_1 = [
   ],
   [
     ['1F32F'],
-    ['emoji', '768', 'Food & Drink', 'food-prepared', '🌯', 'burrito'],
+    ['emoji', '777', 'Food & Drink', 'food-prepared', '🌯', 'burrito'],
     ['fully-qualified', '🌯', '1.0', 'burrito', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -6913,7 +6994,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD4'],
-    ['emoji', '769', 'Food & Drink', 'food-prepared', '🫔', 'tamale'],
+    ['emoji', '778', 'Food & Drink', 'food-prepared', '🫔', 'tamale'],
     ['fully-qualified', '🫔', '13.0', 'tamale', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6922,7 +7003,7 @@ fusionados_1 = [
   ],
   [
     ['1F959'],
-    ['emoji', '770', 'Food & Drink', 'food-prepared', '🥙', 'stuffed flatbread'],
+    ['emoji', '779', 'Food & Drink', 'food-prepared', '🥙', 'stuffed flatbread'],
     ['fully-qualified', '🥙', '3.0', 'stuffed flatbread', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6931,7 +7012,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C6'],
-    ['emoji', '771', 'Food & Drink', 'food-prepared', '🧆', 'falafel'],
+    ['emoji', '780', 'Food & Drink', 'food-prepared', '🧆', 'falafel'],
     ['fully-qualified', '🧆', '12.0', 'falafel', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -6940,7 +7021,7 @@ fusionados_1 = [
   ],
   [
     ['1F95A'],
-    ['emoji', '772', 'Food & Drink', 'food-prepared', '🥚', 'egg'],
+    ['emoji', '781', 'Food & Drink', 'food-prepared', '🥚', 'egg'],
     ['fully-qualified', '🥚', '3.0', 'egg', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6949,7 +7030,7 @@ fusionados_1 = [
   ],
   [
     ['1F373'],
-    ['emoji', '773', 'Food & Drink', 'food-prepared', '🍳', 'cooking'],
+    ['emoji', '782', 'Food & Drink', 'food-prepared', '🍳', 'cooking'],
     ['fully-qualified', '🍳', '0.6', 'cooking', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6958,7 +7039,7 @@ fusionados_1 = [
   ],
   [
     ['1F958'],
-    ['emoji', '774', 'Food & Drink', 'food-prepared', '🥘', 'shallow pan of food'],
+    ['emoji', '783', 'Food & Drink', 'food-prepared', '🥘', 'shallow pan of food'],
     ['fully-qualified', '🥘', '3.0', 'shallow pan of food', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -6967,7 +7048,7 @@ fusionados_1 = [
   ],
   [
     ['1F372'],
-    ['emoji', '775', 'Food & Drink', 'food-prepared', '🍲', 'pot of food'],
+    ['emoji', '784', 'Food & Drink', 'food-prepared', '🍲', 'pot of food'],
     ['fully-qualified', '🍲', '0.6', 'pot of food', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -6976,7 +7057,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD5'],
-    ['emoji', '776', 'Food & Drink', 'food-prepared', '🫕', 'fondue'],
+    ['emoji', '785', 'Food & Drink', 'food-prepared', '🫕', 'fondue'],
     ['fully-qualified', '🫕', '13.0', 'fondue', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -6985,7 +7066,7 @@ fusionados_1 = [
   ],
   [
     ['1F963'],
-    ['emoji', '777', 'Food & Drink', 'food-prepared', '🥣', 'bowl with spoon'],
+    ['emoji', '786', 'Food & Drink', 'food-prepared', '🥣', 'bowl with spoon'],
     ['fully-qualified', '🥣', '5.0', 'bowl with spoon', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -6994,7 +7075,7 @@ fusionados_1 = [
   ],
   [
     ['1F957'],
-    ['emoji', '778', 'Food & Drink', 'food-prepared', '🥗', 'green salad'],
+    ['emoji', '787', 'Food & Drink', 'food-prepared', '🥗', 'green salad'],
     ['fully-qualified', '🥗', '3.0', 'green salad', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -7003,7 +7084,7 @@ fusionados_1 = [
   ],
   [
     ['1F37F'],
-    ['emoji', '779', 'Food & Drink', 'food-prepared', '🍿', 'popcorn'],
+    ['emoji', '788', 'Food & Drink', 'food-prepared', '🍿', 'popcorn'],
     ['fully-qualified', '🍿', '1.0', 'popcorn', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -7012,7 +7093,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C8'],
-    ['emoji', '780', 'Food & Drink', 'food-prepared', '🧈', 'butter'],
+    ['emoji', '789', 'Food & Drink', 'food-prepared', '🧈', 'butter'],
     ['fully-qualified', '🧈', '12.0', 'butter', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -7021,7 +7102,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C2'],
-    ['emoji', '781', 'Food & Drink', 'food-prepared', '🧂', 'salt'],
+    ['emoji', '790', 'Food & Drink', 'food-prepared', '🧂', 'salt'],
     ['fully-qualified', '🧂', '11.0', 'salt', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -7030,7 +7111,7 @@ fusionados_1 = [
   ],
   [
     ['1F96B'],
-    ['emoji', '782', 'Food & Drink', 'food-prepared', '🥫', 'canned food'],
+    ['emoji', '791', 'Food & Drink', 'food-prepared', '🥫', 'canned food'],
     ['fully-qualified', '🥫', '5.0', 'canned food', 'Food & Drink', 'food-prepared'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -7039,7 +7120,7 @@ fusionados_1 = [
   ],
   [
     ['1F371'],
-    ['emoji', '783', 'Food & Drink', 'food-asian', '🍱', 'bento box'],
+    ['emoji', '792', 'Food & Drink', 'food-asian', '🍱', 'bento box'],
     ['fully-qualified', '🍱', '0.6', 'bento box', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7048,7 +7129,7 @@ fusionados_1 = [
   ],
   [
     ['1F358'],
-    ['emoji', '784', 'Food & Drink', 'food-asian', '🍘', 'rice cracker'],
+    ['emoji', '793', 'Food & Drink', 'food-asian', '🍘', 'rice cracker'],
     ['fully-qualified', '🍘', '0.6', 'rice cracker', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7057,7 +7138,7 @@ fusionados_1 = [
   ],
   [
     ['1F359'],
-    ['emoji', '785', 'Food & Drink', 'food-asian', '🍙', 'rice ball'],
+    ['emoji', '794', 'Food & Drink', 'food-asian', '🍙', 'rice ball'],
     ['fully-qualified', '🍙', '0.6', 'rice ball', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7066,7 +7147,7 @@ fusionados_1 = [
   ],
   [
     ['1F35A'],
-    ['emoji', '786', 'Food & Drink', 'food-asian', '🍚', 'cooked rice'],
+    ['emoji', '795', 'Food & Drink', 'food-asian', '🍚', 'cooked rice'],
     ['fully-qualified', '🍚', '0.6', 'cooked rice', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7075,7 +7156,7 @@ fusionados_1 = [
   ],
   [
     ['1F35B'],
-    ['emoji', '787', 'Food & Drink', 'food-asian', '🍛', 'curry rice'],
+    ['emoji', '796', 'Food & Drink', 'food-asian', '🍛', 'curry rice'],
     ['fully-qualified', '🍛', '0.6', 'curry rice', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7084,7 +7165,7 @@ fusionados_1 = [
   ],
   [
     ['1F35C'],
-    ['emoji', '788', 'Food & Drink', 'food-asian', '🍜', 'steaming bowl'],
+    ['emoji', '797', 'Food & Drink', 'food-asian', '🍜', 'steaming bowl'],
     ['fully-qualified', '🍜', '0.6', 'steaming bowl', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7093,7 +7174,7 @@ fusionados_1 = [
   ],
   [
     ['1F35D'],
-    ['emoji', '789', 'Food & Drink', 'food-asian', '🍝', 'spaghetti'],
+    ['emoji', '798', 'Food & Drink', 'food-asian', '🍝', 'spaghetti'],
     ['fully-qualified', '🍝', '0.6', 'spaghetti', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7102,7 +7183,7 @@ fusionados_1 = [
   ],
   [
     ['1F360'],
-    ['emoji', '790', 'Food & Drink', 'food-asian', '🍠', 'roasted sweet potato'],
+    ['emoji', '799', 'Food & Drink', 'food-asian', '🍠', 'roasted sweet potato'],
     ['fully-qualified', '🍠', '0.6', 'roasted sweet potato', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7111,7 +7192,7 @@ fusionados_1 = [
   ],
   [
     ['1F362'],
-    ['emoji', '791', 'Food & Drink', 'food-asian', '🍢', 'oden'],
+    ['emoji', '800', 'Food & Drink', 'food-asian', '🍢', 'oden'],
     ['fully-qualified', '🍢', '0.6', 'oden', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7120,7 +7201,7 @@ fusionados_1 = [
   ],
   [
     ['1F363'],
-    ['emoji', '792', 'Food & Drink', 'food-asian', '🍣', 'sushi'],
+    ['emoji', '801', 'Food & Drink', 'food-asian', '🍣', 'sushi'],
     ['fully-qualified', '🍣', '0.6', 'sushi', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7129,7 +7210,7 @@ fusionados_1 = [
   ],
   [
     ['1F364'],
-    ['emoji', '793', 'Food & Drink', 'food-asian', '🍤', 'fried shrimp'],
+    ['emoji', '802', 'Food & Drink', 'food-asian', '🍤', 'fried shrimp'],
     ['fully-qualified', '🍤', '0.6', 'fried shrimp', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7138,7 +7219,7 @@ fusionados_1 = [
   ],
   [
     ['1F365'],
-    ['emoji', '794', 'Food & Drink', 'food-asian', '🍥', 'fish cake with swirl'],
+    ['emoji', '803', 'Food & Drink', 'food-asian', '🍥', 'fish cake with swirl'],
     ['fully-qualified', '🍥', '0.6', 'fish cake with swirl', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7147,7 +7228,7 @@ fusionados_1 = [
   ],
   [
     ['1F96E'],
-    ['emoji', '795', 'Food & Drink', 'food-asian', '🥮', 'moon cake'],
+    ['emoji', '804', 'Food & Drink', 'food-asian', '🥮', 'moon cake'],
     ['fully-qualified', '🥮', '11.0', 'moon cake', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -7156,7 +7237,7 @@ fusionados_1 = [
   ],
   [
     ['1F361'],
-    ['emoji', '796', 'Food & Drink', 'food-asian', '🍡', 'dango'],
+    ['emoji', '805', 'Food & Drink', 'food-asian', '🍡', 'dango'],
     ['fully-qualified', '🍡', '0.6', 'dango', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7165,7 +7246,7 @@ fusionados_1 = [
   ],
   [
     ['1F95F'],
-    ['emoji', '797', 'Food & Drink', 'food-asian', '🥟', 'dumpling'],
+    ['emoji', '806', 'Food & Drink', 'food-asian', '🥟', 'dumpling'],
     ['fully-qualified', '🥟', '5.0', 'dumpling', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -7174,7 +7255,7 @@ fusionados_1 = [
   ],
   [
     ['1F960'],
-    ['emoji', '798', 'Food & Drink', 'food-asian', '🥠', 'fortune cookie'],
+    ['emoji', '807', 'Food & Drink', 'food-asian', '🥠', 'fortune cookie'],
     ['fully-qualified', '🥠', '5.0', 'fortune cookie', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -7183,7 +7264,7 @@ fusionados_1 = [
   ],
   [
     ['1F961'],
-    ['emoji', '799', 'Food & Drink', 'food-asian', '🥡', 'takeout box'],
+    ['emoji', '808', 'Food & Drink', 'food-asian', '🥡', 'takeout box'],
     ['fully-qualified', '🥡', '5.0', 'takeout box', 'Food & Drink', 'food-asian'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -7191,53 +7272,8 @@ fusionados_1 = [
     ['Basic_Emoji', '5.0'],
   ],
   [
-    ['1F980'],
-    ['emoji', '800', 'Food & Drink', 'food-marine', '🦀', 'crab'],
-    ['fully-qualified', '🦀', '1.0', 'crab', 'Food & Drink', 'food-marine'],
-    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
-    [],
-    [],
-    ['Basic_Emoji', '1.0'],
-  ],
-  [
-    ['1F99E'],
-    ['emoji', '801', 'Food & Drink', 'food-marine', '🦞', 'lobster'],
-    ['fully-qualified', '🦞', '11.0', 'lobster', 'Food & Drink', 'food-marine'],
-    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
-    [],
-    [],
-    ['Basic_Emoji', '11.0'],
-  ],
-  [
-    ['1F990'],
-    ['emoji', '802', 'Food & Drink', 'food-marine', '🦐', 'shrimp'],
-    ['fully-qualified', '🦐', '3.0', 'shrimp', 'Food & Drink', 'food-marine'],
-    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
-    [],
-    [],
-    ['Basic_Emoji', '3.0'],
-  ],
-  [
-    ['1F991'],
-    ['emoji', '803', 'Food & Drink', 'food-marine', '🦑', 'squid'],
-    ['fully-qualified', '🦑', '3.0', 'squid', 'Food & Drink', 'food-marine'],
-    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
-    [],
-    [],
-    ['Basic_Emoji', '3.0'],
-  ],
-  [
-    ['1F9AA'],
-    ['emoji', '804', 'Food & Drink', 'food-marine', '🦪', 'oyster'],
-    ['fully-qualified', '🦪', '12.0', 'oyster', 'Food & Drink', 'food-marine'],
-    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
-    [],
-    [],
-    ['Basic_Emoji', '12.0'],
-  ],
-  [
     ['1F366'],
-    ['emoji', '805', 'Food & Drink', 'food-sweet', '🍦', 'soft ice cream'],
+    ['emoji', '809', 'Food & Drink', 'food-sweet', '🍦', 'soft ice cream'],
     ['fully-qualified', '🍦', '0.6', 'soft ice cream', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7246,7 +7282,7 @@ fusionados_1 = [
   ],
   [
     ['1F367'],
-    ['emoji', '806', 'Food & Drink', 'food-sweet', '🍧', 'shaved ice'],
+    ['emoji', '810', 'Food & Drink', 'food-sweet', '🍧', 'shaved ice'],
     ['fully-qualified', '🍧', '0.6', 'shaved ice', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7255,7 +7291,7 @@ fusionados_1 = [
   ],
   [
     ['1F368'],
-    ['emoji', '807', 'Food & Drink', 'food-sweet', '🍨', 'ice cream'],
+    ['emoji', '811', 'Food & Drink', 'food-sweet', '🍨', 'ice cream'],
     ['fully-qualified', '🍨', '0.6', 'ice cream', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7264,7 +7300,7 @@ fusionados_1 = [
   ],
   [
     ['1F369'],
-    ['emoji', '808', 'Food & Drink', 'food-sweet', '🍩', 'doughnut'],
+    ['emoji', '812', 'Food & Drink', 'food-sweet', '🍩', 'doughnut'],
     ['fully-qualified', '🍩', '0.6', 'doughnut', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7273,7 +7309,7 @@ fusionados_1 = [
   ],
   [
     ['1F36A'],
-    ['emoji', '809', 'Food & Drink', 'food-sweet', '🍪', 'cookie'],
+    ['emoji', '813', 'Food & Drink', 'food-sweet', '🍪', 'cookie'],
     ['fully-qualified', '🍪', '0.6', 'cookie', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7282,7 +7318,7 @@ fusionados_1 = [
   ],
   [
     ['1F382'],
-    ['emoji', '810', 'Food & Drink', 'food-sweet', '🎂', 'birthday cake'],
+    ['emoji', '814', 'Food & Drink', 'food-sweet', '🎂', 'birthday cake'],
     ['fully-qualified', '🎂', '0.6', 'birthday cake', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7291,7 +7327,7 @@ fusionados_1 = [
   ],
   [
     ['1F370'],
-    ['emoji', '811', 'Food & Drink', 'food-sweet', '🍰', 'shortcake'],
+    ['emoji', '815', 'Food & Drink', 'food-sweet', '🍰', 'shortcake'],
     ['fully-qualified', '🍰', '0.6', 'shortcake', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7300,7 +7336,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C1'],
-    ['emoji', '812', 'Food & Drink', 'food-sweet', '🧁', 'cupcake'],
+    ['emoji', '816', 'Food & Drink', 'food-sweet', '🧁', 'cupcake'],
     ['fully-qualified', '🧁', '11.0', 'cupcake', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -7309,7 +7345,7 @@ fusionados_1 = [
   ],
   [
     ['1F967'],
-    ['emoji', '813', 'Food & Drink', 'food-sweet', '🥧', 'pie'],
+    ['emoji', '817', 'Food & Drink', 'food-sweet', '🥧', 'pie'],
     ['fully-qualified', '🥧', '5.0', 'pie', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -7318,7 +7354,7 @@ fusionados_1 = [
   ],
   [
     ['1F36B'],
-    ['emoji', '814', 'Food & Drink', 'food-sweet', '🍫', 'chocolate bar'],
+    ['emoji', '818', 'Food & Drink', 'food-sweet', '🍫', 'chocolate bar'],
     ['fully-qualified', '🍫', '0.6', 'chocolate bar', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7327,7 +7363,7 @@ fusionados_1 = [
   ],
   [
     ['1F36C'],
-    ['emoji', '815', 'Food & Drink', 'food-sweet', '🍬', 'candy'],
+    ['emoji', '819', 'Food & Drink', 'food-sweet', '🍬', 'candy'],
     ['fully-qualified', '🍬', '0.6', 'candy', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7336,7 +7372,7 @@ fusionados_1 = [
   ],
   [
     ['1F36D'],
-    ['emoji', '816', 'Food & Drink', 'food-sweet', '🍭', 'lollipop'],
+    ['emoji', '820', 'Food & Drink', 'food-sweet', '🍭', 'lollipop'],
     ['fully-qualified', '🍭', '0.6', 'lollipop', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7345,7 +7381,7 @@ fusionados_1 = [
   ],
   [
     ['1F36E'],
-    ['emoji', '817', 'Food & Drink', 'food-sweet', '🍮', 'custard'],
+    ['emoji', '821', 'Food & Drink', 'food-sweet', '🍮', 'custard'],
     ['fully-qualified', '🍮', '0.6', 'custard', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7354,7 +7390,7 @@ fusionados_1 = [
   ],
   [
     ['1F36F'],
-    ['emoji', '818', 'Food & Drink', 'food-sweet', '🍯', 'honey pot'],
+    ['emoji', '822', 'Food & Drink', 'food-sweet', '🍯', 'honey pot'],
     ['fully-qualified', '🍯', '0.6', 'honey pot', 'Food & Drink', 'food-sweet'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7363,7 +7399,7 @@ fusionados_1 = [
   ],
   [
     ['1F37C'],
-    ['emoji', '819', 'Food & Drink', 'drink', '🍼', 'baby bottle'],
+    ['emoji', '823', 'Food & Drink', 'drink', '🍼', 'baby bottle'],
     ['fully-qualified', '🍼', '1.0', 'baby bottle', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -7372,7 +7408,7 @@ fusionados_1 = [
   ],
   [
     ['1F95B'],
-    ['emoji', '820', 'Food & Drink', 'drink', '🥛', 'glass of milk'],
+    ['emoji', '824', 'Food & Drink', 'drink', '🥛', 'glass of milk'],
     ['fully-qualified', '🥛', '3.0', 'glass of milk', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -7381,7 +7417,7 @@ fusionados_1 = [
   ],
   [
     ['2615'],
-    ['emoji', '821', 'Food & Drink', 'drink', '☕', 'hot beverage'],
+    ['emoji', '825', 'Food & Drink', 'drink', '☕', 'hot beverage'],
     ['fully-qualified', '☕', '0.6', 'hot beverage', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7390,7 +7426,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD6'],
-    ['emoji', '822', 'Food & Drink', 'drink', '🫖', 'teapot'],
+    ['emoji', '826', 'Food & Drink', 'drink', '🫖', 'teapot'],
     ['fully-qualified', '🫖', '13.0', 'teapot', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -7399,7 +7435,7 @@ fusionados_1 = [
   ],
   [
     ['1F375'],
-    ['emoji', '823', 'Food & Drink', 'drink', '🍵', 'teacup without handle'],
+    ['emoji', '827', 'Food & Drink', 'drink', '🍵', 'teacup without handle'],
     ['fully-qualified', '🍵', '0.6', 'teacup without handle', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7408,7 +7444,7 @@ fusionados_1 = [
   ],
   [
     ['1F376'],
-    ['emoji', '824', 'Food & Drink', 'drink', '🍶', 'sake'],
+    ['emoji', '828', 'Food & Drink', 'drink', '🍶', 'sake'],
     ['fully-qualified', '🍶', '0.6', 'sake', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7417,7 +7453,7 @@ fusionados_1 = [
   ],
   [
     ['1F37E'],
-    ['emoji', '825', 'Food & Drink', 'drink', '🍾', 'bottle with popping cork'],
+    ['emoji', '829', 'Food & Drink', 'drink', '🍾', 'bottle with popping cork'],
     ['fully-qualified', '🍾', '1.0', 'bottle with popping cork', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -7426,7 +7462,7 @@ fusionados_1 = [
   ],
   [
     ['1F377'],
-    ['emoji', '826', 'Food & Drink', 'drink', '🍷', 'wine glass'],
+    ['emoji', '830', 'Food & Drink', 'drink', '🍷', 'wine glass'],
     ['fully-qualified', '🍷', '0.6', 'wine glass', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7435,7 +7471,7 @@ fusionados_1 = [
   ],
   [
     ['1F378'],
-    ['emoji', '827', 'Food & Drink', 'drink', '🍸', 'cocktail glass'],
+    ['emoji', '831', 'Food & Drink', 'drink', '🍸', 'cocktail glass'],
     ['fully-qualified', '🍸', '0.6', 'cocktail glass', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7444,7 +7480,7 @@ fusionados_1 = [
   ],
   [
     ['1F379'],
-    ['emoji', '828', 'Food & Drink', 'drink', '🍹', 'tropical drink'],
+    ['emoji', '832', 'Food & Drink', 'drink', '🍹', 'tropical drink'],
     ['fully-qualified', '🍹', '0.6', 'tropical drink', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7453,7 +7489,7 @@ fusionados_1 = [
   ],
   [
     ['1F37A'],
-    ['emoji', '829', 'Food & Drink', 'drink', '🍺', 'beer mug'],
+    ['emoji', '833', 'Food & Drink', 'drink', '🍺', 'beer mug'],
     ['fully-qualified', '🍺', '0.6', 'beer mug', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7462,7 +7498,7 @@ fusionados_1 = [
   ],
   [
     ['1F37B'],
-    ['emoji', '830', 'Food & Drink', 'drink', '🍻', 'clinking beer mugs'],
+    ['emoji', '834', 'Food & Drink', 'drink', '🍻', 'clinking beer mugs'],
     ['fully-qualified', '🍻', '0.6', 'clinking beer mugs', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7471,7 +7507,7 @@ fusionados_1 = [
   ],
   [
     ['1F942'],
-    ['emoji', '831', 'Food & Drink', 'drink', '🥂', 'clinking glasses'],
+    ['emoji', '835', 'Food & Drink', 'drink', '🥂', 'clinking glasses'],
     ['fully-qualified', '🥂', '3.0', 'clinking glasses', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -7480,7 +7516,7 @@ fusionados_1 = [
   ],
   [
     ['1F943'],
-    ['emoji', '832', 'Food & Drink', 'drink', '🥃', 'tumbler glass'],
+    ['emoji', '836', 'Food & Drink', 'drink', '🥃', 'tumbler glass'],
     ['fully-qualified', '🥃', '3.0', 'tumbler glass', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -7489,7 +7525,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD7'],
-    ['emoji', '833', 'Food & Drink', 'drink', '\U0001fad7', 'pouring liquid'],
+    ['emoji', '837', 'Food & Drink', 'drink', '\U0001fad7', 'pouring liquid'],
     ['fully-qualified', '\U0001fad7', '14.0', 'pouring liquid', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -7498,7 +7534,7 @@ fusionados_1 = [
   ],
   [
     ['1F964'],
-    ['emoji', '834', 'Food & Drink', 'drink', '🥤', 'cup with straw'],
+    ['emoji', '838', 'Food & Drink', 'drink', '🥤', 'cup with straw'],
     ['fully-qualified', '🥤', '5.0', 'cup with straw', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -7507,7 +7543,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CB'],
-    ['emoji', '835', 'Food & Drink', 'drink', '🧋', 'bubble tea'],
+    ['emoji', '839', 'Food & Drink', 'drink', '🧋', 'bubble tea'],
     ['fully-qualified', '🧋', '13.0', 'bubble tea', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -7516,7 +7552,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C3'],
-    ['emoji', '836', 'Food & Drink', 'drink', '🧃', 'beverage box'],
+    ['emoji', '840', 'Food & Drink', 'drink', '🧃', 'beverage box'],
     ['fully-qualified', '🧃', '12.0', 'beverage box', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -7525,7 +7561,7 @@ fusionados_1 = [
   ],
   [
     ['1F9C9'],
-    ['emoji', '837', 'Food & Drink', 'drink', '🧉', 'mate'],
+    ['emoji', '841', 'Food & Drink', 'drink', '🧉', 'mate'],
     ['fully-qualified', '🧉', '12.0', 'mate', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -7534,7 +7570,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CA'],
-    ['emoji', '838', 'Food & Drink', 'drink', '🧊', 'ice'],
+    ['emoji', '842', 'Food & Drink', 'drink', '🧊', 'ice'],
     ['fully-qualified', '🧊', '12.0', 'ice', 'Food & Drink', 'drink'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -7543,7 +7579,7 @@ fusionados_1 = [
   ],
   [
     ['1F962'],
-    ['emoji', '839', 'Food & Drink', 'dishware', '🥢', 'chopsticks'],
+    ['emoji', '843', 'Food & Drink', 'dishware', '🥢', 'chopsticks'],
     ['fully-qualified', '🥢', '5.0', 'chopsticks', 'Food & Drink', 'dishware'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -7552,7 +7588,7 @@ fusionados_1 = [
   ],
   [
     ['1F37D'],
-    ['emoji', '840', 'Food & Drink', 'dishware', '🍽', 'fork and knife with plate'],
+    ['emoji', '844', 'Food & Drink', 'dishware', '🍽', 'fork and knife with plate'],
     ['unqualified', '🍽', '0.7', 'fork and knife with plate', 'Food & Drink', 'dishware'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7561,7 +7597,7 @@ fusionados_1 = [
   ],
   [
     ['1F374'],
-    ['emoji', '841', 'Food & Drink', 'dishware', '🍴', 'fork and knife'],
+    ['emoji', '845', 'Food & Drink', 'dishware', '🍴', 'fork and knife'],
     ['fully-qualified', '🍴', '0.6', 'fork and knife', 'Food & Drink', 'dishware'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7570,7 +7606,7 @@ fusionados_1 = [
   ],
   [
     ['1F944'],
-    ['emoji', '842', 'Food & Drink', 'dishware', '🥄', 'spoon'],
+    ['emoji', '846', 'Food & Drink', 'dishware', '🥄', 'spoon'],
     ['fully-qualified', '🥄', '3.0', 'spoon', 'Food & Drink', 'dishware'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -7579,7 +7615,7 @@ fusionados_1 = [
   ],
   [
     ['1F52A'],
-    ['emoji', '843', 'Food & Drink', 'dishware', '🔪', 'kitchen knife'],
+    ['emoji', '847', 'Food & Drink', 'dishware', '🔪', 'kitchen knife'],
     ['fully-qualified', '🔪', '0.6', 'kitchen knife', 'Food & Drink', 'dishware'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7588,7 +7624,7 @@ fusionados_1 = [
   ],
   [
     ['1FAD9'],
-    ['emoji', '844', 'Food & Drink', 'dishware', '\U0001fad9', 'jar'],
+    ['emoji', '848', 'Food & Drink', 'dishware', '\U0001fad9', 'jar'],
     ['fully-qualified', '\U0001fad9', '14.0', 'jar', 'Food & Drink', 'dishware'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -7597,7 +7633,7 @@ fusionados_1 = [
   ],
   [
     ['1F3FA'],
-    ['emoji', '845', 'Food & Drink', 'dishware', '🏺', 'amphora'],
+    ['emoji', '849', 'Food & Drink', 'dishware', '🏺', 'amphora'],
     ['fully-qualified', '🏺', '1.0', 'amphora', 'Food & Drink', 'dishware'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -7606,7 +7642,7 @@ fusionados_1 = [
   ],
   [
     ['1F30D'],
-    ['emoji', '846', 'Travel & Places', 'place-map', '🌍', 'globe showing Europe-Africa'],
+    ['emoji', '850', 'Travel & Places', 'place-map', '🌍', 'globe showing Europe-Africa'],
     ['fully-qualified', '🌍', '0.7', 'globe showing Europe-Africa', 'Travel & Places', 'place-map'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7615,7 +7651,7 @@ fusionados_1 = [
   ],
   [
     ['1F30E'],
-    ['emoji', '847', 'Travel & Places', 'place-map', '🌎', 'globe showing Americas'],
+    ['emoji', '851', 'Travel & Places', 'place-map', '🌎', 'globe showing Americas'],
     ['fully-qualified', '🌎', '0.7', 'globe showing Americas', 'Travel & Places', 'place-map'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7624,7 +7660,7 @@ fusionados_1 = [
   ],
   [
     ['1F30F'],
-    ['emoji', '848', 'Travel & Places', 'place-map', '🌏', 'globe showing Asia-Australia'],
+    ['emoji', '852', 'Travel & Places', 'place-map', '🌏', 'globe showing Asia-Australia'],
     ['fully-qualified', '🌏', '0.6', 'globe showing Asia-Australia', 'Travel & Places', 'place-map'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7633,7 +7669,7 @@ fusionados_1 = [
   ],
   [
     ['1F310'],
-    ['emoji', '849', 'Travel & Places', 'place-map', '🌐', 'globe with meridians'],
+    ['emoji', '853', 'Travel & Places', 'place-map', '🌐', 'globe with meridians'],
     ['fully-qualified', '🌐', '1.0', 'globe with meridians', 'Travel & Places', 'place-map'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -7642,7 +7678,7 @@ fusionados_1 = [
   ],
   [
     ['1F5FA'],
-    ['emoji', '850', 'Travel & Places', 'place-map', '🗺', 'world map'],
+    ['emoji', '854', 'Travel & Places', 'place-map', '🗺', 'world map'],
     ['unqualified', '🗺', '0.7', 'world map', 'Travel & Places', 'place-map'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7651,7 +7687,7 @@ fusionados_1 = [
   ],
   [
     ['1F5FE'],
-    ['emoji', '851', 'Travel & Places', 'place-map', '🗾', 'map of Japan'],
+    ['emoji', '855', 'Travel & Places', 'place-map', '🗾', 'map of Japan'],
     ['fully-qualified', '🗾', '0.6', 'map of Japan', 'Travel & Places', 'place-map'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7660,7 +7696,7 @@ fusionados_1 = [
   ],
   [
     ['1F9ED'],
-    ['emoji', '852', 'Travel & Places', 'place-map', '🧭', 'compass'],
+    ['emoji', '856', 'Travel & Places', 'place-map', '🧭', 'compass'],
     ['fully-qualified', '🧭', '11.0', 'compass', 'Travel & Places', 'place-map'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -7669,7 +7705,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D4'],
-    ['emoji', '853', 'Travel & Places', 'place-geographic', '🏔', 'snow-capped mountain'],
+    ['emoji', '857', 'Travel & Places', 'place-geographic', '🏔', 'snow-capped mountain'],
     ['unqualified', '🏔', '0.7', 'snow-capped mountain', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7678,7 +7714,7 @@ fusionados_1 = [
   ],
   [
     ['26F0'],
-    ['emoji', '854', 'Travel & Places', 'place-geographic', '⛰', 'mountain'],
+    ['emoji', '858', 'Travel & Places', 'place-geographic', '⛰', 'mountain'],
     ['unqualified', '⛰', '0.7', 'mountain', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7687,7 +7723,7 @@ fusionados_1 = [
   ],
   [
     ['1F30B'],
-    ['emoji', '855', 'Travel & Places', 'place-geographic', '🌋', 'volcano'],
+    ['emoji', '859', 'Travel & Places', 'place-geographic', '🌋', 'volcano'],
     ['fully-qualified', '🌋', '0.6', 'volcano', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7696,7 +7732,7 @@ fusionados_1 = [
   ],
   [
     ['1F5FB'],
-    ['emoji', '856', 'Travel & Places', 'place-geographic', '🗻', 'mount fuji'],
+    ['emoji', '860', 'Travel & Places', 'place-geographic', '🗻', 'mount fuji'],
     ['fully-qualified', '🗻', '0.6', 'mount fuji', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7705,7 +7741,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D5'],
-    ['emoji', '857', 'Travel & Places', 'place-geographic', '🏕', 'camping'],
+    ['emoji', '861', 'Travel & Places', 'place-geographic', '🏕', 'camping'],
     ['unqualified', '🏕', '0.7', 'camping', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7714,7 +7750,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D6'],
-    ['emoji', '858', 'Travel & Places', 'place-geographic', '🏖', 'beach with umbrella'],
+    ['emoji', '862', 'Travel & Places', 'place-geographic', '🏖', 'beach with umbrella'],
     ['unqualified', '🏖', '0.7', 'beach with umbrella', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7723,7 +7759,7 @@ fusionados_1 = [
   ],
   [
     ['1F3DC'],
-    ['emoji', '859', 'Travel & Places', 'place-geographic', '🏜', 'desert'],
+    ['emoji', '863', 'Travel & Places', 'place-geographic', '🏜', 'desert'],
     ['unqualified', '🏜', '0.7', 'desert', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7732,7 +7768,7 @@ fusionados_1 = [
   ],
   [
     ['1F3DD'],
-    ['emoji', '860', 'Travel & Places', 'place-geographic', '🏝', 'desert island'],
+    ['emoji', '864', 'Travel & Places', 'place-geographic', '🏝', 'desert island'],
     ['unqualified', '🏝', '0.7', 'desert island', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7741,7 +7777,7 @@ fusionados_1 = [
   ],
   [
     ['1F3DE'],
-    ['emoji', '861', 'Travel & Places', 'place-geographic', '🏞', 'national park'],
+    ['emoji', '865', 'Travel & Places', 'place-geographic', '🏞', 'national park'],
     ['unqualified', '🏞', '0.7', 'national park', 'Travel & Places', 'place-geographic'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7750,7 +7786,7 @@ fusionados_1 = [
   ],
   [
     ['1F3DF'],
-    ['emoji', '862', 'Travel & Places', 'place-building', '🏟', 'stadium'],
+    ['emoji', '866', 'Travel & Places', 'place-building', '🏟', 'stadium'],
     ['unqualified', '🏟', '0.7', 'stadium', 'Travel & Places', 'place-building'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7759,7 +7795,7 @@ fusionados_1 = [
   ],
   [
     ['1F3DB'],
-    ['emoji', '863', 'Travel & Places', 'place-building', '🏛', 'classical building'],
+    ['emoji', '867', 'Travel & Places', 'place-building', '🏛', 'classical building'],
     ['unqualified', '🏛', '0.7', 'classical building', 'Travel & Places', 'place-building'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7768,7 +7804,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D7'],
-    ['emoji', '864', 'Travel & Places', 'place-building', '🏗', 'building construction'],
+    ['emoji', '868', 'Travel & Places', 'place-building', '🏗', 'building construction'],
     ['unqualified', '🏗', '0.7', 'building construction', 'Travel & Places', 'place-building'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7777,7 +7813,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F1'],
-    ['emoji', '865', 'Travel & Places', 'place-building', '🧱', 'brick'],
+    ['emoji', '869', 'Travel & Places', 'place-building', '🧱', 'brick'],
     ['fully-qualified', '🧱', '11.0', 'brick', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -7786,7 +7822,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA8'],
-    ['emoji', '866', 'Travel & Places', 'place-building', '🪨', 'rock'],
+    ['emoji', '870', 'Travel & Places', 'place-building', '🪨', 'rock'],
     ['fully-qualified', '🪨', '13.0', 'rock', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -7795,7 +7831,7 @@ fusionados_1 = [
   ],
   [
     ['1FAB5'],
-    ['emoji', '867', 'Travel & Places', 'place-building', '🪵', 'wood'],
+    ['emoji', '871', 'Travel & Places', 'place-building', '🪵', 'wood'],
     ['fully-qualified', '🪵', '13.0', 'wood', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -7804,7 +7840,7 @@ fusionados_1 = [
   ],
   [
     ['1F6D6'],
-    ['emoji', '868', 'Travel & Places', 'place-building', '🛖', 'hut'],
+    ['emoji', '872', 'Travel & Places', 'place-building', '🛖', 'hut'],
     ['fully-qualified', '🛖', '13.0', 'hut', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -7813,7 +7849,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D8'],
-    ['emoji', '869', 'Travel & Places', 'place-building', '🏘', 'houses'],
+    ['emoji', '873', 'Travel & Places', 'place-building', '🏘', 'houses'],
     ['unqualified', '🏘', '0.7', 'houses', 'Travel & Places', 'place-building'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7822,7 +7858,7 @@ fusionados_1 = [
   ],
   [
     ['1F3DA'],
-    ['emoji', '870', 'Travel & Places', 'place-building', '🏚', 'derelict house'],
+    ['emoji', '874', 'Travel & Places', 'place-building', '🏚', 'derelict house'],
     ['unqualified', '🏚', '0.7', 'derelict house', 'Travel & Places', 'place-building'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -7831,7 +7867,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E0'],
-    ['emoji', '871', 'Travel & Places', 'place-building', '🏠', 'house'],
+    ['emoji', '875', 'Travel & Places', 'place-building', '🏠', 'house'],
     ['fully-qualified', '🏠', '0.6', 'house', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7840,7 +7876,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E1'],
-    ['emoji', '872', 'Travel & Places', 'place-building', '🏡', 'house with garden'],
+    ['emoji', '876', 'Travel & Places', 'place-building', '🏡', 'house with garden'],
     ['fully-qualified', '🏡', '0.6', 'house with garden', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7849,7 +7885,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E2'],
-    ['emoji', '873', 'Travel & Places', 'place-building', '🏢', 'office building'],
+    ['emoji', '877', 'Travel & Places', 'place-building', '🏢', 'office building'],
     ['fully-qualified', '🏢', '0.6', 'office building', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7858,7 +7894,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E3'],
-    ['emoji', '874', 'Travel & Places', 'place-building', '🏣', 'Japanese post office'],
+    ['emoji', '878', 'Travel & Places', 'place-building', '🏣', 'Japanese post office'],
     ['fully-qualified', '🏣', '0.6', 'Japanese post office', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7867,7 +7903,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E4'],
-    ['emoji', '875', 'Travel & Places', 'place-building', '🏤', 'post office'],
+    ['emoji', '879', 'Travel & Places', 'place-building', '🏤', 'post office'],
     ['fully-qualified', '🏤', '1.0', 'post office', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -7876,7 +7912,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E5'],
-    ['emoji', '876', 'Travel & Places', 'place-building', '🏥', 'hospital'],
+    ['emoji', '880', 'Travel & Places', 'place-building', '🏥', 'hospital'],
     ['fully-qualified', '🏥', '0.6', 'hospital', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7885,7 +7921,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E6'],
-    ['emoji', '877', 'Travel & Places', 'place-building', '🏦', 'bank'],
+    ['emoji', '881', 'Travel & Places', 'place-building', '🏦', 'bank'],
     ['fully-qualified', '🏦', '0.6', 'bank', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7894,7 +7930,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E8'],
-    ['emoji', '878', 'Travel & Places', 'place-building', '🏨', 'hotel'],
+    ['emoji', '882', 'Travel & Places', 'place-building', '🏨', 'hotel'],
     ['fully-qualified', '🏨', '0.6', 'hotel', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7903,7 +7939,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E9'],
-    ['emoji', '879', 'Travel & Places', 'place-building', '🏩', 'love hotel'],
+    ['emoji', '883', 'Travel & Places', 'place-building', '🏩', 'love hotel'],
     ['fully-qualified', '🏩', '0.6', 'love hotel', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7912,7 +7948,7 @@ fusionados_1 = [
   ],
   [
     ['1F3EA'],
-    ['emoji', '880', 'Travel & Places', 'place-building', '🏪', 'convenience store'],
+    ['emoji', '884', 'Travel & Places', 'place-building', '🏪', 'convenience store'],
     ['fully-qualified', '🏪', '0.6', 'convenience store', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7921,7 +7957,7 @@ fusionados_1 = [
   ],
   [
     ['1F3EB'],
-    ['emoji', '881', 'Travel & Places', 'place-building', '🏫', 'school'],
+    ['emoji', '885', 'Travel & Places', 'place-building', '🏫', 'school'],
     ['fully-qualified', '🏫', '0.6', 'school', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7930,7 +7966,7 @@ fusionados_1 = [
   ],
   [
     ['1F3EC'],
-    ['emoji', '882', 'Travel & Places', 'place-building', '🏬', 'department store'],
+    ['emoji', '886', 'Travel & Places', 'place-building', '🏬', 'department store'],
     ['fully-qualified', '🏬', '0.6', 'department store', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7939,7 +7975,7 @@ fusionados_1 = [
   ],
   [
     ['1F3ED'],
-    ['emoji', '883', 'Travel & Places', 'place-building', '🏭', 'factory'],
+    ['emoji', '887', 'Travel & Places', 'place-building', '🏭', 'factory'],
     ['fully-qualified', '🏭', '0.6', 'factory', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7948,7 +7984,7 @@ fusionados_1 = [
   ],
   [
     ['1F3EF'],
-    ['emoji', '884', 'Travel & Places', 'place-building', '🏯', 'Japanese castle'],
+    ['emoji', '888', 'Travel & Places', 'place-building', '🏯', 'Japanese castle'],
     ['fully-qualified', '🏯', '0.6', 'Japanese castle', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7957,7 +7993,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F0'],
-    ['emoji', '885', 'Travel & Places', 'place-building', '🏰', 'castle'],
+    ['emoji', '889', 'Travel & Places', 'place-building', '🏰', 'castle'],
     ['fully-qualified', '🏰', '0.6', 'castle', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7966,7 +8002,7 @@ fusionados_1 = [
   ],
   [
     ['1F492'],
-    ['emoji', '886', 'Travel & Places', 'place-building', '💒', 'wedding'],
+    ['emoji', '890', 'Travel & Places', 'place-building', '💒', 'wedding'],
     ['fully-qualified', '💒', '0.6', 'wedding', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7975,7 +8011,7 @@ fusionados_1 = [
   ],
   [
     ['1F5FC'],
-    ['emoji', '887', 'Travel & Places', 'place-building', '🗼', 'Tokyo tower'],
+    ['emoji', '891', 'Travel & Places', 'place-building', '🗼', 'Tokyo tower'],
     ['fully-qualified', '🗼', '0.6', 'Tokyo tower', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7984,7 +8020,7 @@ fusionados_1 = [
   ],
   [
     ['1F5FD'],
-    ['emoji', '888', 'Travel & Places', 'place-building', '🗽', 'Statue of Liberty'],
+    ['emoji', '892', 'Travel & Places', 'place-building', '🗽', 'Statue of Liberty'],
     ['fully-qualified', '🗽', '0.6', 'Statue of Liberty', 'Travel & Places', 'place-building'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -7993,7 +8029,7 @@ fusionados_1 = [
   ],
   [
     ['26EA'],
-    ['emoji', '889', 'Travel & Places', 'place-religious', '⛪', 'church'],
+    ['emoji', '893', 'Travel & Places', 'place-religious', '⛪', 'church'],
     ['fully-qualified', '⛪', '0.6', 'church', 'Travel & Places', 'place-religious'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8002,7 +8038,7 @@ fusionados_1 = [
   ],
   [
     ['1F54C'],
-    ['emoji', '890', 'Travel & Places', 'place-religious', '🕌', 'mosque'],
+    ['emoji', '894', 'Travel & Places', 'place-religious', '🕌', 'mosque'],
     ['fully-qualified', '🕌', '1.0', 'mosque', 'Travel & Places', 'place-religious'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8011,7 +8047,7 @@ fusionados_1 = [
   ],
   [
     ['1F6D5'],
-    ['emoji', '891', 'Travel & Places', 'place-religious', '🛕', 'hindu temple'],
+    ['emoji', '895', 'Travel & Places', 'place-religious', '🛕', 'hindu temple'],
     ['fully-qualified', '🛕', '12.0', 'hindu temple', 'Travel & Places', 'place-religious'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -8020,7 +8056,7 @@ fusionados_1 = [
   ],
   [
     ['1F54D'],
-    ['emoji', '892', 'Travel & Places', 'place-religious', '🕍', 'synagogue'],
+    ['emoji', '896', 'Travel & Places', 'place-religious', '🕍', 'synagogue'],
     ['fully-qualified', '🕍', '1.0', 'synagogue', 'Travel & Places', 'place-religious'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8029,7 +8065,7 @@ fusionados_1 = [
   ],
   [
     ['26E9'],
-    ['emoji', '893', 'Travel & Places', 'place-religious', '⛩', 'shinto shrine'],
+    ['emoji', '897', 'Travel & Places', 'place-religious', '⛩', 'shinto shrine'],
     ['unqualified', '⛩', '0.7', 'shinto shrine', 'Travel & Places', 'place-religious'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8038,7 +8074,7 @@ fusionados_1 = [
   ],
   [
     ['1F54B'],
-    ['emoji', '894', 'Travel & Places', 'place-religious', '🕋', 'kaaba'],
+    ['emoji', '898', 'Travel & Places', 'place-religious', '🕋', 'kaaba'],
     ['fully-qualified', '🕋', '1.0', 'kaaba', 'Travel & Places', 'place-religious'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8047,7 +8083,7 @@ fusionados_1 = [
   ],
   [
     ['26F2'],
-    ['emoji', '895', 'Travel & Places', 'place-other', '⛲', 'fountain'],
+    ['emoji', '899', 'Travel & Places', 'place-other', '⛲', 'fountain'],
     ['fully-qualified', '⛲', '0.6', 'fountain', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8056,7 +8092,7 @@ fusionados_1 = [
   ],
   [
     ['26FA'],
-    ['emoji', '896', 'Travel & Places', 'place-other', '⛺', 'tent'],
+    ['emoji', '900', 'Travel & Places', 'place-other', '⛺', 'tent'],
     ['fully-qualified', '⛺', '0.6', 'tent', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8065,7 +8101,7 @@ fusionados_1 = [
   ],
   [
     ['1F301'],
-    ['emoji', '897', 'Travel & Places', 'place-other', '🌁', 'foggy'],
+    ['emoji', '901', 'Travel & Places', 'place-other', '🌁', 'foggy'],
     ['fully-qualified', '🌁', '0.6', 'foggy', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8074,7 +8110,7 @@ fusionados_1 = [
   ],
   [
     ['1F303'],
-    ['emoji', '898', 'Travel & Places', 'place-other', '🌃', 'night with stars'],
+    ['emoji', '902', 'Travel & Places', 'place-other', '🌃', 'night with stars'],
     ['fully-qualified', '🌃', '0.6', 'night with stars', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8083,7 +8119,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D9'],
-    ['emoji', '899', 'Travel & Places', 'place-other', '🏙', 'cityscape'],
+    ['emoji', '903', 'Travel & Places', 'place-other', '🏙', 'cityscape'],
     ['unqualified', '🏙', '0.7', 'cityscape', 'Travel & Places', 'place-other'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8092,7 +8128,7 @@ fusionados_1 = [
   ],
   [
     ['1F304'],
-    ['emoji', '900', 'Travel & Places', 'place-other', '🌄', 'sunrise over mountains'],
+    ['emoji', '904', 'Travel & Places', 'place-other', '🌄', 'sunrise over mountains'],
     ['fully-qualified', '🌄', '0.6', 'sunrise over mountains', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8101,7 +8137,7 @@ fusionados_1 = [
   ],
   [
     ['1F305'],
-    ['emoji', '901', 'Travel & Places', 'place-other', '🌅', 'sunrise'],
+    ['emoji', '905', 'Travel & Places', 'place-other', '🌅', 'sunrise'],
     ['fully-qualified', '🌅', '0.6', 'sunrise', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8110,7 +8146,7 @@ fusionados_1 = [
   ],
   [
     ['1F306'],
-    ['emoji', '902', 'Travel & Places', 'place-other', '🌆', 'cityscape at dusk'],
+    ['emoji', '906', 'Travel & Places', 'place-other', '🌆', 'cityscape at dusk'],
     ['fully-qualified', '🌆', '0.6', 'cityscape at dusk', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8119,7 +8155,7 @@ fusionados_1 = [
   ],
   [
     ['1F307'],
-    ['emoji', '903', 'Travel & Places', 'place-other', '🌇', 'sunset'],
+    ['emoji', '907', 'Travel & Places', 'place-other', '🌇', 'sunset'],
     ['fully-qualified', '🌇', '0.6', 'sunset', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8128,7 +8164,7 @@ fusionados_1 = [
   ],
   [
     ['1F309'],
-    ['emoji', '904', 'Travel & Places', 'place-other', '🌉', 'bridge at night'],
+    ['emoji', '908', 'Travel & Places', 'place-other', '🌉', 'bridge at night'],
     ['fully-qualified', '🌉', '0.6', 'bridge at night', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8137,7 +8173,7 @@ fusionados_1 = [
   ],
   [
     ['2668'],
-    ['emoji', '905', 'Travel & Places', 'place-other', '♨', 'hot springs'],
+    ['emoji', '909', 'Travel & Places', 'place-other', '♨', 'hot springs'],
     ['unqualified', '♨', '0.6', 'hot springs', 'Travel & Places', 'place-other'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8146,7 +8182,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A0'],
-    ['emoji', '906', 'Travel & Places', 'place-other', '🎠', 'carousel horse'],
+    ['emoji', '910', 'Travel & Places', 'place-other', '🎠', 'carousel horse'],
     ['fully-qualified', '🎠', '0.6', 'carousel horse', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8155,7 +8191,7 @@ fusionados_1 = [
   ],
   [
     ['1F6DD'],
-    ['emoji', '907', 'Travel & Places', 'place-other', '\U0001f6dd', 'playground slide'],
+    ['emoji', '911', 'Travel & Places', 'place-other', '\U0001f6dd', 'playground slide'],
     ['fully-qualified', '\U0001f6dd', '14.0', 'playground slide', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -8164,7 +8200,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A1'],
-    ['emoji', '908', 'Travel & Places', 'place-other', '🎡', 'ferris wheel'],
+    ['emoji', '912', 'Travel & Places', 'place-other', '🎡', 'ferris wheel'],
     ['fully-qualified', '🎡', '0.6', 'ferris wheel', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8173,7 +8209,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A2'],
-    ['emoji', '909', 'Travel & Places', 'place-other', '🎢', 'roller coaster'],
+    ['emoji', '913', 'Travel & Places', 'place-other', '🎢', 'roller coaster'],
     ['fully-qualified', '🎢', '0.6', 'roller coaster', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8182,7 +8218,7 @@ fusionados_1 = [
   ],
   [
     ['1F488'],
-    ['emoji', '910', 'Travel & Places', 'place-other', '💈', 'barber pole'],
+    ['emoji', '914', 'Travel & Places', 'place-other', '💈', 'barber pole'],
     ['fully-qualified', '💈', '0.6', 'barber pole', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8191,7 +8227,7 @@ fusionados_1 = [
   ],
   [
     ['1F3AA'],
-    ['emoji', '911', 'Travel & Places', 'place-other', '🎪', 'circus tent'],
+    ['emoji', '915', 'Travel & Places', 'place-other', '🎪', 'circus tent'],
     ['fully-qualified', '🎪', '0.6', 'circus tent', 'Travel & Places', 'place-other'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8200,7 +8236,7 @@ fusionados_1 = [
   ],
   [
     ['1F682'],
-    ['emoji', '912', 'Travel & Places', 'transport-ground', '🚂', 'locomotive'],
+    ['emoji', '916', 'Travel & Places', 'transport-ground', '🚂', 'locomotive'],
     ['fully-qualified', '🚂', '1.0', 'locomotive', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8209,7 +8245,7 @@ fusionados_1 = [
   ],
   [
     ['1F683'],
-    ['emoji', '913', 'Travel & Places', 'transport-ground', '🚃', 'railway car'],
+    ['emoji', '917', 'Travel & Places', 'transport-ground', '🚃', 'railway car'],
     ['fully-qualified', '🚃', '0.6', 'railway car', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8218,7 +8254,7 @@ fusionados_1 = [
   ],
   [
     ['1F684'],
-    ['emoji', '914', 'Travel & Places', 'transport-ground', '🚄', 'high-speed train'],
+    ['emoji', '918', 'Travel & Places', 'transport-ground', '🚄', 'high-speed train'],
     ['fully-qualified', '🚄', '0.6', 'high-speed train', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8227,7 +8263,7 @@ fusionados_1 = [
   ],
   [
     ['1F685'],
-    ['emoji', '915', 'Travel & Places', 'transport-ground', '🚅', 'bullet train'],
+    ['emoji', '919', 'Travel & Places', 'transport-ground', '🚅', 'bullet train'],
     ['fully-qualified', '🚅', '0.6', 'bullet train', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8236,7 +8272,7 @@ fusionados_1 = [
   ],
   [
     ['1F686'],
-    ['emoji', '916', 'Travel & Places', 'transport-ground', '🚆', 'train'],
+    ['emoji', '920', 'Travel & Places', 'transport-ground', '🚆', 'train'],
     ['fully-qualified', '🚆', '1.0', 'train', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8245,7 +8281,7 @@ fusionados_1 = [
   ],
   [
     ['1F687'],
-    ['emoji', '917', 'Travel & Places', 'transport-ground', '🚇', 'metro'],
+    ['emoji', '921', 'Travel & Places', 'transport-ground', '🚇', 'metro'],
     ['fully-qualified', '🚇', '0.6', 'metro', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8254,7 +8290,7 @@ fusionados_1 = [
   ],
   [
     ['1F688'],
-    ['emoji', '918', 'Travel & Places', 'transport-ground', '🚈', 'light rail'],
+    ['emoji', '922', 'Travel & Places', 'transport-ground', '🚈', 'light rail'],
     ['fully-qualified', '🚈', '1.0', 'light rail', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8263,7 +8299,7 @@ fusionados_1 = [
   ],
   [
     ['1F689'],
-    ['emoji', '919', 'Travel & Places', 'transport-ground', '🚉', 'station'],
+    ['emoji', '923', 'Travel & Places', 'transport-ground', '🚉', 'station'],
     ['fully-qualified', '🚉', '0.6', 'station', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8272,7 +8308,7 @@ fusionados_1 = [
   ],
   [
     ['1F68A'],
-    ['emoji', '920', 'Travel & Places', 'transport-ground', '🚊', 'tram'],
+    ['emoji', '924', 'Travel & Places', 'transport-ground', '🚊', 'tram'],
     ['fully-qualified', '🚊', '1.0', 'tram', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8281,7 +8317,7 @@ fusionados_1 = [
   ],
   [
     ['1F69D'],
-    ['emoji', '921', 'Travel & Places', 'transport-ground', '🚝', 'monorail'],
+    ['emoji', '925', 'Travel & Places', 'transport-ground', '🚝', 'monorail'],
     ['fully-qualified', '🚝', '1.0', 'monorail', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8290,7 +8326,7 @@ fusionados_1 = [
   ],
   [
     ['1F69E'],
-    ['emoji', '922', 'Travel & Places', 'transport-ground', '🚞', 'mountain railway'],
+    ['emoji', '926', 'Travel & Places', 'transport-ground', '🚞', 'mountain railway'],
     ['fully-qualified', '🚞', '1.0', 'mountain railway', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8299,7 +8335,7 @@ fusionados_1 = [
   ],
   [
     ['1F68B'],
-    ['emoji', '923', 'Travel & Places', 'transport-ground', '🚋', 'tram car'],
+    ['emoji', '927', 'Travel & Places', 'transport-ground', '🚋', 'tram car'],
     ['fully-qualified', '🚋', '1.0', 'tram car', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8308,7 +8344,7 @@ fusionados_1 = [
   ],
   [
     ['1F68C'],
-    ['emoji', '924', 'Travel & Places', 'transport-ground', '🚌', 'bus'],
+    ['emoji', '928', 'Travel & Places', 'transport-ground', '🚌', 'bus'],
     ['fully-qualified', '🚌', '0.6', 'bus', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8317,7 +8353,7 @@ fusionados_1 = [
   ],
   [
     ['1F68D'],
-    ['emoji', '925', 'Travel & Places', 'transport-ground', '🚍', 'oncoming bus'],
+    ['emoji', '929', 'Travel & Places', 'transport-ground', '🚍', 'oncoming bus'],
     ['fully-qualified', '🚍', '0.7', 'oncoming bus', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8326,7 +8362,7 @@ fusionados_1 = [
   ],
   [
     ['1F68E'],
-    ['emoji', '926', 'Travel & Places', 'transport-ground', '🚎', 'trolleybus'],
+    ['emoji', '930', 'Travel & Places', 'transport-ground', '🚎', 'trolleybus'],
     ['fully-qualified', '🚎', '1.0', 'trolleybus', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8335,7 +8371,7 @@ fusionados_1 = [
   ],
   [
     ['1F690'],
-    ['emoji', '927', 'Travel & Places', 'transport-ground', '🚐', 'minibus'],
+    ['emoji', '931', 'Travel & Places', 'transport-ground', '🚐', 'minibus'],
     ['fully-qualified', '🚐', '1.0', 'minibus', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8344,7 +8380,7 @@ fusionados_1 = [
   ],
   [
     ['1F691'],
-    ['emoji', '928', 'Travel & Places', 'transport-ground', '🚑', 'ambulance'],
+    ['emoji', '932', 'Travel & Places', 'transport-ground', '🚑', 'ambulance'],
     ['fully-qualified', '🚑', '0.6', 'ambulance', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8353,7 +8389,7 @@ fusionados_1 = [
   ],
   [
     ['1F692'],
-    ['emoji', '929', 'Travel & Places', 'transport-ground', '🚒', 'fire engine'],
+    ['emoji', '933', 'Travel & Places', 'transport-ground', '🚒', 'fire engine'],
     ['fully-qualified', '🚒', '0.6', 'fire engine', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8362,7 +8398,7 @@ fusionados_1 = [
   ],
   [
     ['1F693'],
-    ['emoji', '930', 'Travel & Places', 'transport-ground', '🚓', 'police car'],
+    ['emoji', '934', 'Travel & Places', 'transport-ground', '🚓', 'police car'],
     ['fully-qualified', '🚓', '0.6', 'police car', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8371,7 +8407,7 @@ fusionados_1 = [
   ],
   [
     ['1F694'],
-    ['emoji', '931', 'Travel & Places', 'transport-ground', '🚔', 'oncoming police car'],
+    ['emoji', '935', 'Travel & Places', 'transport-ground', '🚔', 'oncoming police car'],
     ['fully-qualified', '🚔', '0.7', 'oncoming police car', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8380,7 +8416,7 @@ fusionados_1 = [
   ],
   [
     ['1F695'],
-    ['emoji', '932', 'Travel & Places', 'transport-ground', '🚕', 'taxi'],
+    ['emoji', '936', 'Travel & Places', 'transport-ground', '🚕', 'taxi'],
     ['fully-qualified', '🚕', '0.6', 'taxi', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8389,7 +8425,7 @@ fusionados_1 = [
   ],
   [
     ['1F696'],
-    ['emoji', '933', 'Travel & Places', 'transport-ground', '🚖', 'oncoming taxi'],
+    ['emoji', '937', 'Travel & Places', 'transport-ground', '🚖', 'oncoming taxi'],
     ['fully-qualified', '🚖', '1.0', 'oncoming taxi', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8398,7 +8434,7 @@ fusionados_1 = [
   ],
   [
     ['1F697'],
-    ['emoji', '934', 'Travel & Places', 'transport-ground', '🚗', 'automobile'],
+    ['emoji', '938', 'Travel & Places', 'transport-ground', '🚗', 'automobile'],
     ['fully-qualified', '🚗', '0.6', 'automobile', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8407,7 +8443,7 @@ fusionados_1 = [
   ],
   [
     ['1F698'],
-    ['emoji', '935', 'Travel & Places', 'transport-ground', '🚘', 'oncoming automobile'],
+    ['emoji', '939', 'Travel & Places', 'transport-ground', '🚘', 'oncoming automobile'],
     ['fully-qualified', '🚘', '0.7', 'oncoming automobile', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8416,7 +8452,7 @@ fusionados_1 = [
   ],
   [
     ['1F699'],
-    ['emoji', '936', 'Travel & Places', 'transport-ground', '🚙', 'sport utility vehicle'],
+    ['emoji', '940', 'Travel & Places', 'transport-ground', '🚙', 'sport utility vehicle'],
     ['fully-qualified', '🚙', '0.6', 'sport utility vehicle', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8425,7 +8461,7 @@ fusionados_1 = [
   ],
   [
     ['1F6FB'],
-    ['emoji', '937', 'Travel & Places', 'transport-ground', '🛻', 'pickup truck'],
+    ['emoji', '941', 'Travel & Places', 'transport-ground', '🛻', 'pickup truck'],
     ['fully-qualified', '🛻', '13.0', 'pickup truck', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -8434,7 +8470,7 @@ fusionados_1 = [
   ],
   [
     ['1F69A'],
-    ['emoji', '938', 'Travel & Places', 'transport-ground', '🚚', 'delivery truck'],
+    ['emoji', '942', 'Travel & Places', 'transport-ground', '🚚', 'delivery truck'],
     ['fully-qualified', '🚚', '0.6', 'delivery truck', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8443,7 +8479,7 @@ fusionados_1 = [
   ],
   [
     ['1F69B'],
-    ['emoji', '939', 'Travel & Places', 'transport-ground', '🚛', 'articulated lorry'],
+    ['emoji', '943', 'Travel & Places', 'transport-ground', '🚛', 'articulated lorry'],
     ['fully-qualified', '🚛', '1.0', 'articulated lorry', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8452,7 +8488,7 @@ fusionados_1 = [
   ],
   [
     ['1F69C'],
-    ['emoji', '940', 'Travel & Places', 'transport-ground', '🚜', 'tractor'],
+    ['emoji', '944', 'Travel & Places', 'transport-ground', '🚜', 'tractor'],
     ['fully-qualified', '🚜', '1.0', 'tractor', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8461,7 +8497,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CE'],
-    ['emoji', '941', 'Travel & Places', 'transport-ground', '🏎', 'racing car'],
+    ['emoji', '945', 'Travel & Places', 'transport-ground', '🏎', 'racing car'],
     ['unqualified', '🏎', '0.7', 'racing car', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8470,7 +8506,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CD'],
-    ['emoji', '942', 'Travel & Places', 'transport-ground', '🏍', 'motorcycle'],
+    ['emoji', '946', 'Travel & Places', 'transport-ground', '🏍', 'motorcycle'],
     ['unqualified', '🏍', '0.7', 'motorcycle', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8479,7 +8515,7 @@ fusionados_1 = [
   ],
   [
     ['1F6F5'],
-    ['emoji', '943', 'Travel & Places', 'transport-ground', '🛵', 'motor scooter'],
+    ['emoji', '947', 'Travel & Places', 'transport-ground', '🛵', 'motor scooter'],
     ['fully-qualified', '🛵', '3.0', 'motor scooter', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -8488,7 +8524,7 @@ fusionados_1 = [
   ],
   [
     ['1F9BD'],
-    ['emoji', '944', 'Travel & Places', 'transport-ground', '🦽', 'manual wheelchair'],
+    ['emoji', '948', 'Travel & Places', 'transport-ground', '🦽', 'manual wheelchair'],
     ['fully-qualified', '🦽', '12.0', 'manual wheelchair', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -8497,7 +8533,7 @@ fusionados_1 = [
   ],
   [
     ['1F9BC'],
-    ['emoji', '945', 'Travel & Places', 'transport-ground', '🦼', 'motorized wheelchair'],
+    ['emoji', '949', 'Travel & Places', 'transport-ground', '🦼', 'motorized wheelchair'],
     ['fully-qualified', '🦼', '12.0', 'motorized wheelchair', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -8506,7 +8542,7 @@ fusionados_1 = [
   ],
   [
     ['1F6FA'],
-    ['emoji', '946', 'Travel & Places', 'transport-ground', '🛺', 'auto rickshaw'],
+    ['emoji', '950', 'Travel & Places', 'transport-ground', '🛺', 'auto rickshaw'],
     ['fully-qualified', '🛺', '12.0', 'auto rickshaw', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -8515,7 +8551,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B2'],
-    ['emoji', '947', 'Travel & Places', 'transport-ground', '🚲', 'bicycle'],
+    ['emoji', '951', 'Travel & Places', 'transport-ground', '🚲', 'bicycle'],
     ['fully-qualified', '🚲', '0.6', 'bicycle', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8524,7 +8560,7 @@ fusionados_1 = [
   ],
   [
     ['1F6F4'],
-    ['emoji', '948', 'Travel & Places', 'transport-ground', '🛴', 'kick scooter'],
+    ['emoji', '952', 'Travel & Places', 'transport-ground', '🛴', 'kick scooter'],
     ['fully-qualified', '🛴', '3.0', 'kick scooter', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -8533,7 +8569,7 @@ fusionados_1 = [
   ],
   [
     ['1F6F9'],
-    ['emoji', '949', 'Travel & Places', 'transport-ground', '🛹', 'skateboard'],
+    ['emoji', '953', 'Travel & Places', 'transport-ground', '🛹', 'skateboard'],
     ['fully-qualified', '🛹', '11.0', 'skateboard', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -8542,7 +8578,7 @@ fusionados_1 = [
   ],
   [
     ['1F6FC'],
-    ['emoji', '950', 'Travel & Places', 'transport-ground', '🛼', 'roller skate'],
+    ['emoji', '954', 'Travel & Places', 'transport-ground', '🛼', 'roller skate'],
     ['fully-qualified', '🛼', '13.0', 'roller skate', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -8551,7 +8587,7 @@ fusionados_1 = [
   ],
   [
     ['1F68F'],
-    ['emoji', '951', 'Travel & Places', 'transport-ground', '🚏', 'bus stop'],
+    ['emoji', '955', 'Travel & Places', 'transport-ground', '🚏', 'bus stop'],
     ['fully-qualified', '🚏', '0.6', 'bus stop', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8560,7 +8596,7 @@ fusionados_1 = [
   ],
   [
     ['1F6E3'],
-    ['emoji', '952', 'Travel & Places', 'transport-ground', '🛣', 'motorway'],
+    ['emoji', '956', 'Travel & Places', 'transport-ground', '🛣', 'motorway'],
     ['unqualified', '🛣', '0.7', 'motorway', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8569,7 +8605,7 @@ fusionados_1 = [
   ],
   [
     ['1F6E4'],
-    ['emoji', '953', 'Travel & Places', 'transport-ground', '🛤', 'railway track'],
+    ['emoji', '957', 'Travel & Places', 'transport-ground', '🛤', 'railway track'],
     ['unqualified', '🛤', '0.7', 'railway track', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8578,7 +8614,7 @@ fusionados_1 = [
   ],
   [
     ['1F6E2'],
-    ['emoji', '954', 'Travel & Places', 'transport-ground', '🛢', 'oil drum'],
+    ['emoji', '958', 'Travel & Places', 'transport-ground', '🛢', 'oil drum'],
     ['unqualified', '🛢', '0.7', 'oil drum', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8587,7 +8623,7 @@ fusionados_1 = [
   ],
   [
     ['26FD'],
-    ['emoji', '955', 'Travel & Places', 'transport-ground', '⛽', 'fuel pump'],
+    ['emoji', '959', 'Travel & Places', 'transport-ground', '⛽', 'fuel pump'],
     ['fully-qualified', '⛽', '0.6', 'fuel pump', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8596,7 +8632,7 @@ fusionados_1 = [
   ],
   [
     ['1F6DE'],
-    ['emoji', '956', 'Travel & Places', 'transport-ground', '\U0001f6de', 'wheel'],
+    ['emoji', '960', 'Travel & Places', 'transport-ground', '\U0001f6de', 'wheel'],
     ['fully-qualified', '\U0001f6de', '14.0', 'wheel', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -8605,7 +8641,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A8'],
-    ['emoji', '957', 'Travel & Places', 'transport-ground', '🚨', 'police car light'],
+    ['emoji', '961', 'Travel & Places', 'transport-ground', '🚨', 'police car light'],
     ['fully-qualified', '🚨', '0.6', 'police car light', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8614,7 +8650,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A5'],
-    ['emoji', '958', 'Travel & Places', 'transport-ground', '🚥', 'horizontal traffic light'],
+    ['emoji', '962', 'Travel & Places', 'transport-ground', '🚥', 'horizontal traffic light'],
     ['fully-qualified', '🚥', '0.6', 'horizontal traffic light', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8623,7 +8659,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A6'],
-    ['emoji', '959', 'Travel & Places', 'transport-ground', '🚦', 'vertical traffic light'],
+    ['emoji', '963', 'Travel & Places', 'transport-ground', '🚦', 'vertical traffic light'],
     ['fully-qualified', '🚦', '1.0', 'vertical traffic light', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8632,7 +8668,7 @@ fusionados_1 = [
   ],
   [
     ['1F6D1'],
-    ['emoji', '960', 'Travel & Places', 'transport-ground', '🛑', 'stop sign'],
+    ['emoji', '964', 'Travel & Places', 'transport-ground', '🛑', 'stop sign'],
     ['fully-qualified', '🛑', '3.0', 'stop sign', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -8641,7 +8677,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A7'],
-    ['emoji', '961', 'Travel & Places', 'transport-ground', '🚧', 'construction'],
+    ['emoji', '965', 'Travel & Places', 'transport-ground', '🚧', 'construction'],
     ['fully-qualified', '🚧', '0.6', 'construction', 'Travel & Places', 'transport-ground'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8650,7 +8686,7 @@ fusionados_1 = [
   ],
   [
     ['2693'],
-    ['emoji', '962', 'Travel & Places', 'transport-water', '⚓', 'anchor'],
+    ['emoji', '966', 'Travel & Places', 'transport-water', '⚓', 'anchor'],
     ['fully-qualified', '⚓', '0.6', 'anchor', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8659,7 +8695,7 @@ fusionados_1 = [
   ],
   [
     ['1F6DF'],
-    ['emoji', '963', 'Travel & Places', 'transport-water', '\U0001f6df', 'ring buoy'],
+    ['emoji', '967', 'Travel & Places', 'transport-water', '\U0001f6df', 'ring buoy'],
     ['fully-qualified', '\U0001f6df', '14.0', 'ring buoy', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -8668,7 +8704,7 @@ fusionados_1 = [
   ],
   [
     ['26F5'],
-    ['emoji', '964', 'Travel & Places', 'transport-water', '⛵', 'sailboat'],
+    ['emoji', '968', 'Travel & Places', 'transport-water', '⛵', 'sailboat'],
     ['fully-qualified', '⛵', '0.6', 'sailboat', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8677,7 +8713,7 @@ fusionados_1 = [
   ],
   [
     ['1F6F6'],
-    ['emoji', '965', 'Travel & Places', 'transport-water', '🛶', 'canoe'],
+    ['emoji', '969', 'Travel & Places', 'transport-water', '🛶', 'canoe'],
     ['fully-qualified', '🛶', '3.0', 'canoe', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -8686,7 +8722,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A4'],
-    ['emoji', '966', 'Travel & Places', 'transport-water', '🚤', 'speedboat'],
+    ['emoji', '970', 'Travel & Places', 'transport-water', '🚤', 'speedboat'],
     ['fully-qualified', '🚤', '0.6', 'speedboat', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8695,7 +8731,7 @@ fusionados_1 = [
   ],
   [
     ['1F6F3'],
-    ['emoji', '967', 'Travel & Places', 'transport-water', '🛳', 'passenger ship'],
+    ['emoji', '971', 'Travel & Places', 'transport-water', '🛳', 'passenger ship'],
     ['unqualified', '🛳', '0.7', 'passenger ship', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8704,7 +8740,7 @@ fusionados_1 = [
   ],
   [
     ['26F4'],
-    ['emoji', '968', 'Travel & Places', 'transport-water', '⛴', 'ferry'],
+    ['emoji', '972', 'Travel & Places', 'transport-water', '⛴', 'ferry'],
     ['unqualified', '⛴', '0.7', 'ferry', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8713,7 +8749,7 @@ fusionados_1 = [
   ],
   [
     ['1F6E5'],
-    ['emoji', '969', 'Travel & Places', 'transport-water', '🛥', 'motor boat'],
+    ['emoji', '973', 'Travel & Places', 'transport-water', '🛥', 'motor boat'],
     ['unqualified', '🛥', '0.7', 'motor boat', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8722,7 +8758,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A2'],
-    ['emoji', '970', 'Travel & Places', 'transport-water', '🚢', 'ship'],
+    ['emoji', '974', 'Travel & Places', 'transport-water', '🚢', 'ship'],
     ['fully-qualified', '🚢', '0.6', 'ship', 'Travel & Places', 'transport-water'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8731,7 +8767,7 @@ fusionados_1 = [
   ],
   [
     ['2708'],
-    ['emoji', '971', 'Travel & Places', 'transport-air', '✈', 'airplane'],
+    ['emoji', '975', 'Travel & Places', 'transport-air', '✈', 'airplane'],
     ['unqualified', '✈', '0.6', 'airplane', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8740,7 +8776,7 @@ fusionados_1 = [
   ],
   [
     ['1F6E9'],
-    ['emoji', '972', 'Travel & Places', 'transport-air', '🛩', 'small airplane'],
+    ['emoji', '976', 'Travel & Places', 'transport-air', '🛩', 'small airplane'],
     ['unqualified', '🛩', '0.7', 'small airplane', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8749,7 +8785,7 @@ fusionados_1 = [
   ],
   [
     ['1F6EB'],
-    ['emoji', '973', 'Travel & Places', 'transport-air', '🛫', 'airplane departure'],
+    ['emoji', '977', 'Travel & Places', 'transport-air', '🛫', 'airplane departure'],
     ['fully-qualified', '🛫', '1.0', 'airplane departure', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8758,7 +8794,7 @@ fusionados_1 = [
   ],
   [
     ['1F6EC'],
-    ['emoji', '974', 'Travel & Places', 'transport-air', '🛬', 'airplane arrival'],
+    ['emoji', '978', 'Travel & Places', 'transport-air', '🛬', 'airplane arrival'],
     ['fully-qualified', '🛬', '1.0', 'airplane arrival', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8767,7 +8803,7 @@ fusionados_1 = [
   ],
   [
     ['1FA82'],
-    ['emoji', '975', 'Travel & Places', 'transport-air', '🪂', 'parachute'],
+    ['emoji', '979', 'Travel & Places', 'transport-air', '🪂', 'parachute'],
     ['fully-qualified', '🪂', '12.0', 'parachute', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -8776,7 +8812,7 @@ fusionados_1 = [
   ],
   [
     ['1F4BA'],
-    ['emoji', '976', 'Travel & Places', 'transport-air', '💺', 'seat'],
+    ['emoji', '980', 'Travel & Places', 'transport-air', '💺', 'seat'],
     ['fully-qualified', '💺', '0.6', 'seat', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8785,7 +8821,7 @@ fusionados_1 = [
   ],
   [
     ['1F681'],
-    ['emoji', '977', 'Travel & Places', 'transport-air', '🚁', 'helicopter'],
+    ['emoji', '981', 'Travel & Places', 'transport-air', '🚁', 'helicopter'],
     ['fully-qualified', '🚁', '1.0', 'helicopter', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8794,7 +8830,7 @@ fusionados_1 = [
   ],
   [
     ['1F69F'],
-    ['emoji', '978', 'Travel & Places', 'transport-air', '🚟', 'suspension railway'],
+    ['emoji', '982', 'Travel & Places', 'transport-air', '🚟', 'suspension railway'],
     ['fully-qualified', '🚟', '1.0', 'suspension railway', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8803,7 +8839,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A0'],
-    ['emoji', '979', 'Travel & Places', 'transport-air', '🚠', 'mountain cableway'],
+    ['emoji', '983', 'Travel & Places', 'transport-air', '🚠', 'mountain cableway'],
     ['fully-qualified', '🚠', '1.0', 'mountain cableway', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8812,7 +8848,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A1'],
-    ['emoji', '980', 'Travel & Places', 'transport-air', '🚡', 'aerial tramway'],
+    ['emoji', '984', 'Travel & Places', 'transport-air', '🚡', 'aerial tramway'],
     ['fully-qualified', '🚡', '1.0', 'aerial tramway', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8821,7 +8857,7 @@ fusionados_1 = [
   ],
   [
     ['1F6F0'],
-    ['emoji', '981', 'Travel & Places', 'transport-air', '🛰', 'satellite'],
+    ['emoji', '985', 'Travel & Places', 'transport-air', '🛰', 'satellite'],
     ['unqualified', '🛰', '0.7', 'satellite', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8830,7 +8866,7 @@ fusionados_1 = [
   ],
   [
     ['1F680'],
-    ['emoji', '982', 'Travel & Places', 'transport-air', '🚀', 'rocket'],
+    ['emoji', '986', 'Travel & Places', 'transport-air', '🚀', 'rocket'],
     ['fully-qualified', '🚀', '0.6', 'rocket', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8839,7 +8875,7 @@ fusionados_1 = [
   ],
   [
     ['1F6F8'],
-    ['emoji', '983', 'Travel & Places', 'transport-air', '🛸', 'flying saucer'],
+    ['emoji', '987', 'Travel & Places', 'transport-air', '🛸', 'flying saucer'],
     ['fully-qualified', '🛸', '5.0', 'flying saucer', 'Travel & Places', 'transport-air'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -8848,7 +8884,7 @@ fusionados_1 = [
   ],
   [
     ['1F6CE'],
-    ['emoji', '984', 'Travel & Places', 'hotel', '🛎', 'bellhop bell'],
+    ['emoji', '988', 'Travel & Places', 'hotel', '🛎', 'bellhop bell'],
     ['unqualified', '🛎', '0.7', 'bellhop bell', 'Travel & Places', 'hotel'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8857,7 +8893,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F3'],
-    ['emoji', '985', 'Travel & Places', 'hotel', '🧳', 'luggage'],
+    ['emoji', '989', 'Travel & Places', 'hotel', '🧳', 'luggage'],
     ['fully-qualified', '🧳', '11.0', 'luggage', 'Travel & Places', 'hotel'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -8866,7 +8902,7 @@ fusionados_1 = [
   ],
   [
     ['231B'],
-    ['emoji', '986', 'Travel & Places', 'time', '⌛', 'hourglass done'],
+    ['emoji', '990', 'Travel & Places', 'time', '⌛', 'hourglass done'],
     ['fully-qualified', '⌛', '0.6', 'hourglass done', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8875,7 +8911,7 @@ fusionados_1 = [
   ],
   [
     ['23F3'],
-    ['emoji', '987', 'Travel & Places', 'time', '⏳', 'hourglass not done'],
+    ['emoji', '991', 'Travel & Places', 'time', '⏳', 'hourglass not done'],
     ['fully-qualified', '⏳', '0.6', 'hourglass not done', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8884,7 +8920,7 @@ fusionados_1 = [
   ],
   [
     ['231A'],
-    ['emoji', '988', 'Travel & Places', 'time', '⌚', 'watch'],
+    ['emoji', '992', 'Travel & Places', 'time', '⌚', 'watch'],
     ['fully-qualified', '⌚', '0.6', 'watch', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8893,7 +8929,7 @@ fusionados_1 = [
   ],
   [
     ['23F0'],
-    ['emoji', '989', 'Travel & Places', 'time', '⏰', 'alarm clock'],
+    ['emoji', '993', 'Travel & Places', 'time', '⏰', 'alarm clock'],
     ['fully-qualified', '⏰', '0.6', 'alarm clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8902,7 +8938,7 @@ fusionados_1 = [
   ],
   [
     ['23F1'],
-    ['emoji', '990', 'Travel & Places', 'time', '⏱', 'stopwatch'],
+    ['emoji', '994', 'Travel & Places', 'time', '⏱', 'stopwatch'],
     ['unqualified', '⏱', '1.0', 'stopwatch', 'Travel & Places', 'time'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8911,7 +8947,7 @@ fusionados_1 = [
   ],
   [
     ['23F2'],
-    ['emoji', '991', 'Travel & Places', 'time', '⏲', 'timer clock'],
+    ['emoji', '995', 'Travel & Places', 'time', '⏲', 'timer clock'],
     ['unqualified', '⏲', '1.0', 'timer clock', 'Travel & Places', 'time'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -8920,7 +8956,7 @@ fusionados_1 = [
   ],
   [
     ['1F570'],
-    ['emoji', '992', 'Travel & Places', 'time', '🕰', 'mantelpiece clock'],
+    ['emoji', '996', 'Travel & Places', 'time', '🕰', 'mantelpiece clock'],
     ['unqualified', '🕰', '0.7', 'mantelpiece clock', 'Travel & Places', 'time'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8929,7 +8965,7 @@ fusionados_1 = [
   ],
   [
     ['1F55B'],
-    ['emoji', '993', 'Travel & Places', 'time', '🕛', 'twelve o’clock'],
+    ['emoji', '997', 'Travel & Places', 'time', '🕛', 'twelve o’clock'],
     ['fully-qualified', '🕛', '0.6', 'twelve o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8938,7 +8974,7 @@ fusionados_1 = [
   ],
   [
     ['1F567'],
-    ['emoji', '994', 'Travel & Places', 'time', '🕧', 'twelve-thirty'],
+    ['emoji', '998', 'Travel & Places', 'time', '🕧', 'twelve-thirty'],
     ['fully-qualified', '🕧', '0.7', 'twelve-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8947,7 +8983,7 @@ fusionados_1 = [
   ],
   [
     ['1F550'],
-    ['emoji', '995', 'Travel & Places', 'time', '🕐', 'one o’clock'],
+    ['emoji', '999', 'Travel & Places', 'time', '🕐', 'one o’clock'],
     ['fully-qualified', '🕐', '0.6', 'one o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8956,7 +8992,7 @@ fusionados_1 = [
   ],
   [
     ['1F55C'],
-    ['emoji', '996', 'Travel & Places', 'time', '🕜', 'one-thirty'],
+    ['emoji', '1000', 'Travel & Places', 'time', '🕜', 'one-thirty'],
     ['fully-qualified', '🕜', '0.7', 'one-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8965,7 +9001,7 @@ fusionados_1 = [
   ],
   [
     ['1F551'],
-    ['emoji', '997', 'Travel & Places', 'time', '🕑', 'two o’clock'],
+    ['emoji', '1001', 'Travel & Places', 'time', '🕑', 'two o’clock'],
     ['fully-qualified', '🕑', '0.6', 'two o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8974,7 +9010,7 @@ fusionados_1 = [
   ],
   [
     ['1F55D'],
-    ['emoji', '998', 'Travel & Places', 'time', '🕝', 'two-thirty'],
+    ['emoji', '1002', 'Travel & Places', 'time', '🕝', 'two-thirty'],
     ['fully-qualified', '🕝', '0.7', 'two-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -8983,7 +9019,7 @@ fusionados_1 = [
   ],
   [
     ['1F552'],
-    ['emoji', '999', 'Travel & Places', 'time', '🕒', 'three o’clock'],
+    ['emoji', '1003', 'Travel & Places', 'time', '🕒', 'three o’clock'],
     ['fully-qualified', '🕒', '0.6', 'three o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -8992,7 +9028,7 @@ fusionados_1 = [
   ],
   [
     ['1F55E'],
-    ['emoji', '1000', 'Travel & Places', 'time', '🕞', 'three-thirty'],
+    ['emoji', '1004', 'Travel & Places', 'time', '🕞', 'three-thirty'],
     ['fully-qualified', '🕞', '0.7', 'three-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9001,7 +9037,7 @@ fusionados_1 = [
   ],
   [
     ['1F553'],
-    ['emoji', '1001', 'Travel & Places', 'time', '🕓', 'four o’clock'],
+    ['emoji', '1005', 'Travel & Places', 'time', '🕓', 'four o’clock'],
     ['fully-qualified', '🕓', '0.6', 'four o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9010,7 +9046,7 @@ fusionados_1 = [
   ],
   [
     ['1F55F'],
-    ['emoji', '1002', 'Travel & Places', 'time', '🕟', 'four-thirty'],
+    ['emoji', '1006', 'Travel & Places', 'time', '🕟', 'four-thirty'],
     ['fully-qualified', '🕟', '0.7', 'four-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9019,7 +9055,7 @@ fusionados_1 = [
   ],
   [
     ['1F554'],
-    ['emoji', '1003', 'Travel & Places', 'time', '🕔', 'five o’clock'],
+    ['emoji', '1007', 'Travel & Places', 'time', '🕔', 'five o’clock'],
     ['fully-qualified', '🕔', '0.6', 'five o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9028,7 +9064,7 @@ fusionados_1 = [
   ],
   [
     ['1F560'],
-    ['emoji', '1004', 'Travel & Places', 'time', '🕠', 'five-thirty'],
+    ['emoji', '1008', 'Travel & Places', 'time', '🕠', 'five-thirty'],
     ['fully-qualified', '🕠', '0.7', 'five-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9037,7 +9073,7 @@ fusionados_1 = [
   ],
   [
     ['1F555'],
-    ['emoji', '1005', 'Travel & Places', 'time', '🕕', 'six o’clock'],
+    ['emoji', '1009', 'Travel & Places', 'time', '🕕', 'six o’clock'],
     ['fully-qualified', '🕕', '0.6', 'six o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9046,7 +9082,7 @@ fusionados_1 = [
   ],
   [
     ['1F561'],
-    ['emoji', '1006', 'Travel & Places', 'time', '🕡', 'six-thirty'],
+    ['emoji', '1010', 'Travel & Places', 'time', '🕡', 'six-thirty'],
     ['fully-qualified', '🕡', '0.7', 'six-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9055,7 +9091,7 @@ fusionados_1 = [
   ],
   [
     ['1F556'],
-    ['emoji', '1007', 'Travel & Places', 'time', '🕖', 'seven o’clock'],
+    ['emoji', '1011', 'Travel & Places', 'time', '🕖', 'seven o’clock'],
     ['fully-qualified', '🕖', '0.6', 'seven o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9064,7 +9100,7 @@ fusionados_1 = [
   ],
   [
     ['1F562'],
-    ['emoji', '1008', 'Travel & Places', 'time', '🕢', 'seven-thirty'],
+    ['emoji', '1012', 'Travel & Places', 'time', '🕢', 'seven-thirty'],
     ['fully-qualified', '🕢', '0.7', 'seven-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9073,7 +9109,7 @@ fusionados_1 = [
   ],
   [
     ['1F557'],
-    ['emoji', '1009', 'Travel & Places', 'time', '🕗', 'eight o’clock'],
+    ['emoji', '1013', 'Travel & Places', 'time', '🕗', 'eight o’clock'],
     ['fully-qualified', '🕗', '0.6', 'eight o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9082,7 +9118,7 @@ fusionados_1 = [
   ],
   [
     ['1F563'],
-    ['emoji', '1010', 'Travel & Places', 'time', '🕣', 'eight-thirty'],
+    ['emoji', '1014', 'Travel & Places', 'time', '🕣', 'eight-thirty'],
     ['fully-qualified', '🕣', '0.7', 'eight-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9091,7 +9127,7 @@ fusionados_1 = [
   ],
   [
     ['1F558'],
-    ['emoji', '1011', 'Travel & Places', 'time', '🕘', 'nine o’clock'],
+    ['emoji', '1015', 'Travel & Places', 'time', '🕘', 'nine o’clock'],
     ['fully-qualified', '🕘', '0.6', 'nine o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9100,7 +9136,7 @@ fusionados_1 = [
   ],
   [
     ['1F564'],
-    ['emoji', '1012', 'Travel & Places', 'time', '🕤', 'nine-thirty'],
+    ['emoji', '1016', 'Travel & Places', 'time', '🕤', 'nine-thirty'],
     ['fully-qualified', '🕤', '0.7', 'nine-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9109,7 +9145,7 @@ fusionados_1 = [
   ],
   [
     ['1F559'],
-    ['emoji', '1013', 'Travel & Places', 'time', '🕙', 'ten o’clock'],
+    ['emoji', '1017', 'Travel & Places', 'time', '🕙', 'ten o’clock'],
     ['fully-qualified', '🕙', '0.6', 'ten o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9118,7 +9154,7 @@ fusionados_1 = [
   ],
   [
     ['1F565'],
-    ['emoji', '1014', 'Travel & Places', 'time', '🕥', 'ten-thirty'],
+    ['emoji', '1018', 'Travel & Places', 'time', '🕥', 'ten-thirty'],
     ['fully-qualified', '🕥', '0.7', 'ten-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9127,7 +9163,7 @@ fusionados_1 = [
   ],
   [
     ['1F55A'],
-    ['emoji', '1015', 'Travel & Places', 'time', '🕚', 'eleven o’clock'],
+    ['emoji', '1019', 'Travel & Places', 'time', '🕚', 'eleven o’clock'],
     ['fully-qualified', '🕚', '0.6', 'eleven o’clock', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9136,7 +9172,7 @@ fusionados_1 = [
   ],
   [
     ['1F566'],
-    ['emoji', '1016', 'Travel & Places', 'time', '🕦', 'eleven-thirty'],
+    ['emoji', '1020', 'Travel & Places', 'time', '🕦', 'eleven-thirty'],
     ['fully-qualified', '🕦', '0.7', 'eleven-thirty', 'Travel & Places', 'time'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9145,7 +9181,7 @@ fusionados_1 = [
   ],
   [
     ['1F311'],
-    ['emoji', '1017', 'Travel & Places', 'sky & weather', '🌑', 'new moon'],
+    ['emoji', '1021', 'Travel & Places', 'sky & weather', '🌑', 'new moon'],
     ['fully-qualified', '🌑', '0.6', 'new moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9154,7 +9190,7 @@ fusionados_1 = [
   ],
   [
     ['1F312'],
-    ['emoji', '1018', 'Travel & Places', 'sky & weather', '🌒', 'waxing crescent moon'],
+    ['emoji', '1022', 'Travel & Places', 'sky & weather', '🌒', 'waxing crescent moon'],
     ['fully-qualified', '🌒', '1.0', 'waxing crescent moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9163,7 +9199,7 @@ fusionados_1 = [
   ],
   [
     ['1F313'],
-    ['emoji', '1019', 'Travel & Places', 'sky & weather', '🌓', 'first quarter moon'],
+    ['emoji', '1023', 'Travel & Places', 'sky & weather', '🌓', 'first quarter moon'],
     ['fully-qualified', '🌓', '0.6', 'first quarter moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9172,7 +9208,7 @@ fusionados_1 = [
   ],
   [
     ['1F314'],
-    ['emoji', '1020', 'Travel & Places', 'sky & weather', '🌔', 'waxing gibbous moon'],
+    ['emoji', '1024', 'Travel & Places', 'sky & weather', '🌔', 'waxing gibbous moon'],
     ['fully-qualified', '🌔', '0.6', 'waxing gibbous moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9181,7 +9217,7 @@ fusionados_1 = [
   ],
   [
     ['1F315'],
-    ['emoji', '1021', 'Travel & Places', 'sky & weather', '🌕', 'full moon'],
+    ['emoji', '1025', 'Travel & Places', 'sky & weather', '🌕', 'full moon'],
     ['fully-qualified', '🌕', '0.6', 'full moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9190,7 +9226,7 @@ fusionados_1 = [
   ],
   [
     ['1F316'],
-    ['emoji', '1022', 'Travel & Places', 'sky & weather', '🌖', 'waning gibbous moon'],
+    ['emoji', '1026', 'Travel & Places', 'sky & weather', '🌖', 'waning gibbous moon'],
     ['fully-qualified', '🌖', '1.0', 'waning gibbous moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9199,7 +9235,7 @@ fusionados_1 = [
   ],
   [
     ['1F317'],
-    ['emoji', '1023', 'Travel & Places', 'sky & weather', '🌗', 'last quarter moon'],
+    ['emoji', '1027', 'Travel & Places', 'sky & weather', '🌗', 'last quarter moon'],
     ['fully-qualified', '🌗', '1.0', 'last quarter moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9208,7 +9244,7 @@ fusionados_1 = [
   ],
   [
     ['1F318'],
-    ['emoji', '1024', 'Travel & Places', 'sky & weather', '🌘', 'waning crescent moon'],
+    ['emoji', '1028', 'Travel & Places', 'sky & weather', '🌘', 'waning crescent moon'],
     ['fully-qualified', '🌘', '1.0', 'waning crescent moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9217,7 +9253,7 @@ fusionados_1 = [
   ],
   [
     ['1F319'],
-    ['emoji', '1025', 'Travel & Places', 'sky & weather', '🌙', 'crescent moon'],
+    ['emoji', '1029', 'Travel & Places', 'sky & weather', '🌙', 'crescent moon'],
     ['fully-qualified', '🌙', '0.6', 'crescent moon', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9226,7 +9262,7 @@ fusionados_1 = [
   ],
   [
     ['1F31A'],
-    ['emoji', '1026', 'Travel & Places', 'sky & weather', '🌚', 'new moon face'],
+    ['emoji', '1030', 'Travel & Places', 'sky & weather', '🌚', 'new moon face'],
     ['fully-qualified', '🌚', '1.0', 'new moon face', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9235,7 +9271,7 @@ fusionados_1 = [
   ],
   [
     ['1F31B'],
-    ['emoji', '1027', 'Travel & Places', 'sky & weather', '🌛', 'first quarter moon face'],
+    ['emoji', '1031', 'Travel & Places', 'sky & weather', '🌛', 'first quarter moon face'],
     ['fully-qualified', '🌛', '0.6', 'first quarter moon face', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9244,7 +9280,7 @@ fusionados_1 = [
   ],
   [
     ['1F31C'],
-    ['emoji', '1028', 'Travel & Places', 'sky & weather', '🌜', 'last quarter moon face'],
+    ['emoji', '1032', 'Travel & Places', 'sky & weather', '🌜', 'last quarter moon face'],
     ['fully-qualified', '🌜', '0.7', 'last quarter moon face', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9253,7 +9289,7 @@ fusionados_1 = [
   ],
   [
     ['1F321'],
-    ['emoji', '1029', 'Travel & Places', 'sky & weather', '🌡', 'thermometer'],
+    ['emoji', '1033', 'Travel & Places', 'sky & weather', '🌡', 'thermometer'],
     ['unqualified', '🌡', '0.7', 'thermometer', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9262,7 +9298,7 @@ fusionados_1 = [
   ],
   [
     ['2600'],
-    ['emoji', '1030', 'Travel & Places', 'sky & weather', '☀', 'sun'],
+    ['emoji', '1034', 'Travel & Places', 'sky & weather', '☀', 'sun'],
     ['unqualified', '☀', '0.6', 'sun', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9271,7 +9307,7 @@ fusionados_1 = [
   ],
   [
     ['1F31D'],
-    ['emoji', '1031', 'Travel & Places', 'sky & weather', '🌝', 'full moon face'],
+    ['emoji', '1035', 'Travel & Places', 'sky & weather', '🌝', 'full moon face'],
     ['fully-qualified', '🌝', '1.0', 'full moon face', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9280,7 +9316,7 @@ fusionados_1 = [
   ],
   [
     ['1F31E'],
-    ['emoji', '1032', 'Travel & Places', 'sky & weather', '🌞', 'sun with face'],
+    ['emoji', '1036', 'Travel & Places', 'sky & weather', '🌞', 'sun with face'],
     ['fully-qualified', '🌞', '1.0', 'sun with face', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9289,7 +9325,7 @@ fusionados_1 = [
   ],
   [
     ['1FA90'],
-    ['emoji', '1033', 'Travel & Places', 'sky & weather', '🪐', 'ringed planet'],
+    ['emoji', '1037', 'Travel & Places', 'sky & weather', '🪐', 'ringed planet'],
     ['fully-qualified', '🪐', '12.0', 'ringed planet', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -9298,7 +9334,7 @@ fusionados_1 = [
   ],
   [
     ['2B50'],
-    ['emoji', '1034', 'Travel & Places', 'sky & weather', '⭐', 'star'],
+    ['emoji', '1038', 'Travel & Places', 'sky & weather', '⭐', 'star'],
     ['fully-qualified', '⭐', '0.6', 'star', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9307,7 +9343,7 @@ fusionados_1 = [
   ],
   [
     ['1F31F'],
-    ['emoji', '1035', 'Travel & Places', 'sky & weather', '🌟', 'glowing star'],
+    ['emoji', '1039', 'Travel & Places', 'sky & weather', '🌟', 'glowing star'],
     ['fully-qualified', '🌟', '0.6', 'glowing star', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9316,7 +9352,7 @@ fusionados_1 = [
   ],
   [
     ['1F320'],
-    ['emoji', '1036', 'Travel & Places', 'sky & weather', '🌠', 'shooting star'],
+    ['emoji', '1040', 'Travel & Places', 'sky & weather', '🌠', 'shooting star'],
     ['fully-qualified', '🌠', '0.6', 'shooting star', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9325,7 +9361,7 @@ fusionados_1 = [
   ],
   [
     ['1F30C'],
-    ['emoji', '1037', 'Travel & Places', 'sky & weather', '🌌', 'milky way'],
+    ['emoji', '1041', 'Travel & Places', 'sky & weather', '🌌', 'milky way'],
     ['fully-qualified', '🌌', '0.6', 'milky way', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9334,7 +9370,7 @@ fusionados_1 = [
   ],
   [
     ['2601'],
-    ['emoji', '1038', 'Travel & Places', 'sky & weather', '☁', 'cloud'],
+    ['emoji', '1042', 'Travel & Places', 'sky & weather', '☁', 'cloud'],
     ['unqualified', '☁', '0.6', 'cloud', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9343,7 +9379,7 @@ fusionados_1 = [
   ],
   [
     ['26C5'],
-    ['emoji', '1039', 'Travel & Places', 'sky & weather', '⛅', 'sun behind cloud'],
+    ['emoji', '1043', 'Travel & Places', 'sky & weather', '⛅', 'sun behind cloud'],
     ['fully-qualified', '⛅', '0.6', 'sun behind cloud', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9352,7 +9388,7 @@ fusionados_1 = [
   ],
   [
     ['26C8'],
-    ['emoji', '1040', 'Travel & Places', 'sky & weather', '⛈', 'cloud with lightning and rain'],
+    ['emoji', '1044', 'Travel & Places', 'sky & weather', '⛈', 'cloud with lightning and rain'],
     ['unqualified', '⛈', '0.7', 'cloud with lightning and rain', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9361,7 +9397,7 @@ fusionados_1 = [
   ],
   [
     ['1F324'],
-    ['emoji', '1041', 'Travel & Places', 'sky & weather', '🌤', 'sun behind small cloud'],
+    ['emoji', '1045', 'Travel & Places', 'sky & weather', '🌤', 'sun behind small cloud'],
     ['unqualified', '🌤', '0.7', 'sun behind small cloud', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9370,7 +9406,7 @@ fusionados_1 = [
   ],
   [
     ['1F325'],
-    ['emoji', '1042', 'Travel & Places', 'sky & weather', '🌥', 'sun behind large cloud'],
+    ['emoji', '1046', 'Travel & Places', 'sky & weather', '🌥', 'sun behind large cloud'],
     ['unqualified', '🌥', '0.7', 'sun behind large cloud', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9379,7 +9415,7 @@ fusionados_1 = [
   ],
   [
     ['1F326'],
-    ['emoji', '1043', 'Travel & Places', 'sky & weather', '🌦', 'sun behind rain cloud'],
+    ['emoji', '1047', 'Travel & Places', 'sky & weather', '🌦', 'sun behind rain cloud'],
     ['unqualified', '🌦', '0.7', 'sun behind rain cloud', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9388,7 +9424,7 @@ fusionados_1 = [
   ],
   [
     ['1F327'],
-    ['emoji', '1044', 'Travel & Places', 'sky & weather', '🌧', 'cloud with rain'],
+    ['emoji', '1048', 'Travel & Places', 'sky & weather', '🌧', 'cloud with rain'],
     ['unqualified', '🌧', '0.7', 'cloud with rain', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9397,7 +9433,7 @@ fusionados_1 = [
   ],
   [
     ['1F328'],
-    ['emoji', '1045', 'Travel & Places', 'sky & weather', '🌨', 'cloud with snow'],
+    ['emoji', '1049', 'Travel & Places', 'sky & weather', '🌨', 'cloud with snow'],
     ['unqualified', '🌨', '0.7', 'cloud with snow', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9406,7 +9442,7 @@ fusionados_1 = [
   ],
   [
     ['1F329'],
-    ['emoji', '1046', 'Travel & Places', 'sky & weather', '🌩', 'cloud with lightning'],
+    ['emoji', '1050', 'Travel & Places', 'sky & weather', '🌩', 'cloud with lightning'],
     ['unqualified', '🌩', '0.7', 'cloud with lightning', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9415,7 +9451,7 @@ fusionados_1 = [
   ],
   [
     ['1F32A'],
-    ['emoji', '1047', 'Travel & Places', 'sky & weather', '🌪', 'tornado'],
+    ['emoji', '1051', 'Travel & Places', 'sky & weather', '🌪', 'tornado'],
     ['unqualified', '🌪', '0.7', 'tornado', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9424,7 +9460,7 @@ fusionados_1 = [
   ],
   [
     ['1F32B'],
-    ['emoji', '1048', 'Travel & Places', 'sky & weather', '🌫', 'fog'],
+    ['emoji', '1052', 'Travel & Places', 'sky & weather', '🌫', 'fog'],
     ['unqualified', '🌫', '0.7', 'fog', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9433,7 +9469,7 @@ fusionados_1 = [
   ],
   [
     ['1F32C'],
-    ['emoji', '1049', 'Travel & Places', 'sky & weather', '🌬', 'wind face'],
+    ['emoji', '1053', 'Travel & Places', 'sky & weather', '🌬', 'wind face'],
     ['unqualified', '🌬', '0.7', 'wind face', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9442,7 +9478,7 @@ fusionados_1 = [
   ],
   [
     ['1F300'],
-    ['emoji', '1050', 'Travel & Places', 'sky & weather', '🌀', 'cyclone'],
+    ['emoji', '1054', 'Travel & Places', 'sky & weather', '🌀', 'cyclone'],
     ['fully-qualified', '🌀', '0.6', 'cyclone', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9451,7 +9487,7 @@ fusionados_1 = [
   ],
   [
     ['1F308'],
-    ['emoji', '1051', 'Travel & Places', 'sky & weather', '🌈', 'rainbow'],
+    ['emoji', '1055', 'Travel & Places', 'sky & weather', '🌈', 'rainbow'],
     ['fully-qualified', '🌈', '0.6', 'rainbow', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9460,7 +9496,7 @@ fusionados_1 = [
   ],
   [
     ['1F302'],
-    ['emoji', '1052', 'Travel & Places', 'sky & weather', '🌂', 'closed umbrella'],
+    ['emoji', '1056', 'Travel & Places', 'sky & weather', '🌂', 'closed umbrella'],
     ['fully-qualified', '🌂', '0.6', 'closed umbrella', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9469,7 +9505,7 @@ fusionados_1 = [
   ],
   [
     ['2602'],
-    ['emoji', '1053', 'Travel & Places', 'sky & weather', '☂', 'umbrella'],
+    ['emoji', '1057', 'Travel & Places', 'sky & weather', '☂', 'umbrella'],
     ['unqualified', '☂', '0.7', 'umbrella', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9478,7 +9514,7 @@ fusionados_1 = [
   ],
   [
     ['2614'],
-    ['emoji', '1054', 'Travel & Places', 'sky & weather', '☔', 'umbrella with rain drops'],
+    ['emoji', '1058', 'Travel & Places', 'sky & weather', '☔', 'umbrella with rain drops'],
     ['fully-qualified', '☔', '0.6', 'umbrella with rain drops', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9487,7 +9523,7 @@ fusionados_1 = [
   ],
   [
     ['26F1'],
-    ['emoji', '1055', 'Travel & Places', 'sky & weather', '⛱', 'umbrella on ground'],
+    ['emoji', '1059', 'Travel & Places', 'sky & weather', '⛱', 'umbrella on ground'],
     ['unqualified', '⛱', '0.7', 'umbrella on ground', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9496,7 +9532,7 @@ fusionados_1 = [
   ],
   [
     ['26A1'],
-    ['emoji', '1056', 'Travel & Places', 'sky & weather', '⚡', 'high voltage'],
+    ['emoji', '1060', 'Travel & Places', 'sky & weather', '⚡', 'high voltage'],
     ['fully-qualified', '⚡', '0.6', 'high voltage', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9505,7 +9541,7 @@ fusionados_1 = [
   ],
   [
     ['2744'],
-    ['emoji', '1057', 'Travel & Places', 'sky & weather', '❄', 'snowflake'],
+    ['emoji', '1061', 'Travel & Places', 'sky & weather', '❄', 'snowflake'],
     ['unqualified', '❄', '0.6', 'snowflake', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9514,7 +9550,7 @@ fusionados_1 = [
   ],
   [
     ['2603'],
-    ['emoji', '1058', 'Travel & Places', 'sky & weather', '☃', 'snowman'],
+    ['emoji', '1062', 'Travel & Places', 'sky & weather', '☃', 'snowman'],
     ['unqualified', '☃', '0.7', 'snowman', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9523,7 +9559,7 @@ fusionados_1 = [
   ],
   [
     ['26C4'],
-    ['emoji', '1059', 'Travel & Places', 'sky & weather', '⛄', 'snowman without snow'],
+    ['emoji', '1063', 'Travel & Places', 'sky & weather', '⛄', 'snowman without snow'],
     ['fully-qualified', '⛄', '0.6', 'snowman without snow', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9532,7 +9568,7 @@ fusionados_1 = [
   ],
   [
     ['2604'],
-    ['emoji', '1060', 'Travel & Places', 'sky & weather', '☄', 'comet'],
+    ['emoji', '1064', 'Travel & Places', 'sky & weather', '☄', 'comet'],
     ['unqualified', '☄', '1.0', 'comet', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9541,7 +9577,7 @@ fusionados_1 = [
   ],
   [
     ['1F525'],
-    ['emoji', '1061', 'Travel & Places', 'sky & weather', '🔥', 'fire'],
+    ['emoji', '1065', 'Travel & Places', 'sky & weather', '🔥', 'fire'],
     ['fully-qualified', '🔥', '0.6', 'fire', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9550,7 +9586,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A7'],
-    ['emoji', '1062', 'Travel & Places', 'sky & weather', '💧', 'droplet'],
+    ['emoji', '1066', 'Travel & Places', 'sky & weather', '💧', 'droplet'],
     ['fully-qualified', '💧', '0.6', 'droplet', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9559,7 +9595,7 @@ fusionados_1 = [
   ],
   [
     ['1F30A'],
-    ['emoji', '1063', 'Travel & Places', 'sky & weather', '🌊', 'water wave'],
+    ['emoji', '1067', 'Travel & Places', 'sky & weather', '🌊', 'water wave'],
     ['fully-qualified', '🌊', '0.6', 'water wave', 'Travel & Places', 'sky & weather'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9568,7 +9604,7 @@ fusionados_1 = [
   ],
   [
     ['1F383'],
-    ['emoji', '1064', 'Activities', 'event', '🎃', 'jack-o-lantern'],
+    ['emoji', '1068', 'Activities', 'event', '🎃', 'jack-o-lantern'],
     ['fully-qualified', '🎃', '0.6', 'jack-o-lantern', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9577,7 +9613,7 @@ fusionados_1 = [
   ],
   [
     ['1F384'],
-    ['emoji', '1065', 'Activities', 'event', '🎄', 'Christmas tree'],
+    ['emoji', '1069', 'Activities', 'event', '🎄', 'Christmas tree'],
     ['fully-qualified', '🎄', '0.6', 'Christmas tree', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9586,7 +9622,7 @@ fusionados_1 = [
   ],
   [
     ['1F386'],
-    ['emoji', '1066', 'Activities', 'event', '🎆', 'fireworks'],
+    ['emoji', '1070', 'Activities', 'event', '🎆', 'fireworks'],
     ['fully-qualified', '🎆', '0.6', 'fireworks', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9595,7 +9631,7 @@ fusionados_1 = [
   ],
   [
     ['1F387'],
-    ['emoji', '1067', 'Activities', 'event', '🎇', 'sparkler'],
+    ['emoji', '1071', 'Activities', 'event', '🎇', 'sparkler'],
     ['fully-qualified', '🎇', '0.6', 'sparkler', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9604,7 +9640,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E8'],
-    ['emoji', '1068', 'Activities', 'event', '🧨', 'firecracker'],
+    ['emoji', '1072', 'Activities', 'event', '🧨', 'firecracker'],
     ['fully-qualified', '🧨', '11.0', 'firecracker', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -9613,7 +9649,7 @@ fusionados_1 = [
   ],
   [
     ['2728'],
-    ['emoji', '1069', 'Activities', 'event', '✨', 'sparkles'],
+    ['emoji', '1073', 'Activities', 'event', '✨', 'sparkles'],
     ['fully-qualified', '✨', '0.6', 'sparkles', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9622,7 +9658,7 @@ fusionados_1 = [
   ],
   [
     ['1F388'],
-    ['emoji', '1070', 'Activities', 'event', '🎈', 'balloon'],
+    ['emoji', '1074', 'Activities', 'event', '🎈', 'balloon'],
     ['fully-qualified', '🎈', '0.6', 'balloon', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9631,7 +9667,7 @@ fusionados_1 = [
   ],
   [
     ['1F389'],
-    ['emoji', '1071', 'Activities', 'event', '🎉', 'party popper'],
+    ['emoji', '1075', 'Activities', 'event', '🎉', 'party popper'],
     ['fully-qualified', '🎉', '0.6', 'party popper', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9640,7 +9676,7 @@ fusionados_1 = [
   ],
   [
     ['1F38A'],
-    ['emoji', '1072', 'Activities', 'event', '🎊', 'confetti ball'],
+    ['emoji', '1076', 'Activities', 'event', '🎊', 'confetti ball'],
     ['fully-qualified', '🎊', '0.6', 'confetti ball', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9649,7 +9685,7 @@ fusionados_1 = [
   ],
   [
     ['1F38B'],
-    ['emoji', '1073', 'Activities', 'event', '🎋', 'tanabata tree'],
+    ['emoji', '1077', 'Activities', 'event', '🎋', 'tanabata tree'],
     ['fully-qualified', '🎋', '0.6', 'tanabata tree', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9658,7 +9694,7 @@ fusionados_1 = [
   ],
   [
     ['1F38D'],
-    ['emoji', '1074', 'Activities', 'event', '🎍', 'pine decoration'],
+    ['emoji', '1078', 'Activities', 'event', '🎍', 'pine decoration'],
     ['fully-qualified', '🎍', '0.6', 'pine decoration', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9667,7 +9703,7 @@ fusionados_1 = [
   ],
   [
     ['1F38E'],
-    ['emoji', '1075', 'Activities', 'event', '🎎', 'Japanese dolls'],
+    ['emoji', '1079', 'Activities', 'event', '🎎', 'Japanese dolls'],
     ['fully-qualified', '🎎', '0.6', 'Japanese dolls', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9676,7 +9712,7 @@ fusionados_1 = [
   ],
   [
     ['1F38F'],
-    ['emoji', '1076', 'Activities', 'event', '🎏', 'carp streamer'],
+    ['emoji', '1080', 'Activities', 'event', '🎏', 'carp streamer'],
     ['fully-qualified', '🎏', '0.6', 'carp streamer', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9685,7 +9721,7 @@ fusionados_1 = [
   ],
   [
     ['1F390'],
-    ['emoji', '1077', 'Activities', 'event', '🎐', 'wind chime'],
+    ['emoji', '1081', 'Activities', 'event', '🎐', 'wind chime'],
     ['fully-qualified', '🎐', '0.6', 'wind chime', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9694,7 +9730,7 @@ fusionados_1 = [
   ],
   [
     ['1F391'],
-    ['emoji', '1078', 'Activities', 'event', '🎑', 'moon viewing ceremony'],
+    ['emoji', '1082', 'Activities', 'event', '🎑', 'moon viewing ceremony'],
     ['fully-qualified', '🎑', '0.6', 'moon viewing ceremony', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9703,7 +9739,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E7'],
-    ['emoji', '1079', 'Activities', 'event', '🧧', 'red envelope'],
+    ['emoji', '1083', 'Activities', 'event', '🧧', 'red envelope'],
     ['fully-qualified', '🧧', '11.0', 'red envelope', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -9712,7 +9748,7 @@ fusionados_1 = [
   ],
   [
     ['1F380'],
-    ['emoji', '1080', 'Activities', 'event', '🎀', 'ribbon'],
+    ['emoji', '1084', 'Activities', 'event', '🎀', 'ribbon'],
     ['fully-qualified', '🎀', '0.6', 'ribbon', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9721,7 +9757,7 @@ fusionados_1 = [
   ],
   [
     ['1F381'],
-    ['emoji', '1081', 'Activities', 'event', '🎁', 'wrapped gift'],
+    ['emoji', '1085', 'Activities', 'event', '🎁', 'wrapped gift'],
     ['fully-qualified', '🎁', '0.6', 'wrapped gift', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9730,7 +9766,7 @@ fusionados_1 = [
   ],
   [
     ['1F397'],
-    ['emoji', '1082', 'Activities', 'event', '🎗', 'reminder ribbon'],
+    ['emoji', '1086', 'Activities', 'event', '🎗', 'reminder ribbon'],
     ['unqualified', '🎗', '0.7', 'reminder ribbon', 'Activities', 'event'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9739,7 +9775,7 @@ fusionados_1 = [
   ],
   [
     ['1F39F'],
-    ['emoji', '1083', 'Activities', 'event', '🎟', 'admission tickets'],
+    ['emoji', '1087', 'Activities', 'event', '🎟', 'admission tickets'],
     ['unqualified', '🎟', '0.7', 'admission tickets', 'Activities', 'event'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9748,7 +9784,7 @@ fusionados_1 = [
   ],
   [
     ['1F3AB'],
-    ['emoji', '1084', 'Activities', 'event', '🎫', 'ticket'],
+    ['emoji', '1088', 'Activities', 'event', '🎫', 'ticket'],
     ['fully-qualified', '🎫', '0.6', 'ticket', 'Activities', 'event'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9757,7 +9793,7 @@ fusionados_1 = [
   ],
   [
     ['1F396'],
-    ['emoji', '1085', 'Activities', 'award-medal', '🎖', 'military medal'],
+    ['emoji', '1089', 'Activities', 'award-medal', '🎖', 'military medal'],
     ['unqualified', '🎖', '0.7', 'military medal', 'Activities', 'award-medal'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -9766,7 +9802,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C6'],
-    ['emoji', '1086', 'Activities', 'award-medal', '🏆', 'trophy'],
+    ['emoji', '1090', 'Activities', 'award-medal', '🏆', 'trophy'],
     ['fully-qualified', '🏆', '0.6', 'trophy', 'Activities', 'award-medal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9775,7 +9811,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C5'],
-    ['emoji', '1087', 'Activities', 'award-medal', '🏅', 'sports medal'],
+    ['emoji', '1091', 'Activities', 'award-medal', '🏅', 'sports medal'],
     ['fully-qualified', '🏅', '1.0', 'sports medal', 'Activities', 'award-medal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9784,7 +9820,7 @@ fusionados_1 = [
   ],
   [
     ['1F947'],
-    ['emoji', '1088', 'Activities', 'award-medal', '🥇', '1st place medal'],
+    ['emoji', '1092', 'Activities', 'award-medal', '🥇', '1st place medal'],
     ['fully-qualified', '🥇', '3.0', '1st place medal', 'Activities', 'award-medal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -9793,7 +9829,7 @@ fusionados_1 = [
   ],
   [
     ['1F948'],
-    ['emoji', '1089', 'Activities', 'award-medal', '🥈', '2nd place medal'],
+    ['emoji', '1093', 'Activities', 'award-medal', '🥈', '2nd place medal'],
     ['fully-qualified', '🥈', '3.0', '2nd place medal', 'Activities', 'award-medal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -9802,7 +9838,7 @@ fusionados_1 = [
   ],
   [
     ['1F949'],
-    ['emoji', '1090', 'Activities', 'award-medal', '🥉', '3rd place medal'],
+    ['emoji', '1094', 'Activities', 'award-medal', '🥉', '3rd place medal'],
     ['fully-qualified', '🥉', '3.0', '3rd place medal', 'Activities', 'award-medal'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -9811,7 +9847,7 @@ fusionados_1 = [
   ],
   [
     ['26BD'],
-    ['emoji', '1091', 'Activities', 'sport', '⚽', 'soccer ball'],
+    ['emoji', '1095', 'Activities', 'sport', '⚽', 'soccer ball'],
     ['fully-qualified', '⚽', '0.6', 'soccer ball', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9820,7 +9856,7 @@ fusionados_1 = [
   ],
   [
     ['26BE'],
-    ['emoji', '1092', 'Activities', 'sport', '⚾', 'baseball'],
+    ['emoji', '1096', 'Activities', 'sport', '⚾', 'baseball'],
     ['fully-qualified', '⚾', '0.6', 'baseball', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9829,7 +9865,7 @@ fusionados_1 = [
   ],
   [
     ['1F94E'],
-    ['emoji', '1093', 'Activities', 'sport', '🥎', 'softball'],
+    ['emoji', '1097', 'Activities', 'sport', '🥎', 'softball'],
     ['fully-qualified', '🥎', '11.0', 'softball', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -9838,7 +9874,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C0'],
-    ['emoji', '1094', 'Activities', 'sport', '🏀', 'basketball'],
+    ['emoji', '1098', 'Activities', 'sport', '🏀', 'basketball'],
     ['fully-qualified', '🏀', '0.6', 'basketball', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9847,7 +9883,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D0'],
-    ['emoji', '1095', 'Activities', 'sport', '🏐', 'volleyball'],
+    ['emoji', '1099', 'Activities', 'sport', '🏐', 'volleyball'],
     ['fully-qualified', '🏐', '1.0', 'volleyball', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9856,7 +9892,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C8'],
-    ['emoji', '1096', 'Activities', 'sport', '🏈', 'american football'],
+    ['emoji', '1100', 'Activities', 'sport', '🏈', 'american football'],
     ['fully-qualified', '🏈', '0.6', 'american football', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9865,7 +9901,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C9'],
-    ['emoji', '1097', 'Activities', 'sport', '🏉', 'rugby football'],
+    ['emoji', '1101', 'Activities', 'sport', '🏉', 'rugby football'],
     ['fully-qualified', '🏉', '1.0', 'rugby football', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9874,7 +9910,7 @@ fusionados_1 = [
   ],
   [
     ['1F3BE'],
-    ['emoji', '1098', 'Activities', 'sport', '🎾', 'tennis'],
+    ['emoji', '1102', 'Activities', 'sport', '🎾', 'tennis'],
     ['fully-qualified', '🎾', '0.6', 'tennis', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9883,7 +9919,7 @@ fusionados_1 = [
   ],
   [
     ['1F94F'],
-    ['emoji', '1099', 'Activities', 'sport', '🥏', 'flying disc'],
+    ['emoji', '1103', 'Activities', 'sport', '🥏', 'flying disc'],
     ['fully-qualified', '🥏', '11.0', 'flying disc', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -9892,7 +9928,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B3'],
-    ['emoji', '1100', 'Activities', 'sport', '🎳', 'bowling'],
+    ['emoji', '1104', 'Activities', 'sport', '🎳', 'bowling'],
     ['fully-qualified', '🎳', '0.6', 'bowling', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9901,7 +9937,7 @@ fusionados_1 = [
   ],
   [
     ['1F3CF'],
-    ['emoji', '1101', 'Activities', 'sport', '🏏', 'cricket game'],
+    ['emoji', '1105', 'Activities', 'sport', '🏏', 'cricket game'],
     ['fully-qualified', '🏏', '1.0', 'cricket game', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9910,7 +9946,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D1'],
-    ['emoji', '1102', 'Activities', 'sport', '🏑', 'field hockey'],
+    ['emoji', '1106', 'Activities', 'sport', '🏑', 'field hockey'],
     ['fully-qualified', '🏑', '1.0', 'field hockey', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9919,7 +9955,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D2'],
-    ['emoji', '1103', 'Activities', 'sport', '🏒', 'ice hockey'],
+    ['emoji', '1107', 'Activities', 'sport', '🏒', 'ice hockey'],
     ['fully-qualified', '🏒', '1.0', 'ice hockey', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9928,7 +9964,7 @@ fusionados_1 = [
   ],
   [
     ['1F94D'],
-    ['emoji', '1104', 'Activities', 'sport', '🥍', 'lacrosse'],
+    ['emoji', '1108', 'Activities', 'sport', '🥍', 'lacrosse'],
     ['fully-qualified', '🥍', '11.0', 'lacrosse', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -9937,7 +9973,7 @@ fusionados_1 = [
   ],
   [
     ['1F3D3'],
-    ['emoji', '1105', 'Activities', 'sport', '🏓', 'ping pong'],
+    ['emoji', '1109', 'Activities', 'sport', '🏓', 'ping pong'],
     ['fully-qualified', '🏓', '1.0', 'ping pong', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9946,7 +9982,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F8'],
-    ['emoji', '1106', 'Activities', 'sport', '🏸', 'badminton'],
+    ['emoji', '1110', 'Activities', 'sport', '🏸', 'badminton'],
     ['fully-qualified', '🏸', '1.0', 'badminton', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -9955,7 +9991,7 @@ fusionados_1 = [
   ],
   [
     ['1F94A'],
-    ['emoji', '1107', 'Activities', 'sport', '🥊', 'boxing glove'],
+    ['emoji', '1111', 'Activities', 'sport', '🥊', 'boxing glove'],
     ['fully-qualified', '🥊', '3.0', 'boxing glove', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -9964,7 +10000,7 @@ fusionados_1 = [
   ],
   [
     ['1F94B'],
-    ['emoji', '1108', 'Activities', 'sport', '🥋', 'martial arts uniform'],
+    ['emoji', '1112', 'Activities', 'sport', '🥋', 'martial arts uniform'],
     ['fully-qualified', '🥋', '3.0', 'martial arts uniform', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -9973,7 +10009,7 @@ fusionados_1 = [
   ],
   [
     ['1F945'],
-    ['emoji', '1109', 'Activities', 'sport', '🥅', 'goal net'],
+    ['emoji', '1113', 'Activities', 'sport', '🥅', 'goal net'],
     ['fully-qualified', '🥅', '3.0', 'goal net', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -9982,7 +10018,7 @@ fusionados_1 = [
   ],
   [
     ['26F3'],
-    ['emoji', '1110', 'Activities', 'sport', '⛳', 'flag in hole'],
+    ['emoji', '1114', 'Activities', 'sport', '⛳', 'flag in hole'],
     ['fully-qualified', '⛳', '0.6', 'flag in hole', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -9991,7 +10027,7 @@ fusionados_1 = [
   ],
   [
     ['26F8'],
-    ['emoji', '1111', 'Activities', 'sport', '⛸', 'ice skate'],
+    ['emoji', '1115', 'Activities', 'sport', '⛸', 'ice skate'],
     ['unqualified', '⛸', '0.7', 'ice skate', 'Activities', 'sport'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10000,7 +10036,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A3'],
-    ['emoji', '1112', 'Activities', 'sport', '🎣', 'fishing pole'],
+    ['emoji', '1116', 'Activities', 'sport', '🎣', 'fishing pole'],
     ['fully-qualified', '🎣', '0.6', 'fishing pole', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10009,7 +10045,7 @@ fusionados_1 = [
   ],
   [
     ['1F93F'],
-    ['emoji', '1113', 'Activities', 'sport', '🤿', 'diving mask'],
+    ['emoji', '1117', 'Activities', 'sport', '🤿', 'diving mask'],
     ['fully-qualified', '🤿', '12.0', 'diving mask', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10018,7 +10054,7 @@ fusionados_1 = [
   ],
   [
     ['1F3BD'],
-    ['emoji', '1114', 'Activities', 'sport', '🎽', 'running shirt'],
+    ['emoji', '1118', 'Activities', 'sport', '🎽', 'running shirt'],
     ['fully-qualified', '🎽', '0.6', 'running shirt', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10027,7 +10063,7 @@ fusionados_1 = [
   ],
   [
     ['1F3BF'],
-    ['emoji', '1115', 'Activities', 'sport', '🎿', 'skis'],
+    ['emoji', '1119', 'Activities', 'sport', '🎿', 'skis'],
     ['fully-qualified', '🎿', '0.6', 'skis', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10036,7 +10072,7 @@ fusionados_1 = [
   ],
   [
     ['1F6F7'],
-    ['emoji', '1116', 'Activities', 'sport', '🛷', 'sled'],
+    ['emoji', '1120', 'Activities', 'sport', '🛷', 'sled'],
     ['fully-qualified', '🛷', '5.0', 'sled', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -10045,7 +10081,7 @@ fusionados_1 = [
   ],
   [
     ['1F94C'],
-    ['emoji', '1117', 'Activities', 'sport', '🥌', 'curling stone'],
+    ['emoji', '1121', 'Activities', 'sport', '🥌', 'curling stone'],
     ['fully-qualified', '🥌', '5.0', 'curling stone', 'Activities', 'sport'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -10054,7 +10090,7 @@ fusionados_1 = [
   ],
   [
     ['1F3AF'],
-    ['emoji', '1118', 'Activities', 'game', '🎯', 'bullseye'],
+    ['emoji', '1122', 'Activities', 'game', '🎯', 'bullseye'],
     ['fully-qualified', '🎯', '0.6', 'bullseye', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10063,7 +10099,7 @@ fusionados_1 = [
   ],
   [
     ['1FA80'],
-    ['emoji', '1119', 'Activities', 'game', '🪀', 'yo-yo'],
+    ['emoji', '1123', 'Activities', 'game', '🪀', 'yo-yo'],
     ['fully-qualified', '🪀', '12.0', 'yo-yo', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10072,7 +10108,7 @@ fusionados_1 = [
   ],
   [
     ['1FA81'],
-    ['emoji', '1120', 'Activities', 'game', '🪁', 'kite'],
+    ['emoji', '1124', 'Activities', 'game', '🪁', 'kite'],
     ['fully-qualified', '🪁', '12.0', 'kite', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10081,7 +10117,7 @@ fusionados_1 = [
   ],
   [
     ['1F52B'],
-    ['emoji', '1121', 'Activities', 'game', '🔫', 'water pistol'],
+    ['emoji', '1125', 'Activities', 'game', '🔫', 'water pistol'],
     ['fully-qualified', '🔫', '0.6', 'water pistol', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10090,7 +10126,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B1'],
-    ['emoji', '1122', 'Activities', 'game', '🎱', 'pool 8 ball'],
+    ['emoji', '1126', 'Activities', 'game', '🎱', 'pool 8 ball'],
     ['fully-qualified', '🎱', '0.6', 'pool 8 ball', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10099,7 +10135,7 @@ fusionados_1 = [
   ],
   [
     ['1F52E'],
-    ['emoji', '1123', 'Activities', 'game', '🔮', 'crystal ball'],
+    ['emoji', '1127', 'Activities', 'game', '🔮', 'crystal ball'],
     ['fully-qualified', '🔮', '0.6', 'crystal ball', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10108,7 +10144,7 @@ fusionados_1 = [
   ],
   [
     ['1FA84'],
-    ['emoji', '1124', 'Activities', 'game', '🪄', 'magic wand'],
+    ['emoji', '1128', 'Activities', 'game', '🪄', 'magic wand'],
     ['fully-qualified', '🪄', '13.0', 'magic wand', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10117,7 +10153,7 @@ fusionados_1 = [
   ],
   [
     ['1F3AE'],
-    ['emoji', '1125', 'Activities', 'game', '🎮', 'video game'],
+    ['emoji', '1129', 'Activities', 'game', '🎮', 'video game'],
     ['fully-qualified', '🎮', '0.6', 'video game', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10126,7 +10162,7 @@ fusionados_1 = [
   ],
   [
     ['1F579'],
-    ['emoji', '1126', 'Activities', 'game', '🕹', 'joystick'],
+    ['emoji', '1130', 'Activities', 'game', '🕹', 'joystick'],
     ['unqualified', '🕹', '0.7', 'joystick', 'Activities', 'game'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10135,7 +10171,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B0'],
-    ['emoji', '1127', 'Activities', 'game', '🎰', 'slot machine'],
+    ['emoji', '1131', 'Activities', 'game', '🎰', 'slot machine'],
     ['fully-qualified', '🎰', '0.6', 'slot machine', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10144,7 +10180,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B2'],
-    ['emoji', '1128', 'Activities', 'game', '🎲', 'game die'],
+    ['emoji', '1132', 'Activities', 'game', '🎲', 'game die'],
     ['fully-qualified', '🎲', '0.6', 'game die', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10153,7 +10189,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E9'],
-    ['emoji', '1129', 'Activities', 'game', '🧩', 'puzzle piece'],
+    ['emoji', '1133', 'Activities', 'game', '🧩', 'puzzle piece'],
     ['fully-qualified', '🧩', '11.0', 'puzzle piece', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10162,7 +10198,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F8'],
-    ['emoji', '1130', 'Activities', 'game', '🧸', 'teddy bear'],
+    ['emoji', '1134', 'Activities', 'game', '🧸', 'teddy bear'],
     ['fully-qualified', '🧸', '11.0', 'teddy bear', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10171,7 +10207,7 @@ fusionados_1 = [
   ],
   [
     ['1FA85'],
-    ['emoji', '1131', 'Activities', 'game', '🪅', 'piñata'],
+    ['emoji', '1135', 'Activities', 'game', '🪅', 'piñata'],
     ['fully-qualified', '🪅', '13.0', 'piñata', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10180,7 +10216,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA9'],
-    ['emoji', '1132', 'Activities', 'game', '\U0001faa9', 'mirror ball'],
+    ['emoji', '1136', 'Activities', 'game', '\U0001faa9', 'mirror ball'],
     ['fully-qualified', '\U0001faa9', '14.0', 'mirror ball', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -10189,7 +10225,7 @@ fusionados_1 = [
   ],
   [
     ['1FA86'],
-    ['emoji', '1133', 'Activities', 'game', '🪆', 'nesting dolls'],
+    ['emoji', '1137', 'Activities', 'game', '🪆', 'nesting dolls'],
     ['fully-qualified', '🪆', '13.0', 'nesting dolls', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10198,7 +10234,7 @@ fusionados_1 = [
   ],
   [
     ['2660'],
-    ['emoji', '1134', 'Activities', 'game', '♠', 'spade suit'],
+    ['emoji', '1138', 'Activities', 'game', '♠', 'spade suit'],
     ['unqualified', '♠', '0.6', 'spade suit', 'Activities', 'game'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10207,7 +10243,7 @@ fusionados_1 = [
   ],
   [
     ['2665'],
-    ['emoji', '1135', 'Activities', 'game', '♥', 'heart suit'],
+    ['emoji', '1139', 'Activities', 'game', '♥', 'heart suit'],
     ['unqualified', '♥', '0.6', 'heart suit', 'Activities', 'game'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10216,7 +10252,7 @@ fusionados_1 = [
   ],
   [
     ['2666'],
-    ['emoji', '1136', 'Activities', 'game', '♦', 'diamond suit'],
+    ['emoji', '1140', 'Activities', 'game', '♦', 'diamond suit'],
     ['unqualified', '♦', '0.6', 'diamond suit', 'Activities', 'game'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10225,7 +10261,7 @@ fusionados_1 = [
   ],
   [
     ['2663'],
-    ['emoji', '1137', 'Activities', 'game', '♣', 'club suit'],
+    ['emoji', '1141', 'Activities', 'game', '♣', 'club suit'],
     ['unqualified', '♣', '0.6', 'club suit', 'Activities', 'game'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10234,7 +10270,7 @@ fusionados_1 = [
   ],
   [
     ['265F'],
-    ['emoji', '1138', 'Activities', 'game', '♟', 'chess pawn'],
+    ['emoji', '1142', 'Activities', 'game', '♟', 'chess pawn'],
     ['unqualified', '♟', '11.0', 'chess pawn', 'Activities', 'game'],
     [['Emoji', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10243,7 +10279,7 @@ fusionados_1 = [
   ],
   [
     ['1F0CF'],
-    ['emoji', '1139', 'Activities', 'game', '🃏', 'joker'],
+    ['emoji', '1143', 'Activities', 'game', '🃏', 'joker'],
     ['fully-qualified', '🃏', '0.6', 'joker', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10252,7 +10288,7 @@ fusionados_1 = [
   ],
   [
     ['1F004'],
-    ['emoji', '1140', 'Activities', 'game', '🀄', 'mahjong red dragon'],
+    ['emoji', '1144', 'Activities', 'game', '🀄', 'mahjong red dragon'],
     ['fully-qualified', '🀄', '0.6', 'mahjong red dragon', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10261,7 +10297,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B4'],
-    ['emoji', '1141', 'Activities', 'game', '🎴', 'flower playing cards'],
+    ['emoji', '1145', 'Activities', 'game', '🎴', 'flower playing cards'],
     ['fully-qualified', '🎴', '0.6', 'flower playing cards', 'Activities', 'game'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10270,7 +10306,7 @@ fusionados_1 = [
   ],
   [
     ['1F3AD'],
-    ['emoji', '1142', 'Activities', 'arts & crafts', '🎭', 'performing arts'],
+    ['emoji', '1146', 'Activities', 'arts & crafts', '🎭', 'performing arts'],
     ['fully-qualified', '🎭', '0.6', 'performing arts', 'Activities', 'arts & crafts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10279,7 +10315,7 @@ fusionados_1 = [
   ],
   [
     ['1F5BC'],
-    ['emoji', '1143', 'Activities', 'arts & crafts', '🖼', 'framed picture'],
+    ['emoji', '1147', 'Activities', 'arts & crafts', '🖼', 'framed picture'],
     ['unqualified', '🖼', '0.7', 'framed picture', 'Activities', 'arts & crafts'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10288,7 +10324,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A8'],
-    ['emoji', '1144', 'Activities', 'arts & crafts', '🎨', 'artist palette'],
+    ['emoji', '1148', 'Activities', 'arts & crafts', '🎨', 'artist palette'],
     ['fully-qualified', '🎨', '0.6', 'artist palette', 'Activities', 'arts & crafts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10297,7 +10333,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F5'],
-    ['emoji', '1145', 'Activities', 'arts & crafts', '🧵', 'thread'],
+    ['emoji', '1149', 'Activities', 'arts & crafts', '🧵', 'thread'],
     ['fully-qualified', '🧵', '11.0', 'thread', 'Activities', 'arts & crafts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10306,7 +10342,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA1'],
-    ['emoji', '1146', 'Activities', 'arts & crafts', '🪡', 'sewing needle'],
+    ['emoji', '1150', 'Activities', 'arts & crafts', '🪡', 'sewing needle'],
     ['fully-qualified', '🪡', '13.0', 'sewing needle', 'Activities', 'arts & crafts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10315,7 +10351,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F6'],
-    ['emoji', '1147', 'Activities', 'arts & crafts', '🧶', 'yarn'],
+    ['emoji', '1151', 'Activities', 'arts & crafts', '🧶', 'yarn'],
     ['fully-qualified', '🧶', '11.0', 'yarn', 'Activities', 'arts & crafts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10324,7 +10360,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA2'],
-    ['emoji', '1148', 'Activities', 'arts & crafts', '🪢', 'knot'],
+    ['emoji', '1152', 'Activities', 'arts & crafts', '🪢', 'knot'],
     ['fully-qualified', '🪢', '13.0', 'knot', 'Activities', 'arts & crafts'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10333,7 +10369,7 @@ fusionados_1 = [
   ],
   [
     ['1F453'],
-    ['emoji', '1149', 'Objects', 'clothing', '👓', 'glasses'],
+    ['emoji', '1153', 'Objects', 'clothing', '👓', 'glasses'],
     ['fully-qualified', '👓', '0.6', 'glasses', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10342,7 +10378,7 @@ fusionados_1 = [
   ],
   [
     ['1F576'],
-    ['emoji', '1150', 'Objects', 'clothing', '🕶', 'sunglasses'],
+    ['emoji', '1154', 'Objects', 'clothing', '🕶', 'sunglasses'],
     ['unqualified', '🕶', '0.7', 'sunglasses', 'Objects', 'clothing'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10351,7 +10387,7 @@ fusionados_1 = [
   ],
   [
     ['1F97D'],
-    ['emoji', '1151', 'Objects', 'clothing', '🥽', 'goggles'],
+    ['emoji', '1155', 'Objects', 'clothing', '🥽', 'goggles'],
     ['fully-qualified', '🥽', '11.0', 'goggles', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10360,7 +10396,7 @@ fusionados_1 = [
   ],
   [
     ['1F97C'],
-    ['emoji', '1152', 'Objects', 'clothing', '🥼', 'lab coat'],
+    ['emoji', '1156', 'Objects', 'clothing', '🥼', 'lab coat'],
     ['fully-qualified', '🥼', '11.0', 'lab coat', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10369,7 +10405,7 @@ fusionados_1 = [
   ],
   [
     ['1F9BA'],
-    ['emoji', '1153', 'Objects', 'clothing', '🦺', 'safety vest'],
+    ['emoji', '1157', 'Objects', 'clothing', '🦺', 'safety vest'],
     ['fully-qualified', '🦺', '12.0', 'safety vest', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10378,7 +10414,7 @@ fusionados_1 = [
   ],
   [
     ['1F454'],
-    ['emoji', '1154', 'Objects', 'clothing', '👔', 'necktie'],
+    ['emoji', '1158', 'Objects', 'clothing', '👔', 'necktie'],
     ['fully-qualified', '👔', '0.6', 'necktie', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10387,7 +10423,7 @@ fusionados_1 = [
   ],
   [
     ['1F455'],
-    ['emoji', '1155', 'Objects', 'clothing', '👕', 't-shirt'],
+    ['emoji', '1159', 'Objects', 'clothing', '👕', 't-shirt'],
     ['fully-qualified', '👕', '0.6', 't-shirt', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10396,7 +10432,7 @@ fusionados_1 = [
   ],
   [
     ['1F456'],
-    ['emoji', '1156', 'Objects', 'clothing', '👖', 'jeans'],
+    ['emoji', '1160', 'Objects', 'clothing', '👖', 'jeans'],
     ['fully-qualified', '👖', '0.6', 'jeans', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10405,7 +10441,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E3'],
-    ['emoji', '1157', 'Objects', 'clothing', '🧣', 'scarf'],
+    ['emoji', '1161', 'Objects', 'clothing', '🧣', 'scarf'],
     ['fully-qualified', '🧣', '5.0', 'scarf', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -10414,7 +10450,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E4'],
-    ['emoji', '1158', 'Objects', 'clothing', '🧤', 'gloves'],
+    ['emoji', '1162', 'Objects', 'clothing', '🧤', 'gloves'],
     ['fully-qualified', '🧤', '5.0', 'gloves', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -10423,7 +10459,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E5'],
-    ['emoji', '1159', 'Objects', 'clothing', '🧥', 'coat'],
+    ['emoji', '1163', 'Objects', 'clothing', '🧥', 'coat'],
     ['fully-qualified', '🧥', '5.0', 'coat', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -10432,7 +10468,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E6'],
-    ['emoji', '1160', 'Objects', 'clothing', '🧦', 'socks'],
+    ['emoji', '1164', 'Objects', 'clothing', '🧦', 'socks'],
     ['fully-qualified', '🧦', '5.0', 'socks', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -10441,7 +10477,7 @@ fusionados_1 = [
   ],
   [
     ['1F457'],
-    ['emoji', '1161', 'Objects', 'clothing', '👗', 'dress'],
+    ['emoji', '1165', 'Objects', 'clothing', '👗', 'dress'],
     ['fully-qualified', '👗', '0.6', 'dress', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10450,7 +10486,7 @@ fusionados_1 = [
   ],
   [
     ['1F458'],
-    ['emoji', '1162', 'Objects', 'clothing', '👘', 'kimono'],
+    ['emoji', '1166', 'Objects', 'clothing', '👘', 'kimono'],
     ['fully-qualified', '👘', '0.6', 'kimono', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10459,7 +10495,7 @@ fusionados_1 = [
   ],
   [
     ['1F97B'],
-    ['emoji', '1163', 'Objects', 'clothing', '🥻', 'sari'],
+    ['emoji', '1167', 'Objects', 'clothing', '🥻', 'sari'],
     ['fully-qualified', '🥻', '12.0', 'sari', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10468,7 +10504,7 @@ fusionados_1 = [
   ],
   [
     ['1FA71'],
-    ['emoji', '1164', 'Objects', 'clothing', '🩱', 'one-piece swimsuit'],
+    ['emoji', '1168', 'Objects', 'clothing', '🩱', 'one-piece swimsuit'],
     ['fully-qualified', '🩱', '12.0', 'one-piece swimsuit', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10477,7 +10513,7 @@ fusionados_1 = [
   ],
   [
     ['1FA72'],
-    ['emoji', '1165', 'Objects', 'clothing', '🩲', 'briefs'],
+    ['emoji', '1169', 'Objects', 'clothing', '🩲', 'briefs'],
     ['fully-qualified', '🩲', '12.0', 'briefs', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10486,7 +10522,7 @@ fusionados_1 = [
   ],
   [
     ['1FA73'],
-    ['emoji', '1166', 'Objects', 'clothing', '🩳', 'shorts'],
+    ['emoji', '1170', 'Objects', 'clothing', '🩳', 'shorts'],
     ['fully-qualified', '🩳', '12.0', 'shorts', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10495,7 +10531,7 @@ fusionados_1 = [
   ],
   [
     ['1F459'],
-    ['emoji', '1167', 'Objects', 'clothing', '👙', 'bikini'],
+    ['emoji', '1171', 'Objects', 'clothing', '👙', 'bikini'],
     ['fully-qualified', '👙', '0.6', 'bikini', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10504,7 +10540,7 @@ fusionados_1 = [
   ],
   [
     ['1F45A'],
-    ['emoji', '1168', 'Objects', 'clothing', '👚', 'woman’s clothes'],
+    ['emoji', '1172', 'Objects', 'clothing', '👚', 'woman’s clothes'],
     ['fully-qualified', '👚', '0.6', 'woman’s clothes', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10513,7 +10549,7 @@ fusionados_1 = [
   ],
   [
     ['1FAAD'],
-    ['emoji', '1169', 'Objects', 'clothing', '\U0001faad', 'folding hand fan'],
+    ['emoji', '1173', 'Objects', 'clothing', '\U0001faad', 'folding hand fan'],
     ['fully-qualified', '\U0001faad', '15.0', 'folding hand fan', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -10522,7 +10558,7 @@ fusionados_1 = [
   ],
   [
     ['1F45B'],
-    ['emoji', '1170', 'Objects', 'clothing', '👛', 'purse'],
+    ['emoji', '1174', 'Objects', 'clothing', '👛', 'purse'],
     ['fully-qualified', '👛', '0.6', 'purse', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10531,7 +10567,7 @@ fusionados_1 = [
   ],
   [
     ['1F45C'],
-    ['emoji', '1171', 'Objects', 'clothing', '👜', 'handbag'],
+    ['emoji', '1175', 'Objects', 'clothing', '👜', 'handbag'],
     ['fully-qualified', '👜', '0.6', 'handbag', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10540,7 +10576,7 @@ fusionados_1 = [
   ],
   [
     ['1F45D'],
-    ['emoji', '1172', 'Objects', 'clothing', '👝', 'clutch bag'],
+    ['emoji', '1176', 'Objects', 'clothing', '👝', 'clutch bag'],
     ['fully-qualified', '👝', '0.6', 'clutch bag', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10549,7 +10585,7 @@ fusionados_1 = [
   ],
   [
     ['1F6CD'],
-    ['emoji', '1173', 'Objects', 'clothing', '🛍', 'shopping bags'],
+    ['emoji', '1177', 'Objects', 'clothing', '🛍', 'shopping bags'],
     ['unqualified', '🛍', '0.7', 'shopping bags', 'Objects', 'clothing'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10558,7 +10594,7 @@ fusionados_1 = [
   ],
   [
     ['1F392'],
-    ['emoji', '1174', 'Objects', 'clothing', '🎒', 'backpack'],
+    ['emoji', '1178', 'Objects', 'clothing', '🎒', 'backpack'],
     ['fully-qualified', '🎒', '0.6', 'backpack', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10567,7 +10603,7 @@ fusionados_1 = [
   ],
   [
     ['1FA74'],
-    ['emoji', '1175', 'Objects', 'clothing', '🩴', 'thong sandal'],
+    ['emoji', '1179', 'Objects', 'clothing', '🩴', 'thong sandal'],
     ['fully-qualified', '🩴', '13.0', 'thong sandal', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10576,7 +10612,7 @@ fusionados_1 = [
   ],
   [
     ['1F45E'],
-    ['emoji', '1176', 'Objects', 'clothing', '👞', 'man’s shoe'],
+    ['emoji', '1180', 'Objects', 'clothing', '👞', 'man’s shoe'],
     ['fully-qualified', '👞', '0.6', 'man’s shoe', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10585,7 +10621,7 @@ fusionados_1 = [
   ],
   [
     ['1F45F'],
-    ['emoji', '1177', 'Objects', 'clothing', '👟', 'running shoe'],
+    ['emoji', '1181', 'Objects', 'clothing', '👟', 'running shoe'],
     ['fully-qualified', '👟', '0.6', 'running shoe', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10594,7 +10630,7 @@ fusionados_1 = [
   ],
   [
     ['1F97E'],
-    ['emoji', '1178', 'Objects', 'clothing', '🥾', 'hiking boot'],
+    ['emoji', '1182', 'Objects', 'clothing', '🥾', 'hiking boot'],
     ['fully-qualified', '🥾', '11.0', 'hiking boot', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10603,7 +10639,7 @@ fusionados_1 = [
   ],
   [
     ['1F97F'],
-    ['emoji', '1179', 'Objects', 'clothing', '🥿', 'flat shoe'],
+    ['emoji', '1183', 'Objects', 'clothing', '🥿', 'flat shoe'],
     ['fully-qualified', '🥿', '11.0', 'flat shoe', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -10612,7 +10648,7 @@ fusionados_1 = [
   ],
   [
     ['1F460'],
-    ['emoji', '1180', 'Objects', 'clothing', '👠', 'high-heeled shoe'],
+    ['emoji', '1184', 'Objects', 'clothing', '👠', 'high-heeled shoe'],
     ['fully-qualified', '👠', '0.6', 'high-heeled shoe', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10621,7 +10657,7 @@ fusionados_1 = [
   ],
   [
     ['1F461'],
-    ['emoji', '1181', 'Objects', 'clothing', '👡', 'woman’s sandal'],
+    ['emoji', '1185', 'Objects', 'clothing', '👡', 'woman’s sandal'],
     ['fully-qualified', '👡', '0.6', 'woman’s sandal', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10630,7 +10666,7 @@ fusionados_1 = [
   ],
   [
     ['1FA70'],
-    ['emoji', '1182', 'Objects', 'clothing', '🩰', 'ballet shoes'],
+    ['emoji', '1186', 'Objects', 'clothing', '🩰', 'ballet shoes'],
     ['fully-qualified', '🩰', '12.0', 'ballet shoes', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10639,7 +10675,7 @@ fusionados_1 = [
   ],
   [
     ['1F462'],
-    ['emoji', '1183', 'Objects', 'clothing', '👢', 'woman’s boot'],
+    ['emoji', '1187', 'Objects', 'clothing', '👢', 'woman’s boot'],
     ['fully-qualified', '👢', '0.6', 'woman’s boot', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10648,7 +10684,7 @@ fusionados_1 = [
   ],
   [
     ['1FAAE'],
-    ['emoji', '1184', 'Objects', 'clothing', '\U0001faae', 'hair pick'],
+    ['emoji', '1188', 'Objects', 'clothing', '\U0001faae', 'hair pick'],
     ['fully-qualified', '\U0001faae', '15.0', 'hair pick', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -10657,7 +10693,7 @@ fusionados_1 = [
   ],
   [
     ['1F451'],
-    ['emoji', '1185', 'Objects', 'clothing', '👑', 'crown'],
+    ['emoji', '1189', 'Objects', 'clothing', '👑', 'crown'],
     ['fully-qualified', '👑', '0.6', 'crown', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10666,7 +10702,7 @@ fusionados_1 = [
   ],
   [
     ['1F452'],
-    ['emoji', '1186', 'Objects', 'clothing', '👒', 'woman’s hat'],
+    ['emoji', '1190', 'Objects', 'clothing', '👒', 'woman’s hat'],
     ['fully-qualified', '👒', '0.6', 'woman’s hat', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10675,7 +10711,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A9'],
-    ['emoji', '1187', 'Objects', 'clothing', '🎩', 'top hat'],
+    ['emoji', '1191', 'Objects', 'clothing', '🎩', 'top hat'],
     ['fully-qualified', '🎩', '0.6', 'top hat', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10684,7 +10720,7 @@ fusionados_1 = [
   ],
   [
     ['1F393'],
-    ['emoji', '1188', 'Objects', 'clothing', '🎓', 'graduation cap'],
+    ['emoji', '1192', 'Objects', 'clothing', '🎓', 'graduation cap'],
     ['fully-qualified', '🎓', '0.6', 'graduation cap', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10693,7 +10729,7 @@ fusionados_1 = [
   ],
   [
     ['1F9E2'],
-    ['emoji', '1189', 'Objects', 'clothing', '🧢', 'billed cap'],
+    ['emoji', '1193', 'Objects', 'clothing', '🧢', 'billed cap'],
     ['fully-qualified', '🧢', '5.0', 'billed cap', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '5.0'],
     [],
@@ -10702,7 +10738,7 @@ fusionados_1 = [
   ],
   [
     ['1FA96'],
-    ['emoji', '1190', 'Objects', 'clothing', '🪖', 'military helmet'],
+    ['emoji', '1194', 'Objects', 'clothing', '🪖', 'military helmet'],
     ['fully-qualified', '🪖', '13.0', 'military helmet', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10711,7 +10747,7 @@ fusionados_1 = [
   ],
   [
     ['26D1'],
-    ['emoji', '1191', 'Objects', 'clothing', '⛑', 'rescue worker’s helmet'],
+    ['emoji', '1195', 'Objects', 'clothing', '⛑', 'rescue worker’s helmet'],
     ['unqualified', '⛑', '0.7', 'rescue worker’s helmet', 'Objects', 'clothing'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10720,7 +10756,7 @@ fusionados_1 = [
   ],
   [
     ['1F4FF'],
-    ['emoji', '1192', 'Objects', 'clothing', '📿', 'prayer beads'],
+    ['emoji', '1196', 'Objects', 'clothing', '📿', 'prayer beads'],
     ['fully-qualified', '📿', '1.0', 'prayer beads', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -10729,7 +10765,7 @@ fusionados_1 = [
   ],
   [
     ['1F484'],
-    ['emoji', '1193', 'Objects', 'clothing', '💄', 'lipstick'],
+    ['emoji', '1197', 'Objects', 'clothing', '💄', 'lipstick'],
     ['fully-qualified', '💄', '0.6', 'lipstick', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10738,7 +10774,7 @@ fusionados_1 = [
   ],
   [
     ['1F48D'],
-    ['emoji', '1194', 'Objects', 'clothing', '💍', 'ring'],
+    ['emoji', '1198', 'Objects', 'clothing', '💍', 'ring'],
     ['fully-qualified', '💍', '0.6', 'ring', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10747,7 +10783,7 @@ fusionados_1 = [
   ],
   [
     ['1F48E'],
-    ['emoji', '1195', 'Objects', 'clothing', '💎', 'gem stone'],
+    ['emoji', '1199', 'Objects', 'clothing', '💎', 'gem stone'],
     ['fully-qualified', '💎', '0.6', 'gem stone', 'Objects', 'clothing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10756,7 +10792,7 @@ fusionados_1 = [
   ],
   [
     ['1F507'],
-    ['emoji', '1196', 'Objects', 'sound', '🔇', 'muted speaker'],
+    ['emoji', '1200', 'Objects', 'sound', '🔇', 'muted speaker'],
     ['fully-qualified', '🔇', '1.0', 'muted speaker', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -10765,7 +10801,7 @@ fusionados_1 = [
   ],
   [
     ['1F508'],
-    ['emoji', '1197', 'Objects', 'sound', '🔈', 'speaker low volume'],
+    ['emoji', '1201', 'Objects', 'sound', '🔈', 'speaker low volume'],
     ['fully-qualified', '🔈', '0.7', 'speaker low volume', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10774,7 +10810,7 @@ fusionados_1 = [
   ],
   [
     ['1F509'],
-    ['emoji', '1198', 'Objects', 'sound', '🔉', 'speaker medium volume'],
+    ['emoji', '1202', 'Objects', 'sound', '🔉', 'speaker medium volume'],
     ['fully-qualified', '🔉', '1.0', 'speaker medium volume', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -10783,7 +10819,7 @@ fusionados_1 = [
   ],
   [
     ['1F50A'],
-    ['emoji', '1199', 'Objects', 'sound', '🔊', 'speaker high volume'],
+    ['emoji', '1203', 'Objects', 'sound', '🔊', 'speaker high volume'],
     ['fully-qualified', '🔊', '0.6', 'speaker high volume', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10792,7 +10828,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E2'],
-    ['emoji', '1200', 'Objects', 'sound', '📢', 'loudspeaker'],
+    ['emoji', '1204', 'Objects', 'sound', '📢', 'loudspeaker'],
     ['fully-qualified', '📢', '0.6', 'loudspeaker', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10801,7 +10837,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E3'],
-    ['emoji', '1201', 'Objects', 'sound', '📣', 'megaphone'],
+    ['emoji', '1205', 'Objects', 'sound', '📣', 'megaphone'],
     ['fully-qualified', '📣', '0.6', 'megaphone', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10810,7 +10846,7 @@ fusionados_1 = [
   ],
   [
     ['1F4EF'],
-    ['emoji', '1202', 'Objects', 'sound', '📯', 'postal horn'],
+    ['emoji', '1206', 'Objects', 'sound', '📯', 'postal horn'],
     ['fully-qualified', '📯', '1.0', 'postal horn', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -10819,7 +10855,7 @@ fusionados_1 = [
   ],
   [
     ['1F514'],
-    ['emoji', '1203', 'Objects', 'sound', '🔔', 'bell'],
+    ['emoji', '1207', 'Objects', 'sound', '🔔', 'bell'],
     ['fully-qualified', '🔔', '0.6', 'bell', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10828,7 +10864,7 @@ fusionados_1 = [
   ],
   [
     ['1F515'],
-    ['emoji', '1204', 'Objects', 'sound', '🔕', 'bell with slash'],
+    ['emoji', '1208', 'Objects', 'sound', '🔕', 'bell with slash'],
     ['fully-qualified', '🔕', '1.0', 'bell with slash', 'Objects', 'sound'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -10837,7 +10873,7 @@ fusionados_1 = [
   ],
   [
     ['1F3BC'],
-    ['emoji', '1205', 'Objects', 'music', '🎼', 'musical score'],
+    ['emoji', '1209', 'Objects', 'music', '🎼', 'musical score'],
     ['fully-qualified', '🎼', '0.6', 'musical score', 'Objects', 'music'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10846,7 +10882,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B5'],
-    ['emoji', '1206', 'Objects', 'music', '🎵', 'musical note'],
+    ['emoji', '1210', 'Objects', 'music', '🎵', 'musical note'],
     ['fully-qualified', '🎵', '0.6', 'musical note', 'Objects', 'music'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10855,7 +10891,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B6'],
-    ['emoji', '1207', 'Objects', 'music', '🎶', 'musical notes'],
+    ['emoji', '1211', 'Objects', 'music', '🎶', 'musical notes'],
     ['fully-qualified', '🎶', '0.6', 'musical notes', 'Objects', 'music'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10864,7 +10900,7 @@ fusionados_1 = [
   ],
   [
     ['1F399'],
-    ['emoji', '1208', 'Objects', 'music', '🎙', 'studio microphone'],
+    ['emoji', '1212', 'Objects', 'music', '🎙', 'studio microphone'],
     ['unqualified', '🎙', '0.7', 'studio microphone', 'Objects', 'music'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10873,7 +10909,7 @@ fusionados_1 = [
   ],
   [
     ['1F39A'],
-    ['emoji', '1209', 'Objects', 'music', '🎚', 'level slider'],
+    ['emoji', '1213', 'Objects', 'music', '🎚', 'level slider'],
     ['unqualified', '🎚', '0.7', 'level slider', 'Objects', 'music'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10882,7 +10918,7 @@ fusionados_1 = [
   ],
   [
     ['1F39B'],
-    ['emoji', '1210', 'Objects', 'music', '🎛', 'control knobs'],
+    ['emoji', '1214', 'Objects', 'music', '🎛', 'control knobs'],
     ['unqualified', '🎛', '0.7', 'control knobs', 'Objects', 'music'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -10891,7 +10927,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A4'],
-    ['emoji', '1211', 'Objects', 'music', '🎤', 'microphone'],
+    ['emoji', '1215', 'Objects', 'music', '🎤', 'microphone'],
     ['fully-qualified', '🎤', '0.6', 'microphone', 'Objects', 'music'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10900,7 +10936,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A7'],
-    ['emoji', '1212', 'Objects', 'music', '🎧', 'headphone'],
+    ['emoji', '1216', 'Objects', 'music', '🎧', 'headphone'],
     ['fully-qualified', '🎧', '0.6', 'headphone', 'Objects', 'music'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10909,7 +10945,7 @@ fusionados_1 = [
   ],
   [
     ['1F4FB'],
-    ['emoji', '1213', 'Objects', 'music', '📻', 'radio'],
+    ['emoji', '1217', 'Objects', 'music', '📻', 'radio'],
     ['fully-qualified', '📻', '0.6', 'radio', 'Objects', 'music'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10918,7 +10954,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B7'],
-    ['emoji', '1214', 'Objects', 'musical-instrument', '🎷', 'saxophone'],
+    ['emoji', '1218', 'Objects', 'musical-instrument', '🎷', 'saxophone'],
     ['fully-qualified', '🎷', '0.6', 'saxophone', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10927,7 +10963,7 @@ fusionados_1 = [
   ],
   [
     ['1FA97'],
-    ['emoji', '1215', 'Objects', 'musical-instrument', '🪗', 'accordion'],
+    ['emoji', '1219', 'Objects', 'musical-instrument', '🪗', 'accordion'],
     ['fully-qualified', '🪗', '13.0', 'accordion', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10936,7 +10972,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B8'],
-    ['emoji', '1216', 'Objects', 'musical-instrument', '🎸', 'guitar'],
+    ['emoji', '1220', 'Objects', 'musical-instrument', '🎸', 'guitar'],
     ['fully-qualified', '🎸', '0.6', 'guitar', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10945,7 +10981,7 @@ fusionados_1 = [
   ],
   [
     ['1F3B9'],
-    ['emoji', '1217', 'Objects', 'musical-instrument', '🎹', 'musical keyboard'],
+    ['emoji', '1221', 'Objects', 'musical-instrument', '🎹', 'musical keyboard'],
     ['fully-qualified', '🎹', '0.6', 'musical keyboard', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10954,7 +10990,7 @@ fusionados_1 = [
   ],
   [
     ['1F3BA'],
-    ['emoji', '1218', 'Objects', 'musical-instrument', '🎺', 'trumpet'],
+    ['emoji', '1222', 'Objects', 'musical-instrument', '🎺', 'trumpet'],
     ['fully-qualified', '🎺', '0.6', 'trumpet', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10963,7 +10999,7 @@ fusionados_1 = [
   ],
   [
     ['1F3BB'],
-    ['emoji', '1219', 'Objects', 'musical-instrument', '🎻', 'violin'],
+    ['emoji', '1223', 'Objects', 'musical-instrument', '🎻', 'violin'],
     ['fully-qualified', '🎻', '0.6', 'violin', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -10972,7 +11008,7 @@ fusionados_1 = [
   ],
   [
     ['1FA95'],
-    ['emoji', '1220', 'Objects', 'musical-instrument', '🪕', 'banjo'],
+    ['emoji', '1224', 'Objects', 'musical-instrument', '🪕', 'banjo'],
     ['fully-qualified', '🪕', '12.0', 'banjo', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -10981,7 +11017,7 @@ fusionados_1 = [
   ],
   [
     ['1F941'],
-    ['emoji', '1221', 'Objects', 'musical-instrument', '🥁', 'drum'],
+    ['emoji', '1225', 'Objects', 'musical-instrument', '🥁', 'drum'],
     ['fully-qualified', '🥁', '3.0', 'drum', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -10990,7 +11026,7 @@ fusionados_1 = [
   ],
   [
     ['1FA98'],
-    ['emoji', '1222', 'Objects', 'musical-instrument', '🪘', 'long drum'],
+    ['emoji', '1226', 'Objects', 'musical-instrument', '🪘', 'long drum'],
     ['fully-qualified', '🪘', '13.0', 'long drum', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -10999,7 +11035,7 @@ fusionados_1 = [
   ],
   [
     ['1FA87'],
-    ['emoji', '1223', 'Objects', 'musical-instrument', '\U0001fa87', 'maracas'],
+    ['emoji', '1227', 'Objects', 'musical-instrument', '\U0001fa87', 'maracas'],
     ['fully-qualified', '\U0001fa87', '15.0', 'maracas', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -11008,7 +11044,7 @@ fusionados_1 = [
   ],
   [
     ['1FA88'],
-    ['emoji', '1224', 'Objects', 'musical-instrument', '\U0001fa88', 'flute'],
+    ['emoji', '1228', 'Objects', 'musical-instrument', '\U0001fa88', 'flute'],
     ['fully-qualified', '\U0001fa88', '15.0', 'flute', 'Objects', 'musical-instrument'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -11016,8 +11052,17 @@ fusionados_1 = [
     ['Basic_Emoji', '15.0'],
   ],
   [
+    ['1FA89'],
+    ['emoji', '1229', 'Objects', 'musical-instrument', '\U0001fa89', 'harp'],
+    ['fully-qualified', '\U0001fa89', '16.0', 'harp', 'Objects', 'musical-instrument'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '16.0'],
+    [],
+    [],
+    ['Basic_Emoji', '16.0'],
+  ],
+  [
     ['1F4F1'],
-    ['emoji', '1225', 'Objects', 'phone', '📱', 'mobile phone'],
+    ['emoji', '1230', 'Objects', 'phone', '📱', 'mobile phone'],
     ['fully-qualified', '📱', '0.6', 'mobile phone', 'Objects', 'phone'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11026,7 +11071,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F2'],
-    ['emoji', '1226', 'Objects', 'phone', '📲', 'mobile phone with arrow'],
+    ['emoji', '1231', 'Objects', 'phone', '📲', 'mobile phone with arrow'],
     ['fully-qualified', '📲', '0.6', 'mobile phone with arrow', 'Objects', 'phone'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11035,7 +11080,7 @@ fusionados_1 = [
   ],
   [
     ['260E'],
-    ['emoji', '1227', 'Objects', 'phone', '☎', 'telephone'],
+    ['emoji', '1232', 'Objects', 'phone', '☎', 'telephone'],
     ['unqualified', '☎', '0.6', 'telephone', 'Objects', 'phone'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11044,7 +11089,7 @@ fusionados_1 = [
   ],
   [
     ['1F4DE'],
-    ['emoji', '1228', 'Objects', 'phone', '📞', 'telephone receiver'],
+    ['emoji', '1233', 'Objects', 'phone', '📞', 'telephone receiver'],
     ['fully-qualified', '📞', '0.6', 'telephone receiver', 'Objects', 'phone'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11053,7 +11098,7 @@ fusionados_1 = [
   ],
   [
     ['1F4DF'],
-    ['emoji', '1229', 'Objects', 'phone', '📟', 'pager'],
+    ['emoji', '1234', 'Objects', 'phone', '📟', 'pager'],
     ['fully-qualified', '📟', '0.6', 'pager', 'Objects', 'phone'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11062,7 +11107,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E0'],
-    ['emoji', '1230', 'Objects', 'phone', '📠', 'fax machine'],
+    ['emoji', '1235', 'Objects', 'phone', '📠', 'fax machine'],
     ['fully-qualified', '📠', '0.6', 'fax machine', 'Objects', 'phone'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11071,7 +11116,7 @@ fusionados_1 = [
   ],
   [
     ['1F50B'],
-    ['emoji', '1231', 'Objects', 'computer', '🔋', 'battery'],
+    ['emoji', '1236', 'Objects', 'computer', '🔋', 'battery'],
     ['fully-qualified', '🔋', '0.6', 'battery', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11080,7 +11125,7 @@ fusionados_1 = [
   ],
   [
     ['1FAAB'],
-    ['emoji', '1232', 'Objects', 'computer', '\U0001faab', 'low battery'],
+    ['emoji', '1237', 'Objects', 'computer', '\U0001faab', 'low battery'],
     ['fully-qualified', '\U0001faab', '14.0', 'low battery', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -11089,7 +11134,7 @@ fusionados_1 = [
   ],
   [
     ['1F50C'],
-    ['emoji', '1233', 'Objects', 'computer', '🔌', 'electric plug'],
+    ['emoji', '1238', 'Objects', 'computer', '🔌', 'electric plug'],
     ['fully-qualified', '🔌', '0.6', 'electric plug', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11098,7 +11143,7 @@ fusionados_1 = [
   ],
   [
     ['1F4BB'],
-    ['emoji', '1234', 'Objects', 'computer', '💻', 'laptop'],
+    ['emoji', '1239', 'Objects', 'computer', '💻', 'laptop'],
     ['fully-qualified', '💻', '0.6', 'laptop', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11107,7 +11152,7 @@ fusionados_1 = [
   ],
   [
     ['1F5A5'],
-    ['emoji', '1235', 'Objects', 'computer', '🖥', 'desktop computer'],
+    ['emoji', '1240', 'Objects', 'computer', '🖥', 'desktop computer'],
     ['unqualified', '🖥', '0.7', 'desktop computer', 'Objects', 'computer'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11116,7 +11161,7 @@ fusionados_1 = [
   ],
   [
     ['1F5A8'],
-    ['emoji', '1236', 'Objects', 'computer', '🖨', 'printer'],
+    ['emoji', '1241', 'Objects', 'computer', '🖨', 'printer'],
     ['unqualified', '🖨', '0.7', 'printer', 'Objects', 'computer'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11125,7 +11170,7 @@ fusionados_1 = [
   ],
   [
     ['2328'],
-    ['emoji', '1237', 'Objects', 'computer', '⌨', 'keyboard'],
+    ['emoji', '1242', 'Objects', 'computer', '⌨', 'keyboard'],
     ['unqualified', '⌨', '1.0', 'keyboard', 'Objects', 'computer'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -11134,7 +11179,7 @@ fusionados_1 = [
   ],
   [
     ['1F5B1'],
-    ['emoji', '1238', 'Objects', 'computer', '🖱', 'computer mouse'],
+    ['emoji', '1243', 'Objects', 'computer', '🖱', 'computer mouse'],
     ['unqualified', '🖱', '0.7', 'computer mouse', 'Objects', 'computer'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11143,7 +11188,7 @@ fusionados_1 = [
   ],
   [
     ['1F5B2'],
-    ['emoji', '1239', 'Objects', 'computer', '🖲', 'trackball'],
+    ['emoji', '1244', 'Objects', 'computer', '🖲', 'trackball'],
     ['unqualified', '🖲', '0.7', 'trackball', 'Objects', 'computer'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11152,7 +11197,7 @@ fusionados_1 = [
   ],
   [
     ['1F4BD'],
-    ['emoji', '1240', 'Objects', 'computer', '💽', 'computer disk'],
+    ['emoji', '1245', 'Objects', 'computer', '💽', 'computer disk'],
     ['fully-qualified', '💽', '0.6', 'computer disk', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11161,7 +11206,7 @@ fusionados_1 = [
   ],
   [
     ['1F4BE'],
-    ['emoji', '1241', 'Objects', 'computer', '💾', 'floppy disk'],
+    ['emoji', '1246', 'Objects', 'computer', '💾', 'floppy disk'],
     ['fully-qualified', '💾', '0.6', 'floppy disk', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11170,7 +11215,7 @@ fusionados_1 = [
   ],
   [
     ['1F4BF'],
-    ['emoji', '1242', 'Objects', 'computer', '💿', 'optical disk'],
+    ['emoji', '1247', 'Objects', 'computer', '💿', 'optical disk'],
     ['fully-qualified', '💿', '0.6', 'optical disk', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11179,7 +11224,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C0'],
-    ['emoji', '1243', 'Objects', 'computer', '📀', 'dvd'],
+    ['emoji', '1248', 'Objects', 'computer', '📀', 'dvd'],
     ['fully-qualified', '📀', '0.6', 'dvd', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11188,7 +11233,7 @@ fusionados_1 = [
   ],
   [
     ['1F9EE'],
-    ['emoji', '1244', 'Objects', 'computer', '🧮', 'abacus'],
+    ['emoji', '1249', 'Objects', 'computer', '🧮', 'abacus'],
     ['fully-qualified', '🧮', '11.0', 'abacus', 'Objects', 'computer'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -11197,7 +11242,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A5'],
-    ['emoji', '1245', 'Objects', 'light & video', '🎥', 'movie camera'],
+    ['emoji', '1250', 'Objects', 'light & video', '🎥', 'movie camera'],
     ['fully-qualified', '🎥', '0.6', 'movie camera', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11206,7 +11251,7 @@ fusionados_1 = [
   ],
   [
     ['1F39E'],
-    ['emoji', '1246', 'Objects', 'light & video', '🎞', 'film frames'],
+    ['emoji', '1251', 'Objects', 'light & video', '🎞', 'film frames'],
     ['unqualified', '🎞', '0.7', 'film frames', 'Objects', 'light & video'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11215,7 +11260,7 @@ fusionados_1 = [
   ],
   [
     ['1F4FD'],
-    ['emoji', '1247', 'Objects', 'light & video', '📽', 'film projector'],
+    ['emoji', '1252', 'Objects', 'light & video', '📽', 'film projector'],
     ['unqualified', '📽', '0.7', 'film projector', 'Objects', 'light & video'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11224,7 +11269,7 @@ fusionados_1 = [
   ],
   [
     ['1F3AC'],
-    ['emoji', '1248', 'Objects', 'light & video', '🎬', 'clapper board'],
+    ['emoji', '1253', 'Objects', 'light & video', '🎬', 'clapper board'],
     ['fully-qualified', '🎬', '0.6', 'clapper board', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11233,7 +11278,7 @@ fusionados_1 = [
   ],
   [
     ['1F4FA'],
-    ['emoji', '1249', 'Objects', 'light & video', '📺', 'television'],
+    ['emoji', '1254', 'Objects', 'light & video', '📺', 'television'],
     ['fully-qualified', '📺', '0.6', 'television', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11242,7 +11287,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F7'],
-    ['emoji', '1250', 'Objects', 'light & video', '📷', 'camera'],
+    ['emoji', '1255', 'Objects', 'light & video', '📷', 'camera'],
     ['fully-qualified', '📷', '0.6', 'camera', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11251,7 +11296,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F8'],
-    ['emoji', '1251', 'Objects', 'light & video', '📸', 'camera with flash'],
+    ['emoji', '1256', 'Objects', 'light & video', '📸', 'camera with flash'],
     ['fully-qualified', '📸', '1.0', 'camera with flash', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -11260,7 +11305,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F9'],
-    ['emoji', '1252', 'Objects', 'light & video', '📹', 'video camera'],
+    ['emoji', '1257', 'Objects', 'light & video', '📹', 'video camera'],
     ['fully-qualified', '📹', '0.6', 'video camera', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11269,7 +11314,7 @@ fusionados_1 = [
   ],
   [
     ['1F4FC'],
-    ['emoji', '1253', 'Objects', 'light & video', '📼', 'videocassette'],
+    ['emoji', '1258', 'Objects', 'light & video', '📼', 'videocassette'],
     ['fully-qualified', '📼', '0.6', 'videocassette', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11278,7 +11323,7 @@ fusionados_1 = [
   ],
   [
     ['1F50D'],
-    ['emoji', '1254', 'Objects', 'light & video', '🔍', 'magnifying glass tilted left'],
+    ['emoji', '1259', 'Objects', 'light & video', '🔍', 'magnifying glass tilted left'],
     ['fully-qualified', '🔍', '0.6', 'magnifying glass tilted left', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11287,7 +11332,7 @@ fusionados_1 = [
   ],
   [
     ['1F50E'],
-    ['emoji', '1255', 'Objects', 'light & video', '🔎', 'magnifying glass tilted right'],
+    ['emoji', '1260', 'Objects', 'light & video', '🔎', 'magnifying glass tilted right'],
     ['fully-qualified', '🔎', '0.6', 'magnifying glass tilted right', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11296,7 +11341,7 @@ fusionados_1 = [
   ],
   [
     ['1F56F'],
-    ['emoji', '1256', 'Objects', 'light & video', '🕯', 'candle'],
+    ['emoji', '1261', 'Objects', 'light & video', '🕯', 'candle'],
     ['unqualified', '🕯', '0.7', 'candle', 'Objects', 'light & video'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11305,7 +11350,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A1'],
-    ['emoji', '1257', 'Objects', 'light & video', '💡', 'light bulb'],
+    ['emoji', '1262', 'Objects', 'light & video', '💡', 'light bulb'],
     ['fully-qualified', '💡', '0.6', 'light bulb', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11314,7 +11359,7 @@ fusionados_1 = [
   ],
   [
     ['1F526'],
-    ['emoji', '1258', 'Objects', 'light & video', '🔦', 'flashlight'],
+    ['emoji', '1263', 'Objects', 'light & video', '🔦', 'flashlight'],
     ['fully-qualified', '🔦', '0.6', 'flashlight', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11323,7 +11368,7 @@ fusionados_1 = [
   ],
   [
     ['1F3EE'],
-    ['emoji', '1259', 'Objects', 'light & video', '🏮', 'red paper lantern'],
+    ['emoji', '1264', 'Objects', 'light & video', '🏮', 'red paper lantern'],
     ['fully-qualified', '🏮', '0.6', 'red paper lantern', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11332,7 +11377,7 @@ fusionados_1 = [
   ],
   [
     ['1FA94'],
-    ['emoji', '1260', 'Objects', 'light & video', '🪔', 'diya lamp'],
+    ['emoji', '1265', 'Objects', 'light & video', '🪔', 'diya lamp'],
     ['fully-qualified', '🪔', '12.0', 'diya lamp', 'Objects', 'light & video'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -11341,7 +11386,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D4'],
-    ['emoji', '1261', 'Objects', 'book-paper', '📔', 'notebook with decorative cover'],
+    ['emoji', '1266', 'Objects', 'book-paper', '📔', 'notebook with decorative cover'],
     ['fully-qualified', '📔', '0.6', 'notebook with decorative cover', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11350,7 +11395,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D5'],
-    ['emoji', '1262', 'Objects', 'book-paper', '📕', 'closed book'],
+    ['emoji', '1267', 'Objects', 'book-paper', '📕', 'closed book'],
     ['fully-qualified', '📕', '0.6', 'closed book', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11359,7 +11404,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D6'],
-    ['emoji', '1263', 'Objects', 'book-paper', '📖', 'open book'],
+    ['emoji', '1268', 'Objects', 'book-paper', '📖', 'open book'],
     ['fully-qualified', '📖', '0.6', 'open book', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11368,7 +11413,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D7'],
-    ['emoji', '1264', 'Objects', 'book-paper', '📗', 'green book'],
+    ['emoji', '1269', 'Objects', 'book-paper', '📗', 'green book'],
     ['fully-qualified', '📗', '0.6', 'green book', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11377,7 +11422,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D8'],
-    ['emoji', '1265', 'Objects', 'book-paper', '📘', 'blue book'],
+    ['emoji', '1270', 'Objects', 'book-paper', '📘', 'blue book'],
     ['fully-qualified', '📘', '0.6', 'blue book', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11386,7 +11431,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D9'],
-    ['emoji', '1266', 'Objects', 'book-paper', '📙', 'orange book'],
+    ['emoji', '1271', 'Objects', 'book-paper', '📙', 'orange book'],
     ['fully-qualified', '📙', '0.6', 'orange book', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11395,7 +11440,7 @@ fusionados_1 = [
   ],
   [
     ['1F4DA'],
-    ['emoji', '1267', 'Objects', 'book-paper', '📚', 'books'],
+    ['emoji', '1272', 'Objects', 'book-paper', '📚', 'books'],
     ['fully-qualified', '📚', '0.6', 'books', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11404,7 +11449,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D3'],
-    ['emoji', '1268', 'Objects', 'book-paper', '📓', 'notebook'],
+    ['emoji', '1273', 'Objects', 'book-paper', '📓', 'notebook'],
     ['fully-qualified', '📓', '0.6', 'notebook', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11413,7 +11458,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D2'],
-    ['emoji', '1269', 'Objects', 'book-paper', '📒', 'ledger'],
+    ['emoji', '1274', 'Objects', 'book-paper', '📒', 'ledger'],
     ['fully-qualified', '📒', '0.6', 'ledger', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11422,7 +11467,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C3'],
-    ['emoji', '1270', 'Objects', 'book-paper', '📃', 'page with curl'],
+    ['emoji', '1275', 'Objects', 'book-paper', '📃', 'page with curl'],
     ['fully-qualified', '📃', '0.6', 'page with curl', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11431,7 +11476,7 @@ fusionados_1 = [
   ],
   [
     ['1F4DC'],
-    ['emoji', '1271', 'Objects', 'book-paper', '📜', 'scroll'],
+    ['emoji', '1276', 'Objects', 'book-paper', '📜', 'scroll'],
     ['fully-qualified', '📜', '0.6', 'scroll', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11440,7 +11485,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C4'],
-    ['emoji', '1272', 'Objects', 'book-paper', '📄', 'page facing up'],
+    ['emoji', '1277', 'Objects', 'book-paper', '📄', 'page facing up'],
     ['fully-qualified', '📄', '0.6', 'page facing up', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11449,7 +11494,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F0'],
-    ['emoji', '1273', 'Objects', 'book-paper', '📰', 'newspaper'],
+    ['emoji', '1278', 'Objects', 'book-paper', '📰', 'newspaper'],
     ['fully-qualified', '📰', '0.6', 'newspaper', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11458,7 +11503,7 @@ fusionados_1 = [
   ],
   [
     ['1F5DE'],
-    ['emoji', '1274', 'Objects', 'book-paper', '🗞', 'rolled-up newspaper'],
+    ['emoji', '1279', 'Objects', 'book-paper', '🗞', 'rolled-up newspaper'],
     ['unqualified', '🗞', '0.7', 'rolled-up newspaper', 'Objects', 'book-paper'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11467,7 +11512,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D1'],
-    ['emoji', '1275', 'Objects', 'book-paper', '📑', 'bookmark tabs'],
+    ['emoji', '1280', 'Objects', 'book-paper', '📑', 'bookmark tabs'],
     ['fully-qualified', '📑', '0.6', 'bookmark tabs', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11476,7 +11521,7 @@ fusionados_1 = [
   ],
   [
     ['1F516'],
-    ['emoji', '1276', 'Objects', 'book-paper', '🔖', 'bookmark'],
+    ['emoji', '1281', 'Objects', 'book-paper', '🔖', 'bookmark'],
     ['fully-qualified', '🔖', '0.6', 'bookmark', 'Objects', 'book-paper'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11485,7 +11530,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F7'],
-    ['emoji', '1277', 'Objects', 'book-paper', '🏷', 'label'],
+    ['emoji', '1282', 'Objects', 'book-paper', '🏷', 'label'],
     ['unqualified', '🏷', '0.7', 'label', 'Objects', 'book-paper'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11494,7 +11539,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B0'],
-    ['emoji', '1278', 'Objects', 'money', '💰', 'money bag'],
+    ['emoji', '1283', 'Objects', 'money', '💰', 'money bag'],
     ['fully-qualified', '💰', '0.6', 'money bag', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11503,7 +11548,7 @@ fusionados_1 = [
   ],
   [
     ['1FA99'],
-    ['emoji', '1279', 'Objects', 'money', '🪙', 'coin'],
+    ['emoji', '1284', 'Objects', 'money', '🪙', 'coin'],
     ['fully-qualified', '🪙', '13.0', 'coin', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -11512,7 +11557,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B4'],
-    ['emoji', '1280', 'Objects', 'money', '💴', 'yen banknote'],
+    ['emoji', '1285', 'Objects', 'money', '💴', 'yen banknote'],
     ['fully-qualified', '💴', '0.6', 'yen banknote', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11521,7 +11566,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B5'],
-    ['emoji', '1281', 'Objects', 'money', '💵', 'dollar banknote'],
+    ['emoji', '1286', 'Objects', 'money', '💵', 'dollar banknote'],
     ['fully-qualified', '💵', '0.6', 'dollar banknote', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11530,7 +11575,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B6'],
-    ['emoji', '1282', 'Objects', 'money', '💶', 'euro banknote'],
+    ['emoji', '1287', 'Objects', 'money', '💶', 'euro banknote'],
     ['fully-qualified', '💶', '1.0', 'euro banknote', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -11539,7 +11584,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B7'],
-    ['emoji', '1283', 'Objects', 'money', '💷', 'pound banknote'],
+    ['emoji', '1288', 'Objects', 'money', '💷', 'pound banknote'],
     ['fully-qualified', '💷', '1.0', 'pound banknote', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -11548,7 +11593,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B8'],
-    ['emoji', '1284', 'Objects', 'money', '💸', 'money with wings'],
+    ['emoji', '1289', 'Objects', 'money', '💸', 'money with wings'],
     ['fully-qualified', '💸', '0.6', 'money with wings', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11557,7 +11602,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B3'],
-    ['emoji', '1285', 'Objects', 'money', '💳', 'credit card'],
+    ['emoji', '1290', 'Objects', 'money', '💳', 'credit card'],
     ['fully-qualified', '💳', '0.6', 'credit card', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11566,7 +11611,7 @@ fusionados_1 = [
   ],
   [
     ['1F9FE'],
-    ['emoji', '1286', 'Objects', 'money', '🧾', 'receipt'],
+    ['emoji', '1291', 'Objects', 'money', '🧾', 'receipt'],
     ['fully-qualified', '🧾', '11.0', 'receipt', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -11575,7 +11620,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B9'],
-    ['emoji', '1287', 'Objects', 'money', '💹', 'chart increasing with yen'],
+    ['emoji', '1292', 'Objects', 'money', '💹', 'chart increasing with yen'],
     ['fully-qualified', '💹', '0.6', 'chart increasing with yen', 'Objects', 'money'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11584,7 +11629,7 @@ fusionados_1 = [
   ],
   [
     ['2709'],
-    ['emoji', '1288', 'Objects', 'mail', '✉', 'envelope'],
+    ['emoji', '1293', 'Objects', 'mail', '✉', 'envelope'],
     ['unqualified', '✉', '0.6', 'envelope', 'Objects', 'mail'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11593,7 +11638,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E7'],
-    ['emoji', '1289', 'Objects', 'mail', '📧', 'e-mail'],
+    ['emoji', '1294', 'Objects', 'mail', '📧', 'e-mail'],
     ['fully-qualified', '📧', '0.6', 'e-mail', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11602,7 +11647,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E8'],
-    ['emoji', '1290', 'Objects', 'mail', '📨', 'incoming envelope'],
+    ['emoji', '1295', 'Objects', 'mail', '📨', 'incoming envelope'],
     ['fully-qualified', '📨', '0.6', 'incoming envelope', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11611,7 +11656,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E9'],
-    ['emoji', '1291', 'Objects', 'mail', '📩', 'envelope with arrow'],
+    ['emoji', '1296', 'Objects', 'mail', '📩', 'envelope with arrow'],
     ['fully-qualified', '📩', '0.6', 'envelope with arrow', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11620,7 +11665,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E4'],
-    ['emoji', '1292', 'Objects', 'mail', '📤', 'outbox tray'],
+    ['emoji', '1297', 'Objects', 'mail', '📤', 'outbox tray'],
     ['fully-qualified', '📤', '0.6', 'outbox tray', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11629,7 +11674,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E5'],
-    ['emoji', '1293', 'Objects', 'mail', '📥', 'inbox tray'],
+    ['emoji', '1298', 'Objects', 'mail', '📥', 'inbox tray'],
     ['fully-qualified', '📥', '0.6', 'inbox tray', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11638,7 +11683,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E6'],
-    ['emoji', '1294', 'Objects', 'mail', '📦', 'package'],
+    ['emoji', '1299', 'Objects', 'mail', '📦', 'package'],
     ['fully-qualified', '📦', '0.6', 'package', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11647,7 +11692,7 @@ fusionados_1 = [
   ],
   [
     ['1F4EB'],
-    ['emoji', '1295', 'Objects', 'mail', '📫', 'closed mailbox with raised flag'],
+    ['emoji', '1300', 'Objects', 'mail', '📫', 'closed mailbox with raised flag'],
     ['fully-qualified', '📫', '0.6', 'closed mailbox with raised flag', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11656,7 +11701,7 @@ fusionados_1 = [
   ],
   [
     ['1F4EA'],
-    ['emoji', '1296', 'Objects', 'mail', '📪', 'closed mailbox with lowered flag'],
+    ['emoji', '1301', 'Objects', 'mail', '📪', 'closed mailbox with lowered flag'],
     ['fully-qualified', '📪', '0.6', 'closed mailbox with lowered flag', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11665,7 +11710,7 @@ fusionados_1 = [
   ],
   [
     ['1F4EC'],
-    ['emoji', '1297', 'Objects', 'mail', '📬', 'open mailbox with raised flag'],
+    ['emoji', '1302', 'Objects', 'mail', '📬', 'open mailbox with raised flag'],
     ['fully-qualified', '📬', '0.7', 'open mailbox with raised flag', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11674,7 +11719,7 @@ fusionados_1 = [
   ],
   [
     ['1F4ED'],
-    ['emoji', '1298', 'Objects', 'mail', '📭', 'open mailbox with lowered flag'],
+    ['emoji', '1303', 'Objects', 'mail', '📭', 'open mailbox with lowered flag'],
     ['fully-qualified', '📭', '0.7', 'open mailbox with lowered flag', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11683,7 +11728,7 @@ fusionados_1 = [
   ],
   [
     ['1F4EE'],
-    ['emoji', '1299', 'Objects', 'mail', '📮', 'postbox'],
+    ['emoji', '1304', 'Objects', 'mail', '📮', 'postbox'],
     ['fully-qualified', '📮', '0.6', 'postbox', 'Objects', 'mail'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11692,7 +11737,7 @@ fusionados_1 = [
   ],
   [
     ['1F5F3'],
-    ['emoji', '1300', 'Objects', 'mail', '🗳', 'ballot box with ballot'],
+    ['emoji', '1305', 'Objects', 'mail', '🗳', 'ballot box with ballot'],
     ['unqualified', '🗳', '0.7', 'ballot box with ballot', 'Objects', 'mail'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11701,7 +11746,7 @@ fusionados_1 = [
   ],
   [
     ['270F'],
-    ['emoji', '1301', 'Objects', 'writing', '✏', 'pencil'],
+    ['emoji', '1306', 'Objects', 'writing', '✏', 'pencil'],
     ['unqualified', '✏', '0.6', 'pencil', 'Objects', 'writing'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11710,7 +11755,7 @@ fusionados_1 = [
   ],
   [
     ['2712'],
-    ['emoji', '1302', 'Objects', 'writing', '✒', 'black nib'],
+    ['emoji', '1307', 'Objects', 'writing', '✒', 'black nib'],
     ['unqualified', '✒', '0.6', 'black nib', 'Objects', 'writing'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11719,7 +11764,7 @@ fusionados_1 = [
   ],
   [
     ['1F58B'],
-    ['emoji', '1303', 'Objects', 'writing', '🖋', 'fountain pen'],
+    ['emoji', '1308', 'Objects', 'writing', '🖋', 'fountain pen'],
     ['unqualified', '🖋', '0.7', 'fountain pen', 'Objects', 'writing'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11728,7 +11773,7 @@ fusionados_1 = [
   ],
   [
     ['1F58A'],
-    ['emoji', '1304', 'Objects', 'writing', '🖊', 'pen'],
+    ['emoji', '1309', 'Objects', 'writing', '🖊', 'pen'],
     ['unqualified', '🖊', '0.7', 'pen', 'Objects', 'writing'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11737,7 +11782,7 @@ fusionados_1 = [
   ],
   [
     ['1F58C'],
-    ['emoji', '1305', 'Objects', 'writing', '🖌', 'paintbrush'],
+    ['emoji', '1310', 'Objects', 'writing', '🖌', 'paintbrush'],
     ['unqualified', '🖌', '0.7', 'paintbrush', 'Objects', 'writing'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11746,7 +11791,7 @@ fusionados_1 = [
   ],
   [
     ['1F58D'],
-    ['emoji', '1306', 'Objects', 'writing', '🖍', 'crayon'],
+    ['emoji', '1311', 'Objects', 'writing', '🖍', 'crayon'],
     ['unqualified', '🖍', '0.7', 'crayon', 'Objects', 'writing'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11755,7 +11800,7 @@ fusionados_1 = [
   ],
   [
     ['1F4DD'],
-    ['emoji', '1307', 'Objects', 'writing', '📝', 'memo'],
+    ['emoji', '1312', 'Objects', 'writing', '📝', 'memo'],
     ['fully-qualified', '📝', '0.6', 'memo', 'Objects', 'writing'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11764,7 +11809,7 @@ fusionados_1 = [
   ],
   [
     ['1F4BC'],
-    ['emoji', '1308', 'Objects', 'office', '💼', 'briefcase'],
+    ['emoji', '1313', 'Objects', 'office', '💼', 'briefcase'],
     ['fully-qualified', '💼', '0.6', 'briefcase', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11773,7 +11818,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C1'],
-    ['emoji', '1309', 'Objects', 'office', '📁', 'file folder'],
+    ['emoji', '1314', 'Objects', 'office', '📁', 'file folder'],
     ['fully-qualified', '📁', '0.6', 'file folder', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11782,7 +11827,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C2'],
-    ['emoji', '1310', 'Objects', 'office', '📂', 'open file folder'],
+    ['emoji', '1315', 'Objects', 'office', '📂', 'open file folder'],
     ['fully-qualified', '📂', '0.6', 'open file folder', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11791,7 +11836,7 @@ fusionados_1 = [
   ],
   [
     ['1F5C2'],
-    ['emoji', '1311', 'Objects', 'office', '🗂', 'card index dividers'],
+    ['emoji', '1316', 'Objects', 'office', '🗂', 'card index dividers'],
     ['unqualified', '🗂', '0.7', 'card index dividers', 'Objects', 'office'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11800,7 +11845,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C5'],
-    ['emoji', '1312', 'Objects', 'office', '📅', 'calendar'],
+    ['emoji', '1317', 'Objects', 'office', '📅', 'calendar'],
     ['fully-qualified', '📅', '0.6', 'calendar', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11809,7 +11854,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C6'],
-    ['emoji', '1313', 'Objects', 'office', '📆', 'tear-off calendar'],
+    ['emoji', '1318', 'Objects', 'office', '📆', 'tear-off calendar'],
     ['fully-qualified', '📆', '0.6', 'tear-off calendar', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11818,7 +11863,7 @@ fusionados_1 = [
   ],
   [
     ['1F5D2'],
-    ['emoji', '1314', 'Objects', 'office', '🗒', 'spiral notepad'],
+    ['emoji', '1319', 'Objects', 'office', '🗒', 'spiral notepad'],
     ['unqualified', '🗒', '0.7', 'spiral notepad', 'Objects', 'office'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11827,7 +11872,7 @@ fusionados_1 = [
   ],
   [
     ['1F5D3'],
-    ['emoji', '1315', 'Objects', 'office', '🗓', 'spiral calendar'],
+    ['emoji', '1320', 'Objects', 'office', '🗓', 'spiral calendar'],
     ['unqualified', '🗓', '0.7', 'spiral calendar', 'Objects', 'office'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11836,7 +11881,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C7'],
-    ['emoji', '1316', 'Objects', 'office', '📇', 'card index'],
+    ['emoji', '1321', 'Objects', 'office', '📇', 'card index'],
     ['fully-qualified', '📇', '0.6', 'card index', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11845,7 +11890,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C8'],
-    ['emoji', '1317', 'Objects', 'office', '📈', 'chart increasing'],
+    ['emoji', '1322', 'Objects', 'office', '📈', 'chart increasing'],
     ['fully-qualified', '📈', '0.6', 'chart increasing', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11854,7 +11899,7 @@ fusionados_1 = [
   ],
   [
     ['1F4C9'],
-    ['emoji', '1318', 'Objects', 'office', '📉', 'chart decreasing'],
+    ['emoji', '1323', 'Objects', 'office', '📉', 'chart decreasing'],
     ['fully-qualified', '📉', '0.6', 'chart decreasing', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11863,7 +11908,7 @@ fusionados_1 = [
   ],
   [
     ['1F4CA'],
-    ['emoji', '1319', 'Objects', 'office', '📊', 'bar chart'],
+    ['emoji', '1324', 'Objects', 'office', '📊', 'bar chart'],
     ['fully-qualified', '📊', '0.6', 'bar chart', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11872,7 +11917,7 @@ fusionados_1 = [
   ],
   [
     ['1F4CB'],
-    ['emoji', '1320', 'Objects', 'office', '📋', 'clipboard'],
+    ['emoji', '1325', 'Objects', 'office', '📋', 'clipboard'],
     ['fully-qualified', '📋', '0.6', 'clipboard', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11881,7 +11926,7 @@ fusionados_1 = [
   ],
   [
     ['1F4CC'],
-    ['emoji', '1321', 'Objects', 'office', '📌', 'pushpin'],
+    ['emoji', '1326', 'Objects', 'office', '📌', 'pushpin'],
     ['fully-qualified', '📌', '0.6', 'pushpin', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11890,7 +11935,7 @@ fusionados_1 = [
   ],
   [
     ['1F4CD'],
-    ['emoji', '1322', 'Objects', 'office', '📍', 'round pushpin'],
+    ['emoji', '1327', 'Objects', 'office', '📍', 'round pushpin'],
     ['fully-qualified', '📍', '0.6', 'round pushpin', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11899,7 +11944,7 @@ fusionados_1 = [
   ],
   [
     ['1F4CE'],
-    ['emoji', '1323', 'Objects', 'office', '📎', 'paperclip'],
+    ['emoji', '1328', 'Objects', 'office', '📎', 'paperclip'],
     ['fully-qualified', '📎', '0.6', 'paperclip', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11908,7 +11953,7 @@ fusionados_1 = [
   ],
   [
     ['1F587'],
-    ['emoji', '1324', 'Objects', 'office', '🖇', 'linked paperclips'],
+    ['emoji', '1329', 'Objects', 'office', '🖇', 'linked paperclips'],
     ['unqualified', '🖇', '0.7', 'linked paperclips', 'Objects', 'office'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11917,7 +11962,7 @@ fusionados_1 = [
   ],
   [
     ['1F4CF'],
-    ['emoji', '1325', 'Objects', 'office', '📏', 'straight ruler'],
+    ['emoji', '1330', 'Objects', 'office', '📏', 'straight ruler'],
     ['fully-qualified', '📏', '0.6', 'straight ruler', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11926,7 +11971,7 @@ fusionados_1 = [
   ],
   [
     ['1F4D0'],
-    ['emoji', '1326', 'Objects', 'office', '📐', 'triangular ruler'],
+    ['emoji', '1331', 'Objects', 'office', '📐', 'triangular ruler'],
     ['fully-qualified', '📐', '0.6', 'triangular ruler', 'Objects', 'office'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11935,7 +11980,7 @@ fusionados_1 = [
   ],
   [
     ['2702'],
-    ['emoji', '1327', 'Objects', 'office', '✂', 'scissors'],
+    ['emoji', '1332', 'Objects', 'office', '✂', 'scissors'],
     ['unqualified', '✂', '0.6', 'scissors', 'Objects', 'office'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11944,7 +11989,7 @@ fusionados_1 = [
   ],
   [
     ['1F5C3'],
-    ['emoji', '1328', 'Objects', 'office', '🗃', 'card file box'],
+    ['emoji', '1333', 'Objects', 'office', '🗃', 'card file box'],
     ['unqualified', '🗃', '0.7', 'card file box', 'Objects', 'office'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11953,7 +11998,7 @@ fusionados_1 = [
   ],
   [
     ['1F5C4'],
-    ['emoji', '1329', 'Objects', 'office', '🗄', 'file cabinet'],
+    ['emoji', '1334', 'Objects', 'office', '🗄', 'file cabinet'],
     ['unqualified', '🗄', '0.7', 'file cabinet', 'Objects', 'office'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11962,7 +12007,7 @@ fusionados_1 = [
   ],
   [
     ['1F5D1'],
-    ['emoji', '1330', 'Objects', 'office', '🗑', 'wastebasket'],
+    ['emoji', '1335', 'Objects', 'office', '🗑', 'wastebasket'],
     ['unqualified', '🗑', '0.7', 'wastebasket', 'Objects', 'office'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -11971,7 +12016,7 @@ fusionados_1 = [
   ],
   [
     ['1F512'],
-    ['emoji', '1331', 'Objects', 'lock', '🔒', 'locked'],
+    ['emoji', '1336', 'Objects', 'lock', '🔒', 'locked'],
     ['fully-qualified', '🔒', '0.6', 'locked', 'Objects', 'lock'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11980,7 +12025,7 @@ fusionados_1 = [
   ],
   [
     ['1F513'],
-    ['emoji', '1332', 'Objects', 'lock', '🔓', 'unlocked'],
+    ['emoji', '1337', 'Objects', 'lock', '🔓', 'unlocked'],
     ['fully-qualified', '🔓', '0.6', 'unlocked', 'Objects', 'lock'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11989,7 +12034,7 @@ fusionados_1 = [
   ],
   [
     ['1F50F'],
-    ['emoji', '1333', 'Objects', 'lock', '🔏', 'locked with pen'],
+    ['emoji', '1338', 'Objects', 'lock', '🔏', 'locked with pen'],
     ['fully-qualified', '🔏', '0.6', 'locked with pen', 'Objects', 'lock'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -11998,7 +12043,7 @@ fusionados_1 = [
   ],
   [
     ['1F510'],
-    ['emoji', '1334', 'Objects', 'lock', '🔐', 'locked with key'],
+    ['emoji', '1339', 'Objects', 'lock', '🔐', 'locked with key'],
     ['fully-qualified', '🔐', '0.6', 'locked with key', 'Objects', 'lock'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12007,7 +12052,7 @@ fusionados_1 = [
   ],
   [
     ['1F511'],
-    ['emoji', '1335', 'Objects', 'lock', '🔑', 'key'],
+    ['emoji', '1340', 'Objects', 'lock', '🔑', 'key'],
     ['fully-qualified', '🔑', '0.6', 'key', 'Objects', 'lock'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12016,7 +12061,7 @@ fusionados_1 = [
   ],
   [
     ['1F5DD'],
-    ['emoji', '1336', 'Objects', 'lock', '🗝', 'old key'],
+    ['emoji', '1341', 'Objects', 'lock', '🗝', 'old key'],
     ['unqualified', '🗝', '0.7', 'old key', 'Objects', 'lock'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12025,7 +12070,7 @@ fusionados_1 = [
   ],
   [
     ['1F528'],
-    ['emoji', '1337', 'Objects', 'tool', '🔨', 'hammer'],
+    ['emoji', '1342', 'Objects', 'tool', '🔨', 'hammer'],
     ['fully-qualified', '🔨', '0.6', 'hammer', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12034,7 +12079,7 @@ fusionados_1 = [
   ],
   [
     ['1FA93'],
-    ['emoji', '1338', 'Objects', 'tool', '🪓', 'axe'],
+    ['emoji', '1343', 'Objects', 'tool', '🪓', 'axe'],
     ['fully-qualified', '🪓', '12.0', 'axe', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -12043,7 +12088,7 @@ fusionados_1 = [
   ],
   [
     ['26CF'],
-    ['emoji', '1339', 'Objects', 'tool', '⛏', 'pick'],
+    ['emoji', '1344', 'Objects', 'tool', '⛏', 'pick'],
     ['unqualified', '⛏', '0.7', 'pick', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12052,7 +12097,7 @@ fusionados_1 = [
   ],
   [
     ['2692'],
-    ['emoji', '1340', 'Objects', 'tool', '⚒', 'hammer and pick'],
+    ['emoji', '1345', 'Objects', 'tool', '⚒', 'hammer and pick'],
     ['unqualified', '⚒', '1.0', 'hammer and pick', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12061,7 +12106,7 @@ fusionados_1 = [
   ],
   [
     ['1F6E0'],
-    ['emoji', '1341', 'Objects', 'tool', '🛠', 'hammer and wrench'],
+    ['emoji', '1346', 'Objects', 'tool', '🛠', 'hammer and wrench'],
     ['unqualified', '🛠', '0.7', 'hammer and wrench', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12070,7 +12115,7 @@ fusionados_1 = [
   ],
   [
     ['1F5E1'],
-    ['emoji', '1342', 'Objects', 'tool', '🗡', 'dagger'],
+    ['emoji', '1347', 'Objects', 'tool', '🗡', 'dagger'],
     ['unqualified', '🗡', '0.7', 'dagger', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12079,7 +12124,7 @@ fusionados_1 = [
   ],
   [
     ['2694'],
-    ['emoji', '1343', 'Objects', 'tool', '⚔', 'crossed swords'],
+    ['emoji', '1348', 'Objects', 'tool', '⚔', 'crossed swords'],
     ['unqualified', '⚔', '1.0', 'crossed swords', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12088,7 +12133,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A3'],
-    ['emoji', '1344', 'Objects', 'tool', '💣', 'bomb'],
+    ['emoji', '1349', 'Objects', 'tool', '💣', 'bomb'],
     ['fully-qualified', '💣', '0.6', 'bomb', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12097,7 +12142,7 @@ fusionados_1 = [
   ],
   [
     ['1FA83'],
-    ['emoji', '1345', 'Objects', 'tool', '🪃', 'boomerang'],
+    ['emoji', '1350', 'Objects', 'tool', '🪃', 'boomerang'],
     ['fully-qualified', '🪃', '13.0', 'boomerang', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12106,7 +12151,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F9'],
-    ['emoji', '1346', 'Objects', 'tool', '🏹', 'bow and arrow'],
+    ['emoji', '1351', 'Objects', 'tool', '🏹', 'bow and arrow'],
     ['fully-qualified', '🏹', '1.0', 'bow and arrow', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12115,7 +12160,7 @@ fusionados_1 = [
   ],
   [
     ['1F6E1'],
-    ['emoji', '1347', 'Objects', 'tool', '🛡', 'shield'],
+    ['emoji', '1352', 'Objects', 'tool', '🛡', 'shield'],
     ['unqualified', '🛡', '0.7', 'shield', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12124,7 +12169,7 @@ fusionados_1 = [
   ],
   [
     ['1FA9A'],
-    ['emoji', '1348', 'Objects', 'tool', '🪚', 'carpentry saw'],
+    ['emoji', '1353', 'Objects', 'tool', '🪚', 'carpentry saw'],
     ['fully-qualified', '🪚', '13.0', 'carpentry saw', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12133,7 +12178,7 @@ fusionados_1 = [
   ],
   [
     ['1F527'],
-    ['emoji', '1349', 'Objects', 'tool', '🔧', 'wrench'],
+    ['emoji', '1354', 'Objects', 'tool', '🔧', 'wrench'],
     ['fully-qualified', '🔧', '0.6', 'wrench', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12142,7 +12187,7 @@ fusionados_1 = [
   ],
   [
     ['1FA9B'],
-    ['emoji', '1350', 'Objects', 'tool', '🪛', 'screwdriver'],
+    ['emoji', '1355', 'Objects', 'tool', '🪛', 'screwdriver'],
     ['fully-qualified', '🪛', '13.0', 'screwdriver', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12151,7 +12196,7 @@ fusionados_1 = [
   ],
   [
     ['1F529'],
-    ['emoji', '1351', 'Objects', 'tool', '🔩', 'nut and bolt'],
+    ['emoji', '1356', 'Objects', 'tool', '🔩', 'nut and bolt'],
     ['fully-qualified', '🔩', '0.6', 'nut and bolt', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12160,7 +12205,7 @@ fusionados_1 = [
   ],
   [
     ['2699'],
-    ['emoji', '1352', 'Objects', 'tool', '⚙', 'gear'],
+    ['emoji', '1357', 'Objects', 'tool', '⚙', 'gear'],
     ['unqualified', '⚙', '1.0', 'gear', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12169,7 +12214,7 @@ fusionados_1 = [
   ],
   [
     ['1F5DC'],
-    ['emoji', '1353', 'Objects', 'tool', '🗜', 'clamp'],
+    ['emoji', '1358', 'Objects', 'tool', '🗜', 'clamp'],
     ['unqualified', '🗜', '0.7', 'clamp', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12178,7 +12223,7 @@ fusionados_1 = [
   ],
   [
     ['2696'],
-    ['emoji', '1354', 'Objects', 'tool', '⚖', 'balance scale'],
+    ['emoji', '1359', 'Objects', 'tool', '⚖', 'balance scale'],
     ['unqualified', '⚖', '1.0', 'balance scale', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12187,7 +12232,7 @@ fusionados_1 = [
   ],
   [
     ['1F9AF'],
-    ['emoji', '1355', 'Objects', 'tool', '🦯', 'white cane'],
+    ['emoji', '1360', 'Objects', 'tool', '🦯', 'white cane'],
     ['fully-qualified', '🦯', '12.0', 'white cane', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -12196,7 +12241,7 @@ fusionados_1 = [
   ],
   [
     ['1F517'],
-    ['emoji', '1356', 'Objects', 'tool', '🔗', 'link'],
+    ['emoji', '1361', 'Objects', 'tool', '🔗', 'link'],
     ['fully-qualified', '🔗', '0.6', 'link', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12205,7 +12250,7 @@ fusionados_1 = [
   ],
   [
     ['26D3', 'FE0F', '200D', '1F4A5'],
-    ['emoji', '1357', 'Objects', 'tool', '⛓️\u200d💥', 'broken chain'],
+    ['emoji', '1362', 'Objects', 'tool', '⛓️\u200d💥', 'broken chain'],
     ['fully-qualified', '⛓️\u200d💥', '15.1', 'broken chain', 'Objects', 'tool'],
     [],
     [],
@@ -12214,7 +12259,7 @@ fusionados_1 = [
   ],
   [
     ['26D3'],
-    ['emoji', '1358', 'Objects', 'tool', '⛓', 'chains'],
+    ['emoji', '1363', 'Objects', 'tool', '⛓', 'chains'],
     ['unqualified', '⛓', '0.7', 'chains', 'Objects', 'tool'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12223,7 +12268,7 @@ fusionados_1 = [
   ],
   [
     ['1FA9D'],
-    ['emoji', '1359', 'Objects', 'tool', '🪝', 'hook'],
+    ['emoji', '1364', 'Objects', 'tool', '🪝', 'hook'],
     ['fully-qualified', '🪝', '13.0', 'hook', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12232,7 +12277,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F0'],
-    ['emoji', '1360', 'Objects', 'tool', '🧰', 'toolbox'],
+    ['emoji', '1365', 'Objects', 'tool', '🧰', 'toolbox'],
     ['fully-qualified', '🧰', '11.0', 'toolbox', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12241,7 +12286,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F2'],
-    ['emoji', '1361', 'Objects', 'tool', '🧲', 'magnet'],
+    ['emoji', '1366', 'Objects', 'tool', '🧲', 'magnet'],
     ['fully-qualified', '🧲', '11.0', 'magnet', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12250,7 +12295,7 @@ fusionados_1 = [
   ],
   [
     ['1FA9C'],
-    ['emoji', '1362', 'Objects', 'tool', '🪜', 'ladder'],
+    ['emoji', '1367', 'Objects', 'tool', '🪜', 'ladder'],
     ['fully-qualified', '🪜', '13.0', 'ladder', 'Objects', 'tool'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12258,8 +12303,17 @@ fusionados_1 = [
     ['Basic_Emoji', '13.0'],
   ],
   [
+    ['1FA8F'],
+    ['emoji', '1368', 'Objects', 'tool', '\U0001fa8f', 'shovel'],
+    ['fully-qualified', '\U0001fa8f', '16.0', 'shovel', 'Objects', 'tool'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '16.0'],
+    [],
+    [],
+    ['Basic_Emoji', '16.0'],
+  ],
+  [
     ['2697'],
-    ['emoji', '1363', 'Objects', 'science', '⚗', 'alembic'],
+    ['emoji', '1369', 'Objects', 'science', '⚗', 'alembic'],
     ['unqualified', '⚗', '1.0', 'alembic', 'Objects', 'science'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12268,7 +12322,7 @@ fusionados_1 = [
   ],
   [
     ['1F9EA'],
-    ['emoji', '1364', 'Objects', 'science', '🧪', 'test tube'],
+    ['emoji', '1370', 'Objects', 'science', '🧪', 'test tube'],
     ['fully-qualified', '🧪', '11.0', 'test tube', 'Objects', 'science'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12277,7 +12331,7 @@ fusionados_1 = [
   ],
   [
     ['1F9EB'],
-    ['emoji', '1365', 'Objects', 'science', '🧫', 'petri dish'],
+    ['emoji', '1371', 'Objects', 'science', '🧫', 'petri dish'],
     ['fully-qualified', '🧫', '11.0', 'petri dish', 'Objects', 'science'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12286,7 +12340,7 @@ fusionados_1 = [
   ],
   [
     ['1F9EC'],
-    ['emoji', '1366', 'Objects', 'science', '🧬', 'dna'],
+    ['emoji', '1372', 'Objects', 'science', '🧬', 'dna'],
     ['fully-qualified', '🧬', '11.0', 'dna', 'Objects', 'science'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12295,7 +12349,7 @@ fusionados_1 = [
   ],
   [
     ['1F52C'],
-    ['emoji', '1367', 'Objects', 'science', '🔬', 'microscope'],
+    ['emoji', '1373', 'Objects', 'science', '🔬', 'microscope'],
     ['fully-qualified', '🔬', '1.0', 'microscope', 'Objects', 'science'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12304,7 +12358,7 @@ fusionados_1 = [
   ],
   [
     ['1F52D'],
-    ['emoji', '1368', 'Objects', 'science', '🔭', 'telescope'],
+    ['emoji', '1374', 'Objects', 'science', '🔭', 'telescope'],
     ['fully-qualified', '🔭', '1.0', 'telescope', 'Objects', 'science'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12313,7 +12367,7 @@ fusionados_1 = [
   ],
   [
     ['1F4E1'],
-    ['emoji', '1369', 'Objects', 'science', '📡', 'satellite antenna'],
+    ['emoji', '1375', 'Objects', 'science', '📡', 'satellite antenna'],
     ['fully-qualified', '📡', '0.6', 'satellite antenna', 'Objects', 'science'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12322,7 +12376,7 @@ fusionados_1 = [
   ],
   [
     ['1F489'],
-    ['emoji', '1370', 'Objects', 'medical', '💉', 'syringe'],
+    ['emoji', '1376', 'Objects', 'medical', '💉', 'syringe'],
     ['fully-qualified', '💉', '0.6', 'syringe', 'Objects', 'medical'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12331,7 +12385,7 @@ fusionados_1 = [
   ],
   [
     ['1FA78'],
-    ['emoji', '1371', 'Objects', 'medical', '🩸', 'drop of blood'],
+    ['emoji', '1377', 'Objects', 'medical', '🩸', 'drop of blood'],
     ['fully-qualified', '🩸', '12.0', 'drop of blood', 'Objects', 'medical'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -12340,7 +12394,7 @@ fusionados_1 = [
   ],
   [
     ['1F48A'],
-    ['emoji', '1372', 'Objects', 'medical', '💊', 'pill'],
+    ['emoji', '1378', 'Objects', 'medical', '💊', 'pill'],
     ['fully-qualified', '💊', '0.6', 'pill', 'Objects', 'medical'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12349,7 +12403,7 @@ fusionados_1 = [
   ],
   [
     ['1FA79'],
-    ['emoji', '1373', 'Objects', 'medical', '🩹', 'adhesive bandage'],
+    ['emoji', '1379', 'Objects', 'medical', '🩹', 'adhesive bandage'],
     ['fully-qualified', '🩹', '12.0', 'adhesive bandage', 'Objects', 'medical'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -12358,7 +12412,7 @@ fusionados_1 = [
   ],
   [
     ['1FA7C'],
-    ['emoji', '1374', 'Objects', 'medical', '\U0001fa7c', 'crutch'],
+    ['emoji', '1380', 'Objects', 'medical', '\U0001fa7c', 'crutch'],
     ['fully-qualified', '\U0001fa7c', '14.0', 'crutch', 'Objects', 'medical'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -12367,7 +12421,7 @@ fusionados_1 = [
   ],
   [
     ['1FA7A'],
-    ['emoji', '1375', 'Objects', 'medical', '🩺', 'stethoscope'],
+    ['emoji', '1381', 'Objects', 'medical', '🩺', 'stethoscope'],
     ['fully-qualified', '🩺', '12.0', 'stethoscope', 'Objects', 'medical'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -12376,7 +12430,7 @@ fusionados_1 = [
   ],
   [
     ['1FA7B'],
-    ['emoji', '1376', 'Objects', 'medical', '\U0001fa7b', 'x-ray'],
+    ['emoji', '1382', 'Objects', 'medical', '\U0001fa7b', 'x-ray'],
     ['fully-qualified', '\U0001fa7b', '14.0', 'x-ray', 'Objects', 'medical'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -12385,7 +12439,7 @@ fusionados_1 = [
   ],
   [
     ['1F6AA'],
-    ['emoji', '1377', 'Objects', 'household', '🚪', 'door'],
+    ['emoji', '1383', 'Objects', 'household', '🚪', 'door'],
     ['fully-qualified', '🚪', '0.6', 'door', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12394,7 +12448,7 @@ fusionados_1 = [
   ],
   [
     ['1F6D7'],
-    ['emoji', '1378', 'Objects', 'household', '🛗', 'elevator'],
+    ['emoji', '1384', 'Objects', 'household', '🛗', 'elevator'],
     ['fully-qualified', '🛗', '13.0', 'elevator', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12403,7 +12457,7 @@ fusionados_1 = [
   ],
   [
     ['1FA9E'],
-    ['emoji', '1379', 'Objects', 'household', '🪞', 'mirror'],
+    ['emoji', '1385', 'Objects', 'household', '🪞', 'mirror'],
     ['fully-qualified', '🪞', '13.0', 'mirror', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12412,7 +12466,7 @@ fusionados_1 = [
   ],
   [
     ['1FA9F'],
-    ['emoji', '1380', 'Objects', 'household', '🪟', 'window'],
+    ['emoji', '1386', 'Objects', 'household', '🪟', 'window'],
     ['fully-qualified', '🪟', '13.0', 'window', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12421,7 +12475,7 @@ fusionados_1 = [
   ],
   [
     ['1F6CF'],
-    ['emoji', '1381', 'Objects', 'household', '🛏', 'bed'],
+    ['emoji', '1387', 'Objects', 'household', '🛏', 'bed'],
     ['unqualified', '🛏', '0.7', 'bed', 'Objects', 'household'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12430,7 +12484,7 @@ fusionados_1 = [
   ],
   [
     ['1F6CB'],
-    ['emoji', '1382', 'Objects', 'household', '🛋', 'couch and lamp'],
+    ['emoji', '1388', 'Objects', 'household', '🛋', 'couch and lamp'],
     ['unqualified', '🛋', '0.7', 'couch and lamp', 'Objects', 'household'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -12439,7 +12493,7 @@ fusionados_1 = [
   ],
   [
     ['1FA91'],
-    ['emoji', '1383', 'Objects', 'household', '🪑', 'chair'],
+    ['emoji', '1389', 'Objects', 'household', '🪑', 'chair'],
     ['fully-qualified', '🪑', '12.0', 'chair', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -12448,7 +12502,7 @@ fusionados_1 = [
   ],
   [
     ['1F6BD'],
-    ['emoji', '1384', 'Objects', 'household', '🚽', 'toilet'],
+    ['emoji', '1390', 'Objects', 'household', '🚽', 'toilet'],
     ['fully-qualified', '🚽', '0.6', 'toilet', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12457,7 +12511,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA0'],
-    ['emoji', '1385', 'Objects', 'household', '🪠', 'plunger'],
+    ['emoji', '1391', 'Objects', 'household', '🪠', 'plunger'],
     ['fully-qualified', '🪠', '13.0', 'plunger', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12466,7 +12520,7 @@ fusionados_1 = [
   ],
   [
     ['1F6BF'],
-    ['emoji', '1386', 'Objects', 'household', '🚿', 'shower'],
+    ['emoji', '1392', 'Objects', 'household', '🚿', 'shower'],
     ['fully-qualified', '🚿', '1.0', 'shower', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12475,7 +12529,7 @@ fusionados_1 = [
   ],
   [
     ['1F6C1'],
-    ['emoji', '1387', 'Objects', 'household', '🛁', 'bathtub'],
+    ['emoji', '1393', 'Objects', 'household', '🛁', 'bathtub'],
     ['fully-qualified', '🛁', '1.0', 'bathtub', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12484,7 +12538,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA4'],
-    ['emoji', '1388', 'Objects', 'household', '🪤', 'mouse trap'],
+    ['emoji', '1394', 'Objects', 'household', '🪤', 'mouse trap'],
     ['fully-qualified', '🪤', '13.0', 'mouse trap', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12493,7 +12547,7 @@ fusionados_1 = [
   ],
   [
     ['1FA92'],
-    ['emoji', '1389', 'Objects', 'household', '🪒', 'razor'],
+    ['emoji', '1395', 'Objects', 'household', '🪒', 'razor'],
     ['fully-qualified', '🪒', '12.0', 'razor', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -12502,7 +12556,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F4'],
-    ['emoji', '1390', 'Objects', 'household', '🧴', 'lotion bottle'],
+    ['emoji', '1396', 'Objects', 'household', '🧴', 'lotion bottle'],
     ['fully-qualified', '🧴', '11.0', 'lotion bottle', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12511,7 +12565,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F7'],
-    ['emoji', '1391', 'Objects', 'household', '🧷', 'safety pin'],
+    ['emoji', '1397', 'Objects', 'household', '🧷', 'safety pin'],
     ['fully-qualified', '🧷', '11.0', 'safety pin', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12520,7 +12574,7 @@ fusionados_1 = [
   ],
   [
     ['1F9F9'],
-    ['emoji', '1392', 'Objects', 'household', '🧹', 'broom'],
+    ['emoji', '1398', 'Objects', 'household', '🧹', 'broom'],
     ['fully-qualified', '🧹', '11.0', 'broom', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12529,7 +12583,7 @@ fusionados_1 = [
   ],
   [
     ['1F9FA'],
-    ['emoji', '1393', 'Objects', 'household', '🧺', 'basket'],
+    ['emoji', '1399', 'Objects', 'household', '🧺', 'basket'],
     ['fully-qualified', '🧺', '11.0', 'basket', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12538,7 +12592,7 @@ fusionados_1 = [
   ],
   [
     ['1F9FB'],
-    ['emoji', '1394', 'Objects', 'household', '🧻', 'roll of paper'],
+    ['emoji', '1400', 'Objects', 'household', '🧻', 'roll of paper'],
     ['fully-qualified', '🧻', '11.0', 'roll of paper', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12547,7 +12601,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA3'],
-    ['emoji', '1395', 'Objects', 'household', '🪣', 'bucket'],
+    ['emoji', '1401', 'Objects', 'household', '🪣', 'bucket'],
     ['fully-qualified', '🪣', '13.0', 'bucket', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12556,7 +12610,7 @@ fusionados_1 = [
   ],
   [
     ['1F9FC'],
-    ['emoji', '1396', 'Objects', 'household', '🧼', 'soap'],
+    ['emoji', '1402', 'Objects', 'household', '🧼', 'soap'],
     ['fully-qualified', '🧼', '11.0', 'soap', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12565,7 +12619,7 @@ fusionados_1 = [
   ],
   [
     ['1FAE7'],
-    ['emoji', '1397', 'Objects', 'household', '\U0001fae7', 'bubbles'],
+    ['emoji', '1403', 'Objects', 'household', '\U0001fae7', 'bubbles'],
     ['fully-qualified', '\U0001fae7', '14.0', 'bubbles', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -12574,7 +12628,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA5'],
-    ['emoji', '1398', 'Objects', 'household', '🪥', 'toothbrush'],
+    ['emoji', '1404', 'Objects', 'household', '🪥', 'toothbrush'],
     ['fully-qualified', '🪥', '13.0', 'toothbrush', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12583,7 +12637,7 @@ fusionados_1 = [
   ],
   [
     ['1F9FD'],
-    ['emoji', '1399', 'Objects', 'household', '🧽', 'sponge'],
+    ['emoji', '1405', 'Objects', 'household', '🧽', 'sponge'],
     ['fully-qualified', '🧽', '11.0', 'sponge', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12592,7 +12646,7 @@ fusionados_1 = [
   ],
   [
     ['1F9EF'],
-    ['emoji', '1400', 'Objects', 'household', '🧯', 'fire extinguisher'],
+    ['emoji', '1406', 'Objects', 'household', '🧯', 'fire extinguisher'],
     ['fully-qualified', '🧯', '11.0', 'fire extinguisher', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12601,7 +12655,7 @@ fusionados_1 = [
   ],
   [
     ['1F6D2'],
-    ['emoji', '1401', 'Objects', 'household', '🛒', 'shopping cart'],
+    ['emoji', '1407', 'Objects', 'household', '🛒', 'shopping cart'],
     ['fully-qualified', '🛒', '3.0', 'shopping cart', 'Objects', 'household'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '3.0'],
     [],
@@ -12610,7 +12664,7 @@ fusionados_1 = [
   ],
   [
     ['1F6AC'],
-    ['emoji', '1402', 'Objects', 'other-object', '🚬', 'cigarette'],
+    ['emoji', '1408', 'Objects', 'other-object', '🚬', 'cigarette'],
     ['fully-qualified', '🚬', '0.6', 'cigarette', 'Objects', 'other-object'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12619,7 +12673,7 @@ fusionados_1 = [
   ],
   [
     ['26B0'],
-    ['emoji', '1403', 'Objects', 'other-object', '⚰', 'coffin'],
+    ['emoji', '1409', 'Objects', 'other-object', '⚰', 'coffin'],
     ['unqualified', '⚰', '1.0', 'coffin', 'Objects', 'other-object'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12628,7 +12682,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA6'],
-    ['emoji', '1404', 'Objects', 'other-object', '🪦', 'headstone'],
+    ['emoji', '1410', 'Objects', 'other-object', '🪦', 'headstone'],
     ['fully-qualified', '🪦', '13.0', 'headstone', 'Objects', 'other-object'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12637,7 +12691,7 @@ fusionados_1 = [
   ],
   [
     ['26B1'],
-    ['emoji', '1405', 'Objects', 'other-object', '⚱', 'funeral urn'],
+    ['emoji', '1411', 'Objects', 'other-object', '⚱', 'funeral urn'],
     ['unqualified', '⚱', '1.0', 'funeral urn', 'Objects', 'other-object'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12646,7 +12700,7 @@ fusionados_1 = [
   ],
   [
     ['1F9FF'],
-    ['emoji', '1406', 'Objects', 'other-object', '🧿', 'nazar amulet'],
+    ['emoji', '1412', 'Objects', 'other-object', '🧿', 'nazar amulet'],
     ['fully-qualified', '🧿', '11.0', 'nazar amulet', 'Objects', 'other-object'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '11.0'],
     [],
@@ -12655,7 +12709,7 @@ fusionados_1 = [
   ],
   [
     ['1FAAC'],
-    ['emoji', '1407', 'Objects', 'other-object', '\U0001faac', 'hamsa'],
+    ['emoji', '1413', 'Objects', 'other-object', '\U0001faac', 'hamsa'],
     ['fully-qualified', '\U0001faac', '14.0', 'hamsa', 'Objects', 'other-object'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -12664,7 +12718,7 @@ fusionados_1 = [
   ],
   [
     ['1F5FF'],
-    ['emoji', '1408', 'Objects', 'other-object', '🗿', 'moai'],
+    ['emoji', '1414', 'Objects', 'other-object', '🗿', 'moai'],
     ['fully-qualified', '🗿', '0.6', 'moai', 'Objects', 'other-object'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12673,7 +12727,7 @@ fusionados_1 = [
   ],
   [
     ['1FAA7'],
-    ['emoji', '1409', 'Objects', 'other-object', '🪧', 'placard'],
+    ['emoji', '1415', 'Objects', 'other-object', '🪧', 'placard'],
     ['fully-qualified', '🪧', '13.0', 'placard', 'Objects', 'other-object'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '13.0'],
     [],
@@ -12682,7 +12736,7 @@ fusionados_1 = [
   ],
   [
     ['1FAAA'],
-    ['emoji', '1410', 'Objects', 'other-object', '\U0001faaa', 'identification card'],
+    ['emoji', '1416', 'Objects', 'other-object', '\U0001faaa', 'identification card'],
     ['fully-qualified', '\U0001faaa', '14.0', 'identification card', 'Objects', 'other-object'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -12691,7 +12745,7 @@ fusionados_1 = [
   ],
   [
     ['1F3E7'],
-    ['emoji', '1411', 'Symbols', 'transport-sign', '🏧', 'ATM sign'],
+    ['emoji', '1417', 'Symbols', 'transport-sign', '🏧', 'ATM sign'],
     ['fully-qualified', '🏧', '0.6', 'ATM sign', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12700,7 +12754,7 @@ fusionados_1 = [
   ],
   [
     ['1F6AE'],
-    ['emoji', '1412', 'Symbols', 'transport-sign', '🚮', 'litter in bin sign'],
+    ['emoji', '1418', 'Symbols', 'transport-sign', '🚮', 'litter in bin sign'],
     ['fully-qualified', '🚮', '1.0', 'litter in bin sign', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12709,7 +12763,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B0'],
-    ['emoji', '1413', 'Symbols', 'transport-sign', '🚰', 'potable water'],
+    ['emoji', '1419', 'Symbols', 'transport-sign', '🚰', 'potable water'],
     ['fully-qualified', '🚰', '1.0', 'potable water', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12718,7 +12772,7 @@ fusionados_1 = [
   ],
   [
     ['267F'],
-    ['emoji', '1414', 'Symbols', 'transport-sign', '♿', 'wheelchair symbol'],
+    ['emoji', '1420', 'Symbols', 'transport-sign', '♿', 'wheelchair symbol'],
     ['fully-qualified', '♿', '0.6', 'wheelchair symbol', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12727,7 +12781,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B9'],
-    ['emoji', '1415', 'Symbols', 'transport-sign', '🚹', 'men’s room'],
+    ['emoji', '1421', 'Symbols', 'transport-sign', '🚹', 'men’s room'],
     ['fully-qualified', '🚹', '0.6', 'men’s room', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12736,7 +12790,7 @@ fusionados_1 = [
   ],
   [
     ['1F6BA'],
-    ['emoji', '1416', 'Symbols', 'transport-sign', '🚺', 'women’s room'],
+    ['emoji', '1422', 'Symbols', 'transport-sign', '🚺', 'women’s room'],
     ['fully-qualified', '🚺', '0.6', 'women’s room', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12745,7 +12799,7 @@ fusionados_1 = [
   ],
   [
     ['1F6BB'],
-    ['emoji', '1417', 'Symbols', 'transport-sign', '🚻', 'restroom'],
+    ['emoji', '1423', 'Symbols', 'transport-sign', '🚻', 'restroom'],
     ['fully-qualified', '🚻', '0.6', 'restroom', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12754,7 +12808,7 @@ fusionados_1 = [
   ],
   [
     ['1F6BC'],
-    ['emoji', '1418', 'Symbols', 'transport-sign', '🚼', 'baby symbol'],
+    ['emoji', '1424', 'Symbols', 'transport-sign', '🚼', 'baby symbol'],
     ['fully-qualified', '🚼', '0.6', 'baby symbol', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12763,7 +12817,7 @@ fusionados_1 = [
   ],
   [
     ['1F6BE'],
-    ['emoji', '1419', 'Symbols', 'transport-sign', '🚾', 'water closet'],
+    ['emoji', '1425', 'Symbols', 'transport-sign', '🚾', 'water closet'],
     ['fully-qualified', '🚾', '0.6', 'water closet', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12772,7 +12826,7 @@ fusionados_1 = [
   ],
   [
     ['1F6C2'],
-    ['emoji', '1420', 'Symbols', 'transport-sign', '🛂', 'passport control'],
+    ['emoji', '1426', 'Symbols', 'transport-sign', '🛂', 'passport control'],
     ['fully-qualified', '🛂', '1.0', 'passport control', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12781,7 +12835,7 @@ fusionados_1 = [
   ],
   [
     ['1F6C3'],
-    ['emoji', '1421', 'Symbols', 'transport-sign', '🛃', 'customs'],
+    ['emoji', '1427', 'Symbols', 'transport-sign', '🛃', 'customs'],
     ['fully-qualified', '🛃', '1.0', 'customs', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12790,7 +12844,7 @@ fusionados_1 = [
   ],
   [
     ['1F6C4'],
-    ['emoji', '1422', 'Symbols', 'transport-sign', '🛄', 'baggage claim'],
+    ['emoji', '1428', 'Symbols', 'transport-sign', '🛄', 'baggage claim'],
     ['fully-qualified', '🛄', '1.0', 'baggage claim', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12799,7 +12853,7 @@ fusionados_1 = [
   ],
   [
     ['1F6C5'],
-    ['emoji', '1423', 'Symbols', 'transport-sign', '🛅', 'left luggage'],
+    ['emoji', '1429', 'Symbols', 'transport-sign', '🛅', 'left luggage'],
     ['fully-qualified', '🛅', '1.0', 'left luggage', 'Symbols', 'transport-sign'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12808,7 +12862,7 @@ fusionados_1 = [
   ],
   [
     ['26A0'],
-    ['emoji', '1424', 'Symbols', 'warning', '⚠', 'warning'],
+    ['emoji', '1430', 'Symbols', 'warning', '⚠', 'warning'],
     ['unqualified', '⚠', '0.6', 'warning', 'Symbols', 'warning'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12817,7 +12871,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B8'],
-    ['emoji', '1425', 'Symbols', 'warning', '🚸', 'children crossing'],
+    ['emoji', '1431', 'Symbols', 'warning', '🚸', 'children crossing'],
     ['fully-qualified', '🚸', '1.0', 'children crossing', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12826,7 +12880,7 @@ fusionados_1 = [
   ],
   [
     ['26D4'],
-    ['emoji', '1426', 'Symbols', 'warning', '⛔', 'no entry'],
+    ['emoji', '1432', 'Symbols', 'warning', '⛔', 'no entry'],
     ['fully-qualified', '⛔', '0.6', 'no entry', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12835,7 +12889,7 @@ fusionados_1 = [
   ],
   [
     ['1F6AB'],
-    ['emoji', '1427', 'Symbols', 'warning', '🚫', 'prohibited'],
+    ['emoji', '1433', 'Symbols', 'warning', '🚫', 'prohibited'],
     ['fully-qualified', '🚫', '0.6', 'prohibited', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12844,7 +12898,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B3'],
-    ['emoji', '1428', 'Symbols', 'warning', '🚳', 'no bicycles'],
+    ['emoji', '1434', 'Symbols', 'warning', '🚳', 'no bicycles'],
     ['fully-qualified', '🚳', '1.0', 'no bicycles', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12853,7 +12907,7 @@ fusionados_1 = [
   ],
   [
     ['1F6AD'],
-    ['emoji', '1429', 'Symbols', 'warning', '🚭', 'no smoking'],
+    ['emoji', '1435', 'Symbols', 'warning', '🚭', 'no smoking'],
     ['fully-qualified', '🚭', '0.6', 'no smoking', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12862,7 +12916,7 @@ fusionados_1 = [
   ],
   [
     ['1F6AF'],
-    ['emoji', '1430', 'Symbols', 'warning', '🚯', 'no littering'],
+    ['emoji', '1436', 'Symbols', 'warning', '🚯', 'no littering'],
     ['fully-qualified', '🚯', '1.0', 'no littering', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12871,7 +12925,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B1'],
-    ['emoji', '1431', 'Symbols', 'warning', '🚱', 'non-potable water'],
+    ['emoji', '1437', 'Symbols', 'warning', '🚱', 'non-potable water'],
     ['fully-qualified', '🚱', '1.0', 'non-potable water', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12880,7 +12934,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B7'],
-    ['emoji', '1432', 'Symbols', 'warning', '🚷', 'no pedestrians'],
+    ['emoji', '1438', 'Symbols', 'warning', '🚷', 'no pedestrians'],
     ['fully-qualified', '🚷', '1.0', 'no pedestrians', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12889,7 +12943,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F5'],
-    ['emoji', '1433', 'Symbols', 'warning', '📵', 'no mobile phones'],
+    ['emoji', '1439', 'Symbols', 'warning', '📵', 'no mobile phones'],
     ['fully-qualified', '📵', '1.0', 'no mobile phones', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12898,7 +12952,7 @@ fusionados_1 = [
   ],
   [
     ['1F51E'],
-    ['emoji', '1434', 'Symbols', 'warning', '🔞', 'no one under eighteen'],
+    ['emoji', '1440', 'Symbols', 'warning', '🔞', 'no one under eighteen'],
     ['fully-qualified', '🔞', '0.6', 'no one under eighteen', 'Symbols', 'warning'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12907,7 +12961,7 @@ fusionados_1 = [
   ],
   [
     ['2622'],
-    ['emoji', '1435', 'Symbols', 'warning', '☢', 'radioactive'],
+    ['emoji', '1441', 'Symbols', 'warning', '☢', 'radioactive'],
     ['unqualified', '☢', '1.0', 'radioactive', 'Symbols', 'warning'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12916,7 +12970,7 @@ fusionados_1 = [
   ],
   [
     ['2623'],
-    ['emoji', '1436', 'Symbols', 'warning', '☣', 'biohazard'],
+    ['emoji', '1442', 'Symbols', 'warning', '☣', 'biohazard'],
     ['unqualified', '☣', '1.0', 'biohazard', 'Symbols', 'warning'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -12925,7 +12979,7 @@ fusionados_1 = [
   ],
   [
     ['2B06'],
-    ['emoji', '1437', 'Symbols', 'arrow', '⬆', 'up arrow'],
+    ['emoji', '1443', 'Symbols', 'arrow', '⬆', 'up arrow'],
     ['unqualified', '⬆', '0.6', 'up arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12934,7 +12988,7 @@ fusionados_1 = [
   ],
   [
     ['2197'],
-    ['emoji', '1438', 'Symbols', 'arrow', '↗', 'up-right arrow'],
+    ['emoji', '1444', 'Symbols', 'arrow', '↗', 'up-right arrow'],
     ['unqualified', '↗', '0.6', 'up-right arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12943,7 +12997,7 @@ fusionados_1 = [
   ],
   [
     ['27A1'],
-    ['emoji', '1439', 'Symbols', 'arrow', '➡', 'right arrow'],
+    ['emoji', '1445', 'Symbols', 'arrow', '➡', 'right arrow'],
     ['unqualified', '➡', '0.6', 'right arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12952,7 +13006,7 @@ fusionados_1 = [
   ],
   [
     ['2198'],
-    ['emoji', '1440', 'Symbols', 'arrow', '↘', 'down-right arrow'],
+    ['emoji', '1446', 'Symbols', 'arrow', '↘', 'down-right arrow'],
     ['unqualified', '↘', '0.6', 'down-right arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12961,7 +13015,7 @@ fusionados_1 = [
   ],
   [
     ['2B07'],
-    ['emoji', '1441', 'Symbols', 'arrow', '⬇', 'down arrow'],
+    ['emoji', '1447', 'Symbols', 'arrow', '⬇', 'down arrow'],
     ['unqualified', '⬇', '0.6', 'down arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12970,7 +13024,7 @@ fusionados_1 = [
   ],
   [
     ['2199'],
-    ['emoji', '1442', 'Symbols', 'arrow', '↙', 'down-left arrow'],
+    ['emoji', '1448', 'Symbols', 'arrow', '↙', 'down-left arrow'],
     ['unqualified', '↙', '0.6', 'down-left arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12979,7 +13033,7 @@ fusionados_1 = [
   ],
   [
     ['2B05'],
-    ['emoji', '1443', 'Symbols', 'arrow', '⬅', 'left arrow'],
+    ['emoji', '1449', 'Symbols', 'arrow', '⬅', 'left arrow'],
     ['unqualified', '⬅', '0.6', 'left arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12988,7 +13042,7 @@ fusionados_1 = [
   ],
   [
     ['2196'],
-    ['emoji', '1444', 'Symbols', 'arrow', '↖', 'up-left arrow'],
+    ['emoji', '1450', 'Symbols', 'arrow', '↖', 'up-left arrow'],
     ['unqualified', '↖', '0.6', 'up-left arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -12997,7 +13051,7 @@ fusionados_1 = [
   ],
   [
     ['2195'],
-    ['emoji', '1445', 'Symbols', 'arrow', '↕', 'up-down arrow'],
+    ['emoji', '1451', 'Symbols', 'arrow', '↕', 'up-down arrow'],
     ['unqualified', '↕', '0.6', 'up-down arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13006,7 +13060,7 @@ fusionados_1 = [
   ],
   [
     ['2194'],
-    ['emoji', '1446', 'Symbols', 'arrow', '↔', 'left-right arrow'],
+    ['emoji', '1452', 'Symbols', 'arrow', '↔', 'left-right arrow'],
     ['unqualified', '↔', '0.6', 'left-right arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13015,7 +13069,7 @@ fusionados_1 = [
   ],
   [
     ['21A9'],
-    ['emoji', '1447', 'Symbols', 'arrow', '↩', 'right arrow curving left'],
+    ['emoji', '1453', 'Symbols', 'arrow', '↩', 'right arrow curving left'],
     ['unqualified', '↩', '0.6', 'right arrow curving left', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13024,7 +13078,7 @@ fusionados_1 = [
   ],
   [
     ['21AA'],
-    ['emoji', '1448', 'Symbols', 'arrow', '↪', 'left arrow curving right'],
+    ['emoji', '1454', 'Symbols', 'arrow', '↪', 'left arrow curving right'],
     ['unqualified', '↪', '0.6', 'left arrow curving right', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13033,7 +13087,7 @@ fusionados_1 = [
   ],
   [
     ['2934'],
-    ['emoji', '1449', 'Symbols', 'arrow', '⤴', 'right arrow curving up'],
+    ['emoji', '1455', 'Symbols', 'arrow', '⤴', 'right arrow curving up'],
     ['unqualified', '⤴', '0.6', 'right arrow curving up', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13042,7 +13096,7 @@ fusionados_1 = [
   ],
   [
     ['2935'],
-    ['emoji', '1450', 'Symbols', 'arrow', '⤵', 'right arrow curving down'],
+    ['emoji', '1456', 'Symbols', 'arrow', '⤵', 'right arrow curving down'],
     ['unqualified', '⤵', '0.6', 'right arrow curving down', 'Symbols', 'arrow'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13051,7 +13105,7 @@ fusionados_1 = [
   ],
   [
     ['1F503'],
-    ['emoji', '1451', 'Symbols', 'arrow', '🔃', 'clockwise vertical arrows'],
+    ['emoji', '1457', 'Symbols', 'arrow', '🔃', 'clockwise vertical arrows'],
     ['fully-qualified', '🔃', '0.6', 'clockwise vertical arrows', 'Symbols', 'arrow'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13060,7 +13114,7 @@ fusionados_1 = [
   ],
   [
     ['1F504'],
-    ['emoji', '1452', 'Symbols', 'arrow', '🔄', 'counterclockwise arrows button'],
+    ['emoji', '1458', 'Symbols', 'arrow', '🔄', 'counterclockwise arrows button'],
     ['fully-qualified', '🔄', '1.0', 'counterclockwise arrows button', 'Symbols', 'arrow'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13069,7 +13123,7 @@ fusionados_1 = [
   ],
   [
     ['1F519'],
-    ['emoji', '1453', 'Symbols', 'arrow', '🔙', 'BACK arrow'],
+    ['emoji', '1459', 'Symbols', 'arrow', '🔙', 'BACK arrow'],
     ['fully-qualified', '🔙', '0.6', 'BACK arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13078,7 +13132,7 @@ fusionados_1 = [
   ],
   [
     ['1F51A'],
-    ['emoji', '1454', 'Symbols', 'arrow', '🔚', 'END arrow'],
+    ['emoji', '1460', 'Symbols', 'arrow', '🔚', 'END arrow'],
     ['fully-qualified', '🔚', '0.6', 'END arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13087,7 +13141,7 @@ fusionados_1 = [
   ],
   [
     ['1F51B'],
-    ['emoji', '1455', 'Symbols', 'arrow', '🔛', 'ON! arrow'],
+    ['emoji', '1461', 'Symbols', 'arrow', '🔛', 'ON! arrow'],
     ['fully-qualified', '🔛', '0.6', 'ON! arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13096,7 +13150,7 @@ fusionados_1 = [
   ],
   [
     ['1F51C'],
-    ['emoji', '1456', 'Symbols', 'arrow', '🔜', 'SOON arrow'],
+    ['emoji', '1462', 'Symbols', 'arrow', '🔜', 'SOON arrow'],
     ['fully-qualified', '🔜', '0.6', 'SOON arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13105,7 +13159,7 @@ fusionados_1 = [
   ],
   [
     ['1F51D'],
-    ['emoji', '1457', 'Symbols', 'arrow', '🔝', 'TOP arrow'],
+    ['emoji', '1463', 'Symbols', 'arrow', '🔝', 'TOP arrow'],
     ['fully-qualified', '🔝', '0.6', 'TOP arrow', 'Symbols', 'arrow'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13114,7 +13168,7 @@ fusionados_1 = [
   ],
   [
     ['1F6D0'],
-    ['emoji', '1458', 'Symbols', 'religion', '🛐', 'place of worship'],
+    ['emoji', '1464', 'Symbols', 'religion', '🛐', 'place of worship'],
     ['fully-qualified', '🛐', '1.0', 'place of worship', 'Symbols', 'religion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13123,7 +13177,7 @@ fusionados_1 = [
   ],
   [
     ['269B'],
-    ['emoji', '1459', 'Symbols', 'religion', '⚛', 'atom symbol'],
+    ['emoji', '1465', 'Symbols', 'religion', '⚛', 'atom symbol'],
     ['unqualified', '⚛', '1.0', 'atom symbol', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13132,7 +13186,7 @@ fusionados_1 = [
   ],
   [
     ['1F549'],
-    ['emoji', '1460', 'Symbols', 'religion', '🕉', 'om'],
+    ['emoji', '1466', 'Symbols', 'religion', '🕉', 'om'],
     ['unqualified', '🕉', '0.7', 'om', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13141,7 +13195,7 @@ fusionados_1 = [
   ],
   [
     ['2721'],
-    ['emoji', '1461', 'Symbols', 'religion', '✡', 'star of David'],
+    ['emoji', '1467', 'Symbols', 'religion', '✡', 'star of David'],
     ['unqualified', '✡', '0.7', 'star of David', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13150,7 +13204,7 @@ fusionados_1 = [
   ],
   [
     ['2638'],
-    ['emoji', '1462', 'Symbols', 'religion', '☸', 'wheel of dharma'],
+    ['emoji', '1468', 'Symbols', 'religion', '☸', 'wheel of dharma'],
     ['unqualified', '☸', '0.7', 'wheel of dharma', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13159,7 +13213,7 @@ fusionados_1 = [
   ],
   [
     ['262F'],
-    ['emoji', '1463', 'Symbols', 'religion', '☯', 'yin yang'],
+    ['emoji', '1469', 'Symbols', 'religion', '☯', 'yin yang'],
     ['unqualified', '☯', '0.7', 'yin yang', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13168,7 +13222,7 @@ fusionados_1 = [
   ],
   [
     ['271D'],
-    ['emoji', '1464', 'Symbols', 'religion', '✝', 'latin cross'],
+    ['emoji', '1470', 'Symbols', 'religion', '✝', 'latin cross'],
     ['unqualified', '✝', '0.7', 'latin cross', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13177,7 +13231,7 @@ fusionados_1 = [
   ],
   [
     ['2626'],
-    ['emoji', '1465', 'Symbols', 'religion', '☦', 'orthodox cross'],
+    ['emoji', '1471', 'Symbols', 'religion', '☦', 'orthodox cross'],
     ['unqualified', '☦', '1.0', 'orthodox cross', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13186,7 +13240,7 @@ fusionados_1 = [
   ],
   [
     ['262A'],
-    ['emoji', '1466', 'Symbols', 'religion', '☪', 'star and crescent'],
+    ['emoji', '1472', 'Symbols', 'religion', '☪', 'star and crescent'],
     ['unqualified', '☪', '0.7', 'star and crescent', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13195,7 +13249,7 @@ fusionados_1 = [
   ],
   [
     ['262E'],
-    ['emoji', '1467', 'Symbols', 'religion', '☮', 'peace symbol'],
+    ['emoji', '1473', 'Symbols', 'religion', '☮', 'peace symbol'],
     ['unqualified', '☮', '1.0', 'peace symbol', 'Symbols', 'religion'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13204,7 +13258,7 @@ fusionados_1 = [
   ],
   [
     ['1F54E'],
-    ['emoji', '1468', 'Symbols', 'religion', '🕎', 'menorah'],
+    ['emoji', '1474', 'Symbols', 'religion', '🕎', 'menorah'],
     ['fully-qualified', '🕎', '1.0', 'menorah', 'Symbols', 'religion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13213,7 +13267,7 @@ fusionados_1 = [
   ],
   [
     ['1F52F'],
-    ['emoji', '1469', 'Symbols', 'religion', '🔯', 'dotted six-pointed star'],
+    ['emoji', '1475', 'Symbols', 'religion', '🔯', 'dotted six-pointed star'],
     ['fully-qualified', '🔯', '0.6', 'dotted six-pointed star', 'Symbols', 'religion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13222,7 +13276,7 @@ fusionados_1 = [
   ],
   [
     ['1FAAF'],
-    ['emoji', '1470', 'Symbols', 'religion', '\U0001faaf', 'khanda'],
+    ['emoji', '1476', 'Symbols', 'religion', '\U0001faaf', 'khanda'],
     ['fully-qualified', '\U0001faaf', '15.0', 'khanda', 'Symbols', 'religion'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -13231,7 +13285,7 @@ fusionados_1 = [
   ],
   [
     ['2648'],
-    ['emoji', '1471', 'Symbols', 'zodiac', '♈', 'Aries'],
+    ['emoji', '1477', 'Symbols', 'zodiac', '♈', 'Aries'],
     ['fully-qualified', '♈', '0.6', 'Aries', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13240,7 +13294,7 @@ fusionados_1 = [
   ],
   [
     ['2649'],
-    ['emoji', '1472', 'Symbols', 'zodiac', '♉', 'Taurus'],
+    ['emoji', '1478', 'Symbols', 'zodiac', '♉', 'Taurus'],
     ['fully-qualified', '♉', '0.6', 'Taurus', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13249,7 +13303,7 @@ fusionados_1 = [
   ],
   [
     ['264A'],
-    ['emoji', '1473', 'Symbols', 'zodiac', '♊', 'Gemini'],
+    ['emoji', '1479', 'Symbols', 'zodiac', '♊', 'Gemini'],
     ['fully-qualified', '♊', '0.6', 'Gemini', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13258,7 +13312,7 @@ fusionados_1 = [
   ],
   [
     ['264B'],
-    ['emoji', '1474', 'Symbols', 'zodiac', '♋', 'Cancer'],
+    ['emoji', '1480', 'Symbols', 'zodiac', '♋', 'Cancer'],
     ['fully-qualified', '♋', '0.6', 'Cancer', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13267,7 +13321,7 @@ fusionados_1 = [
   ],
   [
     ['264C'],
-    ['emoji', '1475', 'Symbols', 'zodiac', '♌', 'Leo'],
+    ['emoji', '1481', 'Symbols', 'zodiac', '♌', 'Leo'],
     ['fully-qualified', '♌', '0.6', 'Leo', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13276,7 +13330,7 @@ fusionados_1 = [
   ],
   [
     ['264D'],
-    ['emoji', '1476', 'Symbols', 'zodiac', '♍', 'Virgo'],
+    ['emoji', '1482', 'Symbols', 'zodiac', '♍', 'Virgo'],
     ['fully-qualified', '♍', '0.6', 'Virgo', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13285,7 +13339,7 @@ fusionados_1 = [
   ],
   [
     ['264E'],
-    ['emoji', '1477', 'Symbols', 'zodiac', '♎', 'Libra'],
+    ['emoji', '1483', 'Symbols', 'zodiac', '♎', 'Libra'],
     ['fully-qualified', '♎', '0.6', 'Libra', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13294,7 +13348,7 @@ fusionados_1 = [
   ],
   [
     ['264F'],
-    ['emoji', '1478', 'Symbols', 'zodiac', '♏', 'Scorpio'],
+    ['emoji', '1484', 'Symbols', 'zodiac', '♏', 'Scorpio'],
     ['fully-qualified', '♏', '0.6', 'Scorpio', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13303,7 +13357,7 @@ fusionados_1 = [
   ],
   [
     ['2650'],
-    ['emoji', '1479', 'Symbols', 'zodiac', '♐', 'Sagittarius'],
+    ['emoji', '1485', 'Symbols', 'zodiac', '♐', 'Sagittarius'],
     ['fully-qualified', '♐', '0.6', 'Sagittarius', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13312,7 +13366,7 @@ fusionados_1 = [
   ],
   [
     ['2651'],
-    ['emoji', '1480', 'Symbols', 'zodiac', '♑', 'Capricorn'],
+    ['emoji', '1486', 'Symbols', 'zodiac', '♑', 'Capricorn'],
     ['fully-qualified', '♑', '0.6', 'Capricorn', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13321,7 +13375,7 @@ fusionados_1 = [
   ],
   [
     ['2652'],
-    ['emoji', '1481', 'Symbols', 'zodiac', '♒', 'Aquarius'],
+    ['emoji', '1487', 'Symbols', 'zodiac', '♒', 'Aquarius'],
     ['fully-qualified', '♒', '0.6', 'Aquarius', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13330,7 +13384,7 @@ fusionados_1 = [
   ],
   [
     ['2653'],
-    ['emoji', '1482', 'Symbols', 'zodiac', '♓', 'Pisces'],
+    ['emoji', '1488', 'Symbols', 'zodiac', '♓', 'Pisces'],
     ['fully-qualified', '♓', '0.6', 'Pisces', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13339,7 +13393,7 @@ fusionados_1 = [
   ],
   [
     ['26CE'],
-    ['emoji', '1483', 'Symbols', 'zodiac', '⛎', 'Ophiuchus'],
+    ['emoji', '1489', 'Symbols', 'zodiac', '⛎', 'Ophiuchus'],
     ['fully-qualified', '⛎', '0.6', 'Ophiuchus', 'Symbols', 'zodiac'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13348,7 +13402,7 @@ fusionados_1 = [
   ],
   [
     ['1F500'],
-    ['emoji', '1484', 'Symbols', 'av-symbol', '🔀', 'shuffle tracks button'],
+    ['emoji', '1490', 'Symbols', 'av-symbol', '🔀', 'shuffle tracks button'],
     ['fully-qualified', '🔀', '1.0', 'shuffle tracks button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13357,7 +13411,7 @@ fusionados_1 = [
   ],
   [
     ['1F501'],
-    ['emoji', '1485', 'Symbols', 'av-symbol', '🔁', 'repeat button'],
+    ['emoji', '1491', 'Symbols', 'av-symbol', '🔁', 'repeat button'],
     ['fully-qualified', '🔁', '1.0', 'repeat button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13366,7 +13420,7 @@ fusionados_1 = [
   ],
   [
     ['1F502'],
-    ['emoji', '1486', 'Symbols', 'av-symbol', '🔂', 'repeat single button'],
+    ['emoji', '1492', 'Symbols', 'av-symbol', '🔂', 'repeat single button'],
     ['fully-qualified', '🔂', '1.0', 'repeat single button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13375,7 +13429,7 @@ fusionados_1 = [
   ],
   [
     ['25B6'],
-    ['emoji', '1487', 'Symbols', 'av-symbol', '▶', 'play button'],
+    ['emoji', '1493', 'Symbols', 'av-symbol', '▶', 'play button'],
     ['unqualified', '▶', '0.6', 'play button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13384,7 +13438,7 @@ fusionados_1 = [
   ],
   [
     ['23E9'],
-    ['emoji', '1488', 'Symbols', 'av-symbol', '⏩', 'fast-forward button'],
+    ['emoji', '1494', 'Symbols', 'av-symbol', '⏩', 'fast-forward button'],
     ['fully-qualified', '⏩', '0.6', 'fast-forward button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13393,7 +13447,7 @@ fusionados_1 = [
   ],
   [
     ['23ED'],
-    ['emoji', '1489', 'Symbols', 'av-symbol', '⏭', 'next track button'],
+    ['emoji', '1495', 'Symbols', 'av-symbol', '⏭', 'next track button'],
     ['unqualified', '⏭', '0.7', 'next track button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13402,7 +13456,7 @@ fusionados_1 = [
   ],
   [
     ['23EF'],
-    ['emoji', '1490', 'Symbols', 'av-symbol', '⏯', 'play or pause button'],
+    ['emoji', '1496', 'Symbols', 'av-symbol', '⏯', 'play or pause button'],
     ['unqualified', '⏯', '1.0', 'play or pause button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13411,7 +13465,7 @@ fusionados_1 = [
   ],
   [
     ['25C0'],
-    ['emoji', '1491', 'Symbols', 'av-symbol', '◀', 'reverse button'],
+    ['emoji', '1497', 'Symbols', 'av-symbol', '◀', 'reverse button'],
     ['unqualified', '◀', '0.6', 'reverse button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13420,7 +13474,7 @@ fusionados_1 = [
   ],
   [
     ['23EA'],
-    ['emoji', '1492', 'Symbols', 'av-symbol', '⏪', 'fast reverse button'],
+    ['emoji', '1498', 'Symbols', 'av-symbol', '⏪', 'fast reverse button'],
     ['fully-qualified', '⏪', '0.6', 'fast reverse button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13429,7 +13483,7 @@ fusionados_1 = [
   ],
   [
     ['23EE'],
-    ['emoji', '1493', 'Symbols', 'av-symbol', '⏮', 'last track button'],
+    ['emoji', '1499', 'Symbols', 'av-symbol', '⏮', 'last track button'],
     ['unqualified', '⏮', '0.7', 'last track button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13438,7 +13492,7 @@ fusionados_1 = [
   ],
   [
     ['1F53C'],
-    ['emoji', '1494', 'Symbols', 'av-symbol', '🔼', 'upwards button'],
+    ['emoji', '1500', 'Symbols', 'av-symbol', '🔼', 'upwards button'],
     ['fully-qualified', '🔼', '0.6', 'upwards button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13447,7 +13501,7 @@ fusionados_1 = [
   ],
   [
     ['23EB'],
-    ['emoji', '1495', 'Symbols', 'av-symbol', '⏫', 'fast up button'],
+    ['emoji', '1501', 'Symbols', 'av-symbol', '⏫', 'fast up button'],
     ['fully-qualified', '⏫', '0.6', 'fast up button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13456,7 +13510,7 @@ fusionados_1 = [
   ],
   [
     ['1F53D'],
-    ['emoji', '1496', 'Symbols', 'av-symbol', '🔽', 'downwards button'],
+    ['emoji', '1502', 'Symbols', 'av-symbol', '🔽', 'downwards button'],
     ['fully-qualified', '🔽', '0.6', 'downwards button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13465,7 +13519,7 @@ fusionados_1 = [
   ],
   [
     ['23EC'],
-    ['emoji', '1497', 'Symbols', 'av-symbol', '⏬', 'fast down button'],
+    ['emoji', '1503', 'Symbols', 'av-symbol', '⏬', 'fast down button'],
     ['fully-qualified', '⏬', '0.6', 'fast down button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13474,7 +13528,7 @@ fusionados_1 = [
   ],
   [
     ['23F8'],
-    ['emoji', '1498', 'Symbols', 'av-symbol', '⏸', 'pause button'],
+    ['emoji', '1504', 'Symbols', 'av-symbol', '⏸', 'pause button'],
     ['unqualified', '⏸', '0.7', 'pause button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13483,7 +13537,7 @@ fusionados_1 = [
   ],
   [
     ['23F9'],
-    ['emoji', '1499', 'Symbols', 'av-symbol', '⏹', 'stop button'],
+    ['emoji', '1505', 'Symbols', 'av-symbol', '⏹', 'stop button'],
     ['unqualified', '⏹', '0.7', 'stop button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13492,7 +13546,7 @@ fusionados_1 = [
   ],
   [
     ['23FA'],
-    ['emoji', '1500', 'Symbols', 'av-symbol', '⏺', 'record button'],
+    ['emoji', '1506', 'Symbols', 'av-symbol', '⏺', 'record button'],
     ['unqualified', '⏺', '0.7', 'record button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -13501,7 +13555,7 @@ fusionados_1 = [
   ],
   [
     ['23CF'],
-    ['emoji', '1501', 'Symbols', 'av-symbol', '⏏', 'eject button'],
+    ['emoji', '1507', 'Symbols', 'av-symbol', '⏏', 'eject button'],
     ['unqualified', '⏏', '1.0', 'eject button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13510,7 +13564,7 @@ fusionados_1 = [
   ],
   [
     ['1F3A6'],
-    ['emoji', '1502', 'Symbols', 'av-symbol', '🎦', 'cinema'],
+    ['emoji', '1508', 'Symbols', 'av-symbol', '🎦', 'cinema'],
     ['fully-qualified', '🎦', '0.6', 'cinema', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13519,7 +13573,7 @@ fusionados_1 = [
   ],
   [
     ['1F505'],
-    ['emoji', '1503', 'Symbols', 'av-symbol', '🔅', 'dim button'],
+    ['emoji', '1509', 'Symbols', 'av-symbol', '🔅', 'dim button'],
     ['fully-qualified', '🔅', '1.0', 'dim button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13528,7 +13582,7 @@ fusionados_1 = [
   ],
   [
     ['1F506'],
-    ['emoji', '1504', 'Symbols', 'av-symbol', '🔆', 'bright button'],
+    ['emoji', '1510', 'Symbols', 'av-symbol', '🔆', 'bright button'],
     ['fully-qualified', '🔆', '1.0', 'bright button', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13537,7 +13591,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F6'],
-    ['emoji', '1505', 'Symbols', 'av-symbol', '📶', 'antenna bars'],
+    ['emoji', '1511', 'Symbols', 'av-symbol', '📶', 'antenna bars'],
     ['fully-qualified', '📶', '0.6', 'antenna bars', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13546,7 +13600,7 @@ fusionados_1 = [
   ],
   [
     ['1F6DC'],
-    ['emoji', '1506', 'Symbols', 'av-symbol', '\U0001f6dc', 'wireless'],
+    ['emoji', '1512', 'Symbols', 'av-symbol', '\U0001f6dc', 'wireless'],
     ['fully-qualified', '\U0001f6dc', '15.0', 'wireless', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '15.0'],
     [],
@@ -13555,7 +13609,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F3'],
-    ['emoji', '1507', 'Symbols', 'av-symbol', '📳', 'vibration mode'],
+    ['emoji', '1513', 'Symbols', 'av-symbol', '📳', 'vibration mode'],
     ['fully-qualified', '📳', '0.6', 'vibration mode', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13564,7 +13618,7 @@ fusionados_1 = [
   ],
   [
     ['1F4F4'],
-    ['emoji', '1508', 'Symbols', 'av-symbol', '📴', 'mobile phone off'],
+    ['emoji', '1514', 'Symbols', 'av-symbol', '📴', 'mobile phone off'],
     ['fully-qualified', '📴', '0.6', 'mobile phone off', 'Symbols', 'av-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13573,7 +13627,7 @@ fusionados_1 = [
   ],
   [
     ['2640'],
-    ['emoji', '1509', 'Symbols', 'gender', '♀', 'female sign'],
+    ['emoji', '1515', 'Symbols', 'gender', '♀', 'female sign'],
     ['unqualified', '♀', '4.0', 'female sign', 'Symbols', 'gender'],
     [['Emoji', 'Extended_Pictographic'], '4.0'],
     [],
@@ -13582,7 +13636,7 @@ fusionados_1 = [
   ],
   [
     ['2642'],
-    ['emoji', '1510', 'Symbols', 'gender', '♂', 'male sign'],
+    ['emoji', '1516', 'Symbols', 'gender', '♂', 'male sign'],
     ['unqualified', '♂', '4.0', 'male sign', 'Symbols', 'gender'],
     [['Emoji', 'Extended_Pictographic'], '4.0'],
     [],
@@ -13591,7 +13645,7 @@ fusionados_1 = [
   ],
   [
     ['26A7'],
-    ['emoji', '1511', 'Symbols', 'gender', '⚧', 'transgender symbol'],
+    ['emoji', '1517', 'Symbols', 'gender', '⚧', 'transgender symbol'],
     ['unqualified', '⚧', '13.0', 'transgender symbol', 'Symbols', 'gender'],
     [['Emoji', 'Extended_Pictographic'], '13.0'],
     [],
@@ -13600,7 +13654,7 @@ fusionados_1 = [
   ],
   [
     ['2716'],
-    ['emoji', '1512', 'Symbols', 'math', '✖', 'multiply'],
+    ['emoji', '1518', 'Symbols', 'math', '✖', 'multiply'],
     ['unqualified', '✖', '0.6', 'multiply', 'Symbols', 'math'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13609,7 +13663,7 @@ fusionados_1 = [
   ],
   [
     ['2795'],
-    ['emoji', '1513', 'Symbols', 'math', '➕', 'plus'],
+    ['emoji', '1519', 'Symbols', 'math', '➕', 'plus'],
     ['fully-qualified', '➕', '0.6', 'plus', 'Symbols', 'math'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13618,7 +13672,7 @@ fusionados_1 = [
   ],
   [
     ['2796'],
-    ['emoji', '1514', 'Symbols', 'math', '➖', 'minus'],
+    ['emoji', '1520', 'Symbols', 'math', '➖', 'minus'],
     ['fully-qualified', '➖', '0.6', 'minus', 'Symbols', 'math'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13627,7 +13681,7 @@ fusionados_1 = [
   ],
   [
     ['2797'],
-    ['emoji', '1515', 'Symbols', 'math', '➗', 'divide'],
+    ['emoji', '1521', 'Symbols', 'math', '➗', 'divide'],
     ['fully-qualified', '➗', '0.6', 'divide', 'Symbols', 'math'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13636,7 +13690,7 @@ fusionados_1 = [
   ],
   [
     ['1F7F0'],
-    ['emoji', '1516', 'Symbols', 'math', '\U0001f7f0', 'heavy equals sign'],
+    ['emoji', '1522', 'Symbols', 'math', '\U0001f7f0', 'heavy equals sign'],
     ['fully-qualified', '\U0001f7f0', '14.0', 'heavy equals sign', 'Symbols', 'math'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '14.0'],
     [],
@@ -13645,7 +13699,7 @@ fusionados_1 = [
   ],
   [
     ['267E'],
-    ['emoji', '1517', 'Symbols', 'math', '♾', 'infinity'],
+    ['emoji', '1523', 'Symbols', 'math', '♾', 'infinity'],
     ['unqualified', '♾', '11.0', 'infinity', 'Symbols', 'math'],
     [['Emoji', 'Extended_Pictographic'], '11.0'],
     [],
@@ -13654,7 +13708,7 @@ fusionados_1 = [
   ],
   [
     ['203C'],
-    ['emoji', '1518', 'Symbols', 'punctuation', '‼', 'double exclamation mark'],
+    ['emoji', '1524', 'Symbols', 'punctuation', '‼', 'double exclamation mark'],
     ['unqualified', '‼', '0.6', 'double exclamation mark', 'Symbols', 'punctuation'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13663,7 +13717,7 @@ fusionados_1 = [
   ],
   [
     ['2049'],
-    ['emoji', '1519', 'Symbols', 'punctuation', '⁉', 'exclamation question mark'],
+    ['emoji', '1525', 'Symbols', 'punctuation', '⁉', 'exclamation question mark'],
     ['unqualified', '⁉', '0.6', 'exclamation question mark', 'Symbols', 'punctuation'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13672,7 +13726,7 @@ fusionados_1 = [
   ],
   [
     ['2753'],
-    ['emoji', '1520', 'Symbols', 'punctuation', '❓', 'red question mark'],
+    ['emoji', '1526', 'Symbols', 'punctuation', '❓', 'red question mark'],
     ['fully-qualified', '❓', '0.6', 'red question mark', 'Symbols', 'punctuation'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13681,7 +13735,7 @@ fusionados_1 = [
   ],
   [
     ['2754'],
-    ['emoji', '1521', 'Symbols', 'punctuation', '❔', 'white question mark'],
+    ['emoji', '1527', 'Symbols', 'punctuation', '❔', 'white question mark'],
     ['fully-qualified', '❔', '0.6', 'white question mark', 'Symbols', 'punctuation'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13690,7 +13744,7 @@ fusionados_1 = [
   ],
   [
     ['2755'],
-    ['emoji', '1522', 'Symbols', 'punctuation', '❕', 'white exclamation mark'],
+    ['emoji', '1528', 'Symbols', 'punctuation', '❕', 'white exclamation mark'],
     ['fully-qualified', '❕', '0.6', 'white exclamation mark', 'Symbols', 'punctuation'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13699,7 +13753,7 @@ fusionados_1 = [
   ],
   [
     ['2757'],
-    ['emoji', '1523', 'Symbols', 'punctuation', '❗', 'red exclamation mark'],
+    ['emoji', '1529', 'Symbols', 'punctuation', '❗', 'red exclamation mark'],
     ['fully-qualified', '❗', '0.6', 'red exclamation mark', 'Symbols', 'punctuation'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13708,7 +13762,7 @@ fusionados_1 = [
   ],
   [
     ['3030'],
-    ['emoji', '1524', 'Symbols', 'punctuation', '〰', 'wavy dash'],
+    ['emoji', '1530', 'Symbols', 'punctuation', '〰', 'wavy dash'],
     ['unqualified', '〰', '0.6', 'wavy dash', 'Symbols', 'punctuation'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13717,7 +13771,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B1'],
-    ['emoji', '1525', 'Symbols', 'currency', '💱', 'currency exchange'],
+    ['emoji', '1531', 'Symbols', 'currency', '💱', 'currency exchange'],
     ['fully-qualified', '💱', '0.6', 'currency exchange', 'Symbols', 'currency'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13726,7 +13780,7 @@ fusionados_1 = [
   ],
   [
     ['1F4B2'],
-    ['emoji', '1526', 'Symbols', 'currency', '💲', 'heavy dollar sign'],
+    ['emoji', '1532', 'Symbols', 'currency', '💲', 'heavy dollar sign'],
     ['fully-qualified', '💲', '0.6', 'heavy dollar sign', 'Symbols', 'currency'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13735,7 +13789,7 @@ fusionados_1 = [
   ],
   [
     ['2695'],
-    ['emoji', '1527', 'Symbols', 'other-symbol', '⚕', 'medical symbol'],
+    ['emoji', '1533', 'Symbols', 'other-symbol', '⚕', 'medical symbol'],
     ['unqualified', '⚕', '4.0', 'medical symbol', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '4.0'],
     [],
@@ -13744,7 +13798,7 @@ fusionados_1 = [
   ],
   [
     ['267B'],
-    ['emoji', '1528', 'Symbols', 'other-symbol', '♻', 'recycling symbol'],
+    ['emoji', '1534', 'Symbols', 'other-symbol', '♻', 'recycling symbol'],
     ['unqualified', '♻', '0.6', 'recycling symbol', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13753,7 +13807,7 @@ fusionados_1 = [
   ],
   [
     ['269C'],
-    ['emoji', '1529', 'Symbols', 'other-symbol', '⚜', 'fleur-de-lis'],
+    ['emoji', '1535', 'Symbols', 'other-symbol', '⚜', 'fleur-de-lis'],
     ['unqualified', '⚜', '1.0', 'fleur-de-lis', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13762,7 +13816,7 @@ fusionados_1 = [
   ],
   [
     ['1F531'],
-    ['emoji', '1530', 'Symbols', 'other-symbol', '🔱', 'trident emblem'],
+    ['emoji', '1536', 'Symbols', 'other-symbol', '🔱', 'trident emblem'],
     ['fully-qualified', '🔱', '0.6', 'trident emblem', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13771,7 +13825,7 @@ fusionados_1 = [
   ],
   [
     ['1F4DB'],
-    ['emoji', '1531', 'Symbols', 'other-symbol', '📛', 'name badge'],
+    ['emoji', '1537', 'Symbols', 'other-symbol', '📛', 'name badge'],
     ['fully-qualified', '📛', '0.6', 'name badge', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13780,7 +13834,7 @@ fusionados_1 = [
   ],
   [
     ['1F530'],
-    ['emoji', '1532', 'Symbols', 'other-symbol', '🔰', 'Japanese symbol for beginner'],
+    ['emoji', '1538', 'Symbols', 'other-symbol', '🔰', 'Japanese symbol for beginner'],
     ['fully-qualified', '🔰', '0.6', 'Japanese symbol for beginner', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13789,7 +13843,7 @@ fusionados_1 = [
   ],
   [
     ['2B55'],
-    ['emoji', '1533', 'Symbols', 'other-symbol', '⭕', 'hollow red circle'],
+    ['emoji', '1539', 'Symbols', 'other-symbol', '⭕', 'hollow red circle'],
     ['fully-qualified', '⭕', '0.6', 'hollow red circle', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13798,7 +13852,7 @@ fusionados_1 = [
   ],
   [
     ['2705'],
-    ['emoji', '1534', 'Symbols', 'other-symbol', '✅', 'check mark button'],
+    ['emoji', '1540', 'Symbols', 'other-symbol', '✅', 'check mark button'],
     ['fully-qualified', '✅', '0.6', 'check mark button', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13807,7 +13861,7 @@ fusionados_1 = [
   ],
   [
     ['2611'],
-    ['emoji', '1535', 'Symbols', 'other-symbol', '☑', 'check box with check'],
+    ['emoji', '1541', 'Symbols', 'other-symbol', '☑', 'check box with check'],
     ['unqualified', '☑', '0.6', 'check box with check', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13816,7 +13870,7 @@ fusionados_1 = [
   ],
   [
     ['2714'],
-    ['emoji', '1536', 'Symbols', 'other-symbol', '✔', 'check mark'],
+    ['emoji', '1542', 'Symbols', 'other-symbol', '✔', 'check mark'],
     ['unqualified', '✔', '0.6', 'check mark', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13825,7 +13879,7 @@ fusionados_1 = [
   ],
   [
     ['274C'],
-    ['emoji', '1537', 'Symbols', 'other-symbol', '❌', 'cross mark'],
+    ['emoji', '1543', 'Symbols', 'other-symbol', '❌', 'cross mark'],
     ['fully-qualified', '❌', '0.6', 'cross mark', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13834,7 +13888,7 @@ fusionados_1 = [
   ],
   [
     ['274E'],
-    ['emoji', '1538', 'Symbols', 'other-symbol', '❎', 'cross mark button'],
+    ['emoji', '1544', 'Symbols', 'other-symbol', '❎', 'cross mark button'],
     ['fully-qualified', '❎', '0.6', 'cross mark button', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13843,7 +13897,7 @@ fusionados_1 = [
   ],
   [
     ['27B0'],
-    ['emoji', '1539', 'Symbols', 'other-symbol', '➰', 'curly loop'],
+    ['emoji', '1545', 'Symbols', 'other-symbol', '➰', 'curly loop'],
     ['fully-qualified', '➰', '0.6', 'curly loop', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13852,7 +13906,7 @@ fusionados_1 = [
   ],
   [
     ['27BF'],
-    ['emoji', '1540', 'Symbols', 'other-symbol', '➿', 'double curly loop'],
+    ['emoji', '1546', 'Symbols', 'other-symbol', '➿', 'double curly loop'],
     ['fully-qualified', '➿', '1.0', 'double curly loop', 'Symbols', 'other-symbol'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -13861,7 +13915,7 @@ fusionados_1 = [
   ],
   [
     ['303D'],
-    ['emoji', '1541', 'Symbols', 'other-symbol', '〽', 'part alternation mark'],
+    ['emoji', '1547', 'Symbols', 'other-symbol', '〽', 'part alternation mark'],
     ['unqualified', '〽', '0.6', 'part alternation mark', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13870,7 +13924,7 @@ fusionados_1 = [
   ],
   [
     ['2733'],
-    ['emoji', '1542', 'Symbols', 'other-symbol', '✳', 'eight-spoked asterisk'],
+    ['emoji', '1548', 'Symbols', 'other-symbol', '✳', 'eight-spoked asterisk'],
     ['unqualified', '✳', '0.6', 'eight-spoked asterisk', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13879,7 +13933,7 @@ fusionados_1 = [
   ],
   [
     ['2734'],
-    ['emoji', '1543', 'Symbols', 'other-symbol', '✴', 'eight-pointed star'],
+    ['emoji', '1549', 'Symbols', 'other-symbol', '✴', 'eight-pointed star'],
     ['unqualified', '✴', '0.6', 'eight-pointed star', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13888,7 +13942,7 @@ fusionados_1 = [
   ],
   [
     ['2747'],
-    ['emoji', '1544', 'Symbols', 'other-symbol', '❇', 'sparkle'],
+    ['emoji', '1550', 'Symbols', 'other-symbol', '❇', 'sparkle'],
     ['unqualified', '❇', '0.6', 'sparkle', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13897,7 +13951,7 @@ fusionados_1 = [
   ],
   [
     ['00A9'],
-    ['emoji', '1545', 'Symbols', 'other-symbol', '©', 'copyright'],
+    ['emoji', '1551', 'Symbols', 'other-symbol', '©', 'copyright'],
     ['unqualified', '©', '0.6', 'copyright', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13906,7 +13960,7 @@ fusionados_1 = [
   ],
   [
     ['00AE'],
-    ['emoji', '1546', 'Symbols', 'other-symbol', '®', 'registered'],
+    ['emoji', '1552', 'Symbols', 'other-symbol', '®', 'registered'],
     ['unqualified', '®', '0.6', 'registered', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13915,7 +13969,7 @@ fusionados_1 = [
   ],
   [
     ['2122'],
-    ['emoji', '1547', 'Symbols', 'other-symbol', '™', 'trade mark'],
+    ['emoji', '1553', 'Symbols', 'other-symbol', '™', 'trade mark'],
     ['unqualified', '™', '0.6', 'trade mark', 'Symbols', 'other-symbol'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -13923,8 +13977,17 @@ fusionados_1 = [
     [],
   ],
   [
+    ['1FADF'],
+    ['emoji', '1554', 'Symbols', 'other-symbol', '\U0001fadf', 'splatter'],
+    ['fully-qualified', '\U0001fadf', '16.0', 'splatter', 'Symbols', 'other-symbol'],
+    [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '16.0'],
+    [],
+    [],
+    ['Basic_Emoji', '16.0'],
+  ],
+  [
     ['0023', 'FE0F', '20E3'],
-    ['emoji', '1548', 'Symbols', 'keycap', '#️⃣', 'keycap: #'],
+    ['emoji', '1555', 'Symbols', 'keycap', '#️⃣', 'keycap: #'],
     ['fully-qualified', '#️⃣', '0.6', 'keycap: #', 'Symbols', 'keycap'],
     [],
     [],
@@ -13933,7 +13996,7 @@ fusionados_1 = [
   ],
   [
     ['002A', 'FE0F', '20E3'],
-    ['emoji', '1549', 'Symbols', 'keycap', '*️⃣', 'keycap: *'],
+    ['emoji', '1556', 'Symbols', 'keycap', '*️⃣', 'keycap: *'],
     ['fully-qualified', '*️⃣', '2.0', 'keycap: *', 'Symbols', 'keycap'],
     [],
     [],
@@ -13942,7 +14005,7 @@ fusionados_1 = [
   ],
   [
     ['0030', 'FE0F', '20E3'],
-    ['emoji', '1550', 'Symbols', 'keycap', '0️⃣', 'keycap: 0'],
+    ['emoji', '1557', 'Symbols', 'keycap', '0️⃣', 'keycap: 0'],
     ['fully-qualified', '0️⃣', '0.6', 'keycap: 0', 'Symbols', 'keycap'],
     [],
     [],
@@ -13951,7 +14014,7 @@ fusionados_1 = [
   ],
   [
     ['0031', 'FE0F', '20E3'],
-    ['emoji', '1551', 'Symbols', 'keycap', '1️⃣', 'keycap: 1'],
+    ['emoji', '1558', 'Symbols', 'keycap', '1️⃣', 'keycap: 1'],
     ['fully-qualified', '1️⃣', '0.6', 'keycap: 1', 'Symbols', 'keycap'],
     [],
     [],
@@ -13960,7 +14023,7 @@ fusionados_1 = [
   ],
   [
     ['0032', 'FE0F', '20E3'],
-    ['emoji', '1552', 'Symbols', 'keycap', '2️⃣', 'keycap: 2'],
+    ['emoji', '1559', 'Symbols', 'keycap', '2️⃣', 'keycap: 2'],
     ['fully-qualified', '2️⃣', '0.6', 'keycap: 2', 'Symbols', 'keycap'],
     [],
     [],
@@ -13969,7 +14032,7 @@ fusionados_1 = [
   ],
   [
     ['0033', 'FE0F', '20E3'],
-    ['emoji', '1553', 'Symbols', 'keycap', '3️⃣', 'keycap: 3'],
+    ['emoji', '1560', 'Symbols', 'keycap', '3️⃣', 'keycap: 3'],
     ['fully-qualified', '3️⃣', '0.6', 'keycap: 3', 'Symbols', 'keycap'],
     [],
     [],
@@ -13978,7 +14041,7 @@ fusionados_1 = [
   ],
   [
     ['0034', 'FE0F', '20E3'],
-    ['emoji', '1554', 'Symbols', 'keycap', '4️⃣', 'keycap: 4'],
+    ['emoji', '1561', 'Symbols', 'keycap', '4️⃣', 'keycap: 4'],
     ['fully-qualified', '4️⃣', '0.6', 'keycap: 4', 'Symbols', 'keycap'],
     [],
     [],
@@ -13987,7 +14050,7 @@ fusionados_1 = [
   ],
   [
     ['0035', 'FE0F', '20E3'],
-    ['emoji', '1555', 'Symbols', 'keycap', '5️⃣', 'keycap: 5'],
+    ['emoji', '1562', 'Symbols', 'keycap', '5️⃣', 'keycap: 5'],
     ['fully-qualified', '5️⃣', '0.6', 'keycap: 5', 'Symbols', 'keycap'],
     [],
     [],
@@ -13996,7 +14059,7 @@ fusionados_1 = [
   ],
   [
     ['0036', 'FE0F', '20E3'],
-    ['emoji', '1556', 'Symbols', 'keycap', '6️⃣', 'keycap: 6'],
+    ['emoji', '1563', 'Symbols', 'keycap', '6️⃣', 'keycap: 6'],
     ['fully-qualified', '6️⃣', '0.6', 'keycap: 6', 'Symbols', 'keycap'],
     [],
     [],
@@ -14005,7 +14068,7 @@ fusionados_1 = [
   ],
   [
     ['0037', 'FE0F', '20E3'],
-    ['emoji', '1557', 'Symbols', 'keycap', '7️⃣', 'keycap: 7'],
+    ['emoji', '1564', 'Symbols', 'keycap', '7️⃣', 'keycap: 7'],
     ['fully-qualified', '7️⃣', '0.6', 'keycap: 7', 'Symbols', 'keycap'],
     [],
     [],
@@ -14014,7 +14077,7 @@ fusionados_1 = [
   ],
   [
     ['0038', 'FE0F', '20E3'],
-    ['emoji', '1558', 'Symbols', 'keycap', '8️⃣', 'keycap: 8'],
+    ['emoji', '1565', 'Symbols', 'keycap', '8️⃣', 'keycap: 8'],
     ['fully-qualified', '8️⃣', '0.6', 'keycap: 8', 'Symbols', 'keycap'],
     [],
     [],
@@ -14023,7 +14086,7 @@ fusionados_1 = [
   ],
   [
     ['0039', 'FE0F', '20E3'],
-    ['emoji', '1559', 'Symbols', 'keycap', '9️⃣', 'keycap: 9'],
+    ['emoji', '1566', 'Symbols', 'keycap', '9️⃣', 'keycap: 9'],
     ['fully-qualified', '9️⃣', '0.6', 'keycap: 9', 'Symbols', 'keycap'],
     [],
     [],
@@ -14032,7 +14095,7 @@ fusionados_1 = [
   ],
   [
     ['1F51F'],
-    ['emoji', '1560', 'Symbols', 'keycap', '🔟', 'keycap: 10'],
+    ['emoji', '1567', 'Symbols', 'keycap', '🔟', 'keycap: 10'],
     ['fully-qualified', '🔟', '0.6', 'keycap: 10', 'Symbols', 'keycap'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14041,7 +14104,7 @@ fusionados_1 = [
   ],
   [
     ['1F520'],
-    ['emoji', '1561', 'Symbols', 'alphanum', '🔠', 'input latin uppercase'],
+    ['emoji', '1568', 'Symbols', 'alphanum', '🔠', 'input latin uppercase'],
     ['fully-qualified', '🔠', '0.6', 'input latin uppercase', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14050,7 +14113,7 @@ fusionados_1 = [
   ],
   [
     ['1F521'],
-    ['emoji', '1562', 'Symbols', 'alphanum', '🔡', 'input latin lowercase'],
+    ['emoji', '1569', 'Symbols', 'alphanum', '🔡', 'input latin lowercase'],
     ['fully-qualified', '🔡', '0.6', 'input latin lowercase', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14059,7 +14122,7 @@ fusionados_1 = [
   ],
   [
     ['1F522'],
-    ['emoji', '1563', 'Symbols', 'alphanum', '🔢', 'input numbers'],
+    ['emoji', '1570', 'Symbols', 'alphanum', '🔢', 'input numbers'],
     ['fully-qualified', '🔢', '0.6', 'input numbers', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14068,7 +14131,7 @@ fusionados_1 = [
   ],
   [
     ['1F523'],
-    ['emoji', '1564', 'Symbols', 'alphanum', '🔣', 'input symbols'],
+    ['emoji', '1571', 'Symbols', 'alphanum', '🔣', 'input symbols'],
     ['fully-qualified', '🔣', '0.6', 'input symbols', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14077,7 +14140,7 @@ fusionados_1 = [
   ],
   [
     ['1F524'],
-    ['emoji', '1565', 'Symbols', 'alphanum', '🔤', 'input latin letters'],
+    ['emoji', '1572', 'Symbols', 'alphanum', '🔤', 'input latin letters'],
     ['fully-qualified', '🔤', '0.6', 'input latin letters', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14086,7 +14149,7 @@ fusionados_1 = [
   ],
   [
     ['1F170'],
-    ['emoji', '1566', 'Symbols', 'alphanum', '🅰', 'A button (blood type)'],
+    ['emoji', '1573', 'Symbols', 'alphanum', '🅰', 'A button (blood type)'],
     ['unqualified', '🅰', '0.6', 'A button (blood type)', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14095,7 +14158,7 @@ fusionados_1 = [
   ],
   [
     ['1F18E'],
-    ['emoji', '1567', 'Symbols', 'alphanum', '🆎', 'AB button (blood type)'],
+    ['emoji', '1574', 'Symbols', 'alphanum', '🆎', 'AB button (blood type)'],
     ['fully-qualified', '🆎', '0.6', 'AB button (blood type)', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14104,7 +14167,7 @@ fusionados_1 = [
   ],
   [
     ['1F171'],
-    ['emoji', '1568', 'Symbols', 'alphanum', '🅱', 'B button (blood type)'],
+    ['emoji', '1575', 'Symbols', 'alphanum', '🅱', 'B button (blood type)'],
     ['unqualified', '🅱', '0.6', 'B button (blood type)', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14113,7 +14176,7 @@ fusionados_1 = [
   ],
   [
     ['1F191'],
-    ['emoji', '1569', 'Symbols', 'alphanum', '🆑', 'CL button'],
+    ['emoji', '1576', 'Symbols', 'alphanum', '🆑', 'CL button'],
     ['fully-qualified', '🆑', '0.6', 'CL button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14122,7 +14185,7 @@ fusionados_1 = [
   ],
   [
     ['1F192'],
-    ['emoji', '1570', 'Symbols', 'alphanum', '🆒', 'COOL button'],
+    ['emoji', '1577', 'Symbols', 'alphanum', '🆒', 'COOL button'],
     ['fully-qualified', '🆒', '0.6', 'COOL button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14131,7 +14194,7 @@ fusionados_1 = [
   ],
   [
     ['1F193'],
-    ['emoji', '1571', 'Symbols', 'alphanum', '🆓', 'FREE button'],
+    ['emoji', '1578', 'Symbols', 'alphanum', '🆓', 'FREE button'],
     ['fully-qualified', '🆓', '0.6', 'FREE button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14140,7 +14203,7 @@ fusionados_1 = [
   ],
   [
     ['2139'],
-    ['emoji', '1572', 'Symbols', 'alphanum', 'ℹ', 'information'],
+    ['emoji', '1579', 'Symbols', 'alphanum', 'ℹ', 'information'],
     ['unqualified', 'ℹ', '0.6', 'information', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14149,7 +14212,7 @@ fusionados_1 = [
   ],
   [
     ['1F194'],
-    ['emoji', '1573', 'Symbols', 'alphanum', '🆔', 'ID button'],
+    ['emoji', '1580', 'Symbols', 'alphanum', '🆔', 'ID button'],
     ['fully-qualified', '🆔', '0.6', 'ID button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14158,7 +14221,7 @@ fusionados_1 = [
   ],
   [
     ['24C2'],
-    ['emoji', '1574', 'Symbols', 'alphanum', 'Ⓜ', 'circled M'],
+    ['emoji', '1581', 'Symbols', 'alphanum', 'Ⓜ', 'circled M'],
     ['unqualified', 'Ⓜ', '0.6', 'circled M', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14167,7 +14230,7 @@ fusionados_1 = [
   ],
   [
     ['1F195'],
-    ['emoji', '1575', 'Symbols', 'alphanum', '🆕', 'NEW button'],
+    ['emoji', '1582', 'Symbols', 'alphanum', '🆕', 'NEW button'],
     ['fully-qualified', '🆕', '0.6', 'NEW button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14176,7 +14239,7 @@ fusionados_1 = [
   ],
   [
     ['1F196'],
-    ['emoji', '1576', 'Symbols', 'alphanum', '🆖', 'NG button'],
+    ['emoji', '1583', 'Symbols', 'alphanum', '🆖', 'NG button'],
     ['fully-qualified', '🆖', '0.6', 'NG button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14185,7 +14248,7 @@ fusionados_1 = [
   ],
   [
     ['1F17E'],
-    ['emoji', '1577', 'Symbols', 'alphanum', '🅾', 'O button (blood type)'],
+    ['emoji', '1584', 'Symbols', 'alphanum', '🅾', 'O button (blood type)'],
     ['unqualified', '🅾', '0.6', 'O button (blood type)', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14194,7 +14257,7 @@ fusionados_1 = [
   ],
   [
     ['1F197'],
-    ['emoji', '1578', 'Symbols', 'alphanum', '🆗', 'OK button'],
+    ['emoji', '1585', 'Symbols', 'alphanum', '🆗', 'OK button'],
     ['fully-qualified', '🆗', '0.6', 'OK button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14203,7 +14266,7 @@ fusionados_1 = [
   ],
   [
     ['1F17F'],
-    ['emoji', '1579', 'Symbols', 'alphanum', '🅿', 'P button'],
+    ['emoji', '1586', 'Symbols', 'alphanum', '🅿', 'P button'],
     ['unqualified', '🅿', '0.6', 'P button', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14212,7 +14275,7 @@ fusionados_1 = [
   ],
   [
     ['1F198'],
-    ['emoji', '1580', 'Symbols', 'alphanum', '🆘', 'SOS button'],
+    ['emoji', '1587', 'Symbols', 'alphanum', '🆘', 'SOS button'],
     ['fully-qualified', '🆘', '0.6', 'SOS button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14221,7 +14284,7 @@ fusionados_1 = [
   ],
   [
     ['1F199'],
-    ['emoji', '1581', 'Symbols', 'alphanum', '🆙', 'UP! button'],
+    ['emoji', '1588', 'Symbols', 'alphanum', '🆙', 'UP! button'],
     ['fully-qualified', '🆙', '0.6', 'UP! button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14230,7 +14293,7 @@ fusionados_1 = [
   ],
   [
     ['1F19A'],
-    ['emoji', '1582', 'Symbols', 'alphanum', '🆚', 'VS button'],
+    ['emoji', '1589', 'Symbols', 'alphanum', '🆚', 'VS button'],
     ['fully-qualified', '🆚', '0.6', 'VS button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14239,7 +14302,7 @@ fusionados_1 = [
   ],
   [
     ['1F201'],
-    ['emoji', '1583', 'Symbols', 'alphanum', '🈁', 'Japanese “here” button'],
+    ['emoji', '1590', 'Symbols', 'alphanum', '🈁', 'Japanese “here” button'],
     ['fully-qualified', '🈁', '0.6', 'Japanese “here” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14248,7 +14311,7 @@ fusionados_1 = [
   ],
   [
     ['1F202'],
-    ['emoji', '1584', 'Symbols', 'alphanum', '🈂', 'Japanese “service charge” button'],
+    ['emoji', '1591', 'Symbols', 'alphanum', '🈂', 'Japanese “service charge” button'],
     ['unqualified', '🈂', '0.6', 'Japanese “service charge” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14257,7 +14320,7 @@ fusionados_1 = [
   ],
   [
     ['1F237'],
-    ['emoji', '1585', 'Symbols', 'alphanum', '🈷', 'Japanese “monthly amount” button'],
+    ['emoji', '1592', 'Symbols', 'alphanum', '🈷', 'Japanese “monthly amount” button'],
     ['unqualified', '🈷', '0.6', 'Japanese “monthly amount” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14266,7 +14329,7 @@ fusionados_1 = [
   ],
   [
     ['1F236'],
-    ['emoji', '1586', 'Symbols', 'alphanum', '🈶', 'Japanese “not free of charge” button'],
+    ['emoji', '1593', 'Symbols', 'alphanum', '🈶', 'Japanese “not free of charge” button'],
     ['fully-qualified', '🈶', '0.6', 'Japanese “not free of charge” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14275,7 +14338,7 @@ fusionados_1 = [
   ],
   [
     ['1F22F'],
-    ['emoji', '1587', 'Symbols', 'alphanum', '🈯', 'Japanese “reserved” button'],
+    ['emoji', '1594', 'Symbols', 'alphanum', '🈯', 'Japanese “reserved” button'],
     ['fully-qualified', '🈯', '0.6', 'Japanese “reserved” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14284,7 +14347,7 @@ fusionados_1 = [
   ],
   [
     ['1F250'],
-    ['emoji', '1588', 'Symbols', 'alphanum', '🉐', 'Japanese “bargain” button'],
+    ['emoji', '1595', 'Symbols', 'alphanum', '🉐', 'Japanese “bargain” button'],
     ['fully-qualified', '🉐', '0.6', 'Japanese “bargain” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14293,7 +14356,7 @@ fusionados_1 = [
   ],
   [
     ['1F239'],
-    ['emoji', '1589', 'Symbols', 'alphanum', '🈹', 'Japanese “discount” button'],
+    ['emoji', '1596', 'Symbols', 'alphanum', '🈹', 'Japanese “discount” button'],
     ['fully-qualified', '🈹', '0.6', 'Japanese “discount” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14302,7 +14365,7 @@ fusionados_1 = [
   ],
   [
     ['1F21A'],
-    ['emoji', '1590', 'Symbols', 'alphanum', '🈚', 'Japanese “free of charge” button'],
+    ['emoji', '1597', 'Symbols', 'alphanum', '🈚', 'Japanese “free of charge” button'],
     ['fully-qualified', '🈚', '0.6', 'Japanese “free of charge” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14311,7 +14374,7 @@ fusionados_1 = [
   ],
   [
     ['1F232'],
-    ['emoji', '1591', 'Symbols', 'alphanum', '🈲', 'Japanese “prohibited” button'],
+    ['emoji', '1598', 'Symbols', 'alphanum', '🈲', 'Japanese “prohibited” button'],
     ['fully-qualified', '🈲', '0.6', 'Japanese “prohibited” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14320,7 +14383,7 @@ fusionados_1 = [
   ],
   [
     ['1F251'],
-    ['emoji', '1592', 'Symbols', 'alphanum', '🉑', 'Japanese “acceptable” button'],
+    ['emoji', '1599', 'Symbols', 'alphanum', '🉑', 'Japanese “acceptable” button'],
     ['fully-qualified', '🉑', '0.6', 'Japanese “acceptable” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14329,7 +14392,7 @@ fusionados_1 = [
   ],
   [
     ['1F238'],
-    ['emoji', '1593', 'Symbols', 'alphanum', '🈸', 'Japanese “application” button'],
+    ['emoji', '1600', 'Symbols', 'alphanum', '🈸', 'Japanese “application” button'],
     ['fully-qualified', '🈸', '0.6', 'Japanese “application” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14338,7 +14401,7 @@ fusionados_1 = [
   ],
   [
     ['1F234'],
-    ['emoji', '1594', 'Symbols', 'alphanum', '🈴', 'Japanese “passing grade” button'],
+    ['emoji', '1601', 'Symbols', 'alphanum', '🈴', 'Japanese “passing grade” button'],
     ['fully-qualified', '🈴', '0.6', 'Japanese “passing grade” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14347,7 +14410,7 @@ fusionados_1 = [
   ],
   [
     ['1F233'],
-    ['emoji', '1595', 'Symbols', 'alphanum', '🈳', 'Japanese “vacancy” button'],
+    ['emoji', '1602', 'Symbols', 'alphanum', '🈳', 'Japanese “vacancy” button'],
     ['fully-qualified', '🈳', '0.6', 'Japanese “vacancy” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14356,7 +14419,7 @@ fusionados_1 = [
   ],
   [
     ['3297'],
-    ['emoji', '1596', 'Symbols', 'alphanum', '㊗', 'Japanese “congratulations” button'],
+    ['emoji', '1603', 'Symbols', 'alphanum', '㊗', 'Japanese “congratulations” button'],
     ['unqualified', '㊗', '0.6', 'Japanese “congratulations” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14365,7 +14428,7 @@ fusionados_1 = [
   ],
   [
     ['3299'],
-    ['emoji', '1597', 'Symbols', 'alphanum', '㊙', 'Japanese “secret” button'],
+    ['emoji', '1604', 'Symbols', 'alphanum', '㊙', 'Japanese “secret” button'],
     ['unqualified', '㊙', '0.6', 'Japanese “secret” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14374,7 +14437,7 @@ fusionados_1 = [
   ],
   [
     ['1F23A'],
-    ['emoji', '1598', 'Symbols', 'alphanum', '🈺', 'Japanese “open for business” button'],
+    ['emoji', '1605', 'Symbols', 'alphanum', '🈺', 'Japanese “open for business” button'],
     ['fully-qualified', '🈺', '0.6', 'Japanese “open for business” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14383,7 +14446,7 @@ fusionados_1 = [
   ],
   [
     ['1F235'],
-    ['emoji', '1599', 'Symbols', 'alphanum', '🈵', 'Japanese “no vacancy” button'],
+    ['emoji', '1606', 'Symbols', 'alphanum', '🈵', 'Japanese “no vacancy” button'],
     ['fully-qualified', '🈵', '0.6', 'Japanese “no vacancy” button', 'Symbols', 'alphanum'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14392,7 +14455,7 @@ fusionados_1 = [
   ],
   [
     ['1F534'],
-    ['emoji', '1600', 'Symbols', 'geometric', '🔴', 'red circle'],
+    ['emoji', '1607', 'Symbols', 'geometric', '🔴', 'red circle'],
     ['fully-qualified', '🔴', '0.6', 'red circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14401,7 +14464,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E0'],
-    ['emoji', '1601', 'Symbols', 'geometric', '🟠', 'orange circle'],
+    ['emoji', '1608', 'Symbols', 'geometric', '🟠', 'orange circle'],
     ['fully-qualified', '🟠', '12.0', 'orange circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14410,7 +14473,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E1'],
-    ['emoji', '1602', 'Symbols', 'geometric', '🟡', 'yellow circle'],
+    ['emoji', '1609', 'Symbols', 'geometric', '🟡', 'yellow circle'],
     ['fully-qualified', '🟡', '12.0', 'yellow circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14419,7 +14482,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E2'],
-    ['emoji', '1603', 'Symbols', 'geometric', '🟢', 'green circle'],
+    ['emoji', '1610', 'Symbols', 'geometric', '🟢', 'green circle'],
     ['fully-qualified', '🟢', '12.0', 'green circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14428,7 +14491,7 @@ fusionados_1 = [
   ],
   [
     ['1F535'],
-    ['emoji', '1604', 'Symbols', 'geometric', '🔵', 'blue circle'],
+    ['emoji', '1611', 'Symbols', 'geometric', '🔵', 'blue circle'],
     ['fully-qualified', '🔵', '0.6', 'blue circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14437,7 +14500,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E3'],
-    ['emoji', '1605', 'Symbols', 'geometric', '🟣', 'purple circle'],
+    ['emoji', '1612', 'Symbols', 'geometric', '🟣', 'purple circle'],
     ['fully-qualified', '🟣', '12.0', 'purple circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14446,7 +14509,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E4'],
-    ['emoji', '1606', 'Symbols', 'geometric', '🟤', 'brown circle'],
+    ['emoji', '1613', 'Symbols', 'geometric', '🟤', 'brown circle'],
     ['fully-qualified', '🟤', '12.0', 'brown circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14455,7 +14518,7 @@ fusionados_1 = [
   ],
   [
     ['26AB'],
-    ['emoji', '1607', 'Symbols', 'geometric', '⚫', 'black circle'],
+    ['emoji', '1614', 'Symbols', 'geometric', '⚫', 'black circle'],
     ['fully-qualified', '⚫', '0.6', 'black circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14464,7 +14527,7 @@ fusionados_1 = [
   ],
   [
     ['26AA'],
-    ['emoji', '1608', 'Symbols', 'geometric', '⚪', 'white circle'],
+    ['emoji', '1615', 'Symbols', 'geometric', '⚪', 'white circle'],
     ['fully-qualified', '⚪', '0.6', 'white circle', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14473,7 +14536,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E5'],
-    ['emoji', '1609', 'Symbols', 'geometric', '🟥', 'red square'],
+    ['emoji', '1616', 'Symbols', 'geometric', '🟥', 'red square'],
     ['fully-qualified', '🟥', '12.0', 'red square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14482,7 +14545,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E7'],
-    ['emoji', '1610', 'Symbols', 'geometric', '🟧', 'orange square'],
+    ['emoji', '1617', 'Symbols', 'geometric', '🟧', 'orange square'],
     ['fully-qualified', '🟧', '12.0', 'orange square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14491,7 +14554,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E8'],
-    ['emoji', '1611', 'Symbols', 'geometric', '🟨', 'yellow square'],
+    ['emoji', '1618', 'Symbols', 'geometric', '🟨', 'yellow square'],
     ['fully-qualified', '🟨', '12.0', 'yellow square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14500,7 +14563,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E9'],
-    ['emoji', '1612', 'Symbols', 'geometric', '🟩', 'green square'],
+    ['emoji', '1619', 'Symbols', 'geometric', '🟩', 'green square'],
     ['fully-qualified', '🟩', '12.0', 'green square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14509,7 +14572,7 @@ fusionados_1 = [
   ],
   [
     ['1F7E6'],
-    ['emoji', '1613', 'Symbols', 'geometric', '🟦', 'blue square'],
+    ['emoji', '1620', 'Symbols', 'geometric', '🟦', 'blue square'],
     ['fully-qualified', '🟦', '12.0', 'blue square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14518,7 +14581,7 @@ fusionados_1 = [
   ],
   [
     ['1F7EA'],
-    ['emoji', '1614', 'Symbols', 'geometric', '🟪', 'purple square'],
+    ['emoji', '1621', 'Symbols', 'geometric', '🟪', 'purple square'],
     ['fully-qualified', '🟪', '12.0', 'purple square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14527,7 +14590,7 @@ fusionados_1 = [
   ],
   [
     ['1F7EB'],
-    ['emoji', '1615', 'Symbols', 'geometric', '🟫', 'brown square'],
+    ['emoji', '1622', 'Symbols', 'geometric', '🟫', 'brown square'],
     ['fully-qualified', '🟫', '12.0', 'brown square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '12.0'],
     [],
@@ -14536,7 +14599,7 @@ fusionados_1 = [
   ],
   [
     ['2B1B'],
-    ['emoji', '1616', 'Symbols', 'geometric', '⬛', 'black large square'],
+    ['emoji', '1623', 'Symbols', 'geometric', '⬛', 'black large square'],
     ['fully-qualified', '⬛', '0.6', 'black large square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14545,7 +14608,7 @@ fusionados_1 = [
   ],
   [
     ['2B1C'],
-    ['emoji', '1617', 'Symbols', 'geometric', '⬜', 'white large square'],
+    ['emoji', '1624', 'Symbols', 'geometric', '⬜', 'white large square'],
     ['fully-qualified', '⬜', '0.6', 'white large square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14554,7 +14617,7 @@ fusionados_1 = [
   ],
   [
     ['25FC'],
-    ['emoji', '1618', 'Symbols', 'geometric', '◼', 'black medium square'],
+    ['emoji', '1625', 'Symbols', 'geometric', '◼', 'black medium square'],
     ['unqualified', '◼', '0.6', 'black medium square', 'Symbols', 'geometric'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14563,7 +14626,7 @@ fusionados_1 = [
   ],
   [
     ['25FB'],
-    ['emoji', '1619', 'Symbols', 'geometric', '◻', 'white medium square'],
+    ['emoji', '1626', 'Symbols', 'geometric', '◻', 'white medium square'],
     ['unqualified', '◻', '0.6', 'white medium square', 'Symbols', 'geometric'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14572,7 +14635,7 @@ fusionados_1 = [
   ],
   [
     ['25FE'],
-    ['emoji', '1620', 'Symbols', 'geometric', '◾', 'black medium-small square'],
+    ['emoji', '1627', 'Symbols', 'geometric', '◾', 'black medium-small square'],
     ['fully-qualified', '◾', '0.6', 'black medium-small square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14581,7 +14644,7 @@ fusionados_1 = [
   ],
   [
     ['25FD'],
-    ['emoji', '1621', 'Symbols', 'geometric', '◽', 'white medium-small square'],
+    ['emoji', '1628', 'Symbols', 'geometric', '◽', 'white medium-small square'],
     ['fully-qualified', '◽', '0.6', 'white medium-small square', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14590,7 +14653,7 @@ fusionados_1 = [
   ],
   [
     ['25AA'],
-    ['emoji', '1622', 'Symbols', 'geometric', '▪', 'black small square'],
+    ['emoji', '1629', 'Symbols', 'geometric', '▪', 'black small square'],
     ['unqualified', '▪', '0.6', 'black small square', 'Symbols', 'geometric'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14599,7 +14662,7 @@ fusionados_1 = [
   ],
   [
     ['25AB'],
-    ['emoji', '1623', 'Symbols', 'geometric', '▫', 'white small square'],
+    ['emoji', '1630', 'Symbols', 'geometric', '▫', 'white small square'],
     ['unqualified', '▫', '0.6', 'white small square', 'Symbols', 'geometric'],
     [['Emoji', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14608,7 +14671,7 @@ fusionados_1 = [
   ],
   [
     ['1F536'],
-    ['emoji', '1624', 'Symbols', 'geometric', '🔶', 'large orange diamond'],
+    ['emoji', '1631', 'Symbols', 'geometric', '🔶', 'large orange diamond'],
     ['fully-qualified', '🔶', '0.6', 'large orange diamond', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14617,7 +14680,7 @@ fusionados_1 = [
   ],
   [
     ['1F537'],
-    ['emoji', '1625', 'Symbols', 'geometric', '🔷', 'large blue diamond'],
+    ['emoji', '1632', 'Symbols', 'geometric', '🔷', 'large blue diamond'],
     ['fully-qualified', '🔷', '0.6', 'large blue diamond', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14626,7 +14689,7 @@ fusionados_1 = [
   ],
   [
     ['1F538'],
-    ['emoji', '1626', 'Symbols', 'geometric', '🔸', 'small orange diamond'],
+    ['emoji', '1633', 'Symbols', 'geometric', '🔸', 'small orange diamond'],
     ['fully-qualified', '🔸', '0.6', 'small orange diamond', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14635,7 +14698,7 @@ fusionados_1 = [
   ],
   [
     ['1F539'],
-    ['emoji', '1627', 'Symbols', 'geometric', '🔹', 'small blue diamond'],
+    ['emoji', '1634', 'Symbols', 'geometric', '🔹', 'small blue diamond'],
     ['fully-qualified', '🔹', '0.6', 'small blue diamond', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14644,7 +14707,7 @@ fusionados_1 = [
   ],
   [
     ['1F53A'],
-    ['emoji', '1628', 'Symbols', 'geometric', '🔺', 'red triangle pointed up'],
+    ['emoji', '1635', 'Symbols', 'geometric', '🔺', 'red triangle pointed up'],
     ['fully-qualified', '🔺', '0.6', 'red triangle pointed up', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14653,7 +14716,7 @@ fusionados_1 = [
   ],
   [
     ['1F53B'],
-    ['emoji', '1629', 'Symbols', 'geometric', '🔻', 'red triangle pointed down'],
+    ['emoji', '1636', 'Symbols', 'geometric', '🔻', 'red triangle pointed down'],
     ['fully-qualified', '🔻', '0.6', 'red triangle pointed down', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14662,7 +14725,7 @@ fusionados_1 = [
   ],
   [
     ['1F4A0'],
-    ['emoji', '1630', 'Symbols', 'geometric', '💠', 'diamond with a dot'],
+    ['emoji', '1637', 'Symbols', 'geometric', '💠', 'diamond with a dot'],
     ['fully-qualified', '💠', '0.6', 'diamond with a dot', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14671,7 +14734,7 @@ fusionados_1 = [
   ],
   [
     ['1F518'],
-    ['emoji', '1631', 'Symbols', 'geometric', '🔘', 'radio button'],
+    ['emoji', '1638', 'Symbols', 'geometric', '🔘', 'radio button'],
     ['fully-qualified', '🔘', '0.6', 'radio button', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14680,7 +14743,7 @@ fusionados_1 = [
   ],
   [
     ['1F533'],
-    ['emoji', '1632', 'Symbols', 'geometric', '🔳', 'white square button'],
+    ['emoji', '1639', 'Symbols', 'geometric', '🔳', 'white square button'],
     ['fully-qualified', '🔳', '0.6', 'white square button', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14689,7 +14752,7 @@ fusionados_1 = [
   ],
   [
     ['1F532'],
-    ['emoji', '1633', 'Symbols', 'geometric', '🔲', 'black square button'],
+    ['emoji', '1640', 'Symbols', 'geometric', '🔲', 'black square button'],
     ['fully-qualified', '🔲', '0.6', 'black square button', 'Symbols', 'geometric'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14698,7 +14761,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C1'],
-    ['emoji', '1634', 'Flags', 'flag', '🏁', 'chequered flag'],
+    ['emoji', '1641', 'Flags', 'flag', '🏁', 'chequered flag'],
     ['fully-qualified', '🏁', '0.6', 'chequered flag', 'Flags', 'flag'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14707,7 +14770,7 @@ fusionados_1 = [
   ],
   [
     ['1F6A9'],
-    ['emoji', '1635', 'Flags', 'flag', '🚩', 'triangular flag'],
+    ['emoji', '1642', 'Flags', 'flag', '🚩', 'triangular flag'],
     ['fully-qualified', '🚩', '0.6', 'triangular flag', 'Flags', 'flag'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14716,7 +14779,7 @@ fusionados_1 = [
   ],
   [
     ['1F38C'],
-    ['emoji', '1636', 'Flags', 'flag', '🎌', 'crossed flags'],
+    ['emoji', '1643', 'Flags', 'flag', '🎌', 'crossed flags'],
     ['fully-qualified', '🎌', '0.6', 'crossed flags', 'Flags', 'flag'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '0.6'],
     [],
@@ -14725,7 +14788,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F4'],
-    ['emoji', '1637', 'Flags', 'flag', '🏴', 'black flag'],
+    ['emoji', '1644', 'Flags', 'flag', '🏴', 'black flag'],
     ['fully-qualified', '🏴', '1.0', 'black flag', 'Flags', 'flag'],
     [['Emoji', 'Emoji_Presentation', 'Extended_Pictographic'], '1.0'],
     [],
@@ -14734,7 +14797,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F3'],
-    ['emoji', '1638', 'Flags', 'flag', '🏳', 'white flag'],
+    ['emoji', '1645', 'Flags', 'flag', '🏳', 'white flag'],
     ['unqualified', '🏳', '0.7', 'white flag', 'Flags', 'flag'],
     [['Emoji', 'Extended_Pictographic'], '0.7'],
     [],
@@ -14743,7 +14806,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F3', 'FE0F', '200D', '1F308'],
-    ['emoji', '1639', 'Flags', 'flag', '🏳️\u200d🌈', 'rainbow flag'],
+    ['emoji', '1646', 'Flags', 'flag', '🏳️\u200d🌈', 'rainbow flag'],
     ['fully-qualified', '🏳️\u200d🌈', '4.0', 'rainbow flag', 'Flags', 'flag'],
     [],
     [],
@@ -14752,7 +14815,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F3', 'FE0F', '200D', '26A7', 'FE0F'],
-    ['emoji', '1640', 'Flags', 'flag', '🏳️\u200d⚧️', 'transgender flag'],
+    ['emoji', '1647', 'Flags', 'flag', '🏳️\u200d⚧️', 'transgender flag'],
     ['fully-qualified', '🏳️\u200d⚧️', '13.0', 'transgender flag', 'Flags', 'flag'],
     [],
     [],
@@ -14761,7 +14824,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F4', '200D', '2620', 'FE0F'],
-    ['emoji', '1641', 'Flags', 'flag', '🏴\u200d☠️', 'pirate flag'],
+    ['emoji', '1648', 'Flags', 'flag', '🏴\u200d☠️', 'pirate flag'],
     ['fully-qualified', '🏴\u200d☠️', '11.0', 'pirate flag', 'Flags', 'flag'],
     [],
     [],
@@ -14770,7 +14833,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1E8'],
-    ['emoji', '1642', 'Flags', 'country-flag', '🇦🇨', 'flag: Ascension Island'],
+    ['emoji', '1649', 'Flags', 'country-flag', '🇦🇨', 'flag: Ascension Island'],
     ['fully-qualified', '🇦🇨', '2.0', 'flag: Ascension Island', 'Flags', 'country-flag'],
     [],
     [],
@@ -14779,7 +14842,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1E9'],
-    ['emoji', '1643', 'Flags', 'country-flag', '🇦🇩', 'flag: Andorra'],
+    ['emoji', '1650', 'Flags', 'country-flag', '🇦🇩', 'flag: Andorra'],
     ['fully-qualified', '🇦🇩', '2.0', 'flag: Andorra', 'Flags', 'country-flag'],
     [],
     [],
@@ -14788,7 +14851,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1EA'],
-    ['emoji', '1644', 'Flags', 'country-flag', '🇦🇪', 'flag: United Arab Emirates'],
+    ['emoji', '1651', 'Flags', 'country-flag', '🇦🇪', 'flag: United Arab Emirates'],
     ['fully-qualified', '🇦🇪', '2.0', 'flag: United Arab Emirates', 'Flags', 'country-flag'],
     [],
     [],
@@ -14797,7 +14860,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1EB'],
-    ['emoji', '1645', 'Flags', 'country-flag', '🇦🇫', 'flag: Afghanistan'],
+    ['emoji', '1652', 'Flags', 'country-flag', '🇦🇫', 'flag: Afghanistan'],
     ['fully-qualified', '🇦🇫', '2.0', 'flag: Afghanistan', 'Flags', 'country-flag'],
     [],
     [],
@@ -14806,7 +14869,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1EC'],
-    ['emoji', '1646', 'Flags', 'country-flag', '🇦🇬', 'flag: Antigua & Barbuda'],
+    ['emoji', '1653', 'Flags', 'country-flag', '🇦🇬', 'flag: Antigua & Barbuda'],
     ['fully-qualified', '🇦🇬', '2.0', 'flag: Antigua & Barbuda', 'Flags', 'country-flag'],
     [],
     [],
@@ -14815,7 +14878,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1EE'],
-    ['emoji', '1647', 'Flags', 'country-flag', '🇦🇮', 'flag: Anguilla'],
+    ['emoji', '1654', 'Flags', 'country-flag', '🇦🇮', 'flag: Anguilla'],
     ['fully-qualified', '🇦🇮', '2.0', 'flag: Anguilla', 'Flags', 'country-flag'],
     [],
     [],
@@ -14824,7 +14887,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1F1'],
-    ['emoji', '1648', 'Flags', 'country-flag', '🇦🇱', 'flag: Albania'],
+    ['emoji', '1655', 'Flags', 'country-flag', '🇦🇱', 'flag: Albania'],
     ['fully-qualified', '🇦🇱', '2.0', 'flag: Albania', 'Flags', 'country-flag'],
     [],
     [],
@@ -14833,7 +14896,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1F2'],
-    ['emoji', '1649', 'Flags', 'country-flag', '🇦🇲', 'flag: Armenia'],
+    ['emoji', '1656', 'Flags', 'country-flag', '🇦🇲', 'flag: Armenia'],
     ['fully-qualified', '🇦🇲', '2.0', 'flag: Armenia', 'Flags', 'country-flag'],
     [],
     [],
@@ -14842,7 +14905,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1F4'],
-    ['emoji', '1650', 'Flags', 'country-flag', '🇦🇴', 'flag: Angola'],
+    ['emoji', '1657', 'Flags', 'country-flag', '🇦🇴', 'flag: Angola'],
     ['fully-qualified', '🇦🇴', '2.0', 'flag: Angola', 'Flags', 'country-flag'],
     [],
     [],
@@ -14851,7 +14914,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1F6'],
-    ['emoji', '1651', 'Flags', 'country-flag', '🇦🇶', 'flag: Antarctica'],
+    ['emoji', '1658', 'Flags', 'country-flag', '🇦🇶', 'flag: Antarctica'],
     ['fully-qualified', '🇦🇶', '2.0', 'flag: Antarctica', 'Flags', 'country-flag'],
     [],
     [],
@@ -14860,7 +14923,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1F7'],
-    ['emoji', '1652', 'Flags', 'country-flag', '🇦🇷', 'flag: Argentina'],
+    ['emoji', '1659', 'Flags', 'country-flag', '🇦🇷', 'flag: Argentina'],
     ['fully-qualified', '🇦🇷', '2.0', 'flag: Argentina', 'Flags', 'country-flag'],
     [],
     [],
@@ -14869,7 +14932,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1F8'],
-    ['emoji', '1653', 'Flags', 'country-flag', '🇦🇸', 'flag: American Samoa'],
+    ['emoji', '1660', 'Flags', 'country-flag', '🇦🇸', 'flag: American Samoa'],
     ['fully-qualified', '🇦🇸', '2.0', 'flag: American Samoa', 'Flags', 'country-flag'],
     [],
     [],
@@ -14878,7 +14941,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1F9'],
-    ['emoji', '1654', 'Flags', 'country-flag', '🇦🇹', 'flag: Austria'],
+    ['emoji', '1661', 'Flags', 'country-flag', '🇦🇹', 'flag: Austria'],
     ['fully-qualified', '🇦🇹', '2.0', 'flag: Austria', 'Flags', 'country-flag'],
     [],
     [],
@@ -14887,7 +14950,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1FA'],
-    ['emoji', '1655', 'Flags', 'country-flag', '🇦🇺', 'flag: Australia'],
+    ['emoji', '1662', 'Flags', 'country-flag', '🇦🇺', 'flag: Australia'],
     ['fully-qualified', '🇦🇺', '2.0', 'flag: Australia', 'Flags', 'country-flag'],
     [],
     [],
@@ -14896,7 +14959,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1FC'],
-    ['emoji', '1656', 'Flags', 'country-flag', '🇦🇼', 'flag: Aruba'],
+    ['emoji', '1663', 'Flags', 'country-flag', '🇦🇼', 'flag: Aruba'],
     ['fully-qualified', '🇦🇼', '2.0', 'flag: Aruba', 'Flags', 'country-flag'],
     [],
     [],
@@ -14905,7 +14968,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1FD'],
-    ['emoji', '1657', 'Flags', 'country-flag', '🇦🇽', 'flag: Åland Islands'],
+    ['emoji', '1664', 'Flags', 'country-flag', '🇦🇽', 'flag: Åland Islands'],
     ['fully-qualified', '🇦🇽', '2.0', 'flag: Åland Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -14914,7 +14977,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E6', '1F1FF'],
-    ['emoji', '1658', 'Flags', 'country-flag', '🇦🇿', 'flag: Azerbaijan'],
+    ['emoji', '1665', 'Flags', 'country-flag', '🇦🇿', 'flag: Azerbaijan'],
     ['fully-qualified', '🇦🇿', '2.0', 'flag: Azerbaijan', 'Flags', 'country-flag'],
     [],
     [],
@@ -14923,7 +14986,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1E6'],
-    ['emoji', '1659', 'Flags', 'country-flag', '🇧🇦', 'flag: Bosnia & Herzegovina'],
+    ['emoji', '1666', 'Flags', 'country-flag', '🇧🇦', 'flag: Bosnia & Herzegovina'],
     ['fully-qualified', '🇧🇦', '2.0', 'flag: Bosnia & Herzegovina', 'Flags', 'country-flag'],
     [],
     [],
@@ -14932,7 +14995,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1E7'],
-    ['emoji', '1660', 'Flags', 'country-flag', '🇧🇧', 'flag: Barbados'],
+    ['emoji', '1667', 'Flags', 'country-flag', '🇧🇧', 'flag: Barbados'],
     ['fully-qualified', '🇧🇧', '2.0', 'flag: Barbados', 'Flags', 'country-flag'],
     [],
     [],
@@ -14941,7 +15004,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1E9'],
-    ['emoji', '1661', 'Flags', 'country-flag', '🇧🇩', 'flag: Bangladesh'],
+    ['emoji', '1668', 'Flags', 'country-flag', '🇧🇩', 'flag: Bangladesh'],
     ['fully-qualified', '🇧🇩', '2.0', 'flag: Bangladesh', 'Flags', 'country-flag'],
     [],
     [],
@@ -14950,7 +15013,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1EA'],
-    ['emoji', '1662', 'Flags', 'country-flag', '🇧🇪', 'flag: Belgium'],
+    ['emoji', '1669', 'Flags', 'country-flag', '🇧🇪', 'flag: Belgium'],
     ['fully-qualified', '🇧🇪', '2.0', 'flag: Belgium', 'Flags', 'country-flag'],
     [],
     [],
@@ -14959,7 +15022,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1EB'],
-    ['emoji', '1663', 'Flags', 'country-flag', '🇧🇫', 'flag: Burkina Faso'],
+    ['emoji', '1670', 'Flags', 'country-flag', '🇧🇫', 'flag: Burkina Faso'],
     ['fully-qualified', '🇧🇫', '2.0', 'flag: Burkina Faso', 'Flags', 'country-flag'],
     [],
     [],
@@ -14968,7 +15031,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1EC'],
-    ['emoji', '1664', 'Flags', 'country-flag', '🇧🇬', 'flag: Bulgaria'],
+    ['emoji', '1671', 'Flags', 'country-flag', '🇧🇬', 'flag: Bulgaria'],
     ['fully-qualified', '🇧🇬', '2.0', 'flag: Bulgaria', 'Flags', 'country-flag'],
     [],
     [],
@@ -14977,7 +15040,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1ED'],
-    ['emoji', '1665', 'Flags', 'country-flag', '🇧🇭', 'flag: Bahrain'],
+    ['emoji', '1672', 'Flags', 'country-flag', '🇧🇭', 'flag: Bahrain'],
     ['fully-qualified', '🇧🇭', '2.0', 'flag: Bahrain', 'Flags', 'country-flag'],
     [],
     [],
@@ -14986,7 +15049,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1EE'],
-    ['emoji', '1666', 'Flags', 'country-flag', '🇧🇮', 'flag: Burundi'],
+    ['emoji', '1673', 'Flags', 'country-flag', '🇧🇮', 'flag: Burundi'],
     ['fully-qualified', '🇧🇮', '2.0', 'flag: Burundi', 'Flags', 'country-flag'],
     [],
     [],
@@ -14995,7 +15058,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1EF'],
-    ['emoji', '1667', 'Flags', 'country-flag', '🇧🇯', 'flag: Benin'],
+    ['emoji', '1674', 'Flags', 'country-flag', '🇧🇯', 'flag: Benin'],
     ['fully-qualified', '🇧🇯', '2.0', 'flag: Benin', 'Flags', 'country-flag'],
     [],
     [],
@@ -15004,7 +15067,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1F1'],
-    ['emoji', '1668', 'Flags', 'country-flag', '🇧🇱', 'flag: St. Barthélemy'],
+    ['emoji', '1675', 'Flags', 'country-flag', '🇧🇱', 'flag: St. Barthélemy'],
     ['fully-qualified', '🇧🇱', '2.0', 'flag: St. Barthélemy', 'Flags', 'country-flag'],
     [],
     [],
@@ -15013,7 +15076,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1F2'],
-    ['emoji', '1669', 'Flags', 'country-flag', '🇧🇲', 'flag: Bermuda'],
+    ['emoji', '1676', 'Flags', 'country-flag', '🇧🇲', 'flag: Bermuda'],
     ['fully-qualified', '🇧🇲', '2.0', 'flag: Bermuda', 'Flags', 'country-flag'],
     [],
     [],
@@ -15022,7 +15085,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1F3'],
-    ['emoji', '1670', 'Flags', 'country-flag', '🇧🇳', 'flag: Brunei'],
+    ['emoji', '1677', 'Flags', 'country-flag', '🇧🇳', 'flag: Brunei'],
     ['fully-qualified', '🇧🇳', '2.0', 'flag: Brunei', 'Flags', 'country-flag'],
     [],
     [],
@@ -15031,7 +15094,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1F4'],
-    ['emoji', '1671', 'Flags', 'country-flag', '🇧🇴', 'flag: Bolivia'],
+    ['emoji', '1678', 'Flags', 'country-flag', '🇧🇴', 'flag: Bolivia'],
     ['fully-qualified', '🇧🇴', '2.0', 'flag: Bolivia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15040,7 +15103,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1F6'],
-    ['emoji', '1672', 'Flags', 'country-flag', '🇧🇶', 'flag: Caribbean Netherlands'],
+    ['emoji', '1679', 'Flags', 'country-flag', '🇧🇶', 'flag: Caribbean Netherlands'],
     ['fully-qualified', '🇧🇶', '2.0', 'flag: Caribbean Netherlands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15049,7 +15112,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1F7'],
-    ['emoji', '1673', 'Flags', 'country-flag', '🇧🇷', 'flag: Brazil'],
+    ['emoji', '1680', 'Flags', 'country-flag', '🇧🇷', 'flag: Brazil'],
     ['fully-qualified', '🇧🇷', '2.0', 'flag: Brazil', 'Flags', 'country-flag'],
     [],
     [],
@@ -15058,7 +15121,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1F8'],
-    ['emoji', '1674', 'Flags', 'country-flag', '🇧🇸', 'flag: Bahamas'],
+    ['emoji', '1681', 'Flags', 'country-flag', '🇧🇸', 'flag: Bahamas'],
     ['fully-qualified', '🇧🇸', '2.0', 'flag: Bahamas', 'Flags', 'country-flag'],
     [],
     [],
@@ -15067,7 +15130,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1F9'],
-    ['emoji', '1675', 'Flags', 'country-flag', '🇧🇹', 'flag: Bhutan'],
+    ['emoji', '1682', 'Flags', 'country-flag', '🇧🇹', 'flag: Bhutan'],
     ['fully-qualified', '🇧🇹', '2.0', 'flag: Bhutan', 'Flags', 'country-flag'],
     [],
     [],
@@ -15076,7 +15139,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1FB'],
-    ['emoji', '1676', 'Flags', 'country-flag', '🇧🇻', 'flag: Bouvet Island'],
+    ['emoji', '1683', 'Flags', 'country-flag', '🇧🇻', 'flag: Bouvet Island'],
     ['fully-qualified', '🇧🇻', '2.0', 'flag: Bouvet Island', 'Flags', 'country-flag'],
     [],
     [],
@@ -15085,7 +15148,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1FC'],
-    ['emoji', '1677', 'Flags', 'country-flag', '🇧🇼', 'flag: Botswana'],
+    ['emoji', '1684', 'Flags', 'country-flag', '🇧🇼', 'flag: Botswana'],
     ['fully-qualified', '🇧🇼', '2.0', 'flag: Botswana', 'Flags', 'country-flag'],
     [],
     [],
@@ -15094,7 +15157,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1FE'],
-    ['emoji', '1678', 'Flags', 'country-flag', '🇧🇾', 'flag: Belarus'],
+    ['emoji', '1685', 'Flags', 'country-flag', '🇧🇾', 'flag: Belarus'],
     ['fully-qualified', '🇧🇾', '2.0', 'flag: Belarus', 'Flags', 'country-flag'],
     [],
     [],
@@ -15103,7 +15166,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E7', '1F1FF'],
-    ['emoji', '1679', 'Flags', 'country-flag', '🇧🇿', 'flag: Belize'],
+    ['emoji', '1686', 'Flags', 'country-flag', '🇧🇿', 'flag: Belize'],
     ['fully-qualified', '🇧🇿', '2.0', 'flag: Belize', 'Flags', 'country-flag'],
     [],
     [],
@@ -15112,7 +15175,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1E6'],
-    ['emoji', '1680', 'Flags', 'country-flag', '🇨🇦', 'flag: Canada'],
+    ['emoji', '1687', 'Flags', 'country-flag', '🇨🇦', 'flag: Canada'],
     ['fully-qualified', '🇨🇦', '2.0', 'flag: Canada', 'Flags', 'country-flag'],
     [],
     [],
@@ -15121,7 +15184,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1E8'],
-    ['emoji', '1681', 'Flags', 'country-flag', '🇨🇨', 'flag: Cocos (Keeling) Islands'],
+    ['emoji', '1688', 'Flags', 'country-flag', '🇨🇨', 'flag: Cocos (Keeling) Islands'],
     ['fully-qualified', '🇨🇨', '2.0', 'flag: Cocos (Keeling) Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15130,7 +15193,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1E9'],
-    ['emoji', '1682', 'Flags', 'country-flag', '🇨🇩', 'flag: Congo - Kinshasa'],
+    ['emoji', '1689', 'Flags', 'country-flag', '🇨🇩', 'flag: Congo - Kinshasa'],
     ['fully-qualified', '🇨🇩', '2.0', 'flag: Congo - Kinshasa', 'Flags', 'country-flag'],
     [],
     [],
@@ -15139,7 +15202,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1EB'],
-    ['emoji', '1683', 'Flags', 'country-flag', '🇨🇫', 'flag: Central African Republic'],
+    ['emoji', '1690', 'Flags', 'country-flag', '🇨🇫', 'flag: Central African Republic'],
     ['fully-qualified', '🇨🇫', '2.0', 'flag: Central African Republic', 'Flags', 'country-flag'],
     [],
     [],
@@ -15148,7 +15211,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1EC'],
-    ['emoji', '1684', 'Flags', 'country-flag', '🇨🇬', 'flag: Congo - Brazzaville'],
+    ['emoji', '1691', 'Flags', 'country-flag', '🇨🇬', 'flag: Congo - Brazzaville'],
     ['fully-qualified', '🇨🇬', '2.0', 'flag: Congo - Brazzaville', 'Flags', 'country-flag'],
     [],
     [],
@@ -15157,7 +15220,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1ED'],
-    ['emoji', '1685', 'Flags', 'country-flag', '🇨🇭', 'flag: Switzerland'],
+    ['emoji', '1692', 'Flags', 'country-flag', '🇨🇭', 'flag: Switzerland'],
     ['fully-qualified', '🇨🇭', '2.0', 'flag: Switzerland', 'Flags', 'country-flag'],
     [],
     [],
@@ -15166,7 +15229,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1EE'],
-    ['emoji', '1686', 'Flags', 'country-flag', '🇨🇮', 'flag: Côte d’Ivoire'],
+    ['emoji', '1693', 'Flags', 'country-flag', '🇨🇮', 'flag: Côte d’Ivoire'],
     ['fully-qualified', '🇨🇮', '2.0', 'flag: Côte d’Ivoire', 'Flags', 'country-flag'],
     [],
     [],
@@ -15175,7 +15238,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1F0'],
-    ['emoji', '1687', 'Flags', 'country-flag', '🇨🇰', 'flag: Cook Islands'],
+    ['emoji', '1694', 'Flags', 'country-flag', '🇨🇰', 'flag: Cook Islands'],
     ['fully-qualified', '🇨🇰', '2.0', 'flag: Cook Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15184,7 +15247,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1F1'],
-    ['emoji', '1688', 'Flags', 'country-flag', '🇨🇱', 'flag: Chile'],
+    ['emoji', '1695', 'Flags', 'country-flag', '🇨🇱', 'flag: Chile'],
     ['fully-qualified', '🇨🇱', '2.0', 'flag: Chile', 'Flags', 'country-flag'],
     [],
     [],
@@ -15193,7 +15256,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1F2'],
-    ['emoji', '1689', 'Flags', 'country-flag', '🇨🇲', 'flag: Cameroon'],
+    ['emoji', '1696', 'Flags', 'country-flag', '🇨🇲', 'flag: Cameroon'],
     ['fully-qualified', '🇨🇲', '2.0', 'flag: Cameroon', 'Flags', 'country-flag'],
     [],
     [],
@@ -15202,7 +15265,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1F3'],
-    ['emoji', '1690', 'Flags', 'country-flag', '🇨🇳', 'flag: China'],
+    ['emoji', '1697', 'Flags', 'country-flag', '🇨🇳', 'flag: China'],
     ['fully-qualified', '🇨🇳', '0.6', 'flag: China', 'Flags', 'country-flag'],
     [],
     [],
@@ -15211,7 +15274,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1F4'],
-    ['emoji', '1691', 'Flags', 'country-flag', '🇨🇴', 'flag: Colombia'],
+    ['emoji', '1698', 'Flags', 'country-flag', '🇨🇴', 'flag: Colombia'],
     ['fully-qualified', '🇨🇴', '2.0', 'flag: Colombia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15220,7 +15283,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1F5'],
-    ['emoji', '1692', 'Flags', 'country-flag', '🇨🇵', 'flag: Clipperton Island'],
+    ['emoji', '1699', 'Flags', 'country-flag', '🇨🇵', 'flag: Clipperton Island'],
     ['fully-qualified', '🇨🇵', '2.0', 'flag: Clipperton Island', 'Flags', 'country-flag'],
     [],
     [],
@@ -15228,8 +15291,17 @@ fusionados_1 = [
     ['RGI_Emoji_Flag_Sequence', '2.0'],
   ],
   [
+    ['1F1E8', '1F1F6'],
+    ['emoji', '1700', 'Flags', 'country-flag', '🇨🇶', 'flag: Sark'],
+    ['fully-qualified', '🇨🇶', '16.0', 'flag: Sark', 'Flags', 'country-flag'],
+    [],
+    [],
+    [],
+    ['RGI_Emoji_Flag_Sequence', '16.0'],
+  ],
+  [
     ['1F1E8', '1F1F7'],
-    ['emoji', '1693', 'Flags', 'country-flag', '🇨🇷', 'flag: Costa Rica'],
+    ['emoji', '1701', 'Flags', 'country-flag', '🇨🇷', 'flag: Costa Rica'],
     ['fully-qualified', '🇨🇷', '2.0', 'flag: Costa Rica', 'Flags', 'country-flag'],
     [],
     [],
@@ -15238,7 +15310,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1FA'],
-    ['emoji', '1694', 'Flags', 'country-flag', '🇨🇺', 'flag: Cuba'],
+    ['emoji', '1702', 'Flags', 'country-flag', '🇨🇺', 'flag: Cuba'],
     ['fully-qualified', '🇨🇺', '2.0', 'flag: Cuba', 'Flags', 'country-flag'],
     [],
     [],
@@ -15247,7 +15319,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1FB'],
-    ['emoji', '1695', 'Flags', 'country-flag', '🇨🇻', 'flag: Cape Verde'],
+    ['emoji', '1703', 'Flags', 'country-flag', '🇨🇻', 'flag: Cape Verde'],
     ['fully-qualified', '🇨🇻', '2.0', 'flag: Cape Verde', 'Flags', 'country-flag'],
     [],
     [],
@@ -15256,7 +15328,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1FC'],
-    ['emoji', '1696', 'Flags', 'country-flag', '🇨🇼', 'flag: Curaçao'],
+    ['emoji', '1704', 'Flags', 'country-flag', '🇨🇼', 'flag: Curaçao'],
     ['fully-qualified', '🇨🇼', '2.0', 'flag: Curaçao', 'Flags', 'country-flag'],
     [],
     [],
@@ -15265,7 +15337,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1FD'],
-    ['emoji', '1697', 'Flags', 'country-flag', '🇨🇽', 'flag: Christmas Island'],
+    ['emoji', '1705', 'Flags', 'country-flag', '🇨🇽', 'flag: Christmas Island'],
     ['fully-qualified', '🇨🇽', '2.0', 'flag: Christmas Island', 'Flags', 'country-flag'],
     [],
     [],
@@ -15274,7 +15346,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1FE'],
-    ['emoji', '1698', 'Flags', 'country-flag', '🇨🇾', 'flag: Cyprus'],
+    ['emoji', '1706', 'Flags', 'country-flag', '🇨🇾', 'flag: Cyprus'],
     ['fully-qualified', '🇨🇾', '2.0', 'flag: Cyprus', 'Flags', 'country-flag'],
     [],
     [],
@@ -15283,7 +15355,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E8', '1F1FF'],
-    ['emoji', '1699', 'Flags', 'country-flag', '🇨🇿', 'flag: Czechia'],
+    ['emoji', '1707', 'Flags', 'country-flag', '🇨🇿', 'flag: Czechia'],
     ['fully-qualified', '🇨🇿', '2.0', 'flag: Czechia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15292,7 +15364,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E9', '1F1EA'],
-    ['emoji', '1700', 'Flags', 'country-flag', '🇩🇪', 'flag: Germany'],
+    ['emoji', '1708', 'Flags', 'country-flag', '🇩🇪', 'flag: Germany'],
     ['fully-qualified', '🇩🇪', '0.6', 'flag: Germany', 'Flags', 'country-flag'],
     [],
     [],
@@ -15301,7 +15373,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E9', '1F1EC'],
-    ['emoji', '1701', 'Flags', 'country-flag', '🇩🇬', 'flag: Diego Garcia'],
+    ['emoji', '1709', 'Flags', 'country-flag', '🇩🇬', 'flag: Diego Garcia'],
     ['fully-qualified', '🇩🇬', '2.0', 'flag: Diego Garcia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15310,7 +15382,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E9', '1F1EF'],
-    ['emoji', '1702', 'Flags', 'country-flag', '🇩🇯', 'flag: Djibouti'],
+    ['emoji', '1710', 'Flags', 'country-flag', '🇩🇯', 'flag: Djibouti'],
     ['fully-qualified', '🇩🇯', '2.0', 'flag: Djibouti', 'Flags', 'country-flag'],
     [],
     [],
@@ -15319,7 +15391,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E9', '1F1F0'],
-    ['emoji', '1703', 'Flags', 'country-flag', '🇩🇰', 'flag: Denmark'],
+    ['emoji', '1711', 'Flags', 'country-flag', '🇩🇰', 'flag: Denmark'],
     ['fully-qualified', '🇩🇰', '2.0', 'flag: Denmark', 'Flags', 'country-flag'],
     [],
     [],
@@ -15328,7 +15400,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E9', '1F1F2'],
-    ['emoji', '1704', 'Flags', 'country-flag', '🇩🇲', 'flag: Dominica'],
+    ['emoji', '1712', 'Flags', 'country-flag', '🇩🇲', 'flag: Dominica'],
     ['fully-qualified', '🇩🇲', '2.0', 'flag: Dominica', 'Flags', 'country-flag'],
     [],
     [],
@@ -15337,7 +15409,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E9', '1F1F4'],
-    ['emoji', '1705', 'Flags', 'country-flag', '🇩🇴', 'flag: Dominican Republic'],
+    ['emoji', '1713', 'Flags', 'country-flag', '🇩🇴', 'flag: Dominican Republic'],
     ['fully-qualified', '🇩🇴', '2.0', 'flag: Dominican Republic', 'Flags', 'country-flag'],
     [],
     [],
@@ -15346,7 +15418,7 @@ fusionados_1 = [
   ],
   [
     ['1F1E9', '1F1FF'],
-    ['emoji', '1706', 'Flags', 'country-flag', '🇩🇿', 'flag: Algeria'],
+    ['emoji', '1714', 'Flags', 'country-flag', '🇩🇿', 'flag: Algeria'],
     ['fully-qualified', '🇩🇿', '2.0', 'flag: Algeria', 'Flags', 'country-flag'],
     [],
     [],
@@ -15355,7 +15427,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1E6'],
-    ['emoji', '1707', 'Flags', 'country-flag', '🇪🇦', 'flag: Ceuta & Melilla'],
+    ['emoji', '1715', 'Flags', 'country-flag', '🇪🇦', 'flag: Ceuta & Melilla'],
     ['fully-qualified', '🇪🇦', '2.0', 'flag: Ceuta & Melilla', 'Flags', 'country-flag'],
     [],
     [],
@@ -15364,7 +15436,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1E8'],
-    ['emoji', '1708', 'Flags', 'country-flag', '🇪🇨', 'flag: Ecuador'],
+    ['emoji', '1716', 'Flags', 'country-flag', '🇪🇨', 'flag: Ecuador'],
     ['fully-qualified', '🇪🇨', '2.0', 'flag: Ecuador', 'Flags', 'country-flag'],
     [],
     [],
@@ -15373,7 +15445,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1EA'],
-    ['emoji', '1709', 'Flags', 'country-flag', '🇪🇪', 'flag: Estonia'],
+    ['emoji', '1717', 'Flags', 'country-flag', '🇪🇪', 'flag: Estonia'],
     ['fully-qualified', '🇪🇪', '2.0', 'flag: Estonia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15382,7 +15454,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1EC'],
-    ['emoji', '1710', 'Flags', 'country-flag', '🇪🇬', 'flag: Egypt'],
+    ['emoji', '1718', 'Flags', 'country-flag', '🇪🇬', 'flag: Egypt'],
     ['fully-qualified', '🇪🇬', '2.0', 'flag: Egypt', 'Flags', 'country-flag'],
     [],
     [],
@@ -15391,7 +15463,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1ED'],
-    ['emoji', '1711', 'Flags', 'country-flag', '🇪🇭', 'flag: Western Sahara'],
+    ['emoji', '1719', 'Flags', 'country-flag', '🇪🇭', 'flag: Western Sahara'],
     ['fully-qualified', '🇪🇭', '2.0', 'flag: Western Sahara', 'Flags', 'country-flag'],
     [],
     [],
@@ -15400,7 +15472,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1F7'],
-    ['emoji', '1712', 'Flags', 'country-flag', '🇪🇷', 'flag: Eritrea'],
+    ['emoji', '1720', 'Flags', 'country-flag', '🇪🇷', 'flag: Eritrea'],
     ['fully-qualified', '🇪🇷', '2.0', 'flag: Eritrea', 'Flags', 'country-flag'],
     [],
     [],
@@ -15409,7 +15481,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1F8'],
-    ['emoji', '1713', 'Flags', 'country-flag', '🇪🇸', 'flag: Spain'],
+    ['emoji', '1721', 'Flags', 'country-flag', '🇪🇸', 'flag: Spain'],
     ['fully-qualified', '🇪🇸', '0.6', 'flag: Spain', 'Flags', 'country-flag'],
     [],
     [],
@@ -15418,7 +15490,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1F9'],
-    ['emoji', '1714', 'Flags', 'country-flag', '🇪🇹', 'flag: Ethiopia'],
+    ['emoji', '1722', 'Flags', 'country-flag', '🇪🇹', 'flag: Ethiopia'],
     ['fully-qualified', '🇪🇹', '2.0', 'flag: Ethiopia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15427,7 +15499,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EA', '1F1FA'],
-    ['emoji', '1715', 'Flags', 'country-flag', '🇪🇺', 'flag: European Union'],
+    ['emoji', '1723', 'Flags', 'country-flag', '🇪🇺', 'flag: European Union'],
     ['fully-qualified', '🇪🇺', '2.0', 'flag: European Union', 'Flags', 'country-flag'],
     [],
     [],
@@ -15436,7 +15508,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EB', '1F1EE'],
-    ['emoji', '1716', 'Flags', 'country-flag', '🇫🇮', 'flag: Finland'],
+    ['emoji', '1724', 'Flags', 'country-flag', '🇫🇮', 'flag: Finland'],
     ['fully-qualified', '🇫🇮', '2.0', 'flag: Finland', 'Flags', 'country-flag'],
     [],
     [],
@@ -15445,7 +15517,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EB', '1F1EF'],
-    ['emoji', '1717', 'Flags', 'country-flag', '🇫🇯', 'flag: Fiji'],
+    ['emoji', '1725', 'Flags', 'country-flag', '🇫🇯', 'flag: Fiji'],
     ['fully-qualified', '🇫🇯', '2.0', 'flag: Fiji', 'Flags', 'country-flag'],
     [],
     [],
@@ -15454,7 +15526,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EB', '1F1F0'],
-    ['emoji', '1718', 'Flags', 'country-flag', '🇫🇰', 'flag: Falkland Islands'],
+    ['emoji', '1726', 'Flags', 'country-flag', '🇫🇰', 'flag: Falkland Islands'],
     ['fully-qualified', '🇫🇰', '2.0', 'flag: Falkland Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15463,7 +15535,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EB', '1F1F2'],
-    ['emoji', '1719', 'Flags', 'country-flag', '🇫🇲', 'flag: Micronesia'],
+    ['emoji', '1727', 'Flags', 'country-flag', '🇫🇲', 'flag: Micronesia'],
     ['fully-qualified', '🇫🇲', '2.0', 'flag: Micronesia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15472,7 +15544,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EB', '1F1F4'],
-    ['emoji', '1720', 'Flags', 'country-flag', '🇫🇴', 'flag: Faroe Islands'],
+    ['emoji', '1728', 'Flags', 'country-flag', '🇫🇴', 'flag: Faroe Islands'],
     ['fully-qualified', '🇫🇴', '2.0', 'flag: Faroe Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15481,7 +15553,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EB', '1F1F7'],
-    ['emoji', '1721', 'Flags', 'country-flag', '🇫🇷', 'flag: France'],
+    ['emoji', '1729', 'Flags', 'country-flag', '🇫🇷', 'flag: France'],
     ['fully-qualified', '🇫🇷', '0.6', 'flag: France', 'Flags', 'country-flag'],
     [],
     [],
@@ -15490,7 +15562,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1E6'],
-    ['emoji', '1722', 'Flags', 'country-flag', '🇬🇦', 'flag: Gabon'],
+    ['emoji', '1730', 'Flags', 'country-flag', '🇬🇦', 'flag: Gabon'],
     ['fully-qualified', '🇬🇦', '2.0', 'flag: Gabon', 'Flags', 'country-flag'],
     [],
     [],
@@ -15499,7 +15571,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1E7'],
-    ['emoji', '1723', 'Flags', 'country-flag', '🇬🇧', 'flag: United Kingdom'],
+    ['emoji', '1731', 'Flags', 'country-flag', '🇬🇧', 'flag: United Kingdom'],
     ['fully-qualified', '🇬🇧', '0.6', 'flag: United Kingdom', 'Flags', 'country-flag'],
     [],
     [],
@@ -15508,7 +15580,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1E9'],
-    ['emoji', '1724', 'Flags', 'country-flag', '🇬🇩', 'flag: Grenada'],
+    ['emoji', '1732', 'Flags', 'country-flag', '🇬🇩', 'flag: Grenada'],
     ['fully-qualified', '🇬🇩', '2.0', 'flag: Grenada', 'Flags', 'country-flag'],
     [],
     [],
@@ -15517,7 +15589,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1EA'],
-    ['emoji', '1725', 'Flags', 'country-flag', '🇬🇪', 'flag: Georgia'],
+    ['emoji', '1733', 'Flags', 'country-flag', '🇬🇪', 'flag: Georgia'],
     ['fully-qualified', '🇬🇪', '2.0', 'flag: Georgia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15526,7 +15598,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1EB'],
-    ['emoji', '1726', 'Flags', 'country-flag', '🇬🇫', 'flag: French Guiana'],
+    ['emoji', '1734', 'Flags', 'country-flag', '🇬🇫', 'flag: French Guiana'],
     ['fully-qualified', '🇬🇫', '2.0', 'flag: French Guiana', 'Flags', 'country-flag'],
     [],
     [],
@@ -15535,7 +15607,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1EC'],
-    ['emoji', '1727', 'Flags', 'country-flag', '🇬🇬', 'flag: Guernsey'],
+    ['emoji', '1735', 'Flags', 'country-flag', '🇬🇬', 'flag: Guernsey'],
     ['fully-qualified', '🇬🇬', '2.0', 'flag: Guernsey', 'Flags', 'country-flag'],
     [],
     [],
@@ -15544,7 +15616,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1ED'],
-    ['emoji', '1728', 'Flags', 'country-flag', '🇬🇭', 'flag: Ghana'],
+    ['emoji', '1736', 'Flags', 'country-flag', '🇬🇭', 'flag: Ghana'],
     ['fully-qualified', '🇬🇭', '2.0', 'flag: Ghana', 'Flags', 'country-flag'],
     [],
     [],
@@ -15553,7 +15625,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1EE'],
-    ['emoji', '1729', 'Flags', 'country-flag', '🇬🇮', 'flag: Gibraltar'],
+    ['emoji', '1737', 'Flags', 'country-flag', '🇬🇮', 'flag: Gibraltar'],
     ['fully-qualified', '🇬🇮', '2.0', 'flag: Gibraltar', 'Flags', 'country-flag'],
     [],
     [],
@@ -15562,7 +15634,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1F1'],
-    ['emoji', '1730', 'Flags', 'country-flag', '🇬🇱', 'flag: Greenland'],
+    ['emoji', '1738', 'Flags', 'country-flag', '🇬🇱', 'flag: Greenland'],
     ['fully-qualified', '🇬🇱', '2.0', 'flag: Greenland', 'Flags', 'country-flag'],
     [],
     [],
@@ -15571,7 +15643,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1F2'],
-    ['emoji', '1731', 'Flags', 'country-flag', '🇬🇲', 'flag: Gambia'],
+    ['emoji', '1739', 'Flags', 'country-flag', '🇬🇲', 'flag: Gambia'],
     ['fully-qualified', '🇬🇲', '2.0', 'flag: Gambia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15580,7 +15652,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1F3'],
-    ['emoji', '1732', 'Flags', 'country-flag', '🇬🇳', 'flag: Guinea'],
+    ['emoji', '1740', 'Flags', 'country-flag', '🇬🇳', 'flag: Guinea'],
     ['fully-qualified', '🇬🇳', '2.0', 'flag: Guinea', 'Flags', 'country-flag'],
     [],
     [],
@@ -15589,7 +15661,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1F5'],
-    ['emoji', '1733', 'Flags', 'country-flag', '🇬🇵', 'flag: Guadeloupe'],
+    ['emoji', '1741', 'Flags', 'country-flag', '🇬🇵', 'flag: Guadeloupe'],
     ['fully-qualified', '🇬🇵', '2.0', 'flag: Guadeloupe', 'Flags', 'country-flag'],
     [],
     [],
@@ -15598,7 +15670,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1F6'],
-    ['emoji', '1734', 'Flags', 'country-flag', '🇬🇶', 'flag: Equatorial Guinea'],
+    ['emoji', '1742', 'Flags', 'country-flag', '🇬🇶', 'flag: Equatorial Guinea'],
     ['fully-qualified', '🇬🇶', '2.0', 'flag: Equatorial Guinea', 'Flags', 'country-flag'],
     [],
     [],
@@ -15607,7 +15679,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1F7'],
-    ['emoji', '1735', 'Flags', 'country-flag', '🇬🇷', 'flag: Greece'],
+    ['emoji', '1743', 'Flags', 'country-flag', '🇬🇷', 'flag: Greece'],
     ['fully-qualified', '🇬🇷', '2.0', 'flag: Greece', 'Flags', 'country-flag'],
     [],
     [],
@@ -15616,7 +15688,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1F8'],
-    ['emoji', '1736', 'Flags', 'country-flag', '🇬🇸', 'flag: South Georgia & South Sandwich Islands'],
+    ['emoji', '1744', 'Flags', 'country-flag', '🇬🇸', 'flag: South Georgia & South Sandwich Islands'],
     ['fully-qualified', '🇬🇸', '2.0', 'flag: South Georgia & South Sandwich Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15625,7 +15697,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1F9'],
-    ['emoji', '1737', 'Flags', 'country-flag', '🇬🇹', 'flag: Guatemala'],
+    ['emoji', '1745', 'Flags', 'country-flag', '🇬🇹', 'flag: Guatemala'],
     ['fully-qualified', '🇬🇹', '2.0', 'flag: Guatemala', 'Flags', 'country-flag'],
     [],
     [],
@@ -15634,7 +15706,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1FA'],
-    ['emoji', '1738', 'Flags', 'country-flag', '🇬🇺', 'flag: Guam'],
+    ['emoji', '1746', 'Flags', 'country-flag', '🇬🇺', 'flag: Guam'],
     ['fully-qualified', '🇬🇺', '2.0', 'flag: Guam', 'Flags', 'country-flag'],
     [],
     [],
@@ -15643,7 +15715,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1FC'],
-    ['emoji', '1739', 'Flags', 'country-flag', '🇬🇼', 'flag: Guinea-Bissau'],
+    ['emoji', '1747', 'Flags', 'country-flag', '🇬🇼', 'flag: Guinea-Bissau'],
     ['fully-qualified', '🇬🇼', '2.0', 'flag: Guinea-Bissau', 'Flags', 'country-flag'],
     [],
     [],
@@ -15652,7 +15724,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EC', '1F1FE'],
-    ['emoji', '1740', 'Flags', 'country-flag', '🇬🇾', 'flag: Guyana'],
+    ['emoji', '1748', 'Flags', 'country-flag', '🇬🇾', 'flag: Guyana'],
     ['fully-qualified', '🇬🇾', '2.0', 'flag: Guyana', 'Flags', 'country-flag'],
     [],
     [],
@@ -15661,7 +15733,7 @@ fusionados_1 = [
   ],
   [
     ['1F1ED', '1F1F0'],
-    ['emoji', '1741', 'Flags', 'country-flag', '🇭🇰', 'flag: Hong Kong SAR China'],
+    ['emoji', '1749', 'Flags', 'country-flag', '🇭🇰', 'flag: Hong Kong SAR China'],
     ['fully-qualified', '🇭🇰', '2.0', 'flag: Hong Kong SAR China', 'Flags', 'country-flag'],
     [],
     [],
@@ -15670,7 +15742,7 @@ fusionados_1 = [
   ],
   [
     ['1F1ED', '1F1F2'],
-    ['emoji', '1742', 'Flags', 'country-flag', '🇭🇲', 'flag: Heard & McDonald Islands'],
+    ['emoji', '1750', 'Flags', 'country-flag', '🇭🇲', 'flag: Heard & McDonald Islands'],
     ['fully-qualified', '🇭🇲', '2.0', 'flag: Heard & McDonald Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15679,7 +15751,7 @@ fusionados_1 = [
   ],
   [
     ['1F1ED', '1F1F3'],
-    ['emoji', '1743', 'Flags', 'country-flag', '🇭🇳', 'flag: Honduras'],
+    ['emoji', '1751', 'Flags', 'country-flag', '🇭🇳', 'flag: Honduras'],
     ['fully-qualified', '🇭🇳', '2.0', 'flag: Honduras', 'Flags', 'country-flag'],
     [],
     [],
@@ -15688,7 +15760,7 @@ fusionados_1 = [
   ],
   [
     ['1F1ED', '1F1F7'],
-    ['emoji', '1744', 'Flags', 'country-flag', '🇭🇷', 'flag: Croatia'],
+    ['emoji', '1752', 'Flags', 'country-flag', '🇭🇷', 'flag: Croatia'],
     ['fully-qualified', '🇭🇷', '2.0', 'flag: Croatia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15697,7 +15769,7 @@ fusionados_1 = [
   ],
   [
     ['1F1ED', '1F1F9'],
-    ['emoji', '1745', 'Flags', 'country-flag', '🇭🇹', 'flag: Haiti'],
+    ['emoji', '1753', 'Flags', 'country-flag', '🇭🇹', 'flag: Haiti'],
     ['fully-qualified', '🇭🇹', '2.0', 'flag: Haiti', 'Flags', 'country-flag'],
     [],
     [],
@@ -15706,7 +15778,7 @@ fusionados_1 = [
   ],
   [
     ['1F1ED', '1F1FA'],
-    ['emoji', '1746', 'Flags', 'country-flag', '🇭🇺', 'flag: Hungary'],
+    ['emoji', '1754', 'Flags', 'country-flag', '🇭🇺', 'flag: Hungary'],
     ['fully-qualified', '🇭🇺', '2.0', 'flag: Hungary', 'Flags', 'country-flag'],
     [],
     [],
@@ -15715,7 +15787,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1E8'],
-    ['emoji', '1747', 'Flags', 'country-flag', '🇮🇨', 'flag: Canary Islands'],
+    ['emoji', '1755', 'Flags', 'country-flag', '🇮🇨', 'flag: Canary Islands'],
     ['fully-qualified', '🇮🇨', '2.0', 'flag: Canary Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15724,7 +15796,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1E9'],
-    ['emoji', '1748', 'Flags', 'country-flag', '🇮🇩', 'flag: Indonesia'],
+    ['emoji', '1756', 'Flags', 'country-flag', '🇮🇩', 'flag: Indonesia'],
     ['fully-qualified', '🇮🇩', '2.0', 'flag: Indonesia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15733,7 +15805,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1EA'],
-    ['emoji', '1749', 'Flags', 'country-flag', '🇮🇪', 'flag: Ireland'],
+    ['emoji', '1757', 'Flags', 'country-flag', '🇮🇪', 'flag: Ireland'],
     ['fully-qualified', '🇮🇪', '2.0', 'flag: Ireland', 'Flags', 'country-flag'],
     [],
     [],
@@ -15742,7 +15814,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1F1'],
-    ['emoji', '1750', 'Flags', 'country-flag', '🇮🇱', 'flag: Israel'],
+    ['emoji', '1758', 'Flags', 'country-flag', '🇮🇱', 'flag: Israel'],
     ['fully-qualified', '🇮🇱', '2.0', 'flag: Israel', 'Flags', 'country-flag'],
     [],
     [],
@@ -15751,7 +15823,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1F2'],
-    ['emoji', '1751', 'Flags', 'country-flag', '🇮🇲', 'flag: Isle of Man'],
+    ['emoji', '1759', 'Flags', 'country-flag', '🇮🇲', 'flag: Isle of Man'],
     ['fully-qualified', '🇮🇲', '2.0', 'flag: Isle of Man', 'Flags', 'country-flag'],
     [],
     [],
@@ -15760,7 +15832,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1F3'],
-    ['emoji', '1752', 'Flags', 'country-flag', '🇮🇳', 'flag: India'],
+    ['emoji', '1760', 'Flags', 'country-flag', '🇮🇳', 'flag: India'],
     ['fully-qualified', '🇮🇳', '2.0', 'flag: India', 'Flags', 'country-flag'],
     [],
     [],
@@ -15769,7 +15841,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1F4'],
-    ['emoji', '1753', 'Flags', 'country-flag', '🇮🇴', 'flag: British Indian Ocean Territory'],
+    ['emoji', '1761', 'Flags', 'country-flag', '🇮🇴', 'flag: British Indian Ocean Territory'],
     ['fully-qualified', '🇮🇴', '2.0', 'flag: British Indian Ocean Territory', 'Flags', 'country-flag'],
     [],
     [],
@@ -15778,7 +15850,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1F6'],
-    ['emoji', '1754', 'Flags', 'country-flag', '🇮🇶', 'flag: Iraq'],
+    ['emoji', '1762', 'Flags', 'country-flag', '🇮🇶', 'flag: Iraq'],
     ['fully-qualified', '🇮🇶', '2.0', 'flag: Iraq', 'Flags', 'country-flag'],
     [],
     [],
@@ -15787,7 +15859,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1F7'],
-    ['emoji', '1755', 'Flags', 'country-flag', '🇮🇷', 'flag: Iran'],
+    ['emoji', '1763', 'Flags', 'country-flag', '🇮🇷', 'flag: Iran'],
     ['fully-qualified', '🇮🇷', '2.0', 'flag: Iran', 'Flags', 'country-flag'],
     [],
     [],
@@ -15796,7 +15868,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1F8'],
-    ['emoji', '1756', 'Flags', 'country-flag', '🇮🇸', 'flag: Iceland'],
+    ['emoji', '1764', 'Flags', 'country-flag', '🇮🇸', 'flag: Iceland'],
     ['fully-qualified', '🇮🇸', '2.0', 'flag: Iceland', 'Flags', 'country-flag'],
     [],
     [],
@@ -15805,7 +15877,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EE', '1F1F9'],
-    ['emoji', '1757', 'Flags', 'country-flag', '🇮🇹', 'flag: Italy'],
+    ['emoji', '1765', 'Flags', 'country-flag', '🇮🇹', 'flag: Italy'],
     ['fully-qualified', '🇮🇹', '0.6', 'flag: Italy', 'Flags', 'country-flag'],
     [],
     [],
@@ -15814,7 +15886,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EF', '1F1EA'],
-    ['emoji', '1758', 'Flags', 'country-flag', '🇯🇪', 'flag: Jersey'],
+    ['emoji', '1766', 'Flags', 'country-flag', '🇯🇪', 'flag: Jersey'],
     ['fully-qualified', '🇯🇪', '2.0', 'flag: Jersey', 'Flags', 'country-flag'],
     [],
     [],
@@ -15823,7 +15895,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EF', '1F1F2'],
-    ['emoji', '1759', 'Flags', 'country-flag', '🇯🇲', 'flag: Jamaica'],
+    ['emoji', '1767', 'Flags', 'country-flag', '🇯🇲', 'flag: Jamaica'],
     ['fully-qualified', '🇯🇲', '2.0', 'flag: Jamaica', 'Flags', 'country-flag'],
     [],
     [],
@@ -15832,7 +15904,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EF', '1F1F4'],
-    ['emoji', '1760', 'Flags', 'country-flag', '🇯🇴', 'flag: Jordan'],
+    ['emoji', '1768', 'Flags', 'country-flag', '🇯🇴', 'flag: Jordan'],
     ['fully-qualified', '🇯🇴', '2.0', 'flag: Jordan', 'Flags', 'country-flag'],
     [],
     [],
@@ -15841,7 +15913,7 @@ fusionados_1 = [
   ],
   [
     ['1F1EF', '1F1F5'],
-    ['emoji', '1761', 'Flags', 'country-flag', '🇯🇵', 'flag: Japan'],
+    ['emoji', '1769', 'Flags', 'country-flag', '🇯🇵', 'flag: Japan'],
     ['fully-qualified', '🇯🇵', '0.6', 'flag: Japan', 'Flags', 'country-flag'],
     [],
     [],
@@ -15850,7 +15922,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1EA'],
-    ['emoji', '1762', 'Flags', 'country-flag', '🇰🇪', 'flag: Kenya'],
+    ['emoji', '1770', 'Flags', 'country-flag', '🇰🇪', 'flag: Kenya'],
     ['fully-qualified', '🇰🇪', '2.0', 'flag: Kenya', 'Flags', 'country-flag'],
     [],
     [],
@@ -15859,7 +15931,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1EC'],
-    ['emoji', '1763', 'Flags', 'country-flag', '🇰🇬', 'flag: Kyrgyzstan'],
+    ['emoji', '1771', 'Flags', 'country-flag', '🇰🇬', 'flag: Kyrgyzstan'],
     ['fully-qualified', '🇰🇬', '2.0', 'flag: Kyrgyzstan', 'Flags', 'country-flag'],
     [],
     [],
@@ -15868,7 +15940,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1ED'],
-    ['emoji', '1764', 'Flags', 'country-flag', '🇰🇭', 'flag: Cambodia'],
+    ['emoji', '1772', 'Flags', 'country-flag', '🇰🇭', 'flag: Cambodia'],
     ['fully-qualified', '🇰🇭', '2.0', 'flag: Cambodia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15877,7 +15949,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1EE'],
-    ['emoji', '1765', 'Flags', 'country-flag', '🇰🇮', 'flag: Kiribati'],
+    ['emoji', '1773', 'Flags', 'country-flag', '🇰🇮', 'flag: Kiribati'],
     ['fully-qualified', '🇰🇮', '2.0', 'flag: Kiribati', 'Flags', 'country-flag'],
     [],
     [],
@@ -15886,7 +15958,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1F2'],
-    ['emoji', '1766', 'Flags', 'country-flag', '🇰🇲', 'flag: Comoros'],
+    ['emoji', '1774', 'Flags', 'country-flag', '🇰🇲', 'flag: Comoros'],
     ['fully-qualified', '🇰🇲', '2.0', 'flag: Comoros', 'Flags', 'country-flag'],
     [],
     [],
@@ -15895,7 +15967,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1F3'],
-    ['emoji', '1767', 'Flags', 'country-flag', '🇰🇳', 'flag: St. Kitts & Nevis'],
+    ['emoji', '1775', 'Flags', 'country-flag', '🇰🇳', 'flag: St. Kitts & Nevis'],
     ['fully-qualified', '🇰🇳', '2.0', 'flag: St. Kitts & Nevis', 'Flags', 'country-flag'],
     [],
     [],
@@ -15904,7 +15976,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1F5'],
-    ['emoji', '1768', 'Flags', 'country-flag', '🇰🇵', 'flag: North Korea'],
+    ['emoji', '1776', 'Flags', 'country-flag', '🇰🇵', 'flag: North Korea'],
     ['fully-qualified', '🇰🇵', '2.0', 'flag: North Korea', 'Flags', 'country-flag'],
     [],
     [],
@@ -15913,7 +15985,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1F7'],
-    ['emoji', '1769', 'Flags', 'country-flag', '🇰🇷', 'flag: South Korea'],
+    ['emoji', '1777', 'Flags', 'country-flag', '🇰🇷', 'flag: South Korea'],
     ['fully-qualified', '🇰🇷', '0.6', 'flag: South Korea', 'Flags', 'country-flag'],
     [],
     [],
@@ -15922,7 +15994,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1FC'],
-    ['emoji', '1770', 'Flags', 'country-flag', '🇰🇼', 'flag: Kuwait'],
+    ['emoji', '1778', 'Flags', 'country-flag', '🇰🇼', 'flag: Kuwait'],
     ['fully-qualified', '🇰🇼', '2.0', 'flag: Kuwait', 'Flags', 'country-flag'],
     [],
     [],
@@ -15931,7 +16003,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1FE'],
-    ['emoji', '1771', 'Flags', 'country-flag', '🇰🇾', 'flag: Cayman Islands'],
+    ['emoji', '1779', 'Flags', 'country-flag', '🇰🇾', 'flag: Cayman Islands'],
     ['fully-qualified', '🇰🇾', '2.0', 'flag: Cayman Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -15940,7 +16012,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F0', '1F1FF'],
-    ['emoji', '1772', 'Flags', 'country-flag', '🇰🇿', 'flag: Kazakhstan'],
+    ['emoji', '1780', 'Flags', 'country-flag', '🇰🇿', 'flag: Kazakhstan'],
     ['fully-qualified', '🇰🇿', '2.0', 'flag: Kazakhstan', 'Flags', 'country-flag'],
     [],
     [],
@@ -15949,7 +16021,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1E6'],
-    ['emoji', '1773', 'Flags', 'country-flag', '🇱🇦', 'flag: Laos'],
+    ['emoji', '1781', 'Flags', 'country-flag', '🇱🇦', 'flag: Laos'],
     ['fully-qualified', '🇱🇦', '2.0', 'flag: Laos', 'Flags', 'country-flag'],
     [],
     [],
@@ -15958,7 +16030,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1E7'],
-    ['emoji', '1774', 'Flags', 'country-flag', '🇱🇧', 'flag: Lebanon'],
+    ['emoji', '1782', 'Flags', 'country-flag', '🇱🇧', 'flag: Lebanon'],
     ['fully-qualified', '🇱🇧', '2.0', 'flag: Lebanon', 'Flags', 'country-flag'],
     [],
     [],
@@ -15967,7 +16039,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1E8'],
-    ['emoji', '1775', 'Flags', 'country-flag', '🇱🇨', 'flag: St. Lucia'],
+    ['emoji', '1783', 'Flags', 'country-flag', '🇱🇨', 'flag: St. Lucia'],
     ['fully-qualified', '🇱🇨', '2.0', 'flag: St. Lucia', 'Flags', 'country-flag'],
     [],
     [],
@@ -15976,7 +16048,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1EE'],
-    ['emoji', '1776', 'Flags', 'country-flag', '🇱🇮', 'flag: Liechtenstein'],
+    ['emoji', '1784', 'Flags', 'country-flag', '🇱🇮', 'flag: Liechtenstein'],
     ['fully-qualified', '🇱🇮', '2.0', 'flag: Liechtenstein', 'Flags', 'country-flag'],
     [],
     [],
@@ -15985,7 +16057,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1F0'],
-    ['emoji', '1777', 'Flags', 'country-flag', '🇱🇰', 'flag: Sri Lanka'],
+    ['emoji', '1785', 'Flags', 'country-flag', '🇱🇰', 'flag: Sri Lanka'],
     ['fully-qualified', '🇱🇰', '2.0', 'flag: Sri Lanka', 'Flags', 'country-flag'],
     [],
     [],
@@ -15994,7 +16066,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1F7'],
-    ['emoji', '1778', 'Flags', 'country-flag', '🇱🇷', 'flag: Liberia'],
+    ['emoji', '1786', 'Flags', 'country-flag', '🇱🇷', 'flag: Liberia'],
     ['fully-qualified', '🇱🇷', '2.0', 'flag: Liberia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16003,7 +16075,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1F8'],
-    ['emoji', '1779', 'Flags', 'country-flag', '🇱🇸', 'flag: Lesotho'],
+    ['emoji', '1787', 'Flags', 'country-flag', '🇱🇸', 'flag: Lesotho'],
     ['fully-qualified', '🇱🇸', '2.0', 'flag: Lesotho', 'Flags', 'country-flag'],
     [],
     [],
@@ -16012,7 +16084,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1F9'],
-    ['emoji', '1780', 'Flags', 'country-flag', '🇱🇹', 'flag: Lithuania'],
+    ['emoji', '1788', 'Flags', 'country-flag', '🇱🇹', 'flag: Lithuania'],
     ['fully-qualified', '🇱🇹', '2.0', 'flag: Lithuania', 'Flags', 'country-flag'],
     [],
     [],
@@ -16021,7 +16093,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1FA'],
-    ['emoji', '1781', 'Flags', 'country-flag', '🇱🇺', 'flag: Luxembourg'],
+    ['emoji', '1789', 'Flags', 'country-flag', '🇱🇺', 'flag: Luxembourg'],
     ['fully-qualified', '🇱🇺', '2.0', 'flag: Luxembourg', 'Flags', 'country-flag'],
     [],
     [],
@@ -16030,7 +16102,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1FB'],
-    ['emoji', '1782', 'Flags', 'country-flag', '🇱🇻', 'flag: Latvia'],
+    ['emoji', '1790', 'Flags', 'country-flag', '🇱🇻', 'flag: Latvia'],
     ['fully-qualified', '🇱🇻', '2.0', 'flag: Latvia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16039,7 +16111,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F1', '1F1FE'],
-    ['emoji', '1783', 'Flags', 'country-flag', '🇱🇾', 'flag: Libya'],
+    ['emoji', '1791', 'Flags', 'country-flag', '🇱🇾', 'flag: Libya'],
     ['fully-qualified', '🇱🇾', '2.0', 'flag: Libya', 'Flags', 'country-flag'],
     [],
     [],
@@ -16048,7 +16120,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1E6'],
-    ['emoji', '1784', 'Flags', 'country-flag', '🇲🇦', 'flag: Morocco'],
+    ['emoji', '1792', 'Flags', 'country-flag', '🇲🇦', 'flag: Morocco'],
     ['fully-qualified', '🇲🇦', '2.0', 'flag: Morocco', 'Flags', 'country-flag'],
     [],
     [],
@@ -16057,7 +16129,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1E8'],
-    ['emoji', '1785', 'Flags', 'country-flag', '🇲🇨', 'flag: Monaco'],
+    ['emoji', '1793', 'Flags', 'country-flag', '🇲🇨', 'flag: Monaco'],
     ['fully-qualified', '🇲🇨', '2.0', 'flag: Monaco', 'Flags', 'country-flag'],
     [],
     [],
@@ -16066,7 +16138,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1E9'],
-    ['emoji', '1786', 'Flags', 'country-flag', '🇲🇩', 'flag: Moldova'],
+    ['emoji', '1794', 'Flags', 'country-flag', '🇲🇩', 'flag: Moldova'],
     ['fully-qualified', '🇲🇩', '2.0', 'flag: Moldova', 'Flags', 'country-flag'],
     [],
     [],
@@ -16075,7 +16147,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1EA'],
-    ['emoji', '1787', 'Flags', 'country-flag', '🇲🇪', 'flag: Montenegro'],
+    ['emoji', '1795', 'Flags', 'country-flag', '🇲🇪', 'flag: Montenegro'],
     ['fully-qualified', '🇲🇪', '2.0', 'flag: Montenegro', 'Flags', 'country-flag'],
     [],
     [],
@@ -16084,7 +16156,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1EB'],
-    ['emoji', '1788', 'Flags', 'country-flag', '🇲🇫', 'flag: St. Martin'],
+    ['emoji', '1796', 'Flags', 'country-flag', '🇲🇫', 'flag: St. Martin'],
     ['fully-qualified', '🇲🇫', '2.0', 'flag: St. Martin', 'Flags', 'country-flag'],
     [],
     [],
@@ -16093,7 +16165,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1EC'],
-    ['emoji', '1789', 'Flags', 'country-flag', '🇲🇬', 'flag: Madagascar'],
+    ['emoji', '1797', 'Flags', 'country-flag', '🇲🇬', 'flag: Madagascar'],
     ['fully-qualified', '🇲🇬', '2.0', 'flag: Madagascar', 'Flags', 'country-flag'],
     [],
     [],
@@ -16102,7 +16174,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1ED'],
-    ['emoji', '1790', 'Flags', 'country-flag', '🇲🇭', 'flag: Marshall Islands'],
+    ['emoji', '1798', 'Flags', 'country-flag', '🇲🇭', 'flag: Marshall Islands'],
     ['fully-qualified', '🇲🇭', '2.0', 'flag: Marshall Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -16111,7 +16183,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F0'],
-    ['emoji', '1791', 'Flags', 'country-flag', '🇲🇰', 'flag: North Macedonia'],
+    ['emoji', '1799', 'Flags', 'country-flag', '🇲🇰', 'flag: North Macedonia'],
     ['fully-qualified', '🇲🇰', '2.0', 'flag: North Macedonia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16120,7 +16192,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F1'],
-    ['emoji', '1792', 'Flags', 'country-flag', '🇲🇱', 'flag: Mali'],
+    ['emoji', '1800', 'Flags', 'country-flag', '🇲🇱', 'flag: Mali'],
     ['fully-qualified', '🇲🇱', '2.0', 'flag: Mali', 'Flags', 'country-flag'],
     [],
     [],
@@ -16129,7 +16201,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F2'],
-    ['emoji', '1793', 'Flags', 'country-flag', '🇲🇲', 'flag: Myanmar (Burma)'],
+    ['emoji', '1801', 'Flags', 'country-flag', '🇲🇲', 'flag: Myanmar (Burma)'],
     ['fully-qualified', '🇲🇲', '2.0', 'flag: Myanmar (Burma)', 'Flags', 'country-flag'],
     [],
     [],
@@ -16138,7 +16210,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F3'],
-    ['emoji', '1794', 'Flags', 'country-flag', '🇲🇳', 'flag: Mongolia'],
+    ['emoji', '1802', 'Flags', 'country-flag', '🇲🇳', 'flag: Mongolia'],
     ['fully-qualified', '🇲🇳', '2.0', 'flag: Mongolia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16147,7 +16219,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F4'],
-    ['emoji', '1795', 'Flags', 'country-flag', '🇲🇴', 'flag: Macao SAR China'],
+    ['emoji', '1803', 'Flags', 'country-flag', '🇲🇴', 'flag: Macao SAR China'],
     ['fully-qualified', '🇲🇴', '2.0', 'flag: Macao SAR China', 'Flags', 'country-flag'],
     [],
     [],
@@ -16156,7 +16228,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F5'],
-    ['emoji', '1796', 'Flags', 'country-flag', '🇲🇵', 'flag: Northern Mariana Islands'],
+    ['emoji', '1804', 'Flags', 'country-flag', '🇲🇵', 'flag: Northern Mariana Islands'],
     ['fully-qualified', '🇲🇵', '2.0', 'flag: Northern Mariana Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -16165,7 +16237,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F6'],
-    ['emoji', '1797', 'Flags', 'country-flag', '🇲🇶', 'flag: Martinique'],
+    ['emoji', '1805', 'Flags', 'country-flag', '🇲🇶', 'flag: Martinique'],
     ['fully-qualified', '🇲🇶', '2.0', 'flag: Martinique', 'Flags', 'country-flag'],
     [],
     [],
@@ -16174,7 +16246,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F7'],
-    ['emoji', '1798', 'Flags', 'country-flag', '🇲🇷', 'flag: Mauritania'],
+    ['emoji', '1806', 'Flags', 'country-flag', '🇲🇷', 'flag: Mauritania'],
     ['fully-qualified', '🇲🇷', '2.0', 'flag: Mauritania', 'Flags', 'country-flag'],
     [],
     [],
@@ -16183,7 +16255,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F8'],
-    ['emoji', '1799', 'Flags', 'country-flag', '🇲🇸', 'flag: Montserrat'],
+    ['emoji', '1807', 'Flags', 'country-flag', '🇲🇸', 'flag: Montserrat'],
     ['fully-qualified', '🇲🇸', '2.0', 'flag: Montserrat', 'Flags', 'country-flag'],
     [],
     [],
@@ -16192,7 +16264,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1F9'],
-    ['emoji', '1800', 'Flags', 'country-flag', '🇲🇹', 'flag: Malta'],
+    ['emoji', '1808', 'Flags', 'country-flag', '🇲🇹', 'flag: Malta'],
     ['fully-qualified', '🇲🇹', '2.0', 'flag: Malta', 'Flags', 'country-flag'],
     [],
     [],
@@ -16201,7 +16273,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1FA'],
-    ['emoji', '1801', 'Flags', 'country-flag', '🇲🇺', 'flag: Mauritius'],
+    ['emoji', '1809', 'Flags', 'country-flag', '🇲🇺', 'flag: Mauritius'],
     ['fully-qualified', '🇲🇺', '2.0', 'flag: Mauritius', 'Flags', 'country-flag'],
     [],
     [],
@@ -16210,7 +16282,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1FB'],
-    ['emoji', '1802', 'Flags', 'country-flag', '🇲🇻', 'flag: Maldives'],
+    ['emoji', '1810', 'Flags', 'country-flag', '🇲🇻', 'flag: Maldives'],
     ['fully-qualified', '🇲🇻', '2.0', 'flag: Maldives', 'Flags', 'country-flag'],
     [],
     [],
@@ -16219,7 +16291,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1FC'],
-    ['emoji', '1803', 'Flags', 'country-flag', '🇲🇼', 'flag: Malawi'],
+    ['emoji', '1811', 'Flags', 'country-flag', '🇲🇼', 'flag: Malawi'],
     ['fully-qualified', '🇲🇼', '2.0', 'flag: Malawi', 'Flags', 'country-flag'],
     [],
     [],
@@ -16228,7 +16300,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1FD'],
-    ['emoji', '1804', 'Flags', 'country-flag', '🇲🇽', 'flag: Mexico'],
+    ['emoji', '1812', 'Flags', 'country-flag', '🇲🇽', 'flag: Mexico'],
     ['fully-qualified', '🇲🇽', '2.0', 'flag: Mexico', 'Flags', 'country-flag'],
     [],
     [],
@@ -16237,7 +16309,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1FE'],
-    ['emoji', '1805', 'Flags', 'country-flag', '🇲🇾', 'flag: Malaysia'],
+    ['emoji', '1813', 'Flags', 'country-flag', '🇲🇾', 'flag: Malaysia'],
     ['fully-qualified', '🇲🇾', '2.0', 'flag: Malaysia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16246,7 +16318,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F2', '1F1FF'],
-    ['emoji', '1806', 'Flags', 'country-flag', '🇲🇿', 'flag: Mozambique'],
+    ['emoji', '1814', 'Flags', 'country-flag', '🇲🇿', 'flag: Mozambique'],
     ['fully-qualified', '🇲🇿', '2.0', 'flag: Mozambique', 'Flags', 'country-flag'],
     [],
     [],
@@ -16255,7 +16327,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1E6'],
-    ['emoji', '1807', 'Flags', 'country-flag', '🇳🇦', 'flag: Namibia'],
+    ['emoji', '1815', 'Flags', 'country-flag', '🇳🇦', 'flag: Namibia'],
     ['fully-qualified', '🇳🇦', '2.0', 'flag: Namibia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16264,7 +16336,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1E8'],
-    ['emoji', '1808', 'Flags', 'country-flag', '🇳🇨', 'flag: New Caledonia'],
+    ['emoji', '1816', 'Flags', 'country-flag', '🇳🇨', 'flag: New Caledonia'],
     ['fully-qualified', '🇳🇨', '2.0', 'flag: New Caledonia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16273,7 +16345,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1EA'],
-    ['emoji', '1809', 'Flags', 'country-flag', '🇳🇪', 'flag: Niger'],
+    ['emoji', '1817', 'Flags', 'country-flag', '🇳🇪', 'flag: Niger'],
     ['fully-qualified', '🇳🇪', '2.0', 'flag: Niger', 'Flags', 'country-flag'],
     [],
     [],
@@ -16282,7 +16354,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1EB'],
-    ['emoji', '1810', 'Flags', 'country-flag', '🇳🇫', 'flag: Norfolk Island'],
+    ['emoji', '1818', 'Flags', 'country-flag', '🇳🇫', 'flag: Norfolk Island'],
     ['fully-qualified', '🇳🇫', '2.0', 'flag: Norfolk Island', 'Flags', 'country-flag'],
     [],
     [],
@@ -16291,7 +16363,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1EC'],
-    ['emoji', '1811', 'Flags', 'country-flag', '🇳🇬', 'flag: Nigeria'],
+    ['emoji', '1819', 'Flags', 'country-flag', '🇳🇬', 'flag: Nigeria'],
     ['fully-qualified', '🇳🇬', '2.0', 'flag: Nigeria', 'Flags', 'country-flag'],
     [],
     [],
@@ -16300,7 +16372,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1EE'],
-    ['emoji', '1812', 'Flags', 'country-flag', '🇳🇮', 'flag: Nicaragua'],
+    ['emoji', '1820', 'Flags', 'country-flag', '🇳🇮', 'flag: Nicaragua'],
     ['fully-qualified', '🇳🇮', '2.0', 'flag: Nicaragua', 'Flags', 'country-flag'],
     [],
     [],
@@ -16309,7 +16381,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1F1'],
-    ['emoji', '1813', 'Flags', 'country-flag', '🇳🇱', 'flag: Netherlands'],
+    ['emoji', '1821', 'Flags', 'country-flag', '🇳🇱', 'flag: Netherlands'],
     ['fully-qualified', '🇳🇱', '2.0', 'flag: Netherlands', 'Flags', 'country-flag'],
     [],
     [],
@@ -16318,7 +16390,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1F4'],
-    ['emoji', '1814', 'Flags', 'country-flag', '🇳🇴', 'flag: Norway'],
+    ['emoji', '1822', 'Flags', 'country-flag', '🇳🇴', 'flag: Norway'],
     ['fully-qualified', '🇳🇴', '2.0', 'flag: Norway', 'Flags', 'country-flag'],
     [],
     [],
@@ -16327,7 +16399,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1F5'],
-    ['emoji', '1815', 'Flags', 'country-flag', '🇳🇵', 'flag: Nepal'],
+    ['emoji', '1823', 'Flags', 'country-flag', '🇳🇵', 'flag: Nepal'],
     ['fully-qualified', '🇳🇵', '2.0', 'flag: Nepal', 'Flags', 'country-flag'],
     [],
     [],
@@ -16336,7 +16408,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1F7'],
-    ['emoji', '1816', 'Flags', 'country-flag', '🇳🇷', 'flag: Nauru'],
+    ['emoji', '1824', 'Flags', 'country-flag', '🇳🇷', 'flag: Nauru'],
     ['fully-qualified', '🇳🇷', '2.0', 'flag: Nauru', 'Flags', 'country-flag'],
     [],
     [],
@@ -16345,7 +16417,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1FA'],
-    ['emoji', '1817', 'Flags', 'country-flag', '🇳🇺', 'flag: Niue'],
+    ['emoji', '1825', 'Flags', 'country-flag', '🇳🇺', 'flag: Niue'],
     ['fully-qualified', '🇳🇺', '2.0', 'flag: Niue', 'Flags', 'country-flag'],
     [],
     [],
@@ -16354,7 +16426,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F3', '1F1FF'],
-    ['emoji', '1818', 'Flags', 'country-flag', '🇳🇿', 'flag: New Zealand'],
+    ['emoji', '1826', 'Flags', 'country-flag', '🇳🇿', 'flag: New Zealand'],
     ['fully-qualified', '🇳🇿', '2.0', 'flag: New Zealand', 'Flags', 'country-flag'],
     [],
     [],
@@ -16363,7 +16435,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F4', '1F1F2'],
-    ['emoji', '1819', 'Flags', 'country-flag', '🇴🇲', 'flag: Oman'],
+    ['emoji', '1827', 'Flags', 'country-flag', '🇴🇲', 'flag: Oman'],
     ['fully-qualified', '🇴🇲', '2.0', 'flag: Oman', 'Flags', 'country-flag'],
     [],
     [],
@@ -16372,7 +16444,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1E6'],
-    ['emoji', '1820', 'Flags', 'country-flag', '🇵🇦', 'flag: Panama'],
+    ['emoji', '1828', 'Flags', 'country-flag', '🇵🇦', 'flag: Panama'],
     ['fully-qualified', '🇵🇦', '2.0', 'flag: Panama', 'Flags', 'country-flag'],
     [],
     [],
@@ -16381,7 +16453,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1EA'],
-    ['emoji', '1821', 'Flags', 'country-flag', '🇵🇪', 'flag: Peru'],
+    ['emoji', '1829', 'Flags', 'country-flag', '🇵🇪', 'flag: Peru'],
     ['fully-qualified', '🇵🇪', '2.0', 'flag: Peru', 'Flags', 'country-flag'],
     [],
     [],
@@ -16390,7 +16462,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1EB'],
-    ['emoji', '1822', 'Flags', 'country-flag', '🇵🇫', 'flag: French Polynesia'],
+    ['emoji', '1830', 'Flags', 'country-flag', '🇵🇫', 'flag: French Polynesia'],
     ['fully-qualified', '🇵🇫', '2.0', 'flag: French Polynesia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16399,7 +16471,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1EC'],
-    ['emoji', '1823', 'Flags', 'country-flag', '🇵🇬', 'flag: Papua New Guinea'],
+    ['emoji', '1831', 'Flags', 'country-flag', '🇵🇬', 'flag: Papua New Guinea'],
     ['fully-qualified', '🇵🇬', '2.0', 'flag: Papua New Guinea', 'Flags', 'country-flag'],
     [],
     [],
@@ -16408,7 +16480,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1ED'],
-    ['emoji', '1824', 'Flags', 'country-flag', '🇵🇭', 'flag: Philippines'],
+    ['emoji', '1832', 'Flags', 'country-flag', '🇵🇭', 'flag: Philippines'],
     ['fully-qualified', '🇵🇭', '2.0', 'flag: Philippines', 'Flags', 'country-flag'],
     [],
     [],
@@ -16417,7 +16489,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1F0'],
-    ['emoji', '1825', 'Flags', 'country-flag', '🇵🇰', 'flag: Pakistan'],
+    ['emoji', '1833', 'Flags', 'country-flag', '🇵🇰', 'flag: Pakistan'],
     ['fully-qualified', '🇵🇰', '2.0', 'flag: Pakistan', 'Flags', 'country-flag'],
     [],
     [],
@@ -16426,7 +16498,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1F1'],
-    ['emoji', '1826', 'Flags', 'country-flag', '🇵🇱', 'flag: Poland'],
+    ['emoji', '1834', 'Flags', 'country-flag', '🇵🇱', 'flag: Poland'],
     ['fully-qualified', '🇵🇱', '2.0', 'flag: Poland', 'Flags', 'country-flag'],
     [],
     [],
@@ -16435,7 +16507,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1F2'],
-    ['emoji', '1827', 'Flags', 'country-flag', '🇵🇲', 'flag: St. Pierre & Miquelon'],
+    ['emoji', '1835', 'Flags', 'country-flag', '🇵🇲', 'flag: St. Pierre & Miquelon'],
     ['fully-qualified', '🇵🇲', '2.0', 'flag: St. Pierre & Miquelon', 'Flags', 'country-flag'],
     [],
     [],
@@ -16444,7 +16516,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1F3'],
-    ['emoji', '1828', 'Flags', 'country-flag', '🇵🇳', 'flag: Pitcairn Islands'],
+    ['emoji', '1836', 'Flags', 'country-flag', '🇵🇳', 'flag: Pitcairn Islands'],
     ['fully-qualified', '🇵🇳', '2.0', 'flag: Pitcairn Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -16453,7 +16525,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1F7'],
-    ['emoji', '1829', 'Flags', 'country-flag', '🇵🇷', 'flag: Puerto Rico'],
+    ['emoji', '1837', 'Flags', 'country-flag', '🇵🇷', 'flag: Puerto Rico'],
     ['fully-qualified', '🇵🇷', '2.0', 'flag: Puerto Rico', 'Flags', 'country-flag'],
     [],
     [],
@@ -16462,7 +16534,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1F8'],
-    ['emoji', '1830', 'Flags', 'country-flag', '🇵🇸', 'flag: Palestinian Territories'],
+    ['emoji', '1838', 'Flags', 'country-flag', '🇵🇸', 'flag: Palestinian Territories'],
     ['fully-qualified', '🇵🇸', '2.0', 'flag: Palestinian Territories', 'Flags', 'country-flag'],
     [],
     [],
@@ -16471,7 +16543,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1F9'],
-    ['emoji', '1831', 'Flags', 'country-flag', '🇵🇹', 'flag: Portugal'],
+    ['emoji', '1839', 'Flags', 'country-flag', '🇵🇹', 'flag: Portugal'],
     ['fully-qualified', '🇵🇹', '2.0', 'flag: Portugal', 'Flags', 'country-flag'],
     [],
     [],
@@ -16480,7 +16552,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1FC'],
-    ['emoji', '1832', 'Flags', 'country-flag', '🇵🇼', 'flag: Palau'],
+    ['emoji', '1840', 'Flags', 'country-flag', '🇵🇼', 'flag: Palau'],
     ['fully-qualified', '🇵🇼', '2.0', 'flag: Palau', 'Flags', 'country-flag'],
     [],
     [],
@@ -16489,7 +16561,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F5', '1F1FE'],
-    ['emoji', '1833', 'Flags', 'country-flag', '🇵🇾', 'flag: Paraguay'],
+    ['emoji', '1841', 'Flags', 'country-flag', '🇵🇾', 'flag: Paraguay'],
     ['fully-qualified', '🇵🇾', '2.0', 'flag: Paraguay', 'Flags', 'country-flag'],
     [],
     [],
@@ -16498,7 +16570,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F6', '1F1E6'],
-    ['emoji', '1834', 'Flags', 'country-flag', '🇶🇦', 'flag: Qatar'],
+    ['emoji', '1842', 'Flags', 'country-flag', '🇶🇦', 'flag: Qatar'],
     ['fully-qualified', '🇶🇦', '2.0', 'flag: Qatar', 'Flags', 'country-flag'],
     [],
     [],
@@ -16507,7 +16579,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F7', '1F1EA'],
-    ['emoji', '1835', 'Flags', 'country-flag', '🇷🇪', 'flag: Réunion'],
+    ['emoji', '1843', 'Flags', 'country-flag', '🇷🇪', 'flag: Réunion'],
     ['fully-qualified', '🇷🇪', '2.0', 'flag: Réunion', 'Flags', 'country-flag'],
     [],
     [],
@@ -16516,7 +16588,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F7', '1F1F4'],
-    ['emoji', '1836', 'Flags', 'country-flag', '🇷🇴', 'flag: Romania'],
+    ['emoji', '1844', 'Flags', 'country-flag', '🇷🇴', 'flag: Romania'],
     ['fully-qualified', '🇷🇴', '2.0', 'flag: Romania', 'Flags', 'country-flag'],
     [],
     [],
@@ -16525,7 +16597,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F7', '1F1F8'],
-    ['emoji', '1837', 'Flags', 'country-flag', '🇷🇸', 'flag: Serbia'],
+    ['emoji', '1845', 'Flags', 'country-flag', '🇷🇸', 'flag: Serbia'],
     ['fully-qualified', '🇷🇸', '2.0', 'flag: Serbia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16534,7 +16606,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F7', '1F1FA'],
-    ['emoji', '1838', 'Flags', 'country-flag', '🇷🇺', 'flag: Russia'],
+    ['emoji', '1846', 'Flags', 'country-flag', '🇷🇺', 'flag: Russia'],
     ['fully-qualified', '🇷🇺', '0.6', 'flag: Russia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16543,7 +16615,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F7', '1F1FC'],
-    ['emoji', '1839', 'Flags', 'country-flag', '🇷🇼', 'flag: Rwanda'],
+    ['emoji', '1847', 'Flags', 'country-flag', '🇷🇼', 'flag: Rwanda'],
     ['fully-qualified', '🇷🇼', '2.0', 'flag: Rwanda', 'Flags', 'country-flag'],
     [],
     [],
@@ -16552,7 +16624,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1E6'],
-    ['emoji', '1840', 'Flags', 'country-flag', '🇸🇦', 'flag: Saudi Arabia'],
+    ['emoji', '1848', 'Flags', 'country-flag', '🇸🇦', 'flag: Saudi Arabia'],
     ['fully-qualified', '🇸🇦', '2.0', 'flag: Saudi Arabia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16561,7 +16633,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1E7'],
-    ['emoji', '1841', 'Flags', 'country-flag', '🇸🇧', 'flag: Solomon Islands'],
+    ['emoji', '1849', 'Flags', 'country-flag', '🇸🇧', 'flag: Solomon Islands'],
     ['fully-qualified', '🇸🇧', '2.0', 'flag: Solomon Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -16570,7 +16642,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1E8'],
-    ['emoji', '1842', 'Flags', 'country-flag', '🇸🇨', 'flag: Seychelles'],
+    ['emoji', '1850', 'Flags', 'country-flag', '🇸🇨', 'flag: Seychelles'],
     ['fully-qualified', '🇸🇨', '2.0', 'flag: Seychelles', 'Flags', 'country-flag'],
     [],
     [],
@@ -16579,7 +16651,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1E9'],
-    ['emoji', '1843', 'Flags', 'country-flag', '🇸🇩', 'flag: Sudan'],
+    ['emoji', '1851', 'Flags', 'country-flag', '🇸🇩', 'flag: Sudan'],
     ['fully-qualified', '🇸🇩', '2.0', 'flag: Sudan', 'Flags', 'country-flag'],
     [],
     [],
@@ -16588,7 +16660,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1EA'],
-    ['emoji', '1844', 'Flags', 'country-flag', '🇸🇪', 'flag: Sweden'],
+    ['emoji', '1852', 'Flags', 'country-flag', '🇸🇪', 'flag: Sweden'],
     ['fully-qualified', '🇸🇪', '2.0', 'flag: Sweden', 'Flags', 'country-flag'],
     [],
     [],
@@ -16597,7 +16669,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1EC'],
-    ['emoji', '1845', 'Flags', 'country-flag', '🇸🇬', 'flag: Singapore'],
+    ['emoji', '1853', 'Flags', 'country-flag', '🇸🇬', 'flag: Singapore'],
     ['fully-qualified', '🇸🇬', '2.0', 'flag: Singapore', 'Flags', 'country-flag'],
     [],
     [],
@@ -16606,7 +16678,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1ED'],
-    ['emoji', '1846', 'Flags', 'country-flag', '🇸🇭', 'flag: St. Helena'],
+    ['emoji', '1854', 'Flags', 'country-flag', '🇸🇭', 'flag: St. Helena'],
     ['fully-qualified', '🇸🇭', '2.0', 'flag: St. Helena', 'Flags', 'country-flag'],
     [],
     [],
@@ -16615,7 +16687,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1EE'],
-    ['emoji', '1847', 'Flags', 'country-flag', '🇸🇮', 'flag: Slovenia'],
+    ['emoji', '1855', 'Flags', 'country-flag', '🇸🇮', 'flag: Slovenia'],
     ['fully-qualified', '🇸🇮', '2.0', 'flag: Slovenia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16624,7 +16696,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1EF'],
-    ['emoji', '1848', 'Flags', 'country-flag', '🇸🇯', 'flag: Svalbard & Jan Mayen'],
+    ['emoji', '1856', 'Flags', 'country-flag', '🇸🇯', 'flag: Svalbard & Jan Mayen'],
     ['fully-qualified', '🇸🇯', '2.0', 'flag: Svalbard & Jan Mayen', 'Flags', 'country-flag'],
     [],
     [],
@@ -16633,7 +16705,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1F0'],
-    ['emoji', '1849', 'Flags', 'country-flag', '🇸🇰', 'flag: Slovakia'],
+    ['emoji', '1857', 'Flags', 'country-flag', '🇸🇰', 'flag: Slovakia'],
     ['fully-qualified', '🇸🇰', '2.0', 'flag: Slovakia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16642,7 +16714,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1F1'],
-    ['emoji', '1850', 'Flags', 'country-flag', '🇸🇱', 'flag: Sierra Leone'],
+    ['emoji', '1858', 'Flags', 'country-flag', '🇸🇱', 'flag: Sierra Leone'],
     ['fully-qualified', '🇸🇱', '2.0', 'flag: Sierra Leone', 'Flags', 'country-flag'],
     [],
     [],
@@ -16651,7 +16723,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1F2'],
-    ['emoji', '1851', 'Flags', 'country-flag', '🇸🇲', 'flag: San Marino'],
+    ['emoji', '1859', 'Flags', 'country-flag', '🇸🇲', 'flag: San Marino'],
     ['fully-qualified', '🇸🇲', '2.0', 'flag: San Marino', 'Flags', 'country-flag'],
     [],
     [],
@@ -16660,7 +16732,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1F3'],
-    ['emoji', '1852', 'Flags', 'country-flag', '🇸🇳', 'flag: Senegal'],
+    ['emoji', '1860', 'Flags', 'country-flag', '🇸🇳', 'flag: Senegal'],
     ['fully-qualified', '🇸🇳', '2.0', 'flag: Senegal', 'Flags', 'country-flag'],
     [],
     [],
@@ -16669,7 +16741,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1F4'],
-    ['emoji', '1853', 'Flags', 'country-flag', '🇸🇴', 'flag: Somalia'],
+    ['emoji', '1861', 'Flags', 'country-flag', '🇸🇴', 'flag: Somalia'],
     ['fully-qualified', '🇸🇴', '2.0', 'flag: Somalia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16678,7 +16750,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1F7'],
-    ['emoji', '1854', 'Flags', 'country-flag', '🇸🇷', 'flag: Suriname'],
+    ['emoji', '1862', 'Flags', 'country-flag', '🇸🇷', 'flag: Suriname'],
     ['fully-qualified', '🇸🇷', '2.0', 'flag: Suriname', 'Flags', 'country-flag'],
     [],
     [],
@@ -16687,7 +16759,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1F8'],
-    ['emoji', '1855', 'Flags', 'country-flag', '🇸🇸', 'flag: South Sudan'],
+    ['emoji', '1863', 'Flags', 'country-flag', '🇸🇸', 'flag: South Sudan'],
     ['fully-qualified', '🇸🇸', '2.0', 'flag: South Sudan', 'Flags', 'country-flag'],
     [],
     [],
@@ -16696,7 +16768,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1F9'],
-    ['emoji', '1856', 'Flags', 'country-flag', '🇸🇹', 'flag: São Tomé & Príncipe'],
+    ['emoji', '1864', 'Flags', 'country-flag', '🇸🇹', 'flag: São Tomé & Príncipe'],
     ['fully-qualified', '🇸🇹', '2.0', 'flag: São Tomé & Príncipe', 'Flags', 'country-flag'],
     [],
     [],
@@ -16705,7 +16777,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1FB'],
-    ['emoji', '1857', 'Flags', 'country-flag', '🇸🇻', 'flag: El Salvador'],
+    ['emoji', '1865', 'Flags', 'country-flag', '🇸🇻', 'flag: El Salvador'],
     ['fully-qualified', '🇸🇻', '2.0', 'flag: El Salvador', 'Flags', 'country-flag'],
     [],
     [],
@@ -16714,7 +16786,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1FD'],
-    ['emoji', '1858', 'Flags', 'country-flag', '🇸🇽', 'flag: Sint Maarten'],
+    ['emoji', '1866', 'Flags', 'country-flag', '🇸🇽', 'flag: Sint Maarten'],
     ['fully-qualified', '🇸🇽', '2.0', 'flag: Sint Maarten', 'Flags', 'country-flag'],
     [],
     [],
@@ -16723,7 +16795,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1FE'],
-    ['emoji', '1859', 'Flags', 'country-flag', '🇸🇾', 'flag: Syria'],
+    ['emoji', '1867', 'Flags', 'country-flag', '🇸🇾', 'flag: Syria'],
     ['fully-qualified', '🇸🇾', '2.0', 'flag: Syria', 'Flags', 'country-flag'],
     [],
     [],
@@ -16732,7 +16804,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F8', '1F1FF'],
-    ['emoji', '1860', 'Flags', 'country-flag', '🇸🇿', 'flag: Eswatini'],
+    ['emoji', '1868', 'Flags', 'country-flag', '🇸🇿', 'flag: Eswatini'],
     ['fully-qualified', '🇸🇿', '2.0', 'flag: Eswatini', 'Flags', 'country-flag'],
     [],
     [],
@@ -16741,7 +16813,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1E6'],
-    ['emoji', '1861', 'Flags', 'country-flag', '🇹🇦', 'flag: Tristan da Cunha'],
+    ['emoji', '1869', 'Flags', 'country-flag', '🇹🇦', 'flag: Tristan da Cunha'],
     ['fully-qualified', '🇹🇦', '2.0', 'flag: Tristan da Cunha', 'Flags', 'country-flag'],
     [],
     [],
@@ -16750,7 +16822,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1E8'],
-    ['emoji', '1862', 'Flags', 'country-flag', '🇹🇨', 'flag: Turks & Caicos Islands'],
+    ['emoji', '1870', 'Flags', 'country-flag', '🇹🇨', 'flag: Turks & Caicos Islands'],
     ['fully-qualified', '🇹🇨', '2.0', 'flag: Turks & Caicos Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -16759,7 +16831,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1E9'],
-    ['emoji', '1863', 'Flags', 'country-flag', '🇹🇩', 'flag: Chad'],
+    ['emoji', '1871', 'Flags', 'country-flag', '🇹🇩', 'flag: Chad'],
     ['fully-qualified', '🇹🇩', '2.0', 'flag: Chad', 'Flags', 'country-flag'],
     [],
     [],
@@ -16768,7 +16840,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1EB'],
-    ['emoji', '1864', 'Flags', 'country-flag', '🇹🇫', 'flag: French Southern Territories'],
+    ['emoji', '1872', 'Flags', 'country-flag', '🇹🇫', 'flag: French Southern Territories'],
     ['fully-qualified', '🇹🇫', '2.0', 'flag: French Southern Territories', 'Flags', 'country-flag'],
     [],
     [],
@@ -16777,7 +16849,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1EC'],
-    ['emoji', '1865', 'Flags', 'country-flag', '🇹🇬', 'flag: Togo'],
+    ['emoji', '1873', 'Flags', 'country-flag', '🇹🇬', 'flag: Togo'],
     ['fully-qualified', '🇹🇬', '2.0', 'flag: Togo', 'Flags', 'country-flag'],
     [],
     [],
@@ -16786,7 +16858,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1ED'],
-    ['emoji', '1866', 'Flags', 'country-flag', '🇹🇭', 'flag: Thailand'],
+    ['emoji', '1874', 'Flags', 'country-flag', '🇹🇭', 'flag: Thailand'],
     ['fully-qualified', '🇹🇭', '2.0', 'flag: Thailand', 'Flags', 'country-flag'],
     [],
     [],
@@ -16795,7 +16867,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1EF'],
-    ['emoji', '1867', 'Flags', 'country-flag', '🇹🇯', 'flag: Tajikistan'],
+    ['emoji', '1875', 'Flags', 'country-flag', '🇹🇯', 'flag: Tajikistan'],
     ['fully-qualified', '🇹🇯', '2.0', 'flag: Tajikistan', 'Flags', 'country-flag'],
     [],
     [],
@@ -16804,7 +16876,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1F0'],
-    ['emoji', '1868', 'Flags', 'country-flag', '🇹🇰', 'flag: Tokelau'],
+    ['emoji', '1876', 'Flags', 'country-flag', '🇹🇰', 'flag: Tokelau'],
     ['fully-qualified', '🇹🇰', '2.0', 'flag: Tokelau', 'Flags', 'country-flag'],
     [],
     [],
@@ -16813,7 +16885,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1F1'],
-    ['emoji', '1869', 'Flags', 'country-flag', '🇹🇱', 'flag: Timor-Leste'],
+    ['emoji', '1877', 'Flags', 'country-flag', '🇹🇱', 'flag: Timor-Leste'],
     ['fully-qualified', '🇹🇱', '2.0', 'flag: Timor-Leste', 'Flags', 'country-flag'],
     [],
     [],
@@ -16822,7 +16894,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1F2'],
-    ['emoji', '1870', 'Flags', 'country-flag', '🇹🇲', 'flag: Turkmenistan'],
+    ['emoji', '1878', 'Flags', 'country-flag', '🇹🇲', 'flag: Turkmenistan'],
     ['fully-qualified', '🇹🇲', '2.0', 'flag: Turkmenistan', 'Flags', 'country-flag'],
     [],
     [],
@@ -16831,7 +16903,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1F3'],
-    ['emoji', '1871', 'Flags', 'country-flag', '🇹🇳', 'flag: Tunisia'],
+    ['emoji', '1879', 'Flags', 'country-flag', '🇹🇳', 'flag: Tunisia'],
     ['fully-qualified', '🇹🇳', '2.0', 'flag: Tunisia', 'Flags', 'country-flag'],
     [],
     [],
@@ -16840,7 +16912,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1F4'],
-    ['emoji', '1872', 'Flags', 'country-flag', '🇹🇴', 'flag: Tonga'],
+    ['emoji', '1880', 'Flags', 'country-flag', '🇹🇴', 'flag: Tonga'],
     ['fully-qualified', '🇹🇴', '2.0', 'flag: Tonga', 'Flags', 'country-flag'],
     [],
     [],
@@ -16849,7 +16921,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1F7'],
-    ['emoji', '1873', 'Flags', 'country-flag', '🇹🇷', 'flag: Türkiye'],
+    ['emoji', '1881', 'Flags', 'country-flag', '🇹🇷', 'flag: Türkiye'],
     ['fully-qualified', '🇹🇷', '2.0', 'flag: Türkiye', 'Flags', 'country-flag'],
     [],
     [],
@@ -16858,7 +16930,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1F9'],
-    ['emoji', '1874', 'Flags', 'country-flag', '🇹🇹', 'flag: Trinidad & Tobago'],
+    ['emoji', '1882', 'Flags', 'country-flag', '🇹🇹', 'flag: Trinidad & Tobago'],
     ['fully-qualified', '🇹🇹', '2.0', 'flag: Trinidad & Tobago', 'Flags', 'country-flag'],
     [],
     [],
@@ -16867,7 +16939,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1FB'],
-    ['emoji', '1875', 'Flags', 'country-flag', '🇹🇻', 'flag: Tuvalu'],
+    ['emoji', '1883', 'Flags', 'country-flag', '🇹🇻', 'flag: Tuvalu'],
     ['fully-qualified', '🇹🇻', '2.0', 'flag: Tuvalu', 'Flags', 'country-flag'],
     [],
     [],
@@ -16876,7 +16948,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1FC'],
-    ['emoji', '1876', 'Flags', 'country-flag', '🇹🇼', 'flag: Taiwan'],
+    ['emoji', '1884', 'Flags', 'country-flag', '🇹🇼', 'flag: Taiwan'],
     ['fully-qualified', '🇹🇼', '2.0', 'flag: Taiwan', 'Flags', 'country-flag'],
     [],
     [],
@@ -16885,7 +16957,7 @@ fusionados_1 = [
   ],
   [
     ['1F1F9', '1F1FF'],
-    ['emoji', '1877', 'Flags', 'country-flag', '🇹🇿', 'flag: Tanzania'],
+    ['emoji', '1885', 'Flags', 'country-flag', '🇹🇿', 'flag: Tanzania'],
     ['fully-qualified', '🇹🇿', '2.0', 'flag: Tanzania', 'Flags', 'country-flag'],
     [],
     [],
@@ -16894,7 +16966,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FA', '1F1E6'],
-    ['emoji', '1878', 'Flags', 'country-flag', '🇺🇦', 'flag: Ukraine'],
+    ['emoji', '1886', 'Flags', 'country-flag', '🇺🇦', 'flag: Ukraine'],
     ['fully-qualified', '🇺🇦', '2.0', 'flag: Ukraine', 'Flags', 'country-flag'],
     [],
     [],
@@ -16903,7 +16975,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FA', '1F1EC'],
-    ['emoji', '1879', 'Flags', 'country-flag', '🇺🇬', 'flag: Uganda'],
+    ['emoji', '1887', 'Flags', 'country-flag', '🇺🇬', 'flag: Uganda'],
     ['fully-qualified', '🇺🇬', '2.0', 'flag: Uganda', 'Flags', 'country-flag'],
     [],
     [],
@@ -16912,7 +16984,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FA', '1F1F2'],
-    ['emoji', '1880', 'Flags', 'country-flag', '🇺🇲', 'flag: U.S. Outlying Islands'],
+    ['emoji', '1888', 'Flags', 'country-flag', '🇺🇲', 'flag: U.S. Outlying Islands'],
     ['fully-qualified', '🇺🇲', '2.0', 'flag: U.S. Outlying Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -16921,7 +16993,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FA', '1F1F3'],
-    ['emoji', '1881', 'Flags', 'country-flag', '🇺🇳', 'flag: United Nations'],
+    ['emoji', '1889', 'Flags', 'country-flag', '🇺🇳', 'flag: United Nations'],
     ['fully-qualified', '🇺🇳', '4.0', 'flag: United Nations', 'Flags', 'country-flag'],
     [],
     [],
@@ -16930,7 +17002,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FA', '1F1F8'],
-    ['emoji', '1882', 'Flags', 'country-flag', '🇺🇸', 'flag: United States'],
+    ['emoji', '1890', 'Flags', 'country-flag', '🇺🇸', 'flag: United States'],
     ['fully-qualified', '🇺🇸', '0.6', 'flag: United States', 'Flags', 'country-flag'],
     [],
     [],
@@ -16939,7 +17011,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FA', '1F1FE'],
-    ['emoji', '1883', 'Flags', 'country-flag', '🇺🇾', 'flag: Uruguay'],
+    ['emoji', '1891', 'Flags', 'country-flag', '🇺🇾', 'flag: Uruguay'],
     ['fully-qualified', '🇺🇾', '2.0', 'flag: Uruguay', 'Flags', 'country-flag'],
     [],
     [],
@@ -16948,7 +17020,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FA', '1F1FF'],
-    ['emoji', '1884', 'Flags', 'country-flag', '🇺🇿', 'flag: Uzbekistan'],
+    ['emoji', '1892', 'Flags', 'country-flag', '🇺🇿', 'flag: Uzbekistan'],
     ['fully-qualified', '🇺🇿', '2.0', 'flag: Uzbekistan', 'Flags', 'country-flag'],
     [],
     [],
@@ -16957,7 +17029,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FB', '1F1E6'],
-    ['emoji', '1885', 'Flags', 'country-flag', '🇻🇦', 'flag: Vatican City'],
+    ['emoji', '1893', 'Flags', 'country-flag', '🇻🇦', 'flag: Vatican City'],
     ['fully-qualified', '🇻🇦', '2.0', 'flag: Vatican City', 'Flags', 'country-flag'],
     [],
     [],
@@ -16966,7 +17038,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FB', '1F1E8'],
-    ['emoji', '1886', 'Flags', 'country-flag', '🇻🇨', 'flag: St. Vincent & Grenadines'],
+    ['emoji', '1894', 'Flags', 'country-flag', '🇻🇨', 'flag: St. Vincent & Grenadines'],
     ['fully-qualified', '🇻🇨', '2.0', 'flag: St. Vincent & Grenadines', 'Flags', 'country-flag'],
     [],
     [],
@@ -16975,7 +17047,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FB', '1F1EA'],
-    ['emoji', '1887', 'Flags', 'country-flag', '🇻🇪', 'flag: Venezuela'],
+    ['emoji', '1895', 'Flags', 'country-flag', '🇻🇪', 'flag: Venezuela'],
     ['fully-qualified', '🇻🇪', '2.0', 'flag: Venezuela', 'Flags', 'country-flag'],
     [],
     [],
@@ -16984,7 +17056,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FB', '1F1EC'],
-    ['emoji', '1888', 'Flags', 'country-flag', '🇻🇬', 'flag: British Virgin Islands'],
+    ['emoji', '1896', 'Flags', 'country-flag', '🇻🇬', 'flag: British Virgin Islands'],
     ['fully-qualified', '🇻🇬', '2.0', 'flag: British Virgin Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -16993,7 +17065,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FB', '1F1EE'],
-    ['emoji', '1889', 'Flags', 'country-flag', '🇻🇮', 'flag: U.S. Virgin Islands'],
+    ['emoji', '1897', 'Flags', 'country-flag', '🇻🇮', 'flag: U.S. Virgin Islands'],
     ['fully-qualified', '🇻🇮', '2.0', 'flag: U.S. Virgin Islands', 'Flags', 'country-flag'],
     [],
     [],
@@ -17002,7 +17074,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FB', '1F1F3'],
-    ['emoji', '1890', 'Flags', 'country-flag', '🇻🇳', 'flag: Vietnam'],
+    ['emoji', '1898', 'Flags', 'country-flag', '🇻🇳', 'flag: Vietnam'],
     ['fully-qualified', '🇻🇳', '2.0', 'flag: Vietnam', 'Flags', 'country-flag'],
     [],
     [],
@@ -17011,7 +17083,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FB', '1F1FA'],
-    ['emoji', '1891', 'Flags', 'country-flag', '🇻🇺', 'flag: Vanuatu'],
+    ['emoji', '1899', 'Flags', 'country-flag', '🇻🇺', 'flag: Vanuatu'],
     ['fully-qualified', '🇻🇺', '2.0', 'flag: Vanuatu', 'Flags', 'country-flag'],
     [],
     [],
@@ -17020,7 +17092,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FC', '1F1EB'],
-    ['emoji', '1892', 'Flags', 'country-flag', '🇼🇫', 'flag: Wallis & Futuna'],
+    ['emoji', '1900', 'Flags', 'country-flag', '🇼🇫', 'flag: Wallis & Futuna'],
     ['fully-qualified', '🇼🇫', '2.0', 'flag: Wallis & Futuna', 'Flags', 'country-flag'],
     [],
     [],
@@ -17029,7 +17101,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FC', '1F1F8'],
-    ['emoji', '1893', 'Flags', 'country-flag', '🇼🇸', 'flag: Samoa'],
+    ['emoji', '1901', 'Flags', 'country-flag', '🇼🇸', 'flag: Samoa'],
     ['fully-qualified', '🇼🇸', '2.0', 'flag: Samoa', 'Flags', 'country-flag'],
     [],
     [],
@@ -17038,7 +17110,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FD', '1F1F0'],
-    ['emoji', '1894', 'Flags', 'country-flag', '🇽🇰', 'flag: Kosovo'],
+    ['emoji', '1902', 'Flags', 'country-flag', '🇽🇰', 'flag: Kosovo'],
     ['fully-qualified', '🇽🇰', '2.0', 'flag: Kosovo', 'Flags', 'country-flag'],
     [],
     [],
@@ -17047,7 +17119,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FE', '1F1EA'],
-    ['emoji', '1895', 'Flags', 'country-flag', '🇾🇪', 'flag: Yemen'],
+    ['emoji', '1903', 'Flags', 'country-flag', '🇾🇪', 'flag: Yemen'],
     ['fully-qualified', '🇾🇪', '2.0', 'flag: Yemen', 'Flags', 'country-flag'],
     [],
     [],
@@ -17056,7 +17128,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FE', '1F1F9'],
-    ['emoji', '1896', 'Flags', 'country-flag', '🇾🇹', 'flag: Mayotte'],
+    ['emoji', '1904', 'Flags', 'country-flag', '🇾🇹', 'flag: Mayotte'],
     ['fully-qualified', '🇾🇹', '2.0', 'flag: Mayotte', 'Flags', 'country-flag'],
     [],
     [],
@@ -17065,7 +17137,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FF', '1F1E6'],
-    ['emoji', '1897', 'Flags', 'country-flag', '🇿🇦', 'flag: South Africa'],
+    ['emoji', '1905', 'Flags', 'country-flag', '🇿🇦', 'flag: South Africa'],
     ['fully-qualified', '🇿🇦', '2.0', 'flag: South Africa', 'Flags', 'country-flag'],
     [],
     [],
@@ -17074,7 +17146,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FF', '1F1F2'],
-    ['emoji', '1898', 'Flags', 'country-flag', '🇿🇲', 'flag: Zambia'],
+    ['emoji', '1906', 'Flags', 'country-flag', '🇿🇲', 'flag: Zambia'],
     ['fully-qualified', '🇿🇲', '2.0', 'flag: Zambia', 'Flags', 'country-flag'],
     [],
     [],
@@ -17083,7 +17155,7 @@ fusionados_1 = [
   ],
   [
     ['1F1FF', '1F1FC'],
-    ['emoji', '1899', 'Flags', 'country-flag', '🇿🇼', 'flag: Zimbabwe'],
+    ['emoji', '1907', 'Flags', 'country-flag', '🇿🇼', 'flag: Zimbabwe'],
     ['fully-qualified', '🇿🇼', '2.0', 'flag: Zimbabwe', 'Flags', 'country-flag'],
     [],
     [],
@@ -17092,7 +17164,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F4', 'E0067', 'E0062', 'E0065', 'E006E', 'E0067', 'E007F'],
-    ['emoji', '1900', 'Flags', 'subdivision-flag', '🏴\U000e0067\U000e0062\U000e0065\U000e006e\U000e0067\U000e007f', 'flag: England'],
+    ['emoji', '1908', 'Flags', 'subdivision-flag', '🏴\U000e0067\U000e0062\U000e0065\U000e006e\U000e0067\U000e007f', 'flag: England'],
     ['fully-qualified', '🏴\U000e0067\U000e0062\U000e0065\U000e006e\U000e0067\U000e007f', '5.0', 'flag: England', 'Flags', 'subdivision-flag'],
     [],
     [],
@@ -17101,7 +17173,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F4', 'E0067', 'E0062', 'E0073', 'E0063', 'E0074', 'E007F'],
-    ['emoji', '1901', 'Flags', 'subdivision-flag', '🏴\U000e0067\U000e0062\U000e0073\U000e0063\U000e0074\U000e007f', 'flag: Scotland'],
+    ['emoji', '1909', 'Flags', 'subdivision-flag', '🏴\U000e0067\U000e0062\U000e0073\U000e0063\U000e0074\U000e007f', 'flag: Scotland'],
     ['fully-qualified', '🏴\U000e0067\U000e0062\U000e0073\U000e0063\U000e0074\U000e007f', '5.0', 'flag: Scotland', 'Flags', 'subdivision-flag'],
     [],
     [],
@@ -17110,7 +17182,7 @@ fusionados_1 = [
   ],
   [
     ['1F3F4', 'E0067', 'E0062', 'E0077', 'E006C', 'E0073', 'E007F'],
-    ['emoji', '1902', 'Flags', 'subdivision-flag', '🏴\U000e0067\U000e0062\U000e0077\U000e006c\U000e0073\U000e007f', 'flag: Wales'],
+    ['emoji', '1910', 'Flags', 'subdivision-flag', '🏴\U000e0067\U000e0062\U000e0077\U000e006c\U000e0073\U000e007f', 'flag: Wales'],
     ['fully-qualified', '🏴\U000e0067\U000e0062\U000e0077\U000e006c\U000e0073\U000e007f', '5.0', 'flag: Wales', 'Flags', 'subdivision-flag'],
     [],
     [],
@@ -25939,47 +26011,47 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F384'],
-    ['emoji_modifier_sequence', '981', 'People & Body', 'person-fantasy', '🧑🏻\u200d🎄', 'mx claus: light skin tone'],
-    ['fully-qualified', '🧑🏻\u200d🎄', '13.0', 'mx claus: light skin tone', 'People & Body', 'person-fantasy'],
+    ['emoji_modifier_sequence', '981', 'People & Body', 'person-fantasy', '🧑🏻\u200d🎄', 'Mx Claus: light skin tone'],
+    ['fully-qualified', '🧑🏻\u200d🎄', '13.0', 'Mx Claus: light skin tone', 'People & Body', 'person-fantasy'],
     [],
     [],
-    ['RGI_Emoji_ZWJ_Sequence', 'mx claus: light skin tone', '13.0', '🧑🏻\u200d🎄', 'Role'],
+    ['RGI_Emoji_ZWJ_Sequence', 'Mx Claus: light skin tone', '13.0', '🧑🏻\u200d🎄', 'Role'],
     [],
   ],
   [
     ['1F9D1', '1F3FC', '200D', '1F384'],
-    ['emoji_modifier_sequence', '982', 'People & Body', 'person-fantasy', '🧑🏼\u200d🎄', 'mx claus: medium-light skin tone'],
-    ['fully-qualified', '🧑🏼\u200d🎄', '13.0', 'mx claus: medium-light skin tone', 'People & Body', 'person-fantasy'],
+    ['emoji_modifier_sequence', '982', 'People & Body', 'person-fantasy', '🧑🏼\u200d🎄', 'Mx Claus: medium-light skin tone'],
+    ['fully-qualified', '🧑🏼\u200d🎄', '13.0', 'Mx Claus: medium-light skin tone', 'People & Body', 'person-fantasy'],
     [],
     [],
-    ['RGI_Emoji_ZWJ_Sequence', 'mx claus: medium-light skin tone', '13.0', '🧑🏼\u200d🎄', 'Role'],
+    ['RGI_Emoji_ZWJ_Sequence', 'Mx Claus: medium-light skin tone', '13.0', '🧑🏼\u200d🎄', 'Role'],
     [],
   ],
   [
     ['1F9D1', '1F3FD', '200D', '1F384'],
-    ['emoji_modifier_sequence', '983', 'People & Body', 'person-fantasy', '🧑🏽\u200d🎄', 'mx claus: medium skin tone'],
-    ['fully-qualified', '🧑🏽\u200d🎄', '13.0', 'mx claus: medium skin tone', 'People & Body', 'person-fantasy'],
+    ['emoji_modifier_sequence', '983', 'People & Body', 'person-fantasy', '🧑🏽\u200d🎄', 'Mx Claus: medium skin tone'],
+    ['fully-qualified', '🧑🏽\u200d🎄', '13.0', 'Mx Claus: medium skin tone', 'People & Body', 'person-fantasy'],
     [],
     [],
-    ['RGI_Emoji_ZWJ_Sequence', 'mx claus: medium skin tone', '13.0', '🧑🏽\u200d🎄', 'Role'],
+    ['RGI_Emoji_ZWJ_Sequence', 'Mx Claus: medium skin tone', '13.0', '🧑🏽\u200d🎄', 'Role'],
     [],
   ],
   [
     ['1F9D1', '1F3FE', '200D', '1F384'],
-    ['emoji_modifier_sequence', '984', 'People & Body', 'person-fantasy', '🧑🏾\u200d🎄', 'mx claus: medium-dark skin tone'],
-    ['fully-qualified', '🧑🏾\u200d🎄', '13.0', 'mx claus: medium-dark skin tone', 'People & Body', 'person-fantasy'],
+    ['emoji_modifier_sequence', '984', 'People & Body', 'person-fantasy', '🧑🏾\u200d🎄', 'Mx Claus: medium-dark skin tone'],
+    ['fully-qualified', '🧑🏾\u200d🎄', '13.0', 'Mx Claus: medium-dark skin tone', 'People & Body', 'person-fantasy'],
     [],
     [],
-    ['RGI_Emoji_ZWJ_Sequence', 'mx claus: medium-dark skin tone', '13.0', '🧑🏾\u200d🎄', 'Role'],
+    ['RGI_Emoji_ZWJ_Sequence', 'Mx Claus: medium-dark skin tone', '13.0', '🧑🏾\u200d🎄', 'Role'],
     [],
   ],
   [
     ['1F9D1', '1F3FF', '200D', '1F384'],
-    ['emoji_modifier_sequence', '985', 'People & Body', 'person-fantasy', '🧑🏿\u200d🎄', 'mx claus: dark skin tone'],
-    ['fully-qualified', '🧑🏿\u200d🎄', '13.0', 'mx claus: dark skin tone', 'People & Body', 'person-fantasy'],
+    ['emoji_modifier_sequence', '985', 'People & Body', 'person-fantasy', '🧑🏿\u200d🎄', 'Mx Claus: dark skin tone'],
+    ['fully-qualified', '🧑🏿\u200d🎄', '13.0', 'Mx Claus: dark skin tone', 'People & Body', 'person-fantasy'],
     [],
     [],
-    ['RGI_Emoji_ZWJ_Sequence', 'mx claus: dark skin tone', '13.0', '🧑🏿\u200d🎄', 'Role'],
+    ['RGI_Emoji_ZWJ_Sequence', 'Mx Claus: dark skin tone', '13.0', '🧑🏿\u200d🎄', 'Role'],
     [],
   ],
   [
@@ -27334,7 +27406,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FB', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1136', 'People & Body', 'person-activity', '🚶🏻\u200d➡️', 'person walking facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1136', 'People & Body', 'person-activity', '🚶🏻\u200d➡️', 'person walking facing right'],
     ['fully-qualified', '🚶🏻\u200d➡️', '15.1', 'person walking facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27343,7 +27415,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1137', 'People & Body', 'person-activity', '🚶🏼\u200d➡️', 'person walking facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1137', 'People & Body', 'person-activity', '🚶🏼\u200d➡️', 'person walking facing right'],
     ['fully-qualified', '🚶🏼\u200d➡️', '15.1', 'person walking facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27352,7 +27424,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1138', 'People & Body', 'person-activity', '🚶🏽\u200d➡️', 'person walking facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1138', 'People & Body', 'person-activity', '🚶🏽\u200d➡️', 'person walking facing right'],
     ['fully-qualified', '🚶🏽\u200d➡️', '15.1', 'person walking facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27361,7 +27433,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FE', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1139', 'People & Body', 'person-activity', '🚶🏾\u200d➡️', 'person walking facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1139', 'People & Body', 'person-activity', '🚶🏾\u200d➡️', 'person walking facing right'],
     ['fully-qualified', '🚶🏾\u200d➡️', '15.1', 'person walking facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27370,7 +27442,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1140', 'People & Body', 'person-activity', '🚶🏿\u200d➡️', 'person walking facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1140', 'People & Body', 'person-activity', '🚶🏿\u200d➡️', 'person walking facing right'],
     ['fully-qualified', '🚶🏿\u200d➡️', '15.1', 'person walking facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27379,7 +27451,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1141', 'People & Body', 'person-activity', '🚶🏻\u200d♀️\u200d➡️', 'woman walking facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1141', 'People & Body', 'person-activity', '🚶🏻\u200d♀️\u200d➡️', 'woman walking facing right'],
     ['fully-qualified', '🚶🏻\u200d♀️\u200d➡️', '15.1', 'woman walking facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27388,7 +27460,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1142', 'People & Body', 'person-activity', '🚶🏼\u200d♀️\u200d➡️', 'woman walking facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1142', 'People & Body', 'person-activity', '🚶🏼\u200d♀️\u200d➡️', 'woman walking facing right'],
     ['fully-qualified', '🚶🏼\u200d♀️\u200d➡️', '15.1', 'woman walking facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27397,7 +27469,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1143', 'People & Body', 'person-activity', '🚶🏽\u200d♀️\u200d➡️', 'woman walking facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1143', 'People & Body', 'person-activity', '🚶🏽\u200d♀️\u200d➡️', 'woman walking facing right'],
     ['fully-qualified', '🚶🏽\u200d♀️\u200d➡️', '15.1', 'woman walking facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27406,7 +27478,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1144', 'People & Body', 'person-activity', '🚶🏾\u200d♀️\u200d➡️', 'woman walking facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1144', 'People & Body', 'person-activity', '🚶🏾\u200d♀️\u200d➡️', 'woman walking facing right'],
     ['fully-qualified', '🚶🏾\u200d♀️\u200d➡️', '15.1', 'woman walking facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27415,7 +27487,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1145', 'People & Body', 'person-activity', '🚶🏿\u200d♀️\u200d➡️', 'woman walking facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1145', 'People & Body', 'person-activity', '🚶🏿\u200d♀️\u200d➡️', 'woman walking facing right'],
     ['fully-qualified', '🚶🏿\u200d♀️\u200d➡️', '15.1', 'woman walking facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27424,7 +27496,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1146', 'People & Body', 'person-activity', '🚶🏻\u200d♂️\u200d➡️', 'man walking facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1146', 'People & Body', 'person-activity', '🚶🏻\u200d♂️\u200d➡️', 'man walking facing right'],
     ['fully-qualified', '🚶🏻\u200d♂️\u200d➡️', '15.1', 'man walking facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27433,7 +27505,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1147', 'People & Body', 'person-activity', '🚶🏼\u200d♂️\u200d➡️', 'man walking facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1147', 'People & Body', 'person-activity', '🚶🏼\u200d♂️\u200d➡️', 'man walking facing right'],
     ['fully-qualified', '🚶🏼\u200d♂️\u200d➡️', '15.1', 'man walking facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27442,7 +27514,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1148', 'People & Body', 'person-activity', '🚶🏽\u200d♂️\u200d➡️', 'man walking facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1148', 'People & Body', 'person-activity', '🚶🏽\u200d♂️\u200d➡️', 'man walking facing right'],
     ['fully-qualified', '🚶🏽\u200d♂️\u200d➡️', '15.1', 'man walking facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27451,7 +27523,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1149', 'People & Body', 'person-activity', '🚶🏾\u200d♂️\u200d➡️', 'man walking facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1149', 'People & Body', 'person-activity', '🚶🏾\u200d♂️\u200d➡️', 'man walking facing right'],
     ['fully-qualified', '🚶🏾\u200d♂️\u200d➡️', '15.1', 'man walking facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27460,7 +27532,7 @@ fusionados_1 = [
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1150', 'People & Body', 'person-activity', '🚶🏿\u200d♂️\u200d➡️', 'man walking facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1150', 'People & Body', 'person-activity', '🚶🏿\u200d♂️\u200d➡️', 'man walking facing right'],
     ['fully-qualified', '🚶🏿\u200d♂️\u200d➡️', '15.1', 'man walking facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27739,7 +27811,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FB', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1181', 'People & Body', 'person-activity', '🧎🏻\u200d➡️', 'person kneeling facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1181', 'People & Body', 'person-activity', '🧎🏻\u200d➡️', 'person kneeling facing right'],
     ['fully-qualified', '🧎🏻\u200d➡️', '15.1', 'person kneeling facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27748,7 +27820,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1182', 'People & Body', 'person-activity', '🧎🏼\u200d➡️', 'person kneeling facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1182', 'People & Body', 'person-activity', '🧎🏼\u200d➡️', 'person kneeling facing right'],
     ['fully-qualified', '🧎🏼\u200d➡️', '15.1', 'person kneeling facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27757,7 +27829,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1183', 'People & Body', 'person-activity', '🧎🏽\u200d➡️', 'person kneeling facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1183', 'People & Body', 'person-activity', '🧎🏽\u200d➡️', 'person kneeling facing right'],
     ['fully-qualified', '🧎🏽\u200d➡️', '15.1', 'person kneeling facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27766,7 +27838,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FE', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1184', 'People & Body', 'person-activity', '🧎🏾\u200d➡️', 'person kneeling facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1184', 'People & Body', 'person-activity', '🧎🏾\u200d➡️', 'person kneeling facing right'],
     ['fully-qualified', '🧎🏾\u200d➡️', '15.1', 'person kneeling facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27775,7 +27847,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1185', 'People & Body', 'person-activity', '🧎🏿\u200d➡️', 'person kneeling facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1185', 'People & Body', 'person-activity', '🧎🏿\u200d➡️', 'person kneeling facing right'],
     ['fully-qualified', '🧎🏿\u200d➡️', '15.1', 'person kneeling facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27784,7 +27856,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1186', 'People & Body', 'person-activity', '🧎🏻\u200d♀️\u200d➡️', 'woman kneeling facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1186', 'People & Body', 'person-activity', '🧎🏻\u200d♀️\u200d➡️', 'woman kneeling facing right'],
     ['fully-qualified', '🧎🏻\u200d♀️\u200d➡️', '15.1', 'woman kneeling facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27793,7 +27865,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1187', 'People & Body', 'person-activity', '🧎🏼\u200d♀️\u200d➡️', 'woman kneeling facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1187', 'People & Body', 'person-activity', '🧎🏼\u200d♀️\u200d➡️', 'woman kneeling facing right'],
     ['fully-qualified', '🧎🏼\u200d♀️\u200d➡️', '15.1', 'woman kneeling facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27802,7 +27874,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1188', 'People & Body', 'person-activity', '🧎🏽\u200d♀️\u200d➡️', 'woman kneeling facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1188', 'People & Body', 'person-activity', '🧎🏽\u200d♀️\u200d➡️', 'woman kneeling facing right'],
     ['fully-qualified', '🧎🏽\u200d♀️\u200d➡️', '15.1', 'woman kneeling facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27811,7 +27883,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1189', 'People & Body', 'person-activity', '🧎🏾\u200d♀️\u200d➡️', 'woman kneeling facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1189', 'People & Body', 'person-activity', '🧎🏾\u200d♀️\u200d➡️', 'woman kneeling facing right'],
     ['fully-qualified', '🧎🏾\u200d♀️\u200d➡️', '15.1', 'woman kneeling facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27820,7 +27892,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1190', 'People & Body', 'person-activity', '🧎🏿\u200d♀️\u200d➡️', 'woman kneeling facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1190', 'People & Body', 'person-activity', '🧎🏿\u200d♀️\u200d➡️', 'woman kneeling facing right'],
     ['fully-qualified', '🧎🏿\u200d♀️\u200d➡️', '15.1', 'woman kneeling facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27829,7 +27901,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1191', 'People & Body', 'person-activity', '🧎🏻\u200d♂️\u200d➡️', 'man kneeling facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1191', 'People & Body', 'person-activity', '🧎🏻\u200d♂️\u200d➡️', 'man kneeling facing right'],
     ['fully-qualified', '🧎🏻\u200d♂️\u200d➡️', '15.1', 'man kneeling facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27838,7 +27910,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1192', 'People & Body', 'person-activity', '🧎🏼\u200d♂️\u200d➡️', 'man kneeling facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1192', 'People & Body', 'person-activity', '🧎🏼\u200d♂️\u200d➡️', 'man kneeling facing right'],
     ['fully-qualified', '🧎🏼\u200d♂️\u200d➡️', '15.1', 'man kneeling facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27847,7 +27919,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1193', 'People & Body', 'person-activity', '🧎🏽\u200d♂️\u200d➡️', 'man kneeling facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1193', 'People & Body', 'person-activity', '🧎🏽\u200d♂️\u200d➡️', 'man kneeling facing right'],
     ['fully-qualified', '🧎🏽\u200d♂️\u200d➡️', '15.1', 'man kneeling facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27856,7 +27928,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1194', 'People & Body', 'person-activity', '🧎🏾\u200d♂️\u200d➡️', 'man kneeling facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1194', 'People & Body', 'person-activity', '🧎🏾\u200d♂️\u200d➡️', 'man kneeling facing right'],
     ['fully-qualified', '🧎🏾\u200d♂️\u200d➡️', '15.1', 'man kneeling facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27865,7 +27937,7 @@ fusionados_1 = [
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1195', 'People & Body', 'person-activity', '🧎🏿\u200d♂️\u200d➡️', 'man kneeling facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1195', 'People & Body', 'person-activity', '🧎🏿\u200d♂️\u200d➡️', 'man kneeling facing right'],
     ['fully-qualified', '🧎🏿\u200d♂️\u200d➡️', '15.1', 'man kneeling facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27919,7 +27991,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1201', 'People & Body', 'person-activity', '🧑🏻\u200d🦯\u200d➡️', 'person with white cane facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1201', 'People & Body', 'person-activity', '🧑🏻\u200d🦯\u200d➡️', 'person with white cane facing right'],
     ['fully-qualified', '🧑🏻\u200d🦯\u200d➡️', '15.1', 'person with white cane facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27928,7 +28000,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FC', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1202', 'People & Body', 'person-activity', '🧑🏼\u200d🦯\u200d➡️', 'person with white cane facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1202', 'People & Body', 'person-activity', '🧑🏼\u200d🦯\u200d➡️', 'person with white cane facing right'],
     ['fully-qualified', '🧑🏼\u200d🦯\u200d➡️', '15.1', 'person with white cane facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27937,7 +28009,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FD', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1203', 'People & Body', 'person-activity', '🧑🏽\u200d🦯\u200d➡️', 'person with white cane facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1203', 'People & Body', 'person-activity', '🧑🏽\u200d🦯\u200d➡️', 'person with white cane facing right'],
     ['fully-qualified', '🧑🏽\u200d🦯\u200d➡️', '15.1', 'person with white cane facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27946,7 +28018,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FE', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1204', 'People & Body', 'person-activity', '🧑🏾\u200d🦯\u200d➡️', 'person with white cane facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1204', 'People & Body', 'person-activity', '🧑🏾\u200d🦯\u200d➡️', 'person with white cane facing right'],
     ['fully-qualified', '🧑🏾\u200d🦯\u200d➡️', '15.1', 'person with white cane facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -27955,7 +28027,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FF', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1205', 'People & Body', 'person-activity', '🧑🏿\u200d🦯\u200d➡️', 'person with white cane facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1205', 'People & Body', 'person-activity', '🧑🏿\u200d🦯\u200d➡️', 'person with white cane facing right'],
     ['fully-qualified', '🧑🏿\u200d🦯\u200d➡️', '15.1', 'person with white cane facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28009,7 +28081,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FB', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1211', 'People & Body', 'person-activity', '👨🏻\u200d🦯\u200d➡️', 'man with white cane facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1211', 'People & Body', 'person-activity', '👨🏻\u200d🦯\u200d➡️', 'man with white cane facing right'],
     ['fully-qualified', '👨🏻\u200d🦯\u200d➡️', '15.1', 'man with white cane facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28018,7 +28090,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FC', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1212', 'People & Body', 'person-activity', '👨🏼\u200d🦯\u200d➡️', 'man with white cane facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1212', 'People & Body', 'person-activity', '👨🏼\u200d🦯\u200d➡️', 'man with white cane facing right'],
     ['fully-qualified', '👨🏼\u200d🦯\u200d➡️', '15.1', 'man with white cane facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28027,7 +28099,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FD', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1213', 'People & Body', 'person-activity', '👨🏽\u200d🦯\u200d➡️', 'man with white cane facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1213', 'People & Body', 'person-activity', '👨🏽\u200d🦯\u200d➡️', 'man with white cane facing right'],
     ['fully-qualified', '👨🏽\u200d🦯\u200d➡️', '15.1', 'man with white cane facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28036,7 +28108,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FE', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1214', 'People & Body', 'person-activity', '👨🏾\u200d🦯\u200d➡️', 'man with white cane facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1214', 'People & Body', 'person-activity', '👨🏾\u200d🦯\u200d➡️', 'man with white cane facing right'],
     ['fully-qualified', '👨🏾\u200d🦯\u200d➡️', '15.1', 'man with white cane facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28045,7 +28117,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FF', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1215', 'People & Body', 'person-activity', '👨🏿\u200d🦯\u200d➡️', 'man with white cane facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1215', 'People & Body', 'person-activity', '👨🏿\u200d🦯\u200d➡️', 'man with white cane facing right'],
     ['fully-qualified', '👨🏿\u200d🦯\u200d➡️', '15.1', 'man with white cane facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28099,7 +28171,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FB', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1221', 'People & Body', 'person-activity', '👩🏻\u200d🦯\u200d➡️', 'woman with white cane facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1221', 'People & Body', 'person-activity', '👩🏻\u200d🦯\u200d➡️', 'woman with white cane facing right'],
     ['fully-qualified', '👩🏻\u200d🦯\u200d➡️', '15.1', 'woman with white cane facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28108,7 +28180,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FC', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1222', 'People & Body', 'person-activity', '👩🏼\u200d🦯\u200d➡️', 'woman with white cane facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1222', 'People & Body', 'person-activity', '👩🏼\u200d🦯\u200d➡️', 'woman with white cane facing right'],
     ['fully-qualified', '👩🏼\u200d🦯\u200d➡️', '15.1', 'woman with white cane facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28117,7 +28189,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FD', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1223', 'People & Body', 'person-activity', '👩🏽\u200d🦯\u200d➡️', 'woman with white cane facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1223', 'People & Body', 'person-activity', '👩🏽\u200d🦯\u200d➡️', 'woman with white cane facing right'],
     ['fully-qualified', '👩🏽\u200d🦯\u200d➡️', '15.1', 'woman with white cane facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28126,7 +28198,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FE', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1224', 'People & Body', 'person-activity', '👩🏾\u200d🦯\u200d➡️', 'woman with white cane facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1224', 'People & Body', 'person-activity', '👩🏾\u200d🦯\u200d➡️', 'woman with white cane facing right'],
     ['fully-qualified', '👩🏾\u200d🦯\u200d➡️', '15.1', 'woman with white cane facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28135,7 +28207,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FF', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1225', 'People & Body', 'person-activity', '👩🏿\u200d🦯\u200d➡️', 'woman with white cane facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1225', 'People & Body', 'person-activity', '👩🏿\u200d🦯\u200d➡️', 'woman with white cane facing right'],
     ['fully-qualified', '👩🏿\u200d🦯\u200d➡️', '15.1', 'woman with white cane facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28189,7 +28261,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1231', 'People & Body', 'person-activity', '🧑🏻\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1231', 'People & Body', 'person-activity', '🧑🏻\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right'],
     ['fully-qualified', '🧑🏻\u200d🦼\u200d➡️', '15.1', 'person in motorized wheelchair facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28198,7 +28270,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FC', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1232', 'People & Body', 'person-activity', '🧑🏼\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1232', 'People & Body', 'person-activity', '🧑🏼\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right'],
     ['fully-qualified', '🧑🏼\u200d🦼\u200d➡️', '15.1', 'person in motorized wheelchair facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28207,7 +28279,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FD', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1233', 'People & Body', 'person-activity', '🧑🏽\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1233', 'People & Body', 'person-activity', '🧑🏽\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right'],
     ['fully-qualified', '🧑🏽\u200d🦼\u200d➡️', '15.1', 'person in motorized wheelchair facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28216,7 +28288,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FE', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1234', 'People & Body', 'person-activity', '🧑🏾\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1234', 'People & Body', 'person-activity', '🧑🏾\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right'],
     ['fully-qualified', '🧑🏾\u200d🦼\u200d➡️', '15.1', 'person in motorized wheelchair facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28225,7 +28297,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FF', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1235', 'People & Body', 'person-activity', '🧑🏿\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1235', 'People & Body', 'person-activity', '🧑🏿\u200d🦼\u200d➡️', 'person in motorized wheelchair facing right'],
     ['fully-qualified', '🧑🏿\u200d🦼\u200d➡️', '15.1', 'person in motorized wheelchair facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28279,7 +28351,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FB', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1241', 'People & Body', 'person-activity', '👨🏻\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1241', 'People & Body', 'person-activity', '👨🏻\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right'],
     ['fully-qualified', '👨🏻\u200d🦼\u200d➡️', '15.1', 'man in motorized wheelchair facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28288,7 +28360,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FC', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1242', 'People & Body', 'person-activity', '👨🏼\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1242', 'People & Body', 'person-activity', '👨🏼\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right'],
     ['fully-qualified', '👨🏼\u200d🦼\u200d➡️', '15.1', 'man in motorized wheelchair facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28297,7 +28369,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FD', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1243', 'People & Body', 'person-activity', '👨🏽\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1243', 'People & Body', 'person-activity', '👨🏽\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right'],
     ['fully-qualified', '👨🏽\u200d🦼\u200d➡️', '15.1', 'man in motorized wheelchair facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28306,7 +28378,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FE', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1244', 'People & Body', 'person-activity', '👨🏾\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1244', 'People & Body', 'person-activity', '👨🏾\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right'],
     ['fully-qualified', '👨🏾\u200d🦼\u200d➡️', '15.1', 'man in motorized wheelchair facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28315,7 +28387,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FF', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1245', 'People & Body', 'person-activity', '👨🏿\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1245', 'People & Body', 'person-activity', '👨🏿\u200d🦼\u200d➡️', 'man in motorized wheelchair facing right'],
     ['fully-qualified', '👨🏿\u200d🦼\u200d➡️', '15.1', 'man in motorized wheelchair facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28369,7 +28441,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FB', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1251', 'People & Body', 'person-activity', '👩🏻\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1251', 'People & Body', 'person-activity', '👩🏻\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right'],
     ['fully-qualified', '👩🏻\u200d🦼\u200d➡️', '15.1', 'woman in motorized wheelchair facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28378,7 +28450,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FC', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1252', 'People & Body', 'person-activity', '👩🏼\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1252', 'People & Body', 'person-activity', '👩🏼\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right'],
     ['fully-qualified', '👩🏼\u200d🦼\u200d➡️', '15.1', 'woman in motorized wheelchair facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28387,7 +28459,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FD', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1253', 'People & Body', 'person-activity', '👩🏽\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1253', 'People & Body', 'person-activity', '👩🏽\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right'],
     ['fully-qualified', '👩🏽\u200d🦼\u200d➡️', '15.1', 'woman in motorized wheelchair facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28396,7 +28468,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FE', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1254', 'People & Body', 'person-activity', '👩🏾\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1254', 'People & Body', 'person-activity', '👩🏾\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right'],
     ['fully-qualified', '👩🏾\u200d🦼\u200d➡️', '15.1', 'woman in motorized wheelchair facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28405,7 +28477,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FF', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1255', 'People & Body', 'person-activity', '👩🏿\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1255', 'People & Body', 'person-activity', '👩🏿\u200d🦼\u200d➡️', 'woman in motorized wheelchair facing right'],
     ['fully-qualified', '👩🏿\u200d🦼\u200d➡️', '15.1', 'woman in motorized wheelchair facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28459,7 +28531,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1261', 'People & Body', 'person-activity', '🧑🏻\u200d🦽\u200d➡️', 'person in manual wheelchair facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1261', 'People & Body', 'person-activity', '🧑🏻\u200d🦽\u200d➡️', 'person in manual wheelchair facing right'],
     ['fully-qualified', '🧑🏻\u200d🦽\u200d➡️', '15.1', 'person in manual wheelchair facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28468,7 +28540,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FC', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1262', 'People & Body', 'person-activity', '🧑🏼\u200d🦽\u200d➡️', 'person in manual wheelchair facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1262', 'People & Body', 'person-activity', '🧑🏼\u200d🦽\u200d➡️', 'person in manual wheelchair facing right'],
     ['fully-qualified', '🧑🏼\u200d🦽\u200d➡️', '15.1', 'person in manual wheelchair facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28477,7 +28549,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FD', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1263', 'People & Body', 'person-activity', '🧑🏽\u200d🦽\u200d➡️', 'person in manual wheelchair facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1263', 'People & Body', 'person-activity', '🧑🏽\u200d🦽\u200d➡️', 'person in manual wheelchair facing right'],
     ['fully-qualified', '🧑🏽\u200d🦽\u200d➡️', '15.1', 'person in manual wheelchair facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28486,7 +28558,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FE', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1264', 'People & Body', 'person-activity', '🧑🏾\u200d🦽\u200d➡️', 'person in manual wheelchair facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1264', 'People & Body', 'person-activity', '🧑🏾\u200d🦽\u200d➡️', 'person in manual wheelchair facing right'],
     ['fully-qualified', '🧑🏾\u200d🦽\u200d➡️', '15.1', 'person in manual wheelchair facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28495,7 +28567,7 @@ fusionados_1 = [
   ],
   [
     ['1F9D1', '1F3FF', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1265', 'People & Body', 'person-activity', '🧑🏿\u200d🦽\u200d➡️', 'person in manual wheelchair facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1265', 'People & Body', 'person-activity', '🧑🏿\u200d🦽\u200d➡️', 'person in manual wheelchair facing right'],
     ['fully-qualified', '🧑🏿\u200d🦽\u200d➡️', '15.1', 'person in manual wheelchair facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28549,7 +28621,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FB', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1271', 'People & Body', 'person-activity', '👨🏻\u200d🦽\u200d➡️', 'man in manual wheelchair facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1271', 'People & Body', 'person-activity', '👨🏻\u200d🦽\u200d➡️', 'man in manual wheelchair facing right'],
     ['fully-qualified', '👨🏻\u200d🦽\u200d➡️', '15.1', 'man in manual wheelchair facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28558,7 +28630,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FC', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1272', 'People & Body', 'person-activity', '👨🏼\u200d🦽\u200d➡️', 'man in manual wheelchair facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1272', 'People & Body', 'person-activity', '👨🏼\u200d🦽\u200d➡️', 'man in manual wheelchair facing right'],
     ['fully-qualified', '👨🏼\u200d🦽\u200d➡️', '15.1', 'man in manual wheelchair facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28567,7 +28639,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FD', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1273', 'People & Body', 'person-activity', '👨🏽\u200d🦽\u200d➡️', 'man in manual wheelchair facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1273', 'People & Body', 'person-activity', '👨🏽\u200d🦽\u200d➡️', 'man in manual wheelchair facing right'],
     ['fully-qualified', '👨🏽\u200d🦽\u200d➡️', '15.1', 'man in manual wheelchair facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28576,7 +28648,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FE', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1274', 'People & Body', 'person-activity', '👨🏾\u200d🦽\u200d➡️', 'man in manual wheelchair facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1274', 'People & Body', 'person-activity', '👨🏾\u200d🦽\u200d➡️', 'man in manual wheelchair facing right'],
     ['fully-qualified', '👨🏾\u200d🦽\u200d➡️', '15.1', 'man in manual wheelchair facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28585,7 +28657,7 @@ fusionados_1 = [
   ],
   [
     ['1F468', '1F3FF', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1275', 'People & Body', 'person-activity', '👨🏿\u200d🦽\u200d➡️', 'man in manual wheelchair facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1275', 'People & Body', 'person-activity', '👨🏿\u200d🦽\u200d➡️', 'man in manual wheelchair facing right'],
     ['fully-qualified', '👨🏿\u200d🦽\u200d➡️', '15.1', 'man in manual wheelchair facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28639,7 +28711,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FB', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1281', 'People & Body', 'person-activity', '👩🏻\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1281', 'People & Body', 'person-activity', '👩🏻\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right'],
     ['fully-qualified', '👩🏻\u200d🦽\u200d➡️', '15.1', 'woman in manual wheelchair facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28648,7 +28720,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FC', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1282', 'People & Body', 'person-activity', '👩🏼\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1282', 'People & Body', 'person-activity', '👩🏼\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right'],
     ['fully-qualified', '👩🏼\u200d🦽\u200d➡️', '15.1', 'woman in manual wheelchair facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28657,7 +28729,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FD', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1283', 'People & Body', 'person-activity', '👩🏽\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1283', 'People & Body', 'person-activity', '👩🏽\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right'],
     ['fully-qualified', '👩🏽\u200d🦽\u200d➡️', '15.1', 'woman in manual wheelchair facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28666,7 +28738,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FE', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1284', 'People & Body', 'person-activity', '👩🏾\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1284', 'People & Body', 'person-activity', '👩🏾\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right'],
     ['fully-qualified', '👩🏾\u200d🦽\u200d➡️', '15.1', 'woman in manual wheelchair facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28675,7 +28747,7 @@ fusionados_1 = [
   ],
   [
     ['1F469', '1F3FF', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1285', 'People & Body', 'person-activity', '👩🏿\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1285', 'People & Body', 'person-activity', '👩🏿\u200d🦽\u200d➡️', 'woman in manual wheelchair facing right'],
     ['fully-qualified', '👩🏿\u200d🦽\u200d➡️', '15.1', 'woman in manual wheelchair facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28819,7 +28891,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FB', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1301', 'People & Body', 'person-activity', '🏃🏻\u200d➡️', 'person running facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1301', 'People & Body', 'person-activity', '🏃🏻\u200d➡️', 'person running facing right'],
     ['fully-qualified', '🏃🏻\u200d➡️', '15.1', 'person running facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28828,7 +28900,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FC', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1302', 'People & Body', 'person-activity', '🏃🏼\u200d➡️', 'person running facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1302', 'People & Body', 'person-activity', '🏃🏼\u200d➡️', 'person running facing right'],
     ['fully-qualified', '🏃🏼\u200d➡️', '15.1', 'person running facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28837,7 +28909,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FD', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1303', 'People & Body', 'person-activity', '🏃🏽\u200d➡️', 'person running facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1303', 'People & Body', 'person-activity', '🏃🏽\u200d➡️', 'person running facing right'],
     ['fully-qualified', '🏃🏽\u200d➡️', '15.1', 'person running facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28846,7 +28918,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FE', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1304', 'People & Body', 'person-activity', '🏃🏾\u200d➡️', 'person running facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1304', 'People & Body', 'person-activity', '🏃🏾\u200d➡️', 'person running facing right'],
     ['fully-qualified', '🏃🏾\u200d➡️', '15.1', 'person running facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28855,7 +28927,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FF', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1305', 'People & Body', 'person-activity', '🏃🏿\u200d➡️', 'person running facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1305', 'People & Body', 'person-activity', '🏃🏿\u200d➡️', 'person running facing right'],
     ['fully-qualified', '🏃🏿\u200d➡️', '15.1', 'person running facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28864,7 +28936,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1306', 'People & Body', 'person-activity', '🏃🏻\u200d♀️\u200d➡️', 'woman running facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1306', 'People & Body', 'person-activity', '🏃🏻\u200d♀️\u200d➡️', 'woman running facing right'],
     ['fully-qualified', '🏃🏻\u200d♀️\u200d➡️', '15.1', 'woman running facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28873,7 +28945,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1307', 'People & Body', 'person-activity', '🏃🏼\u200d♀️\u200d➡️', 'woman running facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1307', 'People & Body', 'person-activity', '🏃🏼\u200d♀️\u200d➡️', 'woman running facing right'],
     ['fully-qualified', '🏃🏼\u200d♀️\u200d➡️', '15.1', 'woman running facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28882,7 +28954,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1308', 'People & Body', 'person-activity', '🏃🏽\u200d♀️\u200d➡️', 'woman running facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1308', 'People & Body', 'person-activity', '🏃🏽\u200d♀️\u200d➡️', 'woman running facing right'],
     ['fully-qualified', '🏃🏽\u200d♀️\u200d➡️', '15.1', 'woman running facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28891,7 +28963,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1309', 'People & Body', 'person-activity', '🏃🏾\u200d♀️\u200d➡️', 'woman running facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1309', 'People & Body', 'person-activity', '🏃🏾\u200d♀️\u200d➡️', 'woman running facing right'],
     ['fully-qualified', '🏃🏾\u200d♀️\u200d➡️', '15.1', 'woman running facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28900,7 +28972,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1310', 'People & Body', 'person-activity', '🏃🏿\u200d♀️\u200d➡️', 'woman running facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1310', 'People & Body', 'person-activity', '🏃🏿\u200d♀️\u200d➡️', 'woman running facing right'],
     ['fully-qualified', '🏃🏿\u200d♀️\u200d➡️', '15.1', 'woman running facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28909,7 +28981,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1311', 'People & Body', 'person-activity', '🏃🏻\u200d♂️\u200d➡️', 'man running facing right: light skin tone'],
+    ['emoji_modifier_sequence', '1311', 'People & Body', 'person-activity', '🏃🏻\u200d♂️\u200d➡️', 'man running facing right'],
     ['fully-qualified', '🏃🏻\u200d♂️\u200d➡️', '15.1', 'man running facing right: light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28918,7 +28990,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1312', 'People & Body', 'person-activity', '🏃🏼\u200d♂️\u200d➡️', 'man running facing right: medium-light skin tone'],
+    ['emoji_modifier_sequence', '1312', 'People & Body', 'person-activity', '🏃🏼\u200d♂️\u200d➡️', 'man running facing right'],
     ['fully-qualified', '🏃🏼\u200d♂️\u200d➡️', '15.1', 'man running facing right: medium-light skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28927,7 +28999,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1313', 'People & Body', 'person-activity', '🏃🏽\u200d♂️\u200d➡️', 'man running facing right: medium skin tone'],
+    ['emoji_modifier_sequence', '1313', 'People & Body', 'person-activity', '🏃🏽\u200d♂️\u200d➡️', 'man running facing right'],
     ['fully-qualified', '🏃🏽\u200d♂️\u200d➡️', '15.1', 'man running facing right: medium skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28936,7 +29008,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1314', 'People & Body', 'person-activity', '🏃🏾\u200d♂️\u200d➡️', 'man running facing right: medium-dark skin tone'],
+    ['emoji_modifier_sequence', '1314', 'People & Body', 'person-activity', '🏃🏾\u200d♂️\u200d➡️', 'man running facing right'],
     ['fully-qualified', '🏃🏾\u200d♂️\u200d➡️', '15.1', 'man running facing right: medium-dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],
@@ -28945,7 +29017,7 @@ fusionados_1 = [
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
-    ['emoji_modifier_sequence', '1315', 'People & Body', 'person-activity', '🏃🏿\u200d♂️\u200d➡️', 'man running facing right: dark skin tone'],
+    ['emoji_modifier_sequence', '1315', 'People & Body', 'person-activity', '🏃🏿\u200d♂️\u200d➡️', 'man running facing right'],
     ['fully-qualified', '🏃🏿\u200d♂️\u200d➡️', '15.1', 'man running facing right: dark skin tone', 'People & Body', 'person-activity'],
     [],
     [],

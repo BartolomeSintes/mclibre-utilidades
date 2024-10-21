@@ -285,6 +285,11 @@ manual_1 = [
     'emoji_u1f634.svg',
   ],
   [
+    ['1FAE9'],
+    ['gr-simbolos-ext-a'],
+    'emoji_u1fae9.svg',
+  ],
+  [
     ['1F637'],
     ['gr-emoticonos'],
     'emoji_u1f637.svg',
@@ -2765,6 +2770,11 @@ manual_1 = [
     'emoji_u1f463.svg',
   ],
   [
+    ['1FAC6'],
+    ['gr-simbolos-ext-a'],
+    'emoji_u1fac6.svg',
+  ],
+  [
     ['1F9B0'],
     ['gr-simbolos-misc-supl', 'gr-componentes'],
     'emoji_u1f9b0.svg',
@@ -3330,6 +3340,31 @@ manual_1 = [
     'emoji_u1fabc.svg',
   ],
   [
+    ['1F980'],
+    ['gr-simbolos-misc-supl'],
+    'emoji_u1f980.svg',
+  ],
+  [
+    ['1F99E'],
+    ['gr-simbolos-misc-supl'],
+    'emoji_u1f99e.svg',
+  ],
+  [
+    ['1F990'],
+    ['gr-simbolos-misc-supl'],
+    'emoji_u1f990.svg',
+  ],
+  [
+    ['1F991'],
+    ['gr-simbolos-misc-supl'],
+    'emoji_u1f991.svg',
+  ],
+  [
+    ['1F9AA'],
+    ['gr-simbolos-misc-supl'],
+    'emoji_u1f9aa.svg',
+  ],
+  [
     ['1F40C'],
     ['gr-simbolos-pict-misc'],
     'emoji_u1f40c.svg',
@@ -3550,6 +3585,11 @@ manual_1 = [
     'emoji_u1f344.svg',
   ],
   [
+    ['1FABE'],
+    ['gr-simbolos-ext-a'],
+    'emoji_u1fabe.svg',
+  ],
+  [
     ['1F347'],
     ['gr-simbolos-pict-misc'],
     'emoji_u1f347.svg',
@@ -3738,6 +3778,11 @@ manual_1 = [
     ['1F344', '200D', '1F7EB'],
     ['gr-restos'],
     'emoji_u1f344_200d_1f7eb.svg',
+  ],
+  [
+    ['1FADC'],
+    ['gr-simbolos-ext-a'],
+    'emoji_u1fadc.svg',
   ],
   [
     ['1F35E'],
@@ -3993,31 +4038,6 @@ manual_1 = [
     ['1F961'],
     ['gr-simbolos-misc-supl'],
     'emoji_u1f961.svg',
-  ],
-  [
-    ['1F980'],
-    ['gr-simbolos-misc-supl'],
-    'emoji_u1f980.svg',
-  ],
-  [
-    ['1F99E'],
-    ['gr-simbolos-misc-supl'],
-    'emoji_u1f99e.svg',
-  ],
-  [
-    ['1F990'],
-    ['gr-simbolos-misc-supl'],
-    'emoji_u1f990.svg',
-  ],
-  [
-    ['1F991'],
-    ['gr-simbolos-misc-supl'],
-    'emoji_u1f991.svg',
-  ],
-  [
-    ['1F9AA'],
-    ['gr-simbolos-misc-supl'],
-    'emoji_u1f9aa.svg',
   ],
   [
     ['1F366'],
@@ -6120,6 +6140,11 @@ manual_1 = [
     'emoji_u1fa88.svg',
   ],
   [
+    ['1FA89'],
+    ['gr-simbolos-ext-a'],
+    'emoji_u1fa89.svg',
+  ],
+  [
     ['1F4F1'],
     ['gr-simbolos-pict-misc'],
     'emoji_u1f4f1.svg',
@@ -6810,6 +6835,11 @@ manual_1 = [
     'emoji_u1fa9c.svg',
   ],
   [
+    ['1FA8F'],
+    ['gr-simbolos-ext-a'],
+    'emoji_u1fa8f.svg',
+  ],
+  [
     ['2697'],
     ['gr-simbolos-misc'],
     'emoji_u2697.svg',
@@ -7241,12 +7271,12 @@ manual_1 = [
   ],
   [
     ['2934'],
-    ['gr-flechas-suplementarias'],
+    ['gr-flechas-suplementarias-a'],
     'emoji_u2934.svg',
   ],
   [
     ['2935'],
-    ['gr-flechas-suplementarias'],
+    ['gr-flechas-suplementarias-a'],
     'emoji_u2935.svg',
   ],
   [
@@ -7733,6 +7763,11 @@ manual_1 = [
     ['2122'],
     ['gr-simbolos-letras'],
     'emoji_u2122.svg',
+  ],
+  [
+    ['1FADF'],
+    ['gr-simbolos-ext-a'],
+    'emoji_u1fadf.svg',
   ],
   [
     ['0023', 'FE0F', '20E3'],
@@ -8460,6 +8495,11 @@ manual_1 = [
     '',
   ],
   [
+    ['1F1E8', '1F1F6'],
+    ['gr-banderas-paises'],
+    '',
+  ],
+  [
     ['1F1E8', '1F1F7'],
     ['gr-banderas-paises'],
     '',
@@ -8982,7 +9022,7 @@ manual_1 = [
   [
     ['1F1F2', '1F1F6'],
     ['gr-banderas-paises'],
-    'emoji_u1f1f2_1f1f6.svg',
+    '',
   ],
   [
     ['1F1F2', '1F1F7'],

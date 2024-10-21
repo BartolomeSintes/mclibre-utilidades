@@ -1,13 +1,13 @@
 # Ficheros originales (descargados de la web de Unicode)
 UNICODE_ORIGINALES_DIR = "ficheros_1_originales/"
-FICHERO_EMOJI_TEST = UNICODE_ORIGINALES_DIR + "u15-1-emoji-test.txt"
-FICHERO_EMOJI_ZWJ_SEQUENCES = UNICODE_ORIGINALES_DIR + "u15-1-emoji-zwj-sequences.txt"
-FICHERO_EMOJI_VARIATION_SEQUENCES = UNICODE_ORIGINALES_DIR + "u15-1-emoji-variation-sequences.txt"
-FICHERO_EMOJI_SEQUENCES = UNICODE_ORIGINALES_DIR + "u15-1-emoji-sequences.txt"
-FICHERO_EMOJI_DATA = UNICODE_ORIGINALES_DIR + "u15-1-emoji-data.txt"
-FICHERO_EMOJI_FULL_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji List, v15.1.htm"
-FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji Modifier Sequences, v15.1.htm"
-FICHERO_DERIVED_NAME = UNICODE_ORIGINALES_DIR + "u15-1-DerivedName.txt"
+FICHERO_EMOJI_TEST = UNICODE_ORIGINALES_DIR + "u16-0-emoji-test.txt"
+FICHERO_EMOJI_ZWJ_SEQUENCES = UNICODE_ORIGINALES_DIR + "u16-0-emoji-zwj-sequences.txt"
+FICHERO_EMOJI_VARIATION_SEQUENCES = UNICODE_ORIGINALES_DIR + "u16-0-emoji-variation-sequences.txt"
+FICHERO_EMOJI_SEQUENCES = UNICODE_ORIGINALES_DIR + "u16-0-emoji-sequences.txt"
+FICHERO_EMOJI_DATA = UNICODE_ORIGINALES_DIR + "u16-0-emoji-data.txt"
+FICHERO_EMOJI_FULL_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji List, v16.0.htm"
+FICHERO_FULL_EMOJI_MODIFIER_SEQUENCES_LIST = UNICODE_ORIGINALES_DIR + "Full Emoji Modifier Sequences, v16.0.htm"
+FICHERO_DERIVED_NAME = UNICODE_ORIGINALES_DIR + "u16-0-DerivedName.txt"
 
 # Ficheros importados (creados a partir de los ficheros originales)
 UNICODE_IMPORTADOS_DIR = "ficheros_2_importados/"
@@ -66,20 +66,20 @@ ORDENA_ESPECIAL_3 = 3 # Para ordenar banderas
 DIRECTORIO_TWEMOJI = "D:\\Descargas\\TWEMOJI\\twemoji-14-0-2-220331\\assets\\svg"
 
 # Noto
-DIRECTORIO_NOTO = "D:\\Descargas\\GOOGLE NOTO\\noto-emoji-main-2023-11-17\\svg"
+DIRECTORIO_NOTO = "D:\\Descargas\\GOOGLE NOTO\\noto-emoji-main-2024-10-21\\svg"
 
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]
 uc_status = ["component", "fully-qualified", "minimally-qualified", "unqualified"]
-uc_version = ["0.0", "0.6", "0.7", "1.0", "1.1", "2.0", "3.0", "3.1", "3.2", "4.0", "4.1", "5.0", "5.1", "5.2", "6.0", "7.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0", "15.1"]
+uc_version = ["0.0", "0.6", "0.7", "1.0", "1.1", "2.0", "3.0", "3.1", "3.2", "4.0", "4.1", "5.0", "5.1", "5.2", "6.0", "7.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0", "15.1", "16.0"]
 uc_version_2 = ["1.1", "3.0", "3.2", "4.0", "4.1", "5.1", "5.2", "6.0", "7.0"]
-uc_importacion_1 = ["0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0", "15.1"]
-uc_importacion_2 = ["0.0", "0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0", "15.1"]
-uc_importacion_3 = ["2.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0", "15.1"]
-uc_importacion_4 = ["0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "13.0", "13.1", "14.0", "15.0", "15.1"]
-# uc_versiones_marcadas = ["6.1", "6.2", "6.3", "7.0", "8.0", "9.0", "10.0", "11.0", "12.0", "13.0", "13.1", "14.0", "15.0", "15.1"]
-uc_versiones_marcadas = ["13.0", "13.1", "14.0", "15.0", "15.1"]
-uc_versiones_years = {  "6.1": 2012, "6.2": 2012, "6.3": 2013, 7: 2014, 8: 2015, 9:2016, 10: 2017, 11: 2018, 12: 2019, "12.1": 2019, 13: 2020, "13.1": 2020, 14: 2021, 15: 2022, "15.1": 2023 }
+uc_importacion_1 = ["0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0", "15.1", "16.0"]
+uc_importacion_2 = ["0.0", "0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0", "15.1", "16.0"]
+uc_importacion_3 = ["2.0", "4.0", "5.0", "11.0", "12.0", "12.1", "13.0", "13.1", "14.0", "15.0", "15.1", "16.0"]
+uc_importacion_4 = ["0.6", "0.7", "1.0", "2.0", "3.0", "4.0", "5.0", "11.0", "12.0", "13.0", "13.1", "14.0", "15.0", "15.1", "16.0"]
+# uc_versiones_marcadas = ["6.1", "6.2", "6.3", "7.0", "8.0", "9.0", "10.0", "11.0", "12.0", "13.0", "13.1", "14.0", "15.0", "15.1", "16.0"]
+uc_versiones_marcadas = ["13.0", "13.1", "14.0", "15.0", "15.1", "16.0"]
+uc_versiones_years = {  "6.1": 2012, "6.2": 2012, "6.3": 2013, 7: 2014, 8: 2015, 9:2016, 10: 2017, 11: 2018, 12: 2019, "12.1": 2019, 13: 2020, "13.1": 2020, 14: 2021, 15: 2022, "15.1": 2023 , 16: 2024 }
 uc_property = ["Emoji", "Emoji_Presentation", "Emoji_Modifier", "Emoji_Modifier_Base", "Emoji_Component", "Extended_Pictographic", "Extended_Pictographic"]
 uc_style = ["emoji style", "text style"]
 uc_type_sequence = ["RGI_Emoji_ZWJ_Sequence"]
@@ -362,11 +362,18 @@ uc_tablas_caracteres = [
         "27BF",
     ],
     [
-        "Flechas suplementarias B",
-        "gr-flechas-suplementarias",
-        "U02900-supplemental-arrows-b.pdf",
+        "Flechas suplementarias A",
+        "gr-flechas-suplementarias-a",
+        "U027F0-supplemental-arrows-a.pdf",
         "2900",
         "297F",
+    ],
+    [
+        "Flechas suplementarias B",
+        "gr-flechas-suplementarias-b",
+        "U02900-supplemental-arrows-b.pdf",
+        "27F0",
+        "27FF",
     ],
     [
         "Símbolos y flechas misceláneos",
@@ -432,6 +439,13 @@ uc_tablas_caracteres = [
         "1F2FF",
     ],
     [
+        "Símbolos y pictogramas misceláneos",
+        "gr-simbolos-pict-misc",
+        "U1F300-miscellaneous-symbols-and-pictographs.pdf",
+        "1F300",
+        "1F5FF",
+    ],
+    [
         "Dingbats decorativos",
         "gr-dingbats-decorativos",
         "U1F650-ornamental-dingbats.pdf",
@@ -453,13 +467,6 @@ uc_tablas_caracteres = [
         "1F7F0",
     ],
     [
-        "Símbolos y pictogramas misceláneos",
-        "gr-simbolos-pict-misc",
-        "U1F300-miscellaneous-symbols-and-pictographs.pdf",
-        "1F300",
-        "1F5FF",
-    ],
-    [
         "Emoticonos",
         "gr-emoticonos",
         "U1F600-emoticons.pdf",
@@ -472,6 +479,13 @@ uc_tablas_caracteres = [
         "U1F680-transport-and-map-symbols.pdf",
         "1F680",
         "1F6FF",
+    ],
+    [
+        "Flechas suplementarias C",
+        "gr-flechas-suplementarias-c",
+        "U1F800-supplemental-arrows-c.pdf",
+        "1F800",
+        "1F8FF",
     ],
     [
         "Símbolos y pictogramas misceláneos suplementarios",
@@ -494,6 +508,20 @@ uc_tablas_caracteres = [
         "1FA70",
         "1FAFF",
     ],
+    [
+        "Símbolos informáticos antiguos",
+        "gr-simbolos-informaticos-antiguos",
+        "U1FB00-symbols-legacy-computing.pdf",
+        "1FB00",
+        "1FBFF",
+    ],
+    [
+        "Símbolos informáticos antiguos suplementarios",
+        "gr-simbolos-informaticos-antiguos-supl",
+        "U1CC00-symbols-legacy-computing-supplement.pdf",
+        "1CC00",
+        "1CCEF",
+    ]
 ],
 
 # Resto que se usa en uc_1_importa_unicode.py, pero el código está comentado, así que realmente no se usa

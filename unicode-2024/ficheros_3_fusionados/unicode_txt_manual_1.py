@@ -285,6 +285,11 @@ manual_1 = [
     '1f634.svg',
   ],
   [
+    ['1FAE9'],
+    ['gr-simbolos-ext-a'],
+    '',
+  ],
+  [
     ['1F637'],
     ['gr-emoticonos'],
     '1f637.svg',
@@ -2765,6 +2770,11 @@ manual_1 = [
     '1f463.svg',
   ],
   [
+    ['1FAC6'],
+    ['gr-simbolos-ext-a'],
+    '',
+  ],
+  [
     ['1F9B0'],
     ['gr-simbolos-misc-supl', 'gr-componentes'],
     '1f9b0.svg',
@@ -3330,6 +3340,31 @@ manual_1 = [
     '',
   ],
   [
+    ['1F980'],
+    ['gr-simbolos-misc-supl'],
+    '1f980.svg',
+  ],
+  [
+    ['1F99E'],
+    ['gr-simbolos-misc-supl'],
+    '1f99e.svg',
+  ],
+  [
+    ['1F990'],
+    ['gr-simbolos-misc-supl'],
+    '1f990.svg',
+  ],
+  [
+    ['1F991'],
+    ['gr-simbolos-misc-supl'],
+    '1f991.svg',
+  ],
+  [
+    ['1F9AA'],
+    ['gr-simbolos-misc-supl'],
+    '1f9aa.svg',
+  ],
+  [
     ['1F40C'],
     ['gr-simbolos-pict-misc'],
     '1f40c.svg',
@@ -3550,6 +3585,11 @@ manual_1 = [
     '1f344.svg',
   ],
   [
+    ['1FABE'],
+    ['gr-simbolos-ext-a'],
+    '',
+  ],
+  [
     ['1F347'],
     ['gr-simbolos-pict-misc'],
     '1f347.svg',
@@ -3737,6 +3777,11 @@ manual_1 = [
   [
     ['1F344', '200D', '1F7EB'],
     ['gr-restos'],
+    '',
+  ],
+  [
+    ['1FADC'],
+    ['gr-simbolos-ext-a'],
     '',
   ],
   [
@@ -3993,31 +4038,6 @@ manual_1 = [
     ['1F961'],
     ['gr-simbolos-misc-supl'],
     '1f961.svg',
-  ],
-  [
-    ['1F980'],
-    ['gr-simbolos-misc-supl'],
-    '1f980.svg',
-  ],
-  [
-    ['1F99E'],
-    ['gr-simbolos-misc-supl'],
-    '1f99e.svg',
-  ],
-  [
-    ['1F990'],
-    ['gr-simbolos-misc-supl'],
-    '1f990.svg',
-  ],
-  [
-    ['1F991'],
-    ['gr-simbolos-misc-supl'],
-    '1f991.svg',
-  ],
-  [
-    ['1F9AA'],
-    ['gr-simbolos-misc-supl'],
-    '1f9aa.svg',
   ],
   [
     ['1F366'],
@@ -6120,6 +6140,11 @@ manual_1 = [
     '',
   ],
   [
+    ['1FA89'],
+    ['gr-simbolos-ext-a'],
+    '',
+  ],
+  [
     ['1F4F1'],
     ['gr-simbolos-pict-misc'],
     '1f4f1.svg',
@@ -6810,6 +6835,11 @@ manual_1 = [
     '1fa9c.svg',
   ],
   [
+    ['1FA8F'],
+    ['gr-simbolos-ext-a'],
+    '',
+  ],
+  [
     ['2697'],
     ['gr-simbolos-misc'],
     '2697.svg',
@@ -7241,12 +7271,12 @@ manual_1 = [
   ],
   [
     ['2934'],
-    ['gr-flechas-suplementarias'],
+    ['gr-flechas-suplementarias-a'],
     '2934.svg',
   ],
   [
     ['2935'],
-    ['gr-flechas-suplementarias'],
+    ['gr-flechas-suplementarias-a'],
     '2935.svg',
   ],
   [
@@ -7733,6 +7763,11 @@ manual_1 = [
     ['2122'],
     ['gr-simbolos-letras'],
     '2122.svg',
+  ],
+  [
+    ['1FADF'],
+    ['gr-simbolos-ext-a'],
+    '',
   ],
   [
     ['0023', 'FE0F', '20E3'],
@@ -8458,6 +8493,11 @@ manual_1 = [
     ['1F1E8', '1F1F5'],
     ['gr-banderas-paises'],
     '1f1e8-1f1f5.svg',
+  ],
+  [
+    ['1F1E8', '1F1F6'],
+    ['gr-banderas-paises'],
+    '',
   ],
   [
     ['1F1E8', '1F1F7'],
