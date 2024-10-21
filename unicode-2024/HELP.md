@@ -39,7 +39,7 @@ En 2022-09-13 publicaron Unicode 15. Quiero actualizar las páginas de los apunt
 
 - Ejecuto uc_11_generador.py y me genera las páginas.
 
-- Compruebo que los nuevos emojis no se ven en W10 ni W11 y los añado en util.py. Ejecuto util.py. Copio a mano el contenido de tmp_seleccion.py en unicode_txt_manual_2.py. Ejecuto uc_11_generador.py y me geenra las páginas.
+- Compruebo que los nuevos emojis no se ven en W10 ni W11 y los añado en util.py. Ejecuto util.py. Copio a mano el contenido de tmp_seleccion.py en unicode_txt_manual_2.py. Ejecuto uc_11_generador.py y me genera las páginas.
 
 
 ## 2022-04-06

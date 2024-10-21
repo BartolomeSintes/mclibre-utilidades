@@ -103,5 +103,5 @@ Es cosa de Windows porque salen en Chrome.
 - En el apartado Colores de piel (2) podría poner los dibujos femeninos después de los masculinos (granjeros, granjeras, cocineros, cocineras, etc.) Lo que no tengo claro es si es mejor poner primero los cinco hombres y luego las cinco mujeres o ir intercalando hombre-mujer.
 
 # 2022-04-07
-- Así como en los apartados de caracteres el párrafo inicial incluye el número de caracteres, en los apartados de secuencias no aparece el númeor. No tengo claro por qué.
+- Así como en los apartados de caracteres el párrafo inicial incluye el número de caracteres, en los apartados de secuencias no aparece el número. No tengo claro por qué.
 
