@@ -1,5 +1,13 @@
 # Procedimiento 2024
 
+## Cosas pendientes
+
+-   Chrome tanto en W10 como en W11 saca algunas imágenes mal. Por ejemplo,m en la página de símbolos, el U+26F9 (person with ball) la saca como emoji, no como texto. hay bastantes más. Tendría que confirmar que efectivamente el predeterminado es el modo texto. Y algunos no los saca, como U+23FE (power sleep symbol).
+
+-   El grupo de Símbolos informáticos antiguos Chrome no los enseña en Windows 11, pero Firefox sí. En Windows 10 no los enseña ninguno de los dos.
+
+-   En la página de Twemoji salen algunas cosas que no se ve el dibujo, lo que es absurdo. U+26F7 U+1F3FB, U+E50A, etc. Ya ocurría el año pasado.
+
 ## Procedimiento a seguir para actualizar a nueva versión de Unicode
 
 -   Hago una copia de unicode-2023 que he llamado unicode-2024
@@ -69,7 +77,7 @@
     -   En ucdef.py cambio uc_versiones_marcadas para incluir las versiones para las que quiero que ponga estrellitas en la ficha del emoji. En 2023 puse desde Unicode 13.
     -   No sé cómo lo he hecho otros años, pero este año lo he hecho así:
         -   Copio el archivo seleccion_simbolos.py y lo pego como seleccion_simbolos_manual.py
-        -   Ejecuto uc_11_generador.py y me genera las páginas.
+        -   Ejecuto uc_11_generador.py y me genera las páginas. Las primeras veces la página Twemoji cascaba por un ídice fuera de rango, pero tras varias iteraciones de corregir otros fallos ha dejado de salir el error.
         -   Si hay grupos completos que no se ven, los quito de seleccion_simbolos_manual.py
         -   Si hay caracteres que son espacios o dibujos sin ningún interés, los quito de seleccion_simbolos_manual.py
         -   Miro las páginas en W10 y W11 y añado en util.py los códigos para que ponga los letreros "No disponible en Windows 10" o "No disponible en Windows 11".

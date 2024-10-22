@@ -142,7 +142,7 @@ def indica_version(codigo):
 def genera_pagina_twemoji(pagina):
     identificados = copy.deepcopy(imp3.manual_1)
     for i in range(len(identificados) - 1, -1, -1):
-        print(identificados[i])
+        # print(identificados[i])
         if identificados[i][2] == "":
             del identificados[i]
     t = ""
