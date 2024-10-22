@@ -446,11 +446,25 @@ uc_tablas_caracteres = [
         "1F5FF",
     ],
     [
+        "Emoticonos",
+        "gr-emoticonos",
+        "U1F600-emoticons.pdf",
+        "1F600",
+        "1F64F",
+    ],
+    [
         "Dingbats decorativos",
         "gr-dingbats-decorativos",
         "U1F650-ornamental-dingbats.pdf",
         "1F650",
         "1F67F",
+    ],
+    [
+        "Símbolos de transporte y mapas",
+        "gr-transporte",
+        "U1F680-transport-and-map-symbols.pdf",
+        "1F680",
+        "1F6FF",
     ],
     [
         "Símbolos alquímicos",
@@ -465,20 +479,6 @@ uc_tablas_caracteres = [
         "U1F780-geometric-shapes-extended.pdf",
         "1F780",
         "1F7F0",
-    ],
-    [
-        "Emoticonos",
-        "gr-emoticonos",
-        "U1F600-emoticons.pdf",
-        "1F600",
-        "1F64F",
-    ],
-    [
-        "Símbolos de transporte y mapas",
-        "gr-transporte",
-        "U1F680-transport-and-map-symbols.pdf",
-        "1F680",
-        "1F6FF",
     ],
     [
         "Flechas suplementarias C",
