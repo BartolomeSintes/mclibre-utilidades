@@ -20,8 +20,9 @@ FICHERO_UNICODE = UNICODE_IMPORTADOS_DIR + "unicode_txt_derived_name.py"
 UNICODE_FUSIONADOS_DIR = "ficheros_3_fusionados/"
 FICHERO_FUSIONADO_1 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_1.py"
 FICHERO_FUSIONADO_2 = UNICODE_FUSIONADOS_DIR + "unicode_txt_fusionados_2.py"
-FICHERO_MANUAL_1 = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_1.py"
+FICHERO_MANUAL_1_TWEMOJI_ORIGINAL = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_1_twemoji_original.py"
 FICHERO_MANUAL_1_NOTO = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_1_noto.py"
+FICHERO_MANUAL_1_TWEMOJI_JDECKED = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_1_twemoji_jdecked.py"
 FICHERO_MANUAL_2 = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_2.py"
 
 # Ficheros simplificados
@@ -39,7 +40,7 @@ PAG_FITZPATRICK = "fitzpatrick"
 PAG_PAREJAS = "parejas"
 PAG_SENTIDO = "sentido"
 PAG_OTRAS = "otras"
-PAG_TWEMOJI = "twemoji"
+PAG_TWEMOJI_ORIGINAL = "twemoji"
 PAG_NOTO = "noto"
 PAG_PROBLEMAS = "problemas"
 SELECCION_SIMBOLOS = "seleccion-simbolos"
@@ -52,7 +53,7 @@ FICHERO_SITIO_FITZPATRICK = "html-unicode-secuencias-colores.html"
 FICHERO_SITIO_PAREJAS = "html-unicode-secuencias-parejas.html"
 FICHERO_SITIO_SENTIDO = "html-unicode-secuencias-sentido.html"
 FICHERO_SITIO_OTRAS = "html-unicode-secuencias-otras.html"
-FICHERO_SITIO_TWEMOJI = "html-unicode-twemoji.html"
+FICHERO_SITIO_TWEMOJI_ORIGINAL = "html-unicode-twemoji.html"
 FICHERO_SITIO_NOTO = "html-unicode-noto.html"
 FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
 FICHERO_SELECCION_SIMBOLOS = "seleccion_simbolos.py"
@@ -62,11 +63,14 @@ ORDENA_ESPECIAL_1 = 1 # Para ordenar poniendo seguidos 1F468/1F469
 ORDENA_ESPECIAL_2 = 2 # Para ordenar poniendo seguidos 1F3FB/1F3FC/1F3FD/1F3FE/1F3FF
 ORDENA_ESPECIAL_3 = 3 # Para ordenar banderas
 
-# Twemoji
-DIRECTORIO_TWEMOJI = "D:\\Descargas\\TWEMOJI\\twemoji-14-0-2-220331\\assets\\svg"
+# Twemoji original
+DIRECTORIO_TWEMOJI_ORIGINAL = "D:\\Descargas\\TWEMOJI\\twemoji-14-0-2-220331\\assets\\svg"
 
 # Noto
 DIRECTORIO_NOTO = "D:\\Descargas\\GOOGLE NOTO\\noto-emoji-main-2024-10-21\\svg"
+
+# Twemoji jdecked
+DIRECTORIO_TWEMOJI_JDECKED = "D:\\Descargas\\TWEMOJI-JDECKED\\twemoji-15.1.0\\assets\\svg"
 
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]

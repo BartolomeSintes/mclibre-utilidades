@@ -1,4 +1,4 @@
-# Este programa trabaja con Noto en vez de con Twemoji
+# Este programa trabaja con Noto en vez de con Twemoji original
 # Este programa crea una página web con los grupos de emojis que hay definidos en manual_1
 # Lo he hecho para mejorar uc_91_crea_manual_1 y que asigne automáticamente la mayor parte posible de los grupos
 

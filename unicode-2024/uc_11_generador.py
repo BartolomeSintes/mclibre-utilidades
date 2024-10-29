@@ -65,7 +65,7 @@ def genera_pagina(pagina):
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_sentido)
     elif pagina == ucdef.PAG_OTRAS:
         return genera_pagina_secuencias(pagina, ucdef.uc_grupos_otras)
-    elif pagina == ucdef.PAG_TWEMOJI:
+    elif pagina == ucdef.PAG_TWEMOJI_ORIGINAL:
         return genera_pagina_twemoji(pagina)
     elif pagina == ucdef.PAG_NOTO:
         return genera_pagina_noto(pagina)
@@ -1055,7 +1055,7 @@ def main():
         [ucdef.PAG_SENTIDO, ucdef.FICHERO_SITIO_SENTIDO],
         [ucdef.PAG_OTRAS, ucdef.FICHERO_SITIO_OTRAS],
         [ucdef.PAG_NOTO, ucdef.FICHERO_SITIO_NOTO],
-        [ucdef.PAG_TWEMOJI, ucdef.FICHERO_SITIO_TWEMOJI],
+        [ucdef.PAG_TWEMOJI_ORIGINAL, ucdef.FICHERO_SITIO_TWEMOJI_ORIGINAL],
         # # # [ucdef.PAG_PROBLEMAS, ucdef.FICHERO_SITIO_PROBLEMAS],
     ]
 

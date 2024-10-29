@@ -1,4 +1,5 @@
-# Este programa crea una página web con los grupos de emojis que hay definidos en manual_1
+# Este programa trabaja con Twemoji original
+# # Este programa crea una página web con los grupos de emojis que hay definidos en manual_1
 # Lo he hecho para mejorar uc_91_crea_manual_1 y que asigne automáticamente la mayor parte posible de los grupos
 
 import os
@@ -471,7 +472,7 @@ def crea_manual_1():
 def incluye_emojis():
     global manual_1, restos_twemoji
 
-    twemoji_completo = os.listdir(ucdef.DIRECTORIO_TWEMOJI)
+    twemoji_completo = os.listdir(ucdef.DIRECTORIO_TWEMOJI_ORIGINAL)
     restos_twemoji = []
     for i in twemoji_completo:
         i2 = i.replace(".svg", "").upper()
@@ -551,7 +552,7 @@ def incluye_emojis():
 
 
 def exporta_lista():
-    destino = ucdef.FICHERO_MANUAL_1
+    destino = ucdef.FICHERO_MANUAL_1_TWEMOJI_ORIGINAL
     print()
     print(f"  CREANDO {destino}")
     print()
@@ -671,7 +672,7 @@ def main():
     crea_manual_1()
     incluye_emojis()
     # Comprueba si el fichero de destino existe y pide confirmación para sobreescribirlo
-    p_1 = pathlib.Path(ucdef.FICHERO_MANUAL_1)
+    p_1 = pathlib.Path(ucdef.FICHERO_MANUAL_1_TWEMOJI_ORIGINAL)
     respuesta = "N"
     if p_1.exists():
         print("  El fichero de destino MANUAL ya existe.")
