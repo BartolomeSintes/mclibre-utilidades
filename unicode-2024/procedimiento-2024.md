@@ -16,6 +16,22 @@
 
 -   En la página de Twemoji salen algunas caracteres y secuencias en las que no se ve el dibujo, lo que es absurdo. U+26F7 U+1F3FB, U+E50A, etc. Ya ocurría el año pasado. Las imágenes existen en el repositorio, pero o bien no están en la fuente que saca del CDN o bien Windows no se aclara sacando el carácter de la fuente. La solución podría ser hacer una lista de caracteres para los que debería mostrar la imagen en vez de la entidad numérica, que Windows parece no saber resolver auqnue el dibujo está en el repositorio.
 
+## Procedimiento para añadir otra fuente de dibujos SVG
+
+-   [2024-10-29] Añado el fork de Twemoji hecho por jdecked https://github.com/jdecked/twemoji
+
+-   descargo el zip del repositorio y lo descomprimo en D:\Descargas
+
+-   en udcdef.py duplico las referencias a TWEMOJI_ORIGINAL como TWEMOJI_JDECKED
+
+-   creo uc_94 a partir de uc_92 para que cree el fichero unicode_txt_manual_1_twemoji_jdecked.py
+
+-   en uc_11_generador.py añado una función para la página twemoji_jdecked
+
+-   creo la plantilla html html-unicode-twemoji-jdecked
+
+-   cuando paso el sitio a los apuntes de html, html-unicode-twemoji-jdecked.html lo renombro a html-unicode-twemoji.html
+
 ## Procedimiento a seguir para actualizar a nueva versión de Unicode
 
 -   Hago una copia de unicode-2023 que he llamado unicode-2024

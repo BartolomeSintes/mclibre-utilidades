@@ -42,6 +42,7 @@ PAG_SENTIDO = "sentido"
 PAG_OTRAS = "otras"
 PAG_TWEMOJI_ORIGINAL = "twemoji"
 PAG_NOTO = "noto"
+PAG_TWEMOJI_JDECKED = "twemoji-jdecked"
 PAG_PROBLEMAS = "problemas"
 SELECCION_SIMBOLOS = "seleccion-simbolos"
 
@@ -55,6 +56,7 @@ FICHERO_SITIO_SENTIDO = "html-unicode-secuencias-sentido.html"
 FICHERO_SITIO_OTRAS = "html-unicode-secuencias-otras.html"
 FICHERO_SITIO_TWEMOJI_ORIGINAL = "html-unicode-twemoji.html"
 FICHERO_SITIO_NOTO = "html-unicode-noto.html"
+FICHERO_SITIO_TWEMOJI_JDECKED = "html-unicode-twemoji-jdecked.html"
 FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
 FICHERO_SELECCION_SIMBOLOS = "seleccion_simbolos.py"
 
@@ -271,7 +273,7 @@ uc_grupos_otras = [
     ]
 ]
 
-uc_grupos_twemoji = uc_grupos_noto = [
+uc_grupos_twemoji = uc_grupos_noto = uc_grupos_twemoji_jdecked = [
     # Este grupo es para que en la página de Twemoji incluya los componentes, aunque hay componentes que no están en ese pdf, pero el encabezado está pensado para enlazar un solo pdf.
     ["Componentes", "gr-componentes",        "U1F100-enclosed-alphanumeric-supplement.pdf",
         "1F100",
