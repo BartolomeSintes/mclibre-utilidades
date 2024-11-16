@@ -73,9 +73,10 @@ def cabecera(titulo, profundidad, incluye_js):
     tmp += "\n"
     tmp += "<body>\n"
     tmp += f"  <h1>{titulo}</h1>\n"
+    tmp += "\n"
 
     if profundidad == 0:
-        tmp += '<p><a href="https://github.com/BartolomeSintes/mclibre-legislacion"><img style="position: absolute; top: 0; right: 0; border: 0; opacity: 0.7;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a></p>'
+        tmp += '  <p><a href="https://github.com/BartolomeSintes/mclibre-legislacion"><img style="position: absolute; top: 0; right: 0; border: 0; opacity: 0.7;" src="varios/iconos/fork-me-on-github.png" alt="Fork me on GitHub"></a></p>\n'
 
     tmp += "\n"
 
@@ -397,7 +398,7 @@ def guarda_index(restos):
     t = ""
     t += cabecera("Legislación Informática", 0, 0)
 
-    t += "  <p>Este sitio web recopila legislación relacionada con la Informática. Se trata en su mayor parte de legislación "
+    t += '  <p style="margin-right: 50px">Este sitio web recopila legislación relacionada con la Informática. Se trata en su mayor parte de legislación '
     t += "relacionada con la enseñanza, pero también contiene legislación relacionada con otros temas (protección de datos, seguridad, etc.).</p>\n"
     t += "\n"
     t += f"  <p>Este sitio web contiene {len(ids) - len(restos)} referencias, distribuidas en varias páginas:</p>\n"
