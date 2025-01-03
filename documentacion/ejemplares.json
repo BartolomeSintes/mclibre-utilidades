@@ -15082,6 +15082,17 @@
       "creado": "2024-12-08"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 216,
+      "año": 2025,
+      "mes": 1,
+      "portada": "pclinuxos-216-en-202501.jpg",
+      "fichero": "pclinuxos-216-en-202501.pdf",
+      "idioma": "inglés",
+      "creado": "2025-01-03"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
