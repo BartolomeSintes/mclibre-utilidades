@@ -221,11 +221,8 @@
                                     "boe-borrador-2023-06-23-rd",
                                     "boe-borrador-2023-12-25-o",
                                     "boe-borrador-2023-12-26-rd",
-                                    "boe-borrador-2024-01-17-rd",
                                     "boe-borrador-2024-03-15-rd",
-                                    "boe-borrador-2024-03-15-o",
                                     "boe-borrador-2024-04-23-rd",
-                                    "boe-borrador-2024-04-26-rd",
                                     "boe-borrador-2024-06-06-rd"
                                 ]
                             }
@@ -292,7 +289,8 @@
                                     "boe-2022-884-rd",
                                     "boe-2023-545-rd",
                                     "boe-2023-546-rd",
-                                    "boe-2024-917-rd"
+                                    "boe-2024-917-rd",
+                                    "boe-2024-1394-o"
                                 ]
                             }
                         },
@@ -364,7 +362,8 @@
                                     "boe-2022-3-lo",
                                     "boe-2023-278-rd",
                                     "boe-2023-659-rd",
-                                    "boe-2024-658-rd"
+                                    "boe-2024-658-rd",
+                                    "boe-2025-86-rd"
                                 ]
                             }
                         },
@@ -805,7 +804,17 @@
                                 "titulo": "Borradores",
                                 "referencias": [
                                     "dogv-borrador-2024-05-16-o",
-                                    "dogv-borrador-2024-06-13-o"
+                                    "dogv-borrador-2024-06-13-o",
+                                    "dogv-borrador-2025-02-20-d",
+                                    "dogv-borrador-2025-02-20-ad"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2025/26",
+                                "referencias": [
+                                    "dogv-2025-02-04-res"
                                 ]
                             }
                         },
@@ -813,7 +822,6 @@
                             "apartado": {
                                 "titulo": "Curso 2024/25",
                                 "referencias": [
-                                    "dogv-2024-02-02-res",
                                     "dogv-2024-04-18-res",
                                     "dogv-2024-04-25-res",
                                     "dogv-2024-05-21-res",
@@ -1204,6 +1212,14 @@
                                     "dogv-2019-07-31-res",
                                     "dogv-2020-05-21-2-res",
                                     "dogv-2022-06-28-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Curso 2024/25",
+                                "referencias": [
+                                    "dogv-2024-02-02-res"
                                 ]
                             }
                         },

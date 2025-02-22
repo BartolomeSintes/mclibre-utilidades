@@ -210,19 +210,21 @@ https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=AL
 -   2023-06-15  https://xarxatic.com/dos-documentos-legales-que-como-docentes-de-la-publica-deberiais-tener-siempre-a-mano/ - https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-PB-2022-140
 -   2023-06-29  https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15051 - Orden EFP/694/2023, de 16 de junio, por la que se crean los departamentos didácticos de Informática y de Economía en los Institutos de Educación Secundaria de Ceuta y Melilla.
 -   2024-06-05. Estudios nocturnos de Bachillerato
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-21701
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1976-16589
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1978-23730
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1985-25013
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1988-16731
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-8175
-    -   https://www.boe.es/diario_boe/txt.php?id=BOE-A-1972-1278
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1972-34
-    -   https://www.boe.es/diario_boe/txt.php?id=BOE-A-1971-936
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-16627
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-26270
-    -   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-24066
--   Curso 200/01, 1999/00, 1998/99: faltan instrucciones de inicio de curso, pero no las encontraba con Google o Bing, así que habría que ir día a día buscándolos en el DOGV de junio y julio (no cuesta tanto).
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-21701
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1976-16589
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1978-23730
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1985-25013
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1988-16731
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-8175
+-   https://www.boe.es/diario_boe/txt.php?id=BOE-A-1972-1278
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1972-34
+-   https://www.boe.es/diario_boe/txt.php?id=BOE-A-1971-936
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-16627
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-26270
+-   https://www.boe.es/buscar/doc.php?id=BOE-A-1975-24066
+-   Curso 2000/01, 1999/00, 1998/99: faltan instrucciones de inicio de curso, pero no las encontraba con Google o Bing, así que habría que ir día a día buscándolos en el DOGV de junio y julio (no cuesta tanto).
+-   Real decreto aprobando el Reglamento provisional, que se inserta, para la aplicación del Estatuto de Enseñanza Industrial de 31 de Octubre de 1924, a las enseñanzas elementales y profesionales. https://www.boe.es/datos/pdfs/BOE//1925/283/A00146-00159.pdf
+    Sale con otras cosas en https://www.boe.es/buscar/gazeta.php?campo%5B0%5D=ID_HIST&dato%5B0%5D=&campo%5B1%5D=TITULOS&dato%5B1%5D=&operador%5B1%5D=and&campo%5B2%5D=RNG.ID&dato%5B2%5D=&operador%5B2%5D=and&campo%5B3%5D=DEM.ID&dato%5B3%5D=&operador%5B3%5D=and&campo%5B4%5D=DOC&dato%5B4%5D=&operador%5B4%5D=and&campo%5B5%5D=TITULOS&dato%5B5%5D=real+decreto+aprobando+el+estatuto+de+ense%C3%B1anza+industrial&operador%5B5%5D=and&campo%5B6%5D=GAZ.ID&dato%5B6%5D=&campo%5B7%5D=NBO&dato%5B7%5D=&operador%5B8%5D=and&campo%5B8%5D=FPU&dato%5B8%5D%5B0%5D=&dato%5B8%5D%5B1%5D=&operador%5B9%5D=and&campo%5B9%5D=FAP&dato%5B9%5D%5B0%5D=&dato%5B9%5D%5B1%5D=&page_hits=50&sort_field%5B0%5D=FPU&sort_order%5B0%5D=desc&sort_field%5B1%5D=REF&sort_order%5B1%5D=asc&accion=Buscar
 
 ## Cosas a hacer periódicamente
 
@@ -230,4 +232,8 @@ https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=AL
 -   Actualizar las versiones consolidadas del BOE.
 -   Comprobar si hay enlaces permanentes para DOGV.
 -   Comprobar si hay ids repetidos o hay enlaces repetidos
+
+## URGENTE
+
+-   Los ELI del DOGV ya no van. Mirar en https://dogv.gva.es/es/eli para ver si hay una manera de reconvertirlos a los que hay ahora y redirigir los eli a enlaces no eli.
 
