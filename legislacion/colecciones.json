@@ -215,24 +215,14 @@
                             "apartado": {
                                 "titulo": "Borradores",
                                 "referencias": [
-                                    "boe-borrador-2021-2-rd",
                                     "boe-borrador-2021-1-rd",
                                     "boe-borrador-2023-03-02-rd",
                                     "boe-borrador-2023-06-23-rd",
                                     "boe-borrador-2023-12-25-o",
                                     "boe-borrador-2023-12-26-rd",
                                     "boe-borrador-2024-03-15-rd",
-                                    "boe-borrador-2024-04-23-rd",
-                                    "boe-borrador-2024-06-06-rd"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Coronavirus Covid-19",
-                                "referencias": [
-                                    "boe-2020-757-o",
-                                    "boe-2020-31-rdl"
+                                    "boe-borrador-2024-06-06-rd",
+                                    "boe-borrador-2025-02-21-rd"
                                 ]
                             }
                         },
@@ -273,13 +263,10 @@
                             "apartado": {
                                 "titulo": "Cualificaciones Profesionales de Informática",
                                 "referencias": [
-                                    "boe-2003-1128-rd",
                                     "boe-2004-295-rd",
                                     "boe-2005-1087-rd",
-                                    "boe-2005-1416-rd",
                                     "boe-2007-1201-rd",
                                     "boe-2007-1701-rd",
-                                    "boe-2014-817-rd",
                                     "boe-2015-1636-o",
                                     "boe-2019-479-o-pci",
                                     "boe-2020-616-rd",
@@ -302,6 +289,8 @@
                                     "boe-2009-1629-rd",
                                     "boe-2010-450-rd",
                                     "boe-2010-686-rd",
+                                    "boe-2014-127-rd",
+                                    "boe-2014-356-rd",
                                     "boe-2020-479-rd",
                                     "boe-2021-261-rd",
                                     "boe-2021-279-rd",
@@ -355,14 +344,14 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Ordenación FP",
+                                "titulo": "Sistema de Formación Profesional (2022)",
                                 "referencias": [
                                     "boe-1998-777-rd",
-                                    "boe-2011-1147-rd",
                                     "boe-2022-3-lo",
                                     "boe-2023-278-rd",
                                     "boe-2023-659-rd",
                                     "boe-2024-658-rd",
+                                    "boe-2025-69-rd",
                                     "boe-2025-86-rd"
                                 ]
                             }
@@ -373,15 +362,6 @@
                                 "referencias": [
                                     "boe-2012-1529-rd",
                                     "boe-2018-2518-o"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "FP básica",
-                                "referencias": [
-                                    "boe-2014-127-rd",
-                                    "boe-2014-356-rd"
                                 ]
                             }
                         },
@@ -408,15 +388,10 @@
                             "apartado": {
                                 "titulo": "Sistema de Formación Profesional para el Empleo",
                                 "referencias": [
-                                    "boe-2008-34-rd",
-                                    "boe-2009-1224-rd",
-                                    "boe-2010-675-rd",
-                                    "boe-2013-189-rd",
                                     "boe-2015-4-rdl",
                                     "boe-2015-30-l",
                                     "boe-2017-694-rd",
-                                    "boe-2019-283-o",
-                                    "boe-2021-143-rd"
+                                    "boe-2019-283-o"
                                 ]
                             }
                         },
@@ -730,9 +705,27 @@
                         },
                         {
                             "apartado": {
-                                "titulo": "Cualificaciones Profesionales de Informática",
+                                "titulo": "Ley de las Cualificaciones y de la Formación Profesional (2002)",
                                 "referencias": [
-                                    "boe-2002-5-lo"
+                                    "boe-2002-5-lo",
+                                    "boe-2003-1128-rd",
+                                    "boe-2005-1416-rd",
+                                    "boe-2011-1147-rd",
+                                    "boe-2014-817-rd",
+                                    "boe-2020-18-pci-o"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Sistema de Formación Profesional para el Empleo",
+                                "referencias": [
+                                    "boe-2007-395-rd",
+                                    "boe-2008-34-rd",
+                                    "boe-2009-1224-rd",
+                                    "boe-2010-675-rd",
+                                    "boe-2013-189-rd",
+                                    "boe-2021-143-rd"
                                 ]
                             }
                         },
@@ -748,7 +741,6 @@
                                     "boe-2003-1046-rd",
                                     "boe-2004-362-rd",
                                     "boe-2006-1538-rd",
-                                    "boe-2007-395-rd",
                                     "boe-2008-1892-rd",
                                     "boe-2012-14-rdl",
                                     "boe-2020-07-13-res"
@@ -787,7 +779,9 @@
                                     "boe-2020-440-o",
                                     "boe-2020-555-rd",
                                     "boe-2020-21-rdl",
-                                    "boe-2020-561-o"
+                                    "boe-2020-561-o",
+                                    "boe-2020-757-o",
+                                    "boe-2020-31-rdl"
                                 ]
                             }
                         }
@@ -1022,19 +1016,17 @@
                                     "dogv-2017-38-o",
                                     "dogv-2018-06-28-res",
                                     "dogv-2019-252-d",
-                                    "dogv-2020-173-d",
                                     "boe-2020-11-17-res",
                                     "dogv-2021-58-d",
-                                    "dogv-2021-9-o",
                                     "dogv-2021-17-o",
                                     "dogv-2021-11-29-res",
                                     "dogv-2022-07-08-res",
-                                    "dogv-2022-53-o",
                                     "dogv-2022-10-24-res",
                                     "dogv-2022-234-d",
                                     "dogv-2023-06-29-a",
                                     "dogv-2023-136-d",
-                                    "dogv-2024-72-d"
+                                    "dogv-2024-72-d",
+                                    "dogv-2025-38-d"
                                 ]
                             }
                         }
@@ -1164,8 +1156,11 @@
                                     "dogv-2019-05-10-res",
                                     "dogv-2019-07-24-2-res",
                                     "dogv-2020-5-o",
+                                    "dogv-2020-173-d",
                                     "dogv-2021-04-13-res",
-                                    "dogv-2022-14-o"
+                                    "dogv-2021-9-o",
+                                    "dogv-2022-14-o",
+                                    "dogv-2022-53-o"
                                 ]
                             }
                         },
