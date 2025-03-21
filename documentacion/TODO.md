@@ -41,6 +41,10 @@ Esta aplicación genera el sitio web https://www.mclibre.org/consultar/documenta
 -   The Internet Protocol Journal <https://ipj.dreamhosters.com/internet-protocol-journal/issues/back-issues/>
 -   Supervisión21 publicación de la Unión Sindical de Inspectores de Educación, https://usie.es/supervision21/index.php/Sp21/issue/archive
 
+-   Hacer apartados de informes internacionales
+    -   ICILS 2023 - Estudio Internacional sobre Competencia Digital
+        https://www.educacionfpydeportes.gob.es/inee/evaluaciones-internacionales/estudio-icils-2023/portada.html
+
 ## Libros para incluir
 
 -   https://www.systemsapproach.org/books.html

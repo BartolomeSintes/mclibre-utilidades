@@ -12376,6 +12376,17 @@
       "creado": "2025-02-21"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 151,
+      "año": 2025,
+      "mes": 3,
+      "portada": "the-magpi-151-en-202503.jpg",
+      "fichero": "the-magpi-151-en-202503.pdf",
+      "idioma": "inglés",
+      "creado": "2025-03-21"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -16620,6 +16631,17 @@
       "fichero": "tino-98-es-202501.pdf",
       "idioma": "español",
       "creado": "2025-01-10"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 99,
+      "año": 2025,
+      "mes": 3,
+      "portada": "tino-99-es-202503.jpg",
+      "fichero": "tino-99-es-202503.pdf",
+      "idioma": "español",
+      "creado": "2025-03-21"
     },
     {
       "serie": "Wireframe",
