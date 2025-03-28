@@ -43380,6 +43380,41 @@
                 "estándares de competencias profesionales",
                 "formación profesional"
             ]
+        },
+        {
+            "id": "boe-2005-2527-eci-o",
+            "incluido": "2025-03-21",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-08-05",
+            "vigencia": "vigente",
+            "descripción": "Acceso a Estudios Universitarios desde Ciclos Formativos",
+            "titulo": "Orden ECI/2527/2005, de 4 de julio, por la que se actualiza y se amplía el anexo X de Acceso a Estudios Universitarios desde los Ciclos Formativos de Grado Superior, del Real Decreto 777/1998, de 30 de abril, por el que se desarrollan determinados aspectos de la ordenación de la Formación Profesional en el ámbito del sistema educativo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2005-08-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-2527-O-acceso-universidad-ciclos.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2005/07/04/eci2527"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "formación profesional",
+                "ordenación"
+            ]
         }
     ]
 }
