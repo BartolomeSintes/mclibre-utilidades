@@ -4456,6 +4456,17 @@
       "creado": "2025-02-28"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 214,
+      "año": 2025,
+      "mes": 3,
+      "portada": "full-circle-215-en-202503.jpg",
+      "fichero": "full-circle-215-en-202503.pdf",
+      "idioma": "inglés",
+      "creado": "2025-03-28"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -6137,6 +6148,17 @@
       "fichero": "hello-world-25-en-202409.pdf",
       "idioma": "inglés",
       "creado": "2024-09-27"
+    },
+    {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 26,
+      "año": 2025,
+      "mes": 4,
+      "portada": "hello-world-26-en-202504.jpg",
+      "fichero": "hello-world-26-en-202504.pdf",
+      "idioma": "inglés",
+      "creado": "2025-04-11"
     },
     {
       "serie": "Hello World Books",
@@ -15168,6 +15190,17 @@
       "fichero": "pclinuxos-218-en-202503.pdf",
       "idioma": "inglés",
       "creado": "2025-03-09"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 219,
+      "año": 2025,
+      "mes": 4,
+      "portada": "pclinuxos-219-en-202504.jpg",
+      "fichero": "pclinuxos-219-en-202504.pdf",
+      "idioma": "inglés",
+      "creado": "2025-03-28"
     },
     {
       "serie": "The R Journal",
