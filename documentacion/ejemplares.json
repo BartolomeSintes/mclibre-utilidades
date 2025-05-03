@@ -4458,13 +4458,24 @@
     {
       "serie": "Full Circle",
       "nombre": "Full Circle",
-      "número": 214,
+      "número": 215,
       "año": 2025,
       "mes": 3,
       "portada": "full-circle-215-en-202503.jpg",
       "fichero": "full-circle-215-en-202503.pdf",
       "idioma": "inglés",
       "creado": "2025-03-28"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 216,
+      "año": 2025,
+      "mes": 4,
+      "portada": "full-circle-216-en-202504.jpg",
+      "fichero": "full-circle-216-en-202504.pdf",
+      "idioma": "inglés",
+      "creado": "2025-05-03"
     },
     {
       "serie": "Full Circle (rec)",
@@ -12409,6 +12420,17 @@
       "creado": "2025-03-21"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 152,
+      "año": 2025,
+      "mes": 4,
+      "portada": "the-magpi-152-en-202504.jpg",
+      "fichero": "the-magpi-152-en-202504.pdf",
+      "idioma": "inglés",
+      "creado": "2025-05-03"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -16675,6 +16697,17 @@
       "fichero": "tino-99-es-202503.pdf",
       "idioma": "español",
       "creado": "2025-03-21"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 100,
+      "año": 2025,
+      "mes": 5,
+      "portada": "tino-100-es-202505.jpg",
+      "fichero": "tino-100-es-202505.pdf",
+      "idioma": "español",
+      "creado": "2025-05-03"
     },
     {
       "serie": "Wireframe",
