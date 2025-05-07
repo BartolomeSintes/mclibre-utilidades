@@ -39738,7 +39738,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2023-11-09",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Ayudas al estudio ganadores fase local Valencia de la Olimpiada Informática 2023/24 (CV)",
             "titulo": "Extracto de la Resolución de 6 de octubre de 2023, de la vicerrectora de Estudios de la Univesitat de València, por la cual se convocan las ayudas al estudio de la Universitat de València para el alumnado ganador de la fase local de la Olimpiada Informática de la Comunitat Valenciana que tendrá lugar el curso académico 2023-2024, y se aprueban las bases que regulan esta convocatoria.",
             "versiones": [
@@ -40166,7 +40166,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-04-24",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario de admisión FP 24/25 (CV)",
             "titulo": "Resolución de 18 de abril de 2024, del secretario autonómico de Educación, por la que se establece el calendario de admisión y matrícula en las enseñanzas sostenidas con fondos públicos de Formación Profesional de grado básico, medio y superior, cursos de especialización y programas formativos de cualificación básica, para el curso 2024-2025.",
             "versiones": [
@@ -40607,7 +40607,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-04-26",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario e instrucciones de admisión Secundaria/Bachillerato 24/25 (CV)",
             "titulo": "Resolución de 25 de abril de 2024, del director general de Centros Docentes, por la que se establece el calendario y se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato, y en los centros de Educación Especial, para el curso 2024-2025.",
             "versiones": [
@@ -43414,6 +43414,184 @@
                 "real decreto",
                 "formación profesional",
                 "ordenación"
+            ]
+        },
+        {
+            "id": "boe-2025-207-rd",
+            "incluido": "2025-05-07",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2025-04-04",
+            "vigencia": "vigente",
+            "descripción": "Grados A, B y C vinculados a Ciclos Formativos de Informática",
+            "titulo": "Real Decreto 207/2025, de 18 de marzo, por el que se regulan aspectos específicos de los grados A, B y C de Formación Profesional para las familias profesionales Administración y Gestión; Agraria; Informática y Comunicaciones; y Madera, Mueble y Corcho.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-04-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2025-207-RD-grados-a-b-c-informatica-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2025/03/18/207"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "grados A B C"
+            ]
+        },
+        {
+            "id": "dogv-2025-04-11-res",
+            "incluido": "2025-05-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-04-16",
+            "vigencia": "vigente",
+            "descripción": "Calendario de admisión FP 25/26 (CV)",
+            "titulo": "Resolución de 11 de abril de 2025, de la Secretaría Autonómica de Educación, por la que se establece el calendario de admisión y matrícula en las enseñanzas sostenidas con fondos públicos de Formación Profesional de grado básico, medio y superior, cursos de especialización y programas formativos de cualificación básica, para el curso 2025-2026.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-04-16",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-04-11-R-admision-fp-2526-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-04-11-R-admision-fp-2526-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/11882"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/11882"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "fp",
+                "admisión",
+                "curso 2025/26"
+            ]
+        },
+        {
+            "id": "dogv-2025-03-12-res",
+            "incluido": "2025-05-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-03-14",
+            "vigencia": "vigente",
+            "descripción": "Calendario e instrucciones de admisión Secundaria/Bachillerato 25/26 (CV)",
+            "titulo": "Resolución de 12 de marzo de 2025, de la Direcció General de Centros Docentes, por la que se establece el calendario y se dictan instrucciones respecto al procedimiento de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato y en los centros de Educación Especial para el curso 2025-2026.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-03-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-03-12-R-admision-secundaria-bachillerato-2526-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-03-12-R-admision-secundaria-bachillerato-2526-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/6182"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/6182"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "admisión",
+                "curso 2025/26"
+            ]
+        },
+        {
+            "id": "dogv-2024-10-02-res",
+            "incluido": "2025-05-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-10-24",
+            "vigencia": "vigente",
+            "descripción": "Ayudas al estudio ganadores fase local Valencia de la Olimpiada Informática 2024/25 (CV)",
+            "titulo": "Extracto de la Resolución de 2 de octubre de 2024, del Vicerrectorado de Estudios, por la cual se convocan las ayudas al estudio de la Universitat de València para el alumnado ganador de la fase local de la Olimpiada Informática de la Comunitat Valenciana que tendrá lugar el curso académico 2024-2025, y se aprueban las bases que regulan esta convocatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-10-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-10-02-R-ayudas-fase-valencia-olimpiada-informatica-cv-2425-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-10-02-R-ayudas-fase-valencia-olimpiada-informatica-cv-2425-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/11083"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/11083"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "ayudas",
+                "olimpiada informática",
+                "universidad de valencia",
+                "curso 2024/25"
             ]
         }
     ]

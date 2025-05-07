@@ -299,7 +299,8 @@
                                     "boe-2024-498-rd",
                                     "boe-2024-499-rd",
                                     "boe-2024-500-rd",
-                                    "boe-2024-566-rd"
+                                    "boe-2024-566-rd",
+                                    "boe-2025-207-rd"
                                 ]
                             }
                         },
@@ -809,7 +810,9 @@
                             "apartado": {
                                 "titulo": "Curso 2025/26",
                                 "referencias": [
-                                    "dogv-2025-02-04-res"
+                                    "dogv-2025-02-04-res",
+                                    "dogv-2025-04-11-res",
+                                    "dogv-2025-03-12-res"
                                 ]
                             }
                         },
@@ -817,22 +820,13 @@
                             "apartado": {
                                 "titulo": "Curso 2024/25",
                                 "referencias": [
-                                    "dogv-2024-04-18-res",
-                                    "dogv-2024-04-25-res",
                                     "dogv-2024-05-21-res",
                                     "dogv-2024-06-05-res",
                                     "dogv-2024-07-22-res",
                                     "dogv-2024-08-06-res",
                                     "dogv-2024-08-08-res",
-                                    "dogv-2024-09-23-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2023/24",
-                                "referencias": [
-                                    "dogv-2023-10-06-res"
+                                    "dogv-2024-09-23-res",
+                                    "dogv-2024-10-02-res"
                                 ]
                             }
                         },
@@ -1215,7 +1209,9 @@
                             "apartado": {
                                 "titulo": "Curso 2024/25",
                                 "referencias": [
-                                    "dogv-2024-02-02-res"
+                                    "dogv-2024-02-02-res",
+                                    "dogv-2024-04-18-res",
+                                    "dogv-2024-04-25-res"
                                 ]
                             }
                         },
@@ -1230,7 +1226,8 @@
                                     "dogv-2023-06-14-res",
                                     "dogv-2023-06-27-res",
                                     "dogv-2023-07-06-res",
-                                    "dogv-2023-07-06-2-res"
+                                    "dogv-2023-07-06-2-res",
+                                    "dogv-2023-10-06-res"
                                 ]
                             }
                         },
