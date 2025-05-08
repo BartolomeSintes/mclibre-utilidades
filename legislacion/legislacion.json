@@ -5495,7 +5495,7 @@
             "origen": "DOCV",
             "fecha": "2014-08-11",
             "vigencia": "vigente",
-            "descripción": "Formación Profesional Básica (CV)",
+            "descripción": "Regulación Formación Profesional Básica (CV)",
             "titulo": "Decreto 135/2014, de 8 de agosto, del Consell, por el que se regulan los ciclos formativos de Formación Profesional Básica en el ámbito de la Comunitat Valencian.",
             "versiones": [
                 {
@@ -30723,11 +30723,11 @@
             ]
         },
         {
-            "id": "dogv-2015-08-26-res",
+            "id": "docv-2015-08-26-res",
             "incluido": "2021-12-26",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2015-09-03",
             "vigencia": "vencido",
             "descripción": "Plan anual de formación permanente del profesorado curso 2015/16 (CV)",
@@ -30740,7 +30740,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2015-08-26-R-plan-anual-formacion-permanente-1516.pdf"
+                            "url": "dogv/DOCV-2015-08-26-R-plan-anual-formacion-permanente-1516.pdf"
                         },
                         {
                             "formato": "web",
@@ -30755,12 +30755,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2015-08-26-R-plan-anual-formacion-permanente-1516-es.rtf"
+                            "url": "dogv/DOCV-2015-08-26-R-plan-anual-formacion-permanente-1516-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2015-08-26-R-plan-anual-formacion-permanente-1516-va.rtf"
+                            "url": "dogv/DOCV-2015-08-26-R-plan-anual-formacion-permanente-1516-va.rtf"
                         }
                     ]
                 }
@@ -31699,7 +31699,7 @@
             "incluido": "2022-02-26",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOGV",
+            "origen": "DOCV",
             "fecha": "2014-08-01",
             "vigencia": "vigente",
             "descripción": "Planes de convivencia (CV)",
@@ -31712,7 +31712,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2014-62-O-planes-convivencia.pdf"
+                            "url": "dogv/DOCV-2014-62-O-planes-convivencia.pdf"
                         },
                         {
                             "formato": "web",
@@ -31727,12 +31727,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "dogv/DOGV-2014-62-O-planes-convivencia-es.rtf"
+                            "url": "dogv/DOCV-2014-62-O-planes-convivencia-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "dogv/DOGV-2014-62-O-planes-convivencia-va.rtf"
+                            "url": "dogv/DOCV-2014-62-O-planes-convivencia-va.rtf"
                         }
                     ]
                 }
@@ -43592,6 +43592,85 @@
                 "olimpiada informática",
                 "universidad de valencia",
                 "curso 2024/25"
+            ]
+        },
+        {
+            "id": "docv-2014-73-o",
+            "incluido": "2025-05-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2014-08-29",
+            "vigencia": "vigente",
+            "descripción": "Regulación Formación Profesional Básica (CV)",
+            "titulo": "Orden 73/2014, de 26 de agosto, de la Consellería de Educación, Cultura y Deporte, por la que se regulan los programas formativos de cualificación básica en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-08-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOCV-2014-73-O-fp-basica.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2014/08/26/73/dof/spa/html"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/eli/es-vc/o/2014/08/26/73/dof/vci/html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "fp básica"
+            ]
+        },
+        {
+            "id": "dogv-borrador-2025-04-26-d",
+            "incluido": "2025-05-08",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "ANPE",
+            "fecha": "2025-04-26",
+            "vigencia": "borrador",
+            "descripción": "Borrador Decreto Currículos nuevos módulos Grado Básico (CV)",
+            "titulo": "Proyecto de Decreto del Consell, por el que establecen los currículos de los ciclos formativos de Grado Básico de Formación Profesional, en aplicación de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2025-04-26",
+                    "enlaces": [
+                        {
+                            "formato": "docx",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-XXXX-XX-D-FP-curriculos-gb-2025-04-26.docx"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://anpecomunidadvalenciana.es/openFile.php?link=notices/att/4/05-proyecto-curris-lfp-gb-cas-mesa-2_t1745654663_4_2.docx"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "borrador",
+                "educación",
+                "currículo",
+                "fp básica",
+                "formación profesional"
             ]
         }
     ]
