@@ -174,7 +174,17 @@ def seccion(legislacion, identificador, titulo):
             if len(elemento["versiones"]) != 1:
                 tmp += f'        {version["versión"][:1].upper() + version["versión"][1:]}: '
             for i in range(len(version["enlaces"])):
-                if version["enlaces"][i]["formato"] != "web":
+                if version["enlaces"][i]["formato"] == "memoria":
+                    file = pathlib.Path(
+                        f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}'
+                    )
+                    weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
+                    formato = file.suffix[1:].upper()
+                    if version["enlaces"][i]["idioma"] == "es":
+                        tmp += f'          <a href="{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">Memoria</a>'
+                    else:
+                        tmp += f'          <a href="{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">Memoria({version["enlaces"][i]["idioma"].upper()})</a>'
+                elif version["enlaces"][i]["formato"] != "web":
                     file = pathlib.Path(
                         f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}'
                     )
@@ -249,7 +259,17 @@ def cronologico(legislacion):
                     f'        {version["versión"][:1].upper() + version["versión"][1:]}:\n'
                 )
             for i in range(len(version["enlaces"])):
-                if version["enlaces"][i]["formato"] != "web":
+                if version["enlaces"][i]["formato"] == "memoria":
+                    file = pathlib.Path(
+                        f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}'
+                    )
+                    weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
+                    formato = file.suffix[1:].upper()
+                    if version["enlaces"][i]["idioma"] == "es":
+                        tmp += f'        <a href="../{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">Memoria</a>'
+                    else:
+                        tmp += f'        <a href="../{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">Memoria({version["enlaces"][i]["idioma"].upper()})</a>'
+                elif version["enlaces"][i]["formato"] != "web":
                     file = pathlib.Path(
                         f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}'
                     )
@@ -313,7 +333,17 @@ def muestra_referencia(elemento, profundidad):
             tmp += f'        {version["versión"][:1].upper() + version["versión"][1:]} ({version["fecha"]}):\n'
 
         for i in range(len(version["enlaces"])):
-            if version["enlaces"][i]["formato"] != "web":
+            if version["enlaces"][i]["formato"] == "memoria":
+                file = pathlib.Path(
+                    f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}'
+                )
+                weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
+                formato = file.suffix[1:].upper()
+                if version["enlaces"][i]["idioma"] == "es":
+                    tmp += f'          <a href="{camino}{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">Memoria</a>'
+                else:
+                    tmp += f'          <a href="{camino}{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">Memoria({version["enlaces"][i]["idioma"].upper()})</a>'
+            elif version["enlaces"][i]["formato"] != "web":
                 file = pathlib.Path(
                     f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}'
                 )
