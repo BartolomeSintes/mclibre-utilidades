@@ -43672,6 +43672,225 @@
                 "fp básica",
                 "formación profesional"
             ]
+        },
+        {
+            "id": "dogv-2025-8-o",
+            "incluido": "2025-05-10",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-04-30",
+            "vigencia": "vigente",
+            "descripción": "Evaluación en Formación Profesional (CV)",
+            "titulo": "Orden 8/2025, de 22 de abril, de la Conselleria de Educación, Cultura, Universidades y Empleo, por la que se regula la evaluación del proceso de enseñanza-aprendizaje en ciclos formativos y cursos de especialización derivados de la Ley orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-04-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-8-O-evaluacion-fp-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-8-O-evaluacion-fp-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2025/04/22/8/dof/spa/html"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/eli/es-vc/o/2025/04/22/8/dof/vci/html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "formación profesional",
+                "ordenación",
+                "evaluación"
+            ]
+        },
+        {
+            "id": "boe-borrador-2025-1-rd",
+            "incluido": "2025-06-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2025-05-29",
+            "vigencia": "borrador",
+            "descripción": "Borrador Decreto del Curso de especialización de Recursos y servicios en la nube",
+            "titulo": "Proyecto de Real Decreto por el que se establece el Curso de especialización de Formación Profesional de Grado Superior en Recursos y servicios en la nube y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2025-05-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-recursos-servicios-nube-borrador-2025-05-29.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2025/prd-gs-recursos-nube.html"
+                        },
+                        {
+                            "formato": "memoria",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-recursos-servicios-nube-memoria-2025-05-29.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "boe-borrador-2025-2-rd",
+            "incluido": "2025-06-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2025-05-29",
+            "vigencia": "borrador",
+            "descripción": "Borrador Decreto del Curso de especialización de Aprendizaje automático: gestión de datos y entrenamiento",
+            "titulo": "Proyecto de Real Decreto por el que se establece el Curso de especialización de Formación Profesional de Grado Superior en Aprendizaje automático: gestión de datos y entrenamiento y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2025-05-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-aprendizaje-automatico-gestion-2025-05-29.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2025/prd-gs-apdzje-automatico.html"
+                        },
+                        {
+                            "formato": "memoria",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-aprendizaje-automatico-gestion-memoria-2025-05-29.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "boe-borrador-2025-3-rd",
+            "incluido": "2025-06-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2025-05-29",
+            "vigencia": "borrador",
+            "descripción": "Borrador Decreto del Curso de especialización de Despliegue de productos software en contenedores",
+            "titulo": "Proyecto de Real Decreto por el que se establece el Curso de especialización de Formación Profesional de Grado Superior en Aprendizaje automático: instalación, despliegue y explotación de sistemas y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2025-05-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-aprendizaje-automatico-explotacion-2025-05-29.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2025/prd-ce-aprendizaje-automatico-sistemas.html"
+                        },
+                        {
+                            "formato": "memoria",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-aprendizaje-automatico-explotacion-memoria-2025-05-29.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "boe-borrador-2025-4-rd",
+            "incluido": "2025-06-02",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "MEC",
+            "fecha": "2025-05-29",
+            "vigencia": "borrador",
+            "descripción": "Borrador Decreto del Curso de especialización de Despliegue de productos software en contenedores",
+            "titulo": "Proyecto de Real Decreto por el que se establece el Curso de especialización de Formación Profesional de Grado Superior en Despliegue de productos software en contenedores y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "borrador",
+                    "fecha": "2025-05-29",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-despliegue-software-contenedores-2025-05-29.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/audiencia-informacion-publica/abiertos/2025/prd-gs-produccion-software.html"
+                        },
+                        {
+                            "formato": "memoria",
+                            "idioma": "es",
+                            "url": "boe/BOE-XXXX-XX-RD-FP-titulo-despliegue-software-contenedores-memoria-2025-05-29.pdf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "curso de especialización"
+            ]
         }
     ]
 }
