@@ -2069,6 +2069,17 @@
       "creado": "2024-12-26"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 91,
+      "año": 2025,
+      "mes": 3,
+      "portada": "edutec-91-es-202503.jpg",
+      "fichero": "edutec-91-es-202503.pdf",
+      "idioma": "español",
+      "creado": "2025-06-06"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -15256,6 +15267,17 @@
       "fichero": "pclinuxos-220-en-202505.pdf",
       "idioma": "inglés",
       "creado": "2025-05-16"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 221,
+      "año": 2025,
+      "mes": 6,
+      "portada": "pclinuxos-221-en-202506.jpg",
+      "fichero": "pclinuxos-221-en-202506.pdf",
+      "idioma": "inglés",
+      "creado": "2025-06-06"
     },
     {
       "serie": "The R Journal",
