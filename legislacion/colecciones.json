@@ -148,7 +148,8 @@
                                     "celex-2022-06-16-1-rec",
                                     "celex-2022-3-swd",
                                     "celex-2022-06-16-2-rec",
-                                    "celex-2022-06-16-3-rec"
+                                    "celex-2022-06-16-3-rec",
+                                    "celex-2022-11-28-rec"
                                 ]
                             }
                         }
@@ -199,6 +200,7 @@
                                     "celex-2004-2241-dec",
                                     "celex-2007-558-com",
                                     "celex-2008-04-23-rec",
+                                    "celex-2008-114-dir",
                                     "celex-2013-1288-reg"
                                 ]
                             }
@@ -1028,7 +1030,8 @@
                                     "dogv-2023-06-29-a",
                                     "dogv-2023-136-d",
                                     "dogv-2024-72-d",
-                                    "dogv-2025-38-d"
+                                    "dogv-2025-38-d",
+                                    "dogv-2025-09-o"
                                 ]
                             }
                         }
@@ -1768,10 +1771,10 @@
                             "apartado": {
                                 "titulo": "Infraestructuras críticas",
                                 "referencias": [
-                                    "celex-2008-114-dir",
                                     "boe-2011-8-l",
                                     "boe-2011-704-rd",
-                                    "boe-2015-09-08-res"
+                                    "boe-2015-09-08-res",
+                                    "celex-2022-2557-dir"
                                 ]
                             }
                         },

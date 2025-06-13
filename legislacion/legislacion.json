@@ -425,7 +425,8 @@
                 "secundaria",
                 "ESO",
                 "bachillerato",
-                "formación profesional"
+                "formación profesional",
+                "plantillas"
             ]
         },
         {
@@ -552,7 +553,7 @@
             "fecha": "2018-06-04",
             "vigencia": "vigente",
             "descripción": "Competencias clave",
-            "titulo": "Recomendación del Consejo de 22 de mayo de 2018 relativa a las competencias clave para el aprendizaje permanente. (2018/C 189/01.",
+            "titulo": "Recomendación del Consejo de 22 de mayo de 2018 relativa a las competencias clave para el aprendizaje permanente. (2018/C 189/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -2711,7 +2712,7 @@
             "fecha": "1995-11-23",
             "vigencia": "derogado",
             "descripción": "Directiva Tratamiento de datos personales",
-            "titulo": "Directiva 95/46/CE del Parlamento Europeo y del Consejo, de 24 de octubre de 1995, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos dato.",
+            "titulo": "Directiva 95/46/CE del Parlamento Europeo y del Consejo, de 24 de octubre de 1995, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos.",
             "versiones": [
                 {
                     "versión": "original",
@@ -2763,7 +2764,7 @@
             "fecha": "2016-05-04",
             "vigencia": "vigente",
             "descripción": "Tratamiento de datos personales penales",
-            "titulo": "Directiva (UE) 2016/680 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales por parte de las autoridades competentes para fines de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales, y a la libre circulación de dichos datos y por la que se deroga la Decisión Marco 2008/977/JAI del Consej.",
+            "titulo": "Directiva (UE) 2016/680 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales por parte de las autoridades competentes para fines de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales, y a la libre circulación de dichos datos y por la que se deroga la Decisión Marco 2008/977/JAI del Consejo.",
             "versiones": [
                 {
                     "versión": "original",
@@ -2777,7 +2778,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:32016L0680"
+                            "url": "https://eur-lex.europa.eu/eli/dir/2016/680/oj"
                         }
                     ]
                 },
@@ -2793,7 +2794,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:02016L0680-20160504"
+                            "url": "https://eur-lex.europa.eu/eli/dir/2016/680/2016-05-04"
                         }
                     ]
                 }
@@ -2815,7 +2816,7 @@
             "fecha": "2000-07-17",
             "vigencia": "vigente",
             "descripción": "Directiva Comercio electrónico",
-            "titulo": "Directiva 2000/31/CE del Parlamento Europeo y del Consejo, de 8 de junio de 2000, relativa a determinados aspectos jurídicos de los servicios de la sociedad de la información, en particular el comercio electrónico en el mercado interior (Directiva sobre el comercio electrónico.",
+            "titulo": "Directiva 2000/31/CE del Parlamento Europeo y del Consejo, de 8 de junio de 2000, relativa a determinados aspectos jurídicos de los servicios de la sociedad de la información, en particular el comercio electrónico en el mercado interior (Directiva sobre el comercio electrónico).",
             "versiones": [
                 {
                     "versión": "original",
@@ -2829,7 +2830,23 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32000L0031"
+                            "url": "https://eur-lex.europa.eu/eli/dir/2000/31/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2024-02-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2000-31-D-comercio-electronico-consolidado-2024-02-17.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2000/31/2024-02-17"
                         }
                     ]
                 }
@@ -2951,9 +2968,9 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "2016-07-19",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Directiva Seguridad de las redes y sistema de información (NIS)",
-            "titulo": "Directiva (UE) 2016/1148 del Parlamento Europeo y del Consejo, de 6 de julio de 2016, relativa a las medidas destinadas a garantizar un elevado nivel común de seguridad de las redes y sistemas de información en la Unió.",
+            "titulo": "Directiva (UE) 2016/1148 del Parlamento Europeo y del Consejo, de 6 de julio de 2016, relativa a las medidas destinadas a garantizar un elevado nivel común de seguridad de las redes y sistemas de información en la Unión.",
             "versiones": [
                 {
                     "versión": "original",
@@ -3426,7 +3443,7 @@
             "fecha": "2016-12-06",
             "vigencia": "vigente",
             "descripción": "Directiva Accesibilidad sitios web sector público",
-            "titulo": "Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo, de 26 de octubre de 2016, sobre la accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector públic.",
+            "titulo": "Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo, de 26 de octubre de 2016, sobre la accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público.",
             "versiones": [
                 {
                     "versión": "original",
@@ -3661,7 +3678,7 @@
             "fecha": "2013-08-14",
             "vigencia": "vigente",
             "descripción": "Directiva Ataques contra los sistemas de información",
-            "titulo": "Directiva 2013/40/UE del Parlamento Europeo y del Consejo, de 12 de agosto de 2013, relativa a los ataques contra los sistemas de información y por la que se sustituye la Decisión marco 2005/222/JAI del Consej.",
+            "titulo": "Directiva 2013/40/UE del Parlamento Europeo y del Consejo, de 12 de agosto de 2013, relativa a los ataques contra los sistemas de información y por la que se sustituye la Decisión marco 2005/222/JAI del Consejo.",
             "versiones": [
                 {
                     "versión": "original",
@@ -4052,7 +4069,7 @@
             "fecha": "1985-07-31",
             "vigencia": "derogado",
             "descripción": "Correspondencia calificaciones FP",
-            "titulo": "Decisión del Consejo, de 16 de julio de 1985, relativa a la correspondencia de las calificaciones de formación profesional entre los Estados miembros de las Comunidades Europeas. (85/368/CEE.",
+            "titulo": "Decisión del Consejo, de 16 de julio de 1985, relativa a la correspondencia de las calificaciones de formación profesional entre los Estados miembros de las Comunidades Europeas. (85/368/CEE).",
             "versiones": [
                 {
                     "versión": "original",
@@ -4088,7 +4105,7 @@
             "fecha": "1992-02-19",
             "vigencia": "vigente",
             "descripción": "Transparencia de las cualificaciones profesionales",
-            "titulo": "Resolución del Consejo, de 3 de diciembre de 1992, sobre la transparencia de las cualificaciones profesionales. (93/C 49/01.",
+            "titulo": "Resolución del Consejo, de 3 de diciembre de 1992, sobre la transparencia de las cualificaciones profesionales. (93/C 49/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -4161,7 +4178,7 @@
             "fecha": "1989-01-24",
             "vigencia": "derogado",
             "descripción": "Reconocimientos de títulos enseñanza superior duración mínima de 3 años",
-            "titulo": "Directiva 89/48/CEE del Consejo de 21 de diciembre de 1988 relativa a un sistema general de reconocimiento de los títulos de enseñanza superior que sancionan formaciones profesionales de una duración mínima de tres año.",
+            "titulo": "Directiva 89/48/CEE del Consejo de 21 de diciembre de 1988 relativa a un sistema general de reconocimiento de los títulos de enseñanza superior que sancionan formaciones profesionales de una duración mínima de tres años.",
             "versiones": [
                 {
                     "versión": "original",
@@ -4213,7 +4230,7 @@
             "fecha": "2005-09-30",
             "vigencia": "vigente",
             "descripción": "Reconocimiento de cualificaciones profesionales (profesiones reguladas)",
-            "titulo": "Directiva 2005/36/CE del Parlamento Europeo y del Consejo, de 7 de septiembre de 2005, relativa al reconocimiento de cualificaciones profesionale.",
+            "titulo": "Directiva 2005/36/CE del Parlamento Europeo y del Consejo, de 7 de septiembre de 2005, relativa al reconocimiento de cualificaciones profesionales.",
             "versiones": [
                 {
                     "versión": "original",
@@ -4233,17 +4250,17 @@
                 },
                 {
                     "versión": "consolidado",
-                    "fecha": "2019-04-15",
+                    "fecha": "2024-06-20",
                     "enlaces": [
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "eur-lex/EURLEX-2005-36-D-reconocimiento-cualificaciones-profesionales-consolidado-2019-04-15.pdf"
+                            "url": "eur-lex/EURLEX-2005-36-D-reconocimiento-cualificaciones-profesionales-consolidado-2024-06-20.pdf"
                         },
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/eli/dir/2005/36/2019-04-15"
+                            "url": "https://eur-lex.europa.eu/eli/dir/2005/36/2024-06-20"
                         }
                     ]
                 }
@@ -4590,7 +4607,7 @@
             "fecha": "2017-06-15",
             "vigencia": "vigente",
             "descripción": "Marco Europeo de Cualificaciones",
-            "titulo": "Recomendación del Consejo, de 22 de mayo de 2017, relativa al Marco Europeo de Cualificaciones para el aprendizaje permanente y por la que se deroga la Recomendación del Parlamento Europeo y del Consejo de 23 de abril de 2008 relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente. (2017/C 189/03.",
+            "titulo": "Recomendación del Consejo, de 22 de mayo de 2017, relativa al Marco Europeo de Cualificaciones para el aprendizaje permanente y por la que se deroga la Recomendación del Parlamento Europeo y del Consejo de 23 de abril de 2008 relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente. (2017/C 189/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -4626,7 +4643,7 @@
             "fecha": "2008-05-06",
             "vigencia": "derogado",
             "descripción": "Marco Europeo de Cualificaciones",
-            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 23 de abril de 2008, relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente. Texto pertinente a efectos del EEE. (2008/C 111/01.",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 23 de abril de 2008, relativa a la creación del Marco Europeo de Cualificaciones para el aprendizaje permanente. (2008/C 111/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -4662,7 +4679,7 @@
             "fecha": "2018-05-02",
             "vigencia": "vigente",
             "descripción": "Marco Europeo para una formación de aprendices",
-            "titulo": "Recomendación del Consejo, de 15 de marzo de 2018, relativa al Marco Europeo para una formación de Aprendices de Calidad y Eficaz. (2018/C 153/01.",
+            "titulo": "Recomendación del Consejo, de 15 de marzo de 2018, relativa al Marco Europeo para una formación de Aprendices de Calidad y Eficaz. (2018/C 153/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -4697,7 +4714,7 @@
             "fecha": "2016-12-24",
             "vigencia": "vigente",
             "descripción": "Itinerarios de mejora de las capacidades",
-            "titulo": "Recomendación del Consejo, de 19 de diciembre de 2016, relativa a Itinerarios de mejora de las capacidades: Nuevas oportunidades para adultos. (2016/C 484/01.",
+            "titulo": "Recomendación del Consejo, de 19 de diciembre de 2016, relativa a Itinerarios de mejora de las capacidades: Nuevas oportunidades para adultos. (2016/C 484/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -5231,7 +5248,7 @@
             "fecha": "2006-12-30",
             "vigencia": "vigente",
             "descripción": "Competencias clave",
-            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 18 de diciembre de 2006, sobre las competencias clave para el aprendizaje permanente. (2006/962/CE.",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 18 de diciembre de 2006, sobre las competencias clave para el aprendizaje permanente. (2006/962/CE).",
             "versiones": [
                 {
                     "versión": "original",
@@ -5304,7 +5321,7 @@
             "fecha": "2002-07-09",
             "vigencia": "vigente",
             "descripción": "Educación permanente",
-            "titulo": "Resolución del Consejo de 27 de junio de 2002 sobre la educación permanente. (2002/C 163/01.",
+            "titulo": "Resolución del Consejo de 27 de junio de 2002 sobre la educación permanente. (2002/C 163/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -12703,7 +12720,7 @@
             "fecha": "1985-06-28",
             "vigencia": "derogado",
             "descripción": "Creación de especialidad Electrónica e Informática en Facultad de Ciencias Sección de Físicas (Universidad de Valencia)",
-            "titulo": "Orden de 9 de abril de 1985 por la que se corrigen errores de omisión observados en la Orden de 7 de mayo de 1984 («Boletín Oficial del Estado» de 17 de agosto) que modificaba el plan de estudios del segundo ciclo de las especialidades de Física Fundamental y de Electricidad, Electrónica e Informática, de la Facultad de Física de la Universidad de Valencia.",
+            "titulo": "Orden de 9 de abril de 1985 por la que se corrigen errores de omisión observados en la Orden de 7 de mayo de 1984 (Boletín Oficial del Estado de 17 de agosto) que modificaba el plan de estudios del segundo ciclo de las especialidades de Física Fundamental y de Electricidad, Electrónica e Informática, de la Facultad de Física de la Universidad de Valencia.",
             "versiones": [
                 {
                     "versión": "original",
@@ -18000,7 +18017,7 @@
             "fecha": "2004-12-31",
             "vigencia": "derogado",
             "descripción": "Europass",
-            "titulo": "Decisión n° 2241/2004/CE del Parlamento Europeo y del Consejo, de 15 de diciembre de 2004, relativa a un marco comunitario único para la transparencia de las cualificaciones y competencias (Europass.",
+            "titulo": "Decisión n° 2241/2004/CE del Parlamento Europeo y del Consejo, de 15 de diciembre de 2004, relativa a un marco comunitario único para la transparencia de las cualificaciones y competencias (Europass).",
             "versiones": [
                 {
                     "versión": "original",
@@ -18074,7 +18091,7 @@
             "fecha": "2002-03-22",
             "vigencia": "vigente",
             "descripción": "Modelo europeo Currículum Vitae",
-            "titulo": "Recomendación de la Comisión, de 11 de marzo de 2002, relativa a un modelo europeo común de currículum vitae. (2002/236/CE.",
+            "titulo": "Recomendación de la Comisión, de 11 de marzo de 2002, relativa a un modelo europeo común de currículum vitae. (2002/236/CE).",
             "versiones": [
                 {
                     "versión": "original",
@@ -18109,7 +18126,7 @@
             "fecha": "1999-01-22",
             "vigencia": "derogado",
             "descripción": "Itinerarios europeos de formación en alternancia",
-            "titulo": "Decisión del Consejo de 21 de diciembre de 1998 relativa a la promoción de itinerarios europeos de formación en alternancia incluido el aprendizaje. (1999/51/CE.",
+            "titulo": "Decisión del Consejo de 21 de diciembre de 1998 relativa a la promoción de itinerarios europeos de formación en alternancia incluido el aprendizaje. (1999/51/CE).",
             "versiones": [
                 {
                     "versión": "original",
@@ -18228,7 +18245,7 @@
             "fecha": "2000-01-19",
             "vigencia": "derogado",
             "descripción": "Directiva Firma electrónica",
-            "titulo": "Directiva 1999/93/CE del Parlamento Europeo y del Consejo, de 13 de diciembre de 1999, por la que se establece un marco comunitario para la firma electrónic.",
+            "titulo": "Directiva 1999/93/CE del Parlamento Europeo y del Consejo, de 13 de diciembre de 1999, por la que se establece un marco comunitario para la firma electrónica.",
             "versiones": [
                 {
                     "versión": "original",
@@ -18362,7 +18379,7 @@
             "fecha": "1990-06-21",
             "vigencia": "vigente",
             "descripción": "Directiva Seguridad y salud trabajo con pantallas",
-            "titulo": "Directiva 90/270/CEE del Consejo, de 29 de mayo de 1990, referente a las disposiciones mínimas de seguridad y de salud relativas al trabajo con equipos que incluyen pantallas de visualización (quinta Directiva específica con arreglo al apartado 1 del artículo 16 de la Directiva 89/391/CEE.",
+            "titulo": "Directiva 90/270/CEE del Consejo, de 29 de mayo de 1990, referente a las disposiciones mínimas de seguridad y de salud relativas al trabajo con equipos que incluyen pantallas de visualización (quinta Directiva específica con arreglo al apartado 1 del artículo 16 de la Directiva 89/391/CEE).",
             "versiones": [
                 {
                     "versión": "original",
@@ -19268,7 +19285,7 @@
             "fecha": "2016-06-10",
             "vigencia": "vigente",
             "descripción": "Nueva Agenda de Capacidades para Europa",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Una Nueva Agenda de Capacidades para Europa: trabajar juntos para reforzar el capital humano, la empleabilidad y la competitividad. (COM/2016/0381 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Una Nueva Agenda de Capacidades para Europa: trabajar juntos para reforzar el capital humano, la empleabilidad y la competitividad. (COM/2016/0381 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -21790,7 +21807,7 @@
             "fecha": "1996-03-27",
             "vigencia": "vigente",
             "descripción": "Directiva Protección jurídica de las bases de datos",
-            "titulo": "Directiva 96/9/CE del Parlamento Europeo y del Consejo, de 11 de marzo de 1996, sobre la protección jurídica de las bases de dato.",
+            "titulo": "Directiva 96/9/CE del Parlamento Europeo y del Consejo, de 11 de marzo de 1996, sobre la protección jurídica de las bases de datos.",
             "versiones": [
                 {
                     "versión": "original",
@@ -23200,9 +23217,9 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "2008-12-23",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Directiva Infraestructuras críticas europeas",
-            "titulo": "Directiva 2008/114/CE del Consejo, de 8 de diciembre de 2008, sobre la identificación y designación de infraestructuras críticas europeas y la evaluación de la necesidad de mejorar su protecció.",
+            "titulo": "Directiva 2008/114/CE del Consejo, de 8 de diciembre de 2008, sobre la identificación y designación de infraestructuras críticas europeas y la evaluación de la necesidad de mejorar su protección.",
             "versiones": [
                 {
                     "versión": "original",
@@ -23393,7 +23410,7 @@
             "fecha": "2002-07-31",
             "vigencia": "vigente",
             "descripción": "Directiva sobre la privacidad y las comunicaciones electrónicas",
-            "titulo": "Directiva 2002/58/CE del Parlamento Europeo y del Consejo, de 12 de julio de 2002, relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas (Directiva sobre la privacidad y las comunicaciones electrónicas.",
+            "titulo": "Directiva 2002/58/CE del Parlamento Europeo y del Consejo, de 12 de julio de 2002, relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas (Directiva sobre la privacidad y las comunicaciones electrónicas).",
             "versiones": [
                 {
                     "versión": "original",
@@ -23444,7 +23461,7 @@
             "fecha": "2009-12-18",
             "vigencia": "vigente",
             "descripción": "Directiva sobre la privacidad y las comunicaciones electrónicas",
-            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009, por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) nº 2006/2004 sobre la cooperación en materia de protección de los consumidores. Texto pertinente a efectos del EEE.",
+            "titulo": "Directiva 2009/136/CE del Parlamento Europeo y del Consejo, de 25 de noviembre de 2009, por la que se modifican la Directiva 2002/22/CE relativa al servicio universal y los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas, la Directiva 2002/58/CE relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas y el Reglamento (CE) nº 2006/2004 sobre la cooperación en materia de protección de los consumidores.",
             "versiones": [
                 {
                     "versión": "original",
@@ -23459,6 +23476,22 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://eur-lex.europa.eu/eli/dir/2009/136/oj?locale=es"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2020-12-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2009-136-D-privacidad-comunicaciones-electronicas-consolidado-2020-12-21.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2009/136/2020-12-21"
                         }
                     ]
                 }
@@ -23479,7 +23512,7 @@
             "fecha": "1998-01-30",
             "vigencia": "derogado",
             "descripción": "Directiva protección intimidad en telecomunicaciones",
-            "titulo": "Directiva 97/66/CE del Parlamento Europeo y del Consejo de 15 de diciembre de 1997 relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las telecomunicacione.",
+            "titulo": "Directiva 97/66/CE del Parlamento Europeo y del Consejo de 15 de diciembre de 1997 relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las telecomunicaciones.",
             "versiones": [
                 {
                     "versión": "original",
@@ -23707,7 +23740,7 @@
             "fecha": "2001-08-09",
             "vigencia": "derogado",
             "descripción": "Movilidad en Europa de estudiantes y profesores",
-            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 10 de julio de 2001, relativa a la movilidad en la Comunidad de los estudiantes, las personas en formación, los voluntarios, los profesores y los formadores. (2001/613/CE.",
+            "titulo": "Recomendación del Parlamento Europeo y del Consejo, de 10 de julio de 2001, relativa a la movilidad en la Comunidad de los estudiantes, las personas en formación, los voluntarios, los profesores y los formadores. (2001/613/CE).",
             "versiones": [
                 {
                     "versión": "original",
@@ -23742,7 +23775,7 @@
             "fecha": "2013-12-20",
             "vigencia": "derogado",
             "descripción": "Reglamento creación Erasmus+",
-            "titulo": "Reglamento (UE) n° 1288/2013 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2013, por el que se crea el programa «Erasmus+», de educación, formación, juventud y deporte de la Unión y por el que se derogan las Decisiones n° 1719/2006/CE, 1720/2006/CE y 1298/2008/CE. Texto pertinente a efectos del EEE.",
+            "titulo": "Reglamento (UE) n° 1288/2013 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2013, por el que se crea el programa Erasmus+, de educación, formación, juventud y deporte de la Unión y por el que se derogan las Decisiones n° 1719/2006/CE, 1720/2006/CE y 1298/2008/CE.",
             "versiones": [
                 {
                     "versión": "original",
@@ -26564,7 +26597,7 @@
             "fecha": "2018-10-12",
             "vigencia": "vigente",
             "descripción": "Modelo de declaración de accesibilidad",
-            "titulo": "Decisión de Ejecución (UE) 2018/1523 de la Comisión, de 11 de octubre de 2018, por la que se establece un modelo de declaración de accesibilidad de conformidad con la Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo sobre la accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector públic.",
+            "titulo": "Decisión de Ejecución (UE) 2018/1523 de la Comisión, de 11 de octubre de 2018, por la que se establece un modelo de declaración de accesibilidad de conformidad con la Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo sobre la accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público.",
             "versiones": [
                 {
                     "versión": "original",
@@ -26633,7 +26666,7 @@
             "fecha": "2018-12-21",
             "vigencia": "vigente",
             "descripción": "Norma armonizada requisitos Directiva 2016/2102: EN 301 549 Requisitos de accesibilidad",
-            "titulo": "Decisión de Ejecución (UE) 2018/2048 de la Comisión, de 20 de diciembre de 2018, sobre la norma armonizada aplicable a los sitios web y a las aplicaciones para dispositivos móviles redactada en apoyo de la Directiva (UE) 2016/2102 del Parlamento Europeo y del Consej.",
+            "titulo": "Decisión de Ejecución (UE) 2018/2048 de la Comisión, de 20 de diciembre de 2018, sobre la norma armonizada aplicable a los sitios web y a las aplicaciones para dispositivos móviles redactada en apoyo de la Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo.",
             "versiones": [
                 {
                     "versión": "original",
@@ -26647,7 +26680,23 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/eli/dec_impl/2018/1523/oj"
+                            "url": "https://eur-lex.europa.eu/eli/dec_impl/2018/2048/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2022-02-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-2048-DECEJE-norma-armonizada-directiva-2016-2012-consolidado-2022-02-12.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dec_impl/2018/2048/2022-02-12"
                         }
                     ]
                 }
@@ -26732,7 +26781,7 @@
             "fecha": "2013-06-27",
             "vigencia": "derogado",
             "descripción": "Directiva Reutilización de la información del sector público",
-            "titulo": "Directiva 2013/37/UE del Parlamento Europeo y del Consejo, de 26 de junio de 2013, por la que se modifica la Directiva 2003/98/CE relativa a la reutilización de la información del sector públic.",
+            "titulo": "Directiva 2013/37/UE del Parlamento Europeo y del Consejo, de 26 de junio de 2013, por la que se modifica la Directiva 2003/98/CE relativa a la reutilización de la información del sector público.",
             "versiones": [
                 {
                     "versión": "original",
@@ -26767,7 +26816,7 @@
             "fecha": "2003-12-31",
             "vigencia": "derogado",
             "descripción": "Directiva Reutilización de la información del sector público",
-            "titulo": "Directiva 2003/98/CE del Parlamento Europeo y del Consejo, de 17 de noviembre de 2003, relativa a la reutilización de la información del sector públic.",
+            "titulo": "Directiva 2003/98/CE del Parlamento Europeo y del Consejo, de 17 de noviembre de 2003, relativa a la reutilización de la información del sector público.",
             "versiones": [
                 {
                     "versión": "original",
@@ -26870,7 +26919,7 @@
             "fecha": "2013-12-28",
             "vigencia": "vigente",
             "descripción": "Directiva Reconocimiento de cualificaciones profesionales",
-            "titulo": "Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) n° 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior (Reglamento IMI.",
+            "titulo": "Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) n° 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior (Reglamento IMI).",
             "versiones": [
                 {
                     "versión": "original",
@@ -32944,7 +32993,7 @@
             "fecha": "2021-02-26",
             "vigencia": "vigente",
             "descripción": "Espacio Europeo de Educación (2021-2030)",
-            "titulo": "Resolución del Consejo relativa a un marco estratégico para la cooperación europea en el ámbito de la educación y la formación con miras al Espacio Europeo de Educación y más allá (2021-2030). (2021/C 66/01.",
+            "titulo": "Resolución del Consejo relativa a un marco estratégico para la cooperación europea en el ámbito de la educación y la formación con miras al Espacio Europeo de Educación y más allá (2021-2030). (2021/C 66/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -32979,7 +33028,7 @@
             "fecha": "2002-06-14",
             "vigencia": "vencido",
             "descripción": "Programa de trabajo seguimiento objetivos Educación y Formación 2010 (ET 2010)",
-            "titulo": "Programa de trabajo detallado para el seguimiento de los objetivos concretos de los sistemas de educación y formación en Europa. (2002/C 142/01.",
+            "titulo": "Programa de trabajo detallado para el seguimiento de los objetivos concretos de los sistemas de educación y formación en Europa. (2002/C 142/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33014,7 +33063,7 @@
             "fecha": "2004-04-30",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2004 (ET 2010)",
-            "titulo": "Educación y Formación 2010. Urgen las reformas para coronar con éxito la estrategia de Lisboa. Informe intermedio conjunto del Consejo y la Comisión sobre la ejecución del programa de trabajo detallado relativo al seguimiento de los objetivos de los sistemas de educación y formación en Europa. (2004/C 104/01.",
+            "titulo": "Educación y Formación 2010. Urgen las reformas para coronar con éxito la estrategia de Lisboa. Informe intermedio conjunto del Consejo y la Comisión sobre la ejecución del programa de trabajo detallado relativo al seguimiento de los objetivos de los sistemas de educación y formación en Europa. (2004/C 104/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33049,7 +33098,7 @@
             "fecha": "2010-05-06",
             "vigencia": "vencido",
             "descripción": "Informe final 2010 (ET 2010)",
-            "titulo": "Informe conjunto de 2010 del Consejo y de la Comisión sobre la puesta en práctica del programa de trabajo Educación y formación 2010. (2010/C 117/01.",
+            "titulo": "Informe conjunto de 2010 del Consejo y de la Comisión sobre la puesta en práctica del programa de trabajo Educación y formación 2010. (2010/C 117/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33084,7 +33133,7 @@
             "fecha": "2008-04-05",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2008 (ET 2010)",
-            "titulo": "Informe conjunto de situación de 2008 del Consejo y de la Comisión sobre la ejecución del programa de trabajo Educación y Formación 2010. Facilitar el aprendizaje permanente para fomentar el conocimiento, la creatividad y la innovación. (2008/C 86/01.",
+            "titulo": "Informe conjunto de situación de 2008 del Consejo y de la Comisión sobre la ejecución del programa de trabajo Educación y Formación 2010. Facilitar el aprendizaje permanente para fomentar el conocimiento, la creatividad y la innovación. (2008/C 86/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33119,7 +33168,7 @@
             "fecha": "2006-04-01",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2006 (ET 2010)",
-            "titulo": "Modernizar la educación y la formación: una contribución esencial a la prosperidad y a la cohesión social en Europa. Informe conjunto provisional de 2006 del Consejo y de la Comisión sobre los progresos registrados en la puesta en práctica del programa de trabajo Educación y Formación 2010. (2006/C 79/01.",
+            "titulo": "Modernizar la educación y la formación: una contribución esencial a la prosperidad y a la cohesión social en Europa. Informe conjunto provisional de 2006 del Consejo y de la Comisión sobre los progresos registrados en la puesta en práctica del programa de trabajo Educación y Formación 2010. (2006/C 79/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33154,7 +33203,7 @@
             "fecha": "2010-05-06",
             "vigencia": "vencido",
             "descripción": "Anexo I Informe final 2010 (ET 2010)",
-            "titulo": "Anexo al Informe conjunto de 2010. Analysis of implementation at the European and national levels (COM/2009/640 final.",
+            "titulo": "Anexo al Informe conjunto de 2010. Analysis of implementation at the European and national levels (COM/2009/640 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33189,7 +33238,7 @@
             "fecha": "2010-05-06",
             "vigencia": "vencido",
             "descripción": "Anexo II Informe final 2010 (ET 2010)",
-            "titulo": "Anexo al Informe conjunto de 2010. Indicators and benchmarks 2009. (SEC(2009) 1616 final.",
+            "titulo": "Anexo al Informe conjunto de 2010. Indicators and benchmarks 2009. (SEC(2009) 1616 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33224,7 +33273,7 @@
             "fecha": "2009-05-28",
             "vigencia": "vencido",
             "descripción": "Marco estratégico Educación y Formación 2020 (ET 2020)",
-            "titulo": "Conclusiones del Consejo de 12 de mayo de 2009 sobre un marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). (2009/C 119/02.",
+            "titulo": "Conclusiones del Consejo de 12 de mayo de 2009 sobre un marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). (2009/C 119/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33259,7 +33308,7 @@
             "fecha": "2012-03-08",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2012 (ET 2020)",
-            "titulo": "Informe conjunto de 2012 del Consejo y de la Comisión sobre la aplicación del marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). Educación y formación en una Europa inteligente, sostenible e inclusiva. (2012/C 70/05.",
+            "titulo": "Informe conjunto de 2012 del Consejo y de la Comisión sobre la aplicación del marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). Educación y formación en una Europa inteligente, sostenible e inclusiva. (2012/C 70/05).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33294,7 +33343,7 @@
             "fecha": "2015-12-15",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2015 (ET 2020)",
-            "titulo": "Informe conjunto de 2015 del Consejo y de la Comisión sobre la aplicación del marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). Nuevas prioridades para la cooperación europea en educación y formación. (2015/C 417/04.",
+            "titulo": "Informe conjunto de 2015 del Consejo y de la Comisión sobre la aplicación del marco estratégico para la cooperación europea en el ámbito de la educación y la formación (ET 2020). Nuevas prioridades para la cooperación europea en educación y formación. (2015/C 417/04).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33329,7 +33378,7 @@
             "fecha": "2017-11-14",
             "vigencia": "vigente",
             "descripción": "Propuesta Espacio Europeo de Educación (2017)",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Reforzar la identidad europea mediante la Educación y la Cultura Contribución de la Comisión Europea a la reunión de dirigentes en Gotemburgo el 17 de noviembre de 2017. (COM/2017/673 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Reforzar la identidad europea mediante la Educación y la Cultura Contribución de la Comisión Europea a la reunión de dirigentes en Gotemburgo el 17 de noviembre de 2017. (COM/2017/673 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33364,7 +33413,7 @@
             "fecha": "2018-06-07",
             "vigencia": "vigente",
             "descripción": "Promoción valores comunes, educación inclusiva, educación europea",
-            "titulo": "Recomendación del Consejo, de 22 de mayo de 2018, relativa a la promoción de los valores comunes, la educación inclusiva y la dimensión europea de la enseñanza. (2018/C 195/01.",
+            "titulo": "Recomendación del Consejo, de 22 de mayo de 2018, relativa a la promoción de los valores comunes, la educación inclusiva y la dimensión europea de la enseñanza. (2018/C 195/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33398,7 +33447,7 @@
             "fecha": "2019-11-18",
             "vigencia": "vigente",
             "descripción": "Desarrollo Espacio Europeo de Educación (2019)",
-            "titulo": "Resolución del Consejo sobre un mayor desarrollo del Espacio Europeo de Educación para apoyar unos sistemas de educación y formación orientados al futuro. (2019/C 389/01.",
+            "titulo": "Resolución del Consejo sobre un mayor desarrollo del Espacio Europeo de Educación para apoyar unos sistemas de educación y formación orientados al futuro. (2019/C 389/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33433,7 +33482,7 @@
             "fecha": "2020-09-30",
             "vigencia": "vigente",
             "descripción": "Consecución Espacio Europeo de Educación en 2025",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones relativa a la consecución del Espacio Europeo de Educación de aquí a 2025. (COM/2020/625 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones relativa a la consecución del Espacio Europeo de Educación de aquí a 2025. (COM/2020/625 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33468,7 +33517,7 @@
             "fecha": "2020-09-30",
             "vigencia": "vigente",
             "descripción": "Plan de Acción de Educación Digital 2021-2027",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan de Acción de Educación Digital 2021-2027. Adaptar la educación y la formación a la era digital. (COM/2020/624 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan de Acción de Educación Digital 2021-2027. Adaptar la educación y la formación a la era digital. (COM/2020/624 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33503,7 +33552,7 @@
             "fecha": "2018-01-17",
             "vigencia": "vigente",
             "descripción": "Plan de Acción de Educación Digital 2018-2020",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones sobre el Plan de Acción de Educación Digital. (COM/2018/022 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones sobre el Plan de Acción de Educación Digital. (COM/2018/022 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33555,6 +33604,22 @@
                             "url": "http://data.europa.eu/eli/reg/2021/694/oj"
                         }
                     ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2025-02-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-694-REG-programa-europa-digital-consolidado-2025-02-04.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2021/694/2025-02-04"
+                        }
+                    ]
                 }
             ],
             "claves": [
@@ -33572,7 +33637,7 @@
             "fecha": "2021-05-28",
             "vigencia": "vigente",
             "descripción": "Reglamento creación Erasmus+",
-            "titulo": "Reglamento (UE) 2021/817 del Parlamento Europeo y del Consejo de 20 de mayo de 2021 por el que se establece Erasmus+, el Programa de la Unión para la educación y la formación, la juventud y el deporte, y se deroga el Reglamento (UE) n.o 1288/2013. Texto pertinente a efectos del EE.",
+            "titulo": "Reglamento (UE) 2021/817 del Parlamento Europeo y del Consejo de 20 de mayo de 2021 por el que se establece Erasmus+, el Programa de la Unión para la educación y la formación, la juventud y el deporte, y se deroga el Reglamento (UE) n.o 1288/2013.",
             "versiones": [
                 {
                     "versión": "original",
@@ -33586,7 +33651,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/eli/reg/2021/817"
+                            "url": "https://eur-lex.europa.eu/eli/reg/2021/817/oj"
                         }
                     ]
                 }
@@ -33643,7 +33708,7 @@
             "fecha": "2021-06-08",
             "vigencia": "vigente",
             "descripción": "Centro Europeo de Investigación en Ciberseguridad",
-            "titulo": "Reglamento (UE) 2021/887 del Parlamento Europeo y del Consejo, de 20 de mayo de 2021, por el que se establecen el Centro Europeo de Competencia Industrial, Tecnológica y de Investigación en Ciberseguridad y la Red de Centros Nacionales de Coordinació.",
+            "titulo": "Reglamento (UE) 2021/887 del Parlamento Europeo y del Consejo, de 20 de mayo de 2021, por el que se establecen el Centro Europeo de Competencia Industrial, Tecnológica y de Investigación en Ciberseguridad y la Red de Centros Nacionales de Coordinación.",
             "versiones": [
                 {
                     "versión": "original",
@@ -33677,7 +33742,7 @@
             "fecha": "2015-12-04",
             "vigencia": "derogado",
             "descripción": "Interoperabilidad y marcos comunes modernización sector público",
-            "titulo": "Decisión (UE) 2015/2240 del Parlamento Europeo y del Consejo, de 25 de noviembre de 2015, por la que se establece un programa relativo a las soluciones de interoperabilidad y los marcos comunes para las administraciones públicas, las empresas y los ciudadanos europeos (programa ISA2) como medio de modernización del sector público. Texto pertinente a efectos del EE.",
+            "titulo": "Decisión (UE) 2015/2240 del Parlamento Europeo y del Consejo, de 25 de noviembre de 2015, por la que se establece un programa relativo a las soluciones de interoperabilidad y los marcos comunes para las administraciones públicas, las empresas y los ciudadanos europeos (programa ISA2) como medio de modernización del sector público.",
             "versiones": [
                 {
                     "versión": "original",
@@ -33711,7 +33776,7 @@
             "fecha": "2011-07-01",
             "vigencia": "vigente",
             "descripción": "Abandono escolar prematuro",
-            "titulo": "Recomendación del Consejo, de 28 de junio de 2011, relativa a las políticas para reducir el abandono escolar prematuro. Texto pertinente a efectos del EEE. (2011/C 191/01.",
+            "titulo": "Recomendación del Consejo, de 28 de junio de 2011, relativa a las políticas para reducir el abandono escolar prematuro. (2011/C 191/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33746,7 +33811,7 @@
             "fecha": "2019-06-07",
             "vigencia": "vigente",
             "descripción": "Agencia de la Unión Europea para la Ciberseguridad",
-            "titulo": "Reglamento (UE) 2019/881 del Parlamento Europeo y del Consejo, de 17 de abril de 2019, relativo a ENISA (Agencia de la Unión Europea para la Ciberseguridad) y a la certificación de la ciberseguridad de las tecnologías de la información y la comunicación y por el que se deroga el Reglamento (UE) n.o 526/2013 («Reglamento sobre la Ciberseguridad»). Texto pertinente a efectos del EE.",
+            "titulo": "Reglamento (UE) 2019/881 del Parlamento Europeo y del Consejo, de 17 de abril de 2019, relativo a ENISA (Agencia de la Unión Europea para la Ciberseguridad) y a la certificación de la ciberseguridad de las tecnologías de la información y la comunicación y por el que se deroga el Reglamento (UE) n.o 526/2013 (Reglamento sobre la Ciberseguridad).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33761,6 +33826,22 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://eur-lex.europa.eu/eli/reg/2019/881/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2025-02-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2019-881-REG-agencia-ue-ciberseguridad-consolidado-2025-02-04.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2019/881/2025-02-04"
                         }
                     ]
                 }
@@ -33780,7 +33861,7 @@
             "fecha": "2013-06-18",
             "vigencia": "derogado",
             "descripción": "Agencia de Seguridad de las Redes de la Información de la Unión Europea",
-            "titulo": "Reglamento (UE) nº 526/2013 del Parlamento Europeo y del Consejo, de 21 de mayo de 2013, relativo a la Agencia de Seguridad de las Redes de la Información de la Unión Europea (ENISA) y por el que se deroga el Reglamento (CE) nº 460/2004. Texto pertinente a efectos del EE.",
+            "titulo": "Reglamento (UE) nº 526/2013 del Parlamento Europeo y del Consejo, de 21 de mayo de 2013, relativo a la Agencia de Seguridad de las Redes de la Información de la Unión Europea (ENISA) y por el que se deroga el Reglamento (CE) nº 460/2004.",
             "versiones": [
                 {
                     "versión": "original",
@@ -33814,7 +33895,7 @@
             "fecha": "2004-03-13",
             "vigencia": "derogado",
             "descripción": "Agencia de Seguridad de las Redes de la Información de la Unión Europea",
-            "titulo": "Reglamento (CE) n° 460/2004 del Parlamento Europeo y del Consejo, de 10 de marzo de 2004, por el que se crea la Agencia Europea de Seguridad de las Redes y de la Información. Texto pertinente a efectos del EE.",
+            "titulo": "Reglamento (CE) n° 460/2004 del Parlamento Europeo y del Consejo, de 10 de marzo de 2004, por el que se crea la Agencia Europea de Seguridad de las Redes y de la Información.",
             "versiones": [
                 {
                     "versión": "original",
@@ -33848,7 +33929,7 @@
             "fecha": "2012-11-20",
             "vigencia": "vigente",
             "descripción": "Nuevo concepto de educación",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Un nuevo concepto de educación: invertir en las aptitudes para lograr mejores resultados socioeconómicos. (COM/2012/0669 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Un nuevo concepto de educación: invertir en las competencias para lograr mejores resultados socioeconómicos. (COM/2012/0669 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33899,7 +33980,7 @@
             "fecha": "2012-11-20",
             "vigencia": "vigente",
             "descripción": "Nuevo concepto de educación (documento de trabajo 1)",
-            "titulo": "Commission Staff Working Document. Assessment of Key Competences in initial education and training: Policy Guidance. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0371 final.",
+            "titulo": "Commission Staff Working Document. Assessment of Key Competences in initial education and training: Policy Guidance. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0371 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33934,7 +34015,7 @@
             "fecha": "2012-11-20",
             "vigencia": "vigente",
             "descripción": "Nuevo concepto de educación (documento de trabajo 2)",
-            "titulo": "Commission Staff Working Document. Language competences for employability, mobility and growth. Accompanying the document Communication From the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0372 final.",
+            "titulo": "Commission Staff Working Document. Language competences for employability, mobility and growth. Accompanying the document Communication From the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0372 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -33969,7 +34050,7 @@
             "fecha": "2012-11-20",
             "vigencia": "vigente",
             "descripción": "Nuevo concepto de educación (documento de trabajo 3)",
-            "titulo": "Commission Staff Working Document. Education and Training Monitor 2012. Accompanying the document Communication From the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0373 final.",
+            "titulo": "Commission Staff Working Document. Education and Training Monitor 2012. Accompanying the document Communication From the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0373 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34004,7 +34085,7 @@
             "fecha": "2012-11-20",
             "vigencia": "vigente",
             "descripción": "Nuevo concepto de educación (documento de trabajo 4)",
-            "titulo": "Commission Staff Working Document. Supporting the Teaching Professions for Better Learning Outcomes. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0374 final.",
+            "titulo": "Commission Staff Working Document. Supporting the Teaching Professions for Better Learning Outcomes. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0374 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34039,7 +34120,7 @@
             "fecha": "2012-11-20",
             "vigencia": "vigente",
             "descripción": "Nuevo concepto de educación (documento de trabajo 5)",
-            "titulo": "Commission Staff Working Document. Vocational education and training for better skills, growth and jobs. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0375 final.",
+            "titulo": "Commission Staff Working Document. Vocational education and training for better skills, growth and jobs. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0375 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34074,7 +34155,7 @@
             "fecha": "2012-11-20",
             "vigencia": "vigente",
             "descripción": "Nuevo concepto de educación (documento de trabajo 6)",
-            "titulo": "Commission Staff Working Document. Partnership and flexible pathways for lifelong skills development. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0376 final.",
+            "titulo": "Commission Staff Working Document. Partnership and flexible pathways for lifelong skills development. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0376 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34109,7 +34190,7 @@
             "fecha": "2012-11-20",
             "vigencia": "vigente",
             "descripción": "Nuevo concepto de educación (documento de trabajo 7)",
-            "titulo": "Commission Staff Working Document. Country Analysis Part I. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0377 final.",
+            "titulo": "Commission Staff Working Document. Country Analysis Part I. Accompanying the document Communication from the Commission Rethinking Education: Investing in skills for better socio-economic outcomes. (SWD/2012/0377 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34144,7 +34225,7 @@
             "fecha": "2002-07-06",
             "vigencia": "vigente",
             "descripción": "Capacidades y movilidad",
-            "titulo": "Resolución del Consejo de 3 de junio de 2002 sobre las capacidades y la movilidad. (2002/C 162/01.",
+            "titulo": "Resolución del Consejo de 3 de junio de 2002 sobre las capacidades y la movilidad. (2002/C 162/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34180,7 +34261,7 @@
             "fecha": "2020-07-01",
             "vigencia": "vigente",
             "descripción": "Agenda de capacidades europea",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Agenda de Capacidades Europea para la competitividad sostenible, la equidad social y la resiliencia. (COM/2020/274 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Agenda de Capacidades Europea para la competitividad sostenible, la equidad social y la resiliencia. (COM/2020/274 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34215,7 +34296,7 @@
             "fecha": "2020-12-01",
             "vigencia": "vigente",
             "descripción": "Educación digital",
-            "titulo": "Conclusiones del Consejo sobre la educación digital en las sociedades europeas del conocimiento. (2020/C 415/10.",
+            "titulo": "Conclusiones del Consejo sobre la educación digital en las sociedades europeas del conocimiento. (2020/C 415/10).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34250,7 +34331,7 @@
             "fecha": "2020-06-26",
             "vigencia": "vigente",
             "descripción": "Crisis Covid-19 en educación",
-            "titulo": "Conclusiones del Consejo sobre la lucha contra la crisis de la COVID-19 en el ámbito de la educación y la formación. (2020/C 212 I/03.",
+            "titulo": "Conclusiones del Consejo sobre la lucha contra la crisis de la COVID-19 en el ámbito de la educación y la formación. (2020/C 212 I/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34285,7 +34366,7 @@
             "fecha": "2019-06-05",
             "vigencia": "vigente",
             "descripción": "Enfoque global enseñanza de idiomas",
-            "titulo": "Recomendación del Consejo, de 22 de mayo de 2019, relativa a un enfoque global de la enseñanza y el aprendizaje de idiomas. (2019/C 189/03.",
+            "titulo": "Recomendación del Consejo, de 22 de mayo de 2019, relativa a un enfoque global de la enseñanza y el aprendizaje de idiomas. (2019/C 189/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34299,7 +34380,7 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=celex:32011H0701(01)"
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:32019H0605(02)"
                         }
                     ]
                 }
@@ -34320,7 +34401,7 @@
             "fecha": "2022-06-27",
             "vigencia": "vigente",
             "descripción": "Cuentas de aprendizaje individuales",
-            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa a las cuentas de aprendizaje individuales. (2022/C 243/03.",
+            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa a las cuentas de aprendizaje individuales. (2022/C 243/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34355,7 +34436,7 @@
             "fecha": "2022-06-27",
             "vigencia": "vigente",
             "descripción": "Microcredenciales para el aprendizaje permanente y la empleabilidad",
-            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa a un enfoque europeo de las microcredenciales para el aprendizaje permanente y la empleabilidad. (2022/C 243/02.",
+            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa a un enfoque europeo de las microcredenciales para el aprendizaje permanente y la empleabilidad. (2022/C 243/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34390,7 +34471,7 @@
             "fecha": "2022-06-27",
             "vigencia": "vigente",
             "descripción": "Aprendizaje para la transición ecológica y el desarrollo sostenible",
-            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa al aprendizaje para la transición ecológica y el desarrollo sostenible. Texto pertinente a efectos del EEE. (2022/C 243/01.",
+            "titulo": "Recomendación del Consejo de 16 de junio de 2022 relativa al aprendizaje para la transición ecológica y el desarrollo sostenible. (2022/C 243/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34425,7 +34506,7 @@
             "fecha": "2012-12-22",
             "vigencia": "vigente",
             "descripción": "Validación del aprendizaje no formal e informal",
-            "titulo": "Recomendación del Consejo, de 20 de diciembre de 2012, sobre la validación del aprendizaje no formal e informal. (2012/C 398/01.",
+            "titulo": "Recomendación del Consejo, de 20 de diciembre de 2012, sobre la validación del aprendizaje no formal e informal. (2012/C 398/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34460,7 +34541,7 @@
             "fecha": "1995-08-12",
             "vigencia": "vigente",
             "descripción": "Mejora de la enseñanza de las lenguas",
-            "titulo": "Resolución del Consejo, de 31 de marzo de 1995, relativa a la mejora de la calidad y la diversificación del aprendizaje y de la enseñanza de las lenguas en los sistemas educativos de la Unión Europea. (95/C 207/01.",
+            "titulo": "Resolución del Consejo, de 31 de marzo de 1995, relativa a la mejora de la calidad y la diversificación del aprendizaje y de la enseñanza de las lenguas en los sistemas educativos de la Unión Europea. (95/C 207/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34495,7 +34576,7 @@
             "fecha": "2021-12-14",
             "vigencia": "vigente",
             "descripción": "Aprendizaje mixto para educación inclusiva",
-            "titulo": "Recomendación del Consejo de 29 de noviembre de 2021 relativa a los planteamientos basados en el aprendizaje mixto para lograr una educación primaria y secundaria inclusivas y de alta calidad. (2021/C 504/03.",
+            "titulo": "Recomendación del Consejo de 29 de noviembre de 2021 relativa a los planteamientos basados en el aprendizaje mixto para lograr una educación primaria y secundaria inclusivas y de alta calidad. (2021/C 504/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34531,7 +34612,7 @@
             "fecha": "2021-12-14",
             "vigencia": "vigente",
             "descripción": "Nuevo plan europeo de aprendizaje de adultos 2021-2030",
-            "titulo": "Resolución del Consejo sobre un nuevo plan europeo de aprendizaje de adultos 2021-2030. (2021/C 504/02.",
+            "titulo": "Resolución del Consejo sobre un nuevo plan europeo de aprendizaje de adultos 2021-2030. (2021/C 504/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34566,7 +34647,7 @@
             "fecha": "2003-01-18",
             "vigencia": "vigente",
             "descripción": "Fomento de la cooperación reforzada en educación y formación profesionales",
-            "titulo": "Resolución del Consejo de 19 de diciembre de 2002 relativa al fomento de la cooperación reforzada europea en materia de educación y formación profesionales. (2003/C 13/02.",
+            "titulo": "Resolución del Consejo de 19 de diciembre de 2002 relativa al fomento de la cooperación reforzada europea en materia de educación y formación profesionales. (2003/C 13/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34601,7 +34682,7 @@
             "fecha": "2018-12-10",
             "vigencia": "vigente",
             "descripción": "Reconocimiento mutuo automático de las cualificaciones",
-            "titulo": "Recomendación del Consejo, de 26 de noviembre de 2018, relativa a la promoción del reconocimiento mutuo automático de las cualificaciones de educación superior y de educación secundaria postobligatoria, y de los resultados de los períodos de aprendizaje en el extranjero. (2018/C 444/01.",
+            "titulo": "Recomendación del Consejo, de 26 de noviembre de 2018, relativa a la promoción del reconocimiento mutuo automático de las cualificaciones de educación superior y de educación secundaria postobligatoria, y de los resultados de los períodos de aprendizaje en el extranjero. (2018/C 444/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34672,7 +34753,7 @@
             "fecha": "2001-01-31",
             "vigencia": "vencido",
             "descripción": "Informe Objetivos precisos sistemas educativos",
-            "titulo": "Informe de la Comisión - Futuros objetivos precisos de los sistemas educativos. (COM/2001/0059 final.",
+            "titulo": "Informe de la Comisión - Futuros objetivos precisos de los sistemas educativos. (COM/2001/0059 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34707,7 +34788,7 @@
             "fecha": "2021-12-10",
             "vigencia": "vigente",
             "descripción": "Estructura de gobernanza cooperación en educación",
-            "titulo": "Resolución del Consejo relativa a la estructura de gobernanza del marco estratégico para la cooperación europea en el ámbito de la educación y la formación con miras al Espacio Europeo de Educación y más allá (2021-2030). (2021/C 497/01.",
+            "titulo": "Resolución del Consejo relativa a la estructura de gobernanza del marco estratégico para la cooperación europea en el ámbito de la educación y la formación con miras al Espacio Europeo de Educación y más allá (2021-2030). (2021/C 497/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34743,7 +34824,7 @@
             "fecha": "2013-09-25",
             "vigencia": "vigente",
             "descripción": "Recursos educativos abiertos",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Apertura de la educación: Docencia y aprendizaje innovadores para todos a través de nuevas tecnologías y recursos educativos abiertos. (COM/2013/654 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Apertura de la educación: Docencia y aprendizaje innovadores para todos a través de nuevas tecnologías y recursos educativos abiertos. (COM/2013/654 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34778,7 +34859,7 @@
             "fecha": "2021-06-10",
             "vigencia": "vigente",
             "descripción": "Equidad e inclusión en educación",
-            "titulo": "Conclusiones del Consejo sobre la equidad y la inclusión en la educación y la formación para favorecer el éxito educativo para todos. (2021/C 221/02.",
+            "titulo": "Conclusiones del Consejo sobre la equidad y la inclusión en la educación y la formación para favorecer el éxito educativo para todos. (2021/C 221/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34813,7 +34894,7 @@
             "fecha": "2010-06-09",
             "vigencia": "vencido",
             "descripción": "Nuevo impulso a la cooperación en educación (ET 2020)",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones - Un nuevo impulso a la cooperación en educación y formación profesional para apoyar la Estrategia Europa 2020. (COM/2010/0296 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones - Un nuevo impulso a la cooperación en educación y formación profesional para apoyar la Estrategia Europa 2020. (COM/2010/0296 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34848,7 +34929,7 @@
             "fecha": "2007-07-29",
             "vigencia": "vencido",
             "descripción": "Plan de acción sobre el aprendizaje de adultos",
-            "titulo": "Comunicación de la Comisión al Consejo Europeo, al Parlamento Europeo, al Comité Económico y Social Europeo y al Comité de las Regiones - Plan de Acción sobre el Aprendizaje de Adultos - Siempre es buen momento para aprender. (COM/2007/0558 final.",
+            "titulo": "Comunicación de la Comisión al Consejo Europeo, al Parlamento Europeo, al Comité Económico y Social Europeo y al Comité de las Regiones - Plan de Acción sobre el Aprendizaje de Adultos - Siempre es buen momento para aprender. (COM/2007/0558 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34883,7 +34964,7 @@
             "fecha": "2020-06-09",
             "vigencia": "vigente",
             "descripción": "Personal docente y formador del futuro",
-            "titulo": "Conclusiones del Consejo sobre el personal docente y formador del futuro. (2020/C 193/04.",
+            "titulo": "Conclusiones del Consejo sobre el personal docente y formador del futuro. (2020/C 193/04).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34918,7 +34999,7 @@
             "fecha": "2020-12-02",
             "vigencia": "vigente",
             "descripción": "Educación y Formación Profesionales para la competitividad sostenible",
-            "titulo": "Recomendación del Consejo de 24 de noviembre de 2020 sobre la educación y formación profesionales (EFP) para la competitividad sostenible, la equidad social y la resiliencia (2020/C 417/01.",
+            "titulo": "Recomendación del Consejo de 24 de noviembre de 2020 sobre la educación y formación profesionales (EFP) para la competitividad sostenible, la equidad social y la resiliencia (2020/C 417/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34953,7 +35034,7 @@
             "fecha": "2022-04-21",
             "vigencia": "vigente",
             "descripción": "Movilidad personal docente",
-            "titulo": "Conclusiones del Consejo sobre la mejora de la movilidad del personal docente y formador, en particular la movilidad europea, durante su educación y formación inicial y en el empleo. (2022/C 167/02.",
+            "titulo": "Conclusiones del Consejo sobre la mejora de la movilidad del personal docente y formador, en particular la movilidad europea, durante su educación y formación inicial y en el empleo. (2022/C 167/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -34988,7 +35069,7 @@
             "fecha": "2022-01-14",
             "vigencia": "vigente",
             "descripción": "Aprendizaje para la transición ecológica y el desarrollo sostenible (documento de trabajo)",
-            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on learning for environmental sustainability. (SWD/2022/3 final.",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on learning for environmental sustainability. (SWD/2022/3 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35023,7 +35104,7 @@
             "fecha": "2020-09-30",
             "vigencia": "vigente",
             "descripción": "Plan de Acción de Educación Digital 2021-2027 (documento de trabajo)",
-            "titulo": "Commission Staff Working Document accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions Digital Education action Plan 2021-2027 Resetting education and training for the digital age. (SWD/2020/209 final.",
+            "titulo": "Commission Staff Working Document accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions Digital Education action Plan 2021-2027 Resetting education and training for the digital age. (SWD/2020/209 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35058,7 +35139,7 @@
             "fecha": "2020-09-30",
             "vigencia": "vigente",
             "descripción": "Consecución Espacio Europeo de Educación en 2025 (documento de trabajo)",
-            "titulo": "Commission Staff Working Document accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of Regions on achieving the European Education Area by 2025. (SWD/2020/212 final.",
+            "titulo": "Commission Staff Working Document accompanying the document Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of Regions on achieving the European Education Area by 2025. (SWD/2020/212 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35093,7 +35174,7 @@
             "fecha": "2019-11-18",
             "vigencia": "vigente",
             "descripción": "Función esencial del aprendizaje permanente",
-            "titulo": "Conclusiones del Consejo sobre la función esencial que desempeña el aprendizaje permanente para empoderar a las sociedades de modo que puedan afrontar la transición tecnológica y ecológica apoyando un crecimiento inclusivo y sostenible. (2019/C 389/07.",
+            "titulo": "Conclusiones del Consejo sobre la función esencial que desempeña el aprendizaje permanente para empoderar a las sociedades de modo que puedan afrontar la transición tecnológica y ecológica apoyando un crecimiento inclusivo y sostenible. (2019/C 389/07).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35129,7 +35210,7 @@
             "fecha": "2020-07-01",
             "vigencia": "vigente",
             "descripción": "Educación y Formación Profesionales para la competitividad sostenible (documento de trabajo)",
-            "titulo": "Commission Staff Working Document accompanying the Commission Proposal for a Council Recommendation on vocational education and training (VET) for sustainable competitiveness, social fairness and resilience. (SWD/2020/123 final.",
+            "titulo": "Commission Staff Working Document accompanying the Commission Proposal for a Council Recommendation on vocational education and training (VET) for sustainable competitiveness, social fairness and resilience. (SWD/2020/123 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35164,7 +35245,7 @@
             "fecha": "2019-06-05",
             "vigencia": "vigente",
             "descripción": "Itinerarios de mejora de las capacidades",
-            "titulo": "Conclusiones del Consejo sobre la aplicación de la Recomendación del Consejo relativa a Itinerarios de mejora de las capacidades: Nuevas oportunidades para adultos. (2019/C 189/04.",
+            "titulo": "Conclusiones del Consejo sobre la aplicación de la Recomendación del Consejo relativa a Itinerarios de mejora de las capacidades: Nuevas oportunidades para adultos. (2019/C 189/04).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35199,7 +35280,7 @@
             "fecha": "2021-08-05",
             "vigencia": "vigente",
             "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 1/5)",
-            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 1/.",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 1/5.",
             "versiones": [
                 {
                     "versión": "original",
@@ -35235,7 +35316,7 @@
             "fecha": "2021-08-05",
             "vigencia": "vigente",
             "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 2/5)",
-            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 2/.",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 2/5.",
             "versiones": [
                 {
                     "versión": "original",
@@ -35271,7 +35352,7 @@
             "fecha": "2021-08-05",
             "vigencia": "vigente",
             "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 3/5)",
-            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 3/.",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 3/5.",
             "versiones": [
                 {
                     "versión": "original",
@@ -35307,7 +35388,7 @@
             "fecha": "2021-08-05",
             "vigencia": "vigente",
             "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 4/5)",
-            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 4/.",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 4/5.",
             "versiones": [
                 {
                     "versión": "original",
@@ -35343,7 +35424,7 @@
             "fecha": "2021-08-05",
             "vigencia": "vigente",
             "descripción": "Aprendizaje mixto para educación inclusiva (documento de trabajo 5/5)",
-            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 5/.",
+            "titulo": "Commission Staff Working Document accompanying the document Proposal for a Council Recommendation on blended learning for high quality and inclusive primary and secondary education. (SWD/2021/219 final) Parte 5/5.",
             "versiones": [
                 {
                     "versión": "original",
@@ -35379,7 +35460,7 @@
             "fecha": "2011-12-20",
             "vigencia": "vencido",
             "descripción": "Informe intermedio 2012 (ET 2020) (documento de trabajo 2)",
-            "titulo": "Commission Staff Working Document accompanying document to the Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Commitee of Regions 'Education and Training for a smart, sustainable and inclusive Europe' Analysis of the implementation of the strategic framework for European cooperation in education and training (ET2020) - Country analysis (SEC/2011/1608 final.",
+            "titulo": "Commission Staff Working Document accompanying document to the Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Commitee of Regions 'Education and Training for a smart, sustainable and inclusive Europe' Analysis of the implementation of the strategic framework for European cooperation in education and training (ET2020) - Country analysis (SEC/2011/1608 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35414,7 +35495,7 @@
             "fecha": "2017-12-08",
             "vigencia": "vigente",
             "descripción": "Desarrollo escolar y enseñanza de excelencia",
-            "titulo": "Conclusiones del Consejo sobre desarrollo escolar y una enseñanza de excelencia. (2017/C 421/03.",
+            "titulo": "Conclusiones del Consejo sobre desarrollo escolar y una enseñanza de excelencia. (2017/C 421/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35448,7 +35529,7 @@
             "fecha": "2017-02-25",
             "vigencia": "vigente",
             "descripción": "Inclusión en la diversidad",
-            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el Consejo, sobre la inclusión en la diversidad para conseguir una educación de alta calidad para todos. (2017/C 62/02.",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el Consejo, sobre la inclusión en la diversidad para conseguir una educación de alta calidad para todos. (2017/C 62/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35483,7 +35564,7 @@
             "fecha": "2005-11-24",
             "vigencia": "vigente",
             "descripción": "Desarrollo de las cualificaciones y las competencias",
-            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el seno del Consejo sobre el papel del desarrollo de las cualificaciones y las competencias en la consecución de los objetivos de Lisboa. (2005/C 292/02.",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el seno del Consejo sobre el papel del desarrollo de las cualificaciones y las competencias en la consecución de los objetivos de Lisboa. (2005/C 292/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35519,7 +35600,7 @@
             "fecha": "2009-12-12",
             "vigencia": "vigente",
             "descripción": "Papel de la educación en un triángulo del conocimiento",
-            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros reunidos en el seno del Consejo, de 26 de noviembre de 2009, sobre el desarrollo del papel de la educación en un triángulo del conocimiento que funcione plenamente. (2009/C 302/03.",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros reunidos en el seno del Consejo, de 26 de noviembre de 2009, sobre el desarrollo del papel de la educación en un triángulo del conocimiento que funcione plenamente. (2009/C 302/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35553,7 +35634,7 @@
             "fecha": "1992-12-19",
             "vigencia": "vigente",
             "descripción": "Cooperación CE/EEUU sobre educación y formación",
-            "titulo": "Conclusiones del Consejo de los ministros de educación reunidos en el seno del Consejo, el 27 de noviembre de 1992, sobre la cooperación CE/EE UU en el ámbito de la educación y la formación. (92/C 336/05.",
+            "titulo": "Conclusiones del Consejo de los ministros de educación reunidos en el seno del Consejo, el 27 de noviembre de 1992, sobre la cooperación CE/EE UU en el ámbito de la educación y la formación. (92/C 336/05).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35588,7 +35669,7 @@
             "fecha": "2007-12-12",
             "vigencia": "vigente",
             "descripción": "Mejora de la calidad de la formación del profesorado",
-            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el seno del Consejo, de 15 de noviembre de 2007, sobre la mejora de la calidad de la educación del profesorado. (2007/C 300/07.",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el seno del Consejo, de 15 de noviembre de 2007, sobre la mejora de la calidad de la educación del profesorado. (2007/C 300/07).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35623,7 +35704,7 @@
             "fecha": "2006-12-08",
             "vigencia": "vigente",
             "descripción": "Futuras prioridades cooperación reforzada en educación y formación",
-            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros reunidos en el seno del Consejo sobre las futuras prioridades de una cooperación reforzada europea en materia de educación y formación profesionales (EFP) (Revisión de las conclusiones del Consejo de 15 de noviembre de 2004). (2006/C 298/05.",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros reunidos en el seno del Consejo sobre las futuras prioridades de una cooperación reforzada europea en materia de educación y formación profesionales (EFP) (Revisión de las conclusiones del Consejo de 15 de noviembre de 2004). (2006/C 298/05).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35658,7 +35739,7 @@
             "fecha": "2017-12-14",
             "vigencia": "vigente",
             "descripción": "Agenda renovada para la educación superior",
-            "titulo": "Conclusiones del Consejo sobre una agenda renovada de la UE para la educación superior. (2017/C 429/04.",
+            "titulo": "Conclusiones del Consejo sobre una agenda renovada de la UE para la educación superior. (2017/C 429/04).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35693,7 +35774,7 @@
             "fecha": "2017-12-22",
             "vigencia": "vigente",
             "descripción": "Identificador Europeo de Legislación",
-            "titulo": "Conclusiones del Consejo, de 6 de noviembre de 2017, sobre el Identificador Europeo de Legislación. (2017/C 441/05.",
+            "titulo": "Conclusiones del Consejo, de 6 de noviembre de 2017, sobre el Identificador Europeo de Legislación. (2017/C 441/05).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35728,7 +35809,7 @@
             "fecha": "2020-06-16",
             "vigencia": "vigente",
             "descripción": "Futuro digital de Europa",
-            "titulo": "Conclusiones del Consejo sobre la configuración del futuro digital de Europa. (2020/C 202 I/01.",
+            "titulo": "Conclusiones del Consejo sobre la configuración del futuro digital de Europa. (2020/C 202 I/01).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35763,7 +35844,7 @@
             "fecha": "2018-12-07",
             "vigencia": "vigente",
             "descripción": "Plan coordinado sobre la inteligencia artificial",
-            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan coordinado sobre la inteligencia artificial. (COM/2018/795 final.",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan coordinado sobre la inteligencia artificial. (COM/2018/795 final).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35797,7 +35878,7 @@
             "fecha": "2018-12-07",
             "vigencia": "vigente",
             "descripción": "Anexo I al Plan coordinado sobre la inteligencia artificial",
-            "titulo": "Anexo I a la Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan coordinado sobre la inteligencia artificial. (COM/2018/795 final annex.",
+            "titulo": "Anexo I a la Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. Plan coordinado sobre la inteligencia artificial. (COM/2018/795 final annex).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35832,7 +35913,7 @@
             "fecha": "2019-12-09",
             "vigencia": "vigente",
             "descripción": "Educación de los trabajadores y juventud",
-            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros reunidos en el seno del Consejo sobre la educación y formación de los trabajadores en el ámbito de la juventud. (2019/C 412/03.",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros reunidos en el seno del Consejo sobre la educación y formación de los trabajadores en el ámbito de la juventud. (2019/C 412/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35868,7 +35949,7 @@
             "fecha": "2019-12-10",
             "vigencia": "vigente",
             "descripción": "Trabajo digital y juventud",
-            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el seno del Consejo, sobre el trabajo digital en el ámbito de la juventud. (2019/C 414/02.",
+            "titulo": "Conclusiones del Consejo y de los Representantes de los Gobiernos de los Estados miembros, reunidos en el seno del Consejo, sobre el trabajo digital en el ámbito de la juventud. (2019/C 414/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35903,7 +35984,7 @@
             "fecha": "2019-06-05",
             "vigencia": "vigente",
             "descripción": "Jóvenes y futuro del trabajo",
-            "titulo": "Conclusiones del Consejo sobre los jóvenes y el futuro del trabajo. (2019/C 189/05.",
+            "titulo": "Conclusiones del Consejo sobre los jóvenes y el futuro del trabajo. (2019/C 189/05).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35938,7 +36019,7 @@
             "fecha": "2019-11-18",
             "vigencia": "vigente",
             "descripción": "Aprendizaje permanente para la transición ecológica",
-            "titulo": "Conclusiones del Consejo sobre la función esencial que desempeña el aprendizaje permanente para empoderar a las sociedades de modo que puedan afrontar la transición tecnológica y ecológica apoyando un crecimiento inclusivo y sostenible. (2019/C 389/07.",
+            "titulo": "Conclusiones del Consejo sobre la función esencial que desempeña el aprendizaje permanente para empoderar a las sociedades de modo que puedan afrontar la transición tecnológica y ecológica apoyando un crecimiento inclusivo y sostenible. (2019/C 389/07).",
             "versiones": [
                 {
                     "versión": "original",
@@ -35973,7 +36054,7 @@
             "fecha": "2019-12-10",
             "vigencia": "vigente",
             "descripción": "Riesgos 5G",
-            "titulo": "Conclusiones del Consejo sobre la importancia de la tecnología 5G para la economía europea y la necesidad de mitigar los riesgos para la seguridad relacionados con la 5G. (2019/C 414/03.",
+            "titulo": "Conclusiones del Consejo sobre la importancia de la tecnología 5G para la economía europea y la necesidad de mitigar los riesgos para la seguridad relacionados con la 5G. (2019/C 414/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -36007,7 +36088,7 @@
             "fecha": "2018-06-08",
             "vigencia": "vigente",
             "descripción": "Visión del Espacio Europeo de Educación",
-            "titulo": "Conclusiones del Consejo sobre la adquisición de una visión del Espacio Europeo de Educación. (2018/C 195/04.",
+            "titulo": "Conclusiones del Consejo sobre la adquisición de una visión del Espacio Europeo de Educación. (2018/C 195/04).",
             "versiones": [
                 {
                     "versión": "original",
@@ -36041,7 +36122,7 @@
             "fecha": "2021-06-21",
             "vigencia": "vigente",
             "descripción": "Tecnología de datos para la mejora de la legislación",
-            "titulo": "Conclusiones del Consejo sobre tecnologías de datos para optimizar la mejora de la legislación. (2021/C 241/04.",
+            "titulo": "Conclusiones del Consejo sobre tecnologías de datos para optimizar la mejora de la legislación. (2021/C 241/04).",
             "versiones": [
                 {
                     "versión": "original",
@@ -36075,7 +36156,7 @@
             "fecha": "2022-04-21",
             "vigencia": "vigente",
             "descripción": "Capacitación educación superior para el futuro",
-            "titulo": "Conclusiones del Consejo sobre una estrategia europea de capacitación de las instituciones de educación superior para el futuro de Europa. (2022/C 167/03.",
+            "titulo": "Conclusiones del Consejo sobre una estrategia europea de capacitación de las instituciones de educación superior para el futuro de Europa. (2022/C 167/03).",
             "versiones": [
                 {
                     "versión": "original",
@@ -36109,7 +36190,7 @@
             "fecha": "2019-06-05",
             "vigencia": "vigente",
             "descripción": "Educación primera infancia",
-            "titulo": "Recomendación del Consejo, de 22 de mayo de 2019, relativa a unos sistemas de educación y cuidados de la primera infancia de alta calidad. (2019/C 189/02.",
+            "titulo": "Recomendación del Consejo, de 22 de mayo de 2019, relativa a unos sistemas de educación y cuidados de la primera infancia de alta calidad. (2019/C 189/02).",
             "versiones": [
                 {
                     "versión": "original",
@@ -36144,7 +36225,7 @@
             "fecha": "2021-05-31",
             "vigencia": "vigente",
             "descripción": "Datos técnicos encuesta educación",
-            "titulo": "Reglamento de Ejecución (UE) 2021/861 de la Comisión de 21 de mayo de 2021 por el que se especifican los datos técnicos del conjunto de datos y se establecen los formatos técnicos para la transmisión de la información en relación con la organización de una encuesta muestral en el ámbito de la educación y la formación, de conformidad con el Reglamento (UE) 2019/1700 del Parlamento Europeo y del Consejo (Texto pertinente a efectos del EEE.",
+            "titulo": "Reglamento de Ejecución (UE) 2021/861 de la Comisión de 21 de mayo de 2021 por el que se especifican los datos técnicos del conjunto de datos y se establecen los formatos técnicos para la transmisión de la información en relación con la organización de una encuesta muestral en el ámbito de la educación y la formación, de conformidad con el Reglamento (UE) 2019/1700 del Parlamento Europeo y del Consejo.",
             "versiones": [
                 {
                     "versión": "original",
@@ -36178,7 +36259,7 @@
             "fecha": "2020-12-10",
             "vigencia": "vigente",
             "descripción": "Ciberseguridad dispositivos conectados",
-            "titulo": "Conclusiones del Consejo sobre la ciberseguridad de los dispositivos conectados. (2020/C 427/04.",
+            "titulo": "Conclusiones del Consejo sobre la ciberseguridad de los dispositivos conectados. (2020/C 427/04).",
             "versiones": [
                 {
                     "versión": "original",
@@ -37046,7 +37127,7 @@
             "fecha": "2019-06-26",
             "vigencia": "vigente",
             "descripción": "Directiva Reutilización de la información del sector público",
-            "titulo": "Directiva (UE) 2019/1024 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a los datos abiertos y la reutilización de la información del sector públic.",
+            "titulo": "Directiva (UE) 2019/1024 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a los datos abiertos y la reutilización de la información del sector público.",
             "versiones": [
                 {
                     "versión": "original",
@@ -37096,6 +37177,22 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://eur-lex.europa.eu/eli/reg/2021/1232/oj?locale=es"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2024-05-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2021-1232-REG-privacidad-comunicaciones-electronicas-consolidado-2024-05-15.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2021/1232/2024-05-15"
                         }
                     ]
                 }
@@ -38932,7 +39029,23 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://eur-lex.europa.eu/eli/dir/2002/22/oj"
+                            "url": "https://eur-lex.europa.eu/eli/dir/2018/1972/oj"
+                        }
+                    ]
+                },
+                {
+                    "versión": "consolidado",
+                    "fecha": "2024-10-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-1972-D-codigo-europeo-comunicaciones-electronicas-consolidado-2024-10-18.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/dir/2018/1972/2024-10-18"
                         }
                     ]
                 }
@@ -39312,7 +39425,8 @@
                 "secundaria",
                 "ESO",
                 "bachillerato",
-                "formación profesional"
+                "formación profesional",
+                "plantillas"
             ]
         },
         {
@@ -43890,6 +44004,125 @@
                 "currículo",
                 "formación profesional",
                 "curso de especialización"
+            ]
+        },
+        {
+            "id": "dogv-2025-09-o",
+            "incluido": "2025-06-12",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-06-10",
+            "vigencia": "vigente",
+            "descripción": "Plantillas de Secundaria y FP (CV)",
+            "titulo": "Orden 9/2025, de 5 de junio, de la Conselleria de Educación, Cultura, Universidades y Empleo, por la que se regulan los criterios para la determinación de las plantillas de personal docente correspondiente a los centros públicos de titularidad de la Generalitat que imparten enseñanzas no universitarias en el ámbito de la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+            "fecha": "2025-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-9-O-plantillas-secundaria-fp-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-9-O-plantillas-secundaria-fp-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2025/06/05/9/dof/spa/html"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/eli/es-vc/o/2025/06/05/9/dof/vci/html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "orden",
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "plantillas"
+            ]
+        },
+        {
+            "id": "celex-2022-11-28-rec",
+            "incluido": "2025-06-13",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-12-09",
+            "vigencia": "vigente",
+            "descripción": "Caminos hacia el éxito escolar",
+            "titulo": "Recomendación del Consejo de 28 de noviembre de 2022 sobre los caminos hacia el éxito escolar, que sustituye la Recomendación del Consejo, de 28 de junio de 2011, relativa a las políticas para reducir el abandono escolar prematuro. (2022/C 469/01).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-12-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-11-28-REC-exito-escolar.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022H1209(01)"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación",
+                "abandono escolar"
+            ]
+        },
+        {
+            "id": "celex-2022-2557-dir",
+            "incluido": "2025-06-13",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-12-27",
+            "vigencia": "vigente",
+            "descripción": "Directiva Infraestructuras críticas europeas",
+            "titulo": "Directiva (UE) 2022/2557 del Parlamento Europeo y del Consejo de 14 de diciembre de 2022 relativa a la resiliencia de las entidades críticas y por la que se deroga la Directiva 2008/114/CE del Consejo.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-12-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-2557-infraestructuras-criticas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://data.europa.eu/eli/dir/2022/2557/oj?locale=es"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "directiva",
+                "seguridad",
+                "infraestructuras críticas"
             ]
         }
     ]
