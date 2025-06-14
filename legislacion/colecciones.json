@@ -70,7 +70,9 @@
                                     "celex-2020-625-com",
                                     "celex-2020-212-swd",
                                     "celex-2021-66-01-res",
-                                    "celex-2021-497-res"
+                                    "celex-2021-497-res",
+                                    "celex-2022-700-com",
+                                    "celex-2023-185-8-res"
                                 ]
                             }
                         },
@@ -109,7 +111,12 @@
                                     "celex-2020-415-con",
                                     "celex-2021-221-con",
                                     "celex-2022-167-con",
-                                    "celex-2022-167-3-con"
+                                    "celex-2022-167-3-con",
+                                    "celex-2022-469-4-con",
+                                    "celex-2023-95-3-con",
+                                    "celex-2023-1345-con",
+                                    "celex-2023-1419-con",
+                                    "celex-2024-3642-con"
                                 ]
                             }
                         },
@@ -149,7 +156,10 @@
                                     "celex-2022-3-swd",
                                     "celex-2022-06-16-2-rec",
                                     "celex-2022-06-16-3-rec",
-                                    "celex-2022-11-28-rec"
+                                    "celex-2022-11-28-rec",
+                                    "celex-2024-1030-rec",
+                                    "celex-2024-1115-rec",
+                                    "celex-2024-3364-rec"
                                 ]
                             }
                         }
@@ -953,8 +963,11 @@
                                     "docv-2014-54-o",
                                     "dogv-2017-164-d",
                                     "dogv-2022-5-d",
+                                    "dogv-2022-07-13-res",
                                     "dogv-2023-11-13-res",
-                                    "dogv-2024-07-23-res"
+                                    "dogv-2024-07-22-res-2",
+                                    "dogv-2024-10-10-res",
+                                    "dogv-2025-06-09-res"
                                 ]
                             }
                         },
@@ -1048,12 +1061,15 @@
                                 "titulo": "Comunidad Valenciana",
                                 "referencias": [
                                     "dogv-1984-38-d",
+                                    "dogv-1985-12-d",
                                     "dogv-1986-11-d",
+                                    "dogv-1986-04-17-o",
                                     "dogv-1987-95-d",
                                     "dogv-1988-03-15-o",
                                     "dogv-1991-246-d",
                                     "dogv-1992-47-d",
                                     "dogv-1992-115-d",
+                                    "dogv-1993-42-d",
                                     "dogv-1993-04-23-o",
                                     "dogv-1993-114-d",
                                     "dogv-1994-186-d",
@@ -1724,14 +1740,14 @@
                                 "referencias": [
                                     "celex-2013-40-dir",
                                     "boe-2015-1-lo",
-                                    "celex-2016-1148-dir",
                                     "boe-2018-12-rdl",
                                     "celex-2019-881-reg",
                                     "boe-2019-14-rdl",
                                     "boe-2021-43-rd",
                                     "celex-2021-887-reg",
                                     "celex-2022-2554-reg",
-                                    "celex-2022-2555-dir"
+                                    "celex-2022-2555-dir",
+                                    "celex-2025-38-reg"
                                 ]
                             }
                         },
@@ -1923,6 +1939,7 @@
                                     "celex-2013-37-dir",
                                     "boe-2015-951-rd",
                                     "celex-2015-2240-dec",
+                                    "celex-2016-1148-dir",
                                     "boe-2018-5-rdl",
                                     "cen-301549-3-1-1-en"
                                 ]
