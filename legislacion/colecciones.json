@@ -159,7 +159,13 @@
                                     "celex-2022-11-28-rec",
                                     "celex-2024-1030-rec",
                                     "celex-2024-1115-rec",
-                                    "celex-2024-3364-rec"
+                                    "celex-2024-3364-rec",
+                                    "celex-2024-7282-rec",
+                                    "celex-2024-7400-con",
+                                    "celex-2025-90-com",
+                                    "celex-2025-2796-con",
+                                    "celex-2025-2939-com",
+                                    "celex-2025-3006-rec"
                                 ]
                             }
                         }
@@ -1014,6 +1020,16 @@
                                 "referencias": [
                                     "dogv-2018-4-l",
                                     "dogv-2020-06-04-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
+                                "titulo": "Competencia digital docente",
+                                "referencias": [
+                                    "dogv-2023-11-07-res",
+                                    "dogv-2024-05-15-res",
+                                    "dogv-2024-10-11-res"
                                 ]
                             }
                         },

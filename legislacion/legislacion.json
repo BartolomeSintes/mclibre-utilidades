@@ -19306,7 +19306,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "nueva agenda de capacidades"
             ]
@@ -33049,7 +33049,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "programa de",
                 "educación",
                 "educación y formación 2010"
             ]
@@ -33399,7 +33399,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "espacio europeo de educación"
             ]
@@ -33503,7 +33503,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "espacio europeo de educación"
             ]
@@ -33538,7 +33538,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "plan de acción de educación digital"
             ]
@@ -33573,7 +33573,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "plan de acción de educación digital"
             ]
@@ -33966,7 +33966,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "nuevo concepto de educación"
             ]
@@ -34282,7 +34282,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "agenda de capacidades"
             ]
@@ -34845,7 +34845,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "recursos educativos abiertos"
             ]
@@ -34915,7 +34915,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "recursos educativos abiertos"
             ]
@@ -35865,7 +35865,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "inteligencia artificial"
             ]
         },
@@ -35899,7 +35899,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "anexo",
                 "inteligencia artificial"
             ]
@@ -44557,7 +44557,7 @@
             ],
             "claves": [
                 "unión europea",
-                "resolución del consejo",
+                "comunicación de la comisión",
                 "espacio europeo de educación"
             ]
         },
@@ -44766,6 +44766,332 @@
                 "unión europea",
                 "conclusiones del consejo",
                 "prácticas informadas por pruebas"
+            ]
+        },
+        {
+            "id": "dogv-2023-11-07-res",
+            "incluido": "2025-06-16",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2023-11-14",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento acreditación competencia digital docente (CV)",
+            "titulo": "Resolución de 7 de noviembre de 2023, de la Dirección general de personal docente, de la Conselleria de Educación, Universidades y Empleo, por la que se regula el procedimiento para la acreditación de la competencia digital docente.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2023-11-14",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2023-11-07-R-acreditacion-competencia-digital-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2023%2F11339"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2023%2F11339"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "competencia digital"
+            ]
+        },
+        {
+            "id": "dogv-2024-05-15-res",
+            "incluido": "2025-06-16",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-05-24",
+            "vigencia": "vigente",
+            "descripción": "Regulación niveles B1 y B2 competencia digital docente (CV)",
+            "titulo": "Resolución de 15 de mayo de 2024, de la Secretaría Autonómica de Educación, por la que se regulan algunos aspectos para la obtención de los niveles B1 y B2 de la competencia digital docente y la acreditación.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-05-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-05-15-R-regulacion-b1-b2-competencia-digital-docente.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024%2F4717"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024%2F4717"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "competencia digital"
+            ]
+        },
+        {
+            "id": "dogv-2024-10-11-res",
+            "incluido": "2025-06-16",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2024-10-17",
+            "vigencia": "vigente",
+            "descripción": "Procedimiento acreditación niveles B1 y B2 competencia digital docente (CV)",
+            "titulo": "Resolución de 11 de octubre de 2024, de la Secretaría Autonómica de Educación, por la que se convoca el procedimiento y requisitos para la obtención de la acreditación de la competencia digital docente en los niveles B1 y B2, por un proceso de observación del desempeño, en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-10-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2024-10-11-R-rprocedimiento-b1-b2-competencia-digital-docente-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2024-10-11-R-rprocedimiento-b1-b2-competencia-digital-docente-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2024/10654"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2024/10654"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolucion",
+                "competencia digital"
+            ]
+        },
+        {
+            "id": "celex-2024-7282-rec",
+            "incluido": "2025-06-16",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2024-12-05",
+            "vigencia": "vigente",
+            "descripción": "Carreras atractivas en la educación superior",
+            "titulo": "Recomendación del Consejo de 25 de noviembre de 2024 sobre carreras atractivas y sostenibles en la educación superior (C/2024/7282).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-12-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2024-7282-REC-carreras-atractivas-educacion-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/C/2024/7282/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación superior"
+            ]
+        },
+        {
+            "id": "celex-2024-7400-con",
+            "incluido": "2025-06-16",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2024-12-09",
+            "vigencia": "vigente",
+            "descripción": "Asociaciones estratégicas",
+            "titulo": "Conclusiones del Consejo sobre asociaciones estratégicas en el ámbito de la educación y la formación (C/2024/7400).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-12-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2024-7400-CON-asociaciones-estrategicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/C/2024/7400/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones del consejo",
+                "asociaciones estratégicas"
+            ]
+        },
+        {
+            "id": "celex-2025-3006-rec",
+            "incluido": "2025-06-16",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2025-05-28",
+            "vigencia": "vigente",
+            "descripción": "Sistema europeo reconocimiento educación superior",
+            "titulo": "Recomendación del Consejo de 12 de mayo de 2025 relativa a un Sistema Europeo de Aseguramiento de la Calidad y de Reconocimiento en la Educación Superior (C/2025/3006).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-05-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2025-3006-REC-reconocimiento-educacion-superior.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/C/2025/3006/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "recomendación",
+                "educación superior"
+            ]
+        },
+        {
+            "id": "celex-2025-2939-com",
+            "incluido": "2025-06-14",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2025-05-22",
+            "vigencia": "vigente",
+            "descripción": "Titulación europea conjunta",
+            "titulo": "Resolución del Consejo relativa a un sello de titulación europea conjunta y los próximos pasos hacia una posible titulación europea conjunta: impulsar la competitividad de Europa y el atractivo de la educación superior europea. (C/2025/2939)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-05-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2025-2939-RES-titulacion-europea-conjunta.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/C/2025/2939/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "resolución del consejo",
+                "espacio europeo de educación"
+            ]
+        },
+        {
+            "id": "celex-2025-2796-con",
+            "incluido": "2025-06-16",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2025-05-21",
+            "vigencia": "vigente",
+            "descripción": "Prácticas inclusivas en la educación infantil",
+            "titulo": "Conclusiones del Consejo sobre prácticas inclusivas y centradas en el aprendiente en la educación infantil y atención a la infancia y en la educación escolar (C/2025/2796).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-05-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2025-2796-CON-practicas-inclusivas-educacion-infantil.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/C/2025/2796/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones del consejo",
+                "asociaciones estratégicas"
+            ]
+        },
+        {
+            "id": "celex-2025-90-com",
+            "incluido": "2025-06-14",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2025-03-05",
+            "vigencia": "vigente",
+            "descripción": "Unión de las Competencias",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones. La Unión de las Competencias. (COM/2025/90 final)",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-03-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2025-90-COM-union-competencias.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52025DC0090"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación de la comisión",
+                "unión de las competencias"
             ]
         }
     ]
