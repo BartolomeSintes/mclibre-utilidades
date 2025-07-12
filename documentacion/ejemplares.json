@@ -4500,6 +4500,17 @@
       "creado": "2025-05-30"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 218,
+      "año": 2025,
+      "mes": 6,
+      "portada": "full-circle-218-en-202506.jpg",
+      "fichero": "full-circle-218-en-202506.pdf",
+      "idioma": "inglés",
+      "creado": "2025-06-28"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -6192,6 +6203,17 @@
       "fichero": "hello-world-26-en-202504.pdf",
       "idioma": "inglés",
       "creado": "2025-04-11"
+    },
+    {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 27,
+      "año": 2025,
+      "mes": 7,
+      "portada": "hello-world-27-en-202507.jpg",
+      "fichero": "hello-world-27-en-202507.pdf",
+      "idioma": "inglés",
+      "creado": "2025-07-12"
     },
     {
       "serie": "Hello World Books",
@@ -12475,6 +12497,17 @@
       "creado": "2025-05-30"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 154,
+      "año": 2025,
+      "mes": 6,
+      "portada": "the-magpi-154-en-202506.jpg",
+      "fichero": "the-magpi-154-en-202506.pdf",
+      "idioma": "inglés",
+      "creado": "2025-06-28"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -15289,6 +15322,17 @@
       "fichero": "pclinuxos-221-en-202506.pdf",
       "idioma": "inglés",
       "creado": "2025-06-06"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 222,
+      "año": 2025,
+      "mes": 7,
+      "portada": "pclinuxos-222-en-202507.jpg",
+      "fichero": "pclinuxos-222-en-202507.pdf",
+      "idioma": "inglés",
+      "creado": "2025-07-12"
     },
     {
       "serie": "The R Journal",
