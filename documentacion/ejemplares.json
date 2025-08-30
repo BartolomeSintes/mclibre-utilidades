@@ -782,6 +782,17 @@
       "creado": "2024-08-10"
     },
     {
+      "serie": "Bits de Ciencia",
+      "nombre": "Bits de Ciencia",
+      "número": 27,
+      "año": 2025,
+      "mes": "S1",
+      "portada": "bits-de-ciencia-27-es-2025s1.jpg",
+      "fichero": "bits-de-ciencia-27-es-2025s1.pdf",
+      "idioma": "español",
+      "creado": "2025-08-29"
+    },
+    {
       "serie": "Custom PC",
       "nombre": "Custom PC",
       "número": 214,
@@ -4509,6 +4520,28 @@
       "fichero": "full-circle-218-en-202506.pdf",
       "idioma": "inglés",
       "creado": "2025-06-28"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 219,
+      "año": 2025,
+      "mes": 7,
+      "portada": "full-circle-219-en-202507.jpg",
+      "fichero": "full-circle-219-en-202507.pdf",
+      "idioma": "inglés",
+      "creado": "2025-08-29"
+    },
+    {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 220,
+      "año": 2025,
+      "mes": 8,
+      "portada": "full-circle-220-en-202508.jpg",
+      "fichero": "full-circle-220-en-202508.pdf",
+      "idioma": "inglés",
+      "creado": "2025-08-29"
     },
     {
       "serie": "Full Circle (rec)",
@@ -12508,6 +12541,17 @@
       "creado": "2025-06-28"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 155,
+      "año": 2025,
+      "mes": 7,
+      "portada": "the-magpi-155-en-202507.jpg",
+      "fichero": "the-magpi-155-en-202507.pdf",
+      "idioma": "inglés",
+      "creado": "2025-08-29"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -15335,6 +15379,17 @@
       "creado": "2025-07-12"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 223,
+      "año": 2025,
+      "mes": 8,
+      "portada": "pclinuxos-223-en-202508.jpg",
+      "fichero": "pclinuxos-223-en-202508.pdf",
+      "idioma": "inglés",
+      "creado": "2025-08-29"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -16818,6 +16873,17 @@
       "fichero": "tino-100-es-202505.pdf",
       "idioma": "español",
       "creado": "2025-05-03"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 101,
+      "año": 2025,
+      "mes": 7,
+      "portada": "tino-101-es-202507.jpg",
+      "fichero": "tino-101-es-202507.pdf",
+      "idioma": "español",
+      "creado": "2025-08-29"
     },
     {
       "serie": "Wireframe",
