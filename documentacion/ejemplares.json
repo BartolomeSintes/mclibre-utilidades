@@ -12684,6 +12684,17 @@
       "creado": "2025-08-29"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 156,
+      "año": 2025,
+      "mes": 8,
+      "portada": "the-magpi-156-en-202508.jpg",
+      "fichero": "the-magpi-156-en-202508.pdf",
+      "idioma": "inglés",
+      "creado": "2025-09-06"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -15520,6 +15531,17 @@
       "fichero": "pclinuxos-223-en-202508.pdf",
       "idioma": "inglés",
       "creado": "2025-08-29"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 224,
+      "año": 2025,
+      "mes": 9,
+      "portada": "pclinuxos-224-en-202509.jpg",
+      "fichero": "pclinuxos-224-en-202509.pdf",
+      "idioma": "inglés",
+      "creado": "2025-09-06"
     },
     {
       "serie": "The R Journal",
