@@ -708,7 +708,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2009-09-03",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Currículo SMR (CV)",
             "titulo": "Orden de 29 de julio 2009, de la Conselleria de Educación, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Medio correspondiente al título de Técnico en Sistemas Microinformáticos y Redes.",
             "versiones": [
@@ -724,12 +724,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2009/07/29/(17)/"
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2009/9808"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2009/07/29/(17)/vci"
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2009/9808"
                         },
                         {
                             "formato": "rtf",
@@ -760,7 +760,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2012-07-06",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Currículo ASIR (CV)",
             "titulo": "Orden 36/2012, de 22 de junio, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos en Red.",
             "versiones": [
@@ -776,12 +776,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2012/06/22/36/"
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2012/06/22/36/dof/spa/html"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2012/06/22/36/vci"
+                            "url": "https://dogv.gva.es/va/eli/es-vc/o/2012/06/22/36/dof/vci/html"
                         },
                         {
                             "formato": "rtf",
@@ -812,7 +812,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2012-09-24",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Currículo DAM (CV)",
             "titulo": "Orden 58/2012, de 5 de septiembre, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma.",
             "versiones": [
@@ -828,12 +828,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2012/09/05/58/"
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2012/09/05/58/dof/spa/html"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2012/09/05/58/vci"
+                            "url": "https://dogv.gva.es/va/eli/es-vc/o/2012/09/05/58/dof/vci/html"
                         },
                         {
                             "formato": "rtf",
@@ -864,7 +864,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2012-10-08",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Currículo DAW (CV)",
             "titulo": "Orden 60/2012, de 25 de septiembre, de la Conselleria de Educación, Formación y Empleo por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Web.",
             "versiones": [
@@ -880,12 +880,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2012/09/25/60/"
+                            "url": "https://dogv.gva.es/es/eli/es-vc/o/2012/09/25/60/dof/spa/html"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/o/2012/09/25/60/vci"
+                            "url": "https://dogv.gva.es/va/eli/es-vc/o/2012/09/25/60/dof/vci/html"
                         },
                         {
                             "formato": "rtf",
@@ -2282,7 +2282,7 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "formación profesional",
+                "universidad",
                 "cualificaciones"
             ]
         },
@@ -2318,7 +2318,7 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "formación profesional",
+                "universidad",
                 "cualificaciones"
             ]
         },
@@ -5407,7 +5407,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2010-09-06",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Evaluación en Formación Profesional (CV)",
             "titulo": "Orden 79/2010, de 27 de agosto, de la Conselleria de Educación, por la que se regula la evaluación del alumnado de los ciclos formativos de Formación Profesional del sistema educativo en el ámbito territorial de la Comunitat Valenciana.",
             "versiones": [
@@ -6434,9 +6434,9 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2010-09-08",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Documentos módulo FCT (CV)",
-            "titulo": "RESOLUCIÓN de 1 de septiembre de 2010, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional de la Conselleria de Educación, por la que se publican los documentos y modelos de gestión del módulo profesional de Formación en Centros de Trabajo.",
+            "titulo": "Resolución de 1 de septiembre de 2010, de la Dirección General de Evaluación, Innovación y Calidad Educativa y de la Formación Profesional de la Conselleria de Educación, por la que se publican los documentos y modelos de gestión del módulo profesional de Formación en Centros de Trabajo.",
             "versiones": [
                 {
                     "versión": "original",
@@ -9007,7 +9007,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOCV",
             "fecha": "2014-11-04",
-            "vigencia": "vigente",
+            "vigencia": "derogado",
             "descripción": "Currículos FP Básica Informática y comunicaciones, Informática de oficina (CV)",
             "titulo": "Decreto 185/2014, de 31 de octubre, del Consell, por el que se establecen veinte currículos correspondientes a los ciclos formativos de Formación Profesional Básica en el ámbito de la Comunitat Valenciana.",
             "versiones": [
@@ -9023,12 +9023,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/"
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/con/20170404/spa/html"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/vci"
+                            "url": "https://dogv.gva.es/va/eli/es-vc/d/2014/10/31/185/con/20170404/vci/html"
                         },
                         {
                             "formato": "rtf",
@@ -9054,12 +9054,12 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/con/"
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/con/20170404/spa/html"
                         },
                         {
                             "formato": "web",
                             "idioma": "va",
-                            "url": "http://dogv.gva.es/es/eli/es-vc/d/2014/10/31/185/con/vci"
+                            "url": "https://dogv.gva.es/va/eli/es-vc/d/2014/10/31/185/con/20170404/vci/html"
                         }
                     ]
                 }
@@ -9954,7 +9954,7 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "formación profesional",
+                "universidad",
                 "cualificaciones",
                 "MECES"
             ]
@@ -9991,7 +9991,7 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "formación profesional",
+                "universidad",
                 "cualificaciones",
                 "MECES"
             ]
@@ -10028,7 +10028,7 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "formación profesional",
+                "universidad",
                 "cualificaciones",
                 "MECES"
             ]
@@ -10065,7 +10065,7 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "formación profesional",
+                "universidad",
                 "cualificaciones",
                 "MECES"
             ]
@@ -10102,7 +10102,7 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "formación profesional",
+                "universidad",
                 "cualificaciones",
                 "MECES"
             ]
@@ -28929,7 +28929,7 @@
             ],
             "claves": [
                 "españa",
-                "orden",
+                "real decreto",
                 "borrador",
                 "educación",
                 "currículo",
@@ -34950,9 +34950,9 @@
             ],
             "claves": [
                 "unión europea",
-                "resolución",
+                "comunicación de la comisión",
                 "educación",
-                "aprendizaje adultos"
+                "plan de acción aprendizaje adultos"
             ]
         },
         {
@@ -35125,7 +35125,7 @@
             ],
             "claves": [
                 "unión europea",
-                "comunicación",
+                "comunicación de la comisión",
                 "educación",
                 "plan de acción de educación digital"
             ]
@@ -36971,7 +36971,7 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "2022-09-15",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Propuesta Directiva Ciber Resiliencia (CRA, Cyber Resilience Act)",
             "titulo": "Propuesta de Reglamento del Parlamento europeo y del Consejo relativo a los requisitos horizontales de ciberseguridad para los productos con elementos digitales y por el que se modifica el Reglamento (UE) 2019/102. (COM(2022) 454 final).",
             "versiones": [
@@ -37896,7 +37896,7 @@
                 "españa",
                 "real decreto",
                 "educación",
-                "formación profesional",
+                "universidad",
                 "cualificaciones",
                 "MECES"
             ]
@@ -39939,7 +39939,7 @@
             "ámbito": "Unión Europea",
             "origen": "DOCE",
             "fecha": "2021-04-21",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Propuesta Ley de Inteligencia Artificial (AIA, Artificial Intelligence Act)",
             "titulo": "Propuesta de Reglamento del Parlamento europeo y del Consejo por el que se establecen normas armonizadas en materia de inteligencia artificial (Ley de inteligencia artificial) y se modifican determinados actos legislativos de la unión (COM/2021/206 final).",
             "versiones": [
@@ -40617,9 +40617,9 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-05-23",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones de admisión y matrícula FP 24/25 (CV)",
-            "titulo": "Resolución  de 21 de mayo de 2024, de la Dirección General de Formación Profesional, por la que se dictan las instrucciones respecto al procedimiento de admisión y matrícula en las enseñanzas sostenidas con fondos públicos de Formación Profesional de grado básico, de grado medio y de grado superior, cursos de especialización, programas formativos de cualificación básica y programas dirigidos a personas beneficiarias del Plan de empleo juvenil, para el curso 2024-2025.",
+            "titulo": "Resolución de 21 de mayo de 2024, de la Dirección General de Formación Profesional, por la que se dictan las instrucciones respecto al procedimiento de admisión y matrícula en las enseñanzas sostenidas con fondos públicos de Formación Profesional de grado básico, de grado medio y de grado superior, cursos de especialización, programas formativos de cualificación básica y programas dirigidos a personas beneficiarias del Plan de empleo juvenil, para el curso 2024-2025.",
             "versiones": [
                 {
                     "versión": "original",
@@ -41177,7 +41177,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-06-17",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Calendario escolar 2024/25 (CV)",
             "titulo": "Resolución de 5 de junio de 2024, del director general de Centros Docentes, por la que se fija el calendario escolar del curso académico 2024-2025 en la Comunitat Valenciana.",
             "versiones": [
@@ -41385,7 +41385,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "ANPE",
             "fecha": "2024-05-16",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Borrador Orden Currículos Grado Medio y Grado Superior (CV)",
             "titulo": "Proyecto de Orden de la Conselleria de Educación, Universidades y Empleo, por la que se desarrollan y concretan determinados aspectos de los currículos de los ciclos de grado medio y de grado superior, en aplicación del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
             "versiones": [
@@ -42174,7 +42174,7 @@
             "fecha": "1997-07-31",
             "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso ESO 97/98 (CV)",
-            "titulo": "Resolución  de 21 de julio de 1997 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros que durante el curso 1997-98 impartan enseñanzas de Educación Secundaria Obligatoria.",
+            "titulo": "Resolución de 21 de julio de 1997 de la Secretaría General y de las direcciones generales de Centros Docentes, de Ordenación e Innovación Educativa y Política Lingüística y de Personal por la que se dictan instrucciones en materia de ordenación académica y de organización de la actividad docente a los centros que durante el curso 1997-98 impartan enseñanzas de Educación Secundaria Obligatoria.",
             "versiones": [
                 {
                     "versión": "original",
@@ -42760,9 +42760,9 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-08-14",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso FP 24/25 (CV)",
-            "titulo": "RESOLUCIÓN de 8 de agosto de 2024, de la Secretaría Autonómica de Educación, por la cual se dictan instrucciones sobre ordenación académica y de organización de los centros que imparten Formación  Profesional durante el curso 2024-2025 en la Comunitat Valenciana.",
+            "titulo": "Resolución de 8 de agosto de 2024, de la Secretaría Autonómica de Educación, por la cual se dictan instrucciones sobre ordenación académica y de organización de los centros que imparten Formación Profesional durante el curso 2024-2025 en la Comunitat Valenciana.",
             "versiones": [
                 {
                     "versión": "original",
@@ -42807,7 +42807,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-07-26",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 24/25 (CV)",
             "titulo": "Resolución de 22 de julio de 2024, del secretario autonómico de Educación, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2024-2025.",
             "versiones": [
@@ -42855,7 +42855,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-08-13",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Instrucciones inicio de curso programas cualificación básica 24/25 (CV)",
             "titulo": "Resolución de 6 de agosto de 2024, del secretario autonómico de Educación, por la cual se dictan instrucciones para la organización y el funcionamiento de los programas formativos de calificación básica en el ámbito de la Comunitat Valenciana para el curso 2024-2025.",
             "versiones": [
@@ -43195,7 +43195,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "ANPE",
             "fecha": "2025-02-20",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Borrador Anexo Decreto Currículos nuevos módulos optativos Grado Medio y Grado Superior (CV)",
             "titulo": "Proyecto de Anexo del Decreto del Consell, por el que se establecen los currículos de los ciclos formativos de grado medio y de grado superior de Formación Profesional, en aplicación de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
             "versiones": [
@@ -43218,7 +43218,7 @@
             ],
             "claves": [
                 "comunidad valenciana",
-                "orden",
+                "decreto",
                 "borrador",
                 "educación",
                 "currículo",
@@ -43234,7 +43234,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "ANPE",
             "fecha": "2025-02-20",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Borrador Decreto Currículos nuevos módulos Grado Medio y Grado Superior (CV)",
             "titulo": "Proyecto de Decreto del Consell, por el que se establecen los currículos de los ciclos formativos de grado medio y de grado superior de Formación Profesional, en aplicación de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
             "versiones": [
@@ -43257,7 +43257,7 @@
             ],
             "claves": [
                 "comunidad valenciana",
-                "orden",
+                "decreto",
                 "borrador",
                 "educación",
                 "currículo",
@@ -43755,7 +43755,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "ANPE",
             "fecha": "2025-04-26",
-            "vigencia": "borrador",
+            "vigencia": "vencido",
             "descripción": "Borrador Decreto Currículos nuevos módulos Grado Básico (CV)",
             "titulo": "Proyecto de Decreto del Consell, por el que establecen los currículos de los ciclos formativos de Grado Básico de Formación Profesional, en aplicación de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
             "versiones": [
@@ -43778,7 +43778,7 @@
             ],
             "claves": [
                 "comunidad valenciana",
-                "orden",
+                "decreto",
                 "borrador",
                 "educación",
                 "currículo",
@@ -45092,6 +45092,552 @@
                 "unión europea",
                 "comunicación de la comisión",
                 "unión de las competencias"
+            ]
+        },
+        {
+            "id": "celex-2024-1689-reg",
+            "incluido": "2025-06-20",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2024-07-12",
+            "vigencia": "vigente",
+            "descripción": "Ley de Inteligencia Artificial (AIA, Artificial Intelligence Act)",
+            "titulo": "Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial y por el que se modifican los Reglamentos (CE) n.° 300/2008, (UE) n.° 167/2013, (UE) n.° 168/2013, (UE) 2018/858, (UE) 2018/1139 y (UE) 2019/2144 y las Directivas 2014/90/UE, (UE) 2016/797 y (UE) 2020/1828 (Reglamento de Inteligencia Artificial).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-07-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2024-1689-REG-ley-inteligencia-artificial.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "inteligencia artificial"
+            ]
+        },
+        {
+            "id": "celex-2022-09-15-prop",
+            "incluido": "2023-03-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2022-09-15",
+            "vigencia": "borrador",
+            "descripción": "Propuesta Directiva Ciber Resiliencia (CRA, Cyber Resilience Act)",
+            "titulo": "Propuesta de Reglamento del Parlamento europeo y del Consejo relativo a los requisitos horizontales de ciberseguridad para los productos con elementos digitales y por el que se modifica el Reglamento (UE) 2019/102. (COM(2022) 454 final).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-09-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2022-454-COM-1-PRO-cybersecurity-resilience-act.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A52022PC0454"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "reglamento",
+                "ciberseguridad",
+                "propuesta"
+            ]
+        },
+        {
+            "id": "celex-2024-7404-con",
+            "incluido": "2025-06-28",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2024-12-10",
+            "vigencia": "vigente",
+            "descripción": "Brindar oportunidades a jóvenes en zonas rurales y remotas",
+            "titulo": "Conclusiones del Consejo. Brindar oportunidades glocales a las personas jóvenes que viven en zonas rurales y remotas (C/2024/7404).",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2024-7404-CON-oportunidades-jovenes-zonas-rurales-remotas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://data.europa.eu/eli/C/2024/7404/oj"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "conclusiones del consejo",
+                "asociaciones estratégicas"
+            ]
+        },
+        {
+            "id": "boe-2022-272-rd",
+            "incluido": "2025-06-29",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2022-05-08",
+            "vigencia": "vigente",
+            "descripción": "Marco Español de Cualificaciones para el Aprendizaje Permanente (MECU)",
+            "titulo": "Real Decreto 272/2022, de 12 de abril, por el que se establece el Marco Español de Cualificaciones para el Aprendizaje Permanente.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-05-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2022-272-mecu.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2022/04/12/272"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "secundaria",
+                "formación profesional",
+                "cualificaciones",
+                "MECU"
+            ]
+        },
+        {
+            "id": "boe-2025-532-rd",
+            "incluido": "2025-06-30",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2025-06-28",
+            "vigencia": "vigente",
+            "descripción": "Real Decreto Estándares de Competencia Profesionales",
+            "titulo": "Real Decreto 532/2025, de 24 de junio, por el que se incluyen determinados estándares de competencias profesionales y se integran los estándares de competencias profesionales derivados de las antiguas unidades de competencia establecidas al amparo del Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales, en el Catálogo Nacional de Estándares de Competencias Profesionales.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-06-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2025-532-RD-estandares-competencias-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2025/06/24/532"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "orden",
+                "borrador",
+                "educación",
+                "estándares de competencias profesionales",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "celex-2025-88-com",
+            "incluido": "2025-07-06",
+            "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2025-03-05",
+            "vigencia": "vigente",
+            "descripción": "Plan de acción  para las Competencias Básicas",
+            "titulo": "Comunicación de la Comisión al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones sobre el Plan de Acción para las Competencias Básicas. (COM/2025/88 final).",
+            "versiones": [
+                {
+                    "versión": "original",
+            "fecha": "2025-03-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2025-88-COM-plan-accion-competencias-basicas.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52025DC0088"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "unión europea",
+                "comunicación de la comisión",
+                "educación",
+                "plan de acción competencias básicas"
+            ]
+        },
+        {
+            "id": "dogv-2025-05-23-res",
+            "incluido": "2025-09-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-05-30",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones de admisión y matrícula FP 25/26 (CV)",
+            "titulo": "Resolución de 23 de mayo de 2025, de la Dirección General de Formación Profesional, por la que se dictan instrucciones respecto al procedimiento de admisión y matrícula en las enseñanzas sostenidas con fondos públicos de Formación Profesional de grado básico, medio y superior, cursos de especialización, programas formativos de cualificación básica y programas dirigidos a personas beneficiarias del Plan de empleo juvenil, para el curso 2025-2026.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-05-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-05-23-R-admision-fp-2526-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-05-23-R-admision-fp-2526-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/19301"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/19301"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "fp",
+                "admisión",
+                "curso 2025/26"
+            ]
+        },
+        {
+            "id": "dogv-2025-05-28-res",
+            "incluido": "2025-09-06",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-06-03",
+            "vigencia": "vigente",
+            "descripción": "Calendario escolar 2025/26 (CV)",
+            "titulo": "Resolución de 28 de mayo de 2025, de la Dirección General de Centros Docentes, por la que se fija el calendario escolar del curso académico 2025-2026 en la Comunitat Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+            "fecha": "2025-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-05-28-R-calendario-escolar-2526-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-05-28-R-calendario-escolar-2526-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/19821"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/19821"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "formación profesional",
+                "calendario escolar",
+                "curso 2025/26"
+            ]
+        },
+        {
+            "id": "dogv-2025-07-07-res",
+            "incluido": "2025-09-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-07-10",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso Secundaria y Bachillerato 25/26 (CV)",
+            "titulo": "Resolución de 7 de julio de 2025, de la Secretaría Autonómica de Educación, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2025-2026.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2024-07-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-07-07-R-inicio-curso-secundaria-2526-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-07-07-R-inicio-curso-secundaria-2526-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/26525"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/26525"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "secundaria",
+                "bachillerato",
+                "inicio de curso",
+                "curso 2025/26"
+            ]
+        },
+        {
+            "id": "dogv-2025-07-17-res-1",
+            "incluido": "2025-09-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-07-21",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso programas cualificación básica 25/26 (CV)",
+            "titulo": "Resolución de 17 de julio de 2025, de la Secretaria Autonómica de Educación, por la que se dictan instrucciones para la organización y el funcionamiento de los programas formativos de cualificación básica en el ámbito de la Comunitat Valenciana para el curso 2025-2026. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-07-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-07-17-R-inicio-curso-fp-basica-2526-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-07-17-R-inicio-curso-fp-basica-2526-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/28601"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/28601"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "programas cualificación básica",
+                "curso 2025/26"
+            ]
+        },
+        {
+            "id": "dogv-2025-07-17-2-res",
+            "incluido": "2025-09-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-07-21",
+            "vigencia": "vigente",
+            "descripción": "Instrucciones inicio de curso FP 25/26 (CV)",
+            "titulo": "Resolución de 17 de julio de 2025, de la Secretaría Autonómica de Educación, por la que se dictan instrucciones sobre ordenación académica y de organización de los centros que impartan los grados D y E de Formación Profesional durante el curso 2025-2026 en la Comunidad Valenciana.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-07-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-07-17-R-inicio-curso-fp-2526-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-07-17-R-inicio-curso-fp-2526-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/28562"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/28562"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "inicio de curso",
+                "curso 2025/25"
+            ]
+        },
+        {
+            "id": "dogv-2025-117-d",
+            "incluido": "2025-09-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-08-13",
+            "vigencia": "vigente",
+            "descripción": "Decreto Currículos Grado Básico FP (CV)",
+            "titulo": "Decreto 117/2025, de 5 de agosto, del Consell, por el que establecen los currículos de los ciclos formativos de Grado Básico de Formación Profesional, en aplicación de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-08-13",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-117-D-curriculos-fp-basica-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-117-D-curriculos-fp-basica-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2025/08/05/117/dof/spa/html"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/eli/es-vc/d/2025/08/05/117/dof/vci/html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "currículo",
+                "fp básica",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2025-114-d",
+            "incluido": "2025-09-07",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-08-04",
+            "vigencia": "vigente",
+            "descripción": "Decreto Currículos Grado Medio y Grado Superior (SMR, ASIR, DAM, DAW) (CV)",
+            "titulo": "Decreto 114/2025, de 29 de julio, del Consell, por el que se establecen los currículos de los ciclos formativos de grado medio y de grado superior de Formación Profesional, en aplicación de la Ley orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-08-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-114-D-curriculos-fp-gm-gs-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-114-D-curriculos-fp-gm-gs-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/eli/es-vc/d/2025/07/29/114/dof/spa/html"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/eli/es-vc/d/2025/07/29/114/dof/vci/html"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "decreto",
+                "educación",
+                "currículo",
+                "grado medio",
+                "grado superior",
+                "formación profesional"
             ]
         }
     ]

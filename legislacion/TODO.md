@@ -237,3 +237,7 @@ https://eur-lex.europa.eu/search.html?DTA=2017&SUBDOM_INIT=ALL_ALL&DTS_SUBDOM=AL
 
 -   Los ELI del DOGV ya no van. Mirar en https://dogv.gva.es/es/eli para ver si hay una manera de reconvertirlos a los que hay ahora y redirigir los eli a enlaces no eli.
 
+## MENOS URGENTE
+
+-   Los ROF de la Conselleria llevan asociados una orden que detalla a qué se dedica cada dirección general. Añadirlos.
+
