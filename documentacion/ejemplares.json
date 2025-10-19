@@ -6392,6 +6392,17 @@
       "creado": "2025-07-12"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 28,
+      "año": 2025,
+      "mes": 10,
+      "portada": "hello-world-28-en-202510.jpg",
+      "fichero": "hello-world-28-en-202510.pdf",
+      "idioma": "inglés",
+      "creado": "2025-10-19"
+    },
+    {
       "serie": "Hello World Books",
       "nombre": "The Big Book of Comupting Pedagogy",
       "número": 1,
@@ -12715,6 +12726,17 @@
       "fichero": "the-magpi-157-en-202509.pdf",
       "idioma": "inglés",
       "creado": "2025-09-19"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 158,
+      "año": 2025,
+      "mes": 10,
+      "portada": "the-magpi-158-en-202510.jpg",
+      "fichero": "the-magpi-158-en-202510.pdf",
+      "idioma": "inglés",
+      "creado": "2025-10-19"
     },
     {
       "serie": "The MagPi Books",
