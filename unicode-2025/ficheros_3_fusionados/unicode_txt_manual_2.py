@@ -4,304 +4,344 @@ manual_2 = [
     ['No disponible en Windows 10']
   ],
   [
-    ['2B97'],
+    ['20C1'],
     ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['23FB'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['23FC'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['23FD'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['23FE'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['23FF'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['2B96'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['2B97'],
+    ['No disponible en Windows 10']
   ],
   [
     ['2BBA'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BBB'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BBC'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BC9'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BD2'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BD3'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BD4'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BD5'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BD6'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BD7'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BD8'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BD9'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BDA'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BDB'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BDC'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BDD'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BDE'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BDF'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE0'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE1'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE2'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE3'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE4'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE5'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE6'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE7'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE8'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BE9'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BEA'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BEB'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF0'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF1'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF2'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF3'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF4'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF5'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF6'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF7'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF8'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BF9'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BFA'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BFB'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BFC'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BFD'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BFE'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['2BFF'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1D1E9'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1D1EA'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F10D'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F10E'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F10F'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F12F'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F16A'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F16B'],
+    ['No disponible en Windows 10']
   ],
   [
     ['1F16C'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F16D'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F16E'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F16F'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F19B'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F19C'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F19D'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F19E'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F19F'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A0'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A1'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A2'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A3'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A4'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A5'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A6'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A7'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A8'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1A9'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1AA'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1AB'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1AC'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F1AD'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F23B'],
@@ -332,80 +372,128 @@ manual_2 = [
     ['No disponible en Windows 10']
   ],
   [
-    ['1F786'],
+    ['1F774'],
     ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F775'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F776'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F777'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F778'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F779'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F77A'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F77B'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F77C'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F77D'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F77E'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F77F'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F786'],
+    ['No disponible en Windows 10']
   ],
   [
     ['1F788'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F78A'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F78B'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F78E'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F78F'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F790'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F799'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F79F'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7C1'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7C5'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7CB'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7CF'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7D1'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7D3'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7D5'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7D6'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7D7'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7D8'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F7D9'],
@@ -425,11 +513,11 @@ manual_2 = [
   ],
   [
     ['1F8B0'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F8B1'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
+    ['No disponible en Windows 10']
   ],
   [
     ['1F8B2'],
@@ -477,6 +565,42 @@ manual_2 = [
   ],
   [
     ['1F8C1'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D0'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D1'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D2'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D3'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D4'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D5'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D6'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D7'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F8D8'],
     ['No disponible en Windows 10', 'No disponible en Windows 11']
   ],
   [
@@ -529,38 +653,6 @@ manual_2 = [
   ],
   [
     ['1F946'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
-  ],
-  [
-    ['1F774'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
-  ],
-  [
-    ['1F775'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
-  ],
-  [
-    ['1F776'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
-  ],
-  [
-    ['1F77B'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
-  ],
-  [
-    ['1F77C'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
-  ],
-  [
-    ['1F77D'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
-  ],
-  [
-    ['1F77E'],
-    ['No disponible en Windows 10', 'No disponible en Windows 11']
-  ],
-  [
-    ['1F77F'],
     ['No disponible en Windows 10', 'No disponible en Windows 11']
   ],
   [
@@ -1680,6 +1772,10 @@ manual_2 = [
     ['No disponible en Windows 10']
   ],
   [
+    ['1F6D8'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
     ['1F6DC'],
     ['No disponible en Windows 10']
   ],
@@ -1801,6 +1897,14 @@ manual_2 = [
   ],
   [
     ['1FA89'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1FA8A'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1FA8E'],
     ['No disponible en Windows 10', 'No disponible en Windows 11']
   ],
   [
@@ -2004,6 +2108,14 @@ manual_2 = [
     ['No disponible en Windows 10', 'No disponible en Windows 11']
   ],
   [
+    ['1FAC8'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1FACD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
     ['1FACE'],
     ['No disponible en Windows 10']
   ],
@@ -2105,6 +2217,14 @@ manual_2 = [
   ],
   [
     ['1FAE9'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1FAEA'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1FAEF'],
     ['No disponible en Windows 10', 'No disponible en Windows 11']
   ],
   [
@@ -3328,6 +3448,14 @@ manual_2 = [
     ['No disponible en Windows 10']
   ],
   [
+    ['1F9D1', '200D', '1F9D2'],
+    ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '200D', '1FA70'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
     ['1F9D1', '200D', '2695'],
     ['No disponible en Windows 10']
   ],
@@ -4256,6 +4384,26 @@ manual_2 = [
     ['No disponible en Windows 10']
   ],
   [
+    ['1F9D1', '1F3FB', '200D', '1FA70'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1FA70'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1FA70'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1FA70'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1FA70'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
     ['1F9D1', '1F3FB', '200D', '2695'],
     ['No disponible en Windows 10']
   ],
@@ -5024,6 +5172,326 @@ manual_2 = [
     ['No disponible en Windows 10']
   ],
   [
+    ['1F468', '1F3FB', '200D', '1F430', '200D', '1F468', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FB', '200D', '1F430', '200D', '1F468', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FB', '200D', '1F430', '200D', '1F468', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FB', '200D', '1F430', '200D', '1F468', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FB', '200D', '1FAEF', '200D', '1F468', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FB', '200D', '1FAEF', '200D', '1F468', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FB', '200D', '1FAEF', '200D', '1F468', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FB', '200D', '1FAEF', '200D', '1F468', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FC', '200D', '1F430', '200D', '1F468', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FC', '200D', '1F430', '200D', '1F468', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FC', '200D', '1F430', '200D', '1F468', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FC', '200D', '1F430', '200D', '1F468', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FC', '200D', '1FAEF', '200D', '1F468', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FC', '200D', '1FAEF', '200D', '1F468', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FC', '200D', '1FAEF', '200D', '1F468', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FC', '200D', '1FAEF', '200D', '1F468', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FD', '200D', '1F430', '200D', '1F468', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FD', '200D', '1F430', '200D', '1F468', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FD', '200D', '1F430', '200D', '1F468', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FD', '200D', '1F430', '200D', '1F468', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FD', '200D', '1FAEF', '200D', '1F468', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FD', '200D', '1FAEF', '200D', '1F468', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FD', '200D', '1FAEF', '200D', '1F468', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FD', '200D', '1FAEF', '200D', '1F468', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FE', '200D', '1F430', '200D', '1F468', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FE', '200D', '1F430', '200D', '1F468', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FE', '200D', '1F430', '200D', '1F468', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FE', '200D', '1F430', '200D', '1F468', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FE', '200D', '1FAEF', '200D', '1F468', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FE', '200D', '1FAEF', '200D', '1F468', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FE', '200D', '1FAEF', '200D', '1F468', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FE', '200D', '1FAEF', '200D', '1F468', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FF', '200D', '1F430', '200D', '1F468', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FF', '200D', '1F430', '200D', '1F468', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FF', '200D', '1F430', '200D', '1F468', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FF', '200D', '1F430', '200D', '1F468', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FF', '200D', '1FAEF', '200D', '1F468', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FF', '200D', '1FAEF', '200D', '1F468', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FF', '200D', '1FAEF', '200D', '1F468', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F468', '1F3FF', '200D', '1FAEF', '200D', '1F468', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FB', '200D', '1F430', '200D', '1F469', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FB', '200D', '1F430', '200D', '1F469', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FB', '200D', '1F430', '200D', '1F469', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FB', '200D', '1F430', '200D', '1F469', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FB', '200D', '1FAEF', '200D', '1F469', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FB', '200D', '1FAEF', '200D', '1F469', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FB', '200D', '1FAEF', '200D', '1F469', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FB', '200D', '1FAEF', '200D', '1F469', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FC', '200D', '1F430', '200D', '1F469', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FC', '200D', '1F430', '200D', '1F469', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FC', '200D', '1F430', '200D', '1F469', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FC', '200D', '1F430', '200D', '1F469', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FC', '200D', '1FAEF', '200D', '1F469', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FC', '200D', '1FAEF', '200D', '1F469', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FC', '200D', '1FAEF', '200D', '1F469', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FC', '200D', '1FAEF', '200D', '1F469', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FD', '200D', '1F430', '200D', '1F469', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FD', '200D', '1F430', '200D', '1F469', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FD', '200D', '1F430', '200D', '1F469', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FD', '200D', '1F430', '200D', '1F469', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FD', '200D', '1FAEF', '200D', '1F469', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FD', '200D', '1FAEF', '200D', '1F469', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FD', '200D', '1FAEF', '200D', '1F469', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FD', '200D', '1FAEF', '200D', '1F469', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FE', '200D', '1F430', '200D', '1F469', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FE', '200D', '1F430', '200D', '1F469', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FE', '200D', '1F430', '200D', '1F469', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FE', '200D', '1F430', '200D', '1F469', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FE', '200D', '1FAEF', '200D', '1F469', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FE', '200D', '1FAEF', '200D', '1F469', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FE', '200D', '1FAEF', '200D', '1F469', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FE', '200D', '1FAEF', '200D', '1F469', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FF', '200D', '1F430', '200D', '1F469', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FF', '200D', '1F430', '200D', '1F469', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FF', '200D', '1F430', '200D', '1F469', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FF', '200D', '1F430', '200D', '1F469', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FF', '200D', '1FAEF', '200D', '1F469', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FF', '200D', '1FAEF', '200D', '1F469', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FF', '200D', '1FAEF', '200D', '1F469', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F469', '1F3FF', '200D', '1FAEF', '200D', '1F469', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
     ['1F62E', '200D', '1F4A8'],
     ['No disponible en Windows 10']
   ],
@@ -5054,6 +5522,166 @@ manual_2 = [
   [
     ['2764', 'FE0F', '200D', '1FA79'],
     ['No disponible en Windows 10']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '1F430', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '1F430', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '1F430', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '1F430', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '1FAEF', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '1FAEF', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '1FAEF', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FB', '200D', '1FAEF', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1F430', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1F430', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1F430', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1F430', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1FAEF', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1FAEF', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1FAEF', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FC', '200D', '1FAEF', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1F430', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1F430', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1F430', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1F430', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1FAEF', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1FAEF', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1FAEF', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FD', '200D', '1FAEF', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1F430', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1F430', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1F430', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1F430', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1FAEF', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1FAEF', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1FAEF', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FE', '200D', '1FAEF', '200D', '1F9D1', '1F3FF'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1F430', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1F430', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1F430', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1F430', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1FAEF', '200D', '1F9D1', '1F3FB'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1FAEF', '200D', '1F9D1', '1F3FC'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1FAEF', '200D', '1F9D1', '1F3FD'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
+  ],
+  [
+    ['1F9D1', '1F3FF', '200D', '1FAEF', '200D', '1F9D1', '1F3FE'],
+    ['No disponible en Windows 10', 'No disponible en Windows 11']
   ],
   [
     ['1F344', '200D', '1F7EB'],
@@ -6254,5 +6882,205 @@ manual_2 = [
   [
     ['1F9D1', '200D', '1F9D2', '200D', '1F9D2'],
     ['No disponible en Windows 10']
+  ],
+  [
+    ['1F46F', '1F3FB'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FC'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FD'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FE'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FF'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FB'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FC'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FD'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FE'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FF'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FB', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FC', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FD', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FE', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FF', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FB', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FC', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FD', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FE', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FF', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FB', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FC', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FD', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FE', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FF', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FB', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FC', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FD', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FE', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F46F', '1F3FF', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FB', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FC', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FD', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FE', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FF', '200D', '2640'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FB', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FC', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FD', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FE', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FF', '200D', '2642'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FB', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FC', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FD', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FE', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FF', '200D', '2640', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FB', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FC', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FD', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FE', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
+  ],
+  [
+    ['1F93C', '1F3FF', '200D', '2642', 'FE0F'],
+    ['No disponible en Windows 11']
   ],
 ]

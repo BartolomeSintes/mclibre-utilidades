@@ -2,6 +2,8 @@
 
 ## Cosas pendientes
 
+-   Tendría que tener una página de todos los símbolos que no tengo incluidos en la página de símbolos para que si se ven en Windows 11 o en Linux, incluirlos.
+
 -   Renombrar los programas para que esté más claro el orden de ejecución. Tendría que hacer que estuvieran todos accesibles desde index.py.
 
 -   El año pasado pensé que en vez de ordenar géneros y colores por longitud, podría organizarlos por combinación (poniendo primero las combinaciones sin selectores de presentación y luego los que sí), pero no termino de tener claro que valga la pena.
@@ -120,6 +122,7 @@
         -   Si hay grupos completos que no se ven, los quito de seleccion_simbolos_manual.py
         -   Si hay caracteres que son espacios o dibujos sin ningún interés, los quito de seleccion_simbolos_manual.py
         -   Miro las páginas en W10 y W11 y añado en util.py los códigos para que ponga los letreros "No disponible en Windows 10" o "No disponible en Windows 11". Parece que los de Unicode 15.1 ya se ven todos.
+        -   Ejecuto util.py.
         -   Repito hasta que veo que está bien.
 
 ## Restos Procedimiento 2023
