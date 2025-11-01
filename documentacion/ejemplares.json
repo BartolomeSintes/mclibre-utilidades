@@ -4555,6 +4555,17 @@
       "creado": "2025-09-27"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 222,
+      "año": 2025,
+      "mes": 10,
+      "portada": "full-circle-222-en-202510.jpg",
+      "fichero": "full-circle-222-en-202510.pdf",
+      "idioma": "inglés",
+      "creado": "2025-11-01"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -17093,6 +17104,17 @@
       "fichero": "tino-101-es-202507.pdf",
       "idioma": "español",
       "creado": "2025-08-29"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 102,
+      "año": 2025,
+      "mes": 9,
+      "portada": "tino-102-es-202509.jpg",
+      "fichero": "tino-102-es-202509.pdf",
+      "idioma": "español",
+      "creado": "2025-11-01"
     },
     {
       "serie": "Wireframe",
