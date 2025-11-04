@@ -5,6 +5,7 @@
 import os
 import pathlib
 import sys
+
 import ucdef
 from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp
 
@@ -283,11 +284,11 @@ def grupos_paginas(elemento):
         # BANDERA REGION
         if elemento[0][0] == "1F3F4":
             grupos += ["gr-banderas-regiones"]
-        # M/W ZWJ NIÑO/NIÑA ZWJ HOMBRE/MUJER ZWJ NIÑO/NIÑA
+        # M/W ZWJ M/W ZWJ NIÑO/NIÑA ZWJ NIÑO/NIÑA
         if (
             elemento[0][0] in ["1F468", "1F469"]
             and elemento[0][1] == "200D"
-            and elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][2] in ["1F468", "1F469"]
             and elemento[0][3] == "200D"
             and elemento[0][4] in ["1F466", "1F467"]
             and elemento[0][5] == "200D"
@@ -349,6 +350,28 @@ def grupos_paginas(elemento):
             and elemento[0][6] in ["1F468", "1F469"]
         ):
             grupos += ["gr-parejas-beso-1"]
+        # M/W FZ ZWJ LOQUESEA ZWJ M/W FZ
+        if (
+            elemento[0][0] in ["1F468", "1F469"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
+            and elemento[0][2] == "200D"
+            and elemento[0][3] in ["1F430", "1FAEF"]
+            and elemento[0][4] == "200D"
+            and elemento[0][5] in ["1F468", "1F469"]
+            and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
+        ):
+            grupos += ["gr-parejas-actividades-piel-1"]
+        # Adulto FZ ZWJ LOQUESEA ZWJ Adulto FZ
+        if (
+            elemento[0][0] in ["1F9D1"]
+            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
+            and elemento[0][2] == "200D"
+            and elemento[0][3] in ["1F430", "1FAEF"]
+            and elemento[0][4] == "200D"
+            and elemento[0][5] in ["1F9D1"]
+            and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
+        ):
+            grupos += ["gr-parejas-actividades-piel-2"]
     elif len(elemento[0]) == 8:
         # HOMBRE/MUJER ZWJ CORAZÓN VS16 ZWJ BESO ZWJ HOMBRE/MUJER
         if (

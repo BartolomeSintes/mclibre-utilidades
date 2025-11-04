@@ -125,6 +125,10 @@
         -   Ejecuto util.py.
         -   Repito hasta que veo que está bien.
 
+## Restos Procedimiento 2025
+
+-   He añadido los grupos de colores actividades (wrestling y with bunny ears) a uc_94 y uc_93. El problema es que seguían saliendo los símbolos en el apartado Otras secuencias. Hasta que no los he añadido a uc_92 no han dejado de salir.
+
 ## Restos Procedimiento 2023
 
 - Voy borrando los puntos de este apartado a medida que los voy pasando al apartado del 2024

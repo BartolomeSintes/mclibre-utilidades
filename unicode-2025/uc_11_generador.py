@@ -1,19 +1,20 @@
 import copy
+import datetime
 import pathlib
-from math import floor
-from string import Template
 import shutil
 import sys
-import datetime
 import webbrowser
+from math import floor
+from string import Template
+
 import ucdef
 from ficheros_2_importados import unicode_txt_derived_name as imp
-from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp2
-from ficheros_3_fusionados import unicode_txt_manual_1_twemoji_original as imp3
 from ficheros_3_fusionados import seleccion_simbolos_manual as imp4
-from ficheros_3_fusionados import unicode_txt_manual_2 as imp5
+from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp2
 from ficheros_3_fusionados import unicode_txt_manual_1_noto as imp6
 from ficheros_3_fusionados import unicode_txt_manual_1_twemoji_jdecked as imp7
+from ficheros_3_fusionados import unicode_txt_manual_1_twemoji_original as imp3
+from ficheros_3_fusionados import unicode_txt_manual_2 as imp5
 
 ORIGEN = pathlib.Path("sitio-plantilla")
 DESTINO = pathlib.Path("sitio")
@@ -760,6 +761,7 @@ def genera_pagina_twemoji_jdecked(pagina):
         + ucdef.uc_grupos_generos
         + ucdef.uc_grupos_fitzpatrick
         + ucdef.uc_grupos_parejas
+        + ucdef.uc_grupos_sentido
     )
     for grupo in grupos:
         caracteres = []
