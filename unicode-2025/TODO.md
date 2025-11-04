@@ -105,3 +105,7 @@ Es cosa de Windows porque salen en Chrome.
 # 2022-04-07
 - Así como en los apartados de caracteres el párrafo inicial incluye el número de caracteres, en los apartados de secuencias no aparece el número. No tengo claro por qué.
 
+- [2025-11-04] Al hacer uc_94_grupos_manual.py dice que hay dibujos que no corresponden a secuencias. ¿Será que me faltan secuencias? No lo sé, porque de los que lista algunos sí que sale en la página y otros no.
+
+
+

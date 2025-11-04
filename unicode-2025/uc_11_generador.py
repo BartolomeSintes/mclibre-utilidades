@@ -163,7 +163,7 @@ def genera_pagina_twemoji(pagina):
         for i in range(len(identificados) - 1, -1, -1):
             if (
                 grupo[1] in identificados[i][1]
-            ):  # Hago in porque algunos caracteres están en vario gr
+            ):  # Hago in porque algunos caracteres están en varios gr
                 caracteres += [identificados[i]]
                 for j in range(len(identificados[i][1]) - 1, -1, -1):
                     if identificados[i][1][j] == grupo[1]:
@@ -186,7 +186,7 @@ def genera_pagina_twemoji(pagina):
             t += '    <div class="u-l">\n'
             for c in caracteres:
                 if len(c[0]) > 1:
-                    print(f"  CUIDADO: HAY UN CARACTER CON mÄS DE UN CARÁCTER: {c[0]}")
+                    print(f"  CUIDADO: HAY UN CARACTER CON MÁS DE UN CARÁCTER: {c[0]}")
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
                 vers = indica_version(c[0])
@@ -248,7 +248,7 @@ def genera_pagina_twemoji(pagina):
         for i in range(len(identificados) - 1, -1, -1):
             if (
                 grupo[0] in identificados[i][1]
-            ):  # Hago in porque algunos caracteres están en vario gr
+            ):  # Hago in porque algunos caracteres están en varios gr
                 caracteres += [identificados[i]]
                 for j in range(len(identificados[i][1]) - 1, -1, -1):
                     if identificados[i][1][j] == grupo[0]:
@@ -421,7 +421,7 @@ def genera_pagina_noto(pagina):
         for i in range(len(identificados) - 1, -1, -1):
             if (
                 grupo[1] in identificados[i][1]
-            ):  # Hago in porque algunos caracteres están en vario gr
+            ):  # Hago in porque algunos caracteres están en varios gr
                 caracteres += [identificados[i]]
                 for j in range(len(identificados[i][1]) - 1, -1, -1):
                     if identificados[i][1][j] == grupo[1]:
@@ -444,7 +444,7 @@ def genera_pagina_noto(pagina):
             t += '    <div class="u-l">\n'
             for c in caracteres:
                 if len(c[0]) > 1:
-                    print(f"  CUIDADO: HAY UN CARACTER CON mÄS DE UN CARÁCTER: {c[0]}")
+                    print(f"  CUIDADO: HAY UN CARACTER CON MÁS DE UN CARÁCTER: {c[0]}")
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
                 vers = indica_version(c[0])
@@ -479,13 +479,13 @@ def genera_pagina_noto(pagina):
                 tmp = busca(c[0][0], imp.derived_name, 0)
                 # print(tmp, c[0], imp.derived_name[tmp])
                 t += f'        <p class="no">{imp.derived_name[tmp][1]}</p>\n'
-                hay_coment = busca([c[0]][0], imp5.manual_2, 0)
-                if hay_coment != -1:
-                    t += '        <p class="co">\n'
-                    for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                        t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
-                    t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
-                    t += "        </p>\n"
+                # hay_coment = busca([c[0]][0], imp5.manual_2, 0)
+                # if hay_coment != -1:
+                #     t += '        <p class="co">\n'
+                #     for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                #         t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
+                #     t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
+                #     t += "        </p>\n"
                 t += "      </div>\n"
                 t += "\n"
             t += "    </div>\n"
@@ -580,13 +580,13 @@ def genera_pagina_noto(pagina):
                     if i[0] == c[0]:
                         c_nombre = i[2][3]
                 t += f'        <p class="no">{c_nombre}</p>\n'
-                hay_coment = busca(c[0], imp5.manual_2, 0)
-                if hay_coment != -1:
-                    t += '        <p class="co">\n'
-                    for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                        t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
-                    t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
-                    t += "        </p>\n"
+                # hay_coment = busca(c[0], imp5.manual_2, 0)
+                # if hay_coment != -1:
+                #     t += '        <p class="co">\n'
+                #     for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                #         t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
+                #     t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
+                #     t += "        </p>\n"
                 t += "      </div>\n"
                 t += "\n"
             t += "    </div>\n"
@@ -681,7 +681,7 @@ def genera_pagina_twemoji_jdecked(pagina):
         for i in range(len(identificados) - 1, -1, -1):
             if (
                 grupo[1] in identificados[i][1]
-            ):  # Hago in porque algunos caracteres están en vario gr
+            ):  # Hago in porque algunos caracteres están en varios gr
                 caracteres += [identificados[i]]
                 for j in range(len(identificados[i][1]) - 1, -1, -1):
                     if identificados[i][1][j] == grupo[1]:
@@ -704,7 +704,7 @@ def genera_pagina_twemoji_jdecked(pagina):
             t += '    <div class="u-l">\n'
             for c in caracteres:
                 if len(c[0]) > 1:
-                    print(f"  CUIDADO: HAY UN CARACTER CON mÄS DE UN CARÁCTER: {c[0]}")
+                    print(f"  CUIDADO: HAY UN CARACTER CON MÁS DE UN CARÁCTER: {c[0]}")
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
                 vers = indica_version(c[0])
@@ -739,13 +739,13 @@ def genera_pagina_twemoji_jdecked(pagina):
                 tmp = busca(c[0][0], imp.derived_name, 0)
                 # print(tmp, c[0], imp.derived_name[tmp])
                 t += f'        <p class="no">{imp.derived_name[tmp][1]}</p>\n'
-                hay_coment = busca([c[0]][0], imp5.manual_2, 0)
-                if hay_coment != -1:
-                    t += '        <p class="co">\n'
-                    for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                        t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
-                    t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
-                    t += "        </p>\n"
+                # hay_coment = busca([c[0]][0], imp5.manual_2, 0)
+                # if hay_coment != -1:
+                #     t += '        <p class="co">\n'
+                #     for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                #         t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
+                #     t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
+                #     t += "        </p>\n"
                 t += "      </div>\n"
                 t += "\n"
             t += "    </div>\n"
@@ -766,7 +766,7 @@ def genera_pagina_twemoji_jdecked(pagina):
         for i in range(len(identificados) - 1, -1, -1):
             if (
                 grupo[0] in identificados[i][1]
-            ):  # Hago in porque algunos caracteres están en vario gr
+            ):  # Hago in porque algunos caracteres están en varios gr
                 caracteres += [identificados[i]]
                 for j in range(len(identificados[i][1]) - 1, -1, -1):
                     if identificados[i][1][j] == grupo[0]:
@@ -839,13 +839,13 @@ def genera_pagina_twemoji_jdecked(pagina):
                     if i[0] == c[0]:
                         c_nombre = i[2][3]
                 t += f'        <p class="no">{c_nombre}</p>\n'
-                hay_coment = busca(c[0], imp5.manual_2, 0)
-                if hay_coment != -1:
-                    t += '        <p class="co">\n'
-                    for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
-                        t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
-                    t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
-                    t += "        </p>\n"
+                # hay_coment = busca(c[0], imp5.manual_2, 0)
+                # if hay_coment != -1:
+                #     t += '        <p class="co">\n'
+                #     for comentario in range(len(imp5.manual_2[hay_coment][1]) - 1):
+                #         t += f"          {imp5.manual_2[hay_coment][1][comentario]}<br>\n"
+                #     t += f"          {imp5.manual_2[hay_coment][1][-1]}\n"
+                #     t += "        </p>\n"
                 t += "      </div>\n"
                 t += "\n"
             t += "    </div>\n"

@@ -69,10 +69,10 @@ ORDENA_ESPECIAL_3 = 3 # Para ordenar banderas
 DIRECTORIO_TWEMOJI_ORIGINAL = "D:\\Descargas\\TWEMOJI\\twemoji-14-0-2-220331\\assets\\svg"
 
 # Noto
-DIRECTORIO_NOTO = "D:\\Descargas\\GOOGLE NOTO\\noto-emoji-main-2024-10-21\\svg"
+DIRECTORIO_NOTO = "D:\\Descargas\\GOOGLE NOTO\\noto-emoji-main-2025-10-29\\svg"
 
 # Twemoji jdecked
-DIRECTORIO_TWEMOJI_JDECKED = "D:\\Descargas\\TWEMOJI-JDECKED\\twemoji-16.0.1\\assets\\svg"
+DIRECTORIO_TWEMOJI_JDECKED = "D:\\Descargas\\TWEMOJI-JDECKED\\twemoji-17.0.1\\assets\\svg"
 
 # Unicode
 uc_tipos = ["emoji", "emoji_modifier_sequence"]

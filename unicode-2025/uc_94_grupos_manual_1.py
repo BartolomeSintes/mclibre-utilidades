@@ -667,7 +667,7 @@ def exporta_pagina():
 
 def main():
     print()
-    print("92. CREANDO FICHEROS MANUALES A PARTIR FUSIONADOS_2")
+    print("94. CREANDO FICHEROS MANUALES A PARTIR FUSIONADOS_2")
     print()
     crea_manual_1()
     incluye_emojis()
