@@ -190,27 +190,29 @@ def genera_pagina_twemoji(pagina):
                     print(f"  CUIDADO: HAY UN CARACTER CON MÁS DE UN CARÁCTER: {c[0]}")
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
-                vers = indica_version(c[0])
+                t += f"          U+{int(c[0][0], 16):X}<br>\n"
+                vers = indica_version(c[0][0])
                 # print (" emojis ", vers)
                 if float(vers) > 0:
                     if len(str(vers)) > 2:
-                        vers_size = 160
+                        vers_size = 220
                     else:
                         vers_size = 240
                     t += (
                         f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                         + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                        + 'width="30" viewBox="0 0 512 512">\n'
-                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                        + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                        + 'width="75" viewBox="0 0 1180 512">\n'
+                        + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                        + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                        + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                        + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                        + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                         + 'stroke-width="20" stroke="red" />\n'
-                        + '              <text x="250" y="320" font-family="sans-serif" font-size="240" '
-                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                        + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                        + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
-                t += f"          U+{int(c[0][0], 16):X}\n"
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
@@ -275,30 +277,32 @@ def genera_pagina_twemoji(pagina):
             for c in caracteres:
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
+                t += "          "
+                for cn in c[0]:
+                    t += f"U+{int(cn, 16):X} "
+                t += "<br>\n"
                 vers = indica_version(c[0])
                 # print (" secuencias ", vers)
                 if float(vers) > 0:
                     if len(str(vers)) > 2:
-                        vers_size = 160
+                        vers_size = 220
                     else:
                         vers_size = 240
                     t += (
                         f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                         + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                        + 'width="30" viewBox="0 0 512 512">\n'
-                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                        + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                        + 'width="75" viewBox="0 0 1180 512">\n'
+                        + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                        + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                        + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                        + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                        + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                         + 'stroke-width="20" stroke="red" />\n'
-                        + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" '
-                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                        + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                        + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
-                t += "          "
-                for cn in c[0]:
-                    t += f"U+{int(cn, 16):X} "
-                t += "\n"
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[2]}">'
@@ -353,30 +357,32 @@ def genera_pagina_twemoji(pagina):
     for c in imp3.restos_twemoji:
         t += '      <div class="u">\n'
         t += '        <p class="uc">\n'
+        t += "          "
+        for cn in c[0]:
+            t += f"U+{int(cn, 16):X} "
+        t += "<br>\n"
         vers = indica_version(c[0])
         # print (" secuencias ", vers)
         if float(vers) > 0:
             if len(str(vers)) > 2:
-                vers_size = 160
+                vers_size = 220
             else:
                 vers_size = 240
             t += (
                 f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                 + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                + 'width="30" viewBox="0 0 512 512">\n'
-                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                + 'width="75" viewBox="0 0 1180 512">\n'
+                + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                 + 'stroke-width="20" stroke="red" />\n'
-                + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" '
-                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                 + "           </svg>\n"
                 + "          </span>\n"
             )
-        t += "          "
-        for cn in c[0]:
-            t += f"U+{int(cn, 16):X} "
-        t += "\n"
         t += "        </p>\n"
         t += '        <p class="si">\n'
         t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/{c[1]}">'
@@ -448,27 +454,29 @@ def genera_pagina_noto(pagina):
                     print(f"  CUIDADO: HAY UN CARACTER CON MÁS DE UN CARÁCTER: {c[0]}")
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
-                vers = indica_version(c[0])
+                t += f"          U+{int(c[0][0], 16):X}<br>\n"
+                vers = indica_version(c[0][0])
                 # print (" emojis ", vers)
                 if float(vers) > 0:
                     if len(str(vers)) > 2:
-                        vers_size = 160
+                        vers_size = 220
                     else:
                         vers_size = 240
                     t += (
                         f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                         + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                        + 'width="30" viewBox="0 0 512 512">\n'
-                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                        + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                        + 'width="75" viewBox="0 0 1180 512">\n'
+                        + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                        + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                        + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                        + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                        + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                         + 'stroke-width="20" stroke="red" />\n'
-                        + '              <text x="250" y="320" font-family="sans-serif" font-size="240" '
-                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                        + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                        + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
-                t += f"          U+{int(c[0][0], 16):X}\n"
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
@@ -534,30 +542,32 @@ def genera_pagina_noto(pagina):
             for c in caracteres:
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
+                t += "          "
+                for cn in c[0]:
+                    t += f"U+{int(cn, 16):X} "
+                t += "<br>\n"
                 vers = indica_version(c[0])
                 # print (" secuencias ", vers)
                 if float(vers) > 0:
                     if len(str(vers)) > 2:
-                        vers_size = 160
+                        vers_size = 220
                     else:
                         vers_size = 240
                     t += (
                         f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                         + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                        + 'width="30" viewBox="0 0 512 512">\n'
-                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                        + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                        + 'width="75" viewBox="0 0 1180 512">\n'
+                        + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                        + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                        + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                        + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                        + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                         + 'stroke-width="20" stroke="red" />\n'
-                        + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" '
-                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                        + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                        + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
-                t += "          "
-                for cn in c[0]:
-                    t += f"U+{int(cn, 16):X} "
-                t += "\n"
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/{c[2]}">'
@@ -612,30 +622,33 @@ def genera_pagina_noto(pagina):
     for c in imp6.restos_noto:
         t += '      <div class="u">\n'
         t += '        <p class="uc">\n'
+        t += "          "
+        for cn in c[0]:
+            t += f"U+{int(cn, 16):X} "
+        t += "<br>\n"
         vers = indica_version(c[0])
         # print (" secuencias ", vers)
         if float(vers) > 0:
             if len(str(vers)) > 2:
-                vers_size = 160
+                vers_size = 220
             else:
                 vers_size = 240
             t += (
                 f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                 + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                + 'width="30" viewBox="0 0 512 512">\n'
-                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                + 'width="75" viewBox="0 0 1180 512">\n'
+                + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                 + 'stroke-width="20" stroke="red" />\n'
-                + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" '
-                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
+                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                 + "           </svg>\n"
                 + "          </span>\n"
             )
-        t += "          "
-        for cn in c[0]:
-            t += f"U+{int(cn, 16):X} "
-        t += "\n"
         t += "        </p>\n"
         t += '        <p class="si">\n'
         t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/{c[1]}">'
@@ -708,27 +721,29 @@ def genera_pagina_twemoji_jdecked(pagina):
                     print(f"  CUIDADO: HAY UN CARACTER CON MÁS DE UN CARÁCTER: {c[0]}")
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
-                vers = indica_version(c[0])
+                t += f"          U+{int(c[0][0], 16):X}\n<br>"
+                vers = indica_version(c[0][0])
                 # print (" emojis ", vers)
                 if float(vers) > 0:
                     if len(str(vers)) > 2:
-                        vers_size = 160
+                        vers_size = 220
                     else:
                         vers_size = 240
                     t += (
                         f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                         + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                        + 'width="30" viewBox="0 0 512 512">\n'
-                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                        + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                        + 'width="75" viewBox="0 0 1180 512">\n'
+                        + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                        + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                        + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                        + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                        + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                         + 'stroke-width="20" stroke="red" />\n'
-                        + '              <text x="250" y="320" font-family="sans-serif" font-size="240" '
-                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                        + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                        + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
-                t += f"          U+{int(c[0][0], 16):X}\n"
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/jdecked/twemoji/refs/heads/main/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
@@ -794,30 +809,32 @@ def genera_pagina_twemoji_jdecked(pagina):
             for c in caracteres:
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
+                t += "          "
+                for cn in c[0]:
+                    t += f"U+{int(cn, 16):X} "
+                t += "<br>\n"
                 vers = indica_version(c[0])
                 # print (" secuencias ", vers)
                 if float(vers) > 0:
                     if len(str(vers)) > 2:
-                        vers_size = 160
+                        vers_size = 220
                     else:
                         vers_size = 240
                     t += (
                         f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                         + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                        + 'width="30" viewBox="0 0 512 512">\n'
-                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                        + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                        + 'width="75" viewBox="0 0 1180 512">\n'
+                        + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                        + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                        + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                        + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                        + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                         + 'stroke-width="20" stroke="red" />\n'
-                        + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" '
-                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                        + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                        + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
-                t += "          "
-                for cn in c[0]:
-                    t += f"U+{int(cn, 16):X} "
-                t += "\n"
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/jdecked/twemoji/refs/heads/main/assets/svg/{c[2]}">'
@@ -872,30 +889,33 @@ def genera_pagina_twemoji_jdecked(pagina):
     for c in imp7.restos_twemoji:
         t += '      <div class="u">\n'
         t += '        <p class="uc">\n'
+        t += "          "
+        for cn in c[0]:
+            t += f"U+{int(cn, 16):X} "
+        t += "<br>\n"
         vers = indica_version(c[0])
         # print (" secuencias ", vers)
         if float(vers) > 0:
             if len(str(vers)) > 2:
-                vers_size = 160
+                vers_size = 220
             else:
                 vers_size = 240
             t += (
                 f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                 + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                + 'width="30" viewBox="0 0 512 512">\n'
-                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                + 'width="75" viewBox="0 0 1180 512">\n'
+                + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                 + 'stroke-width="20" stroke="red" />\n'
-                + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" '
-                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
+                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                 + "           </svg>\n"
                 + "          </span>\n"
             )
-        t += "          "
-        for cn in c[0]:
-            t += f"U+{int(cn, 16):X} "
-        t += "\n"
         t += "        </p>\n"
         t += '        <p class="si">\n'
         t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/jdecked/twemoji/refs/heads/main/assets/svg/{c[1]}">'
@@ -947,27 +967,29 @@ def genera_pagina_caracteres(pagina):
                     if c[2] == "texto" or c[2] == "texto-emoji":
                         t += '      <div class="u">\n'
                         t += '        <p class="uc">\n'
+                        t += f"          U+{int(c[0], 16):X}<br>\n"
                         vers = indica_version(c[0])
                         # print (" emojis ", vers)
                         if float(vers) > 0:
                             if len(str(vers)) > 2:
-                                vers_size = 160
+                                vers_size = 220
                             else:
                                 vers_size = 240
                             t += (
                                 f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                                 + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                                + 'width="30" viewBox="0 0 512 512">\n'
-                                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                                + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                                + 'width="75" viewBox="0 0 1180 512">\n'
+                                + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                                + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                                + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                                + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                                + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                                 + 'stroke-width="20" stroke="red" />\n'
-                                + '              <text x="250" y="320" font-family="sans-serif" font-size="240" '
-                                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                                + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                                 + "           </svg>\n"
                                 + "          </span>\n"
                             )
-                        t += f"          U+{int(c[0], 16):X}\n"
                         t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
                         t += '        <p class="en">\n'
@@ -989,27 +1011,29 @@ def genera_pagina_caracteres(pagina):
                     elif c[2] == "emoji-texto":
                         t += '      <div class="u">\n'
                         t += '        <p class="uc">\n'
+                        t += f"          U+{int(c[0], 16):X} U+FE0E<br>\n"
                         vers = indica_version(c[0])
                         # print (" emojis ", vers)
                         if float(vers) > 0:
                             if len(str(vers)) > 2:
-                                vers_size = 160
+                                vers_size = 220
                             else:
                                 vers_size = 240
                             t += (
                                 f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                                 + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                                + 'width="30" viewBox="0 0 512 512">\n'
-                                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                                + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                                + 'width="75" viewBox="0 0 1180 512">\n'
+                                + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                                + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                                + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                                + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                                + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                                 + 'stroke-width="20" stroke="red" />\n'
-                                + '              <text x="250" y="320" font-family="sans-serif" font-size="240" '
-                                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                                + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                                 + "           </svg>\n"
                                 + "          </span>\n"
                             )
-                        t += f"          U+{int(c[0], 16):X} U+FE0E\n"
                         t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0e;</p>\n'
                         t += '        <p class="en">\n'
@@ -1056,27 +1080,29 @@ def genera_pagina_caracteres(pagina):
                     if c[2] == "emoji" or c[2] == "emoji-texto":
                         t += '      <div class="u">\n'
                         t += '        <p class="uc">\n'
+                        t += f"          U+{int(c[0], 16):X}<br>\n"
                         vers = indica_version(c[0])
                         # print (" emojis ", vers)
                         if float(vers) > 0:
                             if len(str(vers)) > 2:
-                                vers_size = 160
+                                vers_size = 220
                             else:
                                 vers_size = 240
                             t += (
                                 f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                                 + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                                + 'width="30" viewBox="0 0 512 512">\n'
-                                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                                + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                                + 'width="75" viewBox="0 0 1180 512">\n'
+                                + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                                + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                                + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                                + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                                + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                                 + 'stroke-width="20" stroke="red" />\n'
-                                + '              <text x="250" y="320" font-family="sans-serif" font-size="240" '
-                                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                                + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                                 + "           </svg>\n"
                                 + "          </span>\n"
                             )
-                        t += f"          U+{int(c[0], 16):X}\n"
                         t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};</p>\n'
                         t += '        <p class="en">\n'
@@ -1098,27 +1124,29 @@ def genera_pagina_caracteres(pagina):
                     elif c[2] == "texto-emoji":
                         t += '      <div class="u">\n'
                         t += '        <p class="uc">\n'
+                        t += f"          U+{int(c[0], 16):X} U+FE0F<br>\n"
                         vers = indica_version(c[0])
                         # print (" emojis ", vers)
                         if float(vers) > 0:
                             if len(str(vers)) > 2:
-                                vers_size = 160
+                                vers_size = 220
                             else:
                                 vers_size = 240
                             t += (
                                 f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                                 + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                                + 'width="30" viewBox="0 0 512 512">\n'
-                                + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                                + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                                + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                                + 'width="75" viewBox="0 0 1180 512">\n'
+                                + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                                + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                                + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                                + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                                + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                                 + 'stroke-width="20" stroke="red" />\n'
-                                + '              <text x="250" y="320" font-family="sans-serif" font-size="240" '
-                                + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                                + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                                + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                                 + "           </svg>\n"
                                 + "          </span>\n"
                             )
-                        t += f"          U+{int(c[0], 16):X} U+FE0F\n"
                         t += "        </p>\n"
                         t += f'        <p class="si"> &#x{int(c[0], 16):X};&#xfe0f;</p>\n'
                         t += '        <p class="en">\n'
@@ -1221,30 +1249,32 @@ def genera_pagina_secuencias(pagina, grupos):
             for c in caracteres:
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
+                t += "          "
+                for cn in c[0]:
+                    t += f"U+{int(cn, 16):X} "
+                t += "<br>\n"
                 vers = indica_version(c[0])
                 # print (" secuencias ", vers)
                 if float(vers) > 0:
                     if len(str(vers)) > 2:
-                        vers_size = 160
+                        vers_size = 220
                     else:
                         vers_size = 240
                     t += (
                         f'          <span class="ve" title="Nuevo en Unicode {vers} ({ucdef.uc_versiones_years[vers]})">\n'
                         + '           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" '
-                        + 'width="30" viewBox="0 0 512 512">\n'
-                        + '              <polygon points="260,20 308,82 380,48 386,132 465,139 430,205 '
-                        + "492,257 435,307 465,372 384,375 378,458 308,423 263,493 215,425 140,460 "
-                        + '135,382 53,372 85,303 22,254 85,215 53,135 137,132 141,48 213,87" fill="none" '
+                        + 'width="75" viewBox="0 0 1180 512">\n'
+                        + '              <polygon points="22,254 85,215 53,135 137,132 141,48 213,83 260,20 307,83 354,20 '
+                        + '401,83 448,20 495,83 542,20 589,83 636,20 683,83 730,20 777,83 824,20 871,83 918,20 965,83 '
+                        + '1037,48 1041,132 1125,135 1093,215 1156,254 1093,293 1125,373 1041,376 1037,460 965,425 918,488 '
+                        + '871,425 824,488 777,425 730,488 683,425 636,488 589,425 542,488 495,425 448,488 401,425 354,488 '
+                        + '307,425 260,488 213,425 141,460 137,376 53,373 85,293" fill="none" '
                         + 'stroke-width="20" stroke="red" />\n'
-                        + f'              <text x="250" y="320" font-family="sans-serif" font-size="{vers_size}" '
-                        + f'font-weight="bold" text-anchor="middle" fill="red">{vers}</text>\n'
+                        + f'              <text x="600" y="340" font-family="sans-serif" font-size="{vers_size}" '
+                        + f'font-weight="bold" text-anchor="middle" fill="red">New {vers}</text>\n'
                         + "           </svg>\n"
                         + "          </span>\n"
                     )
-                t += "          "
-                for cn in c[0]:
-                    t += f"U+{int(cn, 16):X} "
-                t += "\n"
                 t += "        </p>\n"
                 t += '        <p class="si">'
                 for cn in c[0]:
