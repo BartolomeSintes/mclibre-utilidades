@@ -2091,6 +2091,28 @@
       "creado": "2025-06-06"
     },
     {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 92,
+      "año": 2025,
+      "mes": 6,
+      "portada": "edutec-92-es-202506.jpg",
+      "fichero": "edutec-92-es-202506.pdf",
+      "idioma": "español",
+      "creado": "2025-11-21"
+    },
+    {
+      "serie": "Edutec",
+      "nombre": "Edutec",
+      "número": 93,
+      "año": 2025,
+      "mes": 9,
+      "portada": "edutec-93-es-202509.jpg",
+      "fichero": "edutec-93-es-202509.pdf",
+      "idioma": "español",
+      "creado": "2025-11-21"
+    },
+    {
       "serie": "Full Circle",
       "nombre": "Full Circle",
       "número": 0,
@@ -12748,6 +12770,17 @@
       "fichero": "the-magpi-158-en-202510.pdf",
       "idioma": "inglés",
       "creado": "2025-10-19"
+    },
+    {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 159,
+      "año": 2025,
+      "mes": 11,
+      "portada": "the-magpi-159-en-202511.jpg",
+      "fichero": "the-magpi-159-en-202511.pdf",
+      "idioma": "inglés",
+      "creado": "2025-11-21"
     },
     {
       "serie": "The MagPi Books",
