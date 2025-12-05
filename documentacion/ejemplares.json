@@ -4588,6 +4588,17 @@
       "creado": "2025-11-01"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 223,
+      "año": 2025,
+      "mes": 11,
+      "portada": "full-circle-223-en-202511.jpg",
+      "fichero": "full-circle-223-en-202511.pdf",
+      "idioma": "inglés",
+      "creado": "2025-12-05"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -15641,6 +15652,28 @@
       "fichero": "pclinuxos-225-en-202510.pdf",
       "idioma": "inglés",
       "creado": "2025-10-19"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 226,
+      "año": 2025,
+      "mes": 11,
+      "portada": "pclinuxos-226-en-202511.jpg",
+      "fichero": "pclinuxos-226-en-202511.pdf",
+      "idioma": "inglés",
+      "creado": "2025-12-05"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 227,
+      "año": 2025,
+      "mes": 12,
+      "portada": "pclinuxos-227-en-202512.jpg",
+      "fichero": "pclinuxos-227-en-202512.pdf",
+      "idioma": "inglés",
+      "creado": "2025-12-05"
     },
     {
       "serie": "The R Journal",
