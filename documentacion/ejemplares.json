@@ -12816,6 +12816,17 @@
       "creado": "2025-12-28"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 161,
+      "año": 2026,
+      "mes": 1,
+      "portada": "the-magpi-161-en-202601.jpg",
+      "fichero": "the-magpi-161-en-202601.pdf",
+      "idioma": "inglés",
+      "creado": "2026-01-23"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -15698,6 +15709,17 @@
       "creado": "2025-12-05"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 228,
+      "año": 2026,
+      "mes": 1,
+      "portada": "pclinuxos-228-en-202601.jpg",
+      "fichero": "pclinuxos-228-en-202601.pdf",
+      "idioma": "inglés",
+      "creado": "2026-01-23"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -17203,6 +17225,17 @@
       "fichero": "tino-102-es-202509.pdf",
       "idioma": "español",
       "creado": "2025-11-01"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 103,
+      "año": 2025,
+      "mes": 11,
+      "portada": "tino-103-es-202511.jpg",
+      "fichero": "tino-103-es-202511.pdf",
+      "idioma": "español",
+      "creado": "2026-01-23"
     },
     {
       "serie": "Wireframe",
