@@ -4632,6 +4632,17 @@
       "creado": "2026-02-08"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 226,
+      "año": 2026,
+      "mes": 2,
+      "portada": "full-circle-226-en-202602.jpg",
+      "fichero": "full-circle-226-en-202602.pdf",
+      "idioma": "inglés",
+      "creado": "2026-02-28"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -16213,6 +16224,17 @@
       "fichero": "the-r-journal-41-en-202509.pdf",
       "idioma": "inglés",
       "creado": "2026-02-08"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 17 nº 4",
+      "año": 2025,
+      "mes": 12,
+      "portada": "the-r-journal-42-en-202512.jpg",
+      "fichero": "the-r-journal-42-en-202512.pdf",
+      "idioma": "inglés",
+      "creado": "2026-02-28"
     },
     {
       "serie": "Tino",
