@@ -42902,7 +42902,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-09-27",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Pruebas para la obtención de títulos Formación Profesional 2024 (CV)",
             "titulo": "Resolución de 23 de septiembre de 2024, de la Dirección General de Formación Profesional, por la que se convocan las pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional en el año 2024.",
             "versiones": [
@@ -43148,9 +43148,9 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2025-02-11",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Pruebas de acceso ciclos formativos Formación Profesional 2025 (CV)",
-            "titulo": "RESOLUCIÓN de 4 de febrero de 2025, de la Dirección General de Formación Profesional, por la que se convocan las pruebas de acceso a los ciclos formativos de grado medio y superior en el año 2025.",
+            "titulo": "Resolución de 4 de febrero de 2025, de la Dirección General de Formación Profesional, por la que se convocan las pruebas de acceso a los ciclos formativos de grado medio y superior en el año 2025.",
             "versiones": [
                 {
                     "versión": "original",
@@ -43667,7 +43667,7 @@
             "ámbito": "Comunidad Valenciana",
             "origen": "DOGV",
             "fecha": "2024-10-24",
-            "vigencia": "vigente",
+            "vigencia": "vencido",
             "descripción": "Ayudas al estudio ganadores fase local Valencia de la Olimpiada Informática 2024/25 (CV)",
             "titulo": "Extracto de la Resolución de 2 de octubre de 2024, del Vicerrectorado de Estudios, por la cual se convocan las ayudas al estudio de la Universitat de València para el alumnado ganador de la fase local de la Olimpiada Informática de la Comunitat Valenciana que tendrá lugar el curso académico 2024-2025, y se aprueban las bases que regulan esta convocatoria.",
             "versiones": [
@@ -43927,7 +43927,7 @@
             "origen": "MEC",
             "fecha": "2025-05-29",
             "vigencia": "borrador",
-            "descripción": "Borrador Decreto del Curso de especialización de Despliegue de productos software en contenedores",
+            "descripción": "Borrador Decreto del Curso de especialización de Aprendizaje automático: instalación, despliegue y explotación",
             "titulo": "Proyecto de Real Decreto por el que se establece el Curso de especialización de Formación Profesional de Grado Superior en Aprendizaje automático: instalación, despliegue y explotación de sistemas y se fijan los aspectos básicos del currículo.",
             "versiones": [
                 {
@@ -45285,7 +45285,7 @@
             "versiones": [
                 {
                     "versión": "original",
-            "fecha": "2025-03-05",
+                    "fecha": "2025-03-05",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -45367,7 +45367,7 @@
             "versiones": [
                 {
                     "versión": "original",
-            "fecha": "2025-06-03",
+                    "fecha": "2025-06-03",
                     "enlaces": [
                         {
                             "formato": "pdf",
@@ -45638,6 +45638,309 @@
                 "grado medio",
                 "grado superior",
                 "formación profesional"
+            ]
+        },
+        {
+            "id": "dogv-2025-10-10-res",
+            "incluido": "2025-10-20",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-10-15",
+            "vigencia": "vigente",
+            "descripción": "Pruebas para la obtención de títulos Formación Profesional 2025 (CV)",
+            "titulo": "Resolución de 10 de octubre de 2025, de la Dirección General de Formación Profesional, por la que se convocan las pruebas para la obtención de los títulos de técnico o técnica y de técnico o técnica superiores de Formación Profesional en el año 2025.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-10-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-10-15-R-pruebas-titulos-fp-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-10-15-R-pruebas-titulos-fp-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/42561"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/42561"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas para la obtención de los títulos",
+                "curso 2025/26"
+            ]
+        },
+        {
+            "id": "boe-2026-145-rd",
+            "incluido": "2026-03-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2026-02-28",
+            "vigencia": "vigente",
+            "descripción": "Título del Curso de especialización de Recursos y servicios en la nube",
+            "titulo": "Real Decreto 145/2026, de 25 de febrero, por el que se establece el Curso de especialización de Formación Profesional de Grado Superior en Recursos y servicios en la nube y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "vigente",
+                    "fecha": "2026-02-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2026-145-RD-FP-titulo-recursos-nube.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://boe.es/buscar/doc.php?id=BOE-A-2026-4673"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "boe-2026-144-rd",
+            "incluido": "2026-03-01",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2026-02-28",
+            "vigencia": "vigente",
+            "descripción": "Título del Curso de especialización de Despliegue de productos software en contenedores",
+            "titulo": "Real Decreto 144/2026, de 25 de febrero, por el que se establece el Curso de especialización de Formación Profesional de Grado Superior en Despliegue de productos software en contenedores y se fijan los aspectos básicos del currículo.",
+            "versiones": [
+                {
+                    "versión": "vigente",
+                    "fecha": "2026-02-28",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2026-144-RD-FP-titulo-despliegue-contenedores.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://boe.es/buscar/doc.php?id=BOE-A-2026-4672"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "borrador",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior",
+                "curso de especialización"
+            ]
+        },
+        {
+            "id": "dogv-2026-02-13-res",
+            "incluido": "2026-03-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2026-02-25",
+            "vigencia": "vigente",
+            "descripción": "Pruebas de acceso ciclos formativos Formación Profesional 2026 (CV)",
+            "titulo": "Resolución de 13 de febrero de 2026, de la Dirección General de Formación Profesional, por la que se convocan las pruebas de acceso a los ciclos formativos de grado medio y superior para el año 2026.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2026-02-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2026-02-13-R-pruebas-acceso-fp-26-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2026-02-13-R-pruebas-acceso-fp-26-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2026/5044"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2026/5044"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "educación",
+                "formación profesional",
+                "pruebas de acceso",
+                "curso 2026/27"
+            ]
+        },
+        {
+            "id": "dogv-2025-09-15-res",
+            "incluido": "2026-03-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2025-10-23",
+            "vigencia": "vigente",
+            "descripción": "Ayudas al estudio ganadores fase local Valencia de la Olimpiada Informática 2025/26 (CV)",
+            "titulo": "Extracto de la Resolución de 15 de septiembre de 2025, del Vicerrectorado de Estudios, por la cual se convocan las ayudas al estudio de la Universitat de València para el alumnado ganador de la fase local de la Olimpiada Informática de la Comunitat Valenciana. Curso académico 2025-26.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2025-10-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2025-09-15-R-ayudas-fase-valencia-olimpiada-informatica-cv-2526-es.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2025-09-15-R-ayudas-fase-valencia-olimpiada-informatica-cv-2526-va.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2025/43808"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/43808"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "ayudas",
+                "olimpiada informática",
+                "universidad de valencia",
+                "curso 2025/26"
+            ]
+        },
+        {
+            "id": "dogv-2022-09-30-res",
+            "incluido": "2026-03-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2022-10-26",
+            "vigencia": "vencido",
+            "descripción": "Ayudas al estudio ganadores fase local Valencia de la Olimpiada Informática 2022/23 (CV)",
+            "titulo": "Extracto de la Resolución de 30 de septiembre de 2022, de la vicerrectora de Estudios de la Univesitat de València, por la cual se convocan las ayudas al estudio de la Universitat de València para el alumnado ganador de la fase local de la Olimpiada Informática de la Comunitat Valenciana que tendrá lugar el curso académico 2022-2023, y se aprueban las bases que regulan esta convocatoria.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2022-10-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2022-09-30-R-ayudas-fase-valencia-olimpiada-informatica-cv-2223.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2022/9724"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2022/9724"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "ayudas",
+                "olimpiada informática",
+                "universidad de valencia",
+                "curso 2022/23"
+            ]
+        },
+        {
+            "id": "dogv-2021-10-25-res",
+            "incluido": "2026-03-01",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2021-11-26",
+            "vigencia": "vencido",
+            "descripción": "Ayudas al estudio ganadores fase local Valencia de la Olimpiada Informática 2021/22 (CV)",
+            "titulo": "Extracto de la Resolución de 25 de octubre de 2021, de la vicerrectora de Empleo y Programas Formativos de la Universitat de València, por la cual se convocan las ayudas al estudio de la Universitat de València para el alumnado ganador de la fase local de la Olimpiada Informática de la Comunitat Valenciana que tendrá lugar el curso académico 2021-2022, y se aprueban las bases que regulan esta convocatoria. ",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2021-11-26",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2021-10-25-R-ayudas-fase-valencia-olimpiada-informatica-cv-2122.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2021/11982"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2021/11982"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "comunidad valenciana",
+                "resolución",
+                "ayudas",
+                "olimpiada informática",
+                "universidad de valencia",
+                "curso 2021/22"
             ]
         }
     ]

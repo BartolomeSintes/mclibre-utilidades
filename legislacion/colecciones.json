@@ -242,10 +242,8 @@
                                     "boe-borrador-2023-12-26-rd",
                                     "boe-borrador-2024-03-15-rd",
                                     "boe-borrador-2024-06-06-rd",
-                                    "boe-borrador-2025-1-rd",
                                     "boe-borrador-2025-2-rd",
-                                    "boe-borrador-2025-3-rd",
-                                    "boe-borrador-2025-4-rd"
+                                    "boe-borrador-2025-3-rd"
                                 ]
                             }
                         },
@@ -331,7 +329,9 @@
                                     "boe-2024-499-rd",
                                     "boe-2024-500-rd",
                                     "boe-2024-566-rd",
-                                    "boe-2025-207-rd"
+                                    "boe-2025-207-rd",
+                                    "boe-2026-144-rd",
+                                    "boe-2026-145-rd"
                                 ]
                             }
                         },
@@ -829,25 +829,25 @@
                     "contenido": [
                         {
                             "apartado": {
+                                "titulo": "Curso 2026/27",
+                                "referencias": [
+                                     "dogv-2026-02-13-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2025/26",
                                 "referencias": [
-                                    "dogv-2025-02-04-res",
                                     "dogv-2025-03-12-res",
                                     "dogv-2025-04-11-res",
                                     "dogv-2025-05-23-res",
                                     "dogv-2025-05-28-res",
                                     "dogv-2025-07-07-res",
                                     "dogv-2025-07-17-res-1",
-                                    "dogv-2025-07-17-2-res"
-                                ]
-                            }
-                        },
-                        {
-                            "apartado": {
-                                "titulo": "Curso 2024/25",
-                                "referencias": [
-                                    "dogv-2024-09-23-res",
-                                    "dogv-2024-10-02-res"
+                                    "dogv-2025-07-17-2-res",
+                                    "dogv-2025-09-15-res",
+                                    "dogv-2025-10-10-res"
                                 ]
                             }
                         },
@@ -1256,6 +1256,14 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Curso 2025/26",
+                                "referencias": [
+                                    "dogv-2025-02-04-res"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Curso 2024/25",
                                 "referencias": [
                                     "dogv-2024-02-02-res",
@@ -1265,7 +1273,9 @@
                                     "dogv-2024-06-05-res",
                                     "dogv-2024-07-22-res",
                                     "dogv-2024-08-06-res",
-                                    "dogv-2024-08-08-res"
+                                    "dogv-2024-08-08-res",
+                                    "dogv-2024-09-23-res",
+                                    "dogv-2024-10-02-res"
                                 ]
                             }
                         },
@@ -1295,7 +1305,8 @@
                                     "dogv-2022-06-14-res",
                                     "dogv-2022-07-12-res",
                                     "dogv-2022-07-15-res",
-                                    "dogv-2022-07-26-res"
+                                    "dogv-2022-07-26-res",
+                                    "dogv-2022-09-30-res"
                                 ]
                             }
                         },
@@ -1312,6 +1323,7 @@
                                     "dogv-2021-07-26-1-res",
                                     "dogv-2021-07-26-2-res",
                                     "dogv-2021-07-26-3-res",
+                                    "dogv-2021-10-25-res",
                                     "dogv-2021-12-15-res",
                                     "dogv-2022-01-26-res"
                                 ]
