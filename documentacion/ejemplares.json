@@ -6502,6 +6502,17 @@
       "creado": "2025-10-19"
     },
     {
+      "serie": "Hello World",
+      "nombre": "Hello World",
+      "número": 29,
+      "año": 2026,
+      "mes": 3,
+      "portada": "hello-world-29-en-202603.jpg",
+      "fichero": "hello-world-29-en-202603.pdf",
+      "idioma": "inglés",
+      "creado": "2026-03-28"
+    },
+    {
       "serie": "Hello World Books",
       "nombre": "The Big Book of Comupting Pedagogy",
       "número": 1,
