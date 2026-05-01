@@ -4665,6 +4665,17 @@
       "creado": "2026-03-27"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 228,
+      "año": 2026,
+      "mes": 4,
+      "portada": "full-circle-228-en-202604.jpg",
+      "fichero": "full-circle-228-en-202604.pdf",
+      "idioma": "inglés",
+      "creado": "2026-05-01"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -12915,6 +12926,17 @@
       "creado": "2026-03-19"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 164,
+      "año": 2026,
+      "mes": 4,
+      "portada": "the-magpi-164-en-202604.jpg",
+      "fichero": "the-magpi-164-en-202604.pdf",
+      "idioma": "inglés",
+      "creado": "2026-05-01"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -15839,6 +15861,17 @@
       "fichero": "pclinuxos-231-en-202604.pdf",
       "idioma": "inglés",
       "creado": "2026-04-10"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 232,
+      "año": 2026,
+      "mes": 5,
+      "portada": "pclinuxos-232-en-202605.jpg",
+      "fichero": "pclinuxos-232-en-202605.pdf",
+      "idioma": "inglés",
+      "creado": "2026-05-01"
     },
     {
       "serie": "The R Journal",
