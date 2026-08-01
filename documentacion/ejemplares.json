@@ -4720,6 +4720,17 @@
       "creado": "2026-07-09"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 231,
+      "año": 2026,
+      "mes": 7,
+      "portada": "full-circle-231-en-202607.jpg",
+      "fichero": "full-circle-231-en-202607.pdf",
+      "idioma": "inglés",
+      "creado": "2026-08-01"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -15993,6 +16004,17 @@
       "fichero": "pclinuxos-234-en-202607.pdf",
       "idioma": "inglés",
       "creado": "2026-07-09"
+    },
+    {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 235,
+      "año": 2026,
+      "mes": 8,
+      "portada": "pclinuxos-235-en-202608.jpg",
+      "fichero": "pclinuxos-235-en-202608.pdf",
+      "idioma": "inglés",
+      "creado": "2026-08-01"
     },
     {
       "serie": "The R Journal",
