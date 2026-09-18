@@ -4731,6 +4731,17 @@
       "creado": "2026-08-01"
     },
     {
+      "serie": "Full Circle",
+      "nombre": "Full Circle",
+      "número": 232,
+      "año": 2026,
+      "mes": 8,
+      "portada": "full-circle-232-en-202608.jpg",
+      "fichero": "full-circle-232-en-202608.pdf",
+      "idioma": "inglés",
+      "creado": "2026-09-05"
+    },
+    {
       "serie": "Full Circle (rec)",
       "nombre": "Command and Conquer",
       "número": 1,
@@ -13058,6 +13069,17 @@
       "creado": "2026-08-14"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 169,
+      "año": 2026,
+      "mes": 9,
+      "portada": "the-magpi-169-en-202609.jpg",
+      "fichero": "the-magpi-169-en-202609.pdf",
+      "idioma": "inglés",
+      "creado": "2026-09-18"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -16028,6 +16050,17 @@
       "creado": "2026-08-01"
     },
     {
+      "serie": "The PCLinuxOS Magazine",
+      "nombre": "The PCLinuxOS Magazine",
+      "número": 236,
+      "año": 2026,
+      "mes": 9,
+      "portada": "pclinuxos-236-en-202609.jpg",
+      "fichero": "pclinuxos-236-en-202609.pdf",
+      "idioma": "inglés",
+      "creado": "2026-09-05"
+    },
+    {
       "serie": "The R Journal",
       "nombre": "The R Journal",
       "número": "vol 1 nº 1",
@@ -16488,6 +16521,28 @@
       "fichero": "the-r-journal-42-en-202512.pdf",
       "idioma": "inglés",
       "creado": "2026-02-28"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 18 nº 1",
+      "año": 2026,
+      "mes": 3,
+      "portada": "the-r-journal-43-en-202603.jpg",
+      "fichero": "the-r-journal-43-en-202603.pdf",
+      "idioma": "inglés",
+      "creado": "2026-09-05"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 18 nº 2",
+      "año": 2026,
+      "mes": 6,
+      "portada": "the-r-journal-44-en-202606.jpg",
+      "fichero": "the-r-journal-44-en-202606.pdf",
+      "idioma": "inglés",
+      "creado": "2026-09-05"
     },
     {
       "serie": "Tino",
