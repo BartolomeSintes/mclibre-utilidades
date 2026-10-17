@@ -35,6 +35,8 @@ FICHERO_MANUAL_1_TWEMOJI_JDECKED = (
 )
 FICHERO_MANUAL_2 = UNICODE_FUSIONADOS_DIR + "unicode_txt_manual_2.py"
 
+FICHERO_ELIMINADOS = UNICODE_FUSIONADOS_DIR + "eliminados-manual.py"
+
 # Ficheros simplificados
 FICHERO_ORDENADO = "unicode_txt_ordenado.py"
 
@@ -849,13 +851,14 @@ uc_tablas_caracteres = (
             "04DC0",
             "04DFF",
         ],
-        [
-            "Símbolos antiguos",
-            "gr-simbolos-antiguos",
-            "U10190-ancient-symbols.pdf",
-            "10190",
-            "101CF",
-        ],
+        # 2026-10-17 Los desactivo porque no se ve ninguno en Windows 11
+        # [
+        #     "Símbolos antiguos",
+        #     "gr-simbolos-antiguos",
+        #     "U10190-ancient-symbols.pdf",
+        #     "10190",
+        #     "101CF",
+        # ],
         [
             "Símbolos informáticos antiguos suplementarios",
             "gr-simbolos-informaticos-antiguos-supl",
@@ -864,13 +867,13 @@ uc_tablas_caracteres = (
             "1CEBF",
         ],
         # 2026-10-17 Los desactivo porque no se ve ninguno en Windows 11
-        [
-            "Suplemento símbolos misceláneos",
-            "gr-simbolos-misc-sup",
-            "U1CEC0-miscellaneous-symbols-supplement.pdf",
-            "1CEC0",
-            "1CEFF",
-        ],
+        # [
+        #     "Suplemento símbolos misceláneos",
+        #     "gr-simbolos-misc-sup",
+        #     "U1CEC0-miscellaneous-symbols-supplement.pdf",
+        #     "1CEC0",
+        #     "1CEFF",
+        # ],
         [
             "Símbolos musicales",
             "gr-musica",
@@ -879,13 +882,13 @@ uc_tablas_caracteres = (
             "1D1FF",
         ],
         # 2026-10-17 Los desactivo porque no se ve ninguno en Windows 11
-        [
-            "Suplemento Símbolos musicales",
-            "gr-musica-sup",
-            "U1D250-musical-symbols-supplement.pdf",
-            "1D250",
-            "1D28F",
-        ],
+        # [
+        #     "Suplemento Símbolos musicales",
+        #     "gr-musica-sup",
+        #     "U1D250-musical-symbols-supplement.pdf",
+        #     "1D250",
+        #     "1D28F",
+        # ],
         [
             "Símbolos alfanuméricos matemáticos",
             "gr-simbolos-alfa-mat",
@@ -894,13 +897,13 @@ uc_tablas_caracteres = (
             "1D7FF",
         ],
         # 2026-10-17 Los desactivo porque no se ve ninguno en Windows 11
-        [
-            "Símbolos y flechas misceláneos extendidos",
-            "gr-simbolos-flechas-ext",
-            "U1DB00-miscellaneous-symbols-and-arrows-extended.pdf",
-            "1DB00",
-            "1DBFF",
-        ],
+        # [
+        #     "Símbolos y flechas misceláneos extendidos",
+        #     "gr-simbolos-flechas-ext",
+        #     "U1DB00-miscellaneous-symbols-and-arrows-extended.pdf",
+        #     "1DB00",
+        #     "1DBFF",
+        # ],
         [
             "Fichas de Mahjong",
             "gr-fichas-mahjong",
@@ -1007,13 +1010,14 @@ uc_tablas_caracteres = (
             "1FA70",
             "1FAFF",
         ],
-        [
-            "Símbolos informáticos antiguos",
-            "gr-simbolos-informaticos-antiguos",
-            "U1FB00-symbols-legacy-computing.pdf",
-            "1FB00",
-            "1FBFF",
-        ],
+        # 2026-10-17 Los desactivo porque no se ve ninguno en Windows 11
+        # [
+        #     "Símbolos informáticos antiguos",
+        #     "gr-simbolos-informaticos-antiguos",
+        #     "U1FB00-symbols-legacy-computing.pdf",
+        #     "1FB00",
+        #     "1FBFF",
+        # ],
     ],
 )
 

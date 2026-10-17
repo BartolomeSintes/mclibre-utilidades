@@ -1,6 +1,7 @@
 import copy
 import datetime
 import pathlib
+import runpy
 import shutil
 import sys
 import webbrowser
@@ -18,6 +19,14 @@ from ficheros_3_fusionados import unicode_txt_manual_2 as imp5
 
 ORIGEN = pathlib.Path("sitio-plantilla")
 DESTINO = pathlib.Path("sitio")
+SECUENCIAS_ELIMINADAS = {
+    tuple(int(codigo, 16) for codigo in codigos)
+    for codigos in runpy.run_path(ucdef.FICHERO_ELIMINADOS)["eliminados"]
+}
+
+
+def esta_eliminado(codigos):
+    return tuple(int(codigo, 16) for codigo in codigos) in SECUENCIAS_ELIMINADAS
 
 
 def busca(aguja, pajar, posicion):
@@ -163,7 +172,9 @@ def indica_version(codigo):
 
 
 def genera_pagina_twemoji(pagina):
-    identificados = copy.deepcopy(imp3.manual_1)
+    identificados = [
+        copy.deepcopy(c) for c in imp3.manual_1 if not esta_eliminado(c[0])
+    ]
     for i in range(len(identificados) - 1, -1, -1):
         # print(identificados[i])
         if identificados[i][2] == "":
@@ -366,14 +377,17 @@ def genera_pagina_twemoji(pagina):
     #     print(i)
 
     # Por último muestro los que no están identificados
-    print(f"    Dibujos no existentes en Unicode: {len(imp3.restos_twemoji)}")
+    restos_twemoji = [
+        c for c in imp3.restos_twemoji if not esta_eliminado(c[0])
+    ]
+    print(f"    Dibujos no existentes en Unicode: {len(restos_twemoji)}")
     t += '  <section id="gr-twemoji-no-unicode">\n'
     t += "    <h2>Dibujos de Twemoji no definidos en Unicode</h2>\n"
     t += "\n"
     t += "     <p>En este apartado se muestran las imágenes incluidas en Twemoji que no están definidas en Unicode.</p>\n"
     t += "\n"
     t += '    <div class="u-l">\n'
-    for c in imp3.restos_twemoji:
+    for c in restos_twemoji:
         t += '      <div class="u">\n'
         t += '        <p class="uc">\n'
         t += "          "
@@ -428,7 +442,9 @@ def genera_pagina_twemoji(pagina):
 
 
 def genera_pagina_noto(pagina):
-    identificados = copy.deepcopy(imp6.manual_1)
+    identificados = [
+        copy.deepcopy(c) for c in imp6.manual_1 if not esta_eliminado(c[0])
+    ]
     for i in range(len(identificados) - 1, -1, -1):
         if identificados[i][2] == "":
             del identificados[i]
@@ -631,14 +647,15 @@ def genera_pagina_noto(pagina):
     #     print(i)
 
     # Por último muestro los que no están identificados
-    print(f"    Dibujos no existentes en Unicode: {len(imp6.restos_noto)}")
+    restos_noto = [c for c in imp6.restos_noto if not esta_eliminado(c[0])]
+    print(f"    Dibujos no existentes en Unicode: {len(restos_noto)}")
     t += '  <section id="gr-noto-no-unicode">\n'
     t += "    <h2>Dibujos de Noto no definidos en Unicode</h2>\n"
     t += "\n"
     t += "     <p>En este apartado se muestran las imágenes incluidas en Noto que no están definidas en Unicode.</p>\n"
     t += "\n"
     t += '    <div class="u-l">\n'
-    for c in imp6.restos_noto:
+    for c in restos_noto:
         t += '      <div class="u">\n'
         t += '        <p class="uc">\n'
         t += "          "
@@ -694,7 +711,9 @@ def genera_pagina_noto(pagina):
 
 
 def genera_pagina_twemoji_jdecked(pagina):
-    identificados = copy.deepcopy(imp7.manual_1)
+    identificados = [
+        copy.deepcopy(c) for c in imp7.manual_1 if not esta_eliminado(c[0])
+    ]
     for i in range(len(identificados) - 1, -1, -1):
         # print(identificados[i])
         if identificados[i][2] == "":
@@ -900,14 +919,17 @@ def genera_pagina_twemoji_jdecked(pagina):
     #     print(i)
 
     # Por último muestro los que no están identificados
-    print(f"    Dibujos no existentes en Unicode: {len(imp7.restos_twemoji)}")
+    restos_twemoji = [
+        c for c in imp7.restos_twemoji if not esta_eliminado(c[0])
+    ]
+    print(f"    Dibujos no existentes en Unicode: {len(restos_twemoji)}")
     t += '  <section id="gr-twemoji-no-unicode">\n'
     t += "    <h2>Dibujos de Twemoji no definidos en Unicode</h2>\n"
     t += "\n"
     t += "     <p>En este apartado se muestran las imágenes incluidas en Twemoji que no están definidas en Unicode.</p>\n"
     t += "\n"
     t += '    <div class="u-l">\n'
-    for c in imp7.restos_twemoji:
+    for c in restos_twemoji:
         t += '      <div class="u">\n'
         t += '        <p class="uc">\n'
         t += "          "
@@ -968,7 +990,12 @@ def genera_pagina_caracteres(pagina):
         for grupo in imp4.seleccion_simbolos_manual:
             caracteres = []
             for c in imp.derived_name:
-                if c[3] == grupo[0][1] and c[0] in grupo[1] and c[2] != "emoji":
+                if (
+                    c[3] == grupo[0][1]
+                    and c[0] in grupo[1]
+                    and c[2] != "emoji"
+                    and not esta_eliminado([c[0]])
+                ):
                     caracteres += [c]
             caracteres.sort()
             contador = len(caracteres)
@@ -1081,7 +1108,11 @@ def genera_pagina_caracteres(pagina):
         for grupo in ucdef.uc_tablas_caracteres[0]:
             caracteres = []
             for c in imp.derived_name:
-                if c[3] == grupo[1] and c[2] != "texto":
+                if (
+                    c[3] == grupo[1]
+                    and c[2] != "texto"
+                    and not esta_eliminado([c[0]])
+                ):
                     caracteres += [c]
             caracteres.sort()
             contador = len(caracteres)
@@ -1249,6 +1280,8 @@ def genera_pagina_secuencias(pagina, grupos):
     for grupo in grupos:
         caracteres = []
         for c in imp3.manual_1:
+            if esta_eliminado(c[0]):
+                continue
             for cgrupo in c[1]:
                 if cgrupo == grupo[0]:
                     caracteres += [c]
