@@ -1,0 +1,41 @@
+2025-10-27
+Estos son los ficheros que hay en la web de Unicode.
+A partir de ellos trabajan mis programas
+Han cambiado la dirección con respecto a años anteriores
+
+Antes eran:
+https://unicode.org/Public/emoji/16.0/
+https://unicode.org/Public/emoji/16.0/emoji-sequences.txt
+https://unicode.org/Public/emoji/16.0/emoji-test.txt
+https://unicode.org/Public/emoji/16.0/emoji-zwj-sequences.txt
+
+https://www.unicode.org/Public/16.0.0/ucd/emoji/
+https://www.unicode.org/Public/16.0.0/ucd/emoji/emoji-data.txt
+https://www.unicode.org/Public/16.0.0/ucd/emoji/emoji-variation-sequences.txt
+https://www.unicode.org/Public/16.0.0/ucd/extracted/DerivedName.txt
+
+https://www.unicode.org/emoji/charts/full-emoji-list.html
+https://www.unicode.org/emoji/charts/full-emoji-modifiers.html
+
+- - - - - -
+Ahora están en https://unicode.org/Public/17.0.0/
+
+https://unicode.org/Public/17.0.0/emoji/
+https://unicode.org/Public/17.0.0/emoji/emoji-sequences.txt
+https://unicode.org/Public/17.0.0/emoji/emoji-test.txt
+https://unicode.org/Public/17.0.0/emoji/emoji-zwj-sequences.txt
+
+https://unicode.org/Public/17.0.0/ucd/emoji/
+https://unicode.org/Public/17.0.0/ucd/emoji/emoji-data.txt
+https://unicode.org/Public/17.0.0/ucd/emoji/emoji-variation-sequences.txt
+https://unicode.org/Public/17.0.0/ucd/extracted/DerivedName.txt
+
+https://www.unicode.org/emoji/charts/full-emoji-list.html
+https://www.unicode.org/emoji/charts/full-emoji-modifiers.html
+
+- - - - - -
+
+Los ficheros full-emoji-list.html y full-emoji-modifiers.html usan ' en vez de ". En el directorio del año pasado hay una copia de los archivos en los que están cambiados las comillas a comillas dobles. No sé si los uso, pero he hecho el cambio.
+
+En el directorio del año pasado también hay un archivo Emoji Sequences, v16.0.htm pero no lo he bajado.
+
