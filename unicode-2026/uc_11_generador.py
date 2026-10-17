@@ -52,6 +52,22 @@ def busca2(aguja, pajar):
         return -1
 
 
+def agrega_selectores_variacion(codigos):
+    codigos_con_selector = []
+    for i, codigo in enumerate(codigos):
+        codigos_con_selector.append(codigo)
+        if codigo == "FE0F" or i == len(codigos) - 1:
+            continue
+        posicion = busca(codigo, imp.derived_name, 0)
+        if (
+            posicion != -1
+            and imp.derived_name[posicion][2] == "texto-emoji"
+            and codigos[i + 1] != "FE0F"
+        ):
+            codigos_con_selector.append("FE0F")
+    return codigos_con_selector
+
+
 def genera_pagina(pagina):
     if pagina == ucdef.PAG_SIMBOLOS or pagina == ucdef.PAG_EMOJIS:
         return genera_pagina_caracteres(pagina)
@@ -719,9 +735,11 @@ def genera_pagina_twemoji_jdecked(pagina):
             for c in caracteres:
                 if len(c[0]) > 1:
                     print(f"  CUIDADO: HAY UN CARACTER CON MÁS DE UN CARÁCTER: {c[0]}")
+                tmp = busca(c[0][0], imp.derived_name, 0)
+                con_fe0f = imp.derived_name[tmp][2] == "texto-emoji"
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
-                t += f"          U+{int(c[0][0], 16):X}\n<br>"
+                t += f"          U+{int(c[0][0], 16):X}{' U+FE0F' if con_fe0f else ''}\n<br>"
                 vers = indica_version(c[0][0])
                 # print (" emojis ", vers)
                 if float(vers) > 0:
@@ -746,13 +764,12 @@ def genera_pagina_twemoji_jdecked(pagina):
                     )
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
-                t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/jdecked/twemoji/refs/heads/main/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
+                t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/jdecked/twemoji/refs/heads/main/assets/svg/{c[2]}">&#x{int(c[0][0], 16):X};{"&#xfe0f;" if con_fe0f else ""}</a></span>\n'
                 t += "        </p>\n"
                 t += '        <p class="en">\n'
-                t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0][0], 16):x};</strong><br>\n"
-                t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0][0], 16)};</strong>\n"
+                t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0][0], 16):x};{'&amp;#xfe0f;' if con_fe0f else ''}</strong><br>\n"
+                t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0][0], 16)};{'&amp;#65039;' if con_fe0f else ''}</strong>\n"
                 t += "        </p>\n"
-                tmp = busca(c[0][0], imp.derived_name, 0)
                 # print(tmp, c[0], imp.derived_name[tmp])
                 t += f'        <p class="no">{imp.derived_name[tmp][1]}</p>\n'
                 # hay_coment = busca([c[0]][0], imp5.manual_2, 0)
@@ -807,10 +824,11 @@ def genera_pagina_twemoji_jdecked(pagina):
             t += "\n"
             t += '    <div class="u-l">\n'
             for c in caracteres:
+                codigos = agrega_selectores_variacion(c[0])
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
                 t += "          "
-                for cn in c[0]:
+                for cn in codigos:
                     t += f"U+{int(cn, 16):X} "
                 t += "<br>\n"
                 vers = indica_version(c[0])
@@ -838,17 +856,17 @@ def genera_pagina_twemoji_jdecked(pagina):
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
                 t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/jdecked/twemoji/refs/heads/main/assets/svg/{c[2]}">'
-                for cn in c[0]:
+                for cn in codigos:
                     t += f"&#x{int(cn, 16):X};"
                 t += "</a></span>\n"
                 t += "        </p>\n"
                 t += '        <p class="en">\n'
                 t += "          Hex:&nbsp;<strong>"
-                for cn in c[0]:
+                for cn in codigos:
                     t += f"&amp;#x{int(cn, 16):x};"
                 t += "</strong><br>\n"
                 t += "          Dec:&nbsp;<strong>"
-                for cn in c[0]:
+                for cn in codigos:
                     t += f"&amp;#{int(cn, 16)};"
                 t += "</strong>\n"
                 t += "        </p>\n"
