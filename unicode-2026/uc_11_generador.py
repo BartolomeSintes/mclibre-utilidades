@@ -58,6 +58,9 @@ def agrega_selectores_variacion(codigos):
         codigos_con_selector.append(codigo)
         if codigo == "FE0F" or i == len(codigos) - 1:
             continue
+        modificador_piel = 0x1F3FB <= int(codigos[i + 1], 16) <= 0x1F3FF
+        if modificador_piel:
+            continue
         posicion = busca(codigo, imp.derived_name, 0)
         if (
             posicion != -1
@@ -1352,6 +1355,9 @@ def main():
     if not p.exists():
         # print(f"  {directorio}")
         p.mkdir(parents=True, exist_ok=True)
+
+    for recurso in ("twemoji.min.js", "twemoji-LICENSE.txt"):
+        shutil.copy2(ORIGEN / recurso, DESTINO / recurso)
 
     # Crea páginas
     print()
