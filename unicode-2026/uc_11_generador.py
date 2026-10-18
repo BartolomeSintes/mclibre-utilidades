@@ -9,13 +9,13 @@ from math import floor
 from string import Template
 
 import ucdef
-from ficheros_2_importados import unicode_txt_derived_name as imp
-from ficheros_3_fusionados import seleccion_simbolos_manual as imp4
-from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp2
-from ficheros_3_fusionados import unicode_txt_manual_1_noto as imp6
-from ficheros_3_fusionados import unicode_txt_manual_1_twemoji_jdecked as imp7
-from ficheros_3_fusionados import unicode_txt_manual_1_twemoji_original as imp3
-from ficheros_3_fusionados import unicode_txt_manual_2 as imp5
+
+imp = ucdef.importa_modulo(ucdef.FICHERO_UNICODE)
+imp2 = ucdef.importa_modulo(ucdef.FICHERO_FUSIONADO_2)
+imp3 = ucdef.importa_modulo(ucdef.FICHERO_MANUAL_1_TWEMOJI_ORIGINAL)
+imp5 = ucdef.importa_modulo(ucdef.FICHERO_MANUAL_2)
+imp6 = ucdef.importa_modulo(ucdef.FICHERO_MANUAL_1_NOTO)
+imp7 = ucdef.importa_modulo(ucdef.FICHERO_MANUAL_1_TWEMOJI_JDECKED)
 
 ORIGEN = pathlib.Path("sitio-plantilla")
 DESTINO = pathlib.Path("sitio")
@@ -114,26 +114,34 @@ def genera_pagina(pagina):
         return genera_pagina_twemoji_jdecked(pagina)
 
 
-def genera_lista_simbolos():
-    # Esta función genera el fichero ucdef.FICHERO_SELECCION_SIMBOLOS
-    # con todos los símbolos de las tablas de ucdef.uc_tablas_caracteres[0]
-    t = "seleccion_simbolos_manual = [\n"
+def obtiene_lista_simbolos():
+    seleccion_simbolos = []
     for grupo in ucdef.uc_tablas_caracteres[0]:
-        caracteres = []
-        for c in imp.derived_name:
-            if c[3] == grupo[1] and c[2] != "emoji":
-                caracteres += [c]
+        caracteres = [
+            c for c in imp.derived_name if c[3] == grupo[1] and c[2] != "emoji"
+        ]
         caracteres.sort()
-        contador = len(caracteres)
-        # print(grupo[1], contador)
-        if contador > 0:
-            t += f"  [ ['{grupo[0]}', '{grupo[1]}', '{grupo[2]}', '{grupo[3]}', '{grupo[4]}', ],\n"
-            t += "    ["
-            for c in caracteres:
-                t += f"'{c[0]}', "
-            t += "\n"
-            t += "    ],\n"
-            t += "  ],\n"
+        if caracteres:
+            seleccion_simbolos.append(
+                [
+                    [grupo[0], grupo[1], grupo[2], grupo[3], grupo[4]],
+                    [c[0] for c in caracteres],
+                ]
+            )
+    return seleccion_simbolos
+
+
+def genera_lista_simbolos():
+    # Esta función genera el fichero ucdef.FICHERO_SELECCION_SIMBOLOS.
+    t = "seleccion_simbolos_manual = [\n"
+    for datos_grupo, caracteres in obtiene_lista_simbolos():
+        t += f"  [ {datos_grupo},\n"
+        t += "    ["
+        for caracter in caracteres:
+            t += f"'{caracter}', "
+        t += "\n"
+        t += "    ],\n"
+        t += "  ],\n"
     t += "]\n"
     with open(
         ucdef.UNICODE_FUSIONADOS_DIR + "/" + ucdef.FICHERO_SELECCION_SIMBOLOS,
@@ -1014,28 +1022,28 @@ def genera_pagina_twemoji_jdecked(pagina):
 def genera_pagina_caracteres(pagina):
     if pagina == ucdef.PAG_SIMBOLOS:
         t = ""
-        for grupo in imp4.seleccion_simbolos_manual:
+        for datos_grupo, codigos_grupo in obtiene_lista_simbolos():
             caracteres = []
             for c in imp.derived_name:
                 if (
-                    c[3] == grupo[0][1]
-                    and c[0] in grupo[1]
+                    c[3] == datos_grupo[1]
+                    and c[0] in codigos_grupo
                     and c[2] != "emoji"
                     and not esta_eliminado([c[0]])
                 ):
                     caracteres += [c]
             caracteres.sort()
             contador = len(caracteres)
-            # print(grupo[0], contador)
+            # print(datos_grupo[0], contador)
             if contador > 0:
-                t += f'  <section id="{grupo[0][1]}">\n'
-                t += f"    <h2>{grupo[0][0]}</h2>\n"
+                t += f'  <section id="{datos_grupo[1]}">\n'
+                t += f"    <h2>{datos_grupo[0]}</h2>\n"
                 t += "\n"
                 if contador == 1:
                     t += f"    <p>Se muestra aquí {contador} carácter "
                 else:
                     t += f"    <p>Se muestran aquí {contador} caracteres "
-                t += f'Unicode del grupo que se extiende desde el carácter U+{grupo[0][3]} hasta el carácter U+{grupo[0][4]}. Puede descargar la <a href="unicode/{grupo[0][2]}">tabla de códigos de caracteres Unicode 18.0</a> en formato PDF.</p>\n'
+                t += f'Unicode del grupo que se extiende desde el carácter U+{datos_grupo[3]} hasta el carácter U+{datos_grupo[4]}. Puede descargar la <a href="unicode/{datos_grupo[2]}">tabla de códigos de caracteres Unicode 18.0</a> en formato PDF.</p>\n'
                 t += "\n"
                 t += '    <div class="u-l">\n'
                 for c in caracteres:
@@ -1416,7 +1424,7 @@ def main():
         # print(f"  {directorio}")
         p.mkdir(parents=True, exist_ok=True)
 
-    for recurso in ("twemoji.min.js", "twemoji-LICENSE.txt"):
+    for recurso in (ucdef.FICHERO_TWEMOJI_JS, ucdef.FICHERO_TWEMOJI_LICENCIA):
         shutil.copy2(ORIGEN / recurso, DESTINO / recurso)
 
     # Crea páginas

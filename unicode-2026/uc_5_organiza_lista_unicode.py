@@ -2,7 +2,8 @@ import ucdef
 import os
 import pathlib
 import sys
-from ficheros_3_fusionados import unicode_txt_fusionados_1 as imp
+
+imp = ucdef.importa_modulo(ucdef.FICHERO_FUSIONADO_1)
 
 def busca(codigos, lista):
     encontrado = False

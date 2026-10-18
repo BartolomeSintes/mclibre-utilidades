@@ -93,7 +93,6 @@
         -   Comprobando tipos de registros ...
             OK: 5916 = 1202 + 207 + 1614 + 949 + 207 + 1065 + 137 + 535
 
-
         En 2026 dijo OK: 5897 = 1193 + 207 + 1614 + 939 + 207 + 1065 + 137 + 535
         En 2025 dijo OK: 6329 = 1186 + 207 + 1468 + 929 + 207 + 1045 + 752 + 535
         El año pasado lo ejecuté una tercera vez y salía un error como la primera pero con otro emoji. Lo ejecuté una cuarta y salía OK como la segunda (y generaba los mismos ficheros). Este año no lo hago.
@@ -125,8 +124,9 @@
         CUIDADO: HAY 63 EN VARIOS GRUPOS
     -   Comparo los archivos de /sitio del año pasado con lo que tengo colgado en los apuntes, por si he cambiado algo en el html general (el head, etc.). Este año no hay cambios (pero cuidado porque la página que cuelgo como twemoji realmente es la de jdecked).
     -   Buscar y sustituir "tabla de códigos de caracteres Unicode 17.0" por "tabla de códigos de caracteres Unicode 18.0" (en uc_11 y plantillas, hacer búsqueda en todo el directorio)
-    -   En ucdef.py cambio uc_versiones_marcadas para incluir las versiones para las que quiero que ponga estrellitas en la ficha del emoji. En 2023 puse desde Unicode 13 (que son las que no se ven en Windows 10). Este año he puesto los últimos 5 años (desde  15.0)
-    -   No sé cómo lo he hecho otros años, pero este año lo he hecho así:
+    -   En ucdef.py cambio uc_versiones_marcadas para incluir las versiones para las que quiero que ponga estrellitas en la ficha del emoji. En 2022026 he puesto los últimos 5 años (desde 15.0)
+    -   Este año lo he hecho así:
+        - Tendría que empezar descomentando en ucdef.py los grupos completos y comentado en util.py todos los caracteres que no enseño y confirmar que siguen sin verse aunque ha pasado un año (siempre habrá alguno que sí se verá y el año pasado no).
         -   Ejecuto uc_11_generador.py y me genera las páginas. Dice:
                 Creando sitio\html-unicode-noto.html
                     Dibujos identificados: 3730 - Caracteres: 1435 - Secuencias: 2291
@@ -140,11 +140,9 @@
                     Dibujos identificados: 3979 - Caracteres: 1422 - Secuencias: 2553
                     Identificados pendientes de dibujar: 4
                     Dibujos no existentes en Unicode: 30
-        -   Después de ejecutar por primera vez uc_11_generador.py, copio el archivo seleccion_simbolos.py y lo pego como seleccion_simbolos_manual.py
-        -   Si hay grupos completos que no se ven, los comento en ucdef.py. En 2025 los quitaba de seleccion_simbolos_manual.py
-        -   Si hay caracteres que son espacios o dibujos sin ningún interés, los quito de seleccion_simbolos_manual.py
-        -   Compruebo que los índices de las páginas contienen enlaces a todas los apartados y no faltan apartados
-        -   Miro las páginas en W10 y W11 y añado en util.py los códigos para que ponga los letreros "No disponible en Windows 10" o "No disponible en Windows 11". Parece que los de Unicode 15.1 ya se ven todos. En 2026 he eliminado la referencia a Windows 10 comentado todas las líneas de la matriz win_10 en util.py.
+        -   Si hay grupos completos que no se ven, los comento en ucdef.py.
+        -   Si hay caracteres o secuencias que no se ven los incluyo en util.py (se pueden no ver en ff, no ver en chrome, o no ver en ninguno). En 2026 he eliminado la referencia a Windows 10 comentado todas las líneas de la matriz win_10 en util.py.
+        -   Compruebo que los índices de las páginas contienen enlaces a todas los apartados y no faltan apartados.
         -   Ejecuto util.py.
         -   Repito hasta que veo que está bien.
 

@@ -1,3 +1,13 @@
+import importlib
+import pathlib
+
+
+def importa_modulo(ruta):
+    ruta = pathlib.Path(ruta)
+    paquete = ".".join(ruta.parent.parts)
+    return importlib.import_module(f"{paquete}.{ruta.stem}")
+
+
 # Ficheros originales (descargados de la web de Unicode)
 UNICODE_ORIGINALES_DIR = "ficheros_1_originales/"
 FICHERO_EMOJI_TEST = UNICODE_ORIGINALES_DIR + "u18-0-emoji-test.txt"
@@ -71,6 +81,8 @@ FICHERO_SITIO_NOTO = "html-unicode-noto.html"
 FICHERO_SITIO_TWEMOJI_JDECKED = "html-unicode-twemoji-jdecked.html"
 FICHERO_SITIO_PROBLEMAS = "html-unicode-secuencias-problematicas.html"
 FICHERO_SELECCION_SIMBOLOS = "seleccion_simbolos.py"
+FICHERO_TWEMOJI_JS = "twemoji.min.js"
+FICHERO_TWEMOJI_LICENCIA = "twemoji-LICENSE.txt"
 
 ORDENA_ESPECIAL_NO = 0
 ORDENA_ESPECIAL_1 = 1  # Para ordenar poniendo seguidos 1F468/1F469

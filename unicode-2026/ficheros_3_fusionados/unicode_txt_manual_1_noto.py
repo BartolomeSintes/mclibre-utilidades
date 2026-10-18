@@ -57,7 +57,7 @@ manual_1 = [
   [
     ['1FAEB'],
     ['gr-simbolos-ext-a'],
-    '',
+    'emoji_u1faeb.svg',
   ],
   [
     ['1F609'],
@@ -1007,12 +1007,12 @@ manual_1 = [
   [
     ['1FAF9'],
     ['gr-simbolos-ext-a'],
-    '',
+    'emoji_u1faf9.svg',
   ],
   [
     ['1FAFA'],
     ['gr-simbolos-ext-a'],
-    '',
+    'emoji_u1fafa.svg',
   ],
   [
     ['270A'],
@@ -3417,7 +3417,7 @@ manual_1 = [
   [
     ['1FACC'],
     ['gr-simbolos-ext-a'],
-    '',
+    'emoji_u1facc.svg',
   ],
   [
     ['1F41B'],
@@ -3777,7 +3777,7 @@ manual_1 = [
   [
     ['1FADD'],
     ['gr-simbolos-ext-a'],
-    '',
+    'emoji_u1fadd.svg',
   ],
   [
     ['1F96C'],
@@ -4882,7 +4882,7 @@ manual_1 = [
   [
     ['1F6D9'],
     ['gr-transporte'],
-    '',
+    'emoji_u1f6d9.svg',
   ],
   [
     ['2693'],
@@ -5382,7 +5382,7 @@ manual_1 = [
   [
     ['1FA8B'],
     ['gr-simbolos-ext-a'],
-    '',
+    'emoji_u1fa8b.svg',
   ],
   [
     ['1F525'],
@@ -6637,7 +6637,7 @@ manual_1 = [
   [
     ['1FA8C'],
     ['gr-simbolos-ext-a'],
-    '',
+    'emoji_u1fa8c.svg',
   ],
   [
     ['1F4BC'],
@@ -6787,7 +6787,7 @@ manual_1 = [
   [
     ['1FA8D'],
     ['gr-simbolos-ext-a'],
-    '',
+    'emoji_u1fa8d.svg',
   ],
   [
     ['1F528'],
@@ -10362,52 +10362,52 @@ manual_1 = [
   [
     ['1FAF9', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1faf9_1f3fb.svg',
   ],
   [
     ['1FAF9', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1faf9_1f3fc.svg',
   ],
   [
     ['1FAF9', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1faf9_1f3fd.svg',
   ],
   [
     ['1FAF9', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1faf9_1f3fe.svg',
   ],
   [
     ['1FAF9', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1faf9_1f3ff.svg',
   ],
   [
     ['1FAFA', '1F3FB'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1fafa_1f3fb.svg',
   ],
   [
     ['1FAFA', '1F3FC'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1fafa_1f3fc.svg',
   ],
   [
     ['1FAFA', '1F3FD'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1fafa_1f3fd.svg',
   ],
   [
     ['1FAFA', '1F3FE'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1fafa_1f3fe.svg',
   ],
   [
     ['1FAFA', '1F3FF'],
     ['gr-colores-piel-1'],
-    '',
+    'emoji_u1fafa_1f3ff.svg',
   ],
   [
     ['270A', '1F3FB'],

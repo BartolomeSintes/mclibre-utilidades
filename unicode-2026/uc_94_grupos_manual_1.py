@@ -7,7 +7,8 @@ import pathlib
 import sys
 
 import ucdef
-from ficheros_3_fusionados import unicode_txt_fusionados_2 as imp
+
+imp = ucdef.importa_modulo(ucdef.FICHERO_FUSIONADO_2)
 
 
 def grupos_paginas(elemento):
