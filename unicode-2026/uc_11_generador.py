@@ -23,10 +23,21 @@ SECUENCIAS_ELIMINADAS = {
     tuple(int(codigo, 16) for codigo in codigos)
     for codigos in runpy.run_path(ucdef.FICHERO_ELIMINADOS)["eliminados"]
 }
+SECUENCIAS_FULLY_QUALIFIED = {
+    tuple(int(codigo, 16) for codigo in c[0])
+    for c in imp2.fusionados_2
+    if len(c[0]) > 1 and c[2] and c[2][0] == "fully-qualified"
+}
 
 
 def esta_eliminado(codigos):
     return tuple(int(codigo, 16) for codigo in codigos) in SECUENCIAS_ELIMINADAS
+
+
+def es_secuencia_fully_qualified(codigos):
+    return len(codigos) <= 1 or tuple(
+        int(codigo, 16) for codigo in codigos
+    ) in SECUENCIAS_FULLY_QUALIFIED
 
 
 def busca(aguja, pajar, posicion):
@@ -173,7 +184,9 @@ def indica_version(codigo):
 
 def genera_pagina_twemoji(pagina):
     identificados = [
-        copy.deepcopy(c) for c in imp3.manual_1 if not esta_eliminado(c[0])
+        copy.deepcopy(c)
+        for c in imp3.manual_1
+        if not esta_eliminado(c[0]) and es_secuencia_fully_qualified(c[0])
     ]
     for i in range(len(identificados) - 1, -1, -1):
         # print(identificados[i])
@@ -378,7 +391,9 @@ def genera_pagina_twemoji(pagina):
 
     # Por último muestro los que no están identificados
     restos_twemoji = [
-        c for c in imp3.restos_twemoji if not esta_eliminado(c[0])
+        c
+        for c in imp3.restos_twemoji
+        if not esta_eliminado(c[0]) and es_secuencia_fully_qualified(c[0])
     ]
     print(f"    Dibujos no existentes en Unicode: {len(restos_twemoji)}")
     t += '  <section id="gr-twemoji-no-unicode">\n'
@@ -443,7 +458,9 @@ def genera_pagina_twemoji(pagina):
 
 def genera_pagina_noto(pagina):
     identificados = [
-        copy.deepcopy(c) for c in imp6.manual_1 if not esta_eliminado(c[0])
+        copy.deepcopy(c)
+        for c in imp6.manual_1
+        if not esta_eliminado(c[0]) and es_secuencia_fully_qualified(c[0])
     ]
     for i in range(len(identificados) - 1, -1, -1):
         if identificados[i][2] == "":
@@ -647,7 +664,11 @@ def genera_pagina_noto(pagina):
     #     print(i)
 
     # Por último muestro los que no están identificados
-    restos_noto = [c for c in imp6.restos_noto if not esta_eliminado(c[0])]
+    restos_noto = [
+        c
+        for c in imp6.restos_noto
+        if not esta_eliminado(c[0]) and es_secuencia_fully_qualified(c[0])
+    ]
     print(f"    Dibujos no existentes en Unicode: {len(restos_noto)}")
     t += '  <section id="gr-noto-no-unicode">\n'
     t += "    <h2>Dibujos de Noto no definidos en Unicode</h2>\n"
@@ -712,7 +733,10 @@ def genera_pagina_noto(pagina):
 
 def genera_pagina_twemoji_jdecked(pagina):
     identificados = [
-        copy.deepcopy(c) for c in imp7.manual_1 if not esta_eliminado(c[0])
+        copy.deepcopy(c)
+        for c in imp7.manual_1
+        if not esta_eliminado(c[0])
+        and es_secuencia_fully_qualified(agrega_selectores_variacion(c[0]))
     ]
     for i in range(len(identificados) - 1, -1, -1):
         # print(identificados[i])
@@ -920,7 +944,10 @@ def genera_pagina_twemoji_jdecked(pagina):
 
     # Por último muestro los que no están identificados
     restos_twemoji = [
-        c for c in imp7.restos_twemoji if not esta_eliminado(c[0])
+        c
+        for c in imp7.restos_twemoji
+        if not esta_eliminado(c[0])
+        and es_secuencia_fully_qualified(agrega_selectores_variacion(c[0]))
     ]
     print(f"    Dibujos no existentes en Unicode: {len(restos_twemoji)}")
     t += '  <section id="gr-twemoji-no-unicode">\n'
@@ -1280,7 +1307,7 @@ def genera_pagina_secuencias(pagina, grupos):
     for grupo in grupos:
         caracteres = []
         for c in imp3.manual_1:
-            if esta_eliminado(c[0]):
+            if esta_eliminado(c[0]) or not es_secuencia_fully_qualified(c[0]):
                 continue
             for cgrupo in c[1]:
                 if cgrupo == grupo[0]:

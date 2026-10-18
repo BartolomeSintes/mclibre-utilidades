@@ -651,13 +651,13 @@ uc_grupos_sentido = [
     [
         "gr-sentido-1",
         "Sentido (1)",
-        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con seis o siete caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, además del código Fitzpatrick y el identificador de dirección para dirigir al personaje hacia la derecha, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-1">apartado Géneros (1) de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con seis o siete caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, además del código Fitzpatrick y el identificador de dirección para dirigir al personaje hacia la derecha, como se comenta en el <a href="html-unicode-secuencias.html#gr-sentido">apartado Sentido de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_NO,
     ],
     [
         "gr-sentido-2",
         "Sentido (2)",
-        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con seis o siete  caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, además del código Fitzpatrick y el identificador de dirección para dirigir al personaje hacia la derecha, como se comenta en el <a href="html-unicode-secuencias.html#gr-sentido-2">apartado Sentido (2) de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con seis o siete  caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, además del código Fitzpatrick y el identificador de dirección para dirigir al personaje hacia la derecha, como se comenta en el <a href="html-unicode-secuencias.html#gr-sentido">apartado Sentido de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_NO,
     ],
 ]
