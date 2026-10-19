@@ -218,7 +218,7 @@ def grupos_paginas(elemento):
             and elemento[0][3] == "200D"
             and elemento[0][4] in ["1F468", "1F469"]
         ):
-            grupos += ["gr-parejas-corazon-1"]
+            grupos += ["gr-parejas-corazon-11"]
         # ADULTO ZWJ APRETÓN-MANOS ZWJ ADULTO
         if (
             elemento[0][0] == "1F9D1"
@@ -277,7 +277,7 @@ def grupos_paginas(elemento):
             and elemento[0][4] == "200D"
             and elemento[0][5] in ["1F468", "1F469"]
         ):
-            grupos += ["gr-parejas-corazon-2"]
+            grupos += ["gr-parejas-corazon-1"]
     elif len(elemento[0]) == 7:
         # BANDERA REGION
         if elemento[0][0] == "1F3F4":
@@ -325,7 +325,7 @@ def grupos_paginas(elemento):
             and elemento[0][5] == "1F9D1"
             and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-corazon-piel-3"]
+            grupos += ["gr-parejas-corazon-piel-12"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN ZWJ ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -336,7 +336,7 @@ def grupos_paginas(elemento):
             and elemento[0][5] in ["1F468", "1F469"]
             and elemento[0][6] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-corazon-piel-1"]
+            grupos += ["gr-parejas-corazon-piel-11"]
         # HOMBRE/MUJER ZWJ CORAZÓN ZWJ BESO ZWJ HOMBRE/MUJER
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -347,7 +347,7 @@ def grupos_paginas(elemento):
             and elemento[0][5] == "200D"
             and elemento[0][6] in ["1F468", "1F469"]
         ):
-            grupos += ["gr-parejas-beso-1"]
+            grupos += ["gr-parejas-beso-11"]
         # M/W FZ ZWJ LOQUESEA ZWJ M/W FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -382,7 +382,7 @@ def grupos_paginas(elemento):
             and elemento[0][6] == "200D"
             and elemento[0][7] in ["1F468", "1F469"]
         ):
-            grupos += ["gr-parejas-beso-2"]
+            grupos += ["gr-parejas-beso-1"]
         # ADULTO FZ ZWJ CORAZÓN VS16 ZWJ ZWJ ADULTO FZ
         if (
             elemento[0][0] == "1F9D1"
@@ -394,7 +394,7 @@ def grupos_paginas(elemento):
             and elemento[0][6] == "1F9D1"
             and elemento[0][7] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-corazon-piel-4"]
+            grupos += ["gr-parejas-corazon-piel-2"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN VS16 ZWJ ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -406,7 +406,7 @@ def grupos_paginas(elemento):
             and elemento[0][6] in ["1F468", "1F469"]
             and elemento[0][7] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-corazon-piel-2"]
+            grupos += ["gr-parejas-corazon-piel-1"]
     elif len(elemento[0]) == 9:
         # ADULTO FZ ZWJ CORAZÓN ZWJ BESO ZWJ ADULTO FZ
         if (
@@ -420,7 +420,7 @@ def grupos_paginas(elemento):
             and elemento[0][7] == "1F9D1"
             and elemento[0][8] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-beso-piel-3"]
+            grupos += ["gr-parejas-beso-piel-12"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN ZWJ BESO ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -433,7 +433,7 @@ def grupos_paginas(elemento):
             and elemento[0][7] in ["1F468", "1F469"]
             and elemento[0][8] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-beso-piel-1"]
+            grupos += ["gr-parejas-beso-piel-11"]
     elif len(elemento[0]) == 10:
         # ADULTO FZ ZWJ CORAZÓN VS16 ZWJ BESO ZWJ ADULTO FZ
         if (
@@ -448,7 +448,7 @@ def grupos_paginas(elemento):
             and elemento[0][8] == "1F9D1"
             and elemento[0][9] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-beso-piel-4"]
+            grupos += ["gr-parejas-beso-piel-2"]
         # HOMBRE/MUJER FZ ZWJ CORAZÓN VS16 ZWJ BESO ZWJ HOMBRE/MUJER FZ
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -462,7 +462,7 @@ def grupos_paginas(elemento):
             and elemento[0][8] in ["1F468", "1F469"]
             and elemento[0][9] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
         ):
-            grupos += ["gr-parejas-beso-piel-2"]
+            grupos += ["gr-parejas-beso-piel-1"]
     return grupos
 
 
