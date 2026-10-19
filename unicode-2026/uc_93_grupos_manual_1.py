@@ -15,7 +15,7 @@ def grupos_paginas(elemento):
     grupos = []
     paginas = []
     # Sentido hacia la derecha
-    if ("27A1" in elemento[0]):
+    if "27A1" in elemento[0]:
         # GÉNEROS (1) CON SENTIDO DERECHA
         if (
             (len(elemento[0]) == 5 or len(elemento[0]) == 6)
@@ -90,20 +90,20 @@ def grupos_paginas(elemento):
         ):
             grupos += ["gr-banderas-paises"]
         # PAREJA FZ
-        if (
-            elemento[0][0] in ["1F46B", "1F46C", "1F46D"]
-            and elemento[0][1] in ["1F3FB", "1F3FC", "1F3FD", "1F3FE", "1F3FF"]
-        ):
+        if elemento[0][0] in ["1F46B", "1F46C", "1F46D"] and elemento[0][1] in [
+            "1F3FB",
+            "1F3FC",
+            "1F3FD",
+            "1F3FE",
+            "1F3FF",
+        ]:
             grupos += ["gr-parejas-mano-piel-1"]
         # XXX KEYCAP
         if elemento[0][1] == "20E3":
             grupos += ["gr-keycap-1"]
     elif len(elemento[0]) == 3:
         # BANDERAS VARIAS
-        if (
-            elemento[0][0] in ["1F3F3", "1F3F4"]
-            and elemento[0][1] == "200D"
-        ):
+        if elemento[0][0] in ["1F3F3", "1F3F4"] and elemento[0][1] == "200D":
             grupos += ["gr-banderas-otras"]
         # M/W ZWJ NIÑO/NIÑA
         if (
@@ -114,7 +114,7 @@ def grupos_paginas(elemento):
             grupos += ["gr-familias-1"]
         # ADULTO ZWJ XXX
         if elemento[0][0] == "1F9D1" and elemento[0][1] == "200D":
-            grupos += ["gr-genero-3"]
+            grupos += ["gr-genero-2"]
         # M/W ZWJ XXX
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -124,11 +124,8 @@ def grupos_paginas(elemento):
         ):
             grupos += ["gr-genero-1"]
         # XXX ZWJ M/F
-        if (
-            elemento[0][1] == "200D"
-            and elemento[0][2] in ["2640", "2642"]
-        ):
-            grupos += ["gr-genero-2"]
+        if elemento[0][1] == "200D" and elemento[0][2] in ["2640", "2642"]:
+            grupos += ["gr-genero-11"]
         # XXX KFE0F EYCAP
         if elemento[0][1] == "FE0F" and elemento[0][2] == "20E3":
             grupos += ["gr-keycap-2"]
@@ -139,7 +136,7 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-7"]
+            grupos += ["gr-genero-5"]
         # BANDERAS VARIAS
         if (
             elemento[0][0] == "1F3F3"
@@ -159,21 +156,21 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-4"]
+            grupos += ["gr-genero-3"]
         # ZWJ M/F XXX VS16
         if (
             elemento[0][1] == "200D"
             and elemento[0][2] in ["2640", "2642"]
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-5"]
+            grupos += ["gr-genero-4"]
         # XXX VS16 ZWJ M/F
         if (
             elemento[0][1] == "FE0F"
             and elemento[0][2] == "200D"
             and elemento[0][3] in ["2640", "2642"]
         ):
-            grupos += ["gr-genero-6"]
+            grupos += ["gr-genero-12"]
         # ADULTO FZ ZWJ XXX
         if (
             elemento[0][0] == "1F9D1"
@@ -238,7 +235,7 @@ def grupos_paginas(elemento):
             and elemento[0][3] in ["2640", "2642"]
             and elemento[0][4] == "FE0F"
         ):
-            grupos += ["gr-genero-8"]
+            grupos += ["gr-genero-6"]
         # ADULTO FZ ZWJ XXX VS16
         if (
             elemento[0][0] == "1F9D1"
@@ -495,6 +492,7 @@ def crea_manual_1():
     #         if len(i[1]) > 1:
     #             print(f"    {i}")
 
+
 def incluye_emojis():
     global manual_1, restos_noto
 
@@ -555,8 +553,7 @@ def incluye_emojis():
                 print(c)
 
     # Caracteres asociados a mano, porque automáticamente no se asocian
-    asociados_manuales = [
-    ]
+    asociados_manuales = []
     for asociado in asociados_manuales:
         fin = len(manual_1)
         i = 0
@@ -636,7 +633,7 @@ def exporta_pagina():
         t += '<html lang="es">\n'
         t += "<head>\n"
         t += '  <meta charset="utf-8">\n'
-        t += '  <title>Emojis por grupos</title>\n'
+        t += "  <title>Emojis por grupos</title>\n"
         t += "</head>\n"
         t += "<body>\n"
         t += "<h1>Emojis por gupos</h1>\n"

@@ -15,7 +15,7 @@ def grupos_paginas(elemento):
     grupos = []
     paginas = []
     # Sentido hacia la derecha
-    if ("27A1" in elemento[0]):
+    if "27A1" in elemento[0]:
         # GÉNEROS (1) CON SENTIDO DERECHA
         if (
             (len(elemento[0]) == 5 or len(elemento[0]) == 6)
@@ -114,7 +114,7 @@ def grupos_paginas(elemento):
             grupos += ["gr-familias-1"]
         # ADULTO ZWJ XXX
         if elemento[0][0] == "1F9D1" and elemento[0][1] == "200D":
-            grupos += ["gr-genero-3"]
+            grupos += ["gr-genero-2"]
         # M/W ZWJ XXX
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -125,7 +125,7 @@ def grupos_paginas(elemento):
             grupos += ["gr-genero-1"]
         # XXX ZWJ M/F
         if elemento[0][1] == "200D" and elemento[0][2] in ["2640", "2642"]:
-            grupos += ["gr-genero-2"]
+            grupos += ["gr-genero-11"]
         # XXX KFE0F EYCAP
         if elemento[0][1] == "FE0F" and elemento[0][2] == "20E3":
             grupos += ["gr-keycap-2"]
@@ -136,7 +136,7 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-7"]
+            grupos += ["gr-genero-5"]
         # BANDERAS VARIAS
         if (
             elemento[0][0] == "1F3F3"
@@ -156,21 +156,21 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-4"]
+            grupos += ["gr-genero-3"]
         # ZWJ M/F XXX VS16
         if (
             elemento[0][1] == "200D"
             and elemento[0][2] in ["2640", "2642"]
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-5"]
+            grupos += ["gr-genero-4"]
         # XXX VS16 ZWJ M/F
         if (
             elemento[0][1] == "FE0F"
             and elemento[0][2] == "200D"
             and elemento[0][3] in ["2640", "2642"]
         ):
-            grupos += ["gr-genero-6"]
+            grupos += ["gr-genero-12"]
         # ADULTO FZ ZWJ XXX
         if (
             elemento[0][0] == "1F9D1"
@@ -235,7 +235,7 @@ def grupos_paginas(elemento):
             and elemento[0][3] in ["2640", "2642"]
             and elemento[0][4] == "FE0F"
         ):
-            grupos += ["gr-genero-8"]
+            grupos += ["gr-genero-6"]
         # ADULTO FZ ZWJ XXX VS16
         if (
             elemento[0][0] == "1F9D1"
@@ -528,7 +528,7 @@ def incluye_emojis():
         print(f"  CUIDADO: HAY {len(restos_twemoji)} DIBUJOS DE TWEMOJI")
         print("           QUE NO CORRESPONDEN A SECUENCIAS")
     # print(cuenta_twemojis_asociados, cuenta_caracteres_no_asociados, len(restos_twemoji))
-    print (restos_twemoji)
+    print(restos_twemoji)
     print()
 
     cuenta_varios_grupos = 0
