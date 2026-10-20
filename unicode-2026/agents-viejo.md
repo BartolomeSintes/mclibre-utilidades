@@ -28,4 +28,9 @@ Claude dice que quién lo hace bien es Firefox
 
 - Sustituye en uc_11_generador.py y el resto de programas .py las referencias explícitas a ficheros por su nombre por las constantes definidas en ucdef.py? Por ejemplo uc_11_generador.py importa unicode_txt_derived_name cuando en ucdef.py FICHERO_UNICODE reperesenta el mismo fichero.
 
+## 2026-10-20
+
+El programa uc_11_grupos_manual_1_twemoji.py está escrito para ser llamado directamente desde el terminal. Quiero que se pueda llamar desde index.py eligiendo la opción 11.
+
+Haz lo mismo con uc_12_grupos_manual_1_noto.py, uc_13_grupos_manual_twemoji_jdecked.py, uc_21_util.py y uc_22_generador.py
 

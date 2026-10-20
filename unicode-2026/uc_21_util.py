@@ -2251,45 +2251,50 @@ win_10 = [
     # "U+1F9D1 U+200D U+1F9D2 U+200D U+1F9D2",
 ]
 
-uc_chrome_en_firefox = [cadena for cadena in uc_chrome if cadena in uc_firefox]
-if uc_chrome_en_firefox:
-    print("Error: elementos de uc_chrome que también están en uc_firefox:")
-    for cadena in uc_chrome_en_firefox:
-        print(f"  {cadena}")
-    raise SystemExit(1)
+def main():
+    uc_chrome_en_firefox = [cadena for cadena in uc_chrome if cadena in uc_firefox]
+    if uc_chrome_en_firefox:
+        print("Error: elementos de uc_chrome que también están en uc_firefox:")
+        for cadena in uc_chrome_en_firefox:
+            print(f"  {cadena}")
+        raise SystemExit(1)
 
-win_11_en_navegadores = [
-    cadena for cadena in win_11 if cadena in uc_chrome or cadena in uc_firefox
-]
-if win_11_en_navegadores:
-    print("Error: elementos de win_11 que también están en uc_chrome o uc_firefox:")
-    for cadena in win_11_en_navegadores:
-        print(f"  {cadena}")
-    raise SystemExit(1)
+    win_11_en_navegadores = [
+        cadena for cadena in win_11 if cadena in uc_chrome or cadena in uc_firefox
+    ]
+    if win_11_en_navegadores:
+        print("Error: elementos de win_11 que también están en uc_chrome o uc_firefox:")
+        for cadena in win_11_en_navegadores:
+            print(f"  {cadena}")
+        raise SystemExit(1)
 
-t = "manual_2 = [\n"
-for codigos, mensajes in genera_manual_2(uc_firefox, uc_chrome, win_10, win_11):
-    t += "  [\n"
-    t += f"    {codigos},\n"
-    t += f"    {mensajes}\n"
-    t += "  ],\n"
-t += "]"
+    t = "manual_2 = [\n"
+    for codigos, mensajes in genera_manual_2(uc_firefox, uc_chrome, win_10, win_11):
+        t += "  [\n"
+        t += f"    {codigos},\n"
+        t += f"    {mensajes}\n"
+        t += "  ],\n"
+    t += "]"
 
-print(f"Creando {ucdef.FICHERO_MANUAL_2}")
-destino = ucdef.FICHERO_MANUAL_2
-with open(destino, "w", encoding="utf-8") as fichero:
-    fichero.write(t)
+    print(f"Creando {ucdef.FICHERO_MANUAL_2}")
+    destino = ucdef.FICHERO_MANUAL_2
+    with open(destino, "w", encoding="utf-8") as fichero:
+        fichero.write(t)
 
-t = "eliminados = [\n"
-for cadena in uc_eliminados:
-    codigos = [codigo.replace("U+", "") for codigo in cadena.split()]
-    t += f"  {codigos},\n"
-for cadena in uc_eliminados_2:
-    codigos = [codigo.replace("U+", "") for codigo in cadena.split()]
-    t += f"  {codigos},\n"
-t += "]\n"
+    t = "eliminados = [\n"
+    for cadena in uc_eliminados:
+        codigos = [codigo.replace("U+", "") for codigo in cadena.split()]
+        t += f"  {codigos},\n"
+    for cadena in uc_eliminados_2:
+        codigos = [codigo.replace("U+", "") for codigo in cadena.split()]
+        t += f"  {codigos},\n"
+    t += "]\n"
 
-print(f"Creando {ucdef.FICHERO_ELIMINADOS}")
-destino = ucdef.FICHERO_ELIMINADOS
-with open(destino, "w", encoding="utf-8") as fichero:
-    fichero.write(t)
+    print(f"Creando {ucdef.FICHERO_ELIMINADOS}")
+    destino = ucdef.FICHERO_ELIMINADOS
+    with open(destino, "w", encoding="utf-8") as fichero:
+        fichero.write(t)
+
+
+if __name__ == "__main__":
+    main()
