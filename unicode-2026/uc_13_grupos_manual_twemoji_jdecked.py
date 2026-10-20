@@ -113,8 +113,20 @@ def grupos_paginas(elemento):
         ):
             grupos += ["gr-familias-1"]
         # ADULTO ZWJ XXX
-        if elemento[0][0] == "1F9D1" and elemento[0][1] == "200D":
-            grupos += ["gr-genero-2"]
+        if (
+            elemento[0][0] == "1F9D1"
+            and elemento[0][1] == "200D"
+            # ¡CUIDADO! Adulto + niño es una familia, no un género
+            and elemento[0][2] != "1F9D2"
+        ):
+            grupos += ["gr-genero-1"]
+        # ADULTO ZWJ NIÑO
+        if (
+            elemento[0][0] == "1F9D1"
+            and elemento[0][1] == "200D"
+            and elemento[0][2] == "1F9D2"
+        ):
+            grupos += ["gr-familias-4"]
         # M/W ZWJ XXX
         if (
             elemento[0][0] in ["1F468", "1F469"]
@@ -136,7 +148,7 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-5"]
+            grupos += ["gr-genero-2"]
         # BANDERAS VARIAS
         if (
             elemento[0][0] == "1F3F3"
@@ -156,14 +168,14 @@ def grupos_paginas(elemento):
             and elemento[0][1] == "200D"
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-3"]
+            grupos += ["gr-genero-2"]
         # ZWJ M/F XXX VS16
         if (
             elemento[0][1] == "200D"
             and elemento[0][2] in ["2640", "2642"]
             and elemento[0][3] == "FE0F"
         ):
-            grupos += ["gr-genero-4"]
+            grupos += ["gr-genero-3"]
         # XXX VS16 ZWJ M/F
         if (
             elemento[0][1] == "FE0F"
@@ -235,7 +247,7 @@ def grupos_paginas(elemento):
             and elemento[0][3] in ["2640", "2642"]
             and elemento[0][4] == "FE0F"
         ):
-            grupos += ["gr-genero-6"]
+            grupos += ["gr-genero-4"]
         # ADULTO FZ ZWJ XXX VS16
         if (
             elemento[0][0] == "1F9D1"

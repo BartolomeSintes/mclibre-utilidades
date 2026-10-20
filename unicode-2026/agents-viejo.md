@@ -34,3 +34,35 @@ El programa uc_11_grupos_manual_1_twemoji.py está escrito para ser llamado dire
 
 Haz lo mismo con uc_12_grupos_manual_1_noto.py, uc_13_grupos_manual_twemoji_jdecked.py, uc_21_util.py y uc_22_generador.py
 
+He modificado uc_11_grupos_manual_1_twemoji.py, uc_12_grupos_manual_1_noto.py y uc_13_grupos_manual_twemoji_jdecked.py de manera que a los elementos que se asignaba el grupo gr-genero-2 se le asigne el grupo gr-genero-1, pero ahora al ejecutar uc_22_generador.py da el error:
+  File "D:\_Carpetas_frecuentes\Documentos\_MCLibre.org\Actual\consultar\utilidades\unicode-2026\index.py", line 61, in <module>
+    main()
+    ~~~~^^
+  File "D:\_Carpetas_frecuentes\Documentos\_MCLibre.org\Actual\consultar\utilidades\unicode-2026\index.py", line 55, in main
+    uc_22.main()
+    ~~~~~~~~~~^^
+  File "D:\_Carpetas_frecuentes\Documentos\_MCLibre.org\Actual\consultar\utilidades\unicode-2026\uc_22_generador.py", line 1473, in main
+    contenido=genera_pagina(pagina[0]), fecha=fecha
+              ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\_Carpetas_frecuentes\Documentos\_MCLibre.org\Actual\consultar\utilidades\unicode-2026\uc_22_generador.py", line 100, in genera_pagina
+    return genera_pagina_secuencias(pagina, ucdef.uc_grupos_generos)
+  File "D:\_Carpetas_frecuentes\Documentos\_MCLibre.org\Actual\consultar\utilidades\unicode-2026\uc_22_generador.py", line 1325, in genera_pagina_secuencias
+    caracteres = ordena(caracteres, grupo[3])
+  File "D:\_Carpetas_frecuentes\Documentos\_MCLibre.org\Actual\consultar\utilidades\unicode-2026\uc_22_generador.py", line 1273, in ordena
+    cs += [cs2[i]]
+           ~~~^^^
+IndexError: list index out of range
+
+¿Por qué? ¿Se puede corregir?
+
+Lo que quiero es que si antes ordenaba hombre/mujer ahora quiero que ordene neutro/hombre/mujer. ¿Es eso lo que has hecho?
+
+
+He modificado uc_11_grupos_manual_1_twemoji.py, uc_12_grupos_manual_1_noto.py y uc_13_grupos_manual_twemoji_jdecked.py de manera que a los elementos que se asignaba los grupos  gr-genero-3 y gr-genero-5 se le asigne el grupo gr-genero-2. ¿Puedes cambiar uc_22_generador.py para que los ordene en el orden neutro(hombre/mujer?
+
+
+Hay dos problemas: las secuencias U+1F9D1 U+200D U+1F9D2 y U+1F9D1 U+200D U+1FA70 se clasifican como gr-genero-1 cuando no corresponden a ese grupo porque no hay secuencias similares neutro/hombre/mujer. ¿Podrías añadir condiciones para esos dos casos particulares en uc_11_grupos_manual_1_twemoji.py, uc_12_grupos_manual_1_noto.py y uc_13_grupos_manual_twemoji_jdecked.py?
+ U+1F9D1 U+200D U+1FA70 lo dejo en gr-genero-1 y U+1F9D1 U+200D U+1F9D2 lo clasifico como gr-familias-4
+
+
+

@@ -1260,18 +1260,23 @@ def genera_pagina_caracteres(pagina):
 
 def ordena(cs1, tipo):
     if tipo == ucdef.ORDENA_ESPECIAL_1:
-        cs2 = []
-        for i in range(len(cs1) - 1, -1, -1):
-            if cs1[i][0][0] == "1F469":
-                cs2 += [cs1[i]]
-                del cs1[i]
-        cs1.sort()
-        cs2.sort()
+        orden_generos = ("1F9D1", "1F468", "1F469")
+        grupos_genero = {genero: {} for genero in orden_generos}
+        otros = []
+        for caracter in cs1:
+            genero = caracter[0][0]
+            if genero not in grupos_genero:
+                otros.append(caracter)
+                continue
+            secuencia = tuple(caracter[0][1:])
+            grupos_genero[genero].setdefault(secuencia, []).append(caracter)
+
         cs = []
-        for i in range(len(cs1)):
-            cs += [cs1[i]]
-            cs += [cs2[i]]
-        return cs
+        secuencias = sorted(set().union(*(grupo.keys() for grupo in grupos_genero.values())))
+        for secuencia in secuencias:
+            for genero in orden_generos:
+                cs.extend(grupos_genero[genero].get(secuencia, []))
+        return cs + sorted(otros)
         # for c in cs:
         #     print(c)
     elif tipo == ucdef.ORDENA_ESPECIAL_2:

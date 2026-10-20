@@ -1216,12 +1216,12 @@ manual_1 = [
   ],
   [
     ['1F9D4', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d4-200d-2642-fe0f.svg',
   ],
   [
     ['1F9D4', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d4-200d-2640-fe0f.svg',
   ],
   [
@@ -1256,7 +1256,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9B0'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f9b0.svg',
   ],
   [
@@ -1266,7 +1266,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9B1'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f9b1.svg',
   ],
   [
@@ -1276,7 +1276,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9B3'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f9b3.svg',
   ],
   [
@@ -1286,17 +1286,17 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9B2'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f9b2.svg',
   ],
   [
     ['1F471', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f471-200d-2640-fe0f.svg',
   ],
   [
     ['1F471', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f471-200d-2642-fe0f.svg',
   ],
   [
@@ -1321,12 +1321,12 @@ manual_1 = [
   ],
   [
     ['1F64D', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f64d-200d-2642-fe0f.svg',
   ],
   [
     ['1F64D', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f64d-200d-2640-fe0f.svg',
   ],
   [
@@ -1336,12 +1336,12 @@ manual_1 = [
   ],
   [
     ['1F64E', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f64e-200d-2642-fe0f.svg',
   ],
   [
     ['1F64E', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f64e-200d-2640-fe0f.svg',
   ],
   [
@@ -1351,12 +1351,12 @@ manual_1 = [
   ],
   [
     ['1F645', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f645-200d-2642-fe0f.svg',
   ],
   [
     ['1F645', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f645-200d-2640-fe0f.svg',
   ],
   [
@@ -1366,12 +1366,12 @@ manual_1 = [
   ],
   [
     ['1F646', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f646-200d-2642-fe0f.svg',
   ],
   [
     ['1F646', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f646-200d-2640-fe0f.svg',
   ],
   [
@@ -1381,12 +1381,12 @@ manual_1 = [
   ],
   [
     ['1F481', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f481-200d-2642-fe0f.svg',
   ],
   [
     ['1F481', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f481-200d-2640-fe0f.svg',
   ],
   [
@@ -1396,12 +1396,12 @@ manual_1 = [
   ],
   [
     ['1F64B', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f64b-200d-2642-fe0f.svg',
   ],
   [
     ['1F64B', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f64b-200d-2640-fe0f.svg',
   ],
   [
@@ -1411,12 +1411,12 @@ manual_1 = [
   ],
   [
     ['1F9CF', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9cf-200d-2642-fe0f.svg',
   ],
   [
     ['1F9CF', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9cf-200d-2640-fe0f.svg',
   ],
   [
@@ -1426,12 +1426,12 @@ manual_1 = [
   ],
   [
     ['1F647', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f647-200d-2642-fe0f.svg',
   ],
   [
     ['1F647', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f647-200d-2640-fe0f.svg',
   ],
   [
@@ -1441,12 +1441,12 @@ manual_1 = [
   ],
   [
     ['1F926', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f926-200d-2642-fe0f.svg',
   ],
   [
     ['1F926', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f926-200d-2640-fe0f.svg',
   ],
   [
@@ -1456,32 +1456,32 @@ manual_1 = [
   ],
   [
     ['1F937', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f937-200d-2642-fe0f.svg',
   ],
   [
     ['1F937', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f937-200d-2640-fe0f.svg',
   ],
   [
     ['1F9D1', '200D', '2695', 'FE0F'],
-    ['gr-genero-5'],
+    ['gr-genero-2'],
     '1f9d1-200d-2695-fe0f.svg',
   ],
   [
     ['1F468', '200D', '2695', 'FE0F'],
-    ['gr-genero-3'],
+    ['gr-genero-2'],
     '1f468-200d-2695-fe0f.svg',
   ],
   [
     ['1F469', '200D', '2695', 'FE0F'],
-    ['gr-genero-3'],
+    ['gr-genero-2'],
     '1f469-200d-2695-fe0f.svg',
   ],
   [
     ['1F9D1', '200D', '1F393'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f393.svg',
   ],
   [
@@ -1496,7 +1496,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F3EB'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f3eb.svg',
   ],
   [
@@ -1511,22 +1511,22 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '2696', 'FE0F'],
-    ['gr-genero-5'],
+    ['gr-genero-2'],
     '1f9d1-200d-2696-fe0f.svg',
   ],
   [
     ['1F468', '200D', '2696', 'FE0F'],
-    ['gr-genero-3'],
+    ['gr-genero-2'],
     '1f468-200d-2696-fe0f.svg',
   ],
   [
     ['1F469', '200D', '2696', 'FE0F'],
-    ['gr-genero-3'],
+    ['gr-genero-2'],
     '1f469-200d-2696-fe0f.svg',
   ],
   [
     ['1F9D1', '200D', '1F33E'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f33e.svg',
   ],
   [
@@ -1541,7 +1541,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F373'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f373.svg',
   ],
   [
@@ -1556,7 +1556,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F527'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f527.svg',
   ],
   [
@@ -1571,7 +1571,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F3ED'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f3ed.svg',
   ],
   [
@@ -1586,7 +1586,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F4BC'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f4bc.svg',
   ],
   [
@@ -1601,7 +1601,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F52C'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f52c.svg',
   ],
   [
@@ -1616,7 +1616,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F4BB'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f4bb.svg',
   ],
   [
@@ -1631,7 +1631,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F3A4'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f3a4.svg',
   ],
   [
@@ -1646,7 +1646,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F3A8'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f3a8.svg',
   ],
   [
@@ -1661,22 +1661,22 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '2708', 'FE0F'],
-    ['gr-genero-5'],
+    ['gr-genero-2'],
     '1f9d1-200d-2708-fe0f.svg',
   ],
   [
     ['1F468', '200D', '2708', 'FE0F'],
-    ['gr-genero-3'],
+    ['gr-genero-2'],
     '1f468-200d-2708-fe0f.svg',
   ],
   [
     ['1F469', '200D', '2708', 'FE0F'],
-    ['gr-genero-3'],
+    ['gr-genero-2'],
     '1f469-200d-2708-fe0f.svg',
   ],
   [
     ['1F9D1', '200D', '1F680'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f680.svg',
   ],
   [
@@ -1691,7 +1691,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F692'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f692.svg',
   ],
   [
@@ -1711,12 +1711,12 @@ manual_1 = [
   ],
   [
     ['1F46E', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f46e-200d-2642-fe0f.svg',
   ],
   [
     ['1F46E', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f46e-200d-2640-fe0f.svg',
   ],
   [
@@ -1726,12 +1726,12 @@ manual_1 = [
   ],
   [
     ['1F575', 'FE0F', '200D', '2642', 'FE0F'],
-    ['gr-genero-6'],
+    ['gr-genero-4'],
     '1f575-fe0f-200d-2642-fe0f.svg',
   ],
   [
     ['1F575', 'FE0F', '200D', '2640', 'FE0F'],
-    ['gr-genero-6'],
+    ['gr-genero-4'],
     '1f575-fe0f-200d-2640-fe0f.svg',
   ],
   [
@@ -1741,12 +1741,12 @@ manual_1 = [
   ],
   [
     ['1F482', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f482-200d-2642-fe0f.svg',
   ],
   [
     ['1F482', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f482-200d-2640-fe0f.svg',
   ],
   [
@@ -1761,12 +1761,12 @@ manual_1 = [
   ],
   [
     ['1F477', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f477-200d-2642-fe0f.svg',
   ],
   [
     ['1F477', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f477-200d-2640-fe0f.svg',
   ],
   [
@@ -1791,12 +1791,12 @@ manual_1 = [
   ],
   [
     ['1F473', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f473-200d-2642-fe0f.svg',
   ],
   [
     ['1F473', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f473-200d-2640-fe0f.svg',
   ],
   [
@@ -1816,12 +1816,12 @@ manual_1 = [
   ],
   [
     ['1F935', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f935-200d-2642-fe0f.svg',
   ],
   [
     ['1F935', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f935-200d-2640-fe0f.svg',
   ],
   [
@@ -1831,12 +1831,12 @@ manual_1 = [
   ],
   [
     ['1F470', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f470-200d-2642-fe0f.svg',
   ],
   [
     ['1F470', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f470-200d-2640-fe0f.svg',
   ],
   [
@@ -1871,7 +1871,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F37C'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f37c.svg',
   ],
   [
@@ -1891,7 +1891,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F384'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f384.svg',
   ],
   [
@@ -1901,12 +1901,12 @@ manual_1 = [
   ],
   [
     ['1F9B8', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9b8-200d-2642-fe0f.svg',
   ],
   [
     ['1F9B8', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9b8-200d-2640-fe0f.svg',
   ],
   [
@@ -1916,12 +1916,12 @@ manual_1 = [
   ],
   [
     ['1F9B9', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9b9-200d-2642-fe0f.svg',
   ],
   [
     ['1F9B9', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9b9-200d-2640-fe0f.svg',
   ],
   [
@@ -1931,12 +1931,12 @@ manual_1 = [
   ],
   [
     ['1F9D9', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d9-200d-2642-fe0f.svg',
   ],
   [
     ['1F9D9', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d9-200d-2640-fe0f.svg',
   ],
   [
@@ -1946,12 +1946,12 @@ manual_1 = [
   ],
   [
     ['1F9DA', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9da-200d-2642-fe0f.svg',
   ],
   [
     ['1F9DA', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9da-200d-2640-fe0f.svg',
   ],
   [
@@ -1961,12 +1961,12 @@ manual_1 = [
   ],
   [
     ['1F9DB', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9db-200d-2642-fe0f.svg',
   ],
   [
     ['1F9DB', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9db-200d-2640-fe0f.svg',
   ],
   [
@@ -1976,12 +1976,12 @@ manual_1 = [
   ],
   [
     ['1F9DC', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9dc-200d-2642-fe0f.svg',
   ],
   [
     ['1F9DC', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9dc-200d-2640-fe0f.svg',
   ],
   [
@@ -1991,12 +1991,12 @@ manual_1 = [
   ],
   [
     ['1F9DD', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9dd-200d-2642-fe0f.svg',
   ],
   [
     ['1F9DD', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9dd-200d-2640-fe0f.svg',
   ],
   [
@@ -2006,12 +2006,12 @@ manual_1 = [
   ],
   [
     ['1F9DE', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9de-200d-2642-fe0f.svg',
   ],
   [
     ['1F9DE', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9de-200d-2640-fe0f.svg',
   ],
   [
@@ -2021,12 +2021,12 @@ manual_1 = [
   ],
   [
     ['1F9DF', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9df-200d-2642-fe0f.svg',
   ],
   [
     ['1F9DF', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9df-200d-2640-fe0f.svg',
   ],
   [
@@ -2046,12 +2046,12 @@ manual_1 = [
   ],
   [
     ['1F486', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f486-200d-2642-fe0f.svg',
   ],
   [
     ['1F486', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f486-200d-2640-fe0f.svg',
   ],
   [
@@ -2061,12 +2061,12 @@ manual_1 = [
   ],
   [
     ['1F487', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f487-200d-2642-fe0f.svg',
   ],
   [
     ['1F487', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f487-200d-2640-fe0f.svg',
   ],
   [
@@ -2076,12 +2076,12 @@ manual_1 = [
   ],
   [
     ['1F6B6', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f6b6-200d-2642-fe0f.svg',
   ],
   [
     ['1F6B6', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f6b6-200d-2640-fe0f.svg',
   ],
   [
@@ -2106,12 +2106,12 @@ manual_1 = [
   ],
   [
     ['1F9CD', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9cd-200d-2642-fe0f.svg',
   ],
   [
     ['1F9CD', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9cd-200d-2640-fe0f.svg',
   ],
   [
@@ -2121,12 +2121,12 @@ manual_1 = [
   ],
   [
     ['1F9CE', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9ce-200d-2642-fe0f.svg',
   ],
   [
     ['1F9CE', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9ce-200d-2640-fe0f.svg',
   ],
   [
@@ -2146,7 +2146,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9AF'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f9af.svg',
   ],
   [
@@ -2176,7 +2176,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9BC'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f9bc.svg',
   ],
   [
@@ -2206,7 +2206,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9BD'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1f9bd.svg',
   ],
   [
@@ -2241,12 +2241,12 @@ manual_1 = [
   ],
   [
     ['1F3C3', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f3c3-200d-2642-fe0f.svg',
   ],
   [
     ['1F3C3', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f3c3-200d-2640-fe0f.svg',
   ],
   [
@@ -2266,7 +2266,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1FA70'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '1f9d1-200d-1fa70.svg',
   ],
   [
@@ -2291,12 +2291,12 @@ manual_1 = [
   ],
   [
     ['1F46F', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f46f-200d-2642-fe0f.svg',
   ],
   [
     ['1F46F', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f46f-200d-2640-fe0f.svg',
   ],
   [
@@ -2306,12 +2306,12 @@ manual_1 = [
   ],
   [
     ['1F9D6', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d6-200d-2642-fe0f.svg',
   ],
   [
     ['1F9D6', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d6-200d-2640-fe0f.svg',
   ],
   [
@@ -2321,12 +2321,12 @@ manual_1 = [
   ],
   [
     ['1F9D7', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d7-200d-2642-fe0f.svg',
   ],
   [
     ['1F9D7', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d7-200d-2640-fe0f.svg',
   ],
   [
@@ -2356,12 +2356,12 @@ manual_1 = [
   ],
   [
     ['1F3CC', 'FE0F', '200D', '2642', 'FE0F'],
-    ['gr-genero-6'],
+    ['gr-genero-4'],
     '1f3cc-fe0f-200d-2642-fe0f.svg',
   ],
   [
     ['1F3CC', 'FE0F', '200D', '2640', 'FE0F'],
-    ['gr-genero-6'],
+    ['gr-genero-4'],
     '1f3cc-fe0f-200d-2640-fe0f.svg',
   ],
   [
@@ -2371,12 +2371,12 @@ manual_1 = [
   ],
   [
     ['1F3C4', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f3c4-200d-2642-fe0f.svg',
   ],
   [
     ['1F3C4', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f3c4-200d-2640-fe0f.svg',
   ],
   [
@@ -2386,12 +2386,12 @@ manual_1 = [
   ],
   [
     ['1F6A3', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f6a3-200d-2642-fe0f.svg',
   ],
   [
     ['1F6A3', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f6a3-200d-2640-fe0f.svg',
   ],
   [
@@ -2401,12 +2401,12 @@ manual_1 = [
   ],
   [
     ['1F3CA', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f3ca-200d-2642-fe0f.svg',
   ],
   [
     ['1F3CA', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f3ca-200d-2640-fe0f.svg',
   ],
   [
@@ -2416,12 +2416,12 @@ manual_1 = [
   ],
   [
     ['26F9', 'FE0F', '200D', '2642', 'FE0F'],
-    ['gr-genero-6'],
+    ['gr-genero-4'],
     '26f9-fe0f-200d-2642-fe0f.svg',
   ],
   [
     ['26F9', 'FE0F', '200D', '2640', 'FE0F'],
-    ['gr-genero-6'],
+    ['gr-genero-4'],
     '26f9-fe0f-200d-2640-fe0f.svg',
   ],
   [
@@ -2431,12 +2431,12 @@ manual_1 = [
   ],
   [
     ['1F3CB', 'FE0F', '200D', '2642', 'FE0F'],
-    ['gr-genero-6'],
+    ['gr-genero-4'],
     '1f3cb-fe0f-200d-2642-fe0f.svg',
   ],
   [
     ['1F3CB', 'FE0F', '200D', '2640', 'FE0F'],
-    ['gr-genero-6'],
+    ['gr-genero-4'],
     '1f3cb-fe0f-200d-2640-fe0f.svg',
   ],
   [
@@ -2446,12 +2446,12 @@ manual_1 = [
   ],
   [
     ['1F6B4', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f6b4-200d-2642-fe0f.svg',
   ],
   [
     ['1F6B4', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f6b4-200d-2640-fe0f.svg',
   ],
   [
@@ -2461,12 +2461,12 @@ manual_1 = [
   ],
   [
     ['1F6B5', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f6b5-200d-2642-fe0f.svg',
   ],
   [
     ['1F6B5', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f6b5-200d-2640-fe0f.svg',
   ],
   [
@@ -2476,12 +2476,12 @@ manual_1 = [
   ],
   [
     ['1F938', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f938-200d-2642-fe0f.svg',
   ],
   [
     ['1F938', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f938-200d-2640-fe0f.svg',
   ],
   [
@@ -2491,12 +2491,12 @@ manual_1 = [
   ],
   [
     ['1F93C', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f93c-200d-2642-fe0f.svg',
   ],
   [
     ['1F93C', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f93c-200d-2640-fe0f.svg',
   ],
   [
@@ -2506,12 +2506,12 @@ manual_1 = [
   ],
   [
     ['1F93D', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f93d-200d-2642-fe0f.svg',
   ],
   [
     ['1F93D', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f93d-200d-2640-fe0f.svg',
   ],
   [
@@ -2521,12 +2521,12 @@ manual_1 = [
   ],
   [
     ['1F93E', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f93e-200d-2642-fe0f.svg',
   ],
   [
     ['1F93E', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f93e-200d-2640-fe0f.svg',
   ],
   [
@@ -2536,12 +2536,12 @@ manual_1 = [
   ],
   [
     ['1F939', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f939-200d-2642-fe0f.svg',
   ],
   [
     ['1F939', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f939-200d-2640-fe0f.svg',
   ],
   [
@@ -2551,12 +2551,12 @@ manual_1 = [
   ],
   [
     ['1F9D8', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d8-200d-2642-fe0f.svg',
   ],
   [
     ['1F9D8', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '1f9d8-200d-2640-fe0f.svg',
   ],
   [
@@ -2791,7 +2791,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '1F9D2'],
-    ['gr-genero-2'],
+    ['gr-familias-4'],
     '1f9d1-200d-1f9d2.svg',
   ],
   [
@@ -19361,102 +19361,102 @@ manual_1 = [
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
-    ['gr-parejas-corazon-piel-4'],
+    ['gr-parejas-corazon-piel-2'],
     '1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fe.svg',
   ],
   [
@@ -20686,7 +20686,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '2695'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '',
   ],
   [
@@ -20776,7 +20776,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '2696'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '',
   ],
   [
@@ -20866,7 +20866,7 @@ manual_1 = [
   ],
   [
     ['1F9D1', '200D', '2708'],
-    ['gr-genero-2'],
+    ['gr-genero-1'],
     '',
   ],
   [
@@ -21021,7 +21021,7 @@ manual_1 = [
   ],
   [
     ['1F575', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '',
   ],
   [
@@ -21061,7 +21061,7 @@ manual_1 = [
   ],
   [
     ['1F575', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '',
   ],
   [
@@ -23296,7 +23296,7 @@ manual_1 = [
   ],
   [
     ['1F3CC', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '',
   ],
   [
@@ -23336,7 +23336,7 @@ manual_1 = [
   ],
   [
     ['1F3CC', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '',
   ],
   [
@@ -23561,7 +23561,7 @@ manual_1 = [
   ],
   [
     ['26F9', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '',
   ],
   [
@@ -23601,7 +23601,7 @@ manual_1 = [
   ],
   [
     ['26F9', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '',
   ],
   [
@@ -23646,7 +23646,7 @@ manual_1 = [
   ],
   [
     ['1F3CB', '200D', '2642', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '',
   ],
   [
@@ -23686,7 +23686,7 @@ manual_1 = [
   ],
   [
     ['1F3CB', '200D', '2640', 'FE0F'],
-    ['gr-genero-4'],
+    ['gr-genero-3'],
     '',
   ],
   [
@@ -24306,7 +24306,7 @@ manual_1 = [
   ],
   [
     ['1F469', '200D', '2764', '200D', '1F48B', '200D', '1F468'],
-    ['gr-parejas-beso-1'],
+    ['gr-parejas-beso-11'],
     '',
   ],
   [
@@ -24436,7 +24436,7 @@ manual_1 = [
   ],
   [
     ['1F468', '200D', '2764', '200D', '1F48B', '200D', '1F468'],
-    ['gr-parejas-beso-1'],
+    ['gr-parejas-beso-11'],
     '',
   ],
   [
@@ -24566,7 +24566,7 @@ manual_1 = [
   ],
   [
     ['1F469', '200D', '2764', '200D', '1F48B', '200D', '1F469'],
-    ['gr-parejas-beso-1'],
+    ['gr-parejas-beso-11'],
     '',
   ],
   [

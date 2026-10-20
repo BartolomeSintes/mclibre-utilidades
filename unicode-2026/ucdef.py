@@ -380,7 +380,6 @@ uc_grupos_2 = [
     "gr-genero-3",
     "gr-genero-4",
     "gr-genero-12",
-    "genero-7",
     "gr-colores-piel-1",
     "gr-colores-piel-2",
     "gr-colores-piel-11",
@@ -432,7 +431,7 @@ uc_grupos_generos = [
     [
         "gr-genero-1",
         "Géneros (1)",
-        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-1">apartado Géneros (1) de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes neutros, femeninos o masculinos. Estas secuencias se forman con tres caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-1">apartado Géneros (1) de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_1,
     ],
     [
@@ -444,19 +443,13 @@ uc_grupos_generos = [
     [
         "gr-genero-2",
         "Géneros (2)",
-        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes neutros (ni femeninos ni masculinos). Estas secuencias se forman con tres caracteres, combinando el <i>emoji</i> que representa a un adulto con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-2">apartado Géneros (2) de la lección Secuencias Unicode</a>.</p>\n',
-        ORDENA_ESPECIAL_NO,
+        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes neutros, femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando el carácter adulto neutro, hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-2">apartado Géneros (2) de la lección Secuencias Unicode</a>.</p>\n',
+        ORDENA_ESPECIAL_1,
     ],
     [
         "gr-genero-3",
         "Géneros (3)",
-        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando el carácter hombre o mujer con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-3">apartado Géneros (3) de la lección Secuencias Unicode</a>.</p>\n',
-        ORDENA_ESPECIAL_NO,
-    ],
-    [
-        "gr-genero-4",
-        "Géneros (4)",
-        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-4">apartado Géneros (4) de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cuatro caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-3">apartado Géneros (3) de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_NO,
     ],
     [
@@ -466,15 +459,9 @@ uc_grupos_generos = [
         ORDENA_ESPECIAL_NO,
     ],
     [
-        "gr-genero-5",
-        "Géneros (5)",
-        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes neutros (ni femeninos ni masculinos). Estas secuencias se forman con cuatro caracteres, combinando el <i>emoji</i> que representa a un adulto con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-5">apartado Géneros (5) de la lección Secuencias Unicode</a>.</p>\n',
-        ORDENA_ESPECIAL_NO,
-    ],
-    [
-        "gr-genero-6",
-        "Géneros (6)",
-        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-6">apartado Géneros (6) de la lección Secuencias Unicode</a>.</p>\n',
+        "gr-genero-4",
+        "Géneros (4)",
+        '    <p>En este apartado se muestran secuencias Unicode ZWJ que corresponden a profesiones o actividades con personajes femeninos o masculinos. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-genero-4">apartado Géneros (4) de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_NO,
     ],
 ]
@@ -534,7 +521,7 @@ uc_grupos_parejas = [
     [
         "gr-familias-4",
         "Familias genéricas",
-        '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias genéricas formadas por tres o cuatro miembros: uno o dos adultos y uno o dos niños. Estas secuencias se forman con cinco o siete caracteres, combinando los caracteres de adulto y niño, como se comenta en el <a href="html-unicode-secuencias.html#familias">apartado Familias de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran las secuencias Unicode ZWJ que corresponden a familias genéricas formadas por dos, tres o cuatro miembros: uno o dos adultos y uno o dos niños. Estas secuencias se forman con tres, cinco o siete caracteres, combinando los caracteres de adulto y niño, como se comenta en el <a href="html-unicode-secuencias.html#familias">apartado Familias de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_NO,
     ],
     [
