@@ -217,7 +217,7 @@ manual_1 = [
   [
     ['1F636', '200D', '1F32B', 'FE0F'],
     ['gr-restos'],
-    '',
+    'emoji_u1f636_200d_1f32b.svg',
   ],
   [
     ['1F60F'],
@@ -257,12 +257,12 @@ manual_1 = [
   [
     ['1F642', '200D', '2194', 'FE0F'],
     ['gr-restos'],
-    '',
+    'emoji_u1f642_200d_2194.svg',
   ],
   [
     ['1F642', '200D', '2195', 'FE0F'],
     ['gr-restos'],
-    '',
+    'emoji_u1f642_200d_2195.svg',
   ],
   [
     ['1F60C'],
@@ -717,12 +717,12 @@ manual_1 = [
   [
     ['2764', 'FE0F', '200D', '1F525'],
     ['gr-restos'],
-    '',
+    'emoji_u2764_200d_1f525.svg',
   ],
   [
     ['2764', 'FE0F', '200D', '1FA79'],
     ['gr-restos'],
-    '',
+    'emoji_u2764_200d_1fa79.svg',
   ],
   [
     ['2764'],
@@ -837,7 +837,7 @@ manual_1 = [
   [
     ['1F441', 'FE0F', '200D', '1F5E8', 'FE0F'],
     ['gr-restos'],
-    '',
+    'emoji_u1f441_200d_1f5e8.svg',
   ],
   [
     ['1F5E8'],
@@ -1217,12 +1217,12 @@ manual_1 = [
   [
     ['1F9D4', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d4_200d_2642.svg',
   ],
   [
     ['1F9D4', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d4_200d_2640.svg',
   ],
   [
     ['1F468', '200D', '1F9B0'],
@@ -1292,12 +1292,12 @@ manual_1 = [
   [
     ['1F471', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f471_200d_2640.svg',
   ],
   [
     ['1F471', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f471_200d_2642.svg',
   ],
   [
     ['1F9D3'],
@@ -1322,12 +1322,12 @@ manual_1 = [
   [
     ['1F64D', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f64d_200d_2642.svg',
   ],
   [
     ['1F64D', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f64d_200d_2640.svg',
   ],
   [
     ['1F64E'],
@@ -1337,12 +1337,12 @@ manual_1 = [
   [
     ['1F64E', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f64e_200d_2642.svg',
   ],
   [
     ['1F64E', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f64e_200d_2640.svg',
   ],
   [
     ['1F645'],
@@ -1352,12 +1352,12 @@ manual_1 = [
   [
     ['1F645', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f645_200d_2642.svg',
   ],
   [
     ['1F645', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f645_200d_2640.svg',
   ],
   [
     ['1F646'],
@@ -1367,12 +1367,12 @@ manual_1 = [
   [
     ['1F646', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f646_200d_2642.svg',
   ],
   [
     ['1F646', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f646_200d_2640.svg',
   ],
   [
     ['1F481'],
@@ -1382,12 +1382,12 @@ manual_1 = [
   [
     ['1F481', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f481_200d_2642.svg',
   ],
   [
     ['1F481', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f481_200d_2640.svg',
   ],
   [
     ['1F64B'],
@@ -1397,12 +1397,12 @@ manual_1 = [
   [
     ['1F64B', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f64b_200d_2642.svg',
   ],
   [
     ['1F64B', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f64b_200d_2640.svg',
   ],
   [
     ['1F9CF'],
@@ -1412,12 +1412,12 @@ manual_1 = [
   [
     ['1F9CF', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9cf_200d_2642.svg',
   ],
   [
     ['1F9CF', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9cf_200d_2640.svg',
   ],
   [
     ['1F647'],
@@ -1427,12 +1427,12 @@ manual_1 = [
   [
     ['1F647', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f647_200d_2642.svg',
   ],
   [
     ['1F647', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f647_200d_2640.svg',
   ],
   [
     ['1F926'],
@@ -1442,12 +1442,12 @@ manual_1 = [
   [
     ['1F926', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f926_200d_2642.svg',
   ],
   [
     ['1F926', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f926_200d_2640.svg',
   ],
   [
     ['1F937'],
@@ -1457,27 +1457,27 @@ manual_1 = [
   [
     ['1F937', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f937_200d_2642.svg',
   ],
   [
     ['1F937', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f937_200d_2640.svg',
   ],
   [
     ['1F9D1', '200D', '2695', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f9d1_200d_2695.svg',
   ],
   [
     ['1F468', '200D', '2695', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f468_200d_2695.svg',
   ],
   [
     ['1F469', '200D', '2695', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f469_200d_2695.svg',
   ],
   [
     ['1F9D1', '200D', '1F393'],
@@ -1512,17 +1512,17 @@ manual_1 = [
   [
     ['1F9D1', '200D', '2696', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f9d1_200d_2696.svg',
   ],
   [
     ['1F468', '200D', '2696', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f468_200d_2696.svg',
   ],
   [
     ['1F469', '200D', '2696', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f469_200d_2696.svg',
   ],
   [
     ['1F9D1', '200D', '1F33E'],
@@ -1662,17 +1662,17 @@ manual_1 = [
   [
     ['1F9D1', '200D', '2708', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f9d1_200d_2708.svg',
   ],
   [
     ['1F468', '200D', '2708', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f468_200d_2708.svg',
   ],
   [
     ['1F469', '200D', '2708', 'FE0F'],
     ['gr-genero-2'],
-    '',
+    'emoji_u1f469_200d_2708.svg',
   ],
   [
     ['1F9D1', '200D', '1F680'],
@@ -1712,12 +1712,12 @@ manual_1 = [
   [
     ['1F46E', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f46e_200d_2642.svg',
   ],
   [
     ['1F46E', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f46e_200d_2640.svg',
   ],
   [
     ['1F575'],
@@ -1727,12 +1727,12 @@ manual_1 = [
   [
     ['1F575', 'FE0F', '200D', '2642', 'FE0F'],
     ['gr-genero-4'],
-    '',
+    'emoji_u1f575_200d_2642.svg',
   ],
   [
     ['1F575', 'FE0F', '200D', '2640', 'FE0F'],
     ['gr-genero-4'],
-    '',
+    'emoji_u1f575_200d_2640.svg',
   ],
   [
     ['1F482'],
@@ -1742,12 +1742,12 @@ manual_1 = [
   [
     ['1F482', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f482_200d_2642.svg',
   ],
   [
     ['1F482', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f482_200d_2640.svg',
   ],
   [
     ['1F977'],
@@ -1762,12 +1762,12 @@ manual_1 = [
   [
     ['1F477', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f477_200d_2642.svg',
   ],
   [
     ['1F477', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f477_200d_2640.svg',
   ],
   [
     ['1FAC5'],
@@ -1792,12 +1792,12 @@ manual_1 = [
   [
     ['1F473', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f473_200d_2642.svg',
   ],
   [
     ['1F473', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f473_200d_2640.svg',
   ],
   [
     ['1F472'],
@@ -1817,12 +1817,12 @@ manual_1 = [
   [
     ['1F935', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f935_200d_2642.svg',
   ],
   [
     ['1F935', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f935_200d_2640.svg',
   ],
   [
     ['1F470'],
@@ -1832,12 +1832,12 @@ manual_1 = [
   [
     ['1F470', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f470_200d_2642.svg',
   ],
   [
     ['1F470', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f470_200d_2640.svg',
   ],
   [
     ['1F930'],
@@ -1902,12 +1902,12 @@ manual_1 = [
   [
     ['1F9B8', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9b8_200d_2642.svg',
   ],
   [
     ['1F9B8', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9b8_200d_2640.svg',
   ],
   [
     ['1F9B9'],
@@ -1917,12 +1917,12 @@ manual_1 = [
   [
     ['1F9B9', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9b9_200d_2642.svg',
   ],
   [
     ['1F9B9', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9b9_200d_2640.svg',
   ],
   [
     ['1F9D9'],
@@ -1932,12 +1932,12 @@ manual_1 = [
   [
     ['1F9D9', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d9_200d_2642.svg',
   ],
   [
     ['1F9D9', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d9_200d_2640.svg',
   ],
   [
     ['1F9DA'],
@@ -1947,12 +1947,12 @@ manual_1 = [
   [
     ['1F9DA', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9da_200d_2642.svg',
   ],
   [
     ['1F9DA', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9da_200d_2640.svg',
   ],
   [
     ['1F9DB'],
@@ -1962,12 +1962,12 @@ manual_1 = [
   [
     ['1F9DB', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9db_200d_2642.svg',
   ],
   [
     ['1F9DB', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9db_200d_2640.svg',
   ],
   [
     ['1F9DC'],
@@ -1977,12 +1977,12 @@ manual_1 = [
   [
     ['1F9DC', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9dc_200d_2642.svg',
   ],
   [
     ['1F9DC', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9dc_200d_2640.svg',
   ],
   [
     ['1F9DD'],
@@ -1992,12 +1992,12 @@ manual_1 = [
   [
     ['1F9DD', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9dd_200d_2642.svg',
   ],
   [
     ['1F9DD', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9dd_200d_2640.svg',
   ],
   [
     ['1F9DE'],
@@ -2007,12 +2007,12 @@ manual_1 = [
   [
     ['1F9DE', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9de_200d_2642.svg',
   ],
   [
     ['1F9DE', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9de_200d_2640.svg',
   ],
   [
     ['1F9DF'],
@@ -2022,12 +2022,12 @@ manual_1 = [
   [
     ['1F9DF', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9df_200d_2642.svg',
   ],
   [
     ['1F9DF', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9df_200d_2640.svg',
   ],
   [
     ['1F9CC'],
@@ -2047,12 +2047,12 @@ manual_1 = [
   [
     ['1F486', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f486_200d_2642.svg',
   ],
   [
     ['1F486', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f486_200d_2640.svg',
   ],
   [
     ['1F487'],
@@ -2062,12 +2062,12 @@ manual_1 = [
   [
     ['1F487', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f487_200d_2642.svg',
   ],
   [
     ['1F487', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f487_200d_2640.svg',
   ],
   [
     ['1F6B6'],
@@ -2077,27 +2077,27 @@ manual_1 = [
   [
     ['1F6B6', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f6b6_200d_2642.svg',
   ],
   [
     ['1F6B6', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f6b6_200d_2640.svg',
   ],
   [
     ['1F6B6', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_200d_27a1.svg',
   ],
   [
     ['1F6B6', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CD'],
@@ -2107,12 +2107,12 @@ manual_1 = [
   [
     ['1F9CD', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9cd_200d_2642.svg',
   ],
   [
     ['1F9CD', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9cd_200d_2640.svg',
   ],
   [
     ['1F9CE'],
@@ -2122,27 +2122,27 @@ manual_1 = [
   [
     ['1F9CE', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9ce_200d_2642.svg',
   ],
   [
     ['1F9CE', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9ce_200d_2640.svg',
   ],
   [
     ['1F9CE', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_200d_27a1.svg',
   ],
   [
     ['1F9CE', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9D1', '200D', '1F9AF'],
@@ -2152,7 +2152,7 @@ manual_1 = [
   [
     ['1F9D1', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F468', '200D', '1F9AF'],
@@ -2162,7 +2162,7 @@ manual_1 = [
   [
     ['1F468', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F469', '200D', '1F9AF'],
@@ -2172,7 +2172,7 @@ manual_1 = [
   [
     ['1F469', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F9D1', '200D', '1F9BC'],
@@ -2182,7 +2182,7 @@ manual_1 = [
   [
     ['1F9D1', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F468', '200D', '1F9BC'],
@@ -2192,7 +2192,7 @@ manual_1 = [
   [
     ['1F468', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F469', '200D', '1F9BC'],
@@ -2202,7 +2202,7 @@ manual_1 = [
   [
     ['1F469', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F9D1', '200D', '1F9BD'],
@@ -2212,7 +2212,7 @@ manual_1 = [
   [
     ['1F9D1', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F468', '200D', '1F9BD'],
@@ -2222,7 +2222,7 @@ manual_1 = [
   [
     ['1F468', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F469', '200D', '1F9BD'],
@@ -2232,7 +2232,7 @@ manual_1 = [
   [
     ['1F469', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F3C3'],
@@ -2242,27 +2242,27 @@ manual_1 = [
   [
     ['1F3C3', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3c3_200d_2642.svg',
   ],
   [
     ['1F3C3', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3c3_200d_2640.svg',
   ],
   [
     ['1F3C3', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_200d_27a1.svg',
   ],
   [
     ['1F3C3', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9D1', '200D', '1FA70'],
@@ -2292,12 +2292,12 @@ manual_1 = [
   [
     ['1F46F', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f46f_200d_2642.svg',
   ],
   [
     ['1F46F', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f46f_200d_2640.svg',
   ],
   [
     ['1F9D6'],
@@ -2307,12 +2307,12 @@ manual_1 = [
   [
     ['1F9D6', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d6_200d_2642.svg',
   ],
   [
     ['1F9D6', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d6_200d_2640.svg',
   ],
   [
     ['1F9D7'],
@@ -2322,12 +2322,12 @@ manual_1 = [
   [
     ['1F9D7', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d7_200d_2642.svg',
   ],
   [
     ['1F9D7', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d7_200d_2640.svg',
   ],
   [
     ['1F93A'],
@@ -2357,12 +2357,12 @@ manual_1 = [
   [
     ['1F3CC', 'FE0F', '200D', '2642', 'FE0F'],
     ['gr-genero-4'],
-    '',
+    'emoji_u1f3cc_200d_2642.svg',
   ],
   [
     ['1F3CC', 'FE0F', '200D', '2640', 'FE0F'],
     ['gr-genero-4'],
-    '',
+    'emoji_u1f3cc_200d_2640.svg',
   ],
   [
     ['1F3C4'],
@@ -2372,12 +2372,12 @@ manual_1 = [
   [
     ['1F3C4', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3c4_200d_2642.svg',
   ],
   [
     ['1F3C4', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3c4_200d_2640.svg',
   ],
   [
     ['1F6A3'],
@@ -2387,12 +2387,12 @@ manual_1 = [
   [
     ['1F6A3', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f6a3_200d_2642.svg',
   ],
   [
     ['1F6A3', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f6a3_200d_2640.svg',
   ],
   [
     ['1F3CA'],
@@ -2402,12 +2402,12 @@ manual_1 = [
   [
     ['1F3CA', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3ca_200d_2642.svg',
   ],
   [
     ['1F3CA', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3ca_200d_2640.svg',
   ],
   [
     ['26F9'],
@@ -2417,12 +2417,12 @@ manual_1 = [
   [
     ['26F9', 'FE0F', '200D', '2642', 'FE0F'],
     ['gr-genero-4'],
-    '',
+    'emoji_u26f9_200d_2642.svg',
   ],
   [
     ['26F9', 'FE0F', '200D', '2640', 'FE0F'],
     ['gr-genero-4'],
-    '',
+    'emoji_u26f9_200d_2640.svg',
   ],
   [
     ['1F3CB'],
@@ -2432,12 +2432,12 @@ manual_1 = [
   [
     ['1F3CB', 'FE0F', '200D', '2642', 'FE0F'],
     ['gr-genero-4'],
-    '',
+    'emoji_u1f3cb_200d_2642.svg',
   ],
   [
     ['1F3CB', 'FE0F', '200D', '2640', 'FE0F'],
     ['gr-genero-4'],
-    '',
+    'emoji_u1f3cb_200d_2640.svg',
   ],
   [
     ['1F6B4'],
@@ -2447,12 +2447,12 @@ manual_1 = [
   [
     ['1F6B4', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f6b4_200d_2642.svg',
   ],
   [
     ['1F6B4', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f6b4_200d_2640.svg',
   ],
   [
     ['1F6B5'],
@@ -2462,12 +2462,12 @@ manual_1 = [
   [
     ['1F6B5', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f6b5_200d_2642.svg',
   ],
   [
     ['1F6B5', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f6b5_200d_2640.svg',
   ],
   [
     ['1F938'],
@@ -2477,12 +2477,12 @@ manual_1 = [
   [
     ['1F938', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f938_200d_2642.svg',
   ],
   [
     ['1F938', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f938_200d_2640.svg',
   ],
   [
     ['1F93C'],
@@ -2492,12 +2492,12 @@ manual_1 = [
   [
     ['1F93C', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f93c_200d_2642.svg',
   ],
   [
     ['1F93C', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f93c_200d_2640.svg',
   ],
   [
     ['1F93D'],
@@ -2507,12 +2507,12 @@ manual_1 = [
   [
     ['1F93D', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f93d_200d_2642.svg',
   ],
   [
     ['1F93D', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f93d_200d_2640.svg',
   ],
   [
     ['1F93E'],
@@ -2522,12 +2522,12 @@ manual_1 = [
   [
     ['1F93E', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f93e_200d_2642.svg',
   ],
   [
     ['1F93E', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f93e_200d_2640.svg',
   ],
   [
     ['1F939'],
@@ -2537,12 +2537,12 @@ manual_1 = [
   [
     ['1F939', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f939_200d_2642.svg',
   ],
   [
     ['1F939', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f939_200d_2640.svg',
   ],
   [
     ['1F9D8'],
@@ -2552,12 +2552,12 @@ manual_1 = [
   [
     ['1F9D8', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d8_200d_2642.svg',
   ],
   [
     ['1F9D8', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f9d8_200d_2640.svg',
   ],
   [
     ['1F6C0'],
@@ -2597,17 +2597,17 @@ manual_1 = [
   [
     ['1F469', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468'],
     ['gr-parejas-beso-1'],
-    '',
+    'emoji_u1f469_200d_2764_200d_1f48b_200d_1f468.svg',
   ],
   [
     ['1F468', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468'],
     ['gr-parejas-beso-1'],
-    '',
+    'emoji_u1f468_200d_2764_200d_1f48b_200d_1f468.svg',
   ],
   [
     ['1F469', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469'],
     ['gr-parejas-beso-1'],
-    '',
+    'emoji_u1f469_200d_2764_200d_1f48b_200d_1f469.svg',
   ],
   [
     ['1F491'],
@@ -2617,17 +2617,17 @@ manual_1 = [
   [
     ['1F469', '200D', '2764', 'FE0F', '200D', '1F468'],
     ['gr-parejas-corazon-1'],
-    '',
+    'emoji_u1f469_200d_2764_200d_1f468.svg',
   ],
   [
     ['1F468', '200D', '2764', 'FE0F', '200D', '1F468'],
     ['gr-parejas-corazon-1'],
-    '',
+    'emoji_u1f468_200d_2764_200d_1f468.svg',
   ],
   [
     ['1F469', '200D', '2764', 'FE0F', '200D', '1F469'],
     ['gr-parejas-corazon-1'],
-    '',
+    'emoji_u1f469_200d_2764_200d_1f469.svg',
   ],
   [
     ['1F468', '200D', '1F469', '200D', '1F466'],
@@ -3117,7 +3117,7 @@ manual_1 = [
   [
     ['1F43B', '200D', '2744', 'FE0F'],
     ['gr-restos'],
-    '',
+    'emoji_u1f43b_200d_2744.svg',
   ],
   [
     ['1F428'],
@@ -6892,7 +6892,7 @@ manual_1 = [
   [
     ['26D3', 'FE0F', '200D', '1F4A5'],
     ['gr-restos'],
-    '',
+    'emoji_u26d3_200d_1f4a5.svg',
   ],
   [
     ['26D3'],
@@ -7857,62 +7857,62 @@ manual_1 = [
   [
     ['0023', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0023_20e3.svg',
   ],
   [
     ['002A', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u002a_20e3.svg',
   ],
   [
     ['0030', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0030_20e3.svg',
   ],
   [
     ['0031', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0031_20e3.svg',
   ],
   [
     ['0032', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0032_20e3.svg',
   ],
   [
     ['0033', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0033_20e3.svg',
   ],
   [
     ['0034', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0034_20e3.svg',
   ],
   [
     ['0035', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0035_20e3.svg',
   ],
   [
     ['0036', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0036_20e3.svg',
   ],
   [
     ['0037', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0037_20e3.svg',
   ],
   [
     ['0038', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0038_20e3.svg',
   ],
   [
     ['0039', 'FE0F', '20E3'],
     ['gr-keycap-2'],
-    '',
+    'emoji_u0039_20e3.svg',
   ],
   [
     ['1F51F'],
@@ -8312,17 +8312,17 @@ manual_1 = [
   [
     ['1F3F3', 'FE0F', '200D', '1F308'],
     ['gr-banderas-otras'],
-    '',
+    'emoji_u1f3f3_200d_1f308.svg',
   ],
   [
     ['1F3F3', 'FE0F', '200D', '26A7', 'FE0F'],
     ['gr-banderas-otras'],
-    '',
+    'emoji_u1f3f3_200d_26a7.svg',
   ],
   [
     ['1F3F4', '200D', '2620', 'FE0F'],
     ['gr-banderas-otras'],
-    '',
+    'emoji_u1f3f4_200d_2620.svg',
   ],
   [
     ['1F1E6', '1F1E8'],
@@ -11212,52 +11212,52 @@ manual_1 = [
   [
     ['1F9D4', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9D4', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9D4', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9D4', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9D4', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9D4', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9D4', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9D4', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9D4', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9D4', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d4_1f3ff_200d_2640.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '1F9B0'],
@@ -11587,52 +11587,52 @@ manual_1 = [
   [
     ['1F471', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3fb_200d_2640.svg',
   ],
   [
     ['1F471', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3fc_200d_2640.svg',
   ],
   [
     ['1F471', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3fd_200d_2640.svg',
   ],
   [
     ['1F471', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3fe_200d_2640.svg',
   ],
   [
     ['1F471', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3ff_200d_2640.svg',
   ],
   [
     ['1F471', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3fb_200d_2642.svg',
   ],
   [
     ['1F471', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3fc_200d_2642.svg',
   ],
   [
     ['1F471', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3fd_200d_2642.svg',
   ],
   [
     ['1F471', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3fe_200d_2642.svg',
   ],
   [
     ['1F471', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f471_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9D3', '1F3FB'],
@@ -11737,52 +11737,52 @@ manual_1 = [
   [
     ['1F64D', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3fb_200d_2642.svg',
   ],
   [
     ['1F64D', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3fc_200d_2642.svg',
   ],
   [
     ['1F64D', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3fd_200d_2642.svg',
   ],
   [
     ['1F64D', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3fe_200d_2642.svg',
   ],
   [
     ['1F64D', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3ff_200d_2642.svg',
   ],
   [
     ['1F64D', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3fb_200d_2640.svg',
   ],
   [
     ['1F64D', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3fc_200d_2640.svg',
   ],
   [
     ['1F64D', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3fd_200d_2640.svg',
   ],
   [
     ['1F64D', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3fe_200d_2640.svg',
   ],
   [
     ['1F64D', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64d_1f3ff_200d_2640.svg',
   ],
   [
     ['1F64E', '1F3FB'],
@@ -11812,52 +11812,52 @@ manual_1 = [
   [
     ['1F64E', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3fb_200d_2642.svg',
   ],
   [
     ['1F64E', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3fc_200d_2642.svg',
   ],
   [
     ['1F64E', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3fd_200d_2642.svg',
   ],
   [
     ['1F64E', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3fe_200d_2642.svg',
   ],
   [
     ['1F64E', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3ff_200d_2642.svg',
   ],
   [
     ['1F64E', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3fb_200d_2640.svg',
   ],
   [
     ['1F64E', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3fc_200d_2640.svg',
   ],
   [
     ['1F64E', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3fd_200d_2640.svg',
   ],
   [
     ['1F64E', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3fe_200d_2640.svg',
   ],
   [
     ['1F64E', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64e_1f3ff_200d_2640.svg',
   ],
   [
     ['1F645', '1F3FB'],
@@ -11887,52 +11887,52 @@ manual_1 = [
   [
     ['1F645', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3fb_200d_2642.svg',
   ],
   [
     ['1F645', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3fc_200d_2642.svg',
   ],
   [
     ['1F645', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3fd_200d_2642.svg',
   ],
   [
     ['1F645', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3fe_200d_2642.svg',
   ],
   [
     ['1F645', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3ff_200d_2642.svg',
   ],
   [
     ['1F645', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3fb_200d_2640.svg',
   ],
   [
     ['1F645', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3fc_200d_2640.svg',
   ],
   [
     ['1F645', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3fd_200d_2640.svg',
   ],
   [
     ['1F645', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3fe_200d_2640.svg',
   ],
   [
     ['1F645', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f645_1f3ff_200d_2640.svg',
   ],
   [
     ['1F646', '1F3FB'],
@@ -11962,52 +11962,52 @@ manual_1 = [
   [
     ['1F646', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3fb_200d_2642.svg',
   ],
   [
     ['1F646', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3fc_200d_2642.svg',
   ],
   [
     ['1F646', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3fd_200d_2642.svg',
   ],
   [
     ['1F646', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3fe_200d_2642.svg',
   ],
   [
     ['1F646', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3ff_200d_2642.svg',
   ],
   [
     ['1F646', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3fb_200d_2640.svg',
   ],
   [
     ['1F646', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3fc_200d_2640.svg',
   ],
   [
     ['1F646', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3fd_200d_2640.svg',
   ],
   [
     ['1F646', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3fe_200d_2640.svg',
   ],
   [
     ['1F646', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f646_1f3ff_200d_2640.svg',
   ],
   [
     ['1F481', '1F3FB'],
@@ -12037,52 +12037,52 @@ manual_1 = [
   [
     ['1F481', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3fb_200d_2642.svg',
   ],
   [
     ['1F481', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3fc_200d_2642.svg',
   ],
   [
     ['1F481', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3fd_200d_2642.svg',
   ],
   [
     ['1F481', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3fe_200d_2642.svg',
   ],
   [
     ['1F481', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3ff_200d_2642.svg',
   ],
   [
     ['1F481', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3fb_200d_2640.svg',
   ],
   [
     ['1F481', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3fc_200d_2640.svg',
   ],
   [
     ['1F481', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3fd_200d_2640.svg',
   ],
   [
     ['1F481', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3fe_200d_2640.svg',
   ],
   [
     ['1F481', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f481_1f3ff_200d_2640.svg',
   ],
   [
     ['1F64B', '1F3FB'],
@@ -12112,52 +12112,52 @@ manual_1 = [
   [
     ['1F64B', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3fb_200d_2642.svg',
   ],
   [
     ['1F64B', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3fc_200d_2642.svg',
   ],
   [
     ['1F64B', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3fd_200d_2642.svg',
   ],
   [
     ['1F64B', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3fe_200d_2642.svg',
   ],
   [
     ['1F64B', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3ff_200d_2642.svg',
   ],
   [
     ['1F64B', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3fb_200d_2640.svg',
   ],
   [
     ['1F64B', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3fc_200d_2640.svg',
   ],
   [
     ['1F64B', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3fd_200d_2640.svg',
   ],
   [
     ['1F64B', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3fe_200d_2640.svg',
   ],
   [
     ['1F64B', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f64b_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9CF', '1F3FB'],
@@ -12187,52 +12187,52 @@ manual_1 = [
   [
     ['1F9CF', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9CF', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9CF', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9CF', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9CF', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9CF', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9CF', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9CF', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9CF', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9CF', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cf_1f3ff_200d_2640.svg',
   ],
   [
     ['1F647', '1F3FB'],
@@ -12262,52 +12262,52 @@ manual_1 = [
   [
     ['1F647', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3fb_200d_2642.svg',
   ],
   [
     ['1F647', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3fc_200d_2642.svg',
   ],
   [
     ['1F647', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3fd_200d_2642.svg',
   ],
   [
     ['1F647', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3fe_200d_2642.svg',
   ],
   [
     ['1F647', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3ff_200d_2642.svg',
   ],
   [
     ['1F647', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3fb_200d_2640.svg',
   ],
   [
     ['1F647', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3fc_200d_2640.svg',
   ],
   [
     ['1F647', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3fd_200d_2640.svg',
   ],
   [
     ['1F647', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3fe_200d_2640.svg',
   ],
   [
     ['1F647', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f647_1f3ff_200d_2640.svg',
   ],
   [
     ['1F926', '1F3FB'],
@@ -12337,52 +12337,52 @@ manual_1 = [
   [
     ['1F926', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3fb_200d_2642.svg',
   ],
   [
     ['1F926', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3fc_200d_2642.svg',
   ],
   [
     ['1F926', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3fd_200d_2642.svg',
   ],
   [
     ['1F926', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3fe_200d_2642.svg',
   ],
   [
     ['1F926', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3ff_200d_2642.svg',
   ],
   [
     ['1F926', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3fb_200d_2640.svg',
   ],
   [
     ['1F926', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3fc_200d_2640.svg',
   ],
   [
     ['1F926', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3fd_200d_2640.svg',
   ],
   [
     ['1F926', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3fe_200d_2640.svg',
   ],
   [
     ['1F926', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f926_1f3ff_200d_2640.svg',
   ],
   [
     ['1F937', '1F3FB'],
@@ -12412,127 +12412,127 @@ manual_1 = [
   [
     ['1F937', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3fb_200d_2642.svg',
   ],
   [
     ['1F937', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3fc_200d_2642.svg',
   ],
   [
     ['1F937', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3fd_200d_2642.svg',
   ],
   [
     ['1F937', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3fe_200d_2642.svg',
   ],
   [
     ['1F937', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3ff_200d_2642.svg',
   ],
   [
     ['1F937', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3fb_200d_2640.svg',
   ],
   [
     ['1F937', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3fc_200d_2640.svg',
   ],
   [
     ['1F937', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3fd_200d_2640.svg',
   ],
   [
     ['1F937', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3fe_200d_2640.svg',
   ],
   [
     ['1F937', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f937_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2695.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2695.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2695.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2695.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2695.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2695.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2695.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2695.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2695.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2695.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2695.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2695.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2695.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2695.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2695', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2695.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F393'],
@@ -12687,77 +12687,77 @@ manual_1 = [
   [
     ['1F9D1', '1F3FB', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2696.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2696.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2696.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2696.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2696.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2696.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2696.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2696.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2696.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2696.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2696.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2696.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2696.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2696.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2696', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2696.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F33E'],
@@ -13437,77 +13437,77 @@ manual_1 = [
   [
     ['1F9D1', '1F3FB', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2708.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2708.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2708.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2708.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-6'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2708.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2708.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2708.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2708.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2708.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2708.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2708.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2708.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2708.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2708.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2708', 'FE0F'],
     ['gr-colores-piel-4'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2708.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F680'],
@@ -13687,52 +13687,52 @@ manual_1 = [
   [
     ['1F46E', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3fb_200d_2642.svg',
   ],
   [
     ['1F46E', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3fc_200d_2642.svg',
   ],
   [
     ['1F46E', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3fd_200d_2642.svg',
   ],
   [
     ['1F46E', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3fe_200d_2642.svg',
   ],
   [
     ['1F46E', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3ff_200d_2642.svg',
   ],
   [
     ['1F46E', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3fb_200d_2640.svg',
   ],
   [
     ['1F46E', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3fc_200d_2640.svg',
   ],
   [
     ['1F46E', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3fd_200d_2640.svg',
   ],
   [
     ['1F46E', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3fe_200d_2640.svg',
   ],
   [
     ['1F46E', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46e_1f3ff_200d_2640.svg',
   ],
   [
     ['1F575', '1F3FB'],
@@ -13762,52 +13762,52 @@ manual_1 = [
   [
     ['1F575', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3fb_200d_2642.svg',
   ],
   [
     ['1F575', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3fc_200d_2642.svg',
   ],
   [
     ['1F575', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3fd_200d_2642.svg',
   ],
   [
     ['1F575', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3fe_200d_2642.svg',
   ],
   [
     ['1F575', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3ff_200d_2642.svg',
   ],
   [
     ['1F575', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3fb_200d_2640.svg',
   ],
   [
     ['1F575', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3fc_200d_2640.svg',
   ],
   [
     ['1F575', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3fd_200d_2640.svg',
   ],
   [
     ['1F575', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3fe_200d_2640.svg',
   ],
   [
     ['1F575', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f575_1f3ff_200d_2640.svg',
   ],
   [
     ['1F482', '1F3FB'],
@@ -13837,52 +13837,52 @@ manual_1 = [
   [
     ['1F482', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3fb_200d_2642.svg',
   ],
   [
     ['1F482', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3fc_200d_2642.svg',
   ],
   [
     ['1F482', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3fd_200d_2642.svg',
   ],
   [
     ['1F482', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3fe_200d_2642.svg',
   ],
   [
     ['1F482', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3ff_200d_2642.svg',
   ],
   [
     ['1F482', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3fb_200d_2640.svg',
   ],
   [
     ['1F482', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3fc_200d_2640.svg',
   ],
   [
     ['1F482', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3fd_200d_2640.svg',
   ],
   [
     ['1F482', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3fe_200d_2640.svg',
   ],
   [
     ['1F482', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f482_1f3ff_200d_2640.svg',
   ],
   [
     ['1F977', '1F3FB'],
@@ -13937,52 +13937,52 @@ manual_1 = [
   [
     ['1F477', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3fb_200d_2642.svg',
   ],
   [
     ['1F477', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3fc_200d_2642.svg',
   ],
   [
     ['1F477', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3fd_200d_2642.svg',
   ],
   [
     ['1F477', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3fe_200d_2642.svg',
   ],
   [
     ['1F477', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3ff_200d_2642.svg',
   ],
   [
     ['1F477', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3fb_200d_2640.svg',
   ],
   [
     ['1F477', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3fc_200d_2640.svg',
   ],
   [
     ['1F477', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3fd_200d_2640.svg',
   ],
   [
     ['1F477', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3fe_200d_2640.svg',
   ],
   [
     ['1F477', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f477_1f3ff_200d_2640.svg',
   ],
   [
     ['1FAC5', '1F3FB'],
@@ -14087,52 +14087,52 @@ manual_1 = [
   [
     ['1F473', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3fb_200d_2642.svg',
   ],
   [
     ['1F473', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3fc_200d_2642.svg',
   ],
   [
     ['1F473', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3fd_200d_2642.svg',
   ],
   [
     ['1F473', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3fe_200d_2642.svg',
   ],
   [
     ['1F473', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3ff_200d_2642.svg',
   ],
   [
     ['1F473', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3fb_200d_2640.svg',
   ],
   [
     ['1F473', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3fc_200d_2640.svg',
   ],
   [
     ['1F473', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3fd_200d_2640.svg',
   ],
   [
     ['1F473', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3fe_200d_2640.svg',
   ],
   [
     ['1F473', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f473_1f3ff_200d_2640.svg',
   ],
   [
     ['1F472', '1F3FB'],
@@ -14212,52 +14212,52 @@ manual_1 = [
   [
     ['1F935', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3fb_200d_2642.svg',
   ],
   [
     ['1F935', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3fc_200d_2642.svg',
   ],
   [
     ['1F935', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3fd_200d_2642.svg',
   ],
   [
     ['1F935', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3fe_200d_2642.svg',
   ],
   [
     ['1F935', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3ff_200d_2642.svg',
   ],
   [
     ['1F935', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3fb_200d_2640.svg',
   ],
   [
     ['1F935', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3fc_200d_2640.svg',
   ],
   [
     ['1F935', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3fd_200d_2640.svg',
   ],
   [
     ['1F935', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3fe_200d_2640.svg',
   ],
   [
     ['1F935', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f935_1f3ff_200d_2640.svg',
   ],
   [
     ['1F470', '1F3FB'],
@@ -14287,52 +14287,52 @@ manual_1 = [
   [
     ['1F470', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3fb_200d_2642.svg',
   ],
   [
     ['1F470', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3fc_200d_2642.svg',
   ],
   [
     ['1F470', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3fd_200d_2642.svg',
   ],
   [
     ['1F470', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3fe_200d_2642.svg',
   ],
   [
     ['1F470', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3ff_200d_2642.svg',
   ],
   [
     ['1F470', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3fb_200d_2640.svg',
   ],
   [
     ['1F470', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3fc_200d_2640.svg',
   ],
   [
     ['1F470', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3fd_200d_2640.svg',
   ],
   [
     ['1F470', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3fe_200d_2640.svg',
   ],
   [
     ['1F470', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f470_1f3ff_200d_2640.svg',
   ],
   [
     ['1F930', '1F3FB'],
@@ -14637,52 +14637,52 @@ manual_1 = [
   [
     ['1F9B8', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9B8', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9B8', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9B8', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9B8', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9B8', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9B8', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9B8', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9B8', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9B8', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b8_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9B9', '1F3FB'],
@@ -14712,52 +14712,52 @@ manual_1 = [
   [
     ['1F9B9', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9B9', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9B9', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9B9', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9B9', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9B9', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9B9', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9B9', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9B9', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9B9', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9b9_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9D9', '1F3FB'],
@@ -14787,52 +14787,52 @@ manual_1 = [
   [
     ['1F9D9', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9D9', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9D9', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9D9', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9D9', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9D9', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9D9', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9D9', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9D9', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9D9', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d9_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9DA', '1F3FB'],
@@ -14862,52 +14862,52 @@ manual_1 = [
   [
     ['1F9DA', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9DA', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9DA', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9DA', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9DA', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9DA', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9DA', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9DA', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9DA', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9DA', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9da_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9DB', '1F3FB'],
@@ -14937,52 +14937,52 @@ manual_1 = [
   [
     ['1F9DB', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9DB', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9DB', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9DB', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9DB', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9DB', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9DB', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9DB', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9DB', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9DB', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9db_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9DC', '1F3FB'],
@@ -15012,52 +15012,52 @@ manual_1 = [
   [
     ['1F9DC', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9DC', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9DC', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9DC', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9DC', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9DC', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9DC', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9DC', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9DC', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9DC', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dc_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9DD', '1F3FB'],
@@ -15087,52 +15087,52 @@ manual_1 = [
   [
     ['1F9DD', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9DD', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9DD', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9DD', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9DD', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9DD', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9DD', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9DD', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9DD', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9DD', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9dd_1f3ff_200d_2640.svg',
   ],
   [
     ['1F486', '1F3FB'],
@@ -15162,52 +15162,52 @@ manual_1 = [
   [
     ['1F486', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3fb_200d_2642.svg',
   ],
   [
     ['1F486', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3fc_200d_2642.svg',
   ],
   [
     ['1F486', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3fd_200d_2642.svg',
   ],
   [
     ['1F486', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3fe_200d_2642.svg',
   ],
   [
     ['1F486', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3ff_200d_2642.svg',
   ],
   [
     ['1F486', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3fb_200d_2640.svg',
   ],
   [
     ['1F486', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3fc_200d_2640.svg',
   ],
   [
     ['1F486', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3fd_200d_2640.svg',
   ],
   [
     ['1F486', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3fe_200d_2640.svg',
   ],
   [
     ['1F486', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f486_1f3ff_200d_2640.svg',
   ],
   [
     ['1F487', '1F3FB'],
@@ -15237,52 +15237,52 @@ manual_1 = [
   [
     ['1F487', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3fb_200d_2642.svg',
   ],
   [
     ['1F487', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3fc_200d_2642.svg',
   ],
   [
     ['1F487', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3fd_200d_2642.svg',
   ],
   [
     ['1F487', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3fe_200d_2642.svg',
   ],
   [
     ['1F487', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3ff_200d_2642.svg',
   ],
   [
     ['1F487', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3fb_200d_2640.svg',
   ],
   [
     ['1F487', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3fc_200d_2640.svg',
   ],
   [
     ['1F487', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3fd_200d_2640.svg',
   ],
   [
     ['1F487', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3fe_200d_2640.svg',
   ],
   [
     ['1F487', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f487_1f3ff_200d_2640.svg',
   ],
   [
     ['1F6B6', '1F3FB'],
@@ -15312,127 +15312,127 @@ manual_1 = [
   [
     ['1F6B6', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_2642.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_2642.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_2642.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_2642.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_2642.svg',
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_2640.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_2640.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_2640.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_2640.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_2640.svg',
   ],
   [
     ['1F6B6', '1F3FB', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CD', '1F3FB'],
@@ -15462,52 +15462,52 @@ manual_1 = [
   [
     ['1F9CD', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9CD', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9CD', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9CD', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9CD', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9CD', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9CD', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9CD', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9CD', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9CD', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9cd_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9CE', '1F3FB'],
@@ -15537,127 +15537,127 @@ manual_1 = [
   [
     ['1F9CE', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9CE', '1F3FB', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F9AF'],
@@ -15687,27 +15687,27 @@ manual_1 = [
   [
     ['1F9D1', '1F3FB', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '1F9AF'],
@@ -15737,27 +15737,27 @@ manual_1 = [
   [
     ['1F468', '1F3FB', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '1F9AF'],
@@ -15787,27 +15787,27 @@ manual_1 = [
   [
     ['1F469', '1F3FB', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '1F9AF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_1f9af_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F9BC'],
@@ -15837,27 +15837,27 @@ manual_1 = [
   [
     ['1F9D1', '1F3FB', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '1F9BC'],
@@ -15887,27 +15887,27 @@ manual_1 = [
   [
     ['1F468', '1F3FB', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '1F9BC'],
@@ -15937,27 +15937,27 @@ manual_1 = [
   [
     ['1F469', '1F3FB', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '1F9BC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_1f9bc_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F9BD'],
@@ -15987,27 +15987,27 @@ manual_1 = [
   [
     ['1F9D1', '1F3FB', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '1F9BD'],
@@ -16037,27 +16037,27 @@ manual_1 = [
   [
     ['1F468', '1F3FB', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '1F9BD'],
@@ -16087,27 +16087,27 @@ manual_1 = [
   [
     ['1F469', '1F3FB', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '1F9BD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_1f9bd_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FB'],
@@ -16137,127 +16137,127 @@ manual_1 = [
   [
     ['1F3C3', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_2642.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_2642.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_2642.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_2642.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_2642.svg',
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_2640.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_2640.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_2640.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_2640.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_2640.svg',
   ],
   [
     ['1F3C3', '1F3FB', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1FA70'],
@@ -16387,52 +16387,52 @@ manual_1 = [
   [
     ['1F46F', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3fb_200d_2642.svg',
   ],
   [
     ['1F46F', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3fc_200d_2642.svg',
   ],
   [
     ['1F46F', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3fd_200d_2642.svg',
   ],
   [
     ['1F46F', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3fe_200d_2642.svg',
   ],
   [
     ['1F46F', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3ff_200d_2642.svg',
   ],
   [
     ['1F46F', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3fb_200d_2640.svg',
   ],
   [
     ['1F46F', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3fc_200d_2640.svg',
   ],
   [
     ['1F46F', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3fd_200d_2640.svg',
   ],
   [
     ['1F46F', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3fe_200d_2640.svg',
   ],
   [
     ['1F46F', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f46f_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1F430', '200D', '1F9D1', '1F3FC'],
@@ -16762,52 +16762,52 @@ manual_1 = [
   [
     ['1F9D6', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9D6', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9D6', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9D6', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9D6', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9D6', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9D6', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9D6', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9D6', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9D6', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d6_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9D7', '1F3FB'],
@@ -16837,52 +16837,52 @@ manual_1 = [
   [
     ['1F9D7', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9D7', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9D7', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9D7', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9D7', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9D7', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9D7', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9D7', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9D7', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9D7', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d7_1f3ff_200d_2640.svg',
   ],
   [
     ['1F3C7', '1F3FB'],
@@ -16962,52 +16962,52 @@ manual_1 = [
   [
     ['1F3CC', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3fb_200d_2642.svg',
   ],
   [
     ['1F3CC', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3fc_200d_2642.svg',
   ],
   [
     ['1F3CC', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3fd_200d_2642.svg',
   ],
   [
     ['1F3CC', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3fe_200d_2642.svg',
   ],
   [
     ['1F3CC', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3ff_200d_2642.svg',
   ],
   [
     ['1F3CC', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3fb_200d_2640.svg',
   ],
   [
     ['1F3CC', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3fc_200d_2640.svg',
   ],
   [
     ['1F3CC', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3fd_200d_2640.svg',
   ],
   [
     ['1F3CC', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3fe_200d_2640.svg',
   ],
   [
     ['1F3CC', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cc_1f3ff_200d_2640.svg',
   ],
   [
     ['1F3C4', '1F3FB'],
@@ -17037,52 +17037,52 @@ manual_1 = [
   [
     ['1F3C4', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3fb_200d_2642.svg',
   ],
   [
     ['1F3C4', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3fc_200d_2642.svg',
   ],
   [
     ['1F3C4', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3fd_200d_2642.svg',
   ],
   [
     ['1F3C4', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3fe_200d_2642.svg',
   ],
   [
     ['1F3C4', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3ff_200d_2642.svg',
   ],
   [
     ['1F3C4', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3fb_200d_2640.svg',
   ],
   [
     ['1F3C4', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3fc_200d_2640.svg',
   ],
   [
     ['1F3C4', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3fd_200d_2640.svg',
   ],
   [
     ['1F3C4', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3fe_200d_2640.svg',
   ],
   [
     ['1F3C4', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3c4_1f3ff_200d_2640.svg',
   ],
   [
     ['1F6A3', '1F3FB'],
@@ -17112,52 +17112,52 @@ manual_1 = [
   [
     ['1F6A3', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3fb_200d_2642.svg',
   ],
   [
     ['1F6A3', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3fc_200d_2642.svg',
   ],
   [
     ['1F6A3', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3fd_200d_2642.svg',
   ],
   [
     ['1F6A3', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3fe_200d_2642.svg',
   ],
   [
     ['1F6A3', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3ff_200d_2642.svg',
   ],
   [
     ['1F6A3', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3fb_200d_2640.svg',
   ],
   [
     ['1F6A3', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3fc_200d_2640.svg',
   ],
   [
     ['1F6A3', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3fd_200d_2640.svg',
   ],
   [
     ['1F6A3', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3fe_200d_2640.svg',
   ],
   [
     ['1F6A3', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6a3_1f3ff_200d_2640.svg',
   ],
   [
     ['1F3CA', '1F3FB'],
@@ -17187,52 +17187,52 @@ manual_1 = [
   [
     ['1F3CA', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3fb_200d_2642.svg',
   ],
   [
     ['1F3CA', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3fc_200d_2642.svg',
   ],
   [
     ['1F3CA', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3fd_200d_2642.svg',
   ],
   [
     ['1F3CA', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3fe_200d_2642.svg',
   ],
   [
     ['1F3CA', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3ff_200d_2642.svg',
   ],
   [
     ['1F3CA', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3fb_200d_2640.svg',
   ],
   [
     ['1F3CA', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3fc_200d_2640.svg',
   ],
   [
     ['1F3CA', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3fd_200d_2640.svg',
   ],
   [
     ['1F3CA', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3fe_200d_2640.svg',
   ],
   [
     ['1F3CA', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3ca_1f3ff_200d_2640.svg',
   ],
   [
     ['26F9', '1F3FB'],
@@ -17262,52 +17262,52 @@ manual_1 = [
   [
     ['26F9', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3fb_200d_2642.svg',
   ],
   [
     ['26F9', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3fc_200d_2642.svg',
   ],
   [
     ['26F9', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3fd_200d_2642.svg',
   ],
   [
     ['26F9', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3fe_200d_2642.svg',
   ],
   [
     ['26F9', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3ff_200d_2642.svg',
   ],
   [
     ['26F9', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3fb_200d_2640.svg',
   ],
   [
     ['26F9', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3fc_200d_2640.svg',
   ],
   [
     ['26F9', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3fd_200d_2640.svg',
   ],
   [
     ['26F9', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3fe_200d_2640.svg',
   ],
   [
     ['26F9', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u26f9_1f3ff_200d_2640.svg',
   ],
   [
     ['1F3CB', '1F3FB'],
@@ -17337,52 +17337,52 @@ manual_1 = [
   [
     ['1F3CB', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3fb_200d_2642.svg',
   ],
   [
     ['1F3CB', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3fc_200d_2642.svg',
   ],
   [
     ['1F3CB', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3fd_200d_2642.svg',
   ],
   [
     ['1F3CB', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3fe_200d_2642.svg',
   ],
   [
     ['1F3CB', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3ff_200d_2642.svg',
   ],
   [
     ['1F3CB', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3fb_200d_2640.svg',
   ],
   [
     ['1F3CB', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3fc_200d_2640.svg',
   ],
   [
     ['1F3CB', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3fd_200d_2640.svg',
   ],
   [
     ['1F3CB', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3fe_200d_2640.svg',
   ],
   [
     ['1F3CB', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f3cb_1f3ff_200d_2640.svg',
   ],
   [
     ['1F6B4', '1F3FB'],
@@ -17412,52 +17412,52 @@ manual_1 = [
   [
     ['1F6B4', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3fb_200d_2642.svg',
   ],
   [
     ['1F6B4', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3fc_200d_2642.svg',
   ],
   [
     ['1F6B4', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3fd_200d_2642.svg',
   ],
   [
     ['1F6B4', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3fe_200d_2642.svg',
   ],
   [
     ['1F6B4', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3ff_200d_2642.svg',
   ],
   [
     ['1F6B4', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3fb_200d_2640.svg',
   ],
   [
     ['1F6B4', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3fc_200d_2640.svg',
   ],
   [
     ['1F6B4', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3fd_200d_2640.svg',
   ],
   [
     ['1F6B4', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3fe_200d_2640.svg',
   ],
   [
     ['1F6B4', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b4_1f3ff_200d_2640.svg',
   ],
   [
     ['1F6B5', '1F3FB'],
@@ -17487,52 +17487,52 @@ manual_1 = [
   [
     ['1F6B5', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3fb_200d_2642.svg',
   ],
   [
     ['1F6B5', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3fc_200d_2642.svg',
   ],
   [
     ['1F6B5', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3fd_200d_2642.svg',
   ],
   [
     ['1F6B5', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3fe_200d_2642.svg',
   ],
   [
     ['1F6B5', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3ff_200d_2642.svg',
   ],
   [
     ['1F6B5', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3fb_200d_2640.svg',
   ],
   [
     ['1F6B5', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3fc_200d_2640.svg',
   ],
   [
     ['1F6B5', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3fd_200d_2640.svg',
   ],
   [
     ['1F6B5', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3fe_200d_2640.svg',
   ],
   [
     ['1F6B5', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f6b5_1f3ff_200d_2640.svg',
   ],
   [
     ['1F938', '1F3FB'],
@@ -17562,52 +17562,52 @@ manual_1 = [
   [
     ['1F938', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3fb_200d_2642.svg',
   ],
   [
     ['1F938', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3fc_200d_2642.svg',
   ],
   [
     ['1F938', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3fd_200d_2642.svg',
   ],
   [
     ['1F938', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3fe_200d_2642.svg',
   ],
   [
     ['1F938', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3ff_200d_2642.svg',
   ],
   [
     ['1F938', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3fb_200d_2640.svg',
   ],
   [
     ['1F938', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3fc_200d_2640.svg',
   ],
   [
     ['1F938', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3fd_200d_2640.svg',
   ],
   [
     ['1F938', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3fe_200d_2640.svg',
   ],
   [
     ['1F938', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f938_1f3ff_200d_2640.svg',
   ],
   [
     ['1F93C', '1F3FB'],
@@ -17637,52 +17637,52 @@ manual_1 = [
   [
     ['1F93C', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3fb_200d_2642.svg',
   ],
   [
     ['1F93C', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3fc_200d_2642.svg',
   ],
   [
     ['1F93C', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3fd_200d_2642.svg',
   ],
   [
     ['1F93C', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3fe_200d_2642.svg',
   ],
   [
     ['1F93C', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3ff_200d_2642.svg',
   ],
   [
     ['1F93C', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3fb_200d_2640.svg',
   ],
   [
     ['1F93C', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3fc_200d_2640.svg',
   ],
   [
     ['1F93C', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3fd_200d_2640.svg',
   ],
   [
     ['1F93C', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3fe_200d_2640.svg',
   ],
   [
     ['1F93C', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93c_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '1FAEF', '200D', '1F9D1', '1F3FC'],
@@ -18012,52 +18012,52 @@ manual_1 = [
   [
     ['1F93D', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3fb_200d_2642.svg',
   ],
   [
     ['1F93D', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3fc_200d_2642.svg',
   ],
   [
     ['1F93D', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3fd_200d_2642.svg',
   ],
   [
     ['1F93D', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3fe_200d_2642.svg',
   ],
   [
     ['1F93D', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3ff_200d_2642.svg',
   ],
   [
     ['1F93D', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3fb_200d_2640.svg',
   ],
   [
     ['1F93D', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3fc_200d_2640.svg',
   ],
   [
     ['1F93D', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3fd_200d_2640.svg',
   ],
   [
     ['1F93D', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3fe_200d_2640.svg',
   ],
   [
     ['1F93D', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93d_1f3ff_200d_2640.svg',
   ],
   [
     ['1F93E', '1F3FB'],
@@ -18087,52 +18087,52 @@ manual_1 = [
   [
     ['1F93E', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3fb_200d_2642.svg',
   ],
   [
     ['1F93E', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3fc_200d_2642.svg',
   ],
   [
     ['1F93E', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3fd_200d_2642.svg',
   ],
   [
     ['1F93E', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3fe_200d_2642.svg',
   ],
   [
     ['1F93E', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3ff_200d_2642.svg',
   ],
   [
     ['1F93E', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3fb_200d_2640.svg',
   ],
   [
     ['1F93E', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3fc_200d_2640.svg',
   ],
   [
     ['1F93E', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3fd_200d_2640.svg',
   ],
   [
     ['1F93E', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3fe_200d_2640.svg',
   ],
   [
     ['1F93E', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f93e_1f3ff_200d_2640.svg',
   ],
   [
     ['1F939', '1F3FB'],
@@ -18162,52 +18162,52 @@ manual_1 = [
   [
     ['1F939', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3fb_200d_2642.svg',
   ],
   [
     ['1F939', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3fc_200d_2642.svg',
   ],
   [
     ['1F939', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3fd_200d_2642.svg',
   ],
   [
     ['1F939', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3fe_200d_2642.svg',
   ],
   [
     ['1F939', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3ff_200d_2642.svg',
   ],
   [
     ['1F939', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3fb_200d_2640.svg',
   ],
   [
     ['1F939', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3fc_200d_2640.svg',
   ],
   [
     ['1F939', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3fd_200d_2640.svg',
   ],
   [
     ['1F939', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3fe_200d_2640.svg',
   ],
   [
     ['1F939', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f939_1f3ff_200d_2640.svg',
   ],
   [
     ['1F9D8', '1F3FB'],
@@ -18237,52 +18237,52 @@ manual_1 = [
   [
     ['1F9D8', '1F3FB', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3fb_200d_2642.svg',
   ],
   [
     ['1F9D8', '1F3FC', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3fc_200d_2642.svg',
   ],
   [
     ['1F9D8', '1F3FD', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3fd_200d_2642.svg',
   ],
   [
     ['1F9D8', '1F3FE', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3fe_200d_2642.svg',
   ],
   [
     ['1F9D8', '1F3FF', '200D', '2642', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3ff_200d_2642.svg',
   ],
   [
     ['1F9D8', '1F3FB', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3fb_200d_2640.svg',
   ],
   [
     ['1F9D8', '1F3FC', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3fc_200d_2640.svg',
   ],
   [
     ['1F9D8', '1F3FD', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3fd_200d_2640.svg',
   ],
   [
     ['1F9D8', '1F3FE', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3fe_200d_2640.svg',
   ],
   [
     ['1F9D8', '1F3FF', '200D', '2640', 'FE0F'],
     ['gr-colores-piel-5'],
-    '',
+    'emoji_u1f9d8_1f3ff_200d_2640.svg',
   ],
   [
     ['1F6C0', '1F3FB'],
@@ -18862,477 +18862,477 @@ manual_1 = [
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2764_200d_1f48b_200d_1f9d1_1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2764_200d_1f48b_200d_1f9d1_1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2764_200d_1f48b_200d_1f9d1_1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2764_200d_1f48b_200d_1f9d1_1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2764_200d_1f48b_200d_1f9d1_1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2764_200d_1f48b_200d_1f9d1_1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2764_200d_1f48b_200d_1f9d1_1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2764_200d_1f48b_200d_1f9d1_1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2764_200d_1f48b_200d_1f9d1_1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2764_200d_1f48b_200d_1f9d1_1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2764_200d_1f48b_200d_1f9d1_1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2764_200d_1f48b_200d_1f9d1_1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2764_200d_1f48b_200d_1f9d1_1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2764_200d_1f48b_200d_1f9d1_1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2764_200d_1f48b_200d_1f9d1_1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FF'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2764_200d_1f48b_200d_1f9d1_1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FB'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2764_200d_1f48b_200d_1f9d1_1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FC'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2764_200d_1f48b_200d_1f9d1_1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FD'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2764_200d_1f48b_200d_1f9d1_1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F9D1', '1F3FE'],
     ['gr-parejas-beso-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2764_200d_1f48b_200d_1f9d1_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F468', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FB'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FC'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FD'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FE'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F48B', '200D', '1F469', '1F3FF'],
     ['gr-parejas-beso-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F491', '1F3FB'],
@@ -19362,477 +19362,477 @@ manual_1 = [
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2764_200d_1f9d1_1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2764_200d_1f9d1_1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2764_200d_1f9d1_1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fb_200d_2764_200d_1f9d1_1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2764_200d_1f9d1_1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2764_200d_1f9d1_1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2764_200d_1f9d1_1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fc_200d_2764_200d_1f9d1_1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2764_200d_1f9d1_1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2764_200d_1f9d1_1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2764_200d_1f9d1_1f3fe.svg',
   ],
   [
     ['1F9D1', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fd_200d_2764_200d_1f9d1_1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2764_200d_1f9d1_1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2764_200d_1f9d1_1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2764_200d_1f9d1_1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FF'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3fe_200d_2764_200d_1f9d1_1f3ff.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FB'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2764_200d_1f9d1_1f3fb.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FC'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2764_200d_1f9d1_1f3fc.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FD'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2764_200d_1f9d1_1f3fd.svg',
   ],
   [
     ['1F9D1', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F9D1', '1F3FE'],
     ['gr-parejas-corazon-piel-2'],
-    '',
+    'emoji_u1f9d1_1f3ff_200d_2764_200d_1f9d1_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fb_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fc_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fd_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3fe_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f468_1f3fb.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f468_1f3fc.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f468_1f3fd.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f468_1f3fe.svg',
   ],
   [
     ['1F468', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F468', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f468_1f3ff_200d_2764_200d_1f468_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FB', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fb_200d_2764_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FC', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fc_200d_2764_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FD', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fd_200d_2764_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FE', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3fe_200d_2764_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FB'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f469_1f3fb.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FC'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f469_1f3fc.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FD'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f469_1f3fd.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FE'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f469_1f3fe.svg',
   ],
   [
     ['1F469', '1F3FF', '200D', '2764', 'FE0F', '200D', '1F469', '1F3FF'],
     ['gr-parejas-corazon-piel-1'],
-    '',
+    'emoji_u1f469_1f3ff_200d_2764_200d_1f469_1f3ff.svg',
   ],
   [
     ['1F3FB'],
@@ -19917,12 +19917,12 @@ manual_1 = [
   [
     ['1F441', '200D', '1F5E8', 'FE0F'],
     ['gr-restos'],
-    '',
+    'emoji_u1f441_200d_1f5e8.svg',
   ],
   [
     ['1F441', 'FE0F', '200D', '1F5E8'],
     ['gr-restos'],
-    '',
+    'emoji_u1f441_200d_1f5e8.svg',
   ],
   [
     ['1F441', '200D', '1F5E8'],
@@ -21022,12 +21022,12 @@ manual_1 = [
   [
     ['1F575', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f575_200d_2642.svg',
   ],
   [
     ['1F575', 'FE0F', '200D', '2642'],
     ['gr-genero-12'],
-    '',
+    'emoji_u1f575_200d_2642.svg',
   ],
   [
     ['1F575', '200D', '2642'],
@@ -21062,12 +21062,12 @@ manual_1 = [
   [
     ['1F575', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f575_200d_2640.svg',
   ],
   [
     ['1F575', 'FE0F', '200D', '2640'],
     ['gr-genero-12'],
-    '',
+    'emoji_u1f575_200d_2640.svg',
   ],
   [
     ['1F575', '200D', '2640'],
@@ -22052,12 +22052,12 @@ manual_1 = [
   [
     ['1F6B6', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '200D', '2640', '200D', '27A1'],
@@ -22067,12 +22067,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FB', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2640', '200D', '27A1'],
@@ -22082,12 +22082,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FC', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2640', '200D', '27A1'],
@@ -22097,12 +22097,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FD', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2640', '200D', '27A1'],
@@ -22112,12 +22112,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FE', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2640', '200D', '27A1'],
@@ -22127,12 +22127,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FF', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2640', '200D', '27A1'],
@@ -22142,12 +22142,12 @@ manual_1 = [
   [
     ['1F6B6', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '200D', '2642', '200D', '27A1'],
@@ -22157,12 +22157,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FB', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FB', '200D', '2642', '200D', '27A1'],
@@ -22172,12 +22172,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FC', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FC', '200D', '2642', '200D', '27A1'],
@@ -22187,12 +22187,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FD', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FD', '200D', '2642', '200D', '27A1'],
@@ -22202,12 +22202,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FE', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FE', '200D', '2642', '200D', '27A1'],
@@ -22217,12 +22217,12 @@ manual_1 = [
   [
     ['1F6B6', '1F3FF', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f6b6_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F6B6', '1F3FF', '200D', '2642', '200D', '27A1'],
@@ -22382,12 +22382,12 @@ manual_1 = [
   [
     ['1F9CE', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '200D', '2640', '200D', '27A1'],
@@ -22397,12 +22397,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FB', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2640', '200D', '27A1'],
@@ -22412,12 +22412,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FC', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2640', '200D', '27A1'],
@@ -22427,12 +22427,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FD', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2640', '200D', '27A1'],
@@ -22442,12 +22442,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FE', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2640', '200D', '27A1'],
@@ -22457,12 +22457,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FF', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2640', '200D', '27A1'],
@@ -22472,12 +22472,12 @@ manual_1 = [
   [
     ['1F9CE', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '200D', '2642', '200D', '27A1'],
@@ -22487,12 +22487,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FB', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FB', '200D', '2642', '200D', '27A1'],
@@ -22502,12 +22502,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FC', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FC', '200D', '2642', '200D', '27A1'],
@@ -22517,12 +22517,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FD', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FD', '200D', '2642', '200D', '27A1'],
@@ -22532,12 +22532,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FE', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FE', '200D', '2642', '200D', '27A1'],
@@ -22547,12 +22547,12 @@ manual_1 = [
   [
     ['1F9CE', '1F3FF', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f9ce_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F9CE', '1F3FF', '200D', '2642', '200D', '27A1'],
@@ -22922,12 +22922,12 @@ manual_1 = [
   [
     ['1F3C3', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '200D', '2640', '200D', '27A1'],
@@ -22937,12 +22937,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FB', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2640', '200D', '27A1'],
@@ -22952,12 +22952,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FC', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2640', '200D', '27A1'],
@@ -22967,12 +22967,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FD', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2640', '200D', '27A1'],
@@ -22982,12 +22982,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FE', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2640', '200D', '27A1'],
@@ -22997,12 +22997,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FF', '200D', '2640', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2640', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_2640_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2640', '200D', '27A1'],
@@ -23012,12 +23012,12 @@ manual_1 = [
   [
     ['1F3C3', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '200D', '2642', '200D', '27A1'],
@@ -23027,12 +23027,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FB', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fb_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FB', '200D', '2642', '200D', '27A1'],
@@ -23042,12 +23042,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FC', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fc_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FC', '200D', '2642', '200D', '27A1'],
@@ -23057,12 +23057,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FD', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fd_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FD', '200D', '2642', '200D', '27A1'],
@@ -23072,12 +23072,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FE', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3fe_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FE', '200D', '2642', '200D', '27A1'],
@@ -23087,12 +23087,12 @@ manual_1 = [
   [
     ['1F3C3', '1F3FF', '200D', '2642', '200D', '27A1', 'FE0F'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2642', 'FE0F', '200D', '27A1'],
     ['gr-sentido-2'],
-    '',
+    'emoji_u1f3c3_1f3ff_200d_2642_200d_27a1.svg',
   ],
   [
     ['1F3C3', '1F3FF', '200D', '2642', '200D', '27A1'],
@@ -23297,12 +23297,12 @@ manual_1 = [
   [
     ['1F3CC', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3cc_200d_2642.svg',
   ],
   [
     ['1F3CC', 'FE0F', '200D', '2642'],
     ['gr-genero-12'],
-    '',
+    'emoji_u1f3cc_200d_2642.svg',
   ],
   [
     ['1F3CC', '200D', '2642'],
@@ -23337,12 +23337,12 @@ manual_1 = [
   [
     ['1F3CC', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3cc_200d_2640.svg',
   ],
   [
     ['1F3CC', 'FE0F', '200D', '2640'],
     ['gr-genero-12'],
-    '',
+    'emoji_u1f3cc_200d_2640.svg',
   ],
   [
     ['1F3CC', '200D', '2640'],
@@ -23562,12 +23562,12 @@ manual_1 = [
   [
     ['26F9', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u26f9_200d_2642.svg',
   ],
   [
     ['26F9', 'FE0F', '200D', '2642'],
     ['gr-genero-12'],
-    '',
+    'emoji_u26f9_200d_2642.svg',
   ],
   [
     ['26F9', '200D', '2642'],
@@ -23602,12 +23602,12 @@ manual_1 = [
   [
     ['26F9', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u26f9_200d_2640.svg',
   ],
   [
     ['26F9', 'FE0F', '200D', '2640'],
     ['gr-genero-12'],
-    '',
+    'emoji_u26f9_200d_2640.svg',
   ],
   [
     ['26F9', '200D', '2640'],
@@ -23647,12 +23647,12 @@ manual_1 = [
   [
     ['1F3CB', '200D', '2642', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3cb_200d_2642.svg',
   ],
   [
     ['1F3CB', 'FE0F', '200D', '2642'],
     ['gr-genero-12'],
-    '',
+    'emoji_u1f3cb_200d_2642.svg',
   ],
   [
     ['1F3CB', '200D', '2642'],
@@ -23687,12 +23687,12 @@ manual_1 = [
   [
     ['1F3CB', '200D', '2640', 'FE0F'],
     ['gr-genero-3'],
-    '',
+    'emoji_u1f3cb_200d_2640.svg',
   ],
   [
     ['1F3CB', 'FE0F', '200D', '2640'],
     ['gr-genero-12'],
-    '',
+    'emoji_u1f3cb_200d_2640.svg',
   ],
   [
     ['1F3CB', '200D', '2640'],
@@ -26202,12 +26202,12 @@ manual_1 = [
   [
     ['1F3F3', '200D', '26A7', 'FE0F'],
     ['gr-banderas-otras'],
-    '',
+    'emoji_u1f3f3_200d_26a7.svg',
   ],
   [
     ['1F3F3', 'FE0F', '200D', '26A7'],
     ['gr-banderas-otras'],
-    '',
+    'emoji_u1f3f3_200d_26a7.svg',
   ],
   [
     ['1F3F3', '200D', '26A7'],

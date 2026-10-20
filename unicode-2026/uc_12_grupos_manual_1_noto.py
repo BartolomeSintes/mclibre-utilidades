@@ -536,6 +536,19 @@ def incluye_emojis():
         else:
             manual_1[encontrado][2] = i
 
+    # Noto no incluye FE0F en los nombres de archivo, así que asocia cada dibujo
+    # con las secuencias de 3 o más códigos que lo llevan (fully-qualified)
+    sin_fe0f = {}
+    for entrada in manual_1:
+        if len(entrada[0]) >= 3 and "FE0F" in entrada[0]:
+            clave = tuple(c for c in entrada[0] if c != "FE0F")
+            sin_fe0f.setdefault(clave, []).append(entrada)
+    for i in range(len(noto_completo)):
+        i2 = noto_completo[i].replace(".svg", "").replace("emoji_u", "").upper()
+        for entrada in sin_fe0f.get(tuple(i2.split("_")), []):
+            if entrada[2] == "":
+                entrada[2] = noto_completo[i]
+    restos_noto = [r for r in restos_noto if tuple(r[0]) not in sin_fe0f]
     cuenta_notos_asociados = 0
     cuenta_caracteres_no_asociados = 0
     for c in manual_1:

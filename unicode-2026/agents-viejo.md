@@ -60,9 +60,14 @@ Lo que quiero es que si antes ordenaba hombre/mujer ahora quiero que ordene neut
 
 He modificado uc_11_grupos_manual_1_twemoji.py, uc_12_grupos_manual_1_noto.py y uc_13_grupos_manual_twemoji_jdecked.py de manera que a los elementos que se asignaba los grupos  gr-genero-3 y gr-genero-5 se le asigne el grupo gr-genero-2. ¿Puedes cambiar uc_22_generador.py para que los ordene en el orden neutro(hombre/mujer?
 
-
 Hay dos problemas: las secuencias U+1F9D1 U+200D U+1F9D2 y U+1F9D1 U+200D U+1FA70 se clasifican como gr-genero-1 cuando no corresponden a ese grupo porque no hay secuencias similares neutro/hombre/mujer. ¿Podrías añadir condiciones para esos dos casos particulares en uc_11_grupos_manual_1_twemoji.py, uc_12_grupos_manual_1_noto.py y uc_13_grupos_manual_twemoji_jdecked.py?
  U+1F9D1 U+200D U+1FA70 lo dejo en gr-genero-1 y U+1F9D1 U+200D U+1F9D2 lo clasifico como gr-familias-4
+
+Por qué en html-unicode-noto.html no hay ninguna secuencia de los grupos gr-genero-2, gr-genero-3, o gr-genero-4?
+
+Me puedes dar un ejemplo de secuencia de 2 códigos con FE0F (371) que siguen sin dibujo en Noto?
+
+Pero en la página html-unicode-noto.html quiero que los emojis que tienen forma predeterminada texto en la ficha aparezca con U+FE0F, que es la manera correcta de referirse al emoji. ¿Eso cómo se podría hacer?
 
 
 

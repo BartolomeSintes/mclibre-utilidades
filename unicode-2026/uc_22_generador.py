@@ -512,9 +512,11 @@ def genera_pagina_noto(pagina):
             for c in caracteres:
                 if len(c[0]) > 1:
                     print(f"  CUIDADO: HAY UN CARACTER CON MÁS DE UN CARÁCTER: {c[0]}")
+                tmp = busca(c[0][0], imp.derived_name, 0)
+                con_fe0f = imp.derived_name[tmp][2] == "texto-emoji"
                 t += '      <div class="u">\n'
                 t += '        <p class="uc">\n'
-                t += f"          U+{int(c[0][0], 16):X}<br>\n"
+                t += f"          U+{int(c[0][0], 16):X}{' U+FE0F' if con_fe0f else ''}<br>\n"
                 vers = indica_version(c[0][0])
                 # print (" emojis ", vers)
                 if float(vers) > 0:
@@ -539,13 +541,12 @@ def genera_pagina_noto(pagina):
                     )
                 t += "        </p>\n"
                 t += '        <p class="si">\n'
-                t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/2D/svg/{c[2]}">&#x{int(c[0][0], 16):X};</a></span>\n'
+                t += f'          <span class="twe"><a href="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/2D/svg/{c[2]}">&#x{int(c[0][0], 16):X};{"&#xfe0f;" if con_fe0f else ""}</a></span>\n'
                 t += "        </p>\n"
                 t += '        <p class="en">\n'
-                t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0][0], 16):x};</strong><br>\n"
-                t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0][0], 16)};</strong>\n"
+                t += f"          Hex:&nbsp;<strong>&amp;#x{int(c[0][0], 16):x};{'&amp;#xfe0f;' if con_fe0f else ''}</strong><br>\n"
+                t += f"          Dec:&nbsp;<strong>&amp;#{int(c[0][0], 16)};{'&amp;#65039;' if con_fe0f else ''}</strong>\n"
                 t += "        </p>\n"
-                tmp = busca(c[0][0], imp.derived_name, 0)
                 # print(tmp, c[0], imp.derived_name[tmp])
                 t += f'        <p class="no">{imp.derived_name[tmp][1]}</p>\n'
                 # hay_coment = busca([c[0]][0], imp5.manual_2, 0)
