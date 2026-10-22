@@ -311,7 +311,7 @@ def genera_pagina_twemoji(pagina):
                     del identificados[i]
         caracteres.sort()
         if grupo[3] != ucdef.ORDENA_ESPECIAL_NO:
-            caracteres = ordena(caracteres, grupo[3])
+            caracteres = ordena(caracteres, grupo[3], grupo[0])
         contador = len(caracteres)
         # print(grupo[0], contador, len(identificados))
         if contador > 0:
@@ -586,7 +586,7 @@ def genera_pagina_noto(pagina):
                     del identificados[i]
         caracteres.sort()
         if grupo[3] != ucdef.ORDENA_ESPECIAL_NO:
-            caracteres = ordena(caracteres, grupo[3])
+            caracteres = ordena(caracteres, grupo[3], grupo[0])
         contador = len(caracteres)
         # print(grupo[0], contador, len(identificados))
         if contador > 0:
@@ -864,7 +864,7 @@ def genera_pagina_twemoji_jdecked(pagina):
                     del identificados[i]
         caracteres.sort()
         if grupo[3] != ucdef.ORDENA_ESPECIAL_NO:
-            caracteres = ordena(caracteres, grupo[3])
+            caracteres = ordena(caracteres, grupo[3], grupo[0])
         contador = len(caracteres)
         # print(grupo[0], contador, len(identificados))
         if contador > 0:
@@ -1259,7 +1259,24 @@ def genera_pagina_caracteres(pagina):
     return t
 
 
-def ordena(cs1, tipo):
+def ordena(cs1, tipo, nombre_grupo=None):
+    if nombre_grupo in {"gr-colores-piel-2", "gr-colores-piel-3"}:
+        orden_generos = {"1F9D1": 0, "1F468": 1, "1F469": 2}
+        orden_colores = {
+            "1F3FB": 0,
+            "1F3FC": 1,
+            "1F3FD": 2,
+            "1F3FE": 3,
+            "1F3FF": 4,
+        }
+        return sorted(
+            cs1,
+            key=lambda caracter: (
+                tuple(caracter[0][2:]),
+                orden_generos.get(caracter[0][0], len(orden_generos)),
+                orden_colores.get(caracter[0][1], len(orden_colores)),
+            ),
+        )
     if tipo == ucdef.ORDENA_ESPECIAL_1:
         orden_generos = ("1F9D1", "1F468", "1F469")
         grupos_genero = {genero: {} for genero in orden_generos}
@@ -1328,7 +1345,7 @@ def genera_pagina_secuencias(pagina, grupos):
                     caracteres += [c]
         caracteres.sort()
         if grupo[3] != ucdef.ORDENA_ESPECIAL_NO:
-            caracteres = ordena(caracteres, grupo[3])
+            caracteres = ordena(caracteres, grupo[3], grupo[0])
         contador = len(caracteres)
         if contador > 0:
             info_grupo = []

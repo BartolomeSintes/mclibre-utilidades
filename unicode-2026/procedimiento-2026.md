@@ -146,6 +146,9 @@
         -   Ejecuto util.py.
         -   Repito hasta que veo que está bien.
 
+
+-   Usar CLDR para traducción al español: https://www.unicode.org/cldr/charts/49/annotations/romance.html
+
 ## Restos Procedimiento 2025
 
 -   He añadido los grupos de colores actividades (wrestling y with bunny ears) a uc_94 y uc_93. El problema es que seguían saliendo los símbolos en el apartado Otras secuencias. Hasta que no los he añadido a uc_92 no han dejado de salir.

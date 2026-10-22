@@ -476,7 +476,7 @@ uc_grupos_fitzpatrick = [
     [
         "gr-colores-piel-2",
         "Colores de piel (2)",
-        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cuatro caracteres, combinando el carácter hombre o mujer con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-2">apartado Colores de piel (2) de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cuatro caracteres, combinando el carácter de adulto neutro, hombre o mujer con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-2">apartado Colores de piel (2) de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_2,
     ],
     [
@@ -488,31 +488,19 @@ uc_grupos_fitzpatrick = [
     [
         "gr-colores-piel-3",
         "Colores de piel (3)",
-        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cuatro caracteres, combinando el <i>emoji</i> que representa a un adulto con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-3">apartado Colores de piel (3) de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando el carácter adulto neutro, hombre o mujer con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-3">apartado Colores de piel (3) de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_2,
     ],
     [
         "gr-colores-piel-4",
         "Colores de piel (4)",
-        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando el carácter hombre o mujer con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-4">apartado Colores de piel (4) de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con uno de los modificadores Fitzpatrick y con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-4">apartado Colores de piel (4) de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_2,
     ],
     [
         "gr-colores-piel-5",
         "Colores de piel (5)",
-        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando un carácter que normalmente ya representa a un individuo con uno de los modificadores Fitzpatrick y con el símbolo masculino o femenino, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-5">apartado Colores de piel (5) de la lección Secuencias Unicode</a>.</p>\n',
-        ORDENA_ESPECIAL_2,
-    ],
-    [
-        "gr-colores-piel-6",
-        "Colores de piel (6)",
-        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando el <i>emoji</i> que representa a un adulto con uno de los modificadores Fitzpatrick y con un objeto relacionado con la profesión, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-6">apartado Colores de piel (6) de la lección Secuencias Unicode</a>.</p>\n',
-        ORDENA_ESPECIAL_2,
-    ],
-    [
-        "gr-colores-piel-7",
-        "Colores de piel (7)",
-        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando los emojis que representan una mano izquierda y una mano derecha con dos modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-7">apartado Colores de piel (7) de la lección Secuencias Unicode</a>.</p>\n',
+        '    <p>En este apartado se muestran secuencias Unicode con modificadores Fitzpatrick. Estas secuencias se forman con cinco caracteres, combinando los emojis que representan una mano izquierda y una mano derecha con dos modificadores Fitzpatrick, como se comenta en el <a href="html-unicode-secuencias.html#gr-colores-piel-5">apartado Colores de piel (5) de la lección Secuencias Unicode</a>.</p>\n',
         ORDENA_ESPECIAL_NO,
     ],
 ]
