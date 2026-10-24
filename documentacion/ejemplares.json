@@ -13091,6 +13091,17 @@
       "creado": "2026-09-18"
     },
     {
+      "serie": "The MagPi",
+      "nombre": "The MagPi",
+      "número": 170,
+      "año": 2026,
+      "mes": 10,
+      "portada": "the-magpi-170-en-202610.jpg",
+      "fichero": "the-magpi-170-en-202610.pdf",
+      "idioma": "inglés",
+      "creado": "2026-10-24"
+    },
+    {
       "serie": "The MagPi Books",
       "nombre": "Edición especial",
       "número": 1,
@@ -16565,6 +16576,17 @@
       "fichero": "the-r-journal-44-en-202606.pdf",
       "idioma": "inglés",
       "creado": "2026-09-05"
+    },
+    {
+      "serie": "The R Journal",
+      "nombre": "The R Journal",
+      "número": "vol 18 nº 3",
+      "año": 2026,
+      "mes": 9,
+      "portada": "the-r-journal-45-en-202609.jpg",
+      "fichero": "the-r-journal-45-en-202609.pdf",
+      "idioma": "inglés",
+      "creado": "2026-10-24"
     },
     {
       "serie": "Tino",
