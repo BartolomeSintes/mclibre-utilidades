@@ -804,6 +804,17 @@
       "creado": "2026-05-15"
     },
     {
+      "serie": "Bits de Ciencia",
+      "nombre": "Bits de Ciencia",
+      "número": 29,
+      "año": 2026,
+      "mes": "S2",
+      "portada": "bits-de-ciencia-29-es-2026s2.jpg",
+      "fichero": "bits-de-ciencia-29-es-2026s2.pdf",
+      "idioma": "español",
+      "creado": "2026-10-24"
+    },
+    {
       "serie": "Custom PC",
       "nombre": "Custom PC",
       "número": 214,
@@ -17753,6 +17764,17 @@
       "fichero": "tino-105-es-202603.pdf",
       "idioma": "español",
       "creado": "2026-05-15"
+    },
+    {
+      "serie": "Tino",
+      "nombre": "Tino",
+      "número": 108,
+      "año": 2026,
+      "mes": 9,
+      "portada": "tino-108-es-202609.jpg",
+      "fichero": "tino-108-es-202609.pdf",
+      "idioma": "español",
+      "creado": "2026-10-24"
     },
     {
       "serie": "Wireframe",
