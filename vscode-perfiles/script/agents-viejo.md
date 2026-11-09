@@ -1,0 +1,19 @@
+-   Lee estas instrucciones y confirma que lo que te pido es comprensible y factible.
+-   Quiero que escribas el script de python perfil-a-lineas.py.
+-   Utiliza la biblioteca estándar de Python. Si tuvieras que utilizar alguna biblioteca adicional, avísame y detén la tarea.
+-   El programa trabajará con un fichero de texto inicial que habrá elegido el usuario y generará un fichero de texto final.
+-   El programa debe enseñar primero un menú para elegir el fichero inicial.
+-   El menú listará los ficheros *.code-profile del directorio actual con un número (1,2 , 3, etc.) y pedirá al usuario que escriba un número. El nmúmero que escriba el usuario será el fichero inicial.
+-   El nombre del fichero final será el mismo del inciial añadiendo -LINEAS al final del nombre.
+-   Si el fichero final ya existe, el programa debe avisar y pedir confirmación para sobreescribirlo.
+-   El fichero final se generará a partir del fichero inicial aplicando búsquedas y sustituciones.
+-   Si al describir la búsqeda y sustitución escribo (normal) es que los caracteres especiales como "\n" se entienden como dos caracteres consecuentivos "\" y \"n". Si escribo (extendido) se entiende que los caracteres especiales como "\n" se entieden como tales, en el caso de \n salto de línea. Al buscar deben coincidir mayúsculas y minúsculas
+-   Estas son las búsquedas a realizar en ese orden
+    -   \\\"\\\\n\\\"   ==>    YYY   (normal)
+    -   \\n             ==>    XXX   (normal)
+    -   YYY             ==>    "\n"  (normal)
+    -   \\\"            ==>    "     (normal)
+    -   XXX             ==>    \n    (extendido)
+
+-   El menú de ficheros iniciales no debe incluir los ficheros finales *-LINEAS.code-profile que haya en el directorio.
+-   El valor 0 permitirá salir del menú y terminar el programa
