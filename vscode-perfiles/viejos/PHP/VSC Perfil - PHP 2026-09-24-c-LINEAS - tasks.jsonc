@@ -1,0 +1,61 @@
+{
+  // Tareas de VSCode recomendadas para el curso recomendados para el curso
+  // Iniciación a la programación de páginas web en PHP
+  // https://www.mclibre.org/consultar/php/
+  //
+  // Versión 2026-09-24
+  //
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Abrir en localhost (Firefox)",
+      "type": "process",
+      "windows": {
+        "command": "cmd",
+        "args": [
+          "/c",
+          "start",
+          "",
+          "C:/Program Files/Mozilla Firefox/firefox.exe",
+          "localhost/iaw/php/${relativeFile}"
+        ]
+      },
+      "linux": {
+        "command": "firefox",
+        "args": [
+          "localhost/iaw/php/${relativeFile}"
+        ]
+      },
+      "presentation": {
+        "reveal": "never",
+        "close": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Abrir en localhost (Chrome)",
+      "type": "process",
+      "windows": {
+        "command": "cmd",
+        "args": [
+          "/c",
+          "start",
+          "",
+          "C:/Program Files/Google/Chrome/Application/chrome.exe",
+          "localhost/iaw/php/${relativeFile}"
+        ]
+      },
+      "linux": {
+        "command": "google-chrome",
+        "args": [
+          "localhost/iaw/php/${relativeFile}"
+        ]
+      },
+      "presentation": {
+        "reveal": "never",
+        "close": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

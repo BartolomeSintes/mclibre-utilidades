@@ -1,0 +1,537 @@
+{"name":"HTML+CSS mclibre.org Perfil recomendado VSCode 2025-10-14","settings":"{\"settings\":\"{
+  // Configuraciones de VSCode recomendadas para el curso
+  // Creación de páginas web HTML con hojas de estilo CSS
+  // https://www.mclibre.org/consultar/htmlcss/
+  //
+  // Versión 2025-10-12
+  //
+  //
+  // Configuraciones de VSCode recomendadas para el curso Páginas web HTML y hojas de estilo CSS de www.mclibre.org
+  //
+  // Editor: Insert Spaces
+  // Insertar espacios al presionar "TAB"
+  "editor.insertSpaces": true,
+  //
+  // Editor: Linked Editing
+  // Controla si el editor tiene habilitada la edición vinculada. Dependiendo del lenguaje, los símbolos relacionados (por ejemplo, las etiquetas HTML) se actualizan durante la edición.
+  "editor.linkedEditing": true,
+  //
+  // Editor: Minimap enabled
+  // Controla si se muestra el minimapa.
+  "editor.minimap.enabled": false,
+  //
+  // Editor: Render Whitespace
+  // Controla la forma en que el editor debe representar los caracteres de espacio en blanco.
+  "editor.renderWhitespace": "all",
+  //
+  // Editor: Word Wrap
+  // Controla cómo deben ajustarse las líneas.
+  "editor.wordWrap": "on",
+  //
+  // Files: eol
+  // Carácter predeterminado de final de línea.
+  "files.eol": "\n",
+  //
+  // Files: Trim Trailing Whitespace
+  // Si se habilita, se recortará el espacio final cuando se guarde un archivo.
+  "files.trimTrailingWhitespace": true,
+  //
+  // Git: Autofetch
+  // Si se habilita, se comprobarán automáticamente los commits del repositorio remoto.
+  "git.autofetch": true,
+  //
+  // HTML: Auto Closing Tags
+  // Habilita o deshabilita el cierre automático de las etiquetas HTML.
+  "html.autoClosingTags": false,
+  // HTML: Auto Create Quotes
+  // habilita o deshabilita la creación automática de comillas para la asignación de atributos HTML.
+  "html.autoCreateQuotes": false,
+  //
+  // HTML: Format: End With Newline
+  // Finalizar con una nueva línea.
+  "html.format.endWithNewline": true,
+  //
+  // HTML: Format Extra Liners
+  // Lista de etiquetas, separadas por comas, que deben tener una nueva línea adicional delante. null equivale a "head, body, /html".
+  "html.format.extraLiners": "body",
+  //
+  // HTML: Format Wrap Line Length
+  // Cantidad máxima de caracteres por línea (0 = deshabilitar).
+  "html.format.wrapLineLength": 0,
+  //
+  // HTML
+  // Establece los valores de configuración que se reemplazarán para el lenguaje HTML
+  "[html]": {
+    "editor.tabSize": 2,
+  },
+  //
+  // CSS
+  // Establece los valores de configuración que se reemplazarán para el lenguaje CSS
+  "[css]": {
+    "editor.tabSize": 4,
+  },
+  //
+  // Window: Command Center
+  // Muestra el iniciador de comandos junto con el título de la ventana. Esta configuración solo tiene efecto cuandoWindow: Custom Title Bar Visibility no se establece en never.
+  "window.commandCenter": false,
+  //
+  // Workbench › Layout Control: Enabled
+  // Controla si el control de diseño se muestra en la barra de título personalizada. Esta configuración solo tiene efecto cuandoWindow: Custom Title Bar Visibility no se establece en never.
+  "workbench.layoutControl.enabled": false,
+  //
+  //
+  // Configuraciones de extensiones de VSCode recomendadas para el curso Páginas web HTML y hojas de estilo CSS de www.mclibre.org
+  //
+  // Extension Close HTML/XML Tag
+  //
+  // Ignore Tags : CloseTag : IgnoreTags
+  // Específica las etiquetas que serán ignoradas y no serán cerradas.
+  "closeTag.ignoreTags": "html",
+  //
+  //
+  // Extensión HTMLHint
+  //
+  // HTMLHint: Options
+  // Opciones de configuración de HTMLHint
+  "htmlhint.options": {
+    // Doctype and head
+    "doctype-first": true, //                   La primera línea es el doctype
+    "doctype-html5": true, //                   El doctype es html
+    "html-lang-require": true, //               La etiqueta html incluye el atributo lang
+    "meta-charset-require": true, //            La etiqueta head incluye la etiqueta meta con atributo charset
+    "meta-viewport-require": true, //           La etiqueta head incluye la etiqueta meta con atributo viewport
+    "title-require": true, //                   La etiqueta head incluye la etiqueta title
+    // Attributes
+    "attr-lowercase": //                        Los atributos están en minúsculas excepto los de la lista (que son atributos SVG)
+    [
+      "allowReorder",
+      "attributeName",
+      "attributeType",
+      "autoReverse",
+      "baseFrequency",
+      "baseProfile",
+      "calcMode",
+      "clipPathUnits",
+      "contentScriptType",
+      "contentStyleType",
+      "diffuseConstant",
+      "edgeMode",
+      "externalResourcesRequired",
+      "filterRes",
+      "filterUnits",
+      "glyphRef",
+      "gradientTransform",
+      "gradientUnits",
+      "kernelMatrix",
+      "kernelUnitLength",
+      "keyPoints",
+      "keySplines",
+      "keyTimes",
+      "lengthAdjust",
+      "limitingConeAngle",
+      "markerHeight",
+      "markerUnits",
+      "markerWidth",
+      "maskContentUnits",
+      "maskUnits",
+      "numOctaves",
+      "pathLength",
+      "patternContentUnits",
+      "patternTransform",
+      "patternUnits",
+      "pointsAtX",
+      "pointsAtY",
+      "pointsAtZ",
+      "preserveAlpha",
+      "preserveAspectRatio",
+      "primitiveUnits",
+      "refX",
+      "refY",
+      "repeatCount",
+      "repeatDur",
+      "requiredExtensions",
+      "requiredFeatures",
+      "specularConstant",
+      "specularExponent",
+      "spreadMethod",
+      "startOffset",
+      "stdDeviation",
+      "stitchTiles",
+      "surfaceScale",
+      "systemLanguage",
+      "tableValues",
+      "targetX",
+      "targetY",
+      "textLength",
+      "viewBox",
+      "viewTarget",
+      "xChannelSelector",
+      "yChannelSelector",
+      "zoomAndPan"
+    ],
+    "attr-no-duplication": true, //             En una etiqueta no hay atributos repetidos
+    "attr-no-unnecessary-whitespace": true, //  No hay espacios entre los atributos y sus valores
+    "attr-value-double-quotes": true, //        Los valores de los atributos se escriben entre comillas dobles
+    "attr-value-no-duplication": true, //       Los valores de los atributos no se repiten en un mismo atributo
+    "attr-whitespace": true, //                 Los valores de los atributos no contienen espacios ni al principio ni al final
+    "alt-require": true, //                     Las etiquetas img incluyen el atributo alt
+    // Tags
+    "button-type-require": true, //             La etiqueta button incluye el atributo type con alguno de los valores "button", "submit" o "reset"
+    "empty-tag-not-self-closed": true, //       Las etiquetas vacías no incluyen el cierre /
+    "form-method-require": true, //             La etiqueta form incluye el atributo method con alguno de los valores "get", "post" o "dialog"
+    "src-not-empty": true, //                   Los atributos src (o href de link) no están vacíos
+    "tag-no-obsolete": true, //                 No hay etiquetas obsoletas.
+    "tag-pair": true, //                        Las etiquetas no vacías incluyen la etiqueta de cierre
+    "tagname-lowercase": //                     Las etiquetas están en minúsculas excepto las de la lista (que son etiquetas SVG)
+    [
+      "linearGradient"
+    ],
+    "tagname-specialchars": true, //            Los nombres de etiquetas solo contienen letras, números o los caracteres "-", ":" o "_"
+    // id
+    "id-class-ad-disabled": true, //            Los atributos id o class no incluyen la palabra "ad" (que puede ser bloqueada por los bloqueadores de anuncios)
+    "id-unique": true, //                       Los valores de los atributos id no se repiten
+    // Formatting
+    "spec-char-escape": true, //                Los caracteres especiales &gt; &lt; y &amp; se escriben como entidades de carácter
+  },
+  //
+  //
+  // Extensión CSScomb
+  //
+  // CSScomb : Preset
+  // Opciones de configuración de CSScomb
+  "csscomb.preset": {
+    "always-semicolon": true, //              Escribe punto y coma (;) tras las propiedades
+    "block-indent": "    ", //                Utiliza sangrado de cuatro espacios
+    "color-case": "lower", //                 Escribe los códigos de color en minúsculas
+    "color-shorthand": false, //              Escribe los códigos de color hexadecimales con seis caracteres
+    "element-case": "lower", //               Escribe los selectores en minúsculas
+    "eof-newline": true, //                   Escribe una línea en blanco  al final del archivo
+    "leading-zero": true, //                  Escribe un cero antes de un punto decimal
+    "lines-between-rulesets": 1, //           Escribe una línea entre sentencias consecutivas
+    "quotes": "double", //                    Escribe comillas dobles
+    "remove-empty-rulesets": false, //        No elimina las sentencias sin propiedades
+    "sort-order-fallback": "abc", //          Las propiedades no ordenadas se ordenan alfabéticamente
+    "sort-order": //                          Orden de las propiedades
+    [
+      // Reseteo
+      "all",
+      // Posicionamiento clásico
+      "position",
+      "z-index",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      // Visibilidad y flexbox
+      "display",
+      "visibility",
+      "float",
+      "clear",
+      "overflow",
+      "overflow-x",
+      "overflow-y",
+      "clip",
+      "zoom",
+      "align-content",
+      "align-items",
+      "align-self",
+      "flex",
+      "flex-flow",
+      "flex-basis",
+      "flex-direction",
+      "flex-grow",
+      "flex-shrink",
+      "flex-wrap",
+      "justify-content",
+      "order",
+      // Modelo de caja: tamaño
+      "box-sizing",
+      "width",
+      "min-width",
+      "max-width",
+      "height",
+      "min-height",
+      "max-height",
+      "margin",
+      "margin-top",
+      "margin-right",
+      "margin-bottom",
+      "margin-left",
+      "padding",
+      "padding-top",
+      "padding-right",
+      "padding-bottom",
+      "padding-left",
+      // Modelo de caja: borde, outline, fondos
+      "opacity",
+      "border",
+      "border-color",
+      "border-width",
+      "border-style",
+      "border-top",
+      "border-top-color",
+      "border-top-width",
+      "border-top-style",
+      "border-right",
+      "border-right-color",
+      "border-right-width",
+      "border-right-style",
+      "border-bottom",
+      "border-bottom-color",
+      "border-bottom-width",
+      "border-bottom-style",
+      "border-left",
+      "border-left-color",
+      "border-left-width",
+      "border-left-style",
+      "border-radius",
+      "border-top-left-radius",
+      "border-top-right-radius",
+      "border-bottom-right-radius",
+      "border-bottom-left-radius",
+      "border-image",
+      "border-image-source",
+      "border-image-slice",
+      "border-image-width",
+      "border-image-outset",
+      "border-image-repeat",
+      "outline",
+      "outline-color",
+      "outline-width",
+      "outline-style",
+      "outline-offset",
+      "background",
+      "background-color",
+      "background-image",
+      "background-repeat",
+      "background-attachment",
+      "background-position",
+      "background-position-x",
+      "background-position-y",
+      "background-clip",
+      "background-origin",
+      "background-size",
+      "box-decoration-break",
+      "box-shadow",
+      "text-shadow",
+      // Texto
+      "color",
+      "cursor",
+      "font",
+      "font-family",
+      "src",
+      "font-size",
+      "font-style",
+      "font-variant",
+      "font-weight",
+      "letter-spacing",
+      "line-height",
+      "quotes",
+      "resize",
+      "text-align",
+      "text-align-last",
+      "text-decoration",
+      "text-indent",
+      "text-justify",
+      "text-outline",
+      "text-transform",
+      "vertical-align",
+      "white-space",
+      "word-spacing",
+      // Tablas y listas
+      "table-layout",
+      "empty-cells",
+      "caption-side",
+      "border-spacing",
+      "border-collapse",
+      "list-style",
+      "list-style-position",
+      "list-style-type",
+      "list-style-image",
+      "content",
+      "counter-increment",
+      "counter-reset",
+      // Animaciones y transformaciones
+      "animation",
+      "animation-delay",
+      "animation-direction",
+      "animation-duration",
+      "animation-iteration-count",
+      "animation-name",
+      "animation-play-state",
+      "animation-timing-function",
+      "transform",
+      "transform-origin",
+      "transition",
+      "transition-delay",
+      "transition-duration",
+      "transition-property",
+      "transition-timing-function",
+    ],
+    "space-after-colon": 1, //                Escribe un espacio en blanco después de los dos puntos (:)
+    "space-after-combinator": " ", //         Escribe un espacio en blanco después de un combinador de selectores
+    "space-after-opening-brace": "\n", //     Escribe un salto de línea después de la llave de apertura ({)
+    "space-after-selector-delimiter": " ", // Escribe un espacio en blanco después de las comas (,) en los selectores
+    "space-before-closing-brace": "\n", //    Escribe un salto de línea después de la llave de cierre (})
+    "space-before-colon": 0, //               No escribe espacios en blanco antes de una coma (,)
+    "space-before-combinator": " ", //        Escribe un espacio en blanco antes de un combinador de selectores
+    "space-before-opening-brace": " ", //     Escribe un espacio en blanco entre el selector y la llave de apertura ({)
+    "space-before-selector-delimiter": "", // No escribe espacios en blanco después de las comas (,) en los selectores
+    "space-between-declarations": "\n", //    Escribe un salto de línea entre propiedades
+    "strip-spaces": true, //                  No escribe espacios en blanco al final de las líneas
+    "tab-size": 4, //                         Escribe cuatro espacios en blanco en vez de un tabulador
+    "unitless-zero": true, //                 No escribe unidades en los valores nulos (0)
+    "vendor-prefix-align": true, //           Alinea las propiedades específicas de cada navegador para facilitar la lectura
+  },
+  //
+  //
+}\"}","keybindings":"{\"keybindings\":\"[
+    // Atajos de teclado de VSCode recomendados para el curso
+    // Creación de páginas web HTML con hojas de estilo CSS
+    // https://www.mclibre.org/consultar/htmlcss/
+    //
+    // Versión 2025-10-12
+    //
+    //
+    // Atajos de teclado de VSCode recomendados para el curso Páginas web HTML y hojas de estilo CSS de www.mclibre.org
+    //
+    {
+        // Abrir y pasar el foco al Explorador de archivos
+        "key": "ctrl+alt+NumPad_Divide",
+        "command": "workbench.files.action.focusFilesExplorer",
+        "when": "!filesExplorerFocus"
+    },
+    {
+        // Cerrar el Explorador de archivos
+        "key": "ctrl+alt+NumPad_Divide",
+        "command": "workbench.action.closeSidebar",
+        "when": "filesExplorerFocus"
+    },
+    {
+        // Abrir y pasar el foco a Panel > Problemas. Cerrar Panel > Problemas
+        "key": "ctrl+alt+NumPad_Multiply",
+        "command": "workbench.actions.view.problems",
+        "when": "workbench.panel.markers.view.active"
+    },
+    {
+        // Pasar el foco al Editor
+        "key": "ctrl+alt+NumPad_Subtract",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorFocus"
+    },
+    {
+        // Abrir y pasar el foco al Panel > Terminal
+        "key": "ctrl+alt+NumPad_Add",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        // Cerrar el Panel y pasar el foco al Editor
+        "key": "ctrl+alt+NumPad_Add",
+        "command": "workbench.action.closePanel",
+        "when": "terminalFocus"
+    },
+    {
+        // Emmet: Borrar etiqueta
+        "key": "ctrl+alt+e ctrl+alt+b",
+        "command": "editor.emmet.action.removeTag"
+    },
+    {
+        // Emmet: Insertar tamaño imagen
+        "key": "ctrl+alt+e ctrl+alt+s",
+        "command": "editor.emmet.action.updateImageSize"
+    },
+    {
+        // Emmet: Seleccionar elemento superior
+        "key": "ctrl+alt+e ctrl+alt+o",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        // Emmet: Seleccionar elemento inferior
+        "key": "ctrl+alt+e ctrl+alt+i",
+        "command": "editor.emmet.action.balanceIn"
+    },
+    {
+        // Extensión CSScomb: Ejecutar en Windows
+        "key": "alt+shift+c alt+shift+f",
+        "command": "csscomb.execute",
+        "when": "isWindows"
+    },
+    {
+        // Extensión CSScomb: Ejecutar en Linux
+        "key": "ctrl+shift+c ctrl+shift+i",
+        "command": "csscomb.execute",
+        "when": "isLinux"
+    },
+    {
+        // Extensión Live Preview: Abrir en navegador interno
+        "key": "ctrl+alt+p",
+        "command": "livePreview.start.internalPreview.atFile",
+        "when": "LivePreviewServerOn == false"
+    },
+    {
+        // Extensión Live Preview: Cerrar navegador/servidor interno
+        "key": "ctrl+alt+p",
+        "command": "livePreview.end",
+        "when": "LivePreviewServerOn == true"
+    },
+    {
+        // Tarea: Abrir en Firefox
+        "key": "ctrl+alt+f",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Abrir en Firefox"
+    },
+    {
+        // Tarea: Abrir en Chrome
+        "key": "ctrl+alt+c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Abrir en Chrome"
+    },
+]\",\"platform\":3}","tasks":"{\"tasks\":\"{
+  // Tareas de VSCode recomendadas para el curso recomendados para el curso
+  // Creación de páginas web HTML con hojas de estilo CSS
+  // https://www.mclibre.org/consultar/htmlcss/
+  //
+  // Versión 2025-10-12
+  //
+  //
+  // Tareas de VSCode recomendadas para el curso Páginas web HTML y hojas de estilo CSS de www.mclibre.org
+  //
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Abrir en Firefox",
+      "command": "explorer",
+      "windows": {
+        "command": "C:/Program Files/Mozilla Firefox/firefox.exe"
+      },
+      "linux": {
+        "command": "firefox"
+      },
+      "args": [
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "never"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Abrir en Chrome",
+      "command": "explorer",
+      "windows": {
+        "command": "C:/Program Files/Google/Chrome/Application/chrome.exe"
+      },
+      "linux": {
+        "command": "google-chrome"
+      },
+      "args": [
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "never"
+      },
+      "problemMatcher": []
+    }
+  ]
+}\"}","extensions":"[{\"identifier\":{\"id\":\"compulim.compulim-vscode-closetag\",\"uuid\":\"0fd4a2e2-f7b7-430e-8ba0-3b44ddfb43f5\"},\"displayName\":\"Close HTML/XML tag\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"htmlhint.vscode-htmlhint\",\"uuid\":\"d0a9daff-de6d-4669-a30b-14a49a1a17e0\"},\"displayName\":\"HTMLHint\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"kisstkondoros.vscode-gutter-preview\",\"uuid\":\"eedfd044-d5ac-4389-973d-3ac1fdb98ad5\"},\"displayName\":\"Image preview\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"l7ssha.tag-inserter\",\"uuid\":\"2fc88c26-cd0f-419e-b99a-bfdedc62ff01\"},\"displayName\":\"Tag Inserter\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"mrmlnc.vscode-csscomb\",\"uuid\":\"2af5556c-edd2-4786-9bbc-392b7dd89cd9\"},\"displayName\":\"CSScomb\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"ms-ceintl.vscode-language-pack-es\",\"uuid\":\"47e020a1-33db-4cc0-a1b4-42f97781749a\"},\"displayName\":\"Spanish Language Pack for Visual Studio Code\",\"applicationScoped\":true},{\"identifier\":{\"id\":\"ms-vscode.hexeditor\",\"uuid\":\"cc7d2112-5178-4472-8e0e-25dced95e7f0\"},\"displayName\":\"Editor hexadecimal\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"ms-vscode.live-server\",\"uuid\":\"4eae7368-ec63-429d-8449-57a7df5e2117\"},\"displayName\":\"Live Preview\",\"applicationScoped\":false}]","globalState":"{\"storage\":{\"workbench.panel.markers.hidden\":\"[{"id":"workbench.panel.markers.view","isHidden":false}]\",\"workbench.panel.output.hidden\":\"[{"id":"workbench.panel.output","isHidden":false}]\",\"terminal.hidden\":\"[{"id":"terminal","isHidden":false}]\",\"workbench.explorer.views.state.hidden\":\"[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true}]\",\"workbench.scm.views.state.hidden\":\"[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]\",\"workbench.view.search.state.hidden\":\"[{"id":"workbench.view.search","isHidden":false}]\",\"workbench.activity.pinnedViewlets2\":\"[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.hexExplorer","pinned":true,"visible":false,"order":8},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100},{"id":"userDataProfiles","pinned":true,"visible":true},{"id":"workbench.view.sync","pinned":true,"visible":false},{"id":"workbench.view.editSessions","pinned":true,"visible":false}]\",\"colorThemeData\":\"{"id":"vs-dark vscode-theme-defaults-themes-dark_modern-json","label":"Moderno oscuro","settingsId":"Default Dark Modern","themeTokenColors":[{"settings":{"foreground":"#D4D4D4"},"scope":["meta.embedded","source.groovy.embedded","string meta.image.inline.markdown","variable.legacy.builtin.python"]},{"settings":{"fontStyle":"italic"},"scope":"emphasis"},{"settings":{"fontStyle":"bold"},"scope":"strong"},{"settings":{"foreground":"#000080"},"scope":"header"},{"settings":{"foreground":"#6A9955"},"scope":"comment"},{"settings":{"foreground":"#569cd6"},"scope":"constant.language"},{"settings":{"foreground":"#b5cea8"},"scope":["constant.numeric","variable.other.enummember","keyword.operator.plus.exponent","keyword.operator.minus.exponent"]},{"settings":{"foreground":"#646695"},"scope":"constant.regexp"},{"settings":{"foreground":"#569cd6"},"scope":"entity.name.tag"},{"settings":{"foreground":"#d7ba7d"},"scope":["entity.name.tag.css","entity.name.tag.less"]},{"settings":{"foreground":"#9cdcfe"},"scope":"entity.other.attribute-name"},{"settings":{"foreground":"#d7ba7d"},"scope":["entity.other.attribute-name.class.css","source.css entity.other.attribute-name.class","entity.other.attribute-name.id.css","entity.other.attribute-name.parent-selector.css","entity.other.attribute-name.parent.less","source.css entity.other.attribute-name.pseudo-class","entity.other.attribute-name.pseudo-element.css","source.css.less entity.other.attribute-name.id","entity.other.attribute-name.scss"]},{"settings":{"foreground":"#f44747"},"scope":"invalid"},{"settings":{"fontStyle":"underline"},"scope":"markup.underline"},{"settings":{"fontStyle":"bold","foreground":"#569cd6"},"scope":"markup.bold"},{"settings":{"fontStyle":"bold","foreground":"#569cd6"},"scope":"markup.heading"},{"settings":{"fontStyle":"italic"},"scope":"markup.italic"},{"settings":{"fontStyle":"strikethrough"},"scope":"markup.strikethrough"},{"settings":{"foreground":"#b5cea8"},"scope":"markup.inserted"},{"settings":{"foreground":"#ce9178"},"scope":"markup.deleted"},{"settings":{"foreground":"#569cd6"},"scope":"markup.changed"},{"settings":{"foreground":"#6A9955"},"scope":"punctuation.definition.quote.begin.markdown"},{"settings":{"foreground":"#6796e6"},"scope":"punctuation.definition.list.begin.markdown"},{"settings":{"foreground":"#ce9178"},"scope":"markup.inline.raw"},{"settings":{"foreground":"#808080"},"scope":"punctuation.definition.tag"},{"settings":{"foreground":"#569cd6"},"scope":["meta.preprocessor","entity.name.function.preprocessor"]},{"settings":{"foreground":"#ce9178"},"scope":"meta.preprocessor.string"},{"settings":{"foreground":"#b5cea8"},"scope":"meta.preprocessor.numeric"},{"settings":{"foreground":"#9cdcfe"},"scope":"meta.structure.dictionary.key.python"},{"settings":{"foreground":"#569cd6"},"scope":"meta.diff.header"},{"settings":{"foreground":"#569cd6"},"scope":"storage"},{"settings":{"foreground":"#569cd6"},"scope":"storage.type"},{"settings":{"foreground":"#569cd6"},"scope":["storage.modifier","keyword.operator.noexcept"]},{"settings":{"foreground":"#ce9178"},"scope":["string","meta.embedded.assembly"]},{"settings":{"foreground":"#ce9178"},"scope":"string.tag"},{"settings":{"foreground":"#ce9178"},"scope":"string.value"},{"settings":{"foreground":"#d16969"},"scope":"string.regexp"},{"settings":{"foreground":"#569cd6"},"scope":["punctuation.definition.template-expression.begin","punctuation.definition.template-expression.end","punctuation.section.embedded"]},{"settings":{"foreground":"#d4d4d4"},"scope":["meta.template.expression"]},{"settings":{"foreground":"#9cdcfe"},"scope":["support.type.vendored.property-name","support.type.property-name","source.css variable","source.coffee.embedded"]},{"settings":{"foreground":"#569cd6"},"scope":"keyword"},{"settings":{"foreground":"#569cd6"},"scope":"keyword.control"},{"settings":{"foreground":"#d4d4d4"},"scope":"keyword.operator"},{"settings":{"foreground":"#569cd6"},"scope":["keyword.operator.new","keyword.operator.expression","keyword.operator.cast","keyword.operator.sizeof","keyword.operator.alignof","keyword.operator.typeid","keyword.operator.alignas","keyword.operator.instanceof","keyword.operator.logical.python","keyword.operator.wordlike"]},{"settings":{"foreground":"#b5cea8"},"scope":"keyword.other.unit"},{"settings":{"foreground":"#569cd6"},"scope":["punctuation.section.embedded.begin.php","punctuation.section.embedded.end.php"]},{"settings":{"foreground":"#9cdcfe"},"scope":"support.function.git-rebase"},{"settings":{"foreground":"#b5cea8"},"scope":"constant.sha.git-rebase"},{"settings":{"foreground":"#d4d4d4"},"scope":["storage.modifier.import.java","variable.language.wildcard.java","storage.modifier.package.java"]},{"settings":{"foreground":"#569cd6"},"scope":"variable.language"},{"settings":{"foreground":"#DCDCAA"},"scope":["entity.name.function","support.function","support.constant.handlebars","source.powershell variable.other.member","entity.name.operator.custom-literal"]},{"settings":{"foreground":"#4EC9B0"},"scope":["support.class","support.type","entity.name.type","entity.name.namespace","entity.other.attribute","entity.name.scope-resolution","entity.name.class","storage.type.numeric.go","storage.type.byte.go","storage.type.boolean.go","storage.type.string.go","storage.type.uintptr.go","storage.type.error.go","storage.type.rune.go","storage.type.cs","storage.type.generic.cs","storage.type.modifier.cs","storage.type.variable.cs","storage.type.annotation.java","storage.type.generic.java","storage.type.java","storage.type.object.array.java","storage.type.primitive.array.java","storage.type.primitive.java","storage.type.token.java","storage.type.groovy","storage.type.annotation.groovy","storage.type.parameters.groovy","storage.type.generic.groovy","storage.type.object.array.groovy","storage.type.primitive.array.groovy","storage.type.primitive.groovy"]},{"settings":{"foreground":"#4EC9B0"},"scope":["meta.type.cast.expr","meta.type.new.expr","support.constant.math","support.constant.dom","support.constant.json","entity.other.inherited-class","punctuation.separator.namespace.ruby"]},{"settings":{"foreground":"#C586C0"},"scope":["keyword.control","source.cpp keyword.operator.new","keyword.operator.delete","keyword.other.using","keyword.other.directive.using","keyword.other.operator","entity.name.operator"]},{"settings":{"foreground":"#9CDCFE"},"scope":["variable","meta.definition.variable.name","support.variable","entity.name.variable","constant.other.placeholder"]},{"settings":{"foreground":"#4FC1FF"},"scope":["variable.other.constant","variable.other.enummember"]},{"settings":{"foreground":"#9CDCFE"},"scope":["meta.object-literal.key"]},{"settings":{"foreground":"#CE9178"},"scope":["support.constant.property-value","support.constant.font-name","support.constant.media-type","support.constant.media","constant.other.color.rgb-value","constant.other.rgb-value","support.constant.color"]},{"settings":{"foreground":"#CE9178"},"scope":["punctuation.definition.group.regexp","punctuation.definition.group.assertion.regexp","punctuation.definition.character-class.regexp","punctuation.character.set.begin.regexp","punctuation.character.set.end.regexp","keyword.operator.negation.regexp","support.other.parenthesis.regexp"]},{"settings":{"foreground":"#d16969"},"scope":["constant.character.character-class.regexp","constant.other.character-class.set.regexp","constant.other.character-class.regexp","constant.character.set.regexp"]},{"settings":{"foreground":"#DCDCAA"},"scope":["keyword.operator.or.regexp","keyword.control.anchor.regexp"]},{"settings":{"foreground":"#d7ba7d"},"scope":"keyword.operator.quantifier.regexp"},{"settings":{"foreground":"#569cd6"},"scope":["constant.character","constant.other.option"]},{"settings":{"foreground":"#d7ba7d"},"scope":"constant.character.escape"},{"settings":{"foreground":"#C8C8C8"},"scope":"entity.name.label"}],"semanticTokenRules":[{"_selector":"newOperator","_style":{"_foreground":"#d4d4d4","_bold":null,"_underline":null,"_italic":null,"_strikethrough":null}},{"_selector":"stringLiteral","_style":{"_foreground":"#ce9178","_bold":null,"_underline":null,"_italic":null,"_strikethrough":null}},{"_selector":"customLiteral","_style":{"_foreground":"#d4d4d4","_bold":null,"_underline":null,"_italic":null,"_strikethrough":null}},{"_selector":"numberLiteral","_style":{"_foreground":"#b5cea8","_bold":null,"_underline":null,"_italic":null,"_strikethrough":null}},{"_selector":"newOperator","_style":{"_foreground":"#c586c0","_bold":null,"_underline":null,"_italic":null,"_strikethrough":null}},{"_selector":"stringLiteral","_style":{"_foreground":"#ce9178","_bold":null,"_underline":null,"_italic":null,"_strikethrough":null}},{"_selector":"customLiteral","_style":{"_foreground":"#dcdcaa","_bold":null,"_underline":null,"_italic":null,"_strikethrough":null}},{"_selector":"numberLiteral","_style":{"_foreground":"#b5cea8","_bold":null,"_underline":null,"_italic":null,"_strikethrough":null}}],"extensionData":{"_extensionId":"vscode.theme-defaults","_extensionIsBuiltin":true,"_extensionName":"theme-defaults","_extensionPublisher":"vscode"},"themeSemanticHighlighting":true,"colorMap":{"checkbox.border":"#3c3c3c","editor.background":"#1f1f1f","editor.foreground":"#cccccc","editor.inactiveSelectionBackground":"#3a3d41","editorIndentGuide.background1":"#404040","editorIndentGuide.activeBackground1":"#707070","editor.selectionHighlightBackground":"#add6ff26","list.dropBackground":"#383b3d","activityBarBadge.background":"#0078d4","sideBarTitle.foreground":"#cccccc","input.placeholderForeground":"#989898","menu.background":"#1f1f1f","menu.foreground":"#cccccc","menu.separatorBackground":"#454545","menu.border":"#454545","menu.selectionBackground":"#0078d4","statusBarItem.remoteForeground":"#ffffff","statusBarItem.remoteBackground":"#0078d4","ports.iconRunningProcessForeground":"#369432","sideBarSectionHeader.background":"#181818","sideBarSectionHeader.border":"#2b2b2b","tab.selectedBackground":"#222222","tab.selectedForeground":"#ffffffa0","tab.lastPinnedBorder":"#cccccc33","list.activeSelectionIconForeground":"#ffffff","terminal.inactiveSelectionBackground":"#3a3d41","widget.border":"#313131","actionBar.toggledBackground":"#383a49","activityBar.activeBorder":"#0078d4","activityBar.background":"#181818","activityBar.border":"#2b2b2b","activityBar.foreground":"#d7d7d7","activityBar.inactiveForeground":"#868686","activityBarBadge.foreground":"#ffffff","badge.background":"#616161","badge.foreground":"#f8f8f8","button.background":"#0078d4","button.border":"#ffffff12","button.foreground":"#ffffff","button.hoverBackground":"#026ec1","button.secondaryBackground":"#313131","button.secondaryForeground":"#cccccc","button.secondaryHoverBackground":"#3c3c3c","chat.slashCommandBackground":"#26477866","chat.slashCommandForeground":"#85b6ff","chat.editedFileForeground":"#e2c08d","checkbox.background":"#313131","debugToolBar.background":"#181818","descriptionForeground":"#9d9d9d","dropdown.background":"#313131","dropdown.border":"#3c3c3c","dropdown.foreground":"#cccccc","dropdown.listBackground":"#1f1f1f","editor.findMatchBackground":"#9e6a03","editorGroup.border":"#ffffff17","editorGroupHeader.tabsBackground":"#181818","editorGroupHeader.tabsBorder":"#2b2b2b","editorGutter.addedBackground":"#2ea043","editorGutter.deletedBackground":"#f85149","editorGutter.modifiedBackground":"#0078d4","editorLineNumber.activeForeground":"#cccccc","editorLineNumber.foreground":"#6e7681","editorOverviewRuler.border":"#010409","editorWidget.background":"#202020","errorForeground":"#f85149","focusBorder":"#0078d4","foreground":"#cccccc","icon.foreground":"#cccccc","input.background":"#313131","input.border":"#3c3c3c","input.foreground":"#cccccc","inputOption.activeBackground":"#2489db82","inputOption.activeBorder":"#2488db","keybindingLabel.foreground":"#cccccc","notificationCenterHeader.background":"#1f1f1f","notificationCenterHeader.foreground":"#cccccc","notifications.background":"#1f1f1f","notifications.border":"#2b2b2b","notifications.foreground":"#cccccc","panel.background":"#181818","panel.border":"#2b2b2b","panelInput.border":"#2b2b2b","panelTitle.activeBorder":"#0078d4","panelTitle.activeForeground":"#cccccc","panelTitle.inactiveForeground":"#9d9d9d","peekViewEditor.background":"#1f1f1f","peekViewEditor.matchHighlightBackground":"#bb800966","peekViewResult.background":"#1f1f1f","peekViewResult.matchHighlightBackground":"#bb800966","pickerGroup.border":"#3c3c3c","progressBar.background":"#0078d4","quickInput.background":"#222222","quickInput.foreground":"#cccccc","settings.dropdownBackground":"#313131","settings.dropdownBorder":"#3c3c3c","settings.headerForeground":"#ffffff","settings.modifiedItemIndicator":"#bb800966","sideBar.background":"#181818","sideBar.border":"#2b2b2b","sideBar.foreground":"#cccccc","sideBarSectionHeader.foreground":"#cccccc","statusBar.background":"#181818","statusBar.border":"#2b2b2b","statusBarItem.hoverBackground":"#f1f1f133","statusBarItem.hoverForeground":"#ffffff","statusBar.debuggingBackground":"#0078d4","statusBar.debuggingForeground":"#ffffff","statusBar.focusBorder":"#0078d4","statusBar.foreground":"#cccccc","statusBar.noFolderBackground":"#1f1f1f","statusBarItem.focusBorder":"#0078d4","statusBarItem.prominentBackground":"#6e768166","tab.activeBackground":"#1f1f1f","tab.activeBorder":"#1f1f1f","tab.activeBorderTop":"#0078d4","tab.activeForeground":"#ffffff","tab.selectedBorderTop":"#6caddf","tab.border":"#2b2b2b","tab.hoverBackground":"#1f1f1f","tab.inactiveBackground":"#181818","tab.inactiveForeground":"#9d9d9d","tab.unfocusedActiveBorder":"#1f1f1f","tab.unfocusedActiveBorderTop":"#2b2b2b","tab.unfocusedHoverBackground":"#1f1f1f","terminal.foreground":"#cccccc","terminal.tab.activeBorder":"#0078d4","textBlockQuote.background":"#2b2b2b","textBlockQuote.border":"#616161","textCodeBlock.background":"#2b2b2b","textLink.activeForeground":"#4daafc","textLink.foreground":"#4daafc","textPreformat.foreground":"#d0d0d0","textPreformat.background":"#3c3c3c","textSeparator.foreground":"#21262d","titleBar.activeBackground":"#181818","titleBar.activeForeground":"#cccccc","titleBar.border":"#2b2b2b","titleBar.inactiveBackground":"#1f1f1f","titleBar.inactiveForeground":"#9d9d9d","welcomePage.tileBackground":"#2b2b2b","welcomePage.progress.foreground":"#0078d4"},"watch":false}\",\"workbench.view.debug.state.hidden\":\"[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]\",\"workbench.panel.pinnedPanels\":\"[{"id":"workbench.panel.markers","pinned":true,"visible":true,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":true,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":true,"order":2},{"id":"terminal","pinned":true,"visible":true,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":true,"order":5},{"id":"refactorPreview","pinned":true,"visible":false}]\",\"cpp.1.lastSessionDate\":\"Sun Sep 17 2023\",\"cpp.1.sessionCount\":\"2\",\"java.2.lastSessionDate\":\"Sun Sep 17 2023\",\"java.2.sessionCount\":\"2\",\"javascript.1.lastSessionDate\":\"Sun Sep 17 2023\",\"javascript.1.sessionCount\":\"2\",\"typescript.1.lastSessionDate\":\"Sun Sep 17 2023\",\"typescript.1.sessionCount\":\"2\",\"csharp.1.lastSessionDate\":\"Sun Sep 17 2023\",\"csharp.1.sessionCount\":\"2\",\"~remote.forwardedPortsContainer.hidden\":\"[{"id":"~remote.forwardedPorts","isHidden":false}]\",\"workbench.telemetryOptOutShown\":\"true\",\"memento/gettingStartedService\":\"{"pickColorTheme":{"done":true},"installGit":{"done":true},"shortcuts":{"done":true},"settings":{"done":true},"pickAFolderTask-Other":{"done":true},"profiles":{"done":true},"keybindingsAccessibility":{"done":true}}\",\"workbench.statusbar.hidden\":\"["status.workspaceTrust.1694897232815","status.workspaceTrust.1694964555094","status.workspaceTrust.4bffac55af083865200f1258df60c289","status.workspaceTrust.888480ecf639c96d4d7c1b4fc7124d75","status.workspaceTrust.1695019351497"]\",\"themeUpdatedNotificationShown\":\"true\",\"workbench.panel.alignment\":\"center\",\"workbench.view.extensions.state.hidden\":\"[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false}]\",\"ces/skipSurvey\":\"1.82.2\",\"commandPalette.mru.cache\":\"{"usesLRU":true,"entries":[{"key":"workbench.action.configureLocale","value":4},{"key":"workbench.action.openRawDefaultSettings","value":5},{"key":"workbench.action.openGlobalKeybindingsFile","value":6},{"key":"workbench.action.openDefaultKeybindingsFile","value":7},{"key":"workbench.action.tasks.configureDefaultBuildTask","value":8}]}\",\"commandPalette.mru.counter\":\"9\",\"nps/lastSessionDate\":\"Sun Sep 17 2023\",\"nps/sessionCount\":\"2\",\"userDataProfiles.state.hidden\":\"[{"id":"workbench.views.profiles.import.preview","isHidden":false},{"id":"workbench.views.profiles.export.preview","isHidden":false}]\",\"workbench.panel.repl.hidden\":\"[{"id":"workbench.panel.repl.view","isHidden":false}]\",\"workbench.activityBar.location\":\"default\",\"workbench.panel.chat.hidden\":\"[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]\",\"workbench.auxiliarybar.pinnedPanels\":\"[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1}]\"}}"}

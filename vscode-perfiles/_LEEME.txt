@@ -1,0 +1,25 @@
+Los perfiles los hago en la máquina virtual de Win11, los exporto y copio aquí y luego actualizo el gist en GitHub.
+
+Para poder comparar unos con otros, hago una versión que llamo LINEAS separando las cosas por líneas
+
+\\n => salto de línea (cambia alguno que no debería como en space-after-... que me toca restaurar otra vez a mano)
+\\\" => "
+luego tengo que cambiar \" por " a mano en varios sitios y añadir saltos de línea mano
+
+Haciendo winmerge con la versión anterior se ve qué hay que cambiar en LINEAS 
+
+El 05/10/2026 intento encontrar un método para utilizar siempre. Este parece que vale:
+
+Hacer coincidir mayúsculas y minúsculas 
+
+\\\"\\\\n\\\"	==>	YYY	(normal)
+\\n		==>	XXX	(normal)
+YYY		==>	"\n"    (normal)
+\\\"		==>	"	(normal)
+XXX		==>	\n	(extendido)
+
+
+
+
+
+

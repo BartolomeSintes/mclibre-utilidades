@@ -1,0 +1,443 @@
+{
+  // Configuraciones de VSCode recomendadas para el curso
+  // Iniciación a la programación de páginas web en PHP
+  // https://www.mclibre.org/consultar/php/
+  //
+  // Versión 2026-09-24
+  //
+  //
+  // ATENCIÓN:
+  // * Se debe descomentar la línea 416 de este fichero settings.json
+  //   que corresponde a la configuración php.validate.executablePath
+  //
+  //
+  // Configuraciones de VSCode recomendadas para el curso Páginas web HTML y hojas de estilo CSS de www.mclibre.org
+  //
+  // Editor: Insert Spaces
+  // Insertar espacios al presionar "TAB"
+  "editor.insertSpaces": true,
+  //
+  // Editor: Linked Editing
+  // Controla si el editor tiene habilitada la edición vinculada. Dependiendo del lenguaje, los símbolos relacionados (por ejemplo, las etiquetas HTML) se actualizan durante la edición.
+  "editor.linkedEditing": true,
+  //
+  // Editor: Minimap enabled
+  // Controla si se muestra el minimapa.
+  "editor.minimap.enabled": false,
+  //
+  // Editor: Render Whitespace
+  // Controla la forma en que el editor debe representar los caracteres de espacio en blanco.
+  "editor.renderWhitespace": "all",
+  //
+  // Editor: Word Wrap
+  // Controla cómo deben ajustarse las líneas.
+  "editor.wordWrap": "on",
+  //
+  // Files: eol
+  // Carácter predeterminado de final de línea.
+  "files.eol": "\n",
+  //
+  // Files: Trim Trailing Whitespace
+  // Si se habilita, se recortará el espacio final cuando se guarde un archivo.
+  "files.trimTrailingWhitespace": true,
+  //
+  // Git: Autofetch
+  // Si se habilita, se comprobarán automáticamente los commits del repositorio remoto.
+  "git.autofetch": true,
+  //
+  // HTML: Auto Closing Tags
+  // Habilita o deshabilita el cierre automático de las etiquetas HTML.
+  "html.autoClosingTags": false,
+  // HTML: Auto Create Quotes
+  // habilita o deshabilita la creación automática de comillas para la asignación de atributos HTML.
+  "html.autoCreateQuotes": false,
+  //
+  // HTML: Format: End With Newline
+  // Finalizar con una nueva línea.
+  "html.format.endWithNewline": true,
+  //
+  // HTML: Format Extra Liners
+  // Lista de etiquetas, separadas por comas, que deben tener una nueva línea adicional delante. null equivale a "head, body, /html".
+  "html.format.extraLiners": "body",
+  //
+  // HTML: Format Wrap Line Length
+  // Cantidad máxima de caracteres por línea (0 = deshabilitar).
+  "html.format.wrapLineLength": 0,
+  //
+  // HTML
+  // Establece los valores de configuración que se reemplazarán para el lenguaje HTML
+  "[html]": {
+    "editor.tabSize": 2,
+  },
+  //
+  // CSS
+  // Establece los valores de configuración que se reemplazarán para el lenguaje CSS
+  "[css]": {
+    "editor.tabSize": 4,
+  },
+  //
+  // Window: Command Center
+  // Muestra el iniciador de comandos junto con el título de la ventana. Esta configuración solo tiene efecto cuando Window: Custom Title Bar Visibility no se establece en never.
+  "window.commandCenter": false,
+  //
+  // Window: Title
+  // Controla el título de la ventana en función del contexto actual, como el área de trabajo abierta o el editor activo. Las variables se sustituyen en función del contexto:
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+  //
+  // Workbench: colorTheme
+  // Especifica el tema de color que se usa en el área de trabajo cuando Window: Auto Detect Color Scheme no está habilitado.
+  "workbench.colorTheme": "Dark Modern",
+  //
+  // Workbench > Editor: useModal
+  // Controla si los editores se abren en una superposición modal.
+  "workbench.editor.useModal": "off",
+  //
+  // Workbench > Layout Control: Enabled
+  // Controla si el control de diseño se muestra en la barra de título personalizada. Esta configuración solo tiene efecto cuando Window: Custom Title Bar Visibility no se establece en never.
+  "workbench.layoutControl.enabled": false,
+  //
+  //
+  // Configuraciones de extensiones de VSCode recomendadas para el curso Páginas web HTML y hojas de estilo CSS de www.mclibre.org
+  //
+  // Extensión Close HTML/XML tag
+  //
+  // CloseTag > IgnoreTags
+  // Específica las etiquetas que serán ignoradas y no serán cerradas.
+  "closeTag.ignoreTags": "html",
+  //
+  //
+  // Extensión HTMLHint
+  //
+  // HTMLHint > Options
+  // Opciones de configuración de HTMLHint
+  "htmlhint.options": {
+    // Doctype and head
+    "doctype-first": true, //                   La primera línea es el doctype
+    "doctype-html5": true, //                   El doctype es html
+    "html-lang-require": true, //               La etiqueta html incluye el atributo lang
+    "meta-charset-require": true, //            La etiqueta head incluye la etiqueta meta con atributo charset
+    "meta-viewport-require": true, //           La etiqueta head incluye la etiqueta meta con atributo viewport
+    "title-require": true, //                   La etiqueta head incluye la etiqueta title
+    // Attributes
+    "attr-lowercase": //                        Los atributos están en minúsculas excepto los de la lista (que son atributos SVG)
+    [
+      "allowReorder",
+      "attributeName",
+      "attributeType",
+      "autoReverse",
+      "baseFrequency",
+      "baseProfile",
+      "calcMode",
+      "clipPathUnits",
+      "contentScriptType",
+      "contentStyleType",
+      "diffuseConstant",
+      "edgeMode",
+      "externalResourcesRequired",
+      "filterRes",
+      "filterUnits",
+      "glyphRef",
+      "gradientTransform",
+      "gradientUnits",
+      "kernelMatrix",
+      "kernelUnitLength",
+      "keyPoints",
+      "keySplines",
+      "keyTimes",
+      "lengthAdjust",
+      "limitingConeAngle",
+      "markerHeight",
+      "markerUnits",
+      "markerWidth",
+      "maskContentUnits",
+      "maskUnits",
+      "numOctaves",
+      "pathLength",
+      "patternContentUnits",
+      "patternTransform",
+      "patternUnits",
+      "pointsAtX",
+      "pointsAtY",
+      "pointsAtZ",
+      "preserveAlpha",
+      "preserveAspectRatio",
+      "primitiveUnits",
+      "refX",
+      "refY",
+      "repeatCount",
+      "repeatDur",
+      "requiredExtensions",
+      "requiredFeatures",
+      "specularConstant",
+      "specularExponent",
+      "spreadMethod",
+      "startOffset",
+      "stdDeviation",
+      "stitchTiles",
+      "surfaceScale",
+      "systemLanguage",
+      "tableValues",
+      "targetX",
+      "targetY",
+      "textLength",
+      "viewBox",
+      "viewTarget",
+      "xChannelSelector",
+      "yChannelSelector",
+      "zoomAndPan"
+    ],
+    "attr-no-duplication": true, //             En una etiqueta no hay atributos repetidos
+    "attr-no-unnecessary-whitespace": true, //  No hay espacios entre los atributos y sus valores
+    "attr-value-double-quotes": true, //        Los valores de los atributos se escriben entre comillas dobles
+    "attr-value-no-duplication": true, //       Los valores de los atributos no se repiten en un mismo atributo
+    "attr-whitespace": true, //                 Los valores de los atributos no contienen espacios ni al principio ni al final
+    "alt-require": true, //                     Las etiquetas img incluyen el atributo alt
+    // Tags
+    "button-type-require": true, //             La etiqueta button incluye el atributo type con alguno de los valores "button", "submit" o "reset"
+    "empty-tag-not-self-closed": true, //       Las etiquetas vacías no incluyen el cierre /
+    "form-method-require": true, //             La etiqueta form incluye el atributo method con alguno de los valores "get", "post" o "dialog"
+    "src-not-empty": true, //                   Los atributos src (o href de link) no están vacíos
+    "tag-no-obsolete": true, //                 No hay etiquetas obsoletas.
+    "tag-pair": true, //                        Las etiquetas no vacías incluyen la etiqueta de cierre
+    "tagname-lowercase": //                     Las etiquetas están en minúsculas excepto las de la lista (que son etiquetas SVG)
+    [
+      "linearGradient"
+    ],
+    "tagname-specialchars": true, //            Los nombres de etiquetas solo contienen letras, números o los caracteres "-", ":" o "_"
+    // id
+    "id-class-ad-disabled": true, //            Los atributos id o class no incluyen la palabra "ad" (que puede ser bloqueada por los bloqueadores de anuncios)
+    "id-unique": true, //                       Los valores de los atributos id no se repiten
+    // Formatting
+    "spec-char-escape": true, //                Los caracteres especiales > < y & se escriben como entidades de carácter
+  },
+  //
+  //
+  // Extensión CSScomb
+  //
+  // CSScomb > Preset
+  // Opciones de configuración de CSScomb
+  "csscomb.preset": {
+    "always-semicolon": true, //              Escribe punto y coma (;) tras las propiedades
+    "block-indent": "    ", //                Utiliza sangrado de cuatro espacios
+    "color-case": "lower", //                 Escribe los códigos de color en minúsculas
+    "color-shorthand": false, //              Escribe los códigos de color hexadecimales con seis caracteres
+    "element-case": "lower", //               Escribe los selectores en minúsculas
+    "eof-newline": true, //                   Escribe una línea en blanco  al final del archivo
+    "leading-zero": true, //                  Escribe un cero antes de un punto decimal
+    "lines-between-rulesets": 1, //           Escribe una línea entre sentencias consecutivas
+    "quotes": "double", //                    Escribe comillas dobles
+    "remove-empty-rulesets": false, //        No elimina las sentencias sin propiedades
+    "sort-order-fallback": "abc", //          Las propiedades no ordenadas se ordenan alfabéticamente
+    "sort-order": //                          Orden de las propiedades
+    [
+      // Reseteo
+      "all",
+      // Posicionamiento clásico
+      "position",
+      "z-index",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      // Visibilidad y flexbox
+      "display",
+      "visibility",
+      "float",
+      "clear",
+      "overflow",
+      "overflow-x",
+      "overflow-y",
+      "clip",
+      "zoom",
+      "align-content",
+      "align-items",
+      "align-self",
+      "flex",
+      "flex-flow",
+      "flex-basis",
+      "flex-direction",
+      "flex-grow",
+      "flex-shrink",
+      "flex-wrap",
+      "justify-content",
+      "order",
+      // Modelo de caja: tamaño
+      "box-sizing",
+      "width",
+      "min-width",
+      "max-width",
+      "height",
+      "min-height",
+      "max-height",
+      "margin",
+      "margin-top",
+      "margin-right",
+      "margin-bottom",
+      "margin-left",
+      "padding",
+      "padding-top",
+      "padding-right",
+      "padding-bottom",
+      "padding-left",
+      // Modelo de caja: borde, outline, fondos
+      "opacity",
+      "border",
+      "border-color",
+      "border-width",
+      "border-style",
+      "border-top",
+      "border-top-color",
+      "border-top-width",
+      "border-top-style",
+      "border-right",
+      "border-right-color",
+      "border-right-width",
+      "border-right-style",
+      "border-bottom",
+      "border-bottom-color",
+      "border-bottom-width",
+      "border-bottom-style",
+      "border-left",
+      "border-left-color",
+      "border-left-width",
+      "border-left-style",
+      "border-radius",
+      "border-top-left-radius",
+      "border-top-right-radius",
+      "border-bottom-right-radius",
+      "border-bottom-left-radius",
+      "border-image",
+      "border-image-source",
+      "border-image-slice",
+      "border-image-width",
+      "border-image-outset",
+      "border-image-repeat",
+      "outline",
+      "outline-color",
+      "outline-width",
+      "outline-style",
+      "outline-offset",
+      "background",
+      "background-color",
+      "background-image",
+      "background-repeat",
+      "background-attachment",
+      "background-position",
+      "background-position-x",
+      "background-position-y",
+      "background-clip",
+      "background-origin",
+      "background-size",
+      "box-decoration-break",
+      "box-shadow",
+      "text-shadow",
+      // Texto
+      "color",
+      "cursor",
+      "font",
+      "font-family",
+      "src",
+      "font-size",
+      "font-style",
+      "font-variant",
+      "font-weight",
+      "letter-spacing",
+      "line-height",
+      "quotes",
+      "resize",
+      "text-align",
+      "text-align-last",
+      "text-decoration",
+      "text-indent",
+      "text-justify",
+      "text-outline",
+      "text-transform",
+      "vertical-align",
+      "white-space",
+      "word-spacing",
+      // Tablas y listas
+      "table-layout",
+      "empty-cells",
+      "caption-side",
+      "border-spacing",
+      "border-collapse",
+      "list-style",
+      "list-style-position",
+      "list-style-type",
+      "list-style-image",
+      "content",
+      "counter-increment",
+      "counter-reset",
+      // Animaciones y transformaciones
+      "animation",
+      "animation-delay",
+      "animation-direction",
+      "animation-duration",
+      "animation-iteration-count",
+      "animation-name",
+      "animation-play-state",
+      "animation-timing-function",
+      "transform",
+      "transform-origin",
+      "transition",
+      "transition-delay",
+      "transition-duration",
+      "transition-property",
+      "transition-timing-function",
+    ],
+    "space-after-colon": 1, //                Escribe un espacio en blanco después de los dos puntos (:)
+    "space-after-combinator": " ", //         Escribe un espacio en blanco después de un combinador de selectores
+    "space-after-opening-brace": "\n", //     Escribe un salto de línea después de la llave de apertura ({)
+    "space-after-selector-delimiter": " ", // Escribe un espacio en blanco después de las comas (,) en los selectores
+    "space-before-closing-brace": "\n", //    Escribe un salto de línea después de la llave de cierre (})
+    "space-before-colon": 0, //               No escribe espacios en blanco antes de una coma (,)
+    "space-before-combinator": " ", //        Escribe un espacio en blanco antes de un combinador de selectores
+    "space-before-opening-brace": " ", //     Escribe un espacio en blanco entre el selector y la llave de apertura ({)
+    "space-before-selector-delimiter": "", // No escribe espacios en blanco después de las comas (,) en los selectores
+    "space-between-declarations": "\n", //    Escribe un salto de línea entre propiedades
+    "strip-spaces": true, //                  No escribe espacios en blanco al final de las líneas
+    "tab-size": 4, //                         Escribe cuatro espacios en blanco en vez de un tabulador
+    "unitless-zero": true, //                 No escribe unidades en los valores nulos (0)
+    "vendor-prefix-align": true, //           Alinea las propiedades específicas de cada navegador para facilitar la lectura
+  },
+  //
+  //
+  // Configuraciones de VSCode recomendadas para el curso Programación web en PHP de www.mclibre.org
+  //
+  // PHP
+  // Establece los valores de configuración que se reemplazarán para el lenguaje PHP
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+  },
+  //
+  // PHP: Validate: Executable path
+  // Ubicación del intérprete de PHP.
+  // "php.validate.executablePath": "C:/xampp/php/php.exe",
+  //
+  // PHP: Validate: Run
+  // Indica la validación se ejecuta al guardar o al escribir.
+  "php.validate.run": "onType",
+  //
+  //
+  // Configuraciones de extensiones de VSCode recomendadas para el curso Programación web en PHP de www.mclibre.org
+  //
+  // Extensión PHP CS Fixer
+  //
+  // Ubicación del ejecutable de php-cs-fixer
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.executablePathWindows": "${extensionPath}/php-cs-fixer.phar",
+  // Configuraciones de php-cs-fixer
+  "php-cs-fixer.onsave": false,
+  "php-cs-fixer.config": "php-cs-fixer-config.php",
+  "php-cs-fixer.allowRisky": false,
+  "php-cs-fixer.pathMode": "override",
+  "php-cs-fixer.exclude": [],
+  "php-cs-fixer.autoFixByBracket": true,
+  "php-cs-fixer.autoFixBySemicolon": false,
+  "php-cs-fixer.formatHtml": false,
+  "php-cs-fixer.documentFormattingProvider": true,
+  "php-cs-fixer.lastDownload": 1791406624447,
+  //
+  //
+}
